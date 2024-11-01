@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> with SocketIoMixin {
       "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
 
   io.Socket? socket;
-  bool isConnected = false;
+  bool isConnected = false, inLobby = false;
 
   final controller = WPChessboardController();
   chess_lib.Chess chess = chess_lib.Chess();
@@ -43,7 +43,8 @@ class _HomePageState extends State<HomePage> with SocketIoMixin {
     socket?.on('message', (line) async {
       switch (line) {
         case 'GAME_MODE':
-          game = ChessGame(socket, xPrint, xInput);
+          controller
+              .setFen("3bK3/4B1P1/3p2N1/1rp3P1/2p2p2/p3n3/P5k1/6q1 w - - 0 1");
           break;
 
         case 'YOUR_MOVE':
@@ -160,9 +161,7 @@ class _HomePageState extends State<HomePage> with SocketIoMixin {
     controller.setFen(chess.fen);
   }
 
-  void connect() {
-    controller.setFen("3bK3/4B1P1/3p2N1/1rp3P1/2p2p2/p3n3/P5k1/6q1 w - - 0 1");
-  }
+  void connect() {}
 
   void disconnect() {
     controller.setArrows([
