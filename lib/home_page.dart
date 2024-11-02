@@ -1,11 +1,9 @@
 import 'package:chess/chess.dart' as chess_lib;
+import 'package:chess_client/game.dart';
 import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:socket_io_client/socket_io_client.dart' as io;
 import 'package:wp_chessboard/wp_chessboard.dart';
-
-import 'game.dart';
-import 'socket_io_mixin.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -14,12 +12,10 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> with SocketIoMixin {
-  static const defaultFen =
-      "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
-
+class _HomePageState extends State<HomePage> {
   io.Socket? socket;
   bool isConnected = false, inLobby = false;
+  ChessGame? game;
 
   final controller = WPChessboardController();
   chess_lib.Chess chess = chess_lib.Chess();
@@ -43,8 +39,8 @@ class _HomePageState extends State<HomePage> with SocketIoMixin {
     socket?.on('message', (line) async {
       switch (line) {
         case 'GAME_MODE':
-          controller
-              .setFen("3bK3/4B1P1/3p2N1/1rp3P1/2p2p2/p3n3/P5k1/6q1 w - - 0 1");
+          game = ChessGame(socket!, xPrint, xInput);
+          controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
           break;
 
         case 'YOUR_MOVE':
@@ -254,6 +250,44 @@ class _HomePageState extends State<HomePage> with SocketIoMixin {
                 child: const Text("Match"),
               )
             ],
+          ),
+        ],
+      ),
+    );
+  }
+
+  xPrint(String message) => setState(() => debugPrint(message));
+
+  Future<String?> xInput(String message, {withInput = false}) {
+    final controller = withInput ? TextEditingController() : null;
+
+    return showDialog<String>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Input'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(message),
+            if (withInput)
+              TextField(
+                controller: controller,
+                decoration: const InputDecoration(
+                  border: OutlineInputBorder(),
+                ),
+              ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            child: const Text('Cancel'),
+            onPressed: () => Navigator.of(context).pop('Cancel'),
+          ),
+          TextButton(
+            child: const Text('OK'),
+            onPressed: () =>
+                Navigator.of(context).pop(withInput ? controller?.text : 'OK'),
           ),
         ],
       ),
