@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
       controller.setFen('');
     });
 
-    socket?.on('GAME_MODE', (data) {
+    socket?.on('game_mode', (data) {
       final side = data['side'];
       debugPrint('Game mode: $side');
 
@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
       controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
     });
 
-    socket?.on('YOUR_MOVE', (data) {
+    socket?.on('go', (data) {
       final lastMove = data['last_move'];
       debugPrint('Your move, last move: $lastMove');
 
@@ -75,11 +75,11 @@ class _HomePageState extends State<HomePage> {
       }
     });
 
-    socket?.on('GAME_OVER', (data) {
+    socket?.on('game_over', (data) {
       debugPrint('Game over: ${data['reason']}');
     });
 
-    socket?.on('WON', (data) {
+    socket?.on('win', (data) {
       debugPrint('You won: ${data['reason']}');
 
       showDialog(
@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage> {
       );
     });
 
-    socket?.on('LOST', (data) {
+    socket?.on('lost', (data) {
       debugPrint('You lost: ${data['reason']}');
 
       showDialog(
@@ -103,7 +103,7 @@ class _HomePageState extends State<HomePage> {
       );
     });
 
-    socket?.on('DRAW', (data) {
+    socket?.on('draw', (data) {
       debugPrint('Draw: ${data['reason']}');
 
       showDialog(
@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> {
       );
     });
 
-    socket?.on('WAITING_MATCH', (data) async {
+    socket?.on('waiting_match', (data) async {
       debugPrint('Waiting for match...');
 
       setState(() => gameState = GameState.waitingMatch);
