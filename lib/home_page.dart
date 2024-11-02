@@ -1,9 +1,10 @@
 import 'package:chess/chess.dart' as chess_lib;
-import 'package:chess_client/game.dart';
 import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:flutter/material.dart';
-import 'package:socket_io_client/socket_io_client.dart' as io;
+import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
+
+enum GameState { idle, connecting, waitingMatch, waitingMove, waitingOpponent }
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -13,58 +14,114 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  io.Socket? socket;
-  bool isConnected = false, inLobby = false;
-  ChessGame? game;
+  socket_io.Socket? socket;
+  GameState gameState = GameState.idle;
 
   final controller = WPChessboardController();
-  chess_lib.Chess chess = chess_lib.Chess();
+  BoardOrientation orientation = BoardOrientation.white;
+
+  late chess_lib.Chess chess;
   List<List<int>>? lastMove;
 
   void setupSocketIO() {
-    socket = io.io('http://localhost:5000', {
+    socket = socket_io.io('http://localhost:5000', <String, dynamic>{
       'transports': ['websocket']
     });
 
     socket?.onConnect((_) {
-      isConnected = true;
       debugPrint('Successful connection!');
+      setState(() => gameState = GameState.connecting);
     });
 
     socket?.onDisconnect((_) {
-      isConnected = false;
       debugPrint('Connection lost.');
+
+      setState(() {
+        gameState = GameState.idle;
+        lastMove = null;
+      });
+
+      controller.setFen('');
     });
 
-    socket?.on('message', (line) async {
-      switch (line) {
-        case 'GAME_MODE':
-          game = ChessGame(socket!, xPrint, xInput);
-          controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
-          break;
+    socket?.on('GAME_MODE', (data) {
+      final side = data['side'];
+      debugPrint('Game mode: $side');
 
-        case 'YOUR_MOVE':
-        case 'TRY_AGAIN':
-          game?.makeMove();
-          break;
+      chess = chess_lib.Chess();
 
-        case 'GAME_OVER':
-          game = null;
-          break;
+      setState(() {
+        gameState = GameState.waitingOpponent;
+        lastMove = null;
 
-        case 'WAITING_MATCH':
-          final response =
-              await xInput('Do you want join the waiting queue (y/n)? \n');
-          if (response == 'OK') {
-            socket?.send(['MATCH']);
-            xPrint('You: Sent[MATCH]!');
-          }
-          break;
+        orientation =
+            side == 'white' ? BoardOrientation.white : BoardOrientation.black;
+      });
 
-        default:
-          xPrint(line);
+      controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
+    });
+
+    socket?.on('YOUR_MOVE', (data) {
+      final lastMove = data['last_move'];
+      debugPrint('Your move, last move: $lastMove');
+
+      if (lastMove != null) {
+        chess.move(
+            {'from': lastMove.substring(0, 2), 'to': lastMove.substring(2, 4)});
+
+        controller.setFen(chess.fen);
+
+        setState(() => gameState = GameState.waitingMove);
       }
     });
+
+    socket?.on('GAME_OVER', (data) {
+      debugPrint('Game over: ${data['reason']}');
+    });
+
+    socket?.on('WON', (data) {
+      debugPrint('You won: ${data['reason']}');
+
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('You won!'),
+          content: Text(data['reason']),
+        ),
+      );
+    });
+
+    socket?.on('LOST', (data) {
+      debugPrint('You lost: ${data['reason']}');
+
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('You lost!'),
+          content: Text(data['reason']),
+        ),
+      );
+    });
+
+    socket?.on('DRAW', (data) {
+      debugPrint('Draw: ${data['reason']}');
+
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('Draw!'),
+          content: Text(data['reason']),
+        ),
+      );
+    });
+
+    socket?.on('WAITING_MATCH', (data) async {
+      debugPrint('Waiting for match...');
+
+      setState(() => gameState = GameState.waitingMatch);
+    });
+
+    socket?.on('message', (line) => debugPrint(line));
   }
 
   // not working on drop
@@ -106,12 +163,14 @@ class _HomePageState extends State<HomePage> {
       controller.setHints(HintMap());
       return;
     }
+
     showHintFields(square, piece);
   }
 
   void showHintFields(SquareInfo square, String piece) {
     final moves = chess.generate_moves({'square': square.toString()});
     final hintMap = HintMap(key: square.index.toString());
+
     for (var move in moves) {
       String to = move.toAlgebraic;
       int rank = to.codeUnitAt(1) - "1".codeUnitAt(0) + 1;
@@ -123,6 +182,7 @@ class _HomePageState extends State<HomePage> {
         (size) => MoveHint(size: size, onPressed: () => doMove(move)),
       );
     }
+
     controller.setHints(hintMap);
   }
 
@@ -139,6 +199,12 @@ class _HomePageState extends State<HomePage> {
     ];
 
     controller.setFen(chess.fen, animation: false);
+
+    socket?.emit(
+      'move',
+      {'move': '${event.from.toString()}${event.to.toString()}'},
+    );
+    setState(() => gameState = GameState.waitingOpponent);
   }
 
   void doMove(chess_lib.Move move) {
@@ -155,38 +221,54 @@ class _HomePageState extends State<HomePage> {
     ];
 
     controller.setFen(chess.fen);
+
+    socket?.emit('move', {'move': '${move.fromAlgebraic}${move.toAlgebraic}'});
+    setState(() => gameState = GameState.waitingOpponent);
   }
 
-  void connect() {}
+  void connect() {
+    setupSocketIO();
+  }
 
   void disconnect() {
-    controller.setArrows([
-      Arrow(
-        from: SquareLocation.fromString("b1"),
-        to: SquareLocation.fromString("c3"),
-      ),
-      Arrow(
-        from: SquareLocation.fromString("g1"),
-        to: SquareLocation.fromString("f3"),
-        color: Colors.red,
-      )
-    ]);
+    socket?.dispose();
+    gameState = GameState.idle;
   }
 
   void forfeit() {
-    controller.setArrows([]);
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Confirm surrender?'),
+        content: const Text('Are you sure you want to surrender?'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('No'),
+          ),
+          TextButton(
+            onPressed: () {
+              socket?.emit('forfeit', {});
+              Navigator.pop(context);
+            },
+            child: const Text('Yes'),
+          ),
+        ],
+      ),
+    );
   }
 
-  BoardOrientation orientation = BoardOrientation.white;
-
   void match() {
+    chess = chess_lib.Chess();
+
     setState(() {
-      if (orientation == BoardOrientation.white) {
-        orientation = BoardOrientation.black;
-      } else {
-        orientation = BoardOrientation.white;
-      }
+      gameState = GameState.waitingOpponent;
+      lastMove = null;
     });
+
+    controller.setFen('');
+
+    socket?.emit('match', {});
   }
 
   @override
@@ -233,61 +315,25 @@ class _HomePageState extends State<HomePage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
+              if (gameState == GameState.idle)
+                TextButton(
+                  onPressed: connect,
+                  child: const Text("Connect"),
+                ),
+              if (gameState != GameState.idle)
+                TextButton(
+                  onPressed: disconnect,
+                  child: const Text("Disconnect"),
+                ),
               TextButton(
-                onPressed: connect,
-                child: const Text("Connect"),
-              ),
-              TextButton(
-                onPressed: disconnect,
-                child: const Text("Disconnect"),
-              ),
-              TextButton(
-                onPressed: forfeit,
+                onPressed: gameState == GameState.waitingMove ? forfeit : null,
                 child: const Text("Forfeit"),
               ),
               TextButton(
-                onPressed: match,
+                onPressed: gameState == GameState.waitingMatch ? match : null,
                 child: const Text("Match"),
               )
             ],
-          ),
-        ],
-      ),
-    );
-  }
-
-  xPrint(String message) => setState(() => debugPrint(message));
-
-  Future<String?> xInput(String message, {withInput = false}) {
-    final controller = withInput ? TextEditingController() : null;
-
-    return showDialog<String>(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Input'),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(message),
-            if (withInput)
-              TextField(
-                controller: controller,
-                decoration: const InputDecoration(
-                  border: OutlineInputBorder(),
-                ),
-              ),
-          ],
-        ),
-        actions: [
-          TextButton(
-            child: const Text('Cancel'),
-            onPressed: () => Navigator.of(context).pop('Cancel'),
-          ),
-          TextButton(
-            child: const Text('OK'),
-            onPressed: () =>
-                Navigator.of(context).pop(withInput ? controller?.text : 'OK'),
           ),
         ],
       ),
