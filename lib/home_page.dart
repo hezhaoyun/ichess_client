@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:flutter/material.dart';
@@ -22,6 +24,17 @@ class _HomePageState extends State<HomePage> {
 
   late chess_lib.Chess chess;
   List<List<int>>? lastMove;
+
+  int gameTime = 0;
+  int opponentGameTime = 0;
+
+  Timer? _timer;
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    super.dispose();
+  }
 
   void setupSocketIO() {
     socket = socket_io.io('http://localhost:5000', <String, dynamic>{
@@ -59,6 +72,11 @@ class _HomePageState extends State<HomePage> {
       });
 
       controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
+
+      _timer?.cancel();
+      _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+        socket?.emit('timer_check', {});
+      });
     });
 
     socket?.on('go', (data) {
@@ -76,6 +94,7 @@ class _HomePageState extends State<HomePage> {
     });
 
     socket?.on('game_over', (data) {
+      _timer?.cancel();
       debugPrint('Game over: ${data['reason']}');
     });
 
@@ -119,6 +138,15 @@ class _HomePageState extends State<HomePage> {
       debugPrint('Waiting for match...');
 
       setState(() => gameState = GameState.waitingMatch);
+    });
+
+    socket?.on('timer', (data) {
+      debugPrint('Timer: $data');
+
+      setState(() {
+        gameTime = data['mine'];
+        opponentGameTime = data['opponent'];
+      });
     });
 
     socket?.on('message', (line) => debugPrint(line));
@@ -232,6 +260,7 @@ class _HomePageState extends State<HomePage> {
 
   void disconnect() {
     socket?.dispose();
+    _timer?.cancel();
     gameState = GameState.idle;
   }
 
@@ -280,6 +309,8 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          Text('Opponent time: $opponentGameTime'),
+          const SizedBox(height: 10),
           WPChessboard(
             size: size,
             orientation: orientation,
@@ -311,6 +342,8 @@ class _HomePageState extends State<HomePage> {
               p: (size) => BlackPawn(size: size),
             ),
           ),
+          const SizedBox(height: 10),
+          Text('My time: $gameTime'),
           const SizedBox(height: 24),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
