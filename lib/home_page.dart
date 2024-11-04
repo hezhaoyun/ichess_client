@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-enum GameState { idle, connecting, waitingMatch, waitingMove, waitingOpponent }
+enum GameState { idle, connected, waitingMatch, waitingMove, waitingOpponent }
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
 
     socket?.onConnect((_) {
       debugPrint('Successful connection!');
-      setState(() => gameState = GameState.connecting);
+      setState(() => gameState = GameState.connected);
     });
 
     socket?.onDisconnect((_) {
@@ -93,9 +93,9 @@ class _HomePageState extends State<HomePage> {
         );
 
         controller.setFen(chess.fen);
-
-        setState(() => gameState = GameState.waitingMove);
       }
+
+      setState(() => gameState = GameState.waitingMove);
     });
 
     socket?.on('game_over', (data) {
@@ -141,7 +141,6 @@ class _HomePageState extends State<HomePage> {
 
     socket?.on('waiting_match', (data) async {
       debugPrint('Waiting for match...');
-
       setState(() => gameState = GameState.waitingMatch);
     });
 
@@ -223,83 +222,71 @@ class _HomePageState extends State<HomePage> {
     controller.setHints(HintMap());
   }
 
-  void onPieceDrop(PieceDropEvent event) {
-    // 检查是否需要升变
-    bool isPromotion = chess.moves({'verbose': true}).any((move) =>
-        move['from'] == event.from.toString() &&
-        move['to'] == event.to.toString() &&
-        move['flags'].contains('p'));
+  void onPieceDrop(PieceDropEvent event) =>
+      doMoveAction({'from': event.from.toString(), 'to': event.to.toString()});
+
+  void doMove(chess_lib.Move move) =>
+      doMoveAction({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
+
+  void doMoveAction(Map<String, String> move) {
+    bool isPromotion = chess.moves({'verbose': true}).any((m) =>
+        m['from'] == move['from'] &&
+        m['to'] == move['to'] &&
+        m['flags'].contains('p'));
 
     if (isPromotion) {
-      showPromotionDialog(event);
+      showPromotionDialog(
+        (promotion) => makeMove(
+          {'from': move['from']!, 'to': move['to']!, 'promotion': promotion},
+        ),
+      );
     } else {
-      makeMove({'from': event.from.toString(), 'to': event.to.toString()});
+      makeMove(move);
     }
   }
 
-  void showPromotionDialog(PieceDropEvent event) => showDialog(
-        context: context,
-        builder: (context) => AlertDialog(
-          title: const Text('Promotion'),
-          content: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              InkWell(
-                onTap: () {
+  Future<void> showPromotionDialog(Function(String) onPromotionSelected) {
+    Widget promotionOption(String type, VoidCallback onTap) {
+      final isWhite = orientation == BoardOrientation.white;
+      Widget piece;
+      switch (type) {
+        case 'q':
+          piece = isWhite ? WhiteQueen() : BlackQueen();
+          break;
+        case 'r':
+          piece = isWhite ? WhiteRook() : BlackRook();
+          break;
+        case 'b':
+          piece = isWhite ? WhiteBishop() : BlackBishop();
+          break;
+        case 'n':
+          piece = isWhite ? WhiteKnight() : BlackKnight();
+          break;
+        default:
+          throw ArgumentError('Invalid promotion type');
+      }
+
+      return InkWell(onTap: onTap, child: piece);
+    }
+
+    return showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Promotion'),
+        content: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: ['q', 'r', 'b', 'n']
+              .map(
+                (type) => promotionOption(type, () {
                   Navigator.pop(context);
-                  makeMove({
-                    'from': event.from.toString(),
-                    'to': event.to.toString(),
-                    'promotion': 'q'
-                  });
-                },
-                child: orientation == BoardOrientation.white
-                    ? WhiteQueen(size: 50)
-                    : BlackQueen(size: 50),
-              ),
-              InkWell(
-                onTap: () {
-                  Navigator.pop(context);
-                  makeMove({
-                    'from': event.from.toString(),
-                    'to': event.to.toString(),
-                    'promotion': 'r'
-                  });
-                },
-                child: orientation == BoardOrientation.white
-                    ? WhiteRook(size: 50)
-                    : BlackRook(size: 50),
-              ),
-              InkWell(
-                onTap: () {
-                  Navigator.pop(context);
-                  makeMove({
-                    'from': event.from.toString(),
-                    'to': event.to.toString(),
-                    'promotion': 'b'
-                  });
-                },
-                child: orientation == BoardOrientation.white
-                    ? WhiteBishop(size: 50)
-                    : BlackBishop(size: 50),
-              ),
-              InkWell(
-                onTap: () {
-                  Navigator.pop(context);
-                  makeMove({
-                    'from': event.from.toString(),
-                    'to': event.to.toString(),
-                    'promotion': 'n'
-                  });
-                },
-                child: orientation == BoardOrientation.white
-                    ? WhiteKnight(size: 50)
-                    : BlackKnight(size: 50),
-              ),
-            ],
-          ),
+                  onPromotionSelected(type);
+                }),
+              )
+              .toList(),
         ),
-      );
+      ),
+    );
+  }
 
   void makeMove(Map<String, String> move) {
     chess.move(move);
@@ -326,25 +313,6 @@ class _HomePageState extends State<HomePage> {
       {'move': "${move['from']}${move['to']}${move['promotion'] ?? ''}"},
     );
 
-    setState(() => gameState = GameState.waitingOpponent);
-  }
-
-  void doMove(chess_lib.Move move) {
-    chess.move(move);
-
-    int rankFrom = move.fromAlgebraic.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-    int fileFrom = move.fromAlgebraic.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
-    int rankTo = move.toAlgebraic.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-    int fileTo = move.toAlgebraic.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
-
-    lastMove = [
-      [rankFrom, fileFrom],
-      [rankTo, fileTo]
-    ];
-
-    controller.setFen(chess.fen);
-
-    socket?.emit('move', {'move': '${move.fromAlgebraic}${move.toAlgebraic}'});
     setState(() => gameState = GameState.waitingOpponent);
   }
 
@@ -397,6 +365,12 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     final double size = MediaQuery.of(context).size.shortestSide;
+    final orientationColor = orientation == BoardOrientation.white
+        ? chess_lib.Color.WHITE
+        : chess_lib.Color.BLACK;
+    final interactiveEnable = (gameState == GameState.waitingMove ||
+            gameState == GameState.waitingOpponent) &&
+        chess.turn == orientationColor;
 
     return Scaffold(
       appBar: AppBar(title: const Text('Chess Client')),
@@ -411,8 +385,8 @@ class _HomePageState extends State<HomePage> {
             squareBuilder: squareBuilder,
             controller: controller,
             // Don't pass any onPieceDrop handler to disable drag and drop
-            onPieceDrop: onPieceDrop,
-            onPieceTap: onPieceTap,
+            onPieceDrop: interactiveEnable ? onPieceDrop : null,
+            onPieceTap: interactiveEnable ? onPieceTap : null,
             onPieceStartDrag: onPieceStartDrag,
             onEmptyFieldTap: onEmptyFieldTap,
             turnTopPlayerPieces: false,
