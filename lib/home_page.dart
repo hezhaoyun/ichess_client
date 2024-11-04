@@ -154,6 +154,10 @@ class _HomePageState extends State<HomePage> {
     });
 
     socket?.on('message', (line) => debugPrint(line));
+
+    socket?.onError((err) {
+      debugPrint('Error: $err');
+    });
   }
 
   // not working on drop
