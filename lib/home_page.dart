@@ -85,7 +85,12 @@ class _HomePageState extends State<HomePage> {
 
       if (lastMove != null) {
         chess.move(
-            {'from': lastMove.substring(0, 2), 'to': lastMove.substring(2, 4)});
+          {
+            'from': lastMove.substring(0, 2),
+            'to': lastMove.substring(2, 4),
+            'promotion': lastMove.length > 4 ? lastMove.substring(4, 5) : null,
+          },
+        );
 
         controller.setFen(chess.fen);
 
@@ -141,7 +146,7 @@ class _HomePageState extends State<HomePage> {
     });
 
     socket?.on('timer', (data) {
-      debugPrint('Timer: $data');
+      // debugPrint('Timer: $data');
 
       setState(() {
         gameTime = data['mine'];
@@ -201,8 +206,8 @@ class _HomePageState extends State<HomePage> {
 
     for (var move in moves) {
       String to = move.toAlgebraic;
-      int rank = to.codeUnitAt(1) - "1".codeUnitAt(0) + 1;
-      int file = to.codeUnitAt(0) - "a".codeUnitAt(0) + 1;
+      int rank = to.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+      int file = to.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
 
       hintMap.set(
         rank,
@@ -219,29 +224,118 @@ class _HomePageState extends State<HomePage> {
   }
 
   void onPieceDrop(PieceDropEvent event) {
-    chess.move({"from": event.from.toString(), "to": event.to.toString()});
+    // 检查是否需要升变
+    bool isPromotion = chess.moves({'verbose': true}).any((move) =>
+        move['from'] == event.from.toString() &&
+        move['to'] == event.to.toString() &&
+        move['flags'].contains('p'));
 
-    lastMove = [
-      [event.from.rank, event.from.file],
-      [event.to.rank, event.to.file]
-    ];
+    if (isPromotion) {
+      showPromotionDialog(event);
+    } else {
+      makeMove({'from': event.from.toString(), 'to': event.to.toString()});
+    }
+  }
 
-    controller.setFen(chess.fen, animation: false);
+  void showPromotionDialog(PieceDropEvent event) => showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('Promotion'),
+          content: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              InkWell(
+                onTap: () {
+                  Navigator.pop(context);
+                  makeMove({
+                    'from': event.from.toString(),
+                    'to': event.to.toString(),
+                    'promotion': 'q'
+                  });
+                },
+                child: orientation == BoardOrientation.white
+                    ? WhiteQueen(size: 50)
+                    : BlackQueen(size: 50),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.pop(context);
+                  makeMove({
+                    'from': event.from.toString(),
+                    'to': event.to.toString(),
+                    'promotion': 'r'
+                  });
+                },
+                child: orientation == BoardOrientation.white
+                    ? WhiteRook(size: 50)
+                    : BlackRook(size: 50),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.pop(context);
+                  makeMove({
+                    'from': event.from.toString(),
+                    'to': event.to.toString(),
+                    'promotion': 'b'
+                  });
+                },
+                child: orientation == BoardOrientation.white
+                    ? WhiteBishop(size: 50)
+                    : BlackBishop(size: 50),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.pop(context);
+                  makeMove({
+                    'from': event.from.toString(),
+                    'to': event.to.toString(),
+                    'promotion': 'n'
+                  });
+                },
+                child: orientation == BoardOrientation.white
+                    ? WhiteKnight(size: 50)
+                    : BlackKnight(size: 50),
+              ),
+            ],
+          ),
+        ),
+      );
+
+  void makeMove(Map<String, String> move) {
+    chess.move(move);
+
+    final fromSquare = move['from']!;
+    final toSquare = move['to']!;
+
+    int rankFrom = fromSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileFrom = fromSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+    int rankTo = toSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileTo = toSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+
+    setState(() {
+      lastMove = [
+        [rankFrom, fileFrom],
+        [rankTo, fileTo]
+      ];
+    });
+
+    controller.setFen(chess.fen);
 
     socket?.emit(
       'move',
-      {'move': '${event.from.toString()}${event.to.toString()}'},
+      {'move': "${move['from']}${move['to']}${move['promotion'] ?? ''}"},
     );
+
     setState(() => gameState = GameState.waitingOpponent);
   }
 
   void doMove(chess_lib.Move move) {
     chess.move(move);
 
-    int rankFrom = move.fromAlgebraic.codeUnitAt(1) - "1".codeUnitAt(0) + 1;
-    int fileFrom = move.fromAlgebraic.codeUnitAt(0) - "a".codeUnitAt(0) + 1;
-    int rankTo = move.toAlgebraic.codeUnitAt(1) - "1".codeUnitAt(0) + 1;
-    int fileTo = move.toAlgebraic.codeUnitAt(0) - "a".codeUnitAt(0) + 1;
+    int rankFrom = move.fromAlgebraic.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileFrom = move.fromAlgebraic.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+    int rankTo = move.toAlgebraic.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileTo = move.toAlgebraic.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
 
     lastMove = [
       [rankFrom, fileFrom],
@@ -351,20 +445,20 @@ class _HomePageState extends State<HomePage> {
               if (gameState == GameState.idle)
                 TextButton(
                   onPressed: connect,
-                  child: const Text("Connect"),
+                  child: const Text('Connect'),
                 ),
               if (gameState != GameState.idle)
                 TextButton(
                   onPressed: disconnect,
-                  child: const Text("Disconnect"),
+                  child: const Text('Disconnect'),
                 ),
               TextButton(
                 onPressed: gameState == GameState.waitingMove ? forfeit : null,
-                child: const Text("Forfeit"),
+                child: const Text('Forfeit'),
               ),
               TextButton(
                 onPressed: gameState == GameState.waitingMatch ? match : null,
-                child: const Text("Match"),
+                child: const Text('Match'),
               )
             ],
           ),
