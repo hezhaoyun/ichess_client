@@ -109,7 +109,7 @@ class _HomePageState extends State<HomePage> {
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
-          title: const Text('You won!'),
+          title: const Text('你赢了！'),
           content: Text(data['reason']),
         ),
       );
@@ -121,7 +121,7 @@ class _HomePageState extends State<HomePage> {
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
-          title: const Text('You lost!'),
+          title: const Text('你输了！'),
           content: Text(data['reason']),
         ),
       );
@@ -133,7 +133,7 @@ class _HomePageState extends State<HomePage> {
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
-          title: const Text('Draw!'),
+          title: const Text('和棋！'),
           content: Text(data['reason']),
         ),
       );
@@ -144,9 +144,102 @@ class _HomePageState extends State<HomePage> {
       setState(() => gameState = GameState.waitingMatch);
     });
 
+    socket?.on('draw_request', (data) {
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('求和'),
+          content: Text(data['message']),
+          actions: [
+            TextButton(
+              child: const Text('接受'),
+              onPressed: () {
+                socket?.emit('draw_response', {'accepted': true});
+                Navigator.pop(context);
+              },
+            ),
+            TextButton(
+              child: const Text('拒绝'),
+              onPressed: () {
+                socket?.emit('draw_response', {'accepted': false});
+                Navigator.pop(context);
+              },
+            ),
+          ],
+        ),
+      );
+    });
+
+    socket?.on('draw_declined', (data) {
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('求和被拒绝'),
+          actions: [
+            TextButton(
+              child: const Text('确定'),
+              onPressed: () => Navigator.pop(context),
+            ),
+          ],
+        ),
+      );
+    });
+
+    socket?.on('takeback_request', (data) {
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('悔棋'),
+          content: Text(data['message']),
+          actions: [
+            TextButton(
+              child: const Text('接受'),
+              onPressed: () {
+                socket?.emit('takeback_response', {'accepted': true});
+                Navigator.pop(context);
+              },
+            ),
+            TextButton(
+              child: const Text('拒绝'),
+              onPressed: () {
+                socket?.emit('takeback_response', {'accepted': false});
+                Navigator.pop(context);
+              },
+            ),
+          ],
+        ),
+      );
+    });
+
+    socket?.on('takeback_success', (data) {
+      // 撤销最近的两步棋
+      chess.undo(); // 撤销 对手/自己 的最后一步
+      chess.undo(); // 撤销 自己/对手 的最后一步
+
+      // 清除最后移动的高亮显示
+      setState(() => lastMove = null);
+
+      // 更新棋盘显示
+      controller.setFen(chess.fen);
+    });
+
+    socket?.on('takeback_declined', (data) {
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('悔棋被拒绝'),
+          actions: [
+            TextButton(
+              child: const Text('确定'),
+              onPressed: () => Navigator.pop(context),
+            ),
+          ],
+        ),
+      );
+    });
+
     socket?.on('timer', (data) {
       // debugPrint('Timer: $data');
-
       setState(() {
         gameTime = data['mine'];
         opponentGameTime = data['opponent'];
@@ -155,9 +248,7 @@ class _HomePageState extends State<HomePage> {
 
     socket?.on('message', (line) => debugPrint(line));
 
-    socket?.onError((err) {
-      debugPrint('Error: $err');
-    });
+    socket?.onError((err) => debugPrint('Error: $err'));
   }
 
   // not working on drop
@@ -276,7 +367,7 @@ class _HomePageState extends State<HomePage> {
     return showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Promotion'),
+        title: const Text('升变'),
         content: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: ['q', 'r', 'b', 'n']
@@ -330,23 +421,69 @@ class _HomePageState extends State<HomePage> {
     gameState = GameState.idle;
   }
 
+  void proposeDraw() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('确认求和？'),
+        content: const Text('你确定要请求和棋吗？'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('否'),
+          ),
+          TextButton(
+            onPressed: () {
+              socket?.emit('propose_draw', {});
+              Navigator.pop(context);
+            },
+            child: const Text('是'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void proposeTakeback() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('确认悔棋？'),
+        content: const Text('你确定要请求悔棋吗？'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('否'),
+          ),
+          TextButton(
+            onPressed: () {
+              socket?.emit('propose_takeback', {});
+              Navigator.pop(context);
+            },
+            child: const Text('是'),
+          ),
+        ],
+      ),
+    );
+  }
+
   void forfeit() {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Confirm surrender?'),
-        content: const Text('Are you sure you want to surrender?'),
+        title: const Text('确认投降？'),
+        content: const Text('你确定要投降吗？'),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('No'),
+            child: const Text('否'),
           ),
           TextButton(
             onPressed: () {
               socket?.emit('forfeit', {});
               Navigator.pop(context);
             },
-            child: const Text('Yes'),
+            child: const Text('是'),
           ),
         ],
       ),
@@ -377,11 +514,11 @@ class _HomePageState extends State<HomePage> {
         chess.turn == orientationColor;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Chess Client')),
+      appBar: AppBar(title: const Text('棋路-国际象棋')),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('Opponent time: $opponentGameTime'),
+          Text('对方时间：$opponentGameTime'),
           const SizedBox(height: 10),
           WPChessboard(
             size: size,
@@ -415,29 +552,26 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           const SizedBox(height: 10),
-          Text('My time: $gameTime'),
+          Text('我的时间：$gameTime'),
           const SizedBox(height: 24),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               if (gameState == GameState.idle)
-                TextButton(
-                  onPressed: connect,
-                  child: const Text('Connect'),
-                ),
+                TextButton(onPressed: connect, child: const Text('连接')),
               if (gameState != GameState.idle)
+                TextButton(onPressed: disconnect, child: const Text('断开')),
+              if (gameState == GameState.waitingMatch)
+                TextButton(onPressed: match, child: const Text('匹配')),
+              if (gameState == GameState.waitingMove)
+                TextButton(onPressed: proposeDraw, child: const Text('求和')),
+              if (gameState == GameState.waitingMove)
                 TextButton(
-                  onPressed: disconnect,
-                  child: const Text('Disconnect'),
+                  onPressed: chess.move_number >= 2 ? proposeTakeback : null,
+                  child: const Text('悔棋'),
                 ),
-              TextButton(
-                onPressed: gameState == GameState.waitingMove ? forfeit : null,
-                child: const Text('Forfeit'),
-              ),
-              TextButton(
-                onPressed: gameState == GameState.waitingMatch ? match : null,
-                child: const Text('Match'),
-              )
+              if (gameState == GameState.waitingMove)
+                TextButton(onPressed: forfeit, child: const Text('投降')),
             ],
           ),
         ],
