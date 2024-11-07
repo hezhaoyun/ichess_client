@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
@@ -30,6 +31,16 @@ class _HomePageState extends State<HomePage> {
 
   Timer? _timer;
 
+  String opponentName = '~';
+  late String pid, name;
+
+  @override
+  void initState() {
+    super.initState();
+    pid = 'PID_${Random().nextInt(1000000)}';
+    name = 'CLIENT_${Random().nextInt(1000000)}';
+  }
+
   @override
   void dispose() {
     _timer?.cancel();
@@ -43,6 +54,7 @@ class _HomePageState extends State<HomePage> {
 
     socket?.onConnect((_) {
       debugPrint('Successful connection!');
+      socket?.emit('join', {'pid': pid, 'name': name});
       setState(() => gameState = GameState.connected);
     });
 
@@ -59,7 +71,9 @@ class _HomePageState extends State<HomePage> {
 
     socket?.on('game_mode', (data) {
       final side = data['side'];
-      debugPrint('Game mode: $side');
+      final opponent = data['opponent'];
+
+      debugPrint('Game mode: $side, opponent: $opponent');
 
       chess = chess_lib.Chess();
 
@@ -67,6 +81,7 @@ class _HomePageState extends State<HomePage> {
         gameState = GameState.waitingOpponent;
         lastMove = null;
 
+        opponentName = opponent;
         orientation =
             side == 'white' ? BoardOrientation.white : BoardOrientation.black;
       });
@@ -518,7 +533,7 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('对方时间：$opponentGameTime'),
+          Text('$opponentName：$opponentGameTime'),
           const SizedBox(height: 10),
           WPChessboard(
             size: size,
