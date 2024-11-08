@@ -3,6 +3,7 @@ import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
@@ -40,8 +41,8 @@ class _HomePageState extends State<HomePage> {
   }
 
   void setupSocketIO() {
-    socket = socket_io.io('http://localhost:5000', <String, dynamic>{
-      'transports': ['websocket']
+    socket = socket_io.io('http://127.0.0.1:5000', <String, dynamic>{
+      'transports': ['websocket'],
     });
 
     socket?.onConnect((_) {
@@ -74,7 +75,8 @@ class _HomePageState extends State<HomePage> {
         lastMove = null;
 
         opponentName = opponent;
-        orientation = side == 'white' ? BoardOrientation.white : BoardOrientation.black;
+        orientation =
+            side == 'white' ? BoardOrientation.white : BoardOrientation.black;
       });
 
       controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
@@ -253,13 +255,17 @@ class _HomePageState extends State<HomePage> {
 
   // not working on drop
   Widget squareBuilder(SquareInfo info) {
-    Color fieldColor = (info.index + info.rank) % 2 == 0 ? Colors.grey.shade200 : Colors.grey.shade600;
+    Color fieldColor = (info.index + info.rank) % 2 == 0
+        ? Colors.grey.shade200
+        : Colors.grey.shade600;
     Color overlayColor = Colors.transparent;
 
     if (lastMove != null) {
-      if (lastMove!.first.first == info.rank && lastMove!.first.last == info.file) {
+      if (lastMove!.first.first == info.rank &&
+          lastMove!.first.last == info.file) {
         overlayColor = Colors.blueAccent.shade400.withOpacity(0.4);
-      } else if (lastMove!.last.first == info.rank && lastMove!.last.last == info.file) {
+      } else if (lastMove!.last.first == info.rank &&
+          lastMove!.last.last == info.file) {
         overlayColor = Colors.blueAccent.shade400.withOpacity(0.87);
       }
     }
@@ -313,13 +319,17 @@ class _HomePageState extends State<HomePage> {
     controller.setHints(HintMap());
   }
 
-  void onPieceDrop(PieceDropEvent event) => doMoveAction({'from': event.from.toString(), 'to': event.to.toString()});
+  void onPieceDrop(PieceDropEvent event) =>
+      doMoveAction({'from': event.from.toString(), 'to': event.to.toString()});
 
-  void doMove(chess_lib.Move move) => doMoveAction({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
+  void doMove(chess_lib.Move move) =>
+      doMoveAction({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
 
   void doMoveAction(Map<String, String> move) {
-    bool isPromotion = chess.moves({'verbose': true}).any(
-        (m) => m['from'] == move['from'] && m['to'] == move['to'] && m['flags'].contains('p'));
+    bool isPromotion = chess.moves({'verbose': true}).any((m) =>
+        m['from'] == move['from'] &&
+        m['to'] == move['to'] &&
+        m['flags'].contains('p'));
 
     if (isPromotion) {
       showPromotionDialog(
@@ -497,8 +507,11 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     final double size = MediaQuery.of(context).size.shortestSide;
-    final orientationColor = orientation == BoardOrientation.white ? chess_lib.Color.WHITE : chess_lib.Color.BLACK;
-    final interactiveEnable = (gameState == GameState.waitingMove || gameState == GameState.waitingOpponent) &&
+    final orientationColor = orientation == BoardOrientation.white
+        ? chess_lib.Color.WHITE
+        : chess_lib.Color.BLACK;
+    final interactiveEnable = (gameState == GameState.waitingMove ||
+            gameState == GameState.waitingOpponent) &&
         chess.turn == orientationColor;
 
     return Scaffold(
@@ -545,16 +558,21 @@ class _HomePageState extends State<HomePage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              if (gameState == GameState.idle) TextButton(onPressed: connect, child: const Text('连接')),
-              if (gameState != GameState.idle) TextButton(onPressed: disconnect, child: const Text('断开')),
-              if (gameState == GameState.waitingMatch) TextButton(onPressed: match, child: const Text('匹配')),
-              if (gameState == GameState.waitingMove) TextButton(onPressed: proposeDraw, child: const Text('求和')),
+              if (gameState == GameState.idle)
+                TextButton(onPressed: connect, child: const Text('连接')),
+              if (gameState != GameState.idle)
+                TextButton(onPressed: disconnect, child: const Text('断开')),
+              if (gameState == GameState.waitingMatch)
+                TextButton(onPressed: match, child: const Text('匹配')),
+              if (gameState == GameState.waitingMove)
+                TextButton(onPressed: proposeDraw, child: const Text('求和')),
               if (gameState == GameState.waitingMove)
                 TextButton(
                   onPressed: chess.move_number >= 2 ? proposeTakeback : null,
                   child: const Text('悔棋'),
                 ),
-              if (gameState == GameState.waitingMove) TextButton(onPressed: forfeit, child: const Text('投降')),
+              if (gameState == GameState.waitingMove)
+                TextButton(onPressed: forfeit, child: const Text('投降')),
             ],
           ),
         ],
