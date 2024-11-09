@@ -3,7 +3,6 @@ import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
