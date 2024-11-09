@@ -30,7 +30,9 @@ class _HomePageState extends State<HomePage> {
   int gameTime = 0;
   int opponentGameTime = 0;
 
-  String opponentName = '~';
+  Map<String, dynamic> player = {'name': '~', 'elo': 0};
+  Map<String, dynamic> opponent = {'name': '~', 'elo': 0};
+
   late String pid, name;
 
   @override
@@ -63,10 +65,7 @@ class _HomePageState extends State<HomePage> {
     });
 
     socket?.on('game_mode', (data) {
-      final side = data['side'];
-      final opponent = data['opponent'];
-
-      debugPrint('Game mode: $side, opponent: $opponent');
+      debugPrint('Game mode: $data');
 
       chess = chess_lib.Chess();
 
@@ -74,30 +73,38 @@ class _HomePageState extends State<HomePage> {
         gameState = GameState.waitingOpponent;
         lastMove = null;
 
-        opponentName = opponent;
-        orientation =
-            side == 'white' ? BoardOrientation.white : BoardOrientation.black;
+        orientation = data['side'] == 'white'
+            ? BoardOrientation.white
+            : BoardOrientation.black;
+
+        player = data['side'] == 'white'
+            ? data['white_player']
+            : data['black_player'];
+        opponent = data['side'] == 'white'
+            ? data['black_player']
+            : data['white_player'];
       });
 
       controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
     });
 
+    socket?.on('move', (data) {
+      final move = data['move'];
+      debugPrint('Opponent move: $move');
+
+      chess.move(
+        {
+          'from': move.substring(0, 2),
+          'to': move.substring(2, 4),
+          'promotion': move.length > 4 ? move.substring(4, 5) : null,
+        },
+      );
+
+      controller.setFen(chess.fen);
+    });
+
     socket?.on('go', (data) {
-      final lastMove = data['last_move'];
-      debugPrint('Your move, last move: $lastMove');
-
-      if (lastMove != null) {
-        chess.move(
-          {
-            'from': lastMove.substring(0, 2),
-            'to': lastMove.substring(2, 4),
-            'promotion': lastMove.length > 4 ? lastMove.substring(4, 5) : null,
-          },
-        );
-
-        controller.setFen(chess.fen);
-      }
-
+      debugPrint('Your move');
       setState(() => gameState = GameState.waitingMove);
     });
 
@@ -119,6 +126,8 @@ class _HomePageState extends State<HomePage> {
 
     socket?.on('lost', (data) {
       debugPrint('You lost: ${data['reason']}');
+
+      setState(() => gameState = GameState.waitingMatch);
 
       showDialog(
         context: context,
@@ -519,7 +528,7 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('$opponentName：$opponentGameTime'),
+          Text('${opponent['name']} (${opponent['elo']}): $opponentGameTime'),
           const SizedBox(height: 10),
           WPChessboard(
             size: size,
@@ -553,7 +562,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           const SizedBox(height: 10),
-          Text('我的时间：$gameTime'),
+          Text('${player['name']} (${player['elo']}): $gameTime'),
           const SizedBox(height: 24),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
