@@ -26,6 +26,17 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
   List<String> fenHistory = [ChessUtils.initialFen];
   bool isLoading = false;
 
+  final ScrollController _scrollController = ScrollController();
+
+  // 添加一个 GlobalKey
+  final _selectedMoveKey = GlobalKey();
+
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -166,19 +177,14 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          const Text(
-            '走法列表',
-            style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
           const SizedBox(height: 8),
           Expanded(
             child: MoveList(
               moves: currentGame!.moves,
               currentMoveIndex: currentMoveIndex,
               onMoveSelected: _goToMove,
+              scrollController: _scrollController,
+              key: _selectedMoveKey,
             ),
           ),
         ],
@@ -291,6 +297,22 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
     });
 
     controller.setFen(currentFen);
+
+    if (index >= 0) {
+      // 使用 Future.delayed 等待状态更新完成
+      Future.delayed(const Duration(milliseconds: 100), () {
+        final RenderObject? renderObject =
+            _selectedMoveKey.currentContext?.findRenderObject();
+        if (renderObject == null) return;
+
+        _scrollController.position.ensureVisible(
+          renderObject,
+          alignment: 0.3,
+          duration: const Duration(milliseconds: 300),
+          curve: Curves.easeInOut,
+        );
+      });
+    }
   }
 
   void _goToStart() => _goToMove(-1);

@@ -34,7 +34,7 @@ class ChessUtils {
     } else {
       // 处理普通走法
       var movePattern = RegExp(
-          r'([KQRBN])?([a-h])?([1-8])?x?([a-h][1-8])(?:=([QRBN]))?[\+#]?');
+          r'(?:([KQRBN])?([a-h])?([1-8])?x?)?([a-h][1-8])(?:=([QRBN]))?[\+#]?');
       var match = movePattern.firstMatch(move);
 
       if (match != null) {
@@ -57,12 +57,15 @@ class ChessUtils {
         );
 
         if (sourceSquare != null) {
-          // 移动棋子
           var movingPiece = board[sourceSquare.rank][sourceSquare.file];
-          board[sourceSquare.rank][sourceSquare.file] = '';
-          board[targetRank][targetFile] = promotion != null
-              ? (isWhiteMove ? promotion : promotion.toLowerCase())
-              : movingPiece;
+          // 确保移动的是正确的棋子（区分大小写）
+          if ((isWhiteMove && movingPiece.toUpperCase() == movingPiece) ||
+              (!isWhiteMove && movingPiece.toLowerCase() == movingPiece)) {
+            board[sourceSquare.rank][sourceSquare.file] = '';
+            board[targetRank][targetFile] = promotion != null
+                ? (isWhiteMove ? promotion : promotion.toLowerCase())
+                : movingPiece;
+          }
         }
       }
     }
@@ -150,6 +153,14 @@ class ChessUtils {
       );
     }
 
+    // 对于兵的移动，优先选择同一列的候选位置
+    if (piece == 'P' && candidateSquares.length > 1) {
+      var sameFileSquares = candidateSquares.where((s) => s.file == targetFile);
+      if (sameFileSquares.isNotEmpty) {
+        return sameFileSquares.first;
+      }
+    }
+
     return candidateSquares.isNotEmpty ? candidateSquares.first : null;
   }
 
@@ -185,13 +196,16 @@ class ChessUtils {
       List<List<String>> board, int sf, int sr, int tf, int tr) {
     var fileDiff = (tf - sf).abs();
     var rankDiff = tr - sr;
+    var isWhitePawn = board[sr][sf].toUpperCase() == board[sr][sf];
 
     // 白方兵
-    if (board[sr][sf].toUpperCase() == board[sr][sf]) {
+    if (isWhitePawn) {
       // 普通前进一步
       if (fileDiff == 0 && rankDiff == -1) return true;
       // 第一次可以走两步
       if (fileDiff == 0 && rankDiff == -2 && sr == 6) return true;
+      // 吃子走法
+      if (fileDiff == 1 && rankDiff == -1) return true;
     }
     // 黑方兵
     else {
@@ -199,6 +213,8 @@ class ChessUtils {
       if (fileDiff == 0 && rankDiff == 1) return true;
       // 第一次可以走两步
       if (fileDiff == 0 && rankDiff == 2 && sr == 1) return true;
+      // 吃子走法
+      if (fileDiff == 1 && rankDiff == 1) return true;
     }
 
     return false;
