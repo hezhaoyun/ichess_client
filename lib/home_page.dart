@@ -13,8 +13,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> with GameMixin {
-  static final kLightSquareColor = Colors.grey.shade200;
-  static final kDarkSquareColor = Colors.grey.shade600;
+  static const kLightSquareColor = Color(0xFFDEC6A5);
+  static const kDarkSquareColor = Color(0xFF98541A);
   static final kMoveHighlightColor = Colors.blueAccent.shade400;
 
   @override
@@ -138,6 +138,7 @@ class _HomePageState extends State<HomePage> with GameMixin {
             TextButton(onPressed: resign, child: const Text('投降')),
         ],
       );
+
   @override
   Widget build(BuildContext context) {
     final double size = MediaQuery.of(context).size.shortestSide;
