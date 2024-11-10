@@ -71,4 +71,43 @@ class PgnGame {
       moves: moves,
     );
   }
+
+  // 添加静态方法来解析多个棋谱
+  static List<PgnGame> parseMultipleGames(String pgn) {
+    List<PgnGame> games = [];
+    String currentGame = '';
+    bool inGame = false;
+
+    for (var line in pgn.split('\n')) {
+      line = line.trim();
+
+      // 跳过空行
+      if (line.isEmpty) {
+        if (currentGame.isNotEmpty) {
+          inGame = false;
+          games.add(PgnGame.fromPgn(currentGame));
+          currentGame = '';
+        }
+        continue;
+      }
+
+      // 如果发现新的标签段落，说明是新的棋谱开始
+      if (line.startsWith('[') && !inGame) {
+        if (currentGame.isNotEmpty) {
+          games.add(PgnGame.fromPgn(currentGame));
+          currentGame = '';
+        }
+        inGame = true;
+      }
+
+      currentGame += '$line\n';
+    }
+
+    // 处理最后一个棋谱
+    if (currentGame.isNotEmpty) {
+      games.add(PgnGame.fromPgn(currentGame));
+    }
+
+    return games;
+  }
 }

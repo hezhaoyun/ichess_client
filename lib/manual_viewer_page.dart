@@ -31,6 +31,10 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
   // 添加一个 GlobalKey
   final _selectedMoveKey = GlobalKey();
 
+  // 添加新属性
+  List<PgnGame> games = [];
+  int currentGameIndex = 0;
+
   @override
   void dispose() {
     _scrollController.dispose();
@@ -56,7 +60,7 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
   }
 
   Widget _buildContent() {
-    if (currentGame == null) {
+    if (games.isEmpty) {
       return Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -72,34 +76,67 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
       );
     }
 
-    return LayoutBuilder(
-      builder: (context, constraints) {
-        final isWideScreen = constraints.maxWidth > 900;
+    return Column(
+      children: [
+        if (games.length > 1)
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: DropdownButton<int>(
+              value: currentGameIndex,
+              items: List.generate(
+                games.length,
+                (index) => DropdownMenuItem(
+                  value: index,
+                  child: Text(
+                      '对局 ${index + 1}: ${games[index].white} vs ${games[index].black}'),
+                ),
+              ),
+              onChanged: (index) {
+                if (index != null) {
+                  setState(() {
+                    currentGameIndex = index;
+                    currentGame = games[index];
+                    currentMoveIndex = -1;
+                    fenHistory = [ChessUtils.initialFen];
+                    currentFen = ChessUtils.initialFen;
+                    controller.setFen(currentFen);
+                  });
+                }
+              },
+            ),
+          ),
+        Expanded(
+          child: LayoutBuilder(
+            builder: (context, constraints) {
+              final isWideScreen = constraints.maxWidth > 900;
 
-        if (isWideScreen) {
-          return Row(
-            children: [
-              Expanded(
-                flex: 3,
-                child: _buildBoardSection(),
-              ),
-              Expanded(
-                flex: 2,
-                child: _buildMoveListSection(),
-              ),
-            ],
-          );
-        } else {
-          return Column(
-            children: [
-              _buildBoardSection(),
-              Expanded(
-                child: _buildMoveListSection(),
-              ),
-            ],
-          );
-        }
-      },
+              if (isWideScreen) {
+                return Row(
+                  children: [
+                    Expanded(
+                      flex: 3,
+                      child: _buildBoardSection(),
+                    ),
+                    Expanded(
+                      flex: 2,
+                      child: _buildMoveListSection(),
+                    ),
+                  ],
+                );
+              } else {
+                return Column(
+                  children: [
+                    _buildBoardSection(),
+                    Expanded(
+                      child: _buildMoveListSection(),
+                    ),
+                  ],
+                );
+              }
+            },
+          ),
+        ),
+      ],
     );
   }
 
@@ -245,19 +282,22 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
         String content;
 
         if (file.bytes != null) {
-          // 从字节读取
           content = String.fromCharCodes(file.bytes!);
         } else if (file.path != null) {
-          // 从文件路径读取
           content = await File(file.path!).readAsString();
         } else {
           throw Exception('无法读取文件内容');
         }
 
         setState(() {
-          currentGame = PgnGame.fromPgn(content);
-          currentMoveIndex = -1;
-          fenHistory = [ChessUtils.initialFen];
+          games = PgnGame.parseMultipleGames(content);
+          if (games.isNotEmpty) {
+            currentGameIndex = 0;
+            currentGame = games[0];
+            currentMoveIndex = -1;
+            fenHistory = [ChessUtils.initialFen];
+            currentFen = ChessUtils.initialFen;
+          }
         });
 
         controller.setFen(currentFen);
