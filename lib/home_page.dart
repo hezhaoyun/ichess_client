@@ -13,15 +13,15 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> with GameMixin {
+  static final kLightSquareColor = Colors.grey.shade200;
+  static final kDarkSquareColor = Colors.grey.shade600;
+  static final kMoveHighlightColor = Colors.blueAccent.shade400;
+
   @override
   void initState() {
     super.initState();
     initGame();
   }
-
-  static final kLightSquareColor = Colors.grey.shade200;
-  static final kDarkSquareColor = Colors.grey.shade600;
-  static final kMoveHighlightColor = Colors.blueAccent.shade400;
 
   Widget squareBuilder(SquareInfo info) {
     final isLightSquare = (info.index + info.rank) % 2 == 0;
