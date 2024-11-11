@@ -13,9 +13,9 @@ class BattlePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<BattlePage> with GameMixin {
-  static const kLightSquareColor = Color(0xFFDEC6A5);
-  static const kDarkSquareColor = Color(0xFF98541A);
-  static final kMoveHighlightColor = Colors.blueAccent.shade400;
+  static const kLightSquareColor = Color(0xFFEED7BE);
+  static const kDarkSquareColor = Color(0xFFB58863);
+  static final kMoveHighlightColor = Colors.blue.shade300;
 
   @override
   void initState() {
@@ -101,7 +101,7 @@ class _HomePageState extends State<BattlePage> with GameMixin {
 
   @override
   Widget build(BuildContext context) {
-    final double size = MediaQuery.of(context).size.shortestSide;
+    final double size = MediaQuery.of(context).size.shortestSide - 24;
 
     final orientationColor = orientation == BoardOrientation.white ? chess_lib.Color.WHITE : chess_lib.Color.BLACK;
 
@@ -128,7 +128,6 @@ class _HomePageState extends State<BattlePage> with GameMixin {
       orientation: orientation,
       squareBuilder: squareBuilder,
       controller: controller,
-      // Don't pass any onPieceDrop handler to disable drag and drop
       onPieceDrop: interactiveEnable ? onPieceDrop : null,
       onPieceTap: interactiveEnable ? onPieceTap : null,
       onPieceStartDrag: onPieceStartDrag,
@@ -137,41 +136,165 @@ class _HomePageState extends State<BattlePage> with GameMixin {
       ghostOnDrag: true,
       dropIndicator: DropIndicatorArgs(
         size: size / 2,
-        color: Colors.lightBlue.withOpacity(0.24),
+        color: Colors.lightBlue.withAlpha(0x3D),
       ),
       pieceMap: pieceMap(),
     );
 
-    Row buildButtons() => Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            if (gameState == GameState.idle) TextButton(onPressed: connect, child: const Text('连接')),
-            if (gameState != GameState.idle) TextButton(onPressed: disconnect, child: const Text('断开')),
-            if (gameState == GameState.waitingMatch) TextButton(onPressed: match, child: const Text('匹配')),
-            if (gameState == GameState.waitingMove) TextButton(onPressed: proposeDraw, child: const Text('求和')),
-            if (gameState == GameState.waitingMove)
-              TextButton(
-                onPressed: chess.move_number >= 2 ? proposeTakeback : null,
-                child: const Text('悔棋'),
-              ),
-            if (gameState == GameState.waitingMove) TextButton(onPressed: resign, child: const Text('投降')),
-          ],
-        );
-
     return Scaffold(
-      appBar: AppBar(title: const Text('棋路-国际象棋')),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text('${opponent['name']} (${opponent['elo']}): $opponentGameTime'),
-          const SizedBox(height: 10),
-          chessboard,
-          const SizedBox(height: 10),
-          Text('${player['name']} (${player['elo']}): $gameTime'),
-          const SizedBox(height: 24),
-          buildButtons(),
+      appBar: AppBar(
+        title: const Text('棋路-国际象棋'),
+        elevation: 0,
+        centerTitle: true,
+      ),
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [Colors.blue.shade50, Colors.white],
+          ),
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            _buildPlayerInfo(
+              name: opponent['name'],
+              elo: opponent['elo'],
+              time: opponentGameTime.toString(),
+              isOpponent: true,
+            ),
+            const SizedBox(height: 20),
+            Card(
+              elevation: 8,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: chessboard,
+              ),
+            ),
+            const SizedBox(height: 20),
+            _buildPlayerInfo(
+              name: player['name'],
+              elo: player['elo'],
+              time: gameTime.toString(),
+              isOpponent: false,
+            ),
+            const SizedBox(height: 32),
+            _buildGameControls(),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildPlayerInfo({
+    required String name,
+    required dynamic elo,
+    required String time,
+    required bool isOpponent,
+  }) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: const [
+          BoxShadow(
+            color: Colors.black12,
+            blurRadius: 5,
+            offset: Offset(0, 2),
+          ),
         ],
       ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          CircleAvatar(
+            backgroundColor: isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
+            child: Text(name[0].toUpperCase()),
+          ),
+          const SizedBox(width: 12),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                name,
+                style: const TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'ELO: $elo | 时间: $time',
+                style: TextStyle(
+                  color: Colors.grey[600],
+                  fontSize: 14,
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildGameControls() {
+    final buttonStyle = ElevatedButton.styleFrom(
+      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(25),
+      ),
+    );
+
+    return Wrap(
+      spacing: 12,
+      runSpacing: 12,
+      alignment: WrapAlignment.center,
+      children: [
+        if (gameState == GameState.idle)
+          ElevatedButton(
+            style: buttonStyle,
+            onPressed: connect,
+            child: const Text('连接'),
+          ),
+        if (gameState != GameState.idle)
+          ElevatedButton(
+            style: buttonStyle.copyWith(
+              backgroundColor: WidgetStateProperty.all(Colors.red.shade400),
+            ),
+            onPressed: disconnect,
+            child: const Text('断开'),
+          ),
+        if (gameState == GameState.waitingMatch)
+          ElevatedButton(
+            style: buttonStyle,
+            onPressed: match,
+            child: const Text('匹配'),
+          ),
+        if (gameState == GameState.waitingMove)
+          ElevatedButton(
+            style: buttonStyle,
+            onPressed: proposeDraw,
+            child: const Text('求和'),
+          ),
+        if (gameState == GameState.waitingMove)
+          ElevatedButton(
+            style: buttonStyle,
+            onPressed: chess.move_number >= 2 ? proposeTakeback : null,
+            child: const Text('悔棋'),
+          ),
+        if (gameState == GameState.waitingMove)
+          ElevatedButton(
+            style: buttonStyle.copyWith(
+              backgroundColor: WidgetStateProperty.all(Colors.orange),
+            ),
+            onPressed: resign,
+            child: const Text('投降'),
+          ),
+      ],
     );
   }
 }
