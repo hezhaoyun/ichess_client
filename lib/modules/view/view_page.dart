@@ -161,12 +161,6 @@ class _ViewPageState extends State<ViewPage> {
       );
 
   @override
-  void dispose() {
-    _scrollController.dispose();
-    super.dispose();
-  }
-
-  @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
           title: const Text('棋谱阅读'),
@@ -253,4 +247,10 @@ class _ViewPageState extends State<ViewPage> {
           ],
         ),
       );
+
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
+  }
 }
