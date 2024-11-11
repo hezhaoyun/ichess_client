@@ -87,13 +87,11 @@ class _ViewPageState extends State<ViewPage> {
       } else if (index > currentMoveIndex) {
         // 前进
         for (var i = currentMoveIndex + 1; i <= index; i++) {
-          final newFen = PgnGame.moveToFen(
-            fenHistory.last,
-            currentGame!.moves[i],
-          );
+          final newFen = PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
           fenHistory.add(newFen);
           currentFen = newFen;
         }
+
         currentMoveIndex = index;
       }
     });
@@ -202,7 +200,6 @@ class _ViewPageState extends State<ViewPage> {
     return OrientationBuilder(
       builder: (context, orientation) {
         final isWideLayout = orientation == Orientation.landscape || MediaQuery.of(context).size.width > 900;
-
         return Column(
           children: [
             Expanded(
