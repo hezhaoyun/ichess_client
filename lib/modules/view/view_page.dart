@@ -12,40 +12,23 @@ import 'chess_board_view.dart';
 
 class ViewPage extends StatefulWidget {
   const ViewPage({super.key});
-
   @override
   State<ViewPage> createState() => _ViewPageState();
 }
 
 class _ViewPageState extends State<ViewPage> {
   final controller = WPChessboardController();
+  final _scrollController = ScrollController();
+  final _selectedMoveKey = GlobalKey();
 
+  bool isLoading = false;
+
+  int currentGameIndex = 0;
+  List<PgnGame> games = [];
   PgnGame? currentGame;
   int currentMoveIndex = -1;
   String currentFen = chess_lib.Chess.DEFAULT_POSITION;
   List<String> fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
-  bool isLoading = false;
-
-  final ScrollController _scrollController = ScrollController();
-
-  // 添加一个 GlobalKey
-  final _selectedMoveKey = GlobalKey();
-
-  // 添加新属性
-  List<PgnGame> games = [];
-  int currentGameIndex = 0;
-
-  Widget _buildControlPanel() => ChessControlPanel(
-        currentGameIndex: currentGameIndex,
-        gamesCount: games.length,
-        currentMoveIndex: currentMoveIndex,
-        maxMoves: currentGame?.moves.length ?? 0,
-        onGameSelect: _showGamesList,
-        onGoToStart: () => _goToMove(-1),
-        onPreviousMove: () => _goToMove(currentMoveIndex - 1),
-        onNextMove: () => _goToMove(currentMoveIndex + 1),
-        onGoToEnd: () => _goToMove(currentGame!.moves.length - 1),
-      );
 
   Future<void> _loadPgnFile() async {
     try {
@@ -132,6 +115,18 @@ class _ViewPageState extends State<ViewPage> {
       });
     }
   }
+
+  Widget _buildControlPanel() => ChessControlPanel(
+        currentGameIndex: currentGameIndex,
+        gamesCount: games.length,
+        currentMoveIndex: currentMoveIndex,
+        maxMoves: currentGame?.moves.length ?? 0,
+        onGameSelect: _showGamesList,
+        onGoToStart: () => _goToMove(-1),
+        onPreviousMove: () => _goToMove(currentMoveIndex - 1),
+        onNextMove: () => _goToMove(currentMoveIndex + 1),
+        onGoToEnd: () => _goToMove(currentGame!.moves.length - 1),
+      );
 
   // 添加新方法来显示对局列表对话框
   void _showGamesList() => showDialog(
