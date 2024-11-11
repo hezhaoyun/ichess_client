@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'battle_page.dart';
-import 'manual_viewer_page.dart';
+import 'modules/battle/battle_page.dart';
+import 'modules/view/view_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
               onPressed: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const ManualViewerPage(),
+                  builder: (context) => const ViewPage(),
                 ),
               ),
               child: const Text('阅读棋谱'),

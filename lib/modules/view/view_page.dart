@@ -3,18 +3,18 @@ import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 import 'dart:io';
-import 'models/pgn_game.dart';
-import 'widgets/move_list.dart';
-import 'utils/chess_utils.dart';
+import 'pgn_game.dart';
+import 'move_list.dart';
+import 'chess_utils.dart';
 
-class ManualViewerPage extends StatefulWidget {
-  const ManualViewerPage({super.key});
+class ViewPage extends StatefulWidget {
+  const ViewPage({super.key});
 
   @override
-  State<ManualViewerPage> createState() => _ManualViewerPageState();
+  State<ViewPage> createState() => _ViewPageState();
 }
 
-class _ManualViewerPageState extends State<ManualViewerPage> {
+class _ViewPageState extends State<ViewPage> {
   static const kLightSquareColor = Color(0xFFDEC6A5);
   static const kDarkSquareColor = Color(0xFF98541A);
 
@@ -53,9 +53,7 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
           ),
         ],
       ),
-      body: isLoading
-          ? const Center(child: CircularProgressIndicator())
-          : _buildContent(),
+      body: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent(),
     );
   }
 
@@ -78,33 +76,6 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
 
     return Column(
       children: [
-        if (games.length > 1)
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: DropdownButton<int>(
-              value: currentGameIndex,
-              items: List.generate(
-                games.length,
-                (index) => DropdownMenuItem(
-                  value: index,
-                  child: Text(
-                      '对局 ${index + 1}: ${games[index].white} vs ${games[index].black}'),
-                ),
-              ),
-              onChanged: (index) {
-                if (index != null) {
-                  setState(() {
-                    currentGameIndex = index;
-                    currentGame = games[index];
-                    currentMoveIndex = -1;
-                    fenHistory = [ChessUtils.initialFen];
-                    currentFen = ChessUtils.initialFen;
-                    controller.setFen(currentFen);
-                  });
-                }
-              },
-            ),
-          ),
         Expanded(
           child: LayoutBuilder(
             builder: (context, constraints) {
@@ -146,8 +117,7 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
     return buildSquare(info.size, fieldColor, Colors.transparent);
   }
 
-  Widget buildSquare(double size, Color fieldColor, Color overlayColor) =>
-      Container(
+  Widget buildSquare(double size, Color fieldColor, Color overlayColor) => Container(
         color: fieldColor,
         width: size,
         height: size,
@@ -160,8 +130,7 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
       );
 
   Widget _buildBoardSection() {
-    final double size = MediaQuery.of(context).size.width *
-        (MediaQuery.of(context).size.width > 900 ? 0.4 : 0.8);
+    final double size = MediaQuery.of(context).size.width * (MediaQuery.of(context).size.width > 900 ? 0.4 : 0.8);
 
     PieceMap pieceMap() => PieceMap(
           K: (size) => WhiteKing(size: size),
@@ -214,7 +183,6 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          const SizedBox(height: 8),
           Expanded(
             child: MoveList(
               moves: currentGame!.moves,
@@ -237,6 +205,21 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            // 对局切换
+            TextButton(
+              onPressed: () => _showGamesList(),
+              child: Row(
+                children: [
+                  Text(
+                    '${currentGameIndex + 1} / ${games.length}',
+                    style: const TextStyle(fontSize: 16),
+                  ),
+                  const Icon(Icons.arrow_drop_down, size: 20),
+                ],
+              ),
+            ),
+            const VerticalDivider(width: 20),
+            // 走法控制按钮
             IconButton(
               icon: const Icon(Icons.first_page),
               onPressed: currentMoveIndex >= 0 ? _goToStart : null,
@@ -249,18 +232,20 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
             ),
             IconButton(
               icon: const Icon(Icons.navigate_next),
-              onPressed: currentMoveIndex < (currentGame?.moves.length ?? 0) - 1
-                  ? _nextMove
-                  : null,
+              onPressed: currentMoveIndex < (currentGame?.moves.length ?? 0) - 1 ? _nextMove : null,
               tooltip: '下一步',
             ),
             IconButton(
               icon: const Icon(Icons.last_page),
-              onPressed: currentGame != null &&
-                      currentMoveIndex < currentGame!.moves.length - 1
-                  ? _goToEnd
-                  : null,
+              onPressed: currentGame != null && currentMoveIndex < currentGame!.moves.length - 1 ? _goToEnd : null,
               tooltip: '结束',
+            ),
+            const VerticalDivider(width: 20),
+            Container(
+              width: 1,
+              height: 20,
+              color: Colors.grey[400],
+              padding: const EdgeInsets.symmetric(horizontal: 8),
             ),
           ],
         ),
@@ -293,7 +278,7 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
           games = PgnGame.parseMultipleGames(content);
           if (games.isNotEmpty) {
             currentGameIndex = 0;
-            currentGame = games[0];
+            currentGame = games[0].parseMoves();
             currentMoveIndex = -1;
             fenHistory = [ChessUtils.initialFen];
             currentFen = ChessUtils.initialFen;
@@ -341,8 +326,7 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
     if (index >= 0) {
       // 使用 Future.delayed 等待状态更新完成
       Future.delayed(const Duration(milliseconds: 100), () {
-        final RenderObject? renderObject =
-            _selectedMoveKey.currentContext?.findRenderObject();
+        final RenderObject? renderObject = _selectedMoveKey.currentContext?.findRenderObject();
         if (renderObject == null) return;
 
         _scrollController.position.ensureVisible(
@@ -359,4 +343,42 @@ class _ManualViewerPageState extends State<ManualViewerPage> {
   void _previousMove() => _goToMove(currentMoveIndex - 1);
   void _nextMove() => _goToMove(currentMoveIndex + 1);
   void _goToEnd() => _goToMove(currentGame!.moves.length - 1);
+
+  // 添加新方法来显示对局列表对话框
+  void _showGamesList() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('选择对局'),
+          content: SizedBox(
+            width: double.maxFinite, // 使对话框更宽
+            child: ListView.builder(
+              shrinkWrap: true,
+              itemCount: games.length,
+              itemBuilder: (context, index) {
+                final game = games[index];
+                return ListTile(
+                  selected: index == currentGameIndex,
+                  title: Text('${index + 1}. ${game.white} vs ${game.black}'),
+                  subtitle: Text('${game.event} (${game.date})'),
+                  onTap: () {
+                    Navigator.of(context).pop();
+                    setState(() {
+                      currentGameIndex = index;
+                      currentGame = games[index].parseMoves();
+                      currentMoveIndex = -1;
+                      fenHistory = [ChessUtils.initialFen];
+                      currentFen = ChessUtils.initialFen;
+                      controller.setFen(currentFen);
+                    });
+                  },
+                );
+              },
+            ),
+          ),
+        );
+      },
+    );
+  }
 }

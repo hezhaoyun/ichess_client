@@ -1,6 +1,5 @@
 class ChessUtils {
-  static const initialFen =
-      'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
+  static const initialFen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
 
   static final Map<String, int> _fileToIndex = {
     'a': 0,
@@ -33,8 +32,7 @@ class ChessUtils {
       board[rank][3] = isWhiteMove ? 'R' : 'r'; // 车的新位置
     } else {
       // 处理普通走法
-      var movePattern = RegExp(
-          r'(?:([KQRBN])?([a-h])?([1-8])?x?)?([a-h][1-8])(?:=([QRBN]))?[\+#]?');
+      var movePattern = RegExp(r'(?:([KQRBN])?([a-h])?([1-8])?x?)?([a-h][1-8])(?:=([QRBN]))?[\+#]?');
       var match = movePattern.firstMatch(move);
 
       if (match != null) {
@@ -62,9 +60,8 @@ class ChessUtils {
           if ((isWhiteMove && movingPiece.toUpperCase() == movingPiece) ||
               (!isWhiteMove && movingPiece.toLowerCase() == movingPiece)) {
             board[sourceSquare.rank][sourceSquare.file] = '';
-            board[targetRank][targetFile] = promotion != null
-                ? (isWhiteMove ? promotion : promotion.toLowerCase())
-                : movingPiece;
+            board[targetRank][targetFile] =
+                promotion != null ? (isWhiteMove ? promotion : promotion.toLowerCase()) : movingPiece;
           }
         }
       }
@@ -132,8 +129,7 @@ class ChessUtils {
     for (var rank = 0; rank < 8; rank++) {
       for (var file = 0; file < 8; file++) {
         var currentPiece = board[rank][file];
-        if (currentPiece.toUpperCase() == piece &&
-            isWhite == (currentPiece.toUpperCase() == currentPiece)) {
+        if (currentPiece.toUpperCase() == piece && isWhite == (currentPiece.toUpperCase() == currentPiece)) {
           if (_isLegalMove(board, file, rank, targetFile, targetRank, piece)) {
             candidateSquares.add(Square(file, rank));
           }
@@ -175,16 +171,15 @@ class ChessUtils {
     // 简化版的走法验证
     switch (piece) {
       case 'P':
-        return _isPawnMove(
-            board, sourceFile, sourceRank, targetFile, targetRank);
+        return _isPawnMove(board, sourceFile, sourceRank, targetFile, targetRank);
       case 'N':
         return _isKnightMove(sourceFile, sourceRank, targetFile, targetRank);
       case 'B':
         return _isBishopMove(sourceFile, sourceRank, targetFile, targetRank);
       case 'R':
-        return _isRookMove(sourceFile, sourceRank, targetFile, targetRank);
+        return _isRookMove(board, sourceFile, sourceRank, targetFile, targetRank);
       case 'Q':
-        return _isQueenMove(sourceFile, sourceRank, targetFile, targetRank);
+        return _isQueenMove(board, sourceFile, sourceRank, targetFile, targetRank);
       case 'K':
         return _isKingMove(sourceFile, sourceRank, targetFile, targetRank);
       default:
@@ -192,8 +187,7 @@ class ChessUtils {
     }
   }
 
-  static bool _isPawnMove(
-      List<List<String>> board, int sf, int sr, int tf, int tr) {
+  static bool _isPawnMove(List<List<String>> board, int sf, int sr, int tf, int tr) {
     var fileDiff = (tf - sf).abs();
     var rankDiff = tr - sr;
     var isWhitePawn = board[sr][sf].toUpperCase() == board[sr][sf];
@@ -230,12 +224,45 @@ class ChessUtils {
     return (tf - sf).abs() == (tr - sr).abs();
   }
 
-  static bool _isRookMove(int sf, int sr, int tf, int tr) {
-    return sf == tf || sr == tr;
+  static bool _isRookMove(
+    List<List<String>> board,
+    int sf,
+    int sr,
+    int tf,
+    int tr,
+  ) {
+    if (sf != tf && sr != tr) return false;
+    return _isPathClear(board, sf, sr, tf, tr);
   }
 
-  static bool _isQueenMove(int sf, int sr, int tf, int tr) {
-    return _isBishopMove(sf, sr, tf, tr) || _isRookMove(sf, sr, tf, tr);
+  static bool _isPathClear(
+    List<List<String>> board,
+    int sf,
+    int sr,
+    int tf,
+    int tr,
+  ) {
+    // 水平移动
+    if (sr == tr) {
+      var start = sf < tf ? sf + 1 : tf + 1;
+      var end = sf < tf ? tf : sf;
+      for (var file = start; file < end; file++) {
+        if (board[sr][file].isNotEmpty) return false;
+      }
+    }
+    // 垂直移动
+    else if (sf == tf) {
+      var start = sr < tr ? sr + 1 : tr + 1;
+      var end = sr < tr ? tr : sr;
+      for (var rank = start; rank < end; rank++) {
+        if (board[rank][sf].isNotEmpty) return false;
+      }
+    }
+    return true;
+  }
+
+  static bool _isQueenMove(List<List<String>> board, int sf, int sr, int tf, int tr) {
+    return _isBishopMove(sf, sr, tf, tr) || _isRookMove(board, sf, sr, tf, tr);
   }
 
   static bool _isKingMove(int sf, int sr, int tf, int tr) {
