@@ -17,9 +17,9 @@ class ViewPage extends StatefulWidget {
 }
 
 class _ViewPageState extends State<ViewPage> {
-  final controller = WPChessboardController();
+  final _chessboardController = WPChessboardController();
   final _scrollController = ScrollController();
-  final _selectedMoveKey = GlobalKey();
+  final _selectedMoveKey = GlobalKey<MoveListState>();
 
   bool isLoading = false;
 
@@ -62,7 +62,7 @@ class _ViewPageState extends State<ViewPage> {
           }
         });
 
-        controller.setFen(currentFen);
+        _chessboardController.setFen(currentFen);
       }
     } catch (e) {
       if (mounted) {
@@ -87,7 +87,8 @@ class _ViewPageState extends State<ViewPage> {
       } else if (index > currentMoveIndex) {
         // 前进
         for (var i = currentMoveIndex + 1; i <= index; i++) {
-          final newFen = PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
+          final newFen =
+              PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
           fenHistory.add(newFen);
           currentFen = newFen;
         }
@@ -96,22 +97,8 @@ class _ViewPageState extends State<ViewPage> {
       }
     });
 
-    controller.setFen(currentFen);
-
-    if (index >= 0) {
-      // 使用 Future.delayed 等待状态更新完成
-      Future.delayed(const Duration(milliseconds: 100), () {
-        final RenderObject? renderObject = _selectedMoveKey.currentContext?.findRenderObject();
-        if (renderObject == null) return;
-
-        _scrollController.position.ensureVisible(
-          renderObject,
-          alignment: 0.3,
-          duration: const Duration(milliseconds: 300),
-          curve: Curves.easeInOut,
-        );
-      });
-    }
+    _chessboardController.setFen(currentFen);
+    _selectedMoveKey.currentState?.scrollToSelectedMove();
   }
 
   Widget _buildControlPanel() => Padding(
@@ -153,7 +140,7 @@ class _ViewPageState extends State<ViewPage> {
                       currentMoveIndex = -1;
                       fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
                       currentFen = chess_lib.Chess.DEFAULT_POSITION;
-                      controller.setFen(currentFen);
+                      _chessboardController.setFen(currentFen);
                     });
                   },
                 );
@@ -174,7 +161,9 @@ class _ViewPageState extends State<ViewPage> {
             ),
           ],
         ),
-        body: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent(),
+        body: isLoading
+            ? const Center(child: CircularProgressIndicator())
+            : _buildContent(),
       );
 
   Widget _buildContent() {
@@ -205,7 +194,8 @@ class _ViewPageState extends State<ViewPage> {
 
     return OrientationBuilder(
       builder: (context, orientation) {
-        final isWideLayout = orientation == Orientation.landscape || MediaQuery.of(context).size.width > 900;
+        final isWideLayout = orientation == Orientation.landscape ||
+            MediaQuery.of(context).size.width > 900;
         return Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -241,7 +231,7 @@ class _ViewPageState extends State<ViewPage> {
   Widget _buildBoardSection() => Column(
         children: [
           ChessboardView(
-            controller: controller,
+            controller: _chessboardController,
             whiteName: currentGame!.white,
             blackName: currentGame!.black,
             event: currentGame!.event,
