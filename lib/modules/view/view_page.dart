@@ -267,6 +267,7 @@ class _ViewPageState extends State<ViewPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           // 对局切换
+          const Expanded(child: SizedBox()),
           TextButton(
             onPressed: () => _showGamesList(),
             child: Row(
@@ -279,12 +280,7 @@ class _ViewPageState extends State<ViewPage> {
               ],
             ),
           ),
-          Container(
-            width: 1,
-            height: 20,
-            color: Colors.grey[400],
-            padding: const EdgeInsets.symmetric(horizontal: 8),
-          ),
+          const Expanded(child: SizedBox()),
           // 走法控制按钮
           IconButton(
             icon: const Icon(Icons.first_page),
@@ -306,6 +302,7 @@ class _ViewPageState extends State<ViewPage> {
             onPressed: currentGame != null && currentMoveIndex < currentGame!.moves.length - 1 ? _goToEnd : null,
             tooltip: '结束',
           ),
+          const Expanded(child: SizedBox()),
         ],
       ),
     );
