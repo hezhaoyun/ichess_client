@@ -76,40 +76,38 @@ class _ViewPageState extends State<ViewPage> {
       );
     }
 
-    return Column(
-      children: [
-        Expanded(
-          child: LayoutBuilder(
-            builder: (context, constraints) {
-              final isWideScreen = constraints.maxWidth > 900;
+    return OrientationBuilder(
+      builder: (context, orientation) {
+        final isWideLayout = orientation == Orientation.landscape || MediaQuery.of(context).size.width > 900;
 
-              if (isWideScreen) {
-                return Row(
-                  children: [
-                    Expanded(
-                      flex: 3,
-                      child: _buildBoardSection(),
+        return Column(
+          children: [
+            Expanded(
+              child: isWideLayout
+                  ? Row(
+                      children: [
+                        Expanded(
+                          flex: 3,
+                          child: _buildBoardSection(),
+                        ),
+                        Expanded(
+                          flex: 2,
+                          child: _buildMoveListSection(),
+                        ),
+                      ],
+                    )
+                  : Column(
+                      children: [
+                        _buildBoardSection(),
+                        Expanded(
+                          child: _buildMoveListSection(),
+                        ),
+                      ],
                     ),
-                    Expanded(
-                      flex: 2,
-                      child: _buildMoveListSection(),
-                    ),
-                  ],
-                );
-              } else {
-                return Column(
-                  children: [
-                    _buildBoardSection(),
-                    Expanded(
-                      child: _buildMoveListSection(),
-                    ),
-                  ],
-                );
-              }
-            },
-          ),
-        ),
-      ],
+            ),
+          ],
+        );
+      },
     );
   }
 
@@ -132,7 +130,22 @@ class _ViewPageState extends State<ViewPage> {
       );
 
   Widget _buildBoardSection() {
-    final double size = MediaQuery.of(context).size.width * (MediaQuery.of(context).size.width > 900 ? 0.4 : 0.8);
+    // 根据屏幕方向计算棋盘大小
+    final screenSize = MediaQuery.of(context).size;
+    final orientation = MediaQuery.of(context).orientation;
+
+    double size;
+    if (orientation == Orientation.landscape) {
+      // 横屏时，棋盘高度为屏幕高度的80%
+      size = screenSize.height * 0.6;
+      // 确保棋盘不会太宽
+      size = size.clamp(0.0, screenSize.width * 0.4);
+    } else {
+      // 竖屏时，棋盘宽度为屏幕宽度的90%
+      size = screenSize.width * 0.8;
+      // 确保棋盘不会太大
+      size = size.clamp(0.0, screenSize.height * 0.5);
+    }
 
     PieceMap pieceMap() => PieceMap(
           K: (size) => WhiteKing(size: size),
@@ -208,7 +221,7 @@ class _ViewPageState extends State<ViewPage> {
       mainAxisSize: MainAxisSize.min,
       children: [
         Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(1.0),
           child: Text(
             '${currentGame!.white} vs ${currentGame!.black}\n'
             '${currentGame!.event} (${currentGame!.date})',
@@ -249,56 +262,51 @@ class _ViewPageState extends State<ViewPage> {
 
   Widget _buildControlPanel() {
     return Card(
-      margin: const EdgeInsets.all(16),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 8.0),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            // 对局切换
-            TextButton(
-              onPressed: () => _showGamesList(),
-              child: Row(
-                children: [
-                  Text(
-                    '${currentGameIndex + 1} / ${games.length}',
-                    style: const TextStyle(fontSize: 16),
-                  ),
-                  const Icon(Icons.arrow_drop_down, size: 20),
-                ],
-              ),
+      margin: const EdgeInsets.symmetric(horizontal: 16),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          // 对局切换
+          TextButton(
+            onPressed: () => _showGamesList(),
+            child: Row(
+              children: [
+                Text(
+                  '${currentGameIndex + 1} / ${games.length}',
+                  style: const TextStyle(fontSize: 16),
+                ),
+                const Icon(Icons.arrow_drop_down, size: 20),
+              ],
             ),
-            const VerticalDivider(width: 20),
-            // 走法控制按钮
-            IconButton(
-              icon: const Icon(Icons.first_page),
-              onPressed: currentMoveIndex >= 0 ? _goToStart : null,
-              tooltip: '开始',
-            ),
-            IconButton(
-              icon: const Icon(Icons.navigate_before),
-              onPressed: currentMoveIndex >= 0 ? _previousMove : null,
-              tooltip: '上一步',
-            ),
-            IconButton(
-              icon: const Icon(Icons.navigate_next),
-              onPressed: currentMoveIndex < (currentGame?.moves.length ?? 0) - 1 ? _nextMove : null,
-              tooltip: '下一步',
-            ),
-            IconButton(
-              icon: const Icon(Icons.last_page),
-              onPressed: currentGame != null && currentMoveIndex < currentGame!.moves.length - 1 ? _goToEnd : null,
-              tooltip: '结束',
-            ),
-            const VerticalDivider(width: 20),
-            Container(
-              width: 1,
-              height: 20,
-              color: Colors.grey[400],
-              padding: const EdgeInsets.symmetric(horizontal: 8),
-            ),
-          ],
-        ),
+          ),
+          Container(
+            width: 1,
+            height: 20,
+            color: Colors.grey[400],
+            padding: const EdgeInsets.symmetric(horizontal: 8),
+          ),
+          // 走法控制按钮
+          IconButton(
+            icon: const Icon(Icons.first_page),
+            onPressed: currentMoveIndex >= 0 ? _goToStart : null,
+            tooltip: '开始',
+          ),
+          IconButton(
+            icon: const Icon(Icons.navigate_before),
+            onPressed: currentMoveIndex >= 0 ? _previousMove : null,
+            tooltip: '上一步',
+          ),
+          IconButton(
+            icon: const Icon(Icons.navigate_next),
+            onPressed: currentMoveIndex < (currentGame?.moves.length ?? 0) - 1 ? _nextMove : null,
+            tooltip: '下一步',
+          ),
+          IconButton(
+            icon: const Icon(Icons.last_page),
+            onPressed: currentGame != null && currentMoveIndex < currentGame!.moves.length - 1 ? _goToEnd : null,
+            tooltip: '结束',
+          ),
+        ],
       ),
     );
   }
@@ -353,7 +361,7 @@ class _ViewPageState extends State<ViewPage> {
 
     setState(() {
       if (index < currentMoveIndex) {
-        // 后退时，删除当前位置之后的���有历史记录
+        // 后退时，删除当前位置之后的所有历史记录
         fenHistory.removeRange(index + 2, fenHistory.length);
         currentMoveIndex = index;
         currentFen = fenHistory[index + 1];
