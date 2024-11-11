@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 class MoveList extends StatelessWidget {
   static const double _horizontalSpacing = 8.0;
   static const double _verticalSpacing = 4.0;
-  static const double _borderRadius = 8.0;
   static const double _moveItemBorderRadius = 4.0;
 
   final List<String> moves;
@@ -21,8 +20,7 @@ class MoveList extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) => Container(
-        decoration: _buildContainerDecoration(),
+  Widget build(BuildContext context) => Card(
         child: SingleChildScrollView(
           controller: scrollController,
           padding: const EdgeInsets.all(_horizontalSpacing),
@@ -32,19 +30,6 @@ class MoveList extends StatelessWidget {
             children: _buildMoveItems(),
           ),
         ),
-      );
-
-  BoxDecoration _buildContainerDecoration() => BoxDecoration(
-        color: Colors.white,
-        border: Border.all(color: Colors.grey.shade300),
-        borderRadius: BorderRadius.circular(_borderRadius),
-        boxShadow: const [
-          BoxShadow(
-            color: Color.fromRGBO(158, 158, 158, 0.2),
-            blurRadius: 4,
-            offset: Offset(0, 2),
-          ),
-        ],
       );
 
   List<Widget> _buildMoveItems() => List.generate(

@@ -46,9 +46,9 @@ class ChessboardView extends StatelessWidget {
             style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
           ),
         ),
-        Center(
+        Card(
           child: Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: const EdgeInsets.all(6.0),
             child: _buildCoordinates(size),
           ),
         ),

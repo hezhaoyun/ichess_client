@@ -114,16 +114,19 @@ class _ViewPageState extends State<ViewPage> {
     }
   }
 
-  Widget _buildControlPanel() => ChessControlPanel(
-        currentGameIndex: currentGameIndex,
-        gamesCount: games.length,
-        currentMoveIndex: currentMoveIndex,
-        maxMoves: currentGame?.moves.length ?? 0,
-        onGameSelect: _showGamesList,
-        onGoToStart: () => _goToMove(-1),
-        onPreviousMove: () => _goToMove(currentMoveIndex - 1),
-        onNextMove: () => _goToMove(currentMoveIndex + 1),
-        onGoToEnd: () => _goToMove(currentGame!.moves.length - 1),
+  Widget _buildControlPanel() => Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+        child: ChessControlPanel(
+          currentGameIndex: currentGameIndex,
+          gamesCount: games.length,
+          currentMoveIndex: currentMoveIndex,
+          maxMoves: currentGame?.moves.length ?? 0,
+          onGameSelect: _showGamesList,
+          onGoToStart: () => _goToMove(-1),
+          onPreviousMove: () => _goToMove(currentMoveIndex - 1),
+          onNextMove: () => _goToMove(currentMoveIndex + 1),
+          onGoToEnd: () => _goToMove(currentGame!.moves.length - 1),
+        ),
       );
 
   // 添加新方法来显示对局列表对话框
@@ -176,17 +179,26 @@ class _ViewPageState extends State<ViewPage> {
 
   Widget _buildContent() {
     if (games.isEmpty) {
-      return Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.folder_open, size: 64, color: Colors.grey[400]),
-            const SizedBox(height: 16),
-            Text(
-              '请点击右上角按钮加载PGN文件',
-              style: TextStyle(color: Colors.grey[600]),
-            ),
-          ],
+      return Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [Colors.blue.shade50, Colors.white],
+          ),
+        ),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(Icons.folder_open, size: 64, color: Colors.grey[400]),
+              const SizedBox(height: 16),
+              Text(
+                '请点击右上角按钮加载PGN文件',
+                style: TextStyle(color: Colors.grey[600]),
+              ),
+            ],
+          ),
         ),
       );
     }
@@ -194,24 +206,33 @@ class _ViewPageState extends State<ViewPage> {
     return OrientationBuilder(
       builder: (context, orientation) {
         final isWideLayout = orientation == Orientation.landscape || MediaQuery.of(context).size.width > 900;
-        return Column(
-          children: [
-            Expanded(
-              child: isWideLayout
-                  ? Row(
-                      children: [
-                        Expanded(flex: 3, child: _buildBoardSection()),
-                        Expanded(flex: 2, child: _buildMoveListSection()),
-                      ],
-                    )
-                  : Column(
-                      children: [
-                        _buildBoardSection(),
-                        Expanded(child: _buildMoveListSection()),
-                      ],
-                    ),
+        return Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [Colors.blue.shade50, Colors.white],
             ),
-          ],
+          ),
+          child: Column(
+            children: [
+              Expanded(
+                child: isWideLayout
+                    ? Row(
+                        children: [
+                          Expanded(flex: 3, child: _buildBoardSection()),
+                          Expanded(flex: 2, child: _buildMoveListSection()),
+                        ],
+                      )
+                    : Column(
+                        children: [
+                          _buildBoardSection(),
+                          Expanded(child: _buildMoveListSection()),
+                        ],
+                      ),
+              ),
+            ],
+          ),
         );
       },
     );
