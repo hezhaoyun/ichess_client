@@ -33,20 +33,18 @@ class _HomePageState extends State<BattlePage> with GameMixin {
   Color getOverlayColor(SquareInfo info) {
     if (lastMove == null) return Colors.transparent;
 
-    if (lastMove!.first.first == info.rank &&
-        lastMove!.first.last == info.file) {
-      return kMoveHighlightColor.withOpacity(0.4);
+    if (lastMove!.first.first == info.rank && lastMove!.first.last == info.file) {
+      return kMoveHighlightColor.withAlpha(0x66);
     }
 
     if (lastMove!.last.first == info.rank && lastMove!.last.last == info.file) {
-      return kMoveHighlightColor.withOpacity(0.87);
+      return kMoveHighlightColor.withAlpha(0xDD);
     }
 
     return Colors.transparent;
   }
 
-  Widget buildSquare(double size, Color fieldColor, Color overlayColor) =>
-      Container(
+  Widget buildSquare(double size, Color fieldColor, Color overlayColor) => Container(
         color: fieldColor,
         width: size,
         height: size,
@@ -97,22 +95,17 @@ class _HomePageState extends State<BattlePage> with GameMixin {
     controller.setHints(HintMap());
   }
 
-  void onPieceDrop(PieceDropEvent event) =>
-      playerMoved({'from': event.from.toString(), 'to': event.to.toString()});
+  void onPieceDrop(PieceDropEvent event) => playerMoved({'from': event.from.toString(), 'to': event.to.toString()});
 
-  void doMove(chess_lib.Move move) =>
-      playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
+  void doMove(chess_lib.Move move) => playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
 
   @override
   Widget build(BuildContext context) {
     final double size = MediaQuery.of(context).size.shortestSide;
 
-    final orientationColor = orientation == BoardOrientation.white
-        ? chess_lib.Color.WHITE
-        : chess_lib.Color.BLACK;
+    final orientationColor = orientation == BoardOrientation.white ? chess_lib.Color.WHITE : chess_lib.Color.BLACK;
 
-    final interactiveEnable = (gameState == GameState.waitingMove ||
-            gameState == GameState.waitingOpponent) &&
+    final interactiveEnable = (gameState == GameState.waitingMove || gameState == GameState.waitingOpponent) &&
         chess.turn == orientationColor;
 
     PieceMap pieceMap() => PieceMap(
@@ -152,21 +145,16 @@ class _HomePageState extends State<BattlePage> with GameMixin {
     Row buildButtons() => Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            if (gameState == GameState.idle)
-              TextButton(onPressed: connect, child: const Text('连接')),
-            if (gameState != GameState.idle)
-              TextButton(onPressed: disconnect, child: const Text('断开')),
-            if (gameState == GameState.waitingMatch)
-              TextButton(onPressed: match, child: const Text('匹配')),
-            if (gameState == GameState.waitingMove)
-              TextButton(onPressed: proposeDraw, child: const Text('求和')),
+            if (gameState == GameState.idle) TextButton(onPressed: connect, child: const Text('连接')),
+            if (gameState != GameState.idle) TextButton(onPressed: disconnect, child: const Text('断开')),
+            if (gameState == GameState.waitingMatch) TextButton(onPressed: match, child: const Text('匹配')),
+            if (gameState == GameState.waitingMove) TextButton(onPressed: proposeDraw, child: const Text('求和')),
             if (gameState == GameState.waitingMove)
               TextButton(
                 onPressed: chess.move_number >= 2 ? proposeTakeback : null,
                 child: const Text('悔棋'),
               ),
-            if (gameState == GameState.waitingMove)
-              TextButton(onPressed: resign, child: const Text('投降')),
+            if (gameState == GameState.waitingMove) TextButton(onPressed: resign, child: const Text('投降')),
           ],
         );
 
