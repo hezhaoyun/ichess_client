@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:chess/chess.dart' as chess_lib;
-import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
@@ -9,6 +8,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import 'move_list.dart';
 import 'pgn_game.dart';
 import 'chess_control_panel.dart';
+import 'chess_board_view.dart';
 
 class ViewPage extends StatefulWidget {
   const ViewPage({super.key});
@@ -18,9 +18,6 @@ class ViewPage extends StatefulWidget {
 }
 
 class _ViewPageState extends State<ViewPage> {
-  static const kLightSquareColor = Color(0xFFDEC6A5);
-  static const kDarkSquareColor = Color(0xFF98541A);
-
   final controller = WPChessboardController();
 
   PgnGame? currentGame;
@@ -37,229 +34,6 @@ class _ViewPageState extends State<ViewPage> {
   // 添加新属性
   List<PgnGame> games = [];
   int currentGameIndex = 0;
-
-  @override
-  void dispose() {
-    _scrollController.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('棋谱阅读'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.folder_open),
-            onPressed: isLoading ? null : _loadPgnFile,
-          ),
-        ],
-      ),
-      body: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent(),
-    );
-  }
-
-  Widget _buildContent() {
-    if (games.isEmpty) {
-      return Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.folder_open, size: 64, color: Colors.grey[400]),
-            const SizedBox(height: 16),
-            Text(
-              '请点击右上角按钮加载PGN文件',
-              style: TextStyle(color: Colors.grey[600]),
-            ),
-          ],
-        ),
-      );
-    }
-
-    return OrientationBuilder(
-      builder: (context, orientation) {
-        final isWideLayout = orientation == Orientation.landscape || MediaQuery.of(context).size.width > 900;
-
-        return Column(
-          children: [
-            Expanded(
-              child: isWideLayout
-                  ? Row(
-                      children: [
-                        Expanded(
-                          flex: 3,
-                          child: _buildBoardSection(),
-                        ),
-                        Expanded(
-                          flex: 2,
-                          child: _buildMoveListSection(),
-                        ),
-                      ],
-                    )
-                  : Column(
-                      children: [
-                        _buildBoardSection(),
-                        Expanded(
-                          child: _buildMoveListSection(),
-                        ),
-                      ],
-                    ),
-            ),
-          ],
-        );
-      },
-    );
-  }
-
-  Widget squareBuilder(SquareInfo info) {
-    final isLightSquare = (info.index + info.rank) % 2 == 0;
-    final fieldColor = isLightSquare ? kLightSquareColor : kDarkSquareColor;
-    return buildSquare(info.size, fieldColor, Colors.transparent);
-  }
-
-  Widget buildSquare(double size, Color fieldColor, Color overlayColor) => Container(
-        color: fieldColor,
-        width: size,
-        height: size,
-        child: AnimatedContainer(
-          color: overlayColor,
-          width: size,
-          height: size,
-          duration: const Duration(milliseconds: 200),
-        ),
-      );
-
-  Widget _buildBoardSection() {
-    // 根据屏幕方向计算棋盘大小
-    final screenSize = MediaQuery.of(context).size;
-    final orientation = MediaQuery.of(context).orientation;
-
-    double size;
-    if (orientation == Orientation.landscape) {
-      // 横屏时，棋盘高度为屏幕高度的80%
-      size = screenSize.height * 0.6;
-      // 确保棋盘不会太宽
-      size = size.clamp(0.0, screenSize.width * 0.4);
-    } else {
-      // 竖屏时，棋盘宽度为屏幕宽度的90%
-      size = screenSize.width * 0.8;
-      // 确保棋盘不会太大
-      size = size.clamp(0.0, screenSize.height * 0.5);
-    }
-
-    PieceMap pieceMap() => PieceMap(
-          K: (size) => WhiteKing(size: size),
-          Q: (size) => WhiteQueen(size: size),
-          B: (size) => WhiteBishop(size: size),
-          N: (size) => WhiteKnight(size: size),
-          R: (size) => WhiteRook(size: size),
-          P: (size) => WhitePawn(size: size),
-          k: (size) => BlackKing(size: size),
-          q: (size) => BlackQueen(size: size),
-          b: (size) => BlackBishop(size: size),
-          n: (size) => BlackKnight(size: size),
-          r: (size) => BlackRook(size: size),
-          p: (size) => BlackPawn(size: size),
-        );
-
-    final chessboard = WPChessboard(
-      size: size,
-      squareBuilder: squareBuilder,
-      controller: controller,
-      pieceMap: pieceMap(),
-    );
-
-    // 创建坐标标签
-    Widget buildCoordinates() {
-      const files = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
-      const ranks = ['8', '7', '6', '5', '4', '3', '2', '1'];
-      final squareSize = size / 8;
-      const labelStyle = TextStyle(fontSize: 12);
-
-      return Stack(
-        children: [
-          // 棋盘本体
-          Padding(
-            padding: const EdgeInsets.only(left: 20, bottom: 20),
-            child: chessboard,
-          ),
-          // 列标签 (a-h)
-          Positioned(
-            bottom: 0,
-            left: 20,
-            right: 0,
-            height: 20,
-            child: Row(
-              children: [
-                ...files.map((file) => SizedBox(
-                      width: squareSize,
-                      child: Center(child: Text(file, style: labelStyle)),
-                    )),
-              ],
-            ),
-          ),
-          // 行标签 (1-8)
-          Positioned(
-            top: 0,
-            left: 0,
-            bottom: 20,
-            width: 20,
-            child: Column(
-              children: [
-                ...ranks.map((rank) => SizedBox(
-                      height: squareSize,
-                      child: Center(child: Text(rank, style: labelStyle)),
-                    )),
-              ],
-            ),
-          ),
-        ],
-      );
-    }
-
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(1.0),
-          child: Text(
-            '${currentGame!.white} vs ${currentGame!.black}\n'
-            '${currentGame!.event} (${currentGame!.date})',
-            textAlign: TextAlign.center,
-            style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
-          ),
-        ),
-        Center(
-          child: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: buildCoordinates(), // 使用新的包含坐标的组件
-          ),
-        ),
-        _buildControlPanel(),
-      ],
-    );
-  }
-
-  Widget _buildMoveListSection() {
-    return Padding(
-      padding: const EdgeInsets.all(16.0),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Expanded(
-            child: MoveList(
-              moves: currentGame!.moves,
-              currentMoveIndex: currentMoveIndex,
-              onMoveSelected: _goToMove,
-              scrollController: _scrollController,
-              key: _selectedMoveKey,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
 
   Widget _buildControlPanel() => ChessControlPanel(
         currentGameIndex: currentGameIndex,
@@ -360,11 +134,9 @@ class _ViewPageState extends State<ViewPage> {
   }
 
   // 添加新方法来显示对局列表对话框
-  void _showGamesList() {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
+  void _showGamesList() => showDialog(
+        context: context,
+        builder: (BuildContext context) => AlertDialog(
           title: const Text('选择对局'),
           content: SizedBox(
             width: double.maxFinite, // 使对话框更宽
@@ -392,8 +164,101 @@ class _ViewPageState extends State<ViewPage> {
               },
             ),
           ),
+        ),
+      );
+
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) => Scaffold(
+        appBar: AppBar(
+          title: const Text('棋谱阅读'),
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.folder_open),
+              onPressed: isLoading ? null : _loadPgnFile,
+            ),
+          ],
+        ),
+        body: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent(),
+      );
+
+  Widget _buildContent() {
+    if (games.isEmpty) {
+      return Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.folder_open, size: 64, color: Colors.grey[400]),
+            const SizedBox(height: 16),
+            Text(
+              '请点击右上角按钮加载PGN文件',
+              style: TextStyle(color: Colors.grey[600]),
+            ),
+          ],
+        ),
+      );
+    }
+
+    return OrientationBuilder(
+      builder: (context, orientation) {
+        final isWideLayout = orientation == Orientation.landscape || MediaQuery.of(context).size.width > 900;
+
+        return Column(
+          children: [
+            Expanded(
+              child: isWideLayout
+                  ? Row(
+                      children: [
+                        Expanded(flex: 3, child: _buildBoardSection()),
+                        Expanded(flex: 2, child: _buildMoveListSection()),
+                      ],
+                    )
+                  : Column(
+                      children: [
+                        _buildBoardSection(),
+                        Expanded(child: _buildMoveListSection()),
+                      ],
+                    ),
+            ),
+          ],
         );
       },
     );
   }
+
+  Widget _buildBoardSection() => Column(
+        children: [
+          ChessboardView(
+            controller: controller,
+            whiteName: currentGame!.white,
+            blackName: currentGame!.black,
+            event: currentGame!.event,
+            date: currentGame!.date,
+          ),
+          _buildControlPanel(),
+        ],
+      );
+
+  Widget _buildMoveListSection() => Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Expanded(
+              child: MoveList(
+                moves: currentGame!.moves,
+                currentMoveIndex: currentMoveIndex,
+                onMoveSelected: _goToMove,
+                scrollController: _scrollController,
+                key: _selectedMoveKey,
+              ),
+            ),
+          ],
+        ),
+      );
 }
