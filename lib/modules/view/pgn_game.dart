@@ -1,3 +1,5 @@
+import 'package:chess/chess.dart' as chess_lib;
+
 class PgnGame {
   final String event;
   final String site;
@@ -105,5 +107,20 @@ class PgnGame {
     }
 
     return games;
+  }
+
+  static String moveToFen(String previousFen, String move) {
+    // 使用 chess 包创建棋局实例
+    final chess = chess_lib.Chess.fromFEN(previousFen);
+
+    // 尝试执行移动
+    final success = chess.move(move);
+    if (!success) {
+      // 如果移动不合法，返回原始 FEN
+      return previousFen;
+    }
+
+    // 返回新的 FEN
+    return chess.fen;
   }
 }

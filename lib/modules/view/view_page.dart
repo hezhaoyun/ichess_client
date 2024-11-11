@@ -1,11 +1,13 @@
-import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
-import 'package:flutter/material.dart';
-import 'package:file_picker/file_picker.dart';
-import 'package:wp_chessboard/wp_chessboard.dart';
 import 'dart:io';
-import 'pgn_game.dart';
+
+import 'package:chess/chess.dart' as chess_lib;
+import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
+import 'package:file_picker/file_picker.dart';
+import 'package:flutter/material.dart';
+import 'package:wp_chessboard/wp_chessboard.dart';
+
 import 'move_list.dart';
-import 'chess_utils.dart';
+import 'pgn_game.dart';
 
 class ViewPage extends StatefulWidget {
   const ViewPage({super.key});
@@ -22,8 +24,8 @@ class _ViewPageState extends State<ViewPage> {
 
   PgnGame? currentGame;
   int currentMoveIndex = -1;
-  String currentFen = ChessUtils.initialFen;
-  List<String> fenHistory = [ChessUtils.initialFen];
+  String currentFen = chess_lib.Chess.DEFAULT_POSITION;
+  List<String> fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
   bool isLoading = false;
 
   final ScrollController _scrollController = ScrollController();
@@ -154,6 +156,54 @@ class _ViewPageState extends State<ViewPage> {
       pieceMap: pieceMap(),
     );
 
+    // 创建坐标标签
+    Widget buildCoordinates() {
+      const files = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+      const ranks = ['8', '7', '6', '5', '4', '3', '2', '1'];
+      final squareSize = size / 8;
+      const labelStyle = TextStyle(fontSize: 12);
+
+      return Stack(
+        children: [
+          // 棋盘本体
+          Padding(
+            padding: const EdgeInsets.only(left: 20, bottom: 20),
+            child: chessboard,
+          ),
+          // 列标签 (a-h)
+          Positioned(
+            bottom: 0,
+            left: 20,
+            right: 0,
+            height: 20,
+            child: Row(
+              children: [
+                ...files.map((file) => SizedBox(
+                      width: squareSize,
+                      child: Center(child: Text(file, style: labelStyle)),
+                    )),
+              ],
+            ),
+          ),
+          // 行标签 (1-8)
+          Positioned(
+            top: 0,
+            left: 0,
+            bottom: 20,
+            width: 20,
+            child: Column(
+              children: [
+                ...ranks.map((rank) => SizedBox(
+                      height: squareSize,
+                      child: Center(child: Text(rank, style: labelStyle)),
+                    )),
+              ],
+            ),
+          ),
+        ],
+      );
+    }
+
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -163,13 +213,13 @@ class _ViewPageState extends State<ViewPage> {
             '${currentGame!.white} vs ${currentGame!.black}\n'
             '${currentGame!.event} (${currentGame!.date})',
             textAlign: TextAlign.center,
-            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+            style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
           ),
         ),
         Center(
           child: Padding(
             padding: const EdgeInsets.all(16.0),
-            child: chessboard,
+            child: buildCoordinates(), // 使用新的包含坐标的组件
           ),
         ),
         _buildControlPanel(),
@@ -280,8 +330,8 @@ class _ViewPageState extends State<ViewPage> {
             currentGameIndex = 0;
             currentGame = games[0].parseMoves();
             currentMoveIndex = -1;
-            fenHistory = [ChessUtils.initialFen];
-            currentFen = ChessUtils.initialFen;
+            fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
+            currentFen = chess_lib.Chess.DEFAULT_POSITION;
           }
         });
 
@@ -303,14 +353,14 @@ class _ViewPageState extends State<ViewPage> {
 
     setState(() {
       if (index < currentMoveIndex) {
-        // 后退时，删除当前位置之后的所有历史记录
+        // 后退时，删除当前位置之后的���有历史记录
         fenHistory.removeRange(index + 2, fenHistory.length);
         currentMoveIndex = index;
         currentFen = fenHistory[index + 1];
       } else if (index > currentMoveIndex) {
         // 前进
         for (var i = currentMoveIndex + 1; i <= index; i++) {
-          final newFen = ChessUtils.moveToFen(
+          final newFen = PgnGame.moveToFen(
             fenHistory.last,
             currentGame!.moves[i],
           );
@@ -368,8 +418,8 @@ class _ViewPageState extends State<ViewPage> {
                       currentGameIndex = index;
                       currentGame = games[index].parseMoves();
                       currentMoveIndex = -1;
-                      fenHistory = [ChessUtils.initialFen];
-                      currentFen = ChessUtils.initialFen;
+                      fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
+                      currentFen = chess_lib.Chess.DEFAULT_POSITION;
                       controller.setFen(currentFen);
                     });
                   },
