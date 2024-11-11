@@ -134,8 +134,6 @@ class PgnGame {
   /// 执行移动并返回新的FEN串
   static String moveToFen(String previousFen, String move) {
     final chess = chess_lib.Chess.fromFEN(previousFen);
-
-    // 执行移动，如果不合法则返回原始位置
     return chess.move(move) ? chess.fen : previousFen;
   }
 }

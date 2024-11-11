@@ -21,46 +21,41 @@ class MoveList extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: _buildContainerDecoration(),
-      child: SingleChildScrollView(
-        controller: scrollController,
-        padding: const EdgeInsets.all(_horizontalSpacing),
-        child: Wrap(
-          spacing: _horizontalSpacing,
-          runSpacing: _verticalSpacing,
-          children: _buildMoveItems(),
+  Widget build(BuildContext context) => Container(
+        decoration: _buildContainerDecoration(),
+        child: SingleChildScrollView(
+          controller: scrollController,
+          padding: const EdgeInsets.all(_horizontalSpacing),
+          child: Wrap(
+            spacing: _horizontalSpacing,
+            runSpacing: _verticalSpacing,
+            children: _buildMoveItems(),
+          ),
         ),
-      ),
-    );
-  }
-
-  BoxDecoration _buildContainerDecoration() {
-    return BoxDecoration(
-      color: Colors.white,
-      border: Border.all(color: Colors.grey.shade300),
-      borderRadius: BorderRadius.circular(_borderRadius),
-      boxShadow: [
-        BoxShadow(
-          color: Colors.grey.withOpacity(0.2),
-          blurRadius: 4,
-          offset: const Offset(0, 2),
-        ),
-      ],
-    );
-  }
-
-  List<Widget> _buildMoveItems() {
-    return List.generate(moves.length, (index) {
-      return _MoveItem(
-        move: moves[index],
-        moveIndex: index,
-        isSelected: index == currentMoveIndex,
-        onTap: () => onMoveSelected(index),
       );
-    });
-  }
+
+  BoxDecoration _buildContainerDecoration() => BoxDecoration(
+        color: Colors.white,
+        border: Border.all(color: Colors.grey.shade300),
+        borderRadius: BorderRadius.circular(_borderRadius),
+        boxShadow: const [
+          BoxShadow(
+            color: Color.fromRGBO(158, 158, 158, 0.2),
+            blurRadius: 4,
+            offset: Offset(0, 2),
+          ),
+        ],
+      );
+
+  List<Widget> _buildMoveItems() => List.generate(
+        moves.length,
+        (index) => _MoveItem(
+          move: moves[index],
+          moveIndex: index,
+          isSelected: index == currentMoveIndex,
+          onTap: () => onMoveSelected(index),
+        ),
+      );
 }
 
 /// 单个移动项组件
@@ -78,29 +73,20 @@ class _MoveItem extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onTap,
-      child: Container(
-        padding: const EdgeInsets.symmetric(
-          horizontal: 8.0,
-          vertical: 4.0,
-        ),
-        decoration: BoxDecoration(
-          color: isSelected ? Colors.grey.shade200 : Colors.transparent,
-          borderRadius: BorderRadius.circular(MoveList._moveItemBorderRadius),
-        ),
-        child: Text(
-          _formatMoveText(),
-          style: TextStyle(
-            fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+  Widget build(BuildContext context) => InkWell(
+        onTap: onTap,
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+          decoration: BoxDecoration(
+            color: isSelected ? Colors.grey.shade200 : Colors.transparent,
+            borderRadius: BorderRadius.circular(MoveList._moveItemBorderRadius),
+          ),
+          child: Text(
+            _formatMoveText(),
+            style: TextStyle(fontWeight: isSelected ? FontWeight.bold : FontWeight.normal),
           ),
         ),
-      ),
-    );
-  }
+      );
 
-  String _formatMoveText() {
-    return moveIndex.isEven ? '${(moveIndex ~/ 2 + 1)}. $move' : move;
-  }
+  String _formatMoveText() => moveIndex.isEven ? '${(moveIndex ~/ 2 + 1)}. $move' : move;
 }
