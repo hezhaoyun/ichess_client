@@ -8,6 +8,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 
 import 'move_list.dart';
 import 'pgn_game.dart';
+import 'chess_control_panel.dart';
 
 class ViewPage extends StatefulWidget {
   const ViewPage({super.key});
@@ -260,53 +261,17 @@ class _ViewPageState extends State<ViewPage> {
     );
   }
 
-  Widget _buildControlPanel() {
-    return Card(
-      margin: const EdgeInsets.symmetric(horizontal: 16),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          // 对局切换
-          const Expanded(child: SizedBox()),
-          TextButton(
-            onPressed: () => _showGamesList(),
-            child: Row(
-              children: [
-                Text(
-                  '${currentGameIndex + 1} / ${games.length}',
-                  style: const TextStyle(fontSize: 16),
-                ),
-                const Icon(Icons.arrow_drop_down, size: 20),
-              ],
-            ),
-          ),
-          const Expanded(child: SizedBox()),
-          // 走法控制按钮
-          IconButton(
-            icon: const Icon(Icons.first_page),
-            onPressed: currentMoveIndex >= 0 ? _goToStart : null,
-            tooltip: '开始',
-          ),
-          IconButton(
-            icon: const Icon(Icons.navigate_before),
-            onPressed: currentMoveIndex >= 0 ? _previousMove : null,
-            tooltip: '上一步',
-          ),
-          IconButton(
-            icon: const Icon(Icons.navigate_next),
-            onPressed: currentMoveIndex < (currentGame?.moves.length ?? 0) - 1 ? _nextMove : null,
-            tooltip: '下一步',
-          ),
-          IconButton(
-            icon: const Icon(Icons.last_page),
-            onPressed: currentGame != null && currentMoveIndex < currentGame!.moves.length - 1 ? _goToEnd : null,
-            tooltip: '结束',
-          ),
-          const Expanded(child: SizedBox()),
-        ],
-      ),
-    );
-  }
+  Widget _buildControlPanel() => ChessControlPanel(
+        currentGameIndex: currentGameIndex,
+        gamesCount: games.length,
+        currentMoveIndex: currentMoveIndex,
+        maxMoves: currentGame?.moves.length ?? 0,
+        onGameSelect: _showGamesList,
+        onGoToStart: () => _goToMove(-1),
+        onPreviousMove: () => _goToMove(currentMoveIndex - 1),
+        onNextMove: () => _goToMove(currentMoveIndex + 1),
+        onGoToEnd: () => _goToMove(currentGame!.moves.length - 1),
+      );
 
   Future<void> _loadPgnFile() async {
     try {
@@ -393,11 +358,6 @@ class _ViewPageState extends State<ViewPage> {
       });
     }
   }
-
-  void _goToStart() => _goToMove(-1);
-  void _previousMove() => _goToMove(currentMoveIndex - 1);
-  void _nextMove() => _goToMove(currentMoveIndex + 1);
-  void _goToEnd() => _goToMove(currentGame!.moves.length - 1);
 
   // 添加新方法来显示对局列表对话框
   void _showGamesList() {
