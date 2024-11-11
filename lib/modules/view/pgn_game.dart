@@ -1,6 +1,11 @@
 import 'package:chess/chess.dart' as chess_lib;
 
+/// PGN棋局数据模型
 class PgnGame {
+  // 正则表达式常量
+  static final _tagRegex = RegExp(r'\[(\w+)\s+"([^"]+)"\]');
+  static final _moveRegex = RegExp(r'\b\d+\.\.?\.?\s+([^\s]+)(?:\s+([^\s]+))?');
+
   final String event;
   final String site;
   final String date;
@@ -11,7 +16,7 @@ class PgnGame {
   final List<String> moves;
   final String? _rawPgn;
 
-  PgnGame({
+  const PgnGame({
     this.event = '',
     this.site = '',
     this.date = '',
@@ -23,19 +28,9 @@ class PgnGame {
     String? rawPgn,
   }) : _rawPgn = rawPgn;
 
+  /// 从PGN文本创建只包含头信息的棋局对象
   factory PgnGame.headerOnly(String pgn) {
-    final Map<String, String> tags = {};
-    final tagRegex = RegExp(r'\[(\w+)\s+"([^"]+)"\]');
-
-    for (var line in pgn.split('\n')) {
-      line = line.trim();
-      if (line.isEmpty || !line.startsWith('[')) continue;
-
-      final tagMatch = tagRegex.firstMatch(line);
-      if (tagMatch != null) {
-        tags[tagMatch.group(1)!] = tagMatch.group(2)!;
-      }
-    }
+    final Map<String, String> tags = _parseHeaders(pgn);
 
     return PgnGame(
       event: tags['Event'] ?? '',
@@ -50,24 +45,28 @@ class PgnGame {
     );
   }
 
+  /// 解析PGN头信息
+  static Map<String, String> _parseHeaders(String pgn) {
+    final Map<String, String> tags = {};
+
+    for (var line in pgn.split('\n')) {
+      line = line.trim();
+      if (line.isEmpty || !line.startsWith('[')) continue;
+
+      final tagMatch = _tagRegex.firstMatch(line);
+      if (tagMatch != null) {
+        tags[tagMatch.group(1)!] = tagMatch.group(2)!;
+      }
+    }
+
+    return tags;
+  }
+
+  /// 解析棋局移动
   PgnGame parseMoves() {
     if (_rawPgn == null) return this;
 
-    final moveRegex = RegExp(r'\b\d+\.\.?\.?\s+([^\s]+)(?:\s+([^\s]+))?');
-    String movesText = '';
-    List<String> moves = [];
-
-    for (var line in _rawPgn.split('\n')) {
-      line = line.trim();
-      if (line.isEmpty || line.startsWith('[')) continue;
-      movesText += ' $line';
-    }
-
-    final moveMatches = moveRegex.allMatches(movesText);
-    for (var match in moveMatches) {
-      if (match.group(1) != null) moves.add(match.group(1)!);
-      if (match.group(2) != null) moves.add(match.group(2)!);
-    }
+    final moves = _parseMoveText(_rawPgn);
 
     return PgnGame(
       event: event,
@@ -81,8 +80,31 @@ class PgnGame {
     );
   }
 
+  /// 解析移动文本
+  static List<String> _parseMoveText(String pgn) {
+    final moves = <String>[];
+    String movesText = '';
+
+    // 提取移动文本
+    for (var line in pgn.split('\n')) {
+      line = line.trim();
+      if (line.isEmpty || line.startsWith('[')) continue;
+      movesText += ' $line';
+    }
+
+    // 解析移动
+    final moveMatches = _moveRegex.allMatches(movesText);
+    for (var match in moveMatches) {
+      if (match.group(1) != null) moves.add(match.group(1)!);
+      if (match.group(2) != null) moves.add(match.group(2)!);
+    }
+
+    return moves;
+  }
+
+  /// 解析多个棋局
   static List<PgnGame> parseMultipleGames(String pgn) {
-    List<PgnGame> games = [];
+    final games = <PgnGame>[];
     String currentGame = '';
     bool inGame = false;
 
@@ -109,18 +131,11 @@ class PgnGame {
     return games;
   }
 
+  /// 执行移动并返回新的FEN串
   static String moveToFen(String previousFen, String move) {
-    // 使用 chess 包创建棋局实例
     final chess = chess_lib.Chess.fromFEN(previousFen);
 
-    // 尝试执行移动
-    final success = chess.move(move);
-    if (!success) {
-      // 如果移动不合法，返回原始 FEN
-      return previousFen;
-    }
-
-    // 返回新的 FEN
-    return chess.fen;
+    // 执行移动，如果不合法则返回原始位置
+    return chess.move(move) ? chess.fen : previousFen;
   }
 }
