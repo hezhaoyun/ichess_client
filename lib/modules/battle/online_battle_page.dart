@@ -83,57 +83,55 @@ class _HomePageState extends State<OnlineBattlePage>
     );
   }
 
-  Widget _buildPlayerInfo({
-    required String name,
-    required dynamic elo,
-    required String time,
-    required bool isOpponent,
-  }) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(20),
-        boxShadow: const [
-          BoxShadow(
-            color: Colors.black12,
-            blurRadius: 5,
-            offset: Offset(0, 2),
-          ),
-        ],
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          CircleAvatar(
-            backgroundColor:
-                isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
-            child: Text(name[0].toUpperCase()),
-          ),
-          const SizedBox(width: 12),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                name,
-                style: const TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
+  Widget _buildPlayerInfo(
+          {required String name,
+          required dynamic elo,
+          required String time,
+          required bool isOpponent}) =>
+      Container(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: const [
+            BoxShadow(
+              color: Colors.black12,
+              blurRadius: 5,
+              offset: Offset(0, 2),
+            ),
+          ],
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            CircleAvatar(
+              backgroundColor:
+                  isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
+              child: Text(name[0].toUpperCase()),
+            ),
+            const SizedBox(width: 12),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  name,
+                  style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-              ),
-              Text(
-                'ELO: $elo | 时间: $time',
-                style: TextStyle(
-                  color: Colors.grey[600],
-                  fontSize: 14,
+                Text(
+                  'ELO: $elo | 时间: $time',
+                  style: TextStyle(
+                    color: Colors.grey[600],
+                    fontSize: 14,
+                  ),
                 ),
-              ),
-            ],
-          ),
-        ],
-      ),
-    );
-  }
+              ],
+            ),
+          ],
+        ),
+      );
 
   Widget _buildGameControls() {
     final buttonStyle = ElevatedButton.styleFrom(
@@ -190,5 +188,11 @@ class _HomePageState extends State<OnlineBattlePage>
           ),
       ],
     );
+  }
+
+  @override
+  void dispose() {
+    disconnect();
+    super.dispose();
   }
 }
