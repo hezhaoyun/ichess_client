@@ -5,19 +5,12 @@ import 'package:flutter/material.dart';
 import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import 'promotion_dialog.dart';
+import 'chess_battle_mixin.dart';
 
-enum GameState { idle, connected, waitingMatch, waitingMove, waitingOpponent }
-
-mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
+mixin OnlineBattleMixin<T extends StatefulWidget> on ChessBattleMixin<T> {
   socket_io.Socket? socket;
   GameState gameState = GameState.idle;
-
-  final controller = WPChessboardController();
   BoardOrientation orientation = BoardOrientation.white;
-
-  late chess_lib.Chess chess;
-  List<List<int>>? lastMove;
 
   int gameTime = 0;
   int opponentGameTime = 0;
@@ -27,13 +20,16 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
 
   late String pid, name;
 
-  void initGame() {
+  @override
+  void initChessGame({String initialFen = chess_lib.Chess.DEFAULT_POSITION}) {
+    super.initChessGame(initialFen: initialFen);
+
     pid = 'PID_${Random().nextInt(1000000)}';
     name = 'CLIENT_${Random().nextInt(1000000)}';
   }
 
   void setupSocketIO() {
-    socket = socket_io.io('http://127.0.0.1:5000', <String, dynamic>{
+    socket = socket_io.io('http://192.168.50.118:8888', <String, dynamic>{
       'transports': ['websocket'],
     });
 
@@ -42,7 +38,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
 
     socket?.on('waiting_match', onWaitingMatch);
     socket?.on('game_mode', onGameMode);
-    socket?.on('move', onMove);
+    socket?.on('move', onSocketMove);
     socket?.on('go', onGo);
     socket?.on('win', onWin);
     socket?.on('lost', onLost);
@@ -84,8 +80,6 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
   onGameMode(data) {
     debugPrint('Game mode: $data');
 
-    chess = chess_lib.Chess();
-
     setState(() {
       gameState = GameState.waitingOpponent;
       lastMove = null;
@@ -101,19 +95,6 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
     });
 
     controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
-  }
-
-  onMove(data) {
-    final move = data['move'];
-    debugPrint('Opponent move: $move');
-
-    chess.move({
-      'from': move.substring(0, 2),
-      'to': move.substring(2, 4),
-      'promotion': move.length > 4 ? move.substring(4, 5) : null,
-    });
-
-    controller.setFen(chess.fen);
   }
 
   onGo(data) {
@@ -264,53 +245,6 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
     });
   }
 
-  playerMoved(Map<String, String> move) {
-    bool isPromotion = chess.moves({'verbose': true}).any((m) =>
-        m['from'] == move['from'] &&
-        m['to'] == move['to'] &&
-        m['flags'].contains('p'));
-
-    if (isPromotion) {
-      showPromotionDialog(
-        context,
-        orientation,
-        (promotion) => makeMove(
-          {'from': move['from']!, 'to': move['to']!, 'promotion': promotion},
-        ),
-      );
-    } else {
-      makeMove(move);
-    }
-  }
-
-  void makeMove(Map<String, String> move) {
-    chess.move(move);
-
-    final fromSquare = move['from']!;
-    final toSquare = move['to']!;
-
-    int rankFrom = fromSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-    int fileFrom = fromSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
-    int rankTo = toSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-    int fileTo = toSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
-
-    setState(() {
-      lastMove = [
-        [rankFrom, fileFrom],
-        [rankTo, fileTo]
-      ];
-    });
-
-    controller.setFen(chess.fen);
-
-    socket?.emit(
-      'move',
-      {'move': "${move['from']}${move['to']}${move['promotion'] ?? ''}"},
-    );
-
-    setState(() => gameState = GameState.waitingOpponent);
-  }
-
   connect() {
     setupSocketIO();
   }
@@ -390,8 +324,6 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
   }
 
   match() {
-    chess = chess_lib.Chess();
-
     setState(() {
       gameState = GameState.waitingOpponent;
       lastMove = null;
@@ -400,5 +332,34 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
     controller.setFen('');
 
     socket?.emit('match', {});
+  }
+
+  void onSocketMove(dynamic data) {
+    if (data is! Map) return;
+
+    final move = data['move'] as String;
+    final from = move.substring(0, 2);
+    final to = move.substring(2, 4);
+    final promotion = move.length > 4 ? move.substring(4) : null;
+
+    onMove({
+      'from': from,
+      'to': to,
+      if (promotion != null) 'promotion': promotion
+    });
+  }
+
+  @override
+  void onMove(Map<String, String> move) {
+    chess.move(move);
+    updateLastMove(move['from']!, move['to']!);
+    controller.setFen(chess.fen);
+
+    socket?.emit(
+      'move',
+      {'move': "${move['from']}${move['to']}${move['promotion'] ?? ''}"},
+    );
+
+    setState(() => gameState = GameState.waitingOpponent);
   }
 }

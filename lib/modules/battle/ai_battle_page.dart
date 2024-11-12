@@ -6,7 +6,7 @@ import 'package:chess/chess.dart' as chess_lib;
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../widgets/chess_board_widget.dart';
-import 'promotion_dialog.dart';
+import 'chess_battle_mixin.dart';
 
 class AIBattlePage extends StatefulWidget {
   const AIBattlePage({super.key});
@@ -15,28 +15,20 @@ class AIBattlePage extends StatefulWidget {
   State<AIBattlePage> createState() => _AIBattlePageState();
 }
 
-class _AIBattlePageState extends State<AIBattlePage> {
-  late WPChessboardController controller;
+class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
   late Stockfish stockfish;
-  late chess_lib.Chess chess;
-  List<String> moves = [];
   bool isThinking = false;
   bool _isEngineReady = false;
-  List<List<int>>? lastMove;
+  List<String> moves = [];
 
   @override
   void initState() {
     super.initState();
+    initChessGame();
     _initializeGame();
   }
 
   Future<void> _initializeGame() async {
-    chess = chess_lib.Chess();
-
-    controller = WPChessboardController(
-      initialFen: chess_lib.Chess.DEFAULT_POSITION,
-    );
-
     try {
       await initStockfish();
       setState(() => _isEngineReady = true);
@@ -62,89 +54,12 @@ class _AIBattlePageState extends State<AIBattlePage> {
     stockfish.stdin = 'ucinewgame';
   }
 
-  void onPieceStartDrag(SquareInfo square, String piece) {
-    showHintFields(square, piece);
-  }
-
-  void onPieceTap(SquareInfo square, String piece) {
-    if (controller.hints.key == square.index.toString()) {
-      controller.setHints(HintMap());
-      return;
-    }
-
-    showHintFields(square, piece);
-  }
-
-  void showHintFields(SquareInfo square, String piece) {
-    final moves = chess.generate_moves({'square': square.toString()});
-    final hintMap = HintMap(key: square.index.toString());
-
-    for (var move in moves) {
-      final position = calculateMovePosition(move.toAlgebraic);
-      hintMap.set(
-        position.$1, // rank
-        position.$2, // file
-        (size) => MoveHint(size: size, onPressed: () => doMove(move)),
-      );
-    }
-
-    controller.setHints(hintMap);
-  }
-
-  (int, int) calculateMovePosition(String algebraicMove) {
-    final rank = algebraicMove.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-    final file = algebraicMove.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
-    return (rank, file);
-  }
-
-  void onEmptyFieldTap(SquareInfo square) {
-    controller.setHints(HintMap());
-  }
-
-  void onPieceDrop(PieceDropEvent event) =>
-      playerMoved({'from': event.from.toString(), 'to': event.to.toString()});
-
-  void doMove(chess_lib.Move move) =>
-      playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
-
-  playerMoved(Map<String, String> move) {
-    bool isPromotion = chess.moves({'verbose': true}).any((m) =>
-        m['from'] == move['from'] &&
-        m['to'] == move['to'] &&
-        m['flags'].contains('p'));
-
-    if (!isPromotion) {
-      onMove(move);
-      return;
-    }
-
-    showPromotionDialog(
-      context,
-      BoardOrientation.white,
-      (promotion) => onMove(
-        {'from': move['from']!, 'to': move['to']!, 'promotion': promotion},
-      ),
-    );
-  }
-
+  @override
   void onMove(Map<String, String> move) {
     if (!_isEngineReady) return;
 
-    final fromSquare = move['from']!;
-    final toSquare = move['to']!;
-
-    int rankFrom = fromSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-    int fileFrom = fromSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
-    int rankTo = toSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-    int fileTo = toSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
-
-    setState(() {
-      lastMove = [
-        [rankFrom, fileFrom],
-        [rankTo, fileTo]
-      ];
-      moves.add('$fromSquare$toSquare}');
-    });
+    updateLastMove(move['from']!, move['to']!);
+    moves.add('${move['from']}${move['to']}');
 
     chess.move(move);
     controller.setFen(chess.fen);
@@ -405,7 +320,6 @@ class _AIBattlePageState extends State<AIBattlePage> {
   @override
   void dispose() {
     stockfish.dispose();
-    controller.dispose();
     super.dispose();
   }
 }

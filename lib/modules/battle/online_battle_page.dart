@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../widgets/chess_board_widget.dart';
+import 'chess_battle_mixin.dart';
 import 'online_battle_mixin.dart';
 
 class OnlineBattlePage extends StatefulWidget {
@@ -12,57 +13,13 @@ class OnlineBattlePage extends StatefulWidget {
   State<OnlineBattlePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<OnlineBattlePage> with OnlineBattleMixin {
+class _HomePageState extends State<OnlineBattlePage>
+    with ChessBattleMixin, OnlineBattleMixin {
   @override
   void initState() {
     super.initState();
-    initGame();
+    initChessGame(initialFen: '');
   }
-
-  void onPieceStartDrag(SquareInfo square, String piece) {
-    showHintFields(square, piece);
-  }
-
-  void onPieceTap(SquareInfo square, String piece) {
-    if (controller.hints.key == square.index.toString()) {
-      controller.setHints(HintMap());
-      return;
-    }
-
-    showHintFields(square, piece);
-  }
-
-  void showHintFields(SquareInfo square, String piece) {
-    final moves = chess.generate_moves({'square': square.toString()});
-    final hintMap = HintMap(key: square.index.toString());
-
-    for (var move in moves) {
-      final position = calculateMovePosition(move.toAlgebraic);
-      hintMap.set(
-        position.$1, // rank
-        position.$2, // file
-        (size) => MoveHint(size: size, onPressed: () => doMove(move)),
-      );
-    }
-
-    controller.setHints(hintMap);
-  }
-
-  (int, int) calculateMovePosition(String algebraicMove) {
-    final rank = algebraicMove.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-    final file = algebraicMove.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
-    return (rank, file);
-  }
-
-  void onEmptyFieldTap(SquareInfo square) {
-    controller.setHints(HintMap());
-  }
-
-  void onPieceDrop(PieceDropEvent event) =>
-      playerMoved({'from': event.from.toString(), 'to': event.to.toString()});
-
-  void doMove(chess_lib.Move move) =>
-      playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
 
   @override
   Widget build(BuildContext context) {
