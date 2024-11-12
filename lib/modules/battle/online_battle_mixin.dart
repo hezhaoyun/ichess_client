@@ -8,7 +8,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 
 enum GameState { idle, connected, waitingMatch, waitingMove, waitingOpponent }
 
-mixin GameMixin<T extends StatefulWidget> on State<T> {
+mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
   socket_io.Socket? socket;
   GameState gameState = GameState.idle;
 
@@ -89,14 +89,10 @@ mixin GameMixin<T extends StatefulWidget> on State<T> {
       gameState = GameState.waitingOpponent;
       lastMove = null;
 
-      orientation = data['side'] == 'white'
-          ? BoardOrientation.white
-          : BoardOrientation.black;
+      orientation = data['side'] == 'white' ? BoardOrientation.white : BoardOrientation.black;
 
-      player =
-          data['side'] == 'white' ? data['white_player'] : data['black_player'];
-      opponent =
-          data['side'] == 'white' ? data['black_player'] : data['white_player'];
+      player = data['side'] == 'white' ? data['white_player'] : data['black_player'];
+      opponent = data['side'] == 'white' ? data['black_player'] : data['white_player'];
     });
 
     controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
@@ -264,10 +260,8 @@ mixin GameMixin<T extends StatefulWidget> on State<T> {
   }
 
   playerMoved(Map<String, String> move) {
-    bool isPromotion = chess.moves({'verbose': true}).any((m) =>
-        m['from'] == move['from'] &&
-        m['to'] == move['to'] &&
-        m['flags'].contains('p'));
+    bool isPromotion = chess.moves({'verbose': true}).any(
+        (m) => m['from'] == move['from'] && m['to'] == move['to'] && m['flags'].contains('p'));
 
     if (isPromotion) {
       showPromotionDialog(

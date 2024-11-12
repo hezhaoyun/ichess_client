@@ -3,58 +3,21 @@ import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../widgets/chess_board_widget.dart';
-import 'game_mixin.dart';
+import 'online_battle_mixin.dart';
 
-class BattlePage extends StatefulWidget {
-  const BattlePage({super.key});
+class OnlineBattlePage extends StatefulWidget {
+  const OnlineBattlePage({super.key});
 
   @override
-  State<BattlePage> createState() => _HomePageState();
+  State<OnlineBattlePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<BattlePage> with GameMixin {
-  static const kLightSquareColor = Color(0xFFEED7BE);
-  static const kDarkSquareColor = Color(0xFFB58863);
-  static final kMoveHighlightColor = Colors.blue.shade300;
-
+class _HomePageState extends State<OnlineBattlePage> with OnlineBattleMixin {
   @override
   void initState() {
     super.initState();
     initGame();
   }
-
-  Widget squareBuilder(SquareInfo info) {
-    final isLightSquare = (info.index + info.rank) % 2 == 0;
-    final fieldColor = isLightSquare ? kLightSquareColor : kDarkSquareColor;
-    final overlayColor = getOverlayColor(info);
-    return buildSquare(info.size, fieldColor, overlayColor);
-  }
-
-  Color getOverlayColor(SquareInfo info) {
-    if (lastMove == null) return Colors.transparent;
-
-    if (lastMove!.first.first == info.rank && lastMove!.first.last == info.file) {
-      return kMoveHighlightColor.withAlpha(0x66);
-    }
-
-    if (lastMove!.last.first == info.rank && lastMove!.last.last == info.file) {
-      return kMoveHighlightColor.withAlpha(0xDD);
-    }
-
-    return Colors.transparent;
-  }
-
-  Widget buildSquare(double size, Color fieldColor, Color overlayColor) => Container(
-        color: fieldColor,
-        width: size,
-        height: size,
-        child: AnimatedContainer(
-          color: overlayColor,
-          width: size,
-          height: size,
-          duration: const Duration(milliseconds: 200),
-        ),
-      );
 
   void onPieceStartDrag(SquareInfo square, String piece) {
     showHintFields(square, piece);
