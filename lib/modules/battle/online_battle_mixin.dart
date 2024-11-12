@@ -1,10 +1,11 @@
 import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
-import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
+
+import 'promotion_dialog.dart';
 
 enum GameState { idle, connected, waitingMatch, waitingMove, waitingOpponent }
 
@@ -89,10 +90,14 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
       gameState = GameState.waitingOpponent;
       lastMove = null;
 
-      orientation = data['side'] == 'white' ? BoardOrientation.white : BoardOrientation.black;
+      orientation = data['side'] == 'white'
+          ? BoardOrientation.white
+          : BoardOrientation.black;
 
-      player = data['side'] == 'white' ? data['white_player'] : data['black_player'];
-      opponent = data['side'] == 'white' ? data['black_player'] : data['white_player'];
+      player =
+          data['side'] == 'white' ? data['white_player'] : data['black_player'];
+      opponent =
+          data['side'] == 'white' ? data['black_player'] : data['white_player'];
     });
 
     controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
@@ -260,11 +265,15 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
   }
 
   playerMoved(Map<String, String> move) {
-    bool isPromotion = chess.moves({'verbose': true}).any(
-        (m) => m['from'] == move['from'] && m['to'] == move['to'] && m['flags'].contains('p'));
+    bool isPromotion = chess.moves({'verbose': true}).any((m) =>
+        m['from'] == move['from'] &&
+        m['to'] == move['to'] &&
+        m['flags'].contains('p'));
 
     if (isPromotion) {
       showPromotionDialog(
+        context,
+        orientation,
         (promotion) => makeMove(
           {'from': move['from']!, 'to': move['to']!, 'promotion': promotion},
         ),
@@ -272,49 +281,6 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on State<T> {
     } else {
       makeMove(move);
     }
-  }
-
-  Future<void> showPromotionDialog(Function(String) onPromotionSelected) {
-    Widget promotionOption(String type, VoidCallback onTap) {
-      final isWhite = orientation == BoardOrientation.white;
-      Widget piece;
-      switch (type) {
-        case 'q':
-          piece = isWhite ? WhiteQueen() : BlackQueen();
-          break;
-        case 'r':
-          piece = isWhite ? WhiteRook() : BlackRook();
-          break;
-        case 'b':
-          piece = isWhite ? WhiteBishop() : BlackBishop();
-          break;
-        case 'n':
-          piece = isWhite ? WhiteKnight() : BlackKnight();
-          break;
-        default:
-          throw ArgumentError('Invalid promotion type');
-      }
-
-      return InkWell(onTap: onTap, child: piece);
-    }
-
-    return showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('升变'),
-        content: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: ['q', 'r', 'b', 'n']
-              .map(
-                (type) => promotionOption(type, () {
-                  Navigator.pop(context);
-                  onPromotionSelected(type);
-                }),
-              )
-              .toList(),
-        ),
-      ),
-    );
   }
 
   void makeMove(Map<String, String> move) {

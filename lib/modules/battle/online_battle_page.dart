@@ -58,17 +58,22 @@ class _HomePageState extends State<OnlineBattlePage> with OnlineBattleMixin {
     controller.setHints(HintMap());
   }
 
-  void onPieceDrop(PieceDropEvent event) => playerMoved({'from': event.from.toString(), 'to': event.to.toString()});
+  void onPieceDrop(PieceDropEvent event) =>
+      playerMoved({'from': event.from.toString(), 'to': event.to.toString()});
 
-  void doMove(chess_lib.Move move) => playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
+  void doMove(chess_lib.Move move) =>
+      playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
 
   @override
   Widget build(BuildContext context) {
     final double size = MediaQuery.of(context).size.shortestSide - 24;
 
-    final orientationColor = orientation == BoardOrientation.white ? chess_lib.Color.WHITE : chess_lib.Color.BLACK;
+    final orientationColor = orientation == BoardOrientation.white
+        ? chess_lib.Color.WHITE
+        : chess_lib.Color.BLACK;
 
-    final interactiveEnable = (gameState == GameState.waitingMove || gameState == GameState.waitingOpponent) &&
+    final interactiveEnable = (gameState == GameState.waitingMove ||
+            gameState == GameState.waitingOpponent) &&
         chess.turn == orientationColor;
 
     return Scaffold(
@@ -144,7 +149,8 @@ class _HomePageState extends State<OnlineBattlePage> with OnlineBattleMixin {
         mainAxisSize: MainAxisSize.min,
         children: [
           CircleAvatar(
-            backgroundColor: isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
+            backgroundColor:
+                isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
             child: Text(name[0].toUpperCase()),
           ),
           const SizedBox(width: 12),

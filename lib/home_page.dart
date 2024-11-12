@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 
 import 'modules/battle/ai_battle_page.dart';
@@ -32,7 +34,10 @@ class _HomePageState extends State<HomePage> {
               Text(
                 '探索国际象棋的无限可能',
                 style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                      color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
+                      color: Theme.of(context)
+                          .colorScheme
+                          .onSurface
+                          .withAlpha(179),
                     ),
               ),
               const SizedBox(height: 48),
@@ -42,20 +47,25 @@ class _HomePageState extends State<HomePage> {
                   mainAxisSpacing: 16,
                   crossAxisSpacing: 16,
                   children: [
-                    _buildCard(
-                      icon: Icons.computer,
-                      label: '人机对战',
-                      onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => const AIBattlePage()),
+                    if (Platform.isAndroid || Platform.isIOS)
+                      _buildCard(
+                        icon: Icons.computer,
+                        label: '人机对战',
+                        onTap: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const AIBattlePage(),
+                          ),
+                        ),
                       ),
-                    ),
                     _buildCard(
                       icon: Icons.people,
                       label: '在线对战',
                       onTap: () => Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const OnlineBattlePage()),
+                        MaterialPageRoute(
+                          builder: (context) => const OnlineBattlePage(),
+                        ),
                       ),
                     ),
                     _buildCard(
@@ -63,7 +73,9 @@ class _HomePageState extends State<HomePage> {
                       label: '阅读棋谱',
                       onTap: () => Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const ViewPage()),
+                        MaterialPageRoute(
+                          builder: (context) => const ViewPage(),
+                        ),
                       ),
                     ),
                   ],
