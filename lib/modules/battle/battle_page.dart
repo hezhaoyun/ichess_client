@@ -1,8 +1,8 @@
 import 'package:chess/chess.dart' as chess_lib;
-import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../widgets/chess_board_widget.dart';
 import 'game_mixin.dart';
 
 class BattlePage extends StatefulWidget {
@@ -108,39 +108,6 @@ class _HomePageState extends State<BattlePage> with GameMixin {
     final interactiveEnable = (gameState == GameState.waitingMove || gameState == GameState.waitingOpponent) &&
         chess.turn == orientationColor;
 
-    PieceMap pieceMap() => PieceMap(
-          K: (size) => WhiteKing(size: size),
-          Q: (size) => WhiteQueen(size: size),
-          B: (size) => WhiteBishop(size: size),
-          N: (size) => WhiteKnight(size: size),
-          R: (size) => WhiteRook(size: size),
-          P: (size) => WhitePawn(size: size),
-          k: (size) => BlackKing(size: size),
-          q: (size) => BlackQueen(size: size),
-          b: (size) => BlackBishop(size: size),
-          n: (size) => BlackKnight(size: size),
-          r: (size) => BlackRook(size: size),
-          p: (size) => BlackPawn(size: size),
-        );
-
-    final chessboard = WPChessboard(
-      size: size,
-      orientation: orientation,
-      squareBuilder: squareBuilder,
-      controller: controller,
-      onPieceDrop: interactiveEnable ? onPieceDrop : null,
-      onPieceTap: interactiveEnable ? onPieceTap : null,
-      onPieceStartDrag: onPieceStartDrag,
-      onEmptyFieldTap: onEmptyFieldTap,
-      turnTopPlayerPieces: false,
-      ghostOnDrag: true,
-      dropIndicator: DropIndicatorArgs(
-        size: size / 2,
-        color: Colors.lightBlue.withAlpha(0x3D),
-      ),
-      pieceMap: pieceMap(),
-    );
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('棋路-国际象棋'),
@@ -165,15 +132,16 @@ class _HomePageState extends State<BattlePage> with GameMixin {
               isOpponent: true,
             ),
             const SizedBox(height: 20),
-            Card(
-              elevation: 8,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: chessboard,
-              ),
+            ChessBoardWidget(
+              size: size,
+              orientation: orientation,
+              controller: controller,
+              lastMove: lastMove,
+              interactiveEnable: interactiveEnable,
+              onPieceDrop: onPieceDrop,
+              onPieceTap: onPieceTap,
+              onPieceStartDrag: onPieceStartDrag,
+              onEmptyFieldTap: onEmptyFieldTap,
             ),
             const SizedBox(height: 20),
             _buildPlayerInfo(

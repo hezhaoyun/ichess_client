@@ -5,10 +5,10 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../widgets/chess_board_widget.dart';
 import 'move_list.dart';
 import 'pgn_game.dart';
 import 'chess_control_panel.dart';
-import 'chess_board_view.dart';
 
 class ViewPage extends StatefulWidget {
   const ViewPage({super.key});
@@ -87,8 +87,7 @@ class _ViewPageState extends State<ViewPage> {
       } else if (index > currentMoveIndex) {
         // 前进
         for (var i = currentMoveIndex + 1; i <= index; i++) {
-          final newFen =
-              PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
+          final newFen = PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
           fenHistory.add(newFen);
           currentFen = newFen;
         }
@@ -161,9 +160,7 @@ class _ViewPageState extends State<ViewPage> {
             ),
           ],
         ),
-        body: isLoading
-            ? const Center(child: CircularProgressIndicator())
-            : _buildContent(),
+        body: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent(),
       );
 
   Widget _buildContent() {
@@ -194,8 +191,7 @@ class _ViewPageState extends State<ViewPage> {
 
     return OrientationBuilder(
       builder: (context, orientation) {
-        final isWideLayout = orientation == Orientation.landscape ||
-            MediaQuery.of(context).size.width > 900;
+        final isWideLayout = orientation == Orientation.landscape || MediaQuery.of(context).size.width > 900;
         return Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -230,12 +226,11 @@ class _ViewPageState extends State<ViewPage> {
 
   Widget _buildBoardSection() => Column(
         children: [
-          ChessboardView(
+          ChessBoardWidget(
+            size: MediaQuery.of(context).size.shortestSide - 24,
+            orientation: BoardOrientation.white,
             controller: _chessboardController,
-            whiteName: currentGame!.white,
-            blackName: currentGame!.black,
-            event: currentGame!.event,
-            date: currentGame!.date,
+            interactiveEnable: false,
           ),
           _buildControlPanel(),
         ],
