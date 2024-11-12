@@ -35,21 +35,23 @@ class _AIBattlePageState extends State<AIBattlePage> {
       await initStockfish();
       setState(() => _isEngineReady = true);
     } catch (e) {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('引擎初始化失败，请重启应')),
-        );
-      }
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text('引擎初始化失败：${e.toString()}')),
+          );
+        }
+        debugPrint('引擎初始化失败：${e.toString()}');
+      });
     }
   }
 
   initStockfish() {
     stockfish = Stockfish();
-
-    stockfish.stdin = 'uci';
-    stockfish.stdin = 'setoption name Skill Level value 10';
-    stockfish.stdin = 'isready';
-    stockfish.stdin = 'ucinewgame';
+    // stockfish.stdin = 'uci';
+    // stockfish.stdin = 'setoption name Skill Level value 10';
+    // stockfish.stdin = 'isready';
+    // stockfish.stdin = 'ucinewgame';
   }
 
   void onMove(String move) {

@@ -31,7 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  file_picker: ^5.2.0
+  file_picker: ^5.3.1
   path_provider: ^2.0.15
   socket_io_client: ^3.0.0
   wp_chessboard: ^0.0.4

@@ -15,61 +15,60 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [Color(0xFF2C5364), Color(0xFF203A43), Color(0xFF0F2027)],
-          ),
-        ),
-        child: SafeArea(
+      backgroundColor: Theme.of(context).colorScheme.surface,
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 24.0),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const SizedBox(height: 60),
-              const Text(
+              const SizedBox(height: 40),
+              Text(
                 '棋路',
-                style: TextStyle(
-                  fontSize: 48,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                ),
+                style: Theme.of(context).textTheme.headlineLarge?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
               ),
-              const Text(
+              Text(
                 '探索国际象棋的无限可能',
-                style: TextStyle(
-                  fontSize: 16,
-                  color: Colors.white70,
+                style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                      color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
+                    ),
+              ),
+              const SizedBox(height: 48),
+              Expanded(
+                child: GridView.count(
+                  crossAxisCount: 2,
+                  mainAxisSpacing: 16,
+                  crossAxisSpacing: 16,
+                  children: [
+                    _buildCard(
+                      icon: Icons.computer,
+                      label: '人机对战',
+                      onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const AIBattlePage()),
+                      ),
+                    ),
+                    _buildCard(
+                      icon: Icons.people,
+                      label: '在线对战',
+                      onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const OnlineBattlePage()),
+                      ),
+                    ),
+                    _buildCard(
+                      icon: Icons.menu_book,
+                      label: '阅读棋谱',
+                      onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const ViewPage()),
+                      ),
+                    ),
+                  ],
                 ),
               ),
-              const Spacer(),
-              _buildButton(
-                icon: Icons.computer,
-                label: '人机对战',
-                onPressed: () => Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const AIBattlePage()),
-                ),
-              ),
-              const SizedBox(height: 32),
-              _buildButton(
-                icon: Icons.people,
-                label: '在线对战',
-                onPressed: () => Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const OnlineBattlePage()),
-                ),
-              ),
-              const SizedBox(height: 32),
-              _buildButton(
-                icon: Icons.menu_book,
-                label: '阅读棋谱',
-                onPressed: () => Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const ViewPage()),
-                ),
-              ),
-              const Spacer(),
             ],
           ),
         ),
@@ -77,44 +76,32 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget _buildButton({
+  Widget _buildCard({
     required IconData icon,
     required String label,
-    required VoidCallback onPressed,
+    required VoidCallback onTap,
   }) {
-    return Container(
-      width: 280,
-      height: 60,
-      decoration: BoxDecoration(
-        gradient: const LinearGradient(
-          colors: [Color(0xFF4CAF50), Color(0xFF2E7D32)],
-        ),
-        borderRadius: BorderRadius.circular(30),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.3),
-            blurRadius: 8,
-            offset: const Offset(0, 4),
-          ),
-        ],
-      ),
-      child: ElevatedButton.icon(
-        onPressed: onPressed,
-        icon: Icon(icon, color: Colors.white),
-        label: Text(
-          label,
-          style: const TextStyle(
-            fontSize: 18,
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
-          ),
-        ),
-        style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.transparent,
-          shadowColor: Colors.transparent,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(30),
-          ),
+    return Card(
+      elevation: 2,
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(12),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              icon,
+              size: 48,
+              color: Theme.of(context).colorScheme.primary,
+            ),
+            const SizedBox(height: 12),
+            Text(
+              label,
+              style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
+            ),
+          ],
         ),
       ),
     );
