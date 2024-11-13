@@ -5,12 +5,12 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../services/ai_native.dart';
 import '../../widgets/chess_board_widget.dart';
+import 'analysis_chart.dart';
 import 'move_list.dart';
 import 'pgn_game.dart';
 import 'viewer_control_panel.dart';
-import 'analysis_chart.dart';
-import '../../services/ai_native.dart';
 
 class ViewerPage extends StatefulWidget {
   const ViewerPage({super.key});

@@ -1,7 +1,8 @@
+import 'dart:io';
+
+import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
-import 'dart:io';
-import 'package:chess/chess.dart' as chess_lib;
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../services/ai_native.dart';

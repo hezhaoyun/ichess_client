@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
+import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../widgets/chess_board_widget.dart';

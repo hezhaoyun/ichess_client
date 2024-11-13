@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 
 import 'modules/battle/ai_battle_page.dart';
 import 'modules/battle/online_battle_page.dart';
-import 'modules/manual_viewer/viewer_page.dart';
 import 'modules/board_setup/chess_setup_page.dart';
+import 'modules/manual_viewer/viewer_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
