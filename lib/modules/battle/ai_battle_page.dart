@@ -202,17 +202,9 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
 
   @override
   Widget build(BuildContext context) {
-    final double size = MediaQuery.of(context).size.shortestSide - 24;
+    final double size = MediaQuery.of(context).size.shortestSide - 36;
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('国际象棋对战'),
-        elevation: 0,
-        centerTitle: true,
-        actions: [
-          IconButton(icon: const Icon(Icons.save), onPressed: saveGame),
-        ],
-      ),
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -221,26 +213,69 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
             colors: [Colors.blue.shade50, Colors.white],
           ),
         ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            _buildPlayerInfo(isOpponent: true),
-            const SizedBox(height: 20),
-            ChessBoardWidget(
-              size: size,
-              controller: controller,
-              orientation: BoardOrientation.white,
-              interactiveEnable: !isThinking,
-              onPieceDrop: onPieceDrop,
-              onPieceTap: onPieceTap,
-              onPieceStartDrag: onPieceStartDrag,
-              onEmptyFieldTap: onEmptyFieldTap,
-            ),
-            const SizedBox(height: 20),
-            _buildPlayerInfo(isOpponent: false),
-            const SizedBox(height: 32),
-            _buildGameControls(),
-          ],
+        child: SafeArea(
+          child: Column(
+            children: [
+              Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                child: Row(
+                  children: [
+                    IconButton(
+                      icon: const Icon(Icons.arrow_back_ios),
+                      onPressed: () => Navigator.of(context).pop(),
+                    ),
+                    Expanded(
+                      child: Text(
+                        '人机对战',
+                        style:
+                            Theme.of(context).textTheme.headlineSmall?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          shadows: [
+                            Shadow(
+                              color: Theme.of(context)
+                                  .colorScheme
+                                  .primary
+                                  .withOpacity(0.3),
+                              offset: const Offset(2, 2),
+                              blurRadius: 4,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    IconButton(
+                      icon: const Icon(Icons.save_outlined),
+                      onPressed: saveGame,
+                    ),
+                  ],
+                ),
+              ),
+              Expanded(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    _buildPlayerInfo(isOpponent: true),
+                    const SizedBox(height: 20),
+                    ChessBoardWidget(
+                      size: size,
+                      controller: controller,
+                      orientation: BoardOrientation.white,
+                      interactiveEnable: !isThinking,
+                      onPieceDrop: onPieceDrop,
+                      onPieceTap: onPieceTap,
+                      onPieceStartDrag: onPieceStartDrag,
+                      onEmptyFieldTap: onEmptyFieldTap,
+                    ),
+                    const SizedBox(height: 20),
+                    _buildPlayerInfo(isOpponent: false),
+                    const SizedBox(height: 32),
+                    _buildGameControls(),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

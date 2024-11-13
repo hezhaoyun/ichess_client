@@ -227,42 +227,83 @@ class _ViewerPageState extends State<ViewerPage> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(
-          title: const Text('棋谱阅读'),
-          actions: [
-            IconButton(
-              icon: const Icon(Icons.folder_open),
-              onPressed: isLoading ? null : _loadPgnFile,
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Theme.of(context).colorScheme.primary.withOpacity(0.1),
+                Theme.of(context).colorScheme.surface,
+              ],
             ),
-          ],
+          ),
+          child: SafeArea(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Row(
+                    children: [
+                      IconButton(
+                        icon: const Icon(Icons.arrow_back),
+                        onPressed: () => Navigator.of(context).pop(),
+                      ),
+                      const SizedBox(width: 8),
+                      Text(
+                        '棋谱阅读',
+                        style:
+                            Theme.of(context).textTheme.headlineSmall?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          shadows: [
+                            Shadow(
+                              color: Theme.of(context)
+                                  .colorScheme
+                                  .primary
+                                  .withOpacity(0.3),
+                              offset: const Offset(1, 1),
+                              blurRadius: 2,
+                            ),
+                          ],
+                        ),
+                      ),
+                      const Spacer(),
+                      IconButton(
+                        icon: const Icon(Icons.folder_open),
+                        onPressed: isLoading ? null : _loadPgnFile,
+                      ),
+                    ],
+                  ),
+                ),
+                Expanded(
+                  child: isLoading
+                      ? const Center(child: CircularProgressIndicator())
+                      : _buildContent(),
+                ),
+              ],
+            ),
+          ),
         ),
-        body: isLoading
-            ? const Center(child: CircularProgressIndicator())
-            : _buildContent(),
       );
 
   Widget _buildContent() {
     if (games.isEmpty) {
-      return Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [Colors.blue.shade50, Colors.white],
-          ),
-        ),
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(Icons.folder_open, size: 64, color: Colors.grey[400]),
-              const SizedBox(height: 16),
-              Text(
-                '请点击右上角按钮加载PGN文件',
-                style: TextStyle(color: Colors.grey[600]),
-              ),
-            ],
-          ),
+      return Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              Icons.folder_open,
+              size: 64,
+              color: Theme.of(context).colorScheme.primary.withOpacity(0.3),
+            ),
+            const SizedBox(height: 16),
+            Text(
+              '请点击右上角按钮加载PGN文件',
+              style: TextStyle(color: Colors.grey[600]),
+            ),
+          ],
         ),
       );
     }
@@ -271,73 +312,64 @@ class _ViewerPageState extends State<ViewerPage> {
       builder: (context, orientation) {
         final isWideLayout = orientation == Orientation.landscape ||
             MediaQuery.of(context).size.width > 900;
-        return Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [Colors.blue.shade50, Colors.white],
-            ),
-          ),
-          child: Column(
-            children: [
-              ExpansionTile(
-                title: const Text('局面评估'),
-                trailing: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    if (isAnalyzing)
-                      const SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: CircularProgressIndicator(strokeWidth: 2),
-                      ),
-                    if (!isAnalyzing && evaluations.isEmpty)
-                      const Icon(Icons.analytics),
-                    if (evaluations.isNotEmpty && !isAnalyzing)
-                      const Icon(Icons.expand_more),
-                  ],
-                ),
-                initiallyExpanded: isAnalysisPanelExpanded,
-                onExpansionChanged: (expanded) {
-                  if (!isAnalyzing && evaluations.isEmpty) {
-                    analyzeGame();
-                  }
-
-                  setState(() {
-                    isAnalysisPanelExpanded = expanded;
-                  });
-                },
+        return Column(
+          children: [
+            ExpansionTile(
+              title: const Text('局面评估'),
+              trailing: Row(
+                mainAxisSize: MainAxisSize.min,
                 children: [
-                  SizedBox(
-                    height: 200,
-                    child: AnalysisChart(
-                      evaluations: evaluations,
-                      currentMoveIndex: currentMoveIndex + 1,
-                      onPositionChanged: (index) => _goToMove(index - 1),
+                  if (isAnalyzing)
+                    const SizedBox(
+                      width: 20,
+                      height: 20,
+                      child: CircularProgressIndicator(strokeWidth: 2),
                     ),
-                  ),
+                  if (!isAnalyzing && evaluations.isEmpty)
+                    const Icon(Icons.analytics),
+                  if (evaluations.isNotEmpty && !isAnalyzing)
+                    const Icon(Icons.expand_more),
                 ],
               ),
-              Expanded(
-                child: isWideLayout
-                    ? Row(
-                        children: [
-                          Expanded(flex: 2, child: _buildBoardSection()),
-                          if (!isAnalysisPanelExpanded)
-                            Expanded(flex: 3, child: _buildMoveListSection()),
-                        ],
-                      )
-                    : Column(
-                        children: [
-                          _buildBoardSection(),
-                          if (!isAnalysisPanelExpanded)
-                            Expanded(child: _buildMoveListSection()),
-                        ],
-                      ),
-              ),
-            ],
-          ),
+              initiallyExpanded: isAnalysisPanelExpanded,
+              onExpansionChanged: (expanded) {
+                if (!isAnalyzing && evaluations.isEmpty) {
+                  analyzeGame();
+                }
+
+                setState(() {
+                  isAnalysisPanelExpanded = expanded;
+                });
+              },
+              children: [
+                SizedBox(
+                  height: 200,
+                  child: AnalysisChart(
+                    evaluations: evaluations,
+                    currentMoveIndex: currentMoveIndex + 1,
+                    onPositionChanged: (index) => _goToMove(index - 1),
+                  ),
+                ),
+              ],
+            ),
+            Expanded(
+              child: isWideLayout
+                  ? Row(
+                      children: [
+                        Expanded(flex: 2, child: _buildBoardSection()),
+                        if (!isAnalysisPanelExpanded)
+                          Expanded(flex: 3, child: _buildMoveListSection()),
+                      ],
+                    )
+                  : Column(
+                      children: [
+                        _buildBoardSection(),
+                        if (!isAnalysisPanelExpanded)
+                          Expanded(child: _buildMoveListSection()),
+                      ],
+                    ),
+            ),
+          ],
         );
       },
     );

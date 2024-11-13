@@ -63,58 +63,98 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
 
   @override
   Widget build(BuildContext context) {
-    final double boardSize = MediaQuery.of(context).size.shortestSide - 24;
+    final double boardSize = MediaQuery.of(context).size.shortestSide - 36;
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('设置局面'),
-        actions: [
-          // 添加切换按钮
-          IconButton(
-            icon: const Icon(Icons.refresh),
-            onPressed: _toggleBoardState,
-          ),
-          IconButton(
-            icon: const Icon(Icons.play_arrow),
-            onPressed: _startGame,
-          ),
-        ],
-      ),
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [Colors.blue.shade50, Colors.white],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Theme.of(context).colorScheme.primary.withOpacity(0.1),
+              Theme.of(context).colorScheme.surface,
+            ],
           ),
         ),
-        child: Column(
-          children: [
-            _buildPiecesPanel(isWhite: false), // 黑方棋子
-
-            const SizedBox(height: 20),
-
-            ChessBoardWidget(
-              size: boardSize,
-              controller: controller,
-              orientation: BoardOrientation.white,
-              interactiveEnable: true,
-              onPieceStartDrag: (square, piece) {},
-              onPieceDrop: _handlePieceDrop,
-              onEmptyFieldTap: _handleEmptyFieldTap,
-            ),
-
-            const SizedBox(height: 20),
-
-            _buildPiecesPanel(isWhite: true), // 白方棋子
-          ],
+        child: SafeArea(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Row(
+                  children: [
+                    IconButton(
+                      icon: Icon(
+                        Icons.arrow_back,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                      onPressed: () => Navigator.pop(context),
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      '设置局面',
+                      style:
+                          Theme.of(context).textTheme.headlineSmall?.copyWith(
+                        fontWeight: FontWeight.bold,
+                        shadows: [
+                          Shadow(
+                            color: Theme.of(context)
+                                .colorScheme
+                                .primary
+                                .withOpacity(0.3),
+                            offset: const Offset(1, 1),
+                            blurRadius: 2,
+                          ),
+                        ],
+                      ),
+                    ),
+                    const Spacer(),
+                    IconButton(
+                      icon: Icon(
+                        Icons.refresh,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                      onPressed: _toggleBoardState,
+                    ),
+                    IconButton(
+                      icon: Icon(
+                        Icons.play_arrow,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                      onPressed: _startGame,
+                    ),
+                  ],
+                ),
+              ),
+              Expanded(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    _buildPiecesPanel(isWhite: false),
+                    ChessBoardWidget(
+                      size: boardSize,
+                      controller: controller,
+                      orientation: BoardOrientation.white,
+                      interactiveEnable: true,
+                      onPieceStartDrag: (square, piece) {},
+                      onPieceDrop: _handlePieceDrop,
+                      onEmptyFieldTap: _handleEmptyFieldTap,
+                    ),
+                    _buildPiecesPanel(isWhite: true),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
   }
 
   Widget _buildPiecesPanel({required bool isWhite}) {
-    final boardSize = MediaQuery.of(context).size.shortestSide - 24;
+    final boardSize = MediaQuery.of(context).size.shortestSide - 36;
     final pieceSize = boardSize / 8;
 
     // 定义可用棋子

@@ -23,7 +23,7 @@ class _HomePageState extends State<OnlineBattlePage>
 
   @override
   Widget build(BuildContext context) {
-    final double size = MediaQuery.of(context).size.shortestSide - 24;
+    final double size = MediaQuery.of(context).size.shortestSide - 36;
 
     final orientationColor = orientation == BoardOrientation.white
         ? chess_lib.Color.WHITE
@@ -34,50 +34,78 @@ class _HomePageState extends State<OnlineBattlePage>
         chess.turn == orientationColor;
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('棋路-国际象棋'),
-        elevation: 0,
-        centerTitle: true,
-      ),
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [Colors.blue.shade50, Colors.white],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Theme.of(context).colorScheme.primary.withOpacity(0.1),
+              Theme.of(context).colorScheme.surface,
+            ],
           ),
         ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            _buildPlayerInfo(
-              name: opponent['name'],
-              elo: opponent['elo'],
-              time: opponentGameTime.toString(),
-              isOpponent: true,
-            ),
-            const SizedBox(height: 20),
-            ChessBoardWidget(
-              size: size,
-              orientation: orientation,
-              controller: controller,
-              lastMove: lastMove,
-              interactiveEnable: interactiveEnable,
-              onPieceDrop: onPieceDrop,
-              onPieceTap: onPieceTap,
-              onPieceStartDrag: onPieceStartDrag,
-              onEmptyFieldTap: onEmptyFieldTap,
-            ),
-            const SizedBox(height: 20),
-            _buildPlayerInfo(
-              name: player['name'],
-              elo: player['elo'],
-              time: gameTime.toString(),
-              isOpponent: false,
-            ),
-            const SizedBox(height: 32),
-            _buildGameControls(),
-          ],
+        child: SafeArea(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Row(
+                  children: [
+                    IconButton(
+                      icon: const Icon(Icons.arrow_back),
+                      onPressed: () => Navigator.pop(context),
+                    ),
+                    Text(
+                      '在线对战',
+                      style:
+                          Theme.of(context).textTheme.headlineSmall?.copyWith(
+                        fontWeight: FontWeight.bold,
+                        shadows: [
+                          Shadow(
+                            color: Theme.of(context)
+                                .colorScheme
+                                .primary
+                                .withOpacity(0.3),
+                            offset: const Offset(2, 2),
+                            blurRadius: 4,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              _buildPlayerInfo(
+                name: opponent['name'],
+                elo: opponent['elo'],
+                time: opponentGameTime.toString(),
+                isOpponent: true,
+              ),
+              const SizedBox(height: 20),
+              ChessBoardWidget(
+                size: size,
+                orientation: orientation,
+                controller: controller,
+                lastMove: lastMove,
+                interactiveEnable: interactiveEnable,
+                onPieceDrop: onPieceDrop,
+                onPieceTap: onPieceTap,
+                onPieceStartDrag: onPieceStartDrag,
+                onEmptyFieldTap: onEmptyFieldTap,
+              ),
+              const SizedBox(height: 20),
+              _buildPlayerInfo(
+                name: player['name'],
+                elo: player['elo'],
+                time: gameTime.toString(),
+                isOpponent: false,
+              ),
+              const SizedBox(height: 32),
+              _buildGameControls(),
+            ],
+          ),
         ),
       ),
     );
