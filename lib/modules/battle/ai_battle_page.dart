@@ -210,7 +210,10 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [Colors.blue.shade50, Colors.white],
+            colors: [
+              Theme.of(context).colorScheme.primary.withOpacity(0.1),
+              Theme.of(context).colorScheme.surface,
+            ],
           ),
         ),
         child: SafeArea(
