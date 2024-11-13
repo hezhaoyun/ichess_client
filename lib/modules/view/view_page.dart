@@ -3,12 +3,14 @@ import 'dart:io';
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:stockfish/stockfish.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../widgets/chess_board_widget.dart';
 import 'move_list.dart';
 import 'pgn_game.dart';
 import 'viewer_control_panel.dart';
+import 'analysis_chart.dart';
 
 class ViewPage extends StatefulWidget {
   const ViewPage({super.key});
@@ -30,13 +32,16 @@ class _ViewPageState extends State<ViewPage> {
   String currentFen = chess_lib.Chess.DEFAULT_POSITION;
   List<String> fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
 
+  late Stockfish stockfish;
+  List<double> evaluations = [];
+  bool isAnalyzing = false;
+
   Future<void> _loadPgnFile() async {
     try {
       setState(() => isLoading = true);
 
       final result = await FilePicker.platform.pickFiles(
-        type: FileType.custom,
-        allowedExtensions: ['pgn'],
+        type: FileType.any,
       );
 
       if (result != null) {
@@ -151,6 +156,75 @@ class _ViewPageState extends State<ViewPage> {
       );
 
   @override
+  void initState() {
+    super.initState();
+    initStockfish();
+  }
+
+  Future<void> initStockfish() async {
+    stockfish = Stockfish();
+    await Future.delayed(const Duration(milliseconds: 500));
+
+    stockfish.stdin = 'uci';
+    stockfish.stdin = 'setoption name Skill Level value 20';
+    stockfish.stdin = 'isready';
+    stockfish.stdin = 'ucinewgame';
+  }
+
+  Future<void> analyzeGame() async {
+    if (isAnalyzing) return;
+
+    setState(() {
+      isAnalyzing = true;
+      evaluations = [];
+    });
+
+    try {
+      final chess = chess_lib.Chess();
+
+      // 分析初始局面
+      double initialEval = await getPositionEvaluation(chess.fen);
+      evaluations.add(initialEval);
+
+      // 分析每一步棋后的局面
+      for (var move in currentGame!.moves) {
+        chess.move(move);
+        double eval = await getPositionEvaluation(chess.fen);
+        setState(() => evaluations.add(eval));
+      }
+    } finally {
+      setState(() => isAnalyzing = false);
+    }
+  }
+
+  Future<double> getPositionEvaluation(String fen) async {
+    stockfish.stdin = 'position fen $fen';
+    stockfish.stdin = 'go depth 5';
+
+    double evaluation = 0.0;
+    await for (final output in stockfish.stdout) {
+      if (output.contains('score cp')) {
+        final scoreMatch = RegExp(r'score cp (-?\d+)').firstMatch(output);
+        if (scoreMatch != null) {
+          evaluation = int.parse(scoreMatch.group(1)!) / 100.0;
+        }
+      } else if (output.contains('score mate')) {
+        final mateMatch = RegExp(r'score mate (-?\d+)').firstMatch(output);
+        if (mateMatch != null) {
+          final moves = int.parse(mateMatch.group(1)!);
+          evaluation = moves > 0 ? 100.0 : -100.0;
+        }
+      }
+
+      if (output.startsWith('bestmove')) {
+        break;
+      }
+    }
+
+    return evaluation;
+  }
+
+  @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
           title: const Text('棋谱阅读'),
@@ -159,6 +233,11 @@ class _ViewPageState extends State<ViewPage> {
               icon: const Icon(Icons.folder_open),
               onPressed: isLoading ? null : _loadPgnFile,
             ),
+            if (currentGame != null)
+              IconButton(
+                icon: const Icon(Icons.analytics),
+                onPressed: isAnalyzing ? null : analyzeGame,
+              ),
           ],
         ),
         body: isLoading
@@ -206,6 +285,12 @@ class _ViewPageState extends State<ViewPage> {
           ),
           child: Column(
             children: [
+              if (evaluations.isNotEmpty)
+                AnalysisChart(
+                  evaluations: evaluations,
+                  currentMoveIndex: currentMoveIndex + 1,
+                  onPositionChanged: (index) => _goToMove(index - 1),
+                ),
               Expanded(
                 child: isWideLayout
                     ? Row(
@@ -260,6 +345,7 @@ class _ViewPageState extends State<ViewPage> {
 
   @override
   void dispose() {
+    stockfish.dispose();
     _scrollController.dispose();
     super.dispose();
   }
