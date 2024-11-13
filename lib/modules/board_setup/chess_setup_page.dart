@@ -3,7 +3,7 @@ import 'package:chess/chess.dart' as chess_lib;
 import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../modules/widgets/chess_board_widget.dart';
+import '../../widgets/chess_board_widget.dart';
 
 class ChessSetupPage extends StatefulWidget {
   const ChessSetupPage({super.key});
@@ -13,7 +13,8 @@ class ChessSetupPage extends StatefulWidget {
 }
 
 class _ChessSetupPageState extends State<ChessSetupPage> {
-  final controller = WPChessboardController(initialFen: '8/8/8/8/8/8/8/8 w - - 0 1');
+  final controller =
+      WPChessboardController(initialFen: '8/8/8/8/8/8/8/8 w - - 0 1');
   final chess = chess_lib.Chess.fromFEN('8/8/8/8/8/8/8/8 w - - 0 1');
 
   // 在类的顶部定义一个静态变量
@@ -93,7 +94,6 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
 
     return Container(
       height: boardSize / 8 + 20,
-      color: Colors.blue.shade50,
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -179,7 +179,8 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
           }
 
           // 检查兵是否在第一行或第八行
-          if (piece.type == chess_lib.PieceType.PAWN && (rank == 0 || rank == 7)) {
+          if (piece.type == chess_lib.PieceType.PAWN &&
+              (rank == 0 || rank == 7)) {
             return false;
           }
         }

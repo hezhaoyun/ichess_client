@@ -2,7 +2,7 @@ import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../widgets/chess_board_widget.dart';
+import '../../widgets/chess_board_widget.dart';
 import 'chess_battle_mixin.dart';
 import 'online_battle_mixin.dart';
 
