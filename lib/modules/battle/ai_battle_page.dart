@@ -307,9 +307,4 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
       ],
     );
   }
-
-  @override
-  void dispose() {
-    super.dispose();
-  }
 }
