@@ -286,33 +286,95 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
 
   Widget _buildPlayerInfo({required bool isOpponent}) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      width: MediaQuery.of(context).size.shortestSide - 36,
+      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white,
+        gradient: LinearGradient(
+          colors: isOpponent
+              ? [Colors.red.shade50, Colors.red.shade100]
+              : [Colors.blue.shade50, Colors.blue.shade100],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
         borderRadius: BorderRadius.circular(20),
-        boxShadow: const [
+        boxShadow: [
           BoxShadow(
-            color: Colors.black12,
-            blurRadius: 5,
-            offset: Offset(0, 2),
+            color: Colors.black.withOpacity(0.1),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
           ),
         ],
       ),
       child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(3),
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              border: Border.all(
+                color: isOpponent ? Colors.red.shade300 : Colors.blue.shade300,
+                width: 2,
+              ),
+            ),
+            child: CircleAvatar(
+              radius: 24,
+              backgroundColor: Colors.white,
+              child: Text(
+                isOpponent ? 'AI' : '你',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color:
+                      isOpponent ? Colors.red.shade700 : Colors.blue.shade700,
+                ),
+              ),
+            ),
+          ),
+          const SizedBox(width: 16),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  isOpponent ? '电脑' : '玩家',
+                  style: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  overflow: TextOverflow.ellipsis,
+                ),
+                const SizedBox(height: 4),
+                Row(
+                  children: [
+                    _buildInfoChip(
+                      icon: Icons.emoji_events_outlined,
+                      label: 'ELO: ${isOpponent ? '2000' : '1500'}',
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildInfoChip({required IconData icon, required String label}) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      decoration: BoxDecoration(
+        color: Colors.white.withOpacity(0.7),
+        borderRadius: BorderRadius.circular(12),
+      ),
+      child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          CircleAvatar(
-            backgroundColor:
-                isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
-            child: Text(isOpponent ? 'AI' : '你'),
-          ),
-          const SizedBox(width: 12),
+          Icon(icon, size: 14),
+          const SizedBox(width: 4),
           Text(
-            isOpponent ? '电脑' : '玩家',
-            style: const TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.bold,
-            ),
+            label,
+            style: const TextStyle(fontSize: 12),
           ),
         ],
       ),

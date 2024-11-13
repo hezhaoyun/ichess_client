@@ -112,54 +112,110 @@ class _HomePageState extends State<OnlineBattlePage>
   }
 
   Widget _buildPlayerInfo(
-          {required String name,
-          required dynamic elo,
-          required String time,
-          required bool isOpponent}) =>
-      Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(20),
-          boxShadow: const [
-            BoxShadow(
-              color: Colors.black12,
-              blurRadius: 5,
-              offset: Offset(0, 2),
-            ),
-          ],
+      {required String name,
+      required dynamic elo,
+      required String time,
+      required bool isOpponent}) {
+    return Container(
+      width: MediaQuery.of(context).size.shortestSide - 36,
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: isOpponent
+              ? [Colors.red.shade50, Colors.red.shade100]
+              : [Colors.blue.shade50, Colors.blue.shade100],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
         ),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            CircleAvatar(
-              backgroundColor:
-                  isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
-              child: Text(name[0].toUpperCase()),
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.1),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(3),
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              border: Border.all(
+                color: isOpponent ? Colors.red.shade300 : Colors.blue.shade300,
+                width: 2,
+              ),
             ),
-            const SizedBox(width: 12),
-            Column(
+            child: CircleAvatar(
+              radius: 24,
+              backgroundColor: Colors.white,
+              child: Text(
+                name[0].toUpperCase(),
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color:
+                      isOpponent ? Colors.red.shade700 : Colors.blue.shade700,
+                ),
+              ),
+            ),
+          ),
+          const SizedBox(width: 16),
+          Expanded(
+            child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   name,
                   style: const TextStyle(
-                    fontSize: 16,
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                   ),
+                  overflow: TextOverflow.ellipsis,
                 ),
-                Text(
-                  'ELO: $elo | 时间: $time',
-                  style: TextStyle(
-                    color: Colors.grey[600],
-                    fontSize: 14,
-                  ),
+                const SizedBox(height: 4),
+                Row(
+                  children: [
+                    _buildInfoChip(
+                      icon: Icons.emoji_events_outlined,
+                      label: 'ELO: $elo',
+                    ),
+                    const SizedBox(width: 8),
+                    _buildInfoChip(
+                      icon: Icons.timer_outlined,
+                      label: time,
+                    ),
+                  ],
                 ),
               ],
             ),
-          ],
-        ),
-      );
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildInfoChip({required IconData icon, required String label}) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      decoration: BoxDecoration(
+        color: Colors.white.withOpacity(0.7),
+        borderRadius: BorderRadius.circular(12),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, size: 14),
+          const SizedBox(width: 4),
+          Text(
+            label,
+            style: const TextStyle(fontSize: 12),
+          ),
+        ],
+      ),
+    );
+  }
 
   Widget _buildGameControls() {
     final buttonStyle = ElevatedButton.styleFrom(
