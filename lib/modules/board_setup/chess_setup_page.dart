@@ -143,29 +143,51 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: pieces.map((piece) {
-          final canDrag = (currentPieceCounts[piece.key] ?? 0) <
-              (maxPieceCounts[piece.key] ?? 0);
+        children: [
+          // 添加垃圾桶
 
-          return Opacity(
-            opacity: canDrag ? 1.0 : 0.3,
-            child: canDrag
-                ? Draggable<SquareInfo>(
-                    data: SquareInfo(-1, boardSize / 8),
-                    feedback: piece.value,
-                    childWhenDragging:
-                        Opacity(opacity: 0.3, child: piece.value),
-                    child: piece.value,
-                    onDragStarted: () {
-                      _draggingPiece = chess_lib.Piece(
-                        _getPieceType(piece.key),
-                        isWhite ? chess_lib.Color.WHITE : chess_lib.Color.BLACK,
-                      );
-                    },
-                  )
-                : piece.value,
-          );
-        }).toList(),
+          ...pieces.map((piece) {
+            final canDrag = (currentPieceCounts[piece.key] ?? 0) <
+                (maxPieceCounts[piece.key] ?? 0);
+
+            return Opacity(
+              opacity: canDrag ? 1.0 : 0.3,
+              child: canDrag
+                  ? Draggable<SquareInfo>(
+                      data: SquareInfo(-1, boardSize / 8),
+                      feedback: piece.value,
+                      childWhenDragging:
+                          Opacity(opacity: 0.3, child: piece.value),
+                      child: piece.value,
+                      onDragStarted: () {
+                        _draggingPiece = chess_lib.Piece(
+                          _getPieceType(piece.key),
+                          isWhite
+                              ? chess_lib.Color.WHITE
+                              : chess_lib.Color.BLACK,
+                        );
+                      },
+                    )
+                  : piece.value,
+            );
+          }),
+          DragTarget<SquareInfo>(
+            builder: (context, candidateData, rejectedData) => Icon(
+              Icons.delete_outline,
+              size: pieceSize,
+              color:
+                  candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
+            ),
+            onWillAcceptWithDetails: (details) =>
+                details.data.index != -1, // 只接受来自棋盘的棋子
+            onAcceptWithDetails: (details) {
+              chess.remove(details.data.toString());
+              controller.setFen(chess.fen);
+              _updatePieceCounts();
+              setState(() {});
+            },
+          ),
+        ],
       ),
     );
   }
