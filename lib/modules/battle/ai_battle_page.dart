@@ -307,27 +307,48 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
       ),
       child: Row(
         children: [
-          Container(
-            padding: const EdgeInsets.all(3),
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              border: Border.all(
-                color: isOpponent ? Colors.red.shade300 : Colors.blue.shade300,
-                width: 2,
-              ),
-            ),
-            child: CircleAvatar(
-              radius: 24,
-              backgroundColor: Colors.white,
-              child: Text(
-                isOpponent ? 'AI' : '你',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                  color:
-                      isOpponent ? Colors.red.shade700 : Colors.blue.shade700,
+          SizedBox(
+            width: 60,
+            height: 60,
+            child: Stack(
+              alignment: Alignment.center,
+              children: [
+                if (isOpponent && isThinking)
+                  SizedBox(
+                    width: 60,
+                    height: 60,
+                    child: CircularProgressIndicator(
+                      strokeWidth: 2,
+                      color: Colors.red.shade300,
+                    ),
+                  ),
+                Container(
+                  padding: const EdgeInsets.all(3),
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    border: Border.all(
+                      color: isOpponent
+                          ? Colors.red.shade300
+                          : Colors.blue.shade300,
+                      width: 2,
+                    ),
+                  ),
+                  child: CircleAvatar(
+                    radius: 24,
+                    backgroundColor: Colors.white,
+                    child: Text(
+                      isOpponent ? 'AI' : '你',
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: isOpponent
+                            ? Colors.red.shade700
+                            : Colors.blue.shade700,
+                      ),
+                    ),
+                  ),
                 ),
-              ),
+              ],
             ),
           ),
           const SizedBox(width: 16),
@@ -404,7 +425,6 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
           onPressed: undoMove,
           child: const Text('悔棋'),
         ),
-        if (isThinking) const CircularProgressIndicator()
       ],
     );
   }

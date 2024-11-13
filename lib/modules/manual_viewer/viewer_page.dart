@@ -314,49 +314,12 @@ class _ViewerPageState extends State<ViewerPage> {
             MediaQuery.of(context).size.width > 900;
         return Column(
           children: [
-            ExpansionTile(
-              title: const Text('局面评估'),
-              trailing: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  if (isAnalyzing)
-                    const SizedBox(
-                      width: 20,
-                      height: 20,
-                      child: CircularProgressIndicator(strokeWidth: 2),
-                    ),
-                  if (!isAnalyzing && evaluations.isEmpty)
-                    const Icon(Icons.analytics),
-                  if (evaluations.isNotEmpty && !isAnalyzing)
-                    const Icon(Icons.expand_more),
-                ],
-              ),
-              initiallyExpanded: isAnalysisPanelExpanded,
-              onExpansionChanged: (expanded) {
-                if (!isAnalyzing && evaluations.isEmpty) {
-                  analyzeGame();
-                }
-
-                setState(() {
-                  isAnalysisPanelExpanded = expanded;
-                });
-              },
-              children: [
-                SizedBox(
-                  height: 200,
-                  child: AnalysisChart(
-                    evaluations: evaluations,
-                    currentMoveIndex: currentMoveIndex + 1,
-                    onPositionChanged: (index) => _goToMove(index - 1),
-                  ),
-                ),
-              ],
-            ),
             Expanded(
               child: isWideLayout
                   ? Row(
                       children: [
                         Expanded(flex: 2, child: _buildBoardSection()),
+                        _buildAnalysisCard(),
                         if (!isAnalysisPanelExpanded)
                           Expanded(flex: 3, child: _buildMoveListSection()),
                       ],
@@ -364,6 +327,7 @@ class _ViewerPageState extends State<ViewerPage> {
                   : Column(
                       children: [
                         _buildBoardSection(),
+                        _buildAnalysisCard(),
                         if (!isAnalysisPanelExpanded)
                           Expanded(child: _buildMoveListSection()),
                       ],
@@ -372,6 +336,44 @@ class _ViewerPageState extends State<ViewerPage> {
           ],
         );
       },
+    );
+  }
+
+  ExpansionTile _buildAnalysisCard() {
+    return ExpansionTile(
+      title: const Text('对局分析'),
+      tilePadding: const EdgeInsets.symmetric(horizontal: 16),
+      trailing: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          if (isAnalyzing)
+            const SizedBox(
+              width: 20,
+              height: 20,
+              child: CircularProgressIndicator(strokeWidth: 2),
+            ),
+          if (!isAnalyzing && evaluations.isEmpty) const Icon(Icons.analytics),
+          if (evaluations.isNotEmpty && !isAnalyzing)
+            const Icon(Icons.expand_more),
+        ],
+      ),
+      initiallyExpanded: isAnalysisPanelExpanded,
+      onExpansionChanged: (expanded) {
+        if (!isAnalyzing && evaluations.isEmpty) analyzeGame();
+        setState(() {
+          isAnalysisPanelExpanded = expanded;
+        });
+      },
+      children: [
+        SizedBox(
+          height: 200,
+          child: AnalysisChart(
+            evaluations: evaluations,
+            currentMoveIndex: currentMoveIndex + 1,
+            onPositionChanged: (index) => _goToMove(index - 1),
+          ),
+        ),
+      ],
     );
   }
 
