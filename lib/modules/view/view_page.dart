@@ -171,7 +171,6 @@ class _ViewPageState extends State<ViewPage> {
     if (isAnalyzing) return;
 
     setState(() {
-      isAnalysisPanelExpanded = true;
       isAnalyzing = true;
       evaluations = [];
     });
@@ -294,17 +293,17 @@ class _ViewPageState extends State<ViewPage> {
                         child: CircularProgressIndicator(strokeWidth: 2),
                       ),
                     if (!isAnalyzing && evaluations.isEmpty)
-                      IconButton(
-                        icon: const Icon(Icons.analytics),
-                        onPressed: analyzeGame,
-                        tooltip: '分析对局',
-                      ),
+                      const Icon(Icons.analytics),
                     if (evaluations.isNotEmpty && !isAnalyzing)
                       const Icon(Icons.expand_more),
                   ],
                 ),
                 initiallyExpanded: isAnalysisPanelExpanded,
                 onExpansionChanged: (expanded) {
+                  if (!isAnalyzing && evaluations.isEmpty) {
+                    analyzeGame();
+                  }
+
                   setState(() {
                     isAnalysisPanelExpanded = expanded;
                   });
