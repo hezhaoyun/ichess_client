@@ -12,13 +12,13 @@ import 'viewer_control_panel.dart';
 import 'analysis_chart.dart';
 import '../../services/ai_native.dart';
 
-class ViewPage extends StatefulWidget {
-  const ViewPage({super.key});
+class ViewerPage extends StatefulWidget {
+  const ViewerPage({super.key});
   @override
-  State<ViewPage> createState() => _ViewPageState();
+  State<ViewerPage> createState() => _ViewerPageState();
 }
 
-class _ViewPageState extends State<ViewPage> {
+class _ViewerPageState extends State<ViewerPage> {
   final _chessboardController = WPChessboardController();
   final _scrollController = ScrollController();
   final _selectedMoveKey = GlobalKey<MoveListState>();
@@ -346,7 +346,7 @@ class _ViewPageState extends State<ViewPage> {
   Widget _buildBoardSection() => Column(
         children: [
           ChessBoardWidget(
-            size: MediaQuery.of(context).size.shortestSide - 24,
+            size: MediaQuery.of(context).size.shortestSide - 52,
             orientation: BoardOrientation.white,
             controller: _chessboardController,
             interactiveEnable: false,

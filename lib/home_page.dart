@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'modules/battle/ai_battle_page.dart';
 import 'modules/battle/online_battle_page.dart';
-import 'modules/view/view_page.dart';
+import 'modules/manual_viewer/viewer_page.dart';
 import 'modules/board_setup/chess_setup_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                       onTap: () => Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const ViewPage(),
+                          builder: (context) => const ViewerPage(),
                         ),
                       ),
                     ),
