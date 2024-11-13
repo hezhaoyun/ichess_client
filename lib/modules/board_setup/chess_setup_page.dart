@@ -13,9 +13,12 @@ class ChessSetupPage extends StatefulWidget {
 }
 
 class _ChessSetupPageState extends State<ChessSetupPage> {
-  final controller =
-      WPChessboardController(initialFen: '8/8/8/8/8/8/8/8 w - - 0 1');
-  final chess = chess_lib.Chess.fromFEN('8/8/8/8/8/8/8/8 w - - 0 1');
+  // 添加初始FEN常量
+  static const String emptyBoardFen = '8/8/8/8/8/8/8/8 w - - 0 1';
+  static const String initialBoardFen = chess_lib.Chess.DEFAULT_POSITION;
+
+  final controller = WPChessboardController(initialFen: emptyBoardFen);
+  final chess = chess_lib.Chess.fromFEN(emptyBoardFen);
 
   // 在类的顶部定义一个静态变量
   static chess_lib.Piece? _draggingPiece; // 保存当前正在拖拽的棋子类型
@@ -28,6 +31,11 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
       appBar: AppBar(
         title: const Text('设置局面'),
         actions: [
+          // 添加切换按钮
+          IconButton(
+            icon: const Icon(Icons.refresh),
+            onPressed: _toggleBoardState,
+          ),
           IconButton(
             icon: const Icon(Icons.play_arrow),
             onPressed: _startGame,
@@ -207,5 +215,17 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
       default:
         throw ArgumentError('Invalid piece type: $piece');
     }
+  }
+
+  // 添加切换功能
+  void _toggleBoardState() {
+    final currentFen = chess.fen;
+    final newFen =
+        currentFen == emptyBoardFen ? initialBoardFen : emptyBoardFen;
+
+    setState(() {
+      chess.load(newFen);
+      controller.setFen(newFen);
+    });
   }
 }
