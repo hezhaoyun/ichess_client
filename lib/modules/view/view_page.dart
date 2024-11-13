@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:stockfish/stockfish.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../widgets/chess_board_widget.dart';
@@ -11,6 +10,7 @@ import 'move_list.dart';
 import 'pgn_game.dart';
 import 'viewer_control_panel.dart';
 import 'analysis_chart.dart';
+import '../../services/ai_native.dart';
 
 class ViewPage extends StatefulWidget {
   const ViewPage({super.key});
@@ -32,9 +32,19 @@ class _ViewPageState extends State<ViewPage> {
   String currentFen = chess_lib.Chess.DEFAULT_POSITION;
   List<String> fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
 
-  late Stockfish stockfish;
   List<double> evaluations = [];
   bool isAnalyzing = false;
+
+  @override
+  void initState() {
+    super.initState();
+    initStockfish();
+  }
+
+  Future<void> initStockfish() async {
+    await AiNative.instance.initialize();
+    AiNative.instance.setSkillLevel(20);
+  }
 
   Future<void> _loadPgnFile() async {
     try {
@@ -155,22 +165,6 @@ class _ViewPageState extends State<ViewPage> {
         ),
       );
 
-  @override
-  void initState() {
-    super.initState();
-    initStockfish();
-  }
-
-  Future<void> initStockfish() async {
-    stockfish = Stockfish();
-    await Future.delayed(const Duration(milliseconds: 500));
-
-    stockfish.stdin = 'uci';
-    stockfish.stdin = 'setoption name Skill Level value 20';
-    stockfish.stdin = 'isready';
-    stockfish.stdin = 'ucinewgame';
-  }
-
   Future<void> analyzeGame() async {
     if (isAnalyzing) return;
 
@@ -198,6 +192,7 @@ class _ViewPageState extends State<ViewPage> {
   }
 
   Future<double> getPositionEvaluation(String fen) async {
+    final stockfish = AiNative.instance.stockfish;
     stockfish.stdin = 'position fen $fen';
     stockfish.stdin = 'go depth 5';
 
@@ -345,7 +340,6 @@ class _ViewPageState extends State<ViewPage> {
 
   @override
   void dispose() {
-    stockfish.dispose();
     _scrollController.dispose();
     super.dispose();
   }

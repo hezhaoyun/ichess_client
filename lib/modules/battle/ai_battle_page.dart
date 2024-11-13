@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:stockfish/stockfish.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../services/ai_native.dart';
 import '../../widgets/chess_board_widget.dart';
 import 'chess_battle_mixin.dart';
 
@@ -16,7 +16,6 @@ class AIBattlePage extends StatefulWidget {
 }
 
 class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
-  late Stockfish stockfish;
   bool isThinking = false;
   bool _isEngineReady = false;
   List<String> moves = [];
@@ -30,7 +29,8 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
 
   Future<void> _initializeGame() async {
     try {
-      await initStockfish();
+      await AiNative.instance.initialize();
+      AiNative.instance.setSkillLevel(10);
       setState(() => _isEngineReady = true);
     } catch (e) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -42,16 +42,6 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
         debugPrint('引擎初始化失败：${e.toString()}');
       });
     }
-  }
-
-  initStockfish() async {
-    stockfish = Stockfish();
-    await Future.delayed(const Duration(milliseconds: 500));
-
-    stockfish.stdin = 'uci';
-    stockfish.stdin = 'setoption name Skill Level value 10';
-    stockfish.stdin = 'isready';
-    stockfish.stdin = 'ucinewgame';
   }
 
   @override
@@ -85,6 +75,7 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
     setState(() => isThinking = true);
 
     try {
+      final stockfish = AiNative.instance.stockfish;
       stockfish.stdin = 'position fen ${chess.fen} moves ${moves.join(' ')}';
       stockfish.stdin = 'go movetime 1000';
 
@@ -319,7 +310,6 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
 
   @override
   void dispose() {
-    stockfish.dispose();
     super.dispose();
   }
 }
