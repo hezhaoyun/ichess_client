@@ -35,6 +35,8 @@ class _ViewPageState extends State<ViewPage> {
   List<double> evaluations = [];
   bool isAnalyzing = false;
 
+  bool isAnalysisPanelExpanded = false;
+
   @override
   void initState() {
     super.initState();
@@ -169,6 +171,7 @@ class _ViewPageState extends State<ViewPage> {
     if (isAnalyzing) return;
 
     setState(() {
+      isAnalysisPanelExpanded = true;
       isAnalyzing = true;
       evaluations = [];
     });
@@ -198,7 +201,7 @@ class _ViewPageState extends State<ViewPage> {
   Future<double> getPositionEvaluation(String fen) async {
     final stockfish = AiNative.instance.stockfish;
     stockfish.stdin = 'position fen $fen';
-    stockfish.stdin = 'go depth 5';
+    stockfish.stdin = 'go depth 8';
 
     double evaluation = 0.0;
     await for (final output in stockfish.stdout) {
@@ -232,11 +235,6 @@ class _ViewPageState extends State<ViewPage> {
               icon: const Icon(Icons.folder_open),
               onPressed: isLoading ? null : _loadPgnFile,
             ),
-            if (currentGame != null)
-              IconButton(
-                icon: const Icon(Icons.analytics),
-                onPressed: isAnalyzing ? null : analyzeGame,
-              ),
           ],
         ),
         body: isLoading
@@ -284,24 +282,58 @@ class _ViewPageState extends State<ViewPage> {
           ),
           child: Column(
             children: [
-              if (evaluations.isNotEmpty)
-                AnalysisChart(
-                  evaluations: evaluations,
-                  currentMoveIndex: currentMoveIndex + 1,
-                  onPositionChanged: (index) => _goToMove(index - 1),
+              ExpansionTile(
+                title: const Text('局面评估'),
+                trailing: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    if (isAnalyzing)
+                      const SizedBox(
+                        width: 20,
+                        height: 20,
+                        child: CircularProgressIndicator(strokeWidth: 2),
+                      ),
+                    if (!isAnalyzing && evaluations.isEmpty)
+                      IconButton(
+                        icon: const Icon(Icons.analytics),
+                        onPressed: analyzeGame,
+                        tooltip: '分析对局',
+                      ),
+                    if (evaluations.isNotEmpty && !isAnalyzing)
+                      const Icon(Icons.expand_more),
+                  ],
                 ),
+                initiallyExpanded: isAnalysisPanelExpanded,
+                onExpansionChanged: (expanded) {
+                  setState(() {
+                    isAnalysisPanelExpanded = expanded;
+                  });
+                },
+                children: [
+                  SizedBox(
+                    height: 200,
+                    child: AnalysisChart(
+                      evaluations: evaluations,
+                      currentMoveIndex: currentMoveIndex + 1,
+                      onPositionChanged: (index) => _goToMove(index - 1),
+                    ),
+                  ),
+                ],
+              ),
               Expanded(
                 child: isWideLayout
                     ? Row(
                         children: [
-                          Expanded(flex: 3, child: _buildBoardSection()),
-                          Expanded(flex: 2, child: _buildMoveListSection()),
+                          Expanded(flex: 2, child: _buildBoardSection()),
+                          if (!isAnalysisPanelExpanded)
+                            Expanded(flex: 3, child: _buildMoveListSection()),
                         ],
                       )
                     : Column(
                         children: [
                           _buildBoardSection(),
-                          Expanded(child: _buildMoveListSection()),
+                          if (!isAnalysisPanelExpanded)
+                            Expanded(child: _buildMoveListSection()),
                         ],
                       ),
               ),
