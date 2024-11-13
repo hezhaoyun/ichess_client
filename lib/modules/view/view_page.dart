@@ -8,7 +8,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import '../widgets/chess_board_widget.dart';
 import 'move_list.dart';
 import 'pgn_game.dart';
-import 'chess_control_panel.dart';
+import 'viewer_control_panel.dart';
 
 class ViewPage extends StatefulWidget {
   const ViewPage({super.key});
@@ -102,7 +102,7 @@ class _ViewPageState extends State<ViewPage> {
 
   Widget _buildControlPanel() => Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16.0),
-        child: ChessControlPanel(
+        child: ViewerControlPanel(
           currentGameIndex: currentGameIndex,
           gamesCount: games.length,
           currentMoveIndex: currentMoveIndex,

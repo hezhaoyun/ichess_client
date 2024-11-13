@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'modules/battle/ai_battle_page.dart';
 import 'modules/battle/online_battle_page.dart';
 import 'modules/view/view_page.dart';
+import 'pages/chess_setup_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -34,10 +35,7 @@ class _HomePageState extends State<HomePage> {
               Text(
                 '探索国际象棋的无限可能',
                 style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                      color: Theme.of(context)
-                          .colorScheme
-                          .onSurface
-                          .withAlpha(179),
+                      color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
                     ),
               ),
               const SizedBox(height: 48),
@@ -75,6 +73,16 @@ class _HomePageState extends State<HomePage> {
                         context,
                         MaterialPageRoute(
                           builder: (context) => const ViewPage(),
+                        ),
+                      ),
+                    ),
+                    _buildCard(
+                      icon: Icons.edit,
+                      label: '推演棋盘',
+                      onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const ChessSetupPage(),
                         ),
                       ),
                     ),

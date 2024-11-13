@@ -12,9 +12,9 @@ class ChessBoardWidget extends StatelessWidget {
   final WPChessboardController controller;
   final List<List<int>>? lastMove;
   final bool interactiveEnable;
+  final Function(SquareInfo, String)? onPieceStartDrag;
   final Function(PieceDropEvent)? onPieceDrop;
   final Function(SquareInfo, String)? onPieceTap;
-  final Function(SquareInfo, String)? onPieceStartDrag;
   final Function(SquareInfo)? onEmptyFieldTap;
 
   const ChessBoardWidget({
@@ -24,9 +24,9 @@ class ChessBoardWidget extends StatelessWidget {
     required this.controller,
     this.lastMove,
     this.interactiveEnable = false,
+    this.onPieceStartDrag,
     this.onPieceDrop,
     this.onPieceTap,
-    this.onPieceStartDrag,
     this.onEmptyFieldTap,
   });
 

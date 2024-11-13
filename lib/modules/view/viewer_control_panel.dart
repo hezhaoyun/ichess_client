@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class ChessControlPanel extends StatelessWidget {
+class ViewerControlPanel extends StatelessWidget {
   final int currentGameIndex;
   final int gamesCount;
   final int currentMoveIndex;
@@ -11,7 +11,7 @@ class ChessControlPanel extends StatelessWidget {
   final VoidCallback onNextMove;
   final VoidCallback onGoToEnd;
 
-  const ChessControlPanel({
+  const ViewerControlPanel({
     super.key,
     required this.currentGameIndex,
     required this.gamesCount,
