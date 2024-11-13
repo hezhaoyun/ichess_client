@@ -176,7 +176,7 @@ class _ViewPageState extends State<ViewPage> {
     try {
       final chess = chess_lib.Chess();
 
-      // 分析初始局面
+      // 分析初始局面（白方视角）
       double initialEval = await getPositionEvaluation(chess.fen);
       evaluations.add(initialEval);
 
@@ -184,6 +184,10 @@ class _ViewPageState extends State<ViewPage> {
       for (var move in currentGame!.moves) {
         chess.move(move);
         double eval = await getPositionEvaluation(chess.fen);
+        // 如果是黑方走完棋，评估分数需要取反
+        if (chess.turn == chess_lib.Color.WHITE) {
+          eval = -eval;
+        }
         setState(() => evaluations.add(eval));
       }
     } finally {
@@ -201,13 +205,13 @@ class _ViewPageState extends State<ViewPage> {
       if (output.contains('score cp')) {
         final scoreMatch = RegExp(r'score cp (-?\d+)').firstMatch(output);
         if (scoreMatch != null) {
-          evaluation = int.parse(scoreMatch.group(1)!) / 100.0;
+          evaluation = int.parse(scoreMatch.group(1)!) / 1.0;
         }
       } else if (output.contains('score mate')) {
         final mateMatch = RegExp(r'score mate (-?\d+)').firstMatch(output);
         if (mateMatch != null) {
           final moves = int.parse(mateMatch.group(1)!);
-          evaluation = moves > 0 ? 100.0 : -100.0;
+          evaluation = moves > 0 ? 10000.0 : -10000.0;
         }
       }
 
