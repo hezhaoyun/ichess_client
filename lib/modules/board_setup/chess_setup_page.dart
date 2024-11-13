@@ -23,6 +23,44 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
   // 在类的顶部定义一个静态变量
   static chess_lib.Piece? _draggingPiece; // 保存当前正在拖拽的棋子类型
 
+  // 添加棋子数量限制常量
+  static const Map<String, int> maxPieceCounts = {
+    'K': 1, 'Q': 1, 'R': 2, 'B': 2, 'N': 2, 'P': 8, // 白方
+    'k': 1, 'q': 1, 'r': 2, 'b': 2, 'n': 2, 'p': 8, // 黑方
+  };
+
+  // 添加当前棋子数量计数器
+  final Map<String, int> currentPieceCounts = {
+    'K': 0, 'Q': 0, 'R': 0, 'B': 0, 'N': 0, 'P': 0, // 白方
+    'k': 0, 'q': 0, 'r': 0, 'b': 0, 'n': 0, 'p': 0, // 黑方
+  };
+
+  @override
+  void initState() {
+    super.initState();
+    _updatePieceCounts(); // 初始化时更新棋子数量
+  }
+
+  // 添加更新棋子数量的方法
+  void _updatePieceCounts() {
+    // 重置计数器
+    currentPieceCounts.updateAll((key, value) => 0);
+
+    // 遍历棋盘统计每种棋子的数量
+    for (var rank = 0; rank < 8; rank++) {
+      for (var file = 0; file < 8; file++) {
+        final square = _getSquareFromIndex(rank * 8 + file);
+        final piece = chess.get(square);
+        if (piece != null) {
+          final key = piece.color == chess_lib.Color.WHITE
+              ? _getPieceChar(piece.type).toUpperCase()
+              : _getPieceChar(piece.type).toLowerCase();
+          currentPieceCounts[key] = (currentPieceCounts[key] ?? 0) + 1;
+        }
+      }
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final double boardSize = MediaQuery.of(context).size.shortestSide - 24;
@@ -105,30 +143,47 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: pieces
-            .map((piece) => Draggable<SquareInfo>(
-                  data: SquareInfo(-1, boardSize / 8),
-                  feedback: piece.value,
-                  childWhenDragging: Opacity(opacity: 0.3, child: piece.value),
-                  child: piece.value,
-                  onDragStarted: () {
-                    _draggingPiece = chess_lib.Piece(
-                      _getPieceType(piece.key),
-                      isWhite ? chess_lib.Color.WHITE : chess_lib.Color.BLACK,
-                    );
-                  },
-                ))
-            .toList(),
+        children: pieces.map((piece) {
+          final canDrag = (currentPieceCounts[piece.key] ?? 0) <
+              (maxPieceCounts[piece.key] ?? 0);
+
+          return Opacity(
+            opacity: canDrag ? 1.0 : 0.3,
+            child: canDrag
+                ? Draggable<SquareInfo>(
+                    data: SquareInfo(-1, boardSize / 8),
+                    feedback: piece.value,
+                    childWhenDragging:
+                        Opacity(opacity: 0.3, child: piece.value),
+                    child: piece.value,
+                    onDragStarted: () {
+                      _draggingPiece = chess_lib.Piece(
+                        _getPieceType(piece.key),
+                        isWhite ? chess_lib.Color.WHITE : chess_lib.Color.BLACK,
+                      );
+                    },
+                  )
+                : piece.value,
+          );
+        }).toList(),
       ),
     );
   }
 
   void _handlePieceDrop(PieceDropEvent event) {
     if (event.from.index == -1) {
-      // 从棋盘外拖入时，直接在目标位置放置棋子
+      // 检查是否超过最大数量限制
+      final pieceKey = _draggingPiece!.color == chess_lib.Color.WHITE
+          ? _getPieceChar(_draggingPiece!.type).toUpperCase()
+          : _getPieceChar(_draggingPiece!.type).toLowerCase();
+
+      if ((currentPieceCounts[pieceKey] ?? 0) >=
+          (maxPieceCounts[pieceKey] ?? 0)) {
+        return; // 如果超过限制，直接返回
+      }
+
       chess.put(_draggingPiece!, event.to.toString());
     } else {
-      // 棋盘内移动棋子：先获取原位置的棋子，然后移除原位置，最后放置到新位置
       final piece = chess.get(event.from.toString());
       if (piece != null) {
         chess.remove(event.from.toString());
@@ -137,6 +192,8 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
     }
 
     controller.setFen(chess.fen);
+    _updatePieceCounts(); // 更新棋子数量
+    setState(() {}); // 触发重建以更新UI
   }
 
   void _handleEmptyFieldTap(SquareInfo square) {
@@ -226,6 +283,27 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
     setState(() {
       chess.load(newFen);
       controller.setFen(newFen);
+      _updatePieceCounts();
     });
+  }
+
+  // 添加辅助方法：将棋子类型转换为字符
+  String _getPieceChar(chess_lib.PieceType type) {
+    switch (type) {
+      case chess_lib.PieceType.KING:
+        return 'k';
+      case chess_lib.PieceType.QUEEN:
+        return 'q';
+      case chess_lib.PieceType.ROOK:
+        return 'r';
+      case chess_lib.PieceType.BISHOP:
+        return 'b';
+      case chess_lib.PieceType.KNIGHT:
+        return 'n';
+      case chess_lib.PieceType.PAWN:
+        return 'p';
+      default:
+        throw ArgumentError('Invalid piece type');
+    }
   }
 }
