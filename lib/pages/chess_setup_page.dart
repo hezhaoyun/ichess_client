@@ -16,25 +16,6 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
   final controller = WPChessboardController(initialFen: '8/8/8/8/8/8/8/8 w - - 0 1');
   final chess = chess_lib.Chess.fromFEN('8/8/8/8/8/8/8/8 w - - 0 1');
 
-  // 定义可用棋子
-  final List<MapEntry<String, Widget>> whitePieces = [
-    MapEntry('K', WhiteKing(size: 32)),
-    MapEntry('Q', WhiteQueen(size: 32)),
-    MapEntry('R', WhiteRook(size: 32)),
-    MapEntry('B', WhiteBishop(size: 32)),
-    MapEntry('N', WhiteKnight(size: 32)),
-    MapEntry('P', WhitePawn(size: 32)),
-  ];
-
-  final List<MapEntry<String, Widget>> blackPieces = [
-    MapEntry('k', BlackKing(size: 32)),
-    MapEntry('q', BlackQueen(size: 32)),
-    MapEntry('r', BlackRook(size: 32)),
-    MapEntry('b', BlackBishop(size: 32)),
-    MapEntry('n', BlackKnight(size: 32)),
-    MapEntry('p', BlackPawn(size: 32)),
-  ];
-
   // 在类的顶部定义一个静态变量
   static chess_lib.Piece? _draggingPiece; // 保存当前正在拖拽的棋子类型
 
@@ -86,28 +67,41 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
   }
 
   Widget _buildPiecesPanel({required bool isWhite}) {
+    final boardSize = MediaQuery.of(context).size.shortestSide - 24;
+    final pieceSize = boardSize / 8;
+
+    // 定义可用棋子
+    final whitePieces = [
+      MapEntry('K', WhiteKing(size: pieceSize)),
+      MapEntry('Q', WhiteQueen(size: pieceSize)),
+      MapEntry('R', WhiteRook(size: pieceSize)),
+      MapEntry('B', WhiteBishop(size: pieceSize)),
+      MapEntry('N', WhiteKnight(size: pieceSize)),
+      MapEntry('P', WhitePawn(size: pieceSize)),
+    ];
+
+    final blackPieces = [
+      MapEntry('k', BlackKing(size: pieceSize)),
+      MapEntry('q', BlackQueen(size: pieceSize)),
+      MapEntry('r', BlackRook(size: pieceSize)),
+      MapEntry('b', BlackBishop(size: pieceSize)),
+      MapEntry('n', BlackKnight(size: pieceSize)),
+      MapEntry('p', BlackPawn(size: pieceSize)),
+    ];
+
     final pieces = isWhite ? whitePieces : blackPieces;
 
     return Container(
-      height: 52,
+      height: boardSize / 8 + 20,
       color: Colors.blue.shade50,
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: pieces
-            .map((piece) => Draggable<MapEntry<String, chess_lib.Piece>>(
-                  data: MapEntry(
-                    piece.key,
-                    chess_lib.Piece(
-                      _getPieceType(piece.key),
-                      isWhite ? chess_lib.Color.WHITE : chess_lib.Color.BLACK,
-                    ),
-                  ),
+            .map((piece) => Draggable<SquareInfo>(
+                  data: SquareInfo(-1, boardSize / 8),
                   feedback: piece.value,
-                  childWhenDragging: Opacity(
-                    opacity: 0.3,
-                    child: piece.value,
-                  ),
+                  childWhenDragging: Opacity(opacity: 0.3, child: piece.value),
                   child: piece.value,
                   onDragStarted: () {
                     _draggingPiece = chess_lib.Piece(
@@ -124,14 +118,14 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
   void _handlePieceDrop(PieceDropEvent event) {
     if (event.from.index == -1) {
       // 从棋盘外拖入时，直接在目标位置放置棋子
-      final squareName = _getSquareFromIndex(event.to.index);
-      chess.put(_draggingPiece!, squareName);
+      chess.put(_draggingPiece!, event.to.toString());
     } else {
-      // 棋盘内移动棋子
-      chess.move({
-        'from': _getSquareFromIndex(event.from.index),
-        'to': _getSquareFromIndex(event.to.index),
-      });
+      // 棋盘内移动棋子：先获取原位置的棋子，然后移除原位置，最后放置到新位置
+      final piece = chess.get(event.from.toString());
+      if (piece != null) {
+        chess.remove(event.from.toString());
+        chess.put(piece, event.to.toString());
+      }
     }
 
     controller.setFen(chess.fen);
