@@ -50,15 +50,11 @@ class MoveListState extends State<MoveList> {
       );
 
   void scrollToSelectedMove() {
-    if (widget.currentMoveIndex < 0 ||
-        widget.currentMoveIndex >= widget.moves.length) return;
+    if (widget.currentMoveIndex < 0 || widget.currentMoveIndex >= widget.moves.length) return;
 
     const itemHeight = 32.0;
-    final rowsBeforeSelected =
-        (widget.currentMoveIndex * (40.0 + MoveList._horizontalSpacing)) /
-            300.0;
-    final approximateOffset =
-        rowsBeforeSelected * (itemHeight + MoveList._verticalSpacing);
+    final rowsBeforeSelected = (widget.currentMoveIndex * (40.0 + MoveList._horizontalSpacing)) / 300.0;
+    final approximateOffset = rowsBeforeSelected * (itemHeight + MoveList._verticalSpacing);
 
     widget.scrollController.animateTo(
       approximateOffset,
@@ -98,6 +94,5 @@ class _MoveItem extends StatelessWidget {
         ),
       );
 
-  String _formatMoveText() =>
-      moveIndex.isEven ? '${(moveIndex ~/ 2 + 1)}. $move' : move;
+  String _formatMoveText() => moveIndex.isEven ? '${(moveIndex ~/ 2 + 1)}. $move' : move;
 }

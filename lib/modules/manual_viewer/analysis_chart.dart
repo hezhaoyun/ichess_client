@@ -55,9 +55,7 @@ class _AnalysisChartState extends State<AnalysisChart> {
                 touchCallback: (FlTouchEvent event, LineTouchResponse? response) {
                   if (event is FlTapUpEvent) {
                     final x = response?.lineBarSpots?.first.x.toInt();
-                    if (x != null) {
-                      widget.onPositionChanged(x);
-                    }
+                    if (x != null) widget.onPositionChanged(x);
                   }
                 },
                 touchTooltipData: LineTouchTooltipData(

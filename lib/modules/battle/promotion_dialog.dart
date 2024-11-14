@@ -2,8 +2,8 @@ import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-Future<void> showPromotionDialog(BuildContext context,
-    BoardOrientation orientation, Function(String) onPromotionSelected) {
+Future<void> showPromotionDialog(
+    BuildContext context, BoardOrientation orientation, Function(String) onPromotionSelected) {
   //
   Widget promotionOption(String type, VoidCallback onTap) {
     final isWhite = orientation == BoardOrientation.white;
