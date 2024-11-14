@@ -27,11 +27,7 @@ class _AnalysisChartState extends State<AnalysisChart> {
             LineChartData(
               lineBarsData: [
                 LineChartBarData(
-                  spots: widget.evaluations
-                      .asMap()
-                      .entries
-                      .map((e) => FlSpot(e.key.toDouble(), e.value))
-                      .toList(),
+                  spots: widget.evaluations.asMap().entries.map((e) => FlSpot(e.key.toDouble(), e.value)).toList(),
                   isCurved: true,
                   color: Theme.of(context).primaryColor,
                   barWidth: 2,
@@ -50,20 +46,13 @@ class _AnalysisChartState extends State<AnalysisChart> {
                     ),
                   ),
                 ),
-                rightTitles: const AxisTitles(
-                  sideTitles: SideTitles(showTitles: false),
-                ),
-                topTitles: const AxisTitles(
-                  sideTitles: SideTitles(showTitles: false),
-                ),
-                bottomTitles: const AxisTitles(
-                  sideTitles: SideTitles(showTitles: false),
-                ),
+                rightTitles: const AxisTitles(sideTitles: SideTitles(showTitles: false)),
+                topTitles: const AxisTitles(sideTitles: SideTitles(showTitles: false)),
+                bottomTitles: const AxisTitles(sideTitles: SideTitles(showTitles: false)),
               ),
               lineTouchData: LineTouchData(
                 enabled: true,
-                touchCallback:
-                    (FlTouchEvent event, LineTouchResponse? response) {
+                touchCallback: (FlTouchEvent event, LineTouchResponse? response) {
                   if (event is FlTapUpEvent) {
                     final x = response?.lineBarSpots?.first.x.toInt();
                     if (x != null) {
@@ -71,6 +60,9 @@ class _AnalysisChartState extends State<AnalysisChart> {
                     }
                   }
                 },
+                touchTooltipData: LineTouchTooltipData(
+                  getTooltipColor: (value) => Theme.of(context).colorScheme.surface,
+                ),
               ),
               extraLinesData: ExtraLinesData(
                 verticalLines: [

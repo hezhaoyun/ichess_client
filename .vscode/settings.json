@@ -1,5 +1,10 @@
 {
     "cSpell.words": [
         "rnbqkbnr"
-    ]
+    ],
+    "[dart]": {
+    "editor.rulers": [120],
+    "editor.formatOnSave": true
+},
+"dart.lineLength": 120
 }

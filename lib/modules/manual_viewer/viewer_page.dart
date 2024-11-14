@@ -106,8 +106,7 @@ class _ViewerPageState extends State<ViewerPage> {
       } else if (index > currentMoveIndex) {
         // 前进
         for (var i = currentMoveIndex + 1; i <= index; i++) {
-          final newFen =
-              PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
+          final newFen = PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
           fenHistory.add(newFen);
           currentFen = newFen;
         }
@@ -261,15 +260,11 @@ class _ViewerPageState extends State<ViewerPage> {
                       const SizedBox(width: 8),
                       Text(
                         '棋谱阅读',
-                        style:
-                            Theme.of(context).textTheme.headlineSmall?.copyWith(
+                        style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                           fontWeight: FontWeight.bold,
                           shadows: [
                             Shadow(
-                              color: Theme.of(context)
-                                  .colorScheme
-                                  .primary
-                                  .withAlpha(0x33),
+                              color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
                               offset: const Offset(1, 1),
                               blurRadius: 2,
                             ),
@@ -285,9 +280,7 @@ class _ViewerPageState extends State<ViewerPage> {
                   ),
                 ),
                 Expanded(
-                  child: isLoading
-                      ? const Center(child: CircularProgressIndicator())
-                      : _buildContent(),
+                  child: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent(),
                 ),
               ],
             ),
@@ -318,8 +311,7 @@ class _ViewerPageState extends State<ViewerPage> {
 
     return OrientationBuilder(
       builder: (context, orientation) {
-        final isWideLayout = orientation == Orientation.landscape ||
-            MediaQuery.of(context).size.width > 900;
+        final isWideLayout = orientation == Orientation.landscape || MediaQuery.of(context).size.width > 900;
         return Column(
           children: [
             Expanded(
@@ -328,16 +320,14 @@ class _ViewerPageState extends State<ViewerPage> {
                       children: [
                         Expanded(flex: 2, child: _buildBoardSection()),
                         _buildAnalysisCard(),
-                        if (!isAnalysisPanelExpanded)
-                          Expanded(flex: 3, child: _buildMoveListSection()),
+                        if (!isAnalysisPanelExpanded) Expanded(flex: 3, child: _buildMoveListSection()),
                       ],
                     )
                   : Column(
                       children: [
                         _buildBoardSection(),
                         _buildAnalysisCard(),
-                        if (!isAnalysisPanelExpanded)
-                          Expanded(child: _buildMoveListSection()),
+                        if (!isAnalysisPanelExpanded) Expanded(child: _buildMoveListSection()),
                       ],
                     ),
             ),
@@ -361,8 +351,7 @@ class _ViewerPageState extends State<ViewerPage> {
               child: CircularProgressIndicator(strokeWidth: 2),
             ),
           if (!isAnalyzing && evaluations.isEmpty) const Icon(Icons.analytics),
-          if (evaluations.isNotEmpty && !isAnalyzing)
-            const Icon(Icons.expand_more),
+          if (evaluations.isNotEmpty && !isAnalyzing) const Icon(Icons.expand_more),
         ],
       ),
       controller: _analysisCardController,
