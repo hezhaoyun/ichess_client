@@ -72,7 +72,7 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              Theme.of(context).colorScheme.primary.withOpacity(0.1),
+              Theme.of(context).colorScheme.primary.withAlpha(0x1A),
               Theme.of(context).colorScheme.surface,
             ],
           ),
@@ -95,15 +95,11 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
                     const SizedBox(width: 8),
                     Text(
                       '设置局面',
-                      style:
-                          Theme.of(context).textTheme.headlineSmall?.copyWith(
+                      style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                         fontWeight: FontWeight.bold,
                         shadows: [
                           Shadow(
-                            color: Theme.of(context)
-                                .colorScheme
-                                .primary
-                                .withOpacity(0.3),
+                            color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
                             offset: const Offset(1, 1),
                             blurRadius: 2,
                           ),
@@ -187,8 +183,7 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
           // 添加垃圾桶
 
           ...pieces.map((piece) {
-            final canDrag = (currentPieceCounts[piece.key] ?? 0) <
-                (maxPieceCounts[piece.key] ?? 0);
+            final canDrag = (currentPieceCounts[piece.key] ?? 0) < (maxPieceCounts[piece.key] ?? 0);
 
             return Opacity(
               opacity: canDrag ? 1.0 : 0.3,
@@ -196,15 +191,12 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
                   ? Draggable<SquareInfo>(
                       data: SquareInfo(-1, boardSize / 8),
                       feedback: piece.value,
-                      childWhenDragging:
-                          Opacity(opacity: 0.3, child: piece.value),
+                      childWhenDragging: Opacity(opacity: 0.3, child: piece.value),
                       child: piece.value,
                       onDragStarted: () {
                         _draggingPiece = chess_lib.Piece(
                           _getPieceType(piece.key),
-                          isWhite
-                              ? chess_lib.Color.WHITE
-                              : chess_lib.Color.BLACK,
+                          isWhite ? chess_lib.Color.WHITE : chess_lib.Color.BLACK,
                         );
                       },
                     )
@@ -215,11 +207,9 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
             builder: (context, candidateData, rejectedData) => Icon(
               Icons.delete_outline,
               size: pieceSize,
-              color:
-                  candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
+              color: candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
             ),
-            onWillAcceptWithDetails: (details) =>
-                details.data.index != -1, // 只接受来自棋盘的棋子
+            onWillAcceptWithDetails: (details) => details.data.index != -1, // 只接受来自棋盘的棋子
             onAcceptWithDetails: (details) {
               chess.remove(details.data.toString());
               controller.setFen(chess.fen);
@@ -239,8 +229,7 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
           ? _getPieceChar(_draggingPiece!.type).toUpperCase()
           : _getPieceChar(_draggingPiece!.type).toLowerCase();
 
-      if ((currentPieceCounts[pieceKey] ?? 0) >=
-          (maxPieceCounts[pieceKey] ?? 0)) {
+      if ((currentPieceCounts[pieceKey] ?? 0) >= (maxPieceCounts[pieceKey] ?? 0)) {
         return; // 如果超过限制，直接返回
       }
 
@@ -306,8 +295,7 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
           }
 
           // 检查兵是否在第一行或第八行
-          if (piece.type == chess_lib.PieceType.PAWN &&
-              (rank == 0 || rank == 7)) {
+          if (piece.type == chess_lib.PieceType.PAWN && (rank == 0 || rank == 7)) {
             return false;
           }
         }
@@ -339,8 +327,7 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
   // 添加切换功能
   void _toggleBoardState() {
     final currentFen = chess.fen;
-    final newFen =
-        currentFen == emptyBoardFen ? initialBoardFen : emptyBoardFen;
+    final newFen = currentFen == emptyBoardFen ? initialBoardFen : emptyBoardFen;
 
     setState(() {
       chess.load(newFen);

@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 
 import 'modules/battle/ai_battle_page.dart';
@@ -23,7 +21,7 @@ class _HomePageState extends State<HomePage> {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                Theme.of(context).colorScheme.primary.withOpacity(0.1),
+                Theme.of(context).colorScheme.primary.withAlpha(0x1A),
                 Theme.of(context).colorScheme.surface,
               ],
             ),
@@ -41,10 +39,7 @@ class _HomePageState extends State<HomePage> {
                       fontWeight: FontWeight.bold,
                       shadows: [
                         Shadow(
-                          color: Theme.of(context)
-                              .colorScheme
-                              .primary
-                              .withOpacity(0.3),
+                          color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
                           offset: const Offset(2, 2),
                           blurRadius: 4,
                         ),
@@ -54,10 +49,7 @@ class _HomePageState extends State<HomePage> {
                   Text(
                     '探索国际象棋的无限可能',
                     style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                          color: Theme.of(context)
-                              .colorScheme
-                              .onSurface
-                              .withAlpha(179),
+                          color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
                         ),
                   ),
                   const SizedBox(height: 48),
@@ -67,17 +59,16 @@ class _HomePageState extends State<HomePage> {
                       mainAxisSpacing: 16,
                       crossAxisSpacing: 16,
                       children: [
-                        if (Platform.isAndroid || Platform.isIOS)
-                          _buildCard(
-                            icon: Icons.computer,
-                            label: '人机对战',
-                            onTap: () => Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => const AIBattlePage(),
-                              ),
+                        _buildCard(
+                          icon: Icons.computer,
+                          label: '人机对战',
+                          onTap: () => Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const AIBattlePage(),
                             ),
                           ),
+                        ),
                         _buildCard(
                           icon: Icons.people,
                           label: '在线对战',
@@ -130,7 +121,7 @@ class _HomePageState extends State<HomePage> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
           side: BorderSide(
-            color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+            color: Theme.of(context).colorScheme.primary.withAlpha(0x1A),
             width: 1,
           ),
         ),
@@ -142,7 +133,7 @@ class _HomePageState extends State<HomePage> {
               end: Alignment.bottomRight,
               colors: [
                 Theme.of(context).cardColor,
-                Theme.of(context).cardColor.withOpacity(0.8),
+                Theme.of(context).cardColor.withAlpha(0xCC),
               ],
             ),
           ),
@@ -161,10 +152,7 @@ class _HomePageState extends State<HomePage> {
                       child: Container(
                         padding: const EdgeInsets.all(16),
                         decoration: BoxDecoration(
-                          color: Theme.of(context)
-                              .colorScheme
-                              .primary
-                              .withOpacity(0.1),
+                          color: Theme.of(context).colorScheme.primary.withAlpha(0x1A),
                           shape: BoxShape.circle,
                         ),
                         child: Icon(

@@ -33,9 +33,6 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
       case AppLifecycleState.detached:
         AiNative.instance.dispose();
         break;
-      case AppLifecycleState.resumed:
-        await AiNative.instance.initialize();
-        break;
       default:
         break;
     }

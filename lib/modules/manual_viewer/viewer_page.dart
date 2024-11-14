@@ -104,8 +104,7 @@ class _ViewerPageState extends State<ViewerPage> {
       } else if (index > currentMoveIndex) {
         // 前进
         for (var i = currentMoveIndex + 1; i <= index; i++) {
-          final newFen =
-              PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
+          final newFen = PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
           fenHistory.add(newFen);
           currentFen = newFen;
         }
@@ -198,9 +197,9 @@ class _ViewerPageState extends State<ViewerPage> {
   }
 
   Future<double> getPositionEvaluation(String fen) async {
-    final stockfish = AiNative.instance.stockfish;
-    stockfish.stdin = 'position fen $fen';
-    stockfish.stdin = 'go depth 8';
+    final stockfish = AiNative.instance;
+    stockfish.sendCommand('position fen $fen');
+    stockfish.sendCommand('go depth 8');
 
     double evaluation = 0.0;
     await for (final output in stockfish.stdout) {
@@ -233,7 +232,7 @@ class _ViewerPageState extends State<ViewerPage> {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                Theme.of(context).colorScheme.primary.withOpacity(0.1),
+                Theme.of(context).colorScheme.primary.withAlpha(0x1A),
                 Theme.of(context).colorScheme.surface,
               ],
             ),
@@ -253,15 +252,11 @@ class _ViewerPageState extends State<ViewerPage> {
                       const SizedBox(width: 8),
                       Text(
                         '棋谱阅读',
-                        style:
-                            Theme.of(context).textTheme.headlineSmall?.copyWith(
+                        style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                           fontWeight: FontWeight.bold,
                           shadows: [
                             Shadow(
-                              color: Theme.of(context)
-                                  .colorScheme
-                                  .primary
-                                  .withOpacity(0.3),
+                              color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
                               offset: const Offset(1, 1),
                               blurRadius: 2,
                             ),
@@ -277,9 +272,7 @@ class _ViewerPageState extends State<ViewerPage> {
                   ),
                 ),
                 Expanded(
-                  child: isLoading
-                      ? const Center(child: CircularProgressIndicator())
-                      : _buildContent(),
+                  child: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent(),
                 ),
               ],
             ),
@@ -296,7 +289,7 @@ class _ViewerPageState extends State<ViewerPage> {
             Icon(
               Icons.folder_open,
               size: 64,
-              color: Theme.of(context).colorScheme.primary.withOpacity(0.3),
+              color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
             ),
             const SizedBox(height: 16),
             Text(
@@ -310,8 +303,7 @@ class _ViewerPageState extends State<ViewerPage> {
 
     return OrientationBuilder(
       builder: (context, orientation) {
-        final isWideLayout = orientation == Orientation.landscape ||
-            MediaQuery.of(context).size.width > 900;
+        final isWideLayout = orientation == Orientation.landscape || MediaQuery.of(context).size.width > 900;
         return Column(
           children: [
             Expanded(
@@ -320,16 +312,14 @@ class _ViewerPageState extends State<ViewerPage> {
                       children: [
                         Expanded(flex: 2, child: _buildBoardSection()),
                         _buildAnalysisCard(),
-                        if (!isAnalysisPanelExpanded)
-                          Expanded(flex: 3, child: _buildMoveListSection()),
+                        if (!isAnalysisPanelExpanded) Expanded(flex: 3, child: _buildMoveListSection()),
                       ],
                     )
                   : Column(
                       children: [
                         _buildBoardSection(),
                         _buildAnalysisCard(),
-                        if (!isAnalysisPanelExpanded)
-                          Expanded(child: _buildMoveListSection()),
+                        if (!isAnalysisPanelExpanded) Expanded(child: _buildMoveListSection()),
                       ],
                     ),
             ),
@@ -353,8 +343,7 @@ class _ViewerPageState extends State<ViewerPage> {
               child: CircularProgressIndicator(strokeWidth: 2),
             ),
           if (!isAnalyzing && evaluations.isEmpty) const Icon(Icons.analytics),
-          if (evaluations.isNotEmpty && !isAnalyzing)
-            const Icon(Icons.expand_more),
+          if (evaluations.isNotEmpty && !isAnalyzing) const Icon(Icons.expand_more),
         ],
       ),
       initiallyExpanded: isAnalysisPanelExpanded,

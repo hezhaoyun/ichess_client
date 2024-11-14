@@ -13,8 +13,7 @@ class OnlineBattlePage extends StatefulWidget {
   State<OnlineBattlePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<OnlineBattlePage>
-    with ChessBattleMixin, OnlineBattleMixin {
+class _HomePageState extends State<OnlineBattlePage> with ChessBattleMixin, OnlineBattleMixin {
   @override
   void initState() {
     super.initState();
@@ -25,12 +24,9 @@ class _HomePageState extends State<OnlineBattlePage>
   Widget build(BuildContext context) {
     final double size = MediaQuery.of(context).size.shortestSide - 36;
 
-    final orientationColor = orientation == BoardOrientation.white
-        ? chess_lib.Color.WHITE
-        : chess_lib.Color.BLACK;
+    final orientationColor = orientation == BoardOrientation.white ? chess_lib.Color.WHITE : chess_lib.Color.BLACK;
 
-    final interactiveEnable = (gameState == GameState.waitingMove ||
-            gameState == GameState.waitingOpponent) &&
+    final interactiveEnable = (gameState == GameState.waitingMove || gameState == GameState.waitingOpponent) &&
         chess.turn == orientationColor;
 
     return Scaffold(
@@ -40,7 +36,7 @@ class _HomePageState extends State<OnlineBattlePage>
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              Theme.of(context).colorScheme.primary.withOpacity(0.1),
+              Theme.of(context).colorScheme.primary.withAlpha(0x1A),
               Theme.of(context).colorScheme.surface,
             ],
           ),
@@ -59,15 +55,11 @@ class _HomePageState extends State<OnlineBattlePage>
                     ),
                     Text(
                       '在线对战',
-                      style:
-                          Theme.of(context).textTheme.headlineSmall?.copyWith(
+                      style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                         fontWeight: FontWeight.bold,
                         shadows: [
                           Shadow(
-                            color: Theme.of(context)
-                                .colorScheme
-                                .primary
-                                .withOpacity(0.3),
+                            color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
                             offset: const Offset(2, 2),
                             blurRadius: 4,
                           ),
@@ -112,25 +104,20 @@ class _HomePageState extends State<OnlineBattlePage>
   }
 
   Widget _buildPlayerInfo(
-      {required String name,
-      required dynamic elo,
-      required String time,
-      required bool isOpponent}) {
+      {required String name, required dynamic elo, required String time, required bool isOpponent}) {
     return Container(
       width: MediaQuery.of(context).size.shortestSide - 36,
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: isOpponent
-              ? [Colors.red.shade50, Colors.red.shade100]
-              : [Colors.blue.shade50, Colors.blue.shade100],
+          colors: isOpponent ? [Colors.red.shade50, Colors.red.shade100] : [Colors.blue.shade50, Colors.blue.shade100],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
+            color: Colors.black.withAlpha(0x1A),
             blurRadius: 10,
             offset: const Offset(0, 4),
           ),
@@ -155,8 +142,7 @@ class _HomePageState extends State<OnlineBattlePage>
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
-                  color:
-                      isOpponent ? Colors.red.shade700 : Colors.blue.shade700,
+                  color: isOpponent ? Colors.red.shade700 : Colors.blue.shade700,
                 ),
               ),
             ),
@@ -200,7 +186,7 @@ class _HomePageState extends State<OnlineBattlePage>
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.7),
+        color: Colors.white.withAlpha(0xCC),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Row(
