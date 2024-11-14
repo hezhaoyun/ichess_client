@@ -36,11 +36,13 @@ class _ViewerPageState extends State<ViewerPage> {
   bool isAnalyzing = false;
 
   bool isAnalysisPanelExpanded = false;
+  ExpansionTileController? _analysisCardController;
 
   @override
   void initState() {
     super.initState();
     initStockfish();
+    _analysisCardController = ExpansionTileController();
   }
 
   Future<void> initStockfish() async {
@@ -104,7 +106,8 @@ class _ViewerPageState extends State<ViewerPage> {
       } else if (index > currentMoveIndex) {
         // 前进
         for (var i = currentMoveIndex + 1; i <= index; i++) {
-          final newFen = PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
+          final newFen =
+              PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
           fenHistory.add(newFen);
           currentFen = newFen;
         }
@@ -150,6 +153,7 @@ class _ViewerPageState extends State<ViewerPage> {
                   subtitle: Text('${game.event} (${game.date})'),
                   onTap: () {
                     Navigator.of(context).pop();
+                    _analysisCardController?.collapse();
                     setState(() {
                       currentGameIndex = index;
                       currentGame = games[index].parseMoves();
@@ -157,6 +161,8 @@ class _ViewerPageState extends State<ViewerPage> {
                       fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
                       currentFen = chess_lib.Chess.DEFAULT_POSITION;
                       _chessboardController.setFen(currentFen);
+                      evaluations = [];
+                      isAnalysisPanelExpanded = false;
                     });
                   },
                 );
@@ -203,21 +209,24 @@ class _ViewerPageState extends State<ViewerPage> {
 
     double evaluation = 0.0;
     await for (final output in stockfish.stdout) {
-      if (output.contains('score cp')) {
-        final scoreMatch = RegExp(r'score cp (-?\d+)').firstMatch(output);
-        if (scoreMatch != null) {
-          evaluation = int.parse(scoreMatch.group(1)!) / 1.0;
+      // 将输出按行分割并遍历每一行
+      for (final line in output.split('\n')) {
+        if (line.contains('score cp')) {
+          final scoreMatch = RegExp(r'score cp (-?\d+)').firstMatch(line);
+          if (scoreMatch != null) {
+            evaluation = int.parse(scoreMatch.group(1)!) / 1.0;
+          }
+        } else if (line.contains('score mate')) {
+          final mateMatch = RegExp(r'score mate (-?\d+)').firstMatch(line);
+          if (mateMatch != null) {
+            final moves = int.parse(mateMatch.group(1)!);
+            evaluation = moves > 0 ? 10000.0 : -10000.0;
+          }
         }
-      } else if (output.contains('score mate')) {
-        final mateMatch = RegExp(r'score mate (-?\d+)').firstMatch(output);
-        if (mateMatch != null) {
-          final moves = int.parse(mateMatch.group(1)!);
-          evaluation = moves > 0 ? 10000.0 : -10000.0;
-        }
-      }
 
-      if (output.startsWith('bestmove')) {
-        break;
+        if (line.startsWith('bestmove')) {
+          return evaluation;
+        }
       }
     }
 
@@ -252,11 +261,15 @@ class _ViewerPageState extends State<ViewerPage> {
                       const SizedBox(width: 8),
                       Text(
                         '棋谱阅读',
-                        style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                        style:
+                            Theme.of(context).textTheme.headlineSmall?.copyWith(
                           fontWeight: FontWeight.bold,
                           shadows: [
                             Shadow(
-                              color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                              color: Theme.of(context)
+                                  .colorScheme
+                                  .primary
+                                  .withAlpha(0x33),
                               offset: const Offset(1, 1),
                               blurRadius: 2,
                             ),
@@ -272,7 +285,9 @@ class _ViewerPageState extends State<ViewerPage> {
                   ),
                 ),
                 Expanded(
-                  child: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent(),
+                  child: isLoading
+                      ? const Center(child: CircularProgressIndicator())
+                      : _buildContent(),
                 ),
               ],
             ),
@@ -303,7 +318,8 @@ class _ViewerPageState extends State<ViewerPage> {
 
     return OrientationBuilder(
       builder: (context, orientation) {
-        final isWideLayout = orientation == Orientation.landscape || MediaQuery.of(context).size.width > 900;
+        final isWideLayout = orientation == Orientation.landscape ||
+            MediaQuery.of(context).size.width > 900;
         return Column(
           children: [
             Expanded(
@@ -312,14 +328,16 @@ class _ViewerPageState extends State<ViewerPage> {
                       children: [
                         Expanded(flex: 2, child: _buildBoardSection()),
                         _buildAnalysisCard(),
-                        if (!isAnalysisPanelExpanded) Expanded(flex: 3, child: _buildMoveListSection()),
+                        if (!isAnalysisPanelExpanded)
+                          Expanded(flex: 3, child: _buildMoveListSection()),
                       ],
                     )
                   : Column(
                       children: [
                         _buildBoardSection(),
                         _buildAnalysisCard(),
-                        if (!isAnalysisPanelExpanded) Expanded(child: _buildMoveListSection()),
+                        if (!isAnalysisPanelExpanded)
+                          Expanded(child: _buildMoveListSection()),
                       ],
                     ),
             ),
@@ -343,9 +361,11 @@ class _ViewerPageState extends State<ViewerPage> {
               child: CircularProgressIndicator(strokeWidth: 2),
             ),
           if (!isAnalyzing && evaluations.isEmpty) const Icon(Icons.analytics),
-          if (evaluations.isNotEmpty && !isAnalyzing) const Icon(Icons.expand_more),
+          if (evaluations.isNotEmpty && !isAnalyzing)
+            const Icon(Icons.expand_more),
         ],
       ),
+      controller: _analysisCardController,
       initiallyExpanded: isAnalysisPanelExpanded,
       onExpansionChanged: (expanded) {
         if (!isAnalyzing && evaluations.isEmpty) analyzeGame();

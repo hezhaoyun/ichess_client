@@ -1,11 +1,9 @@
 import 'dart:async';
-
-import 'package:stockfish/stockfish.dart';
-import 'package:flutter/foundation.dart';
-import 'dart:io';
 import 'dart:convert';
-import 'package:path_provider/path_provider.dart';
-import 'package:flutter/services.dart';
+import 'dart:io';
+
+import 'package:flutter/foundation.dart';
+import 'package:stockfish/stockfish.dart';
 
 class AiNative {
   static AiNative? _instance;
@@ -61,51 +59,11 @@ class AiNative {
 
   // 添加获取平台对应的 Stockfish 路径方法
   Future<String> _getStockfishPath() async {
-    final Directory docDir = await getApplicationDocumentsDirectory();
-    final String docPath = docDir.path;
-
-    String engineFileName;
     if (Platform.isMacOS) {
-      engineFileName = 'stockfish17-apple-silicon';
-    } else if (Platform.isWindows) {
-      engineFileName = 'stockfish17-win.exe';
-    } else if (Platform.isLinux) {
-      engineFileName = 'stockfish17-linux';
+      return '/Users/zhaoyun/dev/ichess/chess_client/assets/engine/stockfish17-apple-silicon';
     } else {
       throw UnsupportedError('不支持的平台');
     }
-
-    final String enginePath = '$docPath/$engineFileName';
-    final File engineFile = File(enginePath);
-
-    if (!engineFile.existsSync()) {
-      final ByteData data = await rootBundle.load('assets/engine/$engineFileName');
-      final List<int> bytes = data.buffer.asUint8List();
-      await engineFile.writeAsBytes(bytes);
-    }
-
-    // 确保在 macOS 上正确设置权限
-    if (!Platform.isWindows) {
-      await Process.run('chmod', ['+x', enginePath]);
-    }
-
-    if (Platform.isMacOS) {
-      try {
-        // 使用完整路径运行 xattr
-        final result = await Process.run(
-          '/usr/bin/xattr',
-          ['-d', 'com.apple.quarantine', enginePath],
-          runInShell: true,
-        );
-        if (result.exitCode != 0) {
-          debugPrint('xattr 命令执行失败: ${result.stderr}');
-        }
-      } catch (e) {
-        debugPrint('设置 quarantine 属性失败: $e');
-      }
-    }
-
-    return enginePath;
   }
 
   // 修改 stdin 方法

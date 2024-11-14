@@ -77,32 +77,42 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
 
     try {
       final stockfish = AiNative.instance;
-      stockfish.sendCommand('position fen ${chess.fen} moves ${moves.join(' ')}');
+      stockfish.sendCommand(
+        'position fen ${chess.fen} moves ${moves.join(' ')}',
+      );
       stockfish.sendCommand('go movetime 1000');
 
       String? bestMove;
       await for (final output in stockfish.stdout) {
         debugPrint('引擎输出：$output');
 
-        if (output.startsWith('info')) {
-          continue;
-        }
+        // 按行分割输出并逐行处理
+        for (final line in output.split('\n')) {
+          final trimmedLine = line.trim();
+          if (trimmedLine.isEmpty) continue;
 
-        if (output.startsWith('bestmove')) {
-          final move = output.split(' ')[1];
-
-          if (move == '(none)' || move == 'NULL') {
-            if (mounted) {
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text('引擎无法找到有效着法')),
-              );
-            }
-            break;
+          if (trimmedLine.startsWith('info')) {
+            continue;
           }
 
-          bestMove = move;
-          break;
+          if (trimmedLine.startsWith('bestmove')) {
+            final move = trimmedLine.split(' ')[1];
+
+            if (move == '(none)' || move == 'NULL') {
+              if (mounted) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('引擎无法找到有效着法')),
+                );
+              }
+              break;
+            }
+
+            bestMove = move;
+            break;
+          }
         }
+
+        if (bestMove != null) break; // 如果已找到最佳着法，退出外层循环
       }
 
       if (bestMove != null && bestMove.isNotEmpty) {
@@ -153,7 +163,8 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
   Future<void> saveGame() async {
     final directory = await getApplicationDocumentsDirectory();
     final now = DateTime.now();
-    final dateStr = '${now.year}.${now.month.toString().padLeft(2, '0')}.${now.day.toString().padLeft(2, '0')}';
+    final dateStr =
+        '${now.year}.${now.month.toString().padLeft(2, '0')}.${now.day.toString().padLeft(2, '0')}';
 
     // 创建PGN格式的内容
     final pgn = [
@@ -219,7 +230,8 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
           child: Column(
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 child: Row(
                   children: [
                     IconButton(
@@ -229,11 +241,15 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
                     Expanded(
                       child: Text(
                         '人机对战',
-                        style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                        style:
+                            Theme.of(context).textTheme.headlineSmall?.copyWith(
                           fontWeight: FontWeight.bold,
                           shadows: [
                             Shadow(
-                              color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                              color: Theme.of(context)
+                                  .colorScheme
+                                  .primary
+                                  .withAlpha(0x33),
                               offset: const Offset(2, 2),
                               blurRadius: 4,
                             ),
@@ -284,7 +300,9 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: isOpponent ? [Colors.red.shade50, Colors.red.shade100] : [Colors.blue.shade50, Colors.blue.shade100],
+          colors: isOpponent
+              ? [Colors.red.shade50, Colors.red.shade100]
+              : [Colors.blue.shade50, Colors.blue.shade100],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -319,7 +337,9 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     border: Border.all(
-                      color: isOpponent ? Colors.red.shade300 : Colors.blue.shade300,
+                      color: isOpponent
+                          ? Colors.red.shade300
+                          : Colors.blue.shade300,
                       width: 2,
                     ),
                   ),
@@ -331,7 +351,9 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
-                        color: isOpponent ? Colors.red.shade700 : Colors.blue.shade700,
+                        color: isOpponent
+                            ? Colors.red.shade700
+                            : Colors.blue.shade700,
                       ),
                     ),
                   ),
