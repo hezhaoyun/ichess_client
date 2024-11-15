@@ -105,26 +105,38 @@ mixin ViewerNavigationMixin on ViewerMixin {
   ExpansionTileController? analysisCardController;
   bool isAnalysisPanelExpanded = false;
 
+  List<List<int>>? lastMove;
+
   void goToMove(int index) {
     if (index < -1 || index >= currentGame!.moves.length) return;
 
-    setState(() {
-      if (index < currentMoveIndex) {
-        // 后退时，删除当前位置之后的所有历史记录
-        fenHistory.removeRange(index + 2, fenHistory.length);
-        currentMoveIndex = index;
-        currentFen = fenHistory[index + 1];
-      } else if (index > currentMoveIndex) {
-        // 前进
-        for (var i = currentMoveIndex + 1; i <= index; i++) {
-          final newFen = PgnGame.moveToFen(fenHistory.last, currentGame!.moves[i]);
-          fenHistory.add(newFen);
-          currentFen = newFen;
-        }
+    chess_lib.Chess? chess;
 
-        currentMoveIndex = index;
+    if (index < currentMoveIndex) {
+      // 后退时，删除当前位置之后的所有历史记录
+      fenHistory.removeRange(index + 2, fenHistory.length);
+      currentMoveIndex = index;
+      currentFen = fenHistory[index + 1];
+      lastMove = null;
+    } else if (index > currentMoveIndex) {
+      // 前进
+      chess = chess_lib.Chess.fromFEN(fenHistory.last);
+
+      for (var i = currentMoveIndex + 1; i <= index; i++) {
+        if (!chess.move(currentGame!.moves[i])) break;
+        currentFen = chess.fen;
+        fenHistory.add(currentFen);
       }
-    });
+
+      currentMoveIndex = index;
+    }
+
+    if (chess != null && chess.history.isNotEmpty) {
+      final last = chess.history.last.move;
+      updateLastMove(last.fromAlgebraic, last.toAlgebraic);
+    } else {
+      setState(() {});
+    }
 
     chessboardController.setFen(currentFen);
     selectedMoveKey.currentState?.scrollToSelectedMove();
@@ -139,10 +151,12 @@ mixin ViewerNavigationMixin on ViewerMixin {
       currentMoveIndex = -1;
       fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
       currentFen = chess_lib.Chess.DEFAULT_POSITION;
-      chessboardController.setFen(currentFen);
       evaluations = [];
       isAnalysisPanelExpanded = false;
+      lastMove = null;
     });
+
+    chessboardController.setFen(currentFen);
   }
 
   void showGamesList() => showDialog(
@@ -167,6 +181,20 @@ mixin ViewerNavigationMixin on ViewerMixin {
           ),
         ),
       );
+
+  void updateLastMove(String fromSquare, String toSquare) {
+    int rankFrom = fromSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileFrom = fromSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+    int rankTo = toSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileTo = toSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+
+    setState(() {
+      lastMove = [
+        [rankFrom, fileFrom],
+        [rankTo, fileTo]
+      ];
+    });
+  }
 }
 
 // 3. 主类实现
@@ -175,7 +203,6 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
 
   bool isLoading = false;
   final scrollController = ScrollController();
-  List<List<int>>? lastMove;
 
   @override
   void initState() {
@@ -405,20 +432,6 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
         );
       },
     );
-  }
-
-  void updateLastMove(String fromSquare, String toSquare) {
-    int rankFrom = fromSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-    int fileFrom = fromSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
-    int rankTo = toSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-    int fileTo = toSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
-
-    setState(() {
-      lastMove = [
-        [rankFrom, fileFrom],
-        [rankTo, fileTo]
-      ];
-    });
   }
 
   @override

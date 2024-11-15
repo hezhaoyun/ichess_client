@@ -1,5 +1,3 @@
-import 'package:chess/chess.dart' as chess_lib;
-
 /// PGN棋局数据模型
 class PgnGame {
   // 正则表达式常量
@@ -129,11 +127,5 @@ class PgnGame {
     }
 
     return games;
-  }
-
-  /// 执行移动并返回新的FEN串
-  static String moveToFen(String previousFen, String move) {
-    final chess = chess_lib.Chess.fromFEN(previousFen);
-    return chess.move(move) ? chess.fen : previousFen;
   }
 }
