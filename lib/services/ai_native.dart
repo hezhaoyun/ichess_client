@@ -90,11 +90,13 @@ class AiNative {
   void dispose() {
     if (_isInitialized) {
       debugPrint('Disposing StockfishManager...');
+
       if (isMobileDevice) {
         (_engine as Stockfish).dispose();
       } else {
         (_engine as Process).kill();
       }
+
       _isInitialized = false;
       _instance = null;
       debugPrint('StockfishManager disposed successfully');
