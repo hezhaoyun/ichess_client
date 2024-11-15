@@ -18,5 +18,9 @@
 	<true/>
 	<key>com.apple.security.cs.disable-library-validation</key>
 	<true/>
+	<key>com.apple.security.files.user-selected.executable</key>
+	<true/>
 </dict>
 </plist>
+
+

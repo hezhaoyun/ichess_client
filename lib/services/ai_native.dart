@@ -57,13 +57,17 @@ class AiNative {
     }
   }
 
-  // 添加获取平台对应的 Stockfish 路径方法
+  // 修改获取平台对应的 Stockfish 路径方法
   Future<String> _getStockfishPath() async {
+    final String fileName;
+
     if (Platform.isMacOS) {
-      return '/Users/zhaoyun/dev/ichess/chess_client/assets/engine/stockfish17-apple-silicon';
+      fileName = 'stockfish17-apple-silicon';
     } else {
-      throw UnsupportedError('不支持的平台');
+      throw Exception('Platform is not support.');
     }
+
+    return '/Users/zhaoyun/dev/ichess_client/macos/$fileName';
   }
 
   // 修改 stdin 方法
