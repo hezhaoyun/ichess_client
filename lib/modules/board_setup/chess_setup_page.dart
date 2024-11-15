@@ -13,49 +13,57 @@ class ChessSetupPage extends StatefulWidget {
 }
 
 class _ChessSetupPageState extends State<ChessSetupPage> {
-  // 添加初始FEN常量
-  static const String emptyBoardFen = '8/8/8/8/8/8/8/8 w - - 0 1';
-  static const String initialBoardFen = chess_lib.Chess.DEFAULT_POSITION;
+  // 棋盘状态常量
+  static const String _emptyBoardFen = '8/8/8/8/8/8/8/8 w - - 0 1';
+  static const String _initialBoardFen = chess_lib.Chess.DEFAULT_POSITION;
 
-  final controller = WPChessboardController(initialFen: emptyBoardFen);
-  final chess = chess_lib.Chess.fromFEN(emptyBoardFen);
-
-  // 在类的顶部定义一个静态变量
-  static chess_lib.Piece? _draggingPiece; // 保存当前正在拖拽的棋子类型
-
-  // 添加棋子数量限制常量
-  static const Map<String, int> maxPieceCounts = {
-    'K': 1, 'Q': 1, 'R': 2, 'B': 2, 'N': 2, 'P': 8, // 白方
-    'k': 1, 'q': 1, 'r': 2, 'b': 2, 'n': 2, 'p': 8, // 黑方
+  // 棋子配置
+  static const _pieceConfigs = {
+    'white': {
+      'K': {'num': 1},
+      'Q': {'num': 1},
+      'R': {'num': 2},
+      'B': {'num': 2},
+      'N': {'num': 2},
+      'P': {'num': 8},
+    },
+    'black': {
+      'k': {'num': 1},
+      'q': {'num': 1},
+      'r': {'num': 2},
+      'b': {'num': 2},
+      'n': {'num': 2},
+      'p': {'num': 8},
+    },
   };
 
-  // 添加当前棋子数量计数器
-  final Map<String, int> currentPieceCounts = {
-    'K': 0, 'Q': 0, 'R': 0, 'B': 0, 'N': 0, 'P': 0, // 白方
-    'k': 0, 'q': 0, 'r': 0, 'b': 0, 'n': 0, 'p': 0, // 黑方
-  };
+  final _controller = WPChessboardController(initialFen: _emptyBoardFen);
+  final _chess = chess_lib.Chess.fromFEN(_emptyBoardFen);
+  static chess_lib.Piece? _draggingPiece;
+
+  // 棋子计数器
+  final Map<String, int> _currentPieceCounts = Map.fromIterables(
+    [..._pieceConfigs['white']!.keys, ..._pieceConfigs['black']!.keys],
+    List.filled(12, 0),
+  );
 
   @override
   void initState() {
     super.initState();
-    _updatePieceCounts(); // 初始化时更新棋子数量
+    _updatePieceCounts();
   }
 
-  // 添加更新棋子数量的方法
   void _updatePieceCounts() {
-    // 重置计数器
-    currentPieceCounts.updateAll((key, value) => 0);
+    _currentPieceCounts.updateAll((key, value) => 0);
 
-    // 遍历棋盘统计每种棋子的数量
     for (var rank = 0; rank < 8; rank++) {
       for (var file = 0; file < 8; file++) {
-        final square = _getSquareFromIndex(rank * 8 + file);
-        final piece = chess.get(square);
+        final piece = _chess.get(_getSquareFromIndex(rank * 8 + file));
         if (piece != null) {
           final key = piece.color == chess_lib.Color.WHITE
               ? _getPieceChar(piece.type).toUpperCase()
               : _getPieceChar(piece.type).toLowerCase();
-          currentPieceCounts[key] = (currentPieceCounts[key] ?? 0) + 1;
+          _currentPieceCounts[key] = (_currentPieceCounts[key] ?? 0) + 1;
         }
       }
     }
@@ -81,63 +89,13 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Row(
-                  children: [
-                    IconButton(
-                      icon: Icon(
-                        Icons.arrow_back,
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
-                      onPressed: () => Navigator.pop(context),
-                    ),
-                    const SizedBox(width: 8),
-                    Text(
-                      '设置局面',
-                      style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                        fontWeight: FontWeight.bold,
-                        shadows: [
-                          Shadow(
-                            color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                            offset: const Offset(1, 1),
-                            blurRadius: 2,
-                          ),
-                        ],
-                      ),
-                    ),
-                    const Spacer(),
-                    IconButton(
-                      icon: Icon(
-                        Icons.refresh,
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
-                      onPressed: _toggleBoardState,
-                    ),
-                    IconButton(
-                      icon: Icon(
-                        Icons.play_arrow,
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
-                      onPressed: _startGame,
-                    ),
-                  ],
-                ),
-              ),
+              _buildHeader(context),
               Expanded(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     _buildPiecesPanel(isWhite: false),
-                    ChessBoardWidget(
-                      size: boardSize,
-                      controller: controller,
-                      orientation: BoardOrientation.white,
-                      interactiveEnable: true,
-                      onPieceStartDrag: (square, piece) {},
-                      onPieceDrop: _handlePieceDrop,
-                      onEmptyFieldTap: _handleEmptyFieldTap,
-                    ),
+                    _buildChessBoard(boardSize),
                     _buildPiecesPanel(isWhite: true),
                   ],
                 ),
@@ -149,117 +107,203 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
     );
   }
 
+  Widget _buildHeader(BuildContext context) => Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Row(
+          children: [
+            IconButton(
+              icon: Icon(
+                Icons.arrow_back,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+              onPressed: () => Navigator.pop(context),
+            ),
+            const SizedBox(width: 8),
+            Text(
+              '设置局面',
+              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                fontWeight: FontWeight.bold,
+                shadows: [
+                  Shadow(
+                    color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                    offset: const Offset(1, 1),
+                    blurRadius: 2,
+                  ),
+                ],
+              ),
+            ),
+            const Spacer(),
+            IconButton(
+              icon: Icon(
+                Icons.refresh,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+              onPressed: _toggleBoardState,
+            ),
+            IconButton(
+              icon: Icon(
+                Icons.play_arrow,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+              onPressed: _startGame,
+            ),
+          ],
+        ),
+      );
+
+  Widget _buildChessBoard(double boardSize) => ChessBoardWidget(
+        size: boardSize,
+        controller: _controller,
+        orientation: BoardOrientation.white,
+        interactiveEnable: true,
+        onPieceStartDrag: (square, piece) {},
+        onPieceDrop: _handlePieceDrop,
+        onEmptyFieldTap: _handleEmptyFieldTap,
+      );
+
   Widget _buildPiecesPanel({required bool isWhite}) {
-    final boardSize = MediaQuery.of(context).size.shortestSide - 36;
-    final pieceSize = boardSize / 8;
-
-    // 定义可用棋子
-    final whitePieces = [
-      MapEntry('K', WhiteKing(size: pieceSize)),
-      MapEntry('Q', WhiteQueen(size: pieceSize)),
-      MapEntry('R', WhiteRook(size: pieceSize)),
-      MapEntry('B', WhiteBishop(size: pieceSize)),
-      MapEntry('N', WhiteKnight(size: pieceSize)),
-      MapEntry('P', WhitePawn(size: pieceSize)),
-    ];
-
-    final blackPieces = [
-      MapEntry('k', BlackKing(size: pieceSize)),
-      MapEntry('q', BlackQueen(size: pieceSize)),
-      MapEntry('r', BlackRook(size: pieceSize)),
-      MapEntry('b', BlackBishop(size: pieceSize)),
-      MapEntry('n', BlackKnight(size: pieceSize)),
-      MapEntry('p', BlackPawn(size: pieceSize)),
-    ];
-
-    final pieces = isWhite ? whitePieces : blackPieces;
+    final pieceSize = _calculatePieceSize();
+    final pieces = _buildPiecesList(isWhite, pieceSize);
 
     return Container(
-      height: boardSize / 8 + 20,
+      height: pieceSize + 20,
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          // 添加垃圾桶
-
-          ...pieces.map((piece) {
-            final canDrag = (currentPieceCounts[piece.key] ?? 0) < (maxPieceCounts[piece.key] ?? 0);
-
-            return Opacity(
-              opacity: canDrag ? 1.0 : 0.3,
-              child: canDrag
-                  ? Draggable<SquareInfo>(
-                      data: SquareInfo(-1, boardSize / 8),
-                      feedback: piece.value,
-                      childWhenDragging: Opacity(opacity: 0.3, child: piece.value),
-                      child: piece.value,
-                      onDragStarted: () {
-                        _draggingPiece = chess_lib.Piece(
-                          _getPieceType(piece.key),
-                          isWhite ? chess_lib.Color.WHITE : chess_lib.Color.BLACK,
-                        );
-                      },
-                    )
-                  : piece.value,
-            );
-          }),
-          DragTarget<SquareInfo>(
-            builder: (context, candidateData, rejectedData) => Icon(
-              Icons.delete_outline,
-              size: pieceSize,
-              color: candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
-            ),
-            onWillAcceptWithDetails: (details) => details.data.index != -1, // 只接受来自棋盘的棋子
-            onAcceptWithDetails: (details) {
-              chess.remove(details.data.toString());
-              controller.setFen(chess.fen);
-              _updatePieceCounts();
-              setState(() {});
-            },
-          ),
+          ...pieces,
+          _buildTrashBin(pieceSize),
         ],
       ),
     );
   }
 
+  double _calculatePieceSize() {
+    final boardSize = MediaQuery.of(context).size.shortestSide - 36;
+    return boardSize / 8;
+  }
+
+  List<Widget> _buildPiecesList(bool isWhite, double pieceSize) {
+    final config = _pieceConfigs[isWhite ? 'white' : 'black']!;
+
+    return config.entries.map((entry) {
+      final canDrag = _canDragPiece(entry.key);
+      return _buildDraggablePiece(
+        pieceKey: entry.key,
+        pieceSize: pieceSize,
+        canDrag: canDrag,
+        isWhite: isWhite,
+      );
+    }).toList();
+  }
+
+  bool _canDragPiece(String pieceKey) {
+    final maxCount = _pieceConfigs[pieceKey.toUpperCase() == pieceKey ? 'white' : 'black']![pieceKey]!['num'] as int;
+    return (_currentPieceCounts[pieceKey] ?? 0) < maxCount;
+  }
+
+  Widget _buildDraggablePiece(
+      {required String pieceKey, required double pieceSize, required bool canDrag, required bool isWhite}) {
+    final pieceWidget = _createPieceWidget(pieceKey, pieceSize);
+
+    return Opacity(
+      opacity: canDrag ? 1.0 : 0.3,
+      child: canDrag
+          ? Draggable<SquareInfo>(
+              data: SquareInfo(-1, pieceSize),
+              feedback: pieceWidget,
+              childWhenDragging: Opacity(opacity: 0.3, child: pieceWidget),
+              child: pieceWidget,
+              onDragStarted: () {
+                _draggingPiece = chess_lib.Piece(
+                  _getPieceType(pieceKey),
+                  isWhite ? chess_lib.Color.WHITE : chess_lib.Color.BLACK,
+                );
+              },
+            )
+          : pieceWidget,
+    );
+  }
+
+  Widget _createPieceWidget(String pieceKey, double size) {
+    switch (pieceKey) {
+      case 'K':
+        return WhiteKing(size: size);
+      case 'Q':
+        return WhiteQueen(size: size);
+      case 'R':
+        return WhiteRook(size: size);
+      case 'B':
+        return WhiteBishop(size: size);
+      case 'N':
+        return WhiteKnight(size: size);
+      case 'P':
+        return WhitePawn(size: size);
+      case 'k':
+        return BlackKing(size: size);
+      case 'q':
+        return BlackQueen(size: size);
+      case 'r':
+        return BlackRook(size: size);
+      case 'b':
+        return BlackBishop(size: size);
+      case 'n':
+        return BlackKnight(size: size);
+      case 'p':
+        return BlackPawn(size: size);
+      default:
+        throw ArgumentError('Invalid piece key: $pieceKey');
+    }
+  }
+
+  Widget _buildTrashBin(double size) => DragTarget<SquareInfo>(
+        builder: (context, candidateData, rejectedData) => Icon(
+          Icons.delete_outline,
+          size: size,
+          color: candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
+        ),
+        onWillAcceptWithDetails: (details) => details.data.index != -1,
+        onAcceptWithDetails: (details) {
+          _chess.remove(details.data.toString());
+          _controller.setFen(_chess.fen);
+          _updatePieceCounts();
+          setState(() {});
+        },
+      );
+
   void _handlePieceDrop(PieceDropEvent event) {
     if (event.from.index == -1) {
-      // 检查是否超过最大数量限制
+      if (_draggingPiece == null) return;
+
       final pieceKey = _draggingPiece!.color == chess_lib.Color.WHITE
           ? _getPieceChar(_draggingPiece!.type).toUpperCase()
           : _getPieceChar(_draggingPiece!.type).toLowerCase();
 
-      if ((currentPieceCounts[pieceKey] ?? 0) >= (maxPieceCounts[pieceKey] ?? 0)) {
-        return; // 如果超过限制，直接返回
-      }
+      if (!_canDragPiece(pieceKey)) return;
 
-      chess.put(_draggingPiece!, event.to.toString());
+      _chess.put(_draggingPiece!, event.to.toString());
     } else {
-      final piece = chess.get(event.from.toString());
+      final piece = _chess.get(event.from.toString());
       if (piece != null) {
-        chess.remove(event.from.toString());
-        chess.put(piece, event.to.toString());
+        _chess.remove(event.from.toString());
+        _chess.put(piece, event.to.toString());
       }
     }
 
-    controller.setFen(chess.fen);
-    _updatePieceCounts(); // 更新棋子数量
-    setState(() {}); // 触发重建以更新UI
+    _controller.setFen(_chess.fen);
+    _updatePieceCounts();
+    setState(() {});
   }
 
   void _handleEmptyFieldTap(SquareInfo square) {
-    // 点击空格时移除该位置的棋子
     final squareName = _getSquareFromIndex(square.index);
-    if (chess.get(squareName) != null) {
-      chess.remove(squareName);
-      controller.setFen(chess.fen);
-    }
-  }
 
-  String _getSquareFromIndex(int index) {
-    final file = String.fromCharCode('a'.codeUnitAt(0) + (index % 8));
-    final rank = 8 - (index ~/ 8);
-    return '$file$rank';
+    if (_chess.get(squareName) != null) {
+      _chess.remove(squareName);
+      _controller.setFen(_chess.fen);
+      _updatePieceCounts();
+      setState(() {});
+    }
   }
 
   void _startGame() {
@@ -270,39 +314,45 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
       return;
     }
 
-    Navigator.pushNamed(
-      context,
-      '/battle',
-      arguments: chess.fen,
-    );
+    Navigator.pushNamed(context, '/battle', arguments: _chess.fen);
   }
 
   bool _isValidPosition() {
-    // 检查是否有王
-    bool hasWhiteKing = false;
-    bool hasBlackKing = false;
+    var kingCount = {'white': 0, 'black': 0};
+    var hasPawnOnInvalidRank = false;
 
-    // 检查兵的位置
     for (var rank = 0; rank < 8; rank++) {
       for (var file = 0; file < 8; file++) {
-        final square = _getSquareFromIndex(rank * 8 + file);
-        final piece = chess.get(square);
+        final piece = _chess.get(_getSquareFromIndex(rank * 8 + file));
+        if (piece == null) continue;
 
-        if (piece != null) {
-          if (piece.type == chess_lib.PieceType.KING) {
-            if (piece.color == chess_lib.Color.WHITE) hasWhiteKing = true;
-            if (piece.color == chess_lib.Color.BLACK) hasBlackKing = true;
-          }
+        if (piece.type == chess_lib.PieceType.KING) {
+          kingCount[piece.color == chess_lib.Color.WHITE ? 'white' : 'black'] = 1;
+        }
 
-          // 检查兵是否在第一行或第八行
-          if (piece.type == chess_lib.PieceType.PAWN && (rank == 0 || rank == 7)) {
-            return false;
-          }
+        if (piece.type == chess_lib.PieceType.PAWN && (rank == 0 || rank == 7)) {
+          hasPawnOnInvalidRank = true;
+          break;
         }
       }
     }
 
-    return hasWhiteKing && hasBlackKing;
+    return kingCount['white'] == 1 && kingCount['black'] == 1 && !hasPawnOnInvalidRank;
+  }
+
+  void _toggleBoardState() {
+    final newFen = _chess.fen == _emptyBoardFen ? _initialBoardFen : _emptyBoardFen;
+    setState(() {
+      _chess.load(newFen);
+      _controller.setFen(newFen);
+      _updatePieceCounts();
+    });
+  }
+
+  String _getSquareFromIndex(int index) {
+    final file = String.fromCharCode('a'.codeUnitAt(0) + (index % 8));
+    final rank = 8 - (index ~/ 8);
+    return '$file$rank';
   }
 
   chess_lib.PieceType _getPieceType(String piece) {
@@ -324,19 +374,6 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
     }
   }
 
-  // 添加切换功能
-  void _toggleBoardState() {
-    final currentFen = chess.fen;
-    final newFen = currentFen == emptyBoardFen ? initialBoardFen : emptyBoardFen;
-
-    setState(() {
-      chess.load(newFen);
-      controller.setFen(newFen);
-      _updatePieceCounts();
-    });
-  }
-
-  // 添加辅助方法：将棋子类型转换为字符
   String _getPieceChar(chess_lib.PieceType type) {
     switch (type) {
       case chess_lib.PieceType.KING:
