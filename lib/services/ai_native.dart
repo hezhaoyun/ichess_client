@@ -59,15 +59,11 @@ class AiNative {
 
   // 修改获取平台对应的 Stockfish 路径方法
   Future<String> _getStockfishPath() async {
-    final String fileName;
-
-    if (Platform.isMacOS) {
-      fileName = 'stockfish17-apple-silicon';
-    } else {
+    if (!Platform.isMacOS) {
       throw Exception('Platform is not support.');
     }
 
-    return '/Users/zhaoyun/dev/ichess_client/macos/$fileName';
+    return '/Users/zhaoyun/dev/ichess/chess_server/stockfish-17-m1';
   }
 
   // 修改 stdin 方法
