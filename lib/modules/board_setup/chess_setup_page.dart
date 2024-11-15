@@ -3,6 +3,7 @@ import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../home_page.dart';
 import '../../widgets/chess_board_widget.dart';
 
 class ChessSetupPage extends StatefulWidget {
@@ -92,11 +93,12 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
               _buildHeader(context),
               Expanded(
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     _buildPiecesPanel(isWhite: false),
                     _buildChessBoard(boardSize),
                     _buildPiecesPanel(isWhite: true),
+                    _buildTrashBin(boardSize),
+                    const SizedBox(height: 24),
                   ],
                 ),
               ),
@@ -112,10 +114,7 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
         child: Row(
           children: [
             IconButton(
-              icon: Icon(
-                Icons.arrow_back,
-                color: Theme.of(context).colorScheme.primary,
-              ),
+              icon: Icon(Icons.arrow_back, color: Theme.of(context).colorScheme.primary),
               onPressed: () => Navigator.pop(context),
             ),
             const SizedBox(width: 8),
@@ -134,17 +133,11 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
             ),
             const Spacer(),
             IconButton(
-              icon: Icon(
-                Icons.refresh,
-                color: Theme.of(context).colorScheme.primary,
-              ),
+              icon: Icon(Icons.switch_access_shortcut, color: Theme.of(context).colorScheme.primary),
               onPressed: _toggleBoardState,
             ),
             IconButton(
-              icon: Icon(
-                Icons.play_arrow,
-                color: Theme.of(context).colorScheme.primary,
-              ),
+              icon: Icon(Icons.play_arrow, color: Theme.of(context).colorScheme.primary),
               onPressed: _startGame,
             ),
           ],
@@ -170,10 +163,7 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          ...pieces,
-          _buildTrashBin(pieceSize),
-        ],
+        children: pieces,
       ),
     );
   }
@@ -256,11 +246,33 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
     }
   }
 
-  Widget _buildTrashBin(double size) => DragTarget<SquareInfo>(
-        builder: (context, candidateData, rejectedData) => Icon(
-          Icons.delete_outline,
-          size: size,
-          color: candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
+  Widget _buildTrashBin(double boardSize) => DragTarget<SquareInfo>(
+        builder: (context, candidateData, rejectedData) => Container(
+          width: boardSize,
+          height: 40,
+          decoration: BoxDecoration(
+            border: Border.all(
+              color: candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
+              width: 2,
+            ),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                Icons.delete_outline,
+                color: candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
+              ),
+              const SizedBox(width: 8),
+              Text(
+                '拖放到此处删除棋子',
+                style: TextStyle(
+                  color: candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
+                ),
+              ),
+            ],
+          ),
         ),
         onWillAcceptWithDetails: (details) => details.data.index != -1,
         onAcceptWithDetails: (details) {
@@ -314,7 +326,7 @@ class _ChessSetupPageState extends State<ChessSetupPage> {
       return;
     }
 
-    Navigator.pushNamed(context, '/battle', arguments: _chess.fen);
+    Navigator.pushNamed(context, Routes.aiBattle, arguments: _chess.fen);
   }
 
   bool _isValidPosition() {

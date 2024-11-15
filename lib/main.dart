@@ -22,13 +22,19 @@ class MyApp extends StatelessWidget {
         ),
         home: const HomePage(),
         routes: {
-          Routes.aiBattle: (context) => const AIBattlePage(),
           Routes.onlineBattle: (context) => const OnlineBattlePage(),
           Routes.viewer: (context) => const ViewerPage(),
           Routes.setup: (context) => const ChessSetupPage(),
         },
-        onUnknownRoute: (settings) => MaterialPageRoute(
-          builder: (context) => const HomePage(),
-        ),
+        onGenerateRoute: (settings) {
+          if (settings.name == Routes.aiBattle) {
+            final fen = settings.arguments as String?;
+            return MaterialPageRoute(builder: (context) => AIBattlePage(initialFen: fen));
+          }
+          return MaterialPageRoute(
+            builder: (context) => const HomePage(),
+          );
+        },
+        debugShowCheckedModeBanner: false,
       );
 }

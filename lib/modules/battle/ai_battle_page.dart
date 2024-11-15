@@ -10,7 +10,8 @@ import '../../widgets/chess_board_widget.dart';
 import 'chess_battle_mixin.dart';
 
 class AIBattlePage extends StatefulWidget {
-  const AIBattlePage({super.key});
+  final String? initialFen;
+  const AIBattlePage({super.key, this.initialFen});
 
   @override
   State<AIBattlePage> createState() => _AIBattlePageState();
@@ -25,6 +26,12 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
   void initState() {
     super.initState();
     initChessGame();
+
+    if (widget.initialFen != null) {
+      chess.load(widget.initialFen!);
+      controller.setFen(widget.initialFen!);
+    }
+
     _initializeGame();
   }
 
@@ -141,11 +148,15 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
 
   void newGame() {
     setState(() {
-      chess.reset();
+      if (widget.initialFen != null) {
+        chess.load(widget.initialFen!);
+        controller.setFen(widget.initialFen!);
+      } else {
+        chess.reset();
+        controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
+      }
       moves.clear();
     });
-
-    controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
   }
 
   void undoMove() {
@@ -163,8 +174,7 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
   Future<void> saveGame() async {
     final directory = await getApplicationDocumentsDirectory();
     final now = DateTime.now();
-    final dateStr =
-        '${now.year}.${now.month.toString().padLeft(2, '0')}.${now.day.toString().padLeft(2, '0')}';
+    final dateStr = '${now.year}.${now.month.toString().padLeft(2, '0')}.${now.day.toString().padLeft(2, '0')}';
 
     // 创建PGN格式的内容
     final pgn = [
@@ -230,8 +240,7 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
           child: Column(
             children: [
               Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 child: Row(
                   children: [
                     IconButton(
@@ -241,15 +250,11 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
                     Expanded(
                       child: Text(
                         '人机对战',
-                        style:
-                            Theme.of(context).textTheme.headlineSmall?.copyWith(
+                        style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                           fontWeight: FontWeight.bold,
                           shadows: [
                             Shadow(
-                              color: Theme.of(context)
-                                  .colorScheme
-                                  .primary
-                                  .withAlpha(0x33),
+                              color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
                               offset: const Offset(2, 2),
                               blurRadius: 4,
                             ),
@@ -300,9 +305,7 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: isOpponent
-              ? [Colors.red.shade50, Colors.red.shade100]
-              : [Colors.blue.shade50, Colors.blue.shade100],
+          colors: isOpponent ? [Colors.red.shade50, Colors.red.shade100] : [Colors.blue.shade50, Colors.blue.shade100],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -337,9 +340,7 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     border: Border.all(
-                      color: isOpponent
-                          ? Colors.red.shade300
-                          : Colors.blue.shade300,
+                      color: isOpponent ? Colors.red.shade300 : Colors.blue.shade300,
                       width: 2,
                     ),
                   ),
@@ -351,9 +352,7 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
-                        color: isOpponent
-                            ? Colors.red.shade700
-                            : Colors.blue.shade700,
+                        color: isOpponent ? Colors.red.shade700 : Colors.blue.shade700,
                       ),
                     ),
                   ),
