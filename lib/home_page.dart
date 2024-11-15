@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 
-import 'modules/battle/ai_battle_page.dart';
-import 'modules/battle/online_battle_page.dart';
-import 'modules/board_setup/chess_setup_page.dart';
-import 'modules/manual_viewer/viewer_page.dart';
-
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
+}
+
+// 添加路由常量
+class Routes {
+  static const aiBattle = '/ai-battle';
+  static const onlineBattle = '/online-battle';
+  static const viewer = '/viewer';
+  static const setup = '/setup';
 }
 
 class _HomePageState extends State<HomePage> {
@@ -62,42 +65,22 @@ class _HomePageState extends State<HomePage> {
                         _buildCard(
                           icon: Icons.computer,
                           label: '人机对战',
-                          onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const AIBattlePage(),
-                            ),
-                          ),
+                          onTap: () => Navigator.pushNamed(context, Routes.aiBattle),
                         ),
                         _buildCard(
                           icon: Icons.people,
                           label: '在线对战',
-                          onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const OnlineBattlePage(),
-                            ),
-                          ),
+                          onTap: () => Navigator.pushNamed(context, Routes.onlineBattle),
                         ),
                         _buildCard(
                           icon: Icons.menu_book,
                           label: '阅读棋谱',
-                          onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const ViewerPage(),
-                            ),
-                          ),
+                          onTap: () => Navigator.pushNamed(context, Routes.viewer),
                         ),
                         _buildCard(
                           icon: Icons.edit,
                           label: '推演棋盘',
-                          onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const ChessSetupPage(),
-                            ),
-                          ),
+                          onTap: () => Navigator.pushNamed(context, Routes.setup),
                         ),
                       ],
                     ),
