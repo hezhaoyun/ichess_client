@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'home_page.dart';
 import 'modules/battle/ai_battle_page.dart';
 import 'modules/battle/online_battle_page.dart';
-import 'modules/board_setup/chess_setup_page.dart';
+import 'modules/board_setup/board_setup_page.dart';
 import 'modules/manual_viewer/viewer_page.dart';
 
 void main() {
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         routes: {
           Routes.onlineBattle: (context) => const OnlineBattlePage(),
           Routes.viewer: (context) => const ViewerPage(),
-          Routes.setup: (context) => const ChessSetupPage(),
+          Routes.setup: (context) => const BoardSetupPage(),
         },
         onGenerateRoute: (settings) {
           if (settings.name == Routes.aiBattle) {

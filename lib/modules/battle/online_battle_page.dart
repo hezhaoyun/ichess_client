@@ -80,7 +80,7 @@ class _HomePageState extends State<OnlineBattlePage> with ChessBattleMixin, Onli
                 size: size,
                 orientation: orientation,
                 controller: controller,
-                lastMove: lastMove,
+                getLastMove: () => lastMove,
                 interactiveEnable: interactiveEnable,
                 onPieceDrop: onPieceDrop,
                 onPieceTap: onPieceTap,

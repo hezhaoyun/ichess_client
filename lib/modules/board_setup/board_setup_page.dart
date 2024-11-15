@@ -6,14 +6,14 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import '../../home_page.dart';
 import '../../widgets/chess_board_widget.dart';
 
-class ChessSetupPage extends StatefulWidget {
-  const ChessSetupPage({super.key});
+class BoardSetupPage extends StatefulWidget {
+  const BoardSetupPage({super.key});
 
   @override
-  State<ChessSetupPage> createState() => _ChessSetupPageState();
+  State<BoardSetupPage> createState() => _BoardSetupPageState();
 }
 
-class _ChessSetupPageState extends State<ChessSetupPage> {
+class _BoardSetupPageState extends State<BoardSetupPage> {
   // 棋盘状态常量
   static const String _emptyBoardFen = '8/8/8/8/8/8/8/8 w - - 0 1';
   static const String _initialBoardFen = chess_lib.Chess.DEFAULT_POSITION;

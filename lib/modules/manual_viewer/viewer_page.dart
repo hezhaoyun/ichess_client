@@ -322,6 +322,7 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
           size: MediaQuery.of(context).size.shortestSide - 52,
           orientation: BoardOrientation.white,
           controller: chessboardController,
+          // getLastMove: () => lastMove,
           interactiveEnable: false,
         ),
         controlPanel,

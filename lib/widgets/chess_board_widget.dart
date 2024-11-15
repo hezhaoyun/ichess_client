@@ -10,7 +10,7 @@ class ChessBoardWidget extends StatelessWidget {
   final double size;
   final BoardOrientation orientation;
   final WPChessboardController controller;
-  final List<List<int>>? lastMove;
+  final List<List<int>>? Function()? getLastMove;
   final bool interactiveEnable;
   final Function(SquareInfo, String)? onPieceStartDrag;
   final Function(PieceDropEvent)? onPieceDrop;
@@ -22,7 +22,7 @@ class ChessBoardWidget extends StatelessWidget {
     required this.size,
     required this.orientation,
     required this.controller,
-    this.lastMove,
+    this.getLastMove,
     this.interactiveEnable = false,
     this.onPieceStartDrag,
     this.onPieceDrop,
@@ -38,13 +38,14 @@ class ChessBoardWidget extends StatelessWidget {
   }
 
   Color getOverlayColor(SquareInfo info) {
+    final lastMove = getLastMove?.call();
     if (lastMove == null) return Colors.transparent;
 
-    if (lastMove!.first.first == info.rank && lastMove!.first.last == info.file) {
+    if (lastMove.first.first == info.rank && lastMove.first.last == info.file) {
       return kMoveHighlightColor.withAlpha(0x66);
     }
 
-    if (lastMove!.last.first == info.rank && lastMove!.last.last == info.file) {
+    if (lastMove.last.first == info.rank && lastMove.last.last == info.file) {
       return kMoveHighlightColor.withAlpha(0xDD);
     }
 

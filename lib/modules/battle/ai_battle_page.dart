@@ -131,6 +131,7 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
 
         controller.setFen(chess.fen);
         moves.add(bestMove);
+        updateLastMove(bestMove.substring(0, 2), bestMove.substring(2, 4));
       }
     } catch (e) {
       if (mounted) {
@@ -280,6 +281,7 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
                       controller: controller,
                       orientation: BoardOrientation.white,
                       interactiveEnable: !isThinking,
+                      getLastMove: () => lastMove,
                       onPieceDrop: onPieceDrop,
                       onPieceTap: onPieceTap,
                       onPieceStartDrag: onPieceStartDrag,
