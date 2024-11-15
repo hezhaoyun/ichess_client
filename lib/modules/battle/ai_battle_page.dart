@@ -53,7 +53,7 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
   }
 
   @override
-  void onMove(Map<String, String> move) {
+  void onMove(Map<String, String> move, {bool byPlayer = true}) {
     if (!_isEngineReady) return;
 
     updateLastMove(move['from']!, move['to']!);
@@ -63,7 +63,7 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
     controller.setFen(chess.fen);
 
     if (!chess.game_over) {
-      makeComputerMove();
+      if (byPlayer) makeComputerMove();
       return;
     }
 
@@ -123,15 +123,9 @@ class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
       }
 
       if (bestMove != null && bestMove.isNotEmpty) {
-        chess.move({
-          'from': bestMove.substring(0, 2),
-          'to': bestMove.substring(2, 4),
-          'promotion': bestMove.length > 4 ? bestMove[4] : null,
-        });
-
-        controller.setFen(chess.fen);
-        moves.add(bestMove);
-        updateLastMove(bestMove.substring(0, 2), bestMove.substring(2, 4));
+        final moveMap = {'from': bestMove.substring(0, 2), 'to': bestMove.substring(2, 4)};
+        if (bestMove.length > 4) moveMap['promotion'] = bestMove[4];
+        onMove(moveMap, byPlayer: false);
       }
     } catch (e) {
       if (mounted) {

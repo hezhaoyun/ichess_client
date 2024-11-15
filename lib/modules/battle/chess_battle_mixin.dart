@@ -56,17 +56,13 @@ mixin ChessBattleMixin<T extends StatefulWidget> on State<T> {
     controller.setHints(HintMap());
   }
 
-  void onPieceDrop(PieceDropEvent event) =>
-      playerMoved({'from': event.from.toString(), 'to': event.to.toString()});
+  void onPieceDrop(PieceDropEvent event) => playerMoved({'from': event.from.toString(), 'to': event.to.toString()});
 
-  void doMove(chess_lib.Move move) =>
-      playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
+  void doMove(chess_lib.Move move) => playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
 
   void playerMoved(Map<String, String> move) {
-    bool isPromotion = chess.moves({'verbose': true}).any((m) =>
-        m['from'] == move['from'] &&
-        m['to'] == move['to'] &&
-        m['flags'].contains('p'));
+    bool isPromotion = chess.moves({'verbose': true}).any(
+        (m) => m['from'] == move['from'] && m['to'] == move['to'] && m['flags'].contains('p'));
 
     if (!isPromotion) {
       onMove(move);
@@ -97,7 +93,7 @@ mixin ChessBattleMixin<T extends StatefulWidget> on State<T> {
   }
 
   // 这个方法需要在子类中实现
-  void onMove(Map<String, String> move);
+  void onMove(Map<String, String> move, {bool byPlayer = true});
 
   @override
   void dispose() {

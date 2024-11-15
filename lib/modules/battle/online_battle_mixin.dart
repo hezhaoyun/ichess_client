@@ -84,14 +84,10 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on ChessBattleMixin<T> {
       gameState = GameState.waitingOpponent;
       lastMove = null;
 
-      orientation = data['side'] == 'white'
-          ? BoardOrientation.white
-          : BoardOrientation.black;
+      orientation = data['side'] == 'white' ? BoardOrientation.white : BoardOrientation.black;
 
-      player =
-          data['side'] == 'white' ? data['white_player'] : data['black_player'];
-      opponent =
-          data['side'] == 'white' ? data['black_player'] : data['white_player'];
+      player = data['side'] == 'white' ? data['white_player'] : data['black_player'];
+      opponent = data['side'] == 'white' ? data['black_player'] : data['white_player'];
     });
 
     controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
@@ -342,24 +338,22 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on ChessBattleMixin<T> {
     final to = move.substring(2, 4);
     final promotion = move.length > 4 ? move.substring(4) : null;
 
-    onMove({
-      'from': from,
-      'to': to,
-      if (promotion != null) 'promotion': promotion
-    });
+    onMove({'from': from, 'to': to, if (promotion != null) 'promotion': promotion}, byPlayer: false);
   }
 
   @override
-  void onMove(Map<String, String> move) {
+  void onMove(Map<String, String> move, {bool byPlayer = true}) {
     chess.move(move);
     updateLastMove(move['from']!, move['to']!);
     controller.setFen(chess.fen);
 
-    socket?.emit(
-      'move',
-      {'move': "${move['from']}${move['to']}${move['promotion'] ?? ''}"},
-    );
+    if (byPlayer) {
+      socket?.emit(
+        'move',
+        {'move': "${move['from']}${move['to']}${move['promotion'] ?? ''}"},
+      );
 
-    setState(() => gameState = GameState.waitingOpponent);
+      setState(() => gameState = GameState.waitingOpponent);
+    }
   }
 }

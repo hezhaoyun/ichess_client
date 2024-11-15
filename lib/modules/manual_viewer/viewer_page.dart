@@ -175,6 +175,7 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
 
   bool isLoading = false;
   final scrollController = ScrollController();
+  List<List<int>>? lastMove;
 
   @override
   void initState() {
@@ -322,7 +323,7 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
           size: MediaQuery.of(context).size.shortestSide - 52,
           orientation: BoardOrientation.white,
           controller: chessboardController,
-          // getLastMove: () => lastMove,
+          getLastMove: () => lastMove,
           interactiveEnable: false,
         ),
         controlPanel,
@@ -404,6 +405,20 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
         );
       },
     );
+  }
+
+  void updateLastMove(String fromSquare, String toSquare) {
+    int rankFrom = fromSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileFrom = fromSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+    int rankTo = toSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileTo = toSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+
+    setState(() {
+      lastMove = [
+        [rankFrom, fileFrom],
+        [rankTo, fileTo]
+      ];
+    });
   }
 
   @override
