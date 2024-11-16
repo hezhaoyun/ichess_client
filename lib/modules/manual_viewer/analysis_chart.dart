@@ -27,7 +27,13 @@ class _AnalysisChartState extends State<AnalysisChart> {
             LineChartData(
               lineBarsData: [
                 LineChartBarData(
-                  spots: widget.evaluations.asMap().entries.map((e) => FlSpot(e.key.toDouble(), e.value)).toList(),
+                  spots: widget.evaluations
+                      .asMap()
+                      .entries
+                      .map(
+                        (e) => FlSpot(e.key.toDouble(), e.value / 100.0),
+                      )
+                      .toList(),
                   isCurved: true,
                   color: Theme.of(context).primaryColor,
                   barWidth: 2,

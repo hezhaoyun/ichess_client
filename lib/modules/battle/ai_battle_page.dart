@@ -21,7 +21,6 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   bool isThinking = false;
   bool _isEngineReady = false;
   List<String> moves = [];
-  String? currentAnalysis;
   int? evaluation;
 
   @override
@@ -93,6 +92,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       stockfish.sendCommand('go movetime 3000');
 
       String? bestMove;
+      String? ponderMove;
       await for (final output in stockfish.stdout) {
         for (final line in output.split('\n')) {
           final trimmedLine = line.trim();
@@ -104,18 +104,23 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
           }
 
           if (trimmedLine.startsWith('bestmove')) {
-            final move = trimmedLine.split(' ')[1];
-
-            if (move == '(none)' || move == 'NULL') {
-              if (mounted) {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('引擎无法找到有效着法')),
-                );
+            final parts = trimmedLine.split(' ');
+            if (parts.length >= 2) {
+              final move = parts[1];
+              if (move == '(none)' || move == 'NULL') {
+                if (mounted) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('引擎无法找到有效着法')),
+                  );
+                }
+                break;
               }
-              break;
-            }
+              bestMove = move;
 
-            bestMove = move;
+              if (parts.length >= 4 && parts[2] == 'ponder') {
+                ponderMove = parts[3];
+              }
+            }
             break;
           }
         }
@@ -124,6 +129,19 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       }
 
       if (bestMove != null && bestMove.isNotEmpty) {
+        if (mounted) {
+          setState(() {
+            List<Arrow> arrows = [];
+            arrows.add(_createArrow(bestMove!, Colors.blue.withOpacity(0.5)));
+
+            if (ponderMove != null) {
+              arrows.add(_createArrow(ponderMove, Colors.red.withOpacity(0.5)));
+            }
+
+            controller.setArrows(arrows);
+          });
+        }
+
         final moveMap = {'from': bestMove.substring(0, 2), 'to': bestMove.substring(2, 4)};
         if (bestMove.length > 4) moveMap['promotion'] = bestMove[4];
         onMove(moveMap, byPlayer: false);
@@ -139,10 +157,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       if (mounted) {
         setState(() {
           isThinking = false;
-          controller.setArrows([]);
-
-          currentAnalysis = null;
-          evaluation = null;
+          // controller.setArrows([]);
+          // evaluation = null;
         });
       }
     }
@@ -159,30 +175,40 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
     final pvMatch = RegExp(r'\spv (.+)$').firstMatch(line);
     if (pvMatch != null) {
-      debugPrint('pv: ${pvMatch.group(1)}');
       final moves = pvMatch.group(1)!.split(' ');
+
       if (moves.isNotEmpty) {
         setState(() {
-          currentAnalysis = moves[0];
+          List<Arrow> arrows = [];
 
-          final fromSquare = currentAnalysis!.substring(0, 2);
-          final toSquare = currentAnalysis!.substring(2, 4);
+          final engineMove = moves[0];
+          arrows.add(_createArrow(engineMove, Colors.blue.withOpacity(0.5)));
 
-          int rankFrom = fromSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-          int fileFrom = fromSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
-          int rankTo = toSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
-          int fileTo = toSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+          if (moves.length >= 2) {
+            final opponentMove = moves[1];
+            arrows.add(_createArrow(opponentMove, Colors.red.withOpacity(0.5)));
+          }
 
-          controller.setArrows([
-            Arrow(
-              from: SquareLocation(rankFrom, fileFrom),
-              to: SquareLocation(rankTo, fileTo),
-              color: Colors.blue.withOpacity(0.5),
-            )
-          ]);
+          controller.setArrows(arrows);
         });
       }
     }
+  }
+
+  Arrow _createArrow(String move, Color color) {
+    final fromSquare = move.substring(0, 2);
+    final toSquare = move.substring(2, 4);
+
+    int rankFrom = fromSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileFrom = fromSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+    int rankTo = toSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileTo = toSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+
+    return Arrow(
+      from: SquareLocation(rankFrom, fileFrom),
+      to: SquareLocation(rankTo, fileTo),
+      color: color,
+    );
   }
 
   void newGame() {
@@ -212,6 +238,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
   Future<void> saveGame() async {
     final directory = await getApplicationDocumentsDirectory();
+    debugPrint('保存路径: ${directory.path}');
+
     final now = DateTime.now();
     final dateStr = '${now.year}.${now.month.toString().padLeft(2, '0')}.${now.day.toString().padLeft(2, '0')}';
 
@@ -227,8 +255,6 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       '',
       _generateMovesText(),
     ].join('\n');
-
-    debugPrint(pgn);
 
     final file = File(
       '${directory.path}/chess_game_${now.millisecondsSinceEpoch}.pgn',
@@ -424,7 +450,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                 ),
                 if (isOpponent && isThinking && evaluation != null)
                   Text(
-                    '评估: ${(evaluation! / 100).toStringAsFixed(2)}',
+                    '评估: ${evaluation!}',
                     style: TextStyle(
                       color: evaluation! > 0 ? Colors.green : Colors.red,
                       fontWeight: FontWeight.bold,
