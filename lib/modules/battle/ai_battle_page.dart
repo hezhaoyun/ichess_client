@@ -7,7 +7,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../services/ai_native.dart';
 import '../../widgets/chess_board_widget.dart';
-import 'chess_battle_mixin.dart';
+import 'battle_mixin.dart';
 
 class AIBattlePage extends StatefulWidget {
   final String? initialFen;
@@ -17,7 +17,7 @@ class AIBattlePage extends StatefulWidget {
   State<AIBattlePage> createState() => _AIBattlePageState();
 }
 
-class _AIBattlePageState extends State<AIBattlePage> with ChessBattleMixin {
+class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   bool isThinking = false;
   bool _isEngineReady = false;
   List<String> moves = [];

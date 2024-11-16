@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../widgets/chess_board_widget.dart';
-import 'chess_battle_mixin.dart';
-import 'online_battle_mixin.dart';
+import 'battle_mixin.dart';
 
 class OnlineBattlePage extends StatefulWidget {
   const OnlineBattlePage({super.key});
@@ -13,7 +12,7 @@ class OnlineBattlePage extends StatefulWidget {
   State<OnlineBattlePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<OnlineBattlePage> with ChessBattleMixin, OnlineBattleMixin {
+class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBattleMixin {
   @override
   void initState() {
     super.initState();
