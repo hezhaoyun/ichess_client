@@ -13,6 +13,7 @@ class Routes {
   static const onlineBattle = '/online-battle';
   static const viewer = '/viewer';
   static const setup = '/setup';
+  static const settings = '/settings';
 }
 
 class _HomePageState extends State<HomePage> {
@@ -81,6 +82,11 @@ class _HomePageState extends State<HomePage> {
                           icon: Icons.edit,
                           label: '推演棋盘',
                           onTap: () => Navigator.pushNamed(context, Routes.setup),
+                        ),
+                        _buildCard(
+                          icon: Icons.settings,
+                          label: '设置',
+                          onTap: () => Navigator.pushNamed(context, Routes.settings),
                         ),
                       ],
                     ),
