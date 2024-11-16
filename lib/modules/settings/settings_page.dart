@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../../config/app_config_manager.dart';
 import '../../theme/theme_manager.dart';
 
 class SettingsPage extends StatelessWidget {
@@ -8,6 +9,7 @@ class SettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final themeManager = Provider.of<ThemeManager>(context);
+    final appConfigManager = Provider.of<AppConfigManager>(context);
 
     return Scaffold(
       body: Container(
@@ -52,6 +54,51 @@ class SettingsPage extends StatelessWidget {
               const Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
+                  '服务器设置',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                child: Card(
+                  child: ListTile(
+                    title: const Text('服务器地址'),
+                    subtitle: Text(appConfigManager.serverUrl),
+                    onTap: () async {
+                      final result = await showDialog<String>(
+                        context: context,
+                        builder: (context) {
+                          final controller = TextEditingController(text: appConfigManager.serverUrl);
+                          return AlertDialog(
+                            title: const Text('设置服务器地址'),
+                            content: TextField(
+                              controller: controller,
+                              decoration: const InputDecoration(hintText: '请输入服务器地址'),
+                            ),
+                            actions: [
+                              TextButton(
+                                onPressed: () => Navigator.pop(context),
+                                child: const Text('取消'),
+                              ),
+                              TextButton(
+                                onPressed: () => Navigator.pop(context, controller.text),
+                                child: const Text('确定'),
+                              ),
+                            ],
+                          );
+                        },
+                      );
+
+                      if (result != null) {
+                        appConfigManager.setServerUrl(result);
+                      }
+                    },
+                  ),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(16.0),
+                child: Text(
                   '主题颜色',
                   style: TextStyle(
                     fontSize: 16,
@@ -81,12 +128,7 @@ class SettingsPage extends StatelessWidget {
                           ),
                         ),
                         title: Text(themeName),
-                        trailing: isSelected
-                            ? Icon(
-                                Icons.check_circle,
-                                color: themeColor,
-                              )
-                            : null,
+                        trailing: isSelected ? Icon(Icons.check_circle, color: themeColor) : null,
                         onTap: () => themeManager.setTheme(themeName),
                       ),
                     );

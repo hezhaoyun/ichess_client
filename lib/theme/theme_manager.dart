@@ -13,12 +13,11 @@ class ThemeManager extends ChangeNotifier {
   };
 
   Color _primaryColor = Colors.blue;
+  Color get primaryColor => _primaryColor;
 
   ThemeManager() {
     _loadTheme();
   }
-
-  Color get primaryColor => _primaryColor;
 
   Future<void> _loadTheme() async {
     final prefs = await SharedPreferences.getInstance();

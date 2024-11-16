@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'config/app_config_manager.dart';
 import 'theme/theme_manager.dart';
 import 'home_page.dart';
 import 'modules/battle/ai_battle_page.dart';
@@ -10,8 +11,11 @@ import 'modules/settings/settings_page.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider(
-      create: (_) => ThemeManager(),
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => ThemeManager()),
+        ChangeNotifierProvider(create: (_) => AppConfigManager()),
+      ],
       child: const MyApp(),
     ),
   );

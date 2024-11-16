@@ -2,9 +2,11 @@ import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../config/app_config_manager.dart';
 import 'promotion_dialog.dart';
 
 enum GameState { idle, connected, waitingMatch, waitingMove, waitingOpponent }
@@ -127,7 +129,9 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   }
 
   void setupSocketIO() {
-    socket = socket_io.io('http://127.0.0.1:8888', <String, dynamic>{
+    final appConfigManager = Provider.of<AppConfigManager>(context, listen: false);
+
+    socket = socket_io.io(appConfigManager.serverUrl, <String, dynamic>{
       'transports': ['websocket'],
     });
 
