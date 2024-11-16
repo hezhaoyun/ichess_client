@@ -1,7 +1,4 @@
-import 'dart:io';
-
 import 'package:chess/chess.dart' as chess_lib;
-import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
@@ -13,20 +10,21 @@ import 'pgn_game.dart';
 import 'viewer_control_panel.dart';
 import 'viewer_mixin.dart';
 
-class ManualViewerPage extends StatefulWidget {
+class ViewerPage extends StatefulWidget {
   final String manualFile;
+  final String? pgnContent;
 
-  const ManualViewerPage({
+  const ViewerPage({
     super.key,
     required this.manualFile,
+    this.pgnContent,
   });
 
   @override
-  State<ManualViewerPage> createState() => _ManualViewerPageState();
+  State<ViewerPage> createState() => _ViewerPageState();
 }
 
-class _ManualViewerPageState extends State<ManualViewerPage>
-    with ViewerMixin, ViewerAnalysisMixin, ViewerNavigationMixin {
+class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysisMixin, ViewerNavigationMixin {
   static const double kWideLayoutThreshold = 900;
 
   bool isLoading = false;
@@ -49,7 +47,12 @@ class _ManualViewerPageState extends State<ManualViewerPage>
     try {
       setState(() => isLoading = true);
 
-      final String content = await DefaultAssetBundle.of(context).loadString('assets/manuals/$filename');
+      final String content;
+      if (widget.pgnContent != null) {
+        content = widget.pgnContent!;
+      } else {
+        content = await DefaultAssetBundle.of(context).loadString('assets/manuals/$filename');
+      }
 
       setState(() {
         games = PgnGame.parseMultipleGames(content);
@@ -97,10 +100,6 @@ class _ManualViewerPageState extends State<ManualViewerPage>
           ),
         ),
         const Spacer(),
-        IconButton(
-          icon: const Icon(Icons.folder_open),
-          onPressed: isLoading ? null : _loadPgnFile,
-        ),
       ],
     );
 
@@ -237,50 +236,6 @@ class _ManualViewerPageState extends State<ManualViewerPage>
         );
       },
     );
-  }
-
-  Future<void> _loadPgnFile() async {
-    try {
-      setState(() => isLoading = true);
-
-      final result = await FilePicker.platform.pickFiles(
-        type: FileType.any,
-      );
-
-      if (result != null) {
-        final file = result.files.first;
-        String content;
-
-        if (file.bytes != null) {
-          content = String.fromCharCodes(file.bytes!);
-        } else if (file.path != null) {
-          content = await File(file.path!).readAsString();
-        } else {
-          throw Exception('无法读取文件内容');
-        }
-
-        setState(() {
-          games = PgnGame.parseMultipleGames(content);
-          if (games.isNotEmpty) {
-            currentGameIndex = 0;
-            currentGame = games[0].parseMoves();
-            currentMoveIndex = -1;
-            fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
-            currentFen = chess_lib.Chess.DEFAULT_POSITION;
-          }
-        });
-
-        chessboardController.setFen(currentFen);
-      }
-    } catch (e) {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('加载文件失败: $e')),
-        );
-      }
-    } finally {
-      setState(() => isLoading = false);
-    }
   }
 
   @override

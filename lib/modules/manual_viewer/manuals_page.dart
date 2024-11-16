@@ -1,5 +1,7 @@
 import 'dart:convert';
+import 'dart:io';
 
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
 import 'viewer_page.dart';
@@ -24,14 +26,14 @@ class ManualInfo {
   }
 }
 
-class ManualListPage extends StatefulWidget {
-  const ManualListPage({super.key});
+class ManualsPage extends StatefulWidget {
+  const ManualsPage({super.key});
 
   @override
-  State<ManualListPage> createState() => _ManualListPageState();
+  State<ManualsPage> createState() => _ManualsPageState();
 }
 
-class _ManualListPageState extends State<ManualListPage> {
+class _ManualsPageState extends State<ManualsPage> {
   List<ManualInfo>? manuals;
   String searchKeyword = '';
   bool isLoading = false;
@@ -111,9 +113,52 @@ class _ManualListPageState extends State<ManualListPage> {
               ],
             ),
           ),
+          const Spacer(),
+          IconButton(
+            icon: const Icon(Icons.folder_open),
+            onPressed: _loadPgnFile,
+          ),
         ],
       ),
     );
+  }
+
+  Future<void> _loadPgnFile() async {
+    try {
+      final result = await FilePicker.platform.pickFiles(
+        type: FileType.any,
+      );
+
+      if (result != null) {
+        final file = result.files.first;
+        String content;
+
+        if (file.bytes != null) {
+          content = String.fromCharCodes(file.bytes!);
+        } else if (file.path != null) {
+          content = await File(file.path!).readAsString();
+        } else {
+          throw Exception('无法读取文件内容');
+        }
+
+        if (mounted) {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) => ViewerPage(
+                manualFile: file.name,
+                pgnContent: content,
+              ),
+            ),
+          );
+        }
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('加载文件失败: $e')),
+        );
+      }
+    }
   }
 
   Widget _buildManualList() {
@@ -161,7 +206,7 @@ class _ManualListPageState extends State<ManualListPage> {
                   trailing: const Icon(Icons.chevron_right),
                   onTap: () => Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => ManualViewerPage(manualFile: manual.file),
+                      builder: (context) => ViewerPage(manualFile: manual.file),
                     ),
                   ),
                 ),
