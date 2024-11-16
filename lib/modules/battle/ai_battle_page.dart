@@ -1,16 +1,18 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:wp_chessboard/wp_chessboard.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../config/app_config_manager.dart';
 import '../../services/ai_native.dart';
 import '../../widgets/chess_board_widget.dart';
-import 'battle_mixin.dart';
 import '../../widgets/game_result_dialog.dart';
-import '../../config/app_config_manager.dart';
+import 'battle_mixin.dart';
 
 class AIBattlePage extends StatefulWidget {
   final String? initialFen;
@@ -21,6 +23,8 @@ class AIBattlePage extends StatefulWidget {
 }
 
 class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
+  static const String _gameStateKey = 'ai_battle_game_state';
+
   bool isThinking = false;
   bool _isEngineReady = false;
   List<String> moves = [];
@@ -30,6 +34,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   void initState() {
     super.initState();
     initChessGame();
+    _loadGameState();
 
     if (widget.initialFen != null) {
       chess.load(widget.initialFen!);
@@ -63,6 +68,49 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         debugPrint('引擎初始化失败：${e.toString()}');
       });
     }
+  }
+
+  Future<void> _loadGameState() async {
+    final prefs = await SharedPreferences.getInstance();
+    final gameStateJson = prefs.getString(_gameStateKey);
+
+    if (gameStateJson != null) {
+      final gameState = json.decode(gameStateJson);
+
+      setState(() {
+        chess.load(gameState['fen']);
+        controller.setFen(gameState['fen']);
+        moves = List<String>.from(gameState['moves']);
+
+        if (gameState['lastMove'] != null) {
+          lastMove = List<List<int>>.from(gameState['lastMove'].map((move) => List<int>.from(move)));
+        }
+      });
+    }
+  }
+
+  Future<void> _saveGameState() async {
+    if (chess.game_over) {
+      // 如果游戏结束，清除保存的状态
+      await _clearGameState();
+      return;
+    }
+
+    final prefs = await SharedPreferences.getInstance();
+    final gameState = {'fen': chess.fen, 'moves': moves, 'lastMove': lastMove};
+
+    await prefs.setString(_gameStateKey, json.encode(gameState));
+  }
+
+  Future<void> _clearGameState() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.remove(_gameStateKey);
+  }
+
+  @override
+  void dispose() {
+    _saveGameState();
+    super.dispose();
   }
 
   @override
@@ -242,6 +290,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   }
 
   void newGame() {
+    _clearGameState();
+
     setState(() {
       if (widget.initialFen != null) {
         chess.load(widget.initialFen!);
@@ -254,6 +304,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       moves.clear();
       evaluation = null;
       controller.setArrows([]);
+      lastMove = null;
     });
   }
 
@@ -550,16 +601,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       runSpacing: 12,
       alignment: WrapAlignment.center,
       children: [
-        ElevatedButton(
-          style: buttonStyle,
-          onPressed: newGame,
-          child: const Text('新局'),
-        ),
-        ElevatedButton(
-          style: buttonStyle,
-          onPressed: undoMove,
-          child: const Text('悔棋'),
-        ),
+        ElevatedButton(style: buttonStyle, onPressed: newGame, child: const Text('新局')),
+        ElevatedButton(style: buttonStyle, onPressed: undoMove, child: const Text('悔棋')),
       ],
     );
   }
