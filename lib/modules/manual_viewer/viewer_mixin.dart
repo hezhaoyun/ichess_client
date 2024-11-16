@@ -168,22 +168,40 @@ mixin ViewerNavigationMixin on ViewerMixin {
 
   void showGamesList() => showDialog(
         context: context,
-        builder: (BuildContext context) => AlertDialog(
-          title: const Text('选择对局'),
-          content: SizedBox(
-            width: double.maxFinite, // 使对话框更宽
-            child: ListView.builder(
-              shrinkWrap: true,
-              itemCount: games.length,
-              itemBuilder: (context, index) => ListTile(
-                selected: index == currentGameIndex,
-                title: Text('${index + 1}. ${games[index].white} vs ${games[index].black}'),
-                subtitle: Text('${games[index].event} (${games[index].date})'),
-                onTap: () {
-                  Navigator.of(context).pop();
-                  gameSelected(index);
-                },
-              ),
+        builder: (BuildContext context) => Dialog(
+          child: Container(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 16),
+                  child: Text(
+                    games[currentGameIndex].event,
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                  ),
+                ),
+                Flexible(
+                  child: ListView.builder(
+                    shrinkWrap: true,
+                    itemCount: games.length,
+                    itemBuilder: (context, index) => ListTile(
+                      contentPadding: EdgeInsets.all(2),
+                      selected: index == currentGameIndex,
+                      title: Text('${index + 1}. ${games[index].date}'),
+                      subtitle: Text(
+                        '${games[index].white} vs ${games[index].black}',
+                        style: Theme.of(context).textTheme.bodySmall,
+                      ),
+                      onTap: () {
+                        Navigator.of(context).pop();
+                        gameSelected(index);
+                      },
+                    ),
+                  ),
+                ),
+              ],
             ),
           ),
         ),
