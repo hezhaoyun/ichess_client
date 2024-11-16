@@ -15,6 +15,10 @@ class ThemeManager extends ChangeNotifier {
   Color _primaryColor = Colors.blue;
   Color get primaryColor => _primaryColor;
 
+  String get currentThemeName {
+    return themes.entries.firstWhere((entry) => entry.value == primaryColor).key;
+  }
+
   ThemeManager() {
     _loadTheme();
   }

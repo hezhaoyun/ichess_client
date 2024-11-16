@@ -100,36 +100,24 @@ class SettingsPage extends StatelessWidget {
                 padding: EdgeInsets.all(16.0),
                 child: Text(
                   '主题颜色',
-                  style: TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),
-              Expanded(
-                child: ListView.builder(
-                  padding: const EdgeInsets.symmetric(horizontal: 16),
-                  itemCount: themeManager.themes.length,
-                  itemBuilder: (context, index) {
-                    final themeName = themeManager.themes.keys.elementAt(index);
-                    final themeColor = themeManager.themes[themeName]!;
-                    final isSelected = themeColor == themeManager.primaryColor;
-
-                    return Card(
-                      elevation: isSelected ? 4 : 1,
-                      margin: const EdgeInsets.only(bottom: 8),
-                      child: ListTile(
-                        leading: Container(
-                          width: 24,
-                          height: 24,
-                          decoration: BoxDecoration(color: themeColor, shape: BoxShape.circle),
-                        ),
-                        title: Text(themeName),
-                        trailing: isSelected ? Icon(Icons.check_circle, color: themeColor) : null,
-                        onTap: () => themeManager.setTheme(themeName),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                child: Card(
+                  child: ListTile(
+                    leading: Container(
+                      width: 24,
+                      height: 24,
+                      decoration: BoxDecoration(
+                        color: themeManager.primaryColor,
+                        shape: BoxShape.circle,
                       ),
-                    );
-                  },
+                    ),
+                    title: Text(themeManager.currentThemeName),
+                    onTap: () => _showThemeColorDialog(context, themeManager),
+                  ),
                 ),
               ),
               const Padding(
@@ -158,7 +146,7 @@ class SettingsPage extends StatelessWidget {
                       if (appConfigManager.useTimeControl)
                         ListTile(
                           title: const Text('思考时间'),
-                          subtitle: Text('${appConfigManager.moveTime}毫秒'),
+                          subtitle: Text('${appConfigManager.moveTime}秒'),
                           onTap: () => _showMoveTimeDialog(context, appConfigManager),
                         )
                       else
@@ -181,31 +169,146 @@ class SettingsPage extends StatelessWidget {
   void _showEngineLevelDialog(BuildContext context, AppConfigManager configManager) {
     showDialog(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('设置引擎等级'),
-        content: Slider(
-          value: configManager.engineLevel.toDouble(),
-          min: 0,
-          max: 20,
-          divisions: 20,
-          label: configManager.engineLevel.toString(),
-          onChanged: (value) => configManager.setEngineLevel(value.round()),
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text('确定'),
-          ),
-        ],
+      builder: (context) => _EngineSliderDialog(
+        title: '设置引擎等级',
+        initialValue: configManager.engineLevel.toDouble(),
+        min: 1,
+        max: 20,
+        divisions: 19,
+        labelFormat: (value) => value.round().toString(),
+        onChanged: (value) => configManager.setEngineLevel(value.round()),
       ),
     );
   }
 
   void _showMoveTimeDialog(BuildContext context, AppConfigManager configManager) {
-    // 实现移动时间对话框的逻辑
+    showDialog(
+      context: context,
+      builder: (context) => _EngineSliderDialog(
+        title: '设置思考时间',
+        initialValue: configManager.moveTime.toDouble(),
+        min: 1,
+        max: 30,
+        divisions: 29,
+        labelFormat: (value) => '${value.round()}秒',
+        onChanged: (value) => configManager.setMoveTime(value.round()),
+      ),
+    );
   }
 
   void _showSearchDepthDialog(BuildContext context, AppConfigManager configManager) {
-    // 实现搜索深度对话框的逻辑
+    showDialog(
+      context: context,
+      builder: (context) => _EngineSliderDialog(
+        title: '设置搜索深度',
+        initialValue: configManager.searchDepth.toDouble(),
+        min: 1,
+        max: 30,
+        divisions: 29,
+        labelFormat: (value) => '${value.round()}层',
+        onChanged: (value) => configManager.setSearchDepth(value.round()),
+      ),
+    );
+  }
+
+  void _showThemeColorDialog(BuildContext context, ThemeManager themeManager) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('选择主题颜色'),
+        content: SizedBox(
+          width: double.maxFinite,
+          child: ListView.builder(
+            shrinkWrap: true,
+            itemCount: themeManager.themes.length,
+            itemBuilder: (context, index) {
+              final themeName = themeManager.themes.keys.elementAt(index);
+              final themeColor = themeManager.themes[themeName]!;
+              final isSelected = themeColor == themeManager.primaryColor;
+
+              return ListTile(
+                leading: Container(
+                  width: 24,
+                  height: 24,
+                  decoration: BoxDecoration(
+                    color: themeColor,
+                    shape: BoxShape.circle,
+                  ),
+                ),
+                title: Text(themeName),
+                trailing: isSelected ? Icon(Icons.check_circle, color: themeColor) : null,
+                onTap: () {
+                  themeManager.setTheme(themeName);
+                  Navigator.pop(context);
+                },
+              );
+            },
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _EngineSliderDialog extends StatefulWidget {
+  final String title;
+  final double initialValue;
+  final double min;
+  final double max;
+  final int divisions;
+  final String Function(double) labelFormat;
+  final void Function(double) onChanged;
+
+  const _EngineSliderDialog({
+    required this.title,
+    required this.initialValue,
+    required this.min,
+    required this.max,
+    required this.divisions,
+    required this.labelFormat,
+    required this.onChanged,
+  });
+
+  @override
+  State<_EngineSliderDialog> createState() => _EngineSliderDialogState();
+}
+
+class _EngineSliderDialogState extends State<_EngineSliderDialog> {
+  late double _value;
+
+  @override
+  void initState() {
+    super.initState();
+    _value = widget.initialValue;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return AlertDialog(
+      title: Text(widget.title),
+      contentPadding: const EdgeInsets.fromLTRB(24, 8, 24, 0),
+      content: SizedBox(
+        height: 48,
+        child: Slider(
+          value: _value,
+          min: widget.min,
+          max: widget.max,
+          divisions: widget.divisions,
+          label: widget.labelFormat(_value),
+          onChanged: (value) {
+            setState(() {
+              _value = value;
+            });
+            widget.onChanged(value);
+          },
+        ),
+      ),
+      actions: [
+        TextButton(
+          onPressed: () => Navigator.pop(context),
+          child: const Text('确定'),
+        ),
+      ],
+    );
   }
 }

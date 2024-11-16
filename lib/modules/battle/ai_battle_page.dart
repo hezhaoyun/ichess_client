@@ -47,7 +47,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
       AiNative.instance.setSkillLevel(configManager.engineLevel);
       if (configManager.useTimeControl) {
-        AiNative.instance.setMoveTime(configManager.moveTime);
+        AiNative.instance.setMoveTime(configManager.moveTime * 1000);
       } else {
         AiNative.instance.setSearchDepth(configManager.searchDepth);
       }
