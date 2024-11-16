@@ -85,6 +85,17 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                   ),
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 16.0),
+                    child: Center(
+                      child: Text(
+                        'ChessRoad v1.0.0 · ♟️',
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                              color: Theme.of(context).colorScheme.onSurface.withAlpha(128),
+                            ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -92,45 +103,39 @@ class _HomePageState extends State<HomePage> {
         ),
       );
 
-  Widget _buildCard({
-    required IconData icon,
-    required String label,
-    required VoidCallback onTap,
-  }) {
-    return Hero(
-      tag: label,
-      child: Card(
-        elevation: 8,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
-          side: BorderSide(
-            color: Theme.of(context).colorScheme.primary.withAlpha(0x1A),
-            width: 1,
-          ),
-        ),
-        child: Container(
-          decoration: BoxDecoration(
+  Widget _buildCard({required IconData icon, required String label, required VoidCallback onTap}) => Hero(
+        tag: label,
+        child: Card(
+          elevation: 8,
+          shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20),
-            gradient: LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [
-                Theme.of(context).cardColor,
-                Theme.of(context).cardColor.withAlpha(0xCC),
-              ],
+            side: BorderSide(
+              color: Theme.of(context).colorScheme.primary.withAlpha(0x1A),
+              width: 1,
             ),
           ),
-          child: InkWell(
-            onTap: onTap,
-            borderRadius: BorderRadius.circular(20),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                TweenAnimationBuilder(
-                  duration: const Duration(milliseconds: 300),
-                  tween: Tween<double>(begin: 0.8, end: 1.0),
-                  builder: (context, double value, child) {
-                    return Transform.scale(
+          child: Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20),
+              gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: [
+                  Theme.of(context).cardColor,
+                  Theme.of(context).cardColor.withAlpha(0xCC),
+                ],
+              ),
+            ),
+            child: InkWell(
+              onTap: onTap,
+              borderRadius: BorderRadius.circular(20),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  TweenAnimationBuilder(
+                    duration: const Duration(milliseconds: 300),
+                    tween: Tween<double>(begin: 0.8, end: 1.0),
+                    builder: (context, double value, child) => Transform.scale(
                       scale: value,
                       child: Container(
                         padding: const EdgeInsets.all(16),
@@ -144,22 +149,20 @@ class _HomePageState extends State<HomePage> {
                           color: Theme.of(context).colorScheme.primary,
                         ),
                       ),
-                    );
-                  },
-                ),
-                const SizedBox(height: 12),
-                Text(
-                  label,
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 1,
-                      ),
-                ),
-              ],
+                    ),
+                  ),
+                  const SizedBox(height: 12),
+                  Text(
+                    label,
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 1,
+                        ),
+                  ),
+                ],
+              ),
             ),
           ),
         ),
-      ),
-    );
-  }
+      );
 }
