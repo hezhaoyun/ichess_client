@@ -21,6 +21,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   bool isThinking = false;
   bool _isEngineReady = false;
   List<String> moves = [];
+  String? currentAnalysis;
+  int? evaluation;
 
   @override
   void initState() {
@@ -81,24 +83,23 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
   Future<void> makeComputerMove() async {
     setState(() => isThinking = true);
+    controller.setArrows([]);
 
     try {
       final stockfish = AiNative.instance;
       stockfish.sendCommand(
         'position fen ${chess.fen} moves ${moves.join(' ')}',
       );
-      stockfish.sendCommand('go movetime 1000');
+      stockfish.sendCommand('go movetime 3000');
 
       String? bestMove;
       await for (final output in stockfish.stdout) {
-        debugPrint('引擎输出：$output');
-
-        // 按行分割输出并逐行处理
         for (final line in output.split('\n')) {
           final trimmedLine = line.trim();
           if (trimmedLine.isEmpty) continue;
 
           if (trimmedLine.startsWith('info')) {
+            _parseInfoLine(trimmedLine);
             continue;
           }
 
@@ -119,7 +120,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
           }
         }
 
-        if (bestMove != null) break; // 如果已找到最佳着法，退出外层循环
+        if (bestMove != null) break;
       }
 
       if (bestMove != null && bestMove.isNotEmpty) {
@@ -136,7 +137,50 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       }
     } finally {
       if (mounted) {
-        setState(() => isThinking = false);
+        setState(() {
+          isThinking = false;
+          controller.setArrows([]);
+
+          currentAnalysis = null;
+          evaluation = null;
+        });
+      }
+    }
+  }
+
+  void _parseInfoLine(String line) {
+    final depthMatch = RegExp(r'depth (\d+)').firstMatch(line);
+    if (depthMatch != null && int.parse(depthMatch.group(1)!) < 10) return;
+
+    final scoreMatch = RegExp(r'score cp (-?\d+)').firstMatch(line);
+    if (scoreMatch != null) {
+      setState(() => evaluation = int.parse(scoreMatch.group(1)!));
+    }
+
+    final pvMatch = RegExp(r'\spv (.+)$').firstMatch(line);
+    if (pvMatch != null) {
+      debugPrint('pv: ${pvMatch.group(1)}');
+      final moves = pvMatch.group(1)!.split(' ');
+      if (moves.isNotEmpty) {
+        setState(() {
+          currentAnalysis = moves[0];
+
+          final fromSquare = currentAnalysis!.substring(0, 2);
+          final toSquare = currentAnalysis!.substring(2, 4);
+
+          int rankFrom = fromSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+          int fileFrom = fromSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+          int rankTo = toSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+          int fileTo = toSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+
+          controller.setArrows([
+            Arrow(
+              from: SquareLocation(rankFrom, fileFrom),
+              to: SquareLocation(rankTo, fileTo),
+              color: Colors.blue.withOpacity(0.5),
+            )
+          ]);
+        });
       }
     }
   }
@@ -378,6 +422,14 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                     ),
                   ],
                 ),
+                if (isOpponent && isThinking && evaluation != null)
+                  Text(
+                    '评估: ${(evaluation! / 100).toStringAsFixed(2)}',
+                    style: TextStyle(
+                      color: evaluation! > 0 ? Colors.green : Colors.red,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
               ],
             ),
           ),
