@@ -34,27 +34,40 @@ class _HomePageState extends State<HomePage> {
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24.0),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const SizedBox(height: 40),
-                  Text(
-                    '棋路',
-                    style: Theme.of(context).textTheme.headlineLarge?.copyWith(
-                      fontWeight: FontWeight.bold,
-                      shadows: [
-                        Shadow(
-                          color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                          offset: const Offset(2, 2),
-                          blurRadius: 4,
-                        ),
-                      ],
-                    ),
-                  ),
-                  Text(
-                    '探索国际象棋的无限可能',
-                    style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                          color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
-                        ),
+                  Row(
+                    children: [
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          const SizedBox(height: 40),
+                          Text(
+                            '棋路',
+                            style: Theme.of(context).textTheme.headlineLarge?.copyWith(
+                              fontWeight: FontWeight.bold,
+                              shadows: [
+                                Shadow(
+                                  color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                                  offset: const Offset(2, 2),
+                                  blurRadius: 4,
+                                ),
+                              ],
+                            ),
+                          ),
+                          Text(
+                            '探索国际象棋的无限可能',
+                            style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                                  color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
+                                ),
+                          )
+                        ],
+                      ),
+                      const Spacer(),
+                      IconButton(
+                        icon: const Icon(Icons.settings),
+                        onPressed: () => Navigator.pushNamed(context, Routes.settings),
+                      )
+                    ],
                   ),
                   const SizedBox(height: 48),
                   Expanded(
@@ -82,11 +95,6 @@ class _HomePageState extends State<HomePage> {
                           icon: Icons.edit,
                           label: '推演棋盘',
                           onTap: () => Navigator.pushNamed(context, Routes.setup),
-                        ),
-                        _buildCard(
-                          icon: Icons.settings,
-                          label: '设置',
-                          onTap: () => Navigator.pushNamed(context, Routes.settings),
                         ),
                       ],
                     ),
