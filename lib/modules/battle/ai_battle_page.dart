@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:chess/chess.dart' as chess_lib;
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../services/ai_native.dart';
@@ -220,7 +220,10 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         chess.reset();
         controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
       }
+
       moves.clear();
+      evaluation = null;
+      controller.setArrows([]);
     });
   }
 
@@ -237,35 +240,51 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   }
 
   Future<void> saveGame() async {
-    final directory = await getApplicationDocumentsDirectory();
-    debugPrint('保存路径: ${directory.path}');
-
-    final now = DateTime.now();
-    final dateStr = '${now.year}.${now.month.toString().padLeft(2, '0')}.${now.day.toString().padLeft(2, '0')}';
-
-    // 创建PGN格式的内容
-    final pgn = [
-      '[Event "AI Chess Game"]',
-      '[Site "Your App"]',
-      '[Date "$dateStr"]',
-      '[Round "1"]',
-      '[White "Player"]',
-      '[Black "Computer"]',
-      '[Result "${_getPgnResult()}"]',
-      '',
-      _generateMovesText(),
-    ].join('\n');
-
-    final file = File(
-      '${directory.path}/chess_game_${now.millisecondsSinceEpoch}.pgn',
-    );
-
-    await file.writeAsString(pgn);
-
-    if (mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('棋局已保存为PGN格式')),
+    try {
+      // 让用户选择保存位置
+      String? outputFile = await FilePicker.platform.saveFile(
+        dialogTitle: '选择保存位置',
+        fileName: 'chess_game_${DateTime.now().millisecondsSinceEpoch}.pgn',
+        type: FileType.custom,
+        allowedExtensions: ['pgn'],
       );
+
+      if (outputFile == null) {
+        // 用户取消了保存
+        return;
+      }
+
+      final now = DateTime.now();
+      final dateStr = '${now.year}.${now.month.toString().padLeft(2, '0')}.${now.day.toString().padLeft(2, '0')}';
+
+      // 创建PGN格式的内容
+      final pgn = [
+        '[Event "AI Chess Game"]',
+        '[Site "Your App"]',
+        '[Date "$dateStr"]',
+        '[Round "1"]',
+        '[White "Player"]',
+        '[Black "Computer"]',
+        '[Result "${_getPgnResult()}"]',
+        '',
+        _generateMovesText(),
+      ].join('\n');
+
+      final file = File(outputFile);
+      await file.writeAsString(pgn);
+
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('棋局已保存')),
+        );
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('保存失败，请重试')),
+        );
+      }
+      debugPrint('保存棋局出错：$e');
     }
   }
 
@@ -446,16 +465,19 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                       icon: Icons.emoji_events_outlined,
                       label: 'ELO: ${isOpponent ? '2000' : '1500'}',
                     ),
+                    if (/*isOpponent && isThinking && */ evaluation != null)
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          '评估: ${evaluation!}',
+                          style: TextStyle(
+                            color: evaluation! > 0 ? Colors.green : Colors.red,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
                   ],
                 ),
-                if (isOpponent && isThinking && evaluation != null)
-                  Text(
-                    '评估: ${evaluation!}',
-                    style: TextStyle(
-                      color: evaluation! > 0 ? Colors.green : Colors.red,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
               ],
             ),
           ),

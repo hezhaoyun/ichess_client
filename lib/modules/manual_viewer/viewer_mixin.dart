@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
@@ -27,18 +29,25 @@ mixin ViewerAnalysisMixin on ViewerMixin {
     try {
       final chess = chess_lib.Chess();
 
-      // 分析初始局面（白方视角）
-      double initialEval = await getPositionEvaluation(chess.fen);
+      // 分析初始局面
+      final (initialEval, isMate) = await getPositionEvaluation(chess.fen);
       evaluations.add(initialEval);
 
-      // 分析每一步棋后的局面
+      double? mateScore;
       for (var move in currentGame!.moves) {
         chess.move(move);
-        double eval = await getPositionEvaluation(chess.fen);
-        // 如果是黑方走完棋，评估分数需要取反
-        if (chess.turn == chess_lib.Color.WHITE) {
-          eval = -eval;
+        var (eval, isMate) = await getPositionEvaluation(chess.fen);
+
+        if (isMate) {
+          if (mateScore == null) {
+            mateScore = eval.abs();
+          } else {
+            eval = eval > 0 ? mateScore : -mateScore;
+          }
         }
+
+        // 如果是白方走完棋，评估分数需要取反
+        if (chess.turn == chess_lib.Color.BLACK) eval = -eval;
         setState(() => evaluations.add(eval));
       }
     } finally {
@@ -46,12 +55,14 @@ mixin ViewerAnalysisMixin on ViewerMixin {
     }
   }
 
-  Future<double> getPositionEvaluation(String fen) async {
+  Future<(double, bool)> getPositionEvaluation(String fen) async {
     final stockfish = AiNative.instance;
     stockfish.sendCommand('position fen $fen');
-    stockfish.sendCommand('go depth 8');
+    stockfish.sendCommand('go depth 10');
 
     double evaluation = 0.0;
+    bool isMate = false;
+
     await for (final output in stockfish.stdout) {
       // 将输出按行分割并遍历每一行
       for (final line in output.split('\n')) {
@@ -64,17 +75,25 @@ mixin ViewerAnalysisMixin on ViewerMixin {
           final mateMatch = RegExp(r'score mate (-?\d+)').firstMatch(line);
           if (mateMatch != null) {
             final moves = int.parse(mateMatch.group(1)!);
-            evaluation = moves > 0 ? 10000.0 : -10000.0;
+            double mateScore = calcMateScore();
+            evaluation = moves > 0 ? mateScore * 2 : mateScore * -2;
           }
+          isMate = true;
         }
 
         if (line.startsWith('bestmove')) {
-          return evaluation;
+          return (evaluation, isMate);
         }
       }
     }
 
-    return evaluation;
+    return (evaluation, isMate);
+  }
+
+  double calcMateScore() {
+    final maxScore = evaluations.reduce(max);
+    final minScore = evaluations.reduce(min);
+    return max(maxScore.abs(), minScore.abs());
   }
 }
 
