@@ -127,7 +127,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   }
 
   void setupSocketIO() {
-    socket = socket_io.io('http://192.168.50.118:8888', <String, dynamic>{
+    socket = socket_io.io('http://127.0.0.1:8888', <String, dynamic>{
       'transports': ['websocket'],
     });
 
@@ -194,44 +194,6 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   onGo(data) {
     debugPrint('Your move');
     setState(() => gameState = GameState.waitingMove);
-  }
-
-  onWin(data) {
-    debugPrint('You won: ${data['reason']}');
-
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('你赢了！'),
-        content: Text(data['reason']),
-      ),
-    );
-  }
-
-  onLost(data) {
-    debugPrint('You lost: ${data['reason']}');
-
-    setState(() => gameState = GameState.waitingMatch);
-
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('你输了！'),
-        content: Text(data['reason']),
-      ),
-    );
-  }
-
-  onDraw(data) {
-    debugPrint('Draw: ${data['reason']}');
-
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('和棋！'),
-        content: Text(data['reason']),
-      ),
-    );
   }
 
   onTakebackRequest(data) {
@@ -454,4 +416,10 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
       setState(() => gameState = GameState.waitingOpponent);
     }
   }
+
+  onWin(data);
+
+  onLost(data);
+
+  onDraw(data);
 }

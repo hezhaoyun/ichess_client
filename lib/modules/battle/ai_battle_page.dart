@@ -8,6 +8,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import '../../services/ai_native.dart';
 import '../../widgets/chess_board_widget.dart';
 import 'battle_mixin.dart';
+import '../../widgets/game_result_dialog.dart';
 
 class AIBattlePage extends StatefulWidget {
   final String? initialFen;
@@ -68,16 +69,34 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       return;
     }
 
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text(gameResult)),
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => GameResultDialog(
+        title: _getResultTitle(),
+        message: _getResultMessage(),
+        isVictory: ((chess.in_checkmate || chess.in_stalemate) && chess.turn != chess_lib.Color.WHITE),
+      ),
     );
   }
 
-  String get gameResult {
-    if (chess.in_checkmate) return '将死！游戏结束';
-    if (chess.in_stalemate) return '逼和！游戏结束';
-    if (chess.in_draw) return '和棋！游戏结束';
-    return '游戏结束';
+  String _getResultTitle() {
+    if (chess.in_checkmate || chess.in_stalemate) {
+      return chess.turn == chess_lib.Color.WHITE ? '你输了！' : '你赢了！';
+    }
+    return '和棋！';
+  }
+
+  String _getResultMessage() {
+    if (chess.in_checkmate) {
+      return chess.turn == chess_lib.Color.WHITE ? '别灰心，再接再厉！' : '恭喜你战胜了对手！';
+    }
+    if (chess.in_stalemate) {
+      return chess.turn == chess_lib.Color.WHITE ? '别灰心，再接再厉！' : '恭喜你战胜了对手！';
+    }
+    if (chess.insufficient_material) return '子力不足，双方和棋';
+    if (chess.in_threefold_repetition) return '三次重复，双方和棋';
+    return '双方和棋';
   }
 
   Future<void> makeComputerMove() async {
@@ -89,7 +108,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       stockfish.sendCommand(
         'position fen ${chess.fen} moves ${moves.join(' ')}',
       );
-      stockfish.sendCommand('go movetime 3000');
+      stockfish.sendCommand('go movetime 1000');
 
       String? bestMove;
       String? ponderMove;
@@ -166,7 +185,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
   void _parseInfoLine(String line) {
     final depthMatch = RegExp(r'depth (\d+)').firstMatch(line);
-    if (depthMatch != null && int.parse(depthMatch.group(1)!) < 10) return;
+    if (depthMatch != null && int.parse(depthMatch.group(1)!) < 8) return;
 
     final scoreMatch = RegExp(r'score cp (-?\d+)').firstMatch(line);
     if (scoreMatch != null) {

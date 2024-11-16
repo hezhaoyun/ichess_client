@@ -4,6 +4,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../widgets/chess_board_widget.dart';
 import 'battle_mixin.dart';
+import '../../widgets/game_result_dialog.dart';
 
 class OnlineBattlePage extends StatefulWidget {
   const OnlineBattlePage({super.key});
@@ -263,5 +264,52 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
   void dispose() {
     disconnect();
     super.dispose();
+  }
+
+  @override
+  onWin(data) {
+    debugPrint('You won: ${data['reason']}');
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => GameResultDialog(
+        title: '你赢了！',
+        message: data['reason'],
+        isVictory: true,
+      ),
+    );
+  }
+
+  @override
+  onLost(data) {
+    debugPrint('You lost: ${data['reason']}');
+
+    setState(() => gameState = GameState.waitingMatch);
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => GameResultDialog(
+        title: '你输了！',
+        message: data['reason'],
+        isVictory: false,
+      ),
+    );
+  }
+
+  @override
+  onDraw(data) {
+    debugPrint('Draw: ${data['reason']}');
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => GameResultDialog(
+        title: '和棋！',
+        message: data['reason'],
+        isVictory: false,
+      ),
+    );
   }
 }
