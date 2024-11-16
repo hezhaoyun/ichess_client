@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -55,30 +56,40 @@ class _HomePageState extends State<HomePage> {
     );
 
     final grid = Expanded(
-      child: GridView.count(
-        crossAxisCount: 2,
-        mainAxisSpacing: 16,
-        crossAxisSpacing: 16,
+      child: Column(
         children: [
-          _buildCard(
-            icon: Icons.computer,
-            label: '人机对战',
-            onTap: () => Navigator.pushNamed(context, Routes.aiBattle),
+          Expanded(
+            child: GridView.count(
+              crossAxisCount: 2,
+              mainAxisSpacing: 16,
+              crossAxisSpacing: 16,
+              children: [
+                _buildCard(
+                  icon: Icons.computer,
+                  label: '人机对战',
+                  onTap: () => Navigator.pushNamed(context, Routes.aiBattle),
+                ),
+                _buildCard(
+                  icon: Icons.people,
+                  label: '在线对战',
+                  onTap: () => Navigator.pushNamed(context, Routes.onlineBattle),
+                ),
+                _buildCard(
+                  icon: Icons.menu_book,
+                  label: '阅读棋谱',
+                  onTap: () => Navigator.pushNamed(context, Routes.viewer),
+                ),
+                _buildCard(
+                  icon: Icons.swipe_right,
+                  label: '推演棋盘',
+                  onTap: () => Navigator.pushNamed(context, Routes.setup),
+                ),
+              ],
+            ),
           ),
-          _buildCard(
-            icon: Icons.people,
-            label: '在线对战',
-            onTap: () => Navigator.pushNamed(context, Routes.onlineBattle),
-          ),
-          _buildCard(
-            icon: Icons.menu_book,
-            label: '阅读棋谱',
-            onTap: () => Navigator.pushNamed(context, Routes.viewer),
-          ),
-          _buildCard(
-            icon: Icons.edit,
-            label: '推演棋盘',
-            onTap: () => Navigator.pushNamed(context, Routes.setup),
+          SizedBox(
+            height: 100,
+            child: Lottie.asset('assets/animations/chess.json', repeat: true, animate: true),
           ),
         ],
       ),
