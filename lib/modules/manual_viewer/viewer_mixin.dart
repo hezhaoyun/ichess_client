@@ -9,7 +9,7 @@ import 'move_list.dart';
 import 'pgn_game.dart';
 import 'viewer_page.dart';
 
-mixin ViewerMixin on State<ViewerPage> {
+mixin ViewerMixin on State<ManualViewerPage> {
   PgnGame? currentGame;
   List<double> evaluations = [];
 }

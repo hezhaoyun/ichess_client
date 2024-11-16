@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:ichess/modules/manual_viewer/manual_list_page.dart';
 import 'package:provider/provider.dart';
+
 import 'config/app_config_manager.dart';
-import 'theme/theme_manager.dart';
 import 'home_page.dart';
 import 'modules/battle/ai_battle_page.dart';
 import 'modules/battle/online_battle_page.dart';
 import 'modules/board_setup/board_setup_page.dart';
-import 'modules/manual_viewer/viewer_page.dart';
 import 'modules/settings/settings_page.dart';
+import 'theme/theme_manager.dart';
 
 void main() {
   runApp(
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         home: const HomePage(),
         routes: {
           Routes.onlineBattle: (context) => const OnlineBattlePage(),
-          Routes.viewer: (context) => const ViewerPage(),
+          Routes.viewer: (context) => const ManualListPage(),
           Routes.setup: (context) => const BoardSetupPage(),
           Routes.settings: (context) => const SettingsPage(),
         },

@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:convert';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
@@ -9,32 +8,36 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import '../../services/ai_native.dart';
 import '../../widgets/chess_board_widget.dart';
 import 'analysis_chart.dart';
-import 'manual_info.dart';
 import 'move_list.dart';
 import 'pgn_game.dart';
 import 'viewer_control_panel.dart';
 import 'viewer_mixin.dart';
 
-class ViewerPage extends StatefulWidget {
-  const ViewerPage({super.key});
+class ManualViewerPage extends StatefulWidget {
+  final String manualFile;
+
+  const ManualViewerPage({
+    super.key,
+    required this.manualFile,
+  });
 
   @override
-  State<ViewerPage> createState() => _ViewerPageState();
+  State<ManualViewerPage> createState() => _ManualViewerPageState();
 }
 
-class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysisMixin, ViewerNavigationMixin {
+class _ManualViewerPageState extends State<ManualViewerPage>
+    with ViewerMixin, ViewerAnalysisMixin, ViewerNavigationMixin {
   static const double kWideLayoutThreshold = 900;
 
   bool isLoading = false;
   final scrollController = ScrollController();
-  List<ManualInfo>? manuals;
 
   @override
   void initState() {
     super.initState();
     initStockfish();
     analysisCardController = ExpansionTileController();
-    _loadManualsList();
+    _loadPgnAsset(widget.manualFile);
   }
 
   Future<void> initStockfish() async {
@@ -42,55 +45,24 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
     AiNative.instance.setSkillLevel(20);
   }
 
-  Future<void> _loadManualsList() async {
-    try {
-      final String jsonString = await DefaultAssetBundle.of(context).loadString('assets/manuals.json');
-      final List<dynamic> jsonList = json.decode(jsonString) as List<dynamic>;
-      setState(() {
-        manuals = jsonList.map((json) => ManualInfo.fromJson(json as Map<String, dynamic>)).toList();
-      });
-    } catch (e) {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('加载棋谱列表失败: $e')),
-        );
-      }
-    }
-  }
-
-  Future<void> _loadPgnFile() async {
+  Future<void> _loadPgnAsset(String filename) async {
     try {
       setState(() => isLoading = true);
 
-      final result = await FilePicker.platform.pickFiles(
-        type: FileType.any,
-      );
+      final String content = await DefaultAssetBundle.of(context).loadString('assets/manuals/$filename');
 
-      if (result != null) {
-        final file = result.files.first;
-        String content;
-
-        if (file.bytes != null) {
-          content = String.fromCharCodes(file.bytes!);
-        } else if (file.path != null) {
-          content = await File(file.path!).readAsString();
-        } else {
-          throw Exception('无法读取文件内容');
+      setState(() {
+        games = PgnGame.parseMultipleGames(content);
+        if (games.isNotEmpty) {
+          currentGameIndex = 0;
+          currentGame = games[0].parseMoves();
+          currentMoveIndex = -1;
+          fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
+          currentFen = chess_lib.Chess.DEFAULT_POSITION;
         }
+      });
 
-        setState(() {
-          games = PgnGame.parseMultipleGames(content);
-          if (games.isNotEmpty) {
-            currentGameIndex = 0;
-            currentGame = games[0].parseMoves();
-            currentMoveIndex = -1;
-            fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
-            currentFen = chess_lib.Chess.DEFAULT_POSITION;
-          }
-        });
-
-        chessboardController.setFen(currentFen);
-      }
+      chessboardController.setFen(currentFen);
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -159,33 +131,7 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
 
   Widget _buildContent() {
     if (games.isEmpty) {
-      if (manuals == null) {
-        return const Center(child: CircularProgressIndicator());
-      }
-
-      return ListView.builder(
-        padding: const EdgeInsets.all(16),
-        itemCount: manuals!.length,
-        itemBuilder: (context, index) {
-          final manual = manuals![index];
-          return Card(
-            child: ListTile(
-              title: Text(
-                manual.event,
-                style: Theme.of(context).textTheme.titleMedium,
-              ),
-              subtitle: Text(
-                '${manual.count} 局棋谱',
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: Theme.of(context).textTheme.bodySmall?.color,
-                    ),
-              ),
-              trailing: const Icon(Icons.chevron_right),
-              onTap: () => _loadPgnAsset(manual.file),
-            ),
-          );
-        },
-      );
+      return const Center(child: CircularProgressIndicator());
     }
 
     final controlPanel = Padding(
@@ -293,24 +239,39 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
     );
   }
 
-  Future<void> _loadPgnAsset(String filename) async {
+  Future<void> _loadPgnFile() async {
     try {
       setState(() => isLoading = true);
 
-      final String content = await DefaultAssetBundle.of(context).loadString('assets/manuals/$filename');
+      final result = await FilePicker.platform.pickFiles(
+        type: FileType.any,
+      );
 
-      setState(() {
-        games = PgnGame.parseMultipleGames(content);
-        if (games.isNotEmpty) {
-          currentGameIndex = 0;
-          currentGame = games[0].parseMoves();
-          currentMoveIndex = -1;
-          fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
-          currentFen = chess_lib.Chess.DEFAULT_POSITION;
+      if (result != null) {
+        final file = result.files.first;
+        String content;
+
+        if (file.bytes != null) {
+          content = String.fromCharCodes(file.bytes!);
+        } else if (file.path != null) {
+          content = await File(file.path!).readAsString();
+        } else {
+          throw Exception('无法读取文件内容');
         }
-      });
 
-      chessboardController.setFen(currentFen);
+        setState(() {
+          games = PgnGame.parseMultipleGames(content);
+          if (games.isNotEmpty) {
+            currentGameIndex = 0;
+            currentGame = games[0].parseMoves();
+            currentMoveIndex = -1;
+            fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
+            currentFen = chess_lib.Chess.DEFAULT_POSITION;
+          }
+        });
+
+        chessboardController.setFen(currentFen);
+      }
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
