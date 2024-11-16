@@ -15,6 +15,18 @@ class AiNative {
   Stream<String> get stdout => _outputController.stream;
   final _outputController = StreamController<String>.broadcast();
 
+  // 添加新的属性
+  int _skillLevel = 10;
+  int _moveTime = 1000; // 默认1秒
+  int _searchDepth = 20; // 默认深度20层
+  bool _useTime = true; // 默认使用时间限制而不是深度限制
+
+  // 获取当前设置
+  int get skillLevel => _skillLevel;
+  int get moveTime => _moveTime;
+  int get searchDepth => _searchDepth;
+  bool get useTime => _useTime;
+
   // 私有构造函数
   AiNative._();
 
@@ -77,9 +89,28 @@ class AiNative {
     }
   }
 
+  // 设置引擎等级
   void setSkillLevel(int level) {
     if (!_isInitialized) return;
-    sendCommand('setoption name Skill Level value $level');
+    _skillLevel = level.clamp(1, 20);
+    sendCommand('setoption name Skill Level value $_skillLevel');
+  }
+
+  // 设置思考时间（毫秒）
+  void setMoveTime(int milliseconds) {
+    _moveTime = milliseconds.clamp(100, 10000);
+    _useTime = true;
+  }
+
+  // 设置搜索深度
+  void setSearchDepth(int depth) {
+    _searchDepth = depth.clamp(1, 30);
+    _useTime = false;
+  }
+
+  // 修改获取引擎命令的方法
+  String getGoCommand() {
+    return _useTime ? 'go movetime $_moveTime' : 'go depth $_searchDepth';
   }
 
   // 修改释放资源方法

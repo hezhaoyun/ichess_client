@@ -122,10 +122,7 @@ class SettingsPage extends StatelessWidget {
                         leading: Container(
                           width: 24,
                           height: 24,
-                          decoration: BoxDecoration(
-                            color: themeColor,
-                            shape: BoxShape.circle,
-                          ),
+                          decoration: BoxDecoration(color: themeColor, shape: BoxShape.circle),
                         ),
                         title: Text(themeName),
                         trailing: isSelected ? Icon(Icons.check_circle, color: themeColor) : null,
@@ -135,10 +132,80 @@ class SettingsPage extends StatelessWidget {
                   },
                 ),
               ),
+              const Padding(
+                padding: EdgeInsets.all(16.0),
+                child: Text(
+                  '引擎设置',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                child: Card(
+                  child: Column(
+                    children: [
+                      ListTile(
+                        title: const Text('引擎等级'),
+                        subtitle: Text('当前：${appConfigManager.engineLevel}'),
+                        onTap: () => _showEngineLevelDialog(context, appConfigManager),
+                      ),
+                      SwitchListTile(
+                        title: const Text('时间控制模式'),
+                        subtitle: Text(appConfigManager.useTimeControl ? '限制时间' : '限制深度'),
+                        value: appConfigManager.useTimeControl,
+                        onChanged: (value) => appConfigManager.setUseTimeControl(value),
+                      ),
+                      if (appConfigManager.useTimeControl)
+                        ListTile(
+                          title: const Text('思考时间'),
+                          subtitle: Text('${appConfigManager.moveTime}毫秒'),
+                          onTap: () => _showMoveTimeDialog(context, appConfigManager),
+                        )
+                      else
+                        ListTile(
+                          title: const Text('搜索深度'),
+                          subtitle: Text('${appConfigManager.searchDepth}层'),
+                          onTap: () => _showSearchDepthDialog(context, appConfigManager),
+                        ),
+                    ],
+                  ),
+                ),
+              ),
             ],
           ),
         ),
       ),
     );
+  }
+
+  void _showEngineLevelDialog(BuildContext context, AppConfigManager configManager) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('设置引擎等级'),
+        content: Slider(
+          value: configManager.engineLevel.toDouble(),
+          min: 0,
+          max: 20,
+          divisions: 20,
+          label: configManager.engineLevel.toString(),
+          onChanged: (value) => configManager.setEngineLevel(value.round()),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('确定'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showMoveTimeDialog(BuildContext context, AppConfigManager configManager) {
+    // 实现移动时间对话框的逻辑
+  }
+
+  void _showSearchDepthDialog(BuildContext context, AppConfigManager configManager) {
+    // 实现搜索深度对话框的逻辑
   }
 }

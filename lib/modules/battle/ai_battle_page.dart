@@ -4,11 +4,13 @@ import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
+import 'package:provider/provider.dart';
 
 import '../../services/ai_native.dart';
 import '../../widgets/chess_board_widget.dart';
 import 'battle_mixin.dart';
 import '../../widgets/game_result_dialog.dart';
+import '../../config/app_config_manager.dart';
 
 class AIBattlePage extends StatefulWidget {
   final String? initialFen;
@@ -38,9 +40,18 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   }
 
   Future<void> _initializeGame() async {
+    final configManager = Provider.of<AppConfigManager>(context, listen: false);
+
     try {
       await AiNative.instance.initialize();
-      AiNative.instance.setSkillLevel(10);
+
+      AiNative.instance.setSkillLevel(configManager.engineLevel);
+      if (configManager.useTimeControl) {
+        AiNative.instance.setMoveTime(configManager.moveTime);
+      } else {
+        AiNative.instance.setSearchDepth(configManager.searchDepth);
+      }
+
       setState(() => _isEngineReady = true);
     } catch (e) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -108,7 +119,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       stockfish.sendCommand(
         'position fen ${chess.fen} moves ${moves.join(' ')}',
       );
-      stockfish.sendCommand('go movetime 1000');
+      stockfish.sendCommand(stockfish.getGoCommand());
 
       String? bestMove;
       String? ponderMove;
