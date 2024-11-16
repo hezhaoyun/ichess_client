@@ -1,0 +1,742 @@
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.01"]
+[Round "1.1"]
+[White "Short, Nigel D"]
+[Black "Merry, Alan B"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2678"]
+[BlackElo "2422"]
+[ECO "A48"]
+[Opening "King's Indian"]
+[Variation "Torre attack"]
+[WhiteFideId "400025"]
+[BlackFideId "418811"]
+[EventDate "2017.12.01"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 d5 5. e3 O-O 6. c3 b6 7. Bd3 c5 8. b4
+Nbd7 9. O-O Bb7 10. Qb1 c4 11. Bc2 b5 12. a4 a6 13. Re1 Re8 14. e4 dxe4 15. Nxe4
+Nb6 16. Bxf6 exf6 17. a5 Nd5 18. Nc5 Bc6 19. Be4 Rxe4 20. Qxe4 Nxb4 21. Qb1 Nd5
+22. Qc1 h5 23. Kh1 Kh7 24. Ng1 Bh6 25. Qc2 Nf4 26. f3 Ra7 27. Qf2 Nd5 28. Ra3 f5
+29. h4 Re7 30. Re2 Bc1 31. Ra1 Be3 32. Qe1 Bf4 33. Rxe7 Nxe7 34. Nh3 Bh6 35.
+Nxa6 f4 36. Nb4 Ba8 37. a6 Nf5 38. a7 Nxh4 39. Qe5 Nxf3 40. Qb8 Qh4 41. Qxa8 Ng5
+42. Qc8 f3 43. a8=Q 1-0
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.01"]
+[Round "1.1"]
+[White "Sadler, Matthew D"]
+[Black "Rowson, Jonathan"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2685"]
+[BlackElo "2563"]
+[ECO "D11"]
+[Opening "QGD Slav"]
+[Variation "4.e3"]
+[WhiteFideId "400173"]
+[BlackFideId "2400561"]
+[EventDate "2017.12.01"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bg4 5. h3 Bxf3 6. Qxf3 e6 7. Nc3 Nbd7 8. Bd2
+Bd6 9. O-O-O Rc8 10. Kb1 O-O 11. g4 dxc4 12. Bxc4 c5 13. Bb3 c4 14. Bc2 Nb6 15.
+e4 Be7 16. g5 Ne8 17. Qg3 g6 18. h4 Qxd4 19. h5 Qg7 20. e5 Nd5 21. Nxd5 exd5 22.
+Bc3 Rd8 23. Bd4 b6 24. e6 f6 25. hxg6 hxg6 26. Rh6 1-0
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.01"]
+[Round "1.1"]
+[White "Howell, David W L"]
+[Black "Hawkins, Jonathan"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2676"]
+[BlackElo "2579"]
+[ECO "C72"]
+[Opening "Ruy Lopez"]
+[Variation "modern Steinitz defence, 5.O-O"]
+[WhiteFideId "410608"]
+[BlackFideId "412686"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Bg4 6. c3 Qf6 7. d3 Ne7 8. Be3
+Bxf3 9. Qxf3 Qxf3 10. gxf3 O-O-O 11. f4 g6 12. fxe5 dxe5 13. Bc2 h5 14. Nd2 g5
+15. b4 Bh6 16. a4 Nd4 17. cxd4 exd4 18. Nc4 dxe3 19. fxe3 Nc6 20. Rab1 Bf8 21.
+d4 Nxb4 22. Bb3 f6 23. Rxf6 g4 24. Na5 Be7 25. Rf7 Rhe8 26. Be6+ Kb8 27. Rxe7
+Rxe7 28. Bf5 c5 29. dxc5 Re5 30. Rxb4 Rxc5 31. Nxb7 Rc1+ 32. Kf2 Rd2+ 33. Kg3
+Rg1+ 34. Kf4 Rxh2 35. Na5+ Kc7 36. Rb7+ Kd6 37. e5+ Kd5 38. Rd7+ Kc5 39. e6 Rf1+
+40. Ke4 1-0
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.01"]
+[Round "1.1"]
+[White "Jones, Gawain C B"]
+[Black "McShane, Luke J"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2654"]
+[BlackElo "2640"]
+[ECO "C44"]
+[Opening "Ponziani"]
+[Variation "Jaenisch counter-attack"]
+[WhiteFideId "409561"]
+[BlackFideId "404853"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. c3 Nf6 4. d4 Nxe4 5. d5 Ne7 6. Nxe5 Ng6 7. Nxg6 hxg6 8.
+Bd3 Nc5 9. O-O Be7 10. Re1 O-O 11. Bf1 d6 12. a4 c6 13. b4 Nd7 14. a5 c5 15. Bf4
+g5 16. Qe2 gxf4 17. Qxe7 Qxe7 18. Rxe7 Rd8 19. Nd2 cxb4 20. cxb4 Nf6 21. Bc4 Bd7
+22. h3 Rac8 23. Ra3 g5 24. Rd3 Kf8 25. Re1 Re8 26. Rxe8+ Rxe8 27. Nf3 Ne4 28.
+Rd4 f6 29. Kf1 Kg7 30. Bd3 Nc3 31. Rc4 Rc8 32. Rxc8 Bxc8 33. Bc4 Bf5 34. Nd4 Be4
+35. f3 Bxd5 36. Nf5+ Kf7 37. Bxd5+ Nxd5 38. Nxd6+ Ke6 39. Nxb7 Nxb4 40. Nc5+ Kd5
+41. Ne4 Ke5 42. Kf2 Nc6 43. a6 Nb4 44. Nc3 Nxa6 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.01"]
+[Round "1.2"]
+[White "Merry, Alan B"]
+[Black "Short, Nigel D"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2422"]
+[BlackElo "2678"]
+[ECO "C49"]
+[Opening "Four knights"]
+[Variation "symmetrical variation"]
+[WhiteFideId "418811"]
+[BlackFideId "400025"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. O-O O-O 6. d3 d6 7. Bg5 Bxc3 8.
+bxc3 h6 9. Bh4 Bd7 10. Rb1 Qe7 11. Re1 Rad8 12. d4 b6 13. Qc1 Rfe8 14. h3 Na5
+15. Bd3 Bc6 16. Qa3 Kh8 17. Re3 Bb7 18. Bg3 Nh5 19. dxe5 Nxg3 20. exd6 Rxd6 21.
+fxg3 c5 22. Rbe1 Re6 23. e5 Qc7 24. Qa4 g6 25. Qf4 Kg7 26. Nh2 c4 27. Be4 Qxe5
+28. Qf3 Qc5 29. Kh1 f5 0-1
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.01"]
+[Round "1.2"]
+[White "Rowson, Jonathan"]
+[Black "Sadler, Matthew D"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2563"]
+[BlackElo "2685"]
+[ECO "A18"]
+[Opening "English"]
+[Variation "Mikenas-Carls, Flohr variation"]
+[WhiteFideId "2400561"]
+[BlackFideId "400173"]
+[EventDate "2017.12.01"]
+
+1. c4 e6 2. Nc3 Nf6 3. e4 d5 4. e5 d4 5. exf6 dxc3 6. bxc3 Qxf6 7. Nf3 e5 8. Bd3
+Na6 9. Qe2 Bd6 10. Be4 O-O 11. O-O Nc5 12. d4 Nxe4 13. Qxe4 exd4 14. cxd4 c6 15.
+Re1 Bf5 16. Qe3 Be6 17. Qd3 Rfe8 18. Bb2 Qg6 19. Qc3 f6 20. Nd2 Qf7 21. g3 Bh3
+22. Ba3 Bc7 23. Re3 Rxe3 24. fxe3 Qg6 25. e4 h5 26. Re1 Re8 27. Kf2 h4 28. Re3
+b6 29. Qd3 Kh8 30. d5 Be5 31. Ke1 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.01"]
+[Round "1.2"]
+[White "Hawkins, Jonathan"]
+[Black "Howell, David W L"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2579"]
+[BlackElo "2676"]
+[ECO "E35"]
+[Opening "Nimzo-Indian"]
+[Variation "classical, Noa variation, 5.cd ed"]
+[WhiteFideId "412686"]
+[BlackFideId "410608"]
+[EventDate "2017.12.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 exd5 6. Bg5 c5 7. dxc5 h6 8. Bh4
+O-O 9. O-O-O Bxc3 10. Qxc3 g5 11. Bg3 Ne4 12. Qa3 Be6 13. e3 Nd7 14. f3 Nxg3 15.
+hxg3 Qf6 16. Ne2 Rfc8 17. Nd4 Nxc5 18. Kb1 Bf5+ 19. Nxf5 Qxf5+ 20. Bd3 Qe6 21.
+Bc2 Rc6 22. g4 a5 23. Bf5 Qe5 24. f4 gxf4 25. exf4 Qxf4 26. Rxd5 Ne6 27. Qf3 Kg7
+28. Rd7 Qxf3 29. gxf3 Nc5 30. Rd2 Re8 31. Rc1 Re3 32. f4 b6 33. Rc4 Rf6 34. Rd5
+Re2 35. a3 Rf2 36. b4 axb4 37. Rxb4 Ne6 38. Rd6 Nxf4 39. Rxf6 Kxf6 40. Rxb6+ Kg5
+41. Rb5 Kf6 42. Rb6+ Kg5 43. Rb5 Kf6 44. Rb6+ Kg5 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.01"]
+[Round "1.2"]
+[White "McShane, Luke J"]
+[Black "Jones, Gawain C B"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2640"]
+[BlackElo "2654"]
+[ECO "B36"]
+[Opening "Sicilian"]
+[Variation "accelerated fianchetto, Maroczy bind"]
+[WhiteFideId "404853"]
+[BlackFideId "409561"]
+[EventDate "2017.12.01"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Nf6 6. Nc3 d6 7. Be2 Nxd4 8.
+Qxd4 Bg7 9. Be3 O-O 10. Qd2 a5 11. f3 a4 12. Kf2 Qa5 13. Rac1 Be6 14. Nd5 Bxd5
+15. Qxa5 Rxa5 16. cxd5 e6 17. dxe6 fxe6 18. Ke1 Nd7 19. Rc2 b5 20. Bd2 Ra7 21.
+Bxb5 Rb8 22. Bc4 Kf7 23. b4 axb3 24. Bxb3 Nc5 25. Be3 Ra5 26. Bxc5 Rxc5 27. Rxc5
+dxc5 28. Kf2 Rd8 29. Ke2 Bc3 30. Rd1 Rxd1 31. Kxd1 c4 32. Bxc4 g5 33. g3 Be5 34.
+Ke2 Bc7 35. a4 Ke7 36. Kf2 e5 37. Kg2 Kf6 38. Kh3 h5 39. Be2 Kg6 40. Bb5 Kf7 41.
+Bd7 Ke7 42. Bf5 Kf6 43. Kg2 h4 44. gxh4 gxh4 45. Kf2 Ke7 46. Ke3 Bb6+ 47. Kd3
+Kd6 48. h3 Ba5 49. Kc4 Bb6 50. Kb5 Be3 51. Bg4 Bg1 52. Bh5 Be3 53. Bg6 Kc7 54.
+Bh7 Kd6 55. Bg8 Kc7 56. Bf7 Kd6 57. Ba2 Kc7 58. Bb1 Kd6 59. Bc2 Kc7 60. Bd1 Kd6
+61. Be2 Kc7 62. Bf1 Kd6 63. Bd3 Kc7 64. Bc4 Kd6 65. Bb3 Kc7 66. Be6 Kd6 67. Bc8
+Kc7 68. Bf5 Kd6 69. Bg4 Kc7 70. Bh5 Kd6 71. Bg6 Kc7 72. Be8 Kd6 73. Bf7 Kc7 74.
+Ba2 Kd6 75. Bb1 Kc7 76. Bd3 Kd6 77. a5 Kc7 78. Be2 Bd2 79. Bd1 Be3 80. Bc2 Bd2
+81. Bb1 Be3 82. Ba2 Bd2 83. Bb3 Be3 84. Bc4 Bd2 85. Bd5 Be3 86. Be6 Bd2 87. Bf7
+Be3 88. Bg8 Bd2 89. Bh7 Be3 90. Bg6 Bd2 91. Bh5 Be3 92. Bg4 Bd2 93. Be6 Be3 94.
+Bd5 Kd6 95. Bc6 Kc7 96. Ba8 Kd6 97. Bb7 Kc7 98. a6 Kd6 99. Kc4 Ba7 100. Kd3 Ke6
+101. Bd5+ Kd6 102. Ke2 Bb8 103. Ba2 Ba7 104. Bb1 Bb8 105. Bd3 Ke6 106. f4 exf4
+107. Kf3 Ke5 108. Bf1 Ba7 109. Bg2 Be3 110. Kg4 Bf2 111. Bf3 Ke6 112. Kxf4 Bg3+
+113. Kg5 Bf2 114. Be2 Ke5 115. Bd3 Ke6 116. Bc4+ Ke5 117. Bd5 Kd6 118. Kf5 Ba7
+119. Bc4 Bf2 120. e5+ Ke7 121. Ke4 Kd8 122. Kd5 Kc7 123. e6 Be3 124. Ke5 Bg5
+125. Kf5 1-0
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.03"]
+[Round "2.1"]
+[White "Short, Nigel D"]
+[Black "McShane, Luke J"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2678"]
+[BlackElo "2640"]
+[ECO "C48"]
+[Opening "Four knights"]
+[Variation "Rubinstein counter-gambit"]
+[WhiteFideId "400025"]
+[BlackFideId "404853"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. Nc3 Nd4 5. Bc4 Bc5 6. Nxe5 Qe7 7. Nf3 d5 8.
+Bxd5 Bg4 9. d3 O-O-O 10. Be3 Nxd5 11. Nxd5 Rxd5 12. exd5 Re8 13. O-O Bxf3 14.
+gxf3 Qh4 15. f4 Bd6 16. Kg2 Nxc2 17. Qxc2 Qg4+ 18. Kh1 Qf3+ 19. Kg1 Qg4+ 20. Kh1
+Qf3+ 21. Kg1 Qg4+ 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.03"]
+[Round "2.1"]
+[White "Howell, David W L"]
+[Black "Sadler, Matthew D"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2676"]
+[BlackElo "2685"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "410608"]
+[BlackFideId "400173"]
+[EventDate "2017.12.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. cxd5 exd5 6. Qa4+ Nc6 7. Bg5 h6 8.
+Bxf6 Qxf6 9. e3 O-O 10. Be2 a6 11. O-O Be6 12. Rac1 Bd6 13. Qc2 Ne7 14. a3 Rfe8
+15. Na4 Ng6 16. Nc5 Bc8 17. Rfe1 c6 18. b4 Re7 19. Qd2 h5 20. a4 Bg4 21. b5 axb5
+22. axb5 Rae8 23. bxc6 bxc6 24. Nd3 Bb8 25. Nb4 Re6 26. Na6 Bd6 27. Nc5 R6e7 28.
+Nd3 Bb8 29. Nb4 Re6 30. Na6 Bd6 31. Nc5 R6e7 32. Nd3 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.03"]
+[Round "2.2"]
+[White "McShane, Luke J"]
+[Black "Short, Nigel D"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2640"]
+[BlackElo "2678"]
+[ECO "C72"]
+[Opening "Ruy Lopez"]
+[Variation "modern Steinitz defence, 5.O-O"]
+[WhiteFideId "404853"]
+[BlackFideId "400025"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Bd7 6. c3 g6 7. d4 Bg7 8. Re1
+Nge7 9. Be3 O-O 10. Nbd2 h6 11. dxe5 Nxe5 12. Nxe5 dxe5 13. b4 b6 14. Bxd7 Qxd7
+15. a4 f5 16. f3 f4 17. Bf2 Rfd8 18. Qb3+ Kh7 19. Red1 Qe8 20. a5 b5 21. Qa2 Ng8
+22. Nb3 Qf7 23. Qc2 Bf8 24. Bc5 Bd6 25. Rd2 Rd7 26. Rad1 Rad8 27. Bf2 Nf6 28. h3
+Kg8 29. Rd3 g5 30. Kf1 Qe6 31. Ke1 h5 32. R1d2 Kf7 33. Kd1 g4 34. hxg4 hxg4 35.
+Kc1 g3 36. Bg1 Ke8 37. Kb2 Qc4 38. Bc5 Kf7 39. Qd1 Qe6 40. Qg1 Bf8 41. Rxd7+
+Rxd7 42. Bxf8 Rxd2+ 43. Nxd2 Kxf8 44. Qc5+ Qd6 45. c4 Qxc5 46. bxc5 c6 47. Kc3
+Ke7 48. Kb4 Kd7 49. Kc3 Nh7 50. Nb3 Ng5 51. Nc1 Ke7 52. Kb4 Ke6 53. Kc3 Kf6 54.
+Kb4 Ne6 55. Nd3 Nd4 56. Ne1 Ke6 57. Kc3 Ke7 58. Kb4 Ke6 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.03"]
+[Round "2.2"]
+[White "Sadler, Matthew D"]
+[Black "Howell, David W L"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2685"]
+[BlackElo "2676"]
+[ECO "E21"]
+[Opening "Nimzo-Indian"]
+[Variation "three knights variation"]
+[WhiteFideId "400173"]
+[BlackFideId "410608"]
+[EventDate "2017.12.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 b6 5. e3 Bb7 6. Bd3 O-O 7. O-O c5 8. Na4
+cxd4 9. exd4 Re8 10. a3 Bf8 11. Bf4 Bxf3 12. Qxf3 Nc6 13. Be5 Rc8 14. Rfd1 d6
+15. Bxf6 Qxf6 16. Qxf6 gxf6 17. Bf1 f5 18. Rab1 Bg7 19. d5 Nd4 20. dxe6 fxe6 21.
+Nc3 Red8 22. g3 Kf7 23. Kg2 Rd7 24. b3 a6 25. Rd2 b5 26. Ne2 Nxe2 27. Bxe2 bxc4
+28. bxc4 Bc3 29. Rd3 Ba5 30. Rdb3 Bd8 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.03"]
+[Round "2.3"]
+[White "Short, Nigel D"]
+[Black "McShane, Luke J"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2678"]
+[BlackElo "2640"]
+[ECO "A00"]
+[Opening "Benko's opening"]
+[WhiteFideId "400025"]
+[BlackFideId "404853"]
+[EventDate "2017.12.01"]
+
+1. g3 g6 2. Bg2 Bg7 3. d4 d5 4. Nf3 Nf6 5. O-O O-O 6. Bf4 Nbd7 7. Nbd2 b6 8. Ne5
+Bb7 9. c3 c5 10. Qa4 e6 11. Rfd1 a6 12. Rac1 b5 13. Qa3 Qb6 14. Nb3 Rfc8 15. Qa5
+c4 16. Qxb6 Nxb6 17. Nc5 Ra7 18. b4 Ba8 19. a4 Nxa4 20. Nxa4 bxa4 21. Ra1 Ne4
+22. Bxe4 dxe4 23. Rxa4 g5 24. Be3 Bd5 25. f3 exf3 26. Nxf3 h6 27. Rda1 Rca8 28.
+Ra5 Bf8 29. b5 Bd6 30. Rxa6 Rxa6 31. Rxa6 Rxa6 32. bxa6 Kf8 33. h4 f6 34. Kf2
+Ke8 35. Bc1 Kd7 36. Nd2 f5 37. Nf3 Kc6 38. hxg5 hxg5 39. Bxg5 Kb6 40. Bf4 Ba3
+41. Ke1 Kxa6 42. Kd2 Kb5 43. Ne5 Ka4 44. g4 fxg4 45. Nxg4 Kb3 46. Nf2 Bb2 47.
+Nd1 Be4 48. Bd6 Bc2 49. Nxb2 Kxb2 50. Bb4 Kb3 51. Ke3 Bd1 52. Kf2 Ka4 53. e4 Kb5
+54. Ke3 Kc6 55. Kf4 Bc2 56. Ke5 Bb1 57. Ba3 Bc2 58. d5+ exd5 59. exd5+ Kd7 60.
+Kd4 Bd3 61. Kc5 Be2 62. Bc1 Bd3 63. Bf4 Be2 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.03"]
+[Round "2.3"]
+[White "Sadler, Matthew D"]
+[Black "Howell, David W L"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2685"]
+[BlackElo "2676"]
+[ECO "E21"]
+[Opening "Nimzo-Indian"]
+[Variation "three knights variation"]
+[WhiteFideId "400173"]
+[BlackFideId "410608"]
+[EventDate "2017.12.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 c5 5. g3 Nc6 6. Bg2 Ne4 7. Bd2 Nxd2 8. Qxd2
+cxd4 9. Nxd4 O-O 10. O-O Ne5 11. b3 a6 12. Rfd1 Rb8 13. Nc2 Be7 14. Ne4 b5 15.
+c5 Qc7 16. Rac1 f5 17. Nd6 Qxc5 18. Nb4 Qb6 19. Qd4 Qxd4 20. Rxd4 a5 21. Nd3
+Bxd6 22. Rxd6 Nf7 23. Rd4 d5 24. f4 b4 25. Rc5 Ra8 26. a3 Ba6 27. axb4 Bxd3 28.
+Rxd3 axb4 29. Rc6 Nd8 30. Rb6 Rf7 31. Rxb4 Rc7 32. Kf2 Kf8 33. g4 g6 34. gxf5
+gxf5 35. Rh3 Nc6 36. Rb6 Rb8 37. Rxb8+ Nxb8 38. b4 Rb7 39. Rh6 Rxb4 40. Rxe6
+Rxf4+ 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.03"]
+[Round "2.4"]
+[White "McShane, Luke J"]
+[Black "Short, Nigel D"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2640"]
+[BlackElo "2678"]
+[ECO "C85"]
+[Opening "Ruy Lopez"]
+[Variation "Exchange variation doubly deferred (DERLD)"]
+[WhiteFideId "404853"]
+[BlackFideId "400025"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Bxc6 dxc6 7. d3 Nd7 8.
+Nc3 O-O 9. Kh1 Re8 10. Ng1 Nf8 11. Nge2 Ng6 12. f4 exf4 13. Nxf4 Bd6 14. Nxg6
+hxg6 15. Qf3 Be6 16. Bf4 g5 17. Bg3 Bxg3 18. Qxg3 Qe7 19. e5 Rad8 20. Ne4 g4 21.
+Rae1 c5 22. Qf4 Rd4 23. c3 Rxd3 24. Nf6+ Kf8 25. Nh7+ Kg8 26. Nf6+ Kf8 27. Qe4
+Qd8 28. Qh7 Rd2 29. Qh8+ Ke7 30. Qxg7 Rh8 31. Ne4 Rd5 32. Ng5 Qg8 33. Nxe6 Kxe6
+34. Qf6+ Kd7 35. Qf5+ Ke7 36. Rd1 c6 37. Qf6+ Ke8 38. Rxd5 cxd5 39. Qd6 Qh7 40.
+Qb8+ Ke7 41. Qxb7+ Ke6 42. Qc6+ Kxe5 43. Re1+ Kf5 44. Qxd5+ Kg6 45. Qe4+ f5 46.
+Qf4 Qd7 47. Qg3 Re8 48. Rf1 Re2 49. h3 Rxb2 50. hxg4 fxg4 51. Qe5 Rb6 52. Qxc5
+Rc6 53. Qe5 Qe6 54. Qxe6+ Rxe6 55. Kh2 Re2 56. Rf4 Rxa2 57. Rxg4+ Kf5 58. Rc4 a5
+59. Kh3 a4 60. g4+ Kg6 61. Rc6+ Kg7 62. Kh4 a3 63. Rc7+ Kg6 64. Rc6+ Kg7 65. Kg5
+Rc2 66. Rc7+ Kf8 67. Kf6 Rf2+ 68. Kg6 a2 69. Ra7 Rc2 70. g5 Rg2 71. c4 Ke8 72.
+Kf6 Rf2+ 73. Kg6 Rg2 74. c5 Kd8 75. Kf6 Kc8 76. g6 Kb8 77. Ra5 Kb7 78. g7 Rf2+
+79. Kg6 Rg2+ 80. Kf7 Rf2+ 81. Kg8 Rg2 82. Kf7 Rf2+ 83. Ke6 Rg2 84. Rxa2 Rxg7 85.
+Kd5 Rd7+ 86. Kc4 Rd1 87. Rh2 Rc1+ 88. Kb5 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.03"]
+[Round "2.4"]
+[White "Howell, David W L"]
+[Black "Sadler, Matthew D"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2676"]
+[BlackElo "2685"]
+[ECO "A21"]
+[Opening "English, Kramnik-Shirov counterattack"]
+[WhiteFideId "410608"]
+[BlackFideId "400173"]
+[EventDate "2017.12.01"]
+
+1. c4 e5 2. Nc3 Bb4 3. Nd5 Bc5 4. Nf3 c6 5. Nc3 d6 6. e3 Qe7 7. d4 exd4 8. Nxd4
+Nf6 9. Be2 O-O 10. O-O d5 11. cxd5 cxd5 12. Bf3 Rd8 13. b3 Nc6 14. Nce2 Ne5 15.
+Bb2 Bd7 16. Rc1 Rac8 17. h3 Ba3 18. Rxc8 Rxc8 19. Qb1 Bxb2 20. Qxb2 Ne4 21. Nf4
+Qc5 22. Be2 a5 23. Nd3 Nxd3 24. Bxd3 Qc3 25. Qe2 g6 26. Rd1 Nf6 27. Qf3 Kg7 28.
+Qf4 Qc7 29. Qf3 Qd6 30. Qe2 Qc5 31. Qb2 Qc3 32. Qe2 Qc5 33. Qb2 Qc3 34. Qe2 Qc5
+35. Qb2 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.03"]
+[Round "2.5"]
+[White "McShane, Luke J"]
+[Black "Short, Nigel D"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2640"]
+[BlackElo "2678"]
+[ECO "C02"]
+[Opening "French"]
+[Variation "advance variation"]
+[WhiteFideId "404853"]
+[BlackFideId "400025"]
+[EventDate "2017.12.01"]
+
+1. e4 e6 2. d4 d5 3. e5 b6 4. Nf3 Ne7 5. c3 Qd7 6. Bd3 Ba6 7. O-O c5 8. Re1 Nec6
+9. Bc2 h6 10. a3 g5 11. h3 Be7 12. Nbd2 cxd4 13. cxd4 h5 14. Nf1 Rg8 15. Ng3 g4
+16. hxg4 h4 17. Nh5 Rxg4 18. Be3 Qb7 19. Bh7 Nd7 20. Nh2 Rg6 21. Bxg6 fxg6 22.
+Nf4 Nf8 23. Qg4 O-O-O 24. Nxe6 Nxe6 25. Qxe6+ Kb8 26. Rac1 Na5 27. Qxg6 Nc4 28.
+Bg5 Nxb2 29. Rc3 Nc4 30. Rf3 Bxg5 31. Qxg5 Rc8 32. e6 Nd6 33. e7 Bb5 34. Rf8 Be8
+35. Qxh4 Ne4 36. Ng4 Ka8 37. Nf6 Qxe7 38. Qh8 1-0
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.03"]
+[Round "2.5"]
+[White "Howell, David W L"]
+[Black "Sadler, Matthew D"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2676"]
+[BlackElo "2685"]
+[ECO "A05"]
+[Opening "Reti opening"]
+[WhiteFideId "410608"]
+[BlackFideId "400173"]
+[EventDate "2017.12.01"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 c5 4. O-O e6 5. b3 Nc6 6. Bb2 Be7 7. c4 d4 8. e3 e5
+9. exd4 exd4 10. Re1 O-O 11. d3 Bd6 12. Na3 Bf5 13. Nh4 Bg4 14. Qd2 Qd7 15. Nb5
+Bb8 16. f4 a6 17. Na3 Bc7 18. Qf2 Nb4 19. Qf1 Rae8 20. h3 Bf5 21. Nxf5 Qxf5 22.
+Rad1 Rxe1 23. Rxe1 Qxd3 24. Bf3 Re8 25. Rxe8+ Nxe8 26. Qe1 Kf8 27. Be4 Qe3+ 28.
+Qxe3 dxe3 29. Kf1 Nf6 30. Bxb7 Nh5 31. Kg2 Nxa2 32. Bf3 Nf6 33. Nc2 Nb4 34. Nxe3
+Ke7 35. Nf5+ Kf8 36. Bc3 Ne8 37. Kf2 g6 38. Ne3 Nd6 39. Ke2 Bb6 40. g4 a5 41. h4
+Ke7 42. g5 Kd7 43. Bg4+ Kc7 44. f5 Ne4 45. Be5+ Kd8 46. h5 Bc7 47. Bb2 Ng3+ 48.
+Kf3 Nd3 49. Bf6+ Ke8 50. Nd5 Bd6 51. fxg6 fxg6 52. h6 Ne1+ 53. Kf2 Nd3+ 54. Ke3
+Nf1+ 55. Kxd3 Nh2 56. Bh3 Nf3 57. Ke4 Nd2+ 58. Ke3 Nxb3 59. Bc3 a4 60. Bg4 a3
+61. Bd1 Nd4 62. Ba4+ Kf8 63. Nf6 a2 64. Nxh7+ Kg8 65. Nf6+ Kh8 66. Nd7 Bg3 67.
+Kd3 1-0
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.09"]
+[Round "3.1"]
+[White "Howell, David W L"]
+[Black "McShane, Luke J"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2676"]
+[BlackElo "2640"]
+[ECO "A56"]
+[Opening "Czech Benoni defence"]
+[WhiteFideId "410608"]
+[BlackFideId "404853"]
+[EventDate "2017.12.01"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. e4 Be7 6. h3 Nbd7 7. Bd3 h5 8. h4 g6 9.
+g3 Kf8 10. Nh3 Kg7 11. f3 a6 12. Be3 Ne8 13. a3 Nc7 14. b4 cxb4 15. axb4 a5 16.
+bxa5 Na6 17. Nf2 Nac5 18. Ke2 Rxa5 19. Rxa5 Qxa5 20. Qa1 Qd8 21. Nb5 b6 22. Qa8
+Rf8 23. Bc2 Nb7 24. Qa1 Ndc5 25. Qc3 Bd7 26. Rb1 Qc8 27. Qb4 Na6 28. Qc3 Nac5
+29. Qb4 Na6 30. Qc3 Nac5 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.09"]
+[Round "3.2"]
+[White "McShane, Luke J"]
+[Black "Howell, David W L"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2640"]
+[BlackElo "2676"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "404853"]
+[BlackFideId "410608"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Qe2 Bg4 7. Bg5 Qd6 8.
+Nbd2 Nd7 9. h3 Bxf3 10. Nxf3 Nf8 11. O-O-O Ne6 12. Be3 O-O-O 13. Bxc5 Qxc5 14.
+Qe3 f6 15. Qxc5 Nxc5 16. Nh4 Ne6 17. Nf5 g6 18. Ne3 Kd7 19. b3 Ke7 20. Kb2 a5
+21. a4 b6 22. h4 Rhf8 23. Rde1 Kf7 24. g3 Rde8 25. Rhf1 Kg7 26. Kc3 Rf7 27. f3
+Rff8 28. Rf2 Rf7 29. h5 g5 30. Nf5+ Kf8 31. Ref1 Rd7 32. Ne3 Rg7 33. Ng2 Kf7 34.
+f4 gxf4 35. gxf4 Reg8 36. Ne3 Nxf4 37. Nf5 Rg5 38. Nh6+ Kg7 39. Nxg8 Kxg8 40.
+Rh1 c5 41. Kc4 c6 42. c3 Kf7 43. d4 cxd4 44. cxd4 Ke6 45. dxe5 Kxe5 46. Rd1 Kxe4
+47. Re1+ Kf5 48. h6 Rh5 49. Kd4 Rh4 50. Rff1 Rxh6 51. Rh1 Rxh1 52. Rxh1 h5 53.
+Ke3 Ke5 54. Kf3 Nd3 55. Rxh5+ Kd4 56. Ke2 Nf4+ 0-1
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.09"]
+[Round "3.3"]
+[White "Howell, David W L"]
+[Black "McShane, Luke J"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2676"]
+[BlackElo "2640"]
+[ECO "E69"]
+[Opening "King's Indian"]
+[Variation "fianchetto, classical main line"]
+[WhiteFideId "410608"]
+[BlackFideId "404853"]
+[EventDate "2017.12.01"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. d4 d6 6. O-O Nbd7 7. Nc3 e5 8. e4 c6
+9. h3 Qa5 10. Re1 exd4 11. Nxd4 Ne5 12. Bf1 Qb6 13. Be3 c5 14. Nb3 Be6 15. Nd5
+Bxd5 16. exd5 Rae8 17. Kg2 Re7 18. Qc2 Rfe8 19. Bd2 Qd8 20. a4 Qc8 21. Nc1 h5
+22. Na2 h4 23. gxh4 Nh5 24. Nc3 Bf6 25. f4 Ng4 26. Ne4 Bxh4 27. Nxd6 Qd7 28.
+Rxe7 Rxe7 29. Ne4 Qf5 30. Bd3 Nxf4+ 31. Bxf4 Qxf4 32. hxg4 Qxg4+ 33. Kf1 Qf3+
+34. Kg1 f5 35. Qh2 Qxd3 36. Nxc5 Qd4+ 37. Kh1 Qxc5 38. Rg1 Qxg1+ 0-1
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.09"]
+[Round "3.4"]
+[White "McShane, Luke J"]
+[Black "Howell, David W L"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2640"]
+[BlackElo "2676"]
+[ECO "C77"]
+[Opening "Ruy Lopez"]
+[Variation "Anderssen variation"]
+[WhiteFideId "404853"]
+[BlackFideId "410608"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 d6 6. c3 g6 7. O-O Bg7 8. Re1 O-O
+9. Nbd2 b5 10. Bc2 Bb7 11. Nf1 Nb8 12. d4 Nbd7 13. Ng3 Re8 14. a4 c6 15. Be3 Qc7
+16. h3 exd4 17. cxd4 c5 18. d5 Nb6 19. Qc1 b4 20. Bh6 Bh8 21. a5 Nbd7 22. Ba4
+Ne5 23. Bxe8 Nxf3+ 24. gxf3 Rxe8 25. Qd2 Nd7 26. f4 Bd4 27. Kh2 Bc8 28. f3 Qd8
+29. Bg5 Qc7 30. Bh6 Qd8 31. Bg5 Qc7 32. Re2 Bg7 33. Rg2 h6 34. Bh4 Kh7 35. Nf5
+Bh8 36. Ne3 Nf6 37. Ng4 Bxg4 38. hxg4 Nd7 39. Re2 Bd4 40. Kg2 f6 41. Bf2 Bxf2
+42. Rxf2 Kg7 43. Kg3 Rh8 44. Rh2 g5 45. Rah1 Nf8 46. Rh5 Ng6 47. Qh2 Nh4 48.
+Rxh4 gxh4+ 49. Qxh4 c4 50. Qh5 c3 51. bxc3 Qxc3 52. Qf5 Qc7 53. Rb1 Rb8 54. g5
+fxg5 55. fxg5 Qe7 56. gxh6+ Kh8 57. Rc1 b3 58. Rc8+ Rxc8 59. Qxc8+ Kh7 60. Kf2
+b2 61. Qb8 Qe5 62. Qb4 Qh2+ 63. Ke3 Qg1+ 64. Kf4 b1=Q 65. Qxd6 Qh2+ 0-1
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.09"]
+[Round "3.5"]
+[White "McShane, Luke J"]
+[Black "Howell, David W L"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2640"]
+[BlackElo "2676"]
+[ECO "C85"]
+[Opening "Ruy Lopez"]
+[Variation "Exchange variation doubly deferred (DERLD)"]
+[WhiteFideId "404853"]
+[BlackFideId "410608"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Bxc6 dxc6 7. d3 Nd7 8.
+Nc3 O-O 9. Kh1 Re8 10. b3 Nf8 11. Ne2 Bd6 12. Bg5 f6 13. Be3 c5 14. Nh4 Ne6 15.
+Nf5 Nd4 16. Nxd6 cxd6 17. Ng3 d5 18. f3 b6 19. Qd2 Bb7 20. Rae1 Qd7 21. Qf2 Rad8
+22. Rg1 Qf7 23. h3 a5 24. Kh2 Kh8 25. Bc1 a4 26. Bb2 Ra8 27. Bxd4 cxd4 28. Re2
+dxe4 29. fxe4 Bc8 30. Qf3 Be6 31. Nh5 Qg6 32. g4 Qg5 33. Qf2 a3 34. Qe1 Rec8 35.
+Qb4 Rc6 36. Qe7 Qg6 37. Rf2 Qf7 38. Qb4 Qf8 39. Qe1 Qe8 40. Qd1 Qe7 41. Rgg2
+Rac8 42. Qc1 b5 43. Qd1 b4 44. Qf3 Bd7 45. h4 Rf8 46. g5 f5 47. exf5 Rxf5 48.
+Qd5 Rc8 49. Ng3 Rff8 50. Rxf8+ Rxf8 51. Re2 Re8 52. Ne4 Qe6 53. Qxe6 Bxe6 54.
+Nd6 Rd8 55. Nc4 Bxc4 56. bxc4 Re8 57. Kg3 Kg8 58. Kf3 Kf7 59. Ke4 Ke6 60. Rf2
+Rc8 61. Rf5 Rc5 62. Rf8 Rc7 63. Rb8 Kd6 64. Rxb4 Rf7 65. Rb6+ Kc5 66. Rb5+ Kc6
+67. Kxe5 Rf2 68. Ra5 Rxc2 69. Rxa3 Rh2 70. Ra7 Rxh4 71. Rxg7 Kc5 72. Rc7+ Kb4
+73. Rb7+ Kc3 74. Rb3+ Kd2 75. c5 Rh5 76. Kxd4 Rxg5 77. Rb2+ Kc1 78. Rh2 h5 79.
+a4 Rg4+ 80. Kd5 Rxa4 81. Rxh5 Kd2 82. d4 Ra8 83. Rh6 Kc3 84. c6 Ra5+ 85. Kd6 Kc4
+86. Kd7 Ra6 87. Rd6 1-0
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.09"]
+[Round "3.6"]
+[White "Howell, David W L"]
+[Black "McShane, Luke J"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2676"]
+[BlackElo "2640"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, Beverwijk variation"]
+[WhiteFideId "410608"]
+[BlackFideId "404853"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Bc5 5. d3 d6 6. c3 Bb6 7. Nbd2 O-O 8. h3
+Ne7 9. Re1 Ng6 10. Nf1 c6 11. Ba4 d5 12. exd5 Nxd5 13. Ng3 Re8 14. Bb3 h6 15. d4
+exd4 16. Rxe8+ Qxe8 17. Nxd4 Qe5 18. Qd3 Qe1+ 19. Qf1 Qxf1+ 20. Kxf1 Ngf4 21.
+Nge2 Nxe2 22. Kxe2 Bxd4 23. Bxd5 Bxc3 24. Bxf7+ Kxf7 25. bxc3 Be6 26. Be3 Bc4+
+27. Ke1 b6 28. a4 Re8 29. a5 c5 30. axb6 axb6 31. Ra7+ Kf6 32. Rd7 Re6 33. Kd2
+Bf1 34. g3 Bxh3 35. Rd8 Bg4 36. Kd3 Ke7 37. Rb8 Bf3 38. Kc4 g5 39. Kb5 Be2+ 40.
+c4 Kf6 41. Rxb6 Bxc4+ 42. Kxc5 Rxb6 43. Kxb6 Be2 44. Kc6 Kf5 45. f4 Bf3+ 46. Kd6
+gxf4 47. Bxf4 h5 48. Ke7 h4 49. gxh4 Kxf4 50. h5 Bxh5 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.09"]
+[Round "3.7"]
+[White "McShane, Luke J"]
+[Black "Howell, David W L"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2640"]
+[BlackElo "2676"]
+[ECO "C85"]
+[Opening "Ruy Lopez"]
+[Variation "Exchange variation doubly deferred (DERLD)"]
+[WhiteFideId "404853"]
+[BlackFideId "410608"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Bxc6 dxc6 7. d3 Nd7 8.
+Nc3 O-O 9. Kh1 Re8 10. Qe1 Bd6 11. Bg5 f6 12. Be3 Nf8 13. Nh4 Ne6 14. g3 c5 15.
+f4 Nd4 16. Qf2 exf4 17. gxf4 f5 18. Rg1 Bf8 19. Rg3 fxe4 20. Nxe4 Nf5 21. Nxf5
+Bxf5 22. Qg2 b6 23. Bd2 g6 24. Rg5 Bxe4 25. dxe4 Qd4 26. Re1 Qxb2 27. f5 Bh6 28.
+Rg4 Bxd2 29. Qxd2 Rad8 30. Qg2 Qc3 31. Rg1 Rd2 32. Qf1 Rf8 33. Qf4 Qxc2 34.
+Rxg6+ hxg6 35. Rxg6+ Kf7 36. Qxc7+ Ke8 37. Re6# 1-0
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.09"]
+[Round "3.8"]
+[White "Howell, David W L"]
+[Black "McShane, Luke J"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2676"]
+[BlackElo "2640"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, Beverwijk variation"]
+[WhiteFideId "410608"]
+[BlackFideId "404853"]
+[EventDate "2017.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Bc5 5. Nxe5 Nxe4 6. Qe2 Nxe5 7. Qxe4 Qe7
+8. Re1 Ng6 9. d4 Qxe4 10. Rxe4+ Be7 11. g3 c6 12. Bd3 d5 13. Re1 f6 14. Nd2 Kf7
+15. Nf1 Bd6 16. Ne3 Ne7 17. h4 h5 18. Ng2 g6 19. Bf4 Bxf4 20. Nxf4 Bf5 21. Rxe7+
+Kxe7 22. Bxf5 gxf5 23. Ng6+ Kf7 24. Nxh8+ Rxh8 25. Re1 f4 26. Kg2 fxg3 27. fxg3
+Rg8 28. Kf3 Rg4 29. c3 Rg8 30. Re2 Rg4 31. Re3 a5 32. a4 Kf8 33. Re6 Kf7 34. Re3
+Kf8 35. Re1 Kf7 36. Rb1 Ke6 37. b4 axb4 38. Rxb4 Rg7 39. Kf4 Rg4+ 40. Kf3 Rg7
+41. a5 Kd6 42. Kf4 Rg4+ 43. Kf3 Rg7 44. Kf4 Rg4+ 45. Kf3 1/2-1/2
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.09"]
+[Round "3.9"]
+[White "Howell, David W L"]
+[Black "McShane, Luke J"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2676"]
+[BlackElo "2640"]
+[ECO "A00"]
+[Opening "Benko's opening"]
+[WhiteFideId "410608"]
+[BlackFideId "404853"]
+[EventDate "2017.12.01"]
+
+1. g3 Nf6 2. Bg2 g6 3. d4 c5 4. dxc5 Qa5+ 5. Nc3 Qxc5 6. e4 Bg7 7. Nge2 d6 8. h3
+Nc6 9. Be3 Qa5 10. O-O O-O 11. Re1 Bd7 12. a4 Qh5 13. g4 Qa5 14. Nd5 Rac8 15. c4
+Nxd5 16. exd5 Nb4 17. Qb3 Na6 18. Qc2 Nc5 19. b3 Bxa1 20. Rxa1 f5 21. g5 Qb6 22.
+Nd4 f4 23. a5 Qd8 24. Bd2 f3 25. Nxf3 Bxh3 26. Bxh3 Rxf3 27. Bg4 Rxb3 28. Re1
+Rb8 29. Be3 Rxe3 30. Rxe3 Qxa5 31. Rxe7 Qa1+ 32. Kg2 Qd4 33. Qe2 Rf8 34. Re8 0-1
+
+[Event "ch-GBR KO 2017"]
+[Site "London ENG"]
+[Date "2017.12.09"]
+[Round "3.10"]
+[White "McShane, Luke J"]
+[Black "Howell, David W L"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2640"]
+[BlackElo "2676"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "advance variation"]
+[WhiteFideId "404853"]
+[BlackFideId "410608"]
+[EventDate "2017.12.01"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 c5 5. dxc5 Nc6 6. Bb5 Qc7 7. Qxd5 e6 8. Qf3
+Qxe5+ 9. Ne2 Be4 10. Qg3 Qxc5 11. Nbc3 Nf6 12. Bg5 Bd6 13. Be3 Qxc3+ 14. Nxc3
+Bxg3 15. Nxe4 Nxe4 16. fxg3 Nxg3 17. Rh3 Nf5 18. Bc5 h5 19. O-O-O a6 20. Bxc6+
+bxc6 21. Rb3 Rh6 22. Rb7 Rd8 23. Rxd8+ Kxd8 24. Rxf7 Rf6 25. Ra7 e5 26. Rxa6
+Nxh4 27. Ra7 Rg6 28. Be7+ Kc8 29. Bxh4 Rxg2 30. Re7 g5 31. Rxe5 gxh4 32. Rxh5
+Rh2 33. Rh7 Kd8 34. a4 Ke8 35. a5 Rh1+ 36. Kd2 1-0
+

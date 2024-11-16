@@ -1,0 +1,245 @@
+[Event "Millionaire Chess KO 2015"]
+[Site "Las Vegas USA"]
+[Date "2015.10.12"]
+[Round "1.1"]
+[White "Yu, Yangyi"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2721"]
+[BlackElo "2816"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "8603820"]
+[BlackFideId "2016192"]
+[EventDate "2015.10.12"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.
+Rxe5 O-O 9. Nc3 Ne8 10. Nd5 Bd6 11. Re1 c6 12. Ne3 Be7 13. Qe2 Bf6 14. Nf5 d5
+15. Ne7+ Kh8 16. Nxc8 Rxc8 17. Qd1 Nd6 18. c3 Bg5 19. d4 Bxc1 20. Rxc1 Rc7 21.
+Bd3 Re7 22. Rxe7 Qxe7 1/2-1/2
+
+[Event "Millionaire Chess KO 2015"]
+[Site "Las Vegas USA"]
+[Date "2015.10.12"]
+[Round "1.1"]
+[White "Le, Quang Liem"]
+[Black "Lenderman, Aleksandr"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2697"]
+[BlackElo "2623"]
+[ECO "E35"]
+[Opening "Nimzo-Indian"]
+[Variation "classical, Noa variation, 5.cd ed"]
+[WhiteFideId "12401137"]
+[BlackFideId "2021285"]
+[EventDate "2015.10.12"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 exd5 6. Bg5 h6 7. Bh4 O-O 8. e3
+c5 9. Nf3 Be6 10. Be2 Nbd7 11. O-O Qa5 12. dxc5 Bxc3 13. bxc3 Rfc8 14. Rab1 Ne4
+15. Rfc1 Rxc5 16. c4 Nd6 17. Nd4 dxc4 18. Be7 Qc7 19. Nxe6 fxe6 20. Rd1 Rd5 21.
+Qg6 Nf8 22. Bxf8 Rxd1+ 23. Rxd1 Kxf8 24. Qxe6 c3 25. Bh5 c2 26. Rc1 Rd8 27. g3
+Qe7 28. Qxe7+ Kxe7 29. Rxc2 Rc8 30. Rxc8 Nxc8 31. f4 Nd6 32. Be2 Ne4 33. Bd3 Nc3
+34. a3 Nd1 35. e4 Nb2 36. Be2 Kd6 37. Kf2 Kc5 38. Ke3 b5 39. e5 Na4 40. f5 Nb6
+41. Ke4 Nd5 42. g4 Nc3+ 43. Kd3 Nb1 44. a4 b4 45. Bd1 Nc3 46. Bb3 a5 47. h4 Nd5
+48. g5 hxg5 49. hxg5 Nf4+ 50. Ke4 Nh3 51. g6 Nf2+ 52. Ke3 Ng4+ 53. Kf4 Nh6 54.
+f6 1-0
+
+[Event "Millionaire Chess KO 2015"]
+[Site "Las Vegas USA"]
+[Date "2015.10.12"]
+[Round "1.2"]
+[White "Nakamura, Hikaru"]
+[Black "Yu, Yangyi"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2816"]
+[BlackElo "2721"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "2016192"]
+[BlackFideId "8603820"]
+[EventDate "2015.10.12"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. c3 d5 6. exd5 Nxd5 7. d4 cxd4 8.
+cxd4 Bd6 9. Nc3 O-O 10. Bd3 Nce7 11. Bg5 Nxc3 12. bxc3 h6 13. Bh4 Qc7 14. c4 b6
+15. Be4 Bb7 16. Bxb7 Qxb7 17. Qb3 Nf5 18. Bg3 Rfd8 19. Rfd1 Rac8 20. Bxd6 Rxd6
+21. c5 Rd5 22. Rab1 Qa6 23. cxb6 axb6 24. Qxb6 Qxa2 25. Rd2 Rc2 26. Rxc2 Qxc2
+27. Re1 Qc8 28. h3 Rd6 29. Qb4 Qd8 30. Rd1 Rd5 31. Rd2 Qc7 32. Qb1 Qd8 1/2-1/2
+
+[Event "Millionaire Chess KO 2015"]
+[Site "Las Vegas USA"]
+[Date "2015.10.12"]
+[Round "1.2"]
+[White "Lenderman, Aleksandr"]
+[Black "Le, Quang Liem"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2623"]
+[BlackElo "2697"]
+[ECO "D31"]
+[Opening "QGD"]
+[Variation "Charousek (Petrosian) variation"]
+[WhiteFideId "2021285"]
+[BlackFideId "12401137"]
+[EventDate "2015.10.12"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 Bf5 7. Qb3 Nc6 8. g4
+Nxg4 9. Qxd5 Qxd5 10. Nxd5 Bb4+ 11. Nxb4 Nxb4 12. Rc1 c6 13. h3 Nf6 14. a3 Nbd5
+15. Be5 Nd7 16. Bd6 N7b6 17. b3 Rd8 18. Bg3 O-O 19. Ne2 Rfe8 20. Rg1 Re6 21. Kd2
+Rde8 22. Be5 f6 23. Bh2 Rd8 24. Ng3 Bg6 25. h4 Ne7 26. Bh3 Re5 27. Kc3 Rb5 28.
+e4 Bf7 29. Rb1 Ra5 30. a4 c5 31. d5 Nbc8 32. b4 Rxa4 33. bxc5 b6 34. Ra1 Nxd5+
+35. exd5 Rxh4 36. Bxc8 Rxc8 37. c6 Bxd5 38. Nf5 Rxc6+ 39. Kd2 Rxh2 40. Ne7+ Kf8
+41. Nxc6 Bxc6 42. Rxa7 Rxf2+ 43. Ke3 Rg2 44. Re1 Rg5 45. Kf4 Re5 46. Rg1 g5+ 47.
+Kg4 Re7 48. Ra6 Re4+ 49. Kg3 Re3+ 50. Kf2 Rf3+ 51. Ke1 Rb3 52. Rg4 Kg7 53. Rc4
+Bf3 54. Rc7+ Kg6 55. Kd2 h5 56. Kc2 Rb5 57. Raa7 Rc5+ 0-1
+
+[Event "Millionaire Chess KO 2015"]
+[Site "Las Vegas USA"]
+[Date "2015.10.12"]
+[Round "1.3"]
+[White "Yu, Yangyi"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2721"]
+[BlackElo "2816"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "8603820"]
+[BlackFideId "2016192"]
+[EventDate "2015.10.12"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.
+Rxe5 O-O 9. Nc3 Ne8 10. Nd5 Bd6 11. Re1 c6 12. Ne3 Be7 13. c4 Bf6 14. d4 d5 15.
+cxd5 cxd5 16. g3 Be6 17. Bg2 Qb6 18. Nxd5 Bxd5 19. Bxd5 Bxd4 20. Be3 Bxe3 21.
+Rxe3 Rd8 22. Qb3 Qxb3 23. Bxb3 Nd6 24. Rd1 Nc8 25. Rc1 Rd7 26. Ba4 Rd4 27. Bb3
+Rd7 28. Rec3 Nb6 29. Rc7 Rfd8 30. a4 Kf8 31. a5 Nd5 32. Bxd5 Rxc7 33. Rxc7 Rxd5
+34. Rxb7 Rxa5 1/2-1/2
+
+[Event "Millionaire Chess KO 2015"]
+[Site "Las Vegas USA"]
+[Date "2015.10.12"]
+[Round "1.4"]
+[White "Nakamura, Hikaru"]
+[Black "Yu, Yangyi"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2816"]
+[BlackElo "2721"]
+[ECO "B40"]
+[Opening "Sicilian defence"]
+[WhiteFideId "2016192"]
+[BlackFideId "8603820"]
+[EventDate "2015.10.12"]
+
+1. e4 c5 2. Nf3 e6 3. g3 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Bg2 e5 7. Nb5 d6 8. Bg5
+a6 9. Bxf6 gxf6 10. N5c3 f5 11. O-O Bg7 12. Nd2 O-O 13. Nc4 Nd4 14. Nd5 fxe4 15.
+Ncb6 Be6 16. c3 Bxd5 17. Nxd5 Nf3+ 18. Bxf3 exf3 19. Qxf3 f5 20. Rad1 Kh8 21.
+Rd2 e4 22. Qh5 Be5 23. Ne3 Qc8 24. Nd5 Qd8 25. f4 exf3 26. Rxf3 Qd7 27. Nb6 Qe8
+28. Qxe8 Raxe8 29. Rdf2 Bg7 30. Rxf5 Rxf5 31. Rxf5 Re2 32. Rf2 Re1+ 33. Kg2 Kg8
+34. Rd2 Be5 35. Nc4 Kf7 36. Nxe5+ Rxe5 37. Kf3 Rb5 38. b4 Ke6 39. Rd4 h5 40. Ke3
+Rg5 41. Re4+ Kd5 42. a4 b5 43. axb5 axb5 44. Rd4+ Ke6 45. Rh4 Kd5 46. Kd3 Rf5
+47. Rf4 Rg5 48. c4+ Kc6 49. cxb5+ Kxb5 50. Rd4 Kc6 51. Ke3 Rf5 52. h3 Rf1 53.
+Rh4 Rf5 54. Rc4+ Kd5 55. Rf4 Rg5 56. Kf3 Ke6 57. Re4+ Kf6 58. g4 hxg4+ 59. hxg4
+Rd5 60. Ke3 Rd1 61. Rd4 Rb1 62. Rxd6+ Ke5 63. Rb6 Rb3+ 64. Kd2 Kd4 65. Kc2 Rg3
+66. Rc6 Rxg4 67. Kb3 Kd5 68. Ra6 Rg1 69. Ka4 Kc4 70. Rc6+ Kd5 71. Rc8 Kd6 72.
+Ka5 Kd7 73. Rc2 Rg8 74. b5 Rb8 75. Ka6 Kd6 76. b6 Ra8+ 77. Kb7 Ra1 78. Rd2+ Ke7
+79. Kb8 Rb1 80. b7 Ke6 81. Ra2 1-0
+
+[Event "Millionaire Chess KO 2015"]
+[Site "Las Vegas USA"]
+[Date "2015.10.12"]
+[Round "2.1"]
+[White "Nakamura, Hikaru"]
+[Black "Le, Quang Liem"]
+[Result "1-0"]
+[WhiteElo "2816"]
+[BlackElo "2697"]
+[ECO "D30"]
+[Opening "QGD"]
+[Variation "Capablanca-Duras variation"]
+[EventDate "2015.10.12"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Bg5 h6 5. Bxf6 Qxf6 6. Qb3 c6 7. e3 Qe7 8.
+Nbd2 Qb4 9. Qc2 Nd7 10. a3 Qa5 11. Be2 dxc4 12. O-O Be7 13. Nxc4 Qc7 14. b4
+O-O 15. Rac1 Rd8 16. Qb3 a6 17. Bd3 Nf6 18. Bb1 Bd7 19. e4 Be8 20. e5 Nh7
+21. Qe3 b6 22. Rfd1 a5 23. d5 Rxd5 24. Rxd5 exd5 25. Nxb6 Rd8 26. Nxd5 Qb7
+27. Nxe7+ Qxe7 28. bxa5 Ra8 29. a6 Nf8 30. Bd3 Ne6 31. Nd4 Nxd4 32. Qxd4
+Rd8 33. Qc3 c5 34. Bf1 Rd5 35. Qa5 Bc6 36. a7 Ba8 37. Rb1 Kh7 38. Rb8 c4
+39. Qa6 Rd2 40. Rxa8 Qc5 41. Rh8+ Kxh8 42. a8=Q+ 1-0
+
+[Event "Millionaire Chess KO 2015"]
+[Site "Las Vegas USA"]
+[Date "2015.10.12"]
+[Round "2.1"]
+[White "Yu, Yangyi"]
+[Black "Lenderman, Aleksandr"]
+[Result "1-0"]
+[WhiteElo "2721"]
+[BlackElo "2623"]
+[ECO "C16"]
+[Opening "French"]
+[Variation "Winawer, advance variation"]
+[EventDate "2015.10.12"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 b6 5. Qg4 Bf8 6. Bg5 Qd7 7. O-O-O Ne7 8.
+Bxe7 h5 9. Qh3 Bxe7 10. f4 Ba6 11. Nf3 Bxf1 12. Rhxf1 Nc6 13. Ng5 Bxg5 14.
+fxg5 O-O-O 15. Rf4 g6 16. Rdf1 Rdf8 17. Ne2 Rh7 18. Rf6 Rg8 19. Qd3 Kb7 20.
+Kb1 Rgg7 21. Nc3 Qe8 22. Nd1 Nb8 23. Ne3 Nd7 24. R6f2 Qe7 25. h4 Rh8 26. c4
+c6 27. Rc1 Rc8 28. cxd5 exd5 29. Rf6 Rgg8 30. Rd6 Rgd8 31. Qc2 Nb8 32. Rf6
+c5 33. e6 Ka8 34. Qd3 fxe6 35. dxc5 Nd7 36. Rff1 Nxc5 37. Qxg6 Ne4 38. Ka1
+Rg8 39. Qh6 Rh8 40. Rxc8+ Rxc8 41. g6 d4 42. g7 Qc5 43. a3 dxe3 44. Qxe6
+Nf2 45. Re1 Kb7 46. Rxe3 Ng4 47. Rc3 Qg1+ 48. Ka2 Rxc3 49. g8=Q Rxa3+ 50.
+Kxa3 Qc5+ 51. Ka2 Qa5+ 52. Kb1 1-0
+
+[Event "Millionaire Chess KO 2015"]
+[Site "Las Vegas USA"]
+[Date "2015.10.12"]
+[Round "2.2"]
+[White "Le, Quang Liem"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteElo "2697"]
+[BlackElo "2816"]
+[ECO "A13"]
+[Opening "English"]
+[Variation "Neo-Catalan accepted"]
+[EventDate "2015.10.12"]
+
+1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. Nf3 dxc4 5. Qa4+ Bd7 6. Qxc4 c5 7. O-O Bc6
+8. Rd1 Nbd7 9. Qc2 Rc8 10. Nc3 b5 11. d3 a6 12. e4 Be7 13. Bf4 O-O 14. a4
+Qb6 15. Qe2 Qb7 16. Nd2 Bd8 17. axb5 axb5 18. Nb3 Bb6 19. Bd6 Rfe8 20. Na5
+Bxa5 21. Rxa5 b4 22. Nb1 Qb6 23. Ra1 e5 24. f4 c4+ 25. Qf2 Qxf2+ 26. Kxf2
+cxd3 27. Nd2 Ng4+ 28. Kg1 Ne3 29. Rdc1 Nxg2 30. Kxg2 1/2-1/2
+
+[Event "Millionaire Chess KO 2015"]
+[Site "Las Vegas USA"]
+[Date "2015.10.12"]
+[Round "2.2"]
+[White "Lenderman, Aleksandr"]
+[Black "Yu, Yangyi"]
+[Result "0-1"]
+[WhiteElo "2623"]
+[BlackElo "2721"]
+[ECO "B20"]
+[Opening "Sicilian defence"]
+[EventDate "2015.10.12"]
+
+1. e4 c5 2. d3 Nc6 3. Be2 g6 4. f4 Bg7 5. Nf3 e6 6. c3 Nge7 7. Be3 b6 8.
+Nbd2 Bb7 9. O-O O-O 10. Rc1 f5 11. a3 d6 12. b4 Qd7 13. Qb3 Kh8 14. Ng5 Nd8
+15. g4 h6 16. Nh3 Nf7 17. Bf3 e5 18. exf5 Bxf3 19. Nxf3 gxf5 20. g5 Ng6 21.
+Qd5 Ne7 22. Qa2 Ng6 23. Qf2 hxg5 24. Nhxg5 Nxg5 25. Nxg5 Bh6 26. h4 Rae8
+27. Rce1 Qg7 28. bxc5 bxc5 29. d4 cxd4 30. cxd4 exf4 31. Bxf4 Re4 32. Bxd6
+Rg4+ 33. Kh2 Bxg5 34. Bxf8 Qc7+ 35. Kh3 Nf4+ 0-1
+

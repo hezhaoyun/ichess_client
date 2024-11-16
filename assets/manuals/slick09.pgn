@@ -1,0 +1,853 @@
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.27"]
+[Round "1"]
+[White "Gormally,D"]
+[Black "Cherniaev,A1"]
+[Result "1/2-1/2"]
+[WhiteElo "2487"]
+[BlackElo "2423"]
+[EventDate "2009.06.27"]
+[ECO "A54"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 e5 4. Nf3 e4 5. Ng5 Qe7 6. Qc2 Bf5 7. g4 Bg6 8.
+Bg2 Nc6 9. e3 O-O-O 10. h4 h6 11. h5 hxg5 12. hxg6 Rxh1+ 13. Bxh1 Nb4 14.
+Qa4 Nd3+ 15. Ke2 Qe6 16. f3 a6 17. Nxe4 Nxe4 18. fxe4 Nxc1+ 19. Rxc1 Qxg4+
+20. Bf3 Qg3 21. b4 g4 22. Bh1 Be7 23. Qd1 fxg6 24. Qg1 Qxg1 25. Rxg1 Rh8
+26. Bg2 Bf6 27. a4 Rh2 28. Kf1 Bg5 29. Kf2 Bh4+ 30. Kf1 Bg5 31. Kf2 Bh4+
+32. Kf1 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.27"]
+[Round "1"]
+[White "Ansell,S"]
+[Black "Slavin,A"]
+[Result "0-1"]
+[WhiteElo "2394"]
+[BlackElo "2308"]
+[EventDate "2009.06.27"]
+[ECO "E11"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. a3 Bxd2+ 6. Nbxd2 d6 7. e4 e5
+8. d5 O-O 9. g3 a5 10. Bg2 Na6 11. Qc2 Bd7 12. b3 c6 13. dxc6 bxc6 14. O-O
+Rfb8 15. Qc3 c5 16. Ne1 Re8 17. Nc2 Nb8 18. Qd3 Nc6 19. Rfd1 Nd4 20. Nxd4
+cxd4 21. b4 axb4 22. axb4 Reb8 23. Rxa8 Rxa8 24. Nb3 Ra4 25. Qd2 Bc6 26.
+Qe1 Qb7 27. Na5 Qa8 28. Nxc6 Qxc6 29. Ra1 g6 30. Rxa4 Qxa4 31. Bf1 Qc2 32.
+Qe2 Qxe2 33. Bxe2 Nxe4 34. Bf3 Nc3 35. Kf1 Kf8 36. Ke1 e4 37. Bg2 f5 38.
+Kd2 Ke7 39. h4 Na2 40. b5 Nc3 41. h5 g5 42. h6 g4 43. Bf1 Na4 0-1
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.27"]
+[Round "1"]
+[White "Galego,L"]
+[Black "Eames,R"]
+[Result "1-0"]
+[WhiteElo "2454"]
+[BlackElo "2312"]
+[EventDate "2009.06.27"]
+[ECO "B30"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Nf6 4. Bxc6 dxc6 5. d3 Bg4 6. Nbd2 Nd7 7. h3 Bh5
+8. Nc4 f6 9. Ne3 e5 10. Nf5 Qb6 11. b3 O-O-O 12. g4 Bf7 13. Be3 h5 14. g5
+g6 15. N5h4 Be7 16. gxf6 Bxf6 17. Bg5 c4 18. bxc4 Qb4+ 19. Qd2 Qe7 20. Rb1
+Nc5 21. Bxf6 Qxf6 22. Qg5 Qd6 23. Nxe5 Rhf8 24. Nhf3 Be8 25. Qe3 b6 26. Rg1
+Rf6 27. d4 Ne6 28. d5 cxd5 29. cxd5 Nc5 30. Nd3 Ba4 31. Nxc5 Qxc5 32. Qxc5+
+bxc5 33. Nd2 Rdf8 34. f3 Bd7 35. h4 Ra6 36. Rb2 Rf4 37. Rh1 Ra3 38. c4 Rc3
+39. Ke2 Ba4 40. Kf2 Bd7 41. Kg3 Rg4+ 42. Kf2 Rf4 43. Rb3 Rc2 44. Ke3 Rf6
+45. Rhb1 Ra6 46. Rb8+ Kc7 47. R1b7+ Kd6 48. Rd8 Ke5 49. Rdxd7 Rc3+ 50. Ke2
+Rxa2 51. Rxa7 Rac2 52. Ra1 Kd4 53. Rd1 Re3+ 54. Kf2 Rd3 55. Ke1 Re3+ 56.
+Kf1 Kd3 57. Ra7 Kd4 58. d6 Ke5 59. d7 Rd3 60. Ke2 Rd4 61. Ra6 Rxd7 62. Rxg6
+Kf4 63. Rg5 1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.27"]
+[Round "1"]
+[White "Poobalasingam,P"]
+[Black "Arkell,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2240"]
+[BlackElo "2517"]
+[EventDate "2009.06.27"]
+[ECO "C07"]
+
+1. d4 e6 2. e4 d5 3. Nd2 c5 4. exd5 Qxd5 5. dxc5 Bxc5 6. Ngf3 Nf6 7. Bc4
+Qd6 8. Qe2 O-O 9. O-O Nbd7 10. Nb3 Bb6 11. Bg5 h6 12. Bh4 Bc7 13. Nbd4 Ne5
+14. Bg3 Nxf3+ 15. Nxf3 Qb6 16. Be5 Bxe5 17. Qxe5 Bd7 18. Rad1 Rfc8 19. Bb3
+Rc5 20. Qd4 Qc7 21. Rfe1 a5 22. Ne5 Be8 23. a4 b5 24. axb5 Rxb5 25. Bc4 Rc5
+26. b3 Bb5 27. Bxb5 Rxb5 28. Nc4 a4 29. Qd6 Qxd6 30. Nxd6 Rc5 31. bxa4 Rxc2
+32. Rb1 Rc6 33. Ne4 Nd5 34. Ra1 Rca6 35. Nc5 Ra5 36. Rec1 g5 37. h4 gxh4
+38. Rc4 h3 39. Nb3 R5a7 40. g3 Rb7 41. Nc5 Rc7 42. Rg4+ Kh7 43. Nd3 Rc3 44.
+Nf4 Nf6 45. Rh4 e5 46. Nxh3 Ra5 47. Kg2 Kg6 48. Ng1 Rc2 49. Rb4 Nd5 50. Re4
+Kf5 51. Re2 Rc4 52. Nf3 Nf6 53. Nh4+ Ke6 54. Rb1 Ra6 55. Nf3 e4 56. Nd2
+Rcxa4 57. Rbe1 Kf5 58. f3 exf3+ 59. Nxf3 Ra2 60. Kh3 Rxe2 61. Rxe2 Ne4 62.
+Nd4+ Ke5 63. Nf3+ Kd5 64. Re3 f5 65. Rd3+ Ke6 66. Rd8 Ng5+ 67. Nxg5+ hxg5
+68. Rg8 Kf6 69. Rf8+ Ke5 70. Re8+ Re6 71. Rg8 Kf6 72. Rf8+ Kg6 73. Rg8+ Kh6
+74. Ra8 Re2 75. Ra6+ Kh5 76. g4+ fxg4+ 77. Kg3 Re3+ 78. Kg2 Re2+ 79. Kg3
+Rc2 80. Rb6 Rc3+ 81. Kg2 g3 82. Rb4 Re3 83. Ra4 g4 84. Ra8 Rd3 85. Rh8+ Kg5
+86. Rg8+ Kf4 87. Rf8+ 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.27"]
+[Round "1"]
+[White "Rudd,J"]
+[Black "Kjartansson,G"]
+[Result "1-0"]
+[WhiteElo "2357"]
+[BlackElo "2388"]
+[EventDate "2009.06.27"]
+[ECO "A28"]
+
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e4 Bb4 5. Bd3 d6 6. a3 Bxc3 7. dxc3 h6 8.
+h3 Be6 9. Be3 Qe7 10. Qc2 O-O 11. O-O-O Na5 12. Qe2 a6 13. g4 Nh7 14. Rdg1
+g5 15. h4 f6 16. hxg5 hxg5 17. Nd2 b5 18. cxb5 axb5 19. Bxb5 Rfb8 20. Rh6
+Kh8 21. Rgh1 Bg8 22. b4 c6 23. Bd3 Qf7 24. Qf3 Kg7 25. Qf5 Nf8 26. bxa5
+Rxa5 27. Nc4 Rab5 28. Bc2 Qe7 29. a4 Rb3 30. Bxb3 Rxb3 31. Kc2 Rb8 32. Nb6
+d5 33. Bc5 Qf7 34. Bxf8+ Rxf8 35. Rh7+ 1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.28"]
+[Round "2"]
+[White "Gormally,D"]
+[Black "Ansell,S"]
+[Result "0-1"]
+[WhiteElo "2487"]
+[BlackElo "2394"]
+[EventDate "2009.06.27"]
+[ECO "A57"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 c5 4. d5 b5 5. Qc2 bxc4 6. e4 d6 7. Bxc4 Bg7 8.
+O-O O-O 9. Nc3 Ba6 10. Bxa6 Nxa6 11. Bf4 Nc7 12. Rad1 Nh5 13. Bc1 Qb8 14.
+Rfe1 Nf6 15. e5 Nd7 16. Bf4 Qb6 17. exd6 exd6 18. Nd2 Qa6 19. Re7 Rad8 20.
+Nde4 Rfe8 21. Bxd6 Nb5 22. Nxb5 Qxb5 23. b3 Nb6 24. a4 Qa5 25. Qxc5 Qxc5
+26. Bxc5 Rxe7 27. Bxe7 Rxd5 28. Rxd5 Nxd5 29. Bc5 f5 30. Nd2 a6 31. Nc4 Kf7
+32. Kf1 Ke6 33. g3 Nc3 34. Bb4 Kd5 35. Bxc3 Bxc3 36. Ke2 Kd4 37. Nb6 Bb4
+38. a5 Bxa5 39. Nd7 Bb4 40. Nf6 Kc3 41. Nxh7 Be7 0-1
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.28"]
+[Round "2"]
+[White "Eames,R"]
+[Black "Poobalasingam,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2312"]
+[BlackElo "2240"]
+[EventDate "2009.06.27"]
+[ECO "D85"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5
+8. Rb1 O-O 9. Be2 cxd4 10. cxd4 Qa5+ 11. Bd2 Qxa2 12. O-O Bg4 13. Bg5 h6
+14. Be3 Nc6 15. d5 Na5 16. Bc5 Bf6 17. e5 Bxe5 18. Bxe7 Rfe8 19. d6 Bxd6
+20. Ra1 Qe6 21. Bxd6 Rad8 22. Rxa5 Rxd6 23. Bd3 Red8 24. Ra3 Rd5 25. h3 Qd6
+26. Qa4 Bxf3 27. Bc4 Bd1 28. Qxa7 Rd4 29. Ba2 Rf4 30. Re1 Qd4 31. Qxd4
+Rdxd4 32. Re8+ Kg7 33. Raa8 Ra4 34. Rg8+ Kf6 35. Bd5 Rxa8 36. Rxa8 b5 37.
+Rb8 Be2 38. Rb7 Ke5 39. g3 Rf6 40. Bxf7 Kd4 41. f4 Kc3 42. Rc7+ Bc4 43. Be8
+Kb3 44. Rg7 Bd3 45. Kf2 b4 46. Ke3 Bf5 47. Bf7+ Kc3 48. g4 Bc2 49. Bd5 b3
+50. Rc7+ Kb2 51. Rh7 Rxf4 52. Kxf4 g5+ 53. Ke5 Bxh7 54. Kf6 Kc3 55. Bxb3
+Kxb3 56. Kg7 Be4 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.28"]
+[Round "2"]
+[White "Cherniaev,A1"]
+[Black "Kjartansson,G"]
+[Result "1-0"]
+[WhiteElo "2423"]
+[BlackElo "2388"]
+[EventDate "2009.06.27"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. c4 d4 6. a3 a5 7. Bd3 Nc6 8. Nf3
+Qc7 9. O-O Bxc5 10. Re1 Nge7 11. Nbd2 b6 12. Nf1 Ng6 13. Qe2 Be7 14. Ng3
+Bb7 15. Nh5 O-O 16. b3 Rad8 17. Bb2 Bc5 18. Bc1 Nb8 19. Ng5 Nd7 20. f4 Be7
+21. Nf3 Nc5 22. Rb1 a4 23. b4 Nxd3 24. Qxd3 Bxf3 25. Qxf3 Qxc4 26. Bd2 Nh4
+27. Qe4 Qd5 28. Qxd5 Rxd5 29. Rbc1 Rfd8 30. Ng3 g6 31. Rc6 b5 32. Kf2 d3
+33. Rc7 Kf8 34. Ne4 Rb8 35. g4 g5 36. Nc3 Rd4 37. Re4 Rdd8 38. fxg5 Ng6 39.
+Ke1 Ke8 40. Be3 Bf8 41. Kd2 Nh4 42. Rf4 Ng6 43. Rfxf7 Nxe5 44. Ne4 Rd7 45.
+Rfxd7 Nxd7 46. Nf6+ Nxf6 47. gxf6 1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.28"]
+[Round "2"]
+[White "Arkell,K"]
+[Black "Rudd,J"]
+[Result "1-0"]
+[WhiteElo "2517"]
+[BlackElo "2357"]
+[EventDate "2009.06.27"]
+[ECO "D02"]
+
+1. Nf3 Nc6 2. d4 d5 3. Bf4 Bg4 4. Nbd2 e6 5. e3 Bd6 6. Bxd6 Qxd6 7. Be2 Nf6
+8. O-O O-O 9. c4 Ne7 10. cxd5 exd5 11. h3 Bf5 12. Rc1 b6 13. Qa4 c5 14. Qa3
+Rfc8 15. dxc5 bxc5 16. Nd4 Bd7 17. N4b3 Rab8 18. Nxc5 Bb5 19. Bxb5 Rxb5 20.
+Ncb3 Qxa3 21. bxa3 Rbb8 22. Rxc8+ Rxc8 23. Nd4 g6 24. Rb1 Nf5 25. N2b3 Nxd4
+26. Nxd4 Rc3 27. Rb3 Rc1+ 28. Kh2 Ne4 29. Rb2 Rd1 30. Rc2 h5 31. g3 Rd3 32.
+Nb3 Nd6 33. a4 Kg7 34. Kg2 Nc4 35. Kf3 Rd1 36. Ke2 Rh1 37. h4 Ne5 38. Rd2
+Ng4 39. Nc5 Rc1 40. Nb3 Rh1 41. a5 Nf6 42. Rc2 Ng4 43. Nd4 Rh2 44. Kf1 Rh1+
+45. Kg2 Rb1 46. Nb3 Kf6 47. Kf3 Re1 48. Nd4 Ne5+ 49. Kg2 Nc4 50. Nc6 a6 51.
+Nb4 Ke6 52. Nxa6 Nxa5 53. Nc7+ Kd6 54. Nb5+ Ke6 55. Rc5 Nb7 56. Rc6+ Ke5
+57. Rc7 Nd8 58. Rd7 Ne6 59. Rxf7 Ra1 60. Re7 Kf6 61. Rd7 Rxa2 62. Rxd5 g5
+63. Nc3 1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.28"]
+[Round "2"]
+[White "Slavin,A"]
+[Black "Galego,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2308"]
+[BlackElo "2454"]
+[EventDate "2009.06.27"]
+[ECO "A46"]
+
+1. d4 Nf6 2. Nf3 d6 3. Bg5 Nbd7 4. Nbd2 c6 5. c3 e5 6. e4 Be7 7. Be2 O-O 8.
+O-O Re8 9. Qc2 Qc7 10. Rfe1 Nf8 11. dxe5 dxe5 12. Nc4 Ng6 13. Rad1 Be6 14.
+Ne3 Ng4 15. Nxg4 Bxg4 16. Be3 h6 17. Nd2 Bxe2 18. Rxe2 Rad8 19. Nf1 Rxd1
+20. Qxd1 Rd8 21. Rd2 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.29"]
+[Round "3"]
+[White "Galego,L"]
+[Black "Gormally,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2454"]
+[BlackElo "2487"]
+[EventDate "2009.06.27"]
+[ECO "B51"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O Ngf6 5. Re1 a6 6. Bf1 b6 7. d4 cxd4
+8. Nxd4 Bb7 9. Nc3 e6 10. a4 Be7 11. b3 O-O 12. Bb2 Re8 13. Qd2 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.29"]
+[Round "3"]
+[White "Poobalasingam,P"]
+[Black "Slavin,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2240"]
+[BlackElo "2308"]
+[EventDate "2009.06.27"]
+[ECO "E20"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Be7 6. e4 dxe4 7. fxe4 e5 8.
+d5 Bc5 9. Nf3 Bg4 10. Bd3 O-O 11. Bg5 Nbd7 12. h3 Bxf3 13. Qxf3 c6 14. g4
+Qb6 15. Rb1 Bd4 16. Nd1 Qb3 17. Be2 Qc2 18. Bd3 Qb3 19. Be2 Qxf3 20. Bxf3
+h6 21. Bxf6 Nxf6 22. Kd2 a5 23. Ne3 Bxe3+ 24. Kxe3 c5 25. Rhc1 Rfc8 26. Rc3
+Ne8 27. b4 axb4 28. axb4 Nd6 29. Be2 Kf8 30. h4 Ke7 31. g5 hxg5 32. hxg5
+Rc7 33. Rcb3 cxb4 34. Rxb4 Ra7 35. Bd3 Rc5 36. R4b3 Kd8 37. g6 f6 38. Rh1
+Nxc4+ 39. Bxc4 Rxc4 40. Rh8+ Ke7 41. Rg8 Kd6 42. Rd8+ Kc7 43. Rg8 Kd6 44.
+Rd8+ Kc7 45. Rg8 Kd6 46. Rd8+ Kc7 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.29"]
+[Round "3"]
+[White "Kjartansson,G"]
+[Black "Arkell,K"]
+[Result "0-1"]
+[WhiteElo "2388"]
+[BlackElo "2517"]
+[EventDate "2009.06.27"]
+[ECO "B37"]
+
+1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 g6 6. Nc2 Bg7 7. e4 d6 8.
+Be2 O-O 9. O-O Nd7 10. Bd2 Nc5 11. b4 Ne6 12. Rc1 Ned4 13. Nxd4 Nxd4 14.
+Bd3 a5 15. b5 Ne6 16. Be3 Nc5 17. Bb1 b6 18. Qd2 Bb7 19. Bh6 Bxh6 20. Qxh6
+e6 21. f4 f5 22. exf5 gxf5 23. g4 Rf6 24. Qh5 Rg6 25. g5 Kg7 26. h4 h6 27.
+Ne2 Qe7 28. Ng3 Rf8 29. Qe2 Kf7 30. Rce1 Qd7 31. h5 Rg7 32. g6+ Kg8 33. Rd1
+Qd8 34. Bc2 Rd7 35. Rd4 Qf6 36. Rfd1 Rfd8 37. R1d2 d5 38. cxd5 Rxd5 39.
+Rxd5 Rxd5 40. Nxf5 exf5 41. Bb3 Nxb3 42. Qe8+ Kg7 43. Rxd5 Bxd5 44. Qd7+
+Kf8 45. Qc8+ Ke7 46. Qc7+ Ke8 47. axb3 Qd4+ 48. Kf1 Qd1+ 49. Kf2 Qd2+ 50.
+Kf1 Qg2+ 51. Ke1 Qg3+ 0-1
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.29"]
+[Round "3"]
+[White "Rudd,J"]
+[Black "Eames,R"]
+[Result "1-0"]
+[WhiteElo "2357"]
+[BlackElo "2312"]
+[EventDate "2009.06.27"]
+[ECO "B33"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6
+8. Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 O-O 12. Nc2 Bg5 13. a4 bxa4 14.
+Rxa4 a5 15. b4 Bd7 16. b5 Ne7 17. Nce3 Bxe3 18. Nxe3 Qb6 19. Ra2 Qc5 20.
+Qb3 Rfb8 21. c4 f5 22. Bd3 f4 23. Nc2 f3 24. g3 Be6 25. Qa3 Qc7 26. Ne3 Nc8
+27. O-O Nb6 28. Rd1 Nd7 29. Rad2 Nc5 30. Bb1 Rb6 31. Nd5 Bxd5 32. Rxd5 a4
+33. Qxf3 Ne6 34. Ba2 Kh8 35. Qg4 Qe7 36. f4 exf4 37. gxf4 Nc5 38. e5 dxe5
+39. Rxe5 Qf8 40. Kh1 Rf6 41. f5 g6 42. Qd4 Rc8 43. b6 Rcc6 44. Rd5 Nb7 45.
+fxg6 Rxb6 46. Rd7 Rbd6 47. Rxh7+ 1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.29"]
+[Round "3"]
+[White "Ansell,S"]
+[Black "Cherniaev,A1"]
+[Result "0-1"]
+[WhiteElo "2394"]
+[BlackElo "2423"]
+[EventDate "2009.06.27"]
+[ECO "B30"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. b3 a6 6. Bxc6 Nxc6 7. Bb2 b5
+8. Na3 Rg8 9. c4 b4 10. Nc2 g5 11. d3 g4 12. Nd2 Bb7 13. f4 d6 14. Qe2 h5
+15. Qf2 Be7 16. Rad1 Qc7 17. f5 Bg5 18. fxe6 fxe6 19. e5 Nxe5 20. Bxe5 dxe5
+21. Ne4 Bxe4 22. dxe4 Qe7 23. Rd6 Rd8 24. Rxd8+ Kxd8 25. a3 bxa3 26. Qe1
+Qc7 27. Qa1 Ke7 28. Qxa3 a5 29. Qa1 Rd8 30. Qc3 Rd2 31. Ne1 Qd8 32. Kh1 Qd4
+33. Qxa5 Rf2 34. Qc7+ Kf8 35. Qc8+ Kg7 36. Qc7+ Kg6 37. Rg1 Rf7 0-1
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.30"]
+[Round "4"]
+[White "Cherniaev,A1"]
+[Black "Arkell,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2423"]
+[BlackElo "2517"]
+[EventDate "2009.06.27"]
+[ECO "B14"]
+
+1. e4 d5 2. exd5 Nf6 3. c4 c6 4. Nc3 cxd5 5. d4 g6 6. Qb3 Bg7 7. cxd5 O-O
+8. Be2 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.30"]
+[Round "4"]
+[White "Gormally,D"]
+[Black "Poobalasingam,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2487"]
+[BlackElo "2240"]
+[EventDate "2009.06.27"]
+[ECO "D97"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 a6 8.
+e5 b5 9. Qb3 Nfd7 10. e6 fxe6 11. Be3 Nf6 12. a4 b4 13. Qxb4 Qd6 14. Qc4
+Nc6 15. Be2 Rb8 16. Rb1 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.30"]
+[Round "4"]
+[White "Eames,R"]
+[Black "Kjartansson,G"]
+[Result "1/2-1/2"]
+[WhiteElo "2312"]
+[BlackElo "2388"]
+[EventDate "2009.06.27"]
+[ECO "E34"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 Qxd5 6. Nf3 Qf5 7. Qb3 Nc6
+8. Bd2 Bd6 9. h3 Na5 10. Qd1 Nd5 11. g4 Nxc3 12. Bxc3 Qd5 13. Qd3 f5 14.
+Bg2 Nc6 15. O-O fxg4 16. hxg4 a6 17. a4 O-O 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.30"]
+[Round "4"]
+[White "Slavin,A"]
+[Black "Rudd,J"]
+[Result "1-0"]
+[WhiteElo "2308"]
+[BlackElo "2357"]
+[EventDate "2009.06.27"]
+[ECO "A40"]
+
+1. d4 d6 2. Nf3 g6 3. Bg5 Bg7 4. c3 f5 5. e3 Be6 6. Bh4 Nf6 7. Nbd2 c5 8.
+dxc5 dxc5 9. Ng5 Bd5 10. Bc4 Nc6 11. Ne6 Bxe6 12. Bxe6 Qd6 13. Qb3 b5 14.
+Bg3 Qd3 15. O-O-O Bh6 16. Rhe1 a5 17. a4 b4 18. Nc4 Qe4 19. Bf7+ Kf8 20. f3
+Nd4 21. cxd4 Qb7 22. Ne5 1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.06.30"]
+[Round "4"]
+[White "Ansell,S"]
+[Black "Galego,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2394"]
+[BlackElo "2454"]
+[EventDate "2009.06.27"]
+[ECO "C00"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d5 4. Nbd2 Nc6 5. g3 Nf6 6. Bg2 Be7 7. O-O h6 8.
+Re1 b5 9. a3 Bb7 10. exd5 Nxd5 11. c4 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.01"]
+[Round "5"]
+[White "Rudd,J"]
+[Black "Gormally,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2357"]
+[BlackElo "2487"]
+[EventDate "2009.06.27"]
+[ECO "D86"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5
+8. Ne2 Nc6 9. Be3 cxd4 10. cxd4 Qa5+ 11. Qd2 O-O 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.01"]
+[Round "5"]
+[White "Arkell,K"]
+[Black "Eames,R"]
+[Result "1/2-1/2"]
+[WhiteElo "2517"]
+[BlackElo "2312"]
+[EventDate "2009.06.27"]
+[ECO "A64"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 e6 4. c4 d6 5. Nc3 exd5 6. cxd5 g6 7. g3 Bg7 8.
+Bg2 O-O 9. O-O a6 10. a4 Re8 11. Nd2 Nbd7 12. Nc4 Ne5 13. Nxe5 Rxe5 14. Bf4
+Re8 15. Qc2 Ng4 16. Rab1 Qc7 17. Rfc1 Bf5 18. e4 Bd7 19. b4 cxb4 20. Rxb4
+Rac8 21. Qe2 Bxc3 22. Bd2 Bxb4 23. Rxc7 Rxc7 24. Bxb4 Rc1+ 25. Bf1 Ne5 26.
+Kg2 Bg4 27. Qe3 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.01"]
+[Round "5"]
+[White "Galego,L"]
+[Black "Cherniaev,A1"]
+[Result "1/2-1/2"]
+[WhiteElo "2454"]
+[BlackElo "2423"]
+[EventDate "2009.06.27"]
+[ECO "A25"]
+
+1. c4 e5 2. g3 Nc6 3. Bg2 f5 4. Nc3 Nf6 5. d3 Bb4 6. Bd2 d6 7. e3 Bc5 8.
+Na4 Bb6 9. b4 Qe7 10. Ne2 Bd7 11. O-O Nd8 12. Nec3 c6 13. Nxb6 axb6 14. d4
+Be6 15. d5 Bf7 16. e4 Bh5 17. Qb3 cxd5 18. cxd5 Nxe4 19. Nxe4 fxe4 20. Bxe4
+O-O 21. Qe3 b5 22. Qd3 h6 23. Qxb5 Nf7 24. Qd3 Ng5 25. Bxg5 Qxg5 26. a4 Bg4
+27. a5 Bf5 28. Bxf5 Rxf5 29. b5 e4 30. Qxe4 Rxd5 31. a6 bxa6 32. bxa6 Qf5
+33. Qxf5 Rxf5 34. Rfb1 Rf7 35. Rb6 Rd7 36. Kg2 Kf7 37. Kf3 Ke6 38. Ke4 Rc7
+39. Ra2 Raa7 40. Kd4 Rc1 41. h4 Rd1+ 42. Ke4 Re1+ 43. Kd3 Rd1+ 44. Ke2 Rd5
+45. Ra4 h5 46. Ke3 g5 47. Re4+ Kf5 48. Rd4 Re5+ 49. Kd3 Ra5 50. Rdxd6 gxh4
+51. gxh4 Kg4 52. Rg6+ Kh3 53. Kc4 Ra1 54. Rb3+ Kh2 55. Kb5 Ra8 56. Rb4 Rb8+
+57. Rb6 Rf8 58. Kc6 Rf7 59. R4b5 Rh7 60. Rf5 Rh6+ 61. Kb7 Rh7+ 62. Kc8 Rh8+
+63. Kd7 Kh3 64. Rf4 Rh7+ 65. Ke6 Rh6+ 66. Rf6 Rxf6+ 67. Kxf6 Kxh4 68. f4
+Kg4 69. f5 h4 70. Kg6 h3 71. Rb4+ 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.01"]
+[Round "5"]
+[White "Kjartansson,G"]
+[Black "Slavin,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2388"]
+[BlackElo "2308"]
+[EventDate "2009.06.27"]
+[ECO "B37"]
+
+1. c4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nc6 5. e4 Nf6 6. Nc3 d6 7. Nc2 Bg7 8.
+Be2 O-O 9. O-O Nd7 10. Bd2 a5 11. Rc1 Nc5 12. b3 f5 13. exf5 Bxf5 14. Nd5
+e6 15. Nde3 Ne4 16. Nxf5 gxf5 17. Bf3 Nxd2 18. Qxd2 Ne5 19. Be2 f4 20. Nd4
+Qf6 21. Nf3 Rfd8 22. Nxe5 dxe5 23. Qc2 b6 24. Bd3 h6 25. Rcd1 Bf8 26. Bh7+
+Kh8 27. Be4 Rac8 28. Qe2 Bc5 29. Rxd8+ Rxd8 30. Rd1 Kg7 31. a4 Kf8 32. Rd3
+Rxd3 33. Qxd3 Qe7 34. g3 Qf6 35. Qf3 Ke7 36. Kg2 fxg3 37. Qxf6+ Kxf6 38.
+fxg3 Kg5 39. Kf3 Bd4 40. h4+ Kf6 41. g4 Bc3 42. g5+ hxg5 43. h5 Kg7 44. Kg4
+Kh6 45. Bg6 Bd4 46. Be4 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.01"]
+[Round "5"]
+[White "Poobalasingam,P"]
+[Black "Ansell,S"]
+[Result "1-0"]
+[WhiteElo "2240"]
+[BlackElo "2394"]
+[EventDate "2009.06.27"]
+[ECO "B07"]
+
+1. e4 c5 2. c3 d6 3. d4 Nf6 4. Bd3 e5 5. Ne2 Nc6 6. d5 Ne7 7. Bg5 Nd7 8.
+Ng3 g6 9. h4 h6 10. Be3 Bg7 11. h5 Nf6 12. f3 Bd7 13. a4 Nxh5 14. Nxh5 gxh5
+15. Rxh5 f5 16. Nd2 f4 17. Bf2 O-O 18. Ke2 Rf6 19. Qh1 Rg6 20. Bb5 Bc8 21.
+Rg1 a6 22. Bd3 Bd7 23. g4 fxg3 24. Bxg3 Bxa4 25. f4 exf4 26. Bxf4 Be8 27.
+Rh2 Rxg1 28. Qxg1 Bg6 29. Bxh6 Bxh6 30. Rxh6 Kg7 31. Qg5 Qe8 32. e5 Nf5 33.
+Rxg6+ Qxg6 34. Qxf5 Qxf5 35. Bxf5 Re8 36. e6 Kf6 37. Be4 b5 38. Nf3 Rh8 39.
+Bd3 Rb8 40. Ke3 a5 41. Nh4 b4 42. cxb4 c4 43. Bxc4 Rxb4 44. Kd3 Rxb2 45.
+Nf3 a4 46. Nd2 a3 47. Ne4+ Ke5 48. Nc3 Rh2 49. e7 Rh8 50. Bb5 a2 51. Nxa2
+Kxd5 52. Bd7 Ke5 53. e8=Q Rxe8 54. Bxe8 Kf6 55. Kd4 Ke7 56. Bb5 Kf6 57. Nb4
+d5 58. Nc6 Ke6 59. Ne5 Kd6 60. Bc6 Ke6 61. Bxd5+ Kf6 62. Ke4 Kg5 63. Be6
+Kf6 64. Bf5 Ke7 65. Nc4 Kf6 66. Kf4 Ke7 67. Ke5 Kf7 68. Ne3 Kg7 69. Ng4 Kf7
+70. Be6+ Kg7 71. Kf5 Kh7 72. Kf6 Kh8 73. Bf5 Kg8 74. Ne5 Kh8 75. Nf7+ Kg8
+76. Bb1 Kf8 77. Bh7 Ke8 78. Ne5 Kd8 79. Be4 Ke8 80. Bd5 Kf8 81. Nd7+ Ke8
+82. Ke6 Kd8 83. Kd6 Ke8 84. Ba2 Kd8 85. Bf7 Kc8 86. Nc5 Kd8 87. Nb7+ Kc8
+88. Kc6 Kb8 89. Kb6 Ka8 90. Be6 Kb8 91. Nc5 Ka8 92. Bh3 Kb8 93. Na6+ Ka8
+94. Bg2+ 1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.02"]
+[Round "6"]
+[White "Slavin,A"]
+[Black "Arkell,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2308"]
+[BlackElo "2517"]
+[EventDate "2009.06.27"]
+[ECO "A36"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e4 e6 6. Nge2 Nge7 7. a3 O-O 8.
+Rb1 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.02"]
+[Round "6"]
+[White "Ansell,S"]
+[Black "Rudd,J"]
+[Result "1-0"]
+[WhiteElo "2394"]
+[BlackElo "2357"]
+[EventDate "2009.06.27"]
+[ECO "A15"]
+
+1. Nf3 Nf6 2. c4 g6 3. b3 Bg7 4. Bb2 O-O 5. g3 d6 6. Bg2 e5 7. O-O Nc6 8.
+Nc3 Nh5 9. Ne1 f5 10. f4 Nd4 11. e3 Ne6 12. Rc1 c6 13. Rc2 Re8 14. Na4 Bd7
+15. Qa1 b5 16. cxb5 cxb5 17. Nc3 exf4 18. gxf4 Nexf4 19. Rxf4 Nxf4 20. exf4
+Qb6+ 21. Kh1 Bc6 22. Nd5 Bxb2 23. Rxb2 Qd4 24. Rb1 Qxa1 25. Rxa1 Re2 26.
+Nf6+ Kf7 27. Bxc6 Rc8 28. Bf3 Rxd2 29. Nxh7 d5 30. Ng5+ Kf6 31. Bg2 b4 32.
+Ngf3 Re2 33. a3 bxa3 34. Rxa3 Rc1 35. Ra6+ Re6 36. Rxe6+ Kxe6 37. Kg1 Kd6
+38. Kf2 a5 39. Nd4 Rd1 40. Nec2 Kc5 41. Bf3 Rb1 42. h4 Kd6 43. h5 gxh5 44.
+Bxh5 Rh1 45. Bg6 Ke7 46. Bxf5 Kf6 47. Be6 Rh2+ 48. Kg3 Rh7 49. Bxd5 Ra7 50.
+Bc6 1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.02"]
+[Round "6"]
+[White "Galego,L"]
+[Black "Poobalasingam,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2454"]
+[BlackElo "2240"]
+[EventDate "2009.06.27"]
+[ECO "C01"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Bd6 5. h3 Ne7 6. c4 c6 7. Nc3 Nd7 8.
+Bd3 h6 9. O-O O-O 10. Re1 dxc4 11. Bxc4 Nb6 12. Bb3 Nbd5 13. Ne5 Be6 14.
+Qf3 Nf5 15. Bxd5 cxd5 16. Qd3 Qb6 17. Nf3 Ne7 18. b3 Rac8 19. Bd2 Ba3 20.
+Na4 Qc6 21. Ne5 Qc2 22. Nc5 Qxd3 23. Nexd3 Nf5 24. Nxe6 fxe6 25. Rxe6 Nxd4
+26. Rg6 Rc2 27. Be1 Ne2+ 28. Kf1 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.02"]
+[Round "6"]
+[White "Cherniaev,A1"]
+[Black "Eames,R"]
+[Result "1-0"]
+[WhiteElo "2423"]
+[BlackElo "2312"]
+[EventDate "2009.06.27"]
+[ECO "B30"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Qa5+ 5. Nc3 Nd4 6. Bc4 b5 7. Bb3 Nxb3
+8. cxb3 d5 9. O-O Bb7 10. e5 d4 11. exf6 dxc3 12. fxe7 Bxe7 13. Re1 f6 14.
+Qe2 Qc7 15. bxc3 Qd7 16. d4 Kf7 17. Be3 Rhe8 18. Rad1 cxd4 19. Nxd4 Qd5 20.
+f3 a6 21. c4 Qh5 22. cxb5 Bd6 23. g4 Qh3 24. Nf5 Bxf3 25. Nxd6+ Kf8 26. Qf2
+Bxd1 27. Nxe8 Rxe8 28. Qg3 Qxg4 29. Qxg4 Bxg4 30. bxa6 Bc8 31. a7 Bb7 32.
+Kf2 Rc8 33. Re2 Kf7 34. Rd2 Ke6 35. b4 Rc3 36. a4 Ra3 37. a5 g5 38. Rd8
+Ra2+ 39. Ke1 Rxh2 40. a6 Bf3 41. a8=Q 1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.02"]
+[Round "6"]
+[White "Gormally,D"]
+[Black "Kjartansson,G"]
+[Result "1/2-1/2"]
+[WhiteElo "2487"]
+[BlackElo "2388"]
+[EventDate "2009.06.27"]
+[ECO "D56"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Ne4 8.
+Bxe7 Qxe7 9. Rc1 c6 10. Bd3 Nxc3 11. Rxc3 Nd7 12. O-O dxc4 13. Bxc4 e5 14.
+e4 exd4 15. Qxd4 Re8 16. Re1 Nb6 17. Bf1 Bg4 18. e5 Qd7 19. Qe4 Bf5 20. Qh4
+Rad8 21. a3 a6 22. h3 c5 23. Rxc5 Na4 24. Rc4 Nxb2 25. Rb4 Nd3 26. Rd1 Qe7
+27. Rb3 Qxh4 28. Nxh4 Nc5 29. Rxd8 Rxd8 30. Rc3 Na4 31. Rc7 Be6 32. Rxb7
+Rd1 33. Rb4 Bd7 34. Nf3 Bb5 35. Nh2 Nc3 36. f3 Nb1 37. Kf2 Nxa3 38. Bxb5
+Nxb5 39. Ra4 Rd5 40. e6 fxe6 41. Rxa6 Rd2+ 42. Kf1 Rd1+ 43. Kf2 Rd2+ 44.
+Kg1 Nd4 45. Nf1 Rd1 46. Kf2 Rb1 47. Ra2 Nf5 48. Nd2 Rb6 49. Nc4 Rb5 50. Re2
+Rc5 51. Re4 Kf7 52. Ne5+ Ke7 53. Nd3 Rc2+ 54. Re2 Rxe2+ 55. Kxe2 Kf6 56. g4
+Ne7 57. h4 g6 58. Ke3 Nd5+ 59. Kd4 g5 60. h5 Nc7 61. Kc5 Nd5 62. Kd4 Nc7
+63. Nf2 Nb5+ 64. Kc5 Nc3 65. Kd6 Nb5+ 66. Kc5 Nc3 67. Kd4 Nb5+ 68. Ke3 Ke5
+69. Nd3+ Kf6 70. Nc5 Nc3 71. Nd7+ Ke7 72. Ne5 Kf6 73. Nc4 Nd5+ 74. Kd4 Nf4
+75. Nd6 Ne2+ 76. Ke3 Nc3 77. Kd4 Ne2+ 78. Kd3 Nf4+ 79. Ke4 Ne2 80. Nb5 Nc1
+81. Nd4 Na2 82. Ne2 Nb4 83. Nc3 Nc2 84. Nd1 Na3 85. Ne3 Nb5 86. Nc4 Nc3+
+87. Kd3 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.03"]
+[Round "7"]
+[White "Poobalasingam,P"]
+[Black "Cherniaev,A1"]
+[Result "1/2-1/2"]
+[WhiteElo "2240"]
+[BlackElo "2423"]
+[EventDate "2009.06.27"]
+[ECO "A21"]
+
+1. c4 e5 2. Nc3 Bb4 3. e3 Bxc3 4. bxc3 d6 5. d4 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.03"]
+[Round "7"]
+[White "Arkell,K"]
+[Black "Gormally,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2517"]
+[BlackElo "2487"]
+[EventDate "2009.06.27"]
+[ECO "D15"]
+
+1. Nf3 Nf6 2. c4 c6 3. Nc3 d5 4. d4 a6 5. c5 Nbd7 6. Bf4 Nh5 7. Bd2 Nhf6 8.
+Bf4 Nh5 9. Bd2 Nhf6 10. Bf4 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.03"]
+[Round "7"]
+[White "Rudd,J"]
+[Black "Galego,L"]
+[Result "0-1"]
+[WhiteElo "2357"]
+[BlackElo "2454"]
+[EventDate "2009.06.27"]
+[ECO "A53"]
+
+1. Nf3 Nf6 2. c4 d6 3. d4 c6 4. Nc3 Bg4 5. Be3 Nbd7 6. Qc2 e6 7. Nh4 d5 8.
+h3 Bh5 9. g4 Bg6 10. Qb3 Qc7 11. Bg2 Nb6 12. cxd5 Nfxd5 13. Bd2 a5 14. Nxg6
+hxg6 15. Nxd5 exd5 16. Bf4 Qxf4 17. Qxb6 Bb4+ 18. Kf1 Qb8 0-1
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.03"]
+[Round "7"]
+[White "Kjartansson,G"]
+[Black "Ansell,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2388"]
+[BlackElo "2394"]
+[EventDate "2009.06.27"]
+[ECO "A11"]
+
+1. Nf3 Nf6 2. c4 c6 3. Nc3 d5 4. e3 a6 5. b3 Bg4 6. d4 e6 7. Be2 Bb4 8. Bd2
+O-O 9. O-O Bd6 10. Ne5 Bxe2 11. Qxe2 Nbd7 12. f4 c5 13. cxd5 cxd4 14. exd4
+Nxd5 15. Ne4 Be7 16. Rac1 Nxe5 17. dxe5 Qb6+ 18. Qf2 Qxf2+ 19. Kxf2 Rac8
+20. Rxc8 Rxc8 21. Rc1 Rxc1 22. Bxc1 Nb4 23. Bd2 Kf8 24. Bxb4 Bxb4 25. Ke3
+Ke7 26. Kd4 b6 27. a4 f5 28. exf6+ gxf6 29. Kc4 Be1 30. Kd3 Bb4 31. Kd4 h6
+32. Kc4 Be1 33. Kd3 Bb4 34. Kd4 f5 35. Kc4 Be1 36. Nc3 Kd6 37. Ne2 Bd2 38.
+Kd3 Bb4 39. Nd4 Kd5 40. Nf3 Bd6 41. g3 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.03"]
+[Round "7"]
+[White "Eames,R"]
+[Black "Slavin,A"]
+[Result "0-1"]
+[WhiteElo "2312"]
+[BlackElo "2308"]
+[EventDate "2009.06.27"]
+[ECO "E33"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 Nc6 5. Nf3 d6 6. Bg5 h6 7. Bd2 O-O 8.
+a3 Bxc3 9. Bxc3 Qe7 10. e4 e5 11. d5 Nb8 12. h3 a5 13. g4 Na6 14. Bg2 Nc5
+15. Nd2 a4 16. O-O g5 17. Rfe1 h5 18. f3 h4 19. Nf1 Ne8 20. Ne3 Ng7 21.
+Rad1 Bd7 22. Bf1 Qd8 23. Qf2 Qf6 24. Nf5 Bxf5 25. exf5 Nd7 26. c5 Qd8 27.
+c6 Nb6 28. cxb7 Rb8 29. Ba6 Ne8 30. Kh1 Nf6 31. f4 exf4 32. Qd4 Nbxd5 33.
+Ba5 Qd7 34. Bc4 c5 35. Qd3 Ne3 36. Rxe3 fxe3 37. Qxe3 Nh7 38. Bd5 Rxb7 39.
+Bc3 Rbb8 40. f6 Rfe8 41. Qf3 Rb6 42. Qd3 Kh8 43. Qc4 Kg8 44. Qd3 Kh8 45.
+Rf1 Rbb8 46. Rf5 Re6 47. Qd2 Rbe8 48. Bxe6 Qxe6 49. Rd5 Qe4+ 50. Qg2 Qxg2+
+51. Kxg2 Re6 52. Bd2 Nxf6 53. Bc3 Kg8 54. Rxg5+ Kf8 55. Bxf6 Rxf6 56. Rh5
+Kg7 57. Rxh4 Rh6 58. Rxh6 Kxh6 59. h4 Kg6 60. Kf3 f5 61. h5+ Kg5 62. gxf5
+d5 63. h6 Kxh6 64. Kf4 d4 0-1
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.04"]
+[Round "8"]
+[White "Galego,L"]
+[Black "Kjartansson,G"]
+[Result "1/2-1/2"]
+[WhiteElo "2454"]
+[BlackElo "2388"]
+[EventDate "2009.06.27"]
+[ECO "C67"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1
+Nxe5 8. Rxe5 O-O 9. d4 Ne8 10. Nc3 d6 11. Re1 Nf6 12. Bg5 Nd5 13. Bxe7 Nxe7
+14. Bd3 Bf5 15. Ne4 d5 16. Ng3 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.04"]
+[Round "8"]
+[White "Ansell,S"]
+[Black "Arkell,K"]
+[Result "0-1"]
+[WhiteElo "2394"]
+[BlackElo "2517"]
+[EventDate "2009.06.27"]
+
+0-1
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.04"]
+[Round "8"]
+[White "Cherniaev,A1"]
+[Black "Slavin,A"]
+[Result "1-0"]
+[WhiteElo "2423"]
+[BlackElo "2308"]
+[EventDate "2009.06.27"]
+[ECO "B22"]
+
+1. e4 c5 2. c3 g6 3. d4 cxd4 4. cxd4 d5 5. e5 Bg7 6. Nc3 Nc6 7. g3 f6 8. f4
+fxe5 9. fxe5 Nh6 10. Bf4 O-O 11. Qd2 Nf5 12. Nge2 e6 13. Bh3 Qb6 14. Bxf5
+Rxf5 15. g4 Rf7 16. O-O Bd7 17. Be3 Raf8 18. Rxf7 Rxf7 19. Rf1 Rxf1+ 20.
+Kxf1 Na5 21. b3 Qd8 22. Kg2 b6 23. Bg5 Qf8 24. h4 Nc6 25. Qe3 Ne7 26. Ng3
+Be8 27. Nce2 h6 28. Bf6 Bxf6 29. exf6 Qxf6 30. Qxh6 e5 31. Nh5 Qf7 32. Qg5
+exd4 33. Nxd4 Kf8 34. Ne6+ Kg8 35. Nf6+ Kh8 36. Qh6+ 1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.04"]
+[Round "8"]
+[White "Poobalasingam,P"]
+[Black "Rudd,J"]
+[Result "0-1"]
+[WhiteElo "2240"]
+[BlackElo "2357"]
+[EventDate "2009.06.27"]
+[ECO "B06"]
+
+1. Nf3 d6 2. d4 g6 3. e4 Bg7 4. Nc3 a6 5. a4 b6 6. Bc4 e6 7. Bg5 Ne7 8. Qe2
+Bb7 9. Rd1 Nd7 10. Ba2 h6 11. Bh4 g5 12. Bg3 Ng6 13. h4 g4 14. Ng1 h5 15.
+f3 b5 16. e5 dxe5 17. dxe5 Ngxe5 18. f4 Nc4 19. Bxc4 bxc4 20. f5 Qf6 21.
+Qxc4 c5 22. Ne4 Bxe4 23. Qxe4 O-O 24. Rxd7 exf5 25. Qc4 Rae8+ 26. Ne2 Re4
+27. Qd3 c4 28. Qd5 Qb6 29. Kf1 Qxb2 30. Qxf5 Qxc2 31. Rd2 Qb1+ 32. Be1 c3
+33. Ra2 Rfe8 34. Kg1 Qxa2 0-1
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.04"]
+[Round "8"]
+[White "Gormally,D"]
+[Black "Eames,R"]
+[Result "1-0"]
+[WhiteElo "2487"]
+[BlackElo "2312"]
+[EventDate "2009.06.27"]
+[ECO "A70"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 e6 4. c4 d6 5. Nc3 exd5 6. cxd5 g6 7. e4 a6 8. h3
+b5 9. Bd3 Bg7 10. O-O O-O 11. Re1 Re8 12. Bf4 Bb7 13. Qd2 Qb6 14. Bh6 Bh8
+15. Ne2 Nbd7 16. Ng3 c4 17. Bc2 Nc5 18. Be3 b4 19. Bd4 a5 20. Nf5 Qd8 21.
+Nh6+ Kf8 22. Ng5 Bg7 23. Bxf6 Bxf6 24. Nxh7+ Kg7 25. Nxf6 Qxf6 26. Ng4 Qh4
+27. Qd4+ Kf8 28. e5 Rac8 29. e6 fxe6 30. dxe6 d5 31. g3 1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.05"]
+[Round "9"]
+[White "Slavin,A"]
+[Black "Gormally,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2308"]
+[BlackElo "2487"]
+[EventDate "2009.06.27"]
+[ECO "A25"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 Nc6 4. e3 g6 5. Nc3 Bg7 6. Nge2 O-O 7. O-O
+1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.05"]
+[Round "9"]
+[White "Rudd,J"]
+[Black "Cherniaev,A1"]
+[Result "1/2-1/2"]
+[WhiteElo "2357"]
+[BlackElo "2423"]
+[EventDate "2009.06.27"]
+[ECO "B33"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6
+8. Na3 b5 9. Nd5 Qa5+ 10. Bd2 Qd8 11. Bg5 Qa5+ 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.05"]
+[Round "9"]
+[White "Eames,R"]
+[Black "Ansell,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2312"]
+[BlackElo "2394"]
+[EventDate "2009.06.27"]
+[ECO "A00"]
+
+1. g3 f5 2. Bg2 Nf6 3. d3 e5 4. a3 d5 5. b4 Bd6 6. Bb2 O-O 7. Nd2 c6 8.
+Ngf3 Qe7 9. O-O e4 1/2-1/2
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.05"]
+[Round "9"]
+[White "Arkell,K"]
+[Black "Galego,L"]
+[Result "1-0"]
+[WhiteElo "2517"]
+[BlackElo "2454"]
+[EventDate "2009.06.27"]
+
+1-0
+
+[Event "1st Big Slick GM"]
+[Site "London ENG"]
+[Date "2009.07.05"]
+[Round "9"]
+[White "Kjartansson,G"]
+[Black "Poobalasingam,P"]
+[Result "0-1"]
+[WhiteElo "2388"]
+[BlackElo "2240"]
+[EventDate "2009.06.27"]
+[ECO "D95"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. e3 Bg7 5. Qb3 c6 6. Nf3 O-O 7. Bd2 e6 8.
+Be2 Nbd7 9. O-O Ne4 10. Be1 Nd6 11. Nd2 dxc4 12. Nxc4 Nxc4 13. Bxc4 c5 14.
+dxc5 Nxc5 15. Qa3 Qb6 16. b4 Nd7 17. Na4 Qc6 18. Rc1 b5 19. Be2 Qa6 20. Qd3
+Qxa4 21. Qxb5 Qxb5 22. Bxb5 Nb6 23. a4 Bd7 24. Bxd7 Nxd7 25. Rc7 Nb6 26. a5
+Nd5 0-1
+

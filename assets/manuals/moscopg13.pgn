@@ -1,0 +1,1206 @@
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.03"]
+[Round "1.1"]
+[White "Szczepkowska-Horowska, Karina"]
+[Black "Saulina, Varvara"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "WF"]
+[WhiteElo "2398"]
+[BlackElo "2272"]
+[ECO "B92"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Opovcensky variation"]
+[WhiteFideId "1122681"]
+[BlackFideId "4194950"]
+[EventDate "2013.02.02"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. O-O
+O-O 9. Qd3 Be6 10. Nd5 Bxd5 11. exd5 Nbd7 12. Be3 Rc8 13. c4 e4 14. Qd1 Ne5 15.
+Rc1 Nfd7 16. f4 exf3 17. gxf3 Re8 18. Qd2 Bf6 19. Nd4 a5 20. f4 Ng6 21. Bg4 Nh4
+22. Bf2 g6 23. Kh1 Ra8 24. Nb5 h5 25. Bh3 Nc5 26. Bxc5 dxc5 27. d6 Re4 28. Qd3
+Qe8 29. Nc7 Qc6 30. Bd7 Qxd7 31. Qxe4 Rd8 32. Rcd1 Qh3 33. Rg1 Bd4 34. Rg3 Qd7
+35. Qe7 Nf5 36. Qxd7 Nxg3+ 37. hxg3 Rxd7 38. Nb5 Bxb2 39. Rd5 b6 40. Kg2 f5 41.
+Nc7 Bf6 42. Rd1 Kf7 43. Kf3 Bd4 44. Nb5 Bg7 45. Rd5 Bf6 46. a4 Rd8 47. d7 Ke7
+48. Nd6 Rxd7 49. Nc8+ Ke6 50. Rxd7 Kxd7 51. Nxb6+ Ke6 52. Nd5 Bd8 53. Ne3 g5 54.
+Nf1 Kf6 55. Nd2 g4+ 56. Kg2 Kg6 57. Nb3 Bb6 58. Nc1 h4 59. gxh4 Kh5 60. Kg3 Bd8
+61. Nb3 Bxh4+ 62. Kg2 Bd8 63. Nxc5 Kg6 64. Ne6 Be7 65. Nd4 Bd6 66. Kg3 Kf6 67.
+Nc6 Bc7 68. c5 Ke6 69. Nd4+ Kd5 70. Nxf5 Kxc5 71. Ne3 Bd8 72. Nxg4 Bc7 73. Nf6
+Kc4 74. Kf3 Kb3 75. Nd5 Bd8 76. Ne3 Kxa4 77. Nc4 Kb3 78. Nxa5+ Bxa5 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.03"]
+[Round "1.2"]
+[White "Saduakassova, Dinara"]
+[Black "Enkhtuul, Altanulzii"]
+[Result "1-0"]
+[WhiteTitle "WGM"]
+[BlackTitle "WIM"]
+[WhiteElo "2312"]
+[BlackElo "2148"]
+[ECO "B03"]
+[Opening "Alekhine's defence"]
+[Variation "exchange variation"]
+[WhiteFideId "13700090"]
+[BlackFideId "4901444"]
+[EventDate "2013.02.02"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. d4 d6 5. exd6 exd6 6. Nc3 Be7 7. Be2 O-O 8. Nf3
+Bf5 9. Bf4 Bf6 10. O-O Nc6 11. h3 Bg6 12. Rc1 Re8 13. b3 a6 14. Qd2 d5 15. cxd5
+Nxd5 16. Nxd5 Qxd5 17. Bxc7 Nxd4 18. Nxd4 Qxd4 19. Qxd4 Bxd4 20. Bg4 Be4 21.
+Rcd1 Bc3 22. Bb6 f5 23. Be2 h6 24. Bc4+ Kh7 25. Rd7 Bc6 26. Rd3 Bf6 27. Rfd1 Re2
+28. a4 Rae8 29. Re3 R2xe3 30. Bxe3 Rd8 31. Rc1 Be4 32. f3 Bd3 33. Bb6 Rd6 34.
+Bc5 Rd8 35. Be6 b6 36. Bf2 Rd6 37. Bc8 b5 38. Rd1 bxa4 39. Rxd3 Rxd3 40. Bxf5+
+g6 41. Bxd3 axb3 42. Bxa6 b2 43. Bd3 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.03"]
+[Round "1.3"]
+[White "Savina, Anastasia"]
+[Black "Vasilevich, Irina"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2339"]
+[BlackElo "2370"]
+[ECO "A50"]
+[Opening "Kevitz-Trajkovich defence"]
+[WhiteFideId "4196872"]
+[BlackFideId "4141296"]
+[EventDate "2013.02.02"]
+
+1. d4 Nf6 2. c4 Nc6 3. Nc3 e5 4. d5 Ne7 5. h4 h5 6. Bg5 Ng6 7. e3 Be7 8. Bd3 Nf8
+9. Nf3 d6 10. Nd2 Ng4 11. Bxe7 Qxe7 12. Qe2 f5 13. f3 Nf6 14. O-O-O a6 15. Bc2
+Bd7 16. c5 N8h7 17. Nc4 O-O 18. cxd6 cxd6 19. Nb6 Rae8 20. Kb1 Qd8 21. Nxd7 Qxd7
+22. e4 f4 23. Ba4 b5 24. Nxb5 axb5 25. Bxb5 Qa7 26. Bxe8 Rxe8 27. Rc1 Ra8 28. a3
+Nd7 29. Rc6 Qb8 30. Ra6 Rxa6 31. Qxa6 Nc5 32. Qc4 Nf8 33. Ka2 Qa7 34. Qb5 Ncd7
+35. Rc1 Qf2 36. Rc8 Kh7 37. a4 Qxg2 38. a5 Qxf3 39. a6 Qe3 40. Rc7 f3 41. a7 Qe2
+42. Qxe2 fxe2 43. Rc1 Nb6 44. Re1 g5 45. hxg5 Kg6 46. Rxe2 Nfd7 47. Rc2 Kxg5 48.
+Rc7 Nc5 49. Rc6 Na8 50. Rc8 Nb6 51. Rb8 Nca4 52. Ka3 h4 53. b3 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.03"]
+[Round "1.4"]
+[White "Girya, Olga"]
+[Black "Ziaziulkina, Nastassia"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "WGM"]
+[WhiteElo "2441"]
+[BlackElo "2345"]
+[ECO "D47"]
+[Opening "QGD semi-Slav"]
+[Variation "Meran, Wade variation"]
+[WhiteFideId "4195752"]
+[BlackFideId "13505211"]
+[EventDate "2013.02.02"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 e6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+Bb7 9. a3 Bd6 10. O-O O-O 11. Qc2 Rc8 12. e4 c5 13. Nxb5 Bb8 14. d5 c4 15. Be2
+exd5 16. exd5 Bxd5 17. Nc3 Bb7 18. Bg5 Qc7 19. g3 Rfe8 20. Nd4 Qb6 21. Rad1 Be5
+22. Be3 a6 23. f4 Bb8 24. Bf2 h5 25. Bf3 Ng4 26. Bxg4 hxg4 27. Rfe1 Ba8 28. Nf5
+Qb7 29. Nd5 Nf6 30. Qc3 Kh8 31. Kf1 Rxe1+ 32. Kxe1 Re8+ 33. Kf1 Re6 34. Nde3
+Qh1+ 35. Bg1 Qf3+ 36. Bf2 Bd5 37. Rxd5 Qh1+ 38. Bg1 Qf3+ 39. Bf2 Qh1+ 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.03"]
+[Round "1.5"]
+[White "Drozdova, Dina"]
+[Black "Pustovoitova, Daria"]
+[Result "1-0"]
+[BlackTitle "FM"]
+[WhiteElo "2286"]
+[BlackElo "2257"]
+[ECO "D85"]
+[Opening "Gruenfeld"]
+[Variation "exchange variation"]
+[WhiteFideId "4170695"]
+[BlackFideId "4182146"]
+[EventDate "2013.02.02"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bb5+ c6 8.
+Ba4 O-O 9. Ne2 Nd7 10. O-O e5 11. Be3 Nb6 12. Bb3 Qe7 13. f3 Rd8 14. Qc1 Be6 15.
+Bg5 Bf6 16. Bxf6 Qxf6 17. f4 exd4 18. Nxd4 Bc4 19. Rf2 c5 20. Nf3 Qe7 21. f5
+Bxb3 22. axb3 Nd7 23. Qh6 Qf8 24. Qh4 Qg7 25. Raf1 Re8 26. Rd1 f6 27. Rfd2 Nf8
+28. e5 gxf5 29. exf6 Qg4 30. Qf2 b6 31. Nh4 Re6 32. h3 Qg5 33. Nxf5 Rxf6 34. Rd5
+Kh8 35. c4 Qg6 36. Qb2 Re8 37. Rf1 Re6 38. Rd8 Qf7 39. g4 h6 40. Nxh6 Qe7 41.
+Rxf6 Rxf6 42. Rxf8+ Qxf8 43. g5 Kh7 44. Qxf6 Qxf6 45. gxf6 Kxh6 46. Kf2 a6 47.
+Ke3 b5 48. Ke4 bxc4 49. bxc4 a5 50. Kd3 Kg6 51. Kc3 a4 52. Kb2 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.03"]
+[Round "2.1"]
+[White "Saulina, Varvara"]
+[Black "Pustovoitova, Daria"]
+[Result "0-1"]
+[WhiteTitle "WF"]
+[BlackTitle "FM"]
+[WhiteElo "2272"]
+[BlackElo "2257"]
+[ECO "C16"]
+[Opening "French"]
+[Variation "Winawer, advance variation"]
+[WhiteFideId "4194950"]
+[BlackFideId "4182146"]
+[EventDate "2013.02.02"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Ne7 5. a3 Bxc3+ 6. bxc3 b6 7. Qg4 Ng6 8. h4
+h5 9. Qg5 Ba6 10. Qxd8+ Kxd8 11. Bxa6 Nxa6 12. a4 Nb8 13. Nf3 Kd7 14. a5 Nc6 15.
+a6 f6 16. exf6 gxf6 17. O-O Na5 18. g3 Nc4 19. Re1 Ne7 20. Re2 Rae8 21. Ne1 Nf5
+22. Nd3 Nfd6 23. Rb1 Ne4 24. Rb3 e5 25. Kg2 Rhg8 26. Nb2 Ncd6 27. Kh2 Nf5 28.
+dxe5 fxe5 29. Nd3 c5 30. f3 Nexg3 31. Nxe5+ Kc8 32. Re1 Nxh4 33. c4 dxc4 34. Rc3
+Ngf5 35. Bf4 Ng2 36. Rd1 Nxf4 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.03"]
+[Round "2.2"]
+[White "Ziaziulkina, Nastassia"]
+[Black "Drozdova, Dina"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[WhiteElo "2345"]
+[BlackElo "2286"]
+[ECO "C10"]
+[Opening "French"]
+[Variation "Rubinstein variation"]
+[WhiteFideId "13505211"]
+[BlackFideId "4170695"]
+[EventDate "2013.02.02"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Bd3 Nxe4 7. Bxe4 Nf6 8.
+Bg5 h6 9. Bxf6 Qxf6 10. Qe2 a6 11. O-O Bd6 12. c4 c5 13. b4 cxd4 14. c5 Bc7 15.
+Rad1 O-O 16. Rxd4 Rb8 17. a4 Qe7 18. Re1 a5 19. Qb5 axb4 20. Red1 f5 21. Bc2 Qf6
+22. Rxb4 e5 23. Nd2 Rd8 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.03"]
+[Round "2.3"]
+[White "Vasilevich, Irina"]
+[Black "Girya, Olga"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "WGM"]
+[WhiteElo "2370"]
+[BlackElo "2441"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "Tartakower (fantasy) variation"]
+[WhiteFideId "4141296"]
+[BlackFideId "4195752"]
+[EventDate "2013.02.02"]
+
+1. e4 c6 2. d4 d5 3. f3 e6 4. Nc3 Bb4 5. Bf4 Ne7 6. Qd3 O-O 7. Ne2 b6 8. O-O-O
+Ba6 9. Qe3 c5 10. a3 Bxc3 11. Qxc3 Bxe2 12. Bxe2 c4 13. h4 Nbc6 14. h5 b5 15. h6
+g6 16. Qe1 f6 17. Bf1 Qd7 18. g3 a5 19. Bh3 Rae8 20. Rh2 b4 21. a4 Nd8 22. b3
+Nf7 23. Re2 f5 24. g4 fxe4 25. fxe4 cxb3 26. cxb3 dxe4 27. Rxe4 Nd5 28. Bd2 Rc8+
+29. Kb2 Nc3 30. g5 Nxd1+ 31. Qxd1 Nd8 32. Bf1 Qc6 33. Bd3 Rf2 34. Kb1 Qd5 35.
+Be3 Rh2 36. Bc1 Rc3 37. Re2 Rh1 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.03"]
+[Round "2.4"]
+[White "Enkhtuul, Altanulzii"]
+[Black "Savina, Anastasia"]
+[Result "1/2-1/2"]
+[WhiteTitle "WIM"]
+[BlackTitle "IM"]
+[WhiteElo "2148"]
+[BlackElo "2339"]
+[ECO "A48"]
+[Opening "King's Indian"]
+[Variation "London system"]
+[WhiteFideId "4901444"]
+[BlackFideId "4196872"]
+[EventDate "2013.02.02"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 d6 4. e3 Bg7 5. Be2 O-O 6. h3 b6 7. O-O Bb7 8. c3
+Nbd7 9. a4 a6 10. Nbd2 Qe8 11. Bh2 e5 12. Nc4 Ne4 13. Na3 Kh8 14. Nd2 Nxd2 15.
+Qxd2 f5 16. Rfe1 g5 17. a5 b5 18. c4 bxc4 19. Nxc4 exd4 20. exd4 Qg6 21. Rad1
+Nf6 22. Qc2 Rae8 23. Nd2 g4 24. hxg4 Nxg4 25. Qxc7 Rf7 26. Qxd6 Rfe7 27. Qxg6
+hxg6 28. Be5 Nxe5 29. dxe5 Rxe5 30. Kf1 Rxa5 31. Nc4 Rd5 32. Rxd5 Bxd5 33. Ne3
+Bb7 34. Bc4 f4 35. Bd5 Bxd5 36. Nxd5 Rxe1+ 37. Kxe1 Bxb2 38. Nxf4 Kg7 39. Kd2
+Be5 40. Nd3 Bd4 41. f4 a5 42. g4 Kf6 43. Kc2 a4 44. Kb1 Ke7 45. Ka2 Kd6 46. Nb4
+Be3 47. f5 g5 48. Ka3 Ke5 49. Kxa4 Ke4 50. Kb5 Bd4 51. Kc4 Bh8 52. Nd3 Kf3 53.
+Nc5 Kxg4 54. Ne6 Kxf5 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.03"]
+[Round "2.5"]
+[White "Szczepkowska-Horowska, Karina"]
+[Black "Saduakassova, Dinara"]
+[Result "0-1"]
+[WhiteTitle "WGM"]
+[BlackTitle "WGM"]
+[WhiteElo "2398"]
+[BlackElo "2312"]
+[ECO "C52"]
+[Opening "Evans gambit"]
+[WhiteFideId "1122681"]
+[BlackFideId "13700090"]
+[EventDate "2013.02.02"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Ba5 6. d4 exd4 7. Qb3 Qe7 8. O-O
+Bb6 9. Ba3 d6 10. cxd4 Nxd4 11. Nxd4 Bxd4 12. Nc3 Nf6 13. Rad1 Bxc3 14. Qxc3 Qe5
+15. Qb3 O-O 16. Bb2 Qe7 17. Rfe1 Be6 18. e5 Bxc4 19. Qxc4 Rfe8 20. Qc1 dxe5 21.
+Rxe5 Qb4 22. Rg5 h6 23. Bc3 Qa4 24. Rg3 Nh5 25. Rf3 Rad8 26. Rf1 Re4 27. Qa1 Re6
+28. h3 Rg6 29. Kh2 Qc6 30. Rg1 Rd5 31. g4 Qd6+ 32. Kh1 Nf4 33. Qb2 Rd1 34. Rg3
+Qc6+ 35. Kh2 Rxg1 36. Kxg1 Rd6 37. Qc2 Rd3 38. Qxd3 Nxd3 39. Rxd3 f6 40. Re3 Qc4
+41. a3 b6 42. Bb2 Kf7 43. Rc3 Qf4 44. Rc6 Ke8 45. Rc3 c5 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.04"]
+[Round "3.1"]
+[White "Saduakassova, Dinara"]
+[Black "Saulina, Varvara"]
+[Result "1-0"]
+[WhiteTitle "WGM"]
+[BlackTitle "WF"]
+[WhiteElo "2312"]
+[BlackElo "2272"]
+[ECO "B92"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Opovcensky variation"]
+[WhiteFideId "13700090"]
+[BlackFideId "4194950"]
+[EventDate "2013.02.02"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 a6 6. Be2 Nbd7 7. Be3 g6 8. Qd2
+Bg7 9. Bh6 O-O 10. h4 Bxh6 11. Qxh6 Qb6 12. O-O-O e5 13. Nb3 Qxf2 14. Rdf1 Qg3
+15. h5 b5 16. Rf3 Qxg2 17. hxg6 fxg6 18. Rff1 Rf7 19. Rfg1 Qf2 20. Rxg6+ Kh8 21.
+Rf1 Qa7 22. Nd5 Ng8 23. Rxg8+ Kxg8 24. Rxf7 Kxf7 25. Qxh7+ Kf8 26. Qh8+ 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.04"]
+[Round "3.2"]
+[White "Savina, Anastasia"]
+[Black "Szczepkowska-Horowska, Karina"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "WGM"]
+[WhiteElo "2339"]
+[BlackElo "2398"]
+[ECO "D34"]
+[Opening "QGD"]
+[Variation "Tarrasch, Reti variation"]
+[WhiteFideId "4196872"]
+[BlackFideId "1122681"]
+[EventDate "2013.02.02"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nf6 6. g3 Nc6 7. Bg2 Be7 8. O-O
+O-O 9. dxc5 Bxc5 10. Na4 Be7 11. Be3 Ne4 12. Rc1 Bf6 13. Nd4 Bd7 14. Nc5 Nxd4
+15. Bxd4 Bc6 16. e3 Re8 17. Re1 Qe7 18. Re2 Rad8 19. Nb3 Bb5 20. Rec2 b6 21. Rc7
+Rd7 22. Rxd7 Qxd7 23. Bxf6 Nxf6 24. Qc2 Bc4 25. Nd4 Ba6 26. Qf5 Rc8 27. Rxc8+
+Bxc8 28. Qxd7 Bxd7 29. f3 Kf8 30. Kf2 Ke7 31. Ke1 Kd6 32. Kd2 g5 33. Bf1 h5 34.
+h3 Ng8 35. g4 hxg4 36. hxg4 Ne7 37. Kc3 Bb5 38. Nxb5+ Kc5 39. Nd4 a5 40. a3 Ng6
+41. Nf5 Ne5 42. b4+ axb4+ 43. axb4+ 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.04"]
+[Round "3.3"]
+[White "Girya, Olga"]
+[Black "Enkhtuul, Altanulzii"]
+[Result "0-1"]
+[WhiteTitle "WGM"]
+[BlackTitle "WIM"]
+[WhiteElo "2441"]
+[BlackElo "2148"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "4195752"]
+[BlackFideId "4901444"]
+[EventDate "2013.02.02"]
+
+1. Nf3 g6 2. d4 Bg7 3. c4 c5 4. d5 d6 5. e4 Nf6 6. Nc3 b5 7. cxb5 O-O 8. Be2 a6
+9. bxa6 Qa5 10. O-O Bxa6 11. Bxa6 Nxa6 12. Nd2 Nb4 13. Qe2 Nd7 14. a3 Qa6 15.
+Qxa6 Rxa6 16. Nc4 Nc2 17. Rb1 Ne5 18. Nxe5 Bxe5 19. Bd2 Rb8 20. Rfc1 Nd4 21. b4
+c4 22. Be3 Nb3 23. Rc2 Rxa3 24. Na2 Na1 25. Re2 Rba8 26. Nc1 c3 27. b5 c2 28.
+Rb4 R8a4 29. Rxa4 Rxa4 30. b6 Rb4 31. g3 Bd4 32. Bxd4 Rxd4 33. Na2 Rd1+ 34. Kg2
+Rb1 35. Re3 Rxb6 36. Rc3 Rb5 37. Nc1 e6 38. dxe6 fxe6 39. Rc6 Rb1 40. Na2 d5 41.
+Rxe6 d4 42. Rd6 Nb3 43. e5 Kf7 44. e6+ Ke7 45. Rb6 Nc5 46. Rc6 d3 47. Nc3 Nxe6 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.04"]
+[Round "3.4"]
+[White "Drozdova, Dina"]
+[Black "Vasilevich, Irina"]
+[Result "1/2-1/2"]
+[BlackTitle "IM"]
+[WhiteElo "2286"]
+[BlackElo "2370"]
+[ECO "D53"]
+[Opening "QGD"]
+[Variation "4.Bg5 Be7"]
+[WhiteFideId "4170695"]
+[BlackFideId "4141296"]
+[EventDate "2013.02.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Be7 5. e3 h6 6. Bh4 O-O 7. Bd3 b6 8. cxd5
+Nxd5 9. Bxe7 Qxe7 10. Nxd5 exd5 11. Nf3 Be6 12. O-O c5 13. Ne5 Nd7 14. f4 Nxe5
+15. fxe5 Qg5 16. Qe1 Bh3 17. Qg3 Qxg3 18. hxg3 Be6 19. Rac1 c4 20. Be2 b5 21.
+Rfd1 Rfd8 22. Kf2 Bf5 23. g4 Be6 24. Bf3 Rab8 25. Kg3 Rd7 26. Rd2 a5 27. e4 a4
+28. Kf4 Rbd8 29. exd5 Bxd5 30. Bxd5 Rxd5 31. Ke4 Kf8 32. b3 cxb3 33. axb3 axb3
+34. Rb1 Ke7 35. Rxb3 Ke6 36. Rbd3 f6 37. exf6 Kxf6 38. Kf4 R8d6 39. Kg3 Kg5 40.
+Re2 b4 41. Re4 Rc6 42. Re7 Kf6 43. Re4 Kg5 44. Re7 Kf6 45. Re4 Ra6 46. Re8 Rb6
+47. Ree3 Kg5 48. Kh3 Rc6 49. Re7 Kf6 50. Re4 Ra6 51. Re8 Rb6 52. Ree3 Re6 53.
+Rf3+ Ke7 54. Rf4 g5 55. Rf5 Kd6 56. Rf8 Rb5 57. d5 Re5 58. Rf6+ Ke7 59. Rxh6
+Rexd5 60. Rxd5 Rxd5 61. Rb6 Rd3+ 62. Kh2 Rb3 63. Rg6 Rc3 64. Rxg5 Kf6 65. Rb5 b3
+66. g3 Rc2+ 67. Kh3 b2 68. g5+ Kg6 69. Kh4 Rc4+ 70. g4 Rc2 71. Rb6+ Kg7 72. g6
+Kh6 73. g5+ 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.04"]
+[Round "3.5"]
+[White "Pustovoitova, Daria"]
+[Black "Ziaziulkina, Nastassia"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "WGM"]
+[WhiteElo "2257"]
+[BlackElo "2345"]
+[ECO "A09"]
+[Opening "Reti opening"]
+[WhiteFideId "4182146"]
+[BlackFideId "13505211"]
+[EventDate "2013.02.02"]
+
+1. Nf3 d5 2. c4 c6 3. e3 Nf6 4. Qc2 Nbd7 5. b3 e5 6. Bb2 Bd6 7. Nc3 O-O 8. cxd5
+cxd5 9. Nb5 Qe7 10. Nxd6 Qxd6 11. Rc1 Re8 12. Qc7 Qxc7 13. Rxc7 Re6 14. Bb5 a6
+15. Bxd7 Nxd7 16. O-O Re8 17. Rfc1 f6 18. Ba3 Nf8 19. Bxf8 Kxf8 20. Ne1 Rb8 21.
+Nd3 Bf5 22. Nc5 Re7 23. Na4 Rxc7 24. Rxc7 Rc8 25. Rxc8+ Bxc8 26. d4 Ke7 27. Kf1
+Kd6 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.05"]
+[Round "4.1"]
+[Board "21"]
+[White "Saulina, Varvara"]
+[Black "Ziaziulkina, Nastassia"]
+[Result "1/2-1/2"]
+[WhiteTitle "WF"]
+[BlackTitle "WGM"]
+[WhiteElo "2272"]
+[BlackElo "2345"]
+[ECO "B54"]
+[Opening "Sicilian"]
+[Variation "Prins (Moscow) variation"]
+[WhiteFideId "4194950"]
+[BlackFideId "13505211"]
+[EventDate "2013.02.02"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 e5 6. Nb3 Be7 7. c4 a5 8. Be3 a4
+9. N3d2 Qa5 10. Nc3 O-O 11. Be2 Nc6 12. O-O Bd8 13. Kh1 Be6 14. Rc1 Nd7 15. Ndb1
+Bb6 16. Bd2 Bc5 17. Nd5 Qd8 18. Nbc3 Nd4 19. b4 axb3 20. axb3 Bxd5 21. Nxd5 Nb6
+22. b4 Nxd5 23. exd5 Nxe2 24. Qxe2 Bd4 25. Qd3 Ra2 26. f4 b6 27. f5 Qf6 28. Rfd1
+Rfa8 29. Qe4 R8a3 30. h3 h6 31. Qg4 Rb3 32. Be1 Qg5 33. Qxg5 hxg5 34. Rd2 Rxd2
+35. Bxd2 f6 36. Kh2 e4 37. Be1 e3 38. g4 e2 39. Kg2 Kf7 40. Rc2 Re3 41. Rc1 g6
+42. fxg6+ Kxg6 43. b5 f5 44. Bf2 Re4 45. Bxd4 Rxd4 46. Re1 Rxc4 47. Rxe2 Re4 48.
+Rc2 Re5 49. Rc6 Rxd5 50. Rxb6 f4 51. Rb8 Kg7 52. b6 Rb5 53. b7 Rb3 54. Kf2 d5
+55. Rd8 Rxb7 56. Rxd5 Kg6 57. Rd6+ Kf7 58. Ra6 Re7 59. h4 gxh4 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.05"]
+[Round "4.2"]
+[Board "22"]
+[White "Vasilevich, Irina"]
+[Black "Pustovoitova, Daria"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2370"]
+[BlackElo "2257"]
+[ECO "A01"]
+[Opening "Nimzovich-Larsen attack"]
+[Variation "English variation"]
+[WhiteFideId "4141296"]
+[BlackFideId "4182146"]
+[EventDate "2013.02.02"]
+
+1. b3 c5 2. Bb2 b6 3. g3 Bb7 4. Nf3 e6 5. Bg2 Nf6 6. O-O Be7 7. c4 a6 8. d3 O-O
+9. e4 d6 10. Nc3 Nc6 11. d4 cxd4 12. Nxd4 Qc7 13. Rc1 Nxd4 14. Qxd4 Rab8 15.
+Rfd1 Rfd8 16. Qe3 h6 17. h3 Ba8 18. Ne2 Nd7 19. Nf4 Bg5 20. h4 Bf6 21. Ba3 Be7
+22. Nh5 Nf6 23. Nf4 Nd7 24. Qe2 Nf6 25. Bb2 Ne8 26. Nh5 e5 27. f4 g6 28. Rf1
+gxh5 29. Qxh5 Qc5+ 30. Kh1 Nf6 31. Qe2 h5 32. fxe5 dxe5 33. Rf5 Nxe4 34. Bxe4
+Rd2 35. Qf3 Bxe4 36. Qxe4 Rxb2 37. Rxh5 Bf6 38. Rf1 Rf2 39. Rxf2 Qxf2 40. Rf5
+Qxg3 41. Rxf6 Rd8 42. Qg2 Rd1+ 43. Rf1 Rxf1+ 44. Qxf1 Qxh4+ 45. Kg2 Qg4+ 46. Kh2
+e4 47. Qf2 Qe6 48. Qe3 f5 49. Kg2 Kf7 50. c5 bxc5 51. Qxc5 Kf6 52. Qc3+ Qe5 53.
+Qc6+ Kg5 54. Qxa6 f4 55. a4 f3+ 56. Kf2 Qd4+ 57. Ke1 Qe3+ 58. Kd1 f2 59. Qb5+
+Kh4 60. Qf1 Qd3+ 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.05"]
+[Round "4.3"]
+[Board "23"]
+[White "Enkhtuul, Altanulzii"]
+[Black "Drozdova, Dina"]
+[Result "1-0"]
+[WhiteTitle "WIM"]
+[WhiteElo "2148"]
+[BlackElo "2286"]
+[ECO "A47"]
+[Opening "Queen's Indian"]
+[Variation "Marienbad system"]
+[WhiteFideId "4901444"]
+[BlackFideId "4170695"]
+[EventDate "2013.02.02"]
+
+1. d4 Nf6 2. Nf3 c5 3. g3 b6 4. Bg2 Bb7 5. dxc5 bxc5 6. O-O g6 7. Re1 Bg7 8. e4
+O-O 9. Nc3 Ng4 10. e5 Nh6 11. Bg5 Kh8 12. Qd2 Ng8 13. Be3 Qa5 14. a3 f6 15. b4
+cxb4 16. axb4 Qd8 17. e6 dxe6 18. Qxd8 Rxd8 19. Ne5 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.05"]
+[Round "4.4"]
+[Board "24"]
+[White "Szczepkowska-Horowska, Karina"]
+[Black "Girya, Olga"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "WGM"]
+[WhiteElo "2398"]
+[BlackElo "2441"]
+[ECO "B48"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "1122681"]
+[BlackFideId "4195752"]
+[EventDate "2013.02.02"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qc7 5. Nc3 e6 6. Be3 Nf6 7. f4 Bb4 8. Nb5
+Qa5 9. e5 Nd5 10. Bd2 Nxc3 11. Nxc3 d5 12. exd6 Bxd6 13. Ne4 Bb4 14. a3 Bxd2+
+15. Qxd2 Qxd2+ 16. Nxd2 Ke7 17. O-O-O Rd8 18. g3 b6 19. Bg2 Bb7 20. Rhe1 Rac8
+21. f5 Ba6 22. fxe6 fxe6 23. Nf3 Rxd1+ 24. Kxd1 Rd8+ 25. Kc1 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.05"]
+[Round "4.5"]
+[Board "25"]
+[White "Saduakassova, Dinara"]
+[Black "Savina, Anastasia"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "IM"]
+[WhiteElo "2312"]
+[BlackElo "2339"]
+[ECO "E94"]
+[Opening "King's Indian"]
+[Variation "orthodox variation"]
+[WhiteFideId "13700090"]
+[BlackFideId "4196872"]
+[EventDate "2013.02.02"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Na6 8. Be3
+Ng4 9. Bg5 Qe8 10. Re1 h6 11. Bh4 Nf6 12. Bxf6 Bxf6 13. c5 exd4 14. Nd5 Qd8 15.
+Bxa6 bxa6 16. Nxf6+ Qxf6 17. cxd6 cxd6 18. Qxd4 Qxd4 19. Nxd4 Rb8 20. b3 Bd7 21.
+Rac1 Rfc8 22. f3 a5 23. Kf2 a4 24. Rxc8+ Rxc8 25. Ke3 axb3 26. axb3 a5 27. Ra1 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.06"]
+[Round "5.1"]
+[Board "21"]
+[White "Savina, Anastasia"]
+[Black "Saulina, Varvara"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "WF"]
+[WhiteElo "2339"]
+[BlackElo "2272"]
+[ECO "D31"]
+[Opening "QGD"]
+[Variation "Charousek (Petrosian) variation"]
+[WhiteFideId "4196872"]
+[BlackFideId "4194950"]
+[EventDate "2013.02.02"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 c6 6. e3 Nf6 7. Bd3 Bg4 8. Qb3
+Qb6 9. h3 Be6 10. Qc2 O-O 11. Nf3 Na6 12. a3 c5 13. O-O c4 14. Be2 Rac8 15. Bg5
+Nc7 16. Nd2 Nb5 17. f4 g6 18. Nxb5 Qxb5 19. g4 Kh8 20. Nb1 Qc6 21. Nc3 Rcd8 22.
+Bxf6+ Bxf6 23. Bf3 b5 24. Kh1 a5 25. Ne2 Bc8 26. Bg2 Rfe8 27. Qd2 Qb6 28. Nc3
+Bb7 29. g5 Be7 30. h4 b4 31. axb4 axb4 32. Ne2 Ra8 33. f5 b3 34. Rxa8 Rxa8 35.
+Nc3 Bb4 36. fxg6 Qxg6 37. Qf2 Bxc3 38. bxc3 Kg8 39. Bf3 Qf5 40. Qh2 Ra2 41. Qb8+
+Bc8 42. Kg1 b2 43. Be2 Qe6 44. e4 b1=Q 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.06"]
+[Round "5.2"]
+[Board "22"]
+[White "Girya, Olga"]
+[Black "Saduakassova, Dinara"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "WGM"]
+[WhiteElo "2441"]
+[BlackElo "2312"]
+[ECO "E12"]
+[Opening "Queen's Indian"]
+[Variation "Petrosian system"]
+[WhiteFideId "4195752"]
+[BlackFideId "13700090"]
+[EventDate "2013.02.02"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. a3 Ba6 5. Qc2 Bb7 6. Nc3 c5 7. dxc5 bxc5 8. Bg5
+h6 9. Bh4 Be7 10. e3 O-O 11. Be2 d5 12. Rd1 Nbd7 13. O-O Qb6 14. cxd5 exd5 15.
+Rd2 Rfd8 16. Rfd1 Rac8 17. Qb1 Qe6 18. Bg3 Nb6 19. h3 Ne4 20. Nxe4 dxe4 21.
+Rxd8+ Rxd8 22. Rxd8+ Bxd8 23. Nd2 f5 24. Qc2 Be7 25. Nb3 Qc8 26. a4 Kh7 27. Nd2
+Nd5 28. Qb3 Nb4 29. Qf7 Qf8 30. Qxf8 Bxf8 31. Bc4 Kg6 32. Be5 Bd5 33. Bxd5 Nxd5
+34. Kf1 Kf7 35. Ke2 Ke6 36. Nc4 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.06"]
+[Round "5.3"]
+[Board "23"]
+[White "Drozdova, Dina"]
+[Black "Szczepkowska-Horowska, Karina"]
+[Result "0-1"]
+[BlackTitle "WGM"]
+[WhiteElo "2286"]
+[BlackElo "2398"]
+[ECO "D34"]
+[Opening "QGD"]
+[Variation "Tarrasch, Prague variation, Normal position"]
+[WhiteFideId "4170695"]
+[BlackFideId "1122681"]
+[EventDate "2013.02.02"]
+
+1. d4 d5 2. Nf3 Nf6 3. g3 e6 4. Bg2 c5 5. c4 Nc6 6. O-O Be7 7. Nc3 O-O 8. cxd5
+exd5 9. dxc5 Bxc5 10. Bg5 d4 11. Bxf6 Qxf6 12. Ne4 Qe7 13. Nxc5 Qxc5 14. Rc1 Qb6
+15. Qd2 Bg4 16. Ng5 h6 17. Ne4 Rad8 18. Nc5 Bc8 19. Nd3 Rfe8 20. Rc5 Bg4 21. Re1
+Nb8 22. a4 Bc8 23. Rec1 Qf6 24. Rc7 Na6 25. R7c2 Bg4 26. Re1 b6 27. b4 Bf5 28.
+Rc6 Qe7 29. Rcc1 Bxd3 30. exd3 Qxb4 31. Rxe8+ Rxe8 32. Qxb4 Nxb4 33. Be4 a5 34.
+Rc7 g6 35. Rd7 Kf8 36. g4 Rc8 37. Rxd4 Ke7 38. Kg2 Rc3 39. h4 Rc5 40. Bf3 f5 41.
+gxf5 gxf5 42. h5 Nc2 43. Rh4 Ne1+ 44. Kg3 Nxd3 45. Rd4 Ne5 46. Bd5 Rc3+ 47. f3
+Rd3 48. Rxd3 Nxd3 49. Bc4 f4+ 50. Kg2 Ne5 51. Bb5 Kf6 52. Kf2 Kg5 53. Be8 Kh4
+54. Kg2 Nd3 55. Bf7 Nc5 56. Be8 Ne6 57. Bf7 Ng7 58. Bg6 Nxh5 59. Bxh5 Kxh5 60.
+Kh2 Kg5 61. Kh3 Kf5 62. Kh4 Ke5 63. Kg4 Kd4 64. Kxf4 h5 65. Kg5 Ke3 66. f4 h4
+67. f5 h3 68. f6 h2 69. f7 h1=Q 70. f8=Q Qg2+ 71. Kh6 Qc6+ 72. Kg7 Qxa4 73. Qb8
+Qg4+ 74. Kh7 Qh5+ 75. Kg7 Qg5+ 76. Kh7 Qh4+ 77. Kg6 Qe4+ 78. Kg7 Qd4+ 79. Kg6 a4
+80. Kf5 a3 81. Qa8 b5 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.06"]
+[Round "5.4"]
+[Board "24"]
+[White "Pustovoitova, Daria"]
+[Black "Enkhtuul, Altanulzii"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "WIM"]
+[WhiteElo "2257"]
+[BlackElo "2148"]
+[ECO "B06"]
+[Opening "Robatsch defence"]
+[Variation "three pawns attack"]
+[WhiteFideId "4182146"]
+[BlackFideId "4901444"]
+[EventDate "2013.02.02"]
+
+1. e4 g6 2. d4 Bg7 3. f4 c5 4. d5 d6 5. Nf3 Nf6 6. Nc3 O-O 7. Bc4 b5 8. Nxb5
+Nxe4 9. O-O a6 10. Na3 Nd7 11. Re1 Nef6 12. Bf1 Nb6 13. c4 Rb8 14. Rb1 e6 15.
+dxe6 Bxe6 16. b4 cxb4 17. Rxb4 Qc7 18. Be3 Ng4 19. Bd4 Bxd4+ 20. Qxd4 Nh6 21.
+Ng5 Nf5 22. Qf2 Qc5 23. Reb1 Nd7 24. Qxc5 dxc5 25. Rxb8 Rxb8 26. Rxb8+ Nxb8 27.
+Ne4 Nd7 28. Nc2 Ne7 29. Na1 Bf5 30. Nc3 Nc6 31. Nb3 Bc2 32. Na1 Bf5 33. Kf2 Kf8
+34. Ke3 Ke7 35. Be2 h5 36. Nb3 Kd6 37. h3 Nf6 38. Na4 Nd7 39. Nc3 Nf6 40. Na4
+Nd7 41. Nc3 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.06"]
+[Round "5.5"]
+[Board "25"]
+[White "Ziaziulkina, Nastassia"]
+[Black "Vasilevich, Irina"]
+[Result "0-1"]
+[WhiteTitle "WGM"]
+[BlackTitle "IM"]
+[WhiteElo "2345"]
+[BlackElo "2370"]
+[ECO "B85"]
+[Opening "Sicilian"]
+[Variation "Scheveningen, classical main line"]
+[WhiteFideId "13505211"]
+[BlackFideId "4141296"]
+[EventDate "2013.02.02"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8. Be3
+Be7 9. f4 d6 10. Qe1 O-O 11. Qg3 Nxd4 12. Bxd4 b5 13. a3 Bb7 14. Bd3 e5 15. Be3
+Nh5 16. Qg4 Nxf4 17. Bxf4 exf4 18. Rxf4 Rae8 19. Raf1 Bd8 20. Kh1 Re5 21. Qg3
+Bg5 22. Rf5 Qe7 23. Qf2 g6 24. Rxe5 dxe5 25. a4 b4 26. Nd5 Bxd5 27. exd5 a5 28.
+Qb6 Qd8 29. Qc6 Be7 30. c4 bxc3 31. bxc3 Bd6 32. c4 Qe7 33. Rd1 e4 34. Be2 Qe5
+35. g3 e3 36. c5 Qe4+ 37. Kg1 Qc2 38. cxd6 Qxe2 39. Rf1 Qd2 40. Qc1 Qxd5 41. Rd1
+Qg5 42. Re1 Qf6 43. d7 Qf2+ 44. Kh1 e2 45. Rg1 Rd8 46. Qd2 Qf3+ 47. Rg2 Rxd7 48.
+Qxe2 Rd1+ 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.07"]
+[Round "6.1"]
+[White "Saulina, Varvara"]
+[Black "Vasilevich, Irina"]
+[Result "1/2-1/2"]
+[WhiteTitle "WF"]
+[BlackTitle "IM"]
+[WhiteElo "2272"]
+[BlackElo "2370"]
+[ECO "E46"]
+[Opening "Nimzo-Indian"]
+[Variation "Reshevsky variation"]
+[WhiteFideId "4194950"]
+[BlackFideId "4141296"]
+[EventDate "2013.02.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Ne2 Re8 6. a3 Bf8 7. g3 d5 8. c5 b6
+9. b4 a5 10. Bb2 bxc5 11. bxc5 Nc6 12. Bg2 Ba6 13. O-O Rb8 14. Qc2 Bc4 15. Rfe1
+Bb3 16. Qd2 a4 17. Nc1 Na5 18. Nd3 Nc4 19. Qe2 Qc8 20. Rac1 c6 21. h4 Qc7 22.
+Nb4 Rb7 23. e4 Nxb2 24. Qxb2 dxe4 25. Nxe4 Nd5 26. Nxd5 Bxd5 27. Qc2 Bb3 28. Qd3
+h6 29. Nd6 Bxd6 30. cxd6 Qxd6 31. Bxc6 Rbb8 32. Bxe8 Rxe8 33. Rc5 Rd8 34. Rec1
+Qxd4 35. Qxd4 Rxd4 36. h5 Bd1 37. R1c3 Kh7 38. f3 Bb3 39. Rc7 e5 40. Kf2 Rd2+
+41. Ke3 Ra2 42. Ke4 Re2+ 43. Kd3 Ra2 44. g4 Bd5 45. Ke3 Bb3 46. Re7 Be6 47. Ra7
+Bb3 48. Ra5 Rxa3 49. Rxe5 Ra1 50. Ra5 Re1+ 51. Kf4 g6 52. Rc6 gxh5 53. gxh5 Rh1
+54. Rca6 Kg7 55. Rf5 Ra1 56. Rfa5 Rh1 57. Ra8 Rf1 58. Rc5 Rh1 59. Kg3 Rg1+ 60.
+Kh2 Ra1 61. Rc3 Be6 62. Ra5 Ra2+ 63. Kg3 Ra1 64. f4 Kf6 65. Rd3 Rh1 66. Kg2 Ra1
+67. f5 Bb3 68. Rd6+ Kg5 69. f6+ Kf4 70. Rd4+ Ke3 71. Rb4 Rd1 72. Rb8 Rd6 73.
+Re8+ Kd3 74. Kg3 Rxf6 75. Rc8 Rd6 76. Kf4 Kd4 77. Rc7 Rf6+ 78. Kg4 Bd1+ 79. Kg3
+Bb3 80. Rc8 Re6 81. Kf4 Re4+ 82. Kf3 Bd1+ 83. Kg3 Ke3 84. Rc3+ Kd2 85. Rc6 Re3+
+86. Kf4 Rf3+ 87. Ke5 Bc2 88. Rd6+ Kc1 89. Kd4 Kb2 90. Rxh6 a3 91. Rha6 Rh3 92.
+h6 Bb1 93. Rb6+ Ka1 94. Ra7 Rf3 95. Ke5 Rf5+ 96. Kd4 a2 97. Ra8 Rh5 98. Rf8 Bg6
+99. Rh8 Rh2 100. Kc3 Rc2+ 101. Kd4 Rd2+ 102. Ke5 Rb2 103. Ra6 Kb1 104. h7 Rb5+
+105. Kf4 Rb4+ 106. Kf3 Rb3+ 107. Kf2 Rb2+ 108. Ke3 Rb3+ 109. Kd2 Rb2+ 110. Kc3
+Rc2+ 111. Kb3 Rh2 112. Re8 Bc2+ 113. Kc3 Rh3+ 114. Kd2 Rh2+ 115. Kc3 Rh3+ 116.
+Kd4 Bxh7 117. Re1+ Kb2 118. Rb6+ Rb3 119. Ra6 Bb1 120. Re2+ Bc2 121. Rxc2+ Kxc2
+122. Rxa2+ 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.07"]
+[Round "6.2"]
+[White "Enkhtuul, Altanulzii"]
+[Black "Ziaziulkina, Nastassia"]
+[Result "0-1"]
+[WhiteTitle "WIM"]
+[BlackTitle "WGM"]
+[WhiteElo "2148"]
+[BlackElo "2345"]
+[ECO "A09"]
+[Opening "Reti opening"]
+[WhiteFideId "4901444"]
+[BlackFideId "13505211"]
+[EventDate "2013.02.02"]
+
+1. Nf3 d5 2. c4 c6 3. g3 Nf6 4. Bg2 Bg4 5. O-O e6 6. Ne5 Bh5 7. d4 Nbd7 8. Nd3
+Bg6 9. Nc3 dxc4 10. Nf4 Be7 11. e4 e5 12. Nxg6 hxg6 13. d5 cxd5 14. exd5 Nc5 15.
+Qe2 Nd3 16. b3 Nxc1 17. Raxc1 cxb3 18. d6 Bxd6 19. Nb5 O-O 20. Rcd1 bxa2 21.
+Rxd6 Qa5 22. Qb2 Rfd8 23. Ra1 a6 24. Rxd8+ Rxd8 25. Nc3 Rd3 26. Nxa2 Ra3 27.
+Bxb7 e4 28. Qc2 Kh7 29. Bc6 Kg8 30. Kf1 Kh7 31. h4 e3 32. Bf3 exf2 33. Kxf2 Qe5
+34. Qc1 Qa5 35. Qb2 Rd3 36. Rd1 Rxf3+ 37. Kxf3 Qh5+ 38. Kf2 Qxd1 39. Nc1 Ng4+
+40. Kg2 Qd5+ 41. Kh3 Qh1+ 42. Kxg4 f5+ 43. Kg5 Qf3 44. Qe2 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.07"]
+[Round "6.3"]
+[White "Szczepkowska-Horowska, Karina"]
+[Black "Pustovoitova, Daria"]
+[Result "0-1"]
+[WhiteTitle "WGM"]
+[BlackTitle "FM"]
+[WhiteElo "2398"]
+[BlackElo "2257"]
+[ECO "B84"]
+[Opening "Sicilian"]
+[Variation "Scheveningen (Paulsen), classical variation"]
+[WhiteFideId "1122681"]
+[BlackFideId "4182146"]
+[EventDate "2013.02.02"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. O-O Be7 8. Be3
+O-O 9. f4 Qc7 10. g4 Re8 11. g5 Nfd7 12. f5 Ne5 13. f6 Bf8 14. fxg7 Bxg7 15. Bh5
+b5 16. a3 Rf8 17. Nde2 Bb7 18. Ng3 Nc4 19. Bc1 Nd7 20. Bf3 Be5 21. Qe1 f6 22.
+gxf6 Rxf6 23. Bg2 Raf8 24. Rxf6 Rxf6 25. Nd1 Rg6 26. Rb1 Nf6 27. b3 Bxg3 28.
+hxg3 Ne5 29. Bf4 Nh5 30. Qe3 Qg7 31. Qb6 h6 32. Ne3 Nxf4 33. gxf4 Bxe4 34. Kf1
+Rxg2 35. fxe5 Qf7+ 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.07"]
+[Round "6.4"]
+[White "Saduakassova, Dinara"]
+[Black "Drozdova, Dina"]
+[Result "1-0"]
+[WhiteTitle "WGM"]
+[WhiteElo "2312"]
+[BlackElo "2286"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "13700090"]
+[BlackFideId "4170695"]
+[EventDate "2013.02.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 Ne4 7. Qc2 f5 8. g3
+b6 9. Bg2 Bb7 10. Nh3 Qc8 11. O-O a5 12. f3 Nf6 13. e4 fxe4 14. fxe4 e5 15. d5
+h6 16. Nf2 Na6 17. Bd2 Qe8 18. b4 axb4 19. axb4 c5 20. bxc5 Nxc5 21. Rxa8 Qxa8
+22. Qb2 Qa6 23. Qc3 Ra8 24. Qxe5 Ne8 25. Ng4 Qxc4 26. Nxh6+ 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.07"]
+[Round "6.5"]
+[White "Savina, Anastasia"]
+[Black "Girya, Olga"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "WGM"]
+[WhiteElo "2339"]
+[BlackElo "2441"]
+[ECO "D10"]
+[Opening "QGD Slav defence"]
+[WhiteFideId "4196872"]
+[BlackFideId "4195752"]
+[EventDate "2013.02.02"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 a6 5. Nf3 Bf5 6. Bd3 Bxd3 7. Qxd3 e6 8. O-O
+Bb4 9. a3 Bxc3 10. bxc3 O-O 11. a4 Nbd7 12. cxd5 cxd5 13. Ba3 Re8 14. Nd2 e5 15.
+Rfd1 Rc8 16. c4 exd4 17. exd4 Nb6 18. c5 Nxa4 19. Rdb1 b5 20. cxb6 Nxb6 21. Bb4 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.08"]
+[Round "7.1"]
+[Board "21"]
+[White "Girya, Olga"]
+[Black "Saulina, Varvara"]
+[Result "1-0"]
+[WhiteTitle "WGM"]
+[BlackTitle "WF"]
+[WhiteElo "2441"]
+[BlackElo "2272"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "classical variation (5.Bf4)"]
+[WhiteFideId "4195752"]
+[BlackFideId "4194950"]
+[EventDate "2013.02.02"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8. Qc2
+Qa5 9. a3 a6 10. Rd1 Be7 11. Nd2 Nc6 12. cxd5 exd5 13. Nb3 Qb6 14. Nd4 Bg4 15.
+Be2 Nxd4 16. Rxd4 Bxe2 17. Qxe2 Bc5 18. Nxd5 Qc6 19. Nxf6+ gxf6 20. Qg4+ Kh8 21.
+Rd1 Rg8 22. Qf3 Qb5 23. b4 Bf8 24. Qd5 Qxd5 25. Rxd5 a5 26. bxa5 Bxa3 27. Ke2
+Bb4 28. Rb1 Bxa5 29. Rxb7 Rxg2 30. Bg3 Rg1 31. Rxf7 Bc3 32. Rdd7 Be5 33. Rxh7+
+Kg8 34. Rhg7+ Kh8 35. Bxe5 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.08"]
+[Round "7.2"]
+[Board "22"]
+[White "Drozdova, Dina"]
+[Black "Savina, Anastasia"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2286"]
+[BlackElo "2339"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "4170695"]
+[BlackFideId "4196872"]
+[EventDate "2013.02.02"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Nf6 4. Bxc6 dxc6 5. d3 g6 6. O-O Bg7 7. h3 Nd7 8. Nc3
+e5 9. Bg5 f6 10. Be3 Qe7 11. Nd2 Nf8 12. f4 exf4 13. Bxf4 Ne6 14. Bg3 O-O 15.
+Nc4 Rf7 16. a4 b6 17. Qd2 Nd4 18. Ne2 Be6 19. b3 Nxe2+ 20. Qxe2 Bxc4 21. bxc4 f5
+22. e5 Re8 23. a5 g5 24. Qh5 f4 25. Bf2 Bxe5 26. Rfe1 Qf6 27. Rab1 f3 28. Qxf3
+Qg6 29. Qd1 Rxf2 30. Rxe5 Rxg2+ 31. Kxg2 Rxe5 32. axb6 axb6 33. Rxb6 Qe8 34. Qf3
+Re2+ 35. Kf1 Re3 36. Qg4 h6 37. Rb7 Re1+ 38. Kg2 Qf8 39. Kh2 Qf2+ 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.08"]
+[Round "7.3"]
+[Board "23"]
+[White "Pustovoitova, Daria"]
+[Black "Saduakassova, Dinara"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "WGM"]
+[WhiteElo "2257"]
+[BlackElo "2312"]
+[ECO "A13"]
+[Opening "English"]
+[Variation "Wimpey system"]
+[WhiteFideId "4182146"]
+[BlackFideId "13700090"]
+[EventDate "2013.02.02"]
+
+1. Nf3 Nf6 2. c4 e6 3. e3 d5 4. b3 c5 5. Bb2 Nc6 6. cxd5 Nxd5 7. Be2 Be7 8. a3
+O-O 9. O-O Bf6 10. Qc2 Bxb2 11. Qxb2 b6 12. Rd1 Bb7 13. d3 Qf6 14. Qxf6 Nxf6 15.
+Nbd2 Rad8 16. Nc4 Rfe8 17. Nfe5 Nxe5 18. Nxe5 Nd5 19. Bf3 f6 20. Nc4 Ba6 21.
+Rac1 Ne7 22. Nb2 e5 23. b4 cxb4 24. axb4 Rd7 25. Ra1 Bb5 26. d4 exd4 27. Rxd4
+Rxd4 28. exd4 Nf5 29. h3 a6 30. Na4 Nxd4 31. Bd5+ Kf8 32. Nxb6 Nc2 33. Rb1 Rb8
+34. Be4 Nxb4 35. Rxb4 Rxb6 36. Bxh7 Ke7 37. f4 Kd6 38. g4 Kc5 39. Rb1 a5 40. Bg8
+a4 41. g5 a3 42. h4 Ra6 43. Ba2 Ra4 44. gxf6 gxf6 45. h5 Bc4 46. Rc1 Kb5 47.
+Rb1+ Ka5 48. Bxc4 Rxc4 49. Kg2 Rxf4 50. Kg3 Rc4 51. h6 Ka4 52. Rh1 Rc8 53. Kg4
+a2 54. Kf5 Rh8 55. Kg6 Kb3 56. Kg7 Ra8 57. Kxf6 a1=Q+ 58. Rxa1 Rxa1 59. h7 Rh1
+60. Kg7 Rxh7+ 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.08"]
+[Round "7.4"]
+[Board "24"]
+[White "Ziaziulkina, Nastassia"]
+[Black "Szczepkowska-Horowska, Karina"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "WGM"]
+[WhiteElo "2345"]
+[BlackElo "2398"]
+[ECO "B33"]
+[Opening "Sicilian"]
+[Variation "Pelikan, Chelyabinsk variation"]
+[WhiteFideId "13505211"]
+[BlackFideId "1122681"]
+[EventDate "2013.02.02"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3
+b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c4 b4 12. Nc2 O-O 13. Be2 a5 14. O-O Bg5 15. Qd3
+Be6 16. Rad1 Ra7 17. Nde3 Qb6 18. h3 a4 19. b3 axb3 20. axb3 Bxe3 21. Nxe3 Rd8
+22. Bg4 Qc5 23. Rd2 g6 24. Rfd1 Ra3 25. Nc2 Ra2 26. Ra1 Rxa1+ 27. Nxa1 Qd4 28.
+Nc2 Qc3 29. Bd1 Qxd3 30. Rxd3 Kf8 31. f3 Ke7 32. Kf2 Ra8 33. Ke3 f5 34. Kd2 Rf8
+35. Be2 h6 36. Ke1 Ra8 37. Kd2 h5 38. Kc1 Rf8 39. Kd2 g5 40. Ke3 f4+ 41. Kf2 Ra8
+42. Ke1 Bf7 43. Kd1 Be6 44. Ke1 Rg8 45. Rd1 g4 46. hxg4 hxg4 47. Ra1 gxf3 48.
+Bxf3 Bxc4 49. Nxb4 Nxb4 50. Ra7+ Kf6 51. bxc4 Nd3+ 52. Kd2 Nc5 53. Rh7 Rb8 54.
+Rh6+ Ke7 55. Rh7+ Kd8 56. Rh1 Rb2+ 57. Kc3 Rb3+ 58. Kd2 Rd3+ 59. Kc2 Rd4 60. Kc3
+Nxe4+ 61. Kb4 Nf6 62. Kc3 Ne4+ 63. Kb4 Nd2 64. Bd5 Nxc4 65. Bxc4 d5 66. Rh5 Re4
+67. Kc5 dxc4 68. Kd6 Ke8 69. Ke6 Kd8 70. Kd6 Kc8 71. Kc6 Rd4 72. Rxe5 c3 73. Rc5
+Rd3 74. Kb5+ Kd7 75. Kb4 Ke6 76. Rxc3 Rd4+ 77. Kb3 Re4 78. g3 fxg3 79. Rxg3 Ke5 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.08"]
+[Round "7.5"]
+[Board "25"]
+[White "Vasilevich, Irina"]
+[Black "Enkhtuul, Altanulzii"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "WIM"]
+[WhiteElo "2370"]
+[BlackElo "2148"]
+[ECO "A01"]
+[Opening "Nimzovich-Larsen attack"]
+[Variation "classical variation"]
+[WhiteFideId "4141296"]
+[BlackFideId "4901444"]
+[EventDate "2013.02.02"]
+
+1. b3 d5 2. Bb2 c6 3. g3 Bf5 4. Bg2 e6 5. Nf3 Nf6 6. O-O Be7 7. d3 h6 8. Nbd2
+O-O 9. c4 a5 10. a3 Nbd7 11. Re1 Bh7 12. Qc2 Qb8 13. Rac1 Qa7 14. cxd5 exd5 15.
+Qc3 Rfe8 16. Bh3 Bf8 17. Nf1 Nc5 18. Nd4 Qb6 19. Ne3 a4 20. Ndf5 Bxf5 21. Nxf5
+Ne6 22. b4 Rad8 23. Qc2 Ng5 24. Bg2 c5 25. bxc5 Bxc5 26. Qxc5 Qxb2 27. Rb1 Qe5
+28. Ne3 Rc8 29. Qb5 Rcd8 30. h4 Ne6 31. Qxa4 d4 32. Nc4 Qf5 33. Qb5 Nc5 34. Nd2
+Ng4 35. Nf3 g6 36. Bh3 h5 37. Bxg4 hxg4 38. Nxd4 Rxd4 39. Qxe8+ Kg7 40. Rb4 Rd7
+41. Rb5 Rd6 42. Qe7 Qd5 43. Qg5 f5 44. Qe7+ Kg8 45. Ra5 b6 46. Qe8+ Kh7 47. Ra8
+Qd4 48. Qg8+ Kh6 49. Qh8+ Qxh8 50. Rxh8+ Kg7 51. Rb8 Kf6 52. Rb1 Nd7 53. Rc8 Nc5
+54. Rb4 Ke6 55. Kg2 Kd7 56. Rg8 Re6 57. e3 Kc6 58. Rc8+ Kd7 59. Rh8 Kc6 60. Rc4
+Kb5 61. Rb4+ Kc6 62. d4 Ne4 63. h5 gxh5 64. Rxh5 Nd6 65. Rh8 Nf7 66. Rf8 Nd6 67.
+Rb8 b5 68. a4 bxa4 69. Rxa4 Kc7 70. Rf8 Kb7 71. Ra5 Kc7 72. Rc5+ Kd7 73. Ra8 Rf6
+74. Ra7+ Ke8 75. Rc6 f4 76. gxf4 Rh6 77. Raa6 g3 78. Rxd6 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.09"]
+[Round "8.1"]
+[Board "21"]
+[White "Saulina, Varvara"]
+[Black "Enkhtuul, Altanulzii"]
+[Result "1-0"]
+[WhiteTitle "WF"]
+[BlackTitle "WIM"]
+[WhiteElo "2272"]
+[BlackElo "2148"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "4194950"]
+[BlackFideId "4901444"]
+[EventDate "2013.02.02"]
+
+1. Nf3 g6 2. d4 Bg7 3. c4 c5 4. e4 Qb6 5. dxc5 Qb4+ 6. Qd2 Na6 7. Nc3 Bxc3 8.
+bxc3 Qxc5 9. Qd4 Qxd4 10. cxd4 d6 11. Rb1 Nf6 12. e5 dxe5 13. Nxe5 O-O 14. Ba3
+Bf5 15. Rxb7 Rfb8 16. Rb3 Bc2 17. Rxb8+ Rxb8 18. Kd2 Bf5 19. Bd3 Bxd3 20. Kxd3
+e6 21. Nc6 Rb7 22. f3 Kg7 23. Rc1 h5 24. h4 Ne8 25. Rc3 Rc7 26. Na5 Nb8 27. Rb3
+Nc6 28. Nxc6 Rxc6 29. d5 exd5 30. cxd5 Ra6 31. Kc4 Kf6 32. Rd3 Nd6+ 33. Bxd6
+Rxd6 34. Kc5 Rd8 35. Kc6 Ke5 36. d6 Kf4 37. Kc7 Ra8 38. d7 Kg3 39. Rd2 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.09"]
+[Round "8.2"]
+[Board "22"]
+[White "Szczepkowska-Horowska, Karina"]
+[Black "Vasilevich, Irina"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "IM"]
+[WhiteElo "2398"]
+[BlackElo "2370"]
+[ECO "B84"]
+[Opening "Sicilian"]
+[Variation "Scheveningen (Paulsen), classical variation"]
+[WhiteFideId "1122681"]
+[BlackFideId "4141296"]
+[EventDate "2013.02.02"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. O-O Be7 8. Be3
+O-O 9. f4 Qc7 10. g4 Nfd7 11. g5 Re8 12. Bd3 Bf8 13. Qh5 g6 14. Qh4 Nc6 15. Rf3
+Bg7 16. Nb3 b5 17. a3 Nf8 18. Raf1 Bb7 19. Qf2 b4 20. axb4 Nxb4 21. Bd4 Bxd4 22.
+Qxd4 Nxd3 23. cxd3 Bc6 24. Qf2 Rab8 25. Nd4 Ba8 26. Re3 Qa7 27. Re2 Rb4 28. Nf3
+Qxf2+ 29. Kxf2 Nd7 30. d4 Reb8 31. Ra1 R8b6 32. Kg3 Kg7 33. Na4 Rb8 34. Nc3 R8b6
+35. Na4 Rc6 36. Nc3 Rcb6 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.09"]
+[Round "8.3"]
+[Board "23"]
+[White "Saduakassova, Dinara"]
+[Black "Ziaziulkina, Nastassia"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "WGM"]
+[WhiteElo "2312"]
+[BlackElo "2345"]
+[ECO "D11"]
+[Opening "QGD Slav"]
+[Variation "4.e3"]
+[WhiteFideId "13700090"]
+[BlackFideId "13505211"]
+[EventDate "2013.02.02"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bg4 5. h3 Bxf3 6. Qxf3 e6 7. Bd3 Bb4+ 8. Nd2
+O-O 9. O-O Nbd7 10. a3 Ba5 11. b4 Bc7 12. Bb2 e5 13. cxd5 cxd5 14. dxe5 Nxe5 15.
+Qe2 Qd6 16. Bxe5 Qxe5 17. Nf3 Qe7 18. Rfd1 Rfd8 19. Bc2 Bd6 20. Nd4 g6 21. Bb3
+a5 22. bxa5 Bxa3 23. Qb5 Ra6 24. Nc2 Bc5 25. Ra4 Raa8 26. Nd4 Ne4 27. Rc1 Rac8
+28. Qf1 Ng3 29. Qe1 Ne4 30. Rc2 Qd7 31. Qf1 Be7 32. Ra1 Rxc2 33. Bxc2 Bh4 34.
+Bxe4 dxe4 35. Qb5 Bf6 36. Rb1 Bxd4 37. exd4 Qxb5 38. Rxb5 Rd7 1/2-1/2
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.09"]
+[Round "8.4"]
+[Board "24"]
+[White "Savina, Anastasia"]
+[Black "Pustovoitova, Daria"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2339"]
+[BlackElo "2257"]
+[ECO "A40"]
+[Opening "Modern defence"]
+[WhiteFideId "4196872"]
+[BlackFideId "4182146"]
+[EventDate "2013.02.02"]
+
+1. d4 g6 2. c4 Bg7 3. e4 c5 4. d5 d6 5. Nc3 Bxc3+ 6. bxc3 Qa5 7. Qc2 f5 8. Bd3
+fxe4 9. Bxe4 Nf6 10. Bd3 Bf5 11. Bxf5 gxf5 12. Ne2 Nbd7 13. O-O Qa6 14. Ng3 Qxc4
+15. Nxf5 Nxd5 16. Bg5 Rg8 17. Rae1 Ne5 18. f4 Qd3 19. Qxd3 Nxd3 20. c4 Nxe1 21.
+Rxe1 h6 22. Nxh6 Rxg5 23. fxg5 Nf4 24. Nf5 Kd7 25. Rxe7+ Kc6 26. Re4 Ng6 27. Re6
+Ne5 28. Rxd6+ Kc7 29. Rd5 Nd7 30. g6 Rg8 31. g7 a6 32. h4 b5 33. cxb5 axb5 34.
+h5 Nf6 35. h6 c4 36. Rxb5 Kc6 37. Re5 c3 38. Re3 c2 39. Rc3+ Kd5 40. Ne7+ Kd4
+41. Rxc2 Re8 42. Rc6 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.09"]
+[Round "8.5"]
+[Board "25"]
+[White "Girya, Olga"]
+[Black "Drozdova, Dina"]
+[Result "1-0"]
+[WhiteTitle "WGM"]
+[WhiteElo "2441"]
+[BlackElo "2286"]
+[ECO "A40"]
+[Opening "Modern defence"]
+[WhiteFideId "4195752"]
+[BlackFideId "4170695"]
+[EventDate "2013.02.02"]
+
+1. d4 g6 2. Nf3 Bg7 3. c4 c5 4. d5 f5 5. g3 b5 6. cxb5 a6 7. bxa6 d6 8. Bg2 Nf6
+9. O-O O-O 10. Nc3 Nxa6 11. Ng5 Nc7 12. Qc2 Bb7 13. Rd1 Ra6 14. Rb1 Qa8 15. b4
+h6 16. Nh3 cxb4 17. Rxb4 e5 18. Qb2 Ra7 19. Be3 Na6 20. Bxa7 Nxb4 21. Qxb4 Qxa7
+22. Rb1 Qd4 23. Qxd4 exd4 24. Nb5 Bxd5 25. a4 Bxg2 26. Kxg2 Nd5 27. Nf4 Nxf4+
+28. gxf4 Re8 29. Kf3 g5 30. Nxd6 g4+ 31. Kg3 Rxe2 32. Nxf5 d3 33. Rb8+ Bf8 34.
+Nxh6+ Kg7 35. Nxg4 Re6 36. Ne3 d2 37. Rb1 Ra6 38. Rb7+ Kf6 39. Rd7 Bd6 40. Kf3
+Ke6 41. Rh7 Rxa4 42. f5+ Ke5 43. Rh6 Rf4+ 44. Kg3 Bc7 45. Re6+ Kd4 46. Rc6 d1=Q
+47. Nxd1 Be5 48. Kg2 Rxf5 49. Rg6 Kd3 50. Ne3 Rf8 51. Ng4 Bd4 52. Re6 Kc4 53.
+Kg3 Kd5 54. Re2 Bc5 55. f3 Bd6+ 56. Kg2 Bf4 57. Re4 Bd6 58. Ne3+ Kc6 59. h4 Ra8
+60. f4 Ra3 61. Nc4 Kd5 62. Nxd6 Kxd6 63. Re5 Kd7 64. Kf2 Rh3 65. h5 Kd6 66. Kg2
+Ra3 67. h6 Ra7 68. Kg3 Rh7 69. Ra5 Ke6 70. Kg4 Rh8 71. Ra6+ Kf7 72. Kh5 Rb8 73.
+Ra7+ Kg8 74. f5 Rb6 75. Kg5 Rb1 76. Ra8+ Kh7 77. Ra7+ Kg8 78. Kg6 Rg1+ 79. Kf6
+Rb1 80. Re7 Rb6+ 81. Kg5 Rb1 82. Re8+ Kh7 83. Kf6 Rf1 84. Rf8 Ra1 85. Rd8 Rf1
+86. Rd4 Rf2 87. Kg5 Rg2+ 88. Kf6 Rf2 89. Rh4 Ra2 90. Re4 Rf2 91. Re1 Rf3 92. Re8
+Rf1 93. Re2 Rf3 94. Re1 Rf2 95. Rd1 Rf3 96. Rd4 Rf1 97. Rb4 Rf2 98. Rb8 Rf1 99.
+Rf8 Ra1 100. Rd8 Rf1 101. Rc8 Rf2 102. Rc3 Rf1 103. Rg3 Ra1 104. Kg5 Rf1 105. f6
+Rf2 106. Rg4 Rf1 107. Rf4 Rg1+ 108. Kf5 Rg8 109. f7 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.10"]
+[Round "9.1"]
+[Board "21"]
+[White "Drozdova, Dina"]
+[Black "Saulina, Varvara"]
+[Result "1-0"]
+[BlackTitle "WF"]
+[WhiteElo "2286"]
+[BlackElo "2272"]
+[ECO "C23"]
+[Opening "Bishop's opening"]
+[WhiteFideId "4170695"]
+[BlackFideId "4194950"]
+[EventDate "2013.02.02"]
+
+1. e4 e5 2. Bc4 Nc6 3. d3 Nf6 4. Nc3 Na5 5. Bb5 c6 6. Ba4 b5 7. Bb3 b4 8. Nce2
+Nxb3 9. axb3 d5 10. Ng3 h5 11. h4 Bc5 12. Bg5 Qb6 13. Qe2 Ng4 14. Nh3 f6 15. Bd2
+Kf7 16. O-O Be6 17. Kh1 Rae8 18. Rae1 Bc8 19. f3 Nh6 20. Be3 Bxe3 21. Qxe3 Bxh3
+22. gxh3 Qxe3 23. Rxe3 g6 24. Ra1 Re7 25. Ra6 Rc8 26. Re1 Rb7 27. Rea1 Rcc7 28.
+R1a5 d4 29. Ne2 Ke6 30. Kg2 Nf7 31. f4 Nd6 32. Ng1 Rb5 33. Nf3 Rxa5 34. Rxa5 Nf7
+35. Kg3 Kd6 36. Nd2 exf4+ 37. Kxf4 Ne5 38. Nf3 Nxf3 39. Kxf3 Rb7 40. Ke2 Rf7 41.
+Ra1 f5 42. Rg1 Rf6 43. Rg5 Re6 44. Kf3 fxe4+ 45. dxe4 c5 46. Rd5+ Kc6 47. Rg5 a5
+48. Kf4 Kb5 49. e5 c4 50. Ke4 Kc5 51. bxc4 Kxc4 52. Rg3 Kc5 53. b3 Rc6 54. Rg2
+Ra6 55. Rd2 a4 56. bxa4 Rxa4 57. Rxd4 b3 58. Rxa4 b2 59. Ra8 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.10"]
+[Round "9.2"]
+[Board "22"]
+[White "Pustovoitova, Daria"]
+[Black "Girya, Olga"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "WGM"]
+[WhiteElo "2257"]
+[BlackElo "2441"]
+[ECO "A09"]
+[Opening "Reti"]
+[Variation "advance variation"]
+[WhiteFideId "4182146"]
+[BlackFideId "4195752"]
+[EventDate "2013.02.02"]
+
+1. Nf3 d5 2. c4 d4 3. b4 c5 4. Bb2 Nf6 5. bxc5 Nc6 6. e3 e5 7. exd4 exd4 8. d3
+Bxc5 9. Nbd2 O-O 10. Be2 a5 11. Nb3 Bb4+ 12. Kf1 Bc3 13. Bxc3 dxc3 14. Qc2 a4
+15. Nc1 Qa5 16. Rb1 Bd7 17. a3 Rfe8 18. Na2 Qc5 19. Qxc3 Na5 20. Qb4 Qf5 21. Nc3
+Nb3 22. Nd1 Bc6 23. Ne3 Qf4 24. h3 Nh5 25. Re1 Rxe3 26. fxe3 Qxe3 27. Qd6 Bxf3
+28. gxf3 Nf4 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.10"]
+[Round "9.3"]
+[Board "23"]
+[White "Ziaziulkina, Nastassia"]
+[Black "Savina, Anastasia"]
+[Result "0-1"]
+[WhiteTitle "WGM"]
+[BlackTitle "IM"]
+[WhiteElo "2345"]
+[BlackElo "2339"]
+[ECO "B40"]
+[Opening "Sicilian"]
+[Variation "Anderssen variation"]
+[WhiteFideId "13505211"]
+[BlackFideId "4196872"]
+[EventDate "2013.02.02"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Bd3 Nc6 6. Nxc6 bxc6 7. O-O e5 8.
+Nc3 Be7 9. Qe2 d6 10. Ba6 Bg4 11. f3 Be6 12. Bc4 O-O 13. Bxe6 fxe6 14. b3 Nh5
+15. g3 Qe8 16. Ba3 d5 17. Bxe7 Qxe7 18. Na4 Qg5 19. Rad1 Nf4 20. Qd2 Nh3+ 21.
+Kg2 Qh5 22. Nc5 Rf6 23. exd5 exd5 24. c4 Ng5 25. Qe3 Raf8 26. Nd7 Qh3+ 27. Kh1
+Rxf3 28. Rxf3 Nxf3 0-1
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.10"]
+[Round "9.4"]
+[Board "24"]
+[White "Vasilevich, Irina"]
+[Black "Saduakassova, Dinara"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "WGM"]
+[WhiteElo "2370"]
+[BlackElo "2312"]
+[ECO "C52"]
+[Opening "Evans gambit"]
+[WhiteFideId "4141296"]
+[BlackFideId "13700090"]
+[EventDate "2013.02.02"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Ba5 6. d4 exd4 7. Qb3 Qe7 8. O-O
+Bb6 9. cxd4 Nxd4 10. Nxd4 Bxd4 11. Nc3 Nf6 12. Nb5 Be5 13. Ba3 d6 14. Rac1 c6
+15. f4 Bxf4 16. Rxf4 cxb5 17. Bxb5+ Bd7 18. e5 Qxe5 19. Bxd7+ Nxd7 20. Rxf7 Rf8
+21. Rxf8+ Nxf8 22. Qxb7 Qe3+ 23. Kh1 Rd8 24. Rf1 Qe7 25. Qb5+ Nd7 26. Qh5+ g6
+27. Qb5 Qe6 28. Qa6 Ne5 29. Qxa7 Qc4 30. Re1 Qc3 31. Qa4+ Kf7 32. Rf1+ Ke6 33.
+Qa7 Qd3 34. Kg1 Rd7 35. Qa8 Qe3+ 36. Kh1 Rf7 37. Qe8+ Re7 38. Qc8+ Kd5 39. Qa8+
+Ke6 40. Qc8+ Kd5 41. Qg8+ Kc6 42. Rc1+ Kb7 43. Qc8+ Ka7 44. Bxd6 Nc6 45. Rg1 1-0
+
+[Event "Moscow Open G 2013"]
+[Site "Moscow RUS"]
+[Date "2013.02.10"]
+[Round "9.5"]
+[Board "25"]
+[White "Enkhtuul, Altanulzii"]
+[Black "Szczepkowska-Horowska, Karina"]
+[Result "1/2-1/2"]
+[WhiteTitle "WIM"]
+[BlackTitle "WGM"]
+[WhiteElo "2148"]
+[BlackElo "2398"]
+[ECO "E05"]
+[Opening "Catalan"]
+[Variation "open, classical line"]
+[WhiteFideId "4901444"]
+[BlackFideId "1122681"]
+[EventDate "2013.02.02"]
+
+1. Nf3 Nf6 2. d4 d5 3. c4 dxc4 4. g3 e6 5. Bg2 Be7 6. O-O O-O 7. Na3 Nbd7 8.
+Nxc4 c6 9. Nfe5 Nb6 10. Na5 Nbd5 11. Nb3 a5 12. e4 Nc7 13. Be3 Na6 14. a3 Nd7
+15. Nd3 a4 16. Nd2 b5 17. e5 Bb7 18. Rc1 Rc8 19. Qg4 Kh8 20. Qh3 Nc7 21. Be4 g6
+22. Nf4 Rg8 23. Bxc6 Bxc6 24. Rxc6 Nd5 25. Rxc8 Qxc8 26. Nxd5 exd5 27. Qg4 Nb6
+28. Qf3 Qe6 29. Nb1 Rc8 30. Rc1 Kg8 31. Nc3 b4 32. axb4 Bxb4 33. Na2 Bf8 34. Qd1
+Qf5 35. Rxc8 Qxc8 36. Qc1 Qd7 37. Qc2 Qb5 38. Nc3 Qc4 39. Qe2 Qxe2 40. Nxe2 Bb4
+41. Nc1 Nc4 42. Na2 Ba5 43. Bc1 Bb6 44. Nc3 Bxd4 45. Nxa4 Bxe5 46. Kf1 Kf8 47.
+Ke2 Ke7 48. b3 Na5 49. b4 Nc6 50. Bd2 Bd6 51. Nc5 Bxc5 52. bxc5 Nd8 53. Bb4 Kd7
+54. Kf3 Ne6 55. Ke3 Kc6 56. f4 f5 57. Ba3 h5 58. Kd3 h4 59. gxh4 Nxf4+ 60. Kd4
+Ng2 61. Ke5 f4 62. Bb2 Kxc5 63. Bd4+ Kc4 64. Bf2 Kd3 65. Kxd5 Ke2 66. Bg1 Kf3
+67. Ke5 Nxh4 68. h3 Nf5 69. Kf6 Ng3 70. Kg5 Ne2 71. Bb6 Ke4 72. h4 f3 73. Bf2
+Nf4 74. Bg3 Nh5 75. Bf2 Kd3 76. Kxg6 Ke2 77. Bb6 Nf4+ 78. Kg5 Nd5 79. Bg1 Kf1
+80. Ba7 Ke2 81. Bg1 Kf1 82. Ba7 1/2-1/2
+

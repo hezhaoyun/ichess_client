@@ -1,0 +1,154 @@
+[Event "Karpov-Sveshnikov Rapid m"]
+[Site "Riga LAT"]
+[Date "2015.07.07"]
+[Round "1"]
+[White "Karpov, Anatoly"]
+[Black "Sveshnikov, Evgeny"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2628"]
+[BlackElo "2508"]
+[ECO "D30"]
+[Opening "Queen's gambit declined"]
+[WhiteFideId "4100026"]
+[BlackFideId "4100638"]
+[EventDate "2015.07.07"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. e3 c5 5. Nc3 Nc6 6. cxd5 Nxd5 7. Bb5 cxd4 8.
+Nxd4 Nxc3 9. bxc3 Bd7 10. O-O Nxd4 11. Bxd7+ Qxd7 12. cxd4 Be7 13. a4 O-O 14.
+Qb3 Rfc8 15. Bd2 Rc6 16. Rab1 Rb6 17. Qa2 Ra6 18. a5 Bd8 19. Qb3 Bxa5 20. Bxa5
+Rxa5 21. Qxb7 Qxb7 22. Rxb7 Rc8 23. Rfb1 g6 24. h3 Rc2 25. R1b2 Rxb2 26. Rxb2
+Ra1+ 27. Kh2 h5 28. g4 hxg4 29. hxg4 a5 30. g5 a4 31. Rb8+ Kg7 32. Ra8 a3 33.
+Kg3 Rg1+ 34. Kf4 Rg2 35. f3 a2 36. e4 Kh7 37. Ke5 Kg7 38. f4 Rb2 39. d5 exd5 40.
+exd5 Re2+ 41. Kd6 Rd2 42. Kc6 Rc2+ 43. Kd7 Rd2 44. d6 Rc2 45. Ke7 Re2+ 46. Kd8
+Rd2 1/2-1/2
+
+[Event "Karpov-Sveshnikov Rapid m"]
+[Site "Riga LAT"]
+[Date "2015.07.07"]
+[Round "2"]
+[White "Sveshnikov, Evgeny"]
+[Black "Karpov, Anatoly"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2508"]
+[BlackElo "2628"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "4100638"]
+[BlackFideId "4100026"]
+[EventDate "2015.07.07"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. d4 cxd4 6. Nxd4 Nxd4 7. Qxd4 Nc6 8.
+Qc3 Qf6 9. Qxf6 gxf6 10. Be3 Bd6 11. Nd2 a6 12. Be2 b5 13. a4 Rb8 14. axb5 axb5
+15. f4 Bc7 16. c3 Ke7 17. b4 d6 18. Nb3 Bb6 19. Kf2 Rd8 20. Rfd1 Bxe3+ 21. Kxe3
+Rb6 22. Ra8 Bd7 23. Rxd8 Nxd8 24. Ra1 e5 25. f5 Bc6 26. Ra7+ Rb7 27. Ra6 Bd7 28.
+Na5 Rb8 29. Ra7 Ke8 30. Rc7 1-0
+
+[Event "Karpov-Sveshnikov Rapid m"]
+[Site "Riga LAT"]
+[Date "2015.07.08"]
+[Round "3"]
+[White "Karpov, Anatoly"]
+[Black "Sveshnikov, Evgeny"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2628"]
+[BlackElo "2508"]
+[ECO "D30"]
+[Opening "Queen's gambit declined"]
+[WhiteFideId "4100026"]
+[BlackFideId "4100638"]
+[EventDate "2015.07.07"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. e3 c5 5. cxd5 exd5 6. Bb5+ Nc6 7. O-O cxd4 8.
+Nxd4 Bd7 9. b3 Bd6 10. Bb2 O-O 11. Be2 Qe7 12. Nd2 Ba3 13. Bxa3 Qxa3 14. N2f3
+Rac8 15. Qc1 Qxc1 16. Rfxc1 Nxd4 17. Nxd4 a6 18. f3 Rxc1+ 19. Rxc1 Rc8 20. Rd1
+h5 21. h4 Kf8 22. Kf2 Ke7 23. Kg3 Ne8 24. Kf4 Nc7 25. Bd3 Ne6+ 26. Nxe6 Bxe6 27.
+Ke5 f6+ 28. Kd4 g5 29. Rh1 Bf7 30. Bf5 Rg8 31. g4 hxg4 32. fxg4 gxh4 33. Rxh4 b6
+34. Rh7 a5 35. a3 Kf8 36. b4 axb4 37. axb4 Ke7 38. Kd3 Rf8 39. Kc3 Rg8 40. Kd4
+Kf8 41. Rh2 Ke7 42. Ra2 Be6 43. Ra6 Bxf5 44. gxf5 Rg5 45. Rxb6 Rxf5 46. b5 Kd7
+47. Rc6 Re5 48. Rxf6 Re4+ 49. Kd3 Rc4 50. b6 Rb4 1-0
+
+[Event "Karpov-Sveshnikov Rapid m"]
+[Site "Riga LAT"]
+[Date "2015.07.08"]
+[Round "4"]
+[White "Sveshnikov, Evgeny"]
+[Black "Karpov, Anatoly"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2508"]
+[BlackElo "2628"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "4100638"]
+[BlackFideId "4100026"]
+[EventDate "2015.07.07"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. Bxc6 bxc6 5. d3 Ne7 6. h4 h5 7. Qe2 Ng6 8. e5
+f6 9. Nc3 Qc7 10. exf6 gxf6 11. Rh3 d5 12. Rg3 Kf7 13. d4 Bd6 14. Ne5+ fxe5 15.
+Qf3+ Kg7 16. Ne4 dxe4 17. Qxe4 Qf7 18. Rf3 Qe8 19. dxc5 Bxc5 20. Bg5 Rf8 21.
+O-O-O Be7 22. Rxf8 Qxf8 23. Qxc6 Rb8 24. g3 Rb6 25. Qc7 Rb7 26. Qc6 Bxg5+ 27.
+hxg5 Rf7 28. Qh1 Rxf2 29. Qxh5 Qh8 30. Qg4 Rf7 31. b3 Qh2 32. Qc4 Bb7 33. Qxe6
+Qxg3 34. Kb2 Qxg5 35. Rd6 Qf6 36. Qxf6+ Rxf6 37. Rd7+ Rf7 0-1
+
+[Event "Karpov-Sveshnikov Rapid m"]
+[Site "Riga LAT"]
+[Date "2015.07.09"]
+[Round "5"]
+[White "Karpov, Anatoly"]
+[Black "Sveshnikov, Evgeny"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2628"]
+[BlackElo "2508"]
+[ECO "E10"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "4100026"]
+[BlackFideId "4100638"]
+[EventDate "2015.07.07"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. e3 c5 5. cxd5 exd5 6. Bb5+ Nc6 7. O-O Bd6 8.
+dxc5 Bxc5 9. Bxc6+ bxc6 10. Qc2 Qd6 11. b3 O-O 12. Bb2 Ne4 13. Rc1 Bd7 14. Nfd2
+Nxd2 15. Qxc5 Qxc5 16. Rxc5 Ne4 17. Rc1 Rfe8 18. Ba3 a5 19. f3 Ng5 20. h4 Ne6
+21. Nc3 d4 22. exd4 Nxd4 23. Rd1 Nc2 24. Rac1 Bf5 25. Bc5 h5 26. Rd2 Nb4 27.
+Bxb4 axb4 28. Na4 Rad8 29. Rxd8 Rxd8 30. Rxc6 Rd1+ 31. Kh2 Bd7 32. Ra6 Rd2 33.
+Nc5 Bb5 34. Ra8+ Kh7 35. Ne4 Rb2 36. Ng5+ Kg6 37. Nh3 Kf6 38. Nf4 g5 39. Nxh5+
+Ke7 40. hxg5 Bd3 41. Ra4 Bb1 42. Rxb4 Bxa2 43. Re4+ Kf8 44. b4 Bd5 45. Rf4 Ke7
+46. Kg3 Kd6 47. Nf6 Be6 48. Ng4 1-0
+
+[Event "Karpov-Sveshnikov Rapid m"]
+[Site "Riga LAT"]
+[Date "2015.07.09"]
+[Round "6"]
+[White "Sveshnikov, Evgeny"]
+[Black "Karpov, Anatoly"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2508"]
+[BlackElo "2628"]
+[ECO "B40"]
+[Opening "Sicilian defence"]
+[WhiteFideId "4100638"]
+[BlackFideId "4100026"]
+[EventDate "2015.07.07"]
+
+1. e4 c5 2. Nf3 e6 3. b3 d5 4. exd5 exd5 5. Bb5+ Bd7 6. Qe2+ Qe7 7. Nc3 Nf6 8.
+d4 a6 9. Bxd7+ Nbxd7 10. Be3 cxd4 11. Bxd4 Qxe2+ 12. Nxe2 Ba3 13. O-O O-O 14.
+Rfd1 Rfe8 15. Kf1 Rac8 16. c3 Ne4 17. Rab1 Bd6 18. Nd2 Be5 19. Nxe4 dxe4 20. c4
+f5 21. Rd2 Nf6 22. Rbd1 b5 23. cxb5 axb5 24. a4 bxa4 25. bxa4 Bxd4 26. Rxd4 Ra8
+27. h3 Kf7 28. Nf4 g6 29. Rb4 Re7 30. Nd5 Rd7 31. Nc3 Rxd1+ 32. Nxd1 Nd5 33.
+Rb7+ Ke6 34. Ne3 Nxe3+ 35. fxe3 h5 36. Rb6+ Kf7 37. Rb4 h4 38. Ke2 Kf6 39. Kd2
+Rd8+ 40. Ke2 Ra8 41. Kd2 Rd8+ 42. Ke2 Rd3 43. Rb6+ Kg5 44. a5 Ra3 45. a6 Ra2+
+46. Kf1 Ra5 47. Kf2 Kh5 48. Rf6 Ra3 49. Ke2 Ra2+ 50. Kf1 Ra5 51. Ke2 Ra3 52. Kf2
+Kg5 53. Rb6 Ra2+ 54. Kf1 Ra5 55. Re6 1/2-1/2
+

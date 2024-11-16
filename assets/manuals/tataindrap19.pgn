@@ -1,0 +1,1237 @@
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "1.1"]
+[White "Aronian, Levon"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2772"]
+[BlackElo "2741"]
+[ECO "C53"]
+[Opening "Giuoco Piano"]
+[WhiteFideId "13300474"]
+[BlackFideId "2016192"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5 d5 7. Bb5 Ne4 8. cxd4
+Bb6 9. Nc3 Bg4 10. Be3 O-O 11. h3 Bh5 12. Qc2 Nxc3 13. bxc3 f6 14. exf6 Qxf6 15.
+Be2 Bg6 16. Bd3 Bxd3 17. Qxd3 Rae8 18. O-O Qf5 19. Qe2 Qh5 20. Rae1 Na5 21. Qc2
+Nc4 22. Nd2 Qf5 23. Qxf5 Rxf5 24. g4 Nxd2 25. Bxd2 Rxe1 26. Rxe1 Rf3 27. Re3
+Rxe3 28. Bxe3 Ba5 29. Bd2 Kf7 30. Kf1 c6 31. Ke2 Bc7 32. Kd3 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "1.2"]
+[White "So, Wesley"]
+[Black "Carlsen, Magnus"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2870"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Adams attack"]
+[WhiteFideId "5202213"]
+[BlackFideId "1503014"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be7 8. g4 h6
+9. Be3 b5 10. a4 bxa4 11. Rxa4 Bd7 12. Ra1 Nc6 13. Nd5 O-O 14. Nb6 Rb8 15. Nxd7
+Qxd7 16. Bg2 a5 17. O-O Bd8 18. Qf3 Nb4 19. Qe2 a4 20. Nc1 Qc6 21. c3 Na6 22.
+Nd3 Bb6 23. Nxe5 dxe5 24. Qxa6 Rfc8 25. Bxb6 Rxb6 26. Qxa4 Rxb2 27. Qxc6 Rxc6
+28. Ra5 Nd7 29. Rd5 Rb7 30. Rfd1 Nf8 31. Rxe5 Ne6 32. Rc1 Rbc7 33. h4 g5 34.
+hxg5 hxg5 35. Rf5 Rxc3 36. Rxc3 Rxc3 37. e5 Rc4 38. Bd5 Rxg4+ 39. Kh2 Rd4 40.
+Bxe6 fxe6 41. Rf6 Rd5 42. Rg6+ Kf7 43. Rxg5 Rd1 44. f4 Rd3 45. Kg2 Ra3 46. Rg3
+Ra4 47. Kf3 Ra1 48. Kg4 Kg6 49. Kf3+ Kf7 50. Rg2 Ra3+ 51. Kg4 Ra1 52. Rb2 Rg1+
+53. Kf3 Rf1+ 54. Ke3 Re1+ 55. Kf2 Ra1 56. Rb8 Ra3 57. Rb6 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "1.3"]
+[White "Ding, Liren"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2801"]
+[BlackElo "2757"]
+[ECO "E00"]
+[Opening "Catalan opening"]
+[WhiteFideId "8603677"]
+[BlackFideId "5000017"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 Be7 5. Bg2 d5 6. Nf3 O-O 7. O-O Nbd7 8. Qc2
+c6 9. Bf4 b6 10. Nbd2 Nh5 11. e3 Bb7 12. cxd5 cxd5 13. Bc7 Qe8 14. Rfc1 Nhf6 15.
+Bf1 Nb8 16. Ne5 Na6 17. Qb3 Nxc7 18. Rxc7 Rb8 19. Rac1 Bd6 20. R7c2 Qe7 21. Qa4
+Ra8 22. Ba6 Bxa6 23. Qxa6 Bxe5 24. dxe5 Nd7 25. Nf3 Qb4 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "1.4"]
+[White "Harikrishna, Pentala"]
+[Black "Vidit, Santosh Gujrathi"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2731"]
+[BlackElo "2722"]
+[ECO "E06"]
+[Opening "Catalan"]
+[Variation "closed, 5.Nf3"]
+[WhiteFideId "5007003"]
+[BlackFideId "5029465"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. O-O dxc4 7. Qc2 a6 8. a4
+Bd7 9. Qxc4 Bc6 10. Bg5 Bd5 11. Qd3 c5 12. dxc5 Nbd7 13. Nc3 Nxc5 14. Qe3 Bxf3
+15. Bxf3 Qa5 16. Qf4 Ncd7 17. Rad1 Rad8 18. Bxf6 Nxf6 19. Rxd8 Rxd8 20. Bxb7 Qb6
+21. Bf3 Qxb2 22. Qc7 Rd7 23. Qc6 Rd6 24. Qc4 Qb8 25. Kg2 g6 26. Rb1 Rb6 27. Rd1
+Rd6 28. Rxd6 Qxd6 29. Bb7 a5 30. Nb5 Qc5 31. Qf4 Kg7 32. Qd2 Qb4 33. Qxb4 Bxb4
+34. Nd4 Nd7 35. Bc6 Ne5 36. Bb5 Bc3 37. Nc2 g5 38. f4 gxf4 39. gxf4 Ng6 40. e3
+e5 41. Kf3 f5 42. Na3 Kf6 43. Nc4 exf4 44. exf4 Ne7 45. Ne3 Bb4 46. Bc4 Bd6 47.
+h3 h6 48. Nd5+ 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "1.5"]
+[White "Nepomniachtchi, Ian"]
+[Black "Giri, Anish"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2773"]
+[BlackElo "2776"]
+[ECO "E06"]
+[Opening "Catalan"]
+[Variation "closed, 5.Nf3"]
+[WhiteFideId "4168119"]
+[BlackFideId "24116068"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. c4 Nf6 2. g3 e6 3. Nf3 d5 4. d4 Be7 5. Bg2 O-O 6. Qc2 c5 7. dxc5 Qa5+ 8. Nbd2
+Qxc5 9. a3 b5 10. b4 Qc7 11. c5 a5 12. Bb2 Nc6 13. Nd4 Nxd4 14. Bxd4 e5 15. Bb2
+axb4 16. axb4 Rxa1+ 17. Bxa1 d4 18. O-O Be6 19. Qd3 Nd5 20. Bxd5 Bxd5 21. e3 Qc6
+22. exd4 e4 23. Qe3 f5 24. f4 Ra8 25. Bc3 Ra2 26. Ra1 Qa6 27. Qe1 Rxa1 28. Qxa1
+Qe6 29. Qf1 e3 30. Qxb5 Kf7 31. Qd3 exd2 32. Bxd2 Bf6 33. Bc3 Be4 34. Qd2 Qc4
+35. Kf2 Bc6 36. Ke1 Bb5 37. Kd1 Ba4+ 38. Ke1 Qe6+ 39. Kf2 Bc6 40. b5 Bxb5 41. d5
+Qe4 42. Bxf6 gxf6 43. c6 Qc4 44. Qd1 Qc5+ 45. Kg2 Bc4 46. Kh3 Qxd5 47. Qh5+ Kg7
+48. Qe8 Qf3 49. Qd7+ Kg6 50. Qe8+ Bf7 51. Qd7 Qf1+ 52. Kh4 Qg2 0-1
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "2.1"]
+[White "Harikrishna, Pentala"]
+[Black "Ding, Liren"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2731"]
+[BlackElo "2801"]
+[ECO "D86"]
+[Opening "Gruenfeld"]
+[Variation "exchange, classical variation"]
+[WhiteFideId "5007003"]
+[BlackFideId "8603677"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.
+Ne2 Nc6 9. Be3 O-O 10. O-O b6 11. Rc1 Bb7 12. Qd2 e6 13. Rfd1 cxd4 14. cxd4 Rc8
+15. Bb5 Qd6 16. Bf4 e5 17. d5 Na5 18. Be3 Rxc1 19. Rxc1 Rc8 20. h3 Bf8 21. Rxc8
+Bxc8 22. Qc3 Bd7 23. Bxd7 Qxd7 24. Qxe5 Nc4 25. Qd4 Nxe3 26. Qxe3 Qa4 27. Nc3
+Qc2 28. e5 Bc5 29. Qf3 Bxf2+ 30. Qxf2 Qxc3 31. d6 Qxe5 32. Qd2 Qc5+ 33. Kh1 Qc8
+34. d7 Qd8 35. Qd6 f5 36. Kg1 Kf7 37. Kf1 b5 38. Kf2 a5 39. Qd5+ Ke7 40. Qxb5
+Qxd7 41. Qxa5 Qd4+ 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "2.2"]
+[White "Anand, Viswanathan"]
+[Black "So, Wesley"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2757"]
+[BlackElo "2760"]
+[ECO "C84"]
+[Opening "Ruy Lopez"]
+[Variation "closed defence"]
+[WhiteFideId "5000017"]
+[BlackFideId "5202213"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 O-O
+9. Nc3 Na5 10. Ba2 Be6 11. b4 Bxa2 12. Rxa2 Nc6 13. Bg5 Ng4 14. Bd2 Nf6 15. Re1
+Qd7 16. Nd5 Nxd5 17. exd5 Nd8 18. a4 Rb8 19. axb5 axb5 20. Ra7 f5 21. Qa1 Nf7
+22. c4 g5 23. Bc3 g4 24. Nd2 h5 25. Qa6 h4 26. Qc6 Qxc6 27. dxc6 Rfc8 28. Rea1
+bxc4 29. Nxc4 d5 30. Ne3 d4 31. Nxf5 Bg5 32. Be1 Kh7 33. f3 gxf3 34. gxf3 Kg6
+35. Nxh4+ Bxh4 36. Bxh4 Rxb4 37. Rb7 Rxb7 38. cxb7 Rb8 39. Rb1 Nd6 40. Bd8 Rxb7
+41. Rxb7 Nxb7 42. Bxc7 Kf5 43. Bb6 Nd6 44. Kf2 Ne8 45. Ba5 Ng7 46. Bd2 Ne6 47.
+Ke2 Nc5 48. Be1 Ne6 49. Bg3 Nc5 50. Kd2 Na6 51. h4 Nb4 52. h5 Nc6 53. Bh4 Nb4
+54. h6 Kg6 55. Be7 Nc6 56. Bf8 Nd8 57. Bg7 Ne6 58. Bxe5 Kxh6 59. Kc2 Kg6 60. Kb3
+Kf5 61. Bd6 Ng5 62. f4 Nf3 63. Kc4 Ke6 64. Bb8 Kf6 65. Kd5 Kf5 66. Be5 Ne1 67.
+Kxd4 Ng2 68. Kc5 Ne3 69. Bb2 Nd1 70. Be5 Ne3 71. Bb8 Nd1 72. d4 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "2.3"]
+[White "Carlsen, Magnus"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2870"]
+[BlackElo "2773"]
+[ECO "B51"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky (Nimzovich-Rossolimo, Moscow) attack"]
+[WhiteFideId "1503014"]
+[BlackFideId "4168119"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 cxd4 5. Qxd4 a6 6. Be2 Ngf6 7. O-O e5 8.
+Qe3 Nc5 9. Nfd2 b5 10. c4 bxc4 11. Nc3 Bb7 12. Bxc4 Be7 13. b4 Ne6 14. Nb3 Rc8
+15. Na5 Qd7 16. Qd3 O-O 17. Be3 Bd8 18. Nxb7 Qxb7 19. Nd5 Nc7 20. Nxf6+ Bxf6 21.
+Rab1 Rfd8 22. Rfd1 h6 23. f3 Qc6 24. Qb3 Qe8 25. a4 Rb8 26. b5 axb5 27. axb5 Ne6
+28. b6 Bg5 29. Bf2 Nd4 30. Bxd4 exd4 31. Rxd4 Rdc8 32. b7 Rc5 33. Bd5 Qe7 34.
+Rc4 Qc7 35. Rxc5 dxc5 36. g3 Bf6 37. Kg2 Qe7 38. Qb6 Be5 39. Qc6 Kh7 40. f4 Bd4
+41. Qc8 Qd6 42. Qf5+ Kh8 43. Kh3 Qa6 44. e5 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "2.4"]
+[White "Vidit, Santosh Gujrathi"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2722"]
+[BlackElo "2741"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "5029465"]
+[BlackFideId "2016192"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 a6 6. O-O Nc6 7. Nbd2 b5 8. b3
+Rb8 9. Bb2 cxb3 10. Nxb3 Be7 11. Rc1 Bb7 12. Ne1 Na7 13. Bxb7 Rxb7 14. Nd3 O-O
+15. Qc2 Qa8 16. Na5 Rb6 17. Qxc7 Nd5 18. Qc2 Bg5 19. Rcd1 Rc8 20. Nc5 Nc6 21.
+Nab3 a5 22. e4 Ndb4 23. Qb1 a4 24. Nc1 Na6 25. Nxa6 Rxa6 26. d5 Na5 27. Ba1 Nc4
+28. dxe6 Rxe6 29. Rd5 Be7 30. Ne2 Rd6 31. Nf4 Rxd5 32. Nxd5 Bf8 33. Qxb5 Nd2 34.
+Rd1 Nxe4 35. Qe2 Nc5 36. Qg4 Rd8 37. Nf6+ Kh8 38. Rxd8 Qxd8 39. Nh5 Ne6 40. Qxa4
+Qd5 41. Qg4 Qxa2 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "2.5"]
+[White "Giri, Anish"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2776"]
+[BlackElo "2772"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "24116068"]
+[BlackFideId "13300474"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.
+Rxe5 O-O 9. Nc3 Ne8 10. Nd5 Bd6 11. Re1 c6 12. Ne3 Bc7 13. Nf5 d5 14. Ne7+ Kh8
+15. Nxc8 Rxc8 16. d3 f5 17. Qf3 Nf6 18. g3 Ng4 19. d4 Qf6 20. h3 Nh6 21. Bxh6
+Qxh6 22. c3 Qf6 23. Bd3 g6 24. Re2 Rce8 25. Rae1 Rxe2 26. Rxe2 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "3.1"]
+[White "Nakamura, Hikaru"]
+[Black "Giri, Anish"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2741"]
+[BlackElo "2776"]
+[ECO "B51"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky (Nimzovich-Rossolimo, Moscow) attack"]
+[WhiteFideId "2016192"]
+[BlackFideId "24116068"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. Ba4 Nf6 5. O-O e6 6. Re1 a6 7. c3 b5 8. Bc2 c4
+9. a4 Bb7 10. d4 cxd3 11. Qxd3 Nc5 12. Qe2 bxa4 13. Be3 Bxe4 14. Bxc5 Bxc2 15.
+Qxc2 dxc5 16. Qxa4+ Qd7 17. Ne5 Qxa4 18. Rxa4 Bd6 19. Nc4 Bc7 20. Nbd2 Ke7 21.
+Rea1 a5 22. Nb3 Nd7 23. Nbxa5 Bxa5 24. Rxa5 Rxa5 25. Rxa5 e5 26. Kf1 h5 27. h4
+Rb8 28. Ke2 Rb7 29. Kd3 f6 30. Ke4 Rc7 31. Kd5 f5 32. Ra6 e4 33. Ne3 Nf6+ 34.
+Ke5 Rd7 35. Nxf5+ Kf7 36. Nd6+ Ke7 37. Nxe4 Nxe4 38. Kxe4 Rd2 39. Ke3 Rxb2 40.
+Rg6 Kf7 41. Rg5 c4 42. Rc5 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "3.2"]
+[White "So, Wesley"]
+[Black "Harikrishna, Pentala"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2731"]
+[ECO "A14"]
+[Opening "English"]
+[Variation "Neo-Catalan declined"]
+[WhiteFideId "5202213"]
+[BlackFideId "5007003"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. c4 Nf6 2. g3 e6 3. Bg2 d5 4. Nf3 Be7 5. O-O O-O 6. b3 d4 7. Bb2 c5 8. b4 Nc6
+9. b5 Na5 10. d3 Bd6 11. Nbd2 h6 12. e3 e5 13. Re1 Qc7 14. Qc2 Bd7 15. exd4 exd4
+16. Ne4 Nxe4 17. Rxe4 Bf5 18. Re2 Rae8 19. Rae1 Qd7 20. Bc1 b6 21. Bd2 Rxe2 22.
+Rxe2 Re8 23. Bxa5 bxa5 24. Nh4 Rxe2 25. Qxe2 Bg4 26. Bf3 Be6 27. Bc6 Qe7 28. Qe4
+Bh3 29. Qxe7 Bxe7 30. Nf3 Bd6 31. Nd2 Bc7 32. Ne4 Bb6 33. f4 Kf8 34. Nf2 Bc8 35.
+Kg2 f5 36. h4 Ke7 37. Bf3 a4 38. a3 Ba5 39. Nd1 Bb4 40. Nb2 Bxa3 41. Nxa4 Kd6
+42. b6 axb6 43. Nxb6 Kc7 44. Nxc8 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "3.3"]
+[White "Aronian, Levon"]
+[Black "Carlsen, Magnus"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2772"]
+[BlackElo "2870"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf"]
+[WhiteFideId "13300474"]
+[BlackFideId "1503014"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f3 e5 7. Nb3 Be6 8. Be3
+Nbd7 9. g4 Be7 10. Qd2 O-O 11. O-O-O b5 12. g5 Nh5 13. Kb1 Nb6 14. Na5 Rc8 15.
+a3 g6 16. h4 Ng3 17. Rg1 Nxf1 18. Rgxf1 Na4 19. Nxa4 bxa4 20. h5 Qd7 21. Rh1
+Rfe8 22. Qh2 Bf8 23. Bd2 Rc7 24. Bb4 Rb8 25. Rd3 Qb5 26. Rc3 Rbc8 27. Rxc7 Rxc7
+28. Rd1 Rd7 29. Rd3 Be7 30. hxg6 fxg6 31. Qd2 Qb6 32. Qc1 Bd8 33. c4 Qf2 34. Nc6
+Bxg5 35. Qxg5 Qf1+ 36. Kc2 Bxc4 37. Qe3 Bxd3+ 38. Qxd3 Qxd3+ 39. Kxd3 h5 40. Ke3
+Kf7 41. Bc3 Ke6 42. Nb4 g5 43. Kf2 Rf7 44. Kg2 g4 45. fxg4 Rg7 46. Nd5 Rxg4+ 47.
+Kf3 Rg1 48. Kf2 Rg7 49. Kf3 h4 50. Be1 h3 51. Bg3 Rb7 52. Nb4 a5 53. Nd3 Rb3 54.
+Ke2 Kf6 55. Bh2 Kg5 56. Bg3 Kg4 57. Bh2 Rxd3 58. Kxd3 Kf3 59. Kd2 Kxe4 60. Ke2
+d5 61. Bg3 d4 62. Bh2 Kd5 63. Kd2 e4 64. Ke2 Kc4 65. Be5 Kb3 66. Kd2 d3 67. Kd1
+e3 68. Kc1 Kc4 0-1
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "3.4"]
+[White "Nepomniachtchi, Ian"]
+[Black "Anand, Viswanathan"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2773"]
+[BlackElo "2757"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "4168119"]
+[BlackFideId "5000017"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 Bc5 4. Nc3 c6 5. Nf3 e4 6. Nh4 d5 7. d4 Be7 8. cxd5
+cxd5 9. O-O O-O 10. f3 exf3 11. Rxf3 Nc6 12. Nf5 Ne4 13. Rf1 Bf6 14. e3 Nxc3 15.
+bxc3 Be6 16. Rb1 Qd7 17. e4 Rfe8 18. Nh6+ Kh8 19. Rxf6 gxf6 20. Qf3 Kg7 21. exd5
+Bxd5 22. Nf5+ 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.22"]
+[Round "3.5"]
+[White "Ding, Liren"]
+[Black "Vidit, Santosh Gujrathi"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2801"]
+[BlackElo "2722"]
+[ECO "A36"]
+[Opening "English"]
+[Variation "ultra-symmetrical variation"]
+[WhiteFideId "8603677"]
+[BlackFideId "5029465"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. c4 c5 2. g3 g6 3. Bg2 Bg7 4. Nc3 Nc6 5. d3 d6 6. Qd2 Nf6 7. b3 O-O 8. Bb2 Rb8
+9. e3 Bf5 10. h3 Nb4 11. e4 Bd7 12. Nge2 a6 13. O-O b5 14. Nd5 Nc6 15. Nxf6+
+Bxf6 16. Bxf6 exf6 17. cxb5 axb5 18. d4 cxd4 19. Nxd4 Nxd4 20. Qxd4 Be6 21. Rfd1
+Rb6 22. Rd2 b4 23. Rc1 Kg7 24. f4 h5 25. f5 gxf5 26. Rf1 Re8 27. exf5 Bd7 28.
+Qh4 Rh8 29. Bd5 Rb5 30. Kh2 Qe7 31. Rff2 Qe3 32. Qf4 Qxf4 33. Rxf4 Rc8 34. g4
+hxg4 35. hxg4 Bc6 36. Bxc6 Rxc6 37. Rfd4 Rbb6 38. Kg3 Kf8 39. Kf4 Kg7 40. Ke4
+Kf8 41. Kf4 Kg7 42. g5 fxg5+ 43. Kxg5 f6+ 44. Kf4 Kf7 45. Rh2 Rc1 46. Rh7+ Kg8
+47. Ra7 Rf1+ 48. Kg4 Rg1+ 49. Kh5 Rg5+ 50. Kh6 Rxf5 51. Kg6 Rfb5 52. Rxd6 Rg5+
+53. Kxf6 Rxd6+ 54. Kxg5 Kf8 55. Kf5 Ke8 56. Ke5 Rd2 57. Ke4 Kd8 58. Ke3 Rh2 59.
+Kd4 Kc8 60. Kc5 Kb8 61. Ra4 Kc7 62. Ra7+ Kb8 63. Ra4 Kc7 64. Kxb4 Kb6 65. Ra8
+Kb7 66. Ra5 Kb6 67. Rb5+ Ka6 68. a4 Rh4+ 69. Ka3 Rh3 70. Rg5 Kb6 71. a5+ Ka6 72.
+Ka4 Rh1 73. Rg6+ Kb7 74. a6+ Ka7 75. b4 Rh5 76. b5 Rf5 77. Ka5 Rf8 78. Rg7+ Kb8
+79. a7+ Ka8 80. b6 Rf5+ 81. Ka6 Ra5+ 82. Kxa5 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "4.1"]
+[White "Vidit, Santosh Gujrathi"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2722"]
+[BlackElo "2776"]
+[ECO "E61"]
+[Opening "King's Indian defence, 3.Nc3"]
+[WhiteFideId "5029465"]
+[BlackFideId "24116068"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. g3 O-O 5. Bg2 Nc6 6. Bf4 d6 7. Nf3 Bf5 8. d5
+Na5 9. Nd2 c5 10. e4 Bg4 11. Qc2 a6 12. h3 Bd7 13. Rb1 b5 14. b3 e5 15. dxe6
+Bxe6 16. cxb5 axb5 17. Nxb5 Nc6 18. O-O Nb4 19. Qd1 Rxa2 20. Bxd6 Qd7 21. e5 Ne8
+22. Nc3 Nxd6 23. Nxa2 Nxa2 24. exd6 Nc3 25. Qc2 Nxb1 26. Rxb1 Qxd6 27. Ne4 Bf5
+28. Nxd6 Bxc2 29. Rc1 Bxb3 30. Rxc5 Rd8 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "4.2"]
+[White "Anand, Viswanathan"]
+[Black "Aronian, Levon"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2757"]
+[BlackElo "2772"]
+[ECO "C50"]
+[Opening "Giuoco Pianissimo"]
+[WhiteFideId "5000017"]
+[BlackFideId "13300474"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. O-O O-O 6. c3 d6 7. Re1 Bb6 8. h3
+Kh8 9. a4 Ng8 10. b4 a6 11. a5 Ba7 12. d4 f5 13. exf5 Bxf5 14. Be3 exd4 15. Nxd4
+Bxd4 16. Bxd4 Qg5 17. Re3 Nf6 18. Rg3 Qh4 19. Bxf6 Qxf6 20. Nd2 Ne5 21. Bf1 Rae8
+22. Re3 Bd7 23. Ne4 Qf4 24. Ra2 Ng6 25. Qd4 Bc6 26. Rae2 Re5 27. g3 Qf5 28. c4
+d5 29. Nc5 Rxe3 30. Qxe3 dxc4 31. f4 h5 32. Qd4 h4 33. Ne6 Qf6 34. f5 hxg3 35.
+Qxf6 Rxf6 36. fxg6 Rxg6 37. Re3 b5 38. axb6 cxb6 39. Bxc4 a5 40. b5 Bd7 41. Nf8
+Rd6 42. Nxd7 Rxd7 43. Re6 Rd4 44. Bf1 Rd2 45. Rxb6 a4 46. Ra6 Ra2 47. Bd3 g5 48.
+b6 Rb2 49. Be4 a3 50. b7 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "4.3"]
+[White "Carlsen, Magnus"]
+[Black "Nakamura, Hikaru"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2870"]
+[BlackElo "2741"]
+[ECO "A28"]
+[Opening "English"]
+[Variation "four knights, Capablanca variation"]
+[WhiteFideId "1503014"]
+[BlackFideId "2016192"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. d3 d5 5. cxd5 Nxd5 6. e4 Nf4 7. Bxf4 exf4 8.
+d4 Bd6 9. h3 O-O 10. a3 a6 11. Bc4 Kh8 12. e5 Be7 13. d5 Na5 14. Ba2 b5 15. O-O
+f6 16. b4 Nc4 17. Bxc4 bxc4 18. e6 Bb7 19. Qd4 c6 20. Qxc4 cxd5 21. Qxf4 Rc8 22.
+Ne2 Bd6 23. Qe3 a5 24. Ned4 Re8 25. Nf5 Bb8 26. Rac1 Rc4 27. N5d4 axb4 28. axb4
+Ba7 29. b5 Bc5 30. Qd3 Qb6 31. Rxc4 dxc4 32. Qxc4 Bxf3 33. Nxf3 Rxe6 34. g3 Re8
+35. Kg2 Rb8 36. Rc1 Bf8 37. Nd4 h5 38. Ne6 Ba3 39. Rc3 Bb4 40. Qxb4 Qxe6 41. Rc5
+Qf7 42. Qf4 Rd8 43. Qf3 g6 44. b6 Rd7 45. Rc8+ Kg7 46. Qc6 Kh6 47. h4 f5 48. Rc7
+Qd5+ 49. Qxd5 Rxd5 50. b7 Rb5 51. f4 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "4.4"]
+[White "Harikrishna, Pentala"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2731"]
+[BlackElo "2773"]
+[ECO "B51"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky (Nimzovich-Rossolimo, Moscow) attack"]
+[WhiteFideId "5007003"]
+[BlackFideId "4168119"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O a6 5. Bd3 Ngf6 6. c3 b5 7. a4 b4 8. Bc2
+Bb7 9. Re1 Qc7 10. d3 e6 11. a5 Be7 12. h3 O-O 13. Bf4 Rfd8 14. Nbd2 bxc3 15.
+bxc3 Ne5 16. d4 cxd4 17. cxd4 Rac8 18. Ra2 Nc6 19. Qb1 Rb8 20. Bd3 e5 21. Be3
+exd4 22. Nxd4 Ne5 23. Nf5 Rdc8 24. Bb6 Qd7 25. Nxe7+ Qxe7 26. Bf1 Nfd7 27. Ba7
+Bd5 28. Rc2 Rxb1 29. Rxc8+ Nf8 30. Rxb1 Bb7 31. Rb8 Bxe4 32. Rxf8+ 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "4.5"]
+[White "Ding, Liren"]
+[Black "So, Wesley"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2801"]
+[BlackElo "2760"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "4.Nf3"]
+[WhiteFideId "8603677"]
+[BlackFideId "5202213"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 dxc4 7. e3 c5 8. Bxc4
+cxd4 9. Nxd4 Bd7 10. O-O Nc6 11. Nf3 O-O 12. Rc1 Rc8 13. a3 Qb6 14. Na4 Qc7 15.
+b4 a6 16. Bd3 e5 17. Nc5 Rfd8 18. Qb3 Bg4 19. Bxf6 Bxf6 20. Be4 Rd6 21. h3 Bd7
+22. Rc2 Be8 23. Rfc1 Rcd8 24. g4 h5 25. Kg2 hxg4 26. hxg4 b6 27. Nd3 Qd7 28. Kg3
+Rxd3 29. Qxd3 Qxd3 30. Bxd3 Rxd3 31. g5 Be7 32. Rxc6 Bxc6 33. Rxc6 e4 34. Ne5
+Bd6 35. Kf4 Rd5 36. Rc8+ Kh7 37. Re8 Rxe5 38. Rxe5 f6 39. gxf6 gxf6 40. Kxe4
+Bxe5 41. Kd5 Bb2 0-1
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "5.1"]
+[White "Nepomniachtchi, Ian"]
+[Black "Ding, Liren"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2773"]
+[BlackElo "2801"]
+[ECO "C91"]
+[Opening "Ruy Lopez"]
+[Variation "closed, Bogolyubov variation"]
+[WhiteFideId "4168119"]
+[BlackFideId "8603677"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. d4 Bg4 10. Be3 exd4 11. cxd4 Na5 12. Bc2 Nc4 13. Bc1 c5 14. b3 Nb6 15.
+Nbd2 Rc8 16. h3 Bh5 17. a4 cxd4 18. axb5 axb5 19. Bb2 Nbd7 20. Bxd4 Ne5 21. Bb1
+Nfd7 22. Qe2 Bf6 23. g4 Bg6 24. Qxb5 h5 25. Ra7 hxg4 26. hxg4 Nc6 27. Ra4 Nxd4
+28. Nxd4 Nc5 29. Rc4 Rb8 30. Qc6 Re8 31. e5 Bxb1 32. Rxb1 Bxe5 33. N4f3 Nd3 34.
+g5 d5 35. Rh4 g6 36. Qa6 Nc5 37. Qf1 Bg7 38. Qh3 Ne4 39. Kg2 Nxg5 40. Qh2 Nxf3
+41. Nxf3 Re4 42. Rd1 Rxh4 43. Qxh4 Bf6 44. Qa4 Qd6 45. Rc1 d4 46. Qc6 Qf4 47.
+Qd7 Qxc1 0-1
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "5.2"]
+[White "So, Wesley"]
+[Black "Vidit, Santosh Gujrathi"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2722"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "5202213"]
+[BlackFideId "5029465"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. O-O Nd4 6. Nxd4 Bxd4 7. c3 Bb6 8.
+Ba4 O-O 9. Bg5 h6 10. Bh4 g5 11. Bg3 d6 12. Nd2 Bg4 13. Qe1 Be6 14. Kh1 Nh5 15.
+Bb3 Qd7 16. Qe2 Bg4 17. f3 Be6 18. Nc4 Kg7 19. Nxb6 axb6 20. d4 Bxb3 21. axb3 f6
+22. Bf2 Nf4 23. Qc2 h5 24. Be3 h4 25. Bxf4 exf4 26. h3 Rfe8 27. Kh2 Rxa1 28.
+Rxa1 d5 29. Re1 b5 30. Re2 c6 31. Qd3 Re6 32. c4 dxe4 33. Rxe4 Rxe4 34. Qxe4
+bxc4 35. bxc4 Qd6 36. c5 Qd7 37. b4 Qf7 38. Qf5 Qe7 39. Qe4 Qf7 40. Qe2 Qd7 41.
+Qd3 Kf8 42. Qe4 Kg7 43. b5 cxb5 44. d5 b4 45. d6 b3 46. Qb4 Qf7 47. Qd4 Qd7 48.
+Qd5 Qf7 49. Qd4 Qe8 50. Qb4 Qf7 51. Qd2 Qd7 52. Qd3 b2 53. Qb3 Qc6 54. Qxb2 Kf7
+55. Qb3+ Kg6 56. Qd3+ 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "5.3"]
+[White "Nakamura, Hikaru"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2741"]
+[BlackElo "2757"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "2016192"]
+[BlackFideId "5000017"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. O-O Nd4 6. Be3 Nxf3+ 7. Qxf3 Qe7 8.
+c3 Bxe3 9. Qxe3 c6 10. Ba4 O-O 11. Nd2 d5 12. Rfe1 d4 13. cxd4 Qb4 14. Bb3 exd4
+15. Qe2 Nd7 16. f4 Nc5 17. f5 Nxb3 18. axb3 c5 19. Rf1 f6 20. g4 Bd7 21. Qg2 a5
+22. g5 Kh8 23. Rf3 fxg5 24. Qxg5 Qb6 25. Kh1 Qf6 26. Qg2 g6 27. fxg6 Qxg6 28.
+Rg3 Qe6 29. Nf3 Rg8 30. Rg1 Rxg3 31. Qxg3 Rg8 32. Ng5 Qe7 33. Qe5+ Rg7 34. Ne6
+Bxe6 35. Rxg7 Qxg7 36. Qxe6 Qg5 37. Qc8+ Kg7 38. Qxb7+ Kg6 39. Qc6+ Kh5 40. Qe8+
+Kh4 41. Qf7 Qc1+ 42. Kg2 Qg5+ 43. Kh1 Qc1+ 44. Kg2 Qg5+ 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "5.4"]
+[White "Giri, Anish"]
+[Black "Carlsen, Magnus"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2776"]
+[BlackElo "2870"]
+[ECO "B31"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (with ...g6, without ...d6)"]
+[WhiteFideId "24116068"]
+[BlackFideId "1503014"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. Bxc6 bxc6 6. Re1 Qc7 7. h3 d6 8. c3
+Nf6 9. d4 cxd4 10. cxd4 O-O 11. Nc3 Bb7 12. e5 dxe5 13. dxe5 Rfd8 14. Qc2 Nd5
+15. Nxd5 Rxd5 16. e6 f6 17. Be3 a5 18. Bc5 Ba6 19. Rac1 Bh6 20. Be3 Bxe3 21.
+Rxe3 c5 22. Rd1 Rad8 23. Rxd5 Rxd5 24. Qa4 Qd8 25. Re1 Kg7 26. Qc6 Bd3 27. Nd2
+g5 28. Nb3 c4 29. Nc5 Qd6 30. Qxd6 Rxd6 31. Rd1 f5 32. f3 Rd5 33. Nxd3 cxd3 34.
+Kf2 f4 35. Ke1 Re5+ 36. Kf1 Re3 37. Re1 Kf6 38. Kf2 Rxe6 39. Rxe6+ Kxe6 40. Ke1
+Kd5 41. b3 Kd4 42. Kd2 e5 43. a3 h6 44. b4 a4 45. Kd1 Kc4 46. Kd2 h5 47. Kd1 Kd4
+48. Kd2 h4 49. b5 Kc5 50. Kxd3 Kxb5 51. Ke4 Kc4 52. Kxe5 Kb3 53. Kd4 Kxa3 54.
+Kc3 Ka2 55. Kc2 a3 0-1
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "5.5"]
+[White "Aronian, Levon"]
+[Black "Harikrishna, Pentala"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2772"]
+[BlackElo "2731"]
+[ECO "C89"]
+[Opening "Ruy Lopez"]
+[Variation "Marshall counter-attack, 11...c6"]
+[WhiteFideId "13300474"]
+[BlackFideId "5007003"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3
+d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. Re1 Bd6 13. d3 Bf5 14. Qf3 Qh4 15.
+g3 Qh3 16. Bxd5 cxd5 17. Qxd5 Rad8 18. Qg2 Qxg2+ 19. Kxg2 Bxd3 20. Be3 Rfe8 21.
+Nd2 b4 22. Bb6 Rc8 23. Ba5 bxc3 24. Bxc3 f6 25. Rad1 Bf8 26. f3 Kf7 27. Ne4 Red8
+28. g4 Bc4 29. a3 Bb3 30. Rc1 Rb8 31. h4 Be7 32. h5 Rb5 33. Bb4 Bxb4 34. Rc7+
+Kf8 35. axb4 Re5 36. h6 gxh6 37. Rh1 f5 38. gxf5 Rxf5 39. Rxh6 Rf7 40. Rc3 Bd5
+41. Nc5 Rb8 42. Rd6 Ba2 43. Rxa6 Bb1 44. b5 Bf5 45. b6 Rf6 46. Rb3 Rg6+ 47. Kf2
+Bc8 48. b7 Rxb7 49. Rxb7 Rxa6 50. Rxh7 Rc6 51. b4 Bf5 52. Rh4 Ke7 53. Ke3 Rb6
+54. Rd4 Bh3 55. Nd3 Bf5 56. Nf4 Rb8 57. Kd2 Kf6 58. Kc3 Ra8 59. Nd5+ Kg7 60. Rf4
+Be6 61. Ne7 Ra3+ 62. Kd4 Bh3 63. Nc6 Rb3 64. Kc5 Bf1 65. Ne5 Rc3+ 66. Kd6 Rb3
+67. Ke7 Bh3 68. Rd4 Re3 69. f4 Bf1 70. Rd1 Bh3 71. Rg1+ Kh7 72. Rg5 Bf1 73. Kf6
+Re4 74. Rh5+ 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "6.1"]
+[White "So, Wesley"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2773"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Adams attack"]
+[WhiteFideId "5202213"]
+[BlackFideId "4168119"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be7 8. Be3
+Be6 9. f4 exf4 10. Bxf4 Nc6 11. Qe2 Ne5 12. O-O-O Nfd7 13. Kb1 O-O 14. Qe3 Rc8
+15. Be2 Qc7 16. Rhf1 Nb6 17. Qg3 Na4 18. Bd2 b5 19. Nd4 Qc5 20. Nxa4 bxa4 21.
+Qc3 Qa7 22. Qe3 Bc4 23. Nf5 Qb7 24. Bb4 Bxe2 25. Qxe2 Nc4 26. Nxe7+ Qxe7 27. Rd4
+Qe6 28. b3 axb3 29. cxb3 a5 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "6.2"]
+[White "Anand, Viswanathan"]
+[Black "Giri, Anish"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2757"]
+[BlackElo "2776"]
+[ECO "C50"]
+[Opening "Giuoco Pianissimo"]
+[WhiteFideId "5000017"]
+[BlackFideId "24116068"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. O-O d6 6. c3 a6 7. a4 Ba7 8. Re1 O-O
+9. h3 h6 10. Nbd2 Re8 11. b4 Be6 12. Bxe6 Rxe6 13. Qc2 Qd7 14. Nf1 d5 15. Ng3
+Rd8 16. Bb2 b5 17. axb5 axb5 18. Rad1 dxe4 19. dxe4 Rd6 20. Rxd6 cxd6 21. Bc1
+Ne7 22. Be3 Bxe3 23. Rxe3 Qc6 24. Rd3 Ra8 25. Qd1 Ra6 26. Re3 g6 27. Nd2 Kg7 28.
+Nb3 Qc7 29. Nf1 Ra3 30. Nfd2 Nh5 31. Qf1 Qd7 32. Re1 Nf4 33. Kh2 Qc6 34. c4 bxc4
+35. Na5 Qc7 36. Qxc4 Qb6 37. Rf1 Ra4 38. Qc3 Rxb4 39. Nac4 Qc5 40. g3 Ne6 41. f4
+Nd4 42. Qd3 exf4 43. gxf4 d5 44. Ne3 dxe4 45. Nxe4 Qc6 46. Ng3 Kh7 47. Qe4 Rb2+
+48. Ng2 Qxe4 49. Nxe4 Nef5 50. Nf6+ Kg7 51. Nd5 Nh4 52. Ne3 Nxg2 0-1
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "6.3"]
+[White "Vidit, Santosh Gujrathi"]
+[Black "Carlsen, Magnus"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2722"]
+[BlackElo "2870"]
+[ECO "D32"]
+[Opening "QGD"]
+[Variation "Tarrasch defence"]
+[WhiteFideId "5029465"]
+[BlackFideId "1503014"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nf6 6. Bg5 Be6 7. dxc5 Bxc5 8.
+e3 O-O 9. Be2 h6 10. Bh4 Nc6 11. O-O Rc8 12. Rc1 Be7 13. Nd4 a6 14. Nxc6 Rxc6
+15. Bf3 Rc4 16. Bxf6 Bxf6 17. Nxd5 Rxc1 18. Nxf6+ Qxf6 19. Qxc1 Bxa2 20. Bxb7
+Rb8 21. Qc7 Qd8 22. Rc1 Bc4 23. Qxc4 Rxb7 24. b4 Qf8 25. Qxa6 Rxb4 26. h3 Rb8
+27. Qc4 Qd6 28. Qg4 g6 29. Rc8+ Rxc8 30. Qxc8+ Kg7 31. Qc3+ Kg8 32. Qd4 Qe6 33.
+g4 Qc6 34. Qf4 Kg7 35. Kh2 Qb5 36. Qd4+ Kg8 37. Qe4 h5 38. Kg2 hxg4 39. hxg4 Kg7
+40. Qd4+ Kg8 41. Kg3 Qb8+ 42. f4 g5 43. Qe5 gxf4+ 44. exf4 Qb6 45. Kh4 Qh6+ 46.
+Kg3 Qb6 47. g5 Qg1+ 48. Kf3 Qf1+ 49. Ke3 Qe1+ 50. Kd4 Qb4+ 51. Kd3 Qb1+ 52. Kc4
+Qd1 53. Kc5 Qd8 54. Qd6 Qc8+ 55. Kd4 Qc1 56. Ke5 Qc3+ 57. Kf5 Qc8+ 58. Kf6 Qc3+
+59. Ke7 Qe3+ 60. Kd8 Qe4 61. Qb8 f6 62. gxf6 Kf7 63. Qe5 Qa8+ 64. Kc7 Qa7+ 65.
+Kd6 Qb6+ 66. Kd5 Qxf6 67. Qh5+ Kg7 68. Qg4+ Kf8 69. Qc8+ Kg7 70. Qd7+ Qf7+ 71.
+Qxf7+ Kxf7 72. Ke5 Ke7 73. f5 Kf7 74. f6 Kf8 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "6.4"]
+[White "Harikrishna, Pentala"]
+[Black "Nakamura, Hikaru"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2731"]
+[BlackElo "2741"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "5007003"]
+[BlackFideId "2016192"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Nf3 a6 6. Ne5 Bb4+ 7. Nc3 Nd5 8. O-O
+O-O 9. Ne4 b5 10. b3 cxb3 11. axb3 Bb7 12. Nd3 Be7 13. Nec5 Bc6 14. Bb2 Nf6 15.
+e4 Bxc5 16. Nxc5 Nbd7 17. Nxd7 Nxd7 18. Bc3 Bb7 19. Ba5 Qe7 20. Rc1 Rfc8 21. Qd2
+c5 22. Rfd1 cxd4 23. Qxd4 Nf8 24. h4 e5 25. Qb6 Ne6 26. Rxc8+ Rxc8 27. Rd6 h6
+28. Bb4 Qc7 29. Kh2 Nd4 30. f4 f6 31. fxe5 fxe5 32. Rg6 Qf7 33. h5 Rc2 34. Qd8+
+Kh7 35. Bf8 Rxg2+ 36. Kh3 Rh2+ 37. Kxh2 Qf2+ 38. Kh3 Qf1+ 0-1
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.23"]
+[Round "6.5"]
+[White "Ding, Liren"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2801"]
+[BlackElo "2772"]
+[ECO "E01"]
+[Opening "Catalan"]
+[Variation "closed"]
+[WhiteFideId "8603677"]
+[BlackFideId "13300474"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bb4+ 5. Bd2 Bxd2+ 6. Nxd2 O-O 7. Ngf3 c6 8.
+O-O b6 9. Qc2 Ba6 10. Rfd1 Nbd7 11. Rac1 Rc8 12. e3 h6 13. cxd5 cxd5 14. Qa4 Be2
+15. Re1 Rxc1 16. Rxc1 Qb8 17. Qc6 Ba6 18. Qc7 Rc8 19. Qxb8 Nxb8 20. Rxc8+ Bxc8
+21. Ne5 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "7.1"]
+[White "Aronian, Levon"]
+[Black "So, Wesley"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2772"]
+[BlackElo "2760"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "13300474"]
+[BlackFideId "5202213"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8.
+Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 h6 12. h3 b6 13. Rad1 Ne7 14. Ne2 Ng6
+15. Ne1 h5 16. Nd3 a5 17. a4 Be7 18. Rfe1 Nf8 19. Ndf4 Bg5 20. e6 Nxe6 21. Nxe6
+Bxe6 22. Bxg7 Rg8 23. Be5 c5 24. Bf4 Bf6 25. Ng3 h4 26. Ne4 Be7 27. Nc3 c6 28.
+Kh2 Ra7 29. Ne4 Rd7 30. Rxd7 Kxd7 31. Rd1+ Kc8 32. c4 Rd8 33. Rxd8+ Kxd8 34. g4
+hxg3+ 35. Kxg3 Kd7 36. Bd2 f5 37. Nc3 Bf6 38. Kf3 Bf7 39. Ke2 Bh5+ 40. f3 Bg6
+41. Kd3 Bh5 42. Ke2 Bg6 43. Kd3 Bh5 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "7.2"]
+[White "Nepomniachtchi, Ian"]
+[Black "Vidit, Santosh Gujrathi"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2773"]
+[BlackElo "2722"]
+[ECO "C45"]
+[Opening "Scotch"]
+[Variation "Mieses variation"]
+[WhiteFideId "4168119"]
+[BlackFideId "5029465"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8.
+h4 Qe6 9. Nd2 a5 10. Nf3 Ba6 11. c4 Bb4+ 12. Bd2 Bxd2+ 13. Qxd2 Nb6 14. b3 c5
+15. O-O-O Bb7 16. Bd3 h6 17. Qe3 Qe7 18. a4 d5 19. cxd5 Nxd5 20. Qe4 O-O-O 21.
+Bc4 Nc3 22. Qf5+ Kb8 23. Rxd8+ Rxd8 24. Re1 Nd5 25. Rd1 g6 26. Qd3 Rd7 27. Bb5
+c6 28. Bc4 Nb6 29. Qc3 Rxd1+ 30. Kxd1 Nxc4 31. Qxc4 Bc8 32. Qc3 Be6 33. Kc1 Kb7
+34. g3 c4 35. bxc4 Qc5 36. Nd2 Qxf2 37. Nb3 Kc8 38. Nxa5 Qc5 39. Kb2 Kc7 40. Nb3
+Qxc4 41. Qxc4 Bxc4 42. Kc3 Bd5 43. Nc5 Kb6 44. Kb4 h5 45. a5+ Ka7 46. Kc3 Ba2
+47. Kd4 Bd5 48. Ke3 Ba2 49. Kf4 Bd5 50. Kg5 Ba2 51. Kf6 Bd5 52. Ke7 Ba2 53. Kd6
+Bd5 54. Nd3 Be4 55. Nb4 Kb7 56. Kc5 Bg2 57. a6+ Ka7 58. Nxc6+ Kxa6 59. Nd8 Bh3
+60. Kd6 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "7.3"]
+[White "Carlsen, Magnus"]
+[Black "Anand, Viswanathan"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2870"]
+[BlackElo "2757"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "1503014"]
+[BlackFideId "5000017"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 d5 5. cxd5 exd5 6. Bg5 h6 7. Bh4 O-O 8. e3
+Bf5 9. Nd2 g5 10. Bg3 c5 11. a3 Bxc3 12. bxc3 c4 13. h4 g4 14. h5 Nbd7 15. Bf4
+Qa5 16. Qc1 Nb6 17. Bxh6 Na4 18. Bxf8 Rxf8 19. f3 Re8 20. Kf2 b5 21. e4 dxe4 22.
+Nxc4 bxc4 23. Qg5+ Kh7 24. Qxf6 e3+ 25. Kg1 Be6 26. d5 Qxd5 27. Re1 Qd2 28. Re2
+Qc1 29. Qd4 gxf3 30. Qxe3 Qxc3 31. gxf3 Rg8+ 32. Kf2 Qg7 33. Qe4+ Kh6 34. Qf4+
+Kh7 35. Qe5 Qh6 36. Rg1 Rc8 37. Qe4+ Kh8 38. Qd4+ Kh7 39. Rxe6 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "7.4"]
+[White "Giri, Anish"]
+[Black "Harikrishna, Pentala"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2776"]
+[BlackElo "2731"]
+[ECO "A14"]
+[Opening "English"]
+[Variation "Neo-Catalan declined"]
+[WhiteFideId "24116068"]
+[BlackFideId "5007003"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. c4 Nf6 2. Nf3 e6 3. g3 d5 4. Bg2 Be7 5. O-O O-O 6. d4 dxc4 7. Qc2 a6 8. Qxc4
+b5 9. Qc2 Bb7 10. Bd2 Bd6 11. Bg5 Nbd7 12. Bxf6 Nxf6 13. Nbd2 Rc8 14. Nb3 Be4
+15. Qc3 Qe7 16. Nc5 Nd5 17. Qa3 Bxc5 18. dxc5 a5 19. Qxa5 Qxc5 20. Rfc1 Qd6 21.
+Qxb5 Rb8 22. Qa4 Bxf3 23. Bxf3 Rxb2 24. Qa5 h6 25. a4 c6 26. Qc5 Qxc5 27. Rxc5
+Nb4 28. a5 Ra8 29. Rc4 Ra6 30. Be4 f5 31. Rb1 Rxb1+ 32. Bxb1 Nd5 33. Rc5 Nc7 34.
+Bd3 Nb5 35. Bc4 Kf8 36. Bxe6 Ke7 37. Bxf5 Kd6 38. Rc1 Rxa5 39. f4 c5 40. Rd1+
+Ke7 41. Rd7+ Kf6 42. Bd3 Nd4 43. Kf2 g5 44. Rd6+ Ke7 45. Rxh6 gxf4 46. gxf4 Ra4
+47. Ke3 Ra3 48. Ke4 Ra2 49. Kd5 Rd2 50. Ke4 Rb2 51. e3 Ne6 52. Bc4 Nf8 53. h4
+Rc2 54. Kd3 Rh2 55. Ke4 Rc2 56. Kd3 Rh2 57. Bd5 Nd7 58. Rh7+ Kd6 59. Bf3 Nf6 60.
+Rf7 c4+ 61. Kxc4 Ke6 62. Rg7 Rh3 63. Bb7 Rxe3 64. Kd4 Ra3 65. Bc8+ Kd6 66. Bb7
+Ra4+ 67. Ke3 Rxf4 68. Kxf4 Nh5+ 69. Kg5 Nxg7 70. Kg6 Ne6 71. Kf6 Nf4 72. Bf3 Kd7
+73. Kf7 Kd6 74. Bg4 Ke5 75. Kg7 Kd5 76. Kf6 Kd6 77. Bd1 Nd5+ 78. Kf7 Nf4 79. Ba4
+Ke5 80. Bd7 Kd6 81. Bg4 Ke5 82. Bc8 Kd6 83. Kf6 Nd5+ 84. Kf7 Nf4 85. Bf5 Ke5 86.
+Bg4 Kd6 87. Bf3 Ke5 88. Bb7 Kd6 89. Kf6 Nh5+ 90. Kf7 Nf4 91. Be4 Ke5 92. Bf3 Kd6
+93. Kf6 Kd7 94. Be4 Ke8 95. Kg7 Ke7 96. Bf3 Ne6+ 97. Kg8 Kf6 98. h5 Kg5 99. Kh7
+Nf8+ 100. Kg7 Ne6+ 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "7.5"]
+[White "Nakamura, Hikaru"]
+[Black "Ding, Liren"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2741"]
+[BlackElo "2801"]
+[ECO "C84"]
+[Opening "Ruy Lopez"]
+[Variation "closed defence"]
+[WhiteFideId "2016192"]
+[BlackFideId "8603677"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a4 Bd7
+9. c3 Na5 10. Bc2 c5 11. d4 cxd4 12. cxd4 exd4 13. Nxd4 O-O 14. Nc3 b4 15. Nce2
+Re8 16. Ng3 g6 17. Re1 Bf8 18. Nf3 Bg7 19. Be3 Bg4 20. h3 Bxf3 21. Qxf3 Nd7 22.
+Rab1 Rc8 23. Qd1 Nc4 24. Bb3 Nxe3 25. Rxe3 Nc5 26. Bd5 Qb6 27. b3 Ne6 28. Ne2
+Nc7 29. Rf3 Nxd5 30. Qxd5 Rc7 31. Nf4 Qc6 32. Re1 Bc3 33. Rc1 Rxe4 34. Qxc6 Rxc6
+35. Nd5 Kg7 36. Nxc3 bxc3 37. Rfxc3 Rxc3 38. Rxc3 Rb4 39. Kf1 d5 40. Rc6 Rxb3
+41. Rxa6 Rb2 42. Rd6 Ra2 43. Rxd5 Rxa4 44. g3 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "8.1"]
+[White "Ding, Liren"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2801"]
+[BlackElo "2776"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "8603677"]
+[BlackFideId "24116068"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 O-O 8. Qb3
+c5 9. cxd5 exd5 10. dxc5 Bxc3+ 11. Qxc3 Qxc3+ 12. bxc3 Nd7 13. Rd1 Nf6 14. Nd4
+Bd7 15. f3 Rfc8 16. Nb3 Kf8 17. Bd3 b6 18. cxb6 axb6 19. Ra1 Rxc3 20. Kd2 Rc7
+21. Rhb1 Ba4 22. Nd4 Nd7 23. Rb4 h5 24. h4 Rc5 25. Rab1 g6 26. R1b2 Ke7 27. Ne2
+Bc6 28. Nd4 Ba4 29. Ne2 Bc6 30. Nc3 Ra3 31. R2b3 Rxb3 32. Rxb3 Ra5 33. Rb4 Kd6
+34. Rb2 Kc7 35. Nb5+ 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "8.2"]
+[White "Vidit, Santosh Gujrathi"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2722"]
+[BlackElo "2757"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "5029465"]
+[BlackFideId "5000017"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O 7. Qc2 dxc4 8.
+Bxc4 Bd6 9. O-O e5 10. h3 Bd7 11. Bd2 exd4 12. exd4 Qc8 13. Nd5 Nxd5 14. Bxd5
+Ne7 15. Bc4 Bf5 16. Qb3 c6 17. Bb4 Bxb4 18. Qxb4 Ng6 19. Rfe1 Qd7 20. Re3 b5 21.
+Bf1 a5 22. Qc5 Be6 23. a4 bxa4 24. Rxa4 Bd5 25. Ne5 Nxe5 26. dxe5 Qb7 27. b4
+axb4 28. Rxb4 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "8.3"]
+[White "Harikrishna, Pentala"]
+[Black "Carlsen, Magnus"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2731"]
+[BlackElo "2870"]
+[ECO "A50"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "5007003"]
+[BlackFideId "1503014"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 c6 3. Nc3 d5 4. cxd5 cxd5 5. Bf4 Nc6 6. e3 Bf5 7. Qb3 Na5 8.
+Qa4+ Bd7 9. Qc2 e6 10. Bd3 Nc6 11. Qe2 Bb4 12. Nf3 Nh5 13. Bg5 Qa5 14. O-O h6
+15. Bh4 g5 16. Bg3 Nxg3 17. fxg3 g4 18. Nh4 Rg8 19. Rac1 f5 20. a3 Bxc3 21. Rxc3
+Ne7 22. Rfc1 Rc8 23. Qf2 Rxc3 24. Rxc3 Qb6 25. h3 h5 26. Kh2 Qd6 27. Qf4 Qxf4
+28. gxf4 Nc8 29. g3 Nd6 30. Ng2 Kd8 31. Ne1 Rg7 32. Kg2 Bb5 33. Bxb5 Nxb5 34.
+Rc2 Nd6 35. Nd3 Nc4 36. Re2 Rc7 37. hxg4 hxg4 38. Kf1 Ke7 39. Ke1 Nd6 40. Kd1
+Ne4 41. Rg2 Kd6 42. Nf2 Rh7 43. Ke2 Kc6 44. Kd3 Kb5 45. b3 a5 46. Nxe4 dxe4+ 47.
+Kc3 Kc6 48. a4 Rh1 49. b4 Re1 50. Rc2 Kd6 51. Kd2 Rg1 52. bxa5 Rg2+ 53. Kd1 Rxg3
+54. Rc3 Rf3 55. Ke2 g3 56. Rc8 Rf2+ 57. Ke1 Ra2 58. Kf1 Ra3 59. Rb8 Rxe3 60.
+Rxb7 Ra3 61. Rb4 e3 62. Rb2 Kd5 63. Kg2 Rxa4 64. Kxg3 Ke4 65. Rb6 Ra1 66. Rxe6+
+Kd3 67. a6 e2 68. a7 Rxa7 69. Kf2 Rh7 70. Re3+ Kxd4 71. Rxe2 Rh2+ 72. Ke1 Rxe2+
+73. Kxe2 Ke4 74. Kf1 Kxf4 75. Kf2 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "8.4"]
+[White "So, Wesley"]
+[Black "Nakamura, Hikaru"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2741"]
+[ECO "D02"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "5202213"]
+[BlackFideId "2016192"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. Nf3 d5 3. g3 c5 4. Bg2 cxd4 5. O-O Bd7 6. Nxd4 e5 7. Nb3 Be6 8. Bg5
+Nbd7 9. Nc3 Be7 10. Qd3 O-O 11. Rad1 d4 12. Bxf6 Nxf6 13. Ne4 Qc7 14. Nxf6+ Bxf6
+15. c3 dxc3 16. Qxc3 Qxc3 17. bxc3 Rac8 18. Bxb7 Rxc3 19. Bd5 Bh3 20. Bg2 Be6
+21. Bd5 Bg4 22. Rc1 Rfc8 23. Rxc3 Rxc3 24. Rc1 Rxc1+ 25. Nxc1 Be7 26. Nd3 Bd6
+27. f3 Bd7 28. Kf2 Kf8 29. f4 exf4 30. gxf4 f6 31. e4 Bb5 32. Ke3 Bc7 33. h4
+Bb6+ 34. Kd2 g6 35. e5 Ba5+ 36. Ke3 Bb6+ 37. Kd2 fxe5 38. Nxe5 Bf2 39. Bc6 Bf1
+40. Be4 Kg7 41. Nf3 Bc4 42. a4 Kf6 43. Ne5 Be6 44. h5 gxh5 45. Bxh7 Bd5 46. Kd3
+Be1 47. Be4 Bb3 48. Nd7+ Ke7 49. Ne5 Kf6 50. Nd7+ Kg7 51. f5 Bb4 52. Bc6 h4 53.
+Ke4 h3 54. Kf3 Bd6 55. a5 Bc4 56. Kf2 Kf7 57. Kf3 Ke7 58. f6+ Ke6 59. Kf2 Ba6
+60. Ke3 Bc8 61. Nb6 0-1
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "8.5"]
+[White "Nepomniachtchi, Ian"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2773"]
+[BlackElo "2772"]
+[ECO "E06"]
+[Opening "Catalan"]
+[Variation "closed, 5.Nf3"]
+[WhiteFideId "4168119"]
+[BlackFideId "13300474"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. c4 Nf6 2. g3 e6 3. Nf3 d5 4. d4 Be7 5. Bg2 O-O 6. Nc3 Nbd7 7. b3 dxc4 8. bxc4
+c5 9. O-O cxd4 10. Nxd4 Ne5 11. Rb1 Nxc4 12. Bxb7 Bxb7 13. Rxb7 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "9.1"]
+[White "Nakamura, Hikaru"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2741"]
+[BlackElo "2773"]
+[ECO "B51"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky (Nimzovich-Rossolimo, Moscow) attack"]
+[WhiteFideId "2016192"]
+[BlackFideId "4168119"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. Ba4 Nf6 5. O-O e6 6. Re1 a6 7. c3 b5 8. Bc2 c4
+9. a4 Bb7 10. d4 cxd3 11. Qxd3 Nc5 12. Qe2 bxa4 13. Be3 Nfd7 14. Bd4 e5 15. Bxc5
+Nxc5 16. Rxa4 Be7 17. Ra2 O-O 18. Nbd2 a5 19. Nb3 Ba6 20. Qd1 Bc4 21. Nfd2 Be6
+22. Ra1 Nd7 23. Nc1 Qb6 24. Bb3 Nc5 25. Bxe6 fxe6 26. Nc4 Qb5 27. Qe2 a4 28. Na2
+Rfc8 29. Na3 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "9.2"]
+[White "Aronian, Levon"]
+[Black "Vidit, Santosh Gujrathi"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2772"]
+[BlackElo "2722"]
+[ECO "C58"]
+[Opening "Two knights defence"]
+[WhiteFideId "13300474"]
+[BlackFideId "5029465"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8.
+Bd3 Nd5 9. Nf3 Bd6 10. O-O O-O 11. Re1 f5 12. Nxe5 Qf6 13. Nf3 g5 14. c4 Nf4 15.
+Bf1 g4 16. d4 gxf3 17. Qxf3 Ne6 18. c5 Bc7 19. b4 Qxd4 20. Qc3 Qxc3 21. Nxc3 Nb7
+22. Bc4 Re8 23. Bb2 a5 24. b5 Nxc5 25. Ba3 Ne4 26. Nxe4 fxe4 27. b6 Bxb6 28.
+Rxe4 Kf7 29. Rae1 Ra7 30. Kh1 a4 31. f4 Ra5 32. g4 Bc5 33. Bxc5 Rxc5 34. f5 h5
+35. Bxe6+ Bxe6 36. fxe6+ Ke7 37. Rxa4 h4 38. Rf4 Rc2 39. Rf7+ Kd6 40. Rd7+ Kc5
+41. Rh7 Kd6 42. e7 Rd2 43. Rxh4 Rxe7 44. Rh6+ Kd7 45. Rxe7+ Kxe7 46. Rxc6 Rxa2
+47. Rc3 Kf6 48. h4 Ke5 49. Rf3 Ra4 50. Rg3 Kf4 51. Rg2 Kf3 52. h5 Kf4 53. g5 Kf5
+54. g6 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "9.3"]
+[White "Anand, Viswanathan"]
+[Black "Harikrishna, Pentala"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2757"]
+[BlackElo "2731"]
+[ECO "B40"]
+[Opening "Sicilian"]
+[Variation "Anderssen variation"]
+[WhiteFideId "5000017"]
+[BlackFideId "5007003"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Nxc6 bxc6 7. e5 Nd5 8.
+Ne4 Qc7 9. f4 Qb6 10. a3 f5 11. exf6 Nxf6 12. Nxf6+ gxf6 13. Bd3 Bb7 14. Qh5+
+Kd8 15. Bd2 c5 16. O-O-O Kc7 17. Bc3 Be7 18. f5 Rae8 19. fxe6 d5 20. Rhe1 Kb8
+21. Qh4 d4 22. Bd2 Bd5 23. Qf4+ Ka8 24. Be4 Qb7 25. Qf3 Rd8 26. Bf4 Bxe4 27.
+Rxe4 Rd5 28. Qd3 Rc8 29. Qc4 Rdd8 30. Re2 Qd5 31. b3 Qf5 32. g3 Qd5 33. Qxd5+
+Rxd5 34. c4 Rdd8 35. Kc2 Rc6 36. Rd3 h5 37. Rf3 Kb7 38. Bd2 Rdd6 39. Kd3 Ra6 40.
+a4 Rdb6 41. Kc2 Rxe6 42. Rxe6 Rxe6 43. Rf5 Re2 44. Rxh5 Bd6 45. Kd3 Rf2 46. Rh7+
+Kc6 47. Rxa7 Rxh2 48. a5 Rh3 49. Ke4 Bxg3 50. Ra6+ Kb7 51. Rxf6 Bh2 52. Rh6 Rxh6
+53. Bxh6 Ka6 54. Bf8 d3 55. Kxd3 Bg1 56. b4 cxb4 57. Bxb4 Kb7 58. Bc3 Bc5 59.
+Ke4 Ka6 60. Kd5 Ba3 61. Be5 Kxa5 62. Bd6 Bb2 63. Kc6 Ka6 64. Bc5 Bc3 65. Ba3 Bd4
+66. Bb4 Be3 67. Bc5 Bd2 1/2-1/2
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "9.4"]
+[White "Carlsen, Magnus"]
+[Black "Ding, Liren"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2870"]
+[BlackElo "2801"]
+[ECO "C89"]
+[Opening "Ruy Lopez"]
+[Variation "Marshall counter-attack, 11...c6"]
+[WhiteFideId "1503014"]
+[BlackFideId "8603677"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3
+d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d3 Bd6 13. Re1 Bf5 14. Qf3 Qh4 15.
+g3 Qh3 16. Be3 Bxd3 17. Bxd5 cxd5 18. Qxd5 Rad8 19. Qg2 Qc8 20. Nd2 Bf5 21. Bd4
+Rfe8 22. f3 Bf8 23. a3 Re6 24. Rxe6 Qxe6 25. Qf2 Re8 26. Nf1 h5 27. Ne3 Bh3 28.
+Re1 Qc6 29. Ng2 Rxe1+ 30. Nxe1 Qg6 31. Qc2 Bf5 32. Qd2 Be6 33. Qd3 Bf5 34. Qe3
+Be6 35. Bc5 Bxc5 36. Qxc5 Qb1 37. Qf2 Bd5 38. Kg2 a5 39. Qe2 Qf5 40. Kf2 Be6 41.
+Nc2 Qh3 42. Kg1 Bc4 43. Qe8+ Kh7 44. Ne3 Qe6 45. Qxe6 Bxe6 46. b4 axb4 47. axb4
+g5 48. h4 gxh4 49. gxh4 Kg6 50. Kf2 Kf6 51. Nf1 Ke5 52. Ng3 f5 53. Nxh5 f4 54.
+Ng7 Bf7 55. h5 Kf6 56. h6 Kg6 57. Nh5 Kxh6 58. Nxf4 Kg5 59. Ne2 Kf5 1-0
+
+[Event "Tata Steel India Rapid"]
+[Site "Kolkata IND"]
+[Date "2019.11.24"]
+[Round "9.5"]
+[White "Giri, Anish"]
+[Black "So, Wesley"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2776"]
+[BlackElo "2760"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "24116068"]
+[BlackFideId "5202213"]
+[EventDate "2019.11.22"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 Nc6 6. Qa4 Bb4+ 7. Bd2 Nd5 8.
+Bxb4 Nxb4 9. O-O Rb8 10. Na3 O-O 11. Qb5 b6 12. Qxc4 Ba6 13. Nb5 Qe8 14. Rfc1
+Nd5 15. e4 Na5 16. Nxc7 Bxc4 17. Nxe8 Rfxe8 18. exd5 Bxd5 19. Rc7 Rb7 20. Rac1
+Rxc7 21. Rxc7 Nc6 22. Ne5 Nxe5 23. Bxd5 exd5 24. dxe5 g5 25. Rxa7 Rxe5 26. Kf1
+g4 27. Ra4 h5 28. Rb4 Re6 29. Rb5 Rd6 30. Ke2 Kg7 31. Kd3 Rf6 32. Ke2 Re6+ 33.
+Kd2 Rf6 34. Ke2 Re6+ 1/2-1/2
+

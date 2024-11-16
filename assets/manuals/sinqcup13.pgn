@@ -1,0 +1,314 @@
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.09"]
+[Round "1.1"]
+[White "Carlsen, Magnus"]
+[Black "Kamsky, Gata"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2862"]
+[BlackElo "2741"]
+[ECO "D15"]
+[Opening "QGD Slav"]
+[Variation "4.Nc3"]
+[WhiteFideId "1503014"]
+[BlackFideId "2000024"]
+[EventDate "2013.09.09"]
+
+1. Nf3 Nf6 2. c4 c6 3. d4 d5 4. Nc3 a6 5. e3 Bf5 6. Bd3 Bxd3 7. Qxd3 e6 8. O-O
+Bb4 9. Bd2 Bxc3 10. Bxc3 O-O 11. a4 Nbd7 12. a5 Ne4 13. Bb4 Re8 14. Rac1 h5 15.
+Ne5 Qc7 16. Nxd7 Qxd7 17. Qe2 Nf6 18. Rfd1 Qc7 19. h3 Rad8 20. b3 Rd7 21. Rc2
+Qd8 22. Rcc1 h4 23. Be1 Ne4 24. Qg4 g5 25. cxd5 f5 26. Qf3 cxd5 27. Rc2 Rg7 28.
+Rdc1 Nf6 29. Qd1 g4 30. f3 gxh3 31. Bxh4 Kf7 32. Qe1 hxg2 33. Rc7+ Re7 34. Bxf6
+Kxf6 35. Rc8 Qd6 36. Qh4+ Kf7 37. Qh5+ Rg6 38. f4 Qa3 39. Qh8 Rg7 40. Qh5+ Rg6
+41. Qh8 Rg7 42. Qf8+ Kg6 43. Kxg2 Rgf7 44. Qd8 Rh7 45. Rg1 Qa2+ 46. Kf3+ Kf6 47.
+Qg8 Rh3+ 48. Rg3 Rxg3+ 49. Qxg3 1-0
+
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.09"]
+[Round "1.2"]
+[White "Nakamura, Hikaru"]
+[Black "Aronian, Levon"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2772"]
+[BlackElo "2813"]
+[ECO "C88"]
+[Opening "Ruy Lopez"]
+[Variation "closed, anti-Marshall 8.a4"]
+[WhiteFideId "2016192"]
+[BlackFideId "13300474"]
+[EventDate "2013.09.09"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4
+b4 9. d4 d6 10. dxe5 Nxe5 11. Nbd2 Nfd7 12. Nd4 c5 13. Nf5 Nf6 14. Ne3 Bb7 15.
+f3 Ng6 16. Ndc4 d5 17. exd5 Nxd5 18. Nf5 Qc7 19. Nxe7+ Ngxe7 20. Bg5 Nf5 21. c3
+bxc3 22. bxc3 h6 23. Qd3 g6 24. Bd2 Rad8 25. Qe2 Nf4 26. Bxf4 Qxf4 27. Rad1 Bd5
+28. Nd2 Bxb3 29. Nxb3 Qxa4 30. Nxc5 Qb5 31. Qxb5 axb5 32. Nd7 Rxd7 33. Rxd7 Ra8
+34. Kf2 Ra6 35. g4 Nh4 36. f4 Rc6 37. Re8+ Kg7 38. Ree7 Rf6 39. Kg3 g5 40. f5 h5
+41. Re6 1-0
+
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.10"]
+[Round "2.1"]
+[White "Aronian, Levon"]
+[Black "Carlsen, Magnus"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2813"]
+[BlackElo "2862"]
+[ECO "A80"]
+[Opening "Dutch"]
+[WhiteFideId "13300474"]
+[BlackFideId "1503014"]
+[EventDate "2013.09.09"]
+
+1. d4 f5 2. Nf3 Nf6 3. c4 g6 4. Nc3 Bg7 5. Bf4 d6 6. e3 Nc6 7. Be2 O-O 8. O-O
+Ne4 9. h3 e5 10. Bh2 exd4 11. exd4 Ng5 12. Nxg5 Qxg5 13. f4 Qf6 14. d5 Nd4 15.
+Kh1 c5 16. Bd3 Bd7 17. Bg1 Rae8 18. Qd2 a6 19. Rad1 Rb8 20. a4 Qd8 21. Rb1 Qa5
+22. Qd1 Qb4 23. Bf2 Rbe8 24. Be1 Qb3 25. Qxb3 Nxb3 26. Bc2 Na5 27. Bd3 Re3 28.
+Rd1 Rb8 29. Bf2 Ree8 30. Ra1 Bd4 31. Kg1 Be3 32. Bxe3 Rxe3 33. Rad1 Rbe8 34. Kf2
+Nb3 35. Rfe1 Rxe1 36. Rxe1 Rxe1 37. Kxe1 Nd4 38. Kd2 Kf7 39. Be2 Kf6 40. Bd1 a5 1/2-1/2
+
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.10"]
+[Round "2.2"]
+[White "Nakamura, Hikaru"]
+[Black "Kamsky, Gata"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2772"]
+[BlackElo "2741"]
+[ECO "B43"]
+[Opening "Sicilian"]
+[Variation "Kan, 5.Nc3"]
+[WhiteFideId "2016192"]
+[BlackFideId "2000024"]
+[EventDate "2013.09.09"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 b5 6. Bd3 Bb7 7. O-O Nc6 8. Nxc6
+Bxc6 9. Re1 Qb8 10. a4 b4 11. Nd5 Bd6 12. Qh5 Ne7 13. Nxe7 Bxe7 14. b3 a5 15.
+Bb2 Bf6 16. Bxf6 gxf6 17. e5 Rg8 18. g3 Rg5 19. Qh6 Rxe5 20. Qxf6 Rh5 21. Be4
+Qd8 22. Qf3 Rc5 23. Qe3 Qe7 24. Bxh7 f5 25. Bg6+ Kd8 26. Rac1 Kc7 27. Bh5 e5 28.
+f4 Qd6 29. Rf1 exf4 30. Qxf4 Be4 31. Qf2 Rc3 32. Be2 Kb7 33. Rcd1 Qe6 34. Bc4 d5
+35. Qc5 Rd8 36. Qxa5 Rxc2 37. Rf2 Rxf2 38. Qxd8 Rg2+ 39. Kf1 Rb2 40. Bxd5+ Bxd5
+41. Qxd5+ Qxd5 42. Rxd5 1-0
+
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.11"]
+[Round "3.1"]
+[White "Carlsen, Magnus"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2862"]
+[BlackElo "2772"]
+[ECO "E62"]
+[Opening "King's Indian"]
+[Variation "fianchetto with ...Nc6"]
+[WhiteFideId "1503014"]
+[BlackFideId "2016192"]
+[EventDate "2013.09.09"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d6 6. Nc3 Nc6 7. O-O Rb8 8. Bf4
+a6 9. Rc1 h6 10. b3 g5 11. d5 gxf4 12. dxc6 fxg3 13. hxg3 b5 14. cxb5 axb5 15.
+b4 d5 16. Qd3 Qd6 17. Nd4 Qxb4 18. a4 Ne4 19. Ndxb5 Nxc3 20. Nxc3 Bxc3 21. Rxc3
+Bf5 22. Qxd5 Qxc3 23. Qxf5 Rfd8 24. Bf3 Ra8 25. Qe4 Qf6 26. Qb4 Ra7 27. Kg2 Rda8
+28. Qg4+ Kf8 29. Qd7 e6 30. Rd1 Qe5 31. Rh1 Kg7 32. Rb1 Rxa4 33. Rb7 R4a7 34.
+Qe7 Rxb7 35. cxb7 Rb8 36. Qd7 c5 37. Qc6 Kf6 38. Kh2 Ke7 39. Kg2 f5 40. Qc8 Qd6
+41. e3 Kf6 42. Kh2 h5 1/2-1/2
+
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.11"]
+[Round "3.2"]
+[White "Kamsky, Gata"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2741"]
+[BlackElo "2813"]
+[ECO "D02"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "2000024"]
+[BlackFideId "13300474"]
+[EventDate "2013.09.09"]
+
+1. d4 Nf6 2. Nf3 d5 3. c3 c6 4. Bf4 Nh5 5. Be3 g6 6. g3 Bg7 7. Bg2 O-O 8. Qc1
+Nd7 9. Bh6 Re8 10. Bxg7 Kxg7 11. O-O e5 12. dxe5 Nxe5 13. Nxe5 Rxe5 14. e3 Nf6
+15. Nd2 a5 16. c4 Re8 17. cxd5 Nxd5 18. a3 Kg8 19. Re1 Nf6 20. Qc3 Be6 21. e4
+Nd7 22. Rac1 f6 23. Nf3 a4 24. Nd4 Bf7 25. Red1 Qe7 26. h4 Ne5 27. h5 Nc4 28.
+Bf1 Nd6 29. hxg6 hxg6 30. f3 Qe5 31. Kf2 Rad8 32. Qb4 f5 33. exf5 gxf5 34. Qd2
+Qg7 35. Qc3 Qh6 36. Qd2 Qg7 37. Qc3 Bd5 38. Ne2 Bb3 39. Qxg7+ Kxg7 40. Rd4 Kf6
+41. Rc5 Nb5 42. Rxd8 Rxd8 43. Ke3 Rd1 1/2-1/2
+
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.13"]
+[Round "4.1"]
+[White "Kamsky, Gata"]
+[Black "Carlsen, Magnus"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2741"]
+[BlackElo "2862"]
+[ECO "C69"]
+[Opening "Ruy Lopez"]
+[Variation "exchange, Gligoric variation"]
+[WhiteFideId "2000024"]
+[BlackFideId "1503014"]
+[EventDate "2013.09.09"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O f6 6. d4 Bg4 7. dxe5 Qxd1 8.
+Rxd1 fxe5 9. Rd3 Bd6 10. Nbd2 Nf6 11. Nc4 O-O 12. Nfxe5 Be2 13. Re3 Bxc4 14.
+Nxc4 Ng4 15. Re2 Bxh2+ 16. Kf1 Rae8 17. Nd2 Rd8 18. f3 Bg3 19. Kg1 Ne5 20. b3
+Ng6 21. Nf1 Be5 22. c3 Bxc3 23. Bb2 Nf4 24. Rc2 Ba5 25. Ng3 g6 26. Rf1 Rd3 27.
+Kh2 Bb4 28. Ne2 Ne6 29. Nc1 Rd7 30. g3 Rfd8 31. Kg2 Kf7 32. f4 h5 33. Kh3 a5 34.
+Kg2 Nc5 35. Kf3 Nd3 36. Re2 Be7 37. Nxd3 Rxd3+ 38. Kg2 Bc5 39. Rc1 Rd2 40. Rc2
+Rxe2+ 41. Rxe2 Rd3 42. Rc2 Bd6 43. Bc1 Be7 44. Kf2 a4 45. Rd2 Rxd2+ 46. Bxd2
+axb3 47. axb3 c5 48. g4 b5 49. gxh5 gxh5 50. Bc3 b4 51. Bb2 Bh4+ 52. Ke2 Bg3 53.
+f5 h4 54. e5 h3 55. e6+ Ke7 56. Kf3 Bf4 57. Bg7 Bg5 58. Be5 c4 59. bxc4 Bf6 0-1
+
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.13"]
+[Round "4.2"]
+[White "Aronian, Levon"]
+[Black "Nakamura, Hikaru"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2813"]
+[BlackElo "2772"]
+[ECO "E71"]
+[Opening "King's Indian"]
+[Variation "Makagonov system (5.h3)"]
+[WhiteFideId "13300474"]
+[BlackFideId "2016192"]
+[EventDate "2013.09.09"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Bg5 c5 7. d5 a6 8. Bd3 b5 9.
+Nf3 Nbd7 10. O-O h6 11. Be3 bxc4 12. Bxc4 a5 13. a4 Nb6 14. Bd3 Ne8 15. Re1 Nc7
+16. Rc1 Na6 17. b3 Nb4 18. Bb1 Bb7 19. Ne2 Rc8 20. h4 c4 21. h5 cxb3 22. Qxb3 g5
+23. Ng3 N6xd5 24. exd5 Bxd5 25. Rxc8 Bxb3 26. Rxd8 Rxd8 27. Nf5 Bf8 28. Bb6 Rb8
+29. Bc7 Rc8 30. Bxa5 Nc6 31. Bc3 Bxa4 32. Ba2 Rc7 33. Nh2 Ne5 34. Bxe5 dxe5 35.
+Ng4 e6 36. Ng3 Kg7 37. Nxe5 Ba3 38. Ne4 Rc2 39. Bb1 Rc1 40. Rxc1 Bxc1 41. Nd6 f5
+42. Ndc4 Bf4 43. Nd3 Be8 44. Nxf4 gxf4 45. g3 fxg3 46. f4 Bxh5 47. Kg2 Kf6 48.
+Kxg3 Be8 49. Kh4 Bb5 50. Ne5 Be8 51. Bc2 Ke7 52. Bd1 Kf6 53. Bf3 Ba4 54. Bc6 Bd1
+55. Bd7 Be2 56. Ba4 Ke7 57. Bb3 Kd6 58. Kg3 Bh5 59. Kf2 Bg4 60. Ke3 h5 61. Nf7+ 1-0
+
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.14"]
+[Round "5.1"]
+[White "Nakamura, Hikaru"]
+[Black "Carlsen, Magnus"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2772"]
+[BlackElo "2862"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "2016192"]
+[BlackFideId "1503014"]
+[EventDate "2013.09.09"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.
+Rxe5 O-O 9. Nc3 Ne8 10. Nd5 Bd6 11. Re1 c6 12. Ne3 Bc7 13. Nf5 d5 14. Ne7+ Kh8
+15. Nxc8 Rxc8 16. g3 Nd6 17. Bh3 f5 18. d3 Qf6 19. c3 Rce8 20. Bd2 Nf7 21. Rxe8
+Rxe8 22. Qf1 f4 23. Re1 Rf8 24. Qe2 h6 25. Kh1 Ng5 26. Bg4 Bd6 27. h4 Nh7 28.
+Kg2 Qg6 29. Bh5 Qf5 30. Bg4 Qg6 31. Bh5 Qf5 32. Bg4 Qg6 1/2-1/2
+
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.14"]
+[Round "5.2"]
+[White "Aronian, Levon"]
+[Black "Kamsky, Gata"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2813"]
+[BlackElo "2741"]
+[ECO "A85"]
+[Opening "Dutch with c4 & Nc3"]
+[WhiteFideId "13300474"]
+[BlackFideId "2000024"]
+[EventDate "2013.09.09"]
+
+1. d4 f5 2. c4 Nf6 3. Nc3 d6 4. Nf3 g6 5. Bf4 Bg7 6. e3 O-O 7. Be2 Nc6 8. Bg3 h6
+9. O-O Nh5 10. d5 Nxg3 11. hxg3 Ne5 12. Rc1 Nxf3+ 13. Bxf3 e5 14. dxe6 c6 15. b4
+g5 16. b5 g4 17. Be2 Bxe6 18. bxc6 bxc6 19. Qa4 c5 20. Bd3 Be5 21. Ne2 Bd7 22.
+Qd1 h5 23. Bc2 Qe8 24. Nf4 Bc6 25. Re1 Rd8 26. Rb1 Qf7 27. Qd2 Qf6 28. Nxh5 Qh6
+29. Nf4 Rd7 30. Nd5 Rh7 31. Kf1 Qh1+ 32. Ke2 Qxg2 33. Rg1 Qf3+ 34. Kf1 Kg7 35.
+Qd1 Bxd5 36. Qxd5 Qxd5 37. cxd5 Kf6 38. Kg2 Rfh8 39. Rh1 Rxh1 40. Rxh1 Rxh1 41.
+Kxh1 c4 42. Kg2 Bb2 43. Kf1 Ke5 44. Ke2 1/2-1/2
+
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.15"]
+[Round "6.1"]
+[White "Carlsen, Magnus"]
+[Black "Aronian, Levon"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2862"]
+[BlackElo "2813"]
+[ECO "C88"]
+[Opening "Ruy Lopez"]
+[Variation "closed, anti-Marshall 8.a4"]
+[WhiteFideId "1503014"]
+[BlackFideId "13300474"]
+[EventDate "2013.09.09"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4
+b4 9. d4 d6 10. dxe5 dxe5 11. Qxd8 Rxd8 12. Nbd2 h6 13. a5 Bc5 14. Bc4 Ng4 15.
+Re2 Be6 16. Bxe6 fxe6 17. h3 Nf6 18. Re1 Rab8 19. Nc4 Rb5 20. b3 Bd4 21. Bb2 Rc5
+22. Ra2 Bxb2 23. Rxb2 Ne8 24. Ra2 Nd6 25. Nfd2 Nb7 26. Nf3 Kf7 27. Kf1 Kf6 28.
+Ra4 Nbxa5 29. Ne3 h5 30. Rea1 Rd4 31. Ne1 Ke7 32. f3 Rd2 33. Rd1 Rd6 34. Rda1
+Kd7 35. Nd1 Rd2 36. Nf2 Kc8 37. Nfd3 Rb5 38. h4 Kb7 39. R1a2 Ka7 40. Kg1 Kb6 41.
+Kf1 g6 42. Kg1 Kb7 43. Kf1 Kc8 44. Nf2 Rd8 45. Ned3 Kb7 46. Ke2 Kb6 47. Ke3 Kb7
+48. Nd1 Kc8 49. N1b2 Rd6 50. Ra1 Kd8 51. Nc4 Nxc4+ 52. bxc4 Rb8 53. c5 Rd7 54.
+Rxa6 b3 55. Rxc6 bxc2 56. Ne1 Ke7 57. Nxc2 Rb3+ 58. Ke2 Rb2 59. Rc1 Ra2 60. Ke3
+Kf7 61. f4 Kf6 62. fxe5+ Kxe5 63. Ne1 Ra3+ 64. Kf2 Rd2+ 65. Kf1 Rd7 66. Nf3+ Kf4
+67. Rxe6 g5 68. hxg5 Kg3 69. Rf6 Ra2 70. Ne5 1-0
+
+[Event "Sinquefield Cup 2013"]
+[Site "Saint Louis USA"]
+[Date "2013.09.15"]
+[Round "6.2"]
+[White "Kamsky, Gata"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2741"]
+[BlackElo "2772"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Byrne (English) attack"]
+[WhiteFideId "2000024"]
+[BlackFideId "2016192"]
+[EventDate "2013.09.09"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 Ng4 7. Bg5 h6 8. Bh4
+g5 9. Bg3 Bg7 10. h3 Nf6 11. Bc4 Qb6 12. Bb3 Nc6 13. Nxc6 Qxc6 14. O-O g4 15.
+hxg4 Bxg4 16. Qd2 Nd7 17. Nd5 Bxb2 18. Rab1 Be5 19. f4 Bg7 20. e5 Nc5 21. Bh4
+dxe5 22. fxe5 Be6 23. Nxe7 Nxb3 24. cxb3 Qb6+ 25. Kh1 Rd8 26. Qe1 Rd4 27. Bf6
+Bxf6 28. exf6 Kd7 29. Rd1 Rd8 30. Qg3 Ke8 31. Qg8+ Kd7 32. Qg3 Ke8 33. Qg8+ Kd7
+34. Qg3 1/2-1/2
+

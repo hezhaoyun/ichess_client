@@ -1,0 +1,756 @@
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.12"]
+[Round "1"]
+[White "Smirin,I"]
+[Black "Salgado Lopez,I"]
+[Result "0-1"]
+[WhiteElo "2678"]
+[BlackElo "2614"]
+[EventDate "2011.10.12"]
+[ECO "C90"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8.
+d3 d6 9. c3 Na5 10. Bc2 c5 11. Nbd2 Nc6 12. Nf1 Re8 13. h3 h6 14. d4 cxd4
+15. cxd4 exd4 16. Nxd4 Nxd4 17. Qxd4 Bb7 18. Ng3 d5 19. e5 Ne4 20. Qd3 Rc8
+21. Nf5 Bf8 22. Bf4 Qb6 23. Re2 Qg6 24. Nh4 Qb6 25. Be3 Qd8 26. Nf3 g6 27.
+Rd1 Bg7 28. h4 Qe7 29. Bb3 Nc5 30. Bxc5 Rxc5 31. h5 gxh5 32. Nd4 Bc8 33.
+Re3 Bg4 34. Rde1 Rec8 35. Bc2 Rc4 36. Bb3 Rc1 37. Bxd5 Qb4 38. Qe4 Qxb2 39.
+Nc6 Rxe1+ 40. Rxe1 Re8 41. f4 Qd2 42. Re3 Be6 43. Bxe6 Rxe6 44. Nd4 Rg6 45.
+Kh2 Bf8 46. e6 Qxa2 47. Rb3 Bd6 48. Qa8+ Kh7 49. exf7 Qf2 50. f8=N+ Bxf8
+51. Qe4 Qh4+ 52. Rh3 Qe7 53. Qd5 Qc5 54. Qe4 Qe7 55. Qd5 Bg7 56. Nf5 Qe6
+57. Qd3 Qc4 58. Qe3 Qc2 59. Nh4 Rg4 60. Qe8 Qc4 61. g3 Qc2+ 62. Ng2 h4 63.
+Rxh4 Rxh4+ 64. gxh4 Qf5 65. h5 b4 66. Kg3 b3 67. Ne3 Qd3 68. f5 Qd6+ 69.
+Kf3 b2 70. Qe4 Qe5 71. Qb1 Kh8 72. Ke2 Qb5+ 73. Kd2 Bd4 74. Nd1 Bf6 0-1
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.12"]
+[Round "1"]
+[White "Oms Pallisse,J"]
+[Black "Narciso Dublan,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2493"]
+[BlackElo "2519"]
+[EventDate "2011.10.12"]
+[ECO "E33"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 Nc6 5. Nf3 d6 6. Bd2 O-O 7. a3 Bxc3 8.
+Bxc3 Re8 9. e3 e5 10. dxe5 dxe5 11. Rd1 Qe7 12. h3 a5 13. Be2 g6 14. O-O
+Bf5 15. Qb3 Ra7 16. Rd5 a4 17. Qb5 Ne4 18. Bb4 Nd6 19. Bxd6 cxd6 20. Rfd1
+Ra5 21. Qb6 Ra6 22. Qb5 Ra5 23. Qb6 Ra6 24. Qb5 Ra5 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.12"]
+[Round "1"]
+[White "De la Riva Aguado,O"]
+[Black "Peralta,Fe"]
+[Result "1/2-1/2"]
+[WhiteElo "2541"]
+[BlackElo "2602"]
+[EventDate "2011.10.12"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nd2 e6 5. Nb3 Nd7 6. Nf3 c5 7. dxc5 Bxc5 8.
+Nxc5 Nxc5 9. Bb5+ Nd7 10. Nd4 Ne7 11. Bg5 Bg6 12. h4 h6 13. Bxe7 Qxe7 14.
+h5 Bh7 15. Qg4 O-O 16. Bxd7 Qxd7 17. O-O Rac8 18. c3 b5 19. a3 a5 20. Rfe1
+b4 21. axb4 axb4 22. Re3 bxc3 23. bxc3 Kh8 24. Rg3 Rg8 25. Qf4 Ra8 26. Re1
+Qb7 27. Kh2 Be4 28. Rg1 Ra2 29. Re1 Ra4 30. Kg1 Ra2 31. Kh2 Ra4 32. Kg1 Ra2
+33. Kh2 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.12"]
+[Round "1"]
+[White "Spraggett,K"]
+[Black "Alsina Leal,D"]
+[Result "1-0"]
+[WhiteElo "2576"]
+[BlackElo "2529"]
+[EventDate "2011.10.12"]
+[ECO "D71"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 Nb6 7. Nc3 Nc6
+8. e3 O-O 9. O-O Re8 10. Re1 a5 11. Qe2 Be6 12. Nd2 a4 13. Rd1 f5 14. Rb1
+Nd5 15. Nf3 Nxc3 16. bxc3 Na5 17. Rb4 Kh8 18. e4 fxe4 19. Ng5 Bg8 20. Bxe4
+Qd6 21. Rxa4 Nc6 22. Rxa8 Rxa8 23. d5 Ne5 24. a3 Qc5 25. h4 Qxc3 26. h5 Bf6
+27. hxg6 hxg6 28. Kg2 Kg7 29. Ne6+ Bxe6 30. dxe6 Rh8 31. Bf4 c6 32. a4 g5
+33. Bxe5 Qxe5 34. Qg4 Ra8 35. Bc2 Rh8 36. Bb1 Rh6 37. Be4 Qa5 38. Bf3 Qc7
+39. Qe4 Qb6 40. Rd7 Qb2 41. Qf5 Qb4 42. a5 Qe1 43. Rd1 Qc3 44. Rb1 c5 45.
+Rxb7 Qe1 46. Rb1 Qxa5 47. Be4 Qc3 48. Rb7 Qe1 49. Rb1 Qe2 50. Rh1 Rxh1 51.
+Qg6+ 1-0
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.13"]
+[Round "2"]
+[White "Salgado Lopez,I"]
+[Black "Seirawan,Y"]
+[Result "1/2-1/2"]
+[WhiteElo "2614"]
+[BlackElo "2652"]
+[EventDate "2011.10.12"]
+[ECO "D37"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 d5 4. d4 Nbd7 5. Bf4 Bb4 6. cxd5 exd5 7. e3 c5
+8. Bd3 c4 9. Bc2 O-O 10. O-O Bxc3 11. bxc3 Re8 12. Nd2 Nf8 13. a4 Ng6 14.
+Bg5 h6 15. Bxf6 Qxf6 16. Qh5 Ne7 17. Rfb1 b6 18. a5 Bf5 19. Bxf5 Nxf5 20.
+Qf3 Qe6 21. Rb5 Ne7 22. Rab1 bxa5 23. Qd1 a6 24. Rxa5 Reb8 25. Raa1 Qc6 26.
+Qc1 Nf5 27. Ra5 Rb5 28. Rbxb5 axb5 29. Qa3 Rxa5 30. Qxa5 Kh7 31. Nf3 f6 32.
+Ne1 Nd6 33. Nc2 Qe8 34. Nb4 Qe4 35. Qa2 Kg6 36. h3 Nf5 37. Qa8 Nxe3 38.
+fxe3 Qxe3+ 39. Kh1 Qc1+ 40. Kh2 Qf4+ 41. Kh1 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.13"]
+[Round "2"]
+[White "Peralta,Fe"]
+[Black "Smirin,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2602"]
+[BlackElo "2678"]
+[EventDate "2011.10.12"]
+[ECO "E92"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Ng4 8.
+Bg5 f6 9. Bh4 g5 10. Bg3 Nh6 11. d5 Nd7 12. O-O a5 13. Nd2 Nc5 14. f3 f5
+15. exf5 Nxf5 16. Bf2 b6 17. Nde4 Bd7 18. Qd2 h6 19. Ng3 Nd4 20. Rae1 Nxe2+
+21. Qxe2 Qe8 22. b3 Qg6 23. Nb5 Rac8 24. Na7 Ra8 25. Nb5 Rac8 26. Na7 Ra8
+1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.13"]
+[Round "2"]
+[White "Oms Pallisse,J"]
+[Black "De la Riva Aguado,O"]
+[Result "1/2-1/2"]
+[WhiteElo "2493"]
+[BlackElo "2541"]
+[EventDate "2011.10.12"]
+[ECO "A56"]
+
+1. d4 Nf6 2. c4 c5 3. d5 g6 4. Nc3 d6 5. e4 Bg7 6. Be2 O-O 7. Nf3 e6 8. O-O
+Re8 9. Nd2 Na6 10. a3 Nc7 11. Rb1 b6 12. Re1 Ba6 13. Bf1 Qd7 14. b3 Nfxd5
+15. Nxd5 exd5 16. cxd5 Bxf1 17. Kxf1 Nb5 18. Bb2 Bxb2 19. Rxb2 Nxa3 20. Nf3
+Nb5 21. Qd3 Nc7 22. Rbe2 f6 23. h4 Re7 24. h5 Kg7 25. Kg1 Qb5 26. Qc2 Rf8
+27. Nh4 Qe8 28. Re3 Re5 29. hxg6 hxg6 30. Rg3 Rg5 31. Rxg5 fxg5 32. Qc3+
+Kg8 33. Nf3 g4 34. Nh2 Nb5 35. Qg3 Qe7 36. Nxg4 Qg5 37. e5 dxe5 38. Rxe5
+Qc1+ 39. Kh2 Qf4 40. Re6 Qxg3+ 41. Kxg3 Kg7 42. Ne5 Rf6 43. Re7+ Kf8 44.
+Rd7 Nc3 45. Rxa7 Ke8 46. Ng4 Rf5 47. f3 Nxd5 48. Kf2 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.13"]
+[Round "2"]
+[White "Narciso Dublan,M"]
+[Black "Alsina Leal,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2519"]
+[BlackElo "2529"]
+[EventDate "2011.10.12"]
+[ECO "B13"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Qc7 6. Bg5 e5 7. dxe5 Qxe5+
+8. Qe2 Bc5 9. Nd2 Nge7 10. Ngf3 Qxe2+ 11. Kxe2 Bf5 12. Bxe7 Bxd3+ 13. Kxd3
+Kxe7 14. Rae1+ Kf6 15. Re2 Rhe8 16. Rhe1 Re6 17. Nb3 Bb6 18. Nbd4 Bxd4 19.
+Nxd4 Rxe2 20. Rxe2 Ne5+ 21. Kc2 g5 22. Re3 h5 23. h3 h4 24. Kd1 Rd8 25. b3
+Ng6 26. Rf3+ Ke7 27. Nf5+ Ke6 28. Nd4+ Ke7 29. Nf5+ Ke6 30. Nd4+ 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.14"]
+[Round "3"]
+[White "Spraggett,K"]
+[Black "Salgado Lopez,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2576"]
+[BlackElo "2614"]
+[EventDate "2011.10.12"]
+[ECO "D90"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. cxd5 Nxd5 6. g3 Nb6 7. Bg2 Nc6
+8. e3 O-O 9. O-O a5 10. Re1 a4 11. d5 Nb4 12. e4 a3 13. Bf1 Bg4 14. Qb3 Na6
+15. Nd2 c6 16. h3 axb2 17. Bxb2 Bd7 18. Rab1 Nc5 19. Qb4 Na6 20. Qb3 Nc5
+21. Qb4 Na6 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.14"]
+[Round "3"]
+[White "Seirawan,Y"]
+[Black "Peralta,Fe"]
+[Result "1-0"]
+[WhiteElo "2652"]
+[BlackElo "2602"]
+[EventDate "2011.10.12"]
+[ECO "B09"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 O-O 6. Bd3 Na6 7. O-O c5 8.
+d5 Rb8 9. Kh1 Bg4 10. h3 Bxf3 11. Rxf3 Nc7 12. a4 e6 13. dxe6 fxe6 14. Nb5
+d5 15. e5 Ne4 16. Be3 g5 17. fxg5 Nxb5 18. axb5 Bxe5 19. Bxe4 dxe4 20.
+Rxf8+ Qxf8 21. c3 Rd8 22. Qe2 Bb8 23. Rf1 Qd6 24. Bg1 Qe5 25. Qh5 Qg7 26.
+Qg4 Qe5 27. Qh5 Qg7 28. Bxc5 Qg6 29. Qg4 h5 30. Qe2 Qxg5 31. Qxe4 Be5 32.
+Qxb7 Kh8 33. Bxa7 1-0
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.14"]
+[Round "3"]
+[White "De la Riva Aguado,O"]
+[Black "Narciso Dublan,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2541"]
+[BlackElo "2519"]
+[EventDate "2011.10.12"]
+[ECO "C45"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2
+Nd5 8. Nd2 Bb7 9. Nf3 Qb4+ 10. Qd2 Qe4+ 11. Be2 Ba6 12. Kf1 Bxe2+ 13. Qxe2
+Qxe2+ 14. Kxe2 Bc5 15. c4 Nb6 16. b3 O-O 17. Bb2 Rae8 18. Rhe1 f6 19. Kf1
+fxe5 20. Bxe5 Bb4 21. Re2 d6 22. Bd4 Nd7 23. Rd1 Rxe2 24. Kxe2 Nc5 25. Be3
+Ne6 26. Nd4 Nxd4+ 27. Bxd4 a6 28. Rd3 Re8+ 29. Re3 Rxe3+ 30. Kxe3 Kf7 31.
+g4 g6 32. f4 Ke6 33. Ke2 Ba3 34. Kd1 Bb4 35. h3 c5 36. Bb2 c6 37. Ke2 Ba5
+38. Ke3 Bc7 39. Bc3 d5 40. Kf3 Bd8 41. Bg7 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.14"]
+[Round "3"]
+[White "Smirin,I"]
+[Black "Oms Pallisse,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2678"]
+[BlackElo "2493"]
+[EventDate "2011.10.12"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. Nbd2 c5 7. dxc5 Nec6 8.
+Nb3 Bxc5 9. Nxc5 Qa5+ 10. c3 Qxc5 11. Qb3 Qe7 12. Bg5 Qc7 13. Qa3 Bg4 14.
+O-O Bxf3 15. Bxf3 Nxe5 16. Be2 Nbc6 17. Rfe1 Ng6 18. Bh5 Nce7 19. c4 dxc4
+20. Qa4+ Qc6 21. Qa3 Qc7 22. Qa4+ Qc6 23. Qa3 Qc7 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.15"]
+[Round "4"]
+[White "Salgado Lopez,I"]
+[Black "Alsina Leal,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2614"]
+[BlackElo "2529"]
+[EventDate "2011.10.12"]
+[ECO "D12"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. e3 Bf5 5. Nc3 e6 6. Nh4 Bg6 7. Nxg6 hxg6 8.
+Bd2 Nbd7 9. c5 e5 10. b4 a6 11. a4 Be7 12. g3 exd4 13. exd4 Nf8 14. Bg2 Ne6
+15. Be3 Ng8 16. O-O Bf6 17. Ne2 Ne7 18. f3 Nf5 19. Bf2 g5 20. b5 axb5 21.
+axb5 g6 22. bxc6 bxc6 23. Ra4 Kf8 24. Qa1 Kg7 25. Rb1 Rxa4 26. Qxa4 Qa8 27.
+Qd1 Rb8 28. Rxb8 Qxb8 29. Bh3 Qb2 30. Bxf5 gxf5 31. Qd3 g4 32. fxg4 fxg4
+33. Be3 Kf8 34. Kf2 Ke7 35. Kf1 Qa1+ 36. Kg2 Qa2 37. Kf1 Qa1+ 38. Kg2 Qa2
+39. Kf1 Qa1+ 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.15"]
+[Round "4"]
+[White "Peralta,Fe"]
+[Black "Spraggett,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2602"]
+[BlackElo "2576"]
+[EventDate "2011.10.12"]
+[ECO "E91"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Na6 7. O-O e5 8.
+Be3 c6 9. d5 Ng4 10. Bg5 f6 11. Bh4 c5 12. Ne1 Nh6 13. a3 Qe7 14. f3 Nf7
+15. Nd3 Bd7 16. Re1 b6 17. Bf1 Bh6 18. b4 Bg5 19. Bf2 Rfc8 20. Re2 Bh6 21.
+Rb2 Nd8 22. bxc5 bxc5 23. Rab1 Nf7 24. Rb7 Nd8 25. R7b2 Nf7 26. Rb7 Nd8 27.
+R7b2 Nf7 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.15"]
+[Round "4"]
+[White "Oms Pallisse,J"]
+[Black "Seirawan,Y"]
+[Result "0-1"]
+[WhiteElo "2493"]
+[BlackElo "2652"]
+[EventDate "2011.10.12"]
+[ECO "A41"]
+
+1. d4 d6 2. Nf3 Bg4 3. c4 Bxf3 4. exf3 c6 5. Nc3 g6 6. Be2 Bg7 7. Be3 Nf6
+8. Qb3 Qc7 9. g4 a5 10. h4 h5 11. O-O-O Nbd7 12. Kb1 Nb6 13. d5 Nfd7 14.
+gxh5 Rxh5 15. f4 Rh8 16. Na4 Nxa4 17. Qxa4 Nc5 18. Qc2 a4 19. Bd2 O-O-O 20.
+f5 gxf5 21. Qxf5+ e6 22. Qc2 Kb8 23. Bf3 cxd5 24. cxd5 Rc8 25. dxe6 fxe6
+26. Bf4 e5 27. Be3 a3 28. b3 e4 29. Be2 Qe7 30. Qd2 Nd3 31. Qa5 Rc5 32.
+Bxc5 dxc5 33. Bxd3 Qe5 34. Qxa3 Qa1+ 35. Kc2 Qc3+ 0-1
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.15"]
+[Round "4"]
+[White "De la Riva Aguado,O"]
+[Black "Smirin,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2541"]
+[BlackElo "2678"]
+[EventDate "2011.10.12"]
+[ECO "B76"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8.
+Qd2 Nc6 9. O-O-O d5 10. Qe1 e6 11. g4 Bd7 12. Nxc6 Bxc6 13. Kb1 Qc7 14. g5
+Nh5 15. exd5 exd5 16. Bd4 Rfe8 17. Qf2 Bxd4 18. Qxd4 Qf4 19. b4 a6 20. Qxf4
+Nxf4 21. a4 Re3 22. Kb2 Rd8 23. Ne4 Bxa4 24. Nf6+ Kg7 25. Bc4 Rc8 26. Bxd5
+Rxc2+ 27. Kb1 Re5 28. h4 Rf2 29. Bb3 Be8 30. Rd8 Rfe2 31. Rc1 Kf8 32. Rcc8
+Re1+ 33. Kb2 R1e2+ 34. Kb1 R5e3 35. Nxh7+ Kg7 36. Nf6 Rxb3+ 37. Ka1 Rxf3
+38. Nxe8+ Kf8 39. Nf6+ Ke7 40. Re8+ Kd6 41. Red8+ Ke6 42. Re8+ Kd6 43.
+Red8+ 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.16"]
+[Round "5"]
+[White "Alsina Leal,D"]
+[Black "Peralta,Fe"]
+[Result "1/2-1/2"]
+[WhiteElo "2529"]
+[BlackElo "2602"]
+[EventDate "2011.10.12"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. Be3 cxd4 7. Nxd4 Ne7 8.
+Nd2 Nbc6 9. N2f3 Bg4 10. O-O Bxf3 11. Nxf3 Qc7 12. Bf4 Ng6 13. Bg3 Be7 14.
+Re1 O-O 15. Bf1 Rac8 16. a3 Nb8 17. Bd3 Nd7 18. c3 Rfd8 19. Qe2 Nc5 20. Bc2
+Qb6 21. Rab1 Nb3 22. h4 a5 23. h5 Nf8 24. Bf4 a4 25. Be3 Qa6 26. Bxb3 axb3
+27. Qd1 Qa4 28. Nd4 Nd7 29. Qxb3 Qa6 30. Nf3 Nc5 31. Qc2 h6 32. Qe2 Nd3 33.
+Rf1 Nxe5 34. Qd1 Nc4 35. Bf4 Bf6 36. Re1 Nd6 37. Be5 Bxe5 38. Nxe5 Nc4 39.
+Nf3 Nd6 40. Ne5 Nc4 41. Nf3 Qd6 42. Qd4 Na5 43. Qe5 Qe7 44. Qg3 Nc4 45. Re2
+Qf6 46. Rbe1 Nd6 47. Nd2 Ra8 48. Qe3 Ra4 49. Nf1 Nf5 50. Qe5 Qg5 51. b4 Nd6
+52. Qxg5 hxg5 53. Re5 Rxa3 54. Rxg5 Kf8 55. Rg3 Rc8 56. Nh2 Raxc3 57. Rxc3
+Rxc3 58. Rb1 e5 59. Ng4 Nc4 60. Re1 e4 61. Rd1 Rd3 62. Rxd3 exd3 63. Kf1
+Ke7 64. f3 f5 65. Nf2 Ne3+ 66. Ke1 Nxg2+ 67. Kd2 Nf4 68. Ke3 Nxh5 69. Nxd3
+Kd6 70. Nc5 b6 71. Na4 Kc6 72. Nc3 g5 73. Kd4 Nf4 74. Ke5 Nd3+ 75. Kxf5
+Nxb4 76. Kxg5 d4 77. Nd1 Kd5 78. f4 d3 79. f5 Nc6 80. f6 Nd8 81. Kf4 Kd4
+82. Kf3 Nf7 83. Kf2 Ng5 84. Ke1 Nf3+ 85. Kf2 Ne5 86. Ke1 b5 87. Kd2 b4 88.
+Nb2 Nf3+ 89. Kd1 Ng5 90. Kc1 Ke3 91. Nc4+ Kd4 92. Nb2 b3 93. Nd1 Kc4 94.
+Nb2+ Kc3 95. Nd1+ Kc4 96. Nb2+ Kd4 97. Nd1 Nf7 98. Kb2 Kc4 99. Ne3+ Kb4
+100. Nf1 Ne5 101. Nd2 Kc5 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.16"]
+[Round "5"]
+[White "Spraggett,K"]
+[Black "Oms Pallisse,J"]
+[Result "1-0"]
+[WhiteElo "2576"]
+[BlackElo "2493"]
+[EventDate "2011.10.12"]
+[ECO "B18"]
+
+1. e4 c6 2. Nc3 d5 3. d4 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. h5 Bh7 8.
+Bd3 Bxd3 9. Qxd3 e6 10. Nf3 Nd7 11. Bd2 Ngf6 12. O-O-O Be7 13. Ne4 Nxe4 14.
+Qxe4 Nf6 15. Qd3 O-O 16. g4 Nxg4 17. Rhg1 f5 18. Qe2 Kh7 19. Ne5 Nxe5 20.
+dxe5 Rf7 21. Bxh6 Qa5 22. Qc4 Qxe5 23. Bf4 b5 24. Bxe5 bxc4 25. Rg6 Re8 26.
+Rd4 Bf6 27. Bxf6 Rxf6 28. Rxf6 gxf6 29. Rxc4 Kh6 30. Rxc6 Kxh5 31. Kd2 Kg4
+32. Ke2 Re7 33. b4 Kf4 34. b5 Ke4 35. a4 f4 36. a5 e5 37. b6 axb6 38. axb6
+f3+ 39. Kd2 Rd7+ 40. Kc3 Kd5 41. Rxf6 Kc5 42. Rf5 Kxb6 43. Rxe5 Rc7+ 44.
+Kb3 Rf7 45. c3 Rf4 46. Kc2 Ra4 47. Kb3 Rf4 48. Rd5 Kc6 49. Rd4 Rf8 50. Kc4
+Ra8 51. Kd3 1-0
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.16"]
+[Round "5"]
+[White "Smirin,I"]
+[Black "Narciso Dublan,M"]
+[Result "1-0"]
+[WhiteElo "2678"]
+[BlackElo "2519"]
+[EventDate "2011.10.12"]
+[ECO "C80"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8.
+dxe5 Be6 9. Nbd2 Nc5 10. c3 Bg4 11. Bc2 Ne6 12. Re1 Bc5 13. Nf1 Ne7 14. Ng3
+c6 15. h3 Bxf3 16. Qxf3 O-O 17. Kh2 Ng6 18. Re2 Qc7 19. Qf5 Rad8 20. Bd2 d4
+21. Rae1 dxc3 22. bxc3 b4 23. Bb3 bxc3 24. Bxc3 Bd4 25. Rc2 Bxc3 26. Rxc3
+Qa5 27. Rce3 Ne7 28. Qh5 Nd5 29. Re4 Ndf4 30. Qg4 Nd3 31. Nh5 Nxe1 32. Bxe6
+g6 33. Nf6+ Kg7 34. Qh4 Rh8 35. Nh5+ 1-0
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.16"]
+[Round "5"]
+[White "Seirawan,Y"]
+[Black "De la Riva Aguado,O"]
+[Result "1/2-1/2"]
+[WhiteElo "2652"]
+[BlackElo "2541"]
+[EventDate "2011.10.12"]
+[ECO "D11"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bg4 5. h3 Bxf3 6. Qxf3 e6 7. Nc3 Nbd7 8.
+Bd3 Bb4 9. Bd2 O-O 10. O-O Re8 11. Qd1 dxc4 12. Bxc4 Nb6 13. Bb3 Bd6 14.
+Qf3 e5 15. dxe5 Bxe5 16. Rfd1 Qe7 17. a3 Rad8 18. Be1 g6 19. Rxd8 Rxd8 20.
+Rd1 Rxd1 21. Qxd1 Nfd5 22. Nxd5 Nxd5 23. Bxd5 cxd5 24. Qc2 h5 25. Qc8+ Kh7
+26. Bc3 Bxc3 27. Qxc3 b6 28. b4 Qd7 29. f3 Kg8 30. Kf2 Qa4 31. Kg3 Qe8 32.
+Kf2 Qa4 33. g4 hxg4 34. hxg4 Qd7 35. Qe5 Kh7 36. Kg3 a5 37. f4 axb4 38.
+axb4 Qb5 39. Qe7 Kg8 40. f5 gxf5 41. gxf5 Qf1 42. f6 Qg1+ 43. Kf4 Qh2+ 44.
+Kg4 Qg2+ 45. Kf4 Qh2+ 46. Kg4 Qg2+ 47. Kf5 Qf3+ 48. Ke5 Qe4+ 49. Kd6 Qxb4+
+50. Kc6 Qc4+ 51. Kxb6 Qc8 52. Kb5 Qc4+ 53. Kb6 Qc8 54. Kb5 Qc4+ 55. Kb6 Qc8
+56. Kb5 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.17"]
+[Round "6"]
+[White "De la Riva Aguado,O"]
+[Black "Spraggett,K"]
+[Result "1-0"]
+[WhiteElo "2541"]
+[BlackElo "2576"]
+[EventDate "2011.10.12"]
+[ECO "B80"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be3 a6 7. Qd2 Be7 8.
+f3 Nc6 9. g4 Nd7 10. O-O-O O-O 11. h4 Nde5 12. Qg2 Qc7 13. g5 b5 14. Kb1
+Nxd4 15. Bxd4 Bb7 16. f4 Nc6 17. Bf6 Kh8 18. Bxe7 Nxe7 19. Bd3 f5 20. Rhe1
+Rae8 21. Qd2 b4 22. Na4 a5 23. b3 Bc6 24. Nb2 fxe4 25. Bxe4 Nd5 26. Bxd5
+Bxd5 27. Re3 Rc8 28. Rc1 Qf7 29. c4 bxc3 30. Rexc3 Rcd8 31. Nd3 Be4 32. Ka1
+Qf5 33. h5 e5 34. h6 gxh6 35. gxh6 exf4 36. Nf2 d5 37. a4 Rde8 38. Ng4 Qxg4
+39. Qd4+ Kg8 40. Rg1 Bg2 41. Rc2 Re4 42. Qxd5+ Kh8 43. Qc5 Rfe8 44. Qc3+
+R4e5 45. Re1 Qg5 46. Rxg2 Qf6 47. Rge2 1-0
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.17"]
+[Round "6"]
+[White "Smirin,I"]
+[Black "Seirawan,Y"]
+[Result "1-0"]
+[WhiteElo "2678"]
+[BlackElo "2652"]
+[EventDate "2011.10.12"]
+[ECO "B17"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nd7 5. Bc4 Ngf6 6. Ng5 e6 7. Qe2 Nb6
+8. Bd3 h6 9. N5f3 c5 10. dxc5 Bxc5 11. Bd2 Nbd7 12. O-O-O Qc7 13. Nh3 O-O
+14. Bf4 e5 15. Nxe5 Bd6 16. Ng6 Bxf4+ 17. Nhxf4 Re8 18. Nd5 Qa5 19. Nde7+
+Kh7 20. Ne5+ g6 21. Nxf7 Ng8 22. Bxg6+ Kg7 23. Nf5+ Qxf5 24. Qxe8 Qxg6 25.
+Nd6 Nb6 26. Rhe1 Bd7 27. Qxg6+ Kxg6 28. Nxb7 Rc8 29. Nd6 Rc7 30. Rd3 Bc6
+31. Re6+ Kh7 32. Rc3 Nd5 33. Rc4 Nb6 34. Rc3 Nd5 35. Rc5 Nge7 36. Ne8 Rc8
+37. Nf6+ Nxf6 38. Rxe7+ Kg6 39. Rxa7 Ne4 40. Rc4 Nd6 41. Rc3 Ne4 42. Re3
+Nxf2 43. Ra6 Kg5 44. Rg3+ Kh4 45. Rc3 Rd8 46. b3 Bxg2 47. Rg3 1-0
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.17"]
+[Round "6"]
+[White "Oms Pallisse,J"]
+[Black "Alsina Leal,D"]
+[Result "0-1"]
+[WhiteElo "2493"]
+[BlackElo "2529"]
+[EventDate "2011.10.12"]
+[ECO "D45"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 e6 5. Nf3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8.
+O-O dxc4 9. Bxc4 b5 10. Be2 Bb7 11. Rd1 Qb8 12. e4 e5 13. Bg5 exd4 14. Rxd4
+c5 15. Rd2 b4 16. Nb5 Bxe4 17. Qd1 Bf4 18. Rxd7 Bxf3 19. Bxf6 Bc6 20. Be7
+Re8 21. Bc4 Bxh2+ 22. Kh1 Qf4 23. Nd6 Rxe7 24. Rxe7 Qg5 25. Re4 Bxd6 26.
+Rg4 Qh6+ 27. Kg1 Qh2+ 28. Kf1 h5 29. Rg5 Qh1+ 0-1
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.17"]
+[Round "6"]
+[White "Narciso Dublan,M"]
+[Black "Salgado Lopez,I"]
+[Result "1-0"]
+[WhiteElo "2519"]
+[BlackElo "2614"]
+[EventDate "2011.10.12"]
+[ECO "C01"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nf6 5. Bd3 Bd6 6. O-O O-O 7. Bg5 Bg4
+8. Nbd2 Nbd7 9. c3 c6 10. Qc2 Qc7 11. Bh4 Bh5 12. Bg3 Bg6 13. Bxg6 hxg6 14.
+Bxd6 Qxd6 15. Rfe1 Rae8 16. g3 Rxe1+ 17. Rxe1 Re8 18. Rxe8+ Nxe8 19. Qb3 b6
+20. Qd1 Qe6 21. Ne1 g5 22. Ng2 Nef6 23. Ne3 g4 24. Nb3 Qe4 25. Nc1 Qb1 26.
+Qc2 Qa1 27. a3 Nf8 28. Kg2 Ne6 29. Nb3 Qe1 30. Qd2 Qb1 31. Qc2 Qxc2 32.
+Nxc2 c5 33. dxc5 bxc5 34. Na5 c4 35. Nc6 Nc5 36. Ne3 Na4 37. Ne7+ Kf8 38.
+N7xd5 Nxd5 39. Nxd5 Nxb2 40. Ne3 Na4 41. Nxg4 Nxc3 42. Ne3 Ke7 43. Nxc4 Ke6
+44. Kf3 Kd5 45. Ne3+ Ke5 46. Nc2 Kd5 47. Ne3+ Ke5 48. h4 Nb5 49. Nc2 Kd5
+50. h5 Nd6 51. g4 f6 52. Kf4 a5 53. g5 fxg5+ 54. Kxg5 Ne4+ 55. Kg6 Nxf2 56.
+Ne3+ Ke6 57. Kxg7 Ne4 58. h6 Nf6 59. Nd5 1-0
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.18"]
+[Round "7"]
+[White "Seirawan,Y"]
+[Black "Narciso Dublan,M"]
+[Result "1-0"]
+[WhiteElo "2652"]
+[BlackElo "2519"]
+[EventDate "2011.10.12"]
+[ECO "A25"]
+
+1. c4 e5 2. Nc3 g6 3. g3 Bg7 4. Bg2 Nc6 5. Rb1 d6 6. b4 Nf6 7. b5 Ne7 8. d3
+O-O 9. Nf3 a6 10. a4 axb5 11. axb5 h6 12. Nd2 Rb8 13. O-O b6 14. Ra1 Bb7
+15. Bxb7 Rxb7 16. e3 Nd7 17. Ba3 f5 18. Bb4 Nf6 19. Qf3 Rb8 20. Ra7 Rc8 21.
+Qg2 h5 22. Rfa1 Bh6 23. Rb7 Qd7 24. Raa7 h4 25. Rxb6 hxg3 26. hxg3 f4 27.
+Rxd6 Qg4 28. Rxf6 Rxf6 29. Bxe7 Rf7 30. gxf4 Qxg2+ 31. Kxg2 Rxe7 32. Nd5
+Rf7 33. fxe5 Bg5 34. Ne4 Bd8 35. b6 1-0
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.18"]
+[Round "7"]
+[White "Salgado Lopez,I"]
+[Black "Peralta,Fe"]
+[Result "1-0"]
+[WhiteElo "2614"]
+[BlackElo "2602"]
+[EventDate "2011.10.12"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. Be3 cxd4 7. Nxd4 Ne7 8.
+Nd2 Nbc6 9. N2f3 Bg4 10. O-O Bxf3 11. Nxf3 Qc7 12. Bf4 h6 13. h3 g5 14. Bh2
+Bg7 15. Re1 Ng6 16. Bb5 O-O 17. Qe2 a6 18. Bd3 Nb4 19. Bxg6 fxg6 20. c3 Nc6
+21. c4 dxc4 22. Qxc4 Qf7 23. Rad1 Rad8 24. Rd6 Rfe8 25. Red1 Bf8 26. Rxd8
+Rxd8 27. Rxd8 Nxd8 28. Qc8 Nc6 29. Bg3 Na7 30. Qa8 Nc6 31. Nd2 Nb4 32. a3
+Nd5 33. Ne4 Qd7 34. Nd6 Nb6 35. Qb8 Na4 36. Nxb7 Nxb2 37. Nd6 Na4 38. Qb4
+Qc6 39. h4 Nc3 40. Kh2 gxh4 41. Qxh4 Qd7 42. Qf6 g5 43. Qg6+ Bg7 44. f4 Ne2
+45. f5 Nxg3 46. Kxg3 Qa4 47. Qxe6+ Kh7 48. Nc4 Bxe5+ 49. Qxe5 Qxc4 50. Qe7+
+Kg8 51. Qe8+ Kg7 52. Qg6+ Kf8 53. Qxh6+ Ke7 54. Qxg5+ Kd7 55. Qe3 Qg8+ 56.
+Kh3 Qh7+ 57. Kg4 Qg8+ 58. Qg5 Qa2 59. Qg7+ Kc8 60. Qc3+ Kd7 61. g3 Qg8+ 62.
+Kf4 Qd5 63. Qg7+ Kc8 64. Qe5 Qd2+ 65. Qe3 Qd6+ 66. Kg4 Qd1+ 67. Kg5 Qd8+
+68. f6 Qg8+ 69. Kf4 Qc4+ 70. Qe4 Qc1+ 71. Kg4 Qd1+ 72. Qf3 Qd4+ 73. Qf4
+Qd1+ 74. Kg5 Qd8 75. Qc4+ Kb8 76. a4 Qd2+ 1-0
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.18"]
+[Round "7"]
+[White "Alsina Leal,D"]
+[Black "De la Riva Aguado,O"]
+[Result "1/2-1/2"]
+[WhiteElo "2529"]
+[BlackElo "2541"]
+[EventDate "2011.10.12"]
+[ECO "C63"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d3 fxe4 5. dxe4 Nf6 6. Qd3 Bc5 7. O-O d6
+8. Qc4 Bd7 9. Nc3 Qe7 10. Nd5 Nxd5 11. exd5 Nd4 12. Nxd4 Bxd4 13. Be3 Bb6
+14. a4 O-O 15. Bxd7 Qxd7 16. a5 Bxe3 17. fxe3 Rxf1+ 18. Rxf1 Rf8 19. Rxf8+
+Kxf8 20. h3 a6 21. b4 g6 22. Qh4 Kg7 23. c4 h6 24. c5 dxc5 25. bxc5 Qxd5
+26. Qe7+ Kg8 27. Qe8+ Kg7 28. Qe7+ Kg8 29. Qxc7 Qe4 30. Kh2 h5 31. c6 bxc6
+32. Qc8+ Kg7 33. Qxa6 Qxe3 34. Qxc6 Qf4+ 35. Kg1 Qd4+ 36. Kh2 Qf4+ 37. Kg1
+Qd4+ 38. Kh2 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.18"]
+[Round "7"]
+[White "Spraggett,K"]
+[Black "Smirin,I"]
+[Result "1-0"]
+[WhiteElo "2576"]
+[BlackElo "2678"]
+[EventDate "2011.10.12"]
+[ECO "E98"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8.
+d5 Ne7 9. Ne1 Ne8 10. f3 f5 11. g4 Nf6 12. Nd3 Kh8 13. Be3 c6 14. Kh1 a6
+15. a4 a5 16. Rg1 c5 17. Rg2 b6 18. h4 Neg8 19. Rc1 Ra7 20. exf5 gxf5 21.
+g5 Nh5 22. f4 exf4 23. Nxf4 Nxf4 24. Bxf4 Be5 25. Qd2 Rg7 26. Bh5 Re7 27.
+Re2 Bxf4 28. Qxf4 Rxe2 29. Nxe2 Ne7 30. Re1 Ng6 31. Bxg6 hxg6 32. Nc3 Rf7
+33. Nb5 Re7 34. Rxe7 Qxe7 35. Nxd6 Qe1+ 36. Kg2 Qe2+ 37. Qf2 Qg4+ 38. Kh2
+Ba6 39. b3 Kg7 40. Ne8+ Kf7 41. Nf6 Qd1 42. Qe3 Qc2+ 43. Kh3 1-0
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.19"]
+[Round "8"]
+[White "Smirin,I"]
+[Black "Alsina Leal,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2678"]
+[BlackElo "2529"]
+[EventDate "2011.10.12"]
+[ECO "B30"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Nf6 4. Nc3 g6 5. Bxc6 bxc6 6. e5 Nd5 7. Ne4 Bg7
+8. O-O d6 9. c4 f5 10. Nxd6+ exd6 11. cxd5 dxe5 12. dxc6 Qd5 13. d3 O-O 14.
+Re1 Re8 15. Be3 Qxc6 16. Rc1 Qd5 17. Rxc5 Qxa2 18. Bd4 Bb7 19. Nxe5 Rac8
+20. Rxc8 Rxc8 21. Bc3 Qd5 22. Nf3 Bxc3 23. bxc3 Rxc3 24. Qa4 Bc6 25. Qxa7
+Rxd3 26. Qb8+ Qd8 27. Qxd8+ Rxd8 28. Ne5 Re8 29. f4 Be4 30. Kf2 Rc8 31. g3
+Rc2+ 32. Re2 Rc1 33. Ke3 Rc3+ 34. Kd4 Rc1 35. Ra2 Rd1+ 36. Kc5 g5 37. Ra7
+gxf4 38. gxf4 Rd5+ 39. Kc4 Rd2 40. h4 Rh2 41. Nd7 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.19"]
+[Round "8"]
+[White "Seirawan,Y"]
+[Black "Spraggett,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2652"]
+[BlackElo "2576"]
+[EventDate "2011.10.12"]
+[ECO "E70"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Bd3 O-O 6. Nge2 c5 7. d5 e6 8.
+O-O Ng4 9. f4 exd5 10. exd5 f5 11. h3 Nf6 12. Be3 Na6 13. Qd2 Bd7 14. Rae1
+Nc7 15. Kh2 Rb8 16. a4 Nfe8 17. Ng1 Na6 18. Nf3 Nb4 19. Bb1 Qa5 20. b3 Nc2
+21. Qxc2 Qxc3 22. Qxc3 Bxc3 23. Bd2 Bxd2 24. Nxd2 a5 25. Re2 Nf6 26. Rfe1
+Rfe8 27. g3 Rxe2+ 28. Rxe2 Re8 29. Rxe8+ Nxe8 30. Kg2 Ng7 31. Kf3 Kf7 32.
+Nf1 Kf6 33. Ne3 h5 34. h4 b6 35. Bc2 Ne8 36. Nd1 Nc7 37. Nf2 Na6 38. Ke3
+Nb4 39. Bb1 Bc8 40. Nd3 Nxd3 41. Kxd3 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.19"]
+[Round "8"]
+[White "Oms Pallisse,J"]
+[Black "Salgado Lopez,I"]
+[Result "0-1"]
+[WhiteElo "2493"]
+[BlackElo "2614"]
+[EventDate "2011.10.12"]
+[ECO "E32"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 b6 7. Bg5 Bb7
+8. e3 d6 9. Ne2 Nbd7 10. Qd3 h6 11. Bh4 e5 12. Nc3 Qe8 13. O-O-O a6 14. Qc2
+Rc8 15. Kb1 Qe6 16. Be2 Bxg2 17. Rhg1 Qh3 18. Bg3 e4 19. Nd5 Nxd5 20. cxd5
+b5 21. a4 Nb6 22. axb5 axb5 23. Bxb5 Bf3 24. Rc1 Nxd5 25. Qb3 Qh5 26. Bc6
+Ne7 27. Bb7 Qa5 28. Bxc8 Rxc8 29. Qc3 Qb6 30. Qc4 Rb8 31. Rc2 Ra8 32. Rc3
+Rb8 33. Rc2 Ra8 34. Rc3 Rb8 35. Rc2 Rb7 36. Qa4 Kh7 37. Qc4 Bh5 38. Rgc1
+Qa5 39. Qa2 Qxa2+ 40. Kxa2 Nd5 41. Kb1 f5 42. h4 Be8 43. Rd2 g5 44. hxg5
+hxg5 45. Rg1 Kh6 46. Kc1 Ra7 47. Kb1 f4 48. Bh2 fxe3 49. fxe3 Nxe3 50. Re2
+Nf5 51. Rxe4 Bg6 52. Kc1 Ra4 53. Kd2 Nxd4 54. Re3 Bf5 55. Bg3 Rb4 56. Rge1
+Kg6 57. Kc1 Nb3+ 58. Rxb3 Rxb3 59. Bf2 g4 60. Re3 Rxe3 61. Bxe3 g3 62. Bf4
+g2 63. Bh2 Be6 64. Kd2 Kf5 65. Ke3 Bb3 66. Kf2 Bd5 67. Ke3 Ke6 68. b4 c5
+69. bxc5 dxc5 70. Kd3 Kd7 71. Bg1 Kc6 72. Bf2 Kb5 73. Kc3 Bb7 74. Bg1 Kc6
+75. Bf2 Kd5 76. Bg1 Ba6 77. Bf2 Kc6 78. Bg1 Kb5 79. Bf2 Bc8 80. Be3 Be6 81.
+Bf2 c4 82. Be3 Ka4 83. Bc5 Bf7 84. Bf2 Ka3 85. Be3 Ka2 86. Kc2 Bg6+ 87. Kc3
+Bd3 88. Bf2 Kb1 89. Be3 Bf1 90. Bg1 Kc1 91. Bf2 Kd1 92. Kd4 Bd3 0-1
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.19"]
+[Round "8"]
+[White "Narciso Dublan,M"]
+[Black "Peralta,Fe"]
+[Result "1/2-1/2"]
+[WhiteElo "2519"]
+[BlackElo "2602"]
+[EventDate "2011.10.12"]
+[ECO "B18"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Nc5 b6 6. Nb3 e6 7. Nf3 Bd6 8.
+g3 Nf6 9. Bg2 O-O 10. Nbd2 Nbd7 11. Nc4 Qc7 12. O-O Be4 13. Qe2 Rac8 14. b3
+c5 15. Nxd6 Qxd6 16. dxc5 Qxc5 17. c4 Qh5 18. Nd4 Qxe2 19. Nxe2 Ne5 20.
+Bxe4 Nxe4 21. f3 Nc5 22. Bb2 Ned3 23. Bc3 Rfd8 24. Rfd1 e5 25. Nc1 Nxc1 26.
+Raxc1 f6 27. Kf1 Kf7 28. Rxd8 Rxd8 29. Ke2 Ke6 30. Bd2 h5 31. b4 Nd7 32.
+Be3 Rc8 33. Kd3 g5 34. h3 Rd8 35. Ke2 Rg8 36. a4 f5 37. a5 f4 38. axb6 axb6
+39. gxf4 gxf4 40. Bf2 Rc8 41. Kd3 Ra8 42. c5 bxc5 43. bxc5 Nf6 44. c6 Nd5
+45. c7 Rc8 46. Rc6+ Kf5 47. Rh6 Rxc7 48. Rxh5+ Ke6 49. Rh6+ Kf5 50. Rh5+
+Ke6 51. Rh6+ Kf5 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.20"]
+[Round "9"]
+[White "Salgado Lopez,I"]
+[Black "De la Riva Aguado,O"]
+[Result "1-0"]
+[WhiteElo "2614"]
+[BlackElo "2541"]
+[EventDate "2011.10.12"]
+[ECO "B38"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 Nf6 7. Nc3 O-O
+8. Be2 b6 9. O-O Bb7 10. f3 e6 11. Nxc6 Bxc6 12. Qd6 Ne8 13. Qd2 f5 14.
+exf5 gxf5 15. Rad1 Qf6 16. f4 Rc8 17. Bf3 Rf7 18. Qd3 Qe7 19. Bxc6 Rxc6 20.
+Nb5 d6 21. Rfe1 Rf6 22. Bf2 Qf7 23. b3 Rg6 24. Qf3 d5 25. cxd5 exd5 26.
+Qxd5 Qxd5 27. Rxd5 Nd6 28. g3 Nxb5 29. Rxb5 Rgf6 30. Re2 Bf8 31. Rd5 Rf7
+32. Bd4 Rd6 33. Rxd6 Bxd6 34. Re8+ Rf8 35. Rxf8+ Kxf8 36. Kf2 Kf7 37. Kf3
+Ke6 38. h3 Bc7 39. g4 a6 40. h4 b5 41. g5 Bd6 42. h5 Kf7 43. Ke3 Bc7 44.
+Be5 Bb6+ 45. Kd3 Bf2 46. Bd4 Be1 47. Bc3 Bf2 48. Be5 Bc5 49. Kc3 Kg8 50.
+Bd4 1-0
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.20"]
+[Round "9"]
+[White "Peralta,Fe"]
+[Black "Oms Pallisse,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2602"]
+[BlackElo "2493"]
+[EventDate "2011.10.12"]
+[ECO "D48"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8.
+Bd3 a6 9. e4 c5 10. d5 Qc7 11. O-O Bb7 12. Bc2 c4 13. dxe6 fxe6 14. Ne2 Nc5
+15. Bf4 Qb6 16. Ng3 Be7 17. Bg5 O-O 18. Qe2 h6 19. Be3 Qc7 20. Nh4 Nfxe4
+21. Nxe4 Bxe4 22. Bxe4 Nxe4 23. Ng6 Rfe8 24. Bxh6 Nc5 25. Be3 Nd3 26. Qh5
+Bf6 27. f4 Qc6 28. Qh8+ Kf7 29. Qh5 Kg8 30. Rf3 Qe4 31. Rh3 Qf5 32. Qh7+
+Kf7 33. Rg3 Rad8 34. Rf1 Rd4 35. h4 Re4 36. Rg5 Rxe3 37. Rxf5 exf5 38. Ne5+
+Nxe5 39. fxe5 R8xe5 40. Rxf5 Re1+ 41. Kh2 R5e4 42. Rf2 Ke7 43. g3 R4e2 44.
+Qf5 Rxf2+ 45. Qxf2 Rb1 46. Qc5+ Kf7 47. Qd5+ Kf8 48. Qc5+ Kf7 49. Qd5+ Kf8
+50. Qc5+ 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.20"]
+[Round "9"]
+[White "Spraggett,K"]
+[Black "Narciso Dublan,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2576"]
+[BlackElo "2519"]
+[EventDate "2011.10.12"]
+[ECO "E11"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 c5 5. Bxb4 cxb4 6. Qd3 O-O 7. Nbd2 d6
+8. e4 Qe7 9. Be2 e5 10. O-O Bg4 11. Rfe1 Nc6 12. d5 Bxf3 13. Nxf3 Nb8 14.
+Bd1 Na6 15. Qd2 Nc5 16. Bc2 a5 17. g3 g6 18. Nh4 Nh5 19. Kh1 Rae8 20. Rad1
+Qd8 21. Re3 Ng7 22. Rde1 b6 23. R3e2 Nh5 24. Ng2 Qf6 25. Rf1 Qg7 26. Ne3
+Nf6 27. f3 h5 28. h4 Rb8 29. Rg2 Rfd8 30. Qe1 Kf8 31. Kg1 Rb7 32. Qe2 Re7
+33. Re1 Qh8 34. Qd1 Rc7 35. a3 bxa3 36. bxa3 Rb8 37. Qd2 Rcb7 38. Rb1 Qh6
+39. Re2 Kg8 40. Kg2 Kf8 41. Ree1 Kg8 42. Qe2 Kf8 43. Rb5 Ke8 44. Reb1 Kd8
+45. Qd2 Nfd7 46. Qc3 Kc7 47. R5b2 Kd8 48. Bd1 Rc7 49. Rf2 Nf6 50. Rb5 Nfd7
+51. Rf1 Rcb7 52. Be2 Kc7 53. Bd1 Re8 54. Rb2 Rf8 55. Bc2 Re8 56. Rbb1 Rc8
+57. Qe1 Kd8 58. Nd1 Ke7 59. Nc3 Rg8 60. Rh1 Rc8 61. Rd1 Nf6 62. Rd2 Ncd7
+63. Bd3 Nc5 64. Bf1 Nb3 65. Rd1 Nd7 66. Nb5 Nf6 67. Kf2 Nc5 68. Bh3 Rd8 69.
+Qe3 Qxe3+ 70. Kxe3 Ne8 71. Rb1 Rdb8 72. Nc3 Nc7 73. Bf1 f5 74. Rh2 fxe4 75.
+fxe4 Ne8 76. Rf2 Nf6 77. Be2 Rf8 78. Rg1 Rbb8 79. g4 1/2-1/2
+
+[Event "Magistral Casino Barcelona"]
+[Site "Barcelona ESP"]
+[Date "2011.10.20"]
+[Round "9"]
+[White "Alsina Leal,D"]
+[Black "Seirawan,Y"]
+[Result "0-1"]
+[WhiteElo "2529"]
+[BlackElo "2652"]
+[EventDate "2011.10.12"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. O-O Nd7 7. Nbd2 Nc8 8.
+Nb3 Be7 9. a4 Ncb6 10. a5 Nc4 11. Bxc4 dxc4 12. Nbd2 b5 13. axb6 Nxb6 14.
+Qe2 Bxc2 15. Nxc4 Ba4 16. Bd2 O-O 17. Ba5 Qd5 18. Bxb6 Bb5 19. b3 axb6 20.
+Qc2 Bxc4 21. bxc4 Qd7 22. Ra2 c5 23. Rxa8 Rxa8 24. dxc5 Bxc5 25. Ng5 g6 26.
+Qe4 Ra2 27. Qf3 h6 28. Ne4 Qd4 29. Nf6+ Kg7 30. Ng4 Be7 31. h3 h5 32. Qe3
+Qxe3 33. Nxe3 Bc5 34. Rb1 g5 35. Kf1 Kg6 36. Rb3 Bd4 37. g4 h4 38. Kg2 Rb2
+39. Rxb2 Bxb2 40. Kf3 Bxe5 41. Ke2 Bd4 42. Nf1 f5 43. f3 Kf6 44. Kd3 Bc5
+45. gxf5 exf5 46. f4 g4 47. Ke2 Bd6 48. Ke3 Kg6 49. Nd2 Kh5 50. Nf1 Bc5+
+51. Ke2 Bg1 52. Nd2 gxh3 53. Kf3 h2 54. Kg2 Kg4 55. Nb1 Kxf4 56. Nc3 Ke3
+0-1
+

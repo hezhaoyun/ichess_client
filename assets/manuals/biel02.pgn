@@ -1,0 +1,574 @@
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.22"]
+[Round "1"]
+[White "Tkachiev,V"]
+[Black "Dreev,A"]
+[Result "1-0"]
+[WhiteElo "2625"]
+[BlackElo "2676"]
+[EventDate "2002.07.22"]
+[ECO "B10"]
+
+1. c4 c6 2. e4 d5 3. cxd5 cxd5 4. exd5 Nf6 5. Nc3 Nxd5 6. Nf3 Nc6 7. Bb5 e6
+8. O-O Be7 9. d4 O-O 10. Re1 Qd6 11. a3 Bd7 12. Bd3 Rfd8 13. Bc2 Be8 14.
+Qd3 g6 15. Bh6 Rac8 16. Ne4 Qc7 17. Bb3 Qb6 18. Rad1 Na5 19. Bxd5 Rxd5 20.
+b4 Nc6 21. Nc3 Rh5 22. Bf4 Rf5 23. Bg3 Bf6 24. Ne4 Be7 25. Nc3 Bf6 26. Ne4
+Be7 27. Ne5 Rd8 28. Qe3 Rh5 29. Ng4 Kg7 30. Qc3 Nxd4 31. Bc7 1-0
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.22"]
+[Round "1"]
+[White "Korchnoi,V"]
+[Black "Vallejo Pons,F"]
+[Result "1-0"]
+[WhiteElo "2626"]
+[BlackElo "2648"]
+[EventDate "2002.07.22"]
+[ECO "D48"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 c6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8.
+Bd3 Bb7 9. O-O a6 10. a4 b4 11. Ne4 c5 12. Ned2 Be7 13. Re1 O-O 14. e4 cxd4
+15. e5 Nd5 16. Nb3 Rc8 17. Qe2 Qb6 18. a5 Qa7 19. h4 Rfe8 20. h5 f5 21.
+exf6 Bxf6 22. Qe4 Nf8 23. Qg4 e5 24. Bd2 Qb8 25. Bf5 Rc7 26. Ng5 Qd8 27.
+Ne4 Bc8 28. Nbc5 Rc6 29. Nd3 h6 30. Bxb4 Be7 31. Bxe7 Rxe7 32. Ng3 Nf6 33.
+Qf3 Qe8 34. Nb4 Rc5 35. Ne4 Bxf5 36. Nxc5 Bg4 37. Qb3+ Kh8 38. Nd5 Nxd5 39.
+Qxd5 Bxh5 40. Rac1 Ng6 41. Nd3 Kh7 42. Qe4 Qd7 43. f3 Kh8 44. Rc5 Qd6 45.
+Rc8+ Kh7 46. g4 1-0
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.22"]
+[Round "1"]
+[White "Pelletier,Y"]
+[Black "Smirin,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2571"]
+[BlackElo "2676"]
+[EventDate "2002.07.22"]
+[ECO "E97"]
+
+1. Nf3 Nf6 2. c4 g6 3. d4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. O-O Nc6 8.
+d5 Ne7 9. b4 Nh5 10. Re1 f5 11. Ng5 Nf6 12. f3 Nh5 13. c5 Nf4 14. Qb3 fxe4
+15. fxe4 Kh8 16. Bxf4 exf4 17. Rad1 Nc6 18. Nf7+ Rxf7 19. dxc6 Rf8 20. e5
+bxc6 21. exd6 cxd6 22. cxd6 Bf5 23. Bf3 Rf6 24. b5 Rxd6 25. bxc6 Rb8 26.
+Qc4 Rxd1 27. Rxd1 Qb6+ 28. Kh1 Re8 29. Nd5 Qf2 30. Qf1 Qxa2 31. Nxf4 Qa4
+32. Re1 Rf8 33. Ne6 Bxe6 34. Rxe6 a5 35. Qe1 Qc4 36. Re8 Qc5 37. h3 a4 38.
+Rxf8+ Bxf8 39. Qa1+ Bg7 40. Qxa4 Be5 41. Qd1 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.23"]
+[Round "2"]
+[White "Smirin,I"]
+[Black "Dreev,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2676"]
+[BlackElo "2676"]
+[EventDate "2002.07.22"]
+[ECO "C43"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 d5 5. Nxe5 Nd7 6. Nxd7 Bxd7 7. O-O
+Bd6 8. Qh5 Nf6 9. Qh4 Ne4 10. Qxd8+ Rxd8 11. c4 O-O 12. f3 Nf6 13. c5 Be7
+14. Bf4 c6 15. Nc3 Nh5 16. Be3 g6 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.23"]
+[Round "2"]
+[White "Vallejo Pons,F"]
+[Black "Tkachiev,V"]
+[Result "1-0"]
+[WhiteElo "2648"]
+[BlackElo "2625"]
+[EventDate "2002.07.22"]
+[ECO "E15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qb3 Nc6 6. Nbd2 d5 7. Bg2 Bb7 8.
+O-O Be7 9. cxd5 exd5 10. Ne5 O-O 11. Nxc6 Bxc6 12. Nf3 Bb7 13. Bf4 Re8 14.
+Rac1 Bd6 15. Bxd6 Qxd6 16. e3 Re7 17. Rc2 h5 18. Rfc1 Rd8 19. Qa4 a5 20.
+Qa3 Qxa3 21. bxa3 Ne8 22. Bf1 Ba8 23. a4 f6 24. Nh4 Nd6 25. Ng6 Red7 26.
+Bh3 Kf7 27. Bxd7 Rxd7 28. Nf4 Nc4 29. e4 c6 30. Nxh5 b5 31. e5 fxe5 32.
+dxe5 d4 33. Nf4 Ke7 34. Nd3 Rd5 35. f4 Bb7 36. Kf2 Bc8 37. axb5 cxb5 38.
+Rxc4 bxc4 39. Rxc4 Bf5 40. Ke2 Rd7 41. Kd2 Ke6 42. Rc6+ Kd5 43. Rc5+ Ke4
+44. e6 1-0
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.23"]
+[Round "2"]
+[White "Pelletier,Y"]
+[Black "Korchnoi,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2571"]
+[BlackElo "2626"]
+[EventDate "2002.07.22"]
+[ECO "A30"]
+
+1. Nf3 Nf6 2. c4 b6 3. g3 Bb7 4. Bg2 e6 5. O-O Be7 6. Nc3 O-O 7. Re1 d5 8.
+cxd5 Nxd5 9. e4 Nxc3 10. bxc3 c5 11. d4 Nc6 12. d5 exd5 13. exd5 Na5 14.
+Bf4 Bd6 15. Ne5 Qc7 16. Qh5 Rad8 17. Re3 f6 18. Nd3 Nc4 19. Re4 g6 20. Qh6
+Ne5 21. Nxe5 fxe5 22. Bg5 Rde8 23. c4 b5 24. Rd1 Qa5 25. Re2 Qa4 26. Rc1
+bxc4 27. Be4 Qd7 28. Rd2 Ba6 29. Rc3 Rf7 30. Bg2 Qf5 31. Bh3 Qb1+ 32. Kg2
+Bb7 33. Qh4 e4 34. Be3 Qa1 35. Rcc2 c3 36. Re2 Bxd5 37. Rc1 Qb2 38. Rxb2
+cxb2 39. Rd1 Bxa2 40. Qg5 Bf8 41. Bxc5 e3 42. Bxe3 b1=Q 43. Rxb1 Bxb1 44.
+Qb5 Be4+ 45. Kg1 Rd8 46. f4 Bf5 47. g4 Bd7 48. Qb3 Bc6 49. Bf1 Bd5 50. Bc4
+Bxc4 51. Qxc4 Rdd7 52. f5 Rc7 53. Qd5 Rcd7 54. Qc4 Rc7 55. Qd5 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.24"]
+[Round "3"]
+[White "Korchnoi,V"]
+[Black "Smirin,I"]
+[Result "0-1"]
+[WhiteElo "2626"]
+[BlackElo "2676"]
+[EventDate "2002.07.22"]
+[ECO "D85"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5
+8. Be3 Qa5 9. Bd2 O-O 10. Be2 Bg4 11. O-O Rd8 12. Ng5 Bxe2 13. Qxe2 Qa6 14.
+Qxa6 Nxa6 15. d5 c4 16. Be3 Rac8 17. Bxa7 Bxc3 18. Rab1 Rd7 19. Be3 Bg7 20.
+Rb5 c3 21. f4 c2 22. Rc1 Rc4 23. a3 h6 24. Nf3 Rxe4 25. Kf2 Rc7 26. Bb6 Rc3
+27. Rb2 Rxa3 28. Rbxc2 Nb4 29. Rc8+ Kh7 30. Rd1 Nd3+ 31. Kf1 Nxf4 32. Re8
+f5 33. Bc7 Rd3 34. Rxd3 Nxd3 35. Rb8 Rb4 36. Re8 Bf6 37. Rd8 Nc5 38. d6
+exd6 39. Rxd6 Bg7 40. h4 Ne4 41. Re6 Rb1+ 42. Ke2 Rb2+ 43. Kf1 g5 44. hxg5
+hxg5 45. Kg1 g4 46. Nh4 g3 0-1
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.24"]
+[Round "3"]
+[White "Dreev,A"]
+[Black "Vallejo Pons,F"]
+[Result "1-0"]
+[WhiteElo "2676"]
+[BlackElo "2648"]
+[EventDate "2002.07.22"]
+[ECO "E12"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Ba6 5. Qc2 c5 6. d5 exd5 7. cxd5 g6 8.
+Bf4 d6 9. Nc3 Bg7 10. Qa4+ Qd7 11. Bxd6 Qxa4 12. Nxa4 Nxd5 13. O-O-O Ne7
+14. e4 Bxf1 15. Rhxf1 Nbc6 16. Nc3 Bxc3 17. bxc3 Rd8 18. Be5 Rxd1+ 19. Rxd1
+Nxe5 20. Nxe5 f6 21. Nd7 Kf7 22. Rd6 Nc8 23. Rc6 Rd8 24. e5 f5 25. Nf6 Ne7
+26. Rc7 Ke6 27. f4 h6 28. Rxa7 g5 29. Nh5 Ng6 30. Ng7+ Kd5 31. e6 Kd6 32.
+g4 gxf4 33. gxf5 f3 34. fxg6 f2 35. Rf7 Rg8 36. e7 1-0
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.24"]
+[Round "3"]
+[White "Tkachiev,V"]
+[Black "Pelletier,Y"]
+[Result "1/2-1/2"]
+[WhiteElo "2625"]
+[BlackElo "2571"]
+[EventDate "2002.07.22"]
+[ECO "E16"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 b6 6. Bg2 Bb7 7. O-O Bxd2
+8. Qxd2 O-O 9. Nc3 d5 10. cxd5 exd5 11. a3 Ne4 12. Qe3 Re8 13. b4 Nd7 14.
+Rfc1 c6 15. Nxe4 dxe4 16. Nd2 Nf6 17. Nc4 Rad8 18. Ne5 Rd6 19. Qc3 h5 20.
+e3 h4 21. Qb3 Nd7 22. Nc4 Rh6 23. Nd2 Nf6 24. b5 Qd7 25. bxc6 Bxc6 26. a4
+hxg3 27. fxg3 Ng4 28. Nf1 Rh5 29. Qc2 Re6 30. Ra3 Ra5 31. Rc3 Bd5 32. h3
+Nf6 33. g4 Qxa4 34. Qf2 Rc6 35. Rxc6 Bxc6 36. Ng3 Bd7 37. Qf4 Qa3 38. Rf1
+Qe7 39. Nxe4 Nd5 40. Qb8+ Qf8 41. Qg3 Qe7 42. g5 Ra3 43. Qb8+ Qf8 44. Qxf8+
+Kxf8 45. Nd6 Be6 46. Bxd5 Bxd5 47. e4 Be6 48. d5 Rg3+ 49. Kh2 Rxh3+ 50. Kg2
+Rd3 51. dxe6 Rxd6 52. Rxf7+ Kg8 53. Rxa7 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.25"]
+[Round "4"]
+[White "Tkachiev,V"]
+[Black "Smirin,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2625"]
+[BlackElo "2676"]
+[EventDate "2002.07.22"]
+[ECO "B30"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. Bxc6 bxc6 5. d3 Ne7 6. Qe2 f6 7. Nh4 g6 8.
+f4 Bg7 9. O-O d6 10. Nf3 O-O 11. e5 Nf5 12. exd6 Nd4 13. Qf2 Qxd6 14. Nc3
+e5 15. Ne4 Qe7 16. Nxd4 cxd4 17. fxe5 fxe5 18. Qe2 Rxf1+ 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.25"]
+[Round "4"]
+[White "Dreev,A"]
+[Black "Korchnoi,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2676"]
+[BlackElo "2626"]
+[EventDate "2002.07.22"]
+[ECO "D41"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4
+8. cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Bc4 Nd7 12. O-O b6 13. a4 Bb7
+14. Rfe1 Qf6 15. a5 Rfd8 16. axb6 axb6 17. Rxa8 Rxa8 18. h3 h6 19. Bd3 Qe7
+20. Qf4 Nf6 21. Rb1 Qa3 22. Rd1 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.25"]
+[Round "4"]
+[White "Vallejo Pons,F"]
+[Black "Pelletier,Y"]
+[Result "1/2-1/2"]
+[WhiteElo "2648"]
+[BlackElo "2571"]
+[EventDate "2002.07.22"]
+[ECO "C02"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 c4 7. Nbd2 f6 8. Be2
+fxe5 9. Nxe5 Nxe5 10. dxe5 Bc5 11. O-O Ne7 12. Bh5+ g6 13. Bg4 h5 14. Be2
+Bd7 15. Rb1 O-O 16. Nxc4 dxc4 17. Qxd7 Rad8 18. Qa4 Rxf2 19. Rxf2 Bxf2+ 20.
+Kh1 Qc6 21. Qxc6 Nxc6 22. Bg5 Re8 23. Bf6 b5 24. b3 Na5 25. bxc4 bxc4 26.
+Rd1 Bc5 27. g4 hxg4 28. Rd7 Kf8 29. Bxg4 Be7 30. Rxa7 Nc6 31. Rc7 Bxf6 32.
+exf6 Ne5 33. h3 Nxg4 34. hxg4 Ra8 35. Rxc4 Rxa3 36. Rc7 g5 37. Kg2 e5 38.
+Kf3 Ra6 39. f7 Rf6+ 40. Ke4 Rf4+ 41. Kxe5 Kg7 42. c4 Rxg4 43. c5 Rc4 44.
+Kd6 g4 45. Ra7 g3 46. Ra3 Rg4 47. Rf3 Kf8 48. c6 g2 49. c7 Rd4+ 50. Ke6
+Re4+ 51. Kd5 Rd4+ 52. Ke6 Re4+ 53. Kd5 Rd4+ 54. Ke5 Rc4 55. Rg3 Rxc7 56.
+Rxg2 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.26"]
+[Round "5"]
+[White "Smirin,I"]
+[Black "Vallejo Pons,F"]
+[Result "1/2-1/2"]
+[WhiteElo "2676"]
+[BlackElo "2648"]
+[EventDate "2002.07.22"]
+[ECO "C67"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5
+Nf5 8. Qxd8+ Kxd8 9. Nc3 Be6 10. g4 Ne7 11. Ng5 h5 12. Nxe6+ fxe6 13. Ne4
+Ng6 14. Ng5 Ke7 15. gxh5 Rxh5 16. f4 Nh4 17. Be3 b6 18. a4 Nf5 19. Bf2 a5
+20. Rad1 Rh6 21. Rd3 Ke8 22. Rfd1 Be7 23. Ne4 Rd8 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.26"]
+[Round "5"]
+[White "Korchnoi,V"]
+[Black "Tkachiev,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2626"]
+[BlackElo "2625"]
+[EventDate "2002.07.22"]
+[ECO "E12"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb7 5. Bg5 h6 6. Bh4 Be7 7. Qc2 d5 8.
+Bxf6 Bxf6 9. cxd5 exd5 10. g3 O-O 11. Bg2 c5 12. dxc5 bxc5 13. Rd1 Na6 14.
+O-O Qe7 15. e3 Rfd8 16. Qa4 Nc7 17. Rfe1 Rd6 18. h4 Ne6 19. Nh2 Rad8 20.
+Ng4 Bxc3 21. bxc3 Ra6 22. Qc2 d4 23. exd4 cxd4 24. cxd4 Bxg2 25. Kxg2 Qb7+
+26. d5 Rxd5 27. Qe4 Rb5 28. Qxb7 Rxb7 29. Rd2 h5 30. Ne5 g6 31. Re3 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.26"]
+[Round "5"]
+[White "Pelletier,Y"]
+[Black "Dreev,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2571"]
+[BlackElo "2676"]
+[EventDate "2002.07.22"]
+[ECO "D26"]
+
+1. c4 c6 2. e4 d5 3. exd5 Nf6 4. Nc3 cxd5 5. d4 Nc6 6. Bg5 dxc4 7. Bxc4 e6
+8. Nf3 Be7 9. O-O O-O 10. Qd2 a6 11. Rad1 Nb4 12. Bb3 b6 13. Qe2 Bb7 14.
+Rfe1 Nbd5 15. Ne5 Nxc3 16. bxc3 Nd5 17. Bd2 b5 18. Qd3 Bg5 19. Bc2 g6 20.
+Qg3 Bxd2 21. Rxd2 Qc7 22. Be4 Rac8 23. Rd3 Nxc3 24. Rxc3 Qxc3 25. Qxc3 Rxc3
+26. Bxb7 Rb8 27. Bf3 Rd8 28. Rd1 Rc2 29. h4 Rxa2 30. d5 exd5 31. Rc1 Ra4
+32. Rc7 Rf4 33. g3 Rf5 34. Nc6 Re8 35. Kg2 Kg7 36. g4 Rf6 37. Kg3 Rd6 38.
+Nd4 b4 39. g5 a5 40. Ra7 Rb8 41. Bd1 Re8 42. h5 h6 43. Bc2 hxg5 44. hxg6
+Rxg6 45. Bxg6 Kxg6 46. Ra6+ 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.28"]
+[Round "6"]
+[White "Smirin,I"]
+[Black "Pelletier,Y"]
+[Result "1-0"]
+[WhiteElo "2676"]
+[BlackElo "2571"]
+[EventDate "2002.07.22"]
+[ECO "C03"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Be7 4. Ngf3 Nf6 5. e5 Nfd7 6. Bd3 c5 7. c3 b6 8.
+Qe2 a5 9. c4 Bb7 10. cxd5 Bxd5 11. Be4 Bxe4 12. Qxe4 Na6 13. d5 exd5 14.
+Qxd5 Nb4 15. Qe4 Nf8 16. a3 Nd3+ 17. Ke2 Ne6 18. Nc4 Nxc1+ 19. Raxc1 O-O
+20. Rhd1 Qc7 21. a4 Rad8 22. g3 Kh8 23. Kf1 f5 24. exf6 Rxf6 25. Rxd8+ Qxd8
+26. Nce5 c4 27. Qxc4 Bc5 28. Qxe6 1-0
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.28"]
+[Round "6"]
+[White "Dreev,A"]
+[Black "Tkachiev,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2676"]
+[BlackElo "2625"]
+[EventDate "2002.07.22"]
+[ECO "E12"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 d5 6. Qc2 c5 7. Bg5 cxd4 8.
+Nxd4 Be7 9. cxd5 O-O 10. Bxf6 Bxf6 11. Rd1 exd5 12. e3 Bxd4 13. exd4
+1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.28"]
+[Round "6"]
+[White "Vallejo Pons,F"]
+[Black "Korchnoi,V"]
+[Result "0-1"]
+[WhiteElo "2648"]
+[BlackElo "2626"]
+[EventDate "2002.07.22"]
+[ECO "C11"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Be7 6. Bxf6 Bxf6 7. Nf3
+Nd7 8. Qd2 b6 9. O-O-O Bb7 10. Qf4 Qe7 11. Bc4 O-O-O 12. Rhe1 Nf8 13. g3
+Ng6 14. Qe3 Kb8 15. h4 Qb4 16. Bb3 h6 17. Qe2 Qa5 18. c3 Qh5 19. Nfd2 Qxe2
+20. Rxe2 h5 21. Rde1 Ne7 22. Nf3 Nf5 23. Nfg5 Nh6 24. Nd2 Bd5 25. Nc4 Kc8
+26. Ne3 Bxb3 27. axb3 a5 28. Ne4 Kb7 29. Kc2 Be7 30. Ra1 Rhe8 31. Ree1 Nf5
+32. Nc4 Bf6 33. Ra2 Nd6 34. Nexd6+ cxd6 35. d5 Re7 36. Rd1 exd5 37. Rxd5
+Kc6 38. Rd2 d5 39. Ne3 d4 40. cxd4 Rxd4 41. Rxd4 Bxd4 42. Nf5 Rd7 43. Nxd4+
+Rxd4 44. Ra1 Rd6 45. Rf1 Re6 46. Kd2 Rd6+ 47. Kc2 Rg6 48. Rd1 Re6 49. Rd2
+Re1 50. Kd3 Kc5 51. Kc2 g6 52. f4 Re3 53. Rd7 f5 54. Rc7+ Kd5 55. Rc3 Rxc3+
+56. Kxc3 Ke4 57. Kc4 Kf3 58. Kb5 Kxg3 59. Kxb6 Kxh4 60. Kxa5 Kg4 61. b4 h4
+62. b5 h3 63. b6 h2 0-1
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.29"]
+[Round "7"]
+[White "Dreev,A"]
+[Black "Smirin,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2676"]
+[BlackElo "2676"]
+[EventDate "2002.07.22"]
+[ECO "D70"]
+
+1. d4 Nf6 2. c4 g6 3. f3 d5 4. cxd5 Nxd5 5. e4 Nb6 6. Nc3 Bg7 7. Be3 Nc6 8.
+d5 Ne5 9. Bd4 O-O 10. f4 Ng4 11. Bxg7 Kxg7 12. Nf3 c6 13. Qd4+ Nf6 14. dxc6
+Qxd4 15. Nxd4 bxc6 16. Be2 c5 17. Nb3 c4 18. Na5 Be6 19. O-O-O Rac8 20. Bf3
+Nfd7 21. f5 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.29"]
+[Round "7"]
+[White "Tkachiev,V"]
+[Black "Vallejo Pons,F"]
+[Result "1/2-1/2"]
+[WhiteElo "2625"]
+[BlackElo "2648"]
+[EventDate "2002.07.22"]
+[ECO "D23"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qb3 dxc4 5. Qxc4 Bf5 6. g3 e6 7. Bg2 Nbd7
+8. Nc3 Be7 9. O-O O-O 10. Re1 Ne4 11. Qb3 Qb6 12. Nh4 Bb4 13. Nxf5 exf5 14.
+Qc2 Qxd4 15. Bxe4 Bxc3 16. Rd1 Qxe4 17. Qxe4 fxe4 18. Rxd7 Be5 19. Rxb7
+Rfb8 20. Rxb8+ Rxb8 21. Rb1 c5 22. Be3 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.29"]
+[Round "7"]
+[White "Korchnoi,V"]
+[Black "Pelletier,Y"]
+[Result "1/2-1/2"]
+[WhiteElo "2626"]
+[BlackElo "2571"]
+[EventDate "2002.07.22"]
+[ECO "E06"]
+
+1. c4 Nf6 2. d4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. Qb3 c5 7. cxd5 exd5 8.
+dxc5 Nbd7 9. O-O Nxc5 10. Qd1 Bg4 11. Be3 Rc8 12. Nc3 a6 13. Ne5 Be6 14.
+Bd4 Nfe4 15. Rc1 Qd6 16. Nd3 Nxc3 17. Rxc3 Ne4 18. Rb3 b5 19. Nf4 Rfd8 20.
+Rd3 Qc6 21. h4 a5 22. Kh2 b4 23. Nxe6 fxe6 24. Re3 Bf6 25. Bxf6 gxf6 26.
+Rd3 f5 27. f3 Nc5 28. Rd2 Qd6 29. e3 Rd7 30. Rc2 Rg7 31. f4 Rgc7 32. g4
+fxg4 33. Qxg4+ Rg7 34. Qh5 Kh8 35. Qe5 Qd8 36. Rfc1 Qxh4+ 37. Kg1 Qg3 38.
+Re2 Rcc7 39. Qf6 h5 40. Rxc5 Rxc5 41. Qf8+ Kh7 42. Qxc5 h4 43. e4 h3 44.
+exd5 hxg2 45. Qe3 Qxe3+ 46. Rxe3 exd5 47. Rh3+ Kg8 48. Rh2 Rc7 49. Rxg2+
+Kf7 50. Kf2 b3 51. axb3 Rb7 52. Rg3 Kf6 53. Rd3 Kf5 54. Ke3 Rb5 55. b4 Rxb4
+56. Rxd5+ Ke6 57. Rd2 a4 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.30"]
+[Round "8"]
+[White "Smirin,I"]
+[Black "Korchnoi,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2676"]
+[BlackElo "2626"]
+[EventDate "2002.07.22"]
+[ECO "C09"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. Ngf3 Nc6 5. exd5 exd5 6. Bb5 Qe7+ 7. Qe2
+cxd4 8. Nxd4 Qxe2+ 9. Kxe2 Bd7 10. N2b3 Nxd4+ 11. Nxd4 Bc5 12. Be3 Bxb5+
+13. Nxb5 Bxe3 14. Kxe3 Kd7 15. Rhd1 Nf6 16. f3 Rhe8+ 17. Kf2 a6 18. Nd4 Re5
+19. Rd3 Rae8 20. Rad1 Kc7 21. Rc3+ Kb8 22. Rb3 Rc8 23. g4 Nd7 24. Re3 f6
+25. f4 Rxe3 26. Kxe3 Nb6 27. b3 g6 28. Kf3 Kc7 29. Re1 Kd7 30. Re3 Na8 31.
+Kf2 Nc7 32. a4 Re8 33. Rh3 Re7 34. f5 Kd6 35. c3 b5 36. a5 b4 37. Re3 bxc3
+38. Rxe7 Kxe7 39. Ke3 gxf5 40. gxf5 Kd6 41. Kd3 Ke5 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.30"]
+[Round "8"]
+[White "Pelletier,Y"]
+[Black "Tkachiev,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2571"]
+[BlackElo "2625"]
+[EventDate "2002.07.22"]
+[ECO "D27"]
+
+1. Nf3 d5 2. d4 e6 3. c4 dxc4 4. e3 c5 5. Bxc4 a6 6. a4 Nf6 7. O-O Nc6 8.
+Nc3 Be7 9. Qe2 cxd4 10. Rd1 e5 11. exd4 exd4 12. Nxd4 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.30"]
+[Round "8"]
+[White "Vallejo Pons,F"]
+[Black "Dreev,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2648"]
+[BlackElo "2676"]
+[EventDate "2002.07.22"]
+[ECO "D43"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bh4 dxc4 7. e4 g5 8.
+Bg3 b5 9. Be2 Bb7 10. h4 g4 11. Ne5 h5 12. O-O Nbd7 13. Qc2 Nxe5 14. Bxe5
+Bg7 15. Rad1 O-O 16. Bg3 Nd7 17. f3 Qb6 18. Kh1 e5 19. d5 cxd5 20. Nxd5
+Bxd5 21. Rxd5 Rad8 22. fxg4 hxg4 23. Bxg4 Nf6 24. Rxd8 Rxd8 25. Bf3 Qe3 26.
+Rf2 Rd3 27. Re2 Qh6 28. b3 Nh5 29. Be1 Nf4 30. bxc4 Bf6 31. g3 Rxf3 32.
+gxf4 Bxh4 33. Rg2+ Bg3+ 34. Kg1 exf4 35. cxb5 Qb6+ 36. Bf2 Qe6 37. Qe2 Ra3
+38. Qh5 Qxe4 39. Qg5+ Qg6 40. Qxg6+ fxg6 41. Bxg3 fxg3 42. Rb2 Kf7 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.31"]
+[Round "9"]
+[White "Dreev,A"]
+[Black "Pelletier,Y"]
+[Result "1-0"]
+[WhiteElo "2676"]
+[BlackElo "2571"]
+[EventDate "2002.07.22"]
+[ECO "E11"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 a5 5. Qc2 Bxd2+ 6. Nbxd2 d5 7. g3 O-O
+8. Bg2 b6 9. O-O Bb7 10. Ne5 Na6 11. Rfd1 c5 12. cxd5 exd5 13. b3 Qe7 14.
+Qb2 Rfd8 15. Rac1 Nc7 16. Nec4 Ra6 17. Ne3 g6 18. Nf3 Ne6 19. Bh3 a4 20.
+Bxe6 fxe6 21. Ne5 Rda8 22. N5g4 Nxg4 23. Nxg4 Qg7 24. b4 a3 25. Qd2 c4 26.
+Rc3 b5 27. Rb1 Bc6 28. Ne5 Be8 29. h4 Qe7 30. Rf3 Rc8 31. Ng4 Qg7 32. Rc1
+h5 33. Nf6+ Kh8 34. Rcc3 Rca8 35. Qf4 Bc6 36. Qe5 Be8 37. Rf4 Rc8 38. Kh2
+Rca8 39. g4 hxg4 40. Rxg4 R6a7 41. h5 1-0
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.31"]
+[Round "9"]
+[White "Tkachiev,V"]
+[Black "Korchnoi,V"]
+[Result "1-0"]
+[WhiteElo "2625"]
+[BlackElo "2626"]
+[EventDate "2002.07.22"]
+[ECO "E11"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 Nc6 6. Nc3 Bxc3 7. Bxc3 Ne4
+8. Rc1 O-O 9. Bg2 d6 10. d5 Nd8 11. O-O e5 12. Nd2 Nxc3 13. Rxc3 f5 14. c5
+Nf7 15. Qb3 b6 16. cxd6 cxd6 17. Qa3 a5 18. Rfc1 Ba6 19. Rc7 Qf6 20. e3 e4
+21. Nb3 Qe5 22. Nd4 Qxd5 23. f4 Nh6 24. R1c6 Rac8 25. Qc3 Rxc7 26. Rxc7 Rf7
+27. Rc6 Qxa2 28. h3 Qb1+ 29. Kf2 Qd3 30. Qc1 1-0
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.07.31"]
+[Round "9"]
+[White "Vallejo Pons,F"]
+[Black "Smirin,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2648"]
+[BlackElo "2676"]
+[EventDate "2002.07.22"]
+[ECO "A25"]
+
+1. c4 e5 2. Nc3 Nf6 3. e3 Nc6 4. Qc2 d5 5. cxd5 Nb4 6. Qb1 Nbxd5 7. d3 Bb4
+8. Bd2 O-O 9. Nf3 Re8 10. e4 Nxc3 11. bxc3 Bc5 12. Be2 b6 13. Qc2 h6 14.
+Rd1 Ba6 15. Qa4 Bb7 16. O-O Qd7 17. Qxd7 Nxd7 18. d4 Bd6 19. Bb5 Re7 20.
+Rfe1 Rd8 21. Bd3 Rde8 22. d5 Nc5 23. Bb5 Rd8 24. Nh4 a6 25. Bf1 Bc8 26. c4
+Ree8 27. g3 Bd7 28. f3 Kh7 29. g4 g6 30. Be3 Be7 31. Bf2 Bd6 32. h3 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.08.01"]
+[Round "10"]
+[White "Smirin,I"]
+[Black "Tkachiev,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2676"]
+[BlackElo "2625"]
+[EventDate "2002.07.22"]
+[ECO "C90"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8.
+d3 d6 9. c3 Na5 10. Bc2 c5 11. Nbd2 Nc6 12. Nf1 h6 13. Ng3 Re8 14. h3 Be6
+15. d4 cxd4 16. cxd4 exd4 17. Nxd4 Nxd4 18. Qxd4 Rc8 19. Bb3 d5 20. e5 Nd7
+21. Nh5 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.08.01"]
+[Round "10"]
+[White "Korchnoi,V"]
+[Black "Dreev,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2626"]
+[BlackElo "2676"]
+[EventDate "2002.07.22"]
+[ECO "B10"]
+
+1. c4 c6 2. e4 d5 3. cxd5 cxd5 4. exd5 Nf6 5. Nc3 Nxd5 6. Nf3 Nc6 7. Bb5
+Nxc3 8. bxc3 Qd5 9. Qe2 Bg4 10. Bc4 Bxf3 11. Bxd5 Bxe2 12. Bxc6+ bxc6 13.
+Kxe2 e5 14. d3 Bc5 15. Rb1 O-O-O 16. Rb3 Kc7 17. Be3 Bxe3 18. Kxe3 Rb8 19.
+g4 Rb6 20. Ke4 Rd8 1/2-1/2
+
+[Event "GM"]
+[Site "Biel SUI"]
+[Date "2002.08.01"]
+[Round "10"]
+[White "Pelletier,Y"]
+[Black "Vallejo Pons,F"]
+[Result "1-0"]
+[WhiteElo "2571"]
+[BlackElo "2648"]
+[EventDate "2002.07.22"]
+[ECO "A89"]
+
+1. d4 f5 2. g3 g6 3. Bg2 Bg7 4. c4 Nf6 5. Nc3 d6 6. Nf3 O-O 7. O-O Nc6 8.
+d5 Ne5 9. Nxe5 dxe5 10. c5 Kh8 11. Qb3 h6 12. Rd1 a6 13. Bd2 Qe8 14. Rac1
+g5 15. Na4 e4 16. Ba5 Bd7 17. Nc3 Rc8 18. Qxb7 Rb8 19. Qxc7 Rc8 20. Qb7 Rb8
+21. Qxa6 Ra8 22. Qb6 Rb8 23. Qa6 Ra8 24. Qc4 Rxa5 25. c6 Bc8 26. b4 Ra8 27.
+b5 Qd8 28. Qc5 Ne8 29. b6 Nd6 30. Rb1 Ba6 31. a4 Qb8 32. Nb5 Bxb5 33. axb5
+Ra2 34. b7 Be5 35. Rdc1 Ra4 36. e3 Kh7 37. Bh3 h5 38. Qc2 Ra5 39. Bf1 f4
+40. Bg2 fxe3 41. fxe3 Kg7 42. Bxe4 Rxb5 43. Bh7 Rxb1 44. Rxb1 Ne8 45. Qg6+
+Kh8 46. Qh6 Bg7 47. Qxg5 Kxh7 48. Qxe7 Rf5 49. c7 Nxc7 50. Qe4 Kg6 51. Rf1
+Qxb7 52. Qxf5+ Kh6 53. d6 Nd5 54. Qe6+ Kh7 55. Qe4+ 1-0
+

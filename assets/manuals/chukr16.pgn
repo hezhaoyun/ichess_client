@@ -1,0 +1,1670 @@
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.06"]
+[Round "1.1"]
+[White "Kovchan, Alexander"]
+[Black "Korobov, Anton"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2585"]
+[BlackElo "2692"]
+[ECO "A89"]
+[Opening "Dutch"]
+[Variation "Leningrad, main variation with Nc6"]
+[WhiteFideId "14103052"]
+[BlackFideId "14105730"]
+[EventDate "2016.12.06"]
+
+1. c4 g6 2. Nc3 Bg7 3. g3 f5 4. Bg2 Nf6 5. d4 d6 6. Nf3 O-O 7. O-O Nc6 8. d5 Na5
+9. Qd3 e5 10. dxe6 Bxe6 11. b3 Nc6 12. Bb2 Qe7 13. Ng5 Bd7 14. Rad1 Kh8 15. Qd2
+Rae8 16. Nd5 Nxd5 17. Bxg7+ Kxg7 18. cxd5 Ne5 19. Nf3 Nxf3+ 20. Bxf3 f4 21. Qc3+
+Qf6 22. Qxc7 Re7 23. Qc4 Bh3 24. Rfe1 g5 25. gxf4 Qxf4 26. Qxf4 Rxf4 27. Rd3 Kf6
+28. Bg2 Bf5 29. Rd2 Rc7 30. e3 Rh4 31. e4 Bg6 32. e5+ dxe5 33. d6 Rd7 34. Bxb7
+Rd4 35. Rxd4 exd4 36. Be4 Rxd6 37. Bxg6 Kxg6 38. Kg2 Kf5 39. Kf3 g4+ 40. Kg3 h5
+41. f3 d3 42. Kf2 Kf4 43. fxg4 hxg4 44. Rd1 d2 45. Ke2 Re6+ 46. Kf2 Rh6 47. h4
+gxh3 48. Ke2 Re6+ 49. Kf2 h2 50. Rf1 Re1 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.06"]
+[Round "1.2"]
+[White "Areshchenko, Alexander"]
+[Black "Kuzubov, Yuriy"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2678"]
+[BlackElo "2651"]
+[ECO "D10"]
+[Opening "QGD Slav defence"]
+[Variation "exchange variation"]
+[WhiteFideId "14109530"]
+[BlackFideId "14112906"]
+[EventDate "2016.12.06"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Bf4 Nc6 5. e3 Nf6 6. Nc3 Bg4 7. Qb3 Na5 8.
+Qa4+ Bd7 9. Qc2 Rc8 10. Bd3 e6 11. Nf3 b5 12. Qe2 a6 13. O-O Be7 14. Ne5 O-O 15.
+Rfc1 Be8 16. Rc2 Nd7 17. Nf3 Nb6 18. Rac1 Nc6 19. a3 f6 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.06"]
+[Round "1.3"]
+[White "Oleksiyenko, Mykhaylo"]
+[Black "Moiseenko, Alexander"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2615"]
+[BlackElo "2657"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "advance variation"]
+[WhiteFideId "4152417"]
+[BlackFideId "14102560"]
+[EventDate "2016.12.06"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 Nc6 5. a3 Nxe5 6. Bb5+ Bd7 7. Qxd5 Qc7 8.
+Bxd7+ Nxd7 9. b4 Ngf6 10. Qb3 g6 11. Nf3 Bg7 12. Bb2 O-O 13. O-O e5 14. Nc3 e4
+15. Nb5 Qf4 16. Nfd4 Ne5 17. Ne2 Qg5 18. Qg3 Qxg3 19. Nxg3 Nc4 20. Bd4 Rfd8 21.
+Rad1 e3 22. fxe3 Nd5 23. Rfe1 Ndxe3 24. Bxe3 Rxd1 25. Rxd1 Nxe3 26. Rd7 Nxc2 27.
+Rxb7 a5 28. bxa5 Nd4 29. Ne4 Nxb5 30. Rxb5 Bd4+ 31. Kf1 Ra6 32. Ke2 f5 33. Nd2
+Kg7 34. Kd3 Be5 35. h3 Kh6 36. Nc4 Bc7 37. Rb6 Ra8 38. c6 Kg5 39. Rb7 Bf4 40. c7
+Rc8 41. Nb6 Rxc7 42. a6 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.06"]
+[Round "1.4"]
+[White "Solovchuk, Alexey"]
+[Black "Shtembuliak, Evgeny"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2409"]
+[BlackElo "2478"]
+[ECO "E70"]
+[Opening "King's Indian"]
+[Variation "4.e4"]
+[WhiteFideId "14115220"]
+[BlackFideId "14113325"]
+[EventDate "2016.12.06"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. Nf3 c6 6. e5 Ne8 7. Bf4 d6 8. h3 Nd7
+9. exd6 Nxd6 10. Be2 Nf5 11. O-O Qb6 12. Na4 Qa5 13. Bd2 Qc7 14. Bc3 Rd8 15. Qb3
+b6 16. Rad1 Bb7 17. Rfe1 e6 18. Bd3 Nf6 19. Ne5 Nxd4 20. Bxd4 Rxd4 21. Nf3 Rdd8
+22. Nc3 c5 23. Nb5 Qe7 24. Be2 Nh5 25. Nh2 Nf4 26. Bf3 g5 27. Bxb7 Qxb7 28. Nf3
+h6 29. Rxd8+ Rxd8 30. Rd1 Rd7 31. Kh2 a6 32. Nc3 Rxd1 33. Qxd1 Bxc3 34. bxc3 Qe4
+35. Qd8+ Kg7 36. Qc7 Nd3 37. Qxb6 Qf4+ 38. Kg1 Qc1+ 39. Kh2 Nxf2 40. Qb7 h5 41.
+Kg3 Qe3 42. Qc7 Ne4+ 43. Kh2 g4 44. hxg4 hxg4 45. Qe5+ f6 46. Qc7+ Kh6 47. Qb8
+gxf3 48. Qh8+ Kg6 49. Qg8+ Kf5 50. Qh7+ Ke5 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.06"]
+[Round "1.5"]
+[White "Efimenko, Zahar"]
+[Black "Bakhmatsky, Vladislav"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2446"]
+[ECO "A05"]
+[Opening "Reti"]
+[Variation "King's Indian attack"]
+[WhiteFideId "14107201"]
+[BlackFideId "14124890"]
+[EventDate "2016.12.06"]
+
+1. Nf3 Nf6 2. g3 g6 3. b3 Bg7 4. Bb2 O-O 5. Bg2 d5 6. c4 Nc6 7. d4 dxc4 8. bxc4
+e5 9. d5 e4 10. Nd4 Nxd4 11. Bxd4 Bf5 12. O-O Qd7 13. Nc3 Rfe8 14. Qa4 c6 15.
+Rad1 cxd5 16. Qxd7 Nxd7 17. Nxd5 Rac8 18. Bxa7 Rxc4 19. Ne3 Ra4 20. Nxf5 gxf5
+21. Rxd7 Rxa7 22. e3 Rc8 23. Bh3 Rc5 24. a4 Rxa4 25. Rxb7 Bf6 26. Rfb1 Ra1 27.
+Rxa1 Bxa1 28. Bf1 Bf6 29. Kg2 Kg7 30. Bb5 Re5 31. Bc4 Re7 32. Rb6 Re5 33. h3 Rc5
+34. Bb5 Rd5 35. Ba4 Kg6 36. Rc6 Kg7 37. Rc4 Kg6 38. Bc6 Re5 39. Bd7 Kg7 40. g4
+fxg4 41. hxg4 Bh4 42. Bc8 Bd8 43. Kg3 h6 44. Bf5 Ra5 45. Bxe4 h5 46. gxh5 Rxh5
+47. Rc8 Bb6 48. Kg4 Rc5 49. Rb8 Bc7 50. Rb7 Kf6 51. f4 Ke7 52. Bf5 Rc3 53. e4 f6
+54. Rb1 Rc2 55. Rh1 Rg2+ 56. Kf3 Rg7 57. Rh8 Bd8 58. Bg4 Rf7 59. Rh1 Kf8 60. Be6
+Rc7 61. Kg4 Ke7 62. Kf5 Rc5+ 63. Bd5 Kd6 64. Kg6 Rc2 65. Rh8 Kc7 66. Be6 Rd2 67.
+Kf5 Rf2 68. Bd5 Be7 69. Rh7 Kd6 70. Be6 Rxf4+ 71. Kxf4 Kxe6 72. Rh5 Ba3 73. Rb5
+Bd6+ 74. Ke3 Bc7 75. Rb7 Bd6 76. Rb6 Ke5 77. Kf3 Ke6 78. Rb5 Bc7 79. Kg4 Be5 80.
+Kh5 Kf7 81. Rb6 Bd4 82. Ra6 Bc3 83. Kg4 Kg6 84. Ra8 Be5 85. Rc8 Bd6 86. Ra8 Be7
+87. Ra6 Bb4 88. e5 Bc3 89. Rxf6+ 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.06"]
+[Round "1.6"]
+[White "Kravtsiv, Martyn"]
+[Black "Volokitin, Andrei"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2645"]
+[BlackElo "2649"]
+[ECO "B54"]
+[Opening "Sicilian"]
+[Variation "Prins (Moscow) variation"]
+[WhiteFideId "14113147"]
+[BlackFideId "14107090"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 e5 6. Nb3 d5 7. Bg5 d4 8. c3 Nc6
+9. cxd4 Bb4+ 10. N1d2 Nxd4 11. a3 Bxd2+ 12. Bxd2 Nxe4 13. Nxd4 Nxd2 14. Qxd2
+exd4 15. Rd1 O-O 16. Qxd4 Qa5+ 17. Kf2 Bf5 18. Qd5 Qb6+ 19. Qd4 Qa5 20. Qd5 Qb6+
+21. Qd4 Qc7 22. Qc4 Qe7 23. Qf4 Qf6 24. Be2 Rad8 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.07"]
+[Round "2.1"]
+[White "Korobov, Anton"]
+[Black "Volokitin, Andrei"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2692"]
+[BlackElo "2649"]
+[ECO "A34"]
+[Opening "English"]
+[Variation "symmetrical, three knights system"]
+[WhiteFideId "14105730"]
+[BlackFideId "14107090"]
+[EventDate "2016.12.06"]
+
+1. Nf3 c5 2. c4 Nf6 3. Nc3 d5 4. cxd5 Nxd5 5. d4 Nxc3 6. bxc3 g6 7. e3 Bg7 8.
+Bb5+ Nd7 9. a4 O-O 10. O-O b6 11. a5 Bb7 12. a6 Be4 13. Ng5 Nf6 14. Nxe4 Nxe4
+15. Bb2 Rc8 16. Bd3 Nd6 17. Qe2 c4 18. Bc2 f5 19. Ba3 Qd7 20. f3 e5 21. dxe5
+Bxe5 22. Rad1 Rf6 23. Rd5 Qe6 24. Rfd1 Rc6 25. Qd2 Nf7 26. Rd8+ Nxd8 27. Qxd8+
+Kg7 28. Rd7+ Kh6 29. Bf8+ Kg5 30. h4+ 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.07"]
+[Round "2.2"]
+[White "Bakhmatsky, Vladislav"]
+[Black "Kravtsiv, Martyn"]
+[Result "1/2-1/2"]
+[BlackTitle "GM"]
+[WhiteElo "2446"]
+[BlackElo "2645"]
+[ECO "C84"]
+[Opening "Ruy Lopez"]
+[Variation "closed defence"]
+[WhiteFideId "14124890"]
+[BlackFideId "14113147"]
+[EventDate "2016.12.06"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 O-O
+9. Nc3 Na5 10. Ba2 Be6 11. b4 Bxa2 12. Rxa2 Nc6 13. Bg5 Qd7 14. Bxf6 Bxf6 15.
+Nd5 a5 16. Nxf6+ gxf6 17. Rb2 axb4 18. axb4 f5 19. Nh4 f4 20. Nf5 Kh8 21. d4 f6
+22. f3 Ne7 23. Nxe7 Qxe7 24. Qd3 exd4 25. Qxb5 Rg8 26. Qc4 Qe5 27. Rd1 Rg6 28.
+Qxc7 Qh5 29. Rf1 Rh6 30. h3 Rg8 31. Qc4 Rhg6 32. c3 Qxh3 33. Rff2 d3 34. Rbd2
+Qh4 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.07"]
+[Round "2.3"]
+[White "Shtembuliak, Evgeny"]
+[Black "Efimenko, Zahar"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2478"]
+[BlackElo "2651"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "14113325"]
+[BlackFideId "14107201"]
+[EventDate "2016.12.06"]
+
+1. c4 e5 2. e3 Nf6 3. Nc3 g6 4. Nf3 d6 5. d4 Nbd7 6. g3 Bg7 7. Bg2 O-O 8. O-O
+Re8 9. a4 c6 10. a5 a6 11. Qb3 h6 12. Rd1 Qc7 13. h3 Nf8 14. dxe5 dxe5 15. e4
+Ne6 16. Be3 Nh7 17. Na4 Nhg5 18. Nxg5 hxg5 19. Nb6 Rb8 20. Qa4 Qe7 21. b4 Nd4
+22. Bxd4 exd4 23. Nxc8 Rbxc8 24. c5 Qe6 25. Rd3 Re7 26. Qc2 Rce8 27. Qd2 g4 28.
+hxg4 Qxg4 29. Rf1 f5 30. Qa2+ Kh8 31. exf5 gxf5 32. Bf3 Qh3 33. Bg2 Qg4 34. Bf3
+Qh3 35. Bg2 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.07"]
+[Round "2.4"]
+[White "Moiseenko, Alexander"]
+[Black "Solovchuk, Alexey"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2657"]
+[BlackElo "2409"]
+[ECO "B06"]
+[Opening "Robatsch defence"]
+[WhiteFideId "14102560"]
+[BlackFideId "14115220"]
+[EventDate "2016.12.06"]
+
+1. d4 g6 2. e4 Bg7 3. Nc3 c6 4. Nf3 Nf6 5. e5 Nd5 6. Ne4 d6 7. c4 Nc7 8. exd6
+exd6 9. Bg5 f6 10. Bf4 O-O 11. Nxd6 Bg4 12. c5 Nd5 13. Bc4 Be6 14. Bd2 b5 15.
+Bb3 Na6 16. O-O Qd7 17. Re1 Kh8 18. Qe2 Nac7 19. Ba5 Bg8 20. Bxc7 Qxc7 21. h4
+Qd7 22. Qe4 a5 23. Bxd5 Bxd5 24. Qf4 h5 25. Nh2 Kh7 26. Re2 Bh6 27. Qg3 Rg8 28.
+Rae1 Ra7 29. a3 b4 30. Nf1 Qg4 31. Qxg4 hxg4 32. Ne3 Bxe3 33. Rxe3 bxa3 34. bxa3
+Rb8 35. Kh2 Rb2 36. R1e2 Rxe2 37. Rxe2 Ra8 38. Ne8 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.07"]
+[Round "2.5"]
+[White "Kuzubov, Yuriy"]
+[Black "Oleksiyenko, Mykhaylo"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2615"]
+[ECO "D94"]
+[Opening "Gruenfeld"]
+[Variation "Smyslov defence"]
+[WhiteFideId "14112906"]
+[BlackFideId "4152417"]
+[EventDate "2016.12.06"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 g6 5. Bd3 Bg7 6. O-O O-O 7. Nc3 Bg4 8. cxd5
+Bxf3 9. Qxf3 cxd5 10. Qe2 Nc6 11. Rd1 Nb4 12. Bb1 Nc6 13. Bd2 Rc8 14. Be1 Re8
+15. Bd3 a6 16. Rac1 e5 17. dxe5 Nxe5 18. Bc2 Nc6 19. Qf3 Ne5 20. Qh3 Nc4 21. Bb3
+Na5 22. Bxd5 Nxd5 23. Qf3 Nc4 24. Rxd5 Qb6 25. Na4 Qc6 26. Rc5 Qxa4 27. R1xc4
+Qxc4 28. Rxc4 Rxc4 29. Qxb7 Rd8 30. Kf1 Rc2 31. Qxa6 Rxb2 32. a4 Rd1 33. Qc8+
+Bf8 34. g3 Rbb1 35. Qc3 Bb4 36. Qc8+ Kg7 37. h4 Bxe1 38. h5 Rd2 39. Kg2 Rxf2+
+40. Kh3 Bb4 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.07"]
+[Round "2.6"]
+[White "Kovchan, Alexander"]
+[Black "Areshchenko, Alexander"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2585"]
+[BlackElo "2678"]
+[ECO "A36"]
+[Opening "English"]
+[Variation "ultra-symmetrical variation"]
+[WhiteFideId "14103052"]
+[BlackFideId "14109530"]
+[EventDate "2016.12.06"]
+
+1. c4 g6 2. Nc3 c5 3. g3 Bg7 4. Bg2 Nc6 5. e3 e6 6. Nge2 Nge7 7. O-O O-O 8. d4
+cxd4 9. Nxd4 d5 10. cxd5 Nxd5 11. Nxd5 Nxd4 12. exd4 exd5 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.08"]
+[Round "3.1"]
+[White "Areshchenko, Alexander"]
+[Black "Korobov, Anton"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2678"]
+[BlackElo "2692"]
+[ECO "C11"]
+[Opening "French"]
+[Variation "Steinitz, Boleslavsky variation"]
+[WhiteFideId "14109530"]
+[BlackFideId "14105730"]
+[EventDate "2016.12.06"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 8. Qd2
+O-O 9. Be2 a6 10. O-O b5 11. a3 Qb6 12. Nd1 a5 13. c3 Ba6 14. Nf2 b4 15. Nd3
+bxc3 16. bxc3 Rab8 17. f5 exf5 18. Nf4 Bxe2 19. Qxe2 Qb2 20. Qxb2 Rxb2 21. Nxd5
+h6 22. Nd2 cxd4 23. cxd4 Bg5 24. Bxg5 hxg5 25. Nf3 g4 26. Ng5 Rd2 27. e6 fxe6
+28. Nxe6 Re8 29. Ndc7 Rb8 30. Rad1 Ra2 31. Rf2 Rxf2 32. Kxf2 Rb2+ 33. Kg1 Rc2
+34. Nd5 g6 35. Rb1 Nf8 36. Ng5 Nh7 37. Ne6 Nf8 38. Ng5 Nh7 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.08"]
+[Round "3.2"]
+[White "Oleksiyenko, Mykhaylo"]
+[Black "Kovchan, Alexander"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2615"]
+[BlackElo "2585"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Byrne (English) attack"]
+[WhiteFideId "4152417"]
+[BlackFideId "14103052"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 Be7 8. Bc4
+O-O 9. O-O Nc6 10. Bb3 Be6 11. Qd3 h6 12. Rfd1 Rc8 13. Nh4 Na5 14. Ng6 Nxb3 15.
+Nxe7+ Qxe7 16. axb3 Rfd8 17. Bb6 Rd7 18. Nd5 Bxd5 19. exd5 Nh5 20. c4 Nf4 21.
+Qf3 g5 22. Qg4 Ng6 23. g3 Nf8 24. Rac1 Re8 25. b4 e4 26. Bd4 b5 27. Qf5 e3 28.
+Re1 e2 29. Rc2 Qd8 30. Rcxe2 Rxe2 31. Rxe2 bxc4 32. h4 Nh7 33. Bb6 Qxb6 34. Qxd7
+Nf6 35. Qf5 Qd4 36. hxg5 Qd1+ 37. Kg2 Qxe2 38. gxf6 Kh8 39. Qc8+ Kh7 40. Qf5+
+Kh8 41. g4 Kg8 42. Kh2 Qxb2 43. g5 Qd4 44. gxh6 Qh4+ 45. Kg2 Qxh6 46. Qc8+ Kh7
+47. Qxc4 Qxf6 48. Kf1 Qa1+ 49. Ke2 Qe5+ 50. Kd2 Kg6 51. Qd3+ Kf6 52. Qc4 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.08"]
+[Round "3.3"]
+[White "Solovchuk, Alexey"]
+[Black "Kuzubov, Yuriy"]
+[Result "1/2-1/2"]
+[BlackTitle "GM"]
+[WhiteElo "2409"]
+[BlackElo "2651"]
+[ECO "A22"]
+[Opening "English"]
+[Variation "Bremen, Smyslov system"]
+[WhiteFideId "14115220"]
+[BlackFideId "14112906"]
+[EventDate "2016.12.06"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 Bb4 4. Bg2 O-O 5. Nf3 Re8 6. O-O e4 7. Nd4 Nc6 8. Nc2
+Bxc3 9. dxc3 h6 10. c5 Qe7 11. Bf4 Qxc5 12. Bxc7 d5 13. Bf4 Bd7 14. Be3 Qe7 15.
+Bd4 Nh7 16. Ne3 Qe6 17. Qd2 Rad8 18. Rae1 Bc8 19. f4 f5 20. Rd1 Qg6 21. Qe1 b6
+22. Qf2 Qf7 23. h3 Nf8 24. g4 fxg4 25. hxg4 Ne6 26. Qg3 Ncxd4 27. cxd4 Qf6 28.
+Rd2 Rf8 29. f5 Ng5 30. Qe5 Qf7 31. Rc1 Rfe8 32. Qg3 Ba6 33. Rc6 Rd7 34. Rdc2 Kh7
+35. Rd6 Red8 36. Rxd7 Rxd7 37. Qe5 Bb7 38. Rc3 Qf8 39. Rc7 Nf7 40. Qh2 Qd8 41.
+Rxd7 Qxd7 42. Qb8 Bc8 43. Qa8 Bb7 44. Qf8 Ng5 45. f6 Qf7 46. fxg7 Qxg7 47. Qxg7+
+Kxg7 48. Nf5+ Kg6 49. Nd6 Ba6 50. Kf2 Nf7 51. Nf5 Kg5 52. Ne7 Bb7 53. Kg3 Nd6
+54. Bh3 Nc4 55. b3 Ne3 56. Nf5 Nxf5+ 57. gxf5 h5 58. a3 Ba6 59. Kf2 Bb5 60. Ke3
+h4 61. Kf2 Be8 62. f6 Kxf6 63. Bc8 Ke7 64. e3 Kf6 65. Kg2 Bf7 66. Kh3 Kg5 67.
+Bd7 a5 68. b4 Kh5 69. Bg4+ Kg5 70. Bd7 Bg8 71. Bc8 axb4 72. axb4 Bf7 73. Bd7 Kh5
+74. Bg4+ Kg5 75. Bd7 Bg8 76. Bc8 Bf7 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.08"]
+[Round "3.4"]
+[White "Efimenko, Zahar"]
+[Black "Moiseenko, Alexander"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2657"]
+[ECO "A05"]
+[Opening "Reti opening"]
+[WhiteFideId "14107201"]
+[BlackFideId "14102560"]
+[EventDate "2016.12.06"]
+
+1. Nf3 Nf6 2. g3 b6 3. Bg2 Bb7 4. O-O e6 5. d3 c5 6. e4 d6 7. c4 Be7 8. Nc3 O-O
+9. Re1 a6 10. d4 cxd4 11. Nxd4 Qc7 12. Be3 Nbd7 13. f4 Rac8 14. Rc1 Rfe8 15. b3
+Bf8 16. f5 Ne5 17. h3 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.08"]
+[Round "3.5"]
+[White "Kravtsiv, Martyn"]
+[Black "Shtembuliak, Evgeny"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2645"]
+[BlackElo "2478"]
+[ECO "C11"]
+[Opening "French"]
+[Variation "Steinitz, Boleslavsky variation"]
+[WhiteFideId "14113147"]
+[BlackFideId "14113325"]
+[EventDate "2016.12.06"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 8. Qd2
+O-O 9. dxc5 Bxc5 10. Bxc5 Nxc5 11. O-O-O Qa5 12. a3 Bd7 13. Qe3 Qb6 14. Nd4 Rac8
+15. h4 Nxd4 16. Qxd4 f6 17. exf6 Rxf6 18. g3 Qc7 19. Rh2 b5 20. Kb1 Rb8 21. b4
+Na4 22. Nxa4 bxa4 23. c3 Be8 24. Bd3 Bh5 25. Re1 Rc8 26. Kb2 Bg4 27. Bb5 Rff8
+28. Bxa4 Qf7 29. Bb3 Rc7 30. Rc2 Bf5 31. Rcc1 h6 32. Re3 Kh8 33. a4 Rfc8 34. a5
+Qg6 35. Rg1 Qg4 36. Bd1 Qg6 37. Be2 Qe8 38. g4 Be4 39. g5 h5 40. g6 Qf8 41. Qe5
+Bf5 42. Kb3 Qd8 43. Rg5 d4 44. cxd4 Qf8 45. Rxh5+ Kg8 46. Rxf5 Qxf5 47. Qxe6+
+Qxe6+ 48. Rxe6 Kf8 49. Re5 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.08"]
+[Round "3.6"]
+[White "Volokitin, Andrei"]
+[Black "Bakhmatsky, Vladislav"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2649"]
+[BlackElo "2446"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Byrne (English) attack"]
+[WhiteFideId "14107090"]
+[BlackFideId "14124890"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 Be7 8. Bc4
+O-O 9. O-O Nc6 10. Bb3 Be6 11. Qe2 Rc8 12. Rfd1 h6 13. Nh4 Re8 14. Nf5 Bf8 15.
+Nd5 Nxd5 16. Nxh6+ gxh6 17. exd5 Bf5 18. dxc6 bxc6 19. Qxa6 Qf6 20. Qe2 d5 21.
+c3 Qg6 22. Rd2 Kh7 23. f3 h5 24. Qf2 Bg7 25. a4 Rb8 26. Bd1 Red8 27. a5 Ra8 28.
+a6 Bc8 29. Bc2 f5 30. a7 Rd7 31. f4 d4 32. fxe5 dxe3 33. Qxf5 Qxf5 34. Bxf5+ Kg8
+35. Rxd7 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.09"]
+[Round "4.1"]
+[White "Korobov, Anton"]
+[Black "Bakhmatsky, Vladislav"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2692"]
+[BlackElo "2446"]
+[ECO "A05"]
+[Opening "Reti opening"]
+[WhiteFideId "14105730"]
+[BlackFideId "14124890"]
+[EventDate "2016.12.06"]
+
+1. Nf3 Nf6 2. e3 g6 3. b4 Bg7 4. Bb2 b6 5. c4 Bb7 6. d4 O-O 7. Nbd2 d6 8. Be2
+Nbd7 9. O-O a5 10. a3 axb4 11. axb4 Ne4 12. Nxe4 Bxe4 13. Qb3 e6 14. Rxa8 Qxa8
+15. Ra1 Qb8 16. Nd2 Bb7 17. e4 c6 18. h4 Qc7 19. h5 Rc8 20. Nf3 d5 21. exd5 exd5
+22. Qe3 Nf6 23. Ne5 Qe7 24. h6 Bf8 25. b5 c5 26. Qf4 dxc4 27. Bxc4 Nd5 28. Bxd5
+Bxd5 29. dxc5 bxc5 30. Nd7 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.09"]
+[Round "4.2"]
+[White "Shtembuliak, Evgeny"]
+[Black "Volokitin, Andrei"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2478"]
+[BlackElo "2649"]
+[ECO "A28"]
+[Opening "English"]
+[Variation "four knights, Romanishin variation"]
+[WhiteFideId "14113325"]
+[BlackFideId "14107090"]
+[EventDate "2016.12.06"]
+
+1. c4 e5 2. e3 Nf6 3. Nc3 Nc6 4. Nf3 Bb4 5. Qc2 Bxc3 6. Qxc3 Qe7 7. a3 d5 8. d4
+exd4 9. Nxd4 Nxd4 10. Qxd4 O-O 11. b4 dxc4 12. Bxc4 Rd8 13. Qf4 a5 14. Rb1 axb4
+15. axb4 b5 16. Bxb5 Nd5 17. Qd4 c5 18. bxc5 Nc7 19. Qc3 Qe4 20. Bc6 Qxc6 21.
+O-O Bh3 22. f3 Ra2 23. Rb2 Rxb2 24. Qxb2 Be6 25. Qb6 Qxb6 26. cxb6 Nd5 27. b7
+Rb8 28. e4 Nf6 29. Bg5 Rxb7 30. Bxf6 gxf6 31. Kf2 Rb2+ 32. Kg3 f5 33. exf5 Bxf5
+34. h4 Be6 35. Rg1 Kg7 36. Rc1 Rd2 37. Rc5 Kf6 38. Rc6 Ke5 39. Rc5+ Bd5 40. Rc8
+f5 41. Re8+ Be6 42. Re7 f4+ 43. Kh2 Rd7 44. Re8 Rg7 45. Kg1 Rg6 46. Kf2 Rh6 47.
+g3 fxg3+ 48. Kxg3 Rg6+ 49. Kf2 Rg7 50. Rb8 Bd5 51. Rb5 Rf7 52. Kg2 Kd4 53. Kg3
+h5 54. Kg2 Bxf3+ 55. Kg3 Bd5 56. Ra5 Rf3+ 57. Kh2 Rf2+ 58. Kg3 Rg2+ 59. Kh3 Ra2
+60. Rb5 Ra3+ 61. Kh2 Bf3 62. Rb4+ Ke5 63. Kg3 Be4+ 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.09"]
+[Round "4.3"]
+[White "Moiseenko, Alexander"]
+[Black "Kravtsiv, Martyn"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2657"]
+[BlackElo "2645"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "4.Nf3"]
+[WhiteFideId "14102560"]
+[BlackFideId "14113147"]
+[EventDate "2016.12.06"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 Be7 5. cxd5 exd5 6. Qc2 c6 7. h3 O-O 8. Bf4
+Bd6 9. Bxd6 Qxd6 10. e3 b6 11. Rc1 Nbd7 12. Be2 Bb7 13. O-O Rac8 14. Rfd1 Rfd8
+15. a3 c5 16. dxc5 bxc5 17. Nxd5 Bxd5 18. e4 Nxe4 19. Qxe4 Nf6 20. Qc2 Qb8 21.
+Nd2 Qb7 22. Bf1 h6 23. Nc4 Ne4 24. Na5 Qe7 25. Nc4 Qb7 26. Re1 Ng5 27. Qf5 Ne6
+28. Qe5 Qb8 29. Qc3 Qf4 30. Re3 Rb8 31. Rce1 Qd4 32. b3 Qxc3 33. Rxc3 Nd4 34.
+Ne3 Be6 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.09"]
+[Round "4.4"]
+[White "Kuzubov, Yuriy"]
+[Black "Efimenko, Zahar"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2651"]
+[ECO "A05"]
+[Opening "Reti opening"]
+[WhiteFideId "14112906"]
+[BlackFideId "14107201"]
+[EventDate "2016.12.06"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 c5 4. O-O g6 5. c4 d4 6. e3 Nc6 7. exd4 cxd4 8. d3
+Bg7 9. Re1 Nd7 10. Na3 O-O 11. Nc2 a5 12. b3 Re8 13. Ba3 Nde5 14. Ng5 Bg4 15. f3
+Bf5 16. Ne4 b5 17. Nf2 Rc8 18. f4 Nd7 19. g4 Be6 20. Ne4 b4 21. Bc1 Nf6 22.
+Nxf6+ Bxf6 23. a3 bxa3 24. Bxa3 Bd7 25. Qf3 e5 26. Rf1 e4 27. dxe4 d3 28. Qxd3
+Bxa1 29. Rxa1 Bxg4 30. Qc3 f6 31. Bb2 Be6 32. Ne3 Nb4 33. Rd1 Qe7 34. f5 Bxf5
+35. Rf1 Rcd8 36. Nd5 Qc5+ 37. Kh1 Nxd5 38. exd5 Rd6 39. Qc1 Qe3 40. c5 Rdd8 41.
+Bxf6 Rd7 42. Qxe3 Rxe3 43. d6 Rf7 44. Bg5 Rd3 45. Re1 Bd7 46. Bh6 Rf6 47. c6
+Rfxd6 48. cxd7 Rxd7 49. Bf1 Rd1 50. Bc4+ Kh8 51. Rxd1 Rxd1+ 52. Kg2 Ra1 53. Kg3
+Ra3 54. Bc1 Ra2 55. Be3 Kg7 56. Bb5 Kf6 57. Ba4 g5 58. Bb6 h5 59. Bxa5 Kf5 60.
+Bd7+ Ke4 61. Bc7 Rc2 62. Ba5 Rb2 63. Be6 Rb1 64. Bd2 Ke5 65. Bc4 h4+ 66. Kh3 Kf6
+67. Bc3+ Ke7 68. Bd4 Re1 69. Bf2 Re4 70. Bd3 Rf4 71. Kg2 Kf6 72. Bb6 Ke6 73. Be3
+Rb4 74. Bc4+ Kf5 75. Kh3 Rb8 76. Bd3+ Ke5 77. Bc4 Kf5 78. Bc5 Rh8 79. Be2 Rd8
+80. Be3 Rb8 81. Bd1 Rb4 82. Bc2+ Kf6 83. Bd2 Rb5 84. Kg4 Rd5 85. Be3 Rb5 86.
+Bd4+ Ke7 87. Bc3 Rb8 88. Bd2 Ke6 89. Bd3 Ke5 90. Bc4 Rd8 91. Bxg5 Rd4+ 92. Kh3 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.09"]
+[Round "4.5"]
+[White "Kovchan, Alexander"]
+[Black "Solovchuk, Alexey"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2585"]
+[BlackElo "2409"]
+[ECO "C45"]
+[Opening "Scotch"]
+[Variation "Potter variation"]
+[WhiteFideId "14103052"]
+[BlackFideId "14115220"]
+[EventDate "2016.12.06"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nb3 Bb6 6. Nc3 Qf6 7. Qe2 Nge7 8.
+Be3 O-O 9. O-O-O d6 10. f3 Be6 11. h4 Bxe3+ 12. Qxe3 Rad8 13. Nb5 Bxb3 14. axb3
+d5 15. Bd3 a6 16. Nxc7 d4 17. Qg5 Qd6 18. Nd5 Nxd5 19. exd5 Nb4 20. Rhe1 Qb6 21.
+d6 Qxd6 22. h5 h6 23. Qe5 Qc6 24. Be4 Rd5 25. Qe7 Qc5 26. Qxc5 Rxc5 27. Rxd4 a5
+28. c3 b6 29. Rd6 f5 30. Bb1 Nc6 31. Ree6 Rc8 32. Rd7 Kf8 33. f4 b5 34. Bd3 Nb4
+35. Kd2 Nd5 36. Rg6 Nxf4 37. Rgxg7 Nxh5 38. Rh7 Nf6 39. Rh8+ Ng8 40. Rhh7 Nf6
+41. Rhf7+ Ke8 42. Rde7+ Kd8 43. Rb7 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.09"]
+[Round "4.6"]
+[White "Areshchenko, Alexander"]
+[Black "Oleksiyenko, Mykhaylo"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2678"]
+[BlackElo "2615"]
+[ECO "B47"]
+[Opening "Sicilian"]
+[Variation "Taimanov (Bastrikov) variation"]
+[WhiteFideId "14109530"]
+[BlackFideId "4152417"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 Nf6 7. Be3 Be7 8. f4
+d6 9. Qd2 O-O 10. O-O-O a6 11. g4 d5 12. exd5 Nxd5 13. Nxd5 exd5 14. Kb1 Bd7 15.
+h4 Rfe8 16. Bf3 Rad8 17. h5 Na5 18. b3 Ba3 19. Rhe1 Rc8 20. h6 gxh6 21. Bxd5
+Bxg4 22. Rg1 h5 23. Nf5 Kf8 24. Bd4 Re2 25. Bg7+ Ke8 26. Rge1 Qxc2+ 27. Qxc2
+Rxc2 28. Ng3 Bb4 29. Nxe2 Rxe2 30. Rxe2+ Bxe2 31. Rd4 Be7 32. Kb2 Bg4 33. Re4
+Kd7 34. Bxf7 Nc6 35. Re3 Bd6 36. Be8+ Kc7 37. Bh6 h4 38. Bf7 Bc5 39. Re1 Bd4+
+40. Kc2 h3 41. Rh1 Ne7 42. Kd3 Bb6 43. f5 Bxf5+ 44. Ke2 Bg4+ 45. Kd3 Bf5+ 46.
+Ke2 Bg4+ 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.10"]
+[Round "5.1"]
+[White "Oleksiyenko, Mykhaylo"]
+[Black "Korobov, Anton"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2615"]
+[BlackElo "2692"]
+[ECO "C03"]
+[Opening "French"]
+[Variation "Tarrasch"]
+[WhiteFideId "4152417"]
+[BlackFideId "14105730"]
+[EventDate "2016.12.06"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Be7 4. Bd3 c5 5. dxc5 Nf6 6. Qe2 O-O 7. Ngf3 a5 8. c3
+Na6 9. e5 Nd7 10. O-O Naxc5 11. Bc2 b6 12. Re1 Ba6 13. Qd1 Nd3 14. Re3 Nxc1 15.
+Rxc1 g6 16. Nb3 b5 17. Nbd4 Qb6 18. h4 b4 19. Ba4 Nc5 20. Nc6 Bd8 21. Nxd8 Rfxd8
+22. Nd4 Rac8 23. h5 Ne4 24. Qf3 bxc3 25. bxc3 Qb2 26. Rc2 Qb1+ 27. Kh2 Qb8 28.
+Nc6 Rxc6 29. Bxc6 Qxe5+ 30. g3 Rc8 31. Ba4 Rc4 32. Bb3 Ng5 33. Qg2 Rh4+ 34. Kg1
+Re4 35. f4 Qf5 36. Rxe4 Nxe4 37. hxg6 hxg6 38. c4 d4 39. Re2 Bb7 40. Bc2 Qc5 41.
+Bxe4 d3+ 42. Kf1 Qxc4 43. Bxb7 d2 44. Qe4 d1=Q+ 45. Kf2 Qcc1 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.10"]
+[Round "5.2"]
+[White "Solovchuk, Alexey"]
+[Black "Areshchenko, Alexander"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2409"]
+[BlackElo "2678"]
+[ECO "A34"]
+[Opening "English"]
+[Variation "symmetrical, Rubinstein system"]
+[WhiteFideId "14115220"]
+[BlackFideId "14109530"]
+[EventDate "2016.12.06"]
+
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. Nf3 Nc6 7. d3 e5 8. Nd2
+Be7 9. Nc4 f6 10. f4 exf4 11. Bxf4 Ne6 12. Bxc6+ bxc6 13. Qa4 Nxf4 14. gxf4 Bd7
+15. O-O-O O-O 16. Rdf1 Bh3 17. Rfg1 Qd7 18. Rg3 Kh8 19. Rhg1 Rg8 20. e4 Be6 21.
+f5 Bxc4 22. Qxc4 Bd6 23. Rg4 Rab8 24. a3 Be5 25. Na4 Bd4 26. R1g2 Rb7 27. Kb1
+Qd6 28. Ka2 Rgb8 29. Rc2 Qe7 30. Rgg2 Rb5 31. Nc3 Ra5 32. Ne2 Be5 33. Nc3 Qb7
+34. Na4 Bd4 35. Rge2 h6 36. Rg2 Kh7 37. h3 Rb5 38. Kb1 Qe7 39. Ka2 R8b7 40. Rg6
+Qe5 41. Rcg2 Qb8 42. b3 Kh8 43. b4 Kh7 44. Nb2 a5 45. Nd1 axb4 46. a4 Ra5 47.
+Kb3 Rxa4 48. Kxa4 b3 49. Qa6 Ra7 50. Rxg7+ Rxg7 51. Rxg7+ Kxg7 52. Qa5 Qb7 53.
+Nc3 Bxc3 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.10"]
+[Round "5.3"]
+[White "Efimenko, Zahar"]
+[Black "Kovchan, Alexander"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2585"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf"]
+[WhiteFideId "14107201"]
+[BlackFideId "14103052"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. a4 g6 7. Be2 Bg7 8. O-O
+O-O 9. Be3 Nc6 10. Qd2 Bd7 11. f3 Rc8 12. Nxc6 Bxc6 13. Rfd1 Nd7 14. a5 Qc7 15.
+Ra3 Be5 16. b4 Nf6 17. Bb6 Qd7 18. Rb3 Bxc3 19. Rxc3 Bb5 20. Bd4 Bxe2 21. Qxe2
+Rxc3 22. Bxc3 Rc8 23. Be1 Qe6 24. Qd3 Nd7 25. c3 Ne5 26. Qd5 Qxd5 27. Rxd5 Nc4
+28. Kf2 e6 29. Rd1 f5 30. Ke2 Kf7 31. exf5 gxf5 32. Rd4 e5 33. Rh4 Kg6 34. f4 h5
+35. Bf2 Rc7 36. Kd3 e4+ 37. Ke2 Kh6 38. Bd4 Rc8 39. Bf6 Kg6 40. Bd4 Rg8 41. Kf2
+Kh6 42. Ba7 Rc8 43. Rh3 Nb2 44. Bd4 Rg8 45. Rh4 Nd3+ 46. Kf1 Kg6 47. Ke2 Rc8 48.
+Kd2 Kh6 49. Bf6 Rg8 50. Bg5+ Kg6 51. Rh3 Nb2 52. Rg3 Nc4+ 53. Ke2 Kf7 54. Rh3
+Rh8 55. Rg3 b6 56. axb6 Nxb6 57. Bh4 Nd5 58. Rg5 Ke6 59. c4 Nxb4 60. Rg6+ Kd7
+61. Rg7+ Kc6 62. Rf7 Rg8 63. g3 Nc2 64. Bf6 Rb8 65. Kd2 Na3 66. Kc3 a5 67. Ra7
+e3 68. Re7 a4 69. Kd3 Rb3+ 70. Ke2 Nxc4 71. Ra7 a3 72. Ra4 d5 73. Bd4 Rb8 74.
+Ra7 Rb2+ 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.10"]
+[Round "5.4"]
+[White "Kravtsiv, Martyn"]
+[Black "Kuzubov, Yuriy"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2645"]
+[BlackElo "2651"]
+[ECO "B33"]
+[Opening "Sicilian"]
+[Variation "Pelikan, Chelyabinsk variation"]
+[WhiteFideId "14113147"]
+[BlackFideId "14112906"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3
+b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c4 b4 12. Nc2 O-O 13. g3 a5 14. Bg2 Bg5 15. O-O
+Ne7 16. Nce3 Bxe3 17. Nxe3 Be6 18. Qd3 Qc7 19. Rfd1 Rfd8 20. Rac1 Rac8 21. b3
+Qd7 22. Nd5 Nxd5 23. cxd5 Bg4 24. Re1 Qa7 25. Bf1 Rc5 26. Qe3 Rdc8 27. Rc4 Qb8
+28. Rec1 Rxc4 29. Rxc4 Rxc4 30. Bxc4 f6 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.10"]
+[Round "5.5"]
+[White "Volokitin, Andrei"]
+[Black "Moiseenko, Alexander"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2649"]
+[BlackElo "2657"]
+[ECO "B32"]
+[Opening "Sicilian"]
+[Variation "Labourdonnais-Loewenthal (Kalashnikov) variation"]
+[WhiteFideId "14107090"]
+[BlackFideId "14102560"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. c4 Be7 7. N1c3 a6 8. Na3
+Be6 9. Nc2 Nf6 10. Be2 O-O 11. O-O Rc8 12. Be3 Nb8 13. b3 b5 14. Nb4 bxc4 15.
+Bxc4 Bxc4 16. bxc4 Rxc4 17. Qb3 Rc8 18. Nbd5 Nxd5 19. Nxd5 Bg5 20. Rac1 Rxc1 21.
+Rxc1 Nd7 22. Rc6 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.10"]
+[Round "5.6"]
+[White "Bakhmatsky, Vladislav"]
+[Black "Shtembuliak, Evgeny"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2446"]
+[BlackElo "2478"]
+[ECO "C03"]
+[Opening "French"]
+[Variation "Tarrasch"]
+[WhiteFideId "14124890"]
+[BlackFideId "14113325"]
+[EventDate "2016.12.06"]
+
+1. e4 e6 2. d4 d5 3. Nd2 h6 4. Ngf3 Nf6 5. Bd3 c5 6. exd5 exd5 7. dxc5 Bxc5 8.
+Nb3 Be7 9. O-O O-O 10. Nfd4 Nc6 11. Nf5 Bxf5 12. Bxf5 Bd6 13. Be3 Re8 14. g3 Ne5
+15. Nd2 Qc7 16. c3 Re7 17. Qa4 Bc5 18. Rae1 Rae8 19. Re2 Nc6 20. Bf4 Qb6 21.
+Rxe7 Nxe7 22. Bc2 Qxb2 23. Be5 b5 24. Qb3 Qxb3 25. Bxb3 Nd7 26. Bf4 Nb6 27. Nf3
+g5 28. Bc1 Nc6 29. Kg2 Kg7 30. Ne1 Nc4 31. Nd3 Bb6 32. a4 a6 33. axb5 axb5 34.
+Rd1 N6a5 35. Bc2 Re2 36. Bb1 Nb3 37. Kf1 Nxc1 38. Rxc1 Rd2 39. Ke1 Kf6 40. Rd1
+Rxd1+ 41. Kxd1 Ba5 42. Kc2 Na3+ 43. Kb2 Nxb1 44. Kxb1 Bxc3 45. g4 Ke6 46. Kc2 d4
+47. Kb3 Kf6 48. Kc2 Kg7 49. h3 h5 50. f3 f5 51. Nf2 h4 52. gxf5 Kf6 53. Nd3 Kxf5
+54. Kb3 Bd2 55. Kc2 Bf4 56. Kb3 Bd6 57. Kc2 Ke6 58. Kb2 Kd5 59. Kb3 g4 60. fxg4
+Ke4 61. Kc2 Be7 62. Kd2 b4 63. Ke2 b3 64. Kd2 Kf3 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.11"]
+[Round "6.1"]
+[White "Korobov, Anton"]
+[Black "Shtembuliak, Evgeny"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2692"]
+[BlackElo "2478"]
+[ECO "B06"]
+[Opening "Robatsch defence"]
+[WhiteFideId "14105730"]
+[BlackFideId "14113325"]
+[EventDate "2016.12.06"]
+
+1. d4 g6 2. e4 Bg7 3. Nc3 c6 4. Bc4 d5 5. exd5 b5 6. Bb3 b4 7. Nce2 cxd5 8. a3
+bxa3 9. Rxa3 Nf6 10. Nf3 O-O 11. O-O Nc6 12. Ne5 Bb7 13. Nd3 Ne4 14. c3 Na5 15.
+Bc2 Nc4 16. Ra2 e6 17. Ng3 Ned6 18. Re1 Bc6 19. Bf4 Re8 20. Qc1 f6 21. b3 Nb6
+22. Qa1 Qe7 23. Bb1 Nf7 24. Rae2 Bd7 25. Qa5 Qd8 26. Nf1 Qc8 27. h4 Qc6 28. h5
+g5 29. Bg3 Rac8 30. Qxa7 e5 31. Nb4 Qd6 32. dxe5 fxe5 33. Qa1 d4 34. Be4 Rxc3
+35. Nd3 Bg4 36. Ra2 Bxh5 37. b4 Nd5 38. Ra6 Qd8 39. b5 Bg6 40. Rxg6 hxg6 41. Nd2
+Ne7 42. Qa6 Qd6 43. b6 Nf5 44. Qb5 Qb8 45. Nc4 N5d6 46. Nxd6 Nxd6 47. Qd5+ Kh7
+48. Bxe5 Rxe5 49. Bxg6+ Kxg6 50. Nxe5+ Bxe5 51. Qxe5 Qxb6 52. Qd5 Nf7 53. Re6+
+Qxe6 54. Qxe6+ Kg7 55. Qd5 Rc1+ 56. Kh2 Rd1 57. Kg3 d3 58. Qb3 Rh1 59. Qc3+ Kg8
+60. Qxd3 Rh6 61. Qc3 Rh4 62. f3 Rf4 63. Kf2 Rh4 64. Ke3 Kf8 65. g3 Rh6 66. Ke4
+Rd6 67. Qb2 Kg8 68. Kf5 Kf8 69. Qb7 Kg7 70. Qe7 Rd5+ 71. Ke4 Rd1 72. Qc5 Rd6 73.
+Qc3+ Kf8 74. Qb2 Re6+ 75. Kf5 Rd6 76. f4 gxf4 77. gxf4 Rh6 78. Ke4 Nd6+ 79. Kd5
+Ne8 80. Ke5 Kf7 81. f5 Kf8 82. Qc1 Rd6 83. Qh1 Kg8 84. Qh2 Kg7 85. Qh5 Kf8 86.
+Qh7 Ra6 87. Qd7 Rh6 88. Qb7 Rd6 89. Kf4 Rf6 90. Qb4+ Kf7 91. Kg5 Rd6 92. Qh4 Kf8
+93. Qh7 Ra6 94. Qb7 Rd6 95. Qa7 Rf6 96. Qa3+ Kf7 97. Qb3+ Kf8 98. Qb4+ Kf7 99.
+Qb5 Rd6 100. Qe5 Kf8 101. Qc5 Kf7 102. Qb4 Rf6 103. Qb3+ Kf8 104. Qa3+ Kf7 105.
+Qc3 Rd6 106. Kf4 Rh6 107. Ke5 Kf8 108. Qc1 Rd6 109. Qc5 Kf7 110. Qb4 Rh6 111.
+Qa3 Rd6 112. Qb3+ Kf8 113. Qe6 Rxe6+ 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.11"]
+[Round "6.2"]
+[White "Moiseenko, Alexander"]
+[Black "Bakhmatsky, Vladislav"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2657"]
+[BlackElo "2446"]
+[ECO "D85"]
+[Opening "Gruenfeld"]
+[Variation "exchange variation"]
+[WhiteFideId "14102560"]
+[BlackFideId "14124890"]
+[EventDate "2016.12.06"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Qa4+ Qd7 8.
+Qb3 O-O 9. Nf3 b6 10. Be3 Bb7 11. Bd3 e5 12. Rd1 exd4 13. cxd4 Nc6 14. O-O Qe7
+15. d5 Na5 16. Qb1 c6 17. Bg5 Qd7 18. Rfe1 Rfe8 19. Bd2 cxd5 20. Bxa5 bxa5 21.
+Bb5 Bc6 22. Bxc6 Qxc6 23. exd5 Rxe1+ 24. Nxe1 Qb6 25. Qc2 Rd8 26. g3 Qb2 27. Kg2
+Qxc2 28. Nxc2 Be5 29. Ne3 Bd6 30. Nc4 a4 31. Kf3 Kf8 32. Ke4 Ke7 33. Rb1 Kf6 34.
+Rb7 Bc5 35. Ne5 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.11"]
+[Round "6.3"]
+[White "Kuzubov, Yuriy"]
+[Black "Volokitin, Andrei"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2649"]
+[ECO "E12"]
+[Opening "Queen's Indian"]
+[Variation "Petrosian system"]
+[WhiteFideId "14112906"]
+[BlackFideId "14107090"]
+[EventDate "2016.12.06"]
+
+1. Nf3 Nf6 2. c4 b6 3. d4 e6 4. a3 Bb7 5. Nc3 d5 6. cxd5 Nxd5 7. e3 g6 8. h4 Bg7
+9. h5 Nd7 10. Bd3 Nxc3 11. bxc3 e5 12. e4 Qe7 13. O-O gxh5 14. a4 a5 15. Ba3 Qf6
+16. dxe5 Qf4 17. Nd4 Bxe5 18. Qxh5 O-O-O 19. Be7 Rdg8 20. Ne2 Qg4 21. Qxg4 Rxg4
+22. f3 Rg7 23. Ba3 Rhg8 24. Rf2 Nc5 25. Bxc5 bxc5 26. f4 Bf6 27. Rb1 Bh4 28. Rf3
+Rxg2+ 29. Kh1 c4 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.11"]
+[Round "6.4"]
+[White "Kovchan, Alexander"]
+[Black "Kravtsiv, Martyn"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2585"]
+[BlackElo "2645"]
+[ECO "A13"]
+[Opening "English opening"]
+[WhiteFideId "14103052"]
+[BlackFideId "14113147"]
+[EventDate "2016.12.06"]
+
+1. c4 e6 2. Nc3 d5 3. e3 Nf6 4. Nf3 Bd6 5. b3 O-O 6. Bb2 b6 7. cxd5 Nxd5 8. Nxd5
+exd5 9. Be2 Re8 10. O-O Nd7 11. Nd4 Bb7 12. Nf5 Be5 13. d4 Bf6 14. Rc1 a6 15.
+Bd3 Nf8 16. Qg4 g6 17. Qg3 Bc8 18. Nh6+ Kg7 19. Ng4 Bxg4 20. Qxg4 c5 21. Rfd1 h5
+22. Qg3 cxd4 23. exd4 Ne6 24. Bf1 Rc8 25. Rxc8 Qxc8 26. Qd3 Nf4 27. Qd2 Bg5 28.
+Qc3 Qg4 29. Ra1 Ne2+ 30. Bxe2 Rxe2 31. Rf1 Qf5 32. Ba1 Rc2 33. Qb4 Qxf2+ 34.
+Rxf2 Rc1+ 35. Rf1 Be3+ 36. Kh1 Rxf1# 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.11"]
+[Round "6.5"]
+[White "Areshchenko, Alexander"]
+[Black "Efimenko, Zahar"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2678"]
+[BlackElo "2651"]
+[ECO "C95"]
+[Opening "Ruy Lopez"]
+[Variation "closed, Breyer, Borisenko variation"]
+[WhiteFideId "14109530"]
+[BlackFideId "14107201"]
+[EventDate "2016.12.06"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Nb8 10. d4 Nbd7 11. Bc2 Bb7 12. a4 Re8 13. Nbd2 c5 14. d5 c4 15. b3
+cxb3 16. Nxb3 Qc7 17. Be3 Nb6 18. Nbd2 Nfd7 19. axb5 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.11"]
+[Round "6.6"]
+[White "Oleksiyenko, Mykhaylo"]
+[Black "Solovchuk, Alexey"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2615"]
+[BlackElo "2409"]
+[ECO "C60"]
+[Opening "Ruy Lopez"]
+[Variation "Cozio defence"]
+[WhiteFideId "4152417"]
+[BlackFideId "14115220"]
+[EventDate "2016.12.06"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. O-O a6 5. Bc4 Ng6 6. d4 Be7 7. Nxe5 Ncxe5 8.
+dxe5 Nxe5 9. Bb3 O-O 10. Nc3 d6 11. f4 Nc6 12. f5 Ne5 13. Nd5 c6 14. Nxe7+ Qxe7
+15. Qh5 Nd7 16. Bg5 Qxe4 17. Rae1 Qd4+ 18. Kh1 Nf6 19. Qf3 d5 20. Be3 Qe4 21.
+Qg3 Qg4 22. Qxg4 Nxg4 23. Bc5 Rd8 24. Bb6 Rf8 25. c4 dxc4 26. Bxc4 Bd7 27. Re7
+Nf6 28. Rd1 Bxf5 29. Rxb7 Nd5 30. Bc5 Rfb8 31. Bxa6 h5 32. Rxb8+ Rxb8 33. Rd2
+Be4 34. Kg1 f5 35. h4 Kf7 36. Bc4 Ra8 37. b3 g5 38. hxg5 Kg6 39. a4 Kxg5 40. Ra2
+Nc3 41. Ra3 f4 42. a5 Nb5 43. Ra1 Ra6 44. b4 h4 45. Kf2 Bd5 46. Bd3 Ra8 47. Be7+
+Kg4 48. Re1 Nd4 49. Bf6 Nb3 50. Rh1 Nxa5 51. Rxh4# 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.13"]
+[Round "7.1"]
+[White "Solovchuk, Alexey"]
+[Black "Korobov, Anton"]
+[Result "1/2-1/2"]
+[BlackTitle "GM"]
+[WhiteElo "2409"]
+[BlackElo "2692"]
+[ECO "A19"]
+[Opening "English"]
+[Variation "Mikenas-Carls, Sicilian variation"]
+[WhiteFideId "14115220"]
+[BlackFideId "14105730"]
+[EventDate "2016.12.06"]
+
+1. c4 Nf6 2. Nc3 e6 3. e4 c5 4. d3 Nc6 5. Nge2 d5 6. cxd5 exd5 7. Bg5 Be7 8. Nf4
+dxe4 9. dxe4 O-O 10. Qxd8 Rxd8 11. f3 a6 12. Bc4 b5 13. Bxf6 Bxf6 14. Bd5 Bd7
+15. Kf2 Bd4+ 16. Ke2 Rab8 17. Rac1 Ne5 18. b3 b4 19. Nd1 g5 20. Nh5 Bb5+ 21. Kd2
+Nd3 22. Rc2 Rxd5 23. exd5 Re8 24. Ng3 Re5 25. Ne4 Rxd5 26. Ne3 Rd8 27. Nc4 Nf4
+28. Kc1 f5 29. Nxg5 h6 30. Nh3 Nxh3 31. gxh3 Bc6 32. Rf1 Kf7 33. Re2 Kf6 34. h4
+f4 35. Kc2 Bd5 36. Nd2 Be3 37. Rfe1 Rg8 38. Kd3 a5 39. Rxe3 fxe3 40. Kxe3 Ke5
+41. Rc1 Kd6 42. Ne4+ Bxe4 43. fxe4 Rg2 44. Rd1+ Ke6 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.13"]
+[Round "7.2"]
+[White "Efimenko, Zahar"]
+[Black "Oleksiyenko, Mykhaylo"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2615"]
+[ECO "A05"]
+[Opening "Reti"]
+[Variation "King's Indian attack"]
+[WhiteFideId "14107201"]
+[BlackFideId "4152417"]
+[EventDate "2016.12.06"]
+
+1. Nf3 Nf6 2. g3 g6 3. b3 Bg7 4. Bb2 O-O 5. Bg2 d5 6. c4 e6 7. O-O b6 8. cxd5
+exd5 9. d4 Bb7 10. Nc3 Nbd7 11. Rc1 Qe7 12. e3 a6 13. Qc2 Rac8 14. Ne5 Qe6 15.
+Ne2 c6 16. Nf4 Qe7 17. Bh3 a5 18. Rfd1 Rfe8 19. Ba3 Qd8 20. Bd6 Bf8 21. Bxf8
+Kxf8 22. Qb2 Qe7 23. Rc2 Kg8 24. Rdc1 Qd6 25. Nfd3 Rc7 26. b4 axb4 27. Nxd7 Nxd7
+28. Qxb4 c5 29. dxc5 bxc5 30. Nxc5 Nxc5 31. Rxc5 Rxc5 32. Rxc5 d4 33. exd4 Qe7
+34. d5 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.13"]
+[Round "7.3"]
+[White "Kravtsiv, Martyn"]
+[Black "Areshchenko, Alexander"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2645"]
+[BlackElo "2678"]
+[ECO "B54"]
+[Opening "Sicilian"]
+[Variation "Prins (Moscow) variation"]
+[WhiteFideId "14113147"]
+[BlackFideId "14109530"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 e5 6. Nb3 d5 7. Bg5 Be6 8. Bxf6
+gxf6 9. exd5 Qxd5 10. Qxd5 Bxd5 11. Nc3 Be6 12. O-O-O Nd7 13. Nb5 Kd8 14. Na5
+Rb8 15. Bc4 Rg8 16. g3 Bb4 17. Bxe6 fxe6 18. Nc4 a6 19. Nbd6 Kc7 20. a3 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.13"]
+[Round "7.4"]
+[White "Volokitin, Andrei"]
+[Black "Kovchan, Alexander"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2649"]
+[BlackElo "2585"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Adams attack"]
+[WhiteFideId "14107090"]
+[BlackFideId "14103052"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be6 8. f4 b5
+9. Be3 b4 10. Nd5 Nxe4 11. Qd3 f5 12. O-O-O Nd7 13. g4 Ng3 14. Rg1 Nxf1 15.
+Rgxf1 fxg4 16. fxe5 dxe5 17. Qe4 Rc8 18. Nb6 Be7 19. hxg4 Rc7 20. Nd4 exd4 21.
+Qxe6 Rf8 22. Bxd4 Nxb6 23. Bxb6 Rxf1 24. Rxf1 Qd3 25. Qf7+ Kd7 26. Bxc7 Qe3+ 27.
+Kb1 Kxc7 28. Qxg7 a5 29. Qxh7 Qe2 30. Qf7 a4 31. Qf3 Qe6 32. Qf4+ Kc6 33. Qf7
+Qe5 34. Qe8+ Kb6 35. Qxa4 Qe2 36. Rh1 Qxg4 37. a3 Qe4 38. Rh6+ Kc7 39. Qa7+ Kc8
+40. Rh8+ Bd8 41. Qc5+ 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.13"]
+[Round "7.5"]
+[White "Bakhmatsky, Vladislav"]
+[Black "Kuzubov, Yuriy"]
+[Result "1/2-1/2"]
+[BlackTitle "GM"]
+[WhiteElo "2446"]
+[BlackElo "2651"]
+[ECO "B94"]
+[Opening "Sicilian"]
+[Variation "Najdorf, 6.Bg5"]
+[WhiteFideId "14124890"]
+[BlackFideId "14112906"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 Nbd7 7. Qe2 g6 8.
+O-O-O e5 9. Nb3 h6 10. Bd2 b5 11. Nd5 Nxd5 12. exd5 Bg7 13. g4 O-O 14. Bg2 Nb6
+15. Na5 Qc7 16. Kb1 e4 17. Bc1 Nxd5 18. Bxe4 Nc3+ 19. bxc3 Qxa5 20. Bb2 Be6 21.
+Bd5 Bxd5 22. Rxd5 Rac8 23. Rd3 Rc4 24. Rg1 Ra4 25. a3 Rxa3 26. Bxa3 Qxa3 27. Qd2
+b4 28. Qc1 Qa5 29. Qb2 bxc3 30. Qb7 Re8 31. Re3 Rd8 32. Rge1 Be5 33. f4 Bxf4 34.
+Re8+ Rxe8 35. Rxe8+ Kg7 36. Re7 Qb5+ 37. Qxb5 axb5 38. h3 Kf6 39. Rb7 Be5 40.
+Kc1 Kg5 41. Rxf7 Kh4 42. Rf3 g5 43. Kd1 b4 44. Ke2 Bf4 45. Kf2 d5 46. Ke2 Be5
+47. Ke3 Bg3 48. Rf6 Kxh3 49. Rxh6+ Kg2 50. Ke2 Bf2 51. Rf6 Bg1 52. Rf5 Kg3 53.
+Rxd5 Kxg4 54. Rb5 Bh2 55. Rxb4+ Kf5 56. Kf3 Bf4 57. Rb5+ Be5 58. Rb4 Bf4 59.
+Rb5+ Be5 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.13"]
+[Round "7.6"]
+[White "Shtembuliak, Evgeny"]
+[Black "Moiseenko, Alexander"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2478"]
+[BlackElo "2657"]
+[ECO "B45"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "14113325"]
+[BlackFideId "14102560"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nc3 e6 3. Nf3 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Nxc6 bxc6 7. e5 Nd5 8.
+Ne4 Qc7 9. f4 Rb8 10. c4 Bb4+ 11. Ke2 O-O 12. cxd5 cxd5 13. Nf2 f6 14. exf6 Rxf6
+15. Bd2 Ba6+ 16. Kf3 Bxd2 17. Qxd2 Rxb2 18. Rc1 Rxf4+ 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.14"]
+[Round "8.1"]
+[White "Korobov, Anton"]
+[Black "Moiseenko, Alexander"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2692"]
+[BlackElo "2657"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "14105730"]
+[BlackFideId "14102560"]
+[EventDate "2016.12.06"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O 7. Bd2 dxc4 8.
+Bxc4 Bd6 9. Qc2 e5 10. dxe5 Nxe5 11. Nxe5 Bxe5 12. O-O-O Qe7 13. Kb1 Rd8 14. f4
+Bxc3 15. Bxc3 Bg4 16. Rxd8+ Rxd8 17. h3 Bd7 18. Rd1 Bc6 19. Rxd8+ Qxd8 20. Bd3
+h6 21. a3 Qd5 22. Bxf6 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.14"]
+[Round "8.2"]
+[White "Kuzubov, Yuriy"]
+[Black "Shtembuliak, Evgeny"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2651"]
+[BlackElo "2478"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "14112906"]
+[BlackFideId "14113325"]
+[EventDate "2016.12.06"]
+
+1. Nf3 g6 2. c4 Bg7 3. d4 d6 4. Nc3 c5 5. d5 Bxc3+ 6. bxc3 f5 7. g3 Qa5 8. Nd2
+Nf6 9. Bg2 Nbd7 10. O-O Nb6 11. Re1 Bd7 12. e4 O-O-O 13. e5 dxe5 14. Nb3 Qa4 15.
+Rxe5 Nxc4 16. Rxe7 Bc6 17. Qe1 Nxd5 18. Re6 Kb8 19. Nxc5 Qc2 20. Bg5 Rc8 21. Rd1
+Ncb6 22. Rxc6 bxc6 23. Rxd5 Nxd5 24. Bxd5 Ka8 25. Bb3 Rhe8 26. Be3 Qb2 27. Na4
+Qa3 28. Qe2 Rxe3 29. Qxe3 Qd6 30. Nc5 Rb8 31. Ne6 Rb5 32. Nd4 Re5 33. Qf3 Kb7
+34. Ba4 Kb6 35. Bxc6 Qc5 36. Bb5 Re1+ 37. Kg2 Rc1 38. Nb3 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.14"]
+[Round "8.3"]
+[White "Kovchan, Alexander"]
+[Black "Bakhmatsky, Vladislav"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[WhiteElo "2585"]
+[BlackElo "2446"]
+[ECO "B92"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Opovcensky variation"]
+[WhiteFideId "14103052"]
+[BlackFideId "14124890"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. O-O
+O-O 9. Be3 Be6 10. Qd2 Nbd7 11. a4 Rc8 12. a5 Qc7 13. Rfd1 Rfe8 14. Qe1 Qc6 15.
+Bf3 Ng4 16. Bc1 Ngf6 17. h3 Nf8 18. Bg5 Ng6 19. Nc1 h6 20. Bxf6 Bxf6 21. Nd3 Bd8
+22. Kh2 Qd7 23. Qe2 Rc4 24. Bg4 Bxg4 25. hxg4 Qc8 26. g3 Nf8 27. Ne1 Rc5 28. Rd5
+Ne6 29. Rxc5 Qxc5 30. Nd5 Nd4 31. Qd1 Nc6 32. Nd3 Qc4 33. f3 Nxa5 34. b4 Nc6 35.
+Nb2 Qd4 36. Qxd4 Nxd4 37. Kg2 Bg5 38. c3 Nb5 39. Na4 Rc8 40. Kf2 Rc6 41. Ke2 Nc7
+42. Nab6 Ne6 43. Kd3 Bd8 44. Nc4 Kf8 45. Nce3 g6 46. f4 exf4 47. gxf4 Kg7 48. c4
+Rc8 49. Rf1 Nf8 50. Kd4 Nd7 51. e5 dxe5+ 52. fxe5 a5 53. c5 b5 54. cxb6 Nxb6 55.
+bxa5 Nxd5 56. Kxd5 Bxa5 57. Nc4 Bd2 58. Nd6 Rf8 59. Rb1 Bg5 60. Rb7 Kg8 61. Ke4
+Bh4 62. Kd5 Bg3 63. Rb3 Bf4 64. Ke4 Bg5 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.14"]
+[Round "8.4"]
+[White "Areshchenko, Alexander"]
+[Black "Volokitin, Andrei"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2678"]
+[BlackElo "2649"]
+[ECO "C42"]
+[Opening "Petrov"]
+[Variation "classical attack"]
+[WhiteFideId "14109530"]
+[BlackFideId "14107090"]
+[EventDate "2016.12.06"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Nc6 7. O-O Be7 8.
+Nbd2 Nxd2 9. Bxd2 Bg4 10. c3 O-O 11. h3 Bh5 12. g3 Qd7 13. Kg2 Bg6 14. Bxg6 fxg6
+15. Bf4 h6 16. Qd3 g5 17. Be5 Rf5 18. Rae1 Raf8 19. Re3 Bd8 20. g4 R5f7 21. Bg3
+Be7 22. Rd1 h5 23. gxh5 Rf5 24. Nh2 Bd6 25. Ng4 Bf4 26. Re2 Qf7 27. h6 Ne7 28.
+Rde1 Ng6 29. Re6 Bd6 30. R1e2 Rf3 31. Qxg6 Rxg3+ 32. Kf1 Rf3 33. Qxg5 Rxh3 34.
+Nf6+ Kh8 35. hxg7+ Qxg7 36. Qxg7+ Kxg7 37. Ne8+ Kf7 38. Nxd6+ cxd6 39. Re7+ Kg6
+40. R2e6+ Kg5 41. Rg7+ Kf4 42. Ke2 Rh1 43. Re3 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.14"]
+[Round "8.5"]
+[White "Oleksiyenko, Mykhaylo"]
+[Black "Kravtsiv, Martyn"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2615"]
+[BlackElo "2645"]
+[ECO "C69"]
+[Opening "Ruy Lopez"]
+[Variation "exchange variation, 5.O-O"]
+[WhiteFideId "4152417"]
+[BlackFideId "14113147"]
+[EventDate "2016.12.06"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bd6 6. d4 exd4 7. Qxd4 f6 8.
+Nbd2 Be6 9. b3 Ne7 10. Nc4 c5 11. Qc3 Nc6 12. Nxd6+ cxd6 13. Bf4 Qe7 14. Rad1
+Rd8 15. Rd2 O-O 16. Rfd1 Ne5 17. h3 Nf7 18. Nh2 Qc7 19. Nf1 Qc6 20. Ng3 Rd7 21.
+Qf3 Ne5 22. Bxe5 dxe5 23. Rxd7 Bxd7 24. Qd3 Be6 25. c4 b5 26. Nf5 bxc4 27. Qxc4
+Re8 28. Qe2 g6 29. Ne3 Qxe4 30. Qxa6 Qa8 31. Qb5 Kf7 32. Nc4 Kg7 33. Nd6 Rf8 34.
+Qxc5 Qxa2 35. b4 Qb3 36. Ra1 Rd8 37. Nf5+ Kh8 38. Qe7 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.14"]
+[Round "8.6"]
+[White "Solovchuk, Alexey"]
+[Black "Efimenko, Zahar"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2409"]
+[BlackElo "2651"]
+[ECO "A15"]
+[Opening "English, 1...Nf6 (Anglo-Indian defense)"]
+[WhiteFideId "14115220"]
+[BlackFideId "14107201"]
+[EventDate "2016.12.06"]
+
+1. c4 Nf6 2. g3 e6 3. Bg2 d5 4. cxd5 exd5 5. Nf3 Be7 6. O-O O-O 7. d4 c6 8. Nc3
+Nbd7 9. Qc2 Re8 10. Rd1 Nb6 11. b3 g6 12. Bf4 Bf5 13. Qb2 Ne4 14. Ne5 Ba3 15.
+Qxa3 Nxc3 16. Qb2 Nxd1 17. Rxd1 Nd7 18. Nd3 Qe7 19. Bf1 Nf8 20. Bc1 Ne6 21. f3
+Bxd3 22. Rxd3 Qf6 23. Qd2 Rad8 24. b4 Ng7 25. g4 Ne6 26. g5 Qe7 27. e4 b6 28. h4
+c5 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.15"]
+[Round "9.1"]
+[White "Efimenko, Zahar"]
+[Black "Korobov, Anton"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2692"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "14107201"]
+[BlackFideId "14105730"]
+[EventDate "2016.12.06"]
+
+1. Nf3 c5 2. c4 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. e4 d6 7. f3 Bg7 8. Be3
+O-O 9. Be2 Nxd4 10. Bxd4 Be6 11. O-O Qa5 12. Rc1 Rfc8 13. b3 a6 14. f4 b5 15. f5
+Bd7 16. Bxf6 Bxf6 17. Nd5 Bg5 18. Rc3 e6 19. Rg3 Bh4 20. Rg4 Bd8 21. fxg6 hxg6
+22. Qd4 Be8 23. b4 Qa3 24. Rg3 Qxg3 25. hxg3 exd5 26. Qxd5 Rab8 27. Qxd6 bxc4
+28. Bxc4 Rb6 29. Qe5 Kf8 30. Bxf7 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.15"]
+[Round "9.2"]
+[White "Kravtsiv, Martyn"]
+[Black "Solovchuk, Alexey"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2645"]
+[BlackElo "2409"]
+[ECO "B92"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Opovcensky variation"]
+[WhiteFideId "14113147"]
+[BlackFideId "14115220"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. Bg5
+Nxe4 9. Nxe4 Bxg5 10. Nxd6+ Ke7 11. Nxc8+ Qxc8 12. Qd5 Bf6 13. Bc4 Rf8 14. O-O-O
+Qc7 15. Nd4 g6 16. Ne6 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.15"]
+[Round "9.3"]
+[White "Volokitin, Andrei"]
+[Black "Oleksiyenko, Mykhaylo"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2649"]
+[BlackElo "2615"]
+[ECO "B33"]
+[Opening "Sicilian"]
+[Variation "Sveshnikov variation"]
+[WhiteFideId "14107090"]
+[BlackFideId "4152417"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3
+b5 9. Bxf6 gxf6 10. Nd5 f5 11. Bd3 Be6 12. c3 Bg7 13. Qh5 O-O 14. exf5 Bxd5 15.
+f6 e4 16. fxg7 Re8 17. Be2 Ne5 18. O-O Qf6 19. Rfd1 Nd3 20. Bxd3 Re5 21. Qh3
+exd3 22. Rxd3 Rae8 23. Nc2 Re2 24. Qg3 Be4 25. Ne1 Bxd3 26. Nxd3 Qg6 27. Rd1
+Qxg3 28. hxg3 Kxg7 29. Kf1 Kf8 30. g4 a5 31. g3 a4 32. a3 Rc2 33. Kg2 Ree2 34.
+Kf3 Red2 35. Rxd2 Rxd2 36. Ke3 Rc2 37. Ke4 h6 38. Ke3 Ke7 39. Ke4 Ke6 40. Ke3
+Kf6 41. Kf4 Kg6 42. Ke3 Kg5 43. f3 d5 44. Ne5 Rxb2 45. Nxf7+ Kf6 46. Nxh6 Rb3
+47. Kd2 d4 48. Nf5 dxc3+ 49. Kc2 Rxa3 50. Ne3 Ra2+ 51. Kd3 Ke6 52. Nc2 Rxc2 53.
+Kxc2 b4 54. g5 Kf5 55. f4 Kg6 56. g4 Kf7 57. f5 Kg7 58. g6 Kf6 59. g5+ Kg7 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.15"]
+[Round "9.4"]
+[White "Bakhmatsky, Vladislav"]
+[Black "Areshchenko, Alexander"]
+[Result "1-0"]
+[BlackTitle "GM"]
+[WhiteElo "2446"]
+[BlackElo "2678"]
+[ECO "B83"]
+[Opening "Sicilian"]
+[Variation "modern Scheveningen, main line"]
+[WhiteFideId "14124890"]
+[BlackFideId "14109530"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 d6 6. Be2 Nf6 7. O-O Be7 8. Be3
+O-O 9. f4 Bd7 10. Ndb5 Qb8 11. a4 b6 12. Bf3 Rd8 13. Qe1 a6 14. Na3 Be8 15. e5
+dxe5 16. fxe5 Nd5 17. Nxd5 exd5 18. Rd1 Nxe5 19. Bxd5 Ra7 20. Bf4 Bd6 21. Be4 f6
+22. Kh1 Re7 23. Qg3 Bc7 24. Nb1 Rxd1 25. Rxd1 Bh5 26. Rf1 g5 27. Nc3 Kh8 28. Nd5
+Rg7 29. Bc1 Ng4 30. Nxc7 Qxc7 31. Qxc7 Rxc7 32. h3 Ne5 33. Rxf6 Rc4 34. Bf5 Kg7
+35. Rxb6 h6 36. b3 Rc5 37. Bb2 Kf7 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.15"]
+[Round "9.5"]
+[White "Shtembuliak, Evgeny"]
+[Black "Kovchan, Alexander"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2478"]
+[BlackElo "2585"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "14113325"]
+[BlackFideId "14103052"]
+[EventDate "2016.12.06"]
+
+1. Nf3 c5 2. c4 Nc6 3. Nc3 g6 4. e3 Nf6 5. d4 cxd4 6. exd4 d5 7. cxd5 Nxd5 8.
+Qb3 e6 9. Bb5 Bg7 10. Bg5 Qb6 11. Qa3 f6 12. Nxd5 exd5 13. Bxc6+ bxc6 14. O-O
+Kf7 15. Rfe1 Bf8 16. Qe3 fxg5 17. Qe8+ Kg7 18. Re7+ Bxe7 19. Qxe7+ Kg8 20. Qe8+
+Kg7 21. Qe5+ Kg8 22. Qe8+ 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.15"]
+[Round "9.6"]
+[White "Moiseenko, Alexander"]
+[Black "Kuzubov, Yuriy"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2657"]
+[BlackElo "2651"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "4.Nf3"]
+[WhiteFideId "14102560"]
+[BlackFideId "14112906"]
+[EventDate "2016.12.06"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. cxd5 exd5 6. Bg5 Be7 7. e3 O-O 8.
+Qc2 Re8 9. Bd3 Nf8 10. O-O Bg4 11. Ne5 Be6 12. Qb3 Qc8 13. f4 c5 14. Qd1 Ng4 15.
+Bxe7 Rxe7 16. Qf3 cxd4 17. exd4 Nxe5 18. dxe5 d4 19. Nb5 Qc5 20. Nd6 Bd5 21. Qg3
+Rd7 22. f5 Rad8 23. f6 g6 24. Qh4 Ne6 25. Qh6 Bc6 26. Rae1 Kh8 27. Rf4 Qa5 28.
+Re2 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.16"]
+[Round "10.1"]
+[White "Korobov, Anton"]
+[Black "Kuzubov, Yuriy"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2692"]
+[BlackElo "2651"]
+[ECO "D51"]
+[Opening "QGD"]
+[WhiteFideId "14105730"]
+[BlackFideId "14112906"]
+[EventDate "2016.12.06"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 h6 7. Bf4 O-O 8. c5
+Nh5 9. Bd3 Nxf4 10. exf4 c6 11. O-O b6 12. b4 a5 13. a3 Qc7 14. g3 Ba6 15. Bxa6
+Rxa6 16. Qe2 Rfa8 17. b5 cxb5 18. c6 Qxc6 19. Nxb5 Rc8 20. Nd6 Rca8 21. Nb5 Rc8
+22. Nd6 Rca8 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.16"]
+[Round "10.2"]
+[White "Kovchan, Alexander"]
+[Black "Moiseenko, Alexander"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2585"]
+[BlackElo "2657"]
+[ECO "A21"]
+[Opening "English, Kramnik-Shirov counterattack"]
+[WhiteFideId "14103052"]
+[BlackFideId "14102560"]
+[EventDate "2016.12.06"]
+
+1. c4 e5 2. Nc3 Bb4 3. Nd5 a5 4. g3 Nf6 5. Nxb4 axb4 6. Bg2 O-O 7. d3 c5 8. Nf3
+Nc6 9. O-O d6 10. h3 h6 11. b3 Be6 12. Bb2 Qc7 13. e3 Ra6 14. d4 Bf5 15. Nh4 Bh7
+16. d5 Ne7 17. f4 Rfa8 18. g4 Nd7 19. Qf3 f6 20. g5 hxg5 21. fxg5 Rxa2 22. Qg3
+Rxa1 23. Bxa1 fxg5 24. Qxg5 Qd8 25. Qg4 Nf8 26. Bb2 Qe8 27. e4 Bg6 28. Bc1 Bh5
+29. Qg3 Kh8 30. Bg5 Nh7 31. Kh1 Qd7 32. Bxe7 Qxe7 33. Bf3 Bxf3+ 34. Rxf3 Qg5 35.
+Nf5 Ra1+ 36. Kh2 Ra2+ 37. Rf2 Qxg3+ 38. Kxg3 Ra6 39. Kh4 Nf6 40. Rg2 Ra3 41.
+Rxg7 Rxb3 42. Rxb7 Nxe4 43. Kh5 Rb1 44. Nh4 Kg8 45. Ng6 Ng3+ 46. Kh6 Nf5+ 47.
+Kg5 Rf1 48. h4 e4 49. h5 e3 50. h6 Nxh6 51. Kxh6 Rh1+ 52. Kg5 e2 53. Rb8+ Kf7
+54. Rb7+ Kg8 55. Rb8+ Kf7 56. Rb7+ Kg8 57. Rb8+ 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.16"]
+[Round "10.3"]
+[White "Areshchenko, Alexander"]
+[Black "Shtembuliak, Evgeny"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2678"]
+[BlackElo "2478"]
+[ECO "C10"]
+[Opening "French"]
+[Variation "Paulsen variation"]
+[WhiteFideId "14109530"]
+[BlackFideId "14113325"]
+[EventDate "2016.12.06"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nc6 4. Nf3 Nf6 5. e5 Ne4 6. Bd3 Bb4 7. Bd2 Nxd2 8. Qxd2
+f6 9. a3 Bxc3 10. Qxc3 fxe5 11. dxe5 Bd7 12. b4 O-O 13. b5 Ne7 14. Rb1 h6 15.
+O-O Rc8 16. Qd4 c5 17. bxc6 Nxc6 18. Qg4 b6 19. Rfe1 Qe8 20. Nh4 Ne7 21. f4 Qf7
+22. Rf1 Nf5 23. Rbe1 Rc3 24. Nxf5 exf5 25. Qe2 Be6 26. a4 Ra3 27. Ra1 Qe7 28. h3
+Qb4 29. Rxa3 Qxa3 30. Bb5 Rc8 31. Kh2 Qb4 32. Qh5 Qe7 33. Bd3 Qf7 34. Qh4 Qd7
+35. Ra1 d4 36. a5 b5 37. Rd1 a6 38. Qf2 Rd8 39. Be2 Qd5 40. c3 Qa2 41. cxd4 Rc8
+42. d5 Bxd5 43. Qd4 Be4 44. Qd7 Qxe2 45. Qxc8+ Kh7 46. Rg1 Qf2 47. Qc1 b4 48. e6
+h5 49. e7 h4 50. Qe1 Qxf4+ 51. Kh1 Qb8 52. Qxh4+ Kg6 53. Rd1 Qb5 54. e8=Q+ Qxe8
+55. Rd6+ Kf7 56. Qh5+ Kf8 57. Qxe8+ Kxe8 58. Rxa6 b3 59. Rb6 Bd5 60. a6 Kd7 61.
+a7 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.16"]
+[Round "10.4"]
+[White "Oleksiyenko, Mykhaylo"]
+[Black "Bakhmatsky, Vladislav"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2615"]
+[BlackElo "2446"]
+[ECO "B92"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Opovcensky variation"]
+[WhiteFideId "4152417"]
+[BlackFideId "14124890"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. Bg5
+Be6 9. Bxf6 Bxf6 10. Qd3 Nc6 11. O-O-O Qb6 12. Nd5 Bxd5 13. exd5 Nd4 14. Nxd4
+exd4 15. Qe4+ Kd8 16. Bd3 Kc7 17. Rde1 h5 18. g3 Qa5 19. Kb1 Qa4 20. Qf4 Rae8
+21. c4 Rxe1+ 22. Rxe1 Re8 23. Rxe8 Qxe8 24. c5 Qe5 25. Qxe5 Bxe5 26. b4 a5 27.
+bxa5 dxc5 28. f4 Bf6 29. Kc2 Kd6 30. a6 bxa6 31. Bxa6 h4 32. Kd3 hxg3 33. hxg3
+g5 34. fxg5 Bxg5 35. Ke4 Bd8 36. g4 f6 37. Bc4 Ba5 38. a4 Bc7 39. Kd3 Ba5 40.
+Bb3 Bb4 41. Kc4 Be1 42. Bc2 Bd2 43. Be4 Bc3 44. Kb5 d3 45. Bxd3 Kxd5 46. a5 Kd6
+47. a6 Kd5 1-0
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.16"]
+[Round "10.5"]
+[White "Solovchuk, Alexey"]
+[Black "Volokitin, Andrei"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2409"]
+[BlackElo "2649"]
+[ECO "E62"]
+[Opening "King's Indian"]
+[Variation "fianchetto, Larsen system"]
+[WhiteFideId "14115220"]
+[BlackFideId "14107090"]
+[EventDate "2016.12.06"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. c4 c6 7. Nc3 Bf5 8. Ne1
+Be6 9. d5 cxd5 10. cxd5 Bd7 11. h3 a5 12. Nd3 a4 13. a3 Qa5 14. Be3 Rc8 15. Rc1
+Na6 16. Qd2 Bf5 17. Bg5 Bxd3 18. Qxd3 Nc5 19. Qe3 Rc7 20. Rcd1 Qb6 21. Rd2 Nfd7
+22. h4 Nb3 23. Rd3 Nbc5 24. Rd2 Ne5 25. Rc2 h6 26. Bf4 Nc4 27. Qc1 Nb3 28. Qb1
+Nd4 0-1
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.16"]
+[Round "10.6"]
+[White "Efimenko, Zahar"]
+[Black "Kravtsiv, Martyn"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2645"]
+[ECO "A14"]
+[Opening "English"]
+[Variation "Neo-Catalan declined"]
+[WhiteFideId "14107201"]
+[BlackFideId "14113147"]
+[EventDate "2016.12.06"]
+
+1. Nf3 Nf6 2. g3 e6 3. Bg2 d5 4. O-O Be7 5. c4 O-O 6. b3 d4 7. e3 c5 8. exd4
+cxd4 9. d3 Nc6 10. Re1 Bb4 11. Bd2 Bd6 12. a3 a5 13. Bg5 h6 14. Bxf6 Qxf6 15.
+Nbd2 Qe7 16. Qc1 e5 17. Ne4 Bc7 18. c5 Be6 19. Rb1 Na7 20. b4 axb4 21. axb4 Nb5
+22. Ra1 Bd5 23. Nfd2 Rxa1 24. Qxa1 Qe6 25. Qa4 Bc6 26. Qb3 Qxb3 27. Nxb3 Ra8 28.
+Ra1 Rxa1+ 29. Nxa1 f5 30. Nd2 Kf7 31. Nc2 Ke6 32. h3 Nc3 33. Bxc6 bxc6 34. f4
+Ne2+ 35. Kf2 Nc1 36. fxe5 Bxe5 37. Ne1 h5 38. Ndf3 Bf6 39. Kf1 g5 40. Ng1 Be5
+41. Ngf3 Bf6 42. Ng1 Na2 43. Nc2 Kd5 44. Ne2 Nc3 45. Nc1 Be5 46. Kg2 g4 47. Ne1
+Nd1 48. hxg4 Ne3+ 49. Kf2 fxg4 50. Ne2 Ke6 51. Ng2 Nc2 52. Ngf4+ Kf5 53. Nxh5
+Nxb4 54. Nhf4 Na6 55. Ke1 Nxc5 56. Kd2 Nb7 57. Ng2 Nd6 58. Ke1 Kf6 59. Kf2 Nf5
+60. Ne1 Ke6 61. Nc2 Kd5 62. Na1 Kc5 63. Nb3+ Kd5 64. Nd2 Nd6 65. Nc1 c5 66. Ncb3
+c4 67. dxc4+ Nxc4 68. Nf1 Bd6 69. Ke2 Ne5 70. Nc1 Ke4 71. Nd2+ Kd5 72. Nf1 Kc4
+73. Nd2+ Kc3 74. Kd1 Be7 75. Ne2+ Kd3 76. Nf4+ Ke3 77. Nd5+ Kf2 78. Nxe7 Kxg3
+79. Nf5+ Kf4 80. Nxd4 g3 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.17"]
+[Round "11.1"]
+[White "Kravtsiv, Martyn"]
+[Black "Korobov, Anton"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2645"]
+[BlackElo "2692"]
+[ECO "B32"]
+[Opening "Sicilian defence"]
+[WhiteFideId "14113147"]
+[BlackFideId "14105730"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qb6 5. Nb3 Nf6 6. Nc3 e6 7. Be3 Qc7 8. f4
+d6 9. Qf3 a6 10. O-O-O b5 11. g4 Bb7 12. g5 Nd7 13. Kb1 g6 14. Bf2 Rc8 15. a3
+Nc5 16. Bxb5 axb5 17. Nxb5 Qb8 18. Nxd6+ Bxd6 19. Nxc5 Rd8 20. Nxb7 Qxb7 21. Rd3
+O-O 22. h4 Na5 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.17"]
+[Round "11.2"]
+[White "Volokitin, Andrei"]
+[Black "Efimenko, Zahar"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2649"]
+[BlackElo "2651"]
+[ECO "C78"]
+[Opening "Ruy Lopez"]
+[Variation "Archangelsk (counterthrust) variation"]
+[WhiteFideId "14107090"]
+[BlackFideId "14107201"]
+[EventDate "2016.12.06"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bb7 7. Re1 Bc5 8. c3
+d6 9. d4 Bb6 10. Be3 O-O 11. Nbd2 exd4 12. cxd4 Nb4 13. Qb1 c5 14. a3 Nc6 15. d5
+Ne7 16. h3 Ng6 17. Bc2 Re8 18. b4 c4 19. Qb2 Bc8 20. a4 Bxe3 21. Rxe3 Bd7 22.
+Rea3 Rc8 23. axb5 axb5 24. Qd4 Nh5 25. Nf1 Nhf4 26. Ng3 Nh4 27. Nxh4 Qxh4 28.
+Kf1 h5 29. Rf3 Ra8 30. Ra7 Rxa7 31. Qxa7 Bxh3 32. gxh3 Qxh3+ 33. Ke1 Qg4 34. Qa3
+h4 35. Nf1 Nd3+ 36. Rxd3 cxd3 37. Qxd3 Ra8 38. Ne3 Qg1+ 39. Qf1 Qg5 40. Qh3 g6
+41. Bd3 Ra1+ 42. Ke2 Kg7 43. Bxb5 Ra2+ 44. Kf1 Ra1+ 45. Ke2 Ra2+ 46. Kf1 Ra1+ 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.17"]
+[Round "11.3"]
+[White "Bakhmatsky, Vladislav"]
+[Black "Solovchuk, Alexey"]
+[Result "1/2-1/2"]
+[WhiteElo "2446"]
+[BlackElo "2409"]
+[ECO "B92"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Opovcensky variation"]
+[WhiteFideId "14124890"]
+[BlackFideId "14115220"]
+[EventDate "2016.12.06"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Nbd7 8. a4
+b6 9. f4 Bb7 10. Bf3 Qc7 11. Be3 Be7 12. f5 Rc8 13. Qd3 Qb8 14. O-O-O O-O 15.
+Rhe1 Qa8 16. Bd2 b5 17. axb5 axb5 18. Nb1 Nc5 19. Nxc5 dxc5 20. g4 Rfd8 21. Qxb5
+Nxe4 22. Be3 Rd4 23. Qf1 Ra4 24. Rd7 Bh4 25. Red1 Bc6 26. Qh3 Bf6 27. g5 Bxd7
+28. gxf6 Rc7 29. Rg1 g6 30. Qh6 Qf8 31. Qxf8+ Kxf8 32. b3 Rb4 33. c3 Rxb3 34.
+Bxe4 Bxf5 35. Bxf5 gxf5 36. Rd1 Ke8 37. Rd5 Rcb7 38. Rxe5+ Kd8 39. Nd2 Rxc3+ 40.
+Kd1 c4 41. Ke2 Rc2 42. Kd1 Rc3 43. Ke2 Rd7 44. Rc5 Rc2 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.17"]
+[Round "11.4"]
+[White "Shtembuliak, Evgeny"]
+[Black "Oleksiyenko, Mykhaylo"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2478"]
+[BlackElo "2615"]
+[ECO "A88"]
+[Opening "Dutch"]
+[Variation "Leningrad, main variation with c6"]
+[WhiteFideId "14113325"]
+[BlackFideId "4152417"]
+[EventDate "2016.12.06"]
+
+1. Nf3 f5 2. d4 Nf6 3. g3 g6 4. Bg2 Bg7 5. O-O O-O 6. c4 d6 7. Nc3 c6 8. b3 Na6
+9. Bb2 Qc7 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.17"]
+[Round "11.5"]
+[White "Moiseenko, Alexander"]
+[Black "Areshchenko, Alexander"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2657"]
+[BlackElo "2678"]
+[ECO "D82"]
+[Opening "Gruenfeld"]
+[Variation "4.Bf4"]
+[WhiteFideId "14102560"]
+[BlackFideId "14109530"]
+[EventDate "2016.12.06"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 c5 6. dxc5 Qa5 7. Rc1 dxc4 8. Bxc4
+O-O 9. Nf3 Qxc5 10. Bb3 Nc6 11. O-O Qa5 12. h3 Bf5 13. Qe2 Ne4 14. Nd5 e5 15.
+Bh2 Be6 16. Rfd1 Rfd8 17. Qc4 Nf6 18. e4 Rac8 19. Ng5 Nd4 20. Ne7+ Kf8 21. Nxe6+
+Kxe7 22. Nxd8 Rxc4 23. Bxc4 Nxe4 24. Nxf7 Qb6 25. Nxe5 Bxe5 26. Bxe5 Nf3+ 27.
+gxf3 Qxf2+ 1/2-1/2
+
+[Event "85th ch-UKR 2016"]
+[Site "Rivne UKR"]
+[Date "2016.12.17"]
+[Round "11.6"]
+[White "Kuzubov, Yuriy"]
+[Black "Kovchan, Alexander"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2585"]
+[ECO "E60"]
+[Opening "King's Indian, 3.Nf3"]
+[WhiteFideId "14112906"]
+[BlackFideId "14103052"]
+[EventDate "2016.12.06"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. e3 c5 5. d5 d6 6. Nc3 O-O 7. Be2 Na6 8. O-O Nc7
+9. e4 Bg4 10. Bf4 Nd7 11. Re1 a6 12. a4 Rb8 13. a5 b5 14. axb6 Rxb6 15. Qc2 Bxf3
+16. Bxf3 Ne5 17. Be2 e6 18. b3 f5 19. exf5 exf5 20. Rab1 Qh4 21. g3 Qf6 22. Na4
+Rbb8 23. Qc1 Rbe8 24. Kg2 a5 25. Qd2 Na6 26. Bg5 Qf7 27. Nc3 Qd7 28. Nb5 Nb4 29.
+h4 Nf7 30. Be3 Re7 31. Bf1 Rfe8 32. Bf4 Bf6 33. Kg1 Kg7 34. Rxe7 Qxe7 35. Qe3
+Qd8 36. Qd2 Qe7 37. Qe3 Qd8 38. Qf3 Ne5 39. Qd1 Nf7 40. Bd2 Ne5 41. Bc3 h5 42.
+Ra1 f4 43. gxf4 Ng4 44. Qf3 Bxc3 45. Qxc3+ Kh7 46. Qg3 Nc2 47. Rc1 Nce3 48. Bd3
+Qf6 49. Nc7 Re7 50. Ne6 Nf5 51. Bxf5 Qxf5 52. Re1 Kg8 53. Qc3 Nf6 54. Re3 Ra7
+55. Kg2 Ng4 56. Re1 Nf6 57. Re3 Ng4 58. Rg3 Qe4+ 59. Rf3 Qf5 60. Qe1 a4 61. bxa4
+Rxa4 62. Ng5 Ra7 63. Qe8+ Kg7 64. Qb8 Rd7 65. Ne6+ Kh6 66. Qh8+ Rh7 67. Qd8 Qf6
+68. Qxd6 Re7 69. f5 gxf5 70. Qf4+ Kg6 71. Rb3 Qxh4 72. Rb6 Qf6 73. Nf8+ 1-0
+

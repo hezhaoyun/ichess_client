@@ -1,0 +1,577 @@
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "1"]
+[White "Sebag,M"]
+[Black "Radjabov,T"]
+[Result "0-1"]
+[WhiteElo "2471"]
+[BlackElo "2729"]
+[EventDate "2006.10.27"]
+[ECO "B52"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nc6 6. c3 Nf6 7. Re1 e6
+8. d4 cxd4 9. cxd4 d5 10. e5 Ng8 11. Nc3 Nge7 12. Ne2 Nf5 13. Nf4 h5 14. h4
+Be7 15. g3 O-O-O 16. a3 Kb8 17. b4 Rdg8 18. Ne2 Qd8 19. Bf4 Ka8 20. Rc1 Qb6
+21. Qa4 a6 22. Rb1 Na7 23. Qb3 Rc8 24. Rbc1 Nc6 25. Qd3 f6 26. Rb1 g5 27.
+b5 axb5 28. hxg5 fxg5 29. Nxg5 Na7 30. a4 b4 31. a5 Qc6 32. Rbc1 Qd7 33. a6
+b5 34. Nf3 Rc4 35. Bd2 Nc6 36. a7 Rg8 37. Kg2 Bd8 38. Rh1 h4 39. Bf4 Na5
+40. Ra1 Qh7 41. Nd2 Qg6 42. Qb1 hxg3 43. fxg3 Qg4 44. Qd1 Rc8 45. Nf3 Nc4
+46. Qg1 Bb6 47. Rh7 b3 48. Qh2 b2 49. Rb1 Qg6 50. Kf2 Nxd4 51. Nfxd4 Qxb1
+0-1
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "1"]
+[White "Karjakin,Sergey"]
+[Black "Stefanova,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2672"]
+[BlackElo "2489"]
+[EventDate "2006.10.27"]
+[ECO "C78"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 b5 7. Bb3 d6 8.
+a4 Bg4 9. h3 Bxf3 10. Qxf3 Na5 11. Bc2 b4 12. Qd1 O-O 13. d4 exd4 14. cxd4
+Bb6 15. Be3 Nc4 16. Nd2 Nxe3 17. fxe3 d5 18. e5 Nd7 19. a5 Ba7 20. Rf4 g6
+21. Qf3 Qe7 22. Kh1 Rad8 23. Bb3 c6 24. Rf1 Kg7 25. Qe2 f6 26. Qxa6 fxe5
+27. Rxf8 Nxf8 28. Qxc6 exd4 29. exd4 Rd6 30. Qb5 Bxd4 31. Qxb4 Bf6 32. Nf3
+Ne6 33. Re1 Qc7 34. Bxd5 Rxd5 35. Rxe6 Rxa5 36. Re1 Ra2 37. Nd4 Qg3 38.
+Ne6+ Kh6 39. Rf1 Be5 40. Qf8+ Kh5 1/2-1/2
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "1"]
+[White "Fressinet,L"]
+[Black "Negi,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2640"]
+[BlackElo "2538"]
+[EventDate "2006.10.27"]
+[ECO "D85"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Bg7 6. e4 Nb6 7. Be3 O-O
+8. Bb5 a6 9. Be2 f5 10. exf5 Bxf5 11. Qb3+ Kh8 12. Nf3 Nc6 13. d5 Ne5 14.
+Nxe5 Bxe5 15. g4 Bd7 16. h4 e6 17. h5 g5 18. d6 Nd5 19. Nxd5 exd5 20. O-O-O
+cxd6 21. Kb1 Be6 22. Qd3 Qf6 23. Rh3 Bxb2 24. Rf3 Qe5 25. Bxg5 Rxf3 26.
+Bxf3 Qxg5 27. Kxb2 Rf8 28. Qd4+ Qe5 29. Qxe5+ dxe5 30. Bxd5 Bxg4 31. Re1
+Rxf2+ 32. Ka3 Be2 33. Bxb7 Kg7 34. Kb4 Kf6 35. Ka5 Bc4 36. a4 Rf5 37. Bxa6
+Bxa6 38. Kxa6 Rxh5 39. a5 Rh2 40. Rb1 Ra2 41. Kb6 h5 42. a6 h4 43. a7 Kf5
+44. Rb5 Rxa7 45. Kxa7 h3 46. Kb6 h2 47. Rb1 Kf4 48. Rh1 Kg3 1/2-1/2
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "1"]
+[White "Kosteniuk,A"]
+[Black "Harikrishna,P"]
+[Result "0-1"]
+[WhiteElo "2534"]
+[BlackElo "2674"]
+[EventDate "2006.10.27"]
+[ECO "C95"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8.
+c3 d6 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3 g6
+15. b3 c6 16. Rb1 Qc7 17. c4 exd4 18. Qxd4 Bg7 19. Qd2 d5 20. Bb2 dxe4 21.
+Nxe4 Nxe4 22. Bxe4 Nf6 23. Bd3 Rad8 24. Rxe8+ Nxe8 25. Bxg7 Nxg7 26. Qe3
+Ne6 27. Ne5 Qd6 28. Rd1 c5 29. b4 bxc4 30. Be2 Nd4 31. Bxc4 Nf3+ 32. gxf3
+Qxd1+ 33. Kg2 Bd5 34. Be2 Qd4 35. bxc5 Qxe3 36. fxe3 Rc8 37. Nd7 Be6 38.
+Nf6+ Kg7 39. Ne4 f5 40. Nf2 a5 41. e4 Bxa2 42. exf5 gxf5 43. Nd3 Bc4 0-1
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "2"]
+[White "Radjabov,T"]
+[Black "Harikrishna,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2674"]
+[EventDate "2006.10.27"]
+[ECO "C68"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. h3 Bxf3 7. Qxf3
+Qd7 8. d3 f6 9. Nd2 Bd6 10. Nc4 Ne7 11. Qh5+ Ng6 12. Nxd6+ cxd6 13. f4 exf4
+14. Bxf4 O-O 15. Bg3 d5 16. exd5 Qxd5 17. Qxd5+ cxd5 18. c4 dxc4 19. dxc4
+Rfc8 20. Rac1 Rc6 21. b3 Rac8 22. Rcd1 b5 23. cxb5 axb5 24. Rd5 Rc2 25. Rf2
+Rxf2 26. Kxf2 Rc2+ 27. Kf3 Rc3+ 28. Kf2 Rc2+ 29. Kf3 1/2-1/2
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "2"]
+[White "Negi,P"]
+[Black "Kosteniuk,A"]
+[Result "1-0"]
+[WhiteElo "2538"]
+[BlackElo "2534"]
+[EventDate "2006.10.27"]
+[ECO "C89"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8.
+c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d4 Bd6 13. Re1 Qh4 14. g3
+Qh3 15. Re4 g5 16. Qf1 Qh5 17. Nd2 f5 18. Bd1 Qh6 19. Re1 f4 20. Ne4 Bc7
+21. f3 Bh3 22. Qf2 g4 23. fxg4 Qg6 24. Qc2 Rae8 25. Bd2 Ne3 26. Bxe3 fxe3
+27. Nc5 Qh6 28. Ne4 Qg6 29. Nc5 Qg5 30. Qd3 Rf2 31. Bc2 Re7 32. Ne4 Rg2+
+33. Kh1 Qg6 34. Rxe3 Kg7 35. Rae1 Rf7 36. Ng5 Rxc2 37. Qxg6+ hxg6 38. Nxf7
+Kxf7 39. Re7+ Kf6 40. Rxc7 Bg2+ 41. Kg1 Bd5 42. h4 Rg2+ 43. Kf1 Rxg3 44.
+g5+ Kf5 45. Kf2 Rg2+ 46. Ke3 Rxb2 47. Rg1 1-0
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "2"]
+[White "Stefanova,A"]
+[Black "Fressinet,L"]
+[Result "0-1"]
+[WhiteElo "2489"]
+[BlackElo "2640"]
+[EventDate "2006.10.27"]
+[ECO "D00"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. dxc5 Nc6 5. Bb5 g6 6. c4 Bg7 7. Nc3 O-O 8.
+Nf3 Qa5 9. O-O dxc4 10. Ne5 Nxe5 11. Bxe5 Be6 12. Qe2 Rac8 13. Bd4 Ne4 14.
+Nxe4 Qxb5 15. b3 Qc6 16. Ng5 cxb3 17. axb3 Bxd4 18. exd4 Bxb3 19. Rxa7 Bd5
+20. Nf3 Rfd8 21. Ne5 Qe6 22. Qe3 Ra8 23. Rxa8 Rxa8 24. Nd3 Ra3 25. Qxe6
+Bxe6 26. Nf4 Bc4 27. Rc1 Ra4 28. f3 g5 29. Nh3 f6 30. f4 h6 31. g3 Be6 32.
+Nf2 Rxd4 33. fxg5 hxg5 34. c6 bxc6 35. Rxc6 Kf7 36. Rc2 Bd5 37. Rb2 e5 38.
+Kf1 Bf3 39. Ke1 e4 40. Rb3 f5 41. Nh3 Kg6 42. Ng1 Rd1+ 43. Kf2 g4 44. Rb6+
+Kh5 45. Nxf3 gxf3 46. h3 Rd3 47. Rb2 Kg5 48. Ra2 Rb3 49. Rc2 Rb1 50. Rc5
+Rb2+ 51. Ke3 Re2+ 52. Kd4 f2 0-1
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "2"]
+[White "Sebag,M"]
+[Black "Karjakin,Sergey"]
+[Result "0-1"]
+[WhiteElo "2471"]
+[BlackElo "2672"]
+[EventDate "2006.10.27"]
+[ECO "B22"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Nf3 Nc6 6. cxd4 d6 7. Bc4 Nb6 8.
+Bb5 dxe5 9. Nxe5 Bd7 10. Nxd7 Qxd7 11. Nc3 e6 12. O-O Rd8 13. a4 a6 14.
+Bxc6 Qxc6 15. Bg5 f6 16. Be3 Be7 17. Qh5+ g6 18. Qh6 Kf7 19. Rfc1 Nd5 20.
+Nxd5 Qxd5 21. Rc7 Rd7 22. Rac1 Rxc7 23. Rxc7 Qa5 24. Rxe7+ Kxe7 25. Qg7+
+Kd6 26. Bf4+ Kd5 27. Qxb7+ Kc4 28. b3+ Kc3 29. Qc6+ Kb2 30. Qxe6 Qf5 31.
+Qxf5 gxf5 32. d5 Rd8 33. d6 Kxb3 34. a5 Ka4 0-1
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "3"]
+[White "Harikrishna,P"]
+[Black "Negi,P"]
+[Result "1-0"]
+[WhiteElo "2674"]
+[BlackElo "2538"]
+[EventDate "2006.10.27"]
+[ECO "D03"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 d5 5. e3 c5 6. c3 Nbd7 7. Be2 O-O 8.
+O-O b6 9. Bh4 Bb7 10. a4 Re8 11. b4 c4 12. b5 a6 13. h3 Nf8 14. Ne5 N6d7
+15. Nc6 Bxc6 16. bxc6 Nb8 17. e4 Nxc6 18. exd5 Qxd5 19. Bf3 Qd7 20. Nxc4
+Rab8 21. Bg3 e5 22. Bxc6 Qxc6 23. Nxe5 Qxc3 24. Rc1 Qb2 25. Nc4 Qxd4 26.
+Bxb8 Rxb8 27. Qxd4 Bxd4 28. Nd6 Rd8 29. Rc6 Ne6 30. Rc8 Rxc8 31. Nxc8 b5
+32. axb5 axb5 33. Rb1 Nc7 34. Nd6 Kg7 35. Nxb5 Nxb5 36. Rxb5 h5 37. Kf1 Bf6
+38. g4 hxg4 39. hxg4 g5 40. Ke2 Be7 41. Kd3 Kg6 42. Ke4 f6 43. Kd5 Bd8 44.
+Ke6 Bc7 45. f3 Bf4 46. Rf5 Bd2 47. Rxf6+ 1-0
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "3"]
+[White "Kosteniuk,A"]
+[Black "Stefanova,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2534"]
+[BlackElo "2489"]
+[EventDate "2006.10.27"]
+[ECO "C77"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 b5 6. Bb3 Bc5 7. c3 d6 8.
+d3 O-O 9. Bg5 Be6 10. Nbd2 Bb6 11. Nf1 h6 12. Bh4 g5 13. Bg3 Nh5 14. Ne3
+Nf4 15. Bxf4 exf4 16. Nd5 Ba7 17. d4 Na5 18. Nb4 c5 19. Bxe6 fxe6 20. Nc2
+g4 21. Nd2 Qh4 22. O-O-O cxd4 23. Nxd4 Bxd4 24. cxd4 Rac8+ 25. Kb1 Nc4 26.
+Nxc4 Rxc4 27. f3 h5 28. Rhg1 g3 29. hxg3 Qxg3 30. Rh1 Rfc8 31. Qd3 Rc2 32.
+e5 Qxg2 33. Rhg1 Rxb2+ 34. Ka1 Rxa2+ 35. Kb1 Rb2+ 36. Ka1 Ra2+ 37. Kb1
+1/2-1/2
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "3"]
+[White "Fressinet,L"]
+[Black "Sebag,M"]
+[Result "1-0"]
+[WhiteElo "2640"]
+[BlackElo "2471"]
+[EventDate "2006.10.27"]
+[ECO "D46"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 e6 5. Bd3 Nbd7 6. Nc3 dxc4 7. Bxc4 b5 8.
+Bd3 Bd6 9. O-O O-O 10. Qc2 Bb7 11. a3 h6 12. h3 a5 13. e4 e5 14. dxe5 Nxe5
+15. Nxe5 Bxe5 16. Be3 Re8 17. Rad1 Qe7 18. Ne2 Rad8 19. f4 Bd6 20. Ng3 Nd5
+21. Bc1 Bc5+ 22. Kh1 Ne3 23. Bxe3 Bxe3 24. Nf5 Qc5 25. Qe2 Bd4 26. e5 Bc8
+27. Ng3 Qe7 28. Bf5 Qh4 29. Kh2 Bb7 30. Bh7+ Kxh7 31. Nf5 Qxf4+ 32. Rxf4
+Bxe5 33. Qxe5 1-0
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.27"]
+[Round "3"]
+[White "Karjakin,Sergey"]
+[Black "Radjabov,T"]
+[Result "1-0"]
+[WhiteElo "2672"]
+[BlackElo "2729"]
+[EventDate "2006.10.27"]
+[ECO "C78"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bc5 7. c3 d6 8.
+a4 Rb8 9. d4 Bb6 10. axb5 axb5 11. Na3 O-O 12. Nxb5 Bg4 13. d5 Ne7 14. Bc2
+Qd7 15. c4 Ng6 16. h3 Bxh3 17. gxh3 Qxh3 18. Ng5 Qg3+ 19. Kh1 Qh4+ 20. Kg2
+h6 21. Nh3 Nxe4 22. Qe2 f5 23. Ra3 Rf6 24. Rh1 Rbf8 25. b4 Ne7 26. Rf3 Rg6+
+27. Kf1 Rg4 28. Rg1 Rf6 29. Be3 Rfg6 30. Rh1 Bxe3 31. Rxe3 Ng5 32. Ke1 f4
+33. Ra3 Rf6 34. Ra8+ Kf7 35. Nxg5+ Qxg5 36. Nxc7 f3 37. Ne6 Qc1+ 38. Qd1
+Qxd1+ 39. Kxd1 Rxe6 40. dxe6+ Kxe6 41. b5 Rd4+ 42. Ke1 d5 43. b6 Rxc4 44.
+b7 Nc6 45. Ra6 1-0
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.28"]
+[Round "4"]
+[White "Radjabov,T"]
+[Black "Negi,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2538"]
+[EventDate "2006.10.27"]
+[ECO "D87"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 c5 7. Bc4 Bg7
+8. Ne2 O-O 9. O-O Nc6 10. Be3 Bg4 11. f3 Na5 12. Bxf7+ Rxf7 13. fxg4 Rxf1+
+14. Kxf1 Qd6 15. Kg1 Qe6 16. Qd3 Qc4 17. Rd1 cxd4 18. Qxc4+ Nxc4 19. Bxd4
+Rd8 20. Rb1 e5 21. Bf2 Rd2 22. Ng3 Rxa2 23. Rd1 Kf7 24. Rd7+ Ke6 25. Rxg7
+Ra1+ 26. Nf1 Nd2 27. g3 Rxf1+ 28. Kg2 Rb1 29. Bxa7 Nxe4 30. h4 Rb3 31. h5
+Rxc3 32. Rxh7 Rxg3+ 33. Kf1 Rxg4 34. hxg6 Rxg6 35. Rxb7 Kf5 36. Bb8 Nf6 37.
+Bxe5 Kxe5 38. Ke2 Nd5 39. Rb8 Kd4 40. Re8 Ra6 41. Kf3 Ra3+ 42. Kf2 Nf6 43.
+Rd8+ Ke4 44. Ke2 Ra2+ 45. Rd2 Ra8 46. Rd6 Ke5 47. Rb6 Ne4 48. Rb7 Nc5 49.
+Re7+ Kd4 50. Kf3 Rf8+ 51. Ke2 Rd8 52. Kf3 Nd3 53. Re4+ Kd5 54. Ke3 Kc5 55.
+Re7 Nb4 56. Rc7+ Kd6 57. Rh7 Re8+ 58. Kf3 Nd5 59. Rh1 Rf8+ 60. Ke4 Rf4+ 61.
+Kd3 Rf8 1/2-1/2
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.28"]
+[Round "4"]
+[White "Stefanova,A"]
+[Black "Harikrishna,P"]
+[Result "1-0"]
+[WhiteElo "2489"]
+[BlackElo "2674"]
+[EventDate "2006.10.27"]
+[ECO "D02"]
+
+1. d4 d5 2. Bf4 c6 3. e3 Bf5 4. Bd3 Bxd3 5. Qxd3 Nf6 6. Nf3 e6 7. O-O Bd6
+8. Bxd6 Qxd6 9. c4 O-O 10. Nc3 Nbd7 11. Rad1 Rfe8 12. e4 dxe4 13. Nxe4 Nxe4
+14. Qxe4 Nf6 15. Qc2 Rad8 16. Rfe1 h6 17. Ne5 c5 18. dxc5 Qxc5 19. h3 Rxd1
+20. Qxd1 Qa5 21. a3 Rd8 22. Qc1 Rd4 23. c5 Qb5 24. b4 Nd5 25. Qb2 Rf4 26.
+g3 Rf5 27. Qc2 Ne7 28. Qe4 Nc6 29. Nc4 Qa4 30. Rb1 Rd5 31. Nd6 Qxa3 32.
+Nxb7 a6 33. Nd6 Qc3 34. Kg2 Qd4 35. Qxd4 Rxd4 36. b5 axb5 37. Rxb5 Rd5 38.
+Ne4 Rd4 39. Rb6 Ne5 40. Nd6 Nd7 41. Rc6 Nxc5 42. Rc8+ Kh7 43. Nxf7 Nd3 44.
+h4 Rd7 45. Nd8 e5 46. Ne6 Rf7 47. Nf8+ Rxf8 48. Rxf8 Kg6 49. Kf3 Nc5 50.
+Rc8 Nb7 51. Rc6+ 1-0
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.28"]
+[Round "4"]
+[White "Sebag,M"]
+[Black "Kosteniuk,A"]
+[Result "1-0"]
+[WhiteElo "2471"]
+[BlackElo "2534"]
+[EventDate "2006.10.27"]
+[ECO "C88"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8.
+a4 Bb7 9. d3 d6 10. Nbd2 Qd7 11. Nf1 Nd8 12. axb5 axb5 13. Rxa8 Bxa8 14.
+Ng3 Ne6 15. c3 c5 16. Nf5 Bd8 17. h3 Bb6 18. Be3 Qc7 19. Nh2 Rd8 20. Ng4
+Nxg4 21. Qxg4 d5 22. Bh6 g6 23. Qh4 gxf5 24. exf5 f6 25. fxe6 Qe7 26. Rxe5
+Bc7 27. Re1 d4 28. Qh5 c4 29. dxc4 Bc6 30. cxb5 Be8 31. Qg4+ Bg6 32. cxd4
+Kh8 33. Qf3 Rg8 34. Bd2 Be8 35. Bc3 Rg5 36. d5 Kg7 37. h4 Rg6 38. Bc2 Rh6
+39. Qg4+ Kh8 40. Qg5 Qg7 41. Qxg7+ Kxg7 42. Ra1 Bd6 43. Ra6 Be5 44. Ra7+
+1-0
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.28"]
+[Round "4"]
+[White "Karjakin,Sergey"]
+[Black "Fressinet,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2672"]
+[BlackElo "2640"]
+[EventDate "2006.10.27"]
+[ECO "C83"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8.
+dxe5 Be6 9. Nbd2 Be7 10. c3 O-O 11. Bc2 f5 12. Nb3 Qd7 13. Nbd4 Nxd4 14.
+Nxd4 c5 15. Nxe6 Qxe6 16. f3 Ng5 17. a4 Rad8 18. axb5 axb5 19. Bxg5 Bxg5
+20. f4 Be7 21. Kh1 Qb6 22. b3 d4 23. c4 bxc4 24. bxc4 Qb7 25. Bd3 Ra8 26.
+Rb1 Qc6 27. Be2 Rab8 28. Bf3 Rxb1 29. Qxb1 Qc7 30. Bd5+ Kh8 31. Rf3 Qa5 32.
+Rb3 Qd2 33. g3 Bd8 34. Rb2 Qe3 35. Qd1 Qa3 36. Qb3 Qa1+ 37. Kg2 g6 38. Ra2
+Qe1 39. Qb7 g5 40. fxg5 Qxe5 41. Bf3 Qg7 42. Qxg7+ Kxg7 43. h4 Bb6 44. Bd5
+Re8 1/2-1/2
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.28"]
+[Round "5"]
+[White "Harikrishna,P"]
+[Black "Sebag,M"]
+[Result "1-0"]
+[WhiteElo "2674"]
+[BlackElo "2471"]
+[EventDate "2006.10.27"]
+[ECO "A28"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. a3 g6 5. e3 Bg7 6. Be2 O-O 7. d3 d6 8.
+O-O h6 9. Qc2 Be6 10. b4 Nh7 11. b5 Ne7 12. d4 Bf5 13. Qd1 c6 14. a4 exd4
+15. Nxd4 Bd7 16. Bb2 Ng5 17. Qd2 d5 18. bxc6 bxc6 19. cxd5 cxd5 20. Ba3 Ne4
+21. Nxe4 dxe4 22. Rac1 Re8 23. Qa2 Nf5 24. Nxf5 Bxf5 25. Bb5 Be6 26. Qc2
+Rc8 27. Qe2 Bd7 28. Rfd1 Rxc1 29. Bxc1 Bxb5 30. Rxd8 Bxe2 31. Rxe8+ Kh7 32.
+Rxe4 a6 33. Re7 Bc4 34. Rb7 g5 35. Bb2 Bf8 36. Rc7 Bb3 37. a5 1-0
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.28"]
+[Round "5"]
+[White "Kosteniuk,A"]
+[Black "Karjakin,Sergey"]
+[Result "1/2-1/2"]
+[WhiteElo "2534"]
+[BlackElo "2672"]
+[EventDate "2006.10.27"]
+[ECO "B97"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8.
+Qd2 Qxb2 9. Nb3 Qa3 10. Bxf6 gxf6 11. Be2 Nc6 12. O-O Bd7 13. Kh1 Rc8 14.
+Bh5 Bg7 15. Rf3 O-O 16. Raf1 Kh8 17. Rh3 Ne7 18. e5 d5 19. Ne4 dxe4 20.
+Qxd7 f5 21. Qxb7 Nd5 22. Nd4 Qb4 23. Qxb4 Nxb4 24. c3 Nd5 25. Ne2 f6 26. g4
+fxe5 27. gxf5 exf5 28. fxe5 Bxe5 29. Bg6 Rc7 30. Rxf5 Rxf5 31. Bxf5 e3 32.
+Bd3 Bxc3 33. Bxa6 Bd2 34. a4 Nc3 35. Nxc3 Rxc3 36. Kg2 Ra3 37. Rh4 Kg7 38.
+Be2 h6 39. Kf3 Ra1 40. Rg4+ Kf6 1/2-1/2
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.28"]
+[Round "5"]
+[White "Negi,P"]
+[Black "Stefanova,A"]
+[Result "0-1"]
+[WhiteElo "2538"]
+[BlackElo "2489"]
+[EventDate "2006.10.27"]
+[ECO "C78"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 b5 7. Bc2 d6 8.
+d4 Bb6 9. a4 Bb7 10. d5 Ne7 11. axb5 axb5 12. Rxa8 Bxa8 13. Na3 c6 14. dxc6
+Bxc6 15. Qe2 Qb8 16. Bd3 O-O 17. Bg5 Ng6 18. Bxf6 Nf4 19. Qd1 gxf6 20. Nh4
+Kh8 21. Kh1 Rg8 22. Nc2 Nxd3 23. Qxd3 Rg4 24. Qh3 Rxe4 25. Nb4 Bb7 26. Nf5
+Qf8 27. Qd3 Bc5 28. Nc2 Rf4 29. Nfe3 Qh6 30. Qxb5 Be4 31. Qe2 Rh4 32. Ng4
+Qh5 33. Qxe4 Rxg4 34. Qa8+ Kg7 35. b4 Rh4 36. h3 Qe2 37. Re1 Qxc2 38. bxc5
+Qxf2 39. Re4 dxc5 40. Rxh4 Qxh4 41. Qf3 Qf4 42. Qxf4 exf4 43. Kg1 Kg6 44.
+Kf2 Kf5 45. Kf3 h5 46. h4 Ke5 47. Kf2 Ke4 48. Ke2 c4 49. Kd2 f3 50. g3 f5
+0-1
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.28"]
+[Round "5"]
+[White "Fressinet,L"]
+[Black "Radjabov,T"]
+[Result "0-1"]
+[WhiteElo "2640"]
+[BlackElo "2729"]
+[EventDate "2006.10.27"]
+[ECO "B30"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. Re1 a6 6. Bf1 d5 7. exd5 Nxd5
+8. d4 Nf6 9. Be3 Be7 10. c4 O-O 11. Nc3 cxd4 12. Nxd4 Bd7 13. Qe2 Qc7 14.
+Rad1 Rad8 15. h3 Rfe8 16. Nb3 h6 17. Rd2 Bc8 18. Rxd8 Rxd8 19. Rd1 Re8 20.
+Na4 e5 21. Nc3 e4 22. Nd5 Nxd5 23. cxd5 Ne5 24. Bf4 f5 25. Qh5 Rf8 26. Nd4
+Qd6 27. Kh1 Kh7 28. Bc4 Bg5 29. Bxe5 Qxe5 30. Ne6 Bxe6 31. dxe6 Qxb2 32.
+Kg1 Be7 33. Qe2 Qxe2 34. Bxe2 Rd8 35. Rd7 Rxd7 36. exd7 Kg6 37. g4 b5 38.
+Kf1 f4 39. Ke1 Kf6 40. Kd2 Bb4+ 41. Kc1 Ke7 42. a4 bxa4 43. Bxa6 Bc5 44.
+Bb5 a3 45. f3 exf3 46. Kb1 f2 0-1
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.29"]
+[Round "6"]
+[White "Radjabov,T"]
+[Black "Stefanova,A"]
+[Result "1-0"]
+[WhiteElo "2729"]
+[BlackElo "2489"]
+[EventDate "2006.10.27"]
+[ECO "D10"]
+
+1. d4 d5 2. c4 c6 3. Nc3 dxc4 4. e3 b5 5. a4 b4 6. Ne4 Qd5 7. Ng3 e5 8. Nf3
+exd4 9. e4 Qa5 10. Bxc4 Ba6 11. Qxd4 Nf6 12. O-O Qc5 13. Bxa6 Nxa6 14. Qd3
+Qa5 15. Qc4 Nc5 16. Be3 Qa6 17. Qc2 Ne6 18. h3 g6 19. Nd4 c5 20. Nxe6 Qxe6
+21. f4 h5 22. f5 gxf5 23. Nxf5 Qxe4 24. Qd2 Qd5 25. Qe2 Qe6 26. Rad1 Nd7
+27. Qf3 Rc8 28. Rd6 Qe5 29. Rd5 Qxb2 30. Bd4 cxd4 31. Ng7+ Kd8 32. Rxd7+
+Kxd7 33. Qd5+ 1-0
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.29"]
+[Round "6"]
+[White "Fressinet,L"]
+[Black "Kosteniuk,A"]
+[Result "1-0"]
+[WhiteElo "2640"]
+[BlackElo "2534"]
+[EventDate "2006.10.27"]
+[ECO "C43"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 d5 5. Nxe5 Nd7 6. Nxd7 Bxd7 7. O-O
+Qh4 8. c4 O-O-O 9. c5 g6 10. Nc3 Nf6 11. Ne2 Ng4 12. Bf4 g5 13. Bg3 Qh6 14.
+Qd2 f5 15. f4 gxf4 16. Bxf4 Qc6 17. b4 Bh6 18. b5 Bxf4 19. Qxf4 Qg6 20. c6
+Be6 21. cxb7+ Kb8 22. Rac1 Rd6 23. Rc6 Bd7 24. Rxd6 Qxd6 25. Qxd6 cxd6 26.
+Nc3 Ne3 27. Re1 f4 28. Ne2 f3 29. gxf3 Rf8 30. Kf2 Ng4+ 31. Kg3 Nf6 32. Nf4
+Rf7 33. a4 Kxb7 34. Bc2 Rg7+ 35. Kf2 Kb6 36. Bb3 Ka5 37. Nxd5 Nxd5 38. Bxd5
+Bh3 39. Bc6 Rg2+ 40. Ke3 Rxh2 41. Kf4 Rc2 42. Rh1 Bc8 43. Rxh7 Kb6 44. Rh8
+Be6 45. Rb8+ Ka5 46. Rb7 Rc4 47. Rxa7+ Kb6 48. Ra6+ Kc7 49. Ke3 Rc3+ 50.
+Kd2 Rc4 51. Kd3 d5 52. a5 Bf5+ 53. Ke3 Rc3+ 54. Kf4 Bc8 55. Ra7+ Kd6 56.
+Ra8 Be6 57. a6 Rd3 58. a7 1-0
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.29"]
+[Round "6"]
+[White "Sebag,M"]
+[Black "Negi,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2471"]
+[BlackElo "2538"]
+[EventDate "2006.10.27"]
+[ECO "C88"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8.
+a4 b4 9. d4 d6 10. dxe5 dxe5 11. Qxd8 Rxd8 12. Bg5 Rb8 13. Nbd2 h6 14. Be3
+Bb7 15. a5 Ng4 16. Nc4 Nxe3 17. Nxe3 Nd4 18. Nxe5 Nxb3 19. cxb3 Bxe4 20.
+Rac1 Rb5 21. N3c4 Bg5 22. Rcd1 Rxd1 23. Rxd1 Bc2 24. Rd7 Bxb3 25. Rxc7 Bf6
+26. Nd7 Bxc4 27. Rc8+ Kh7 28. Nf8+ Kg8 29. Nd7+ Kh7 1/2-1/2
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.29"]
+[Round "6"]
+[White "Karjakin,Sergey"]
+[Black "Harikrishna,P"]
+[Result "1-0"]
+[WhiteElo "2672"]
+[BlackElo "2674"]
+[EventDate "2006.10.27"]
+[ECO "C87"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 d6 7. c3 Bg4 8.
+d3 Nd7 9. Be3 h6 10. h3 Bh5 11. Nbd2 Bg5 12. Qe2 Bxe3 13. Qxe3 b5 14. Bc2
+O-O 15. Nf1 Bg6 16. Ng3 Nf6 17. b4 d5 18. Bb3 d4 19. cxd4 exd4 20. Qd2 a5
+21. a3 axb4 22. axb4 Rxa1 23. Rxa1 Qe7 24. Rc1 Qxb4 25. Qxb4 Nxb4 26. Ne5
+Kh7 27. Rxc7 Ra8 28. Bxf7 Bxf7 29. Rxf7 Re8 30. f4 Rc8 31. Nf5 Ne8 32. Nxd4
+Kg8 33. Ne6 Kh7 34. f5 Nc6 35. Nxc6 Rxc6 36. Rb7 1-0
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.29"]
+[Round "7"]
+[White "Harikrishna,P"]
+[Black "Fressinet,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2674"]
+[BlackElo "2640"]
+[EventDate "2006.10.27"]
+[ECO "C77"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Bc5 7. Nc3 h6 8.
+Nd5 d6 9. c3 O-O 10. h3 Rb8 11. O-O Nxd5 12. Bxd5 Ne7 13. Bb3 Ng6 14. d4
+1/2-1/2
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.29"]
+[Round "7"]
+[White "Kosteniuk,A"]
+[Black "Radjabov,T"]
+[Result "1/2-1/2"]
+[WhiteElo "2534"]
+[BlackElo "2729"]
+[EventDate "2006.10.27"]
+[ECO "B33"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6
+8. Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c4 b4 12. Nc2 a5 13. Be2 O-O 14. O-O
+Be6 1/2-1/2
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.29"]
+[Round "7"]
+[White "Negi,P"]
+[Black "Karjakin,Sergey"]
+[Result "1/2-1/2"]
+[WhiteElo "2538"]
+[BlackElo "2672"]
+[EventDate "2006.10.27"]
+[ECO "B97"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8.
+Qd3 Qxb2 9. Rb1 Qa3 10. f5 Nc6 11. fxe6 fxe6 12. Nxc6 bxc6 13. Be2 Be7 14.
+Bd2 Qc5 15. Na4 Qa7 16. Be3 c5 17. O-O O-O 18. e5 dxe5 19. Nb6 Rb8 20. Nxc8
+Rbxc8 21. Qxa6 Qxa6 22. Bxa6 Ra8 23. Bc4 Nd5 24. Rxf8+ Kxf8 25. Bf2 Ra4 26.
+Bb3 Ra6 27. Bc4 Ra4 28. Bb3 Ra6 29. Bc4 1/2-1/2
+
+[Event "GpA"]
+[Site "Cap d'Agde FRA"]
+[Date "2006.10.29"]
+[Round "7"]
+[White "Stefanova,A"]
+[Black "Sebag,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2489"]
+[BlackElo "2471"]
+[EventDate "2006.10.27"]
+[ECO "A12"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. b3 Bg4 5. Bb2 Nbd7 6. d3 e6 7. Nbd2 Bd6 8.
+c4 O-O 9. O-O Qe7 10. a3 a5 11. h3 Bh5 12. Re1 e5 13. Nh4 Bc5 14. Qc2 Bg6
+15. e3 Rfe8 16. Kh2 Nf8 17. f4 Bd6 18. c5 Bc7 19. f5 Bh5 20. e4 Rad8 21. b4
+Rd7 22. Nb3 dxe4 23. dxe4 a4 24. Nd2 b5 25. cxb6 Bxb6 26. Nc4 Bd4 27. Bxd4
+Rxd4 28. Na5 Qd8 29. Nxc6 Rd2 30. Nxd8 Rxc2 31. Nb7 g5 32. fxg6 Nxg6 33.
+Nxg6 Bxg6 34. Nc5 Rd8 35. Rec1 Re2 36. Re1 Rc2 37. Kg1 Rdd2 38. Bf1 Nh5 39.
+Re3 Nf6 40. Rae1 Ra2 41. Nxa4 Nxe4 42. Nc3 Nxc3 43. Rxc3 e4 44. Rce3 Kg7
+45. R1e2 Rxe2 46. Bxe2 Kf6 47. b5 Rb2 48. Kf2 Ke5 49. a4 f5 50. a5 Be8 51.
+a6 Bxb5 52. a7 Ra2 53. a8=Q Rxa8 54. Bxb5 Ra2+ 55. Be2 f4 56. gxf4+ Kxf4
+57. Rb3 h6 58. h4 h5 59. Rc3 Rb2 60. Ra3 Rc2 61. Ra5 e3+ 62. Ke1 Kg3 63.
+Rxh5 Rc1+ 64. Bd1 Rc4 65. Rg5+ Kxh4 66. Rg1 Rc3 67. Rg8 Ra3 68. Ke2 Kh5 69.
+Kf3 Kh6 70. Be2 Rc3 71. Rg1 Ra3 72. Kf4 Rc3 73. Ke4 Ra3 74. Bd3 Ra5 75. Kf4
+Ra4+ 76. Kxe3 Rb4 77. Be4 Rb2 78. Kf4 Rf2+ 79. Ke5 Kh5 80. Bf5 Rb2 81. Rg3
+Kh4 82. Rg4+ Kh5 83. Rg8 Kh4 84. Kf6 Rb6+ 85. Be6 Rb4 86. Rg7 Rf4+ 87. Bf5
+Rb4 88. Rg1 Rb6+ 89. Ke5 Rb2 90. Rg6 Kh5 91. Rg7 Kh4 92. Kf4 Rf2+ 93. Ke4
+Rb2 94. Kf3 Kh5 95. Be4 Kh6 96. Rg6+ Kh5 97. Rg1 Kh6 98. Rg6+ Kh5 99. Rg8
+Kh6 100. Kg4 Rb4 101. Kf4 Rb6 102. Rg3 Rf6+ 103. Bf5 Rb6 104. Ke5 Kh5 105.
+Be6 Kh4 106. Rg4+ Kh5 107. Rg8 Rb2 108. Kf6 Kh4 109. Rg4+ Kh5 110. Rg3 Rh2
+111. Bf5 Kh4 112. Rg4+ Kh5 113. Rg5+ Kh4 114. Rg4+ Kh5 115. Rf4 Rh1 116.
+Be4 Rh2 117. Bg6+ Kh6 118. Bf5 Kh5 119. Rf1 Kh4 120. Rg1 Rf2 121. Rg4+ Kh3
+122. Kg5 Rg2 123. Rxg2+ 1/2-1/2
+

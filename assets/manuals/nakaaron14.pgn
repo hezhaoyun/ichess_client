@@ -1,0 +1,102 @@
+[Event "Nakamura-Aronian m 2014"]
+[Site "Saint Louis USA"]
+[Date "2014.11.21"]
+[Round "1"]
+[White "Nakamura, Hikaru"]
+[Black "Aronian, Levon"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2767"]
+[BlackElo "2797"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "2016192"]
+[BlackFideId "13300474"]
+[EventDate "2014.11.21"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bd2 O-O 6. e3 Re8 7. a3 Bf8 8. Rc1
+Nbd7 9. Be2 a6 10. c5 c6 11. Na4 Ne4 12. O-O Nxd2 13. Nxd2 e5 14. e4 dxe4 15.
+Nxe4 Qh4 16. f3 exd4 17. Bc4 Nf6 18. Nb6 Rb8 19. Nxc8 Rbxc8 20. Qxd4 Nxe4 21.
+fxe4 Rc7 22. Rce1 Rd8 23. Qe3 Qh6 24. b4 Qxe3+ 25. Rxe3 Rd4 26. Bb3 g6 27. Ref3
+Rdd7 28. e5 Re7 29. e6 h5 30. Rf6 Kg7 31. h4 a5 32. R1f3 axb4 33. axb4 Kh7 34.
+Bc2 Kg7 35. exf7 Rxf7 36. Rxg6+ Kh8 37. Rfg3 Bg7 38. R3g5 Rf4 39. Rxh5+ Kg8 40.
+Bf5 Kf8 41. Be6 Ke8 42. g3 Rxb4 43. Kg2 Rb2+ 44. Kh3 Kd8 45. Rhg5 Bc3 46. Rg8+
+Ke7 47. Bc4 Rf2 48. Rh5 1-0
+
+[Event "Nakamura-Aronian m 2014"]
+[Site "Saint Louis USA"]
+[Date "2014.11.22"]
+[Round "2"]
+[White "Aronian, Levon"]
+[Black "Nakamura, Hikaru"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2797"]
+[BlackElo "2767"]
+[ECO "A14"]
+[Opening "English"]
+[Variation "Neo-Catalan declined"]
+[WhiteFideId "13300474"]
+[BlackFideId "2016192"]
+[EventDate "2014.11.21"]
+
+1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. Nf3 Be7 5. O-O O-O 6. d4 dxc4 7. Ne5 Nc6 8. Bxc6
+bxc6 9. Nxc6 Qe8 10. Nxe7+ Qxe7 11. Na3 c5 12. dxc5 Qxc5 13. Be3 Qb4 14. Qc1 Ba6
+15. Bd4 Rfd8 16. Rd1 Rac8 17. Qc3 Qa4 18. Qc2 Qxc2 19. Nxc2 c3 20. Bxc3 Rxd1+
+21. Rxd1 Bxe2 22. Re1 Bc4 23. Ne3 Nd5 24. Nxc4 Rxc4 25. Bd2 Kf8 26. Rc1 Rxc1+
+27. Bxc1 Ke7 28. Kf1 e5 29. Ke2 e4 30. Kd2 f5 31. Kc2 Nb4+ 32. Kb3 Nd3 33. Be3
+a6 34. Kc3 Kd6 35. h4 g6 36. b4 Kd5 37. a4 Ne5 38. b5 a5 39. Bb6 Nc4 40. Bd8 Kc5
+41. Bc7 h5 42. Kc2 Kd5 43. Kb3 Nd2+ 44. Kc3 e3 45. fxe3 Ne4+ 46. Kb2 Nc5 47.
+Bxa5 Nxa4+ 48. Ka3 Nc5 49. Bb4 Nb7 50. Ka4 1-0
+
+[Event "Nakamura-Aronian m 2014"]
+[Site "Saint Louis USA"]
+[Date "2014.11.23"]
+[Round "3"]
+[White "Nakamura, Hikaru"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2767"]
+[BlackElo "2797"]
+[ECO "D70"]
+[Opening "Neo-Gruenfeld defence"]
+[WhiteFideId "2016192"]
+[BlackFideId "13300474"]
+[EventDate "2014.11.21"]
+
+1. d4 Nf6 2. c4 g6 3. f3 d5 4. cxd5 Nxd5 5. e4 Nb6 6. Nc3 Bg7 7. Be3 Nc6 8. Bb5
+O-O 9. Nge2 Qd6 10. e5 Qd8 11. h4 Nb4 12. Nf4 N6d5 13. Nfxd5 Nxd5 14. Qd2 Be6
+15. Bh6 Bxh6 16. Qxh6 f6 17. Bc4 Qd7 18. Ne4 Nb4 19. Rc1 Bxc4 20. Rxc4 Nd5 21.
+Rc5 b6 22. Rc4 Qb5 23. exf6 exf6 24. b3 Qa5+ 25. Qd2 Qxd2+ 26. Kxd2 Rad8 27. Rc6
+f5 28. Nc3 Nb4 29. Rxc7 Rxd4+ 30. Kc1 Rf7 31. Rxf7 Kxf7 32. a3 Rd3 33. Nb5 a6
+34. axb4 axb5 35. Kc2 Rd6 1/2-1/2
+
+[Event "Nakamura-Aronian m 2014"]
+[Site "Saint Louis USA"]
+[Date "2014.11.24"]
+[Round "4"]
+[White "Aronian, Levon"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2797"]
+[BlackElo "2767"]
+[ECO "A14"]
+[Opening "English"]
+[Variation "Neo-Catalan declined"]
+[WhiteFideId "13300474"]
+[BlackFideId "2016192"]
+[EventDate "2014.11.21"]
+
+1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. Nf3 Be7 5. O-O O-O 6. d4 dxc4 7. Qc2 b5 8. a4 b4
+9. Nfd2 c6 10. Nxc4 Qxd4 11. Rd1 Qc5 12. Nbd2 Ba6 13. b3 Nbd7 14. Bb2 Rad8 15.
+Rac1 Nb6 16. Bxf6 gxf6 17. Ne4 Qf5 18. Nxb6 axb6 19. Qxc6 Rxd1+ 20. Rxd1 Rc8 21.
+Qxb6 Bxe2 22. Qb7 Bxd1 23. Qxc8+ Bf8 24. Qd8 Bxb3 25. a5 Kg7 26. a6 Qe5 27. h4
+Bd5 28. Nxf6 Qxf6 29. Qxf6+ Kxf6 30. Bxd5 Bc5 1/2-1/2
+

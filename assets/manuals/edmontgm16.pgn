@@ -1,0 +1,1131 @@
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.18"]
+[Round "1.1"]
+[White "Shirov, Alexei"]
+[Black "Wang, Richard"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2682"]
+[BlackElo "2341"]
+[ECO "C02"]
+[Opening "French"]
+[Variation "advance, Paulsen attack"]
+[WhiteFideId "2209390"]
+[BlackFideId "2608243"]
+[EventDate "2016.06.18"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 Nh6 7. b4 cxd4 8. Bxh6
+gxh6 9. cxd4 Bd7 10. Ra2 Rg8 11. g3 Rg4 12. Rd2 Nxb4 13. axb4 Bxb4 14. Bd3 Bb5
+15. O-O Bxd2 16. Qxd2 Rc8 17. Na3 Bxd3 18. Qxd3 a6 19. Rb1 Qc7 20. Qxh7 b5 21.
+Kg2 Qc3 22. Rxb5 Qxa3 23. Rb7 Qf8 24. Qd3 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.18"]
+[Round "1.2"]
+[White "Bitan, Banerjee"]
+[Black "Ganguly, Surya Shekhar"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2341"]
+[BlackElo "2654"]
+[ECO "D35"]
+[Opening "QGD"]
+[Variation "exchange, positional line, 5...c6"]
+[WhiteFideId "5024803"]
+[BlackFideId "5002150"]
+[EventDate "2016.06.18"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 c6 6. e3 Bf5 7. Qf3 Bg6 8. Bxf6
+Qxf6 9. Qxf6 gxf6 10. h4 h5 11. Nh3 Nd7 12. Nf4 Bd6 13. f3 Nf8 14. g3 Ne6 15.
+Bh3 f5 16. Kf2 Ke7 17. Nd3 a5 18. Na4 Rhg8 19. Rhg1 Kd8 20. Rac1 Kc7 21. Bf1
+Rae8 22. Nf4 Nxf4 23. exf4 Be7 24. Be2 Bf6 25. Rgd1 Kd6 26. Bf1 Bh7 27. Nc3 b5
+28. Rd2 Rg7 29. Bh3 Reg8 30. Ne2 Rb8 31. Rd3 b4 32. Re3 Bd8 33. Re8 Bc7 34. Rxb8
+Bxb8 35. Bf1 Ba7 36. Rd1 f6 37. Bh3 a4 38. b3 Bb6 39. Ke3 Ra7 40. Nc1 Re7+ 41.
+Kd3 a3 42. Ne2 c5 43. dxc5+ Bxc5 44. Rf1 Bg6 45. Kd2 Be3+ 46. Kc2 Be8 47. Rd1
+Bd7 48. Bf1 Bf2 49. Kd2 Re8 50. Nc1 Bxg3 51. Nd3 Bb5 52. Nxb4 Bxf4+ 53. Kc2 Bxf1
+54. Rxf1 Re2+ 55. Kd3 Rd2+ 56. Kc3 Rb2 57. Kd3 Rd2+ 58. Kc3 Rb2 59. Kd3 Kc5 60.
+Na6+ Kb5 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.18"]
+[Round "1.3"]
+[White "Sethuraman, S.P."]
+[Black "Haessel, Dale R."]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2653"]
+[BlackElo "2234"]
+[ECO "A34"]
+[Opening "English"]
+[Variation "symmetrical, three knights system"]
+[WhiteFideId "5021596"]
+[BlackFideId "2012618"]
+[EventDate "2016.06.18"]
+
+1. c4 Nf6 2. Nc3 c5 3. Nf3 d5 4. cxd5 Nxd5 5. e4 Nb4 6. Bc4 Nd3+ 7. Ke2 Nf4+ 8.
+Kf1 Ne6 9. b4 g6 10. Rb1 Bg7 11. Nd5 O-O 12. bxc5 Nc6 13. Ba3 Qa5 14. Qc1 Ned4
+15. Nxd4 Bxd4 16. h4 e6 17. Ne3 Bxc5 18. Bb2 Bd4 19. h5 Bd7 20. hxg6 hxg6 21. d3
+Bxb2 22. Rxb2 Qe5 23. Ng4 Qd4 24. Qh6 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.18"]
+[Round "1.4"]
+[White "Findlay, Ian T."]
+[Black "Sambuev, Bator"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2257"]
+[BlackElo "2540"]
+[ECO "C08"]
+[Opening "French"]
+[Variation "Tarrasch, open, 4.ed ed"]
+[WhiteFideId "2600226"]
+[BlackFideId "4128290"]
+[EventDate "2016.06.18"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 exd5 5. Ngf3 Nf6 6. Bb5+ Bd7 7. Bxd7+ Nbxd7
+8. O-O Be7 9. dxc5 Nxc5 10. Nb3 Nce4 11. Nfd4 Qd7 12. Qf3 O-O 13. Nf5 Bd8 14.
+Be3 Re8 15. Rfd1 Re5 16. Nbd4 Bb6 17. h3 Rae8 18. a4 h5 19. c3 a6 20. Ng3 Ng5
+21. Qf4 Bc7 22. Qh4 Ngh7 23. Nf3 Re4 24. Nxe4 Rxe4 25. g4 hxg4 26. Nd2 Re5 27.
+hxg4 Nxg4 28. Nf3 Re6 29. Qxg4 Rg6 30. Qxg6 fxg6 31. Kf1 g5 32. Ke2 g4 33. Nd4
+Nf6 34. Rg1 Be5 35. Kd3 Ne4 36. Kc2 Nc5 37. b3 g3 38. fxg3 Qg4 39. Kb2 Qe4 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.18"]
+[Round "1.5"]
+[White "Shankland, Samuel L"]
+[Black "Valencia, Belsar"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2646"]
+[BlackElo "2277"]
+[ECO "E98"]
+[Opening "King's Indian"]
+[Variation "orthodox, Aronin-Taimanov, 9.Ne1"]
+[WhiteFideId "2004887"]
+[BlackFideId "5204429"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7
+9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 h5 13. Rc1 a6 14. Nd3 b6 15. b4 g5 16.
+c5 Nf6 17. cxb6 cxb6 18. b5 a5 19. Na4 Rb8 20. Ndb2 Bd7 21. Rc6 Nxc6 22. dxc6
+Be6 23. Bc4 d5 24. exd5 Bxd5 25. Qb3 Bf7 26. Bxf7+ Rxf7 27. Rd1 Qe7 28. Nc4 Ne8
+29. Rd7 Qe6 30. Bxb6 Kh8 31. Nxa5 Qxb3 32. Nxb3 Rf6 33. Nbc5 Bf8 34. Ne4 Rg6 35.
+Rd8 Rxd8 36. Bxd8 Nd6 37. c7 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.19"]
+[Round "2.1"]
+[White "Shankland, Samuel L"]
+[Black "Shirov, Alexei"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2646"]
+[BlackElo "2682"]
+[ECO "B33"]
+[Opening "Sicilian"]
+[Variation "Sveshnikov variation"]
+[WhiteFideId "2004887"]
+[BlackFideId "2209390"]
+[EventDate "2016.06.18"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3
+b5 9. Bxf6 gxf6 10. Nd5 f5 11. c3 Bg7 12. Bd3 Be6 13. Nxb5 axb5 14. Bxb5 Bd7 15.
+exf5 Nb8 16. a4 Bxb5 17. axb5 Rxa1 18. Qxa1 Nd7 19. Qa7 O-O 20. O-O Nf6 21. Ne7+
+Kh8 22. b6 Qd7 23. c4 e4 24. b7 Qc7 25. Nc6 Qxc6 26. b8=Q Rxb8 27. Qxb8+ Ng8 28.
+Qb5 Qc8 29. b4 Be5 30. Qd5 Qxf5 31. f4 exf3 32. Qxf3 Qg5 33. Qxf7 Qh4 34. g3
+Bxg3 35. hxg3 Qxg3+ 36. Kh1 Qh3+ 37. Kg1 Qg3+ 1/2-1/2
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.19"]
+[Round "2.2"]
+[White "Ganguly, Surya Shekhar"]
+[Black "Sethuraman, S.P."]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2654"]
+[BlackElo "2653"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "advance variation"]
+[WhiteFideId "5002150"]
+[BlackFideId "5021596"]
+[EventDate "2016.06.18"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. O-O h6 7. Nbd2 Nd7 8. Nb3 g5
+9. a4 Bg7 10. a5 O-O 11. Re1 Ng6 12. Bd3 Bxd3 13. Qxd3 g4 14. Nfd2 Rc8 15. Qe2
+c5 16. Qxg4 c4 17. Nc5 Nxc5 18. dxc5 Rxc5 19. Nf3 d4 20. Qh5 Rxa5 21. Bxh6 Rxa1
+22. Rxa1 Qd5 23. Qg5 Qd8 24. Qh5 Qd5 25. h4 Nxe5 26. Nxe5 Bxh6 27. Qxh6 Qxe5 28.
+Ra3 c3 29. bxc3 dxc3 30. Ra4 Qg7 31. Qh5 f5 32. Rxa7 Rd8 33. Qf3 Qg4 34. Qxg4+
+fxg4 35. Rxb7 Rd2 36. Rb4 g3 37. Rg4+ Kf7 38. Rxg3 Rxc2 39. Rf3+ Kg6 40. g4 Rc1+
+41. Kg2 e5 42. Rd3 e4 43. Rd6+ Kg7 44. Rc6 c2 45. h5 Kh7 46. Kh2 Kh8 47. Rc7 Kg8
+48. g5 Kh8 49. Rc8+ Kg7 50. h6+ Kg6 51. Rc6+ Kh7 52. Rc7+ 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.19"]
+[Round "2.3"]
+[White "Valencia, Belsar"]
+[Black "Sambuev, Bator"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2277"]
+[BlackElo "2540"]
+[ECO "D11"]
+[Opening "QGD Slav"]
+[Variation "3.Nf3"]
+[WhiteFideId "5204429"]
+[BlackFideId "4128290"]
+[EventDate "2016.06.18"]
+
+1. Nf3 d5 2. d4 c6 3. c4 e6 4. e3 Bd6 5. Nc3 f5 6. g3 Nd7 7. Bg2 Ngf6 8. O-O O-O
+9. b3 Ne4 10. Bb2 Qf6 11. Nd2 Qh6 12. Ndxe4 fxe4 13. Qe2 Nf6 14. f3 exf3 15.
+Bxf3 Bd7 16. Rae1 Rae8 17. Na4 dxc4 18. bxc4 e5 19. c5 Bc7 20. e4 Qg6 21. Qc4+
+Qf7 22. d5 Bh3 23. Bg2 Bxg2 24. Kxg2 cxd5 25. exd5 Qxd5+ 26. Qxd5+ Nxd5 27.
+Rxf8+ Kxf8 28. Ba3 Kf7 29. Bb2 Ke6 30. c6 b6 31. a3 Rc8 32. Kf3 Bd6 33. Rc1 Ne7
+34. Ke4 Rxc6 35. Rxc6 Nxc6 36. Nc3 a6 37. a4 Nb8 38. Kd3 Nd7 39. Kc4 Nc5 40. Bc1
+Nxa4 41. Nxa4 b5+ 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.19"]
+[Round "2.4"]
+[White "Haessel, Dale R."]
+[Black "Findlay, Ian T."]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "FM"]
+[WhiteElo "2234"]
+[BlackElo "2257"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "2012618"]
+[BlackFideId "2600226"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. Qb3 Nc6 8.
+cxd5 Nxd4 9. Nxd4 Qxd4 10. Rd1 Bxc3+ 11. bxc3 Qb6 12. e3 exd5 13. Qxd5 Be6 14.
+Qe4 Qa5 15. Bd3 Qxc3+ 16. Ke2 O-O-O 17. Rb1 Bd5 18. Qf4 Qf6 19. Bf5+ Kb8 20.
+Rhc1 Qd6 21. Qa4 Bxg2 22. Rc2 Rhe8 23. f3 Qxh2 24. Rxb7+ 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.19"]
+[Round "2.5"]
+[White "Wang, Richard"]
+[Black "Bitan, Banerjee"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[WhiteElo "2341"]
+[BlackElo "2341"]
+[ECO "E60"]
+[Opening "King's Indian, 3.Nf3"]
+[WhiteFideId "2608243"]
+[BlackFideId "5024803"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. h3 e5 7. d5 Na6 8. Bg5 Qe8
+9. g4 Kh8 10. Be2 Ng8 11. Qc2 f6 12. Be3 f5 13. gxf5 gxf5 14. a3 Bh6 15. O-O-O
+Nc5 16. Nh4 Bxe3+ 17. fxe3 Nh6 18. Rdf1 Qe7 19. Nxf5 Nxf5 20. exf5 Qg5 21. b4
+Bxf5 22. Rxf5 Rxf5 23. bxc5 Qxe3+ 24. Kb2 Rf4 25. cxd6 cxd6 26. Qd3 Qb6+ 27. Ka2
+Rg8 28. Rb1 Qd4 29. Nb5 Qc5 30. Rb2 Rg2 31. Nc3 b6 32. Bf1 Rg1 33. Be2 Rg2 34.
+Bf1 Rg1 35. Be2 Rg2 1/2-1/2
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.20"]
+[Round "3.1"]
+[White "Shirov, Alexei"]
+[Black "Valencia, Belsar"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2682"]
+[BlackElo "2277"]
+[ECO "E91"]
+[Opening "King's Indian"]
+[Variation "6.Be2"]
+[WhiteFideId "2209390"]
+[BlackFideId "5204429"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 c5 7. O-O cxd4 8. Nxd4
+Nc6 9. Be3 Bd7 10. Nc2 Qa5 11. f4 Rad8 12. a3 Qc7 13. Rc1 Qb8 14. g4 Bc8 15. f5
+Nd7 16. Nb4 e6 17. Bg5 Nf6 18. Qd2 Ne5 19. Bxf6 Bxf6 20. g5 Bh8 21. f6 h6 22. h4
+b6 23. Qf4 Bb7 24. Rcd1 a6 25. Nc2 Rc8 26. Ne3 Rfd8 27. a4 Qc7 28. b4 Bc6 29.
+Ng4 Nxg4 30. Bxg4 a5 31. h5 gxh5 32. g6 fxg6 33. Qxh6 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.20"]
+[Round "3.2"]
+[White "Findlay, Ian T."]
+[Black "Ganguly, Surya Shekhar"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2257"]
+[BlackElo "2654"]
+[ECO "B94"]
+[Opening "Sicilian"]
+[Variation "Najdorf, 6.Bg5"]
+[WhiteFideId "2600226"]
+[BlackFideId "5002150"]
+[EventDate "2016.06.18"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 Nbd7 7. Qe2 h6 8. Bh4
+g6 9. f4 e5 10. Nf3 Qc7 11. O-O-O b5 12. g3 b4 13. Bxf6 Nxf6 14. Nd5 Nxd5 15.
+exd5 Bg4 16. fxe5 dxe5 17. h3 Bxf3 18. Qxf3 Qd6 19. h4 Bg7 20. h5 f5 21. hxg6
+O-O 22. Qb3 e4 23. Kb1 Rf6 24. Bh3 Rxg6 25. Bxf5 Rxg3 26. Be6+ Kh8 27. Qc4 Qe5
+28. Rd4 Kh7 29. d6 Qxd4 30. Bf5+ Rg6 31. Qxd4 Bxd4 32. Rd1 Bf6 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.20"]
+[Round "3.3"]
+[White "Sethuraman, S.P."]
+[Black "Wang, Richard"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2653"]
+[BlackElo "2341"]
+[ECO "D45"]
+[Opening "QGD semi-Slav"]
+[Variation "Stoltz variation"]
+[WhiteFideId "5021596"]
+[BlackFideId "2608243"]
+[EventDate "2016.06.18"]
+
+1. Nf3 d5 2. e3 Nf6 3. c4 c6 4. Nc3 e6 5. d4 Nbd7 6. Qc2 Bb4 7. Bd3 Qe7 8. O-O
+O-O 9. a3 Bxc3 10. bxc3 b6 11. cxd5 exd5 12. c4 Ba6 13. cxd5 Bxd3 14. Qxd3 cxd5
+15. Bb2 Ne4 16. a4 Rfc8 17. Rfc1 Nd6 18. Ba3 Qe4 19. Qa6 Nc4 20. Bb4 Qe6 21. Be1
+Rc7 22. Rc3 Rac8 23. Rac1 Nb8 24. Qb5 a6 25. Qb1 h6 26. Ne5 Nd7 27. Nd3 Nf6 28.
+Qa2 a5 29. R3c2 h5 30. Qb3 Ne4 31. Nf4 Qf5 32. f3 Ned6 33. Rc3 Ne8 34. Ne2 Re7
+35. e4 Qd7 36. Nf4 Nf6 37. Nxd5 Nxd5 38. Rxc4 Rxc4 39. Qxc4 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.20"]
+[Round "3.4"]
+[White "Bitan, Banerjee"]
+[Black "Shankland, Samuel L"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2341"]
+[BlackElo "2646"]
+[ECO "B92"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Opovcensky variation"]
+[WhiteFideId "5024803"]
+[BlackFideId "2004887"]
+[EventDate "2016.06.18"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 Nbd7 7. O-O g6 8. a4
+Bg7 9. Re1 O-O 10. Bf1 Re8 11. Bg5 h6 12. Bh4 b6 13. Nd5 Bb7 14. Bc4 e6 15.
+Nxf6+ Nxf6 16. f3 d5 17. exd5 Bxd5 18. Bf1 Bb7 19. Nb3 Qc7 20. Bg3 e5 21. a5 b5
+22. Bf2 e4 23. Bb6 Qc8 24. fxe4 Nxe4 25. c3 Qf5 26. Qc2 Qh5 27. Be2 Qh4 28. Bf3
+Ng5 29. Qf2 Nxf3+ 30. gxf3 Qh5 31. Nd4 Bf6 32. Rxe8+ Rxe8 33. Re1 Rxe1+ 34. Qxe1
+Bxf3 35. Qe8+ Kg7 36. Nxf3 Qxf3 37. Bc5 Qd1+ 38. Kf2 Bh4+ 39. Kg2 Qd5+ 40. Kh3
+Qf3+ 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.20"]
+[Round "3.5"]
+[White "Sambuev, Bator"]
+[Black "Haessel, Dale R."]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2540"]
+[BlackElo "2234"]
+[ECO "A48"]
+[Opening "King's Indian"]
+[Variation "Torre attack"]
+[WhiteFideId "4128290"]
+[BlackFideId "2012618"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 d5 5. e3 c5 6. c3 Qb6 7. Qb3 O-O 8. Be2
+Nc6 9. O-O Bf5 10. Qa3 cxd4 11. exd4 h6 12. Bh4 Nh5 13. Rfe1 Nf4 14. Bf1 g5 15.
+Bg3 e6 16. h4 Bf6 17. hxg5 hxg5 18. Ne5 Be7 19. Qb3 Qc7 20. Ndf3 Kg7 21. Bxf4
+gxf4 22. Bd3 Nxe5 23. Nxe5 Bxd3 24. Nxd3 Rh8 25. Qd1 Rh4 26. Qf3 Bd6 27. Kf1 Qe7
+28. Ke2 Qg5 29. Rh1 Rah8 30. Rxh4 Rxh4 31. b3 Rg4 32. Ne1 Qg6 33. Rd1 Rg5 34.
+Rd3 b5 35. b4 Rh5 36. Rd1 Rh8 37. Qd3 Rc8 38. Ra1 e5 39. dxe5 Bxe5 40. Rc1 Qc6
+41. Nf3 Bxc3 42. Nd4 Qe8+ 43. Kf1 Bxb4 44. Rb1 Rc4 45. a3 Bc5 46. Nb3 Qe4 47.
+Qxe4 dxe4 48. Nd2 Rd4 49. Rxb5 Rxd2 50. Rxc5 f3 51. gxf3 exf3 52. Kg1 Rd6 53.
+Rc3 Rg6+ 54. Kh1 Rf6 55. Kh2 Kg6 56. Kg3 Kg5 57. a4 a5 58. Rc5+ Rf5 59. Rb5 Kf6
+60. Rb3 Ke5 61. Re3+ Kd4 62. Kg4 Rf6 63. Kg5 Rg6+ 64. Kf5 Kc5 65. Rxf3 Kb4 66.
+Rf4+ Kb3 67. Ke5 Re6+ 68. Kd5 Re7 69. Kc6 Re6+ 70. Kc5 Re5+ 71. Kb6 Ka3 72. Kc6
+Kb3 73. Rxf7 Kxa4 74. f4 Re1 75. f5 Rf1 76. f6 Kb3 77. Rb7+ Kc3 78. f7 a4 79.
+Ra7 Kb3 80. Kd6 1/2-1/2
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.21"]
+[Round "4.1"]
+[White "Shirov, Alexei"]
+[Black "Bitan, Banerjee"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[WhiteElo "2682"]
+[BlackElo "2341"]
+[ECO "C02"]
+[Opening "French"]
+[Variation "advance, Paulsen attack"]
+[WhiteFideId "2209390"]
+[BlackFideId "5024803"]
+[EventDate "2016.06.18"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 Nh6 7. b4 cxd4 8. cxd4 Nf5
+9. Be3 f6 10. exf6 gxf6 11. Bd3 Nxe3 12. fxe3 Bh6 13. Qe2 Bd7 14. Nc3 Ne7 15.
+Nd2 O-O 16. Nb3 f5 17. Nc5 Bc8 18. O-O Qd8 19. Rf3 Rf6 20. Bb5 a5 21. bxa5 Rxa5
+22. a4 Ng6 23. Rh3 Bf8 24. Qh5 Rf7 25. Nd3 Bd6 26. Rf1 Bd7 27. g4 Rg7 28. Kh1
+fxg4 29. Qxg4 Bc8 30. Qh5 b6 31. Ne2 Raa7 32. Nef4 Raf7 33. Rg3 Bd7 34. Rfg1
+Bxb5 35. axb5 Bxf4 36. exf4 Qf6 37. Ne5 Nxe5 38. fxe5 Qe7 39. Qh6 Rxg3 40. Rxg3+
+Kh8 41. Kg2 Rf8 42. Rg6 Rg8 43. Rg3 Rf8 44. Kh3 Qf7 45. Kh4 Qe7+ 46. Kh3 Qf7 47.
+Kh4 1/2-1/2
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.21"]
+[Round "4.2"]
+[White "Ganguly, Surya Shekhar"]
+[Black "Sambuev, Bator"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2654"]
+[BlackElo "2540"]
+[ECO "C17"]
+[Opening "French"]
+[Variation "Winawer, advance, 5.a3"]
+[WhiteFideId "5002150"]
+[BlackFideId "4128290"]
+[EventDate "2016.06.18"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Ba5 6. b4 cxd4 7. Qg4 Ne7 8. bxa5
+dxc3 9. Qxg7 Rg8 10. Qxh7 Nbc6 11. Nf3 Qc7 12. Bf4 Bd7 13. a6 O-O-O 14. axb7+
+Kb8 15. Qd3 Rg4 16. g3 Ng6 17. Qxc3 Nxf4 18. h3 Nxh3 19. Rxh3 Re4+ 20. Kd2 f6
+21. Bd3 Qb6 22. Rh2 Rxe5 23. Nxe5 fxe5 24. Kc1 Nd4 25. Rb1 Qd6 26. Rh7 Nc6 27.
+Bb5 Nd4 28. Bd3 Nc6 29. f3 Be8 30. Rh8 e4 31. fxe4 dxe4 32. Bxe4 Nd4 33. Qd3
+Ne2+ 34. Kd2 Nd4 35. Rb4 e5 36. Rc4 Qe7 37. Rc8+ Rxc8 38. bxc8=Q+ Kxc8 39. Qa6+
+Kd8 40. Qa5+ Kc8 41. Ke1 Qg5 42. Qc5+ Kd7 43. Rh7+ Ke6 44. Qd5+ 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.21"]
+[Round "4.3"]
+[White "Shankland, Samuel L"]
+[Black "Sethuraman, S.P."]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2646"]
+[BlackElo "2653"]
+[ECO "E84"]
+[Opening "King's Indian"]
+[Variation "Saemisch, Panno main line"]
+[WhiteFideId "2004887"]
+[BlackFideId "5021596"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. f3 d6 6. Nge2 Nc6 7. Be3 a6 8. Qd2
+Rb8 9. Rc1 h5 10. Nd1 e5 11. d5 Ne7 12. g3 c6 13. Bg2 b5 14. b3 a5 15. O-O Ba6
+16. Nb2 bxc4 17. bxc4 Rb4 18. Rc2 h4 19. Rfc1 hxg3 20. hxg3 Qb8 21. Nd3 Ra4 22.
+Rc3 Rc8 23. Bh3 Rc7 24. c5 cxd5 25. cxd6 Rxc3 26. Nxc3 Ra3 27. Bc5 Rxc3 28. Qxc3
+dxe4 29. dxe7 exd3 30. Qxa5 Qb2 31. Rf1 Bb5 32. Be3 e4 33. a4 Bc6 34. fxe4 Qe2
+35. Qd2 Nxe4 36. Qxe2 dxe2 37. Re1 Nc3 38. a5 Nd1 39. Bc5 Nc3 40. Bg2 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.21"]
+[Round "4.4"]
+[White "Wang, Richard"]
+[Black "Findlay, Ian T."]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2341"]
+[BlackElo "2257"]
+[ECO "D05"]
+[Opening "Queen's pawn game, Rubinstein (Colle-Zukertort) variation"]
+[WhiteFideId "2608243"]
+[BlackFideId "2600226"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 d5 4. Bd3 c5 5. b3 Nc6 6. O-O Bd6 7. Bb2 O-O 8. Ne5
+Qc7 9. f4 cxd4 10. exd4 Nb4 11. Nc3 Nxd3 12. Qxd3 Bd7 13. Rf3 Bc6 14. Rh3 Ne4
+15. Nxe4 dxe4 16. Qg3 f5 17. c4 Bxe5 18. fxe5 f4 19. Qh4 h6 20. Qg4 Qf7 21. Rxh6
+f3 22. Rf6 Qe7 23. Qxe6+ Qxe6 24. Rxe6 f2+ 25. Kf1 e3 26. Rxc6 bxc6 27. Ba3 Rf4
+28. Bc5 Re4 29. Ke2 a6 30. b4 Kf7 31. a4 g5 32. g3 Rh8 33. Rh1 Kg6 34. a5 Kf5
+35. h3 Ke6 36. b5 cxb5 37. cxb5 Rg4 38. Rd1 Rxg3 39. d5+ Kxe5 40. Bd4+ Ke4 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.21"]
+[Round "4.5"]
+[White "Valencia, Belsar"]
+[Black "Haessel, Dale R."]
+[Result "1/2-1/2"]
+[BlackTitle "FM"]
+[WhiteElo "2277"]
+[BlackElo "2234"]
+[ECO "A05"]
+[Opening "Reti"]
+[Variation "King's Indian attack, Spassky's variation"]
+[WhiteFideId "5204429"]
+[BlackFideId "2012618"]
+[EventDate "2016.06.18"]
+
+1. Nf3 Nf6 2. g3 b5 3. Bg2 Bb7 4. d3 e6 5. e4 d6 6. O-O Nbd7 7. Nbd2 c5 8. Re1
+Be7 9. c3 O-O 10. a4 a6 11. b3 Qc7 12. Bb2 Ne5 13. Qe2 Bc6 14. axb5 axb5 15. Ng5
+c4 16. bxc4 bxc4 17. Nxc4 Nxc4 18. dxc4 Nd7 19. Nf3 Bb7 20. Ba3 Nb6 21. Nd2 Ba6
+22. Bf1 Rfc8 23. Bb4 h6 24. Qd3 Nd7 25. f4 Bb7 26. Qe3 Rxa1 27. Rxa1 Ra8 28.
+Rxa8+ Bxa8 29. Bg2 Nb6 30. Qd3 Qa7 31. Qe3 Qc7 32. Bf1 Na4 33. h3 Kf8 34. Kh2
+Nc5 35. Bg2 Bb7 36. Bxc5 dxc5 37. Qd3 f6 38. Nf1 Qd8 39. Qe2 Qa5 40. Qb2 Qa8 41.
+Qe2 1/2-1/2
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.22"]
+[Round "5.1"]
+[White "Sethuraman, S.P."]
+[Black "Shirov, Alexei"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2653"]
+[BlackElo "2682"]
+[ECO "D47"]
+[Opening "QGD semi-Slav"]
+[Variation "Meran, Wade variation"]
+[WhiteFideId "5021596"]
+[BlackFideId "2209390"]
+[EventDate "2016.06.18"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 e6 5. Nf3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+Bb7 9. a3 Bd6 10. O-O O-O 11. Qc2 Rc8 12. b4 c5 13. bxc5 Bxf3 14. cxd6 Nd5 15.
+gxf3 Qg5+ 16. Kh1 Qh5 17. Be2 Nxc3 18. Rg1 Nf6 19. Bb2 Na4 20. Qd2 Rfd8 21. e4
+Rxd6 22. e5 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.22"]
+[Round "5.2"]
+[White "Haessel, Dale R."]
+[Black "Ganguly, Surya Shekhar"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2234"]
+[BlackElo "2654"]
+[ECO "D45"]
+[Opening "QGD semi-Slav"]
+[Variation "Stoltz variation"]
+[WhiteFideId "2012618"]
+[BlackFideId "5002150"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. b3 O-O 8. Be2 b6
+9. O-O Bb7 10. Bb2 Qe7 11. Rfd1 Rfd8 12. Rac1 Rac8 13. Qb1 h6 14. h3 a6 15. a4
+c5 16. Qa2 dxc4 17. bxc4 cxd4 18. exd4 Nh5 19. g3 Ndf6 20. Rd3 Ba8 21. Re3 Qb7
+22. Kh2 g5 23. Rg1 Ng7 24. Nd2 Nf5 25. Nce4 Nxe4 26. Rxe4 Bb4 27. Bf3 Bxd2 28.
+Ba1 Bb4 29. d5 Bf8 30. dxe6 Qe7 31. Re5 fxe6 32. Bg4 Rc5 33. Rge1 Rxe5 34. Rxe5
+Bg7 35. c5 Bxe5 36. Bxe5 Bd5 37. Qe2 Qxc5 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.22"]
+[Round "5.3"]
+[White "Findlay, Ian T."]
+[Black "Shankland, Samuel L"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2257"]
+[BlackElo "2646"]
+[ECO "C92"]
+[Opening "Ruy Lopez"]
+[Variation "closed, Flohr-Zaitsev system (Lenzerheide variation)"]
+[WhiteFideId "2600226"]
+[BlackFideId "2004887"]
+[EventDate "2016.06.18"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Bb7 10. d4 Nd7 11. a4 Na5 12. Bc2 c5 13. dxc5 dxc5 14. Nbd2 Qc7 15.
+Nf1 Nc4 16. Qe2 Nd6 17. Ne3 Rae8 18. axb5 axb5 19. Rd1 Nf6 20. Nxe5 Bd8 21. Nf3
+Nfxe4 22. Qf1 Bc6 23. Nd5 Qb7 24. Nf4 Bb6 25. Ng5 Nxg5 26. Rxd6 Ne4 27. Bxe4
+Rxe4 28. Rd1 c4 29. Bd2 Qc7 30. Ne2 h6 31. Nd4 Bxd4 32. cxd4 Rxd4 33. Bb4 Rfd8
+34. Rxd4 Rxd4 35. Rd1 Re4 36. Re1 Rf4 37. Qe2 Rf6 38. Qe5 Qb7 39. f3 Bxf3 40.
+gxf3 Qxf3 41. Qe8+ Kh7 42. Qe4+ Rg6+ 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.22"]
+[Round "5.4"]
+[White "Bitan, Banerjee"]
+[Black "Valencia, Belsar"]
+[Result "1/2-1/2"]
+[WhiteElo "2341"]
+[BlackElo "2277"]
+[ECO "E71"]
+[Opening "King's Indian"]
+[Variation "Makagonov system (5.h3)"]
+[WhiteFideId "5024803"]
+[BlackFideId "5204429"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 c6 8. Nf3 Na6
+9. Be2 Bd7 10. Nd2 Nc7 11. a3 a5 12. Na4 b5 13. Nb6 Rb8 14. Nxd7 Qxd7 15. dxc6
+Qxc6 16. Rc1 b4 17. f3 bxa3 18. bxa3 Nd7 19. O-O Nc5 20. Rb1 N7e6 21. Nb3 Nxb3
+22. Rxb3 Nd4 23. Bxd4 exd4 24. Bd3 Rb6 25. Qc2 Rfb8 26. Rfb1 Rxb3 27. Rxb3 Rxb3
+28. Qxb3 Be5 29. Kf2 Qc5 30. g3 g5 31. Qb2 1/2-1/2
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.22"]
+[Round "5.5"]
+[White "Sambuev, Bator"]
+[Black "Wang, Richard"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2540"]
+[BlackElo "2341"]
+[ECO "B76"]
+[Opening "Sicilian"]
+[Variation "dragon, Yugoslav attack, Rauser variation"]
+[WhiteFideId "4128290"]
+[BlackFideId "2608243"]
+[EventDate "2016.06.18"]
+
+1. Nf3 c5 2. e4 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2
+O-O 9. O-O-O d5 10. exd5 Nxd5 11. Nxc6 bxc6 12. Bd4 Nxc3 13. Qxc3 Bh6+ 14. Be3
+Bxe3+ 15. Qxe3 Qb6 16. Qxe7 Be6 17. Qa3 Rfd8 18. Ba6 c5 19. Be2 c4 20. f4 c3 21.
+Qxc3 Rdc8 22. Qd4 Bf5 23. c3 Qe6 24. g4 Bxg4 25. Bxg4 Qxg4 26. Rhe1 h5 27. Qf6
+Rc4 28. Rd4 Rxd4 29. Qxd4 Qh4 30. Re2 Rd8 31. Qe3 Qg4 32. Rd2 Rxd2 33. Qxd2 h4
+34. c4 h3 35. b4 Qe6 36. Qd8+ Kh7 37. Qd3 Qe1+ 38. Kc2 Qf2+ 39. Qd2 Qf1 40. c5
+Qc4+ 41. Kb2 a5 42. a3 Kg8 43. Qc2 Qxf4 44. c6 a4 45. Ka2 Qe5 46. b5 Qe6+ 47.
+Kb2 Qe5+ 48. Kc1 Qe1+ 49. Qd1 Qe3+ 50. Qd2 Qc5+ 51. Kd1 Qg1+ 52. Kc2 Qc5+ 53.
+Qc3 Qf2+ 54. Kd3 Qxh2 55. c7 Qg3+ 56. Kd4 Qg4+ 57. Ke5 Qf5+ 58. Kd6 Qe6+ 59. Kc5
+h2 60. Qf3 Qd7 61. Kb6 Qc8 62. Qg2 Kf8 63. Qxh2 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.23"]
+[Round "6.1"]
+[White "Shirov, Alexei"]
+[Black "Findlay, Ian T."]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2682"]
+[BlackElo "2257"]
+[ECO "B78"]
+[Opening "Sicilian"]
+[Variation "dragon, Yugoslav attack, 10.O-O-O"]
+[WhiteFideId "2209390"]
+[BlackFideId "2600226"]
+[EventDate "2016.06.18"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2
+O-O 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Nxd4 12. Bxd4 b5 13. Nd5 Nxd5 14. Bxg7 Kxg7
+15. exd5 a5 16. a3 Kg8 17. Rhe1 Rc5 18. Re3 b4 19. axb4 axb4 20. Qxb4 Qa8 21.
+Bc4 Rb8 22. Ra3 Rxb4 23. Rxa8+ Kg7 24. b3 Rb7 25. Rd4 h5 26. Kd2 Bb5 27. Ra5 g5
+28. h4 Kf6 29. g3 Ke5 30. Re4+ Kf6 31. Ke3 gxh4 32. Rxh4 Kg6 33. Kd4 e5+ 34.
+dxe6 fxe6 35. Bxe6 Be2 36. Rxc5 dxc5+ 37. Ke3 Bd1 38. Bd5 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.23"]
+[Round "6.2"]
+[White "Valencia, Belsar"]
+[Black "Ganguly, Surya Shekhar"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2277"]
+[BlackElo "2654"]
+[ECO "E46"]
+[Opening "Nimzo-Indian"]
+[Variation "Reshevsky variation"]
+[WhiteFideId "5204429"]
+[BlackFideId "5002150"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Ne2 c6 6. a3 Ba5 7. g3 d5 8. cxd5
+exd5 9. Bg2 Re8 10. b4 Bc7 11. b5 Nbd7 12. O-O Nb6 13. Qd3 Be6 14. f3 Qd7 15.
+bxc6 bxc6 16. Qa6 Bf5 17. Na4 Qd6 18. Nc5 Nfd7 19. Nxd7 Qxd7 20. Ra2 h5 21. Rd1
+h4 22. g4 Bb1 23. Rb2 Bh7 24. Nc3 Nc4 25. Re2 Qd6 26. f4 Ba5 27. Na4 Be4 28.
+Bxe4 Rxe4 29. Nb2 Nxb2 30. Rxb2 Bc7 31. Qf1 Rae8 32. Rc2 Qg6 33. Rg2 Bb6 34. a4
+Qd6 35. Qd3 c5 36. dxc5 Qxc5 37. Rc2 Qe7 38. Kg2 Bxe3 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.23"]
+[Round "6.3"]
+[White "Bitan, Banerjee"]
+[Black "Sethuraman, S.P."]
+[Result "1/2-1/2"]
+[BlackTitle "GM"]
+[WhiteElo "2341"]
+[BlackElo "2653"]
+[ECO "A50"]
+[Opening "Queen's Indian accelerated"]
+[WhiteFideId "5024803"]
+[BlackFideId "5021596"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. c4 b6 3. Nc3 Bb7 4. Qc2 e6 5. e4 Bb4 6. f3 c5 7. d5 Qe7 8. Be2 b5
+9. Bg5 h6 10. Bh4 d6 11. dxe6 fxe6 12. e5 dxe5 13. cxb5 Nbd7 14. Bd3 O-O 15. Ne2
+g5 16. Bg3 e4 17. Bxe4 Bxe4 18. fxe4 Ng4 19. e5 Ne3 20. Qe4 Nf5 21. O-O Qg7 22.
+Rad1 Rae8 23. Nd5 Ba5 24. Nf6+ Nxf6 25. exf6 Qxf6 26. Be5 Qe7 27. Ng3 Bb6 28.
+Nh5 c4+ 29. Kh1 Rd8 30. Rxd8 Bxd8 31. g4 Qf7 32. Qc6 Kh7 33. gxf5 Qxh5 34. Qd7+
+Qf7 35. Rd1 Be7 36. Qxe6 Qxf5 37. Qxe7+ Rf7 38. Qd6 1/2-1/2
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.23"]
+[Round "6.4"]
+[White "Shankland, Samuel L"]
+[Black "Sambuev, Bator"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2646"]
+[BlackElo "2540"]
+[ECO "B01"]
+[Opening "Scandinavian (centre counter) defence"]
+[WhiteFideId "2004887"]
+[BlackFideId "4128290"]
+[EventDate "2016.06.18"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nf3 Bg4 4. Be2 Nc6 5. O-O O-O-O 6. d3 e5 7. h3 Bf5 8.
+Be3 Qd7 9. Nbd2 Nge7 10. Ne4 Nd5 11. Ng3 Bg6 12. Nh4 Kb8 13. Bf3 Be7 14. Nxg6
+hxg6 15. Bd2 f5 16. Re1 Bf6 17. Bxd5 Qxd5 18. Bc3 Rh4 19. Qe2 Qd7 20. Rad1 a6
+21. a3 g5 22. Qf3 Rf4 23. Qh5 Nd4 24. Rd2 Rh4 25. Qd1 g6 26. Bxd4 Rxd4 27. Qe2
+Qb5 28. b3 Qc5 29. a4 Rh8 30. Qe3 Qb4 31. c3 Qxc3 32. Ne2 Qb4 33. Nxd4 exd4 34.
+Qe2 g4 35. Rdd1 gxh3 36. Qe6 Qf8 37. g3 Qg7 38. Kh2 f4 39. gxf4 Bh4 40. Qe5 Qh6
+41. Rc1 Rc8 42. Qxd4 Rd8 43. Qe5 Qh7 44. Rc3 Qf7 45. Qe3 g5 46. Rc4 g4 47. Rg1
+Qd7 48. Re4 Rg8 49. Qe2 Ka7 50. a5 Bf6 51. Qe3+ Kb8 52. b4 c6 53. Re1 Bd8 54.
+Re6 Kc8 55. Qe4 Qg7 56. Qf5 Qd7 57. R6e5 Qxf5 58. Rxf5 Bh4 59. Ree5 Rd8 60. Rf7
+Rg8 61. Rh5 Bxf2 62. Rg5 Rd8 63. Rxg4 c5 64. f5 cxb4 65. Rc4+ Kb8 66. Rxb4 Rxd3
+67. Rbxb7+ Kc8 68. Rfc7+ Kd8 69. Rg7 Kc8 70. Rbf7 Rd8 71. Kxh3 Bd4 72. Rg6 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.23"]
+[Round "6.5"]
+[White "Wang, Richard"]
+[Black "Haessel, Dale R."]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2341"]
+[BlackElo "2234"]
+[ECO "A36"]
+[Opening "English"]
+[Variation "ultra-symmetrical variation"]
+[WhiteFideId "2608243"]
+[BlackFideId "2012618"]
+[EventDate "2016.06.18"]
+
+1. c4 c5 2. g3 Nc6 3. Bg2 g6 4. Nc3 Bg7 5. d3 e6 6. e4 Nge7 7. Nge2 d6 8. Be3
+Nd4 9. h4 h5 10. O-O O-O 11. a3 Nec6 12. Rb1 a5 13. Nb5 Nxb5 14. cxb5 Nd4 15. a4
+Nxe2+ 16. Qxe2 e5 17. Bg5 Qe8 18. Bd2 Be6 19. Bc3 Qd7 20. Qd2 Kh7 21. Ra1 b6 22.
+f4 Bh6 23. Qf2 Bg4 24. f5 Rae8 25. Rae1 d5 26. exd5 Bxf5 27. Rxe5 Rxe5 28. Bxe5
+Bxd3 29. Re1 Bf5 30. d6 Bg7 31. Bc6 Qc8 32. Bxg7 Kxg7 33. Re7 Rd8 34. Qf4 Qb8
+35. Bd5 Rf8 36. Qe5+ Kh6 37. Bxf7 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.24"]
+[Round "7.1"]
+[White "Sambuev, Bator"]
+[Black "Shirov, Alexei"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2540"]
+[BlackElo "2682"]
+[ECO "A09"]
+[Opening "Reti opening"]
+[WhiteFideId "4128290"]
+[BlackFideId "2209390"]
+[EventDate "2016.06.18"]
+
+1. Nf3 d5 2. c4 c6 3. e3 Nf6 4. Nc3 e6 5. b3 Nbd7 6. Qc2 Bd6 7. Bb2 O-O 8. h3 a6
+9. g4 b5 10. g5 Nh5 11. Be2 Bb7 12. O-O-O g6 13. Nh2 Bxh2 14. Rxh2 Qxg5 15. h4
+Qh6 16. Rg1 Ndf6 17. c5 e5 18. Qf5 Rfe8 19. Qg5 Qxg5 20. hxg5 Nd7 21. Bxh5 gxh5
+22. b4 a5 23. a3 axb4 24. axb4 Nf8 25. Ne2 Bc8 26. f4 Bg4 27. fxe5 Ng6 28. d4
+Ra4 29. Kc2 Rxb4 30. Ra1 Bf5+ 31. Kc1 h4 32. Ng1 Rc4+ 33. Kd1 b4 34. Ra6 b3 35.
+Ke1 h3 36. Rb6 Rc2 37. Rxc2 bxc2 38. Nxh3 Bxh3 39. Rxc6 Bf5 40. Rf6 Ne7 41. Kd2
+Rc8 42. Ba3 Be4 43. e6 fxe6 44. Rxe6 Nc6 45. Kc3 Kf7 46. Rf6+ Ke7 47. Bc1 Nd8
+48. Ra6 Nc6 49. Bb2 Kf7 50. Ra1 Kg6 51. Rg1 Rb8 52. Rg4 Nb4 53. Ba3 Na2+ 54. Kd2
+Rb3 55. Rxe4 dxe4 56. Kxc2 Rxa3 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.24"]
+[Round "7.2"]
+[White "Ganguly, Surya Shekhar"]
+[Black "Wang, Richard"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2654"]
+[BlackElo "2341"]
+[ECO "B76"]
+[Opening "Sicilian"]
+[Variation "dragon, Yugoslav attack, Rauser variation"]
+[WhiteFideId "5002150"]
+[BlackFideId "2608243"]
+[EventDate "2016.06.18"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2
+O-O 9. O-O-O d5 10. Qe1 e5 11. Nxc6 bxc6 12. exd5 cxd5 13. Bg5 Be6 14. Bc4 Qc7
+15. Bxd5 Nxd5 16. Nxd5 Bxd5 17. Rxd5 Rab8 18. b3 Rfc8 19. c4 Qb7 20. Qe4 Qb4 21.
+Kd1 f5 22. Qe1 Qa3 23. Rd7 h6 24. Qd2 Rb6 25. Rxg7+ 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.24"]
+[Round "7.3"]
+[White "Sethuraman, S.P."]
+[Black "Valencia, Belsar"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2653"]
+[BlackElo "2277"]
+[ECO "A45"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "5021596"]
+[BlackFideId "5204429"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. Bf4 g6 3. Nc3 d5 4. e3 Bg7 5. h4 c6 6. Be2 h5 7. Qd2 Bf5 8. Nf3
+Nbd7 9. Ng5 Nh7 10. f3 Nxg5 11. Bxg5 Nf6 12. Na4 b5 13. Nc5 Nd7 14. Nd3 Nb6 15.
+Qc3 Qc8 16. O-O-O Bxd3 17. Bxd3 Qd7 18. e4 Bh6 19. Bxh6 Rxh6 20. Kb1 a6 21. Rhe1
+e6 22. Re2 Rh8 23. Rde1 O-O-O 24. exd5 Nxd5 25. Qd2 Qc7 26. Re5 Kb8 27. c4 bxc4
+28. Bxc4 Ka7 29. Rc1 Rd7 30. Bb3 Rb8 31. g4 hxg4 32. fxg4 Qb6 33. h5 gxh5 34.
+gxh5 Ne7 35. Rec5 Rbd8 36. Qf2 Nf5 37. d5 Rc7 38. Qf4 Nd6 39. Rxc6 Rxc6 40. Rxc6
+Qg1+ 41. Rc1 Qg2 42. dxe6 fxe6 43. Qd4+ 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.24"]
+[Round "7.4"]
+[White "Haessel, Dale R."]
+[Black "Shankland, Samuel L"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2234"]
+[BlackElo "2646"]
+[ECO "E12"]
+[Opening "Queen's Indian"]
+[Variation "Petrosian system"]
+[WhiteFideId "2012618"]
+[BlackFideId "2004887"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 c5 5. d5 Ba6 6. b3 exd5 7. cxd5 g6 8. Bb2 Bg7
+9. Nc3 O-O 10. Qc2 Re8 11. g3 d6 12. e3 Bb7 13. Rd1 Na6 14. Bg2 Nc7 15. O-O
+Nfxd5 16. Nh4 Nxc3 17. Bxb7 Nxd1 18. Bxg7 Kxg7 19. Bxa8 Nxe3 20. fxe3 Nxa8 21.
+Qc4 Qe7 22. e4 Nc7 23. Rf4 Ne6 24. Rg4 Nd4 25. Qc3 Qe5 26. Qe3 d5 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.24"]
+[Round "7.5"]
+[White "Findlay, Ian T."]
+[Black "Bitan, Banerjee"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[WhiteElo "2257"]
+[BlackElo "2341"]
+[ECO "C05"]
+[Opening "French"]
+[Variation "Tarrasch, closed variation"]
+[WhiteFideId "2600226"]
+[BlackFideId "5024803"]
+[EventDate "2016.06.18"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 a5 8. O-O a4
+9. a3 cxd4 10. cxd4 Nb6 11. Nf3 Na5 12. Bg5 Qc7 13. Rc1 Nac4 14. Rc2 Bd7 15. Nc3
+Bc6 16. Qe2 h6 17. Bc1 Be7 18. Nd2 Na5 19. f4 g6 20. g4 Rg8 21. Kh1 Nbc4 22. f5
+b5 23. Nf3 g5 24. Qf2 Qa7 25. f6 Bd8 26. h4 gxh4 27. Bxh6 Rxg4 28. Rg1 Rxg1+ 29.
+Qxg1 Kd7 30. Qg8 Kc8 31. Rg2 Nb3 32. Rg4 b4 33. axb4 Nxb2 34. Nb5 Bxb5 35. Bxb5
+a3 36. Qe8 Qc7 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.25"]
+[Round "8.1"]
+[White "Shirov, Alexei"]
+[Black "Haessel, Dale R."]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2682"]
+[BlackElo "2234"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "2209390"]
+[BlackFideId "2012618"]
+[EventDate "2016.06.18"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8.
+Qxd8+ Kxd8 9. Nc3 Ke8 10. h3 h5 11. Bf4 Be7 12. Rad1 Be6 13. Ng5 Rh6 14. g3 Bxg5
+15. Bxg5 Rg6 16. h4 f6 17. exf6 gxf6 18. Bf4 Nxh4 19. f3 Nf5 20. Kf2 Kf7 21. Rh1
+Rag8 22. Rxh5 Rc8 23. g4 Ne7 24. Ne4 b6 25. Re1 Nd5 26. Bg3 Nb4 27. Bxc7 Kg8 28.
+Nd6 Rxc7 29. Rxe6 Nxc2 30. Re8+ Kg7 31. Reh8 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.25"]
+[Round "8.2"]
+[White "Shankland, Samuel L"]
+[Black "Ganguly, Surya Shekhar"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2646"]
+[BlackElo "2654"]
+[ECO "D35"]
+[Opening "QGD"]
+[Variation "exchange variation"]
+[WhiteFideId "2004887"]
+[BlackFideId "5002150"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 c5 7. Rb1 Be7 8.
+Bc4 O-O 9. Ne2 Nc6 10. O-O b6 11. Be3 Bb7 12. Nf4 cxd4 13. cxd4 Rc8 14. Nxe6
+fxe6 15. Bxe6+ Kh8 16. Bxc8 Qxc8 17. Qa4 b5 18. Rxb5 Ba6 19. Rfb1 Bxb5 20. Qxb5
+h6 21. h3 a6 22. Qb7 Qxb7 23. Rxb7 Bg5 24. Rc7 Nb4 25. a3 Nd3 26. e5 Rb8 27. Kh2
+Kh7 28. Kg3 Rf8 29. Rc6 Bf4+ 30. Kf3 Ne1+ 31. Ke4 Nxg2 32. d5 Nxe3 33. fxe3 Bg3
+34. d6 Re8 35. d7 Rd8 36. e6 Bh4 37. Kd5 Kg8 38. Rxa6 Kf8 39. Ra4 Bf6 40. Rc4
+Ke7 41. Rc8 Bg5 42. a4 Bxe3 43. a5 h5 44. Kc6 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.25"]
+[Round "8.3"]
+[White "Sethuraman, S.P."]
+[Black "Findlay, Ian T."]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2653"]
+[BlackElo "2257"]
+[ECO "A13"]
+[Opening "English"]
+[Variation "Wimpey system"]
+[WhiteFideId "5021596"]
+[BlackFideId "2600226"]
+[EventDate "2016.06.18"]
+
+1. Nf3 Nf6 2. c4 e6 3. e3 d5 4. b3 c5 5. Bb2 Nc6 6. cxd5 exd5 7. Bb5 Bd6 8. d4
+O-O 9. dxc5 Bxc5 10. O-O Qd6 11. Qc2 Nb4 12. Qe2 Bg4 13. a3 Nc6 14. Nbd2 Rfe8
+15. Qd3 Rad8 16. Rfc1 Bb6 17. b4 Re7 18. Bxc6 bxc6 19. Nd4 Bd7 20. a4 Ne4 21.
+N2f3 Ree8 22. Ba3 Qh6 23. Ra2 Rc8 24. Rac2 g5 25. g3 g4 26. Nh4 Bd8 27. Ng2 Ng5
+28. Bb2 Bf6 29. Ne1 Nh3+ 30. Kg2 Bg5 31. b5 c5 32. Nc6 Nxf2 33. Rxf2 Bxe3 34.
+Rd1 Rxc6 35. bxc6 Bxc6 36. Qe2 d4+ 37. Kg1 Qg6 38. Ng2 Qe4 39. Kf1 c4 40. Bxd4
+Bxd4 41. Qxe4 Rxe4 42. Rf4 Rxf4+ 43. Nxf4 Be5 44. a5 a6 45. Rd8+ Kg7 46. Rc8 Bb5
+47. Nd5 h5 48. Kf2 Bd4+ 49. Ke2 Be5 50. Ke3 h4 51. gxh4 Bxh2 52. Nc3 Bd7 53.
+Rxc4 Bg3 54. h5 Be5 55. Rc5 f6 56. Nd5 Kh6 57. Nf4 Bb5 58. Rc8 Kg5 59. Rg8+ Kf5
+60. Nd5 g3 61. h6 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.25"]
+[Round "8.4"]
+[White "Bitan, Banerjee"]
+[Black "Sambuev, Bator"]
+[Result "1/2-1/2"]
+[BlackTitle "GM"]
+[WhiteElo "2341"]
+[BlackElo "2540"]
+[ECO "A42"]
+[Opening "Modern defence"]
+[Variation "Averbakh system"]
+[WhiteFideId "5024803"]
+[BlackFideId "4128290"]
+[EventDate "2016.06.18"]
+
+1. d4 d6 2. c4 g6 3. Nc3 Bg7 4. e4 e5 5. d5 a5 6. Bd3 Na6 7. h3 h5 8. Nf3 Bd7 9.
+a3 Bh6 10. Bxh6 Nxh6 11. Rb1 Nc5 12. b4 axb4 13. axb4 Nxd3+ 14. Qxd3 Kf8 15. Ke2
+Kg7 16. Ra1 Qe7 17. Kd2 f5 18. Kc2 Nf7 19. h4 c6 20. Kb2 fxe4 21. Nxe4 cxd5 22.
+cxd5 Bf5 23. Qe3 Rxa1 24. Rxa1 Rc8 25. Rc1 Rxc1 26. Kxc1 Qc7+ 27. Qc3 Qb6 28.
+Nfg5 Bxe4 29. Nxe4 Qb5 30. Qf3 Qc4+ 31. Kb2 Qxb4+ 32. Kc2 Qc4+ 33. Kb2 Qb5+ 34.
+Kc1 Qc4+ 35. Kb2 Qd4+ 36. Kc2 Qxd5 37. Qf6+ Kh7 38. f3 Qc6+ 39. Kd2 Qc7 40. g4
+hxg4 41. fxg4 d5 42. Nc5 Qxc5 43. Qxf7+ Kh6 44. Qf6 Qa5+ 45. Kc2 Qc7+ 46. Kd1
+Kh7 47. h5 gxh5 48. Qf5+ Kh8 49. Qf8+ Kh7 50. Qf5+ Kg8 51. Qg6+ Kh8 52. Qh6+ Kg8
+53. Qg6+ Kf8 54. Qf6+ Qf7 55. Qh8+ Ke7 56. Qxe5+ Qe6 57. Qg7+ Qf7 58. Qe5+ Kd7
+59. gxh5 Qf3+ 60. Kd2 b5 61. h6 Qg2+ 62. Kc3 Qh3+ 63. Kb4 Qxh6 64. Qxd5+ Qd6+
+65. Qxd6+ Kxd6 66. Kxb5 1/2-1/2
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.25"]
+[Round "8.5"]
+[White "Valencia, Belsar"]
+[Black "Wang, Richard"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2277"]
+[BlackElo "2341"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "5204429"]
+[BlackFideId "2608243"]
+[EventDate "2016.06.18"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 g6 4. c3 e5 5. d3 Bg7 6. e4 Nge7 7. a3 O-O 8. b4 d6
+9. Nbd2 h6 10. O-O Be6 11. Bb2 a6 12. Re1 Qd7 13. Nb3 b6 14. Rb1 f5 15. exf5
+gxf5 16. Nfd2 Rae8 17. Qe2 Ng6 18. Qf1 e4 19. dxe4 f4 20. Nc1 Nce5 21. Qxa6 c4
+22. f3 Qd8 23. Ne2 h5 24. Rf1 Bh6 25. Rbd1 fxg3 26. hxg3 h4 27. f4 hxg3 28. Nf3
+Nxf4 29. Nxf4 Bxf4 30. Bc1 Bxc1 31. Rxc1 Nxf3+ 32. Bxf3 Qg5 33. Rce1 Qd2 34. Re2
+Qxc3 35. Qb5 Re7 36. Qg5+ Rg7 37. Qe3 Qe5 38. Qxb6 Rgf7 39. Kg2 Bg4 40. Re3 Qh5 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.26"]
+[Round "9.1"]
+[White "Ganguly, Surya Shekhar"]
+[Black "Shirov, Alexei"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2654"]
+[BlackElo "2682"]
+[ECO "B33"]
+[Opening "Sicilian"]
+[Variation "Pelikan, Chelyabinsk variation"]
+[WhiteFideId "5002150"]
+[BlackFideId "2209390"]
+[EventDate "2016.06.18"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3
+b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 Bg5 12. Nc2 Rb8 13. a4 bxa4 14. Ncb4 Nxb4 15.
+cxb4 O-O 16. Rxa4 a5 17. h4 Bh6 18. b5 Bd7 19. Nc3 d5 20. exd5 e4 21. Be2 f5 22.
+d6 Kh8 23. g3 f4 24. Rxe4 Bf5 25. Re5 Qf6 26. Qd5 fxg3 27. fxg3 Qg6 28. g4 Bc8
+29. Ne4 Bb7 30. h5 Qxe4 31. Qxe4 Bxe4 32. Rxe4 Rfd8 33. Rd4 Bc1 34. d7 Bxb2 35.
+Rd5 Rb7 36. O-O g6 37. h6 Ba3 38. Rf7 a4 39. Re5 Rbb8 40. Bc4 Bf8 41. Kg2 a3 42.
+Ba2 Bd6 43. Re6 Bf8 44. b6 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.26"]
+[Round "9.2"]
+[White "Sambuev, Bator"]
+[Black "Sethuraman, S.P."]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2540"]
+[BlackElo "2653"]
+[ECO "B82"]
+[Opening "Sicilian"]
+[Variation "Scheveningen, 6.f4"]
+[WhiteFideId "4128290"]
+[BlackFideId "5021596"]
+[EventDate "2016.06.18"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. f4 Be7 7. Bb5+ Bd7 8. e5
+Nd5 9. Nxd5 exd5 10. e6 Bc6 11. exf7+ Kxf7 12. Bxc6 bxc6 13. Nxc6 Nxc6 14. Qxd5+
+Kf8 15. Qxc6 Rc8 16. Qe4 Bh4+ 17. g3 d5 18. Qf5+ Bf6 19. O-O Qb6+ 20. Rf2 Re8
+21. Kf1 Qc6 22. Bd2 Re4 23. Bc3 d4 24. Bb4+ Kf7 25. Qc5 Qa6+ 26. Kg1 Rd8 27. Ba5
+Rd7 28. Re1 Rxe1+ 29. Bxe1 Kg8 30. Qf5 Rd8 31. Ba5 Re8 32. Qd5+ Kh8 33. Bc7 h6
+34. Be5 Rd8 35. Qe4 Re8 36. b3 Qxa2 37. Qc6 Rf8 38. Qc5 Kg8 39. Qxd4 Bxe5 40.
+Qxe5 Qa6 41. Rd2 Qb6+ 42. Kg2 Rc8 43. c4 Rb8 44. Rd3 Kh7 45. Qe4+ Kh8 46. f5 Qf6
+47. Kh3 Rf8 48. Rd5 Rb8 49. c5 a5 50. Re5 Qf7 51. c6 Rd8 52. Qf3 Qc7 53. Re6 Qf7
+54. Qg4 Qf8 55. Qg6 Qg8 56. c7 Rf8 57. Re7 Rc8 58. f6 1-0
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.26"]
+[Round "9.3"]
+[White "Wang, Richard"]
+[Black "Shankland, Samuel L"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2341"]
+[BlackElo "2646"]
+[ECO "A47"]
+[Opening "Queen's Indian defence"]
+[WhiteFideId "2608243"]
+[BlackFideId "2004887"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. Nf3 b6 3. Bg5 e6 4. e4 h6 5. Bxf6 Qxf6 6. Bd3 Bb7 7. O-O g6 8. Nbd2
+Bg7 9. Qe2 O-O 10. Rfe1 d6 11. e5 Qe7 12. c3 c5 13. Nc4 Bxf3 14. Qxf3 d5 15. Nd6
+cxd4 16. cxd4 Nc6 17. Qe3 Nxd4 18. Nxf7 Qxf7 19. Qxd4 Rac8 20. Rac1 g5 21. g3
+Bxe5 22. Qxe5 Rxc1 23. Rxc1 Qxf2+ 24. Kh1 Qf3+ 25. Kg1 Qf2+ 26. Kh1 Qf3+ 27. Kg1
+Qf2+ 28. Kh1 Qf3+ 29. Kg1 Qf2+ 1/2-1/2
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.26"]
+[Round "9.4"]
+[White "Haessel, Dale R."]
+[Black "Bitan, Banerjee"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[WhiteElo "2234"]
+[BlackElo "2341"]
+[ECO "E73"]
+[Opening "King's Indian"]
+[Variation "Semi-Averbakh system"]
+[WhiteFideId "2012618"]
+[BlackFideId "5024803"]
+[EventDate "2016.06.18"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Be3 Na6 7. g4 c5 8. g5 Nd7
+9. d5 Nc7 10. h4 b5 11. cxb5 a6 12. bxa6 Bxa6 13. h5 Ne5 14. f4 Nc4 15. Bxc4
+Bxc4 16. Qd2 Qd7 17. Qh2 Rfb8 18. hxg6 hxg6 19. f5 Nxd5 20. f6 exf6 21. exd5 Qe7
+22. Qd2 fxg5 23. Nge2 Rxb2 24. Qxb2 Qxe3 25. Kd1 Bxe2+ 26. Qxe2 Qxc3 27. Rb1
+Qd4+ 28. Kc1 Be5 29. Rb3 Qa1+ 30. Rb1 Bf4+ 0-1
+
+[Event "11th Edmonton GM 2016"]
+[Site "Edmonton CAN"]
+[Date "2016.06.26"]
+[Round "9.5"]
+[White "Findlay, Ian T."]
+[Black "Valencia, Belsar"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[WhiteElo "2257"]
+[BlackElo "2277"]
+[ECO "B43"]
+[Opening "Sicilian"]
+[Variation "Kan, 5.Nc3"]
+[WhiteFideId "2600226"]
+[BlackFideId "5204429"]
+[EventDate "2016.06.18"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Bd3 Nc6 7. Nxc6 bxc6 8.
+Qe2 d6 9. b3 Be7 10. Bb2 Nf6 11. O-O a5 12. Na4 e5 13. c4 Nd7 14. Rac1 c5 15.
+Nc3 Bb7 16. Rcd1 O-O 17. Bc2 Rfe8 18. Nb5 Qb6 19. Qd2 Nf8 20. Nxd6 Rad8 21. Bxe5
+f6 22. Qf4 Ng6 23. Qg3 fxe5 24. Nxe8 Rxe8 25. Rd2 Nf4 26. Rfd1 Bc8 27. Bd3 h5
+28. Bf1 Qc7 29. Qc3 Ne6 30. Be2 g6 31. Qg3 Kf7 32. Qf3+ Kg7 33. Qg3 h4 34. Qc3
+Nd4 35. h3 Rf8 36. Re1 Qb6 37. Bd1 Bg5 38. Rb2 Qb4 39. Qxb4 cxb4 40. Bg4 Bb7 41.
+f3 Bc6 42. Ra1 Be7 43. Rc1 Bc5 44. Kh2 Kh6 45. Rf1 Bxe4 46. Re1 Bc6 47. Kh1 Re8
+48. Rd2 Kg7 49. Kh2 Kf6 50. Kh1 g5 51. Kh2 a4 52. bxa4 Ra8 53. g3 hxg3+ 54. Kxg3
+Rxa4 55. h4 gxh4+ 56. Kxh4 Nf5+ 57. Bxf5 Kxf5 58. Rd8 Be7+ 0-1
+

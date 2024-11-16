@@ -1,0 +1,5179 @@
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.1"]
+[White "Navara, David"]
+[Black "Olsar, Jaroslav"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2706"]
+[BlackElo "2267"]
+[ECO "D12"]
+[Opening "QGD Slav"]
+[Variation "4.e3 Bf5"]
+[WhiteFideId "309095"]
+[BlackFideId "307327"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 e6 6. Nh4 Be4 7. f3 Bg6 8. Qb3 Qc7
+9. g3 Be7 10. Bd2 Nbd7 11. cxd5 Nxd5 12. Nxg6 hxg6 13. O-O-O Nxc3 14. Bxc3 b5
+15. Kb1 O-O 16. h4 a5 17. h5 g5 18. h6 b4 19. hxg7 Kxg7 20. Be1 Rh8 21. Rxh8
+Rxh8 22. Qc2 Qd6 23. e4 Nb6 24. Rc1 Rh1 25. Qg2 Rh8 26. Bf2 a4 27. Be3 a3 28. b3
+Rd8 29. f4 f5 30. Bd3 g4 31. d5 fxe4 32. Qxe4 Nxd5 33. Qh7+ Kf8 34. Bg6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.2"]
+[White "Olsarova, Tereza"]
+[Black "Hracek, Zbynek"]
+[Result "0-1"]
+[WhiteTitle "WIM"]
+[BlackTitle "GM"]
+[WhiteElo "2260"]
+[BlackElo "2633"]
+[ECO "B32"]
+[Opening "Sicilian defence"]
+[WhiteFideId "325449"]
+[BlackFideId "300071"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qb6 5. Nb3 Nf6 6. Nc3 e6 7. Be2 Be7 8.
+O-O d6 9. Kh1 Qc7 10. f4 a6 11. Bf3 O-O 12. a4 b6 13. a5 b5 14. Qe1 Bb7 15. e5
+dxe5 16. fxe5 Nd7 17. Bf4 Bb4 18. Qg3 Bxc3 19. bxc3 Ne7 20. Rad1 Rac8 21. Rd3
+Bxf3 22. Rdxf3 Ng6 23. Re1 Qb7 24. Rd3 Rc4 25. Bc1 Rfc8 26. Red1 Ndf8 27. Ba3 h6
+28. Nd2 Ra4 29. Bb4 Ra2 30. Rc1 Ne7 31. Nb3 Nd5 32. Bd6 Ng6 33. Nc5 Rxc5 34.
+Bxc5 Rxa5 35. Rd4 Qc6 36. Bb4 Ra2 37. h4 a5 38. Bd6 Nxc3 39. Qf2 Nd5 40. h5 Nf8
+41. Rf1 Qd7 42. Rg4 Nh7 43. Qg3 Ng5 44. Qb3 Ra4 45. Rxa4 bxa4 46. Qb8+ Kh7 47.
+c4 Ne3 48. Qb1+ Kg8 49. Qb5 Qd8 50. Rc1 Kh7 51. Qb1+ Nf5 52. c5 Nf3 53. Qe4 Qg5
+54. gxf3 Qxc1+ 55. Kh2 a3 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.3"]
+[White "Rausis, Igors"]
+[Black "Firt, Stanislav"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2578"]
+[BlackElo "2253"]
+[ECO "E67"]
+[Opening "King's Indian"]
+[Variation "fianchetto, classical variation"]
+[WhiteFideId "11600098"]
+[BlackFideId "300268"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. c4 Nbd7 7. Nc3 e5 8. b3
+Re8 9. Qc2 c6 10. Rd1 Qe7 11. dxe5 dxe5 12. Ng5 Nf8 13. a4 Bf5 14. e4 Bg4 15.
+Rd3 Rad8 16. h3 Rxd3 17. Qxd3 Rd8 18. Qe3 Bc8 19. Ba3 Qc7 20. Qxa7 Rd3 21. Bb4
+h6 22. Nf3 Ne8 23. Ne1 Rd4 24. Ne2 Ne6 25. Nxd4 Nxd4 26. a5 Qd8 27. Rb1 Nc7 28.
+Qb6 f5 29. a6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.4"]
+[White "Belunek, Vladimir"]
+[Black "Babula, Vlastimil"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2252"]
+[BlackElo "2553"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "307432"]
+[BlackFideId "301264"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. cxd5 exd5 8.
+Qb3 c5 9. e3 O-O 10. Be2 Nc6 11. O-O c4 12. Qa4 Rd8 13. Ne5 Bxc3 14. Nxc6 Qxc6
+15. Qxc6 bxc6 16. bxc3 Rb8 17. e4 Rb2 18. Bf3 Be6 19. h3 Rdb8 20. a4 Rc2 21.
+Rfc1 Rbb2 22. Rxc2 Rxc2 23. Ra3 Rc1+ 24. Kh2 a5 25. Kg3 g5 26. exd5 cxd5 27. Bg4
+f5 28. Bh5 f4+ 29. Kf3 Bf5 30. Ke2 Bd3+ 31. Kd2 Rf1 32. Bf3 Rxf2+ 33. Ke1 Rf1+
+34. Kd2 Be4 35. Ke2 Rc1 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.5"]
+[White "Zilka, Stepan"]
+[Black "Havlikova, Kristyna"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "WIM"]
+[WhiteElo "2541"]
+[BlackElo "2251"]
+[ECO "D87"]
+[Opening "Gruenfeld"]
+[Variation "exchange, Spassky variation"]
+[WhiteFideId "315303"]
+[BlackFideId "309672"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 O-O 8.
+Ne2 c5 9. O-O Nc6 10. Be3 b6 11. Rc1 Bb7 12. Qd2 Rc8 13. h4 h5 14. Rfd1 cxd4 15.
+cxd4 Na5 16. Bd3 Rxc1 17. Rxc1 e6 18. Bg5 Qa8 19. f3 Rc8 20. e5 Rxc1+ 21. Qxc1
+Nc6 22. a3 Qc8 23. Bf6 Qd7 24. Qf4 Ne7 25. Qg5 Nd5 26. Bxg7 Kxg7 27. Ng3 Qe7 28.
+Nxh5+ Kg8 29. Nf6+ Nxf6 30. exf6 Qd6 31. Bxg6 Qxd4+ 32. Kh2 Qd6+ 33. Kh3 Qc5 34.
+Bh7+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.6"]
+[White "Kulovana, Eva"]
+[Black "Stocek, Jiri"]
+[Result "1-0"]
+[WhiteTitle "WGM"]
+[BlackTitle "GM"]
+[WhiteElo "2250"]
+[BlackElo "2540"]
+[ECO "B08"]
+[Opening "Pirc"]
+[Variation "classical system, 5.Be2"]
+[WhiteFideId "318779"]
+[BlackFideId "304760"]
+[EventDate "2014.04.26"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Be2 a6 6. a4 b6 7. O-O e6 8. Re1 Bb7
+9. Bf1 O-O 10. h3 Re8 11. Bg5 h6 12. Bh4 Nc6 13. Qd2 e5 14. dxe5 dxe5 15. Nd5 g5
+16. Bg3 Nh5 17. Bh2 Nf4 18. Rad1 Ne7 19. c4 Rc8 20. Qc2 Nexd5 21. exd5 Qf6 22.
+Nd2 Rcd8 23. g3 Qg6 24. Qb3 Nh5 25. Bd3 Qd6 26. Bf5 Nf6 27. g4 Bf8 28. Nf3 Nd7
+29. Bxd7 Rxd7 30. Rxe5 Red8 31. Rxg5+ hxg5 32. Bxd6 Rxd6 33. Nxg5 c6 34. Qxb6
+R8d7 35. Ne4 Rg6 36. d6 c5 37. Nxc5 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.7"]
+[White "Petr, Martin"]
+[Black "Vrana, Frantisek"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2529"]
+[BlackElo "2245"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack (Barcza system)"]
+[WhiteFideId "318299"]
+[BlackFideId "302066"]
+[EventDate "2014.04.26"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. O-O Bf5 5. c4 e6 6. d3 h6 7. Qb3 Qb6 8. Qc2
+Nbd7 9. b3 Be7 10. Nc3 O-O 11. e4 dxe4 12. dxe4 Bh7 13. Be3 Qa5 14. a3 Ng4 15.
+Bd2 Qh5 16. h3 Nge5 17. Nh2 f5 18. f4 Nf7 19. e5 g5 20. Qd1 Qxd1 21. Rfxd1 gxf4
+22. gxf4 Rfd8 23. Be3 Bg6 24. Bf3 Nc5 25. b4 Ne4 26. Ne2 a5 27. c5 axb4 28. axb4
+Rxd1+ 29. Rxd1 Ra3 30. Rd7 Kf8 31. Nf1 Nd8 32. Rd4 Bh4 33. Kg2 Ke7 34. Nc1 Rc3
+35. Nd3 Rc2+ 36. Kg1 Nc3 37. Bf2 Bxf2+ 38. Nxf2 Nd5 39. Nd3 Nc7 40. Ne3 Rc3 41.
+Be2 Nb5 42. Rc4 Bh5 43. Rxc3 Bxe2 44. Rb3 Nd4 45. Nc1 Nxb3 46. Nxb3 Nf7 47. Kf2
+Ba6 48. Kg3 Nh8 49. Na5 Ng6 50. Nec4 Kd7 51. Nd6 Ne7 52. Naxb7 Nd5 53. Na5 Nxb4
+54. Nb3 Be2 55. Nc1 Bd1 56. Nc4 Ke7 57. Ne3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.8"]
+[White "Kuba, Jindrich"]
+[Black "Cvek, Robert"]
+[Result "1/2-1/2"]
+[BlackTitle "GM"]
+[WhiteElo "2239"]
+[BlackElo "2519"]
+[ECO "B47"]
+[Opening "Sicilian"]
+[Variation "Taimanov (Bastrikov) variation"]
+[WhiteFideId "318248"]
+[BlackFideId "307424"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Ndb5 Qb8 7. g3 a6 8. Nd4
+Nf6 9. Bg2 Be7 10. O-O O-O 11. Re1 Rd8 12. Nf3 d6 13. Bg5 b5 14. a3 Bb7 15. Qe2
+h6 16. Be3 Qc7 17. Rad1 Rac8 18. Bc1 Nd7 19. Nb1 Na5 20. c3 Nb3 21. Nd4 Nxc1 22.
+Rxc1 Bf6 23. Rcd1 Nb6 24. Nd2 Bxd4 25. cxd4 Qc2 26. Nf1 Qxe2 27. Rxe2 Rc7 28.
+Ne3 Rdc8 29. d5 exd5 30. exd5 Rc1 31. Ree1 Rxd1 32. Rxd1 g6 33. h4 Nc4 34. Nxc4
+Rxc4 35. Rd2 Rc1+ 36. Kh2 Kg7 37. f4 Bc8 38. Bf3 h5 39. Kg2 Bg4 40. Be4 Re1 41.
+Bd3 Re3 42. Kf2 Rf3+ 43. Kg2 Kf6 44. a4 bxa4 45. Bxa6 Rb3 46. Kf2 Bf5 47. Bc4
+Rb4 48. Bf1 Ke7 49. Be2 Kd8 50. Ke3 Rb3+ 51. Kf2 Kc7 52. Bd1 Rb4 53. Ke3 Kb6 54.
+Rd4 Kc5 55. Rxb4 Kxb4 56. Kd4 Bb1 57. Ke3 Ba2 58. Kd4 Bb1 59. Ke3 f5 60. Kd4 Be4
+61. Ke3 Bxd5 62. Kd4 Bb3 63. Bf3 Bf7 64. Bd1 Be6 65. Bf3 Bb3 66. Bc6 Bc2 67. Bd5
+Be4 68. Bf7 Bc6 69. Kd3 Be4+ 70. Kd2 Bf3 71. Bxg6 Bg4 72. Bf7 Bf3 73. Be6 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.9"]
+[White "Krejci, Jan2"]
+[Black "Bartos, Jan"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2518"]
+[BlackElo "2232"]
+[ECO "D10"]
+[Opening "QGD Slav defence"]
+[WhiteFideId "322156"]
+[BlackFideId "315060"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 Bf5 5. cxd5 cxd5 6. Qb3 Nc6 7. Qxb7 Bd7 8.
+Qb3 Rb8 9. Qd1 e5 10. Nf3 Bd6 11. dxe5 Nxe5 12. Be2 Qc7 13. h3 O-O 14. O-O Rfd8
+15. Nd4 Nc4 16. Qc2 Rdc8 17. Bd3 g6 18. Qe2 Bb4 19. Nb1 Ne4 20. b3 Ne5 21. Ba3
+Bxa3 22. Nxa3 Qa5 23. Bxe4 dxe4 24. Nc4 Nxc4 25. bxc4 Qa6 26. Qc2 Rxc4 27. Qxe4
+Rb2 28. Rfb1 Rxa2 29. Rxa2 Qxa2 30. Rb8+ Kg7 31. Qe5+ Kh6 32. Rg8 Rc1+ 33. Kh2
+Qxf2 34. Qg7+ Kh5 35. Qxh7+ Kg5 36. Nf3+ Kf6 37. Qg7+ Ke6 38. Qe5# 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.10"]
+[White "Folk, Petr"]
+[Black "Oral, Tomas"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2229"]
+[BlackElo "2515"]
+[ECO "B49"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "302996"]
+[BlackFideId "303739"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qc7 5. Nc3 e6 6. Be3 a6 7. Be2 Nf6 8. O-O
+Be7 9. f4 d6 10. a4 O-O 11. Kh1 Re8 12. Bf3 Bf8 13. Nb3 Nd7 14. a5 b5 15. axb6
+Nxb6 16. Nb5 axb5 17. Bxb6 Qb8 18. Rxa8 Qxa8 19. e5 dxe5 20. fxe5 Bb7 21. Qd7
+Re7 22. Qd6 Re8 23. Qd7 Re7 24. Qd6 Na7 25. Qd2 Bxf3 26. Rxf3 Nc6 27. Qf4 Rd7
+28. h3 Qa4 29. Qe3 Rd1+ 30. Kh2 Nxe5 31. Rf4 Bd6 32. g3 Qa8 33. Qe4 Qxe4 34.
+Rxe4 Nf3+ 35. Kg2 Ne1+ 36. Kf2 Nxc2 37. Re2 Nb4 38. Nd4 Nd5 39. Ba7 Rd3 40. Nf5
+Bc7 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.11"]
+[White "Haba, Petr"]
+[Black "Krajina, Ales"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2498"]
+[BlackElo "2228"]
+[ECO "D15"]
+[Opening "QGD Slav"]
+[Variation "Suechting variation"]
+[WhiteFideId "300160"]
+[BlackFideId "302112"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 Qb6 5. e3 Bg4 6. h3 Bxf3 7. Qxf3 e6 8. Be2
+Nbd7 9. O-O Bb4 10. a3 Bxc3 11. bxc3 O-O 12. cxd5 cxd5 13. c4 Rac8 14. cxd5 exd5
+15. Bd2 Rc7 16. Bd3 g6 17. Rfc1 Rfc8 18. Rxc7 Rxc7 19. Rb1 Qd6 20. Bb4 Qe6 21.
+Qf4 Rc8 22. Bd2 b6 23. f3 Nh5 24. Qh4 f5 25. g4 Ng7 26. Rc1 Rxc1+ 27. Bxc1 Nf6
+28. Bd2 h5 29. gxf5 gxf5 30. Qf4 a5 31. Be1 Nfe8 32. Bh4 Qc8 33. Qe5 Qc1+ 34.
+Kf2 Qd2+ 35. Be2 Qa2 36. Bd8 Qb3 37. a4 Kh7 38. h4 Kg6 39. Bb5 Qc2+ 40. Kg1 Qd1+
+41. Kg2 Qd2+ 42. Kh3 Kh7 43. Bxe8 Qe1 44. Kg2 Qe2+ 45. Kg3 f4+ 46. Kxf4 Qh2+ 47.
+Kg5 Qg2+ 48. Kf6 Qxf3+ 49. Ke7 Kg8 50. Bg6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.12"]
+[White "Toman, Jaroslav"]
+[Black "Kislinsky, Alexey"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2220"]
+[BlackElo "2483"]
+[ECO "B38"]
+[Opening "Sicilian"]
+[Variation "accelerated fianchetto, Maroczy bind, 6.Be3"]
+[WhiteFideId "317365"]
+[BlackFideId "14108801"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 Qb6 7. Nxc6 Qxc6 8.
+Qc2 Nf6 9. f3 d5 10. e5 Nd7 11. f4 Nb6 12. c5 Bf5 13. Qf2 d4 14. cxb6 dxe3 15.
+Qxe3 O-O 16. Na3 f6 17. Rc1 Qxb6 18. Qxb6 axb6 19. Bc4+ Kh8 20. Bd5 fxe5 21.
+fxe5 Ra5 22. Rd1 e6 23. Bf3 Rxe5+ 24. Kf2 Rc5 25. Rhe1 Bxb2 26. Re3 e5 27. Rb3
+Bd4+ 28. Kg3 Ra5 29. Rd2 Be6 30. Rbd3 Bc5 31. Nc2 e4 32. Bxe4 Bf2+ 33. Rxf2 Rg5+
+34. Kh4 Rg4+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.13"]
+[White "Simacek, Pavel"]
+[Black "Nguyen, Thai Dai Van"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "CM"]
+[WhiteElo "2469"]
+[BlackElo "2217"]
+[ECO "C06"]
+[Opening "French"]
+[Variation "Tarrasch, closed variation, main line"]
+[WhiteFideId "307165"]
+[BlackFideId "358878"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4
+f6 9. Nf4 Nxd4 10. Qh5+ Ke7 11. exf6+ Nxf6 12. Ng6+ hxg6 13. Qxh8 Kf7 14. Qh4 e5
+15. Nf3 Nxf3+ 16. gxf3 Bf5 17. Bxf5 gxf5 18. Bg5 Qa5+ 19. Kf1 Be7 20. Kg2 d4 21.
+Rhd1 Re8 22. Kg1 Qd5 23. Rd3 Rc8 24. Rad1 Rc2 25. b3 a5 26. f4 Ng4 27. Qh5+ Ke6
+28. Qe8 Nf6 29. Bxf6 gxf6 30. fxe5 fxe5 31. Rh3 Qd8 32. Rh6+ Kd5 33. Qb5+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.14"]
+[White "Frolik, Martin"]
+[Black "Plat, Vojtech"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2213"]
+[BlackElo "2456"]
+[ECO "A41"]
+[Opening "Old Indian"]
+[Variation "Tartakower (Wade) variation"]
+[WhiteFideId "304123"]
+[BlackFideId "325740"]
+[EventDate "2014.04.26"]
+
+1. d4 d6 2. Nf3 Bg4 3. c4 c6 4. Nc3 Nd7 5. e3 e5 6. Be2 Ngf6 7. Qc2 Be7 8. O-O
+O-O 9. Rd1 Qc7 10. b3 Rfe8 11. Bb2 Nf8 12. dxe5 dxe5 13. Ne4 Ng6 14. Nxf6+ Bxf6
+15. Rd2 Qc8 16. Rad1 e4 17. Ne1 Bxe2 18. Rxe2 Bxb2 19. Qxb2 Qg4 20. Red2 Ne5 21.
+Kh1 h5 22. Qc2 Qf5 23. f3 Ng4 24. Re2 Rad8 25. Rxd8 Rxd8 26. Qxe4 Qxe4 27. fxe4
+Rd1 28. Kg1 Nf6 29. e5 Ng4 30. h3 Nxe5 31. Kf2 a5 32. Rc2 a4 33. bxa4 Rb1 34.
+Nf3 Nd3+ 35. Kg3 Nc5 36. Nd4 Nxa4 37. Nb3 Nb6 38. Nc5 Nc8 39. Rd2 Ne7 40. Rd8+
+Kh7 41. e4 b6 42. Nd7 Rb4 43. Nf8+ Kh6 44. Rd7 Ng6 45. Nxg6 fxg6 46. Rb7 g5 47.
+Kf3 Kg6 48. Ke3 Kf6 49. g4 hxg4 50. hxg4 Rxc4 51. Rxb6 Ke5 52. Kd3 Rd4+ 53. Kc3
+Rd6 54. a4 Kxe4 55. a5 Rd1 56. a6 Ra1 57. Kc4 Kf4 58. Rxc6 Kxg4 59. Kb5 Kh5 60.
+Rc5 Kh4 61. Rc7 g6 62. Rc6 Kh5 63. Rc5 Kh4 64. Rc6 Kh5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.15"]
+[White "Rasik, Vitezslav"]
+[Black "Machycek, Lubomir"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2456"]
+[BlackElo "2210"]
+[ECO "B10"]
+[Opening "Caro-Kann"]
+[Variation "two knights variation"]
+[WhiteFideId "300306"]
+[BlackFideId "311049"]
+[EventDate "2014.04.26"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Ne5 Qd6 8.
+Nxg6 Qxg6 9. d4 Qd6 10. Ne4 Qe6 11. Qe2 Nd7 12. Rh3 Ngf6 13. Nxf6+ Qxf6 14. Qe4
+Qd6 15. Bf4 Nf6 16. Bxd6 Nxe4 17. Be5 e6 18. Rf3 f6 19. Bf4 g5 20. Bh2 Kf7 21.
+Bd3 Nd6 22. O-O-O Rd8 23. h5 f5 24. Be5 Bg7 25. g4 Bxe5 26. dxe5 Nb5 27. gxf5
+Nd4 28. f6 Nf5 29. Be4 Rxd1+ 30. Kxd1 Rd8+ 31. Rd3 Rxd3+ 32. Bxd3 Nd4 33. Bg6+
+Kf8 34. Be4 Nb5 35. Kd2 Nc7 36. Ke3 Na8 37. f4 gxf4+ 38. Kxf4 Nb6 39. Bg6 Nd7
+40. Ke4 Nc5+ 41. Kd4 Nd7 42. a4 c5+ 43. Kc4 b6 44. Kb5 Nxe5 45. Be4 Ke8 46. Ka6
+Kd8 47. Kxa7 Kc7 48. b3 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.16"]
+[White "Lys, Josef"]
+[Black "Jansa, Vlastimil"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2206"]
+[BlackElo "2455"]
+[ECO "D90"]
+[Opening "Gruenfeld"]
+[Variation "Three knights variation"]
+[WhiteFideId "302244"]
+[BlackFideId "300128"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. g3 dxc4 6. Bg2 O-O 7. O-O c6 8. a4 a5
+9. h3 Na6 10. e3 Bf5 11. Ne5 Nb4 12. e4 Be6 13. Be3 Nd7 14. Nf3 h6 15. Qe2 Nb8
+16. Rad1 N8a6 17. Ne5 Nd3 18. Nxd3 cxd3 19. Qxd3 Qc8 20. Kh2 Rd8 21. Qe2 Bb3 22.
+Rd2 Nb4 23. Rc1 Qe6 24. h4 Bc4 25. Qd1 Bb3 26. Qe2 Qd7 27. d5 cxd5 28. Nxd5 Nxd5
+29. exd5 Qxa4 30. Bc5 e6 31. dxe6 Bxe6 32. Rxd8+ Rxd8 33. Bxb7 Rb8 34. Qa6 Qb3
+35. Bg2 Qxb2 36. Re1 Qc3 37. Rxe6 Qxc5 38. Qd6 Qxd6 39. Rxd6 Rb2 40. f4 Bc3 41.
+h5 gxh5 42. Rxh6 h4 43. gxh4 Bd2 44. Kh3 Bxf4 45. Rh5 Rb3+ 46. Kg4 Bc7 47. Bd5
+Rb4+ 48. Kh3 Rf4 49. Rg5+ Kf8 50. Rg4 Rf5 51. Bc6 Bf4 52. Rg2 Rc5 53. Ba4 Rc4
+54. Bb5 Rb4 55. Bc6 Ke7 56. Re2+ Kd6 57. Be8 f5 58. h5 Re4 59. Rxe4 fxe4 60. Kg4
+Bh6 61. Kg3 Kc5 62. Kf2 Kb4 63. Bc6 e3+ 64. Ke2 a4 65. Kd3 Kb3 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.17"]
+[White "Kociscak, Jiri"]
+[Black "Jedlicka, Ales"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "FM"]
+[WhiteElo "2434"]
+[BlackElo "2199"]
+[ECO "E39"]
+[Opening "Nimzo-Indian"]
+[Variation "classical, Pirc variation"]
+[WhiteFideId "322121"]
+[BlackFideId "304824"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 O-O 6. Nf3 Na6 7. a3 Bxc3+ 8.
+Qxc3 Nxc5 9. b4 Nce4 10. Qd4 d6 11. Ng5 e5 12. Qd3 Nxg5 13. Bxg5 a5 14. b5 Be6
+15. e4 Rc8 16. Rc1 h6 17. Bh4 a4 18. f3 Qa5+ 19. Qd2 Qxd2+ 20. Kxd2 g5 21. Bf2
+Nd7 22. Kc3 f5 23. exf5 Bxf5 24. Rd1 Rf6 25. Be2 Nc5 26. Be3 e4 27. Rd5 exf3 28.
+Bxf3 g4 29. Rxf5 Rxf5 30. Bxg4 Re8 31. Bxf5 Rxe3+ 32. Kd4 Re2 33. g4 Ra2 34. Rd1
+Rxa3 35. Kd5 Rc3 36. Kxd6 Nb3 37. Ke6 Rxc4 38. Rd8+ Kg7 39. Rd7+ Kf8 40. Kf6 Rd4
+41. Rh7 Rd6+ 42. Be6 Rxe6+ 43. Kxe6 Kg8 44. Rxh6 a3 45. Rg6+ Kf8 46. Rf6+ Kg7
+47. Rf2 Kg6 48. Ra2 Nd4+ 49. Kd5 Nxb5 50. Kc5 Nc3 51. Rxa3 Ne4+ 52. Kb6 Kg5 53.
+h3 Kh4 54. Kxb7 Ng5 55. Kc6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.18"]
+[White "Soural, Jan"]
+[Black "Vokac, Marek"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2194"]
+[BlackElo "2422"]
+[ECO "B06"]
+[Opening "Robatsch (modern) defence"]
+[WhiteFideId "311928"]
+[BlackFideId "300101"]
+[EventDate "2014.04.26"]
+
+1. d4 g6 2. e4 Bg7 3. Be3 c5 4. Nc3 Qa5 5. Nf3 Nf6 6. Qd2 cxd4 7. Nxd4 Nc6 8.
+Be2 O-O 9. Nb3 Qd8 10. O-O-O d6 11. Bh6 Be6 12. h4 Bxb3 13. cxb3 Qa5 14. Kb1
+Rac8 15. h5 Bxh6 16. Qxh6 g5 17. Rd5 Nxd5 18. exd5 Ne5 19. Qxg5+ Kh8 20. Qxe7
+Qd8 21. Qxb7 Qg5 22. Qxa7 Qxg2 23. Rd1 Rxc3 24. bxc3 Qe4+ 25. Ka1 Qxe2 26. Qd4
+Rg8 27. h6 Rg6 28. Rd2 Qf3 29. a4 Rxh6 30. a5 Rh1+ 31. Kb2 Re1 32. a6 Qh1 33. a7
+Ra1 34. Rd1 Rxd1 35. a8=Q+ Kg7 36. Qd8 Rxd4 37. cxd4 Ng6 38. Qxd6 h5 39. f4 Qe4 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.19"]
+[White "Blatny, Pavel"]
+[Black "Sikora, Jan"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[WhiteElo "2418"]
+[BlackElo "2188"]
+[ECO "A43"]
+[Opening "Old Benoni defence"]
+[WhiteFideId "300047"]
+[BlackFideId "305405"]
+[EventDate "2014.04.26"]
+
+1. d4 c5 2. e3 Nf6 3. Nf3 b6 4. b3 Bb7 5. Bb2 e6 6. Nbd2 Be7 7. Bd3 d6 8. Qe2
+O-O 9. Ng5 cxd4 10. exd4 Nbd7 11. O-O-O h6 12. h4 Nd5 13. Bh7+ Kh8 14. Be4 Bxg5
+15. hxg5 Qxg5 16. c4 Nf4 17. Qe3 d5 18. g3 Ne2+ 19. Qxe2 dxe4 20. Rh5 Qg6 21. d5
+f5 22. g4 Nf6 23. Bxf6 Qxf6 24. g5 Qc3+ 25. Kb1 exd5 26. Rg1 dxc4 27. Nxc4 e3
+28. f3 Rad8 29. Rh2 f4 30. gxh6 g6 31. Rc1 Qf6 32. Rh3 b5 33. Nxe3 fxe3 34. Qxe3
+Bxf3 35. Rg3 Rde8 36. Qc3 Be4+ 37. Kb2 b4 38. Qxf6+ Rxf6 39. Re3 a5 40. Rce1
+Rfe6 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.20"]
+[White "Novosadova, Kristyna"]
+[Black "Biolek, Richard Jr."]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2187"]
+[BlackElo "2418"]
+[ECO "C78"]
+[Opening "Ruy Lopez"]
+[Variation "Moeller defence"]
+[WhiteFideId "328065"]
+[BlackFideId "319996"]
+[EventDate "2014.04.26"]
+
+1. e4 Nc6 2. Nf3 e5 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 b5 7. Bb3 d6 8. d4 Bb6
+9. h3 O-O 10. a4 Rb8 11. axb5 axb5 12. Na3 b4 13. Nc4 bxc3 14. bxc3 exd4 15.
+Nxb6 Rxb6 16. cxd4 Nxe4 17. d5 Ne5 18. Nd4 Qh4 19. Be3 Rb4 20. f3 Nc3 21. Qd2
+Rxd4 22. Qxc3 Rd3 23. Qxc7 Bxh3 24. Qb6 Qg3 25. Ra2 Nd7 26. Qa7 Rxb3 27. Kh1 Ne5
+28. gxh3 Qxh3+ 29. Kg1 Nxf3+ 30. Kf2 Nh2 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.21"]
+[White "Kanovsky, David"]
+[Black "Folkova, Martina"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "WFM"]
+[WhiteElo "2416"]
+[BlackElo "2179"]
+[ECO "C60"]
+[Opening "Ruy Lopez"]
+[Variation "Cozio defence"]
+[WhiteFideId "316210"]
+[BlackFideId "304271"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. O-O g6 5. c3 Bg7 6. d4 exd4 7. cxd4 d5 8.
+exd5 Nxd5 9. Re1+ Be6 10. Bg5 Qd6 11. Nbd2 O-O 12. Nc4 Qb4 13. Bxc6 Qxc4 14.
+Bxb7 Rab8 15. b3 Qb5 16. Bxd5 Bxd5 17. Be3 Rfd8 18. Rc1 Qa5 19. Qd2 Qa6 20. Rxc7
+Bxf3 21. gxf3 Rb5 22. Qe2 Qb6 23. Rc5 Rb4 24. d5 Qb8 25. Bg5 Rf8 26. Be7 Re8 27.
+d6 Rb7 28. Qc4 Rd7 29. Rc1 Rxd6 30. Bxd6 Qxd6 31. Rc8 Rxc8 32. Qxc8+ Bf8 33. Re1
+h5 34. Re8 Kg7 35. Kg2 Be7 36. Rg8+ Kh6 37. Rh8+ Kg7 38. Qg8+ Kf6 39. Rh7 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.22"]
+[White "Vybiral, Zdenek"]
+[Black "Konopka, Michal"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2167"]
+[BlackElo "2408"]
+[ECO "A15"]
+[Opening "English opening"]
+[WhiteFideId "305200"]
+[BlackFideId "308633"]
+[EventDate "2014.04.26"]
+
+1. c4 Nf6 2. Nf3 g6 3. b3 Bg7 4. Bb2 O-O 5. g3 c6 6. Bg2 d5 7. O-O a5 8. d3 Bg4
+9. Nbd2 Nbd7 10. Qc2 e6 11. Rfe1 Bxf3 12. Nxf3 Ne8 13. Bxg7 Kxg7 14. e4 dxe4 15.
+dxe4 e5 16. Rad1 Qe7 17. Qc3 f6 18. Bh3 Nc5 19. a3 Nc7 20. b4 axb4 21. axb4 N5e6
+22. Rd2 Rad8 23. Red1 Rxd2 24. Rxd2 Rd8 25. Bxe6 Nxe6 26. c5 Rd7 27. Kf1 Qd8 28.
+Rxd7+ Qxd7 29. Ke2 Kf7 30. Qd3 Qc7 31. Qe3 Ke8 32. h4 Qd8 33. Qd3 Qa8 34. Qd6
+Qa6+ 35. Ke3 Qc4 36. h5 gxh5 37. Qb8+ Nd8 38. Qd6 Qb3+ 39. Ke2 Qxb4 40. Qxf6
+Qxe4+ 41. Kf1 Qc4+ 42. Kg1 Qxc5 43. Nxe5 Qf8 44. Qg5 Nf7 45. Qxh5 Qg7 46. Nc4
+Qa1+ 47. Kg2 Qd4 48. Ne3 Qe4+ 49. Kh2 Qg6 50. Qc5 Nd6 51. g4 Kd7 52. f3 Qf6 53.
+Kg3 Qe7 54. Qd4 c5 55. Qd5 Qxe3 56. Qd1 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.26"]
+[Round "1.23"]
+[White "Voloshin, Leonid"]
+[Black "Szotkowski, Jakub"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[WhiteElo "2391"]
+[BlackElo "2161"]
+[ECO "A30"]
+[Opening "English"]
+[Variation "symmetrical, hedgehog system"]
+[WhiteFideId "311111"]
+[BlackFideId "330590"]
+[EventDate "2014.04.26"]
+
+1. Nf3 Nf6 2. c4 c5 3. g3 b6 4. Bg2 Bb7 5. O-O e6 6. Nc3 Be7 7. d4 cxd4 8. Nxd4
+Bxg2 9. Kxg2 O-O 10. e4 Nc6 11. b3 a6 12. Bb2 Qc7 13. Rc1 Qb7 14. Nxc6 dxc6 15.
+e5 c5+ 16. Qf3 Qxf3+ 17. Kxf3 Nd7 18. Ne4 Rad8 19. Ke2 Nb8 20. Rfd1 Nc6 21. Bc3
+b5 22. Rxd8 Rxd8 23. Rd1 Rxd1 24. Kxd1 b4 25. Bb2 Kf8 26. f4 h5 27. Ke2 Ke8 28.
+h3 Kd7 29. Kd3 g6 30. Nf2 Nd8 31. Ke4 Kc6 32. Nd3 Nb7 33. Bc1 Nd8 34. Be3 Bf8
+35. g4 hxg4 36. hxg4 Be7 37. Bf2 Nb7 38. f5 gxf5+ 39. gxf5 Bg5 40. f6 a5 41. Kf3
+Bd2 42. Kg4 a4 43. Kf3 axb3 44. axb3 Bh6 45. Ke2 Bg5 46. Kd1 Bh6 47. Kc2 Bg5 48.
+Kb2 Bd2 49. Kc2 Bg5 50. Kd1 Bh6 51. Ke2 Bg5 52. Kf3 Bh6 53. Ke4 Bd2 54. Kf3 Bh6
+55. Kg4 Bd2 56. Kf3 Bh6 57. Kg4 Bd2 58. Kh5 Kb6 59. Kg4 Kc6 60. Kf3 Bh6 61. Ke4
+Bd2 62. Kf3 Bh6 63. Ke4 Bd2 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.1"]
+[White "Hausner, Ivan"]
+[Black "Navara, David"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2370"]
+[BlackElo "2706"]
+[ECO "E00"]
+[Opening "Catalan opening"]
+[WhiteFideId "300110"]
+[BlackFideId "309095"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. d5 exd5 5. cxd5 b5 6. Bg2 d6 7. b4 Nbd7 8. Nc3
+cxb4 9. Nxb5 Bb7 10. Nf3 Bxd5 11. O-O Be7 12. a3 Rb8 13. Nbd4 b3 14. Rb1 Nc5 15.
+Nd2 O-O 16. N2xb3 Bxg2 17. Kxg2 Qd7 18. Bd2 Nce4 19. f3 Nxd2 20. Qxd2 d5 21. Qa5
+Rbc8 22. Nb5 Bd8 23. Qa6 Bb6 24. N5d4 Rc4 25. Rfd1 Ra4 26. Qb5 Rxa3 27. Qxd7
+Nxd7 28. Ra1 Rxa1 29. Rxa1 Rc8 30. Nb5 Rc2 31. Kf1 Rb2 32. N5d4 Ne5 33. Ke1 Nc4
+34. Kd1 Bxd4 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.2"]
+[White "Hracek, Zbynek"]
+[Black "Studnicka, Tomas"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2633"]
+[BlackElo "2374"]
+[ECO "B36"]
+[Opening "Sicilian"]
+[Variation "accelerated fianchetto, Maroczy bind"]
+[WhiteFideId "300071"]
+[BlackFideId "318949"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Nf6 6. Nc3 d6 7. f3 Nxd4 8. Qxd4
+Bg7 9. Be3 O-O 10. Qd2 Be6 11. Rc1 Qa5 12. b3 Rfc8 13. Be2 a6 14. Na4 Qxd2+ 15.
+Kxd2 Nd7 16. g4 h6 17. h3 Rab8 18. Nc3 Kf8 19. Nd5 Nc5 20. Rc2 Rd8 21. Nb6 Bd7
+22. h4 Bc6 23. Rd1 Ne6 24. Ke1 g5 25. h5 Be5 26. b4 Nf4 27. Bf1 Ne6 28. Kf2 Nc7
+29. Rb1 e6 30. a4 Be8 31. b5 f5 32. exf5 exf5 33. gxf5 Bxh5 34. Bd3 Bf7 35. Be4
+Kg7 36. Rg1 Kf6 37. Rd2 axb5 38. axb5 d5 39. Nxd5+ Bxd5 40. Bxd5 Nxd5 41. cxd5
+Kxf5 42. Rh1 Rh8 43. Bb6 Bd6 44. Bd4 Be5 45. Bxe5 Kxe5 46. d6 Rbd8 47. d7 Rh7
+48. Re1+ Kf6 49. Rd6+ Kf5 50. Rd5+ Kf6 51. Rd6+ Kf5 52. Rde6 Rhxd7 53. R1e5+ Kf4
+54. Re4+ Kf5 55. R4e5+ Kf4 56. Re4+ Kf5 57. R4e5+ 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.3"]
+[White "Lechtynsky, Jiri"]
+[Black "Rausis, Igors"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2365"]
+[BlackElo "2578"]
+[ECO "D20"]
+[Opening "Queen's gambit accepted"]
+[WhiteFideId "300217"]
+[BlackFideId "11600098"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 dxc4 3. e3 e5 4. Bxc4 exd4 5. exd4 Bd6 6. Nf3 Nf6 7. O-O O-O 8.
+Bg5 Nc6 9. h3 h6 10. Bh4 Na5 11. Be2 Nc6 12. Bc4 Na5 13. Be2 Nc6 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.4"]
+[White "Babula, Vlastimil"]
+[Black "Kriebel, Tadeas"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2553"]
+[BlackElo "2366"]
+[ECO "D56"]
+[Opening "QGD"]
+[Variation "Lasker defence"]
+[WhiteFideId "301264"]
+[BlackFideId "330027"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Ne4 8. Bxe7
+Qxe7 9. Rc1 c6 10. h4 Nd7 11. g4 Nxc3 12. Rxc3 g6 13. g5 h5 14. Bg2 dxc4 15.
+Rxc4 e5 16. O-O Nb6 17. Rc5 exd4 18. Re5 Qd6 19. Qxd4 Qxd4 20. Nxd4 Nc4 21. Re7
+Rd8 22. Rc1 Nxb2 23. Bf1 Kf8 24. Re4 Bd7 25. Rf4 c5 26. Rxc5 Rac8 27. Rd5 Kg7
+28. Rf6 Na4 29. Rfd6 Nb6 30. Ra5 Rc1 31. Kg2 Bh3+ 32. Kxh3 Rxd6 33. Bg2 Nd7 34.
+Rxa7 Nc5 35. Ra8 b6 36. Kh2 Ne6 37. Nxe6+ Rxe6 38. Bd5 Rd6 39. e4 Rd1 40. Ra7
+R1xd5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.5"]
+[White "Svoboda, Svatopluk"]
+[Black "Zilka, Stepan"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2334"]
+[BlackElo "2541"]
+[ECO "B49"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "14903563"]
+[BlackFideId "315303"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. Be3 Nf6 8. O-O
+Bb4 9. Na4 O-O 10. Nxc6 bxc6 11. Nb6 Rb8 12. Nxc8 Rfxc8 13. Bxa6 Rf8 14. Bd3 Bd6
+15. g3 Be5 16. c4 Bxb2 17. Rb1 d6 18. Qd2 Ba3 19. Qc3 Ra8 20. Bb6 Qe7 21. Rb3
+Nd7 22. Rxa3 Nxb6 23. e5 Nd7 24. exd6 Qxd6 25. Rxa8 Rxa8 26. Rd1 g6 27. Be2 Qc7
+28. Rd2 Nc5 29. Bf3 e5 30. Qb4 Ne6 31. Qd6 Qxd6 32. Rxd6 Rxa2 33. Rxc6 Ng5 34.
+Bd5 Nh3+ 35. Kg2 Nxf2 36. Rc7 Ne4+ 37. Kf3 Ng5+ 38. Kg4 Ne6 39. Bxe6 fxe6 40. h4
+Rf2 41. Re7 Rf5 42. c5 h5+ 43. Kh3 Kf8 44. Rxe6 Kf7 45. Ra6 Rf2 46. Rd6 Rf6 47.
+Rb6 Rf2 48. Rd6 Ra2 49. Rb6 Rc2 50. Ra6 Rxc5 51. Kg2 Rc3 52. Rb6 Rd3 53. Kf2 Rc3
+54. Ra6 Rc4 55. Rb6 e4 56. Ra6 Rc2+ 57. Ke3 Rc3+ 58. Kf2 Rf3+ 59. Kg2 Rf6 60.
+Ra4 Re6 61. Kf2 Kf6 62. Ra5 Re5 63. Ra6+ Kf5 64. Ke3 Rd5 65. Rb6 Rd3+ 66. Kf2
+Rf3+ 67. Kg2 Ke5 68. Rb5+ Kd4 69. Rb4+ Kd5 70. Ra4 Rc3 71. Kf2 Rc4 72. Ra6 Rc2+
+73. Ke3 Rc3+ 74. Kf2 Rc6 75. Ra8 Ke5 76. Ra7 Rf6+ 77. Ke2 Kf5 78. Ra5+ Kg4 79.
+Rg5+ Kh3 80. Ke1 e3 81. Kd1 Rf3 82. Rxg6 Rxg3 83. Rh6 Kxh4 84. Ke2 Kg4 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.6"]
+[White "Sobek, Jaroslav"]
+[Black "Krejci, Jan2"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2327"]
+[BlackElo "2518"]
+[ECO "E21"]
+[Opening "Nimzo-Indian"]
+[Variation "three knights variation"]
+[WhiteFideId "301388"]
+[BlackFideId "322156"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 b6 5. e3 Bb7 6. Bd3 O-O 7. O-O c5 8. Bd2
+cxd4 9. Nxd4 Nc6 10. Nc2 Be7 11. e4 Ne5 12. Bf4 d6 13. h3 Rc8 14. Ne3 a6 15. Rc1
+Rc7 16. f3 Rd7 17. Be2 Ng6 18. Bg3 Nh5 19. Bf2 Bg5 20. Qb3 Bf4 21. Rc2 Qg5 22.
+Ncd1 Ng3 23. Re1 Nh4 24. Qxb6 Nxe2+ 25. Rexe2 Nxf3+ 26. Kh1 Bxe4 27. Rc3 Rb7 28.
+Qxa6 Nd4 29. Re1 Bxe3 30. Nxe3 Rxb2 31. Ng4 Rxf2 32. Rxe4 Rf1+ 33. Kh2 Nf3+ 34.
+Rxf3 Rxf3 35. gxf3 f5 36. Qxd6 fxe4 37. Qxe6+ Kh8 38. Qxe4 Rd8 39. Kg3 Qc1 40.
+Qe7 Qg1+ 41. Kh4 Qd4 42. c5 Rc8 43. c6 Qc4 44. f4 Qxc6 45. f5 Qe8 46. Qb7 Rc5
+47. Qf3 Qe7+ 48. Kg3 Qe1+ 49. Kg2 Rc2+ 50. Nf2 Rxa2 51. Qf4 h6 52. Qd4 Qd2 53.
+Qc5 Kh7 54. h4 Qf4 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.7"]
+[White "Oral, Tomas"]
+[Black "Freisler, Pavel"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2515"]
+[BlackElo "2357"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "303739"]
+[BlackFideId "301477"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 d6 5. O-O g6 6. d4 exd4 7. e5 dxe5 8. Nxe5
+Bd7 9. Re1 Be7 10. Bxc6 Bxc6 11. Bh6 Qd6 12. Nxc6 bxc6 13. Nd2 O-O-O 14. Qe2 Nd5
+15. Qa6+ Kd7 16. Nc4 Qf6 17. Ne5+ Ke8 18. Qxc6+ Qxc6 19. Nxc6 Rd6 20. Nxd4 Kd7
+21. Rad1 Rb8 22. c4 g5 23. Nf5 Re6 24. Rxd5+ Bd6 25. Red1 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.8"]
+[White "Svatos, Jan"]
+[Black "Haba, Petr"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2306"]
+[BlackElo "2498"]
+[ECO "B47"]
+[Opening "Sicilian"]
+[Variation "Taimanov (Bastrikov) variation"]
+[WhiteFideId "304174"]
+[BlackFideId "300160"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Qc7 6. g3 a6 7. Bg2 Nf6 8. O-O
+Nxd4 9. Qxd4 Bc5 10. Bf4 d6 11. Qd2 h6 12. Rad1 e5 13. Be3 Be6 14. Bxc5 dxc5 15.
+Nd5 Bxd5 16. exd5 Qd6 17. f4 O-O 18. fxe5 Qxe5 19. c4 Qd6 20. Qf4 Ne8 21. Qf2 a5
+22. Be4 Nf6 23. Bb1 Rae8 24. Rde1 b6 25. a4 Rxe1 26. Rxe1 Re8 27. Rxe8+ Nxe8 28.
+Qf5 Kf8 29. Kf2 Qe7 30. b3 Nd6 31. Qf4 g5 32. Qf3 Qe5 33. Qd3 h5 34. Qh7 Qd4+
+35. Ke2 Qe5+ 36. Kf2 h4 37. Bd3 Ke7 38. Qg8 h3 39. Qh7 Qc3 40. Ke2 Qe5+ 41. Kf3
+Qd4 42. Ke2 Qb2+ 43. Bc2 g4 44. Kd1 Qd4+ 45. Ke2 Qg1 46. Qh4+ Ke8 47. Qxg4 Qxh2+
+48. Kd1 Qg1+ 49. Ke2 Qg2+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.9"]
+[White "Kislinsky, Alexey"]
+[Black "Dolezal, Radoslav1"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2483"]
+[BlackElo "2344"]
+[ECO "C78"]
+[Opening "Ruy Lopez"]
+[Variation "5.O-O"]
+[WhiteFideId "14108801"]
+[BlackFideId "304735"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Be7 7. d4 d6 8. c3 O-O
+9. h3 Bb7 10. Nbd2 Re8 11. a4 Bf8 12. Re1 Na5 13. Bc2 c5 14. d5 c4 15. Nf1 Nd7
+16. Be3 Qc7 17. Ng3 Nc5 18. axb5 axb5 19. Nf5 Nab3 20. Rb1 Bc8 21. g4 Ra2 22.
+Kh2 Bd7 23. Rg1 Rea8 24. g5 Kh8 25. N3h4 Na1 26. Nh6 Be8 27. Ng4 Nxc2 28. Qxc2
+Nd3 29. Qe2 Qd8 30. Nf5 Rb8 31. Nf6 Bd7 32. Nxh7 g6 33. Nf6 Bxf5 34. exf5 Be7
+35. Qg4 Kg7 36. Nd7 gxf5 37. Qh5 Qh8 38. Qh6+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.10"]
+[White "Malik, Jan"]
+[Black "Simacek, Pavel"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2289"]
+[BlackElo "2469"]
+[ECO "B35"]
+[Opening "Sicilian"]
+[Variation "accelerated fianchetto, modern variation with Bc4"]
+[WhiteFideId "317500"]
+[BlackFideId "307165"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 d6 9. h3 Qa5 10. O-O Bd7 11. Re1 Rfc8 12. Nd5 Qd8 13. Bg5 Nxd4 14. Bxf6 Nc6
+15. Bxg7 Kxg7 16. Qd2 Be6 17. Re3 Kg8 18. Rae1 Qf8 19. Rc3 Rab8 20. Qg5 Kg7 21.
+h4 b5 22. h5 f6 23. Qg3 Qf7 24. f4 Kf8 25. hxg6 hxg6 26. f5 gxf5 27. Nf4 Bxb3
+28. exf5 Bc4 29. Ng6+ Ke8 30. Nxe7 Nxe7 31. Qxd6 Rb6 32. Qb4 Rc7 33. b3 Qd5 34.
+Rce3 Qd6 35. Qc3 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.11"]
+[White "Olsarova, Karolina"]
+[Black "Rasik, Vitezslav"]
+[Result "1/2-1/2"]
+[WhiteTitle "WIM"]
+[BlackTitle "IM"]
+[WhiteElo "2279"]
+[BlackElo "2456"]
+[ECO "B08"]
+[Opening "Pirc"]
+[Variation "classical system, 5.Be2"]
+[WhiteFideId "320242"]
+[BlackFideId "300306"]
+[EventDate "2014.04.26"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Be2 O-O 6. O-O c5 7. d5 Na6 8. Nd2
+Nc7 9. a4 e6 10. Nc4 Nxe4 11. Nxe4 exd5 12. Nexd6 dxc4 13. c3 Be5 14. Nxc4 Bg7
+15. Nd6 Be5 16. Nxc8 Rxc8 17. f4 Bf6 18. Bc4 Qxd1 19. Rxd1 Rfd8 20. Be3 b6 21.
+f5 g5 22. Bf2 Rxd1+ 23. Rxd1 Rd8 24. Rxd8+ Bxd8 25. Bg3 Ne8 26. Bb8 a5 27. Kf2
+Bc7 28. Bb5 Kf8 29. Bxe8 Bxb8 30. Bb5 Ke7 31. g3 Kf6 32. Bc4 h5 33. h3 Kxf5 34.
+Bxf7 h4 35. gxh4 gxh4 36. Kf3 Bf4 37. b3 Bd2 38. c4 Bg5 39. Be8 Ke5 40. Bb5 Kd4
+41. Kg4 Bd8 42. Kf5 Kc3 43. Ke4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.12"]
+[White "Jansa, Vlastimil"]
+[Black "Kraus, Tomas"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2455"]
+[BlackElo "2326"]
+[ECO "C75"]
+[Opening "Ruy Lopez"]
+[Variation "modern Steinitz defence, Rubinstein variation"]
+[WhiteFideId "300128"]
+[BlackFideId "331708"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nge7 5. c3 d6 6. d4 Bd7 7. Be3 g6 8. O-O
+Bg7 9. d5 Nb8 10. c4 h6 11. Nfd2 f5 12. f3 f4 13. Bf2 O-O 14. Nc3 g5 15. c5 Rf6
+16. Nc4 Bxa4 17. Nxa4 Nd7 18. Qb3 Rb8 19. Rac1 Rg6 20. cxd6 cxd6 21. Bb6 Nxb6
+22. Naxb6 h5 23. Qa4 g4 24. Kh1 Kh7 25. Qd7 Qxd7 26. Nxd7 Rg8 27. Na5 gxf3 28.
+gxf3 b5 29. Rc7 Kh6 30. Nc6 Nc8 31. Rc1 h4 32. Ncxe5 Bxe5 33. Nxe5 dxe5 34. Rxc8
+h3 35. Rxg8 Rxg8 36. d6 Rd8 37. Rc6 Kg5 38. Kg1 Kf6 39. Kf1 Ke6 40. Rxa6 Rc8 41.
+b3 Rc1+ 42. Kf2 Rc2+ 43. Kg1 Rg2+ 44. Kf1 Rxh2 45. a4 Rb2 46. d7+ Kxd7 47. Rh6
+h2 48. axb5 Kc7 49. b4 Kb7 50. Rh7+ Kb6 51. Rh5 Ra2 52. Rh3 Kxb5 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.13"]
+[White "Sikora, Jan"]
+[Black "Kociscak, Jiri"]
+[Result "1/2-1/2"]
+[BlackTitle "FM"]
+[WhiteElo "2188"]
+[BlackElo "2434"]
+[ECO "C24"]
+[Opening "Bishop's opening"]
+[Variation "Berlin defence"]
+[WhiteFideId "305405"]
+[BlackFideId "322121"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 c6 4. Nf3 Be7 5. Nc3 d6 6. Bb3 O-O 7. Ne2 Nbd7 8. Ng3
+Nc5 9. Be3 Nxb3 10. axb3 a6 11. O-O Re8 12. Re1 h6 13. Bd2 Bf8 14. Ba5 b6 15.
+Bc3 Qc7 16. d4 c5 17. dxe5 dxe5 18. Qd3 Bb7 19. Nd2 g6 20. Rad1 b5 21. Nf3 Rac8
+22. h3 b4 23. Bd2 c4 24. Qe3 a5 25. bxc4 Qxc4 26. c3 Qb5 27. cxb4 axb4 28. Rc1
+Nd7 29. Rxc8 Rxc8 30. Rc1 Rxc1+ 31. Bxc1 Qc6 32. Bd2 Qc2 33. Qa7 Bc6 34. Qc7 h5
+35. Be3 h4 36. Nxh4 b3 37. Kh2 Ba3 38. Qd8+ Bf8 39. Qc7 Nf6 40. Qxe5 Bg7 41.
+Qb8+ Ne8 42. Nf3 Qxb2 43. Nd2 Ba4 44. Qb4 Qa2 45. Ne2 b2 46. Bd4 Bxd4 47. Qxd4
+Bc2 48. Qe5 Qe6 49. Qxe6 fxe6 50. Nc3 Nd6 51. f3 Bd3 52. Kg3 Nc4 53. Ndb1 Kf7
+54. Kf2 Kf6 55. f4 Ke7 56. g4 Nd6 57. Ke3 Bc2 58. Na3 Bxe4 59. Kd4 Bg2 60. h4
+Bf3 61. g5 Nf5+ 62. Kd3 Nxh4 63. Nc4 Ng2 64. Nxb2 Nxf4+ 65. Ke3 Nd5+ 66. Nxd5+
+Bxd5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.14"]
+[White "Vokac, Marek"]
+[Black "Adamek, Jiri"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2422"]
+[BlackElo "2301"]
+[ECO "D56"]
+[Opening "QGD"]
+[Variation "Lasker defence, Teichmann variation"]
+[WhiteFideId "300101"]
+[BlackFideId "315702"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 O-O 6. e3 h6 7. Bh4 Ne4 8. Bxe7
+Qxe7 9. Qc2 Nxc3 10. Qxc3 c6 11. Bd3 Nd7 12. O-O dxc4 13. Bxc4 c5 14. Rac1 b6
+15. Bb5 Bb7 16. Bxd7 Qxd7 17. dxc5 Bxf3 18. gxf3 bxc5 19. b3 Rfc8 20. Rfd1 Qb7
+21. Kg2 a5 22. Qe5 a4 23. Rc4 axb3 24. axb3 Rd8 25. Rg4 g6 26. Rxd8+ Rxd8 27.
+Qxc5 Qxb3 28. Qe7 Qb8 29. Rf4 Rf8 30. h4 Qe8 31. Qxe8 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.15"]
+[White "Biolek, Richard Jr."]
+[Black "Sikorova, Olga"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "WGM"]
+[WhiteElo "2418"]
+[BlackElo "2288"]
+[ECO "A56"]
+[Opening "Benoni defence, Hromodka system"]
+[WhiteFideId "319996"]
+[BlackFideId "307033"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 c5 3. d5 d6 4. Nc3 g6 5. g3 Bg7 6. Bg2 O-O 7. Nf3 Na6 8. O-O Nc7
+9. a4 b6 10. e4 Bg4 11. h3 Bxf3 12. Qxf3 a6 13. Qe2 Rb8 14. f4 Nd7 15. Bd2 e6
+16. g4 exd5 17. exd5 Re8 18. Qd3 Bd4+ 19. Kh2 Qh4 20. g5 h6 21. Ne2 hxg5 22.
+Nxd4 cxd4 23. Qxd4 gxf4 24. Rxf4 Qh7 25. Bc3 Ne5 26. Rf6 Red8 27. Rxd6 Rxd6 28.
+Qxe5 Ne8 29. a5 f6 30. Qd4 Qc7 31. Kh1 b5 32. c5 Rd7 33. d6 Nxd6 34. Bd5+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.16"]
+[White "Miculka, Petr"]
+[Black "Kanovsky, David"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2017"]
+[BlackElo "2416"]
+[ECO "B40"]
+[Opening "Sicilian defence"]
+[WhiteFideId "312282"]
+[BlackFideId "316210"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. c3 d5 4. exd5 exd5 5. Bb5+ Nc6 6. O-O Bd6 7. d4 Ne7 8. Re1
+O-O 9. Be3 c4 10. Ba4 Bf5 11. Bc2 b5 12. Nbd2 b4 13. Nh4 Bxc2 14. Qxc2 Qd7 15.
+h3 a5 16. Ndf3 f6 17. Nh2 a4 18. Qd2 a3 19. Reb1 axb2 20. Qxb2 Rfb8 21. cxb4
+Nxb4 22. N4f3 Qa4 23. Ne1 Nxa2 24. Qc2 Rxb1 25. Rxb1 Nb4 26. Qe2 Qd7 27. g4 Qe6
+28. Qf3 Nec6 29. Nf1 Ra3 30. Qf5 Qxf5 31. gxf5 Ne7 32. Ng3 Bxg3 33. Rxb4 Nxf5
+34. Nc2 Ra2 35. fxg3 Rxc2 36. Bf4 Nxd4 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.17"]
+[White "Konopka, Michal"]
+[Black "Kulovana, Eva"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "WGM"]
+[WhiteElo "2408"]
+[BlackElo "2250"]
+[ECO "D15"]
+[Opening "QGD Slav"]
+[Variation "4.Nc3"]
+[WhiteFideId "308633"]
+[BlackFideId "318779"]
+[EventDate "2014.04.26"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. Nc3 a6 5. e3 Bf5 6. Be2 e6 7. Nh4 Be4 8. f3 Bg6
+9. O-O b5 10. cxb5 cxb5 11. Bd2 Be7 12. Nxg6 hxg6 13. Rc1 Qd6 14. g3 O-O 15. Qc2
+Qb6 16. a4 b4 17. Nd1 Ra7 18. Nf2 Bd6 19. b3 Rc7 20. Qa2 Nc6 21. Nd3 a5 22. Qb2
+Rfc8 23. Kg2 Nb8 24. Nf2 Rxc1 25. Rxc1 Rxc1 26. Qxc1 Qc6 27. Qb1 Qb6 28. Qd3 Qc6
+29. Qb1 Qb6 30. f4 Nfd7 31. g4 f5 32. Nh3 Qc7 33. Ng5 Nf8 34. Bb5 Nbd7 35. gxf5
+gxf5 36. Qd1 Nf6 37. Bd3 Ne4 38. Nxe4 fxe4 39. Bb5 Qf7 40. Qg4 Qg6 41. h3 Kf7
+42. Be1 Be7 43. Bg3 Bd8 44. Bc6 Qxg4 45. hxg4 Bc7 46. f5 Bxg3 47. Kxg3 Kf6 48.
+fxe6 Kxe6 49. Kf4 Ng6+ 50. Kg5 Ne7 51. Be8 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.18"]
+[White "Zwardon, Vojtech"]
+[Black "Didi, Jan"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2391"]
+[BlackElo "2069"]
+[ECO "A34"]
+[Opening "English"]
+[Variation "symmetrical, Rubinstein system"]
+[WhiteFideId "325511"]
+[BlackFideId "312428"]
+[EventDate "2014.04.26"]
+
+1. c4 c5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nc7 6. a3 Nc6 7. b4 e5 8. Nf3
+f6 9. Rb1 Be7 10. b5 Nd4 11. e3 Nf5 12. O-O O-O 13. b6 axb6 14. Qb3+ c4 15.
+Qxc4+ Be6 16. Qe2 Bc5 17. d4 exd4 18. exd4 Bxa3 19. Nb5 Re8 20. Nxa3 Nxd4 21.
+Nxd4 Qxd4 22. Qe3 Qxe3 23. fxe3 Nd5 24. Nb5 Rec8 25. Rd1 Nc3 26. Nxc3 Rxc3 27.
+Rxb6 Bg4 28. Rf1 Rc2 29. Bxb7 Ra1 30. Bd5+ Kf8 31. Rc6 Rxc6 32. Bxc6 Ra2 33. Rf2
+Ra1 34. Rc2 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.19"]
+[White "Szotkowski, Jakub"]
+[Black "Petr, Martin"]
+[Result "1/2-1/2"]
+[BlackTitle "GM"]
+[WhiteElo "2161"]
+[BlackElo "2529"]
+[WhiteFideId "330590"]
+[BlackFideId "318299"]
+[EventDate "2014.04.26"]
+
+1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.20"]
+[White "Cvek, Robert"]
+[Black "Frolik, Martin"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2519"]
+[BlackElo "2213"]
+[ECO "D34"]
+[Opening "QGD"]
+[Variation "Tarrasch, Prague variation, 9.Bg5"]
+[WhiteFideId "307424"]
+[BlackFideId "304123"]
+[EventDate "2014.04.26"]
+
+1. c4 e6 2. Nf3 d5 3. d4 c5 4. cxd5 exd5 5. g3 Nc6 6. Bg2 Nf6 7. O-O Be7 8. Nc3
+O-O 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 Re8 12. Qa4 Bd7 13. Rfd1 Nb4 14. Qb3 a5 15.
+a4 Bg4 16. h3 Be6 17. Nxe6 fxe6 18. Bd4 Qc8 19. Rac1 Nc6 20. Bxf6 Bxf6 21. Nb5
+Qd7 22. e4 d4 23. f4 Rac8 24. e5 Be7 25. Kh2 Kh8 26. Qd3 Bf8 27. Bxc6 Rxc6 28.
+Qxd4 Qxd4 29. Nxd4 Rxc1 30. Rxc1 Bb4 31. Rc7 Rd8 32. Nxe6 Rd2+ 33. Kh1 Rxb2 34.
+Nxg7 Rb1+ 35. Kg2 Rb2+ 36. Kf3 Rb3+ 37. Kg4 Be1 38. Nh5 Kg8 39. Nf6+ Kf8 40. e6
+Rxg3+ 41. Kf5 Rg7 42. Rxg7 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.21"]
+[White "Plat, Vojtech"]
+[Black "Zidek, Vaclav"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2456"]
+[BlackElo "2135"]
+[ECO "A01"]
+[Opening "Nimzovich-Larsen attack"]
+[Variation "modern variation"]
+[WhiteFideId "325740"]
+[BlackFideId "322644"]
+[EventDate "2014.04.26"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 Nf6 4. Bb5 Bd6 5. Na3 Na5 6. Be2 a6 7. Nf3 Qe7 8. Nb1
+O-O 9. c4 Nc6 10. d4 exd4 11. exd4 Bb4+ 12. Kf1 Bd6 13. c5 Bf4 14. d5 Nb4 15.
+Bc4 a5 16. a3 Na6 17. g3 Bh6 18. d6 Qd8 19. Nc3 Nxc5 20. dxc7 Qxc7 21. Nb5 Qc6
+22. Nd6 Nfe4 23. Nf5 Nd2+ 24. Qxd2 Qxf3 25. Nxh6+ gxh6 26. Kg1 Ne6 27. Qxh6 d5
+28. Bxd5 Qe2 29. Qf6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.22"]
+[White "Vrana, Frantisek"]
+[Black "Voloshin, Leonid"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2245"]
+[BlackElo "2391"]
+[ECO "B30"]
+[Opening "Sicilian defence"]
+[WhiteFideId "302066"]
+[BlackFideId "311111"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. g3 e5 4. Bg2 g6 5. O-O Bg7 6. d3 Nge7 7. Be3 d6 8. Qd2
+O-O 9. Bh6 f6 10. Bxg7 Kxg7 11. c3 d5 12. exd5 Nxd5 13. Na3 Bg4 14. h3 Be6 15.
+Rfe1 Qd7 16. Kh2 Rad8 17. Rad1 Nde7 18. Qc2 Bd5 19. Nc4 Bxc4 20. dxc4 Qe6 21. b3
+Rxd1 22. Rxd1 e4 23. Nd2 f5 24. f4 Rd8 25. Nf1 Rd6 26. Ne3 Qd7 27. Bf1 Rxd1 28.
+Qxd1 Qxd1 29. Nxd1 h6 30. h4 g5 31. hxg5 hxg5 32. Ne3 Kf6 33. Be2 g4 34. Kg2 Ke6
+35. Kf2 Nd8 36. Nc2 Nf7 37. Na3 Nd6 38. Ke3 Kd7 39. Bf1 a6 40. Kd2 Ng8 41. Ke3
+Kc6 42. Kf2 Nf6 43. Nc2 b5 44. Ne3 b4 45. Nd1 a5 46. cxb4 cxb4 47. Nb2 Kc5 48.
+Ke3 Nh5 49. Na4+ Kc6 50. Kf2 Nb7 51. Bg2 Kd6 52. Bf1 Nc5 53. Nb2 e3+ 54. Kxe3
+Nxg3 55. Bg2 Nge4 56. Nd3 Nxd3 57. Kxd3 Nc5+ 58. Kd4 Ne6+ 59. Ke3 Kc5 60. Bb7
+Nd4 61. Bc8 Nc2+ 62. Kf2 Nd4 63. Ke3 Nc2+ 64. Kf2 Nd4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.27"]
+[Round "2.23"]
+[White "Michenka, Jozef"]
+[Black "Kuba, Jindrich"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[WhiteElo "2353"]
+[BlackElo "2239"]
+[ECO "A81"]
+[Opening "Dutch defence"]
+[WhiteFideId "301175"]
+[BlackFideId "318248"]
+[EventDate "2014.04.26"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 e6 4. Nf3 Be7 5. O-O d6 6. b3 O-O 7. Bb2 Ne4 8. c4 Nd7
+9. Qc2 Qe8 10. Ne1 Qg6 11. Nd3 Bg5 12. e3 c5 13. Nf4 Bxf4 14. exf4 cxd4 15. Bxd4
+e5 16. fxe5 dxe5 17. Bb2 Re8 18. Re1 Nef6 19. Nc3 e4 20. Nb5 Rf8 21. Ba3 Rf7 22.
+Nd6 Rf8 23. Nb5 Rf7 24. Nd6 Rf8 25. f3 Ne5 26. fxe4 fxe4 27. Nxe4 Re8 28. Nxf6+
+Qxf6 29. Qc3 Bg4 30. Bb2 Nf3+ 31. Bxf3 Bxf3 32. Qxf6 gxf6 33. Bxf6 Kf7 34. Bd4
+Rxe1+ 35. Rxe1 Bc6 36. Rf1+ Kg8 37. Rf4 a6 38. Rg4+ Kf8 39. Rf4+ Kg8 40. Rg4+
+Kf8 41. Kf2 Rd8 42. Ke3 Re8+ 43. Kd3 Re1 44. Bg7+ Kf7 45. Bc3 Re6 46. Rg7+ Kf8
+47. Rc7 Ke8 48. Bd4 h5 49. a4 Re1 50. Kc3 Re2 51. h4 Re7 52. Rc8+ Kd7 53. Rh8
+Bf3 54. Rf8 Bg4 55. a5 Re8 56. Rf1 Be6 57. Kb4 Rc8 58. Be5 Ke7 59. Bf6+ Kd7 60.
+Rd1+ Ke8 61. Rd6 Bg4 62. Bg5 Rc7 63. Rd8+ Kf7 64. Bf4 Rc6 65. Rh8 Kg7 66. Be5+
+Kg6 67. Rg8+ Kh6 68. Bf4+ Kh7 69. Re8 Kg6 70. Re7 Bc8 71. Kc3 Rc5 72. Bc7 Kf6
+73. Bd8 Kg6 74. Kd4 Rc6 75. Bc7 Kf6 76. Rh7 Kg6 77. Re7 Kf6 78. Re5 Rxc7 79.
+Rxh5 Rg7 80. Rg5 Rxg5 81. hxg5+ Kxg5 82. Kc5 Bh3 83. Kb6 Bg2 84. b4 Kg4 85. b5
+axb5 86. cxb5 Kxg3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.1"]
+[White "Navara, David"]
+[Black "Kislinsky, Alexey"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2706"]
+[BlackElo "2483"]
+[ECO "B75"]
+[Opening "Sicilian"]
+[Variation "dragon, Yugoslav attack"]
+[WhiteFideId "309095"]
+[BlackFideId "14108801"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 h5 8. Qd2
+a6 9. Be2 Nbd7 10. a4 b6 11. Nd5 Bb7 12. c4 e6 13. Nxf6+ Bxf6 14. O-O e5 15. Nb3
+Nc5 16. Nxc5 dxc5 17. Qxd8+ Bxd8 18. a5 Rc8 19. axb6 Bxb6 20. b4 f5 21. exf5
+gxf5 22. f4 e4 23. Rfb1 Rc7 24. bxc5 Ba7 25. Kf2 h4 26. Rb6 Bxb6 27. cxb6 Rc8
+28. c5 Kd7 29. Bc4 Rhd8 30. Ke2 Ra8 31. Bf2 Kc6 32. Bb3 Rd3 33. Bc2 Rg8 34. Ra5
+Kd7 35. Bxd3 exd3+ 36. Kxd3 Rxg2 37. Bxh4 Rxh2 38. Bf6 Rh3+ 39. Kc4 Re3 40. Bd4
+Re4 41. c6+ Kxc6 42. Rxf5 Kd6 43. Kc3 Ke7 44. Rc5 Kf7 45. Be5 Ke6 46. Rc7 Bd5
+47. b7 Re3+ 48. Kd4 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.2"]
+[White "Zilka, Stepan"]
+[Black "Simacek, Pavel"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2541"]
+[BlackElo "2469"]
+[ECO "A60"]
+[Opening "Benoni defence"]
+[WhiteFideId "315303"]
+[BlackFideId "307165"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 Bd6 6. Nf3 O-O 7. g3 Re8 8. Bg2
+Bc7 9. O-O d6 10. b3 a6 11. a4 Nbd7 12. Bb2 Rb8 13. Qc2 Ba5 14. Ng5 Nf8 15. Rfd1
+Bg4 16. f3 Bd7 17. Nh3 c4 18. bxc4 Qc8 19. Nf2 Qxc4 20. e4 Rec8 21. Rdc1 Bb6 22.
+Kh1 Be3 23. Bf1 Qc5 24. Nd3 Qa5 25. Rd1 Bd4 26. Ra3 Rc7 27. Qb3 Rbc8 28. Na2
+Bxb2 29. Nxb2 Qc5 30. Nb4 Qf2 31. Nc4 a5 32. Ra2 Bxa4 33. Rxa4 Rxc4 34. Nd3
+Qxf3+ 35. Bg2 Qe2 36. Re1 Rc1 37. Ra1 Qxe1+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.3"]
+[White "Krejci, Jan2"]
+[Black "Biolek, Richard Jr."]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2518"]
+[BlackElo "2418"]
+[ECO "C78"]
+[Opening "Ruy Lopez"]
+[Variation "Moeller defence"]
+[WhiteFideId "322156"]
+[BlackFideId "319996"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 b5 7. Bb3 O-O 8. d4
+Bb6 9. Nxe5 Nxe5 10. dxe5 Nxe4 11. Bd5 Nxf2 12. Rxf2 c6 13. Bb3 Bxf2+ 14. Kxf2
+Qh4+ 15. Kg1 Qe4 16. Nd2 Qxe5 17. Nf3 Qc7 18. Qd4 d5 19. Bf4 Qa7 20. a4 c5 21.
+Qf2 Be6 22. Bc2 Qe7 23. Bg5 f6 24. Be3 Rfc8 25. h3 Rab8 26. Re1 bxa4 27. Bxa4
+Qd6 28. Bc2 Kh8 29. b3 Rb7 30. Qh4 Bg8 31. Bf5 Re8 32. Qh5 Qd8 33. Kf2 d4 34.
+cxd4 cxd4 35. Bxd4 Rxe1 36. Kxe1 Rxb3 37. Nh4 Qa5+ 38. Kf2 Qd2+ 39. Kf1 Bc4+ 40.
+Kg1 Qxd4+ 41. Kh1 Qa1+ 42. Kh2 Qe5+ 43. Kh1 Rb1+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.4"]
+[White "Kanovsky, David"]
+[Black "Oral, Tomas"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2416"]
+[BlackElo "2515"]
+[ECO "B48"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "316210"]
+[BlackFideId "303739"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qd2 b5 8.
+O-O-O Nf6 9. Nxc6 Qxc6 10. f3 Bb7 11. Ne2 Bc5 12. Nd4 Qc7 13. Kb1 Rc8 14. Bd3 d5
+15. Rhe1 dxe4 16. fxe4 O-O 17. Nf3 Bxe4 18. Bf4 Qb7 19. Bxe4 Nxe4 20. Qe2 Nf6
+21. Be5 Be7 22. Rd3 Rfd8 23. Nd4 Rd5 24. Rg3 Rcc5 25. Nf3 Qd7 26. Bc3 Rc4 27.
+Qf1 Rxc3 28. bxc3 Ne4 29. Rxe4 Rd1+ 30. Qxd1 Qxd1+ 31. Kb2 b4 32. cxb4 Bf6+ 33.
+c3 Qd3 34. Rd4 Bxd4 35. Nxd4 Qd2+ 36. Nc2 f5 37. c4 f4 38. Rc3 Qxg2 39. c5 Qc6
+40. Nd4 Qc8 41. Nf3 Qc6 42. Nd4 Qc8 43. Nf3 g5 44. Nxg5 Qc6 45. Nf3 Kf8 46. Nd4
+Qg2+ 47. Rc2 Qe4 48. Nb3 Ke7 49. c6 Kd8 50. c7+ Kc8 51. Nc5 Qxb4+ 52. Kc1 Qa3+
+53. Kd1 Qf3+ 54. Kc1 Qe3+ 55. Kb2 f3 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.5"]
+[White "Haba, Petr"]
+[Black "Zwardon, Vojtech"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2498"]
+[BlackElo "2391"]
+[ECO "B32"]
+[Opening "Sicilian"]
+[Variation "Labourdonnais-Loewenthal variation"]
+[WhiteFideId "300160"]
+[BlackFideId "325511"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 a6 6. Nd6+ Bxd6 7. Qxd6 Qe7 8.
+Qd1 Nf6 9. Nc3 d6 10. Bg5 Be6 11. Nd5 Bxd5 12. exd5 Nb8 13. c4 Nbd7 14. Be2 O-O
+15. O-O Nc5 16. Bxf6 Qxf6 17. b4 Nd7 18. Bg4 Rfd8 19. Qb3 Qf4 20. Bxd7 Rxd7 21.
+c5 Rc8 22. Rac1 Rdc7 23. g3 Qf6 24. Qa3 Qe7 25. c6 bxc6 26. Qxa6 Qd7 27. dxc6
+Rxc6 28. Qb5 Kf8 29. a4 Ke7 30. Rxc6 Qxc6 31. Qxc6 Rxc6 32. a5 Rc4 33. Rb1 Kd7
+34. b5 Kc8 35. b6 Kb8 36. Rd1 Rc6 37. Kg2 Kb7 38. Rd5 Ka6 39. h4 g6 40. Rb5 Rc8
+41. Rd5 Rc6 42. g4 f6 43. f3 Rc2+ 44. Kf1 Rc6 45. Ke2 Rc2+ 46. Kd3 Rc1 47. Rb5
+Rc8 48. b7 Rb8 49. Rb6+ Kxa5 50. Rxd6 Rxb7 51. Rxf6 Re7 52. Ke4 Kb4 53. Kd5 Kc3
+54. Ra6 Kd3 55. Ra3+ Ke2 56. Ke4 Kf2 57. h5 Rf7 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.6"]
+[White "Kraus, Tomas"]
+[Black "Hracek, Zbynek"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2326"]
+[BlackElo "2633"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "331708"]
+[BlackFideId "300071"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d6 5. a3 Bxc3+ 6. Qxc3 Nbd7 7. Nf3 b6 8. g3
+Bb7 9. Bg2 O-O 10. O-O h6 11. Rd1 Be4 12. b3 c6 13. Nd2 Bxg2 14. Kxg2 d5 15.
+cxd5 cxd5 16. Bb2 Rc8 17. Qd3 Nb8 18. Rac1 Qd7 19. e3 Nc6 20. Rc2 Ne7 21. Rdc1
+Rxc2 22. Rxc2 Rc8 23. a4 Rxc2 24. Qxc2 Qc6 25. Qxc6 Nxc6 26. f3 Nd7 27. Ba3 f6
+28. Kf2 Kf7 29. Ke2 h5 30. Kd3 e5 31. Nb1 f5 32. Bd6 e4+ 33. fxe4 fxe4+ 34. Ke2
+g5 35. h3 Ke6 36. Ba3 a6 37. Kd2 b5 38. axb5 axb5 39. Kc3 Nf6 40. Nd2 Ne8 41.
+Nf1 Nc7 42. Bf8 b4+ 43. Kd2 Kd7 44. Bh6 Ne6 45. h4 Ke7 46. hxg5 Kf7 47. Ke2 Kg6
+48. Kf2 Ne7 49. Nh2 Nc6 50. Nf1 Ncd8 51. g4 h4 52. Kg2 Nf7 53. Kh2 Nfxg5 54.
+Bxg5 Nxg5 55. Nd2 Nf3+ 56. Nxf3 exf3 57. e4 dxe4 58. d5 f2 59. Kg2 e3 60. d6 h3+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.7"]
+[White "Rausis, Igors"]
+[Black "Olsarova, Karolina"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "WIM"]
+[WhiteElo "2578"]
+[BlackElo "2279"]
+[ECO "A15"]
+[Opening "English, 1...Nf6 (Anglo-Indian defense)"]
+[WhiteFideId "11600098"]
+[BlackFideId "320242"]
+[EventDate "2014.04.26"]
+
+1. c4 Nf6 2. g3 c6 3. Bg2 d5 4. Nf3 Bg4 5. O-O e6 6. Qb3 Qb6 7. d3 Nbd7 8. Nc3
+Be7 9. Be3 Qxb3 10. axb3 a6 11. h3 Bh5 12. g4 Bg6 13. Nh4 Rd8 14. f4 Nc5 15.
+cxd5 Nxd5 16. Nxd5 cxd5 17. b4 Nd7 18. Nxg6 hxg6 19. Rfc1 Bxb4 20. Rc7 Ke7 21.
+Rxb7 a5 22. Bd4 f6 23. e4 dxe4 24. dxe4 Rb8 25. Ra7 e5 26. fxe5 fxe5 27. Be3 Ra8
+28. Bg5+ Ke6 29. Rxa8 Rxa8 30. Bf1 Rc8 31. Bd3 Nf6 32. Kf2 Ne8 33. Ke2 Nd6 34.
+Be3 Rh8 35. Rh1 Rc8 36. h4 Bc5 37. Bd2 Rf8 38. Rf1 Rb8 39. Rc1 Bd4 40. Bxa5
+Rxb2+ 41. Rc2 Rxc2+ 42. Bxc2 Ke7 43. Bb4 Kd7 44. Ba4+ Ke7 45. Bb3 Bb2 46. Bd5
+Kd7 47. Kd3 Bd4 48. Ke2 Bb2 49. g5 Bc1 50. Kf3 Bf4 51. Bg8 Nb5 52. Bf7 Nd4+ 53.
+Kg4 Nc6 54. Bf8 Nd8 55. Bxg6 Ne6 56. Bb4 Nd4 57. Ba3 Be3 58. h5 Bf4 59. Bf8 Ne6
+60. Bxg7 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.8"]
+[White "Studnicka, Tomas"]
+[Black "Babula, Vlastimil"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2374"]
+[BlackElo "2553"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "318949"]
+[BlackFideId "301264"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. Nf3 c5 6. dxc5 Bxc5 7. Bg5 Be7 8. e3
+h6 9. Bh4 b6 10. Be2 Bb7 11. O-O d6 12. Rfd1 Nbd7 13. Nd4 a6 14. Bf3 Bxf3 15.
+Nxf3 Qc7 16. Nd2 b5 17. cxb5 axb5 18. Rdc1 Qb7 19. Nde4 b4 20. Nxf6+ Bxf6 21.
+Bxf6 Nxf6 22. Qb3 Rfb8 23. Ne2 Ne4 24. Nd4 Nc5 25. Qc4 Qa6 26. b3 e5 27. Nf5
+Qxc4 28. bxc4 Kf8 29. h3 g6 30. Nxd6 Rd8 31. Nb5 Rd2 32. Rcb1 Ra4 33. Nc7 Nd3
+34. Nd5 Nxf2 35. Rxb4 Ra3 36. Rb3 Ra4 37. Nb6 Raxa2 38. Rxa2 Rxa2 39. Nd7+ Ke7
+40. Nxe5 Ke6 41. Nf3 Ne4 42. Rb5 Kf6 43. Rb6+ Ke7 44. Ne5 h5 45. h4 Ra3 46. Rb7+
+Kf6 47. Nxf7 Rxe3 48. Nd8 Re1+ 49. Kh2 Rc1 50. Rf7+ Ke5 51. Nc6+ Kd6 52. Na5 Ke6
+53. Rf4 Ke5 54. Rf8 Ke6 55. Rc8 Nd2 56. Kg3 Kf5 57. Rf8+ Ke4 58. Rf6 Rh1 59.
+Re6+ Kf5 60. Re2 Ne4+ 61. Kf3 Rxh4 62. Rb2 Rf4+ 63. Ke3 Kg4 64. Kd4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.9"]
+[White "Kriebel, Tadeas"]
+[Black "Cvek, Robert"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2366"]
+[BlackElo "2519"]
+[ECO "C15"]
+[Opening "French"]
+[Variation "Winawer (Nimzovich) variation"]
+[WhiteFideId "330027"]
+[BlackFideId "307424"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Bd3 Nc6 6. Ne2 Nge7 7. O-O Bg4 8.
+a3 Ba5 9. Be3 O-O 10. b4 Bb6 11. h3 Bf5 12. Na4 Qd7 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.10"]
+[White "Lechtynsky, Jiri"]
+[Black "Plat, Vojtech"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2365"]
+[BlackElo "2456"]
+[ECO "A41"]
+[Opening "Old Indian"]
+[Variation "Tartakower (Wade) variation"]
+[WhiteFideId "300217"]
+[BlackFideId "325740"]
+[EventDate "2014.04.26"]
+
+1. d4 d6 2. Nf3 Bg4 3. c4 Nd7 4. Nc3 c6 5. g3 e5 6. Bg2 Ngf6 7. O-O Be7 8. h3
+Bxf3 9. Bxf3 O-O 10. e3 Re8 11. d5 Qc7 12. e4 a5 13. Be3 Reb8 14. Rc1 Nc5 15.
+Qe2 a4 16. Bxc5 dxc5 17. a3 Ne8 18. Qc2 Nd6 19. dxc6 Qxc6 20. Be2 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.11"]
+[White "Rasik, Vitezslav"]
+[Black "Sikora, Jan"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2456"]
+[BlackElo "2188"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Byrne (English) attack"]
+[WhiteFideId "300306"]
+[BlackFideId "305405"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. f3 b5 8. Qd2
+Bb7 9. g4 Nfd7 10. O-O-O Nb6 11. Nb3 b4 12. Ne2 a5 13. Ng3 Be7 14. Nh5 g6 15.
+Qd4 e5 16. Qxb6 Qxb6 17. Bxb6 gxh5 18. Nxa5 Ba6 19. Nc4 Nd7 20. Be3 hxg4 21.
+Nxd6+ Bxd6 22. Rxd6 Bxf1 23. Rxf1 Ke7 24. Rfd1 Rhd8 25. fxg4 Rxa2 26. Kb1 Raa8
+27. b3 Ke8 28. R1d5 f6 29. h3 Rac8 30. Kb2 Rb8 31. g5 Rb7 32. gxf6 Kf7 33. Bd2 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.12"]
+[White "Kociscak, Jiri"]
+[Black "Marek, Matyas"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[WhiteElo "2434"]
+[BlackElo "2110"]
+[ECO "E70"]
+[Opening "King's Indian"]
+[Variation "Kramer system"]
+[WhiteFideId "322121"]
+[BlackFideId "335398"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 e5 7. d5 a5 8. Be2 Na6
+9. h4 h5 10. Bg5 Qe8 11. Qd2 Bd7 12. Bh6 Ng4 13. Bxg4 Bxg4 14. f3 Bxh6 15. Qxh6
+Bd7 16. O-O-O f6 17. Nxh5 Qf7 18. Ng3 Qg7 19. Qxg7+ Kxg7 20. h5 g5 21. Nf5+ Bxf5
+22. exf5 Nc5 23. g4 b6 24. Kc2 Ra6 25. b3 Rfa8 26. Rb1 Kh6 27. Nb5 Rc8 28. Nc3
+Rca8 29. Ne4 Nxe4 30. fxe4 R6a7 31. Kb2 a4 32. b4 a3+ 33. Kc3 Ra4 34. Rb3 R8a7
+35. Kd3 Ra8 36. Rc1 R8a7 37. Rcc3 Ra8 38. Ke2 R8a7 39. Ke3 Kg7 40. c5 bxc5 41.
+bxc5 dxc5 42. Rxc5 Rd4 43. Rb8 Rd1 44. Rc8 Re1+ 45. Kd3 Rd1+ 46. Ke2 Ra1 47.
+R5xc7+ Rxc7 48. Rxc7+ Kf8 49. Rc2 Rb1 50. Rc8+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.13"]
+[White "Kulovana, Eva"]
+[Black "Vokac, Marek"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "GM"]
+[WhiteElo "2250"]
+[BlackElo "2422"]
+[ECO "B52"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky attack, 3...Bd7"]
+[WhiteFideId "318779"]
+[BlackFideId "300101"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nc6 6. c3 Nf6 7. Re1 e6 8.
+d4 cxd4 9. cxd4 d5 10. e5 Ne4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.14"]
+[White "Adamek, Jiri"]
+[Black "Konopka, Michal"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2301"]
+[BlackElo "2408"]
+[ECO "E60"]
+[Opening "King's Indian"]
+[Variation "3.g3, counterthrust variation"]
+[WhiteFideId "315702"]
+[BlackFideId "308633"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. Nc3 dxc4 6. Qa4+ Nfd7 7. Nf3 Nc6 8.
+Qxc4 Nb6 9. Qb5 a6 10. Qb3 O-O 11. e3 Be6 12. Qd1 Qc8 13. b3 Bh3 14. O-O Rd8 15.
+Bxh3 Qxh3 16. Qe2 e5 17. dxe5 Nxe5 18. Nxe5 Bxe5 19. Bb2 Qe6 20. Rad1 c6 21.
+Rxd8+ Rxd8 22. Rd1 Rxd1+ 23. Nxd1 Nd5 24. Ba3 Bg7 25. Qd3 h5 26. e4 Nf6 27. f3
+Nd7 28. Qd6 Qxd6 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.15"]
+[White "Stocek, Jiri"]
+[Black "Vacek, Antonin"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2540"]
+[BlackElo "2053"]
+[ECO "D15"]
+[Opening "QGD Slav"]
+[Variation "Schlechter variation"]
+[WhiteFideId "304760"]
+[BlackFideId "308978"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 c6 4. Nc3 g6 5. h4 dxc4 6. e4 Bg4 7. Bxc4 Bxf3 8. gxf3
+b5 9. Bb3 b4 10. Ne2 Nbd7 11. Be3 Bg7 12. Rc1 Rc8 13. Nf4 e5 14. Bxf7+ Kxf7 15.
+Qb3+ Nd5 16. exd5 exf4 17. dxc6+ Kf6 18. Bxf4 Kf5 19. Bg5 Qe8+ 20. Kd2 Ne5 21.
+dxe5 Rd8+ 22. Bxd8 Qxd8+ 23. Kc2 Qc7 24. Kb1 Bxe5 25. Rhd1 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.16"]
+[White "Petr, Martin"]
+[Black "Firt, Stanislav"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2529"]
+[BlackElo "2253"]
+[ECO "B10"]
+[Opening "Caro-Kann"]
+[Variation "two knights variation"]
+[WhiteFideId "318299"]
+[BlackFideId "300268"]
+[EventDate "2014.04.26"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. d4 Bd6 7. Bd3 O-O 8.
+Be3 Bf5 9. O-O Bxd3 10. Qxd3 Nd7 11. c4 Re8 12. Rfd1 Qc7 13. g3 Rad8 14. c5 Bf8
+15. b4 Nb8 16. Qb3 Rd5 17. b5 Qd7 18. Rab1 g5 19. bxc6 bxc6 20. Re1 Na6 21. Qa4
+Qc8 22. Rb3 Rd7 23. Reb1 h6 24. h4 Re4 25. Qa5 Be7 26. Kg2 Bd8 27. Qc3 Nc7 28.
+Rb8 Qa6 29. Qc2 Ree7 30. hxg5 Nd5 31. Re1 Nxe3+ 32. fxe3 fxg5 33. Ne5 Rd5 34.
+Rf1 Rexe5 35. dxe5 Qa5 36. Rd1 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.17"]
+[White "Holemar, David"]
+[Black "Jansa, Vlastimil"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2269"]
+[BlackElo "2455"]
+[ECO "B07"]
+[Opening "Pirc defence"]
+[WhiteFideId "307009"]
+[BlackFideId "300128"]
+[EventDate "2014.04.26"]
+
+1. d4 d6 2. Nc3 Nf6 3. e4 g6 4. Be3 Bg7 5. h3 O-O 6. Nf3 b6 7. Qd2 Bb7 8. d5 c6
+9. Be2 Nbd7 10. Rd1 Nc5 11. dxc6 Bxc6 12. Nd4 Bxe4 13. Nxe4 Ncxe4 14. Qc1 Rc8
+15. Ba6 Rc5 16. b4 Rc3 17. Nb5 Qa8 18. O-O Rc6 19. Nd4 Rc7 20. Nb5 Rd7 21. f3
+Ng3 22. Rfe1 Nd5 23. Bf2 Nxb4 24. Qa3 Nxa6 25. Qxa6 Nh5 26. Re4 Qc8 27. Qxc8
+Rxc8 28. Ra4 Rxc2 29. Nxa7 Be5 30. Bxb6 Nf4 31. Bf2 Ne2+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.18"]
+[White "Blatny, Pavel"]
+[Black "Vrana, Frantisek"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2418"]
+[BlackElo "2245"]
+[ECO "B01"]
+[Opening "Scandinavian defence"]
+[WhiteFideId "300047"]
+[BlackFideId "302066"]
+[EventDate "2014.04.26"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nf3 Nf6 5. d4 Bf5 6. Bd2 c6 7. Bc4 Nbd7 8.
+Nd5 Qd8 9. Nxf6+ Nxf6 10. c3 e6 11. a4 Bd6 12. Qe2 Qc7 13. h3 h6 14. O-O Nd5 15.
+Ne5 Bxe5 16. dxe5 Nb6 17. Bb3 Rd8 18. Rfd1 O-O 19. Bf4 Rxd1+ 20. Rxd1 Rd8 21. g4
+Bg6 22. Rd6 Nc8 23. Rd2 Nb6 24. Qd1 Rxd2 25. Qxd2 Nd5 26. Bg3 Qb6 27. Bd1 Qc5
+28. h4 Qc4 29. h5 Qd3 30. Qe2 Be4 31. Qxd3 Bxd3 32. a5 Kf8 33. f4 Ne3 34. Bf3 a6
+35. Bf2 Nd5 36. Bg3 Ne3 37. Kf2 Nd5 38. Ke1 Ke8 39. Kd2 Bh7 40. c4 Nb4 41. Kc3
+Nd3 42. b4 Kd7 43. Bd1 c5 44. Bc2 Nc1 45. Bxh7 Ne2+ 46. Kd3 Nxg3 47. b5 f5 48.
+bxa6 bxa6 49. gxf5 Nxf5 50. Ke4 Ng3+ 51. Kf3 Nf5 52. Bxf5 exf5 53. Kg3 Ke7 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.19"]
+[White "Voloshin, Leonid"]
+[Black "Folk, Petr"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[WhiteElo "2391"]
+[BlackElo "2229"]
+[ECO "E62"]
+[Opening "King's Indian"]
+[Variation "fianchetto with ...Nc6"]
+[WhiteFideId "311111"]
+[BlackFideId "302996"]
+[EventDate "2014.04.26"]
+
+1. c4 Nf6 2. Nc3 d6 3. g3 g6 4. Bg2 Bg7 5. d4 O-O 6. Nf3 Nc6 7. O-O Rb8 8. Re1
+e5 9. d5 Ne7 10. c5 Ne8 11. cxd6 Nxd6 12. e4 Re8 13. b3 c6 14. Ba3 Nb5 15. Nxb5
+cxb5 16. h3 f6 17. d6 Nc6 18. Qd5+ Be6 19. Qxb5 a6 20. Qc5 Rc8 21. Rad1 Bf8 22.
+Qe3 Qd7 23. Bf1 b5 24. Rd2 Red8 25. Red1 Qb7 26. Bc5 h5 27. Bb6 Rd7 28. Bc7 Kh7
+29. Qc3 Nd8 30. Re2 Bxd6 31. Red2 Rcxc7 32. Qe3 Bf8 33. Rxd7+ Rxd7 34. Rxd7+
+Bxd7 35. Nd2 Ne6 36. Qd3 Bc5 37. Bg2 Bd4 38. Qc2 Qc6 39. Qxc6 Bxc6 40. Kf1 Kg7
+41. Ke2 Nc5 42. f3 b4 43. Kd1 Bb5 44. Bf1 Bxf1 45. Nxf1 f5 46. exf5 gxf5 47. Nd2
+Kf6 48. Nc4 e4 49. Ke2 Nd3 50. fxe4 fxe4 51. Nd6 Nc1+ 52. Kd2 Nxa2 53. Nxe4+ Ke5
+54. Ng5 Bf2 55. g4 h4 56. Ke2 Bg3 57. Kd3 Kd5 58. Nh7 Nc1+ 59. Kc2 Ne2 60. Nf6+
+Kd4 61. g5 Nf4 62. Ng4 Ke4 63. Kd2 Kf5 64. Ne3+ Kxg5 65. Nc2 a5 66. Ke3 Nxh3 67.
+Kf3 Ng1+ 68. Kg2 Ne2 69. Kf3 Nc1 70. Nd4 Kf6 71. Kg4 Bf2 72. Nb5 Nxb3 73. Nd6
+Ke5 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.20"]
+[White "Kuba, Jindrich"]
+[Black "Hausner, Ivan"]
+[Result "1/2-1/2"]
+[BlackTitle "IM"]
+[WhiteElo "2239"]
+[BlackElo "2370"]
+[ECO "B98"]
+[Opening "Sicilian"]
+[Variation "Najdorf variation"]
+[WhiteFideId "318248"]
+[BlackFideId "300110"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 8. Qf3
+Qc7 9. O-O-O O-O 10. Be2 b5 11. Qg3 b4 12. Bh6 Ne8 13. Nb1 Bb7 14. Bf3 Nd7 15.
+Rhe1 Rc8 16. Re2 Nc5 17. e5 Kh8 18. Bxb7 Qxb7 19. Bg5 f6 20. exf6 Nxf6 21. Qf3
+Qxf3 22. gxf3 h6 23. Bh4 Nd5 24. Bxe7 Nxe7 25. Nxe6 Nxe6 26. Rxe6 Nf5 27. Re4 a5
+28. a3 bxa3 29. Nxa3 Rc5 30. c3 Rf6 31. Nc2 Rg6 32. Nd4 Rg2 33. Rd2 Rxd2 34.
+Kxd2 Nxd4 35. Rxd4 Rh5 36. Rxd6 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.21"]
+[White "Freisler, Pavel"]
+[Black "Nguyen, Thai Dai Van"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "CM"]
+[WhiteElo "2357"]
+[BlackElo "2217"]
+[ECO "D58"]
+[Opening "QGD"]
+[Variation "Tartakower (Makagonov-Bondarevsky) system"]
+[WhiteFideId "301477"]
+[BlackFideId "358878"]
+[EventDate "2014.04.26"]
+
+1. Nf3 Nf6 2. d4 d5 3. c4 e6 4. Nc3 Be7 5. Bg5 O-O 6. e3 h6 7. Bh4 b6 8. cxd5
+exd5 9. Rc1 Bb7 10. Bd3 Nbd7 11. O-O c5 12. Bf5 Re8 13. Qc2 a6 14. dxc5 bxc5 15.
+Rfd1 d4 16. exd4 Bxf3 17. gxf3 c4 18. Bg3 Nb6 19. d5 Bd6 20. Ne4 Nxe4 21. fxe4
+h5 22. f3 h4 23. Bxd6 Qxd6 24. Qf2 g6 25. Bh3 Re5 26. b3 Rg5+ 27. Kh1 Qf4 28.
+bxc4 Na4 29. Rg1 Rxg1+ 30. Rxg1 Rb8 31. Bg4 g5 32. Re1 Rb2 33. Re2 Rb1+ 34. Kg2
+Nc3 35. Re1 Nd1 36. Rxd1 Rxd1 37. Kh3 Rd2 38. Qg1 f5 39. exf5 Qxc4 40. f6 Qf4
+41. f7+ Kg7 42. f8=Q+ Qxf8 43. Qa7+ Qf7 44. Qe3 Qxd5 45. Qe7+ Kg6 46. Qe8+ Kg7
+47. Qe7+ Kg6 48. Qe8+ Kf6 49. Qh8+ Ke7 50. Qg7+ Kd6 51. Qf6+ Kc5 52. Qxa6 Qxa2
+53. Qc8+ Kd4 54. Qh8+ Ke3 55. Qe5+ Kf2 56. Qxg5 Kf1 57. Qb5+ Ke1 58. Qe5+ Kf1
+59. Qb5+ Ke1 60. Qe5+ 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.22"]
+[White "Toman, Jaroslav"]
+[Black "Michenka, Jozef"]
+[Result "1-0"]
+[BlackTitle "IM"]
+[WhiteElo "2220"]
+[BlackElo "2353"]
+[ECO "D52"]
+[Opening "QGD"]
+[Variation "Cambridge Springs defence, Yugoslav variation"]
+[WhiteFideId "317365"]
+[BlackFideId "301175"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. Bg5 Nbd7 6. e3 Qa5 7. cxd5 Nxd5 8. Qb3
+h6 9. Bh4 Bb4 10. Rc1 b6 11. Nd2 Ba6 12. Nc4 Bxc4 13. Bxc4 O-O 14. O-O Nxc3 15.
+bxc3 Ba3 16. Rce1 Rfe8 17. f4 b5 18. Bd3 Be7 19. Bg3 b4 20. f5 e5 21. f6 Bxf6
+22. cxb4 Qc7 23. Bc4 Re7 24. Rf5 Rf8 25. Ref1 Qb8 26. a4 Qe8 27. d5 cxd5 28.
+Bxd5 Nb6 29. b5 Nxd5 30. Qxd5 Qd8 31. Rd1 Qb6 32. Qe4 Rd8 33. Rff1 Red7 34. Rxd7
+Rxd7 35. Rc1 Qd8 36. h3 Rd2 37. Kh2 g6 38. Qb7 Rd7 39. Qc6 Kg7 40. a5 Rd6 41.
+Qc7 Rd5 42. b6 axb6 43. axb6 Rb5 44. b7 Qxc7 45. Rxc7 g5 46. e4 Kg6 47. Bf2 Bd8
+48. Rd7 g4 49. Rxd8 Rxb7 50. Rg8+ Kh7 51. Rxg4 Rb4 52. Bc5 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.28"]
+[Round "3.23"]
+[White "Dolezal, Radoslav1"]
+[Black "Machycek, Lubomir"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2344"]
+[BlackElo "2210"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "classical variation (5.Bf4)"]
+[WhiteFideId "304735"]
+[BlackFideId "311049"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. Nc3 Be7 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8. Be2
+dxc4 9. Bxc4 a6 10. a4 Nc6 11. O-O Qb6 12. Qb3 Qxb3 13. Bxb3 Bd7 14. Rfd1 Rfd8
+15. Nd2 Be8 16. Nc4 Nb4 17. Na5 Bc6 18. Bc7 Rxd1+ 19. Rxd1 Rc8 20. Be5 Kf8 21.
+Kf1 Ke7 22. Bc4 Rd8 23. Rxd8 Kxd8 24. h3 Bb6 25. Nxc6+ Nxc6 26. Bd6 Ba5 27. Bf8
+Ne8 28. Na2 Bc7 29. Bd3 h6 30. Be4 Kd7 31. Nb4 Nd8 32. Nd3 Bd6 33. Nc5+ Kc7 34.
+Bxd6+ Nxd6 35. Bf3 Nc4 36. Nd3 Kd6 37. Ke2 a5 38. b3 Nb6 39. Kd2 Nd7 40. Kc3 Nc5
+41. Nb2 b6 42. b4 Ncb7 43. Nc4+ Kc7 44. bxa5 bxa5 45. Kd4 f6 46. Bxb7 Nxb7 47.
+f4 Kc6 48. e4 Kd7 49. e5 f5 50. Nd2 Kc6 51. Nb3 Kb6 52. Kc4 g5 53. fxg5 hxg5 54.
+g3 Nd8 55. Nd4 Nf7 56. Nxe6 Nxe5+ 57. Kd5 Nf3 58. Nd4 Ng1 59. h4 f4 60. h5 Ne2
+61. h6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.1"]
+[White "Simacek, Pavel"]
+[Black "Navara, David"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2469"]
+[BlackElo "2706"]
+[ECO "B13"]
+[Opening "Caro-Kann"]
+[Variation "Panov-Botvinnik attack"]
+[WhiteFideId "307165"]
+[BlackFideId "309095"]
+[EventDate "2014.04.26"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 Nc6 6. Nf3 Be6 7. cxd5 Bxd5 8.
+Be3 e6 9. Be2 Be7 10. O-O O-O 11. a3 Qd6 12. Nb5 Qb8 13. g3 Rd8 14. Rc1 Be4 15.
+Nd2 Bf5 16. Bf4 Qc8 17. Nc7 Nxd4 18. Re1 Rb8 19. Bb5 Nc6 20. Na6 bxa6 21. Rxc6
+Qb7 22. Ba4 Rbc8 23. Rxc8 Qxc8 24. Qb3 Nd5 25. Be5 Nb6 26. Bc3 h6 27. Nf1 Qa8
+28. Ne3 Bh3 29. Qc2 Nxa4 30. Qxa4 Rd3 31. Re2 Qf3 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.2"]
+[White "Oral, Tomas"]
+[Black "Biolek, Richard Jr."]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2515"]
+[BlackElo "2418"]
+[ECO "C78"]
+[Opening "Ruy Lopez"]
+[Variation "Moeller defence"]
+[WhiteFideId "303739"]
+[BlackFideId "319996"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 b5 7. Bb3 d6 8. d4 Bb6
+9. a4 Rb8 10. axb5 axb5 11. Na3 O-O 12. Nxb5 Bg4 13. Bc2 Bxf3 14. gxf3 Nh5 15.
+f4 Nxf4 16. Bxf4 exf4 17. Qg4 Qf6 18. Ra6 Ne7 19. b4 d5 20. exd5 Nxd5 21. Qh5 g6
+22. Qxd5 c6 23. Qe5 Qxe5 24. dxe5 cxb5 25. Bb3 Rfe8 26. Re1 Kg7 27. e6 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.3"]
+[White "Hracek, Zbynek"]
+[Black "Rasik, Vitezslav"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2633"]
+[BlackElo "2456"]
+[ECO "B07"]
+[Opening "Pirc defence"]
+[WhiteFideId "300071"]
+[BlackFideId "300306"]
+[EventDate "2014.04.26"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 Bg7 5. Qd2 c6 6. Nf3 b5 7. Bd3 O-O 8. O-O
+Nbd7 9. Rfe1 b4 10. Na4 Qa5 11. b3 c5 12. a3 Ng4 13. Bg5 f6 14. axb4 cxb4 15.
+Bf4 e5 16. Bg3 f5 17. exf5 gxf5 18. Nc5 Qb6 19. Bc4+ Kh8 20. Ne6 f4 21. Bh4 Bb7
+22. Nxf8 Rxf8 23. Be6 Ndf6 24. Ng5 f3 25. gxf3 Nh6 26. dxe5 dxe5 27. Qe3 Qc6 28.
+Rxa7 e4 29. fxe4 Nfg4 30. Qe2 Ne5 31. Bg3 Qb6 32. Qe3 Qxe3 33. Rxe3 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.4"]
+[White "Zwardon, Vojtech"]
+[Black "Rausis, Igors"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2391"]
+[BlackElo "2578"]
+[ECO "B01"]
+[Opening "Scandinavian gambit"]
+[WhiteFideId "325511"]
+[BlackFideId "11600098"]
+[EventDate "2014.04.26"]
+
+1. e4 d5 2. exd5 Nf6 3. c4 c6 4. dxc6 Nxc6 5. Nf3 e5 6. d3 e4 7. dxe4 Qxd1+ 8.
+Kxd1 Nxe4 9. Be3 Bf5 10. Kc1 O-O-O 11. Be2 Bc5 12. Bxc5 Nxc5 13. Nc3 Nb4 14. Nh4
+Nxa2+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.5"]
+[White "Kociscak, Jiri"]
+[Black "Haba, Petr"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2434"]
+[BlackElo "2498"]
+[ECO "D45"]
+[Opening "QGD semi-Slav"]
+[Variation "Stoltz variation"]
+[WhiteFideId "322121"]
+[BlackFideId "300160"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 e6 5. Nf3 Nbd7 6. Qc2 Bd6 7. Bd3 dxc4 8. Bxc4
+b5 9. Be2 O-O 10. O-O a6 11. Rd1 Qc7 12. e4 e5 13. g3 Re8 14. dxe5 Nxe5 15. Nd4
+Bc5 16. b4 Bxd4 17. Rxd4 Bg4 18. Bf4 Qe7 19. Rad1 Bxe2 20. Qxe2 Nc4 21. Bd6 Nxd6
+22. Rxd6 Rac8 23. R6d4 c5 24. bxc5 Rxc5 25. Qd3 h6 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.6"]
+[White "Babula, Vlastimil"]
+[Black "Lechtynsky, Jiri"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2553"]
+[BlackElo "2365"]
+[ECO "D11"]
+[Opening "QGD Slav"]
+[Variation "4.e3"]
+[WhiteFideId "301264"]
+[BlackFideId "300217"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 c6 3. Nf3 d5 4. e3 g6 5. Nc3 Bg7 6. Be2 O-O 7. O-O dxc4 8. Bxc4
+Bg4 9. h3 Bxf3 10. Qxf3 Nbd7 11. Rd1 Qc7 12. e4 e5 13. d5 Nb6 14. Bb3 cxd5 15.
+exd5 Qd6 16. Be3 a6 17. g4 h6 18. h4 e4 19. Qg2 Rfe8 20. g5 hxg5 21. hxg5 Nfd7
+22. Nxe4 Qb4 23. Nf6+ Nxf6 24. gxf6 Bxf6 25. d6 Nc4 26. Qd5 Nxd6 27. Bd4 Re6 28.
+Bc5 Qg4+ 29. Qg2 Qxg2+ 30. Kxg2 Ne4 31. Bxe6 Nxc5 32. Bd5 Bxb2 33. Rab1 Be5 34.
+Bxf7+ Kxf7 35. Rd5 Ne6 36. Rxe5 b5 37. Rbe1 Ng7 38. Re7+ Kf6 39. Rb7 Nf5 40.
+Rb6+ Kg5 41. Ree6 Kf4 42. Rxa6 Rd8 43. Kf1 g5 44. Ra3 Rd2 45. Re2 Rd1+ 46. Re1
+Rd2 47. Rb1 Nd6 48. Rb4+ Kf5 49. Rf3+ Kg6 50. a3 Rd5 51. Ke2 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.7"]
+[White "Kriebel, Tadeas"]
+[Black "Zilka, Stepan"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2366"]
+[BlackElo "2541"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "330027"]
+[BlackFideId "315303"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. O-O d6 6. c3 a6 7. Ba4 Ba7 8. h3 h6
+9. Nbd2 O-O 10. Re1 Ne7 11. Nf1 Ng6 12. Ng3 c6 13. d4 Re8 14. Bc2 Qc7 15. Be3
+Be6 16. Qd2 Rad8 17. Rad1 d5 18. Nxe5 Nxe5 19. dxe5 Nxe4 20. Qc1 Bb8 21. Bf4 f5
+22. Ne2 g5 23. Bh2 f4 24. Nd4 Bc8 25. f3 Nc5 26. b4 Nd7 27. Nf5 Re6 28. Kh1 Nxe5
+29. Bg1 Rde8 30. Bd4 Qd8 31. Re2 Nc4 32. Rxe6 Rxe6 33. Ng7 Re7 34. Bf6 Be5 35.
+Bxe7 Qxe7 36. Nf5 Bxf5 37. Bxf5 Ne3 38. Bb1 Nxd1 39. Qxd1 Bxc3 40. Qd3 Bxb4 41.
+Qg6+ Qg7 42. Qe8+ Bf8 43. Bf5 d4 44. Kh2 c5 45. a4 Qf6 46. Bd3 Qf7 47. Qe2 Qe7
+48. Qa2+ Kg7 49. Qd5 Qf7 50. Qe5+ Kg8 51. Qe2 Kh8 52. Qe5+ Qg7 53. Qe8 g4 54.
+hxg4 Qe7 55. Qg6 Qg7 56. Qe8 Qf6 57. Qe4 Qf7 58. Qe5+ Kg8 59. Be4 Qg7 60. Qe6+
+Kh8 61. Bd3 Qe7 62. Qg6 b5 63. axb5 axb5 64. Bxb5 d3 65. Qxd3 Qh4+ 66. Kg1 Bg7
+67. Kf1 Qh1+ 68. Ke2 Qxg2+ 69. Kd1 Qg1+ 70. Kc2 Bd4 71. Qe2 Be3 72. Qd1 Qf2+ 73.
+Qe2 Qh4 74. Qd3 Bd4 75. Qe4 Qf6 76. Qe8+ Kg7 77. Qd7+ Qf7 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.8"]
+[White "Svoboda, Svatopluk"]
+[Black "Stocek, Jiri"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2334"]
+[BlackElo "2540"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "14903563"]
+[BlackFideId "304760"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. O-O Bd7 5. Re1 Nf6 6. c3 a6 7. Ba4 b5 8. Bc2
+Bg4 9. h3 Bxf3 10. Qxf3 g6 11. a4 Bh6 12. axb5 axb5 13. Rxa8 Qxa8 14. e5 dxe5
+15. d4 Bxc1 16. dxe5 Nd7 17. e6 fxe6 18. Rxc1 Nde5 19. Qe2 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.9"]
+[White "Sobek, Jaroslav"]
+[Black "Petr, Martin"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2327"]
+[BlackElo "2529"]
+[ECO "D83"]
+[Opening "Gruenfeld"]
+[Variation "Gruenfeld gambit, Botvinnik variation"]
+[WhiteFideId "301388"]
+[BlackFideId "318299"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Rc1 c5 7. dxc5 Be6 8. Nf3
+Nc6 9. Be2 dxc4 10. Ng5 Bd7 11. Bxc4 Nh5 12. O-O Nxf4 13. exf4 Nd4 14. Re1 Bc6
+15. b4 b5 16. cxb6 axb6 17. Ne2 Ba4 18. Qd3 e6 19. Nxd4 Qxd4 20. Qxd4 Bxd4 21.
+Nf3 Bb2 22. Rb1 Bf6 23. Ne5 Rfd8 24. Re3 Rd4 25. Be2 Rxf4 26. g3 Rd4 27. Rc1
+Rxb4 28. a3 Rb3 29. Nc4 Rxe3 30. fxe3 Bg5 31. Kf2 Rc8 32. Rb1 b5 33. Nd2 Rc5 34.
+g4 Re5 35. Nf1 Be7 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.10"]
+[White "Cvek, Robert"]
+[Black "Dolezal, Radoslav1"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2519"]
+[BlackElo "2344"]
+[ECO "A17"]
+[Opening "English"]
+[Variation "Nimzo-English opening"]
+[WhiteFideId "307424"]
+[BlackFideId "304735"]
+[EventDate "2014.04.26"]
+
+1. c4 e6 2. Nc3 Bb4 3. Nf3 Nf6 4. Qc2 O-O 5. a3 Bxc3 6. Qxc3 d6 7. e3 e5 8. b4
+b6 9. d4 e4 10. Nd2 c6 11. a4 a5 12. b5 c5 13. Bb2 Qe7 14. Be2 Ne8 15. dxc5 dxc5
+16. Nxe4 Bb7 17. Ng3 Nd7 18. O-O-O Rd8 19. Bf3 Bxf3 20. gxf3 f5 21. Rhg1 Rf7 22.
+Rd5 Qh4 23. Nxf5 Qxh2 24. Rdd1 Ndf6 25. Nh6+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.11"]
+[White "Svatos, Jan"]
+[Black "Krejci, Jan2"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2306"]
+[BlackElo "2518"]
+[ECO "B47"]
+[Opening "Sicilian"]
+[Variation "Taimanov (Bastrikov) variation"]
+[WhiteFideId "304174"]
+[BlackFideId "322156"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8. Be3
+Bb4 9. Na4 O-O 10. Nxc6 bxc6 11. f4 Rb8 12. Bf3 Be7 13. c4 d6 14. Qc2 c5 15.
+Rad1 Bb7 16. b3 Rbd8 17. Nc3 Nd7 18. g4 h6 19. Qg2 Rfe8 20. e5 Bxf3 21. exd6
+Bxd6 22. Qxf3 Bf8 23. Rf2 Nb8 24. Rfd2 Rxd2 25. Rxd2 Nc6 26. Kg2 Ne7 27. f5 exf5
+28. gxf5 Qe5 29. Bf2 Qxf5 30. Qxf5 Nxf5 31. Rd7 g6 32. Kf3 Bg7 33. Ne4 Nd4+ 34.
+Bxd4 cxd4 35. Rd6 a5 36. c5 Rc8 37. c6 Bf8 38. Rxd4 Rxc6 39. Ra4 f5 40. Nd2 Rc3+
+41. Ke2 Rh3 42. Nf3 g5 43. Rxa5 g4 44. Rxf5 gxf3+ 45. Rxf3 Rxh2+ 46. Rf2 Rh4 47.
+Kf3 Rb4 48. Rg2+ Kh7 49. Rg4 Rb8 50. Ra4 Rb7 51. Kg4 Be7 52. Ra6 Kg7 53. Kh5
+Rb5+ 54. Kg4 h5+ 55. Kh3 Bf6 56. Ra4 Rd5 57. Kg3 Rd3+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.12"]
+[White "Kislinsky, Alexey"]
+[Black "Kraus, Tomas"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2483"]
+[BlackElo "2326"]
+[ECO "C04"]
+[Opening "French"]
+[Variation "Tarrasch, Guimard main line"]
+[WhiteFideId "14108801"]
+[BlackFideId "331708"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nc6 4. Ngf3 Nf6 5. e5 Nd7 6. c3 f6 7. exf6 Qxf6 8. Bd3
+Bd6 9. O-O O-O 10. Re1 e5 11. Qb3 Qf7 12. Bxh7+ Kh8 13. Qc2 Ne7 14. Nf1 e4 15.
+Ng5 Qh5 16. f3 Nf6 17. Bxe4 dxe4 18. fxe4 Nh7 19. Nxh7 Qxh7 20. Bg5 c5 21. Qd2
+Nc6 22. e5 Bc7 23. d5 Nxe5 24. Be7 Nc4 25. Qe2 Rf4 26. h3 Bf5 27. Bxc5 Re4 28.
+Qf2 Rf4 29. Qe2 Re4 30. Qf2 Rf4 31. Qe2 Re4 32. Qf2 Rae8 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.13"]
+[White "Plat, Vojtech"]
+[Black "Adamek, Jiri"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2456"]
+[BlackElo "2301"]
+[ECO "C07"]
+[Opening "French"]
+[Variation "Tarrasch, open variation"]
+[WhiteFideId "325740"]
+[BlackFideId "315702"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qd6 7. O-O Nf6 8.
+Nb3 Nc6 9. Nbxd4 Nxd4 10. Qxd4 Qxd4 11. Nxd4 a6 12. Be2 Bd6 13. Bf3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.14"]
+[White "Jansa, Vlastimil"]
+[Black "Kulovana, Eva"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "WGM"]
+[WhiteElo "2455"]
+[BlackElo "2250"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack (Barcza system)"]
+[WhiteFideId "300128"]
+[BlackFideId "318779"]
+[EventDate "2014.04.26"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 Bg4 4. O-O Nbd7 5. c4 c6 6. d3 e6 7. Nc3 Bd6 8. cxd5
+cxd5 9. Be3 O-O 10. Qb3 Bc5 11. Bxc5 Nxc5 12. Qa3 Qb6 13. b4 Qa6 14. Qxa6 Nxa6
+15. a3 Nc7 16. Ne5 Bh5 17. h3 Rfc8 18. g4 Bg6 19. Rfc1 Nfe8 20. Rc2 Nb5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.15"]
+[White "Vokac, Marek"]
+[Black "Sikorova, Olga"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "WGM"]
+[WhiteElo "2422"]
+[BlackElo "2288"]
+[ECO "A14"]
+[Opening "English"]
+[Variation "Neo-Catalan declined"]
+[WhiteFideId "300101"]
+[BlackFideId "307033"]
+[EventDate "2014.04.26"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. O-O O-O 6. b3 c5 7. Bb2 Nc6 8. e3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.16"]
+[White "Malik, Jan"]
+[Black "Kanovsky, David"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2289"]
+[BlackElo "2416"]
+[ECO "B70"]
+[Opening "Sicilian"]
+[Variation "dragon variation"]
+[WhiteFideId "317500"]
+[BlackFideId "316210"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Bc4 Bg7 7. O-O O-O 8. Re1
+Bg4 9. Qd3 Nbd7 10. Bb3 Nc5 11. Qg3 a5 12. a4 Rc8 13. Bg5 Nxb3 14. cxb3 Be6 15.
+Nxe6 fxe6 16. e5 dxe5 17. Qxe5 Rc6 18. Qe2 Qb6 19. Nb5 Nd5 20. Rac1 Rf5 21. Be3
+Nxe3 22. Qxe3 Qxe3 23. fxe3 Bxb2 24. Rxc6 bxc6 25. Nd4 Bxd4 26. exd4 e5 27. dxe5
+c5 28. Rd1 Rxe5 29. Rd8+ Kf7 30. Ra8 Re3 31. Rxa5 Rxb3 32. Rxc5 Ra3 33. Ra5 Ra2
+34. h3 h5 35. Ra8 Kf6 36. a5 h4 37. a6 Ke5 38. a7 Ke4 39. Kf1 e5 40. Kg1 Ra3 41.
+Kf2 Ra1 42. g4 Ra2+ 43. Kg1 g5 44. Kh1 Ke3 45. Re8 Rxa7 46. Rxe5+ Kf3 47. Rb5
+Ra1+ 48. Kh2 Ra2+ 49. Kh1 Rf2 50. Rxg5 Kg3 51. Rf5 Ra2 52. Rf1 Rh2+ 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.17"]
+[White "Konopka, Michal"]
+[Black "Toman, Jaroslav"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[WhiteElo "2408"]
+[BlackElo "2220"]
+[ECO "E17"]
+[Opening "Queen's Indian"]
+[Variation "old main line, 6.O-O"]
+[WhiteFideId "308633"]
+[BlackFideId "317365"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Re1 Qc8 8. Bg5
+Re8 9. Bxf6 Bxf6 10. e4 d6 11. Nc3 c5 12. e5 dxe5 13. dxe5 Rd8 14. Qc1 Be7 15.
+Qf4 Rd7 16. Rad1 Qd8 17. Rxd7 Nxd7 18. Rd1 Bc6 19. Ne1 Bxg2 20. Kxg2 Qc7 21. Qe4
+Rd8 22. f4 a6 23. Nf3 g6 24. g4 Nb8 25. Rxd8+ Bxd8 26. Kg3 Qc6 27. Qd3 Qd7 28.
+Qe4 Nc6 29. Qe3 f5 30. exf6 Bxf6 31. b3 Bd4 32. Ne4 Kg7 33. Qd2 h6 34. h3 e5 35.
+fxe5 Bxe5+ 36. Nxe5 Qxd2 37. Nxd2 Nxe5 38. Kf4 Kf6 39. Ke4 Ke6 40. Nf1 Nf7 41.
+h4 Ne5 42. Ne3 b5 43. h5 gxh5 44. gxh5 bxc4 45. bxc4 a5 46. a4 Nf7 47. Ng4 Nd6+
+48. Kd3 Nf5 49. Nf2 Ng3 50. Ne4 Nxh5 51. Nxc5+ Kd6 52. Nb7+ Kc7 53. Nxa5 Nf6 54.
+Nb3 h5 55. Ke3 Nd7 56. a5 Kc6 57. Kf4 h4 58. Nd2 Kc5 59. Kg4 Nb8 60. Kxh4 Kb4
+61. Kg4 Kxa5 62. Kf4 Nd7 63. Ke4 Nb6 64. c5 Kb5 65. Kd4 Na4 66. Ne4 Nxc5 67.
+Nxc5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.18"]
+[White "Folk, Petr"]
+[Black "Studnicka, Tomas"]
+[Result "1/2-1/2"]
+[BlackTitle "FM"]
+[WhiteElo "2229"]
+[BlackElo "2374"]
+[ECO "B35"]
+[Opening "Sicilian"]
+[Variation "accelerated fianchetto, modern variation with Bc4"]
+[WhiteFideId "302996"]
+[BlackFideId "318949"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 Ng4 9. Qxg4 Nxd4 10. Qd1 Nc6 11. Qd2 d6 12. Bh6 Qa5 13. Bxg7 Kxg7 14. O-O-O
+Be6 15. Nd5 Qxd2+ 16. Rxd2 Rac8 17. Re1 Rfe8 18. f4 Kf8 19. Kb1 Red8 20. Ne3
+Bxb3 21. axb3 f6 22. c3 Kf7 23. Rf1 Rg8 24. Rd5 Ke6 25. b4 Nb8 26. Kc2 Nd7 27.
+Kb3 a6 28. Ra5 Nb8 29. g3 Rc6 30. Nc2 Rc7 31. Rd5 Nd7 32. Ra5 Nb6 33. Ne3 Rgc8
+34. f5+ Kd7 35. Nd5 Nc4 36. Nxc7 Nxa5+ 37. bxa5 Rxc7 38. Kc2 Rc5 39. b4 Re5 40.
+fxg6 hxg6 41. Kd3 Ke6 42. c4 Rh5 43. Rf2 g5 44. Kd4 g4 45. Rf4 Rxh2 46. Rxg4 Rb2
+47. Kc3 Re2 48. Kd3 Ra2 49. Rg8 Ra3+ 50. Kc2 Kd7 51. Rb8 Kc7 52. Re8 Kd7 53. Rb8
+Kc7 54. Re8 e5 55. Re7+ Kc8 56. Re6 Kd7 57. Rxf6 Rxg3 58. Rf7+ Kc6 59. Rf6 Kc7
+60. Rf7+ Kc6 61. Rf6 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.19"]
+[White "Nguyen, Thai Dai Van"]
+[Black "Blatny, Pavel"]
+[Result "0-1"]
+[WhiteTitle "CM"]
+[BlackTitle "GM"]
+[WhiteElo "2217"]
+[BlackElo "2418"]
+[ECO "C60"]
+[Opening "Ruy Lopez"]
+[Variation "Cozio defence"]
+[WhiteFideId "358878"]
+[BlackFideId "300047"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. Nc3 a6 5. Bc4 h6 6. d4 b5 7. Bxf7+ Kxf7 8. d5
+d6 9. dxc6 Be6 10. O-O Nxc6 11. Ne1 Kg8 12. Nd3 g5 13. a4 b4 14. Nd5 a5 15. Bd2
+Bg7 16. c3 bxc3 17. Bxc3 Nd4 18. Rc1 c6 19. Bxd4 cxd5 20. exd5 Bxd5 21. Be3 Bf7
+22. f3 Kh7 23. b4 axb4 24. Nxb4 Be8 25. Nc6 Qf6 26. a5 Qe6 27. Bb6 d5 28. Nb4 d4
+29. Nd3 Bg6 30. Re1 Qf5 31. Nc5 Rhc8 32. Ne4 Rxc1 33. Qxc1 g4 34. fxg4 Qxg4 35.
+Qc6 Rc8 36. Qb7 Bxe4 37. Qxe4+ Qxe4 38. Rxe4 Rc2 39. Re1 Ra2 40. Rd1 Kg6 41. h3
+Kf5 42. Rf1+ Ke6 43. Rf2 Ra4 44. Rc2 Bf8 45. Kf2 Kd5 46. Rc8 Bb4 47. Ra8 Ra2+
+48. Kf1 Ke4 49. Kg1 d3 50. Rd8 Ra1+ 51. Kf2 Be1+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.20"]
+[White "Hausner, Ivan"]
+[Black "Frolik, Martin"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2370"]
+[BlackElo "2213"]
+[ECO "B40"]
+[Opening "Sicilian defence"]
+[WhiteFideId "300110"]
+[BlackFideId "304123"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. g3 d6 5. Bg2 g6 6. d4 cxd4 7. Nxd4 Nxd4 8. Qxd4
+e5 9. Qd3 Be6 10. O-O Rc8 11. b3 Qc7 12. c4 b5 13. Na3 bxc4 14. Nxc4 Bxc4 15.
+Qxc4 Qxc4 16. bxc4 Rxc4 17. Be3 Bh6 18. Rab1 Kf8 19. Bxa7 Nf6 20. Bb8 Rc6 21.
+Rfd1 Ke7 22. Rb7+ Nd7 23. Bh3 Rxb8 24. Rxd7+ Kf8 25. Rd3 Bg5 26. Ra3 Rd8 27. Rb7
+d5 28. Raa7 Rf6 29. f4 Bh6 30. Bf1 dxe4 31. Bc4 exf4 32. Rxf7+ Rxf7 33. Rxf7+
+Ke8 34. gxf4 Rd7 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.21"]
+[White "Vrana, Frantisek"]
+[Black "Freisler, Pavel"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2245"]
+[BlackElo "2357"]
+[ECO "B05"]
+[Opening "Alekhine's defence"]
+[Variation "modern variation, 4...Bg4"]
+[WhiteFideId "302066"]
+[BlackFideId "301477"]
+[EventDate "2014.04.26"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4 5. Bc4 dxe5 6. h3 Bxf3 7. Qxf3 e6 8.
+dxe5 c6 9. O-O Nd7 10. Re1 Qc7 11. Qg3 Ne7 12. Nd2 Nf5 13. Qf4 g6 14. Nf3 Bh6
+15. Qe4 Nc5 16. Qe2 Bxc1 17. Raxc1 O-O-O 18. b4 Na4 19. c3 Rd7 20. Bb3 Nb6 21.
+a4 Rhd8 22. a5 Nd5 23. Qc4 Kb8 24. Ng5 h6 25. Ne4 Nf4 26. Bc2 Nd3 27. Bxd3 Rxd3
+28. Nc5 R3d5 29. Qf4 g5 30. Qe4 Nh4 31. a6 b6 32. Nb7 R8d7 33. c4 Rd4 34. Qh7
+Qc8 35. Qxh6 Qg8 36. Qh5 Nf5 37. Qf3 g4 38. hxg4 Nh4 39. Qh3 Rxg4 40. g3 Nf3+
+41. Kg2 Rh4 42. Re3 Rxh3 43. Kxh3 Nxe5 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.22"]
+[White "Olsarova, Karolina"]
+[Black "Kuba, Jindrich"]
+[Result "1-0"]
+[WhiteTitle "WIM"]
+[WhiteElo "2279"]
+[BlackElo "2239"]
+[ECO "C96"]
+[Opening "Ruy Lopez"]
+[Variation "closed, Borisenko defence"]
+[WhiteFideId "320242"]
+[BlackFideId "318248"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Be7 7. Re1 O-O 8. h3
+d6 9. c3 Na5 10. Bc2 c5 11. d4 Nc6 12. a4 Bb7 13. d5 Nb8 14. Nbd2 Nbd7 15. Nf1
+Ne8 16. g4 g6 17. Bh6 Ng7 18. Ng3 bxa4 19. Rxa4 Nb6 20. Ra3 a5 21. Kh2 Bc8 22.
+Rg1 f6 23. Nd2 Bd7 24. c4 Qc8 25. Qf1 Rf7 26. f4 exf4 27. Qxf4 Qf8 28. Rf3 Be8
+29. Nf5 gxf5 30. gxf5 Bd8 31. Rfg3 Raa7 32. Bd3 Nc8 33. Nf1 Rab7 34. Kh1 a4 35.
+Rg4 Ra7 36. Qd2 Ba5 37. Qg2 Rfe7 38. Qf2 Bb4 39. Ne3 a3 40. bxa3 Bxa3 41. Ng2
+Rab7 42. Nf4 Bb2 43. Qe1 Kh8 44. Ne6 Rxe6 45. dxe6 Bh5 46. Rf4 Be5 47. Rff1 Qe8
+48. Qh4 Na7 49. Bc2 Nc8 50. Rg2 Nb6 51. Bd1 Nxc4 52. Bxg7+ Rxg7 53. Rxg7 Kxg7
+54. Bxh5 Qb5 55. e7 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.23"]
+[White "Sikora, Jan"]
+[Black "Olsarova, Tereza"]
+[Result "1-0"]
+[BlackTitle "WIM"]
+[WhiteElo "2188"]
+[BlackElo "2260"]
+[ECO "C24"]
+[Opening "Bishop's opening"]
+[Variation "Berlin defence"]
+[WhiteFideId "305405"]
+[BlackFideId "325449"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 c6 4. Nf3 d5 5. Bb3 Bb4+ 6. Bd2 Bxd2+ 7. Nbxd2 a5 8.
+a3 a4 9. Ba2 Nbd7 10. O-O O-O 11. Re1 Qb6 12. b4 axb3 13. Bxb3 Re8 14. Qb1 Qc7
+15. Qb2 Qd6 16. a4 Nh5 17. d4 exd4 18. Qxd4 Nf4 19. e5 Qh6 20. g3 Ne6 21. Qe3
+Qxe3 22. Rxe3 Ndc5 23. Ra2 b6 24. c3 Nxb3 25. Nxb3 b5 26. Nbd4 Bd7 27. Nxe6 fxe6
+28. a5 c5 29. Re1 Bc6 30. Nd2 d4 31. cxd4 cxd4 32. a6 Rec8 33. Ra5 d3 34. Rc1
+Bd5 35. Rd1 b4 36. f4 b3 37. Kf2 b2 38. Rb1 Rc2 39. Ke3 Rac8 40. a7 Ba8 41. Rb5
+Kf7 42. Rb8 Bd5 43. R1xb2 R8c7 44. R2b7 Bxb7 45. Rxb7 Rxb7 46. a8=Q Rbb2 47.
+Qa7+ Kg8 48. Qa5 Kf7 49. Ne4 d2 50. Nxd2 Rxd2 51. Qxd2 Rxd2 52. Kxd2 g5 53. fxg5
+Kg6 54. h4 Kf5 55. Ke3 Kxe5 56. g4 Kd5 57. h5 Ke5 58. Kf3 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.24"]
+[White "Marek, Matyas"]
+[Black "Belunek, Vladimir"]
+[Result "1-0"]
+[BlackTitle "FM"]
+[WhiteElo "2110"]
+[BlackElo "2252"]
+[ECO "D19"]
+[Opening "QGD Slav"]
+[Variation "Dutch variation, main line"]
+[WhiteFideId "335398"]
+[BlackFideId "307432"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 dxc4 5. e3 Bf5 6. Bxc4 e6 7. a4 Bb4 8. O-O
+O-O 9. Qe2 Bg4 10. h3 Bh5 11. g4 Bg6 12. Ne5 Nd5 13. f4 Nd7 14. f5 Nxe5 15. dxe5
+Nxc3 16. bxc3 Bxc3 17. Rb1 Bxe5 18. fxg6 hxg6 19. Ba3 Re8 20. Rxb7 Qh4 21. Qf3
+f5 22. Bb2 Bxb2 23. Rxb2 Rad8 24. Rg2 Kh8 25. Ba2 c5 26. e4 Rd4 27. exf5 gxf5
+28. gxf5 exf5 29. Qxf5 Qh6 30. Bb1 Rh4 31. Qf8+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.29"]
+[Round "4.25"]
+[White "Soural, Jan"]
+[Black "Voloshin, Leonid"]
+[Result "1/2-1/2"]
+[BlackTitle "GM"]
+[WhiteElo "2194"]
+[BlackElo "2391"]
+[ECO "D35"]
+[Opening "QGD"]
+[Variation "exchange, positional line, 5...c6"]
+[WhiteFideId "311928"]
+[BlackFideId "311111"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 c6 6. e3 Be7 7. Qc2 Bg4 8. Bd3
+Bh5 9. Nge2 Bg6 10. Bxf6 Bxf6 11. O-O Be7 12. Rab1 Nd7 13. Ng3 Bxd3 14. Qxd3 g6
+15. b4 a6 16. a4 Nb6 17. b5 cxb5 18. axb5 a5 19. e4 dxe4 20. Qxe4 Rc8 21. Rfe1
+Rxc3 22. Qe5 O-O 23. Qxe7 Rc7 24. Qe5 Nd7 25. Qf4 Nf6 26. Ne4 Nxe4 27. Qxe4 Qd6
+28. b6 Rc6 29. Qe7 Rxb6 30. Qxd6 Rxd6 31. Rxb7 Rxd4 32. Ra7 Rd5 33. g4 h5 34.
+gxh5 Rg5+ 35. Kh1 Rxh5 36. Ra1 Kg7 37. R1xa5 Rh7 38. Ra2 Rfh8 39. f3 Rb8 40. Kg2
+Rhh8 41. Rc2 Rh5 42. Ra4 Rbh8 43. Kg1 Rg5+ 44. Rg2 Rb5 45. Rc2 Rb1+ 46. Kg2 Rd8
+47. Raa2 Rbd1 48. Ra7 R8d5 49. Ra4 Rg5+ 50. Rg4 Ra5 51. Rb4 Raa1 52. Rbb2 Rg1+
+53. Kf2 Rg5 54. Ra2 Rh1 55. Ke3 Rf5 56. Rcb2 Kh6 57. Rg2 g5 58. Kf2 f6 59. Kg3
+Rf4 60. Rgb2 Rg1+ 61. Kf2 Rc1 62. Rc2 Rb1 63. Rcb2 Rd1 64. Rd2 Rxd2+ 65. Rxd2
+Ra4 66. Kg3 f5 67. Rd6+ Kh5 68. Rd3 f4+ 69. Kh3 Ra2 70. Rb3 Re2 71. Rb8 Rf2 72.
+Rb3 Ra2 73. Rc3 Ra1 74. Rb3 Rg1 75. Rb6 Re1 76. Ra6 Re3 77. Kg2 g4 78. fxg4+
+Kxg4 79. Rg6+ Kf5 80. Rg8 Re2+ 81. Kf3 Re3+ 82. Kf2 Rh3 83. Rf8+ Kg4 84. Rg8+
+Kf5 85. Rf8+ Ke5 86. Re8+ Kf6 87. Rf8+ Kg7 88. Rxf4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.1"]
+[White "Navara, David"]
+[Black "Oral, Tomas"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2706"]
+[BlackElo "2515"]
+[ECO "E60"]
+[Opening "King's Indian defence"]
+[WhiteFideId "309095"]
+[BlackFideId "303739"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 g6 3. f3 e6 4. e4 d5 5. cxd5 exd5 6. e5 Nh5 7. Ne2 c5 8. Nbc3
+Nc6 9. Be3 Be6 10. Qd2 Qa5 11. g4 Ng7 12. Bg5 h5 13. Bf6 hxg4 14. fxg4 Bxg4 15.
+Nxd5 Qxd2+ 16. Kxd2 Bf3 17. Nc7+ Kd7 18. Nxa8 Bxh1 19. h4 Be4 20. Bh3+ Bf5 21.
+Bxf5+ gxf5 22. d5 Ne7 23. Nf4 Ng8 24. Bg5 Be7 25. Rg1 Nh5 26. e6+ fxe6 27. Ng6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.2"]
+[White "Rausis, Igors"]
+[Black "Hracek, Zbynek"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2578"]
+[BlackElo "2633"]
+[ECO "E34"]
+[Opening "Nimzo-Indian"]
+[Variation "classical, Noa variation"]
+[WhiteFideId "11600098"]
+[BlackFideId "300071"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 Qxd5 6. Nf3 Qf5 7. Qxf5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.3"]
+[White "Biolek, Richard Jr."]
+[Black "Babula, Vlastimil"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2418"]
+[BlackElo "2553"]
+[ECO "E47"]
+[Opening "Nimzo-Indian"]
+[Variation "4.e3 O-O, 5.Bd3"]
+[WhiteFideId "319996"]
+[BlackFideId "301264"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 b6 6. Ne2 d5 7. a3 Bxc3+ 8. Nxc3
+Ba6 9. cxd5 Bxd3 10. Qxd3 exd5 11. O-O Re8 12. b3 Nbd7 13. a4 Nf8 14. Ba3 Ne6
+15. Rac1 c6 16. Rc2 Rc8 17. Rfc1 Qd7 18. Qf5 h6 19. Ne2 Qb7 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.4"]
+[White "Petr, Martin"]
+[Black "Simacek, Pavel"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2529"]
+[BlackElo "2469"]
+[ECO "B13"]
+[Opening "Caro-Kann"]
+[Variation "Panov-Botvinnik attack"]
+[WhiteFideId "318299"]
+[BlackFideId "307165"]
+[EventDate "2014.04.26"]
+
+1. d4 c5 2. e3 cxd4 3. exd4 d5 4. c4 Nf6 5. Nc3 Nc6 6. Bg5 Be6 7. Be2 Qa5 8. Bf3
+dxc4 9. d5 O-O-O 10. Bd2 Nxd5 11. Nxd5 Rxd5 12. Bxa5 Rxd1+ 13. Rxd1 Nxa5 14. Ne2
+Bd7 15. b4 cxb3 16. axb3 e6 17. O-O b6 18. Rc1+ Kd8 19. Rfd1 Bc5 20. Rb1 Be7 21.
+b4 Nc4 22. Ra1 a5 23. bxa5 bxa5 24. Nd4 Bg5 25. h4 Bf4 26. g3 Bc7 27. Bc6 Nb2
+28. Nxe6+ fxe6 29. Rxd7+ Kc8 30. Rc1 Rd8 31. Rxg7 Kb8 32. Rxh7 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.5"]
+[White "Haba, Petr"]
+[Black "Cvek, Robert"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2498"]
+[BlackElo "2519"]
+[ECO "C02"]
+[Opening "French"]
+[Variation "advance variation"]
+[WhiteFideId "300160"]
+[BlackFideId "307424"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Nc6 6. a3 Nh6 7. b4 cxd4 8. Bxh6
+gxh6 9. cxd4 Bd7 10. Ra2 Rg8 11. h3 Ne7 12. g3 Nf5 13. Be2 h5 14. Nc3 O-O-O 15.
+Qd3 Kb8 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.6"]
+[White "Krejci, Jan2"]
+[Black "Kociscak, Jiri"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2518"]
+[BlackElo "2434"]
+[ECO "C58"]
+[Opening "Two knights defence"]
+[WhiteFideId "322156"]
+[BlackFideId "322121"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8.
+Bd3 Nd5 9. Nf3 Bd6 10. O-O O-O 11. Re1 Re8 12. Nc3 Bg4 13. h3 Bh5 14. Ne4 Nf4
+15. Bf1 f5 16. Nxd6 Qxd6 17. d3 c5 18. Bxf4 exf4 19. Be2 Rab8 20. Qd2 Nc4 21.
+dxc4 Qxd2 22. Nxd2 Bxe2 23. b3 Rbd8 24. Nf1 Bh5 25. f3 g5 26. Rxe8+ Rxe8 27. Kf2
+g4 28. hxg4 fxg4 29. fxg4 Bxg4 30. Re1 Rxe1 31. Kxe1 Bf5 32. c3 Be4 33. Kf2 Kf7
+34. Nd2 Bc6 35. b4 Ke6 36. Nb3 cxb4 37. Nd4+ Kd6 38. cxb4 Bd7 39. Nb5+ Bxb5 40.
+cxb5 Kd5 41. Kf3 Kc4 42. b6 axb6 43. Kxf4 Kxb4 44. Kg5 Ka3 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.7"]
+[White "Zilka, Stepan"]
+[Black "Malik, Jan"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2541"]
+[BlackElo "2289"]
+[ECO "D15"]
+[Opening "QGD Slav"]
+[Variation "4.Nc3"]
+[WhiteFideId "315303"]
+[BlackFideId "317500"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 a6 5. e3 b5 6. c5 g6 7. Bd3 Bg7 8. Ne5 Nfd7
+9. f4 f6 10. Nxd7 Nxd7 11. f5 Nf8 12. e4 e6 13. O-O Kf7 14. Bf4 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.8"]
+[White "Stocek, Jiri"]
+[Black "Kriebel, Tadeas"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2540"]
+[BlackElo "2366"]
+[ECO "D53"]
+[Opening "QGD"]
+[Variation "4.Bg5 Be7"]
+[WhiteFideId "304760"]
+[BlackFideId "330027"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 h6 6. Bh4 O-O 7. Rc1 dxc4 8. Bxc4
+c5 9. dxc5 Qxd1+ 10. Kxd1 Nbd7 11. Nf3 Nxc5 12. Ke2 b6 13. Ne5 Bb7 14. b4 Nce4
+15. Nxe4 Bxe4 16. f3 Bb7 17. Nd7 Rfd8 18. Nxf6+ Bxf6 19. Bxf6 gxf6 20. Rhd1 Rac8
+21. Bb3 Ba6+ 22. Kf2 Rxd1 23. Rxd1 Bc4 24. Rc1 Ba6 25. Rxc8+ Bxc8 26. Kg3 Bb7
+27. Bc4 Bc6 28. a3 Kg7 29. Kf4 Bd7 30. Ke4 Bc6+ 31. Kf4 Bd7 32. Ke4 Bc6+ 33. Kd4
+Kf8 34. Be2 Ke7 35. g3 f5 36. f4 Kd6 37. Bd3 f6 38. Kc4 Kc7 39. Bc2 Kd6 40. Kd4
+Bb7 41. Bd3 Bc6 42. Kc4 Kc7 43. Kd4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.9"]
+[White "Freisler, Pavel"]
+[Black "Kislinsky, Alexey"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2357"]
+[BlackElo "2483"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "301477"]
+[BlackFideId "14108801"]
+[EventDate "2014.04.26"]
+
+1. Nf3 g6 2. d4 Bg7 3. c4 c5 4. d5 d6 5. e4 e6 6. Bd3 exd5 7. exd5 Ne7 8. O-O
+O-O 9. Nc3 h6 10. h3 Nd7 11. Bf4 Nf6 12. Qd2 g5 13. Bh2 a6 14. Rae1 Ng6 15. Qc2
+Ne8 16. Re2 f5 17. Rfe1 Nc7 18. Na4 a5 19. Nb6 Ra6 20. Nxc8 Qxc8 21. Re6 Nxe6
+22. Rxe6 Ne5 23. Nxe5 dxe5 24. Bxf5 Qc7 25. Qd3 Rxe6 26. Bxe6+ Kh8 27. d6 Qb6
+28. d7 Bf6 29. Qg6 Qxe6 30. Qxh6+ Kg8 31. Qg6+ Kh8 32. Qh6+ 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.10"]
+[White "Kraus, Tomas"]
+[Black "Plat, Vojtech"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2326"]
+[BlackElo "2456"]
+[ECO "B44"]
+[Opening "Sicilian, Szen ('anti-Taimanov') variation"]
+[WhiteFideId "331708"]
+[BlackFideId "325740"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nb5 Nf6 6. Bf4 e5 7. Bg5 d6 8. c4
+a6 9. N5c3 Be7 10. Be2 Be6 11. O-O O-O 12. Be3 Nd7 13. Na3 Bg5 14. Nc2 Bxe3 15.
+Nxe3 Nd4 16. Nc2 Qf6 17. b3 Rac8 18. Qd2 b5 19. Nxd4 exd4 20. Nd5 Bxd5 21. exd5
+Nc5 22. cxb5 axb5 23. Bxb5 Ne4 24. Qd3 Qe5 25. Bc6 Nc3 26. Rfe1 Qh5 27. Qc4 Rb8
+28. f3 Qh4 29. a4 Qf4 30. a5 Qd2 31. a6 Rb4 32. Qf1 d3 33. a7 Ne2+ 34. Qxe2 dxe2
+35. a8=Q Rxb3 36. Qxf8+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.11"]
+[White "Rasik, Vitezslav"]
+[Black "Svoboda, Svatopluk"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2456"]
+[BlackElo "2334"]
+[ECO "C05"]
+[Opening "French"]
+[Variation "Tarrasch, closed variation"]
+[WhiteFideId "300306"]
+[BlackFideId "14903563"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Ngf3 c5 6. c3 Nc6 7. Bd3 Be7 8. O-O
+g5 9. Qe2 g4 10. Ne1 h5 11. Qe3 Bg5 12. f4 Bh6 13. Nc2 cxd4 14. cxd4 Nf8 15. Qf2
+f5 16. exf6 Qxf6 17. Nb3 Ng6 18. f5 exf5 19. Bxh6 Rxh6 20. Rae1+ Nge7 21. Ne3
+Kf7 22. Bxf5 Kg7 23. Qc2 Qd6 24. Bxc8 Rxc8 25. Nf5+ Nxf5 26. Qxf5 Rf8 27. Qg5+
+Rg6 28. Qxh5 Rxf1+ 29. Rxf1 a5 30. a4 Qe6 31. Nc5 Qe3+ 32. Kh1 Nxd4 33. Qxd5 Ne2
+34. Qf7+ Kh6 35. Qf8+ Kh5 36. Rf5+ Kh4 37. Qd8+ Rg5 38. Qh8+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.12"]
+[White "Adamek, Jiri"]
+[Black "Jansa, Vlastimil"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2301"]
+[BlackElo "2455"]
+[ECO "B46"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "315702"]
+[BlackFideId "300128"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 a6 6. Nxc6 bxc6 7. Bd3 d5 8.
+O-O Nf6 9. Re1 Be7 10. e5 Nd7 11. Qg4 Kf8 12. Bd2 c5 13. Na4 Bb7 14. c4 d4 15.
+b3 Qc7 16. f4 g6 17. Qh3 h5 18. Nb2 Kg7 19. Nd1 a5 20. Nf2 a4 21. Ne4 Ra6 22.
+bxa4 Rxa4 23. Bc2 Ra7 24. Ng5 Bxg5 25. fxg5 Nb6 26. Bb3 Qc6 27. Re2 Rd8 28. Qd3
+Nc8 29. a4 Ne7 30. a5 Qc7 31. Rf1 Nf5 32. Bc2 Qd7 33. Ref2 Bc6 34. Ra1 Qe7 35.
+Bd1 Rb8 36. Bc2 Rd7 37. Ra3 Rdb7 38. Ra1 Ra7 39. Qa3 Rd8 40. Re1 d3 41. Bd1 Rd4
+42. Bf3 Ba8 43. Qb3 Bxf3 44. Rxf3 Rb7 45. Qa2 Qd8 46. a6 Ra7 47. Ra1 Qa8 48. Bc3
+Rg4 49. Rf2 Qe4 50. h3 Rg3 51. Re1 Re3 52. Rxe3 Nxe3 53. Bd2 Nf5 54. Kh2 Qxe5+
+55. Bf4 Qd4 56. Bb8 Rxa6 57. Qxa6 d2 58. Rxd2 Qxd2 59. Be5+ f6 60. Qb7+ Kf8 61.
+Qc8+ Kf7 62. Qc7+ Ke8 63. gxf6 Qd7 64. Qxc5 Kf7 65. Qb5 Qa7 66. c5 g5 67. c6 Qe3
+68. c7 g4 69. Qd7+ Kg6 70. Qe8+ Kh6 71. Qh8+ Kg6 72. Qg8+ Kh6 73. Bd6 Nxd6 74.
+Qg7# 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.13"]
+[White "Toman, Jaroslav"]
+[Black "Vokac, Marek"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2220"]
+[BlackElo "2422"]
+[ECO "E70"]
+[Opening "King's Indian"]
+[Variation "4.e4"]
+[WhiteFideId "317365"]
+[BlackFideId "300101"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. Be3 d6 6. f3 a6 7. Qd2 b6 8. Rd1 Nbd7
+9. Bd3 c5 10. Nge2 Bb7 11. O-O Qc7 12. b3 cxd4 13. Nxd4 e6 14. Be2 Rfe8 15. Rc1
+Rac8 16. Ndb5 axb5 17. Nxb5 Qb8 18. Nxd6 Bf8 19. Nxe8 Rxe8 20. b4 Bd6 21. Rfd1
+Bxh2+ 22. Kf1 Ne5 23. Bf4 Nxf3 24. gxf3 Bxf4 25. Qd4 Nxe4 26. Rc2 Ng3+ 27. Kf2
+Nf5 28. Qf6 Be3+ 29. Kf1 Qg3 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.14"]
+[White "Blatny, Pavel"]
+[Black "Olsarova, Karolina"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "WIM"]
+[WhiteElo "2418"]
+[BlackElo "2279"]
+[ECO "D02"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "300047"]
+[BlackFideId "320242"]
+[EventDate "2014.04.26"]
+
+1. Nf3 d5 2. d4 Nf6 3. c3 c6 4. Bf4 Bf5 5. Nbd2 h6 6. h3 e6 7. e3 Nbd7 8. g4 Bg6
+9. Bg3 Be7 10. Ne5 Nxe5 11. Bxe5 O-O 12. h4 Ne4 13. h5 Bh7 14. Nxe4 Bxe4 15. f3
+Bh7 16. Bg3 c5 17. Qd2 Bd6 18. f4 b5 19. Bxb5 Qb6 20. Be2 Rab8 21. b3 Rfc8 22.
+O-O a5 23. Be1 Be4 24. Bf3 Bxf3 25. Rxf3 c4 26. Rb1 cxb3 27. axb3 a4 28. b4 Qb5
+29. Ra1 Ra8 30. Ra3 Ra7 31. Rf2 Be7 32. Rg2 f6 33. Qd1 Rf8 34. Rga2 Rfa8 35. Kg2
+Qd7 36. Qf3 Qc6 37. Bg3 Bd6 38. Kh3 Rf7 39. Qd1 Rfa7 40. Qd3 Kh8 41. Re2 Qc7 42.
+Kg2 Rf8 43. Rea2 Rfa8 44. Qd1 Qc6 45. Kf2 Qb5 46. Qe2 Qc6 47. Qd3 Qb7 48. Re2
+Qc7 49. Kf3 Rf8 50. Rea2 Rfa8 51. e4 Qd7 52. e5 fxe5 53. dxe5 Be7 54. Bf2 Rc7
+55. Bd4 Rc4 56. Qd1 Rf8 57. Qxa4 Qd8 58. Qd1 Bg5 59. Ra8 Rxf4+ 60. Kg2 Rc8 61.
+Rxc8 Qxc8 62. b5 Re4 63. b6 Kh7 64. Qb1 Qb7 65. Ra7 Qc8 66. b7 Qc4 67. Ra2 g6
+68. b8=Q 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.15"]
+[White "Kanovsky, David"]
+[Black "Folk, Petr"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2416"]
+[BlackElo "2229"]
+[ECO "B48"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "316210"]
+[BlackFideId "302996"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qc7 5. Nc3 e6 6. Be3 a6 7. Qd2 Nf6 8.
+O-O-O Be7 9. f3 b5 10. g4 Nxd4 11. Qxd4 Bb7 12. g5 Nh5 13. Qd2 Rc8 14. Bh3 b4
+15. Na4 Qc6 16. b3 h6 17. gxh6 g5 18. Nb6 Rd8 19. Nc4 Nf4 20. Bxf4 gxf4 21. Qxf4
+Bf8 22. Nd6+ Qxd6 23. Rxd6 Bxh6 24. Qxh6 Rxh6 25. Bg4 Bc6 26. h3 Ke7 27. Rhd1 a5
+28. Kb2 Rb8 29. a3 Rb5 30. axb4 axb4 31. f4 Bxe4 32. Rxd7+ Kf6 33. R1d4 Bg2 34.
+Rd2 Be4 35. R7d4 Bd5 36. f5 Ke5 37. fxe6 fxe6 38. R4d3 Kd6 39. Rf2 Rh8 40. Re2
+Rh6 41. Rde3 Rb8 42. Rd2 Kc5 43. Re5 Kd6 44. Rg5 Rb5 45. Be2 Rb8 46. Bf1 Rh4 47.
+Bg2 Rb5 48. Rg4 Rxg4 49. hxg4 Ke5 50. Bxd5 exd5 51. g5 d4 52. g6 Ke4 53. Rg2 Rb8
+54. g7 Rg8 55. Kc1 Kf3 56. Rg6 Ke2 57. Rg4 d3 58. cxd3 Kxd3 59. Kd1 Kc3 60. Rg3+
+Kb2 61. Kd2 Rd8+ 62. Ke3 Rg8 63. Kd4 Ka3 64. Ke5 Rxg7 65. Rxg7 Kxb3 66. Kd4 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.16"]
+[White "Sikorova, Olga"]
+[Black "Konopka, Michal"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "IM"]
+[WhiteElo "2288"]
+[BlackElo "2408"]
+[ECO "A16"]
+[Opening "English opening"]
+[WhiteFideId "307033"]
+[BlackFideId "308633"]
+[EventDate "2014.04.26"]
+
+1. c4 Nf6 2. Nc3 g6 3. b3 Bg7 4. Bb2 O-O 5. Nf3 c6 6. d4 d5 7. e3 c5 8. Nxd5
+Nxd5 9. cxd5 Qxd5 10. Bc4 Qd8 11. O-O Nc6 12. Qe2 cxd4 13. Nxd4 Ne5 14. Rfd1 Qa5
+15. Rac1 Nxc4 16. Rxc4 Bd7 17. Bc3 Qb6 18. Rb4 Qc7 19. Rc4 Qb6 20. Rb4 Qc7 21.
+Rc4 Qb8 22. Bb4 Re8 23. Rdc1 e5 24. Rc7 Qd8 25. Nf3 Bc6 26. Ba5 Qd5 27. Qe1 h6
+28. Rd1 Qe4 29. h3 Rac8 30. Rxc8 Rxc8 31. Qb4 Qf5 32. Qg4 Qxg4 33. hxg4 b6 34.
+Bb4 a5 35. Be7 Bxf3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.17"]
+[White "Kulovana, Eva"]
+[Black "Zwardon, Vojtech"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "IM"]
+[WhiteElo "2250"]
+[BlackElo "2391"]
+[ECO "B40"]
+[Opening "Sicilian defence"]
+[WhiteFideId "318779"]
+[BlackFideId "325511"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. b3 b6 4. Bb2 Bb7 5. Qe2 d6 6. g3 Nf6 7. d3 Be7 8. Bg2 O-O
+9. O-O Nc6 10. Nbd2 Qc7 11. a4 h6 12. Rfd1 Rfe8 13. c3 Ba6 14. Ne1 d5 15. c4
+dxe4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.18"]
+[White "Studnicka, Tomas"]
+[Black "Sikora, Jan"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[WhiteElo "2374"]
+[BlackElo "2188"]
+[ECO "A61"]
+[Opening "Benoni defence"]
+[WhiteFideId "318949"]
+[BlackFideId "305405"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. Bf4 Bg7 8. Qa4+
+Bd7 9. Qb3 Qc7 10. e4 O-O 11. Nd2 Nh5 12. Be3 f5 13. exf5 Bxf5 14. Be2 Nf6 15.
+h3 Re8 16. O-O a6 17. a4 Bc8 18. Nc4 Nbd7 19. Bf4 Bf8 20. Rfe1 b6 21. Bf3 Bb7
+22. Re6 Rxe6 23. dxe6 Bxf3 24. exd7 b5 25. axb5 axb5 26. Nb6+ c4 27. Nxa8 Bxa8
+28. Rxa8 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.19"]
+[White "Lechtynsky, Jiri"]
+[Black "Marek, Matyas"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2365"]
+[BlackElo "2110"]
+[ECO "E61"]
+[Opening "King's Indian"]
+[Variation "Smyslov system"]
+[WhiteFideId "300217"]
+[BlackFideId "335398"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 d6 3. c4 g6 4. Nc3 Bg7 5. Bg5 O-O 6. e3 Nbd7 7. Qc2 c5 8. Be2
+cxd4 9. Nxd4 Ne5 10. O-O Bd7 11. Rac1 a6 12. Rfd1 Rc8 13. Qb3 Rb8 14. h3 Re8 15.
+Rd2 Qa5 16. Qd1 b5 17. Bxf6 Bxf6 18. Nb3 Qd8 19. c5 Nc4 20. Bxc4 bxc4 21. Nd4
+Qa5 22. cxd6 exd6 23. Qf3 Be5 24. Rcd1 Kg7 25. a3 Bxd4 26. Rxd4 Rxb2 27. Ne4 Be6
+28. Qf6+ Kg8 29. Rxd6 c3 30. Rxe6 Rf8 31. Red6 c2 32. Qxb2 cxd1=Q+ 33. Rxd1 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.20"]
+[White "Lys, Josef"]
+[Black "Hausner, Ivan"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2206"]
+[BlackElo "2370"]
+[ECO "E67"]
+[Opening "King's Indian"]
+[Variation "fianchetto, classical variation"]
+[WhiteFideId "302244"]
+[BlackFideId "300110"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. c4 Nbd7 7. Nc3 e5 8. b3
+Re8 9. Bb2 e4 10. Ng5 e3 11. f3 Nf8 12. Nge4 Nxe4 13. Nxe4 Ne6 14. Rb1 f5 15. d5
+fxe4 16. dxe6 Bxb2 17. Rxb2 Bxe6 18. fxe4 Qg5 19. Qd4 Rf8 20. Rf3 Qa5 21. h3
+Rxf3 22. exf3 Qe1+ 23. Kh2 Qa1 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.21"]
+[White "Dolezal, Radoslav1"]
+[Black "Frolik, Martin"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2344"]
+[BlackElo "2213"]
+[ECO "D02"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "304735"]
+[BlackFideId "304123"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. Nf3 e6 3. Bg5 Nf6 4. e3 Be7 5. Bd3 h6 6. Bh4 c5 7. c3 cxd4 8. exd4
+Qb6 9. Qb3 Nbd7 10. Nbd2 Qxb3 11. axb3 Nh5 12. Bxe7 Kxe7 13. g3 Nhf6 14. O-O b6
+15. b4 Bb7 16. b5 Ne4 17. Ra3 g5 18. Nb3 Nd6 19. Rfa1 f6 20. Rxa7 Rxa7 21. Rxa7
+Ra8 22. Rxa8 Bxa8 23. Ne1 e5 24. Nc2 e4 25. Be2 f5 26. Nd2 Nf6 27. f4 exf3 28.
+Nxf3 Nfe4 29. Ne5 Ke6 30. Ne3 Nf6 31. Kf2 Nfe8 32. Nc2 Nc7 33. Na3 Nce8 34. Ke3
+Ne4 35. Nb1 N8d6 36. Bd3 Bb7 37. Ke2 Ba8 38. Na3 Bb7 39. Nc2 Ba8 40. Nb4 Nf6 41.
+Na6 Bb7 42. Nc7+ Ke7 43. b3 Nde4 44. c4 f4 45. gxf4 gxf4 46. Nxd5+ Bxd5 47. cxd5
+Kd6 48. Bc4 Nxd5 49. Nf7+ Ke7 50. Nxh6 Nec3+ 51. Kf3 Kf6 52. Ng4+ Kg5 53. Nf2
+Nf6 54. Nh3+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.22"]
+[White "Dobrovolsky, Ladislav"]
+[Black "Machycek, Lubomir"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2334"]
+[BlackElo "2210"]
+[ECO "A06"]
+[Opening "Reti"]
+[Variation "Nimzovich-Larsen attack"]
+[WhiteFideId "300250"]
+[BlackFideId "311049"]
+[EventDate "2014.04.26"]
+
+1. Nf3 d5 2. b3 Nc6 3. Bb2 Bg4 4. d4 Nf6 5. e3 Ne4 6. Be2 e6 7. O-O Bd6 8. c4
+O-O 9. Ne5 Bxe2 10. Qxe2 f5 11. f3 Nf6 12. Nd2 Bb4 13. Rad1 Bxd2 14. Rxd2 Qd6
+15. Rc1 Nd8 16. c5 Qe7 17. c6 Nxc6 18. Nxc6 bxc6 19. Rxc6 Rfb8 20. Rdc2 Rb7 21.
+Qa6 Rb6 22. Qa4 Ne8 23. Bc3 Qd7 24. Ba5 Rxc6 25. Qxc6 Qxc6 26. Rxc6 Kf7 27. Ra6
+Ke7 28. Bb4+ Kd7 29. Bc5 Nd6 30. Bxd6 cxd6 31. Kf2 Ke7 32. h4 Kf6 33. Ke2 Rc8
+34. Kd2 Rc7 35. Rxd6 g6 36. a4 h6 37. Ra6 g5 38. hxg5+ hxg5 39. b4 g4 40. b5
+gxf3 41. gxf3 Ke7 42. Ke2 Kf6 43. Kf2 Rg7 44. a5 Rb7 45. b6 axb6 46. Rxb6 Rc7
+47. Ra6 Rb7 48. Rb6 Rc7 49. Kg3 Rc3 50. Kf4 Ra3 51. Ra6 Ra1 52. Ra8 Ra4 53. Kg3
+Ra3 54. a6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.23"]
+[White "Jedlicka, Ales"]
+[Black "Sobek, Jaroslav"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "FM"]
+[WhiteElo "2199"]
+[BlackElo "2327"]
+[ECO "D25"]
+[Opening "QGA, 4.e3"]
+[WhiteFideId "304824"]
+[BlackFideId "301388"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 a6 5. Bxc4 e6 6. O-O Nbd7 7. Bb3 b5 8. a4
+b4 9. Nbd2 Bb7 10. Nc4 c5 11. a5 Be7 12. Nfe5 O-O 13. Qe2 cxd4 14. exd4 Nd5 15.
+Bc2 N7f6 16. Qd3 Rb8 17. Bg5 b3 18. Bxb3 Nh5 19. Bc2 g6 20. Bxe7 Qxe7 21. Qd2
+Ndf4 22. f3 Rfd8 23. Rf2 f6 24. Ng4 e5 25. Re1 Qf8 26. Bb3 Kh8 27. Ncxe5 fxe5
+28. Rxe5 Bd5 29. Bxd5 Rxd5 30. Rxd5 Nxd5 31. Qg5 Qf5 32. Qxf5 gxf5 33. Ne5 Rb4
+34. Rd2 Nhf4 35. Kf2 Ne6 36. Nc6 Rc4 37. Nb8 Nec7 38. g3 Kg7 39. Ke2 Nb4 40. d5
+Kf7 41. d6 Ne6 42. Nd7 Nc6 43. Rd5 Kg6 44. Ke3 Rb4 45. Nc5 Ned8 46. Nd3 Rb3 47.
+Kd2 Kf6 48. g4 fxg4 49. fxg4 Rb5 50. g5+ Ke6 51. Nf4+ Kd7 52. Rxb5 axb5 53. a6
+Kxd6 54. h4 Ke5 55. g6 hxg6 56. Nxg6+ Kf6 57. Nf4 Kf5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.24"]
+[White "Szotkowski, Jakub"]
+[Black "Svatos, Jan"]
+[Result "1/2-1/2"]
+[WhiteElo "2161"]
+[BlackElo "2306"]
+[ECO "E97"]
+[Opening "King's Indian"]
+[Variation "orthodox, Aronin-Taimanov, bayonet attack"]
+[WhiteFideId "330590"]
+[BlackFideId "304174"]
+[EventDate "2014.04.26"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7
+9. b4 a5 10. Ba3 axb4 11. Bxb4 b6 12. a4 Ne8 13. Nb5 f5 14. Nd2 fxe4 15. Nxe4
+Nf5 16. a5 bxa5 17. Rxa5 Rxa5 18. Bxa5 Rf7 19. c5 Qh4 20. Qb1 Ba6 21. g4 Bxb5
+22. Qxb5 Nd4 23. Qd3 Nf6 24. Nxf6+ Bxf6 25. cxd6 cxd6 26. Bd1 Bd8 27. Bb4 Qf6
+28. Kg2 Kg7 29. h3 Rb7 30. Bc3 Bb6 31. Bf3 Bc5 32. Bxd4 Bxd4 33. Rc1 Rf7 34. Qe4
+Bc5 35. Rc2 Rb7 36. Qe2 Qh4 37. Rb2 Rf7 38. Rc2 Rf4 39. Qe1 Qf6 40. Qe2 e4 41.
+Bxe4 Rxf2+ 42. Qxf2 Bxf2 43. Rxf2 Qd4 44. Bf3 Kf6 45. Rf1 Kg5 46. Kh1 Kh4 47.
+Bg2 h6 48. Kh2 Qe3 49. Rf7 Kg5 50. Rf1 Qc3 51. Rf7 h5 52. gxh5 Qe5+ 53. Kh1 Kxh5
+54. Rf1 Kh4 55. Rf7 g5 56. Rf1 Qe2 57. Rf3 Qe1+ 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.04.30"]
+[Round "5.25"]
+[White "Holemar, David"]
+[Black "Kubik, Michael"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[WhiteElo "2269"]
+[BlackElo "2203"]
+[ECO "A57"]
+[Opening "Benko gambit half accepted"]
+[WhiteFideId "307009"]
+[BlackFideId "344320"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. b6 d6 6. Nc3 Nbd7 7. e4 Rb8 8. f4 Rxb6
+9. Nf3 g6 10. Bc4 Rb4 11. Qe2 Bg7 12. a3 Rb6 13. e5 dxe5 14. fxe5 Ng4 15. Bf4
+O-O 16. O-O g5 17. Bg3 h5 18. e6 fxe6 19. dxe6 Nde5 20. Nxe5 Qd4+ 21. Kh1 Bxe5
+22. Rad1 Bxg3 23. Rxd4 cxd4 24. Nd5 Rxe6 25. Nxe7+ Kg7 26. Bxe6 Bxe6 27. Rxf8 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.1"]
+[White "Hracek, Zbynek"]
+[Black "Navara, David"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2633"]
+[BlackElo "2706"]
+[ECO "B19"]
+[Opening "Caro-Kann"]
+[Variation "classical, Spassky variation"]
+[WhiteFideId "300071"]
+[BlackFideId "309095"]
+[EventDate "2014.04.26"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Bd2 Ngf6 12. O-O-O Be7 13. Ne4 Nxe4 14. Qxe4 Nf6
+15. Qe2 Qd5 16. c4 Qe4 17. Qxe4 Nxe4 18. Be3 f5 19. g3 Bg5 20. Nxg5 hxg5 21. Rh2
+Kf7 22. Rg1 b5 23. f3 Nf6 24. Bxg5 Rxh5 25. Rxh5 Nxh5 26. b3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.2"]
+[White "Kociscak, Jiri"]
+[Black "Rausis, Igors"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2434"]
+[BlackElo "2578"]
+[ECO "D10"]
+[Opening "QGD Slav defence"]
+[WhiteFideId "322121"]
+[BlackFideId "11600098"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. Nc3 dxc4 4. a4 e5 5. dxe5 Qxd1+ 6. Kxd1 Na6 7. e3 Be6 8.
+Nf3 Rd8+ 9. Bd2 Nh6 10. h3 Nc5 11. Nd4 Nd3 12. Bxd3 cxd3 13. Nxe6 fxe6 14. Ne4
+Be7 15. Bc3 O-O 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.3"]
+[White "Biolek, Richard Jr."]
+[Black "Petr, Martin"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2418"]
+[BlackElo "2529"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "classical variation (5.Bf4)"]
+[WhiteFideId "319996"]
+[BlackFideId "318299"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. Be2 dxc4 8.
+Bxc4 a6 9. a4 Nb6 10. Bd3 Nbd5 11. Be5 b6 12. g4 Nb4 13. Bb1 Bb7 14. Rg1 Nd7 15.
+Bf4 c5 16. g5 cxd4 17. Nxd4 g6 18. Bg3 Nc5 19. h4 Re8 20. h5 Bf8 21. Be5 Nd7 22.
+Bh2 e5 23. Nc2 a5 24. Nxb4 Bxb4 25. Kf1 Nc5 26. Bc2 Bxc3 27. bxc3 Ba6+ 28. Kg2
+Qxg5+ 29. Kh1 Bb7+ 30. e4 Qh4 31. hxg6 hxg6 32. f3 Rad8 33. Qe2 Ba6 34. Qg2 Bd3
+35. Bd1 Kg7 36. Ra2 Bc4 37. Ra1 Rd3 38. Rb1 Re6 39. Qg3 Qxg3 40. Bxg3 Rxc3 41.
+Rxb6 Nxe4 42. fxe4 Rxg3 43. Rb7 Rxg1+ 44. Kxg1 Rd6 45. Bf3 Rd3 46. Kf2 Ra3 47.
+Bd1 Ra1 48. Ke1 Bd3 49. Kd2 Bxe4 50. Rb5 Bc6 51. Rxa5 e4 52. Bc2 Ra3 53. Kc1 Rh3
+54. Rc5 e3 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.4"]
+[White "Babula, Vlastimil"]
+[Black "Blatny, Pavel"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2553"]
+[BlackElo "2418"]
+[ECO "E51"]
+[Opening "Nimzo-Indian"]
+[Variation "4.e3, Ragozin variation"]
+[WhiteFideId "301264"]
+[BlackFideId "300047"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. Nf3 e6 3. c4 Nf6 4. Nc3 Bb4 5. e3 O-O 6. Bd3 Nc6 7. O-O dxc4 8. Bxc4
+Bd6 9. Bb5 e5 10. Bxc6 exd4 11. exd4 bxc6 12. Bg5 h6 13. Bh4 Re8 14. Qc2 g5 15.
+Bg3 Bxg3 16. fxg3 g4 17. Nh4 Qxd4+ 18. Kh1 Be6 19. Rf4 Qe5 20. Raf1 Nh5 21. Re4
+Qg7 22. Qf2 Kh8 23. Qc5 Nf6 24. Ref4 Nd5 25. R4f2 Nxc3 26. bxc3 Bd5 27. Nf5 Qe5
+28. Kg1 Kh7 29. Nd4 Qe7 30. Qa5 Qe3 31. Qxc7 Rab8 32. Nf5 Qe5 33. Nd6 Rf8 34. c4
+Bxc4 35. Rc1 Qe3 36. Rd1 Rb2 37. Ne4 Rxf2 38. Nxf2 Re8 39. h4 gxh3 40. Qxc6 Qxg3
+41. Nxh3 Re2 42. Rf1 Rxa2 43. Qe4+ Qg6 44. Ng5+ hxg5 45. Qxc4 Qb6+ 46. Kh1 Rf2
+47. Qe4+ Kg7 48. Ra1 Qf6 49. Ra5 Rf1+ 50. Kh2 Ra1 51. Rxa1 Qxa1 52. Qd5 Qf6 53.
+g4 Qf2+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.5"]
+[White "Vokac, Marek"]
+[Black "Zilka, Stepan"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2422"]
+[BlackElo "2541"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "300101"]
+[BlackFideId "315303"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 c6 6. O-O b5 7. Ne5 Bb7 8. a4 Qb6
+9. b3 cxb3 10. Qxb3 a6 11. Be3 Nd5 12. Nc3 Be7 13. Nxd5 exd5 14. Rfc1 O-O 15. a5
+Qd8 16. Bf4 Ra7 17. e4 dxe4 18. Bxe4 Bf6 19. Rd1 Bc8 20. Qc2 h6 21. Ng6 fxg6 22.
+Bxb8 Rd7 23. Be5 Bb7 24. Bxg6 c5 25. Qxc5 Bxe5 26. Qxe5 Re7 27. Qc5 Re2 28. Rf1
+Qf6 29. Bh5 Re4 30. Rad1 g6 31. f3 Re2 32. Bg4 Rd8 33. d5 Qb2 34. Be6+ Kh8 35.
+Rf2 Rxf2 36. Qxf2 Qxf2+ 37. Kxf2 Kg7 38. Ke3 Bc8 39. Bxc8 Rxc8 40. d6 Kf7 41. d7
+Rd8 42. Rd6 b4 43. Ke4 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.6"]
+[White "Cvek, Robert"]
+[Black "Kanovsky, David"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2519"]
+[BlackElo "2416"]
+[ECO "A38"]
+[Opening "English"]
+[Variation "symmetrical variation"]
+[WhiteFideId "307424"]
+[BlackFideId "316210"]
+[EventDate "2014.04.26"]
+
+1. c4 c5 2. Nf3 g6 3. g3 Bg7 4. Bg2 Nc6 5. Nc3 Nf6 6. d4 cxd4 7. Nxd4 O-O 8. O-O
+Nxd4 9. Qxd4 d6 10. Qd3 a6 11. Be3 Qa5 12. Bd4 Bf5 13. Qd2 Rac8 14. Rfd1 Rfe8
+15. Bxf6 Bxf6 16. Nd5 Qxd2 17. Nxf6+ exf6 18. Rxd2 Rxc4 19. Bxb7 a5 20. b3 Rb4
+21. Bc6 Rc8 22. Ba4 Rb6 23. f3 Be6 24. Rb1 Kf8 25. Rbb2 Ke7 26. Rbc2 Rc5 27. Kf2
+Rb8 28. Ke1 h5 29. Rxc5 dxc5 30. Rc2 Kd6 31. Kd2 h4 32. Kc3 hxg3 33. hxg3 f5 34.
+Rd2+ Kc7 35. f4 Rb4 36. Rd3 Re4 37. Kd2 Rb4 38. Kc3 Re4 39. Kd2 Rb4 40. Kc3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.7"]
+[White "Oral, Tomas"]
+[Black "Studnicka, Tomas"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2515"]
+[BlackElo "2374"]
+[ECO "B31"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (with ...g6, without ...d6)"]
+[WhiteFideId "303739"]
+[BlackFideId "318949"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. d3 Bg7 6. h3 Nf6 7. Nc3 Nd7 8. O-O
+e5 9. Nh2 O-O 10. Be3 Qe7 11. Qd2 b6 12. Bh6 Qd6 13. Ne2 Ba6 14. Ng4 Nf6 15.
+Bxg7 Kxg7 16. Nxf6 Qxf6 17. b3 Rad8 18. Qc3 Bc8 19. a4 a5 20. Rae1 Rde8 21. Qd2
+Qd6 22. Qe3 f6 23. Qg3 Bd7 24. Kh1 Kh8 25. Nc3 Qd4 26. Ne2 Qd6 27. Qh4 Kg7 28.
+Kg1 Kg8 29. Qg3 Kh8 30. Kh1 Kg8 31. f3 Kh8 32. Kh2 Kg8 33. Kh1 Kh8 34. Qf2 Kg8
+35. Qe3 Kg7 36. Qc1 Kg8 37. Rf2 Qe7 38. Ref1 Qg7 39. f4 f5 40. Ng3 exf4 41. Rxf4
+fxe4 42. Nxe4 Rxf4 43. Qxf4 Bf5 44. Nd6 Rf8 45. Nc4 g5 46. Qe5 Qg6 47. Nxb6 g4
+48. hxg4 Bxg4 49. Rxf8+ Kxf8 50. Qxc5+ Kf7 51. Qe3 Bf5 52. Nc4 Kg8 53. Kg1 Qh5
+54. Ne5 Qd1+ 55. Kh2 Qxc2 56. Qg5+ Bg6 57. Qd8+ Kg7 58. Qe7+ Kg8 59. Nd7 Qf2 60.
+Nf6+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.8"]
+[White "Kraus, Tomas"]
+[Black "Haba, Petr"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2326"]
+[BlackElo "2498"]
+[ECO "D30"]
+[Opening "QGD Slav"]
+[WhiteFideId "331708"]
+[BlackFideId "300160"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. e3 e6 5. Nbd2 Nbd7 6. Bd3 Bd6 7. O-O O-O 8. e4
+e5 9. cxd5 cxd5 10. exd5 exd4 11. Ne4 Nxe4 12. Bxe4 Nf6 13. Qxd4 Nxe4 14. Qxe4
+Re8 15. Qd4 Bf5 16. Bg5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.9"]
+[White "Adamek, Jiri"]
+[Black "Rasik, Vitezslav"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2301"]
+[BlackElo "2456"]
+[ECO "E63"]
+[Opening "King's Indian"]
+[Variation "fianchetto, Panno variation"]
+[WhiteFideId "315702"]
+[BlackFideId "300306"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. g3 O-O 5. Bg2 d6 6. Nf3 Nc6 7. O-O a6 8. Qd3
+Bd7 9. d5 Nb4 10. Qd2 a5 11. Nd4 Ng4 12. Rb1 Ne5 13. b3 c6 14. Bb2 cxd5 15. Nxd5
+Nxd5 16. Bxd5 Qb6 17. Nc2 Bf5 18. Bd4 Qc7 19. Rbc1 Bxc2 20. Rxc2 Nc6 21. Bxg7
+Kxg7 22. Rcc1 b6 23. h4 h5 24. Bxc6 Qxc6 25. a4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.10"]
+[White "Lechtynsky, Jiri"]
+[Black "Stocek, Jiri"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2365"]
+[BlackElo "2540"]
+[ECO "A46"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "300217"]
+[BlackFideId "304760"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 c5 3. e3 g6 4. c4 Bg7 5. Nc3 O-O 6. dxc5 Na6 7. Be2 Nxc5 8. O-O
+b6 9. Nd4 Bb7 10. b3 d5 11. cxd5 Nxd5 12. Bb2 Nxc3 13. Bxc3 Ne4 14. Bb2 e5 15.
+Nf3 Qe7 16. Rc1 Rfd8 17. Qc2 Ng5 18. Nxg5 Qxg5 19. g3 Rac8 20. Qb1 Rxc1 21. Qxc1
+Rc8 22. Qb1 h5 23. h4 Qf6 24. Rc1 Rxc1+ 25. Qxc1 Qf5 26. Kf1 Bf8 27. Bc3 Qh3+
+28. Ke1 Qg2 29. Qb2 Qg1+ 30. Kd2 Qxf2 31. Bxe5 Bb4+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.11"]
+[White "Freisler, Pavel"]
+[Black "Krejci, Jan2"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2357"]
+[BlackElo "2518"]
+[ECO "A15"]
+[Opening "English opening"]
+[WhiteFideId "301477"]
+[BlackFideId "322156"]
+[EventDate "2014.04.26"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 a6 4. Nc3 d5 5. cxd5 exd5 6. Bg2 Be7 7. O-O O-O 8. d4
+Nbd7 9. Ne5 c6 10. Bf4 Re8 11. Nxd7 Bxd7 12. Qb3 Ra7 13. Rac1 Bf5 14. Bg5 h6 15.
+Bxf6 Bxf6 16. e3 Qa5 17. a3 Re7 18. Qa2 Qd8 19. Rfd1 Qd6 20. b4 b5 21. Qb3 a5
+22. Rd2 Ra6 23. bxa5 Rxa5 24. a4 b4 25. Nd1 Rea7 26. Nb2 h5 27. Bf1 h4 28. Bd3
+Bd7 29. Rdc2 Be7 30. Rc5 Qh6 31. Rxa5 Rxa5 32. Bf1 hxg3 33. hxg3 c5 34. dxc5 d4
+35. Re1 dxe3 36. Rxe3 Bc6 37. Bg2 Bxc5 38. Re1 Bxf2+ 39. Kxf2 Qd2+ 40. Re2 Rf5+
+41. Bf3 Qd4+ 42. Ke1 Rxf3 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.12"]
+[White "Kislinsky, Alexey"]
+[Black "Dobrovolsky, Ladislav"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2483"]
+[BlackElo "2334"]
+[ECO "B40"]
+[Opening "Sicilian defence"]
+[WhiteFideId "14108801"]
+[BlackFideId "300250"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. g3 d5 5. Qe2 Nf6 6. Bg2 Be7 7. O-O dxe4 8. dxe4
+O-O 9. e5 Nd7 10. Rd1 Qc7 11. Bf4 b5 12. Nc3 a6 13. Ne4 Nb6 14. Nf6+ gxf6 15.
+exf6 Qa7 16. Ng5 Bxf6 17. Qh5 Rd8 18. Bxc6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.01"]
+[Round "6.13"]
+[White "Simacek, Pavel"]
+[Black "Dolezal, Radoslav1"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2469"]
+[BlackElo "2344"]
+[ECO "B01"]
+[Opening "Scandinavian defence"]
+[WhiteFideId "307165"]
+[BlackFideId "304735"]
+[EventDate "2014.04.26"]
+
+1. e4 d5 2. exd5 Nf6 3. Bb5+ Bd7 4. Bc4 Bg4 5. f3 Bf5 6. Nc3 Nbd7 7. Qe2 Nb6 8.
+g4 Bc8 9. Qd3 g6 10. Nge2 Bg7 11. b3 h5 12. g5 Bf5 13. Qd4 O-O 14. gxf6 Bxf6 15.
+Qe3 e6 16. Ba3 exd5 17. Bxf8 Kxf8 18. Bxd5 Nxd5 19. Qc5+ Ne7 20. O-O-O b6 21.
+Qe3 a5 22. Ng3 a4 23. Nxf5 Nxf5 24. Qe4 axb3 25. cxb3 Ra5 26. Kb1 Qd6 27. Rhe1
+Nd4 28. Qd3 Qa3 29. Rc1 Nc6 30. Re4 Nb4 31. Rxb4 Qxb4 32. Ne4 Be5 33. Qd7 Qa3
+34. Nc3 Bxc3 35. Rxc3 Qxa2+ 36. Kc1 Qa1+ 37. Kc2 Ra2+ 38. Kd3 Qf1+ 39. Ke4 Qe2+
+40. Re3 Qxh2 41. Qd8+ Kg7 42. Qd4+ f6 43. Qd7+ Kh6 44. d4 c5 45. Kd5 Qf4 46. Qe7
+cxd4 47. Re6 Qxf3+ 48. Kd6 Rc2 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.1"]
+[White "Navara, David"]
+[Black "Petr, Martin"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2706"]
+[BlackElo "2529"]
+[ECO "C11"]
+[Opening "French"]
+[Variation "Steinitz, Boleslavsky variation"]
+[WhiteFideId "309095"]
+[BlackFideId "318299"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 8. Qd2
+O-O 9. Be2 a6 10. O-O b5 11. a3 Qc7 12. Kh1 Bb7 13. Rae1 Rac8 14. f5 cxd4 15.
+Bxd4 Nxd4 16. Nxd4 Nxe5 17. fxe6 fxe6 18. Rxf8+ Bxf8 19. Nxe6 Qd6 20. Nxf8 Rxf8
+21. Qd4 Nc6 22. Qb6 Rb8 23. Bf3 d4 24. Bd5+ Kf8 25. Rf1+ Ke8 26. Bf7+ Ke7 27.
+Ne4 Bc8 28. Nxd6 Kxd6 29. Qxb8+ Nxb8 30. Bg8 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.2"]
+[White "Hracek, Zbynek"]
+[Black "Kociscak, Jiri"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2633"]
+[BlackElo "2434"]
+[ECO "A43"]
+[Opening "Old Benoni defence"]
+[WhiteFideId "300071"]
+[BlackFideId "322121"]
+[EventDate "2014.04.26"]
+
+1. Nf3 Nf6 2. d4 c5 3. d5 e6 4. Nc3 exd5 5. Nxd5 Nxd5 6. Qxd5 Nc6 7. Bg5 Be7 8.
+Bxe7 Qxe7 9. e3 b6 10. O-O-O Bb7 11. Bb5 a6 12. Bxc6 Bxc6 13. Qd6 f6 14. Qc7 O-O
+15. Qxb6 Rfb8 16. Qc7 Qf7 17. b3 a5 18. Qd6 a4 19. Qxc5 axb3 20. axb3 Bxf3 21.
+gxf3 Rc8 22. Qb5 Ra2 23. Rxd7 Qf8 24. Kb1 Rcxc2 25. Qd5+ Kh8 26. Qd4 Qg8 27. Rd8
+Rab2+ 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.3"]
+[White "Rausis, Igors"]
+[Black "Vokac, Marek"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2578"]
+[BlackElo "2422"]
+[ECO "B08"]
+[Opening "Pirc"]
+[Variation "classical system, 5.Be2"]
+[WhiteFideId "11600098"]
+[BlackFideId "300101"]
+[EventDate "2014.04.26"]
+
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2 O-O 6. O-O c6 7. a4 a5 8. h3 Na6
+9. Bf4 Nb4 10. Qd2 d5 11. e5 Ne8 12. Nd1 f6 13. Re1 Bf5 14. Ne3 Be4 15. exf6
+exf6 16. c3 Na6 17. Nf1 Nd6 18. Qd1 Nc7 19. N3d2 Bf5 20. Ne3 Be6 21. Bd3 Bf7 22.
+Ng4 Re8 23. Qb3 Ne6 24. Bh2 Qd7 25. Qd1 Ng5 26. Qc2 Be6 27. Ne3 Bf7 28. h4 Nge4
+29. f3 Nxd2 30. Qxd2 Nc4 31. Qf2 Nxe3 32. Rxe3 Bh6 33. Rxe8+ Rxe8 34. Re1 b5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.4"]
+[White "Blatny, Pavel"]
+[Black "Oral, Tomas"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2418"]
+[BlackElo "2515"]
+[ECO "A46"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "300047"]
+[BlackFideId "303739"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 e6 3. c3 b6 4. Bf4 Bb7 5. e3 Be7 6. h3 O-O 7. Nbd2 c5 8. Bd3 d6
+9. Qe2 Nc6 10. Bh2 Rc8 11. O-O Re8 12. Rad1 Qc7 13. Rfe1 Bf8 14. Bb5 cxd4 15.
+exd4 Rcd8 16. Nf1 Qc8 17. Ne3 a6 18. Bd3 b5 19. Bc2 g6 20. a4 b4 21. c4 Bg7 22.
+Qd2 a5 23. Bg3 e5 24. dxe5 dxe5 25. Qc1 Nd4 26. Nd2 Nh5 27. Nb3 Nxg3 28. fxg3
+Bh6 29. Nxa5 Bxg2 30. Kxg2 Qa8+ 31. Kg1 Qf3 32. Be4 Ne2+ 33. Rxe2 Bxe3+ 34. Rxe3
+Rxd1+ 35. Qxd1 Qxd1+ 36. Kf2 Qxa4 37. Nc6 Re6 38. b3 Rf6+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.5"]
+[White "Stocek, Jiri"]
+[Black "Konopka, Michal"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2540"]
+[BlackElo "2408"]
+[ECO "D52"]
+[Opening "QGD"]
+[Variation "Cambridge Springs defence"]
+[WhiteFideId "304760"]
+[BlackFideId "308633"]
+[EventDate "2014.04.26"]
+
+1. Nf3 d5 2. c4 c6 3. d4 Nf6 4. Nc3 e6 5. Bg5 Nbd7 6. e3 Qa5 7. Qb3 Ne4 8. h4
+Bb4 9. Rc1 b6 10. cxd5 cxd5 11. Nd2 Nxc3 12. bxc3 Ba3 13. Rc2 h6 14. Bf4 O-O 15.
+Bb5 Nf6 16. Bc6 Ba6 17. Bxa8 Rxa8 18. Nb1 Be7 19. f3 Rc8 20. Kf2 Rc4 21. g4 Nd7
+22. Rb2 Ra4 23. Qc2 Bc4 24. Nd2 b5 25. g5 h5 26. Nxc4 Rxc4 27. g6 Rxc3 28. gxf7+
+Kxf7 29. Qe2 a6 30. Rc2 Rc4 31. Qd3 Qa3 32. Ke2 Qa4 33. Rb2 Ba3 34. Rb3 Be7 35.
+Qb1 b4 36. Rg1 Nf8 37. Be5 g6 38. Bg3 Qb5 39. Kf2 a5 40. Kg2 a4 41. Rb2 Rc3 42.
+Bf4 Qc4 43. Kh3 b3 44. axb3 axb3 45. Bh6 Rc2 46. Bxf8 Bxf8 47. Rg2 Qd3 48. Rbxc2
+Qf5+ 49. Kh2 Bd6+ 50. Kg1 bxc2 51. Qxc2 Qf6 52. Qd3 Be7 53. Rh2 Kg7 54. Kg2 Bd8
+55. Rh1 Bc7 56. Qb5 Bd8 57. Qd7+ Be7 58. Ra1 Kf7 59. Ra8 Qxh4 60. Qe8+ Kf6 61.
+Qh8+ Kf7 62. Qg8+ Kf6 63. Rf8+ Kg5 64. f4+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.6"]
+[White "Rasik, Vitezslav"]
+[Black "Cvek, Robert"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2456"]
+[BlackElo "2519"]
+[ECO "C03"]
+[Opening "French"]
+[Variation "Tarrasch"]
+[WhiteFideId "300306"]
+[BlackFideId "307424"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Be7 4. Ngf3 Nf6 5. e5 Nfd7 6. Bd3 c5 7. c3 b6 8. Qe2 a5
+9. O-O Ba6 10. c4 Nc6 11. cxd5 Bxd3 12. Qxd3 Nb4 13. Qe4 exd5 14. Qe2 O-O 15. b3
+Re8 16. Bb2 Bf8 17. a3 Nc2 18. Rac1 Nxd4 19. Nxd4 Rxe5 20. Qb5 cxd4 21. Nf3 Re8
+22. Rfd1 Nc5 23. Bxd4 Qd6 24. Be3 Red8 25. b4 axb4 26. axb4 Ne6 27. Rb1 Rab8 28.
+h3 g6 29. Nd4 Nxd4 30. Bxd4 Bg7 31. Bxg7 Kxg7 32. Rbc1 Rbc8 33. Rxc8 Rxc8 34.
+Qxd5 Qxb4 35. Qe5+ Kg8 36. Rd7 Qb1+ 37. Kh2 Qa2 38. Qd4 b5 39. Rb7 Qc4 40. Qb2
+Qf4+ 41. g3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.7"]
+[White "Krejci, Jan2"]
+[Black "Hausner, Ivan"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2518"]
+[BlackElo "2370"]
+[ECO "E42"]
+[Opening "Nimzo-Indian"]
+[Variation "4.e3 c5, 5.Ne2 (Rubinstein)"]
+[WhiteFideId "322156"]
+[BlackFideId "300110"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Ne2 cxd4 6. exd4 b6 7. a3 Be7 8. d5 d6
+9. dxe6 Bxe6 10. Nf4 O-O 11. Nxe6 fxe6 12. Qe2 e5 13. g3 Nc6 14. Bg2 Nd4 15. Qd3
+Rc8 16. O-O Qc7 17. Nd5 Nxd5 18. Bxd5+ Kh8 19. Be3 Bf6 20. Kg2 Qd7 21. Rae1 Rce8
+22. b4 a6 23. Rc1 Rc8 24. Qe4 Rc7 25. f3 Qa4 26. Rc3 a5 27. Rb1 b5 28. c5 dxc5
+29. bxc5 b4 30. axb4 axb4 31. Rcc1 Qb5 32. Bc4 Qxc5 33. Bd3 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.8"]
+[White "Haba, Petr"]
+[Black "Adamek, Jiri"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2498"]
+[BlackElo "2301"]
+[ECO "C02"]
+[Opening "French"]
+[Variation "advance, Paulsen attack"]
+[WhiteFideId "300160"]
+[BlackFideId "315702"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 Nh6 7. b4 cxd4 8. cxd4 Nf5
+9. Bb2 Be7 10. Bd3 a5 11. Qa4 O-O 12. b5 Nb8 13. O-O Nh4 14. Nxh4 Bxh4 15. Qd1
+g6 16. Nd2 f5 17. exf6 Bxf6 18. Nf3 Bg7 19. Re1 Nd7 20. a4 Rf6 21. h4 Nf8 22. h5
+gxh5 23. Ne5 Bd7 24. Nxd7 Nxd7 25. Qxh5 h6 26. Re3 Raf8 27. Rae1 Qd6 28. Qg4 Qf4
+29. Qxf4 Rxf4 30. Rxe6 Rxf2 31. R6e2 Rxe2 32. Rxe2 Nb6 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.9"]
+[White "Kriebel, Tadeas"]
+[Black "Kislinsky, Alexey"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2366"]
+[BlackElo "2483"]
+[ECO "B75"]
+[Opening "Sicilian"]
+[Variation "dragon, Yugoslav attack"]
+[WhiteFideId "330027"]
+[BlackFideId "14108801"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 h5 8. Qd2
+a6 9. Bc4 Nbd7 10. O-O-O Ne5 11. Bb3 Bd7 12. h3 b5 13. g4 Rc8 14. g5 b4 15. Nce2
+Nh7 16. f4 Nc4 17. Bxc4 Rxc4 18. Qd3 Qc7 19. f5 O-O 20. Nf4 Rc8 21. Kb1 Nf8 22.
+Nd5 Qd8 23. Rhf1 Be5 24. f6 exf6 25. gxf6 Ne6 26. Ne7+ Kh7 27. Nxc8 Qxc8 28. Nf5
+Ba4 29. b3 Rc3 30. Qd2 Bc6 31. Bd4 gxf5 32. Rxf5 Bxe4 33. Rxh5+ Kg8 34. Bxe5
+dxe5 35. Rg1+ Bg6 36. Qh6 Rxb3+ 37. axb3 Qxc2+ 38. Ka1 Qc3+ 39. Ka2 Qc2+ 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.10"]
+[White "Dolezal, Radoslav1"]
+[Black "Biolek, Richard Jr."]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2344"]
+[BlackElo "2418"]
+[ECO "A49"]
+[Opening "King's Indian"]
+[Variation "fianchetto without c4"]
+[WhiteFideId "304735"]
+[BlackFideId "319996"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. a4 Nbd7 7. a5 Rb8 8. b4 e5
+9. dxe5 Ng4 10. Bg5 Qe8 11. Ra3 Ndxe5 12. Nxe5 Nxe5 13. Nc3 h6 14. Bc1 Bg4 15.
+h3 Be6 16. Nd5 Qd7 17. g4 c6 18. Nf4 Bc4 19. Rg3 d5 20. Nd3 d4 21. f4 Nxd3 22.
+exd3 Bd5 23. Bxd5 Qxd5 24. f5 Rfe8 25. f6 Bf8 26. Bd2 Kh7 27. h4 Bd6 28. Rg2 Re5
+29. g5 h5 30. Qf3 Qxf3 31. Rxf3 Rbe8 32. Rf4 Rd5 33. Rff2 Kg8 34. Re2 Kf8 35.
+Rxe8+ Kxe8 36. Re2+ Re5 37. Rxe5+ Bxe5 38. Kf2 Kd7 39. Kf3 Ke6 40. Bf4 Kf5 41.
+Bxe5 Kxe5 42. Kg3 Kf5 43. Kf3 Ke5 44. Kg3 Kf5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.11"]
+[White "Kanovsky, David"]
+[Black "Kraus, Tomas"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2416"]
+[BlackElo "2326"]
+[ECO "C43"]
+[Opening "Petrov"]
+[Variation "modern attack, Symmetrical variation"]
+[WhiteFideId "316210"]
+[BlackFideId "331708"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 d5 5. Nxe5 Nd7 6. Nxd7 Bxd7 7. Nc3 Bb4 8.
+O-O Nxc3 9. bxc3 Bxc3 10. Rb1 b6 11. Ba3 Qf6 12. Ba6 Rb8 13. Rb3 b5 14. Rxc3
+Qxa6 15. Bc5 Be6 16. Ra3 Qc6 17. Rxa7 Ra8 18. Rxa8+ Qxa8 19. Qd3 Qc6 20. Rb1 f6
+21. a4 Kf7 22. axb5 Qd7 23. b6 cxb6 24. Rxb6 Ra8 25. h3 Kg8 26. Qb3 Bf7 27. Qg3
+Kh8 28. Kh2 h6 29. Qb3 Qf5 30. Rb7 Qf4+ 31. Qg3 Qxg3+ 32. Kxg3 Kg8 33. c3 Re8
+34. Kf3 h5 35. h4 Be6 36. Kg3 Kh7 37. f3 Kg6 38. Kf4 Kh7 39. Be7 Kg8 40. g4 hxg4
+41. fxg4 Kf7 42. Bd6+ Kg6 43. Rc7 Bg8 44. Kf3 Be6 45. Bf4 Kh7 46. Ra7 Kg8 47.
+Bd6 Rd8 48. Be7 Rd7 49. Ra8+ Kh7 50. Bb4 Rb7 51. Kf4 Rd7 52. Re8 Bf7 53. Rf8 Be6
+54. Rb8 Ra7 55. Bc5 Ra1 56. Rb6 Rf1+ 57. Kg3 Re1 58. Kf2 Re4 59. g5 Kg6 60. gxf6
+gxf6 61. Kg3 Kf5 62. h5 Re3+ 63. Kf2 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.12"]
+[White "Svoboda, Svatopluk"]
+[Black "Babula, Vlastimil"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2334"]
+[BlackElo "2553"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "14903563"]
+[BlackFideId "301264"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. Re1 a6 6. Bf1 d5 7. exd5 Nxd5 8. d4
+Nf6 9. Be3 Be7 10. c4 O-O 11. Nc3 cxd4 12. Nxd4 Bd7 13. Nb3 Ne5 14. Qd4 Ng6 15.
+Red1 Qb8 16. g3 Bc6 17. Bg2 Rd8 18. Qb6 Nd7 19. Qa5 Bxg2 20. Kxg2 b6 21. Qa4
+Qb7+ 22. Kg1 Nde5 23. h3 Nd3 24. Rab1 Nge5 25. Nd2 f5 26. Ne2 Bc5 27. Bxc5 bxc5
+28. Qc2 Ne1 29. Qc3 Qg2# 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.13"]
+[White "Zilka, Stepan"]
+[Black "Svatos, Jan"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2541"]
+[BlackElo "2306"]
+[ECO "D17"]
+[Opening "QGD Slav"]
+[Variation "Krause attack"]
+[WhiteFideId "315303"]
+[BlackFideId "304174"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Nb6 8.
+Ne5 a5 9. Bg5 h6 10. Bh4 Nfd7 11. e4 Nxe5 12. exf5 Nec4 13. Qb3 Nd6 14. Bd3 Nd7
+15. Ne4 Nxe4 16. Bxe4 Qb6 17. Qc4 Nf6 18. Bf3 Rd8 19. O-O-O Nd5 20. Rhe1 Qb4 21.
+Qxb4 axb4 22. Kc2 g5 23. fxg6 fxg6 24. Kb3 Kf7 25. Re5 Nf6 26. d5 g5 27. Bg3 c5
+28. d6 exd6 29. Rxc5 dxc5 30. Rxd8 b6 31. Rb8 h5 32. Rb7+ Kg6 33. Rxb6 g4 34.
+Be4+ Kg5 35. Bh4+ Kxh4 36. Rxf6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.14"]
+[White "Studnicka, Tomas"]
+[Black "Plat, Vojtech"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2374"]
+[BlackElo "2456"]
+[ECO "A41"]
+[Opening "Old Indian"]
+[Variation "Tartakower (Wade) variation"]
+[WhiteFideId "318949"]
+[BlackFideId "325740"]
+[EventDate "2014.04.26"]
+
+1. d4 d6 2. Nf3 Bg4 3. e4 Nd7 4. h3 Bh5 5. Nc3 c6 6. Bd3 e5 7. g4 Bg6 8. h4 h5
+9. g5 Ne7 10. Be3 Qa5 11. Qd2 O-O-O 12. O-O-O f5 13. gxf6 gxf6 14. dxe5 Nxe5 15.
+Be2 Ng4 16. Kb1 Nxe3 17. Qxe3 Bh6 18. Qd4 Rhf8 19. Nd2 Qc5 20. Qxc5 dxc5 21. Nc4
+Rd4 22. e5 Bf4 23. exf6 Rxf6 24. Bd3 Bc7 25. Ne2 Rxd3 26. cxd3 b5 27. Ne3 Rxf2
+28. Nc3 c4 29. Ne4 Re2 30. Rhe1 cxd3 31. Nd2 Bg3 32. Rg1 Rxe3 33. Nf1 d2+ 34.
+Ka1 Re1 35. Nxg3 Rxg1 36. Rxg1 Bc2 37. Nxh5 Nf5 38. Nf6 Nxh4 39. Rg8+ Kb7 40.
+Rg7+ Ka6 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.15"]
+[White "Sikorova, Olga"]
+[Black "Jansa, Vlastimil"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "GM"]
+[WhiteElo "2288"]
+[BlackElo "2455"]
+[ECO "A10"]
+[Opening "English"]
+[Variation "Adorjan defence"]
+[WhiteFideId "307033"]
+[BlackFideId "300128"]
+[EventDate "2014.04.26"]
+
+1. c4 g6 2. e4 e5 3. d4 Nf6 4. Nf3 Bb4+ 5. Bd2 Bxd2+ 6. Nbxd2 exd4 7. Nxd4 O-O
+8. Be2 Re8 9. Qc2 Qe7 10. Nb5 Na6 11. O-O Nxe4 12. Nxe4 Qxe4 13. Bd3 Qe7 14. Qd2
+d6 15. Rae1 Be6 16. b4 Qf6 17. a3 Re7 18. Nc3 Kg7 19. Re4 Kg8 20. Rf4 Qg7 21.
+Ne4 f5 22. Ng5 Rae8 23. Nxe6 Rxe6 24. c5 Kh8 25. c6 Nb8 26. cxb7 c6 27. b5 Qxb7
+28. bxc6 Nxc6 29. Bc4 Rf6 30. Bd5 Qb6 31. Bxc6 Qxc6 32. Qd4 Re5 33. Qxa7 Qc5 34.
+Qd7 Re4 35. Rxe4 fxe4 36. Qe8+ Kg7 37. Qe7+ Rf7 38. Qxe4 Qxa3 39. Qd4+ Kh6 40.
+Qh4+ Kg7 41. Qd4+ Kh6 42. Qh4+ 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.16"]
+[White "Sabol, Marian"]
+[Black "Zwardon, Vojtech"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2295"]
+[BlackElo "2391"]
+[ECO "A45"]
+[Opening "Trompovsky attack (Ruth, Opovcensky opening)"]
+[WhiteFideId "308056"]
+[BlackFideId "325511"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bc1 Nf6 4. Bg5 Ne4 5. Bc1 e6 6. Nd2 d5 7. Nxe4 dxe4 8.
+e3 Nd7 9. Ne2 Bd6 10. c4 c5 11. Nc3 f5 12. Nb5 Be7 13. d5 a6 14. d6 axb5 15.
+dxe7 Qa5+ 16. Bd2 b4 17. f3 Nf6 18. fxe4 Nxe4 19. Bd3 Nxd2 20. Qxd2 b3 21. Qxa5
+Rxa5 22. a3 Kxe7 23. Kd2 Rd8 24. Kc3 Ra6 25. Be2 Bd7 26. Rhd1 g5 27. g3 g4 28.
+Rd2 Ba4 29. Rxd8 Kxd8 30. h3 h5 31. hxg4 hxg4 32. e4 Rd6 33. Rf1 fxe4 34. Rd1
+Rxd1 35. Bxd1 Ke7 36. Kd2 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.17"]
+[White "Holemar, David"]
+[Black "Simacek, Pavel"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2269"]
+[BlackElo "2469"]
+[ECO "A65"]
+[Opening "Benoni"]
+[Variation "6.e4"]
+[WhiteFideId "307009"]
+[BlackFideId "307165"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Bd3 Bg7 8. h3 O-O
+9. Nf3 Na6 10. O-O Nc7 11. a4 a6 12. Re1 Rb8 13. a5 b5 14. axb6 Rxb6 15. Nd2 Nb5
+16. Nc4 Rb8 17. Bf4 Nh5 18. Bh2 Qh4 19. Bf1 Rd8 20. e5 dxe5 21. Nxe5 Nd4 22.
+Nxg6 hxg6 23. Bxb8 Bxh3 24. Bg3 Nxg3 25. fxg3 Qxg3 26. Qd3 Ne2+ 27. Qxe2 Bd4+
+28. Kh1 Kg7 29. Ne4 Bxg2+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.18"]
+[White "Voloshin, Leonid"]
+[Black "Bartos, Jan"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2391"]
+[BlackElo "2232"]
+[ECO "D12"]
+[Opening "QGD Slav"]
+[Variation "4.e3 Bf5"]
+[WhiteFideId "311111"]
+[BlackFideId "315060"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nf3 Bf5 5. Nc3 a6 6. a4 e6 7. Bd3 Bg6 8. O-O Nbd7
+9. Qe2 Bxd3 10. Qxd3 dxc4 11. Qxc4 c5 12. dxc5 Bxc5 13. e4 Qc7 14. Qe2 O-O 15.
+Bg5 Ne5 16. Rac1 Nxf3+ 17. Qxf3 Qe5 18. Bf4 Qh5 19. e5 Qxf3 20. gxf3 Nd7 21.
+Rfd1 Rfd8 22. Ne4 Be7 23. Rc7 Nxe5 24. Rxd8+ Bxd8 25. Bxe5 Bxc7 26. Bxc7 Rc8 27.
+Bb6 Rc4 28. a5 Rb4 29. Nc5 Rxb2 30. Nxb7 Kf8 31. Nc5 Ke7 32. Nxa6 Kd7 33. Kg2
+Rb1 34. Nb8+ Kc8 35. Nc6 f6 36. Nd4 Kd7 37. f4 g6 38. Nc2 Kc6 39. Ne3 Rb4 40.
+Kf3 Rb3 41. Bd8 Ra3 42. Kg3 Kd7 43. Bb6 Kc6 44. h3 Kd7 45. Kg2 Ra4 46. Nc2 Rxf4
+47. Nd4 e5 48. a6 Kc8 49. Ne6 Rb4 50. a7 Kb7 51. Nc7 Rxb6 52. a8=Q+ Kxc7 53. Qg8
+g5 54. Qxh7+ Kd6 55. Qf7 Kc5 56. Kg3 Rd6 57. Kg4 Rd4+ 58. Kf5 Rf4+ 59. Ke6 Kd4
+60. Qa7+ Kd3 61. Qe3+ Kc4 62. Kf7 Kd5 63. Qd3+ Kc5 64. Kg6 Kc6 65. Qd2 Kc5 66.
+Qxf4 gxf4 67. h4 e4 68. h5 e3 69. fxe3 fxe3 70. h6 e2 71. h7 e1=Q 72. h8=Q Qe4+
+73. Kf7 Qd5+ 74. Kg6 Qe4+ 75. Kf7 f5 76. Qc8+ Kd4 77. Qh8+ Qe5 78. Qh4+ f4 79.
+Qf2+ Qe3 80. Qb2+ Ke4 81. Qb7+ Kd3 82. Qd5+ Ke2 83. Qg2+ Kd3 84. Qd5+ Qd4 85.
+Qf3+ Kc4 86. Qc6+ Kb4 87. Qb7+ Kc3 88. Qf3+ Kd2 89. Qg2+ Ke3 90. Qg1+ Ke4 91.
+Qg6+ Kd5 92. Qe6+ Kc5 93. Qc8+ Kb5 94. Qb7+ Kc4 95. Qc6+ 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.19"]
+[White "Kulovana, Eva"]
+[Black "Lechtynsky, Jiri"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "GM"]
+[WhiteElo "2250"]
+[BlackElo "2365"]
+[ECO "C07"]
+[Opening "French"]
+[Variation "Tarrasch, open variation"]
+[WhiteFideId "318779"]
+[BlackFideId "300217"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qd6 7. O-O Nf6 8.
+Nb3 Nc6 9. Nbxd4 Nxd4 10. Qxd4 Qxd4 11. Nxd4 a6 12. a4 Bd7 13. b3 Bc5 14. Bb2
+O-O 15. Nf3 Rfd8 16. Ne5 Be8 17. Rad1 Rxd1 18. Rxd1 Ne4 19. Ng4 b5 20. axb5 axb5
+21. Bd3 Bc6 22. Kf1 f6 23. f3 Nd6 24. Ra1 Rxa1+ 25. Bxa1 e5 26. Nf2 Kf7 27. Ne4
+Nxe4 28. Bxe4 Ke8 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.20"]
+[White "Kuba, Jindrich"]
+[Black "Freisler, Pavel"]
+[Result "1-0"]
+[BlackTitle "IM"]
+[WhiteElo "2239"]
+[BlackElo "2357"]
+[ECO "B03"]
+[Opening "Alekhine's defence"]
+[Variation "four pawns attack, Trifunovic variation"]
+[WhiteFideId "318248"]
+[BlackFideId "301477"]
+[EventDate "2014.04.26"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. f4 Bf5 6. Nc3 dxe5 7. fxe5 e6 8. Nf3
+Bb4 9. a3 Bxc3+ 10. bxc3 c5 11. Be2 Nc6 12. Be3 Na5 13. O-O O-O 14. Nd2 Bg6 15.
+Qe1 Rc8 16. Rc1 Qe7 17. h4 cxd4 18. cxd4 Qxa3 19. Qg3 Nb3 20. Rc3 Nxd4 21. Bxd4
+Qb2 22. Bxb6 axb6 23. Qe3 Rfd8 24. Nf3 Rc6 25. Rb3 Qa2 26. Rxb6 Rc7 27. Rd6 Rdc8
+28. Qd2 Qa8 29. Rd1 h6 30. Rd8+ Kh7 31. Rxc8 Rxc8 32. Bd3 Qa7+ 33. Kh1 Qc5 34.
+Bxg6+ fxg6 35. Qd3 Qxc4 36. Qxc4 Rxc4 37. Rb1 g5 38. hxg5 hxg5 39. Nxg5+ Kg6 40.
+Nxe6 Kf5 41. Nxg7+ Kxe5 42. Rxb7 Rh4+ 43. Kg1 Rh8 44. Rb5+ Kf6 45. Nh5+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.21"]
+[White "Lys, Josef"]
+[Black "Michenka, Jozef"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2206"]
+[BlackElo "2353"]
+[ECO "D45"]
+[Opening "QGD semi-Slav"]
+[Variation "5...Nd7"]
+[WhiteFideId "302244"]
+[BlackFideId "301175"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. e3 Nbd7 6. a3 Bd6 7. b4 O-O 8. Bb2 Qe7
+9. Qb3 dxc4 10. Bxc4 e5 11. d5 Nb6 12. dxc6 bxc6 13. Be2 Be6 14. Qc2 a5 15. O-O
+axb4 16. axb4 Nbd5 17. Nxd5 Bxd5 18. Qf5 Be4 19. Qg5 h6 20. Qg3 Rxa1 21. Bxa1
+Re8 22. b5 cxb5 23. Bxb5 Rb8 24. Be2 Nh5 25. Qh3 Nf6 26. Rc1 Nh7 27. Rc8+ Rxc8
+28. Qxc8+ Nf8 29. Qc4 Bf5 30. Qb5 Bd7 31. Qd5 Be6 32. Qc6 f6 33. Bc4 Qc7 34.
+Qxc7 Bxc7 35. Bxe6+ Nxe6 36. Nd2 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.22"]
+[White "Dobrovolsky, Ladislav"]
+[Black "Kubik, Michael"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2334"]
+[BlackElo "2203"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "300250"]
+[BlackFideId "344320"]
+[EventDate "2014.04.26"]
+
+1. Nf3 c5 2. b3 d5 3. Bb2 Nc6 4. e3 Nf6 5. Bb5 g6 6. O-O Bg7 7. Bxc6+ bxc6 8. d3
+O-O 9. Nbd2 Nd7 10. Bxg7 Kxg7 11. c4 Qb6 12. Qc2 d4 13. exd4 cxd4 14. Rfe1 e6
+15. b4 a5 16. bxa5 Qa7 17. Nb3 c5 18. Ne5 Qc7 19. Qe2 f6 20. Nxd7 Bxd7 21. f4
+Ra6 22. Qf3 Bc8 23. Re2 Bb7 24. Qg3 Qc6 25. Rae1 Re8 26. h4 Qd6 27. Kh2 Kf7 28.
+Qg4 h6 29. Qg3 Qc6 30. Rb1 Ba8 31. Reb2 e5 32. fxe5 Rxe5 33. Nd2 Re2 34. Ne4
+Rxb2 35. Rxb2 Rxa5 36. Rf2 f5 37. h5 Kg8 38. Rxf5 g5 39. Qb8+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.23"]
+[White "Marikova, Jana"]
+[Black "Sobek, Jaroslav"]
+[Result "0-1"]
+[BlackTitle "FM"]
+[WhiteElo "2079"]
+[BlackElo "2327"]
+[ECO "D52"]
+[Opening "QGD"]
+[Variation "Cambridge Springs defence, Bogoljubow variation"]
+[WhiteFideId "334138"]
+[BlackFideId "301388"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. Nf3 c6 3. c4 e6 4. Nc3 Nf6 5. Bg5 Nbd7 6. e3 Qa5 7. Nd2 Bb4 8. Qc2
+O-O 9. Bxf6 Nxf6 10. Bd3 dxc4 11. Nxc4 Qc7 12. O-O Rd8 13. Rfd1 Bd7 14. Ne4 Nxe4
+15. Bxe4 g6 16. a3 Bf8 17. b4 Be8 18. Rac1 Rac8 19. Ne5 a5 20. Qb3 axb4 21. axb4
+Qb6 22. Nd3 Ra8 23. Nc5 Ra7 24. Bf3 Rda8 25. Qc4 Ra2 26. Rb1 R8a3 27. e4 Qa7 28.
+d5 b6 29. Nd3 exd5 30. exd5 cxd5 31. Bxd5 Ra1 32. Ne5 Rxb1 33. Rxb1 Ra1 34. Qb3
+Rxb1+ 35. Qxb1 Qc7 36. Nd3 Qc3 37. g3 Bb5 38. Nf4 Qxb4 39. Qd1 Bd6 40. Nd3 Qa3
+41. Qf3 Qa7 42. Kg2 Qe7 43. Nb2 Bc5 44. Nc4 Kg7 45. Nd2 Qf6 46. Nb3 Qxf3+ 47.
+Kxf3 Bb4 48. Nd4 Bd7 49. Bc4 Kf6 50. Ke4 Bc5 51. f3 Ke7 52. Nb5 Bf5+ 53. Kf4 f6
+54. g4 Bc2 55. Kg3 g5 56. f4 Bd6 57. Nxd6 Kxd6 58. h4 h6 59. hxg5 hxg5 60. fxg5
+fxg5 61. Kf3 Bd1+ 62. Kg3 Kc5 63. Be6 Kd4 64. Bd7 Ke3 65. Bc6 Be2 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.24"]
+[White "Marek, Matyas"]
+[Black "Malik, Jan"]
+[Result "1-0"]
+[BlackTitle "FM"]
+[WhiteElo "2110"]
+[BlackElo "2289"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Byrne (English) attack"]
+[WhiteFideId "335398"]
+[BlackFideId "317500"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f3
+Nbd7 9. Qd2 Be7 10. g4 Nb6 11. g5 Nh5 12. O-O-O Rc8 13. Na5 Qc7 14. Kb1 O-O 15.
+Nd5 Nxd5 16. exd5 Bf5 17. Rc1 Bd8 18. Nb3 b5 19. Bd3 Bg6 20. Rhg1 Qb7 21. Be4
+Rc4 22. Qd3 Bb6 23. Nd2 Bxe3 24. Qxe3 Rc7 25. Nb3 b4 26. Na5 Qb5 27. Nc6 Nf4 28.
+Rgd1 Ne2 29. c4 bxc3 30. Rc2 Nd4 31. Rxc3 Qxd5 32. Nxd4 Rxc3 33. Qxc3 exd4 34.
+Qxd4 Qxg5 35. Qxd6 Bxe4+ 36. fxe4 a5 37. Qd5 Qg2 38. e5 h5 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.02"]
+[Round "7.25"]
+[White "Szotkowski, Jakub"]
+[Black "Olsarova, Karolina"]
+[Result "1/2-1/2"]
+[BlackTitle "WIM"]
+[WhiteElo "2161"]
+[BlackElo "2279"]
+[ECO "A09"]
+[Opening "Reti opening"]
+[WhiteFideId "330590"]
+[BlackFideId "320242"]
+[EventDate "2014.04.26"]
+
+1. Nf3 d5 2. c4 c6 3. e3 Nf6 4. b3 Bg4 5. Bb2 e6 6. Be2 Nbd7 7. d3 h6 8. Nbd2
+Bd6 9. O-O O-O 10. h3 Bh5 11. Nh4 Bxe2 12. Qxe2 Re8 13. g3 a5 14. e4 dxe4 15.
+dxe4 Qc7 16. a4 Rad8 17. Bxf6 Nxf6 18. Ndf3 Nd7 19. Rad1 Nc5 20. Qe3 Be7 21. e5
+Qb6 22. Nd4 Rd7 23. Nhf3 Red8 24. Rd2 Bf8 25. Rfd1 g6 26. Kg2 Bg7 27. Ne2 Rxd2
+28. Rxd2 Rxd2 29. Nxd2 Qb4 30. f4 Bf8 31. g4 Nd7 32. Ne4 Qe1 33. Qd2 Qxd2 34.
+Nxd2 Bb4 35. Ne4 Kf8 36. Kf3 Ke7 37. Nc1 Kd8 38. Nd3 Bf8 39. c5 Kc7 40. Nf6 Nxc5
+41. Nxc5 Bxc5 42. f5 b5 43. Ke4 Be7 44. Ng8 Bf8 45. Nf6 bxa4 46. bxa4 c5 47.
+fxg6 fxg6 48. Kd3 Kc6 49. Kc4 Bg7 50. h4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.1"]
+[White "Rausis, Igors"]
+[Black "Navara, David"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2578"]
+[BlackElo "2706"]
+[ECO "B30"]
+[Opening "Sicilian defence"]
+[WhiteFideId "11600098"]
+[BlackFideId "309095"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. c3 d5 4. exd5 Qxd5 5. d4 Bf5 6. Be3 Nf6 7. Qb3 cxd4 8.
+Nxd4 Nxd4 9. Bxd4 e5 10. Bb5+ Bd7 11. Bxd7+ Kxd7 12. Be3 Qxg2 13. Rf1 Qd5 14. c4
+Qf3 15. Nc3 Be7 16. Rd1+ Ke8 17. Nd5 Nxd5 18. Rxd5 f6 19. Rg1 g5 20. Rg3 Qh1+
+21. Ke2 Qe4 22. f3 Qh4 23. c5 e4 24. Bf2 e3 25. Bg1 h5 26. Rd3 Rd8 27. Rxe3 Qf4
+28. Kf1 Kf8 29. Re1 Rh7 30. Rg2 g4 31. Qxb7 gxf3 32. Rc2 Qf5 33. Qe4 Qh3+ 34.
+Kf2 Bxc5+ 35. Rxc5 Qg2+ 36. Ke3 Re7 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.2"]
+[White "Oral, Tomas"]
+[Black "Stocek, Jiri"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2515"]
+[BlackElo "2540"]
+[ECO "B04"]
+[Opening "Alekhine's defence"]
+[Variation "modern variation"]
+[WhiteFideId "303739"]
+[BlackFideId "304760"]
+[EventDate "2014.04.26"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.3"]
+[White "Vokac, Marek"]
+[Black "Hracek, Zbynek"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2422"]
+[BlackElo "2633"]
+[ECO "E11"]
+[Opening "Bogo-Indian defence, Nimzovich variation"]
+[WhiteFideId "300101"]
+[BlackFideId "300071"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 Bxd2+ 6. Nbxd2 d6 7. Bg2 O-O 8.
+O-O e5 9. e4 Bg4 10. h3 Bxf3 11. Nxf3 c5 12. dxe5 dxe5 13. Nh4 g6 14. Qe1 Nc6
+15. f4 Rad8 16. f5 Rd3 17. Rd1 Rfd8 18. Rxd3 Rxd3 19. g4 Nd4 20. Nf3 Qd6 21. Kh2
+Nxf3+ 22. Rxf3 Rxf3 23. Bxf3 Qd3 24. g5 Ne8 25. Qe2 Qd4 26. f6 h6 27. h4 hxg5
+28. hxg5 Nd6 29. b3 Kf8 30. Bg2 Ke8 31. Qg4 Kd8 32. Bh3 Qd2+ 33. Kg3 Kc7 34. Bg2
+Qxa2 35. Qd1 Qb2 36. Qd5 Qxb3+ 37. Bf3 Qc3 38. Qxc5+ Kd7 39. Kg2 Qd2+ 40. Kh3
+Qc3 41. Kg2 Qd2+ 42. Kh3 Qd4 43. Bg4+ Kd8 44. Kg2 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.4"]
+[White "Petr, Martin"]
+[Black "Krejci, Jan2"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2529"]
+[BlackElo "2518"]
+[ECO "A05"]
+[Opening "Reti"]
+[Variation "King's Indian attack, Spassky's variation"]
+[WhiteFideId "318299"]
+[BlackFideId "322156"]
+[EventDate "2014.04.26"]
+
+1. Nf3 Nf6 2. g3 b5 3. Bg2 Bb7 4. Na3 a6 5. c4 b4 6. Nc2 e6 7. O-O a5 8. d4 Be7
+9. b3 O-O 10. Bb2 Be4 11. Ne3 Na6 12. Ne5 Bxg2 13. Nxg2 Qe8 14. d5 Nc5 15. f3
+Bd6 16. Nd3 e5 17. e4 Qe7 18. Kh1 Nxd3 19. Qxd3 Bc5 20. f4 d6 21. fxe5 dxe5 22.
+Nh4 g6 23. Bc1 Ne8 24. Bh6 Ng7 25. Ng2 a4 26. Ne3 f6 27. Nc2 Rfb8 28. Be3 Ne8
+29. Qd2 Ra5 30. Qf2 Kg7 31. g4 Bxe3 32. Qxe3 Rba8 33. Rac1 Rb8 34. Rf3 c5 35.
+Rcf1 axb3 36. axb3 Ra2 37. Ne1 Rba8 38. Nd3 R8a5 39. g5 fxg5 40. Nxe5 Rxh2+ 41.
+Kxh2 Qxe5+ 42. Kg1 Nd6 43. Rf6 Ra2 44. R6f2 Ra7 45. Qxc5 Re7 46. Qe3 Nxe4 47.
+Re2 h5 48. Qd3 g4 49. Rfe1 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.5"]
+[White "Babula, Vlastimil"]
+[Black "Kociscak, Jiri"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2553"]
+[BlackElo "2434"]
+[ECO "A85"]
+[Opening "Dutch with c4 & Nc3"]
+[WhiteFideId "301264"]
+[BlackFideId "322121"]
+[EventDate "2014.04.26"]
+
+1. d4 f5 2. c4 Nf6 3. Nc3 d6 4. Bg5 Nbd7 5. Qc2 g6 6. O-O-O Bg7 7. h4 c5 8. e3
+Qa5 9. Bd3 e5 10. dxe5 Nxe5 11. Nh3 O-O 12. Nf4 Nxd3+ 13. Rxd3 Ne4 14. Nxe4 fxe4
+15. Ra3 Qc7 16. h5 Rf5 17. Nd5 Rxd5 18. cxd5 Bf5 19. g4 Bxg4 20. hxg6 hxg6 21.
+Qxe4 Qd7 22. Bh6 Bf5 23. Qh4 Bh8 24. Bf8 Be5 25. f4 Be4 26. Bxd6 Bg7 27. Qh7+
+Kf7 28. Be5 Rg8 29. Rd1 Qb5 30. Rxa7 Qc4+ 31. Bc3 Bxd5 32. Ra8 Rxa8 33. Qxg7+
+Ke8 34. b3 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.6"]
+[White "Blatny, Pavel"]
+[Black "Zilka, Stepan"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2418"]
+[BlackElo "2541"]
+[ECO "A46"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "300047"]
+[BlackFideId "315303"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 e6 3. c3 d5 4. Bf4 Bd6 5. Bg3 O-O 6. Nbd2 c5 7. e3 Nc6 8. Bd3
+b6 9. Ne5 Bb7 10. f4 Ne7 11. Qf3 Nf5 12. Bf2 Be7 13. g4 Nd6 14. g5 Nfe4 15. Qh3
+Nf5 16. Ndf3 Qc8 17. Bb5 Qc7 18. Rc1 a5 19. a4 c4 20. Bd7 Bc8 21. Bc6 Bb7 22.
+Bd7 g6 23. Qg2 Rfd8 24. Bb5 Ng7 25. Ng4 Nh5 26. Qh3 Nd6 27. Nh6+ Kg7 28. Ne5 Rf8
+29. Bg3 Nf5 30. Nhg4 Rh8 31. Nh6 Raf8 32. Kd2 Bd6 33. Rcg1 Bc8 34. Bf2 Bxe5 35.
+fxe5 Bd7 36. Ng4 Bxb5 37. axb5 Ra8 38. Nf6 a4 39. Ra1 Ra5 40. Kc2 Qa7 41. Ra3
+Rxb5 42. Rha1 Ra5 43. Nxh5+ gxh5 44. Qxh5 b5 45. Qf3 Qb7 46. Be1 Raa8 47. Bd2
+Rag8 48. Rg1 Kf8 49. Raa1 Rg6 50. Qf4 h6 51. h4 hxg5 52. hxg5 Rh4 53. Rg4 Rh3
+54. Rg2 Rh4 55. Qf2 Qe7 56. Rag1 Ke8 57. Rh2 Rxg5 58. Rxh4 Nxh4 59. Rh1 Rg4 60.
+Qh2 Qg5 61. Kc1 Qf5 62. Rg1 Kd7 63. Rxg4 Qxg4 64. Qf2 Nf3 65. Qe2 Ke8 66. Kb1
+Kf8 67. Ka2 Nxe5 68. Qh2 Nf3 69. Qf2 Qf5 70. Qg2 Ke7 71. Bc1 Ng5 72. Qg3 Ne4 73.
+Qc7+ Kf6 74. Ka3 Qf1 75. Qd8+ Kg7 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.7"]
+[White "Cvek, Robert"]
+[Black "Kraus, Tomas"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2519"]
+[BlackElo "2326"]
+[ECO "A11"]
+[Opening "English"]
+[Variation "Caro-Kann defensive system"]
+[WhiteFideId "307424"]
+[BlackFideId "331708"]
+[EventDate "2014.04.26"]
+
+1. c4 c6 2. Nf3 Nf6 3. Nc3 d5 4. e3 e6 5. b3 Nbd7 6. Bb2 Bd6 7. Qc2 O-O 8. Be2
+Qe7 9. O-O b6 10. cxd5 cxd5 11. Nb5 Ba6 12. Nfd4 Rfc8 13. Nc6 Qf8 14. Nxd6 Qxd6
+15. Bxa6 Rxc6 16. Qd1 Rc7 17. d4 Nb8 18. Be2 a6 19. Rc1 Raa7 20. f3 Rxc1 21.
+Qxc1 Rc7 22. Qd2 a5 23. Bd3 Nc6 24. Bb1 Rd7 25. Rc1 Rc7 26. Rd1 Rd7 27. Qe2 Qb8
+28. Bc3 b5 29. Be1 Qb6 30. Bg3 Rd8 31. Rc1 g6 32. Bd3 b4 33. Bb5 Rc8 34. Ba4 Na7
+35. Rxc8+ Nxc8 36. Qc2 Na7 37. Qc7 Qa6 38. Qd8+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.8"]
+[White "Biolek, Richard Jr."]
+[Black "Haba, Petr"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2418"]
+[BlackElo "2498"]
+[ECO "D17"]
+[Opening "QGD Slav"]
+[Variation "Czech defence"]
+[WhiteFideId "319996"]
+[BlackFideId "300160"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Nh4 e6 7. Nxf5 exf5 8. e3
+Bb4 9. Bxc4 O-O 10. O-O Nbd7 11. Qc2 g6 12. f3 Rc8 13. Qb3 a5 14. Na2 Bd6 15. e4
+fxe4 16. Bh6 Qc7 17. f4 Nb6 18. Bxf8 Nxc4 19. Qxc4 Kxf8 20. Nc3 Re8 21. g3 Ng4
+22. Rfe1 f5 23. Rac1 Qb6 24. Re2 Rd8 25. Rd1 Be7 26. Kg2 Nf6 27. d5 Qb4 28. Qa2
+c5 29. d6 Rxd6 30. Rxd6 Bxd6 31. Qe6 Be7 32. Rd2 c4 33. Qe5 Kf7 34. Kh3 Qc5 35.
+Nd5 Qd6 36. Qxd6 Bxd6 37. Nxf6 Bb4 38. Nxe4 fxe4 39. Re2 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.9"]
+[White "Kislinsky, Alexey"]
+[Black "Kanovsky, David"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2483"]
+[BlackElo "2416"]
+[ECO "B23"]
+[Opening "Sicilian"]
+[Variation "closed, 2...Nc6"]
+[WhiteFideId "14108801"]
+[BlackFideId "316210"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 Nd4 4. Nf3 Nxb5 5. Nxb5 d6 6. d4 Bg4 7. c4 a6 8. Nc3
+cxd4 9. Qxd4 Rc8 10. Be3 e6 11. Nd2 Nf6 12. f3 Bh5 13. g4 Bg6 14. h4 h5 15. g5
+Nd7 16. f4 e5 17. Qd5 exf4 18. Bxf4 Be7 19. O-O-O O-O 20. Qxb7 Rb8 21. Qd5 Qb6
+22. Nb3 Nc5 23. Rh2 Nxb3+ 24. axb3 Rfc8 25. Rc2 Qxb3 26. c5 Rxc5 27. Qxb3 Rxb3
+28. Bxd6 Bxd6 29. Rxd6 a5 30. Rd8+ Kh7 31. Rf8 Rb4 32. Rd2 Rxe4 33. Rdd8 Bf5 34.
+Rxf7 Rxh4 35. Rb8 Rg4 36. Rff8 Kg6 37. Rb7 Rxg5 38. Kd2 Re5 39. Nb5 Rg3 40. Rd8
+Rb3 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.10"]
+[White "Plat, Vojtech"]
+[Black "Kriebel, Tadeas"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2456"]
+[BlackElo "2366"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "4.Nf3"]
+[WhiteFideId "325740"]
+[BlackFideId "330027"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7 5. e3 O-O 6. Bd3 dxc4 7. Bxc4 a6 8. O-O
+b5 9. Bd3 Bb7 10. Qe2 Nbd7 11. b3 c5 12. Bb2 cxd4 13. exd4 Nb6 14. Rfc1 Nbd5 15.
+Nxd5 Qxd5 16. Rc2 Bd6 17. Rac1 Rfd8 18. h3 h6 19. Qe3 Ne4 20. Bf1 f6 21. Ne1 Qf5
+22. Nd3 Ng5 23. Be2 Qd5 24. f3 Qf5 25. f4 Qe4 26. Qg3 Rac8 27. Bf1 Qd5 28. Qe3
+Qe4 29. Qd2 Nf7 30. Rxc8 Rxc8 31. Rxc8+ Bxc8 32. Be2 Qc6 33. Bf3 Qc7 34. Qe3 Bd7
+35. Qe4 Nd8 36. d5 exd5 37. Qg6 Be6 38. Bxf6 Qf7 39. Qxf7+ Nxf7 40. Bd4 Kf8 41.
+g4 g6 42. Kf2 Nd8 43. Ne5 Bxe5 44. Bxe5 Nc6 45. Ke3 Kf7 46. Bd6 Kg7 47. Bc5 Nd8
+48. Be2 Nc6 49. Bd3 Bc8 50. b4 Kf7 51. a3 Kg7 52. f5 gxf5 53. gxf5 Kf7 54. Kf4
+Kf6 55. Bf2 Bd7 56. Bb1 Bc8 57. Bh4+ Kg7 58. Ba2 Nd4 59. f6+ Kf7 60. Bf2 Nc2 61.
+Ke5 Bb7 62. Bb3 Nxa3 63. Bd4 Nc4+ 64. Kf4 Bc8 65. Bd1 Be6 66. Be2 Kg8 67. h4 Kf7
+68. Bh5+ Kg8 69. Be8 Kf8 70. Bg6 Kg8 71. Bc3 Kf8 72. Kf3 Kg8 73. Ke2 Bf7 74. Bf5
+Nd6 75. Bh3 Bg6 76. Ke3 Kf7 77. Kd4 Ne4 78. Bc8 Nxc3 79. Kxc3 Kxf6 80. Kd4 Be4
+81. Bxa6 Ke6 82. Bxb5 Kd6 83. Be8 Bc2 84. Bb5 Bf5 85. Be2 Bd7 86. Bf3 Bc6 87.
+Bg2 Bb7 88. b5 Ba8 89. Bh3 Bb7 90. Bg4 Ba8 91. Bc8 Kc7 92. Bf5 Kb6 93. Bd3 Bb7
+94. Bf1 Ba8 95. Ke5 Kc5 96. Be2 d4 97. Bd3 Bb7 98. b6 Kxb6 99. Kxd4 Kc7 100. Ke5
+Kd7 101. Kf6 Ke8 102. Kg7 Bf3 103. Bg6+ Ke7 104. h5 Bxh5 105. Kxh6 Bxg6 106.
+Kxg6 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.11"]
+[White "Dolezal, Radoslav1"]
+[Black "Rasik, Vitezslav"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2344"]
+[BlackElo "2456"]
+[ECO "A41"]
+[Opening "Queen's Pawn"]
+[WhiteFideId "304735"]
+[BlackFideId "300306"]
+[EventDate "2014.04.26"]
+
+1. d4 d6 2. g3 g6 3. Bg2 Bg7 4. e4 Nf6 5. Ne2 O-O 6. O-O e5 7. dxe5 dxe5 8. Nbc3
+Nbd7 9. a4 b6 10. b3 Bb7 11. Ba3 Re8 12. Qc1 Bf8 13. Rd1 Bxa3 14. Qxa3 a5 15.
+Bh3 Qe7 16. Qxe7 Rxe7 17. f3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.12"]
+[White "Simacek, Pavel"]
+[Black "Adamek, Jiri"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2469"]
+[BlackElo "2301"]
+[ECO "B40"]
+[Opening "Sicilian defence"]
+[WhiteFideId "307165"]
+[BlackFideId "315702"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. b3 d6 4. Bb2 e5 5. Bb5+ Nd7 6. d3 a6 7. Bxd7+ Bxd7 8. Nc3
+Nf6 9. Nd2 Be7 10. Nf1 O-O 11. Ne3 g6 12. O-O Nh5 13. Ncd5 Bg5 14. a3 Be6 15. b4
+Bxe3 16. Nxe3 f6 17. bxc5 dxc5 18. c4 Rc8 19. Qc2 Qd7 20. f3 Rfd8 21. Rad1 b5
+22. Bc3 Qf7 23. Ba5 Re8 24. Rb1 Bd7 25. Nd5 Nf4 26. Nc7 bxc4 27. dxc4 Rf8 28.
+Nd5 Rb8 29. Rxb8 Rxb8 30. Nxf4 exf4 31. Bc7 Rc8 32. Bxf4 Be6 33. Rc1 Qd7 34. Rd1
+Qf7 35. Rc1 Qd7 36. Be3 Rb8 37. Qc3 Qf7 38. Bxc5 Rc8 39. Qd4 Qd7 40. Bd6 Kf7 41.
+c5 Qb5 42. c6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.13"]
+[White "Jansa, Vlastimil"]
+[Black "Sabol, Marian"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2455"]
+[BlackElo "2295"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf"]
+[WhiteFideId "300128"]
+[BlackFideId "308056"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bd3 g6 7. O-O Bg7 8. Re1
+O-O 9. Bf1 Bg4 10. Qd3 Nbd7 11. b3 e5 12. Nde2 Nc5 13. Qe3 b5 14. a3 Bc8 15. b4
+Ne6 16. Bb2 Nd4 17. Nxd4 Ng4 18. Nc6 Nxe3 19. Nxd8 Nxc2 20. Nc6 Re8 21. Nd5 Nxa1
+22. Rxa1 Bb7 23. Rc1 Bxc6 24. Rxc6 Red8 25. g3 Bf8 26. Bh3 Ra7 27. Bc1 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.14"]
+[White "Konopka, Michal"]
+[Black "Kuba, Jindrich"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[WhiteElo "2408"]
+[BlackElo "2239"]
+[ECO "A13"]
+[Opening "English"]
+[Variation "Neo-Catalan"]
+[WhiteFideId "308633"]
+[BlackFideId "318248"]
+[EventDate "2014.04.26"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. d4 dxc4 5. Qa4+ c6 6. Qxc4 b5 7. Qb3 Bb7 8. Bg2
+Nbd7 9. O-O Be7 10. Nc3 O-O 11. Ne5 Nd5 12. Nxd7 Qxd7 13. Ne4 f5 14. Nc3 Bf6 15.
+Rd1 a5 16. e3 a4 17. Qc2 Rfd8 18. Nxd5 cxd5 19. Bd2 Rdc8 20. Qd3 Be7 21. b3 b4
+22. Rac1 Ba6 23. Rxc8+ Qxc8 24. Qb1 axb3 25. Rc1 bxa2 26. Qxa2 Qb7 27. Qb2 Bd3
+28. Bf1 Bxf1 29. Kxf1 b3 30. Rb1 Ra2 31. Qc3 b2 32. Ke2 Ba3 33. Kd1 Qa6 34. Kc2
+Ra1 35. Qb3 Rxb1 36. Kxb1 Qf1+ 37. Kc2 Qc1+ 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.15"]
+[White "Zwardon, Vojtech"]
+[Black "Marek, Matyas"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2391"]
+[BlackElo "2110"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "325511"]
+[BlackFideId "335398"]
+[EventDate "2014.04.26"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nf3 Nc6 6. O-O Be7 7. d4 exd4 8.
+Nxd4 Nxd4 9. Qxd4 Nf6 10. Qa4+ c6 11. Rd1 Qb6 12. Be3 Bc5 13. Bxc5 Qxc5 14. Nc3
+O-O 15. Rd2 Bf5 16. Rad1 Rfe8 17. h3 h6 18. Qf4 Qe5 19. Qb4 Qe7 20. Qf4 Qe5 21.
+Qxe5 Rxe5 22. e4 Be6 23. f4 Ra5 24. a4 Bb3 25. Rd8+ Rxd8 26. Rxd8+ Kh7 27. e5
+Nd5 28. Be4+ g6 29. Bxd5 Bxd5 30. Rd7 Kg8 31. b4 Ra6 32. Rxb7 Kf8 33. a5 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.16"]
+[White "Hausner, Ivan"]
+[Black "Sikorova, Olga"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "WGM"]
+[WhiteElo "2370"]
+[BlackElo "2288"]
+[ECO "D55"]
+[Opening "QGD"]
+[Variation "6.Nf3"]
+[WhiteFideId "300110"]
+[BlackFideId "307033"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Be7 5. Nf3 O-O 6. e3 b6 7. cxd5 exd5 8. Qc2
+c5 9. Bd3 Nbd7 10. Ne5 Bb7 11. Nxd7 Qxd7 12. Bxf6 Bxf6 13. Bxh7+ Kh8 14. Bf5 Qd6
+15. O-O cxd4 16. exd4 g6 17. Bh3 Kg7 18. Rad1 Ba6 19. Rfe1 Rh8 20. Qb3 Bc4 21.
+Qa4 Rh4 22. Qd7 Qxd7 23. Bxd7 Rxd4 24. Bc6 Rxd1 25. Rxd1 Rc8 26. Bxd5 Bxd5 27.
+Rxd5 Bxc3 28. bxc3 Rxc3 29. g3 Ra3 30. Rd2 g5 31. Kg2 f5 32. Kf1 Kf6 33. Re2 b5
+34. Ke1 g4 35. Kf1 a5 36. Kg2 b4 37. h4 gxh3+ 38. Kxh3 a4 39. f4 Rc3 40. Re5 Rc2
+41. Rb5 Rxa2 42. Rxb4 Ra3 43. Rb6+ Ke7 44. Ra6 Kf7 45. Kh4 Ke7 46. g4 fxg4 47.
+Kxg4 Ra1 48. Kf5 a3 49. Re6+ Kf7 50. Re3 Ra2 51. Rb3 Ke7 52. Rb7+ Kd6 53. Ra7
+Kc5 54. Ke4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.17"]
+[White "Sobek, Jaroslav"]
+[Black "Dobrovolsky, Ladislav"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2327"]
+[BlackElo "2334"]
+[ECO "D15"]
+[Opening "QGD Slav"]
+[Variation "Schlechter variation"]
+[WhiteFideId "301388"]
+[BlackFideId "300250"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 g6 5. Bf4 Bg7 6. e3 O-O 7. Be2 dxc4 8. Bxc4
+Nbd7 9. h3 Nb6 10. Bb3 Nbd5 11. Bh2 Nxc3 12. bxc3 Qa5 13. Rc1 b6 14. Ne5 Bb7 15.
+O-O c5 16. Qc2 Rac8 17. Qb2 c4 18. Bd1 Rfd8 19. Be2 Qa4 20. Rb1 Ne4 21. Rfc1 f6
+22. Nf3 Rd5 23. Qb4 Qxb4 24. Rxb4 b5 25. a4 a6 26. Ne1 Bc6 27. axb5 axb5 28. Bf3
+f5 29. Bxe4 fxe4 30. Ra1 e5 31. Nc2 exd4 32. exd4 Rd7 33. Rbb1 Bh6 34. Ne3 Bxe3
+35. fxe3 Kf7 36. Rb2 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.18"]
+[White "Olsarova, Tereza"]
+[Black "Voloshin, Leonid"]
+[Result "1/2-1/2"]
+[WhiteTitle "WIM"]
+[BlackTitle "GM"]
+[WhiteElo "2260"]
+[BlackElo "2391"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "325449"]
+[BlackFideId "311111"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.
+Rxe5 O-O 9. d4 Bf6 10. Re1 Re8 11. Rxe8+ Nxe8 12. Bf4 d5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.19"]
+[White "Kulovana, Eva"]
+[Black "Studnicka, Tomas"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "FM"]
+[WhiteElo "2250"]
+[BlackElo "2374"]
+[ECO "C68"]
+[Opening "Ruy Lopez"]
+[Variation "exchange variation"]
+[WhiteFideId "318779"]
+[BlackFideId "318949"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 Nf6
+8. f3 c5 9. Ne2 Bd7 10. Nbc3 Bc6 11. Bg5 Be7 12. Rd1 Rd8 13. O-O h6 14. Bf4 Rd7
+15. Ng3 g6 16. Be5 Rg8 17. Nge2 Kd8 18. Nf4 Kc8 19. Rxd7 Kxd7 20. Rd1+ Kc8 21.
+Nfd5 Nxd5 22. Nxd5 Bd8 23. Bxc7 Bxd5 24. Bxd8 Bxe4 25. Bb6 Bxc2 26. Rc1 Ba4 27.
+Rxc5+ Bc6 28. Re5 Bd7 29. Re7 Be6 30. a4 g5 31. Kf2 Kb8 32. Bc7+ Kc8 33. a5 h5
+34. g3 Rg6 35. Bb6 Rf6 36. Ke3 g4 37. f4 Rf5 38. Rc7+ Kb8 39. Rc5 Rxc5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.20"]
+[White "Bartos, Jan"]
+[Black "Lechtynsky, Jiri"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2232"]
+[BlackElo "2365"]
+[ECO "E11"]
+[Opening "Bogo-Indian defence, Nimzovich variation"]
+[WhiteFideId "315060"]
+[BlackFideId "300217"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 Nc6 6. Nc3 Bxc3 7. Bxc3 Ne4 8.
+Rc1 d6 9. d5 Nxc3 10. Rxc3 Nd8 11. dxe6 Nxe6 12. Bg2 O-O 13. O-O 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.21"]
+[White "Michenka, Jozef"]
+[Black "Szotkowski, Jakub"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[WhiteElo "2353"]
+[BlackElo "2161"]
+[ECO "A58"]
+[Opening "Benko gambit accepted"]
+[WhiteFideId "301175"]
+[BlackFideId "330590"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bxa6 7. Nf3 d6 8. e4
+Bxf1 9. Kxf1 Bg7 10. g3 Nbd7 11. Kg2 O-O 12. Re1 Qa5 13. Qc2 Rfb8 14. Bd2 Ng4
+15. Re2 Qa6 16. Bf4 Rxb2 17. Qxb2 Bxc3 18. Qxc3 Qxe2 19. Be3 Rxa2 20. Rxa2 Qxa2
+21. Nd2 Nxe3+ 22. Qxe3 Ne5 23. Qc3 f5 24. f3 fxe4 25. fxe4 Nc4 26. Qxc4 Qxd2+
+27. Kh3 Qd4 28. Qe2 Kg7 29. Qg4 h5 30. Qe6 Qf6 31. Qc8 Qf1+ 32. Kh4 Qe2 33. h3
+Qxe4+ 34. g4 Qe1+ 35. Kg5 Qe5+ 36. Kh4 Qf6+ 37. Kg3 h4+ 38. Kg2 Qe5 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.22"]
+[White "Sikora, Jan"]
+[Black "Svoboda, Svatopluk"]
+[Result "1/2-1/2"]
+[BlackTitle "FM"]
+[WhiteElo "2188"]
+[BlackElo "2334"]
+[ECO "B91"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Zagreb (fianchetto) variation"]
+[WhiteFideId "305405"]
+[BlackFideId "14903563"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nc3 d6 3. Nf3 Nf6 4. d4 cxd4 5. Nxd4 a6 6. g3 e5 7. Nde2 Be7 8. Bg2
+Be6 9. O-O Nbd7 10. h3 h5 11. Nd5 Nxd5 12. exd5 Bf5 13. Nc3 Rc8 14. Be3 Qa5 15.
+Qe2 Qb4 16. Rab1 Qc4 17. Qxc4 Rxc4 18. Rfc1 O-O 19. Bf1 Rc7 20. Kg2 b5 21. Bd3
+Bxd3 22. cxd3 f5 23. a4 bxa4 24. Nxa4 Rfc8 25. Kf3 Nf6 26. Rxc7 Rxc7 27. Nc3 Rb7
+28. Bc1 a5 29. Ra1 Bd8 30. Ra2 Nd7 31. Be3 Rb4 32. Nd1 g5 33. Ke2 Kf7 34. Bd2
+Rb5 35. Nc3 Rb7 36. Nd1 Rb5 37. Nc3 Rc5 38. Be3 Rc8 39. Nb5 Be7 40. Na7 Ra8 41.
+Rxa5 f4 42. gxf4 gxf4 43. Bd2 Nf6 44. Nc6 Rxa5 45. Bxa5 Nxd5 46. Kf3 Bh4 47. d4
+Ke6 48. dxe5 dxe5 49. Bc3 Nxc3 50. bxc3 Kf5 51. Ke2 Bf6 52. f3 e4 53. c4 e3 54.
+Nb4 Be7 55. Nd3 Bd6 56. c5 Bc7 57. Nb4 Ke6 58. Kd3 Ke5 59. Nc2 Kf5 60. Nd4+ Ke5
+61. Nc2 Kd5 62. Nxe3+ fxe3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.23"]
+[White "Svatos, Jan"]
+[Black "Lys, Josef"]
+[Result "1-0"]
+[BlackTitle "FM"]
+[WhiteElo "2306"]
+[BlackElo "2206"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "advance variation"]
+[WhiteFideId "304174"]
+[BlackFideId "302244"]
+[EventDate "2014.04.26"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3 e6 5. h4 h5 6. Bd3 Bxd3 7. Qxd3 b5 8. Bg5 Qb6
+9. Nh3 a5 10. O-O Ne7 11. Ne2 Nf5 12. c3 Be7 13. Ng3 Nxh4 14. Bxe7 Kxe7 15. Qe3
+Ng6 16. f4 Nd7 17. Rae1 Rag8 18. f5 Ngf8 19. Ng5 h4 20. fxe6 fxe6 21. Nf7 hxg3
+22. Qg5+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.24"]
+[White "Olsarova, Karolina"]
+[Black "Sindler, Michal"]
+[Result "1-0"]
+[WhiteTitle "WIM"]
+[WhiteElo "2279"]
+[BlackElo "2157"]
+[ECO "B51"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky (Nimzovich-Rossolimo, Moscow) attack"]
+[WhiteFideId "320242"]
+[BlackFideId "325287"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 Nf6 5. O-O cxd4 6. Qxd4 e5 7. Qd3 h6 8. c4
+Be7 9. Nc3 a6 10. Bxd7+ Bxd7 11. b3 O-O 12. a4 Qc7 13. Ba3 Be6 14. Rfd1 Rfd8 15.
+h3 Rac8 16. Nh2 b6 17. Nf1 Qb7 18. f3 Bf8 19. Ne3 Rb8 20. Kh2 Bd7 21. Qe2 Bc6
+22. Nf5 Ne8 23. Nd5 Bxd5 24. Rxd5 g6 25. Ne3 Nc7 26. Rd2 b5 27. cxb5 axb5 28. a5
+b4 29. Bb2 Na6 30. Qd1 Qc7 31. Nd5 Qa7 32. f4 Nc5 33. Nf6+ Kg7 34. fxe5 dxe5 35.
+Rxd8 Kxf6 36. Qd5 Qc7 37. Rf1+ Kg5 38. Rxb8 Qxb8 39. Bxe5 Qe8 40. Bf6# 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.03"]
+[Round "8.25"]
+[White "Obsivac, Josef"]
+[Black "Zidek, Vaclav"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[WhiteElo "2299"]
+[BlackElo "2135"]
+[ECO "E18"]
+[Opening "Queen's Indian"]
+[Variation "old main line, 7.Nc3"]
+[WhiteFideId "303690"]
+[BlackFideId "322644"]
+[EventDate "2014.04.26"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. d4 Ne4 8. Bd2
+f5 9. Rc1 Bf6 10. Be1 d6 11. d5 Nxc3 12. Bxc3 Bxc3 13. Rxc3 e5 14. b4 a5 15. a3
+axb4 16. axb4 Nd7 17. Qd2 h6 18. Qc2 Qf6 19. e4 fxe4 20. Nd2 Qe7 21. Nxe4 Nf6
+22. Rc1 Nxe4 23. Bxe4 Qd7 24. Qe2 Qa4 25. Rb1 Qa2 26. Rb2 Qa1+ 27. Kg2 Ra4 28.
+Rcc2 Qa3 29. Qd2 Bc8 30. Rc3 Qa1 31. Rc1 Qa3 32. Rc3 Qa1 33. Bb1 Bf5 34. Bxf5
+Rxf5 35. Qc2 Rf8 36. c5 bxc5 37. bxc5 Qe1 38. Re3 Qa5 39. Rf3 Rxf3 40. Kxf3 Qa8
+41. c6 Qf8+ 42. Kg2 Ra8 43. Qg6 Qf7 44. Qxf7+ Kxf7 45. Rb7 Rc8 46. h4 Kg6 47.
+Kf3 Rf8+ 48. Ke3 Rf7 49. f3 h5 50. Ke4 Kf6 51. Rb8 Kg6 52. Rh8 Rf6 53. Re8 Rf7
+54. Rh8 Rf6 55. f4 exf4 56. gxf4 Rf7 57. Re8 Kf6 58. Re6# 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.1"]
+[White "Navara, David"]
+[Black "Babula, Vlastimil"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2706"]
+[BlackElo "2553"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "309095"]
+[BlackFideId "301264"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. Bxc6 bxc6 5. d3 Ne7 6. Qe2 d6 7. e5 Nf5 8. c3
+d5 9. Nbd2 a5 10. g4 Ne7 11. h4 h5 12. gxh5 Rxh5 13. Nf1 Nf5 14. Ng3 Rh8 15. Bg5
+Qb6 16. O-O Rb8 17. Rab1 Qc7 18. Kg2 Be7 19. Rh1 Ba6 20. Nxf5 exf5 21. Qe3 Bc8
+22. d4 c4 23. b3 Be6 24. h5 Bf8 25. Ng1 cxb3 26. axb3 a4 27. b4 c5 28. Ne2 cxb4
+29. cxb4 Bxb4 30. Nf4 Kd7 31. Qf3 Qc4 32. Nd3 Ba3 33. Qd1 Rxb1 34. Qxb1 Qb3 35.
+Qa1 Qxd3 36. Rh3 Qe4+ 37. Kh2 Qe2 38. Qxa3 Qxf2+ 39. Kh1 Qf1+ 40. Kh2 Qf2+ 41.
+Kh1 Qf1+ 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.2"]
+[White "Petr, Martin"]
+[Black "Oral, Tomas"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2529"]
+[BlackElo "2515"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack (Barcza system)"]
+[WhiteFideId "318299"]
+[BlackFideId "303739"]
+[EventDate "2014.04.26"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 Bg4 4. O-O Nbd7 5. c4 c6 6. cxd5 cxd5 7. d4 e6 8. Nc3
+Be7 9. Ne5 Bf5 10. Qb3 Qb6 11. Qxb6 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.3"]
+[White "Hracek, Zbynek"]
+[Black "Cvek, Robert"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2633"]
+[BlackElo "2519"]
+[ECO "C03"]
+[Opening "French"]
+[Variation "Tarrasch"]
+[WhiteFideId "300071"]
+[BlackFideId "307424"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Be7 4. Ngf3 Nf6 5. e5 Nfd7 6. Bd3 c5 7. c3 b6 8. O-O
+Ba6 9. Ne1 h5 10. Bxa6 Nxa6 11. Nd3 b5 12. Nf4 g6 13. g3 Qb6 14. Nf3 cxd4 15.
+cxd4 Nb4 16. Nh3 Nc6 17. Bg5 Rc8 18. Rc1 Bxg5 19. Nhxg5 O-O 20. h3 Ne7 21. Qd2
+Nf5 22. Kg2 Qb7 23. g4 Ng7 24. Rxc8 Rxc8 25. Rc1 Rxc1 26. Qxc1 hxg4 27. hxg4 Ne8
+28. Qc3 b4 29. Qc2 a6 30. Qa4 Qb5 31. Qxb5 axb5 32. b3 Nb8 33. Ne1 Nc6 34. Nc2
+Nc7 35. Kf3 Kg7 36. Kf4 Na6 37. Nf3 Kh6 38. Ng5 Kg7 39. Nf3 Kh6 40. Nfe1 g5+ 41.
+Ke3 Kg6 42. f4 gxf4+ 43. Kxf4 Kh6 44. Kg3 Ne7 45. Nd3 Nc6 46. Kh4 Kg6 47. Nf4+
+Kh6 48. g5+ Kg7 49. g6 Ne7 50. gxf7 Kxf7 51. Kg4 Nc6 52. Kh5 Ne7 53. Kg5 Nc6 54.
+Kh6 Ne7 55. Kg5 Nc6 56. Nd3 Kg7 57. Kh5 Kh7 58. Nf4 Nc7 59. Ng6 Kg7 60. Kg5 Na6
+61. Nf4 Nc7 62. Nd3 Na6 63. Nde1 Ne7 64. Ne3 Nb8 65. Nf3 Nbc6 66. Kh5 Ng6 67.
+Ng2 Nge7 68. Ngh4 Ng8 69. Ng6 Nh6 70. Nf4 Nf5 71. Nxe6+ Kf7 72. Nfg5+ Ke7 73.
+Nf4 Nfxd4 74. Nxd5+ Kd7 75. Nf6+ Ke7 76. Nd5+ Kd7 77. Nf6+ Ke7 78. Nd5+ 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.4"]
+[White "Zilka, Stepan"]
+[Black "Biolek, Richard Jr."]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2541"]
+[BlackElo "2418"]
+[ECO "E98"]
+[Opening "King's Indian"]
+[Variation "orthodox, Aronin-Taimanov, 9.Ne1"]
+[WhiteFideId "315303"]
+[BlackFideId "319996"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7
+9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. Rc1 Ng6 14. Nd3 Nf6 15. c5 Rf7
+16. Qb3 Bf8 17. cxd6 cxd6 18. Nb5 g4 19. Nxa7 Bd7 20. Bb6 Qe7 21. Rc7 Nh4 22.
+Ne1 Rg7 23. fxg4 Nxe4 24. Bb5 Nf6 25. Qh3 Ng6 26. Rxb7 Qe8 27. Bc6 Ne7 28. Bxd7
+Nxd7 29. Bf2 Nf6 30. g5 Ne4 31. Nf3 Nxd5 32. Rxg7+ Bxg7 33. Rc1 Nxf2 34. Kxf2 e4
+35. Qf5 Nb4 36. Rc7 exf3 37. Kxf3 Qh5+ 38. Qg4 Qxg4+ 39. Kxg4 Bxb2 40. Rb7 Be5
+41. Rxb4 Rxa7 42. a4 Kg7 43. Kh5 Kf7 44. a5 Ke6 45. Ra4 Kf5 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.5"]
+[White "Stocek, Jiri"]
+[Black "Vokac, Marek"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2540"]
+[BlackElo "2422"]
+[ECO "E60"]
+[Opening "King's Indian, 3.Nf3"]
+[WhiteFideId "304760"]
+[BlackFideId "300101"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. h3 e5 7. d5 Na6 8. Be3 c6
+9. a3 cxd5 10. cxd5 Bd7 11. Nd2 Qb8 12. Rc1 Rc8 13. Be2 Rc7 14. O-O Qf8 15. Nb3
+Bh6 16. Qd2 Bxe3 17. Qxe3 Nc5 18. Nd2 Rac8 19. Rce1 Ne8 20. f4 Qh6 21. Rf3 f6
+22. Ref1 exf4 23. Rxf4 a6 24. Qd4 b5 25. R4f2 Qg7 26. Qe3 Qe7 27. Rf4 f5 28. Qg3
+Ng7 29. exf5 Bxf5 30. Qf2 Re8 31. Rf3 h5 32. Rf4 Qe3 33. Qxe3 Rxe3 34. g4 hxg4
+35. hxg4 Bd3 36. Rf8+ Kh7 37. Kf2 Rce7 38. Rh1+ Nh5 39. Rf7+ Rxf7+ 40. Kxe3 Re7+
+41. Kf3 Rf7+ 42. Kg2 Bxe2 43. Nxe2 Nd3 44. Ne4 Re7 45. N2g3 Nxb2 46. gxh5 Nc4
+47. Nf6+ Kg7 48. h6+ Kxf6 49. h7 Rxh7 50. Rxh7 Ke5 51. Kf3 Kxd5 52. Ne4 Kd4 53.
+Rh4 Kd3 54. Kf4 Kc2 55. Rh3 Kb2 56. Rd3 Kc2 57. Rg3 d5 58. Nc5 a5 59. a4 bxa4
+60. Nxa4 g5+ 61. Rxg5 d4 62. Ke4 d3 63. Rc5 d2 64. Rxc4+ Kb3 65. Rd4 Kc2 66. Nb2
+Kxb2 67. Rxd2+ Kb3 68. Rd3+ Kb2 69. Rd4 Kb3 70. Kd3 a4 71. Rd8 a3 72. Rb8+ Ka2
+73. Kc2 Ka1 74. Rh8 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.6"]
+[White "Kanovsky, David"]
+[Black "Rausis, Igors"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2416"]
+[BlackElo "2578"]
+[ECO "C53"]
+[Opening "Giuoco Piano"]
+[WhiteFideId "316210"]
+[BlackFideId "11600098"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. Nbd2 d6 7. a4 a5 8. O-O
+Bg4 9. h3 Be6 10. Qb3 Qd7 11. Ng5 Bxc4 12. Nxc4 b6 13. Be3 Bxe3 14. Nxe3 h6 15.
+Nf3 Ne7 16. Rad1 Ng6 17. Kh2 Nf4 18. Ng1 Ne6 19. Qc2 Nc5 20. f4 Qxa4 21. Qe2 Qe8
+22. Kh1 exf4 23. Rxf4 Qe5 24. Rh4 Rfe8 25. Nf3 Qg3 26. Nf5 Qg6 27. N3d4 a4 28.
+Qf3 d5 29. exd5 a3 30. bxa3 Rxa3 31. d6 cxd6 32. Nxd6 Re7 33. N4f5 Re6 34. d4
+Ncd7 35. Nc4 Ra2 36. Nce3 b5 37. Rf1 Qg5 38. Ng4 Ree2 39. Nfxh6+ gxh6 40. Rxh6
+Rxg2 41. Rxf6 Nxf6 42. Nxf6+ Kh8 43. Ng4 Rge2 44. Rg1 Qh5 45. Rf1 f5 46. c4 bxc4
+47. d5 Qg5 48. Rb1 Rac2 49. Rb8+ Kg7 50. Rb7+ Kg6 51. Rb6+ Kf7 52. Nh6+ Ke8 53.
+Rb8+ Kd7 54. Rb7+ Kc8 55. d6 Rh2# 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.7"]
+[White "Krejci, Jan2"]
+[Black "Dolezal, Radoslav1"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2518"]
+[BlackElo "2344"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "322156"]
+[BlackFideId "304735"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 Bxc3+ 6. bxc3 d6 7. Bd3 e5 8. Ne2
+c5 9. O-O Nc6 10. d5 Na5 11. Ng3 Re8 12. f4 exf4 13. Bxf4 Ng4 14. Be2 Ne5 15.
+Qc1 f6 16. Nh5 Re7 17. h3 Bd7 18. g4 Be8 19. Ng3 Bg6 20. g5 Naxc4 21. gxf6 gxf6
+22. Bh6 b5 23. a4 bxa4 24. h4 Rb7 25. Rxa4 Nb2 26. Ra2 Rab8 27. h5 c4 28. hxg6
+hxg6 29. Qe3 a5 30. Bf4 Nbd3 31. Bxd3 Nxd3 32. Rg2 Rb2 33. Ne2 Nxf4 34. Qxf4 Kg7
+35. Rh2 Qf8 36. Nd4 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.8"]
+[White "Kociscak, Jiri"]
+[Black "Simacek, Pavel"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2434"]
+[BlackElo "2469"]
+[ECO "A61"]
+[Opening "Benoni"]
+[Variation "Nimzovich (knight's tour) variation"]
+[WhiteFideId "322121"]
+[BlackFideId "307165"]
+[EventDate "2014.04.26"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. Nd2 Nbd7 8. e4
+Bg7 9. Be2 O-O 10. O-O Re8 11. Re1 Ne5 12. a4 Nfg4 13. Nf1 f5 14. f3 Nh6 15. Ng3
+Qh4 16. exf5 Nxf5 17. Nce4 Ng4 18. fxg4 Rxe4 19. Nxe4 Bd4+ 20. Kh1 Be5 21. h3
+Ng3+ 22. Nxg3 Qxg3 23. Kg1 Bd4+ 24. Kh1 Be5 25. Kg1 Bd4+ 26. Kh1 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.9"]
+[White "Kuba, Jindrich"]
+[Black "Plat, Vojtech"]
+[Result "1-0"]
+[BlackTitle "IM"]
+[WhiteElo "2239"]
+[BlackElo "2456"]
+[ECO "B46"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "318248"]
+[BlackFideId "325740"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 a6 6. g3 Nf6 7. Bg2 Qc7 8. O-O
+Be7 9. Be3 d6 10. a4 Bd7 11. f4 O-O 12. Nb3 Na5 13. Nxa5 Qxa5 14. Qd2 Kh8 15. b4
+Qc7 16. a5 Rac8 17. Ra3 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.10"]
+[White "Rasik, Vitezslav"]
+[Black "Zwardon, Vojtech"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2456"]
+[BlackElo "2391"]
+[ECO "B31"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (with ...g6, without ...d6)"]
+[WhiteFideId "300306"]
+[BlackFideId "325511"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. d3 Bg7 6. h3 Nf6 7. Nc3 O-O 8. Be3
+b6 9. Qd2 e5 10. Bh6 Qd6 11. Bxg7 Kxg7 12. Qe3 Re8 13. Ne2 a5 14. Nd2 a4 15. O-O
+b5 16. a3 Rb8 17. Rae1 Rb7 18. f4 exf4 19. Nxf4 Nd5 20. Nxd5 cxd5 21. e5 Qe7 22.
+Nf3 b4 23. Ng5 Rf8 24. Rf6 h6 25. Nf3 bxa3 26. bxa3 Rb2 27. Rf1 Rxc2 28. Nh4 Rg8
+29. Rxf7+ Qxf7 30. Rxf7+ Kxf7 31. Qxh6 c4 32. dxc4 dxc4 33. Qg5 Rb2 34. Qf6+ Ke8
+35. Nxg6 Rb7 36. Qc6+ Kf7 37. Qf6+ Ke8 38. Qc6+ Kf7 39. Nf4 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.11"]
+[White "Kriebel, Tadeas"]
+[Black "Jansa, Vlastimil"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2366"]
+[BlackElo "2455"]
+[ECO "B46"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "330027"]
+[BlackFideId "300128"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 a6 6. Be3 Nf6 7. f4 Bb4 8. Bd3
+d6 9. Nxc6 bxc6 10. O-O Bxc3 11. bxc3 Qc7 12. c4 c5 13. e5 dxe5 14. fxe5 Qxe5
+15. Bf4 Qd4+ 16. Kh1 Bb7 17. Qe2 Ne4 18. Be3 Qe5 19. Bf4 Qd4 20. Be3 Qe5 21. Bf4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.12"]
+[White "Haba, Petr"]
+[Black "Olsarova, Karolina"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "WIM"]
+[WhiteElo "2498"]
+[BlackElo "2279"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "300160"]
+[BlackFideId "320242"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8.
+Qxd8+ Kxd8 9. Rd1+ Ke8 10. Nc3 h6 11. h3 Be6 12. g4 Ne7 13. Nd4 Rd8 14. Nxe6
+Rxd1+ 15. Nxd1 fxe6 16. f4 Nd5 17. Kg2 Bc5 18. a3 b5 19. Nf2 Be3 20. Bxe3 Nxe3+
+21. Kf3 Nxc2 22. Rc1 Nd4+ 23. Ke3 Nb3 24. Rxc6 Kd7 25. Rc3 Na5 26. Nd3 Nc4+ 27.
+Kd4 Rf8 28. a4 c6 29. axb5 cxb5 30. Kc5 a6 31. Kd4 g6 32. Rc1 a5 33. b3 Na3 34.
+Ke4 Ra8 35. Nc5+ Ke7 36. Nb7 Kd7 37. Nc5+ Ke7 38. Nb7 Kd7 39. f5 gxf5+ 40. gxf5
+exf5+ 41. Kd5 a4 42. e6+ Ke8 43. Nd6+ Kf8 44. Ke5 axb3 45. Kf6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.13"]
+[White "Adamek, Jiri"]
+[Black "Kislinsky, Alexey"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2301"]
+[BlackElo "2483"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "315702"]
+[BlackFideId "14108801"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. O-O Bd7 5. c3 Nf6 6. Re1 a6 7. Ba4 b5 8. Bc2 e5
+9. h3 Be7 10. d4 Qc7 11. d5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.14"]
+[White "Kraus, Tomas"]
+[Black "Blatny, Pavel"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2326"]
+[BlackElo "2418"]
+[ECO "B15"]
+[Opening "Caro-Kann"]
+[Variation "Gurgenidze system"]
+[WhiteFideId "331708"]
+[BlackFideId "300047"]
+[EventDate "2014.04.26"]
+
+1. e4 g6 2. d4 c6 3. Nc3 d5 4. h3 Bg7 5. Nf3 Nf6 6. e5 Nfd7 7. Be3 b6 8. Qd2 h6
+9. Be2 Ba6 10. Bxa6 Nxa6 11. e6 Nf8 12. exf7+ Kxf7 13. O-O 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.15"]
+[White "Szotkowski, Jakub"]
+[Black "Hausner, Ivan"]
+[Result "1-0"]
+[BlackTitle "IM"]
+[WhiteElo "2161"]
+[BlackElo "2370"]
+[ECO "A41"]
+[Opening "Old Indian"]
+[Variation "Tartakower (Wade) variation"]
+[WhiteFideId "330590"]
+[BlackFideId "300110"]
+[EventDate "2014.04.26"]
+
+1. Nf3 d6 2. d4 Bg4 3. Nbd2 Nd7 4. h3 Bh5 5. b3 e6 6. Bb2 d5 7. e3 Ngf6 8. Bd3
+Bd6 9. O-O O-O 10. c4 c6 11. Qc2 Bg6 12. Bxg6 hxg6 13. Ne5 Rc8 14. Nxd7 Qxd7 15.
+e4 dxe4 16. Nxe4 Nxe4 17. Qxe4 Be7 18. Rad1 Bf6 19. Rd3 Rfd8 20. Rfd1 b5 21. Ba3
+bxc4 22. bxc4 Qb7 23. Qe2 Qa6 24. Qc2 Rc7 25. Bc5 Qc8 26. Ra3 Rdd7 27. Rdd3 Qd8
+28. Qd1 Rb7 29. Ra6 Qb8 30. Rxc6 Bxd4 31. Bxd4 Rb1 32. Rc8+ Qxc8 33. Qxb1 Qxc4
+34. Qb8+ Kh7 35. Bxg7 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.16"]
+[White "Dobrovolsky, Ladislav"]
+[Black "Svatos, Jan"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2334"]
+[BlackElo "2306"]
+[ECO "A05"]
+[Opening "Reti opening"]
+[WhiteFideId "300250"]
+[BlackFideId "304174"]
+[EventDate "2014.04.26"]
+
+1. Nf3 Nf6 2. b3 d5 3. Bb2 Bf5 4. c4 e6 5. g3 Be7 6. Bg2 h6 7. O-O O-O 8. d4 c6
+9. Nc3 Ne4 10. Nd2 Nxc3 11. Bxc3 Nd7 12. e4 dxe4 13. Nxe4 Nf6 14. Qe2 Nxe4 15.
+Bxe4 Bxe4 16. Qxe4 Bf6 17. Rad1 Qd6 18. Rd2 Rad8 19. Rfd1 Rd7 20. a4 Rfd8 21.
+Qc2 h5 22. Rd3 h4 23. Rf3 b5 24. gxh4 bxc4 25. bxc4 e5 26. Ba5 Re8 27. Qe4 Rc8
+28. d5 cxd5 29. Rxd5 Qe7 30. Qg4 Rdc7 31. Bxc7 Rxc7 32. Rb3 g6 33. h5 Qe8 34.
+hxg6 fxg6 35. Rdb5 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.17"]
+[White "Sikorova, Olga"]
+[Black "Sobek, Jaroslav"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "FM"]
+[WhiteElo "2288"]
+[BlackElo "2327"]
+[ECO "E90"]
+[Opening "King's Indian"]
+[Variation "5.Nf3"]
+[WhiteFideId "307033"]
+[BlackFideId "301388"]
+[EventDate "2014.04.26"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. d4 d6 5. e4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.18"]
+[White "Marek, Matyas"]
+[Black "Konopka, Michal"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2110"]
+[BlackElo "2408"]
+[ECO "B04"]
+[Opening "Alekhine's defence"]
+[Variation "modern, Schmid variation"]
+[WhiteFideId "335398"]
+[BlackFideId "308633"]
+[EventDate "2014.04.26"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Nb6 5. a4 a5 6. exd6 exd6 7. Bd3 Be7 8. O-O
+Bg4 9. Re1 O-O 10. Nbd2 Nc6 11. c3 Qd7 12. Nf1 Rae8 13. Ng3 Bh4 14. Rf1 Bxg3 15.
+fxg3 Bf5 16. Ne5 dxe5 17. Bxf5 Qd5 18. dxe5 Nxe5 19. Qc2 h6 20. b3 Rd8 21. Ba3
+Rfe8 22. Rad1 Qc6 23. Be4 Nd5 24. c4 Qb6+ 25. c5 Qe6 26. Rde1 Qa6 27. Bb2 Nb4
+28. Qf2 f6 29. Qf5 Nbd3 30. Bxe5 Nxe5 31. Qh7+ Kf7 32. Bb1 Rh8 33. Qf5 Rhe8 34.
+Qh7 Rd2 35. Rxe5 Rxe5 36. Bg6+ Ke6 37. Bf5+ Rxf5 38. Qxf5+ Kf7 39. Qe4 Qc6 40.
+Qc4+ Qd5 41. Qxd5+ Rxd5 42. Rc1 Ke6 43. Rc4 Rd3 44. b4 Kd5 45. Rg4 g5 46. bxa5
+Rb3 47. a6 bxa6 48. a5 Rb5 49. Ra4 Kxc5 50. Kf2 Rb4 51. Ra3 Rb2+ 52. Kf1 Kb4 53.
+Rf3 Kxa5 54. Rxf6 Rb6 55. Rf7 c5 56. Ke1 Rd6 57. h4 c4 58. Rc7 Kb4 59. Rb7+ Ka4
+60. Rc7 Kb3 61. Rb7+ Kc2 62. Rc7 c3 63. Rc8 Re6+ 64. Kf2 g4 65. Rc7 Kd2 66. Rd7+
+Kc1 67. Rc7 c2 0-1
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.19"]
+[White "Voloshin, Leonid"]
+[Black "Kulovana, Eva"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "WGM"]
+[WhiteElo "2391"]
+[BlackElo "2250"]
+[ECO "D12"]
+[Opening "QGD Slav"]
+[Variation "4.e3 Bf5"]
+[WhiteFideId "311111"]
+[BlackFideId "318779"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nf3 Bf5 5. Nc3 a6 6. a4 e6 7. Bd3 Bxd3 8. Qxd3
+Bb4 9. O-O O-O 10. Bd2 a5 11. Rfd1 Na6 12. Be1 Qe7 13. Na2 Bxe1 14. Rxe1 Nb4 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.20"]
+[White "Studnicka, Tomas"]
+[Black "Bartos, Jan"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "FM"]
+[WhiteElo "2374"]
+[BlackElo "2232"]
+[ECO "D77"]
+[Opening "Neo-Gruenfeld, 6.O-O"]
+[WhiteFideId "318949"]
+[BlackFideId "315060"]
+[EventDate "2014.04.26"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 g6 4. O-O Bg7 5. d4 O-O 6. c4 dxc4 7. Na3 c3 8. bxc3
+c5 9. e3 Nc6 10. Bb2 Nd5 11. Qe2 Nb6 12. Rad1 Qd5 13. c4 Qh5 14. d5 Ne5 15. Rd2
+Bg4 16. Bxe5 Bxe5 17. h3 Bxf3 18. Qxf3 Qxf3 19. Bxf3 Nc8 20. Bg2 f5 21. f4 Bf6
+22. Rb1 Nd6 23. Rc2 a6 24. Rb6 Ra7 25. g4 g5 26. Kh2 gxf4 27. exf4 fxg4 28. hxg4
+Bd4 29. Kg3 Be3 30. f5 Rf6 31. Rb3 Bg5 32. Re2 Kf8 33. Bf3 h6 34. Re6 Ke8 35.
+Be2 Kd7 36. Bd3 Ra8 37. Re2 Rb8 38. Rb1 Rf7 39. Reb2 Kc7 40. Kf3 Rf6 41. Nc2 Nc8
+42. Ne3 Rb6 43. d6+ Rxd6 44. Nd5+ Kd8 45. Rxb7 Rxb7 46. Rxb7 Rd7 47. Rb8 Rd6 48.
+Bc2 Bf6 49. Ba4 Be5 50. Rb7 Bf6 51. Kg3 Bg5 52. Kh3 Bf6 53. Kg3 Bg5 54. Bc2 Rd7
+55. Rb8 Bf6 56. Kf4 Rd6 57. a4 Bg5+ 58. Kf3 Bf6 59. a5 Be5 60. Rb7 Rd7 61. Rb1
+Bc7 62. Rh1 Nd6 63. Rxh6 Nf7 64. Rxa6 Ne5+ 65. Ke4 Rd6 66. Ra8+ Kd7 67. Ba4+ 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.21"]
+[White "Lechtynsky, Jiri"]
+[Black "Machycek, Lubomir"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[WhiteElo "2365"]
+[BlackElo "2210"]
+[ECO "D14"]
+[Opening "QGD Slav"]
+[Variation "exchange variation, 6.Bf4 Bf5"]
+[WhiteFideId "300217"]
+[BlackFideId "311049"]
+[EventDate "2014.04.26"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 Bf5 7. e3 e6 8. Qb3
+Qc8 9. Rc1 Be7 10. Bb5 O-O 11. O-O Nd7 12. Na4 a6 13. Bxc6 bxc6 14. Nb6 Nxb6 15.
+Qxb6 c5 16. dxc5 Bd3 17. Rfd1 Be2 18. Rd2 Bxf3 19. gxf3 Bd8 20. Qb4 Qc6 21. e4
+Bf6 22. exd5 exd5 23. Qb3 d4 24. Qd3 Rfe8 25. b3 Re6 26. Re2 Rae8 27. Rxe6 fxe6
+28. Qe4 Rc8 29. Qxc6 Rxc6 30. b4 e5 31. Bg3 Kf7 32. a4 d3 33. Kf1 a5 34. bxa5 d2
+35. Rd1 Rxc5 36. Rxd2 Rxa5 37. Ra2 g5 38. Ke2 Ke6 39. Kd3 Kd5 40. Kc3 Kc5 41.
+Kb3 Ra7 42. Rc2+ Kd5 43. Rd2+ Kc5 44. Re2 Rb7+ 45. Ka3 Kd5 46. a5 Be7+ 47. Ka2
+Bd6 48. h4 gxh4 49. Bxh4 Bc7 50. f4 Ra7 51. fxe5 Rxa5+ 52. Kb3 Bxe5 53. Bg3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.22"]
+[White "Svoboda, Svatopluk"]
+[Black "Kubik, Michael"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[WhiteElo "2334"]
+[BlackElo "2203"]
+[ECO "B19"]
+[Opening "Caro-Kann"]
+[Variation "classical, Spassky variation"]
+[WhiteFideId "14903563"]
+[BlackFideId "344320"]
+[EventDate "2014.04.26"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Nd7 7. h4 h6 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.23"]
+[White "Toman, Jaroslav"]
+[Black "Obsivac, Josef"]
+[Result "1-0"]
+[BlackTitle "FM"]
+[WhiteElo "2220"]
+[BlackElo "2299"]
+[ECO "C12"]
+[Opening "French"]
+[Variation "MacCutcheon, Lasker variation"]
+[WhiteFideId "317365"]
+[BlackFideId "303690"]
+[EventDate "2014.04.26"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4 5. e5 h6 6. Bd2 Bxc3 7. bxc3 Ne4 8. Qg4
+Kf8 9. Bd3 Nxd2 10. Kxd2 c5 11. h4 Nc6 12. Rh3 c4 13. Bf1 b5 14. a3 a5 15. Ne2
+h5 16. Qf3 Ke7 17. Nf4 g6 18. g4 hxg4 19. Qxg4 Rb8 20. h5 gxh5 21. Qg7 Kd7 22.
+Nxe6 Qg8 23. Qxg8 Rxg8 24. Nf4 Rh8 25. Nxd5 h4 26. Rf3 Ke8 27. Bh3 Be6 28. Ne3
+Rd8 29. Ke2 Ke7 30. Bxe6 fxe6 31. Rh3 Rh7 32. Rah1 Rdh8 33. f4 b4 34. axb4 axb4
+35. Nxc4 bxc3 36. Ke3 Nb4 37. R1h2 Rg8 38. Ke4 Rg1 39. Rxc3 Nd5 40. Ra3 Rh5 41.
+Ne3 Re1 42. c4 Nxe3 43. Rxe3 Rc1 44. c5 Rh8 45. f5 exf5+ 46. Kxf5 Rd1 47. Ke4
+Rd8 48. Rd3 Re1+ 49. Kf3 Rf8+ 50. Kg2 Rf4 51. Rh1 Re2+ 52. Kh3 Ke6 53. d5+ Kxe5
+54. d6 1-0
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.24"]
+[White "Sabol, Marian"]
+[Black "Sikora, Jan"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[WhiteElo "2295"]
+[BlackElo "2188"]
+[ECO "B84"]
+[Opening "Sicilian"]
+[Variation "Scheveningen (Paulsen), classical variation"]
+[WhiteFideId "308056"]
+[BlackFideId "305405"]
+[EventDate "2014.04.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. O-O Qc7 8. a4
+b6 9. f4 Bb7 10. Bf3 Nbd7 11. Qe2 Rc8 12. Kh1 Be7 13. Be3 O-O 14. Bg1 Nc5 15.
+Rfe1 Rfe8 16. Qf2 Qb8 17. Re3 Qa8 18. Rae1 Bf8 19. Qg3 Kh8 20. Qh4 Be7 21. Qh3
+Bf8 22. Qh4 Be7 23. Qh3 Bf8 24. g4 d5 1/2-1/2
+
+[Event "ch-CZE 2014"]
+[Site "Ostrava CZE"]
+[Date "2014.05.04"]
+[Round "9.25"]
+[White "Dobes, Vojtech"]
+[Black "Olsarova, Tereza"]
+[Result "1/2-1/2"]
+[BlackTitle "WIM"]
+[WhiteElo "2103"]
+[BlackElo "2260"]
+[ECO "C80"]
+[Opening "Ruy Lopez"]
+[Variation "open, Bernstein variation"]
+[WhiteFideId "333913"]
+[BlackFideId "325449"]
+[EventDate "2014.04.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. Nbd2 Nc5 10. c3 g6 11. Bc2 Bg7 12. Re1 O-O 13. Nb3 Nxb3 14. Bxb3 Qd7 15.
+Bf4 Na5 16. Bc2 c5 17. a4 Nc6 18. axb5 axb5 19. Qe2 Qb7 20. Be3 Nxe5 21. Bxc5
+Nxf3+ 22. Qxf3 Rfc8 23. Qe3 b4 24. Bxb4 d4 25. Qg3 Ra6 26. h3 Bd5 27. Rxa6 Qxa6
+28. cxd4 Bxd4 29. Bc3 Bxc3 30. bxc3 Qa3 31. Qd3 Be6 32. c4 Qa5 33. Qe3 Rxc4 34.
+Be4 Qe5 35. Bd3 Qxe3 36. Rxe3 Rc1+ 37. Kh2 Rc3 38. Be4 Rxe3 39. fxe3 Kg7 40. Kg3
+f5 41. Bc6 g5 42. h4 h6 43. hxg5 hxg5 44. Kf3 Kf6 45. e4 f4 46. g3 Ke5 47. gxf4+
+gxf4 48. Bd5 Bxd5 49. exd5 Kxd5 50. Kxf4 1/2-1/2
+

@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:convert';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
@@ -8,6 +9,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import '../../services/ai_native.dart';
 import '../../widgets/chess_board_widget.dart';
 import 'analysis_chart.dart';
+import 'manual_info.dart';
 import 'move_list.dart';
 import 'pgn_game.dart';
 import 'viewer_control_panel.dart';
@@ -20,23 +22,40 @@ class ViewerPage extends StatefulWidget {
   State<ViewerPage> createState() => _ViewerPageState();
 }
 
-// 3. 主类实现
 class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysisMixin, ViewerNavigationMixin {
   static const double kWideLayoutThreshold = 900;
 
   bool isLoading = false;
   final scrollController = ScrollController();
+  List<ManualInfo>? manuals;
 
   @override
   void initState() {
     super.initState();
     initStockfish();
     analysisCardController = ExpansionTileController();
+    _loadManualsList();
   }
 
   Future<void> initStockfish() async {
     await AiNative.instance.initialize();
     AiNative.instance.setSkillLevel(20);
+  }
+
+  Future<void> _loadManualsList() async {
+    try {
+      final String jsonString = await DefaultAssetBundle.of(context).loadString('assets/manuals.json');
+      final List<dynamic> jsonList = json.decode(jsonString) as List<dynamic>;
+      setState(() {
+        manuals = jsonList.map((json) => ManualInfo.fromJson(json as Map<String, dynamic>)).toList();
+      });
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('加载棋谱列表失败: $e')),
+        );
+      }
+    }
   }
 
   Future<void> _loadPgnFile() async {
@@ -140,15 +159,32 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
 
   Widget _buildContent() {
     if (games.isEmpty) {
-      return Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.folder_open, size: 64, color: Theme.of(context).colorScheme.primary.withAlpha(0x33)),
-            const SizedBox(height: 16),
-            Text('请点击右上角按钮加载PGN文件', style: TextStyle(color: Colors.grey[600])),
-          ],
-        ),
+      if (manuals == null) {
+        return const Center(child: CircularProgressIndicator());
+      }
+
+      return ListView.builder(
+        padding: const EdgeInsets.all(16),
+        itemCount: manuals!.length,
+        itemBuilder: (context, index) {
+          final manual = manuals![index];
+          return Card(
+            child: ListTile(
+              title: Text(
+                manual.event,
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+              subtitle: Text(
+                '${manual.count} 局棋谱',
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: Theme.of(context).textTheme.bodySmall?.color,
+                    ),
+              ),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => _loadPgnAsset(manual.file),
+            ),
+          );
+        },
       );
     }
 
@@ -255,6 +291,35 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
         );
       },
     );
+  }
+
+  Future<void> _loadPgnAsset(String filename) async {
+    try {
+      setState(() => isLoading = true);
+
+      final String content = await DefaultAssetBundle.of(context).loadString('assets/manuals/$filename');
+
+      setState(() {
+        games = PgnGame.parseMultipleGames(content);
+        if (games.isNotEmpty) {
+          currentGameIndex = 0;
+          currentGame = games[0].parseMoves();
+          currentMoveIndex = -1;
+          fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
+          currentFen = chess_lib.Chess.DEFAULT_POSITION;
+        }
+      });
+
+      chessboardController.setFen(currentFen);
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('加载文件失败: $e')),
+        );
+      }
+    } finally {
+      setState(() => isLoading = false);
+    }
   }
 
   @override

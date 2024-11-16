@@ -1,0 +1,81 @@
+[Event "Complete Chess m"]
+[Site "Maastricht NED"]
+[Date "2004.02.10"]
+[Round "1"]
+[White "Baramidze,D"]
+[Black "Stellwagen,D"]
+[Result "1-0"]
+[WhiteElo "2456"]
+[BlackElo "2489"]
+[EventDate "2004.02.10"]
+[ECO "B76"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8.
+Qd2 O-O 9. O-O-O Bd7 10. g4 Ne5 11. h4 Rc8 12. h5 Qa5 13. hxg6 fxg6 14. Kb1
+b5 15. Bxb5 Bxb5 16. Ncxb5 Qxd2 17. Bxd2 Rb8 18. Nc3 Nc4 19. b3 Nxg4 20.
+fxg4 Bxd4 21. Nd5 Nxd2+ 22. Rxd2 Bf6 23. Nxf6+ Rxf6 24. e5 Re6 25. exd6
+exd6 26. c4 Rb6 27. Kc2 Re4 28. Rg2 a5 29. Kd3 Re5 30. Rf2 a4 31. Rb1 axb3
+32. axb3 h5 33. gxh5 Rxh5 34. b4 Rh3+ 35. Ke4 Rh4+ 36. Rf4 Rxf4+ 37. Kxf4
+Kf7 38. Ke4 Ke6 39. b5 Rb8 40. Rh1 Rg8 41. Rh6 Kd7 42. Rh7+ Kc8 43. Kd5 g5
+44. b6 1-0
+
+[Event "Complete Chess m"]
+[Site "Maastricht NED"]
+[Date "2004.02.11"]
+[Round "2"]
+[White "Stellwagen,D"]
+[Black "Baramidze,D"]
+[Result "1-0"]
+[WhiteElo "2489"]
+[BlackElo "2456"]
+[EventDate "2004.02.10"]
+[ECO "B31"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 Nf6 6. Re1 O-O 7. h3 e5 8.
+d4 cxd4 9. cxd4 Nxd4 10. Nxd4 exd4 11. Qxd4 a6 12. Ba4 d5 13. e5 Ne4 14.
+Nd2 Qa5 15. Nf3 Be6 16. Bb3 Rac8 17. Bf4 Nc5 18. Bg5 Qb5 19. Re3 Nxb3 20.
+axb3 Bf5 21. Bf6 Bxf6 22. exf6 Rfe8 23. Ne5 Qc5 24. Qf4 d4 25. Ree1 Rcd8
+26. g4 Be6 27. Re4 Qf8 28. Rxd4 Rxd4 29. Qxd4 Bxb3 30. Re1 Be6 31. Rd1 Qh6
+32. Qd8 Rxd8 33. Rxd8+ Qf8 34. Rxf8+ Kxf8 35. f4 Ke8 36. Kf2 b6 37. Ke3 a5
+38. Kd4 Bb3 39. Kc3 Bd5 40. Kd4 Be6 41. Nc4 1-0
+
+[Event "Complete Chess m"]
+[Site "Maastricht NED"]
+[Date "2004.02.12"]
+[Round "3"]
+[White "Baramidze,D"]
+[Black "Stellwagen,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2456"]
+[BlackElo "2489"]
+[EventDate "2004.02.10"]
+[ECO "B49"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6
+8. Be3 Bb4 9. Na4 Be7 10. Nxc6 bxc6 11. Nb6 Rb8 12. Nxc8 Qxc8 13. Bd4 c5
+14. Be5 Rb6 15. Qd3 d6 16. Bc3 O-O 17. b3 d5 18. e5 Nd7 19. f4 c4 20. bxc4
+Rc6 21. Qh3 Nb6 22. Bd3 g6 23. Rf3 Re8 24. Rg3 Qc7 25. Bd4 Nxc4 26. c3 Nb2
+27. f5 Nxd3 28. fxg6 hxg6 29. Rxd3 Bc5 30. Bxc5 Rxc5 31. Rf1 Qxe5 32. Rxf7
+Kxf7 33. Qh7+ Kf6 34. Rf3+ Qf5 35. Qh4+ Kf7 1/2-1/2
+
+[Event "Complete Chess m"]
+[Site "Maastricht NED"]
+[Date "2004.02.13"]
+[Round "4"]
+[White "Stellwagen,D"]
+[Black "Baramidze,D"]
+[Result "1-0"]
+[WhiteElo "2489"]
+[BlackElo "2456"]
+[EventDate "2004.02.10"]
+[ECO "C42"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Bf4
+O-O 8. Qd2 Nd7 9. O-O-O Re8 10. Kb1 Nc5 11. Be3 c6 12. Nd4 d5 13. f3 Qb6
+14. h4 Bd6 15. Bf4 Qc7 16. Bxd6 Qxd6 17. g4 Ne6 18. Nxe6 Qxe6 19. Bd3 Qf6
+20. Rdf1 Bd7 21. g5 Qe5 22. f4 Qd6 23. f5 f6 24. gxf6 gxf6 25. c4 Kh8 26.
+cxd5 cxd5 27. Rhg1 Rg8 28. a3 Rxg1 29. Rxg1 Rg8 30. Rxg8+ Kxg8 31. Be4 Kg7
+32. h5 b6 33. h6+ Kf8 34. Bd3 Qg3 35. Qb4+ Kf7 36. Ka2 Qg5 37. Qd6 Bxf5 38.
+Qc7+ Kg6 39. Qg7+ Kh5 40. Qxa7 Bxd3 41. cxd3 Kxh6 42. Qxb6 Qf5 43. a4 Qxd3
+44. Qxf6+ Kh5 45. Qc6 Qd2 46. Qb5 Kg5 47. a5 Qd4 48. a6 h5 49. Qa5 1-0
+

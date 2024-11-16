@@ -1,0 +1,932 @@
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.08"]
+[Round "1"]
+[White "Abou el Zein,E"]
+[Black "Sadek,S"]
+[Result "1-0"]
+[WhiteElo "2357"]
+[BlackElo "2384"]
+[EventDate "2009.07.08"]
+[ECO "A01"]
+
+1. b3 d5 2. Bb2 c6 3. e3 Nd7 4. f4 Ngf6 5. Nf3 g6 6. Be2 Bg7 7. O-O O-O 8.
+Qe1 a5 9. Qh4 a4 10. g4 Ne4 11. Bxg7 Kxg7 12. d3 Nd6 13. Nbd2 e6 14. Qf2
+axb3 15. axb3 Rxa1 16. Rxa1 Qf6 17. d4 Qe7 18. Bd3 c5 19. c3 b5 20. Ne5 c4
+21. bxc4 bxc4 22. Bc2 Bb7 23. Ndf3 Ra8 24. Qe1 Nf8 25. g5 Rxa1 26. Qxa1 Qc7
+27. Qa3 Nd7 28. Nxd7 Qxd7 29. Ne5 Qe7 30. Qb4 Qc7 31. h4 Bc8 32. Kf1 Nb7
+33. Ke1 Qd6 34. Qa4 Qc7 35. Kd2 Nd6 36. Qb4 f6 37. gxf6+ Kxf6 38. Qb1 Ke7
+39. Qg1 Ne8 40. Qg5+ Kd6 41. h5 Qe7 42. hxg6 Qxg5 43. fxg5 hxg6 44. Nxg6
+Bd7 45. Ne5 Ng7 46. Ke2 Be8 47. Bg6 Bxg6 48. Nxg6 Kc6 49. Nf4 Kb5 50. e4
+dxe4 51. Ke3 Ka4 52. Kxe4 Kb3 53. d5 Kxc3 54. d6 Nf5 55. d7 Nd6+ 56. Ke3
+Nf7 57. g6 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.08"]
+[Round "1"]
+[White "Ezat,M"]
+[Black "Adly,A"]
+[Result "0-1"]
+[WhiteElo "2459"]
+[BlackElo "2548"]
+[EventDate "2009.07.08"]
+[ECO "D41"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 c5 7. Nf3 cxd4
+8. cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Bc4 b6 12. h4 Ba6 13. Bxa6 Nxa6
+14. h5 h6 15. O-O Qd7 16. Rfe1 Qb5 17. Ne5 Rfd8 18. Qc3 Rac8 19. Qf3 Qe8
+20. Qa3 Nc7 21. Qxa7 Nb5 22. Qxb6 Rd6 23. Qa5 Ra8 24. Qb4 Rxd4 25. Qb2 Rda4
+26. Re3 Nd6 27. Qe2 R8a5 28. f4 Qa8 29. Re1 Rxa2 30. Qd1 Nf5 31. Rd3 Qa7+
+32. Kh2 Qf2 33. Rd8+ Kh7 34. Qg4 Rxe5 35. fxe5 Qxe1 36. exf5 Qxe5+ 37. Qg3
+Qxf5 38. Rd4 Ra5 39. Rh4 Qe5 40. Qxe5 Rxe5 41. Kg1 Rf5 42. g3 Kg8 43. Kh2
+e5 44. Kg1 Kf8 45. Kg2 Ke7 46. Kh1 Kf6 0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.08"]
+[Round "1"]
+[White "El Gindy,E"]
+[Black "Frhat,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2501"]
+[BlackElo "2397"]
+[EventDate "2009.07.08"]
+[ECO "D94"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 g6 6. Nf3 Bg7 7. Be2 O-O 8.
+O-O dxc4 9. Bxc4 Bg4 10. Be3 Nc6 11. h3 Bxf3 12. Qxf3 Nxd4 13. Qxb7 Nc2 14.
+Rad1 Qc8 15. Qxc8 Raxc8 16. Bb3 Nxe3 17. fxe3 Rfd8 18. Kf2 e6 19. Ke2 a5
+20. Rxd8+ Rxd8 21. Rd1 Rxd1 22. Nxd1 Nd7 23. Kd3 Nb6 24. Bc4 Kf8 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.08"]
+[Round "1"]
+[White "Wageih,K"]
+[Black "El Ghazali,Y"]
+[Result "1-0"]
+[WhiteElo "2253"]
+[BlackElo "2362"]
+[EventDate "2009.07.08"]
+[ECO "A46"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 b6 4. Bd3 c5 5. c4 Be7 6. Nc3 O-O 7. d5 exd5 8.
+cxd5 d6 9. h3 Ba6 10. e4 b5 11. a3 b4 12. axb4 Bxd3 13. Qxd3 cxb4 14. Na4
+Re8 15. O-O Bf8 16. Re1 Nbd7 17. Nd4 Rc8 18. Bg5 h6 19. Bh4 Ne5 20. Qb3 Ng6
+21. Nc6 Qd7 22. Bxf6 gxf6 23. Qxb4 f5 24. Nc3 Bg7 25. Rxa7 Bxc3 26. Qxc3
+Qxa7 27. Nxa7 Rxc3 28. bxc3 Rxe4 29. Rxe4 fxe4 30. Nc8 Nf4 31. c4 Kf8 32.
+Nxd6 Ne2+ 33. Kf1 Nc3 34. Ke1 Ke7 35. Nf5+ Kf6 36. Nxh6 Na4 37. Ng4+ Kf5
+38. Kd2 Kf4 39. d6 Nc5 40. Kc3 f5 41. g3+ Kf3 42. Nh6 Kxf2 43. Nxf5 e3 44.
+Nxe3 Kxe3 45. Kb4 Kd4 46. Kb5 Ne6 47. d7 Ke5 48. Kc6 Kf6 49. Kd6 Nd8 50. c5
+Nf7+ 51. Kc7 Ke7 52. c6 Nd8 53. h4 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.08"]
+[Round "1"]
+[White "Amin,B"]
+[Black "Amin,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2551"]
+[BlackElo "2357"]
+[EventDate "2009.07.08"]
+[ECO "B02"]
+
+1. e4 Nf6 2. Nc3 d5 3. exd5 Nxd5 4. Nf3 g6 5. Bc4 Nxc3 6. bxc3 Bg7 7. d4
+O-O 8. O-O c5 9. Ba3 Qa5 10. Bxc5 Qxc3 11. Bb3 Nc6 12. Re1 Bg4 13. Re3 Bxf3
+14. Rxf3 Qa5 15. Rb1 Rad8 16. c3 b6 17. Bb4 Nxb4 18. cxb4 Qg5 19. d5 Be5
+20. a3 Rc8 21. g3 h5 22. h4 Qg4 23. Re3 Qf5 24. Qd3 Qf6 25. Qe4 Bd6 26. Rf3
+Qg7 27. Ba4 Rc3 28. Bc6 Rxf3 29. Qxf3 Qe5 30. Kg2 f5 31. Bd7 f4 32. g4 hxg4
+33. Bxg4 Kg7 34. Rh1 Rh8 35. h5 gxh5 36. Rxh5 Rxh5 37. Bxh5 Qg5+ 38. Bg4
+Be5 39. Kf1 Bf6 40. Be6 Qe5 41. Qg4+ Qg5 42. Qxg5+ Bxg5 43. Ke2 Kf6 44. f3
+a5 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.09"]
+[Round "2"]
+[White "Sadek,S"]
+[Black "Amin,A"]
+[Result "0-1"]
+[WhiteElo "2384"]
+[BlackElo "2357"]
+[EventDate "2009.07.08"]
+[ECO "E11"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 Bb4+ 4. Bd2 Qe7 5. g3 Nc6 6. Bg2 Bxd2+ 7. Nbxd2
+d6 8. O-O O-O 9. e4 e5 10. d5 Nb8 11. b4 a5 12. a3 Na6 13. Qb3 c6 14. Ne1
+Bg4 15. f3 Bd7 16. Nd3 cxd5 17. cxd5 axb4 18. axb4 Nc7 19. Nc4 Nb5 20. Qb2
+h5 21. Ra5 h4 22. g4 g5 23. Qd2 Nh7 24. Nb6 Rab8 25. Nb2 Nd4 26. Qd3 Qd8
+27. N2c4 Bb5 28. Ra3 Re8 29. Rc1 Qxb6 30. Nxb6 Bxd3 31. Kf2 Bb5 32. Rc7 Nf8
+33. Rac3 Ba6 34. Rc8 Rbxc8 35. Rxc8 Rxc8 36. Nxc8 Nc2 37. b5 Bxb5 38. Nxd6
+Ba6 39. Ne8 Nd7 40. Nc7 Bc4 0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.09"]
+[Round "2"]
+[White "El Ghazali,Y"]
+[Black "Amin,B"]
+[Result "0-1"]
+[WhiteElo "2362"]
+[BlackElo "2551"]
+[EventDate "2009.07.08"]
+[ECO "A24"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O 5. e4 e5 6. Nge2 d6 7. d3 c6 8.
+O-O a6 9. h3 b5 10. f4 Qb6+ 11. Kh2 Bb7 12. g4 exf4 13. Bxf4 Ne8 14. Qd2
+Nd7 15. Rab1 bxc4 16. dxc4 Ne5 17. b3 Rd8 18. Rbd1 Qa7 19. Qe3 Qxe3 20.
+Bxe3 Nc7 21. Bb6 Rd7 22. Rd2 Na8 23. Be3 c5 24. Rfd1 Rfd8 25. Bf4 Bc6 26.
+Bg5 f6 27. Be3 Nc7 28. Nf4 Bh6 29. Ncd5 Bxd5 30. Nxd5 Nxd5 31. Bxh6 Nc7 32.
+Rc2 Ne8 33. Bd2 g5 34. Ba5 Rb8 35. Rcd2 Kf7 36. Kg3 Ke6 37. Rh1 Ng6 38. Bf3
+Ke7 39. Rhd1 Ng7 40. Bc3 Ne6 41. Rd5 Ne5 42. Rh1 Nf4 43. Rd2 Nfg6 44. Bd1
+Rh8 45. Be2 Rb8 46. Bd1 Ke6 47. Be2 h6 48. Bd1 Rh7 49. Rf1 Rg8 50. b4 Rc8
+51. Bb3 h5 52. Rfd1 Nf7 53. bxc5 Rxc5 54. Bb4 hxg4 55. hxg4 Nf4 56. Rh2
+Rxh2 57. Kxh2 a5 58. Bxc5 dxc5 59. Kg3 Nd6 60. Kf3 Ng6 61. Bc2 Ne5+ 62. Kg3
+Nc6 63. Bd3 Ne5 64. Bc2 Nc6 65. a3 Nd4 66. Bd3 Nc6 67. Rb1 Ne5 68. Bc2
+Nexc4 69. Bb3 Nxe4+ 70. Kg2 Ned2 71. Bxc4+ Nxc4 72. Rb5 Kd5 73. a4 Kd4 74.
+Kg3 Nd6 75. Rxa5 c4 76. Ra7 c3 77. Rd7 Kd5 78. Rh7 c2 79. Rh1 Ne4+ 80. Kg2
+Kd4 81. a5 Nc5 82. Kf3 Kd3 83. Rg1 Kd2 84. a6 Nxa6 85. Ke4 Nc5+ 86. Kf5 Nd7
+87. Rg2+ Kc3 88. Ke6 Nc5+ 0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.09"]
+[Round "2"]
+[White "Frhat,A"]
+[Black "Wageih,K"]
+[Result "1-0"]
+[WhiteElo "2397"]
+[BlackElo "2253"]
+[EventDate "2009.07.08"]
+[ECO "A35"]
+
+1. c4 c6 2. e4 d5 3. exd5 cxd5 4. d4 Nf6 5. Nf3 Nc6 6. Nc3 g6 7. cxd5 Nxd5
+8. Qb3 Nb6 9. d5 Nb8 10. Bb5+ N8d7 11. O-O Bg7 12. Re1 O-O 13. Bg5 Nf6 14.
+Rad1 Qd6 15. h3 Bd7 16. Bxf6 exf6 17. Ne4 Qb8 18. Bxd7 Nxd7 19. d6 Rd8 20.
+Neg5 fxg5 21. Re7 Rf8 22. Rxd7 Qc8 23. Rxb7 Bf6 24. Qd5 Qc2 25. Re1 Rad8
+26. g4 h6 27. Kg2 a6 28. Ne5 Bxe5 29. Rxe5 Qa4 30. b4 Rde8 31. Rxe8 Qxe8
+32. Re7 Qb8 33. d7 Qd8 34. Qe5 Qa8+ 35. Qe4 Qd8 36. a3 Qc7 37. Qd5 Qd8 38.
+Re2 Qc7 39. Re8 Rxe8 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.09"]
+[Round "2"]
+[White "Adly,A"]
+[Black "El Gindy,E"]
+[Result "1-0"]
+[WhiteElo "2548"]
+[BlackElo "2501"]
+[EventDate "2009.07.08"]
+[ECO "D13"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 a6 7. e3 Bg4 8.
+Be2 e6 9. h3 Bxf3 10. Bxf3 Bd6 11. Bg5 h6 12. Bxf6 Qxf6 13. Qb3 Qe7 14. O-O
+O-O 15. Rfc1 Na5 16. Qd1 Rac8 17. Rc2 Nc4 18. Rac1 b5 19. b3 Ba3 20. bxc4
+Bxc1 21. Qxc1 dxc4 22. Ne4 Rfd8 23. Qb2 b4 24. Nc5 Rxc5 25. dxc5 Qxc5 26.
+Rd2 Rc8 27. Qd4 Qxd4 28. Rxd4 c3 29. Rd1 a5 30. Be4 Kf8 31. Kf1 Ke7 32. Ke2
+Rc5 33. Bc2 Rg5 34. g3 Rh5 35. Rd4 Rc5 36. Kd1 e5 37. Rd3 Rc6 38. Rd5 Rd6
+39. Bb3 f6 40. Rxd6 Kxd6 41. Kc2 e4 42. Bf7 f5 43. Bg6 Ke5 44. Kb3 Kf6 45.
+Bh5 Ke5 46. Bd1 Kd5 47. Ka4 Kc4 48. Bc2 g5 49. Kxa5 h5 50. h4 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.09"]
+[Round "2"]
+[White "Abou el Zein,E"]
+[Black "Ezat,M"]
+[Result "1-0"]
+[WhiteElo "2357"]
+[BlackElo "2459"]
+[EventDate "2009.07.08"]
+[ECO "A01"]
+
+1. b3 e5 2. Bb2 Nc6 3. c4 Nf6 4. g3 d5 5. Bg2 Bc5 6. cxd5 Nxd5 7. Qc1 Bb6
+8. Na3 O-O 9. Nc4 Re8 10. Nf3 e4 11. Nfe5 Nxe5 12. Bxe5 Bg4 13. h3 Bh5 14.
+g4 Bg6 15. Qb2 f6 16. Nxb6 axb6 17. Bg3 h5 18. O-O hxg4 19. hxg4 Qd7 20. f3
+Rad8 21. Rfd1 exf3 22. Bxf3 c5 23. Qc1 Nb4 24. d3 Nc6 25. Bf2 Qd6 26. Kg2
+Bf7 27. Bg3 Qd7 28. Bf2 Nd4 29. Bxd4 cxd4 30. Qf4 Bd5 31. Rd2 Re3 32. Kf2
+Bc6 33. Rh1 Rde8 34. Rc2 R8e5 35. Rh5 Qe6 36. Qxd4 Bxf3 37. exf3 Rxh5 38.
+gxh5 Re5 39. Qg4 Re1 40. Rc7 g5 41. hxg6 b5 42. Rc5 Re5 43. Rc8+ Kg7 44.
+Rc7+ Kg8 45. Qxe6+ Rxe6 46. Rxb7 Ra6 47. Rxb5 Rxa2+ 48. Kg3 Kg7 49. Kf4
+Kxg6 50. Rb8 Ra7 51. d4 Rd7 52. Ke4 Re7+ 53. Kf4 Rd7 54. Rb4 Rd8 55. Rc4 f5
+56. b4 Rd5 57. Ke3 Rb5 58. f4 Kf6 59. Kd3 Ke6 60. Kc3 Rb8 61. Rc5 Rg8 62.
+b5 Rg1 63. Re5+ Kf6 64. Re2 Rb1 65. Rb2 Rc1+ 66. Kd2 Rc7 67. b6 Rb7 68. Kd3
+Ke6 69. Kc4 Kd6 70. Kb5 Kd5 71. Re2 Rf7 72. Ka6 Kc6 73. b7 Rf8 74. Ka7 Rf7
+75. Ka8 Rxb7 76. Rc2+ Kd5 77. Kxb7 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.10"]
+[Round "3"]
+[White "Ezat,M"]
+[Black "Sadek,S"]
+[Result "1-0"]
+[WhiteElo "2459"]
+[BlackElo "2384"]
+[EventDate "2009.07.08"]
+[ECO "B10"]
+
+1. c4 c6 2. e4 e5 3. Nc3 Nf6 4. Nf3 Qa5 5. Be2 Bb4 6. O-O O-O 7. Qc2 Re8 8.
+a3 Bxc3 9. dxc3 d5 10. cxd5 cxd5 11. exd5 e4 12. Nd4 Qxd5 13. Nb5 Qe5 14.
+Qd1 Nc6 15. Qd6 Bg4 16. Qxe5 Rxe5 17. Bxg4 Nxg4 18. Nd6 Rd8 19. Rd1 g5 20.
+h3 Nxf2 21. Kxf2 Re6 22. Bxg5 Rdxd6 23. Bf4 Rxd1 24. Rxd1 Re7 25. Rd5 f6
+26. Ke3 Kf7 27. g4 Kg6 28. b4 a6 29. a4 Kf7 30. Rd6 Na7 31. Rd4 Nc8 32. Bb8
+Nb6 33. b5 axb5 34. axb5 Nd7 35. Bc7 Ne5 36. Bd6 Re6 37. Bxe5 Rxe5 38. c4
+h5 39. Rd5 Re8 40. Rxh5 Rc8 41. c5 Re8 42. Rh7+ Kg6 43. Rxb7 f5 44. gxf5+
+Kxf5 45. c6 Rh8 46. c7 Rxh3+ 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.10"]
+[Round "3"]
+[White "El Gindy,E"]
+[Black "Abou el Zein,E"]
+[Result "1/2-1/2"]
+[WhiteElo "2501"]
+[BlackElo "2357"]
+[EventDate "2009.07.08"]
+[ECO "E58"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Bb4 4. e3 Nf6 5. Nf3 O-O 6. Bd3 c5 7. O-O Nc6 8.
+a3 Bxc3 9. bxc3 b6 10. a4 Ba6 11. cxd5 Bxd3 12. Qxd3 exd5 13. dxc5 bxc5
+1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.10"]
+[Round "3"]
+[White "Wageih,K"]
+[Black "Adly,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2253"]
+[BlackElo "2548"]
+[EventDate "2009.07.08"]
+[ECO "E61"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. Bf4 c5 6. d5 d6 7. h3 Na6 8. e4
+Nc7 9. Bd3 a6 10. a4 e5 11. Bg5 h6 12. Be3 Rb8 13. O-O Nh5 14. Re1 Nf4 15.
+Bf1 f5 16. Bxf4 exf4 17. e5 g5 18. e6 Qf6 19. Nh2 b6 20. Be2 a5 21. Bh5 Qe7
+22. Qc2 Na6 23. Nb5 Nb4 24. Qb1 Rf6 25. Qd1 Ba6 26. b3 Bxb5 27. axb5 Rff8
+28. Rb1 Rb7 29. Qd2 Qf6 30. Re2 Ra8 31. Nf3 Re7 32. Ne1 Qc3 33. Nc2 Qxd2
+34. Rxd2 Bc3 35. Nxb4 axb4 36. Re2 Kg7 37. Kf1 Kf6 38. Rc2 Ra3 39. Ke2 Rea7
+40. Kd3 Ra1 41. Rd1 Rxd1+ 42. Bxd1 Ra1 43. Bh5 Rb1 44. Ra2 Rb2 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.10"]
+[Round "3"]
+[White "Amin,B"]
+[Black "Frhat,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2551"]
+[BlackElo "2397"]
+[EventDate "2009.07.08"]
+[ECO "B51"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6 5. O-O Bg4 6. h3 Bh5 7. c3 Nf6
+8. Re1 e6 9. d4 cxd4 10. cxd4 Be7 11. Qa4 O-O 12. Qxc6 d5 13. e5 Ne4 14.
+Nbd2 Rc8 15. Qb5 Nxd2 16. Nxd2 Qc7 17. Nf1 Qc4 18. Qxc4 Rxc4 19. Be3 Rb8
+20. b3 Rcc8 21. Bd2 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.10"]
+[Round "3"]
+[White "Amin,A"]
+[Black "El Ghazali,Y"]
+[Result "1-0"]
+[WhiteElo "2357"]
+[BlackElo "2362"]
+[EventDate "2009.07.08"]
+[ECO "D40"]
+
+1. Nf3 c5 2. e3 Nc6 3. c4 Nf6 4. Nc3 e6 5. d4 cxd4 6. exd4 d5 7. a3 a6 8.
+Bg5 Be7 9. Rc1 O-O 10. Bd3 dxc4 11. Bxc4 Nd5 12. Bxe7 Ncxe7 13. O-O b5 14.
+Bd3 Bb7 15. Ne4 Nf5 16. Bb1 Nf4 17. Qd2 Ng6 18. Rfd1 Qb8 19. g3 Nd6 20. Qe2
+Bd5 21. h4 Nf5 22. h5 Nge7 23. g4 Nd6 24. h6 Nxe4 25. hxg7 Rd8 26. Bxe4 Qf4
+27. Nd2 Ng6 28. Rc3 Ra7 29. Rg3 Rad7 30. Qe3 Bxe4 31. Nxe4 Kxg7 32. g5 Qxe3
+33. fxe3 h6 34. Rf1 hxg5 35. Nxg5 Rc8 36. Rh3 Kg8 37. Rh6 Kg7 38. Rh7+ Kg8
+39. Rhxf7 Rxf7 40. Rxf7 Rc1+ 41. Rf1 Rc6 42. Rf6 Nf8 43. e4 Rc1+ 44. Kg2
+Rd1 45. e5 a5 46. Kf2 Kg7 47. Ke2 Rb1 48. Nxe6+ Nxe6 49. Rxe6 Rxb2+ 50. Kd3
+Rb3+ 51. Ke4 Rxa3 52. Rb6 b4 53. d5 b3 54. Kf5 a4 55. Rb7+ Kh6 56. d6 Ra1
+57. d7 Rf1+ 58. Ke6 Rd1 59. Ke7 Kg6 60. d8=Q Rxd8 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.11"]
+[Round "4"]
+[White "Sadek,S"]
+[Black "El Ghazali,Y"]
+[Result "0-1"]
+[WhiteElo "2384"]
+[BlackElo "2362"]
+[EventDate "2009.07.08"]
+[ECO "E21"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. Nc3 Bb7 5. g3 Bb4 6. Bg2 O-O 7. O-O Bxc3 8.
+bxc3 Be4 9. a4 Nc6 10. Nd2 Bxg2 11. Kxg2 d5 12. cxd5 exd5 13. e3 Re8 14.
+Nb3 Ne4 15. f3 Nd6 16. Qd3 Qd7 17. Ra2 Re6 18. Re2 Rae8 19. Rfe1 Ne7 20. e4
+Qxa4 21. Nd2 Ng6 22. e5 Qb5 23. Qc2 f5 24. Nf1 c5 25. Ne3 cxd4 26. cxd4 f4
+27. Nd1 Nc4 28. gxf4 Rf8 29. Kg3 Ne7 30. Qd3 Qd7 31. Rg2 Rg6+ 32. Kf2 Qh3
+33. Reg1 Rxg2+ 34. Rxg2 Nf5 35. Kg1 Nh4 36. Rg3 Qf5 37. Qb3 a6 38. Ne3 Nxe3
+39. Bxe3 Qe6 40. Kf2 Nf5 41. Rg5 h6 42. Rg4 Rc8 43. Rg1 Rc4 44. Rc1 Nxd4
+45. Qb2 Rxc1 46. Qxc1 Nf5 47. Qc7 b5 48. Bc5 Kh7 49. Qb6 Qc8 0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.11"]
+[Round "4"]
+[White "Frhat,A"]
+[Black "Amin,A"]
+[Result "1-0"]
+[WhiteElo "2397"]
+[BlackElo "2357"]
+[EventDate "2009.07.08"]
+[ECO "E11"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 Bb4+ 4. Bd2 Qe7 5. g3 Nc6 6. Nc3 Bxc3 7. Bxc3 Ne4
+8. Qc2 Nxc3 9. Qxc3 Qb4 10. Rc1 Qxc3+ 11. Rxc3 d6 12. Bg2 Bd7 13. d5 Ne7
+14. dxe6 fxe6 15. c5 Nd5 16. Rc1 Ke7 17. Nd4 dxc5 18. Rxc5 b6 19. Rc1 c5
+20. Nf3 Bb5 21. Ne5 Rac8 22. f4 Rhd8 23. Kf2 Nb4 24. a3 Nc6 25. Bxc6 Bxc6
+26. Rhd1 Bd5 27. b4 cxb4 28. axb4 a5 29. bxa5 bxa5 30. Ra1 Ra8 31. Rd4 Rdc8
+32. Ra3 Ra7 33. Rda4 Rc5 34. e4 Bb7 35. Ke3 Kd8 36. h4 Kc7 37. Nc4 Bc6 38.
+Rxa5 Raxa5 39. Nxa5 Kb6 40. Nxc6 Rxc6 41. Kd4 Kb7 42. Ke5 Rc4 43. h5 Rc6
+44. g4 h6 45. Ra4 Kb8 46. Ra1 Kb7 47. Ra5 Rc4 48. g5 hxg5 49. fxg5 Kb6 50.
+Ra8 Rc5+ 51. Kf4 Rc1 52. Rb8+ Kc7 53. Rg8 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.11"]
+[Round "4"]
+[White "Adly,A"]
+[Black "Amin,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2548"]
+[BlackElo "2551"]
+[EventDate "2009.07.08"]
+[ECO "A30"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. O-O c5 6. c4 cxd4 7. Qxd4 Be7 8.
+Nc3 O-O 9. Bf4 d6 10. Qd2 Qc8 11. Rac1 a6 12. Rfd1 Rd8 13. Na4 Nbd7 14. Qb4
+a5 15. Qa3 Ne8 16. Nd4 Bxg2 17. Kxg2 e5 18. Nf5 Bf8 19. Bg5 f6 20. Bd2 d5
+21. Qf3 d4 22. g4 Qc7 23. h4 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.11"]
+[Round "4"]
+[White "Abou el Zein,E"]
+[Black "Wageih,K"]
+[Result "0-1"]
+[WhiteElo "2357"]
+[BlackElo "2253"]
+[EventDate "2009.07.08"]
+[ECO "D15"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 dxc4 5. e4 b5 6. e5 Nd5 7. a4 e6 8.
+axb5 Nxc3 9. bxc3 cxb5 10. Ng5 Bb7 11. Qh5 g6 12. Qg4 Be7 13. Be2 Bd5 14.
+h4 h5 15. Qg3 Nc6 16. Bf3 a6 17. Be4 Bxe4 18. Nxe4 Nxd4 19. cxd4 Qxd4 20.
+Qf3 Bb4+ 21. Ke2 Qxe5 22. Bf4 Qb2+ 23. Nd2 Rd8 24. Qc6+ Kf8 25. Rhd1 Bxd2
+26. Bd6+ Kg8 27. Rxd2 Qxa1 28. Qc7 Qf6 29. Be5 Rxd2+ 30. Kxd2 Qxf2+ 31. Kc1
+Kh7 0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.11"]
+[Round "4"]
+[White "Ezat,M"]
+[Black "El Gindy,E"]
+[Result "1/2-1/2"]
+[WhiteElo "2459"]
+[BlackElo "2501"]
+[EventDate "2009.07.08"]
+[ECO "E46"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Nge2 d5 6. a3 Be7 7. Nf4 c6 8.
+cxd5 exd5 9. g3 a5 10. Bg2 Na6 11. O-O Nc7 12. Bd2 Ne6 13. Nxe6 Bxe6 14.
+Na4 Ne4 15. Rc1 Re8 16. Be1 f5 17. Qb3 b5 18. Nc3 a4 19. Qc2 Nd6 20. Ne2
+Nc4 21. Nf4 Qd7 22. Nd3 Bf7 23. Bb4 Bg5 24. h4 Bd8 25. Bh3 g6 26. Nf4 Bc7
+27. Rfe1 Qd8 28. Bf1 Qf6 29. Nh3 h6 30. Bd3 Be6 31. Nf4 Bf7 32. Nh3 Be6 33.
+Nf4 Bd7 34. Kg2 Bb8 35. Rh1 Bc8 36. Rh2 Ra7 37. Kh1 Rf7 38. Rg1 Re4 39. Be2
+Bd7 40. Rgg2 Bc7 41. Bf3 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.12"]
+[Round "5"]
+[White "El Gindy,E"]
+[Black "Sadek,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2501"]
+[BlackElo "2384"]
+[EventDate "2009.07.08"]
+[ECO "A28"]
+
+1. c4 Nf6 2. Nc3 e5 3. d3 d5 4. cxd5 Nxd5 5. Nf3 Nc6 6. e3 Be7 7. Be2 O-O
+8. O-O Be6 9. a3 f5 10. Qc2 Nb6 11. b4 Bf6 12. Bb2 Qe8 13. b5 Na5 14. Nd2
+Qf7 15. a4 Rac8 16. Ba3 Rfd8 17. Bb4 Nb3 18. Nxb3 Bxb3 19. Qb1 c5 20. bxc6
+Rxc6 21. a5 Nd5 22. Qxb3 Nxc3 23. Qxf7+ Kxf7 24. Bxc3 Rxc3 25. Rfc1 Rdc8
+26. Rxc3 Rxc3 27. Rb1 Rc7 28. Bf3 b5 29. axb6 axb6 30. g3 Rd7 31. Rxb6 Rxd3
+32. Rb7+ Be7 33. Bh5+ Kf6 34. h4 g6 35. Be2 Rd2 36. Kf1 h6 37. Ke1 Rd6 38.
+Bc4 g5 39. h5 g4 40. Ke2 Rd8 41. Bd3 e4 42. Bc4 Rd6 43. Bb5 Rd8 44. Bd7 Bd6
+45. Ra7 Rf8 46. Ra6 Ke7 47. Ba4 Rc8 48. Ra7+ Rc7 49. Ra8 Kf6 50. Ra6 Ke7
+51. Ra8 Kf6 52. Be8 Rc5 53. Ra6 Ke7 54. Bg6 Rb5 55. Kf1 Rb1+ 56. Kg2 Rb5
+57. Ra8 Kf6 58. Rd8 Be7 59. Rh8 Kg5 60. Rg8 Rb2 61. Rg7 Bf6 62. Rf7 Rb8 63.
+Rc7 Rf8 64. Bf7 Rd8 65. Rb7 Rf8 66. Bg6 Bc3 67. Rb6 Bf6 68. Kf1 Be5 69. Rb5
+Kf6 70. Rb7 Kg5 71. Re7 Bf6 72. Ra7 Be5 73. Ra6 Bf6 74. Ra5 Bc3 75. Rb5 Bg7
+76. Ke2 Bh8 77. Kd2 Rd8+ 78. Kc2 Rf8 79. Kb3 Bg7 80. Rd5 Rb8+ 81. Kc4 Rc8+
+82. Kb5 Rf8 83. Rc5 Ba1 84. Kb6 Bb2 85. Kc7 Ba3 86. Rb5 Bc1 87. Kd6 Bd2 88.
+Ke7 Rf6 89. Bf7 Ra6 90. Be6 Ra7+ 91. Bd7 Ra5 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.12"]
+[Round "5"]
+[White "Wageih,K"]
+[Black "Ezat,M"]
+[Result "0-1"]
+[WhiteElo "2253"]
+[BlackElo "2459"]
+[EventDate "2009.07.08"]
+[ECO "A43"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 b5 4. Bg5 Ne4 5. Bf4 Bb7 6. Qd3 f5 7. Nbd2 c4 8.
+Qd4 Na6 9. Nxe4 fxe4 10. Qxe4 e6 11. c3 Nc7 12. Bg5 Qb8 13. Qh4 Nxd5 14. e4
+Ne7 15. Rd1 Ng6 16. Qh5 Bxe4 17. Nh4 Bc5 18. f3 O-O 19. Rxd7 Qe5 20. Rd2
+Bxf3+ 0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.12"]
+[Round "5"]
+[White "Amin,B"]
+[Black "Abou el Zein,E"]
+[Result "1-0"]
+[WhiteElo "2551"]
+[BlackElo "2357"]
+[EventDate "2009.07.08"]
+[ECO "A04"]
+
+1. e4 c5 2. Nf3 Nc6 3. g3 g6 4. Bg2 Bg7 5. O-O d6 6. c3 e5 7. a3 Nge7 8. b4
+O-O 9. d3 b6 10. Bb2 Bb7 11. Nbd2 Qd7 12. h4 h6 13. h5 Rad8 14. Re1 g5 15.
+Qe2 Ba6 16. Nh2 Bc8 17. b5 Na5 18. a4 f5 19. exf5 Qxf5 20. Nc4 Nxc4 21.
+dxc4 g4 22. a5 Qxh5 23. axb6 axb6 24. Ra6 Be6 25. Rxb6 Qf7 26. Rb7 Rde8 27.
+Bf1 h5 28. Rd1 Bc8 29. Rc7 Qf6 30. Bc1 Nf5 31. Bg2 e4 32. Bxe4 Qe5 33. Rxc8
+Rxc8 34. Bf4 Qf6 35. Rd5 Rce8 36. Qd3 Nh4 37. Rxh5 Rxe4 38. Qxe4 Ng6 39.
+Nxg4 Qf7 40. Rg5 Kh7 41. Qh1+ Kg8 42. Nh6+ 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.12"]
+[Round "5"]
+[White "Amin,A"]
+[Black "Adly,A"]
+[Result "0-1"]
+[WhiteElo "2357"]
+[BlackElo "2548"]
+[EventDate "2009.07.08"]
+[ECO "A17"]
+
+1. c4 e6 2. Nf3 d5 3. e3 Nf6 4. Nc3 Be7 5. Qc2 O-O 6. Be2 c5 7. cxd5 Nxd5
+8. O-O Nc6 9. a3 b6 10. b3 Bb7 11. Bb2 Rc8 12. d3 Nd4 13. Qd1 Nxc3 14. Bxc3
+Nxf3+ 15. Bxf3 Bxf3 16. gxf3 Bf6 17. Rc1 Bxc3 18. Rxc3 Qf6 19. Rc4 Rcd8 20.
+Kh1 Rd5 21. Qe2 Rfd8 22. Rd1 Qg6 23. Rg4 Qf6 24. b4 Qc3 25. bxc5 bxc5 26.
+Ra4 R8d7 27. Ra6 g6 28. a4 Qb3 29. Ra5 Qb4 30. Ra6 Rh5 31. d4 cxd4 32. Qc2
+Rc5 33. Qe4 Qc4 34. Qd3 Qxd3 35. Rxd3 dxe3 36. Rxe3 Rd1+ 37. Kg2 Rg5+ 38.
+Kh3 Rdg1 39. Re4 Rf5 40. Rg4 Rxf3+ 41. Rg3 Rgxg3+ 42. fxg3 Rf2 43. g4 h5
+44. Kg3 Rd2 45. gxh5 gxh5 46. Rxa7 Kg7 47. a5 Kg6 48. a6 h4+ 49. Kxh4 Rxh2+
+50. Kg3 Ra2 51. Ra8 e5 52. Kf3 Kf5 53. Rf8 Ra3+ 54. Kf2 f6 55. Ra8 Kf4 56.
+a7 Ra2+ 57. Ke1 f5 58. Kd1 e4 59. Kc1 e3 60. Kd1 e2+ 61. Ke1 Kf3 0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.12"]
+[Round "5"]
+[White "El Ghazali,Y"]
+[Black "Frhat,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2362"]
+[BlackElo "2397"]
+[EventDate "2009.07.08"]
+[ECO "A28"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 Re8 7. Ng5 g6 8.
+h4 Bf8 9. Be2 d6 10. d3 Bg7 11. Bd2 a5 12. a3 h6 13. Nxf6+ Qxf6 14. Ne4 Qd8
+15. g4 d5 16. cxd5 Qxd5 17. Bf3 Qb5 18. h5 g5 19. Rc1 Rd8 20. Be2 a4 21. d4
+Qb3 22. Qxb3 axb3 23. dxe5 Nxe5 24. Rxc7 Nxg4 25. Bc3 Ne5 26. f4 Nd3+ 27.
+Bxd3 Rxd3 28. Ke2 Rd7 29. Rxd7 Bxd7 30. fxg5 Bxc3 31. Nxc3 hxg5 32. e4 Kh7
+33. Ke3 Kh6 34. Kd4 Ra5 35. Nd5 f5 36. Nf6 Be6 37. Rc1 fxe4 38. Rc7 Bf5 39.
+Rxb7 g4 40. Rb6 Ra4+ 41. Ke3 Kg5 42. h6 g3 43. h7 Ra8 44. Nd5 Bxh7 45. Rxb3
+Rc8 46. Rb5 Kg4 47. Ke2 Rc2+ 48. Ke1 Rf2 49. Rb7 Bg6 50. Rg7 Kh5 51. Ne7
+Be8 52. Rg8 Bf7 53. Rg7 Bc4 54. Rh7+ Kg5 55. b3 Bxb3 56. Nc6 Bd5 57. Nd4
+Ra2 58. Rg7+ Kh4 59. Ne2 Be6 60. Rh7+ Kg5 61. Rg7+ Kf6 62. Rxg3 e3 63. Nd4
+Ra1+ 64. Ke2 Ra2+ 65. Kxe3 Rxa3+ 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.13"]
+[Round "6"]
+[White "Sadek,S"]
+[Black "Frhat,A"]
+[Result "1-0"]
+[WhiteElo "2384"]
+[BlackElo "2397"]
+[EventDate "2009.07.08"]
+[ECO "E11"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 Bb4+ 4. Nbd2 d5 5. Qa4+ Nc6 6. e3 O-O 7. a3 Bxd2+
+8. Bxd2 Re8 9. Bc3 Ne4 10. Qc2 Nxc3 11. Qxc3 a5 12. Be2 Qe7 13. O-O Bd7 14.
+Rac1 a4 15. Rfd1 Na5 16. cxd5 Nb3 17. dxe6 Nxc1 18. exf7+ Qxf7 19. Qxc1 Rf8
+20. Bc4 Be6 21. d5 Bg4 22. d6 Be6 23. Bxe6 Qxe6 24. dxc7 Rac8 25. Ng5 Qg4
+26. Rd5 Qe2 27. Nf3 Qa6 28. Nd4 Qd3 29. h3 Kh8 30. Qc5 Rfe8 31. Nb5 Qb1+
+32. Kh2 b6 33. Qc6 Qxb2 34. Nd6 Qf6 35. Qxe8+ Rxe8 36. Nxe8 Qc6 37. Rd8 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.13"]
+[Round "6"]
+[White "Adly,A"]
+[Black "El Ghazali,Y"]
+[Result "1/2-1/2"]
+[WhiteElo "2548"]
+[BlackElo "2362"]
+[EventDate "2009.07.08"]
+[ECO "A33"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 c5 4. Bg2 Nc6 5. O-O cxd4 6. Nxd4 Bc5 7. Nb3 Be7
+8. c4 d6 9. Nc3 O-O 10. Bf4 a6 11. Qd2 Ng4 12. Na4 e5 13. Be3 Nxe3 14. Qxe3
+Be6 15. Nb6 Rb8 16. Nd5 Bxd5 17. Bxd5 Nb4 18. Qd2 Qb6 19. Rfc1 Kh8 20. Rc3
+f5 21. a3 Nc6 22. Qe3 Qd8 23. Rd1 Bf6 24. Qd2 e4 25. Rc2 Bg5 26. Qe1 Qb6
+27. c5 dxc5 28. Nxc5 Rfd8 29. Ne6 Rxd5 30. Rxd5 Ne7 31. Nxg5 Nxd5 32. Qd2
+Nf6 33. Qf4 Re8 34. Qxf5 h6 35. Nf7+ Kg8 36. Ne5 Qb5 37. Rc8 Rxc8 38. Qxc8+
+Kh7 39. Qf5+ Kg8 40. Qe6+ Kh7 41. Ng4 Qxb2 42. Nxf6+ gxf6 43. Qxe4+ Kg7 44.
+h4 h5 45. a4 b5 46. Qb7+ Kg6 47. Qxa6 Qa1+ 48. Kg2 bxa4 49. e4 Qd4 50. e5
+Qe4+ 51. Kh2 Qf3 52. Qb6 a3 53. e6 a2 54. e7 Qe2 55. Qd8 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.13"]
+[Round "6"]
+[White "Abou el Zein,E"]
+[Black "Amin,A"]
+[Result "1-0"]
+[WhiteElo "2357"]
+[BlackElo "2357"]
+[EventDate "2009.07.08"]
+[ECO "A02"]
+
+1. f4 d6 2. Nf3 e5 3. fxe5 dxe5 4. Nxe5 Bd6 5. Nf3 g5 6. g3 g4 7. Nh4 Ne7
+8. Nc3 Ng6 9. Nxg6 hxg6 10. Ne4 Be7 11. d4 f5 12. Nf2 Nc6 13. c3 Bd6 14.
+Qd3 Bd7 15. Bg2 Qe7 16. h4 Qf7 17. Bg5 Be7 18. Bf4 O-O-O 19. d5 Bf6 20.
+O-O-O Rhe8 21. Rhe1 Ne5 22. Qd4 Kb8 23. Qb4 Bc8 24. d6 cxd6 25. Rxd6 Ka8
+26. Ra6 Re6 27. Ra4 Qc7 28. Rd1 Bd7 29. Ra5 Be7 30. Bxe5 Rxe5 31. Qxb7+
+Qxb7 32. Bxb7+ Kxb7 33. Rxe5 Bf8 34. e3 Kc6 35. Red5 Bh6 36. R5d3 a5 37. b3
+Bf8 38. Kb2 Bc5 39. a3 Bb6 40. b4 axb4 41. axb4 Bc7 42. e4 Bb6 43. Rd6+ Kc7
+44. Rxb6 Kxb6 45. exf5 gxf5 46. c4 Kc7 47. Re1 f4 48. Rg1 Bf5 49. Kc3 f3
+50. Rd1 Re8 51. Rd5 Bc8 52. Rg5 Re2 53. Nxg4 f2 54. Rg7+ Kd6 55. c5+ Kc6
+56. Rg6+ Kc7 57. Nxf2 Rxf2 58. b5 Bb7 59. Rg7+ Kb8 60. h5 Rh2 61. g4 Rh3+
+62. Kd2 Rg3 63. h6 Be4 64. h7 Bxh7 65. Rxh7 Rxg4 66. Kc3 Rf4 67. Rd7 Kc8
+68. Rd4 Rf1 69. Rh4 Rb1 70. Kc4 Rc1+ 71. Kd5 Rg1 72. Rh6 Kb7 73. Rh7+ Kb8
+74. b6 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.13"]
+[Round "6"]
+[White "Ezat,M"]
+[Black "Amin,B"]
+[Result "1-0"]
+[WhiteElo "2459"]
+[BlackElo "2551"]
+[EventDate "2009.07.08"]
+[ECO "E31"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5 h6 5. Bh4 c5 6. d5 Bxc3+ 7. bxc3 d6 8.
+e3 e5 9. Bd3 e4 10. Bc2 Nbd7 11. Ne2 Qe7 12. O-O g5 13. Bg3 Ne5 14. Qb1 Bg4
+15. Bxe5 Qxe5 16. Ng3 O-O-O 17. Qb5 Kb8 18. Rab1 Bc8 19. Rb2 b6 20. Rfb1
+Bb7 21. a4 h5 22. a5 h4 23. Nf1 h3 24. g3 Qf5 25. Bd1 Nd7 26. Nd2 Qe5 27.
+Ba4 f5 28. axb6 a6 29. Qa5 Qf6 30. Bc6 Ne5 31. Ra2 Nxc6 32. dxc6 Bxc6 33.
+b7 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.13"]
+[Round "6"]
+[White "El Gindy,E"]
+[Black "Wageih,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2501"]
+[BlackElo "2253"]
+[EventDate "2009.07.08"]
+[ECO "D94"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nf3 g6 5. Nc3 Bg7 6. Be2 O-O 7. O-O dxc4 8.
+Bxc4 Bg4 9. h3 Bxf3 10. Qxf3 Nbd7 11. e4 e5 12. d5 Nb6 13. Bb3 cxd5 14.
+Nxd5 Nbxd5 15. Rd1 Qe7 16. exd5 Ne8 17. Be3 Nd6 18. Bc5 f5 19. Qe2 e4 20.
+f3 Be5 21. fxe4 fxe4 22. Rf1 b6 23. Bxd6 Bxd6 24. Qg4 Qe5 25. Qe6+ Kg7 26.
+Qxe5+ Bxe5 27. Rad1 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.14"]
+[Round "7"]
+[White "Wageih,K"]
+[Black "Sadek,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2253"]
+[BlackElo "2384"]
+[EventDate "2009.07.08"]
+[ECO "D11"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 a6 5. Nbd2 b5 6. b3 Bg4 7. Qc2 Nbd7 8.
+Bd3 e6 9. O-O Bd6 10. Bb2 Qb8 11. Rac1 O-O 12. h3 Bh5 13. Ng5 Bg6 14. Bxg6
+hxg6 15. cxd5 cxd5 16. f4 Nb6 17. Ngf3 Rc8 18. Qd3 Rxc1 19. Rxc1 Qb7 20.
+Ne5 Bxe5 21. dxe5 Ne4 22. Nxe4 dxe4 23. Qd4 Nd5 24. Qxe4 Rc8 25. Kh2 Rxc1
+26. Bxc1 Qc7 27. Bd2 Kf8 28. Qd3 g5 29. g3 gxf4 30. gxf4 Kg8 31. e4 Ne7 32.
+h4 Qc5 33. Kg2 Nc6 34. Qc3 Qb6 35. Be3 Qb7 36. Qc5 Ne7 37. Kf3 Nf5 38. Bf2
+Kh7 39. h5 Kh6 40. Qb6 Qxb6 41. Bxb6 Ne7 42. Kg4 Nc6 43. Be3 Nb4 44. f5+
+Kh7 45. a3 Nd3 46. Bd4 a5 47. Kg5 b4 48. axb4 axb4 49. f6 Nc1 50. fxg7 Kxg7
+51. Bc5 Nxb3 52. Bxb4 Nd4 53. h6+ Kg8 54. Bc3 Ne2 55. Be1 Nd4 56. Kf6 Nf3
+57. Bg3 Nd2 58. h7+ Kxh7 59. Kxf7 Nxe4 60. Kxe6 Nxg3 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.14"]
+[Round "7"]
+[White "Amin,B"]
+[Black "El Gindy,E"]
+[Result "1/2-1/2"]
+[WhiteElo "2551"]
+[BlackElo "2501"]
+[EventDate "2009.07.08"]
+[ECO "B07"]
+
+1. d4 d6 2. e4 Nf6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Bc4 Be6 7. Bxe6
+fxe6 8. f3 Bd6 9. Be3 Ke7 10. Nge2 Nbd7 11. O-O-O 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.14"]
+[Round "7"]
+[White "Amin,A"]
+[Black "Ezat,M"]
+[Result "0-1"]
+[WhiteElo "2357"]
+[BlackElo "2459"]
+[EventDate "2009.07.08"]
+[ECO "A62"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O 5. Nf3 c5 6. d4 d6 7. d5 a6 8. a4
+e6 9. O-O exd5 10. cxd5 b6 11. Nd2 Ra7 12. Nc4 Re8 13. Bf4 Bf8 14. e4 Rb7
+15. Qd3 b5 16. axb5 axb5 17. Na5 Rb6 18. Rfe1 Bd7 19. b4 cxb4 20. Na2 Ra6
+21. Nb3 Ra4 22. Nac1 Ng4 23. h3 Ne5 24. Bxe5 Rxe5 25. Rb1 Bg7 26. Nd4 Qb6
+27. Nc2 Na6 28. Qd2 Re8 29. Nxb4 Nxb4 30. Rxb4 Qa5 31. Nd3 Rc8 32. Qf4 Rxb4
+33. Qxd6 Rb3 34. Qxd7 Rd8 0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.14"]
+[Round "7"]
+[White "El Ghazali,Y"]
+[Black "Abou el Zein,E"]
+[Result "1/2-1/2"]
+[WhiteElo "2362"]
+[BlackElo "2357"]
+[EventDate "2009.07.08"]
+[ECO "B36"]
+
+1. c4 c5 2. Nc3 Nc6 3. Nf3 Nf6 4. d4 cxd4 5. Nxd4 g6 6. e4 Bg7 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.14"]
+[Round "7"]
+[White "Frhat,A"]
+[Black "Adly,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2397"]
+[BlackElo "2548"]
+[EventDate "2009.07.08"]
+[ECO "A23"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 c6 4. Qa4 d6 5. Bg2 Be7 6. Nf3 O-O 7. O-O Nbd7
+1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.15"]
+[Round "8"]
+[White "Sadek,S"]
+[Black "Adly,A"]
+[Result "0-1"]
+[WhiteElo "2384"]
+[BlackElo "2548"]
+[EventDate "2009.07.08"]
+[ECO "E61"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e3 c5 6. dxc5 Na6 7. Be2 Nxc5
+8. O-O b6 9. Nd4 Bb7 10. b4 Nce4 11. Nxe4 Nxe4 12. Bb2 d5 13. f3 Nd6 14.
+cxd5 Bxd5 15. e4 Bb7 16. Qd2 Rc8 17. Rac1 Qd7 18. b5 Rxc1 19. Rxc1 Rc8 20.
+Rxc8+ Qxc8 21. Nb3 Bxb2 22. Qxb2 Qc7 23. Qc1 Qxc1+ 24. Nxc1 Bc8 25. Kf2 f6
+26. Ke3 e5 27. Kd2 Kf7 28. Kc3 Be6 29. a4 Ke7 30. Kb4 g5 31. a5 g4 32. axb6
+axb6 33. fxg4 Nxe4 34. Nd3 h6 35. Bf3 Nd6 36. Nb2 Bd7 37. Be2 Kd8 38. Na4
+Kc7 39. Nc3 Be6 40. Bf3 Kd7 41. Bc6+ Kd8 42. h3 f5 43. gxf5 Nxf5 44. Bd5
+Bd7 45. g4 Ne3 46. Be4 Be6 47. Na4 Kc7 48. Nb2 Kd6 49. Na4 Bd5 50. Bxd5
+Nxd5+ 51. Kc4 e4 52. h4 Ke5 53. g5 hxg5 54. hxg5 e3 55. Kd3 Kf4 56. Ke2 Ke4
+57. g6 Nf4+ 58. Kd1 Kf3 59. g7 e2+ 60. Kd2 Ng2 61. g8=Q e1=Q+ 62. Kc2 Ne3+
+63. Kb2 Qd2+ 64. Ka3 Nc2+ 65. Kb3 Nd4+ 66. Ka3 Qd3+ 67. Ka2 Qd2+ 68. Ka3
+Nxb5+ 69. Kb3 Nd4+ 70. Ka3 b5 71. Qf7+ Kg3 72. Qg8+ Kf2 73. Qf8+ Ke1 74.
+Qe7+ Kd1 75. Nb6 Qc3+ 0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.15"]
+[Round "8"]
+[White "Abou el Zein,E"]
+[Black "Frhat,A"]
+[Result "0-1"]
+[WhiteElo "2357"]
+[BlackElo "2397"]
+[EventDate "2009.07.08"]
+[ECO "A03"]
+
+1. f4 d5 2. Nf3 Nf6 3. e3 g6 4. b3 Bg7 5. Bb2 c5 6. Bb5+ Bd7 7. Qe2 O-O 8.
+Bxd7 Qxd7 9. O-O Nc6 10. d3 d4 11. e4 b5 12. a4 a6 13. Nbd2 Ng4 14. Ba3 Nb4
+15. Rfc1 Rac8 16. axb5 axb5 17. Bxb4 cxb4 18. Nf1 Rc3 19. h3 Nf6 20. Qd2
+Qc7 21. e5 Nd5 22. Nxd4 Qc5 23. Qf2 Nxf4 24. Ng3 Nxd3 25. cxd3 Rxc1+ 26.
+Rxc1 Qxc1+ 27. Kh2 Bxe5 28. Nde2 Qc2 29. Qe3 Bd6 30. h4 Qxb3 31. h5 Qd5 32.
+Kg1 b3 0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.15"]
+[Round "8"]
+[White "Ezat,M"]
+[Black "El Ghazali,Y"]
+[Result "1-0"]
+[WhiteElo "2459"]
+[BlackElo "2362"]
+[EventDate "2009.07.08"]
+[ECO "A53"]
+
+1. d4 Nf6 2. c4 Nc6 3. Nf3 d6 4. Nc3 Bg4 5. d5 Ne5 6. Nxe5 dxe5 7. Qb3 Bc8
+8. e4 e6 9. dxe6 fxe6 10. Bg5 c6 11. Rd1 Qb6 12. Qc2 Bc5 13. Bd3 O-O 14.
+O-O Bd4 15. h3 h6 16. Bh4 Nh5 17. Be2 Nf4 18. Bg3 Bd7 19. Bg4 h5 20. Bxf4
+hxg4 21. Bg3 gxh3 22. Ne2 hxg2 23. Kxg2 Be8 24. Nxd4 exd4 25. c5 Qd8 26.
+Qc4 Qf6 27. f4 Bh5 28. Rd2 Rad8 29. f5 Bf7 30. fxe6 Bxe6 31. Rxf6 Bxc4 32.
+Rxf8+ Kxf8 33. b3 Bg8 34. Bd6+ Kf7 35. Rxd4 Ke6 36. Rd3 Rd7 37. Rg3 b6 38.
+b4 bxc5 39. bxc5 Bh7 40. Kf3 Kf6 41. Kf4 Ke6 42. Ra3 Rf7+ 43. Ke3 Rb7 44.
+Ra6 Kd7 45. Kf4 Bg8 46. Be5 g6 47. Kg5 Bf7 48. Kf6 Be8 49. Bd6 Kc8 50. Be7
+g5 51. e5 g4 52. Ra4 Bh5 53. e6 Rb1 54. Bd6 Kb7 55. Kg5 Rh1 56. Rf4 g3 57.
+Rb4+ Ka6 58. Bxg3 Be8 59. Rb8 Rg1 60. Rxe8 Rxg3+ 61. Kf6 Rf3+ 62. Ke5 Kb5
+63. Rb8+ Kxc5 64. e7 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.15"]
+[Round "8"]
+[White "El Gindy,E"]
+[Black "Amin,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2501"]
+[BlackElo "2357"]
+[EventDate "2009.07.08"]
+[ECO "E11"]
+
+1. d4 e6 2. c4 Nf6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 Nc6 6. Nc3 Bxc3 7. Bxc3 Ne4
+8. Rc1 O-O 9. Bg2 d6 10. O-O Nxc3 11. Rxc3 e5 12. d5 Nb8 13. b4 a5 14. Ra3
+Bd7 15. Qd2 a4 16. Rc1 Na6 17. Ne1 f5 18. Nd3 e4 19. Nf4 g5 20. Ne6 Bxe6
+21. dxe6 c5 22. b5 Nc7 23. f3 Nxe6 24. fxe4 f4 25. Qd5 Kh8 26. e3 fxe3 27.
+Rxe3 Nd4 28. e5 b6 29. Qxd6 Qxd6 30. exd6 Rad8 31. Rf1 Rxf1+ 32. Kxf1 Rxd6
+33. Re8+ Kg7 34. Re7+ Kh8 35. Kf2 Rf6+ 36. Kg1 Nf3+ 37. Bxf3 Rxf3 38. Re6
+Rc3 39. Rxb6 Rxc4 40. Rc6 Rc1+ 41. Kg2 Rc2+ 42. Kh3 Rxa2 43. Rxc5 Rb2 44.
+Rxg5 a3 45. Rc5 a2 46. Rc8+ Kg7 47. Ra8 Rxb5 48. Rxa2 Rb4 49. Ra6 Rb2 50.
+g4 Rc2 51. Kg3 Rc3+ 52. Kh4 Rc2 53. h3 Rc3 54. g5 Rb3 55. Kg4 Rb4+ 56. Kh5
+Rb7 57. Ra4 Rc7 58. h4 Rb7 59. Kg4 h6 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.15"]
+[Round "8"]
+[White "Wageih,K"]
+[Black "Amin,B"]
+[Result "0-1"]
+[WhiteElo "2253"]
+[BlackElo "2551"]
+[EventDate "2009.07.08"]
+[ECO "E11"]
+
+1. d4 e6 2. c4 Nf6 3. Nf3 Bb4+ 4. Nbd2 b6 5. a3 Bxd2+ 6. Bxd2 Bb7 7. Bg5 h6
+8. Bh4 d6 9. e3 Nbd7 10. Be2 Qe7 11. O-O g5 12. Bg3 h5 13. h4 Ne4 14. Nxg5
+Nxg5 15. hxg5 h4 16. Bh2 Qxg5 17. Bf3 Bxf3 18. Qxf3 Ke7 19. Bf4 Qg6 20. e4
+Rag8 21. e5 dxe5 22. Bxe5 Nxe5 23. dxe5 Rh5 24. Kh1 Rxe5 25. Rg1 Qe4 26.
+Qh3 Rf5 27. Rae1 Qf4 28. Ref1 Qxc4 29. Rc1 Qf4 30. Rc3 c5 31. Rf3 Qg4 32.
+Qxg4 Rxg4 33. Rxf5 exf5 34. f3 Rd4 35. Re1+ Kd6 36. Re2 a5 37. Kh2 b5 38.
+Re8 b4 39. a4 b3 0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.16"]
+[Round "9"]
+[White "Amin,B"]
+[Black "Sadek,S"]
+[Result "1-0"]
+[WhiteElo "2551"]
+[BlackElo "2384"]
+[EventDate "2009.07.08"]
+[ECO "C00"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d5 4. Nbd2 Nc6 5. g3 Nf6 6. Bg2 Be7 7. O-O O-O 8.
+Re1 b5 9. e5 Nd7 10. Nf1 a5 11. h4 b4 12. Bf4 a4 13. a3 bxa3 14. bxa3 Ba6
+15. Ne3 Rb8 16. c4 dxc4 17. Nxc4 Nb6 18. Nxb6 Rxb6 19. Re3 c4 20. Ng5 h6
+21. Be4 cxd3 22. Qh5 Nd4 23. Bh7+ Kh8 24. Bxd3 Qe8 25. Bxa6 Rxa6 26. Rd3
+Nb3 27. Rad1 f5 28. Qxe8 Rxe8 29. Nf7+ Kg8 30. Nd6 Rd8 31. Nxf5 Rxd3 32.
+Nxe7+ Kf7 33. Rxd3 Kxe7 34. Rc3 Nd4 35. Rc7+ Kf8 36. Be3 Nf3+ 37. Kg2 Nxe5
+38. Bd4 Nf7 39. Rc8+ Ke7 40. Bxg7 e5 41. Bf8+ Kd7 42. Rc4 Ra8 43. Bb4 Ra6
+44. Kf3 h5 45. Ke3 Rf6 46. Bc3 Ra6 47. Rb4 Ke6 48. Rb5 Rc6 49. Kd3 Kf5 50.
+f3 Rd6+ 51. Ke2 Rg6 52. Be1 Re6 53. Ra5 Nd6 54. Rxa4 e4 55. Ra5+ Kg6 56.
+Rg5+ Kh6 57. Bb4 exf3+ 58. Kxf3 Ne4 59. Bf8+ Kh7 60. Rxh5+ Kg8 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.16"]
+[Round "9"]
+[White "Amin,A"]
+[Black "Wageih,K"]
+[Result "0-1"]
+[WhiteElo "2357"]
+[BlackElo "2253"]
+[EventDate "2009.07.08"]
+[ECO "D94"]
+
+1. Nf3 d5 2. c4 c6 3. e3 Nf6 4. Nc3 g6 5. d4 Bg7 6. Be2 O-O 7. O-O dxc4 8.
+Bxc4 Bg4 9. Be2 Nbd7 10. e4 Nb6 11. a4 e5 12. dxe5 Nfd7 13. a5 Nc8 14. Qb3
+Qc7 15. Be3 Nxe5 16. Nxe5 Bxe2 17. Nxf7 Bxf1 18. Ng5+ Kh8 19. Rxf1 h6 20.
+Ne6 Qf7 21. f4 Nd6 22. g4 Rae8 23. f5 gxf5 24. exf5 Nxf5 25. gxf5 Qg8 26.
+Ne4 Be5+ 27. Kh1 Rxe6 28. Rg1 Rg6 29. Qxg8+ Rgxg8 30. Rf1 Rg4 31. Bxh6 Rfg8
+32. f6 Rh4 33. Bg7+ Rxg7 34. fxg7+ Kxg7 35. Nf2 Rxh2+ 36. Kg1 Rh5 37. Nd3
+Bd4+ 38. Kg2 Rxa5 39. Rd1 Ra2 40. Rd2 c5 41. Rc2 b5 42. Nxc5 Bxc5 43. Rxc5
+Rxb2+ 44. Kf1 a5 45. Ke1 a4 46. Kd1 a3 47. Kc1 b4 48. Ra5 Kf6 49. Kd1 a2
+0-1
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.16"]
+[Round "9"]
+[White "El Ghazali,Y"]
+[Black "El Gindy,E"]
+[Result "1-0"]
+[WhiteElo "2362"]
+[BlackElo "2501"]
+[EventDate "2009.07.08"]
+[ECO "A37"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 e5 6. d3 d6 7. a3 a5 8. O-O
+Nge7 9. Rb1 O-O 10. Ne1 Nf5 11. Nc2 Nfd4 12. Ne3 f5 13. Ned5 f4 14. e3 fxe3
+15. fxe3 Rxf1+ 16. Qxf1 Nb3 17. Nb5 Ne7 18. Nf6+ Kh8 19. Ne4 Ra6 20. Ng5
+Kg8 21. Qf7+ Kh8 22. Bxb7 Bxb7 23. Ne6 Qg8 24. Qxe7 Bc8 25. Nbc7 Rb6 26.
+Nxg7 Qxg7 27. Qd8+ Qg8 28. Ne8 Qf8 29. Qxc8 Qf3 30. Nf6+ 1-0
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.16"]
+[Round "9"]
+[White "Frhat,A"]
+[Black "Ezat,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2397"]
+[BlackElo "2459"]
+[EventDate "2009.07.08"]
+[ECO "E62"]
+
+1. c4 Nf6 2. Nf3 g6 3. d4 Bg7 4. Nc3 O-O 5. g3 Nc6 6. Bg2 d6 7. O-O Bg4 8.
+Be3 Nd7 9. Rc1 e5 10. d5 Bxf3 11. exf3 Ne7 12. f4 Bh6 13. fxe5 1/2-1/2
+
+[Event "ch-EGY"]
+[Site "Cairo EGY"]
+[Date "2009.07.16"]
+[Round "9"]
+[White "Adly,A"]
+[Black "Abou el Zein,E"]
+[Result "1-0"]
+[WhiteElo "2548"]
+[BlackElo "2357"]
+[EventDate "2009.07.08"]
+[ECO "D11"]
+
+1. d4 d5 2. Nf3 Nf6 3. g3 Bf5 4. Bg2 h6 5. O-O e6 6. c4 c6 7. Nc3 Be7 8.
+Qb3 Qb6 9. c5 Qxb3 10. axb3 O-O 11. b4 Ne4 12. Nd2 Nxc3 13. bxc3 Nd7 14. e4
+dxe4 15. Nxe4 a6 16. c4 Nf6 17. Nxf6+ Bxf6 18. Be3 Rfd8 19. Rfd1 Rac8 20.
+b5 axb5 21. cxb5 Bg4 22. Rd2 e5 23. d5 e4 24. dxc6 bxc6 25. Rxd8+ Rxd8 26.
+Rb1 cxb5 27. Bxe4 Be5 28. Rxb5 f5 29. Bc2 Bf3 30. c6 Ra8 31. Bxf5 Ra1+ 32.
+Rb1 Rxb1+ 33. Bxb1 Bxc6 34. Bg6 Bf3 35. Bc5 h5 36. h4 Bc3 37. Kf1 Kh8 38.
+Kg1 Kg8 39. Kh2 Kh8 40. Kh3 Kg8 41. Kh2 Kh8 42. Ba7 Kg8 43. Bb6 Kh8 44. Bc5
+Kg8 45. Kh3 Kh8 46. Bf5 Kg8 47. g4 Bxg4+ 48. Bxg4 hxg4+ 49. Kxg4 Kf7 50. h5
+Kg8 51. Kg5 Kh7 52. Be3 Bf6+ 53. Kf5 Bc3 54. f3 Bb2 55. Ke6 Bc3 56. Bf4 Bb2
+57. Kf7 Bc3 58. Bg5 Bb2 59. f4 Bc1 60. Ke6 Bd2 61. Kf5 Bc3 62. Be7 Bb2 63.
+Kg5 Bc3 64. Bd6 Bf6+ 65. Kf5 Bc3 66. Be5 Bb4 67. Ke6 Be1 68. f5 Bd2 69. Kf7
+Bh6 70. Bd4 Bd2 71. Bxg7 Bb4 72. h6 Bd2 73. Ke6 1-0
+

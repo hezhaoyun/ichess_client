@@ -1,0 +1,585 @@
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.05"]
+[Round "1"]
+[White "Sokolov,Ivan"]
+[Black "Van Kampen,R"]
+[Result "1-0"]
+[WhiteElo "2650"]
+[BlackElo "2595"]
+[EventDate "2013.07.05"]
+[ECO "A41"]
+
+1. d4 d6 2. c4 e5 3. d5 a5 4. Nc3 Na6 5. e4 g6 6. Bd3 h5 7. Nge2 h4 8. h3
+Bh6 9. f4 exf4 10. Nxf4 Nf6 11. O-O Nd7 12. Bc2 Nac5 13. Na4 Qe7 14. Nxc5
+Nxc5 15. Qd4 Qe5 16. Qf2 Qe7 17. e5 dxe5 18. d6 Qf6 19. Qxc5 exf4 20. Ba4+
+1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.05"]
+[Round "1"]
+[White "Reinderman,D"]
+[Black "Spoelman,W"]
+[Result "0-1"]
+[WhiteElo "2575"]
+[BlackElo "2557"]
+[EventDate "2013.07.05"]
+[ECO "B51"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6 4. Bxc6+ bxc6 5. O-O Bg4 6. h3 Bh5 7. e5
+dxe5 8. g4 e4 9. gxh5 exf3 10. Nc3 Nf6 11. Qxf3 Nd5 12. Ne4 e6 13. d3 Be7
+14. Re1 O-O 15. a3 Kh8 16. h6 gxh6 17. c4 Nf6 18. Bxh6 Rg8+ 19. Kh1 Rg6 20.
+Bf4 Qd4 21. Nc3 Rd8 22. Rad1 Kg8 23. Bg3 Bd6 24. Rd2 Bxg3 25. fxg3 Kh8 26.
+Re3 Rdg8 27. Ne2 Qd6 28. d4 e5 29. Rxe5 cxd4 30. Rf5 c5 31. b4 Qe6 32. Rd3
+Ne4 33. g4 Ng5 34. Qg2 Nxh3 35. Qxh3 Qxe2 36. Rxf7 Qe4+ 37. Qf3 Rh6+ 38.
+Kg2 Rxg4+ 39. Kf2 Rh2+ 40. Kf1 Rh1+ 41. Kf2 Qe1+ 0-1
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.05"]
+[Round "1"]
+[White "Smeets,J"]
+[Black "Pruijssers,R"]
+[Result "0-1"]
+[WhiteElo "2643"]
+[BlackElo "2549"]
+[EventDate "2013.07.05"]
+[ECO "C63"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d3 fxe4 5. dxe4 Nf6 6. O-O Bc5 7. Bxc6
+bxc6 8. Nxe5 O-O 9. Nc3 d6 10. Na4 Qe8 11. Nd3 Bg4 12. Qe1 Bd4 13. c3 Bb6
+14. b3 Qxe4 15. Qd2 Bf5 16. Nf4 Rfe8 17. Nxb6 axb6 18. f3 Qe5 19. g4 Bd7
+20. Nd3 Qd5 21. Nf4 Qf7 22. c4 c5 23. Bb2 Bc6 24. Bc3 b5 25. cxb5 Bxb5 26.
+Rf2 Bc6 27. b4 cxb4 28. Bxf6 Qxf6 29. Rc1 b3 30. axb3 Ra1 31. Kg2 Rxc1 32.
+Qxc1 Ba8 33. h4 Qxh4 34. Qc4+ Kh8 35. Qf7 Bc6 36. Kg1 Re1+ 37. Kg2 Qxg4+
+38. Kh2 Qh4+ 39. Kg2 Qg5+ 40. Kh2 Qh4+ 41. Kg2 Re8 42. Re2 Qg4+ 43. Kh2
+Rxe2+ 44. Nxe2 Qxf3 45. Nf4 Qf2+ 46. Kh3 Bd7+ 47. Qxd7 Qf3+ 48. Kh2 Qxf4+
+49. Kg2 Qd2+ 50. Kh1 Qd1+ 51. Kh2 Qc2+ 52. Kh1 Qxb3 53. Qxc7 Qd5+ 54. Kh2
+h5 55. Qc8+ Kh7 56. Qc2+ Kh6 57. Qc1+ Qg5 58. Qc6 Qf4+ 59. Kh1 g5 60. Qe8
+Qf6 61. Qg8 g4 62. Qa2 Qf3+ 63. Kg1 Qe3+ 64. Kh1 h4 65. Qg8 Qe1+ 66. Kh2
+Qf2+ 67. Kh1 Qf1+ 0-1
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.05"]
+[Round "1"]
+[White "L'Ami,E"]
+[Black "Ernst,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2640"]
+[BlackElo "2589"]
+[EventDate "2013.07.05"]
+[ECO "D16"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 e6 6. e3 c5 7. Bxc4 Nc6 8.
+O-O Be7 9. Qe2 cxd4 10. Nxd4 Bd7 11. Nf3 O-O 12. e4 Be8 13. Rd1 Nd7 14. e5
+a6 15. Qe4 Qc7 16. Bd3 g6 17. Bf4 Nc5 18. Qe3 Nb4 19. Be4 Nxe4 20. Nxe4 Nc2
+21. Qc1 Qc6 22. Bg5 Bxg5 23. Nfxg5 Nxa1 24. Qf4 h6 25. Nf3 Kg7 26. Rxa1 Qc2
+27. Qf6+ Kh7 28. Qf4 Bc6 29. Nf6+ Kg7 30. Ng4 Rh8 31. Nd4 Qe4 32. Nxe6+
+fxe6 33. Qf6+ Kg8 34. Qxe6+ Kf8 35. Qf6+ Kg8 36. Qe6+ Kf8 37. Qd6+ Kf7 38.
+Qf6+ Kg8 39. Qe6+ 1/2-1/2
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.06"]
+[Round "2"]
+[White "Pruijssers,R"]
+[Black "Sokolov,Ivan"]
+[Result "1-0"]
+[WhiteElo "2549"]
+[BlackElo "2650"]
+[EventDate "2013.07.05"]
+[ECO "C53"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. Bb3 h6 7. Nbd2 a6 8.
+Nf1 O-O 9. Ng3 d5 10. Qe2 Be6 11. O-O Re8 12. h3 Bf8 13. Bc2 b5 14. Rd1 Qd7
+15. d4 exd4 16. e5 Nh7 17. cxd4 Be7 18. Be3 f5 19. exf6 Bxf6 20. Rac1 Nf8
+21. Bb1 Rab8 22. Nh5 Bd8 23. Qc2 Rb6 24. Ne5 Nxe5 25. dxe5 Bf7 26. Nf4 Rb7
+27. Qc3 b4 28. Qd4 c5 29. Qxc5 Rxe5 30. Qc6 Bg5 31. Qxa6 b3 32. a4 Rb8 33.
+Rc3 Qe8 34. g3 Ra8 35. Qb5 Qe7 36. Nxd5 Qe6 37. Nc7 Qf6 38. Bxg5 Rxg5 39.
+Nxa8 Rxb5 40. axb5 Qe5 41. Nc7 Qe2 42. Rcc1 Qxb2 43. b6 Qa3 44. Be4 b2 45.
+Rb1 Ba2 46. b7 Bxb1 47. Bd5+ Kh7 48. b8=Q Bf5 49. Rf1 h5 50. Qe8 Kh6 51.
+Be4 Bxh3 52. Rb1 1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.06"]
+[Round "2"]
+[White "Spoelman,W"]
+[Black "Ernst,S"]
+[Result "1-0"]
+[WhiteElo "2557"]
+[BlackElo "2589"]
+[EventDate "2013.07.05"]
+[ECO "A21"]
+
+1. c4 e5 2. Nc3 d6 3. g3 f5 4. Bg2 Nf6 5. e3 Be7 6. Nge2 O-O 7. O-O Na6 8.
+Rb1 c6 9. b4 e4 10. Qb3 Kh8 11. f3 d5 12. cxd5 cxd5 13. a3 Nc7 14. Nd4 Bd6
+15. Bb2 Bd7 16. Rbc1 Be5 17. Nce2 Qe8 18. Rf2 Rc8 19. Rcf1 Nb5 20. fxe4 Ng4
+21. Rxf5 Bxf5 22. exf5 Nd6 23. Qxd5 Nf6 24. Qb3 Nc4 25. Bc3 Ne4 26. Bxe4
+Bxd4 27. Nxd4 Qxe4 28. Rf4 Qd5 29. Ne6 Rf7 30. Nxg7 Nxe3 31. Ne6+ 1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.06"]
+[Round "2"]
+[White "Van Kampen,R"]
+[Black "L'Ami,E"]
+[Result "1-0"]
+[WhiteElo "2595"]
+[BlackElo "2640"]
+[EventDate "2013.07.05"]
+[ECO "C96"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Nd7 12. a4 Bb7 13. d5 Nb6 14. b4 Nac4
+15. bxc5 dxc5 16. Nbd2 Nxd2 17. Qxd2 Bd6 18. Qe2 Qe8 19. Rb1 c4 20. Be3 Nc8
+21. Rb2 Ne7 22. Reb1 Ba3 23. Ra2 Bd6 24. Rab2 Ba3 25. Ra2 Bd6 26. Qd1 Rb8
+27. Ba7 Ra8 28. Be3 Rb8 29. Ba7 Ra8 30. Bb6 h6 31. Rab2 Ba3 32. d6 Ng6 33.
+d7 Qe7 34. Ra2 Bc6 35. Rxa3 Qxa3 36. d8=Q Raxd8 37. Bxd8 Qxc3 38. Bb6 Qa3
+39. Ba5 Re8 40. Bb4 Qa2 41. g3 1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.06"]
+[Round "2"]
+[White "Reinderman,D"]
+[Black "Smeets,J"]
+[Result "1-0"]
+[WhiteElo "2575"]
+[BlackElo "2643"]
+[EventDate "2013.07.05"]
+[ECO "D10"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6 5. Bf4 Nc6 6. e3 a6 7. Bd3 Bg4 8.
+Nge2 e6 9. Rc1 Bxe2 10. Qxe2 Bd6 11. Bg5 Be7 12. O-O h6 13. Bxf6 Bxf6 14.
+Na4 Be7 15. Nc5 Bxc5 16. Rxc5 O-O 17. Rfc1 Qd6 18. g3 Rfd8 19. a3 g6 20.
+Qc2 e5 21. dxe5 Nxe5 22. Rd1 Nf3+ 23. Kg2 Ng5 24. Be2 Qe6 25. Qd3 d4 26.
+exd4 Qh3+ 27. Kg1 Ne6 28. Rc4 b5 29. Rb4 a5 30. Bf1 Qg4 31. f3 Qg5 32. Rxb5
+Qf6 33. d5 Nc7 34. Qc3 Qd6 35. Rc5 Qb6 36. Kg2 Ne8 37. Rc6 Qb8 38. Rd2 Nd6
+39. Bd3 Ra7 40. Qe5 Rad7 41. h4 h5 42. Rc5 Re8 43. Qc3 Re1 44. Rxa5 Kh7 45.
+b4 Rde7 46. Qd4 Qe8 47. Qf2 Nf5 48. d6 Nxd6 49. Rxh5+ Kg8 50. Rd5 R7e6 51.
+Bf1 Kh7 52. Rxd6 1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.07"]
+[Round "3"]
+[White "L'Ami,E"]
+[Black "Pruijssers,R"]
+[Result "1-0"]
+[WhiteElo "2640"]
+[BlackElo "2549"]
+[EventDate "2013.07.05"]
+[ECO "A80"]
+
+1. d4 f5 2. Bg5 g6 3. Nc3 Bg7 4. h4 h6 5. Bf4 Nf6 6. e3 d6 7. Qf3 O-O 8.
+Bc4+ e6 9. O-O-O Nc6 10. a3 Qe7 11. Nge2 Bd7 12. Qh3 Kh7 13. f3 e5 14. dxe5
+Nxe5 15. Ba2 Rae8 16. Bg5 hxg5 17. hxg5+ Nh5 18. Nf4 Qxg5 19. Nxh5 Qxe3+
+20. Kb1 gxh5 21. Qxh5+ Qh6 22. Qg5 Be6 23. Rxh6+ Bxh6 24. Rh1 Nf7 25. Qf6
+Bxa2+ 26. Kxa2 1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.07"]
+[Round "3"]
+[White "Smeets,J"]
+[Black "Spoelman,W"]
+[Result "0-1"]
+[WhiteElo "2643"]
+[BlackElo "2557"]
+[EventDate "2013.07.05"]
+[ECO "D20"]
+
+1. d4 d5 2. c4 dxc4 3. e4 e5 4. Nf3 exd4 5. Qxd4 Qxd4 6. Nxd4 Nf6 7. Nc3
+Bc5 8. Ndb5 Na6 9. Bf4 Be6 10. Nxc7+ Nxc7 11. Bxc7 O-O 12. f3 Rac8 13. Bf4
+Rfd8 14. Rd1 a6 15. Be2 b5 16. a3 h6 17. Bg3 Rxd1+ 18. Nxd1 a5 19. Bf2 Nd7
+20. Kd2 b4 21. axb4 axb4 22. Kc2 Bxf2 23. Nxf2 Ra8 24. f4 f5 25. Rd1 Nc5
+26. Rd6 Bf7 27. exf5 c3 28. bxc3 Ra2+ 29. Kd1 bxc3 30. Rd8+ Kh7 31. Nd3 c2+
+32. Kd2 Nb3+ 33. Ke3 Ra3 34. Kf2 Nc5 35. Rc8 Rc3 36. Kg1 c1=Q+ 37. Nxc1
+Rxc1+ 38. Bf1 Bc4 0-1
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.07"]
+[Round "3"]
+[White "Sokolov,Ivan"]
+[Black "Reinderman,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2650"]
+[BlackElo "2575"]
+[EventDate "2013.07.05"]
+[ECO "E70"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Bg5 h6 6. Be3 Ng4 7. Bc1 c5 8.
+dxc5 dxc5 9. Qxd8+ Kxd8 10. h3 Bxc3+ 11. bxc3 Ne5 12. f4 Nec6 13. Nf3 b6
+14. Be3 Nd7 15. O-O-O Ba6 16. h4 Kc7 17. h5 Nf6 18. hxg6 fxg6 19. Nh4 g5
+20. Ng6 Ng4 21. Bg1 gxf4 22. Nxf4 Nce5 23. Nd5+ Kb7 24. Ne3 Nxe3 25. Bxe3
+Bxc4 26. Rxh6 Rxh6 27. Bxh6 Rg8 28. Bf4 Bxf1 29. Bxe5 Bxg2 30. Rd7+ Ka6 31.
+Rxe7 Bxe4 32. Bg7 Bg6 33. Kb2 Rd8 34. Bh6 Rh8 35. Bf4 Rf8 36. Rg7 Bd3 37.
+Rg4 Re8 38. Rg2 Kb5 39. Rh2 Kc4 40. Bd2 Bg6 41. Rg2 Re6 42. Bc1 Bf5 43. Rf2
+Be4 44. Re2 b5 45. a3 a6 46. Bf4 a5 47. Re1 b4 48. cxb4 axb4 49. axb4 Kxb4
+50. Bd6 Rxd6 51. Rxe4+ c4 52. Kc2 Rh6 53. Re3 Rh2+ 1/2-1/2
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.07"]
+[Round "3"]
+[White "Ernst,S"]
+[Black "Van Kampen,R"]
+[Result "0-1"]
+[WhiteElo "2589"]
+[BlackElo "2595"]
+[EventDate "2013.07.05"]
+[ECO "E97"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 e5 7. O-O Nc6 8.
+d5 Ne7 9. b4 a5 10. Ba3 axb4 11. Bxb4 b6 12. a4 Re8 13. Nd2 c5 14. Ba3 Rf8
+15. Bb2 Ne8 16. Nb5 Bh6 17. Ra3 f5 18. f4 Bxf4 19. Rxf4 exf4 20. e5 dxe5
+21. Bxe5 g5 22. Bh5 Bd7 23. Bxe8 Rxe8 24. Bc7 Qc8 25. d6 Ng6 26. Nf3 g4 27.
+Ng5 Re5 28. Bxb6 Qc6 29. Nc7 Qxb6 30. Nxa8 Qa5 0-1
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.08"]
+[Round "4"]
+[White "Reinderman,D"]
+[Black "L'Ami,E"]
+[Result "1-0"]
+[WhiteElo "2575"]
+[BlackElo "2640"]
+[EventDate "2013.07.05"]
+[ECO "A15"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 b6 4. Bg2 Bb7 5. O-O c5 6. Nc3 Nc6 7. d4 Nxd4 8.
+Nxd4 Bxg2 9. Nxe6 dxe6 10. Kxg2 Be7 11. Bf4 Qd7 12. e4 Qc6 13. Qf3 O-O 14.
+Rad1 Rfd8 15. h4 a6 16. h5 h6 17. g4 b5 18. Rxd8+ Bxd8 19. e5 Qxf3+ 20.
+Kxf3 Ne8 21. b3 bxc4 22. bxc4 Rb8 23. Rb1 Rb4 24. Rxb4 cxb4 25. Na4 a5 26.
+Ke4 Kf8 27. Be3 f6 28. f4 Ke7 29. Bc5+ Kf7 30. Bd6 g6 31. hxg6+ Kxg6 32.
+f5+ exf5+ 33. gxf5+ Kh7 34. c5 fxe5 35. Bxe5 h5 36. Nb6 Bc7 37. Nd5 Bxe5
+38. Kxe5 h4 39. f6 Kg8 40. Ke6 Kf8 41. f7 Ng7+ 42. Kf6 1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.08"]
+[Round "4"]
+[White "Pruijssers,R"]
+[Black "Ernst,S"]
+[Result "1-0"]
+[WhiteElo "2549"]
+[BlackElo "2589"]
+[EventDate "2013.07.05"]
+[ECO "C53"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. O-O d5 7. exd5 Nxd5
+8. Re1 Bg4 9. h3 Bh5 10. Nbd2 Nb6 11. b4 Bd6 12. Bb3 a5 13. b5 Ne7 14. a4
+Kh8 15. g4 Bg6 16. Nxe5 Bxe5 17. Rxe5 f6 18. Re1 Ned5 19. Ba3 Re8 20. Rxe8+
+Qxe8 21. Qf3 Nxc3 22. Bb2 Nbxa4 23. Bxa4 Nxa4 24. Rxa4 Qxb5 25. Ra2 Rd8 26.
+Qf4 Rxd3 27. g5 Qxg5+ 28. Qxg5 fxg5 29. Rxa5 h6 30. Nc4 Rb3 31. Ra8+ Kh7
+32. Rc8 Bf7 33. Rxc7 Bxc4 34. Rxg7+ Kh8 35. Be5 Rb5 36. Rxg5+ Kh7 37. Rg7+
+Kh8 38. Bf6 Rb6 39. Bd4 Rb1+ 40. Kh2 Rd1 41. Bf6 Rd6 42. Ba1 Ra6 43. Bd4
+Ba2 44. f4 Ra4 45. Be5 Ra5 46. Bc3 Ra3 47. Bb2 Ra4 48. Kg3 Bb1 49. Kh4 1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.08"]
+[Round "4"]
+[White "Spoelman,W"]
+[Black "Van Kampen,R"]
+[Result "1/2-1/2"]
+[WhiteElo "2557"]
+[BlackElo "2595"]
+[EventDate "2013.07.05"]
+[ECO "A20"]
+
+1. c4 e5 2. g3 Nc6 3. Bg2 Bc5 4. d3 d6 5. Nc3 a6 6. Nf3 Nge7 7. a3 O-O 8.
+O-O Bf5 9. b4 Ba7 10. Bb2 Qd7 11. e3 Bg4 12. Qd2 Qf5 13. Nh4 Qh5 14. Nd5
+Nxd5 15. Bxd5 Rae8 16. b5 axb5 17. cxb5 Nd8 18. Rac1 Re7 19. a4 g5 20. Ng2
+c6 21. f3 Be6 22. g4 Qh3 23. Bxe6 Rxe6 24. Qa5 Bc5 25. Rxc5 dxc5 26. Qc7
+Rfe8 27. e4 h5 28. Ne3 R6e7 29. Qd6 Re6 30. Qc7 R6e7 31. Qd6 Re6 32. Qc7
+1/2-1/2
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.08"]
+[Round "4"]
+[White "Smeets,J"]
+[Black "Sokolov,Ivan"]
+[Result "1/2-1/2"]
+[WhiteElo "2643"]
+[BlackElo "2650"]
+[EventDate "2013.07.05"]
+[ECO "C84"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 d6 7. c3 O-O 8.
+Nbd2 b5 9. Bc2 d5 10. Re1 dxe4 11. dxe4 Bc5 12. h3 h6 13. a4 Rb8 14. b4 Bd6
+15. Nf1 Ne7 16. Ng3 Be6 17. Be3 Re8 18. Bb3 Qc8 19. Qc2 Ng6 20. Bxe6 Qxe6
+21. axb5 axb5 22. Ra6 Ra8 23. Rea1 Rxa6 24. Rxa6 Qc8 25. Ra7 Ne7 26. Qe2
+Qd7 27. Ra6 Rb8 28. Nh4 Qc8 29. Ra7 Qe6 30. Ra5 Qb3 31. Qd3 Bxb4 32. Rxb5
+Rxb5 33. Qxb5 Qxc3 34. Qa6 Qc6 35. Qd3 Bd6 36. Kh2 Qa4 37. Nf3 Ng6 38. Nd2
+Nf4 39. Bxf4 exf4 40. Nf5 Bf8 41. e5 Qd7 42. Qc2 Nd5 43. Nd4 Nb4 44. Qe4
+Qd5 45. Qxf4 Nd3 46. Qe4 Qxe5+ 47. Qxe5 Nxe5 48. f4 Nd3 49. g3 Bc5 50. N4b3
+Bb6 51. Kg2 Nb2 52. Kf3 f5 53. g4 g6 54. Nf1 Kf7 55. Ng3 Ke6 56. h4 fxg4+
+57. Kxg4 h5+ 58. Kf3 c5 59. f5+ gxf5 60. Nxh5 c4 61. Na1 Nd3 62. Nc2 Ke5
+63. Ng3 Kf6 64. Ne2 Ne5+ 65. Kg3 Bc5 66. Nc3 Nd3 67. Kf3 Ne5+ 68. Ke2 Ke6
+69. Na4 Ba7 70. Nc3 f4 71. Nb5 f3+ 72. Kd2 Bc5 73. Nbd4+ Kd5 74. Nf5 Ke4
+75. Ng7 Ng4 76. Ne6 Bb6 77. Ng5+ Kf4 78. Kc3 Ne5 79. Nxf3 Kxf3 80. Na3 Ba5+
+81. Kd4 c3 82. Kxe5 Kg4 83. Kd4 1/2-1/2
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.09"]
+[Round "5"]
+[White "Van Kampen,R"]
+[Black "Pruijssers,R"]
+[Result "1-0"]
+[WhiteElo "2595"]
+[BlackElo "2549"]
+[EventDate "2013.07.05"]
+[ECO "C63"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d3 fxe4 5. dxe4 Nf6 6. O-O Bc5 7. Qd3 Nd4
+8. Nxe5 Qe7 9. Nf3 Qxe4 10. Nxd4 Qxd3 11. Bxd3 Bxd4 12. Re1+ Kd8 13. Nd2
+Rf8 14. c3 Bc5 15. Nb3 b6 16. Bd2 d6 17. h3 h6 18. Re2 Nd7 19. Rae1 Ne5 20.
+Nxc5 bxc5 21. Be4 Rb8 22. f4 Nc4 23. Bc1 Bd7 24. Bg6 Rf6 25. Bd3 d5 26. Re7
+g6 27. Rg7 Be8 28. Bxg6 Rxg6 29. Rxe8+ Kxe8 30. Rxg6 Rb6 31. Rxb6 axb6 32.
+Kf2 Ke7 33. g4 Kf6 34. Kf3 Nd6 35. f5 Nf7 36. Bf4 Ng5+ 37. Ke3 c6 38. h4
+Nf7 39. Bc7 Ne5 40. Bxe5+ Kxe5 41. b3 h5 42. gxh5 Kxf5 43. a4 Ke5 44. Kd3
+Ke6 45. b4 c4+ 46. Kd2 1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.09"]
+[Round "5"]
+[White "Sokolov,Ivan"]
+[Black "Spoelman,W"]
+[Result "1/2-1/2"]
+[WhiteElo "2650"]
+[BlackElo "2557"]
+[EventDate "2013.07.05"]
+[ECO "D27"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. Bd3 Nbd7 8.
+Re1 Be7 9. e4 cxd4 10. e5 Nd5 11. Nxd4 Qb6 12. Bc4 Bc5 13. Re4 O-O 14. Nc3
+Bxd4 15. Rxd4 Nxc3 16. bxc3 Nxe5 17. Bb3 Qc6 18. Ba3 Re8 19. Qe1 f6 20. Rd6
+Qc7 21. Qe4 Nf7 22. Rd3 Bd7 23. Re1 Bc6 24. Qh4 Rad8 25. Rg3 Bd5 26. c4 Bc6
+27. Bc2 h6 28. Qh5 Ng5 29. h4 Qa5 30. hxg5 Qxe1+ 31. Kh2 fxg5 32. Rxg5 Be4
+33. Qxh6 Rd7 34. Qh5 Red8 35. Bb2 Qxf2 36. Qg4 Qxg2+ 37. Qxg2 Bxg2 38. Rxg2
+Rd2 39. Bc3 Rxg2+ 40. Kxg2 Rc8 41. Bd3 b5 42. Kf3 Kf7 43. Ke4 bxc4 44. Be2
+g5 45. a4 a5 46. Kd4 e5+ 47. Kd5 e4 48. Kxe4 Re8+ 49. Be5 c3 50. Bh5+ Kf8
+51. Bxe8 c2 52. Bb2 1/2-1/2
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.09"]
+[Round "5"]
+[White "Ernst,S"]
+[Black "Reinderman,D"]
+[Result "0-1"]
+[WhiteElo "2589"]
+[BlackElo "2575"]
+[EventDate "2013.07.05"]
+[ECO "E91"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 c5 7. O-O cxd4 8.
+Nxd4 Nc6 9. Nc2 Nd7 10. Bd2 a5 11. Rb1 Nc5 12. b3 f5 13. exf5 Bxf5 14. Nb5
+Nb4 15. Nxb4 axb4 16. Bxb4 Rxa2 17. Rc1 Bh6 18. f4 Qb6 19. Kh1 Ne4 20. Qd5+
+e6 21. Qd4 Qxd4 22. Nxd4 e5 23. Nxf5 gxf5 24. Bf3 Bxf4 25. Rce1 Nf2+ 26.
+Rxf2 Rxf2 27. Bd5+ Kg7 28. Bxd6 Rd8 29. Bc7 Rd7 30. Bb8 e4 31. Ba7 Rd2 32.
+g3 Be5 33. Rf1 Bd4 34. Bxd4+ Rxd4 35. Rxf5 Re7 36. Rf1 Rd2 37. Re1 e3 38.
+Kg1 Kf6 39. Bf3 Rb2 40. c5 Rxb3 41. c6 bxc6 42. Bxc6 Ke5 43. Kg2 Rb2+ 44.
+Kf3 Kd4 45. h4 Rf2+ 0-1
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.09"]
+[Round "5"]
+[White "L'Ami,E"]
+[Black "Smeets,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2640"]
+[BlackElo "2643"]
+[EventDate "2013.07.05"]
+[ECO "D10"]
+
+1. d4 d5 2. c4 c6 3. Nc3 dxc4 4. e3 b5 5. a4 b4 6. Ne4 Qd5 7. Nd2 c3 8.
+bxc3 bxc3 9. Nb1 Qa5 10. Qc2 Nf6 11. Nxc3 e6 12. Bd2 Bb4 13. Nf3 Nbd7 14.
+Bd3 c5 15. Ne4 Nxe4 16. Bxe4 Rb8 17. O-O Bxd2 18. Nxd2 cxd4 19. Nb3 Qc3 20.
+Nxd4 Qxc2 21. Bxc2 Bb7 22. a5 Ke7 23. Rfb1 1/2-1/2
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.10"]
+[Round "6"]
+[White "Reinderman,D"]
+[Black "Van Kampen,R"]
+[Result "1-0"]
+[WhiteElo "2575"]
+[BlackElo "2595"]
+[EventDate "2013.07.05"]
+[ECO "E98"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. d4 Bg7 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8.
+d5 Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. Rc1 Rf6 14. Nd3 b6
+15. b4 Rh6 16. c5 bxc5 17. bxc5 Qe8 18. g4 fxg3 19. Bxg3 Nf6 20. Nf2 a6 21.
+Qa4 Bd7 22. c6 Bh3 23. Rfe1 Nh5 24. Ng4 Nxg3 25. hxg3 Qh5 26. Nxh6+ Bxh6
+27. Nd1 g4 28. fxg4 Bxg4 29. Bxg4 Qxg4 30. Rc2 Nf5 31. Qa3 Nd4 32. Rf2 Kh8
+33. Qd3 Rg8 34. Kh2 Bg5 35. Ref1 Be7 36. Rf7 Qh5+ 37. Kg2 Ne2 38. R7f3 Bh4
+39. Rf5 Qg4 40. Qf3 Nxg3 41. Qxg4 Rxg4 42. Rf8+ Kg7 43. R1f7+ Kh6 44. Kh3
+Rxe4 45. Nf2 Rc4 46. Ng4+ Kg6 47. Kxh4 1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.10"]
+[Round "6"]
+[White "Spoelman,W"]
+[Black "Pruijssers,R"]
+[Result "1/2-1/2"]
+[WhiteElo "2557"]
+[BlackElo "2549"]
+[EventDate "2013.07.05"]
+[ECO "A04"]
+
+1. Nf3 f5 2. d3 Nc6 3. d4 e6 4. c4 Nf6 5. g3 Bb4+ 6. Nbd2 b6 7. Bg2 Bb7 8.
+O-O O-O 9. a3 Be7 10. b4 Qe8 11. Bb2 Nd8 12. Ne1 Qh5 13. Nd3 g5 14. d5 d6
+15. e4 Qxd1 16. Rfxd1 fxe4 17. Nxe4 exd5 18. Nxf6+ Bxf6 19. Bxf6 Rxf6 20.
+cxd5 a5 21. Rac1 Rf7 22. f4 h6 23. fxg5 hxg5 24. Nf2 Re7 25. Rd2 axb4 26.
+axb4 Ra4 27. Ne4 Nf7 28. Rb2 Ra3 29. Rbc2 Kg7 30. Rxc7 Rxc7 31. Rxc7 Bxd5
+32. Nxg5 Ra1+ 33. Bf1 Kf6 34. Nxf7 Bxf7 35. h4 Rb1 36. b5 Be8 37. Kf2 Bxb5
+38. Bxb5 Rxb5 39. Rc6 Ke5 40. h5 Rb2+ 41. Kg1 Kf6 42. Rxd6+ Kg5 43. Rd5+
+Kg4 44. h6 Rb1+ 45. Kf2 Rh1 46. Rd6 Kg5 47. Rxb6 Rxh6 48. Rb5+ Kg4 49. Rb4+
+Kg5 50. Kf3 Rf6+ 51. Rf4 1/2-1/2
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.10"]
+[Round "6"]
+[White "Sokolov,Ivan"]
+[Black "L'Ami,E"]
+[Result "1/2-1/2"]
+[WhiteElo "2650"]
+[BlackElo "2640"]
+[EventDate "2013.07.05"]
+[ECO "E49"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. a3 Bxc3+ 7. bxc3 c6 8.
+Nf3 b6 9. cxd5 cxd5 10. Qe2 Ne4 11. Bb2 Nc6 12. a4 Bb7 13. O-O Rc8 14. Ba3
+Re8 15. Rfc1 Na5 16. Bxe4 dxe4 17. Nd2 f5 18. c4 Ba6 19. Bb4 Nxc4 20. Nxc4
+Qd5 21. Nxb6 Bxe2 22. Nxd5 exd5 23. Bc5 Rc7 24. Rab1 Bd3 25. Rb4 g5 26. Rc3
+Kf7 27. Rcb3 Rec8 28. h3 Kg6 29. Rb7 Bc2 30. Rxc7 Rxc7 31. Rb4 f4 32. a5
+Bd3 33. Rb8 Rf7 34. Rg8+ Kf5 35. Rd8 Bc4 36. Rd6 fxe3 37. fxe3 g4 38. Kh2
+Rg7 39. h4 g3+ 40. Kh3 a6 41. Bb4 Rg6 42. Rb6 Bb5 43. Be1 Rxb6 44. axb6 Bc6
+45. Kxg3 h5 46. Kh3 Bb7 47. g4+ hxg4+ 48. Kg3 Bc8 49. Kf2 Bb7 50. Ke2 Bc6
+51. Kf2 Bb7 52. Kg3 Bc8 1/2-1/2
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.10"]
+[Round "6"]
+[White "Smeets,J"]
+[Black "Ernst,S"]
+[Result "1-0"]
+[WhiteElo "2643"]
+[BlackElo "2589"]
+[EventDate "2013.07.05"]
+[ECO "C91"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. d4 Bg4 10. Be3 exd4 11. cxd4 d5 12. e5 Ne4 13. h3 Bh5 14. Nbd2
+Qd7 15. a3 Kh8 16. Qc2 Bg6 17. Rac1 Nxd2 18. Qxd2 a5 19. Bg5 f6 20. e6 Qd8
+21. Rxc6 Be8 22. Rc5 fxg5 23. Rxd5 Qb8 24. Nxg5 Qb7 25. Qd3 g6 26. Qg3 Kg7
+27. Rd7 Bxd7 28. exd7 1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.10"]
+[Round "7"]
+[White "Pruijssers,R"]
+[Black "Reinderman,D"]
+[Result "0-1"]
+[WhiteElo "2549"]
+[BlackElo "2575"]
+[EventDate "2013.07.05"]
+[ECO "C11"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 cxd4 8.
+Nxd4 Bc5 9. Qd2 Bxd4 10. Bxd4 Nxd4 11. Qxd4 Qb6 12. Nb5 Qxd4 13. Nxd4 Ke7
+14. Bd3 Nb8 15. Kd2 Nc6 16. Nb3 Bd7 17. Rhf1 g5 18. g3 Rag8 19. Rf2 gxf4
+20. gxf4 Rg7 21. Re1 Rf8 22. c4 dxc4 23. Bxc4 b6 24. Rc1 Rfg8 25. Ke3 Rg1
+26. Rxg1 Rxg1 27. a3 f6 28. exf6+ Kxf6 29. Nd2 Re1+ 30. Kd3 Be8 31. Ne4+
+Ke7 32. Nc3 Bg6+ 33. Kd2 Rh1 34. Ke3 Re1+ 35. Kd2 Rh1 36. Bf1 Nd4 37. a4
+Rxh2 38. Rxh2 Nf3+ 39. Ke3 Nxh2 40. Ba6 Ng4+ 41. Kd4 h5 42. Nb5 h4 43. Nxa7
+h3 44. Bb7 h2 45. Nc6+ Kd6 0-1
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.10"]
+[Round "7"]
+[White "L'Ami,E"]
+[Black "Spoelman,W"]
+[Result "0-1"]
+[WhiteElo "2640"]
+[BlackElo "2557"]
+[EventDate "2013.07.05"]
+[ECO "D21"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 c6 4. e3 Be6 5. Qc2 Nf6 6. Bxc4 Bxc4 7. Qxc4
+Nbd7 8. O-O e6 9. Nc3 Be7 10. e4 O-O 11. Rd1 Rc8 12. Bf4 Re8 13. Qe2 a6 14.
+a3 h6 15. Rd3 Qa5 16. Rad1 Qh5 17. h3 Bf8 18. g4 Qa5 19. Bg3 b5 20. Nd2 Qb6
+21. Nf3 c5 22. e5 c4 23. Re3 Nd5 24. Nxd5 exd5 25. g5 g6 26. Kh2 a5 27. Bf4
+h5 28. Nh4 b4 29. axb4 axb4 30. Rg3 c3 31. bxc3 bxc3 32. Bc1 Rc4 33. Qc2
+Rec8 34. Ng2 Rxd4 35. Be3 Rxd1 36. Bxb6 Rd2 37. Qc1 c2 38. Qxd2 c1=Q 39.
+Qxc1 Rxc1 40. Bd4 Rd1 41. Bb2 d4 42. f4 Nb6 43. Ba3 Nc4 44. Bxf8 Kxf8 45.
+Rb3 d3 46. Rc3 Nb2 47. Rb3 Rd2 0-1
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.10"]
+[Round "7"]
+[White "Van Kampen,R"]
+[Black "Smeets,J"]
+[Result "1-0"]
+[WhiteElo "2595"]
+[BlackElo "2643"]
+[EventDate "2013.07.05"]
+[ECO "C88"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8.
+h3 Bb7 9. d3 d6 10. a3 Qd7 11. Nc3 Rae8 12. Be3 Bd8 13. a4 Na5 14. Ba2 c5
+15. axb5 axb5 16. Bg5 b4 17. Bxf6 Bxf6 18. Nd5 Bd8 19. c3 Qb5 20. cxb4 cxb4
+21. Bb3 Nxb3 22. Qxb3 Bxd5 23. Qxd5 Qxd5 24. exd5 Bb6 25. Ra6 Rb8 26. Nd2
+b3 27. Nc4 Bc5 28. Nxd6 Rfd8 29. Nc4 f6 30. d6 Kf7 31. Kf1 Rd7 32. f4 exf4
+33. Rc6 Bb4 34. Re4 Re8 35. Rc7 Rxc7 36. dxc7 Rc8 37. Nb6 1-0
+
+[Event "ch-NED 2013"]
+[Site "Amsterdam NED"]
+[Date "2013.07.10"]
+[Round "7"]
+[White "Ernst,S"]
+[Black "Sokolov,Ivan"]
+[Result "0-1"]
+[WhiteElo "2589"]
+[BlackElo "2650"]
+[EventDate "2013.07.05"]
+[ECO "D30"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Bb4+ 5. Bd2 Bd6 6. Bg2 Nbd7 7. O-O c6 8.
+b3 Ne4 9. Nc3 f5 10. Nxe4 fxe4 11. Ng5 Nf6 12. f3 h6 13. fxe4 hxg5 14. e5
+Be7 15. exf6 gxf6 16. Qc2 f5 17. a3 Bf6 18. e3 g4 19. b4 Bd7 20. a4 Qe7 21.
+Rf2 Rc8 22. Rc1 a6 23. Bf1 Kf7 24. Qb3 Kg7 25. Be1 Bg5 26. Rc3 b5 27. axb5
+axb5 28. cxb5 cxb5 29. Rc5 Kg6 30. Rfc2 Rb8 31. Rc7 Qd6 32. Bd2 Ra8 33. Qc3
+Bd8 34. Rc5 Qa6 35. Bc1 Be7 36. Bb2 Bg5 37. Be2 Rh7 38. Qd3 Kh6 39. Kg2 Qd6
+40. Bf1 Kg6 41. Bc1 Qf8 42. Qc3 Be7 43. Bb2 Qh8 44. Kg1 Bxc5 45. bxc5 Bc6
+46. Rf2 Ra2 47. Bd3 Rh5 48. Qb3 Ra7 49. Qd1 Rg5 50. Bc1 Ra1 51. Rb2 Qa8 52.
+Bb1 Qa4 53. Qd2 Rh5 54. Qe2 Kf7 55. Qd2 Qa5 56. Qe2 Rh8 57. Kg2 Qa4 58. Bd2
+Qa3 59. Bb4 Qa7 60. Qd3 Ke8 61. Qf1 Qc7 62. Rf2 Rh5 63. Bc3 Ra3 64. Qc1 Ra4
+65. Rb2 Qb8 66. Kg1 Ra7 67. Bd3 Rah7 68. Be1 Rb7 69. Ba5 Qa8 70. Qc3 Kf7
+71. Bb4 Ra7 72. Bb1 Kg8 73. Rd2 Qb8 74. Rf2 Rah7 75. Rg2 e5 76. dxe5 Re7
+77. Ra2 Qxe5 78. Qxe5 Rxe5 79. Ra6 Re6 80. Ba2 Kf7 81. Ra7+ Re7 82. Ra6 Rc7
+83. Ba5 Rc8 84. Bb3 Ke8 85. Bc3 Rh7 86. Bd4 Rhc7 87. Be5 Re7 88. Bd4 Kf7
+89. h3 gxh3 90. Kh2 Ke6 91. Bd1 Rec7 92. Kxh3 Ra8 93. Rb6 Rh7+ 94. Kg2 Kd7
+95. Kf3 Ra2 96. Bb3 Rd2 97. Ra6 Re7 98. Ba2 Rd1 99. Bb3 Rc1 100. Ra2 Kc8
+101. Bc2 Rf7 102. Kf4 Kb7 103. Ke5 Rg1 104. e4 Re1 105. Ke6 Rf8 106. e5 Re2
+107. Bb3 Rxa2 108. Bxa2 Rg8 109. Bf2 f4 110. g4 Rxg4 111. Bxd5 f3 0-1
+

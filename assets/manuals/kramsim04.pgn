@@ -1,0 +1,77 @@
+[Event "GER vs Kramnik sim"]
+[Site "Brissago SUI"]
+[Date "2004.01.29"]
+[Round "1"]
+[White "Lutz,C"]
+[Black "Kramnik,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2597"]
+[BlackElo "2777"]
+[EventDate "2004.01.29"]
+[ECO "C90"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8.
+d3 d6 9. c3 Na5 10. Bc2 c5 11. Nbd2 Nc6 12. Nf1 Re8 13. h3 h6 14. Ng3 Be6
+15. d4 cxd4 16. cxd4 exd4 17. Nxd4 Nxd4 18. Qxd4 Rc8 19. Bb3 d5 20. e5 Nd7
+21. Qd1 Nc5 22. Be3 Nxb3 23. axb3 d4 24. Bxd4 Qd5 25. Ne4 Red8 26. Nd6 Bxd6
+27. exd6 Qxd6 28. Bc3 Qxd1 29. Rexd1 Rxd1+ 30. Rxd1 Bxb3 31. Rd6 Ra8 32.
+Ba5 Kh7 33. f3 Rc8 34. Bc3 Bc4 35. Bd2 Ra8 36. b4 Be6 37. Kf2 1/2-1/2
+
+[Event "GER vs Kramnik sim"]
+[Site "Brissago SUI"]
+[Date "2004.01.29"]
+[Round "2"]
+[White "Kramnik,V"]
+[Black "Dautov,R"]
+[Result "1/2-1/2"]
+[WhiteElo "2777"]
+[BlackElo "2616"]
+[EventDate "2004.01.29"]
+[ECO "C42"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Nc6 7. O-O Be7
+8. c4 Nf6 9. Nc3 O-O 10. h3 Nb4 11. Be2 dxc4 12. Bxc4 c6 13. Re1 Nbd5 14.
+Bg5 Be6 15. Qb3 Rb8 16. Bh4 h6 17. Bg3 Bd6 18. Be5 Nc7 19. Bxe6 Nxe6 20.
+Rad1 Nf4 21. Bxf4 Bxf4 22. Ne5 Qc7 23. Qc2 Rbd8 24. Qf5 Bxe5 25. dxe5 Nd5
+26. Nxd5 Rxd5 27. Rxd5 cxd5 28. e6 Rd8 29. e7 Re8 30. Qxd5 1/2-1/2
+
+[Event "GER vs Kramnik sim"]
+[Site "Brissago SUI"]
+[Date "2004.01.29"]
+[Round "3"]
+[White "Huebner,R"]
+[Black "Kramnik,V"]
+[Result "0-1"]
+[WhiteElo "2604"]
+[BlackElo "2777"]
+[EventDate "2004.01.29"]
+[ECO "A46"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 b5 4. Bg2 d5 5. O-O Bb7 6. b3 Nbd7 7. c4 bxc4 8.
+bxc4 dxc4 9. Na3 c3 10. Nb5 Bb4 11. Qb3 a5 12. Nxc3 c5 13. a3 c4 14. Qb2
+Bxc3 15. Qxc3 Qc8 16. Bf4 O-O 17. Rfc1 Nb6 18. Rab1 Ra6 19. Rb5 Be4 20.
+Rxa5 Nbd5 21. Qe1 c3 22. Rc5 Qa8 23. Nh4 Bxg2 24. Nxg2 Ne4 25. Rb5 Rxa3 26.
+Ne3 Qa6 27. Rbb1 Nxe3 28. Bxe3 Ra2 29. Ra1 Qxe2 30. Rxa2 Qxa2 31. Bf4 Qd5
+32. f3 Nd2 33. Bxd2 cxd2 34. Qxd2 Qxf3 35. Qf4 Qxf4 36. gxf4 Rd8 37. Kf2 h6
+38. Ke3 Rd5 39. Rc2 Rh5 40. Kf3 Rh3+ 41. Ke4 f5+ 42. Ke5 Re3+ 43. Kd6 Kf7
+44. Rf2 g5 45. Kc5 Re4 46. fxg5 hxg5 47. Kc4 Kf6 48. Kd3 g4 49. Rf1 Kg5 50.
+Ra1 e5 51. dxe5 Rxe5 52. Ra8 Kf4 0-1
+
+[Event "GER vs Kramnik sim"]
+[Site "Brissago SUI"]
+[Date "2004.01.29"]
+[Round "4"]
+[White "Kramnik,V"]
+[Black "Bischoff,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2777"]
+[BlackElo "2561"]
+[EventDate "2004.01.29"]
+[ECO "C11"]
+
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 a6 8.
+Qd2 b5 9. a3 cxd4 10. Nxd4 Nxd4 11. Bxd4 Nb8 12. Bd3 Nc6 13. Bf2 Bd7 14.
+O-O Be7 15. Ne2 b4 16. a4 Na5 17. f5 exf5 18. Nd4 g6 19. e6 fxe6 20. Qe2
+Nc6 21. Nxe6 Bxe6 22. Qxe6 Qd6 23. Qe2 O-O 24. Bxa6 Bf6 25. Rad1 Ne5 26.
+Bb5 1/2-1/2
+

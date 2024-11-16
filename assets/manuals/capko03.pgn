@@ -1,0 +1,363 @@
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.27"]
+[Round "1.1"]
+[White "Kramnik,V"]
+[Black "Polgar,Ju"]
+[Result "1-0"]
+[WhiteElo "2777"]
+[BlackElo "2722"]
+[EventDate "2003.10.27"]
+[ECO "E12"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 d5 6. Qc2 c5 7. cxd5 exd5 8.
+e4 cxd4 9. Bb5+ Nbd7 10. e5 dxc3 11. exf6 Qc7 12. Qe2+ Kd8 13. fxg7 Bxg7
+14. O-O Re8 15. Bg5+ f6 16. Be3 a6 17. Bxd7 Kxd7 18. Nd4 Re4 19. bxc3 Qe5
+20. Rfb1 b5 21. a4 Bh6 22. axb5 a5 23. Qf3 Bxe3 24. fxe3 Rg8 25. Qh3+ Reg4
+26. Rxa5 Kd6 27. Ra2 Bc8 28. Qf3 Rh4 29. g3 Re4 30. b6 Rxe3 31. b7 Re1+ 32.
+Rxe1 Qxe1+ 33. Kg2 Bxb7 34. Qxf6+ Kc5 35. Re2 Qb1 36. Ne6+ Kb5 37. Qf7 Ka5
+38. Qc7+ 1-0
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.27"]
+[Round "1.2"]
+[White "Polgar,Ju"]
+[Black "Kramnik,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2722"]
+[BlackElo "2777"]
+[EventDate "2003.10.27"]
+[ECO "B21"]
+
+1. e4 c5 2. f4 e6 3. Nc3 d5 4. Nf3 dxe4 5. Nxe4 Nc6 6. Bb5 Bd7 7. O-O Nf6
+8. d3 a6 9. Nxf6+ gxf6 10. Ba4 Nd4 11. Bxd7+ Qxd7 12. Be3 Nf5 13. Qe2 O-O-O
+14. Bf2 Qc7 15. Nd2 Qxf4 16. Ne4 Qc7 17. c3 Bd6 18. b4 Bxh2+ 19. Kh1 Bg3
+20. bxc5 Rhg8 21. Kg1 Bh2+ 22. Kh1 Bg3 23. Rab1 Rg6 24. Bxg3 Nxg3+ 25. Nxg3
+Qxg3 26. Qb2 Rh6+ 27. Kg1 Qh2+ 28. Kf2 Qf4+ 29. Ke2 Qe5+ 30. Kd2 Qg5+ 31.
+Ke2 Qxg2+ 32. Rf2 Qxf2+ 33. Kxf2 Rh2+ 34. Ke3 Rxb2 35. Rxb2 h5 1/2-1/2
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.27"]
+[Round "1.1"]
+[White "Anand,V"]
+[Black "Ponomariov,R"]
+[Result "1/2-1/2"]
+[WhiteElo "2766"]
+[BlackElo "2718"]
+[EventDate "2003.10.27"]
+[ECO "C95"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3
+g6 15. b3 Bg7 16. d5 Rc8 17. c4 c6 18. Bd2 a5 19. Be3 Qc7 20. Bd3 bxc4 21.
+bxc4 Ba6 22. Bf1 Nc5 23. Bxc5 dxc5 24. Rb1 Bh6 25. Qc2 Rb8 26. Rxb8 Rxb8
+27. dxc6 Bf4 28. Ne2 Qxc6 29. Nxf4 exf4 30. Qd2 Re8 31. e5 Nh5 32. Qxa5 Bb7
+33. Nh2 f3 34. Nxf3 Nf4 35. Qd2 Ne6 36. Ng5 Rd8 37. Qe3 Rd4 38. Nxe6 Qxe6
+39. Qa3 Qb6 40. Qc3 Ba6 41. a4 Qe6 42. Qa5 Qc6 43. Rb1 Bxc4 44. Bxc4 Rxc4
+45. Qd8+ Kg7 46. Rb8 Kh6 47. Qf8+ Kg5 48. Qxf7 Qe4 49. Qf6+ Kh6 50. Kh2
+Rxa4 51. e6 Ra7 52. Rf8 Qd4 53. Qxd4 cxd4 54. Rf7 Ra2 55. h4 Re2 56. g4 g5
+57. hxg5+ Kxg5 58. Kg3 Kg6 59. Re7 h5 60. gxh5+ Kxh5 1/2-1/2
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.27"]
+[Round "1.2"]
+[White "Ponomariov,R"]
+[Black "Anand,V"]
+[Result "0-1"]
+[WhiteElo "2718"]
+[BlackElo "2766"]
+[EventDate "2003.10.27"]
+[ECO "E15"]
+
+1. Nf3 Nf6 2. c4 e6 3. d4 b6 4. g3 Ba6 5. Qb3 Nc6 6. Nbd2 d5 7. Bg2 Qd7 8.
+O-O Bd6 9. Qc3 O-O 10. Ne5 Bxe5 11. dxe5 Ng4 12. b4 dxc4 13. Nf3 f6 14. a4
+b5 15. Bf4 Rad8 16. Bh3 fxe5 17. Nxe5 Ngxe5 18. Bxe5 bxa4 19. Rad1 Qf7 20.
+Bf4 Bb5 21. Qe3 e5 22. Rxd8 Rxd8 23. Bxe5 Re8 24. f4 a6 25. Bg2 Nxe5 26.
+fxe5 Qe6 27. Qc5 c6 28. Rf3 Qe7 29. Qxe7 Rxe7 30. Re3 Kf8 31. Kf2 Ra7 32.
+Ra3 Ke7 33. Ke3 Rd7 34. Be4 h6 35. Bc2 Rd5 36. Bxa4 Rxe5+ 37. Kf2 Kd6 38.
+Bc2 c5 39. bxc5+ Kxc5 40. e4 Kb4 41. Ra2 c3 42. Ke3 Re7 43. Ra1 Rd7 44.
+Rb1+ Kc5 45. Rb3 Kc4 46. Rb1 Rd2 47. Bb3+ Kc5 48. Rc1 Rd3+ 49. Kf4 Kb4 50.
+Bc2 Rd2 51. h4 Rxc2 52. Rxc2 Kb3 0-1
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.28"]
+[Round "1.1"]
+[White "Bacrot,E"]
+[Black "Grischuk,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2664"]
+[BlackElo "2732"]
+[EventDate "2003.10.28"]
+[ECO "E20"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 c5 5. g3 cxd4 6. Nxd4 O-O 7. Bg2 d5 8.
+cxd5 Nxd5 9. Qb3 Qa5 10. Bd2 Nc6 11. Nxc6 bxc6 12. O-O Bxc3 13. bxc3 Ba6
+14. Rfd1 Qc5 15. e4 Bc4 16. Qa4 Nb6 17. Qb4 Qh5 18. Be3 Be2 19. Re1 Nc4 20.
+Qc5 Rfd8 21. e5 Nb2 22. Qxc6 Nd3 23. Qxa8 Rxa8 24. Bxa8 Nxe1 25. Rxe1 a5
+26. Rb1 h6 27. Rb8+ Kh7 28. Be4+ g6 29. Rb7 Kg7 30. Kg2 Ba6 31. Ra7 Qe2 32.
+h4 a4 33. a3 Bb5 34. Ra5 Qc4 35. Bd4 Qb3 36. Bc5 Bc4 37. Be7 Qd1 38. Bf6+
+Kh7 39. Ra8 Qf1+ 40. Kh2 Qxf2+ 41. Bg2 Qxg2+ 42. Kxg2 Bd5+ 43. Kf2 Bxa8 44.
+Ke3 Bd5 45. Kd4 g5 46. c4 Bg2 47. h5 Bf3 48. c5 Kg8 49. Kc4 Kf8 50. Kb5
+Bxh5 51. c6 Ke8 52. Kb6 Bf3 53. Kc7 g4 54. Kd6 h5 55. Bg5 Bg2 56. Kc5 Bf3
+57. Kb5 Be4 58. Bf6 Bf3 59. Kc5 Bg2 60. Kd6 Bf3 61. c7 Bb7 62. Bd8 Bc8 63.
+Kc6 Ba6 64. Bf6 Bc8 65. Bg5 Ba6 66. Be3 Bc8 67. Bc5 Ba6 68. Be3 1/2-1/2
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.28"]
+[Round "1.2"]
+[White "Grischuk,A"]
+[Black "Bacrot,E"]
+[Result "1/2-1/2"]
+[WhiteElo "2732"]
+[BlackElo "2664"]
+[EventDate "2003.10.28"]
+[ECO "C92"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. h3 Bb7 10. d4 Re8 11. Ng5 Rf8 12. Nf3 Re8 13. Nbd2 Bf8 14. a3 Qd7
+15. Bc2 Rad8 16. d5 Ne7 17. b3 Ng6 18. Nf1 c6 19. c4 Nh5 20. Ng3 Nxg3 21.
+fxg3 Rc8 22. Be3 Be7 23. Qd2 Nf8 24. Rec1 Qd8 25. a4 bxc4 26. bxc4 Nd7 27.
+a5 Ba8 28. Rab1 Rb8 29. Ba4 Qc7 30. g4 1/2-1/2
+
+[Event "KO Blitz"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.28"]
+[Round "1.3"]
+[White "Grischuk,A"]
+[Black "Bacrot,E"]
+[Result "1-0"]
+[WhiteElo "2732"]
+[BlackElo "2664"]
+[EventDate "2003.10.28"]
+[ECO "C41"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 Be7 6. Nde2 O-O 7. g3 Re8
+8. Bg2 c6 9. O-O Nbd7 10. a4 a5 11. h3 Bf8 12. g4 Nc5 13. Ng3 Qb6 14. Be3
+Nfd7 15. b3 g6 16. Bd4 Qc7 17. Qd2 Ne6 18. Be3 Nec5 19. Rfe1 b6 20. Rad1
+Ba6 21. Bf4 Ne5 22. Bg5 Ned7 23. Nce2 b5 24. axb5 Bxb5 25. Nd4 Ba6 26. Bh6
+Rad8 27. Bxf8 Nxf8 28. Ra1 Nb7 29. c4 Ne6 30. Nxe6 Rxe6 31. Qc3 Rb8 32. Ne2
+Ree8 33. Nd4 Qb6 34. Re3 Ra8 35. h4 Nc5 36. h5 Bb7 37. h6 f6 38. Nc2 Rf8
+39. g5 a4 40. b4 Ne6 41. gxf6 Qd8 42. Rd1 Rxf6 43. e5 Rf4 44. exd6 Qf6 45.
+Qxf6 Rxf6 46. b5 Nf4 47. bxc6 Nxg2 48. cxb7 1-0
+
+[Event "KO Blitz"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.28"]
+[Round "1.4"]
+[White "Bacrot,E"]
+[Black "Grischuk,A"]
+[Result "0-1"]
+[WhiteElo "2664"]
+[BlackElo "2732"]
+[EventDate "2003.10.28"]
+[ECO "E12"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. Nc3 Bb7 5. a3 d5 6. Bg5 Be7 7. Bxf6 Bxf6 8.
+cxd5 exd5 9. Qa4+ Qd7 10. Qb3 c5 11. Rd1 c4 12. Qc2 O-O 13. g3 Re8 14. Bg2
+Na6 15. O-O Nc7 16. Rfe1 Rad8 17. h4 h5 18. e4 dxe4 19. Nxe4 Bxe4 20. Rxe4
+Rxe4 21. Qxe4 Re8 22. Qb7 Re7 23. Qxa7 Qb5 24. d5 Na6 25. Qa8+ Re8 26. Qb7
+Nc5 27. Qc7 Re7 28. Qc8+ Re8 29. Qf5 Qxb2 30. d6 c3 31. d7 Rd8 32. Re1 Nxd7
+33. Ng5 Bxg5 34. hxg5 g6 35. Qe4 c2 36. Qe7 Rf8 37. Qe3 Nc5 38. Bd5 Kg7 39.
+Kg2 Nd3 40. Qxd3 c1=Q 41. Rxc1 Qxc1 42. Qd4+ Kh7 43. Qf6 Qc7 44. f4 Qd8 45.
+Qe5 Re8 46. Qd4 Qd7 47. Qc4 Rc8 48. Qb3 Rc7 49. Be4 Qe6 50. Qd3 Re7 51. Bf3
+Rd7 52. Qc3 Qd6 53. Kh3 Qe6+ 54. Kh2 Qd6 55. Qc4 Rc7 56. Qe4 Re7 57. Qc2
+Rc7 58. Qb3 Kg8 59. f5 Qd2+ 60. Bg2 Rc2 61. Qf3 gxf5 62. g6 Qxg2+ 0-1
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.28"]
+[Round "1.1"]
+[White "Svidler,P"]
+[Black "Topalov,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2723"]
+[BlackElo "2735"]
+[EventDate "2003.10.28"]
+[ECO "B33"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6
+8. Na3 b5 9. Bxf6 gxf6 10. Nd5 f5 11. Bd3 Be6 12. c3 Bg7 13. Qh5 O-O 14.
+O-O f4 15. Rad1 Ra7 16. Nc2 Kh8 17. Ncb4 Nxb4 18. Nxb4 Qd7 19. Be2 f5 20.
+exf5 Rxf5 21. Qh4 Bf6 22. Qh6 Bg7 23. Qh4 Bf6 24. Qh6 Bg7 1/2-1/2
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.28"]
+[Round "1.2"]
+[White "Topalov,V"]
+[Black "Svidler,P"]
+[Result "0-1"]
+[WhiteElo "2735"]
+[BlackElo "2723"]
+[EventDate "2003.10.28"]
+[ECO "C88"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bb7 7. d3 Be7 8.
+a4 O-O 9. Re1 h6 10. c3 b4 11. Nbd2 d5 12. exd5 Nxd5 13. Ne4 Kh8 14. d4
+exd4 15. cxd4 Nf6 16. Ng3 Bd6 17. Ne5 Bxe5 18. dxe5 Qxd1 19. Bxd1 Nd5 20.
+f4 f5 21. Bd2 Nd4 22. Ne2 Ne6 23. Rc1 a5 24. Bb3 Rad8 25. Kf2 c5 26. Be3
+Nxe3 27. Kxe3 Bd5 28. Bxd5 Rxd5 29. Red1 Rfd8 30. Rxd5 Rxd5 31. h4 h5 32.
+Ng3 g6 33. Nf1 Rd4 34. g3 c4 35. Ke2 Re4+ 36. Ne3 c3 37. bxc3 b3 38. c4 Nc5
+39. Rd1 Nxa4 40. Rd8+ Kg7 41. Kd2 Nc5 42. Rc8 Rd4+ 43. Kc1 Nd3+ 44. Kb1 Re4
+45. Rc7+ Kf8 46. Rc8+ Kf7 0-1
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.29"]
+[Round "2.1"]
+[White "Grischuk,A"]
+[Black "Kramnik,V"]
+[Result "0-1"]
+[WhiteElo "2732"]
+[BlackElo "2777"]
+[EventDate "2003.10.27"]
+[ECO "B30"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4. Bc4 d6 5. d3 Be7 6. Nd2 Bg5 7. Nf1 Bxc1 8.
+Rxc1 Nge7 9. Ne3 O-O 10. O-O Be6 11. f4 exf4 12. Rxf4 Ng6 13. Rf2 Qg5 14.
+Qd2 Nge5 15. b3 Nd4 16. Rcf1 Nxc2 17. Rf4 Nxe3 18. Qxe3 Ng6 19. R4f3 Qxe3+
+20. Rxe3 a6 21. a4 Ne7 22. h3 Rad8 23. Rb1 Rd7 24. Rf1 h6 25. Kh2 Rb8 26.
+Rg3 Nc6 27. Rf6 Nd4 28. Rxh6 g6 29. Rh4 Kg7 30. Bxe6 Nxe6 31. Nd5 b5 32.
+Rf3 Rh8 33. Rxh8 Kxh8 34. axb5 axb5 35. b4 Ra7 36. Rf2 Kg7 37. Rb2 Ra3 38.
+bxc5 Nxc5 39. d4 Nxe4 40. Rxb5 Rd3 41. Rb4 g5 42. Nc7 Nf6 43. Nb5 g4 44.
+Kg1 g3 45. Kf1 Nd5 46. Rb2 Nf4 47. Ke1 d5 48. Rc2 Rb3 49. Nc3 Nxg2+ 50. Ke2
+Nf4+ 51. Kf1 Ra3 52. Ne2 Ra1+ 53. Rc1 g2+ 54. Kf2 Nd3+ 0-1
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.29"]
+[Round "2.2"]
+[White "Kramnik,V"]
+[Black "Grischuk,A"]
+[Result "1-0"]
+[WhiteElo "2777"]
+[BlackElo "2732"]
+[EventDate "2003.10.27"]
+[ECO "E39"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 O-O 6. Nf3 Na6 7. Bd2 Nxc5
+8. a3 Bxc3 9. Bxc3 h6 10. e3 a5 11. b4 Nce4 12. Bd3 Nxc3 13. Qxc3 b6 14.
+O-O Bb7 15. Be2 Ne4 16. Qd4 d6 17. Nd2 Ng5 18. f4 Nh7 19. Rfb1 a4 20. Rd1
+Qc7 21. Nb1 Rfd8 22. Nc3 Bc6 23. e4 Nf6 24. Qe3 Bb7 25. Rac1 Rd7 26. e5
+dxe5 27. fxe5 Ne8 28. Nb5 Qc6 29. Bf3 Rxd1+ 30. Rxd1 Qc8 31. Nd6 Nxd6 32.
+exd6 Bxf3 33. Qxf3 Ra7 34. c5 bxc5 35. Qe3 Rd7 36. Qxc5 Qb7 37. b5 Kf8 38.
+Rc1 Rd8 39. Qc7 Qb8 40. b6 1-0
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.29"]
+[Round "2.1"]
+[White "Anand,V"]
+[Black "Svidler,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2766"]
+[BlackElo "2723"]
+[EventDate "2003.10.27"]
+[ECO "B82"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 d6 6. Be3 Nf6 7. f4 e5 8.
+Nf3 Ng4 9. Bd2 Be7 10. Qe2 exf4 11. Bxf4 Be6 12. O-O-O Qa5 13. h3 Nge5 14.
+Qb5 Qxb5 15. Bxb5 Nxf3 16. gxf3 O-O-O 17. Nd5 Bh4 18. Be3 Kb8 19. Kb1 f5
+20. Nf4 1/2-1/2
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.29"]
+[Round "2.2"]
+[White "Svidler,P"]
+[Black "Anand,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2723"]
+[BlackElo "2766"]
+[EventDate "2003.10.27"]
+[ECO "C78"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bc5 7. a4 Rb8 8.
+c3 d6 9. d4 Bb6 10. Na3 O-O 11. axb5 axb5 12. Nxb5 exd4 13. cxd4 Bg4 14.
+Ba4 d5 15. e5 Ne4 16. Be3 f6 17. Nxc7 Nb4 18. h3 Bxf3 19. gxf3 Bxc7 20.
+fxe4 dxe4 21. Qg4 fxe5 22. dxe5 Qd5 23. Bd7 Qxe5 24. Qe6+ Kh8 25. Qxe5 Bxe5
+26. Ra4 Nd5 27. Rxe4 Nxe3 28. Rxe3 1/2-1/2
+
+[Event "KO Blitz"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.29"]
+[Round "2.3"]
+[White "Svidler,P"]
+[Black "Anand,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2723"]
+[BlackElo "2766"]
+[EventDate "2003.10.27"]
+[ECO "B46"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 a6 6. Nxc6 bxc6 7. Bd3 d5
+8. O-O Nf6 9. Re1 Bb7 10. Bf4 Be7 11. Qf3 O-O 12. Rad1 Nd7 13. Na4 Nb6 14.
+Nxb6 Qxb6 15. b3 c5 16. exd5 Bxd5 17. Qh3 g6 18. Be5 Rfe8 19. Re3 Bf8 20.
+Qh4 Bg7 21. Bxg7 Kxg7 22. Rh3 h5 23. Qg5 Qd8 24. Rxh5 Qxg5 25. Rxg5 f5 26.
+Rg3 Kf6 27. Be2 a5 28. Rc3 Rec8 29. a4 Rab8 30. Bc4 Bxc4 31. Rxc4 Rb4 32.
+Rc3 c4 33. h3 Rcb8 34. Rd6 cxb3 35. cxb3 Rxb3 36. Rcc6 Rb1+ 37. Kh2 Re1 38.
+h4 Rb4 39. g3 Rb2 40. g4 fxg4 41. Kg2 Re4 42. Kg3 Rb3+ 43. Kg2 Rb2 44. Kg3
+Rxa4 45. Rxe6+ Kf7 46. Rf6+ Ke7 47. Rxg6 Ra3+ 48. Kxg4 Rxf2 49. Kh5 Rf7 50.
+Kh6 Raf3 51. Ra6 R3f6 52. Rxa5 Rxg6+ 53. Kxg6 Rf6+ 1/2-1/2
+
+[Event "KO Blitz"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.29"]
+[Round "2.4"]
+[White "Anand,V"]
+[Black "Svidler,P"]
+[Result "1-0"]
+[WhiteElo "2766"]
+[BlackElo "2723"]
+[EventDate "2003.10.27"]
+[ECO "B42"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Bc5 6. Nb3 Ba7 7. O-O Nc6
+8. Nc3 Nf6 9. Qe2 d6 10. Be3 b5 11. Bxa7 Rxa7 12. Qe3 O-O 13. Rfd1 Rd7 14.
+h3 Bb7 15. a4 b4 16. Ne2 Qc7 17. a5 Rc8 18. Ned4 Ne5 19. Qe2 Nc4 20. Rdc1
+e5 21. Nf5 d5 22. exd5 Bxd5 23. Nd2 Nxd2 24. Qxd2 Ne4 25. Qxb4 Nc5 26. Bf1
+Be6 27. Ne3 Rd4 28. Qb6 Qxb6 29. axb6 Rb4 30. Bxa6 Nxa6 31. Rxa6 Rxb2 32.
+c4 h5 33. c5 Rb5 34. c6 1-0
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.30"]
+[Round "3.1"]
+[White "Kramnik,V"]
+[Black "Anand,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2777"]
+[BlackElo "2766"]
+[EventDate "2003.10.27"]
+[ECO "B85"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. a4 Nc6 8.
+Be3 Be7 9. O-O O-O 10. f4 Qc7 11. Qe1 Bd7 12. Qg3 Rac8 13. Kh1 d5 14. e5
+Nxd4 15. Bxd4 Ne4 16. Qe3 Bc5 17. Nxe4 dxe4 18. Rfd1 Bxd4 19. Qxd4 1/2-1/2
+
+[Event "KO Rapid"]
+[Site "Cap D'Agde FRA"]
+[Date "2003.10.30"]
+[Round "3.2"]
+[White "Anand,V"]
+[Black "Kramnik,V"]
+[Result "1-0"]
+[WhiteElo "2766"]
+[BlackElo "2777"]
+[EventDate "2003.10.27"]
+[ECO "B33"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6
+8. Na3 b5 9. Bxf6 gxf6 10. Nd5 f5 11. Bd3 Be6 12. c3 Bg7 13. Qh5 O-O 14.
+O-O f4 15. Rfd1 Rb8 16. Nc2 Qd7 17. h3 a5 18. Na3 b4 19. Nb5 bxc3 20. bxc3
+Ne7 21. Ndc7 Rbc8 22. Nxe6 fxe6 23. a4 Kh8 24. Bc2 Rc6 25. Rd2 Nc8 26. Rad1
+Qe7 27. Bb3 Rf6 28. c4 Rh6 29. Qf3 Bf8 30. c5 Rxc5 31. Nxd6 Nxd6 32. Rxd6
+Qxd6 33. Rxd6 Bxd6 34. Qd3 Rc6 35. Qb5 Rc1+ 36. Kh2 Rf6 37. Qe8+ Bf8 38.
+Bxe6 f3 39. g4 Rf1 40. Kg3 Rg1+ 41. Kh4 Kg7 42. g5 Rf4+ 43. Kh5 Rg2 44. Bf5
+Rxf5 45. exf5 Rxf2 46. Qxe5+ 1-0
+

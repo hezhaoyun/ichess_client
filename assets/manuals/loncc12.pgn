@@ -1,0 +1,788 @@
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.01"]
+[Round "1.1"]
+[White "McShane,L"]
+[Black "Carlsen,M"]
+[Result "0-1"]
+[WhiteElo "2713"]
+[BlackElo "2848"]
+[ECO "C67"]
+[EventDate "2012.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nf5 8.
+Nf3 O-O 9. d4 d5 10. g3 Bf6 11. c3 Re8 12. Rxe8+ Qxe8 13. Bf4 Qd8 14. Bd3 Nfe7
+15. Na3 a6 16. Nc2 Bf5 17. Bxf5 Nxf5 18. g4 Nfe7 19. Ne3 g6 20. Qf1 Qd7 21. Qh3
+Bg7 22. Qg3 Rc8 23. g5 Nd8 24. Be5 Ne6 25. Bf6 Re8 26. Ne5 Qd6 27. Kh1 Nxg5 28.
+Bxg5 f6 29. Bxf6 Qxf6 30. Re1 c6 31. Kg2 Nc8 32. N3g4 Qd8 33. Nd3 Rxe1 34. Nxe1
+Nd6 35. Nd3 Nf5 36. Qh3 Bf8 37. Ne3 Qg5+ 38. Kf1 Nxe3+ 39. fxe3 Kg7 40. Nf4 Qf6
+41. Ke2 Bd6 42. Qg4 Kf7 43. h3 h5 44. Qc8 Qe7 45. Nd3 Kf6 46. b3 Kg5 47. c4 Kh4
+48. c5 Bg3 49. b4 Qf7 50. a4 g5 51. Kd2 Bh2 52. Ne1 Kg3 53. Nc2 Bg1 54. Qd8 Kh4
+55. Qc8 Bf2 56. Ke2 Kg3 57. Qd8 Qf5 58. Kd2 Kxh3 59. b5 g4 60. bxc6 bxc6 61. Nb4
+g3 62. Nd3 g2 0-1
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.01"]
+[Round "1.2"]
+[White "Kramnik,V"]
+[Black "Polgar,Ju"]
+[Result "1-0"]
+[WhiteElo "2795"]
+[BlackElo "2705"]
+[ECO "A34"]
+[EventDate "2012.12.01"]
+
+1. c4 Nf6 2. Nc3 c5 3. g3 Nc6 4. Bg2 d6 5. e3 e5 6. Nge2 Be6 7. Nd5 Be7 8. O-O
+O-O 9. Nec3 Nb4 10. Nxe7+ Qxe7 11. d3 d5 12. a3 dxc4 13. axb4 cxb4 14. Ne4 Nxe4
+15. Bxe4 f5 16. Bg2 Rfd8 17. d4 a5 18. Qe2 e4 19. f3 Bd5 20. fxe4 fxe4 21. Rf5
+Qd7 22. Re5 Re8 23. Bh3 Qc6 24. Rxe8+ Qxe8 25. Bd2 Qe7 26. Qh5 Qd8 27. Rf1 g6
+28. Qe5 Ra6 29. Bd7 Bf7 30. Rxf7 Kxf7 31. Bb5 Rf6 32. Bxc4+ Kg7 33. Qxe4 Qc7 34.
+Qd5 Rf8 35. e4 b5 36. Qxb5 Qd6 37. Qb7+ Kh8 38. Qa7 g5 39. Bxg5 Qc6 40. Qe7 1-0
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.01"]
+[Round "1.3"]
+[White "Aronian,L"]
+[Black "Nakamura,Hi"]
+[Result "0-1"]
+[WhiteElo "2815"]
+[BlackElo "2760"]
+[ECO "A30"]
+[EventDate "2012.12.01"]
+
+1. c4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. g3 e5 6. Nb5 Bb4+ 7. Bd2 a6 8.
+N5c3 d5 9. cxd5 Nxd5 10. Bg2 Be6 11. O-O Nb6 12. Be3 Nc4 13. Qc1 O-O 14. Rd1 Qc7
+15. a3 Nxe3 16. Qxe3 Ba5 17. Nd2 Bb6 18. Qf3 Rad8 19. Na4 Ba7 20. Qc3 Rd4 21.
+Qc2 f5 22. e3 Rdd8 23. b4 e4 24. Nb3 Qf7 25. Nbc5 Bd5 26. Rd2 b6 27. Rxd5 Rxd5
+28. Nxa6 Ne5 29. Rd1 Rfd8 30. Rxd5 Qxd5 31. Nb2 Qd2 32. Qc7 Ng4 0-1
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.01"]
+[Round "1.4"]
+[White "Jones,G"]
+[Black "Adams,Mi"]
+[Result "0-1"]
+[WhiteElo "2644"]
+[BlackElo "2710"]
+[ECO "E46"]
+[EventDate "2012.12.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Ne2 d5 6. a3 Bd6 7. c5 Be7 8. b4 b6
+9. Nf4 c6 10. Be2 Nbd7 11. Bb2 Qc7 12. O-O bxc5 13. bxc5 e5 14. Nd3 e4 15. Nf4
+Re8 16. Rb1 Nf8 17. f3 exf3 18. gxf3 Bd8 19. Bc1 Ng6 20. Nxg6 hxg6 21. Bd3 Bf5
+22. Rf2 Qc8 23. Ne2 Bc7 24. Ng3 Bxd3 25. Qxd3 Qh3 26. Qf1 Qh4 27. Qg2 Rab8 28.
+Rfb2 Rxb2 29. Rxb2 Rb8 30. Rxb8+ Bxb8 31. Bd2 Bc7 32. Be1 Nh7 33. Kf1 Qf6 34.
+Qe2 Ng5 35. f4 Ne6 36. Kg1 Qe7 37. Kf1 Bd8 38. Qa6 Qd7 39. Ke2 Bh4 40. Kd2 Nf8
+41. Ne2 Bxe1+ 42. Kxe1 Nh7 43. Kd2 g5 44. Ng3 gxf4 45. exf4 Nf6 46. f5 Qc7 47.
+Kc2 Kh7 48. Kb1 Ng4 49. Qf1 Kg8 50. Qe2 Nf6 51. Qa6 Ng4 52. Qe2 Nf6 53. Qa6 Kf8
+54. Qd3 Qa5 55. Qe3 Kg8 56. Kb2 Kh7 57. Kc2 Qa6 58. h3 Qb7 59. Qe2 Qd7 60. Kd1
+Kg8 61. Qe3 a5 62. Qf3 Qb7 63. Kc2 a4 64. Qe3 Qb8 65. Qf3 Kf8 66. Qe3 Ne8 67.
+Kc1 Qd8 68. Ne2 Qb8 69. Ng3 Nf6 70. Kc2 Qb5 71. Kc1 Qc4+ 72. Kb2 Qb5+ 73. Kc1
+Qc4+ 74. Kb2 Ne4 75. f6 Nxf6 76. Nf5 Qb5+ 77. Kc2 Ne4 78. h4 Qc4+ 79. Kb2 Qb5+
+80. Kc2 Qc4+ 81. Kb2 Qf1 82. Nd6 Qg2+ 83. Kc1 Qh1+ 84. Kb2 Qh2+ 85. Kc1 Qh1+ 86.
+Kb2 Qh2+ 87. Kc1 Nxd6 88. cxd6 Qxd6 89. Qh3 g6 90. Qf3 Kg7 91. Qe3 Qf6 0-1
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.02"]
+[Round "2.1"]
+[White "Carlsen,M"]
+[Black "Aronian,L"]
+[Result "1-0"]
+[WhiteElo "2848"]
+[BlackElo "2815"]
+[ECO "C77"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Bc5 7. Nc3 O-O 8. Nd5
+Nxd5 9. Bxd5 Rb8 10. O-O Ne7 11. Nxe5 Nxd5 12. exd5 Re8 13. d4 Bf8 14. b3 Bb7
+15. c4 d6 16. Nf3 Qf6 17. Be3 Bc8 18. Qd2 Qg6 19. Kh1 h6 20. Rac1 Be7 21. Ng1
+Bg5 22. Bxg5 Qxg5 23. Rfd1 bxc4 24. bxc4 Qxd2 25. Rxd2 a5 26. h3 Rb4 27. Nf3 Bf5
+28. c5 Kf8 29. Nh2 Reb8 30. Ng4 Rb1 31. Rxb1 Rxb1+ 32. Kh2 a4 33. Ne3 Bg6 34.
+Kg3 Rb4 35. Kf3 Ke7 36. Ke2 Kd7 37. f3 Rb5 38. Nd1 Rb4 39. c6+ Kc8 40. Nc3 f6
+41. Ke3 Rc4 42. Ne2 a3 43. h4 Rb4 44. g4 Rb1 45. h5 Bh7 46. f4 f5 47. g5 Rh1 48.
+Ng3 Rh3 49. Kf3 hxg5 50. fxg5 g6 51. Re2 Kd8 52. hxg6 Bxg6 53. Re6 Bf7 54. g6
+Bg8 55. g7 f4 56. Kxf4 Rh2 57. Nf5 Rxa2 58. Rf6 Re2 59. Rf8+ 1-0
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.02"]
+[Round "2.2"]
+[White "Nakamura,Hi"]
+[Black "Kramnik,V"]
+[Result "0-1"]
+[WhiteElo "2760"]
+[BlackElo "2795"]
+[ECO "C45"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. Qe2 d6 7. g3 Be7 8.
+Bg2 O-O 9. O-O Re8 10. c4 Nd7 11. Be3 Bf6 12. Qc2 Ne5 13. Nd2 Ng4 14. Rae1 Rb8
+15. b3 Nxe3 16. Rxe3 c5 17. h3 a5 18. Kh2 a4 19. f4 Bd4 20. Re2 g6 21. Nf3 axb3
+22. axb3 Bg7 23. Rd1 Rb6 24. e5 Bb7 25. Rdd2 Qa8 26. exd6 Rxe2 27. Rxe2 Rxd6 28.
+Ne5 Bxg2 29. Rxg2 Bxe5 30. fxe5 Re6 31. Re2 Qf3 32. Qd2 Qxb3 33. Qd8+ Kg7 34.
+Qxc7 Qf3 35. Rg2 Qe3 36. Qa7 h5 37. h4 Rxe5 38. Qa1 Kh7 39. Qb2 Rf5 40. Re2 Qf3
+41. Qc2 Qf1 42. Qd2 Rf6 43. Qc2 Rf3 44. Qb2 Rf5 45. Qc2 Rf6 46. Rd2 Kg7 47. Qc3
+Kh7 48. Qc2 Qa1 49. Rf2 Kg7 50. Rxf6 Qxf6 51. Qe2 Qd4 52. Kg2 Kf8 53. Kh2 Qg4
+54. Qd3 Ke7 55. Qe3+ Kd6 56. Qd3+ Qd4 57. Qe2 Qe5 58. Qd3+ Ke6 59. Kg2 g5 60.
+hxg5 Qxg5 61. Qe4+ Qe5 62. Qc6+ Ke7 63. Qb7+ Kf8 64. Qa8+ Kg7 65. Qf3 Kg6 66.
+Qd3+ Qf5 67. Qd6+ f6 68. Qe7 Qc2+ 69. Kh3 Qxc4 70. Qe8+ Qf7 71. Qe4+ Kg7 72. Qf5
+c4 73. Kg2 Qb7+ 74. Kh2 Qb2+ 75. Kh3 Qe5 76. Qc8 c3 77. Qc4 Qe1 78. Qc7+ Kg6 79.
+Qc6 Qf1+ 80. Kh4 Qe2 81. Kh3 c2 82. g4 Qe3+ 83. Kh4 Qg5+ 84. Kg3 Qxg4+ 85. Kf2
+Qf4+ 86. Kg2 c1=Q 87. Qe8+ Kg5 0-1
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.02"]
+[Round "2.3"]
+[White "Polgar,Ju"]
+[Black "Jones,G"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2644"]
+[ECO "B78"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2
+O-O 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Nxd4 12. Bxd4 b5 13. Nd5 Nxd5 14. Bxg7 Kxg7
+15. exd5 a5 16. a3 Kg8 17. Rhe1 b4 18. axb4 axb4 19. Qxb4 Rc5 20. Rd3 Qa8 21.
+Rxe7 Qa1+ 22. Kd2 Qf1 23. Qf4 Bf5 24. Rc3 Ra5 25. Rce3 Qxg2+ 26. Re2 Qg1 27. Qe3
+Qa1 28. Re8 Ra8 29. Rxf8+ Rxf8 30. Qc3 Qg1 31. Qe3 Qa1 32. Qc3 Qg1 33. Ba4 Qg5+
+34. Qe3 Qf6 35. c3 Rb8 36. b3 Qh4 37. Qe7 Qf4+ 38. Qe3 Qh4 39. Kc1 Qh3 40. Qf2
+Bd3 41. Rd2 Bb5 42. Bxb5 Rxb5 43. b4 Qc8 44. Kb2 Rb8 45. Kb3 Qf5 46. Qf1 Re8 47.
+Qd3 Qg5 48. Ra2 h5 49. b5 Qg1 50. Re2 Ra8 51. Rb2 Qa1 52. Qd4 Qa3+ 53. Kc2 Ra4
+54. Qd2 Ra8 55. b6 Qa4+ 56. Kd3 Qa1 57. Qe2 Rb8 58. Kc2 Qa4+ 59. Kb1 Qa5 60. Qb5
+Qxc3 61. b7 Qxf3 62. Ka2 Kh7 63. Qc6 Qf4 64. h3 Qd4 65. Rb6 Qd2+ 66. Kb3 Qd1+
+67. Kb4 Qb1+ 68. Ka5 Qa2+ 69. Qa4 Qxd5+ 70. Ka6 Ra8+ 71. bxa8=Q Qxa8+ 72. Kb5
+Qd5+ 73. Ka6 Qa8+ 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.02"]
+[Round "2.4"]
+[White "Anand,V"]
+[Black "McShane,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2775"]
+[BlackElo "2713"]
+[ECO "D10"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 a6 5. Qc2 g6 6. Bd3 Bg7 7. Nf3 O-O 8. O-O Bg4
+9. Ne5 Be6 10. c5 Nbd7 11. Nxd7 Bxd7 12. h3 Ne8 13. f4 f6 14. Qb3 Nc7 15. e4 Kh8
+16. exd5 cxd5 17. f5 gxf5 18. Bxf5 e6 19. Bd3 e5 20. Bf5 Bxf5 21. Rxf5 Qd7 22.
+Rf2 exd4 23. Na4 Qc6 24. Bf4 Rad8 25. Re1 Rfe8 26. Rxe8+ Rxe8 27. Nb6 Ne6 28.
+Qxd5 Qxc5 29. Qxc5 Nxc5 30. Rc2 Bf8 31. Kf1 Kg7 32. Rc4 Re4 33. Nd5 Kf7 34. Bd2
+d3 35. Rb4 Re2 36. Bc3 Rc2 37. Rf4 Ke6 38. Ne3 Rc1+ 39. Kf2 Be7 40. Kf3 b5 41.
+Rd4 Bd6 42. Bb4 Be5 43. Rd5 Nb7 44. b3 Ra1 45. a3 a5 46. Bf8 Bd6 47. Bxd6 Nxd6
+48. Rxd3 Rxa3 49. Nc2 Ra2 50. Nd4+ Ke7 51. Nc6+ Ke6 52. Nd8+ Ke7 53. Nc6+ Kd7
+54. Nd4 Ke8 55. Nc6 Kd7 56. Nd4 Kc8 57. Rc3+ Kb7 58. Rc5 Rf2+ 59. Ke3 Rxg2 60.
+Rd5 Kc7 61. Rc5+ Kd7 62. Rh5 Ke8 63. Nxb5 Nxb5 64. Rxb5 Rg3+ 65. Kf4 Rxh3 66.
+Kg4 Rc3 67. Rxa5 Kf7 68. Rb5 Kg6 69. Rb8 Rc1 70. b4 Rc4+ 71. Kg3 Kf5 72. b5 Rc3+
+73. Kg2 Kf4 74. b6 Rc2+ 75. Kf1 Rb2 76. b7 f5 77. Kg1 Rb1+ 78. Kg2 Rb2+ 79. Kg1
+Rb3 80. Kg2 Rg3+ 81. Kf1 Rg7 82. Kf2 Kg4 83. Kg2 h5 84. Kf2 h4 85. Kg2 h3+ 86.
+Kh2 f4 87. Ra8 Rxb7 88. Rg8+ Kf3 89. Ra8 Re7 90. Ra1 Re5 91. Ra8 Kg4 92. Rg8+
+Kf3 93. Ra8 Re1 94. Ra7 Rd1 95. Ra8 Ke3 96. Kxh3 f3 97. Ra3+ Kf2 98. Ra2+ Ke3
+99. Ra3+ Ke2 100. Ra2+ Rd2 101. Ra1 Kf2 102. Kh2 Re2 103. Ra8 Ke3+ 104. Kg3 Rg2+
+105. Kh3 Rd2 106. Kg3 Rg2+ 107. Kh3 Rd2 108. Kg3 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.03"]
+[Round "3.1"]
+[White "Kramnik,V"]
+[Black "Carlsen,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2795"]
+[BlackElo "2848"]
+[ECO "A37"]
+[EventDate "2012.12.01"]
+
+1. Nf3 c5 2. c4 Nc6 3. Nc3 e5 4. g3 g6 5. Bg2 Bg7 6. O-O Nge7 7. a3 a5 8. Ne1 d6
+9. Nc2 O-O 10. d3 Rb8 11. Rb1 Be6 12. b4 axb4 13. axb4 cxb4 14. Nxb4 Nxb4 15.
+Rxb4 d5 16. cxd5 Nxd5 17. Nxd5 Bxd5 18. Rb5 Bxg2 19. Kxg2 Qd7 20. Qb3 Rfc8 21.
+Bb2 Qd6 22. Rb1 Rc5 23. Rb6 Rc6 24. Rxb7 Rxb7 25. Qxb7 Rb6 26. Qc8+ Qf8 27. Qd7
+h5 28. e4 Qd6 29. Qe8+ Qf8 30. Qd7 Qd6 31. Qxd6 Rxd6 32. Rd1 f5 33. f3 fxe4 34.
+fxe4 Rb6 35. Bc3 Rb3 36. Ba1 Kf7 37. Kf3 Ke6 38. h3 Bh6 39. Ke2 Bg5 40. Rg1 Bh6
+41. h4 Kd6 42. Rd1 Ke6 43. Rf1 Rb4 44. Rd1 Rb3 45. Rg1 Kf6 46. Rh1 Ke6 47. Rd1
+Kf6 48. d4 Re3+ 49. Kf2 Rxe4 50. dxe5+ Kf5 51. Rd7 Kg4 52. Rd6 Be3+ 53. Ke2 Bf4+
+54. Kd3 Re3+ 55. Kc4 Bxe5 56. Rxg6+ Kf3 57. Bxe5 Rxe5 58. Rg5 Re4+ 59. Kd5 Rg4
+60. Ke5 Kxg3 61. Rxh5 Rxh4 62. Rxh4 Kxh4 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.03"]
+[Round "3.2"]
+[White "Aronian,L"]
+[Black "Anand,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2815"]
+[BlackElo "2775"]
+[ECO "D10"]
+[EventDate "2012.12.01"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. cxd5 cxd5 5. Bf4 Nc6 6. e3 Bf5 7. Qb3 Na5 8.
+Qa4+ Bd7 9. Qc2 e6 10. Bd3 Rc8 11. h3 Nc4 12. Nf3 Bb4 13. a3 Bxc3+ 14. bxc3 Qa5
+15. O-O O-O 16. Rfb1 Ba4 17. Qe2 Qxc3 18. Bg5 Nd6 19. Bxf6 gxf6 20. Ne1 f5 21.
+Qf3 Qc7 22. Rc1 Qe7 23. g4 fxg4 24. hxg4 Bb5 25. Bxb5 Nxb5 26. Kg2 Nd6 27. Nd3
+Ne4 28. Qf4 Qf6 29. Qxf6 Nxf6 30. Rab1 b6 31. f3 Kg7 32. a4 Nd7 33. Nb4 Nb8 34.
+Kf2 Kf6 35. e4 dxe4 36. fxe4 Ke7 37. Ke3 Rg8 38. Kf4 Rgd8 39. d5 Rxc1 40. Rxc1
+a5 41. Nc6+ Nxc6 42. Rxc6 exd5 43. exd5 Rxd5 44. Rxb6 Rd4+ 45. Kg5 Rxa4 46. Ra6
+Ra1 47. Kh6 a4 48. Kxh7 a3 49. g5 a2 50. Kg7 Kd7 51. Kf8 Rg1 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.03"]
+[Round "3.3"]
+[White "Jones,G"]
+[Black "Nakamura,Hi"]
+[Result "1/2-1/2"]
+[WhiteElo "2644"]
+[BlackElo "2760"]
+[ECO "D97"]
+[EventDate "2012.12.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Na6 8. Be2
+c5 9. d5 e6 10. O-O exd5 11. exd5 Re8 12. Rd1 Qb6 13. d6 Be6 14. Qh4 Qb4 15. Bg5
+Nd7 16. Be7 Qxh4 17. Bxh4 Nb4 18. Rd2 a6 19. Ng5 Nd5 20. Rxd5 Bxd5 21. Nxd5 Rxe2
+22. Ne7+ Rxe7 23. dxe7 Re8 24. Ne4 f6 25. Re1 Rxe7 26. Nxf6+ Bxf6 27. Rxe7 Bxe7
+28. Bxe7 Kf7 29. Bg5 Ne5 30. Kf1 Nd3 31. b3 Nb4 32. a4 Ke6 33. Ke2 Kd5 34. Kd2
+c4 35. Kc3 cxb3 36. Kxb3 Nd3 37. Be3 Ne1 38. g3 b5 39. axb5 axb5 40. Bb6 Kc6 41.
+Ba7 Nf3 42. h4 Ne5 43. Kb4 Ng4 44. Bc5 Nf6 45. Bd4 Nd5+ 46. Ka5 Nc7 47. Kb4 Na6+
+48. Ka5 Nc5 49. Kb4 Nd3+ 50. Kc3 Ne1 51. Ba7 Nf3 52. Kb3 h6 53. Be3 h5 54. Ba7
+Ne5 55. Kb4 Ng4 56. Bc5 Kd5 57. Kxb5 Ke4 58. Kc6 Kf3 59. Kd5 Nxf2 60. Ke6 Ne4
+61. Be7 Kg4 62. Bd8 Nxg3 63. Kf7 Kf5 64. Kg7 Ne4 65. Kh6 Nc5 66. Bg5 Ne6 67. Be7
+Nd4 68. Bg5 Nc6 69. Kg7 Nd4 70. Kh6 Nf3 71. Bd8 Ne5 72. Kg7 Nf3 73. Kh6 Kg4 74.
+Kxg6 Nxh4+ 75. Kh6 Nf3 76. Bf6 Nd2 77. Kg6 Nc4 78. Kh6 Nd6 79. Kg6 h4 80. Bxh4
+Kxh4 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.03"]
+[Round "3.4"]
+[White "Adams,Mi"]
+[Black "Polgar,Ju"]
+[Result "1-0"]
+[WhiteElo "2710"]
+[BlackElo "2705"]
+[ECO "B40"]
+[EventDate "2012.12.01"]
+
+1. e4 c5 2. Nf3 e6 3. g3 Nc6 4. Bg2 Nf6 5. Qe2 d5 6. exd5 Nxd5 7. O-O Be7 8. Rd1
+O-O 9. d4 cxd4 10. Nxd4 Nxd4 11. Rxd4 Bf6 12. Rd1 Qc7 13. c4 Nb4 14. Nc3 a6 15.
+Bf4 e5 16. Be3 Be6 17. Nd5 Nxd5 18. cxd5 Bf5 19. d6 Qd7 20. Bb6 Rac8 21. Bc7 Bg4
+22. Bf3 h5 23. Rac1 Rfe8 24. Bxg4 hxg4 25. Qe4 Bg5 26. Rc5 Bd8 27. Qxb7 Re6 28.
+Rdd5 Rf6 29. Qxa6 Qf5 30. Qe2 Qb1+ 31. Rd1 Qxa2 32. Rxe5 Bxc7 33. Re8+ Rxe8 34.
+Qxe8+ Kh7 35. dxc7 Qa7 36. Qe4+ 1-0
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.04"]
+[Round "4.1"]
+[White "Carlsen,M"]
+[Black "Jones,G"]
+[Result "1-0"]
+[WhiteElo "2848"]
+[BlackElo "2644"]
+[ECO "B53"]
+[EventDate "2012.12.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 a6 5. h3 Nc6 6. Qe3 g6 7. c4 Bg7 8. Be2
+Nf6 9. Nc3 O-O 10. O-O Nd7 11. Rb1 a5 12. b3 Nc5 13. Bb2 f5 14. exf5 Bxf5 15.
+Rbd1 a4 16. Ba3 Qa5 17. Nb5 axb3 18. axb3 Qxa3 19. Nxa3 Rxa3 20. Nd2 Bd4 21. Qg3
+Be5 22. f4 Bf6 23. Bg4 Nd4 24. Kh1 Bc2 25. Rde1 Kh8 26. Re3 h5 27. b4 h4 28. Qf2
+Nd3 29. Qg1 Nf5 30. Bxf5 gxf5 31. Nf3 Rc3 32. c5 Bb3 33. Ne1 Bd4 34. Nxd3 dxc5
+35. Qf2 Rf7 36. Rc1 cxb4 37. Rxc3 bxc3 38. Qe1 1-0
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.04"]
+[Round "4.2"]
+[White "Anand,V"]
+[Black "Kramnik,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2775"]
+[BlackElo "2795"]
+[ECO "C65"]
+[EventDate "2012.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 O-O 7. Nc4 Nd7 8.
+O-O Re8 9. Bd2 Bf8 10. b4 f6 11. a4 Nb6 12. Ne3 Be6 13. Qb1 Qd7 14. Rd1 Bf7 15.
+h3 Rad8 16. Be1 Bh5 17. g4 Bf7 18. c4 c5 19. b5 Nc8 20. Qc2 Re6 21. Kf1 Ne7 22.
+Nh4 Rd6 23. Ke2 Re6 24. f3 b6 25. Bf2 g6 26. Nhg2 Rd6 27. Bg3 Bg7 28. Bh4 a6 29.
+Bf2 a5 30. Bh4 Qe8 31. Nd5 Bxd5 32. cxd5 Bh6 33. Bf2 R6d7 34. h4 Nc8 35. Rh1 Nd6
+36. h5 g5 37. Ne3 Bf8 38. Nc4 Nxc4 39. dxc4 h6 40. Be3 Bd6 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.04"]
+[Round "4.3"]
+[White "McShane,L"]
+[Black "Aronian,L"]
+[Result "0-1"]
+[WhiteElo "2713"]
+[BlackElo "2815"]
+[ECO "C84"]
+[EventDate "2012.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a4 Bd7
+9. c3 O-O 10. Nbd2 Na5 11. Bc2 c5 12. Re1 Re8 13. Nf1 Nc6 14. Ne3 b4 15. h3 Rb8
+16. Nc4 Be6 17. Bb3 h6 18. Be3 bxc3 19. bxc3 d5 20. exd5 Nxd5 21. Qc2 e4 22.
+dxe4 Nxe3 23. Rxe3 Rxb3 24. Qxb3 Na5 25. Nxa5 Bxb3 26. Nxb3 Qb6 27. Nbd2 Qb2 28.
+Rae1 Rd8 29. Nf1 c4 30. Ne5 Bc5 31. Rf3 Qb3 32. a5 Rd6 33. Nxf7 Rf6 34. Rxf6
+gxf6 35. Nxh6+ Kf8 36. Ng4 Qxc3 37. Rd1 Qb4 38. Nxf6 Kf7 39. Nd5 Qb2 40. Nde3 c3
+41. Rd5 Be7 42. Rf5+ Ke8 43. g4 c2 44. Nxc2 Qxc2 45. Ng3 Qc7 46. Nh5 Bd8 47. Kg2
+Qc6 48. Re5+ Kf7 49. g5 Qa4 50. h4 Bxa5 51. Rf5+ Ke6 52. Nf4+ Kd7 53. f3 Qc2+
+54. Kh3 Qf2 55. Kg4 Be1 56. Ng6 a5 57. Rf7+ Kd8 58. e5 a4 59. e6 Bb4 60. e7+
+Bxe7 61. Nxe7 Qc5 62. Kh5 a3 63. Kh6 a2 64. g6 Qc4 65. Nf5 a1=Q 66. Rf8+ Kc7 67.
+g7 Qc6+ 68. Kh7 Qxf3 69. g8=N Qh5+ 70. Ngh6 Qe5 71. Ng7 Qxh4 72. Rf7+ Kb6 73.
+Nf5 Qee4 74. Kg6 Qe6+ 75. Kg7 Qg5+ 76. Kf8 Qc8# 0-1
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.04"]
+[Round "4.4"]
+[White "Nakamura,Hi"]
+[Black "Adams,Mi"]
+[Result "1/2-1/2"]
+[WhiteElo "2760"]
+[BlackElo "2710"]
+[ECO "D37"]
+[EventDate "2012.12.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. cxd5 exd5 6. Qc2 c6 7. Bf4 g6 8. Ne5
+Bf5 9. Qd2 Ne4 10. Nxe4 Bxe4 11. f3 Bf5 12. e4 Be6 13. Be2 Nd7 14. Nd3 O-O 15.
+Be3 dxe4 16. fxe4 Nb6 17. b3 f5 18. Nf4 Qd7 19. d5 cxd5 20. e5 Bg5 21. Rd1 d4
+22. Qxd4 Qxd4 23. Rxd4 Bxf4 24. Bxf4 Rad8 25. Rd6 Kf7 26. Kf2 Nd5 27. Bg5 Rxd6
+28. exd6 h6 29. Bxh6 Rd8 30. Bf3 Rxd6 31. Rd1 Rd7 32. Kg3 b6 33. a3 Nc3 34.
+Rxd7+ Bxd7 35. Bf4 Be6 36. Bb8 Bxb3 37. Bxa7 Nb5 38. Bxb6 Nxa3 39. Kf4 Be6 40.
+Bc6 Nc4 41. Bd4 Nd6 42. h4 Nc4 43. Bf3 Nd2 44. Bc6 Nc4 45. Bc3 Ke7 46. Bf3 Kf7
+47. Bd1 Bd5 48. g3 Be6 49. h5 gxh5 50. Bxh5+ Ke7 51. Kg5 Ne3 52. Bb4+ Kd7 53.
+Be2 f4 54. Bb5+ Kc8 55. Kxf4 Nd5+ 56. Ke5 Nxb4 57. Kxe6 Nc2 58. Bd7+ Kd8 59. g4
+Nd4+ 60. Kd6 Nf3 61. Bc6 Ng5 62. Ba4 Ne4+ 63. Ke6 Nc5+ 64. Kf7 Nxa4 65. g5 Nb6
+66. g6 Nd5 67. g7 Ne7 68. g8=R+ Nxg8 69. Kxg8 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.06"]
+[Round "5.1"]
+[White "Kramnik,V"]
+[Black "McShane,L"]
+[Result "1-0"]
+[WhiteElo "2795"]
+[BlackElo "2713"]
+[ECO "D15"]
+[EventDate "2012.12.01"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 a6 5. g3 dxc4 6. a4 e6 7. Bg2 c5 8. O-O cxd4
+9. Nxd4 Nbd7 10. Nc2 Qc7 11. Bf4 e5 12. Bd2 Nc5 13. Bg5 Be6 14. Bxf6 gxf6 15.
+Nd5 Qd8 16. Nce3 Nb3 17. a5 Rc8 18. Ra4 Nd4 19. Nb6 Rc7 20. Rxc4 Bxc4 21. Nexc4
+Nb5 22. Qb1 Qd4 23. Rd1 Qc5 24. e3 Be7 25. Qf5 Kf8 26. Bd5 Kg7 27. Qg4+ Kh6 28.
+e4 Nd4 29. Ne3 f5 30. Qh3+ Kg7 31. Rxd4 exd4 32. Nxf5+ Kf8 33. Qh6+ Ke8 34.
+Bxf7+ Kd8 35. Qg7 Rf8 36. Nxd4 Rc6 37. Nxc6+ bxc6 38. Qg4 Kc7 39. Qd7+ Kb8 40.
+Qd2 Kc7 41. Qd7+ Kb8 42. Kg2 Bd6 43. b4 Qd4 44. Qxc6 Ka7 45. Kh3 Qd1 46. Nc8+
+Rxc8 47. Qxc8 Qf1+ 48. Kg4 h5+ 49. Kxh5 1-0
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.06"]
+[Round "5.2"]
+[White "Adams,Mi"]
+[Black "Carlsen,M"]
+[Result "0-1"]
+[WhiteElo "2710"]
+[BlackElo "2848"]
+[ECO "C84"]
+[EventDate "2012.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a4 Bd7
+9. h3 O-O 10. Be3 Be6 11. Bxe6 fxe6 12. Nbd2 b4 13. c3 d5 14. cxb4 Bd6 15. b5
+axb5 16. axb5 Rxa1 17. Qxa1 Nb4 18. d4 exd4 19. Nxd4 Qe8 20. Qa4 Nxe4 21. Nxe4
+dxe4 22. Nc6 Nd5 23. Qxe4 Nxe3 24. Qxe3 Rf5 25. Nd4 Re5 26. Qb3 Rd5 27. Qc4 Qf7
+28. b3 Qd7 29. Nf3 Rxb5 30. Ra1 Rd5 31. g3 h6 32. Qe4 Qe8 33. Kg2 Kf7 34. Ra2
+Qd8 35. Re2 Qf6 36. h4 Qf5 37. Qc4 Rd3 38. Re3 Rxe3 39. fxe3 Qb1 40. e4 Qb2+ 41.
+Kh3 Qf2 42. e5 Qxf3 43. exd6 Qh1+ 44. Kg4 Qd1+ 45. Kh3 Qxd6 46. h5 c5 47. g4 Qd4
+48. Qf1+ Ke7 49. Qf3 Qd5 50. Qc3 e5 51. Kg3 Kd6 52. Qc4 Qxc4 53. bxc4 e4 54. Kf4
+e3 55. Kf3 Ke6 56. Ke2 Kf6 57. Kf3 Kg5 58. Kxe3 Kxg4 59. Ke4 Kxh5 60. Kd5 g5 61.
+Kxc5 g4 62. Kd4 g3 63. Ke3 Kg4 0-1
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.06"]
+[Round "5.3"]
+[White "Polgar,Ju"]
+[Black "Nakamura,Hi"]
+[Result "0-1"]
+[WhiteElo "2705"]
+[BlackElo "2760"]
+[ECO "C78"]
+[EventDate "2012.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bc5 7. a4 Rb8 8. axb5
+axb5 9. Nxe5 Nxe5 10. d4 Bxd4 11. Qxd4 d6 12. f4 Nc6 13. Qc3 Ne7 14. Nd2 O-O 15.
+e5 Nfd5 16. Bxd5 Nxd5 17. Qd4 Bb7 18. Ne4 f5 19. Ng5 Qd7 20. Nf3 Ra8 21. Bd2 c5
+22. Qd3 c4 23. Qd4 dxe5 24. Nxe5 Qc7 25. Rfd1 h6 26. Be1 Rfe8 27. Bd2 Red8 28.
+Rxa8 Rxa8 29. h3 Ra2 30. Rb1 Nf6 31. Bb4 Be4 32. Re1 Bxc2 33. g4 Qa7 34. Qxa7
+Rxa7 35. Nc6 Ra6 36. Ne7+ Kf7 37. g5 hxg5 38. fxg5 Ne4 39. Nxf5 Nxg5 40. Re7+
+Kg6 41. Nd4 Bd3 42. Rb7 Nxh3+ 43. Kh2 Ng5 44. Nxb5 Rf6 45. Bc5 Rf4 46. Nc3 Rg4
+47. Nd1 Bf1 0-1
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.06"]
+[Round "5.4"]
+[White "Jones,G"]
+[Black "Anand,V"]
+[Result "0-1"]
+[WhiteElo "2644"]
+[BlackElo "2775"]
+[ECO "D70"]
+[EventDate "2012.12.01"]
+
+1. d4 Nf6 2. c4 g6 3. f3 d5 4. cxd5 Nxd5 5. e4 Nb6 6. Nc3 Bg7 7. Be3 O-O 8. Qd2
+e5 9. d5 c6 10. h4 cxd5 11. exd5 N8d7 12. h5 Nf6 13. hxg6 fxg6 14. Nh3 e4 15.
+fxe4 Ng4 16. Bf4 Ne5 17. Bg5 Qd6 18. Nb5 Qc5 19. Na3 Bxh3 20. Be3 Qc8 21. Rc1
+Qg4 22. Rxh3 Qxh3 23. gxh3 Nf3+ 24. Ke2 Nxd2 25. Bxd2 Bxb2 26. Nb5 Bxc1 27. Bxc1
+Nxd5 28. exd5 Rae8+ 29. Be3 Rxf1 0-1
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.07"]
+[Round "6.1"]
+[White "Aronian,L"]
+[Black "Kramnik,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2815"]
+[BlackElo "2795"]
+[ECO "C67"]
+[EventDate "2012.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8.
+Qxd8+ Kxd8 9. Nc3 Ke8 10. h3 h5 11. Bg5 Be6 12. b3 Be7 13. Rad1 h4 14. Ne4 b6
+15. c4 a5 16. Rd2 Rd8 17. Rfd1 Rxd2 18. Bxd2 c5 19. Bf4 a4 20. Nc3 axb3 21. axb3
+Bd8 22. Kf1 Rg8 23. Ne4 Bc8 24. Ra1 Bb7 25. Neg5 f6 26. exf6 gxf6 27. Ne4 Kd7
+28. Rd1+ Kc8 29. Re1 Rg7 30. Nfd2 Nd4 31. f3 Bc6 32. Nf2 Bd7 33. Ng4 Bf5 34. Kf2
+Kd7 35. Ne3 Bh7 36. Nd5 Bc2 37. Ne3 Bd3 38. Nd5 Nxb3 39. Nxb3 Bxc4 40. Nxc5+
+bxc5 41. Rd1 Kc8 42. Nc3 Rd7 43. Rc1 Bd3 44. Na4 c4 45. Nb2 Rd5 46. Nxc4 Rc5 47.
+Nb2 Rxc1 48. Bxc1 Bb5 49. g3 hxg3+ 50. Kxg3 Kd7 51. Nd1 Ke6 52. Nc3 Be8 53. Be3
+Be7 54. h4 c5 55. Kf2 c4 56. Ke2 Bg6 57. Bd4 f5 58. f4 Bxh4 59. Ke3 Bf7 60. Bg7
+Kd6 61. Bf8+ Kc6 62. Ne2 Be1 63. Nd4+ Kd5 64. Nxf5 c3 65. Kd3 Bg6 66. Ke2 Bxf5
+67. Kxe1 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.07"]
+[Round "6.2"]
+[White "Carlsen,M"]
+[Black "Polgar,Ju"]
+[Result "1-0"]
+[WhiteElo "2848"]
+[BlackElo "2705"]
+[ECO "A33"]
+[EventDate "2012.12.01"]
+
+1. c4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. a3 Bc5 7. Nb3 Be7 8. e4
+O-O 9. Be2 b6 10. O-O Bb7 11. Bf4 d6 12. Rc1 Rc8 13. Re1 Ne5 14. Nd2 Nfd7 15.
+Be3 Qc7 16. b4 Qb8 17. f4 Ng6 18. g3 Rfe8 19. Bf3 Qa8 20. Bf2 Ngf8 21. Qe2 Qb8
+22. Red1 g6 23. e5 Bc6 24. Bd4 Red8 25. Bxc6 Rxc6 26. Nf3 dxe5 27. fxe5 Rdc8 28.
+Ne4 Qc7 29. Nfd2 a6 30. Nf2 Bg5 31. Rf1 Bxd2 32. Qxd2 Nxe5 33. Bxe5 Qxe5 34. Ng4
+Rd6 35. Nh6+ Kg7 36. Rxf7+ Kh8 37. Qf2 Qd4 38. c5 bxc5 39. Qxd4+ Rxd4 40. Rxc5
+Rcd8 41. Rcc7 Rd1+ 42. Kg2 R1d2+ 43. Kh3 R2d5 44. Ng4 Rh5+ 45. Kg2 Rd2+ 46. Kf3
+Rf5+ 47. Ke3 Rxf7 48. Rxf7 Rd8 49. Nf6 Rb8 50. Kf4 h6 51. Ke5 a5 52. bxa5 Ra8
+53. a6 1-0
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.07"]
+[Round "6.3"]
+[White "Anand,V"]
+[Black "Adams,Mi"]
+[Result "0-1"]
+[WhiteElo "2775"]
+[BlackElo "2710"]
+[ECO "A29"]
+[EventDate "2012.12.01"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 g6 5. d4 exd4 6. Nxd4 Bg7 7. Bg2 O-O 8. O-O
+Re8 9. Nc2 d6 10. Bd2 a6 11. Rc1 Ne5 12. b3 c6 13. Be3 Nfg4 14. Bd4 c5 15. Bxe5
+Bxe5 16. Nd5 Rb8 17. h3 Nf6 18. Nce3 Nxd5 19. Nxd5 Qa5 20. Rc2 Bf5 21. Qd2 Qd8
+22. Rcc1 b5 23. cxb5 axb5 24. Rfd1 h5 25. h4 Bg4 26. Ne3 Bd7 27. Bf3 Bd4 28. Nd5
+b4 29. Rc4 Be5 30. Kg2 Ra8 31. Ne3 Ra7 32. Rcc1 Qe7 33. Nc4 Be6 34. Rc2 Bf5 35.
+e4 Be6 36. Nxe5 dxe5 37. Qe3 Ra5 38. Be2 Rd8 39. Rxd8+ Qxd8 40. Rxc5 Rxa2 41.
+Bc4 Qd1 42. Qh6 Bh3+ 0-1
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.07"]
+[Round "6.4"]
+[White "McShane,L"]
+[Black "Jones,G"]
+[Result "1-0"]
+[WhiteElo "2713"]
+[BlackElo "2644"]
+[ECO "A37"]
+[EventDate "2012.12.01"]
+
+1. c4 c5 2. g3 Nc6 3. Bg2 g6 4. Nf3 Bg7 5. Nc3 e5 6. O-O Nge7 7. a3 O-O 8. d3 d6
+9. Rb1 a5 10. Ne1 Be6 11. Nc2 d5 12. cxd5 Nxd5 13. Ne3 Nde7 14. Nc4 Rb8 15. Bg5
+f6 16. Be3 b6 17. f4 f5 18. fxe5 Nxe5 19. Bf4 Nxc4 20. dxc4 Bxc4 21. Bxb8 Qxb8
+22. Qa4 Be6 23. Rbd1 Qe5 24. Kh1 c4 25. e4 Qc5 26. Rde1 Bd4 27. Qd1 Rd8 28. exf5
+Bxf5 29. Qe2 Nc8 30. g4 Bd3 31. Qe6+ Kh8 32. Rf7 Nd6 33. Rd7 Rxd7 34. Qxd7 Bf6
+35. Nd1 Qd4 36. g5 Bf5 37. Re8+ Nxe8 38. Qxe8+ Kg7 39. gxf6+ Qxf6 40. Qe3 Bd7
+41. Kg1 b5 42. Qa7 Qd6 43. Nf2 Qd2 44. Bh3 Qg5+ 45. Bg4 h5 46. Qxd7+ Kh6 47. Qd4
+Kh7 48. h4 Qxh4 49. Qa7+ Kh6 50. Qe3+ Kh7 51. Bd7 b4 52. axb4 axb4 53. Bb5 c3
+54. bxc3 bxc3 55. Bd3 Qd8 56. Qc5 Qh4 57. Qxc3 Qg3+ 58. Kf1 h4 59. Qc8 1-0
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.08"]
+[Round "7.1"]
+[White "Nakamura,Hi"]
+[Black "Carlsen,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2760"]
+[BlackElo "2848"]
+[ECO "B30"]
+[EventDate "2012.12.01"]
+
+1. e4 c5 2. Nf3 Nc6 3. c3 Nf6 4. e5 Nd5 5. Bc4 e6 6. d4 cxd4 7. cxd4 d6 8. O-O
+Be7 9. Qe2 O-O 10. Rd1 Qc7 11. a3 Rd8 12. b4 a6 13. Bd3 b5 14. h4 dxe5 15. dxe5
+Bb7 16. Ra2 Ndxb4 17. axb4 Nxb4 18. Rad2 Rxd3 19. Rxd3 Nxd3 20. Qxd3 Rd8 21. Qe2
+Rxd1+ 22. Qxd1 Bxf3 23. gxf3 Qxe5 24. Qd7 Bf8 25. Be3 a5 26. Qe8 h6 27. Kg2 a4
+28. Na3 b4 29. Nc4 Qc7 30. Nb6 Qe7 31. Qxa4 Qxh4 32. Qa8 Qe7 33. Qc8 b3 34. Nd7
+b2 35. Nxf8 Qxf8 36. Qb7 e5 37. Qxb2 f6 38. Qc2 Qf7 39. Qf5 Kh8 40. Bd2 Kg8 41.
+Kg3 Kh8 42. Be3 Kg8 43. Kh2 Kh8 44. Kg2 Kg8 45. Qd3 Kh8 46. f4 exf4 47. Bxf4 Kg8
+48. Qe4 Kh8 49. Be3 Kg8 50. Bd4 Kh8 51. f4 Kg8 52. Kg3 Kh8 53. Be3 Kg8 54. Bd4
+Kh8 55. Be3 Kg8 56. Bd4 Kh8 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.08"]
+[Round "7.2"]
+[White "Polgar,Ju"]
+[Black "Anand,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2775"]
+[ECO "B90"]
+[EventDate "2012.12.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. O-O b5 8. Bb3
+Be7 9. Qf3 Qc7 10. a3 O-O 11. Qg3 Bd7 12. Bh6 Ne8 13. Rad1 Nc6 14. Nxc6 Bxc6 15.
+Rfe1 a5 16. Bg5 Bxg5 17. Qxg5 Rb8 18. e5 dxe5 19. Qxe5 Qb6 20. a4 bxa4 21. Bxa4
+Rc8 22. Bxc6 Rxc6 23. Na4 Qc7 24. c3 Nf6 25. Rd4 Rc8 26. Qxc7 R6xc7 27. Red1 g6
+28. Rd8+ Kg7 29. Rxc8 Rxc8 30. Rd6 Rc4 31. b3 Ne4 32. Ra6 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.08"]
+[Round "7.3"]
+[White "Adams,Mi"]
+[Black "McShane,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2710"]
+[BlackElo "2713"]
+[ECO "C65"]
+[EventDate "2012.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 O-O 7. O-O Re8 8.
+Nc4 Nd7 9. a4 Bd6 10. Be3 Nf8 11. d4 exd4 12. Qxd4 Bg4 13. Nxd6 cxd6 14. Nd2 Ne6
+15. Qb4 Be2 16. Rfe1 Ba6 17. Rad1 Qf6 18. Nf1 c5 19. Qb3 Rad8 20. c4 Nf8 21. Qc2
+Qe6 22. Nd2 b6 23. f3 Bc8 24. Nf1 Ng6 25. b3 Ne7 26. Bg5 f6 27. Bh4 Ng6 28. Bg3
+Ne5 29. Ne3 Qe7 30. Rd2 Be6 31. Qd1 Qc7 32. h3 Qc6 33. Bxe5 fxe5 34. Rd3 Rd7 35.
+Re2 Red8 36. Red2 h6 37. Qe1 Rf8 38. Kh2 Qc7 39. Kh1 Qc6 40. Qd1 Rfd8 41. Qe2
+Rf7 42. Rd1 Rfd7 43. Nd5 Bxd5 44. Rxd5 Re8 45. Qd2 Re6 46. a5 Qc7 47. b4 cxb4
+48. Qxb4 Rd8 49. axb6 axb6 50. Rb5 Rb8 51. Qb3 Qc6 52. Qd3 Kh7 53. Qd5 Qc8 54.
+Rdb1 Rf6 55. Rxb6 Rxb6 56. Rxb6 Rxf3 57. Rxd6 Rc3 58. Qf7 Rg3 59. Kh2 Rg5 60.
+Rd2 Qc6 61. Rd8 Qb6 62. Qg8+ Kg6 63. Qe8+ Kh7 64. Qg8+ Kg6 65. Rf8 Qb3 66. Qf7+
+Kh7 67. Qg8+ Kg6 68. Qf7+ Kh7 69. Qf1 Qg3+ 70. Kh1 Qe3 71. Qf3 Qc1+ 72. Qf1 Qe3
+73. Qf3 Qc1+ 74. Kh2 Qxc4 75. Re8 Qc2 76. Re6 Qc8 77. Re7 Qd8 78. Rf7 Rg6 79.
+Rf8 Qg5 80. Rf5 Qe7 81. Rf7 Qg5 82. Rf5 Qe7 83. Rf7 Qg5 84. Rf5 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.08"]
+[Round "7.4"]
+[White "Jones,G"]
+[Black "Aronian,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2644"]
+[BlackElo "2815"]
+[ECO "D70"]
+[EventDate "2012.12.01"]
+
+1. d4 Nf6 2. c4 g6 3. f3 d5 4. cxd5 Nxd5 5. e4 Nb6 6. Nc3 Bg7 7. Be3 O-O 8. Qd2
+Nc6 9. O-O-O Qd6 10. Nb5 Qd7 11. Bh6 Bxh6 12. Qxh6 a6 13. Nc3 Nxd4 14. f4 c5 15.
+Nf3 f6 16. h4 Qe8 17. h5 Bg4 18. Nxd4 cxd4 19. hxg6 Qxg6 20. Rxd4 Rac8 21. f5
+Qxh6+ 22. Rxh6 Rfd8 23. Rxd8+ Rxd8 24. Rh4 h5 25. Be2 Bxe2 26. Nxe2 Rc8+ 27. Kb1
+Nc4 28. Kc2 Ne3+ 29. Kd2 Nc4+ 30. Kc2 Ne3+ 31. Kd2 Nc4+ 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.09"]
+[Round "8.1"]
+[White "Kramnik,V"]
+[Black "Jones,G"]
+[Result "1-0"]
+[WhiteElo "2795"]
+[BlackElo "2644"]
+[ECO "A04"]
+[EventDate "2012.12.01"]
+
+1. Nf3 c5 2. b3 d5 3. e3 Nf6 4. Bb2 e6 5. g3 Nc6 6. Bg2 Be7 7. O-O O-O 8. c4 b6
+9. Nc3 Bb7 10. cxd5 exd5 11. d4 Ne4 12. dxc5 Nxc3 13. Bxc3 bxc5 14. Qe2 Re8 15.
+Rfd1 Bf8 16. Qb5 Qb6 17. Qxb6 axb6 18. Rxd5 Nd4 19. Nxd4 Bxd5 20. Bxd5 cxd4 21.
+Bxd4 Ra5 22. e4 Bc5 23. Bc3 Ra3 24. Bb2 Ra7 25. a4 Rc7 26. Ra2 h6 27. Kg2 Kh7
+28. f4 f6 29. Kf3 Rd7 30. a5 bxa5 31. Rxa5 Rc8 32. Rb5 Rd6 33. Rb7 Rb6 34. Rf7
+Rf8 35. Rc7 Bd6 36. Rd7 Ra6 37. Bd4 Bb8 38. Bc5 Re8 39. Kg4 Ra2 40. h4 Rc8 41.
+b4 Ra3 42. h5 Rc3 43. Bd4 R3c7 44. Rxc7 Bxc7 45. Kf5 Bd6 46. b5 Rc1 47. b6 Bb8
+48. Ke6 Rh1 49. Bc5 1-0
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.09"]
+[Round "8.2"]
+[White "Aronian,L"]
+[Black "Adams,Mi"]
+[Result "1/2-1/2"]
+[WhiteElo "2815"]
+[BlackElo "2710"]
+[ECO "A07"]
+[EventDate "2012.12.01"]
+
+1. Nf3 d5 2. g3 c6 3. Bg2 Bg4 4. O-O Nd7 5. d3 e6 6. Nbd2 Bd6 7. e4 Ne7 8. Re1
+O-O 9. d4 a5 10. a4 Rc8 11. c3 Bh5 12. Qe2 Re8 13. Qf1 Bb8 14. b3 dxe4 15. Nxe4
+Nd5 16. Bb2 e5 17. Ned2 Bxf3 18. Bxf3 exd4 19. Rxe8+ Qxe8 20. cxd4 Bd6 21. Re1
+Qd8 22. Nc4 Bb4 23. Re2 N7f6 24. Qc1 Qc7 25. Kg2 Rd8 26. Qc2 h6 27. Ne3 Bf8 28.
+Nf5 Qd7 29. Re5 g6 30. Nh4 Bg7 31. Ba3 Nb4 32. Qe2 Qxd4 33. Re7 Rd7 34. Rxd7
+Qxd7 35. Bxb4 axb4 36. Qd1 Nd5 37. Be2 Bf6 38. Nf3 Kg7 39. Qd2 Bc3 40. Qc2 Qg4
+41. Qc1 Qe4 42. Qd1 Bf6 43. Bc4 Nb6 44. Bf1 Bc3 45. h3 Qe7 46. Bd3 Qe6 47. Bf1
+Bf6 48. Qc2 Qd5 49. Bd3 Bc3 50. h4 Qe6 51. h5 g5 52. Bf5 Qd5 53. Be4 Qd6 54. Bd3
+Qd5 55. Be4 Qd6 56. Bd3 Nd7 57. Bc4 Nf6 58. Qe2 b6 59. Nh2 b5 60. axb5 cxb5 61.
+Bxb5 Qd5+ 62. Kg1 Qxb3 63. Bc4 Qb1+ 64. Nf1 Qe1 65. Qxe1 Bxe1 66. Ne3 Ne4 67.
+Nf5+ Kf8 68. Nxh6 Bxf2+ 69. Kg2 Nd6 70. Bd3 Bd4 71. Nf5 Nxf5 72. Bxf5 Kg7 73.
+Bc2 g4 74. Bf5 b3 75. Bxg4 Kh6 76. Bf5 Kxh5 77. g4+ Kg5 78. Kf3 b2 79. Bb1 Be5
+80. Bc2 Bd4 81. Bb1 Be5 82. Bc2 Bd4 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.09"]
+[Round "8.3"]
+[White "Anand,V"]
+[Black "Nakamura,Hi"]
+[Result "1/2-1/2"]
+[WhiteElo "2775"]
+[BlackElo "2760"]
+[ECO "B90"]
+[EventDate "2012.12.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nde2 h5 8. Bg5
+Be6 9. Bxf6 Qxf6 10. Nd5 Qd8 11. Nec3 Nd7 12. Bc4 g6 13. a4 Bh6 14. a5 Rc8 15.
+Ba2 O-O 16. O-O Kg7 17. b4 Rc6 18. Qd3 Qg5 19. Rfd1 Rfc8 20. Bb3 f5 21. exf5
+gxf5 22. Ne2 f4 23. Ndxf4 Bxb3 24. h4 Qg4 25. f3 Bxc2 26. fxg4 Bxd3 27. Nxh5+
+Kg8 28. Rxd3 Bf8 29. Kh2 Rc4 30. Kh3 Rxb4 31. Rf3 Rc2 32. Nc3 e4 33. Rg3 Rd2 34.
+Re1 d5 35. Nf4 Rbd4 36. Ncxd5 Rxd5 37. Nxd5 Rxd5 38. Rxe4 Rxa5 39. g5 Ra3 40.
+Re8 Rxg3+ 41. Kxg3 b5 42. Rd8 Nc5 43. Rb8 Kf7 44. g6+ Kg7 45. Kg4 b4 46. h5 b3
+47. Kf5 Bd6 48. Rb4 a5 49. Rb6 a4 50. Rxd6 b2 51. Rb6 a3 52. Kg5 Ne4+ 53. Kf4 a2
+54. Rb7+ Kf8 55. Rxb2 a1=Q 56. Rb8+ Ke7 57. Kxe4 Qe1+ 58. Kf3 Qc3+ 59. Kg4 Qd4+
+60. Kh3 Qd3+ 61. Kh4 Qe4+ 62. g4 Qe1+ 63. Kh3 Qe3+ 64. Kh4 Qe1+ 65. Kh3 Qe3+ 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.09"]
+[Round "8.4"]
+[White "McShane,L"]
+[Black "Polgar,Ju"]
+[Result "0-1"]
+[WhiteElo "2713"]
+[BlackElo "2705"]
+[ECO "A37"]
+[EventDate "2012.12.01"]
+
+1. c4 g6 2. g3 Bg7 3. Bg2 c5 4. Nc3 Nc6 5. Nf3 b6 6. O-O Bb7 7. d3 Nf6 8. Bg5 h6
+9. Bd2 d5 10. Qc1 Rc8 11. Rb1 Qd7 12. b3 d4 13. Nb5 h5 14. b4 cxb4 15. Bxb4 a6
+16. Na3 Nxb4 17. Rxb4 Nd5 18. Rb3 Nc3 19. Qd2 Bxf3 20. Bxf3 h4 21. g4 b5 22. h3
+O-O 23. cxb5 axb5 24. Nc2 Rc5 25. Ne1 Bf6 26. Ng2 Bg5 27. Qb2 Rfc8 28. Kh1 Qd6
+29. Ra3 Na4 30. Rxa4 bxa4 31. Ne1 Rc1 32. Qb7 Rb8 33. Qa7 Bd2 0-1
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.10"]
+[Round "9.1"]
+[White "Adams, Michael"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[EventDate "2012.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1
+Nxe5 8. Rxe5 O-O 9. Nc3 Bf6 10. Re1 Re8 11. Nd5 Rxe1 12. Qxe1 b6 13. g3 Bb7
+14. Bg2 c6 15. Ne3 Qe7 16. d3 Nf5 17. c3 d5 18. Bd2 Nxe3 19. Qxe3 Qxe3 20.
+Bxe3 Ba6 21. d4 Re8 22. a4 h6 23. h4 Bc8 24. b4 Bf5 25. a5 b5 26. Re1 g5
+27. hxg5 hxg5 28. f3 Bd8 29. Kf2 Bc7 30. Bd2 Rxe1 31. Bxe1 f6 32. Bd2 Kg7
+33. Bf1 a6 34. Be2 Kf7 35. Be3 Kg7 36. Bd2 Kf7 37. Be3 Kg7 38. Bd2 Kf7
+1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.10"]
+[Round "9.2"]
+[White "Carlsen, Magnus"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[EventDate "2012.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Nc3 d6 6. Na4 Bb6 7. Nxb6 axb6
+8. c3 Bd7 9. Ba4 Ne7 10. Bc2 Ng6 11. h3 O-O 12. O-O h6 13. Re1 Re8 14. d4
+Bc6 15. dxe5 dxe5 16. Qxd8 Rexd8 17. g3 Nd7 18. Be3 Nc5 19. Nd2 Nf8 20. f3
+Nfe6 21. h4 Bb5 22. a3 Rd7 23. b4 Nd3 24. Reb1 Ba4 25. Bxa4 Rxa4 26. Kf1 b5
+27. Ke2 Ra6 28. h5 c5 29. bxc5 Ndxc5 30. Rxb5 Na4 31. Rc1 Rc7 32. Nb1 f6
+33. c4 b6 34. Rd5 Nac5 35. Rc2 Rc6 36. Rb2 Kh7 37. Rb4 g6 38. hxg6+ Kxg6
+39. Rd2 h5 40. Nc3 Rxa3 41. Nd5 Kf7 42. Nxb6 Nb3 43. Rd7+ Ke8 44. Rb7 Nbd4+
+45. Bxd4 Nxd4+ 46. Kd1 Kd8 47. Rd7+ Ke8 48. Rb7 Kd8 49. Nd5 Ra1+ 50. Kd2
+Ra2+ 51. Rb2 Rxb2+ 52. Rxb2 Nxf3+ 53. Kd3 Ng5 54. Rb8+ Kd7 55. Rb7+ Kd6 56.
+Nxf6 Ra6 57. Ne8+ Kc5 58. Rc7+ Kb4 59. Rb7+ Kc5 60. Rc7+ Kb4 61. Rb7+
+1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.10"]
+[Round "9.3"]
+[White "Polgar, Judit"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[ECO "C89"]
+[Opening "Ruy Lopez"]
+[Variation "Marshall counter-attack, 11...c6"]
+[EventDate "2012.12.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8.
+c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d3 Bd6 13. Re1 Bf5 14. Qf3
+Qf6 15. Bxd5 cxd5 16. Bf4 Bxf4 17. Qxf4 d4 18. cxd4 Rad8 19. Nc3 Rxd4 20.
+Ne4 Bxe4 21. Qxf6 gxf6 22. Rxe4 Rxd3 23. a4 Rfd8 24. g3 R3d4 25. Rxd4 Rxd4
+26. axb5 axb5 27. Re1 Rd2 28. b3 Rb2 29. Re3 Kg7 30. Rf3 f5 31. h3 Kf6 32.
+g4 Kg6 33. Rxf5 Rxb3 34. Kg2 1/2-1/2
+
+[Event "4th London Chess Classic"]
+[Site "London ENG"]
+[Date "2012.12.10"]
+[Round "9.4"]
+[White "Nakamura, Hikaru"]
+[Black "McShane, Luke"]
+[Result "1-0"]
+[ECO "D15"]
+[Opening "QGD Slav"]
+[Variation "4.Nc3"]
+[EventDate "2012.12.01"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 a6 5. c5 Nbd7 6. g3 g6 7. Bg2 Bg7 8.
+O-O O-O 9. Qc2 Re8 10. Rd1 e5 11. dxe5 Nxe5 12. Nxe5 Rxe5 13. e4 Bg4 14. f3
+Bd7 15. Bf4 Re8 16. Na4 a5 17. Nb6 Ra6 18. Qf2 Be6 19. Bf1 Rxb6 20. cxb6
+Qe7 21. Be3 Nd7 22. Bd4 dxe4 23. fxe4 Bxd4 24. Rxd4 Nxb6 25. b3 Nd7 26.
+Rad1 Ne5 27. h3 h5 28. Bg2 Kh7 29. Qf4 Bd7 30. Kh2 c5 31. Rd6 a4 32. R1d5
+Kg7 33. Qxe5+ 1-0
+

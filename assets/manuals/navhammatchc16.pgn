@@ -1,0 +1,104 @@
+[Event "Navara-Hammer Classical"]
+[Site "Novy Bor CZE"]
+[Date "2016.09.29"]
+[Round "1"]
+[White "Navara, David"]
+[Black "Hammer, Jon Ludvig"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2742"]
+[BlackElo "2651"]
+[ECO "C45"]
+[Opening "Scotch"]
+[Variation "Schmidt variation"]
+[WhiteFideId "309095"]
+[BlackFideId "1503707"]
+[EventDate "2016.09.29"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. Qe2 Be7 7. e5 Nd5 8.
+c4 Nb6 9. Qg4 g6 10. Bh6 d5 11. Qg3 Nxc4 12. Bxc4 dxc4 13. Nc3 Qd3 14. Qf4 Qf5
+15. Qe3 Qd3 16. Qf4 Qf5 17. Qg3 Qd3 18. Rd1 Qxg3 19. hxg3 Rb8 20. Bg7 Rg8 21.
+Rxh7 Rxb2 22. Ne4 Bf5 23. Nf6+ Bxf6 24. Bxf6 Bd3 25. Rd2 Rb1+ 26. Rd1 Rb2 27.
+Rd2 Rb1+ 28. Rd1 Rb2 1/2-1/2
+
+[Event "Navara-Hammer Classical"]
+[Site "Novy Bor CZE"]
+[Date "2016.09.30"]
+[Round "2"]
+[White "Hammer, Jon Ludvig"]
+[Black "Navara, David"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2742"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "1503707"]
+[BlackFideId "309095"]
+[EventDate "2016.09.29"]
+
+1. Nf3 c5 2. c4 Nc6 3. Nc3 g6 4. e3 Nf6 5. d4 cxd4 6. exd4 d5 7. cxd5 Nxd5 8.
+Bc4 Nb6 9. Bb3 Bg7 10. O-O O-O 11. d5 Na5 12. h3 Bxc3 13. bxc3 Nxb3 14. axb3
+Qxd5 15. Bd2 Bf5 16. Re1 Be4 17. Ng5 Bxg2 18. c4 Qc6 19. Qg4 h6 20. Ne6 h5 21.
+Qg3 h4 22. Qg5 Bxh3 23. Nxf8 Rxf8 24. Rxe7 Rd8 25. Re3 Rxd2 26. Rxh3 Rd4 27.
+Rxh4 Rxh4 28. Qxh4 a6 29. Qd8+ Kg7 30. Rd1 Qe6 31. Qd4+ Kg8 32. Rd3 Na8 33. Re3
+Qc8 34. Re7 1-0
+
+[Event "Navara-Hammer Classical"]
+[Site "Novy Bor CZE"]
+[Date "2016.10.02"]
+[Round "3"]
+[White "Navara, David"]
+[Black "Hammer, Jon Ludvig"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2742"]
+[BlackElo "2651"]
+[ECO "D31"]
+[Opening "QGD"]
+[Variation "Janowski variation"]
+[WhiteFideId "309095"]
+[BlackFideId "1503707"]
+[EventDate "2016.09.29"]
+
+1. d4 d5 2. c4 e6 3. Nc3 a6 4. cxd5 exd5 5. Nf3 c6 6. Bf4 Bd6 7. Bxd6 Qxd6 8. e4
+dxe4 9. Nxe4 Qe7 10. Qe2 Nh6 11. Nd6+ Kd8 12. Nxc8 Qb4+ 13. Qd2 Re8+ 14. Ne5
+Qxd2+ 15. Kxd2 Kxc8 16. Bc4 f6 17. Nf7 Nxf7 18. Bxf7 Rd8 19. Rae1 Rxd4+ 20. Kc3
+c5 21. Re8+ Rd8 22. Rxd8+ Kxd8 23. Re1 b5 24. Re8+ Kc7 25. Rh8 Ra7 26. Rxh7 Kd6
+27. Rxg7 Nc6 28. Rh7 Re7 29. h4 Re2 30. h5 Rxf2 31. h6 Rxg2 32. Rh8 Ne5 33. Bh5
+Rh2 34. Rd8+ Kc7 35. h7 Rh3+ 36. Kc2 Rh2+ 37. Kd1 Rxh5 38. h8=Q Rxh8 39. Rxh8 a5
+40. Rf8 Nd7 41. Re8 Kd6 42. b3 Nb6 43. Rf8 c4 44. Rxf6+ Kc5 45. Rf5+ Nd5 46.
+bxc4 Kxc4 47. Kd2 Nb4 48. Rf4+ Kc5 49. a3 Nd5 50. Rh4 b4 51. a4 Nb6 52. Rh5+ Kd4
+53. Kc2 1/2-1/2
+
+[Event "Navara-Hammer Classical"]
+[Site "Novy Bor CZE"]
+[Date "2016.10.03"]
+[Round "4"]
+[White "Hammer, Jon Ludvig"]
+[Black "Navara, David"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2651"]
+[BlackElo "2742"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "1503707"]
+[BlackFideId "309095"]
+[EventDate "2016.09.29"]
+
+1. c4 e5 2. g3 c6 3. Nf3 e4 4. Nd4 d5 5. cxd5 Qxd5 6. Nc2 Nf6 7. Nc3 Qe5 8. Bg2
+Be7 9. Ne3 Na6 10. Qc2 Nb4 11. Qb1 Be6 12. b3 Nbd5 13. Bb2 Nxe3 14. fxe3 Bf5 15.
+O-O Qe6 16. Rf4 Bd6 17. Rxf5 Qxf5 18. Nxe4 Nxe4 19. Bxe4 Qg5 20. Qc2 f5 21. Bxf5
+O-O 22. Bxh7+ Kh8 23. Qg6 Qxg6 24. Bxg6 a5 25. Rc1 a4 26. Rc4 axb3 27. axb3 Ra2
+28. Bc3 Be7 29. Re4 Bf6 30. Bxf6 gxf6 31. Rd4 Rb2 32. b4 Ra8 33. Bf5 Ra4 34.
+Rd8+ Kg7 35. Rd7+ Kf8 36. Rd8+ Ke7 37. Rd7+ Kf8 38. Rxb7 Rxd2 39. Kf2 Rb2 40.
+Rb6 Raxb4 41. Rxc6 Rb6 42. Rc8+ Kg7 43. Rc7+ Kf8 44. Be4 Re6 45. Kf3 Re7 46. Rc6
+Kg7 47. g4 Rb8 48. h4 Rh8 49. h5 Rhe8 50. h6+ Kxh6 51. Rxf6+ Kg7 52. Rf4 Re5 53.
+Bd3 Rxe3+ 54. Kf2 Kh6 55. Rf5 R3e5 56. Kf3 Rxf5+ 57. gxf5 Kg5 58. e4 Rd8 59. Ke3
+Kf6 1/2-1/2
+

@@ -1,0 +1,152 @@
+[Event "Botvinnik Memorial"]
+[Site "Moscow RUS"]
+[Date "2011.09.02"]
+[Round "1"]
+[White "Aronian, Levon"]
+[Black "Carlsen, Magnus"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2807"]
+[BlackElo "2823"]
+[ECO "E15"]
+[Opening "Queen's Indian"]
+[Variation "Nimzovich variation (exaggerated fianchetto)"]
+[WhiteFideId "13300474"]
+[BlackFideId "1503014"]
+[EventDate "2011.09.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 b5 6. cxb5 Bxb5 7. Bg2 d5 8. O-O
+Nbd7 9. Nc3 Ba6 10. Ne5 Bd6 11. Bf4 O-O 12. Rc1 Bxe5 13. dxe5 Nh5 14. Na4 Nxf4
+15. gxf4 Bb5 16. Nc5 Nxc5 17. Rxc5 c6 18. Qd2 Qb6 19. Rfc1 a5 20. e4 a4 21. f5
+axb3 22. f6 Qxc5 23. a4 Qxc1+ 24. Qxc1 b2 25. Qxb2 Rxa4 26. Qc1 gxf6 27. h4 Rfa8
+28. Kh2 dxe4 29. exf6 Kh8 30. Qf4 e3 31. Qxe3 Rxh4+ 32. Kg3 Rh5 33. Kg4 Rf5 34.
+Be4 Rg8+ 35. Kh4 Rxf6 36. Qc3 Kg7 37. Qg3+ Rg6 38. Qe5+ Rf6 39. Qg5+ Rg6 40.
+Qe5+ Kf8 41. Qb8+ Ke7 42. Qc7+ Kf6 43. Qf4+ Kg7 1/2-1/2
+
+[Event "Botvinnik Memorial"]
+[Site "Moscow RUS"]
+[Date "2011.09.02"]
+[Round "1"]
+[White "Anand, Viswanathan"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2817"]
+[BlackElo "2791"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "5000017"]
+[BlackFideId "4101588"]
+[EventDate "2011.09.02"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. O-O Nd4 6. Nxd4 Bxd4 7. c3 Bb6 8.
+Nd2 c6 9. Ba4 O-O 10. Nc4 Bc7 11. Ne3 d5 12. Qf3 d4 13. cxd4 Qxd4 14. Bc2 Be6
+15. Rd1 Bb6 16. h3 Rad8 17. Bb3 Bxb3 18. axb3 Qb4 19. Nc4 Nd7 20. Bd2 Qxb3 21.
+Bc3 Bc5 22. Nxe5 Nxe5 23. Bxe5 Bd4 24. Bxd4 Rxd4 25. Rxa7 Qxb2 26. Raa1 Rb4 27.
+d4 Rxd4 28. Rdb1 Qc2 29. Rxb7 Qxe4 30. Qxe4 Rxe4 31. Rc1 Re6 32. Rc7 g6 33.
+R7xc6 Rxc6 34. Rxc6 1/2-1/2
+
+[Event "Botvinnik Memorial"]
+[Site "Moscow RUS"]
+[Date "2011.09.02"]
+[Round "2"]
+[White "Carlsen, Magnus"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2823"]
+[BlackElo "2791"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "1503014"]
+[BlackFideId "4101588"]
+[EventDate "2011.09.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d5 7. e3 b6 8. cxd5
+Nxd5 9. Qc2 Ba6 10. Bxa6 Nxa6 11. e4 Ne7 12. Bg5 h6 13. Bxe7 Qxe7 14. Qc6 e5 15.
+Qb5 exd4 16. Qxa6 Qxe4+ 17. Kf1 Rfe8 18. Rd1 b5 19. Qxb5 Rab8 20. Qd3 Rxb2 21.
+Qxe4 Rxe4 22. g3 c5 23. Kg2 c4 24. Nf3 d3 25. Rd2 Rb3 26. a4 g5 27. Rc1 a5 28.
+Rdd1 Rb2 29. Rd2 Rxd2 30. Nxd2 Re2 31. Nb1 Rc2 32. Rd1 c3 33. Kf3 d2 34. Ke4 Rc1
+35. Nxc3 1/2-1/2
+
+[Event "Botvinnik Memorial"]
+[Site "Moscow RUS"]
+[Date "2011.09.02"]
+[Round "2"]
+[White "Aronian, Levon"]
+[Black "Anand, Viswanathan"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2807"]
+[BlackElo "2817"]
+[ECO "D10"]
+[Opening "QGD Slav defence"]
+[WhiteFideId "13300474"]
+[BlackFideId "5000017"]
+[EventDate "2011.09.02"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 g6 5. Nf3 Bg7 6. h3 O-O 7. Bd3 a6 8. O-O Nbd7
+9. a4 Re8 10. cxd5 cxd5 11. Bd2 b6 12. Qe2 Bb7 13. Rfd1 e5 14. dxe5 Nxe5 15. Be1
+Nxf3+ 16. Qxf3 Qb8 17. Qf4 Qxf4 18. exf4 Nd7 19. a5 Nc5 20. Bf1 b5 21. f3 Nb3
+22. Rab1 Nxa5 23. Bf2 Nc4 24. Bd4 Ne3 25. Rd3 Bxd4 26. Rxd4 Rac8 27. Bd3 Kg7 28.
+Kf2 Nc4 29. Ne2 Nd2 30. Rd1 Nb3 31. Rb4 Nc5 32. Rd4 Bc6 33. f5 a5 34. Bb1 b4 35.
+h4 Ba4 36. Rh1 Bb3 37. fxg6 hxg6 38. h5 Ne6 39. hxg6 fxg6 40. Rd2 Bc4 41. Rh4
+Kf6 42. Rh6 Rg8 43. Nd4 Nxd4 44. Rxd4 a4 45. Rh7 a3 46. bxa3 bxa3 47. Rf4+ Ke5
+48. g3 Rb8 0-1
+
+[Event "Botvinnik Memorial"]
+[Site "Moscow RUS"]
+[Date "2011.09.02"]
+[Round "3"]
+[White "Anand, Viswanathan"]
+[Black "Carlsen, Magnus"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2817"]
+[BlackElo "2823"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "5000017"]
+[BlackFideId "1503014"]
+[EventDate "2011.09.02"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. c3 O-O 6. O-O d6 7. Nbd2 Bb6 8. Nc4
+Ne7 9. Nxb6 axb6 10. Ba4 Ng6 11. h3 Nh5 12. Bg5 f6 13. Be3 Nhf4 14. Bb3+ Kh8 15.
+Bxf4 Nxf4 16. Nh4 f5 17. Nxf5 Qg5 18. Qg4 Qf6 19. Qh4 Qxh4 20. Nxh4 Nxd3 21. Nf3
+Rf6 22. Rad1 Nxb2 23. Rd2 Na4 24. Nxe5 Be6 25. Ng4 Bxg4 26. hxg4 Nxc3 27. Re1 h6 1/2-1/2
+
+[Event "Botvinnik Memorial"]
+[Site "Moscow RUS"]
+[Date "2011.09.02"]
+[Round "3"]
+[White "Kramnik, Vladimir"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2791"]
+[BlackElo "2807"]
+[ECO "B70"]
+[Opening "Sicilian"]
+[Variation "dragon variation"]
+[WhiteFideId "4101588"]
+[BlackFideId "13300474"]
+[EventDate "2011.09.02"]
+
+1. Nf3 g6 2. e4 c5 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 Bg7 7. O-O O-O 8. Re1
+Nc6 9. Nb3 Be6 10. Bg5 d5 11. exd5 Nxd5 12. Nxd5 Qxd5 13. Qxd5 Bxd5 14. c3 h6
+15. Be3 b6 16. Rad1 Rad8 17. Bb5 Nb8 18. Bf4 e5 19. Bxe5 Bxe5 20. Rxe5 Bxb3 21.
+Rxd8 Rxd8 22. axb3 Rd1+ 23. Bf1 Kf8 24. b4 Nc6 25. Re2 a5 26. b5 Nd8 27. g3 Nb7
+28. Kg2 Nc5 29. b4 axb4 30. cxb4 Nd7 31. Re4 Rd2 32. Kf3 h5 33. h3 Rb2 34. Bd3
+Nf6 35. Rd4 Ke7 36. Ke3 Ke6 37. Bc4+ Ke7 38. Rf4 Rxb4 39. Kd4 Rb2 40. Ke5 Rb1
+41. Rf3 Rd1 42. Rd3 Re1+ 43. Re3 Rxe3+ 44. fxe3 Nd7+ 45. Kd5 f6 46. h4 Ne5 47.
+Bb3 Kd7 48. Bc2 Ke7 49. Bb1 Kd7 50. Bc2 Ke7 51. Bb1 Kd7 1/2-1/2
+

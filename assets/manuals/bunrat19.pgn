@@ -1,0 +1,897 @@
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.22"]
+[Round "1.1"]
+[White "Howell, David W L"]
+[Black "Machin, Guillaume"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "CM"]
+[WhiteElo "2689"]
+[BlackElo "2159"]
+[ECO "A01"]
+[Opening "Nimzovich-Larsen attack"]
+[Variation "modern variation"]
+[WhiteFideId "410608"]
+[BlackFideId "616648"]
+[EventDate "2019.02.22"]
+
+1. b3 e5 2. Bb2 d6 3. e3 Nf6 4. g3 c6 5. Bg2 Bg4 6. Ne2 Nbd7 7. h3 Bh5 8. O-O e4
+9. d3 exd3 10. cxd3 Bxe2 11. Qxe2 Be7 12. Nd2 O-O 13. e4 Re8 14. f4 Bf8 15. Rae1
+Qa5 16. a3 g6 17. d4 d5 18. e5 Nh5 19. Qd3 f5 20. g4 Ng7 21. gxf5 Nxf5 22. h4
+Qd8 23. Nf3 Bh6 24. Bh3 Qe7 25. Bxf5 gxf5 26. Qxf5 Kh8 27. Ng5 Rg8 28. Kh1 Raf8
+29. Qg4 Bxg5 30. hxg5 Rg6 31. Rf3 Rfg8 32. Rh3 Nf8 33. Re2 R6g7 34. Rh6 Rg6 35.
+Rh5 R6g7 36. Bc1 c5 37. f5 Qe8 38. e6 Qe7 39. Bf4 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.22"]
+[Round "1.2"]
+[White "Walton, Alan J"]
+[Black "McShane, Luke J"]
+[Result "0-1"]
+[WhiteTitle "CM"]
+[BlackTitle "GM"]
+[WhiteElo "2140"]
+[BlackElo "2663"]
+[ECO "A45"]
+[Opening "Trompovsky attack (Ruth, Opovcensky opening)"]
+[WhiteFideId "409898"]
+[BlackFideId "404853"]
+[EventDate "2019.02.22"]
+
+1. d4 Nf6 2. Bg5 d5 3. e3 c5 4. c3 Nc6 5. Nf3 Qb6 6. Qb3 c4 7. Qxb6 axb6 8. Nbd2
+b5 9. Be2 e6 10. O-O b4 11. cxb4 Bxb4 12. a3 Be7 13. Rfc1 b5 14. h3 Bd7 15. g4
+h5 16. Ne5 hxg4 17. Bxf6 gxf6 18. Nxc6 Bxc6 19. hxg4 Kd7 20. Kg2 f5 21. Rh1 Rhg8
+22. Rh7 Raf8 23. f3 e5 24. dxe5 d4 25. exd4 Rxg4+ 26. Kh3 Rxd4 27. Rd1 Ke6 28.
+Rh6+ f6 29. exf6 Bxf6 30. Nf1 Rxd1 31. Bxd1 Rh8 32. Rxh8 Bxh8 33. b3 Ke5 34.
+bxc4 bxc4 35. Ne3 c3 36. Bc2 f4 37. Ng4+ Kd6 38. Kg2 Bd4 39. Nf2 Bxf2 40. Kxf2
+Kc5 41. Ke2 Kc4 42. Kf2 Kd4 43. a4 Bxa4 44. Bxa4 Kd3 45. Kg2 c2 46. Bxc2+ Kxc2
+47. Kh3 Kd3 48. Kh4 Ke2 0-1
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.22"]
+[Round "1.3"]
+[White "Short, Nigel D"]
+[Black "Moran, Stephen"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2648"]
+[BlackElo "2155"]
+[ECO "C01"]
+[Opening "French"]
+[Variation "exchange, Svenonius variation"]
+[WhiteFideId "400025"]
+[BlackFideId "2501872"]
+[EventDate "2019.02.22"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. exd5 exd5 5. Bg5 Be7 6. Qd2 O-O 7. O-O-O Nc6 8.
+f3 a6 9. h4 b5 10. Re1 Rb8 11. g4 b4 12. Na4 Na5 13. b3 Bd7 14. Nc5 Bb5 15. Ne2
+Nb7 16. Nxb7 Rxb7 17. Ng3 Bd7 18. Bd3 a5 19. Rxe7 Qxe7 20. Nh5 Rb6 21. Bxf6 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.22"]
+[Round "1.4"]
+[White "O'Connor, Jonathan"]
+[Black "Turner, Matthew J"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2208"]
+[BlackElo "2519"]
+[ECO "C29"]
+[Opening "Vienna gambit"]
+[Variation "Paulsen attack"]
+[WhiteFideId "2501112"]
+[BlackFideId "402893"]
+[EventDate "2019.02.22"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Qf3 Nxc3 6. bxc3 Qh4+ 7. g3 Qe4+ 8.
+Qxe4 dxe4 9. Bg2 Nc6 10. Bxe4 Nxe5 11. Rb1 Bd6 12. Nf3 Nd7 13. d4 Nb6 14. O-O
+O-O 15. Bd3 Bg4 16. Ng5 h6 17. Ne4 Be6 18. a4 Bd5 19. a5 Nc4 20. Rb5 Bxe4 21.
+Bxe4 Rab8 22. Bd3 c6 23. Rbf5 b5 24. axb6 Nxb6 25. Ra5 Rb7 26. Ba3 Bxa3 27. Rxa3
+Re8 28. Rfa1 Ree7 29. Kf2 Nd5 30. Re1 Rxe1 31. Kxe1 g6 32. Ra6 Rc7 33. Kd2 Kg7
+34. Be4 Nb6 35. Kd3 c5 36. Ra5 f5 37. Bg2 Nd7 38. Ra6 c4+ 39. Kd2 Nf6 40. Ra4 g5
+41. Ra5 Kg6 42. Ra6 f4 43. gxf4 gxf4 44. Ra5 Re7 45. Ra6 Kf5 46. Ra5+ Kg6 47.
+Ra6 Kg7 48. Rc6 Ng4 49. h4 Nh2 50. Ra6 f3 51. Bh3 f2 52. Ra1 Nf3+ 53. Kc1 Re1+
+54. Kb2 Rxa1 55. Kxa1 Nd2 56. Kb2 f1=Q 57. Bxf1 Nxf1 58. Ka3 Kf6 59. Kb4 Ne3 60.
+Kc5 Ke7 61. d5 a5 0-1
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.22"]
+[Round "1.5"]
+[White "Williams, Simon K"]
+[Black "Melaugh, Shane"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2471"]
+[BlackElo "2118"]
+[ECO "A45"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "404454"]
+[BlackFideId "2509580"]
+[EventDate "2019.02.22"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bf4 c5 4. e3 a6 5. dxc5 Nc6 6. Nf3 e6 7. Na4 Ne4 8. Bd3
+Nxc5 9. Nxc5 Bxc5 10. O-O Qe7 11. e4 d4 12. e5 h6 13. a3 g5 14. Bg3 b5 15. Nd2
+Bb6 16. f4 Bc7 17. Qh5 Bb7 18. fxg5 O-O-O 19. gxh6 Nxe5 20. Bxe5 Qc5 21. Rae1
+Rhg8 22. g3 Rd5 23. h7 Rh8 24. Qxf7 Rxe5 25. Qg8+ Bd8 26. Qxh8 Re3 27. Qxd8+
+Kxd8 28. h8=Q+ Kc7 29. Rf7+ Kb6 30. Qd8+ Ka7 31. Rxb7+ Kxb7 32. Rf1 Qe5 33. Rf7+
+Kc6 34. Qc8+ Kb6 35. Qb7+ 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.22"]
+[Round "1.6"]
+[White "Voiteanu, Gabriel"]
+[Black "Baburin, Alexander"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2121"]
+[BlackElo "2432"]
+[ECO "D02"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "1208810"]
+[BlackFideId "2500914"]
+[EventDate "2019.02.22"]
+
+1. d4 d5 2. Nf3 Nf6 3. g3 c6 4. Bg2 Bf5 5. c4 e6 6. Nc3 Nbd7 7. Nh4 Bg4 8. h3
+Bh5 9. g4 Bg6 10. cxd5 exd5 11. Nxg6 hxg6 12. Bf4 Nb6 13. Qd3 Bd6 14. Qe3+ Kf8
+15. Qg3 Bxf4 16. Qxf4 Nc4 17. b3 Qd6 18. Qxd6+ Nxd6 19. Rc1 Re8 20. f3 Nd7 21.
+Kd2 f5 22. e3 Nf6 23. Rcf1 Kg8 24. Kd3 g5 25. Re1 g6 26. e4 fxe4+ 27. fxe4 dxe4+
+28. Nxe4 Nfxe4 29. Bxe4 Nxe4 30. Rxe4 Rxe4 31. Kxe4 Kf7 32. Rf1+ Ke6 33. Rf3 Re8
+34. Kd3 Rh8 35. Kc4 b6 36. Re3+ Kf6 37. d5 cxd5+ 38. Kxd5 Rc8 39. Kd6 Rd8+ 40.
+Kc6 Rd4 41. Kb7 Rd7+ 42. Ka6 Rc7 43. b4 Rd7 44. b5 Rc7 45. a4 Kf7 46. Re5 Kf6
+47. Re8 Rd7 48. Ra8 Ke7 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "2.1"]
+[White "Fitzsimons, David"]
+[Black "Howell, David W L"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2301"]
+[BlackElo "2689"]
+[ECO "C03"]
+[Opening "French"]
+[Variation "Tarrasch"]
+[WhiteFideId "2501961"]
+[BlackFideId "410608"]
+[EventDate "2019.02.22"]
+
+1. e4 e6 2. d4 d5 3. Nd2 h6 4. c3 c5 5. exd5 exd5 6. Ngf3 Nc6 7. Bb5 cxd4 8. O-O
+Bd6 9. Nxd4 Ne7 10. N2b3 O-O 11. Be3 Qc7 12. h3 a6 13. Bd3 Ne5 14. Bf4 Re8 15.
+Re1 Bd7 16. Bxe5 Bxe5 17. Qh5 Bh2+ 18. Kf1 Bf4 19. Re2 g6 20. Qf3 Bg5 21. Kg1
+Qd6 22. Rae1 Kg7 23. a3 Rab8 24. Na1 Nc6 25. Nxc6 bxc6 26. Rxe8 Bxe8 27. Qe2 c5
+28. Rd1 Ba4 29. b3 Bxb3 30. Nxb3 Rxb3 31. Bc4 Rxa3 32. Bxd5 Rxc3 33. Bxf7 Rc1
+34. Rxc1 Bxc1 35. Bc4 a5 36. Qf3 Qf4 37. Qb7+ Kf8 38. Qc8+ Ke7 39. Qxc5+ Qd6 40.
+Qxa5 Bg5 41. Qa7+ Kd8 42. g3 Bf6 43. Qa8+ Kc7 44. Qe4 Bd4 45. Qf3 Qf6 46. Qxf6
+Bxf6 47. f4 Kd6 48. Kg2 Ke7 49. h4 Kf8 50. Kf3 1/2-1/2
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "2.2"]
+[White "McShane, Luke J"]
+[Black "Connell, Blair N"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2663"]
+[BlackElo "2239"]
+[ECO "C50"]
+[Opening "King's pawn game"]
+[WhiteFideId "404853"]
+[BlackFideId "403725"]
+[EventDate "2019.02.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 g6 4. d3 Bg7 5. h4 h6 6. Nc3 d6 7. Be3 Nf6 8. a3 a6
+9. Qd2 Ng4 10. h5 Nxe3 11. fxe3 g5 12. Nh2 Be6 13. Nd5 Ne7 14. O-O Ng8 15. Qa5
+Rc8 16. Rf2 c6 17. Nb6 Rc7 18. Bxe6 fxe6 19. Ng4 Nf6 20. Nxf6+ Bxf6 21. Raf1 O-O
+22. Nc4 Bg7 23. Rxf8+ Bxf8 24. d4 b5 25. Nd2 Bg7 26. c3 Qc8 27. Qb6 Qb7 28. Qxb7
+Rxb7 29. Nb3 Rc7 30. Kf2 Kf7 31. Ke2+ Ke7 32. Kd3 exd4 33. exd4 c5 34. Na1 cxd4
+35. cxd4 a5 36. Nc2 Rc4 37. Ra1 Kd7 38. g4 Rc8 39. a4 Rb8 40. axb5 Rxb5 41. Kc3
+d5 42. Rf1 Ke7 43. e5 a4 44. Nb4 Bf8 45. Ra1 Kd7 46. Rxa4 Rb7 47. Nd3 Rc7+ 48.
+Kd2 Rc4 49. Rxc4 dxc4 50. Nf2 Bb4+ 51. Ke3 c3 52. bxc3 Bxc3 53. Ke4 Bb4 54. Nd3
+Ba3 55. d5 exd5+ 56. Kxd5 Ke7 57. Ne1 Bb4 58. Nc2 Bd2 59. Nd4 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "2.3"]
+[White "Li, Henry"]
+[Black "Short, Nigel D"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2287"]
+[BlackElo "2648"]
+[ECO "C96"]
+[Opening "Ruy Lopez"]
+[Variation "closed, Keres (...Nd7) defence"]
+[WhiteFideId "2508524"]
+[BlackFideId "400025"]
+[EventDate "2019.02.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Na5 10. Bc2 c5 11. d4 Nd7 12. Nbd2 cxd4 13. cxd4 Nc6 14. d5 Nb4 15.
+Bb1 a5 16. b3 Nc5 17. Nf1 Bd7 18. Be3 Qc7 19. Qd2 Rfc8 20. Ng3 Nba6 21. Nf5 Bf8
+22. Nh2 b4 23. f4 Bxf5 24. exf5 f6 25. Bc2 Na4 26. Bd3 Nc3 27. Bc4 Kh8 28. a4
+Nc5 29. Rec1 Qd7 30. g4 N5xa4 31. Nf3 Nc5 32. Nh4 Qe8 33. fxe5 N5e4 34. Qe1 dxe5
+35. Bd3 Bd6 36. Rc2 Nc5 37. Bc4 a4 38. Bxc5 Rxc5 0-1
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "2.4"]
+[White "Turner, Matthew J"]
+[Black "Delaney, Killian"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2519"]
+[BlackElo "2234"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "402893"]
+[BlackFideId "2501570"]
+[EventDate "2019.02.22"]
+
+1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. Bg2 Nf6 6. Nf3 Be7 7. O-O O-O 8. cxd5
+cxd5 9. Nc3 Nc6 10. Qd3 h6 11. Bf4 Be6 12. Nd4 Nxd4 13. Qxd4 Qa5 14. Qa4 Qxa4
+15. Nxa4 Rac8 16. Rac1 b5 17. Nc3 b4 18. Nb5 Ne4 19. Be5 Bc5 20. Bd4 Bxd4 21.
+Nxd4 Rxc1 22. Rxc1 Rc8 23. Rxc8+ Bxc8 24. Nc6 Kf8 25. Nxb4 Be6 26. Nc6 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "2.5"]
+[White "O'Gorman, Tom"]
+[Black "Williams, Simon K"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2248"]
+[BlackElo "2471"]
+[ECO "B72"]
+[Opening "Sicilian"]
+[Variation "dragon, 6.Be3"]
+[WhiteFideId "2508249"]
+[BlackFideId "404454"]
+[EventDate "2019.02.22"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 a6 7. Be2 Nbd7 8. g4
+h5 9. g5 Ng4 10. Bxg4 hxg4 11. Qxg4 Ne5 12. Qe2 Rh3 13. f3 b5 14. O-O-O Bb7 15.
+Nd5 Nc4 16. Kb1 Bg7 17. Bc1 e6 18. Ne3 Rc8 19. Ng4 Qb6 20. Nf6+ Bxf6 21. gxf6 e5
+22. Qg2 Rh8 23. Ne2 b4 24. b3 Na3+ 25. Bxa3 bxa3 26. Rd3 d5 27. exd5 Qxf6 28.
+Qg4 Rh4 29. Qg1 Rb4 30. Qc1 Rb5 31. Nc3 Ra5 32. Ne4 Qd8 33. d6 Kd7 34. Qh6 Bxe4
+35. fxe4 Qf6 36. Qh3+ Qe6 37. Qxe6+ Kxe6 38. d7 Rd8 39. Rhd1 f5 40. Rd6+ Kf7 41.
+exf5 gxf5 42. R6d5 Rxd5 43. Rxd5 Ke6 44. c4 f4 45. Kc2 e4 46. h4 f3 47. Kd2 f2
+48. Ke2 e3 49. h5 Rf8 50. d8=N+ Kf6 51. Rd1 Kf5 52. Kxe3 Kg4 53. Ke2 f1=N 54.
+Rxf1 Re8+ 55. Kd3 Rxd8+ 56. Kc3 a5 57. Rh1 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "2.6"]
+[White "Steil-Antoni, Fiona"]
+[Black "Lalic, Bogdan"]
+[Result "1/2-1/2"]
+[WhiteTitle "WIM"]
+[BlackTitle "GM"]
+[WhiteElo "2166"]
+[BlackElo "2406"]
+[ECO "B40"]
+[Opening "Sicilian defence"]
+[WhiteFideId "4001249"]
+[BlackFideId "409081"]
+[EventDate "2019.02.22"]
+
+1. e4 c5 2. Nf3 e6 3. c3 Nf6 4. e5 Nd5 5. d4 cxd4 6. cxd4 b6 7. Bd3 Ba6 8. O-O
+Bxd3 9. Qxd3 Be7 10. Nc3 Nxc3 11. bxc3 d5 12. Ne1 O-O 13. f4 Nc6 14. f5 f6 15.
+exf6 Rxf6 16. fxe6 Rxe6 17. Nf3 Qd7 18. Bf4 Bf6 19. Rae1 Rxe1 20. Rxe1 Re8 1/2-1/2
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "3.1"]
+[White "Wells, Peter K"]
+[Black "McShane, Luke J"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2415"]
+[BlackElo "2663"]
+[ECO "A31"]
+[Opening "English"]
+[Variation "symmetrical, Benoni formation"]
+[WhiteFideId "400327"]
+[BlackFideId "404853"]
+[EventDate "2019.02.22"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 b6 5. Nc3 Bb7 6. Bg5 a6 7. Bxf6 gxf6 8.
+e3 e6 9. Be2 Bxg2 10. Rg1 Bc6 11. Bh5 Qe7 12. Qe2 f5 13. O-O-O Qf6 14. f4 Bb4
+15. Qd3 Ra7 16. Rg5 h6 17. Rg3 Rf8 18. a3 Be7 19. Nf3 Bxf3 20. Bxf3 Rc7 21. Kb1
+d6 22. Na4 Nd7 23. Qb3 b5 24. cxb5 axb5 25. Qxb5 d5 26. Rgg1 Bd6 27. Nb6 Rb7 28.
+Nxd7 Rxd7 29. Bxd5 exd5 30. Rxd5 Ke7 31. Rgd1 Qe6 32. Rxf5 Rb8 33. Qd3 Rb3 34.
+Qc2 Rdb7 35. Rxd6 0-1
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "3.2"]
+[White "Short, Nigel D"]
+[Black "Bates, Richard A"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2648"]
+[BlackElo "2351"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf"]
+[WhiteFideId "400025"]
+[BlackFideId "403555"]
+[EventDate "2019.02.22"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. a4 Nc6 7. Be2 e5 8. Nxc6
+bxc6 9. f4 a5 10. O-O Be7 11. Kh1 O-O 12. Qe1 Rb8 13. fxe5 dxe5 14. Qg3 Rb4 15.
+Bh6 Ne8 16. Rad1 Qc7 17. b3 Be6 18. Bg4 Qc8 19. Bxe6 Qxe6 20. Bc1 Nf6 21. Qf3
+Rd4 22. Be3 Rd7 23. Rxd7 Nxd7 24. Nb1 g6 25. g4 Bc5 26. Bh6 Rd8 27. Nd2 Nb6 28.
+h3 Bb4 29. Qf2 Nd7 30. Nc4 Nc5 31. Qf3 Rd4 32. Nxe5 Rxe4 33. Nxc6 Nd7 34. Nd8
+Qe7 35. Nxf7 Re1 36. Ng5 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "3.3"]
+[White "O'Gorman, Tom"]
+[Black "Turner, Matthew J"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2248"]
+[BlackElo "2519"]
+[ECO "C92"]
+[Opening "Ruy Lopez"]
+[Variation "closed, Kholmov variation"]
+[WhiteFideId "2508249"]
+[BlackFideId "402893"]
+[EventDate "2019.02.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Be6 10. d4 Bxb3 11. axb3 exd4 12. cxd4 Nb4 13. Nc3 c5 14. Bg5 Re8 15.
+e5 dxe5 16. Rxe5 cxd4 17. Qxd4 Qxd4 18. Nxd4 h6 19. Bh4 g5 20. Bg3 Bf8 21. Rae1
+Rxe5 22. Bxe5 Nd7 23. Bg3 Nc5 24. Ne4 Nbd3 25. Re3 Nxe4 26. Rxd3 Nxg3 27. Rxg3
+Rd8 28. Rg4 0-1
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "3.4"]
+[White "Howell, David W L"]
+[Black "Vicas, Marijus"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2689"]
+[BlackElo "2212"]
+[ECO "A21"]
+[Opening "English opening"]
+[WhiteFideId "410608"]
+[BlackFideId "12804541"]
+[EventDate "2019.02.22"]
+
+1. c4 e5 2. Nc3 d6 3. d4 exd4 4. Qxd4 Nc6 5. Qd2 g6 6. b3 Bg7 7. Bb2 Nf6 8. e3
+O-O 9. Nge2 a5 10. Nf4 Ne5 11. Be2 Bf5 12. O-O Ne4 13. Nxe4 Bxe4 14. f3 Bc6 15.
+Rac1 b6 16. a3 Re8 17. Nd5 Ra7 18. e4 Bxd5 19. cxd5 Nd7 20. Bxg7 Kxg7 21. Bb5
+Rf8 22. Rc3 f5 23. exf5 Rxf5 24. Re1 Rf7 25. f4 Nc5 26. Rce3 Qf6 27. b4 axb4 28.
+axb4 Nd7 29. Bxd7 Rxd7 30. Re6 Qf5 31. Qd4+ Kh6 32. R6e3 g5 33. Rh3+ 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "3.5"]
+[White "O'Donnell, Conor"]
+[Black "Hebden, Mark L"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2377"]
+[BlackElo "2417"]
+[ECO "E81"]
+[Opening "King's Indian"]
+[Variation "Saemisch, 5...O-O"]
+[WhiteFideId "2504243"]
+[BlackFideId "400084"]
+[EventDate "2019.02.22"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. Nge2 Nc6 8. d5 Ne5
+9. Ng3 e6 10. Be2 exd5 11. cxd5 h5 12. O-O Nh7 13. Qd2 h4 14. Nh1 f5 15. exf5
+gxf5 16. Nf2 Bd7 17. a4 Qf6 18. Nh3 Rae8 19. Nf4 Ng6 20. Nh5 Qe7 21. Bh6 Bxh6
+22. Qxh6 Qe3+ 23. Qxe3 Rxe3 24. Kf2 Re7 25. Nb5 f4 26. Rfe1 Bxb5 27. axb5 Ne5
+28. g4 fxg3+ 29. hxg3 Rf5 30. f4 Rxh5 31. Bxh5 Nd3+ 32. Kf1 Rxe1+ 33. Rxe1 Nxe1
+34. Kxe1 hxg3 35. Kf1 Nf6 36. Bf3 Ne8 37. Be2 Nf6 38. Bf3 Kg7 39. Kg2 Kg6 40.
+Kxg3 Kf5 41. Bg2 Nh5+ 0-1
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "3.6"]
+[White "Lalic, Bogdan"]
+[Black "Fitzsimons, David"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2406"]
+[BlackElo "2301"]
+[ECO "E34"]
+[Opening "Nimzo-Indian"]
+[Variation "classical, Noa variation"]
+[WhiteFideId "409081"]
+[BlackFideId "2501961"]
+[EventDate "2019.02.22"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 Qxd5 6. e3 c5 7. Bd2 Bxc3 8.
+Bxc3 cxd4 9. Bxd4 Nc6 10. Bxf6 gxf6 11. Ne2 Bd7 12. Nc3 Qc5 13. Be2 Rc8 14. O-O
+O-O 15. Rfd1 1/2-1/2
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "4.1"]
+[White "McShane, Luke J"]
+[Black "Short, Nigel D"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2663"]
+[BlackElo "2648"]
+[ECO "C77"]
+[Opening "Ruy Lopez"]
+[Variation "Anderssen variation"]
+[WhiteFideId "404853"]
+[BlackFideId "400025"]
+[EventDate "2019.02.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 d6 6. c3 g6 7. O-O Bg7 8. Re1 O-O
+9. Nbd2 Re8 10. Nf1 h6 11. h3 b5 12. Bc2 d5 13. a4 Bb7 14. b4 Nb8 15. Ng3 Nbd7
+16. Be3 Qe7 17. Qb1 dxe4 18. dxe4 Nb6 19. Nd2 Nxa4 20. Bxa4 bxa4 21. Rxa4 h5 22.
+Ra5 Qe6 23. Nf3 Nh7 24. Nf1 Rad8 25. N1d2 f5 26. exf5 gxf5 27. Bf4 Qg6 28. Qa2+
+Kh8 29. Rexe5 Bxe5 30. Bxe5+ Rxe5 31. Rxe5 Ng5 32. Nh4 Nxh3+ 33. Kh2 Qg4 34. Qe6
+Qxh4 35. Qh6+ Kg8 36. Qg6+ Kh8 37. Qh6+ 1/2-1/2
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "4.2"]
+[White "Turner, Matthew J"]
+[Black "Howell, David W L"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2519"]
+[BlackElo "2689"]
+[ECO "A45"]
+[Opening "Trompovsky attack (Ruth, Opovcensky opening)"]
+[WhiteFideId "402893"]
+[BlackFideId "410608"]
+[EventDate "2019.02.22"]
+
+1. d4 Nf6 2. Bg5 d5 3. Nd2 c5 4. dxc5 Qa5 5. Bxf6 gxf6 6. e3 Nc6 7. Nf3 Qxc5 8.
+a3 Rg8 9. g3 Bg4 10. h3 Bh5 11. g4 Bg6 12. c4 dxc4 13. Bxc4 O-O-O 14. Rc1 Qb6
+15. Qb3 Qxb3 16. Nxb3 Kb8 17. Ke2 e6 18. Bb5 Ne5 19. Nxe5 fxe5 20. Rhd1 Rxd1 21.
+Rxd1 a6 22. Bd3 e4 23. Bb1 Bg7 24. Nc5 Bxb2 25. Rd7 Bxa3 26. Rxb7+ Kc8 27. Ra7
+Kb8 28. Rb7+ Ka8 29. Rc7 Bxc5 30. Rxc5 Kb7 31. h4 h6 32. Re5 Kc6 33. h5 Kd6 34.
+Ra5 Bh7 35. Rxa6+ Ke7 36. Ba2 Kf6 37. f3 exf3+ 38. Kxf3 Bc2 39. Rd6 Rc8 40. Rd2
+Rc7 41. Rd8 Kg5 42. Rg8+ Kh4 43. Rd8 Ba4 44. Rd4 Ra7 45. Kf4 Ra5 46. Rd2 e5+ 47.
+Kf5 Ra7 48. g5 hxg5 49. h6 f6 50. h7 Rxh7 51. Rh2+ Kg3 52. Rxh7 Bc2+ 53. e4 g4
+54. Rg7 Bd1 55. Bf7 Kh4 56. Bh5 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "4.3"]
+[White "Hebden, Mark L"]
+[Black "Heidenfeld, Mark"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2417"]
+[BlackElo "2358"]
+[ECO "C41"]
+[Opening "Philidor's defence"]
+[WhiteFideId "400084"]
+[BlackFideId "2500990"]
+[EventDate "2019.02.22"]
+
+1. d4 d6 2. e4 e5 3. Nf3 Nc6 4. Bb5 Bd7 5. Nc3 exd4 6. Nxd4 Nge7 7. Be3 Nxd4 8.
+Qxd4 Bxb5 9. Nxb5 a6 10. Nc3 Nc6 11. Qd2 Be7 12. O-O-O Qd7 13. Nd5 O-O 14. g4
+Rfe8 15. f3 b5 16. h4 Ne5 17. Qg2 Nc4 18. Bg5 f6 19. Bf4 c6 20. Ne3 Nxe3 21.
+Bxe3 Qe6 22. Kb1 d5 23. Bc1 dxe4 24. Rhe1 exf3 25. Qxf3 Qc8 26. g5 f5 27. Re5
+Bf8 28. Rxf5 Qe6 29. h5 Be7 30. g6 Rf8 31. Rxf8+ Rxf8 32. Qg3 hxg6 33. hxg6 Rf6
+34. Re1 Qd6 35. Qh4 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "4.4"]
+[White "Hunt, Adam C"]
+[Black "Collins, Sam E."]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2397"]
+[BlackElo "2429"]
+[ECO "C92"]
+[Opening "Ruy Lopez"]
+[Variation "closed, Flohr-Zaitsev system (Lenzerheide variation)"]
+[WhiteFideId "403970"]
+[BlackFideId "2501198"]
+[EventDate "2019.02.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Bb7 10. d4 Nd7 11. Nbd2 exd4 12. cxd4 Bf6 13. Nf1 Na5 14. Bc2 Re8 15.
+Ng3 g6 16. Bf4 c5 17. Rb1 Nc4 18. b3 Na3 19. Rc1 Nxc2 20. Rxc2 Qb6 21. d5 a5 22.
+Nh2 a4 23. Ng4 Bg7 24. Bh6 axb3 25. axb3 Bd4 26. Be3 Bg7 27. Bh6 Bd4 28. Be3 Bh8
+29. Bd2 Ra1 30. Rc1 Rxc1 31. Qxc1 Ne5 32. Nxe5 Bxe5 33. Bc3 Bxc3 34. Qxc3 b4 35.
+Qd2 Qd8 36. Ra1 h5 37. Qf4 Kg7 38. Ra7 Qb6 39. Ra1 Ra8 40. Rxa8 Bxa8 41. Qg5 Kh7
+42. Qf6 Qc7 43. Nf1 Bb7 44. Ne3 Ba6 45. e5 c4 46. exd6 Qd7 47. Qe7 Bb5 48. Qxd7
+Bxd7 49. Nxc4 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "4.5"]
+[White "Pein, Malcolm"]
+[Black "Williams, Simon K"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2313"]
+[BlackElo "2471"]
+[ECO "C11"]
+[Opening "French"]
+[Variation "Steinitz, Boleslavsky variation"]
+[WhiteFideId "400289"]
+[BlackFideId "404454"]
+[EventDate "2019.02.22"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 8. Qd2
+O-O 9. Be2 b6 10. O-O-O c4 11. f5 b5 12. fxe6 fxe6 13. Nxb5 Nb4 14. Bg5 Rb8 15.
+Nc3 Qb6 16. b3 Nxa2+ 17. Nxa2 Ba3+ 18. Kb1 cxb3 19. Nc3 Ba6 20. Bxa6 Qxa6 0-1
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.23"]
+[Round "4.6"]
+[White "Connell, Blair N"]
+[Black "Astaneh Lopez, Alex"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2239"]
+[BlackElo "2427"]
+[ECO "A45"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "403725"]
+[BlackFideId "2501430"]
+[EventDate "2019.02.22"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bf4 Bf5 4. e3 e6 5. f3 c5 6. g4 Bg6 7. Nb5 Na6 8. c3 Be7
+9. h4 h6 10. Bg3 O-O 11. Nh3 Ne8 12. Nf4 Bh7 13. g5 hxg5 14. hxg5 Bxg5 15. Bd3
+g6 16. Qe2 cxd4 17. exd4 Kg7 18. Qh2 Rh8 19. Kf2 Kg8 20. Rae1 Bf6 21. Ng2 Nb8
+22. Ne3 a6 23. Nc7 Nxc7 24. Bxc7 Qf8 25. Ng4 Bg7 26. Bd6 Qd8 27. Be5 Nd7 28.
+Bxg7 Kxg7 29. Qh6+ Kg8 30. Qf4 Qe7 31. Qc7 Kg7 32. Qh2 Qg5 33. Re2 Rac8 34. Qd6
+Nf6 35. Nxf6 Qxf6 36. Qh2 Kf8 37. Qd6+ Kg7 38. Qh2 Kf8 39. Qd6+ Kg7 40. Ree1 g5
+41. Bxh7 Rxh7 42. Rxh7+ Kxh7 43. Rh1+ Kg7 44. Qh2 Rg8 45. Qc7 g4 46. f4 Qf5 47.
+Qe5+ Kg6 48. Kg3 f6 49. Qc7 Qd3+ 50. Kxg4 f5+ 0-1
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "5.1"]
+[White "McShane, Luke J"]
+[Black "Turner, Matthew J"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2663"]
+[BlackElo "2519"]
+[ECO "C50"]
+[Opening "Giuoco Piano"]
+[WhiteFideId "404853"]
+[BlackFideId "402893"]
+[EventDate "2019.02.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 d6 6. c3 Bb6 7. a4 h6 8. Nbd2 a6
+9. b4 O-O 10. Ra2 Ne7 11. Re1 Ng6 12. d4 exd4 13. cxd4 Re8 14. Bf1 Bg4 15. Qc2
+Qe7 16. h3 Bxf3 17. Nxf3 Nxe4 18. a5 Ba7 19. b5 axb5 20. a6 bxa6 21. Rxa6 d5 22.
+Bxb5 Bb6 23. Rxa8 Rxa8 24. Bc6 Rd8 25. Bxd5 Rxd5 26. Rxe4 Qd7 27. Qc4 Qb5 28.
+Qa2 Rd8 29. Be3 Qd5 30. Re8+ Kh7 31. Qxd5 Rxd5 32. Kf1 Rd7 33. g3 f6 34. Ke2 Ne7
+35. g4 Kg6 36. Ra8 h5 37. gxh5+ Kf7 38. Ra4 Nf5 39. Rc4 Ke6 40. Rc1 Rd5 41. Rg1
+Kf7 42. h6 gxh6 43. Kd3 h5 44. Ke4 Ke6 45. Rg6 Nd6+ 46. Kd3 c5 47. Rg1 cxd4 48.
+Bd2 Rb5 49. Ke2 Ne4 50. Rg8 Rb3 51. Be1 d3+ 52. Kf1 Rb1 53. Re8+ Kf5 54. Rxe4
+Bxf2 55. Kxf2 Rb2+ 56. Nd2 Rxd2+ 57. Bxd2 Kxe4 58. Kg3 h4+ 59. Kf2 f5 60. Bc1
+Kd4 61. Bg5 Kc3 62. Ke1 Kc2 63. Bd2 Kb3 64. Kd1 Kc4 65. Bg5 Kd4 66. Kd2 Ke4 67.
+Bxh4 f4 68. Be1 Kd4 69. Bf2+ Ke4 70. Bb6 Kf3 71. h4 Kg4 72. Bf2 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "5.2"]
+[White "Short, Nigel D"]
+[Black "Hebden, Mark L"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2648"]
+[BlackElo "2417"]
+[ECO "A45"]
+[Opening "Trompovsky attack (Ruth, Opovcensky opening)"]
+[WhiteFideId "400025"]
+[BlackFideId "400084"]
+[EventDate "2019.02.22"]
+
+1. d4 Nf6 2. Bg5 d5 3. e3 Ne4 4. Bf4 c5 5. Bd3 Nf6 6. Nc3 a6 7. h3 Nc6 8. Nf3 e6
+9. O-O b5 10. a3 Bb7 11. Re1 Rc8 12. dxc5 Bxc5 13. e4 dxe4 14. Nxe4 Be7 15. c3
+Nxe4 16. Bxe4 Qxd1 17. Raxd1 Na5 18. Bxb7 Nxb7 19. b4 Bf6 20. Ne5 Bxe5 21. Bxe5
+f6 22. Bd4 Kf7 23. f4 Rhd8 24. a4 Rd5 25. axb5 axb5 26. Ra1 Rc7 27. Ra6 Rd6 28.
+Rea1 Rcd7 29. g4 h6 30. h4 h5 31. gxh5 Rd5 32. Ra8 Rxh5 33. R1a7 Kg6 34. Rb8
+Rxd4 35. cxd4 Nd6 36. Rd7 Nf5 37. Rxb5 Rxh4 38. Rbb7 Rxf4 39. b5 Nxd4 40. Rxg7+
+Kf5 41. b6 Ne2+ 42. Kg2 Rb4 43. Rb8 Nf4+ 44. Kf2 Rb2+ 45. Ke1 e5 46. b7 Nd3+ 47.
+Kf1 Nc5 48. Rf7 Ke4 49. Rxf6 Rxb7 50. Rxb7 Nxb7 51. Ke2 Nc5 52. Rh6 Nd3 53. Rh4+
+Nf4+ 54. Kf2 Kd3 55. Rh1 Ne6 56. Rd1+ Ke4 1/2-1/2
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "5.3"]
+[White "Astaneh Lopez, Alex"]
+[Black "Hunt, Adam C"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2427"]
+[BlackElo "2397"]
+[ECO "A10"]
+[Opening "English opening"]
+[WhiteFideId "2501430"]
+[BlackFideId "403970"]
+[EventDate "2019.02.22"]
+
+1. c4 g6 2. g3 Bg7 3. Bg2 d6 4. Nf3 Nf6 5. d4 O-O 6. O-O Nc6 7. b3 a6 8. Bb2 Rb8
+9. d5 Na5 10. e4 c5 11. e5 Nd7 12. Re1 Nxe5 13. Nxe5 dxe5 14. Bxe5 Bxe5 15. Rxe5
+Nc6 16. Re1 Nd4 17. Nd2 Bf5 18. g4 Bd7 19. h3 Re8 20. Nf3 Nxf3+ 21. Qxf3 Qc7 22.
+Re4 Qd6 23. Rae1 b6 24. Re5 e6 25. Qg3 Kg7 26. f4 f6 27. R5e3 exd5 28. Bxd5 Rxe3
+29. Rxe3 Re8 30. g5 fxg5 31. fxg5 Qxg3+ 32. Rxg3 Re2 33. Rg2 Re5 34. h4 h6 35.
+Kf2 hxg5 36. hxg5 Kf8 37. Kf3 Ke7 38. Rg1 Kd6 39. Kf4 Rf5+ 40. Ke3 Re5+ 41. Kf4
+Rf5+ 42. Ke3 Re5+ 43. Kf4 Rf5+ 44. Ke4 1/2-1/2
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "5.4"]
+[White "Williams, Simon K"]
+[Black "Bates, Richard A"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2471"]
+[BlackElo "2351"]
+[ECO "E11"]
+[Opening "Bogo-Indian defence, Gruenfeld variation"]
+[WhiteFideId "404454"]
+[BlackFideId "403555"]
+[EventDate "2019.02.22"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 O-O 5. a3 Bxd2+ 6. Bxd2 d6 7. Qc2 Qe7 8.
+Bc3 Nc6 9. e3 a5 10. h3 e5 11. Be2 Re8 12. dxe5 dxe5 13. b3 b6 14. O-O Bb7 15.
+Nd2 Nd4 16. exd4 exd4 17. Bf3 1/2-1/2
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "5.5"]
+[White "Wells, Peter K"]
+[Black "Fitzsimons, David"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2415"]
+[BlackElo "2301"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "400327"]
+[BlackFideId "2501961"]
+[EventDate "2019.02.22"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 Bb4+ 6. Nbd2 Nbd7 7. a3 Ba5 8.
+O-O c3 9. Nc4 cxb2 10. Bxb2 c6 11. Nd6+ Ke7 12. Ne5 Nxe5 13. dxe5 Nd7 14. Qd4
+Kf8 15. Rfd1 Bb6 16. Qd3 Nc5 17. Qf3 Qe7 18. a4 Na6 19. Ne4 Ba5 20. Rab1 Bb4 21.
+Qd3 g6 22. Qf3 Bd7 23. Bc1 h6 24. Nf6 Be8 25. h4 Kg7 26. Qf4 Rd8 27. Rxd8 Qxd8
+28. Nxe8+ Qxe8 29. Rxb4 Nxb4 30. Qxb4 Qd7 31. Be3 b6 32. Qf4 c5 33. Qf6+ Kg8 34.
+Be4 h5 35. Bxg6 fxg6 36. Qxg6+ Qg7 37. Qe8+ Qf8 38. Qg6+ Qg7 39. Qe8+ Qf8 40.
+Qg6+ 1/2-1/2
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "5.6"]
+[White "Howell, David W L"]
+[Black "Li, Henry"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2689"]
+[BlackElo "2287"]
+[ECO "A00"]
+[Opening "Van't Kruijs opening"]
+[WhiteFideId "410608"]
+[BlackFideId "2508524"]
+[EventDate "2019.02.22"]
+
+1. e3 Nf6 2. Nf3 g6 3. b3 Bg7 4. Bb2 O-O 5. d4 c5 6. dxc5 Qa5+ 7. c3 Nc6 8. b4
+Qc7 9. Be2 Rd8 10. O-O d6 11. cxd6 Rxd6 12. Qb3 Be6 13. c4 h6 14. Na3 a6 15. Bc3
+b5 16. Qb2 bxc4 17. Nxc4 Rdd8 18. Rac1 Qb7 19. Nd4 Bxc4 20. Bxc4 Ne5 21. Be2 Ne4
+22. Qa3 Rdb8 23. Be1 e6 24. f4 Nd7 25. Nc6 Re8 26. Bf3 f5 27. Bxe4 fxe4 28. Bc3
+e5 29. Qb3+ Kh8 30. Nxe5 Nxe5 31. Bxe5 Bxe5 32. fxe5 Qe7 33. Rf7 Qxe5 34. Rcc7
+Re6 35. Rc5 Qa1+ 36. Rf1 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "6.1"]
+[White "Hunt, Adam C"]
+[Black "McShane, Luke J"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2397"]
+[BlackElo "2663"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "403970"]
+[BlackFideId "404853"]
+[EventDate "2019.02.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. O-O Nd4 6. Nxd4 Bxd4 7. Nd2 c6 8.
+Ba4 d6 9. c3 Bb6 10. Nc4 Bc7 11. Ne3 Be6 12. Bb3 O-O 13. Bxe6 fxe6 14. Ng4 Nd7
+15. Bd2 d5 16. Qe2 Qe8 17. f3 Qg6 18. Kh1 a5 19. Rad1 a4 20. Be1 Rae8 21. Bg3 h5
+22. Nf2 Bd8 23. Nh3 b5 24. b3 a3 25. b4 Bb6 26. Qc2 Qh6 27. c4 bxc4 28. dxc4 Bd4
+29. c5 Nf6 30. Bh4 Qg6 31. Nf4 exf4 32. Rxd4 Rb8 33. Qb3 Kh7 34. e5 Nd7 35. Be7
+Nxe5 36. Bxf8 Rxf8 37. Qxa3 Nc4 38. Qd3 e5 39. Qxg6+ Kxg6 40. Rd3 Ra8 41. Ra1
+Na3 42. Rc1 Nb5 43. a3 Kf5 44. Kg1 g5 45. Kf2 e4 46. fxe4+ dxe4 47. Rb3 e3+ 48.
+Ke1 Ke4 49. Rc4+ Kd5 50. Rc1 g4 51. g3 Nd4 52. Rd1 Kc4 53. Rxd4+ Kxd4 54. gxf4
+Ke4 55. Ke2 Kxf4 56. Rxe3 h4 57. Kf2 Rd8 58. a4 Rd2+ 59. Re2 g3+ 60. hxg3+ hxg3+
+61. Kf1 Rd3 62. Kg2 Rb3 63. b5 cxb5 64. axb5 Rxb5 65. Rc2 Rb7 66. c6 Rc7 67.
+Rc4+ Ke5 68. Kxg3 Kd5 69. Rc1 Rxc6 70. Rxc6 Kxc6 1/2-1/2
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "6.2"]
+[White "Turner, Matthew J"]
+[Black "Short, Nigel D"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2519"]
+[BlackElo "2648"]
+[ECO "D02"]
+[Opening "Queen's pawn game, Chigorin variation"]
+[WhiteFideId "402893"]
+[BlackFideId "400025"]
+[EventDate "2019.02.22"]
+
+1. Nf3 d5 2. d4 Nc6 3. c4 Bg4 4. cxd5 Bxf3 5. gxf3 Qxd5 6. e3 e6 7. Nc3 Qh5 8.
+f4 Qxd1+ 9. Kxd1 O-O-O 10. Bg2 Nf6 11. Bd2 Ne7 12. Rc1 Kb8 13. Ke2 Nf5 14. Rhd1
+h6 15. Ne4 Nxe4 16. Bxe4 c6 17. d5 cxd5 18. Bxf5 exf5 19. Bc3 f6 20. Rd3 Be7 1/2-1/2
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "6.3"]
+[White "Hebden, Mark L"]
+[Black "Williams, Simon K"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2417"]
+[BlackElo "2471"]
+[ECO "A96"]
+[Opening "Dutch"]
+[Variation "classical variation"]
+[WhiteFideId "400084"]
+[BlackFideId "404454"]
+[EventDate "2019.02.22"]
+
+1. d4 e6 2. Nf3 f5 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. c4 d6 7. Nc3 Ne4 8. Nxe4
+fxe4 9. Nd2 d5 10. f3 Nc6 11. fxe4 Rxf1+ 12. Nxf1 dxc4 13. Be3 Bd7 14. Bf2 b5
+15. e5 Rb8 16. Nd2 Be8 17. Ne4 Nb4 18. b3 Nd5 19. Qc2 cxb3 20. axb3 a5 21. Nc5
+Bxc5 22. Qxc5 a4 23. e4 Nb6 24. bxa4 Nxa4 25. Qb4 Nb6 26. d5 Nc4 27. Bd4 c6 28.
+Qc5 cxd5 29. exd5 Rc8 30. Qa7 Rc7 31. Qa8 Rc8 32. Qa7 b4 33. dxe6 Rc7 34. e7 Qd7
+35. e6 Qxe7 36. Qb8 Na3 37. Rf1 Nb5 38. Bd5 Nxd4 39. Qxe8+ 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "6.4"]
+[White "Collins, Sam E."]
+[Black "Howell, David W L"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2429"]
+[BlackElo "2689"]
+[ECO "C96"]
+[Opening "Ruy Lopez"]
+[Variation "closed, Keres (...Nd7) defence"]
+[WhiteFideId "2501198"]
+[BlackFideId "410608"]
+[EventDate "2019.02.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Na5 10. Bc2 c5 11. d4 Nd7 12. Nbd2 exd4 13. cxd4 Nc6 14. d5 Nce5 15.
+a4 Bb7 16. Nxe5 Nxe5 17. f4 Ng6 18. Nf3 Re8 19. f5 Nf8 20. Bf4 Nd7 21. Kh2 Qb6
+22. b3 Bf6 23. Ra2 Rac8 24. Qd2 b4 25. Qf2 a5 26. Qg3 Ne5 27. Bxe5 Bxe5 28. Nxe5
+Rxe5 29. f6 g6 30. Bd3 Kh8 31. Rc2 Rce8 32. Bb5 Rg8 33. Bd3 Rge8 34. Bb5 Rg8 35.
+Bd3 Bc8 36. Rec1 Qb8 37. Qf3 Bd7 38. Rh1 g5 39. g4 Rg6 40. Rf1 Qd8 41. Rff2 Rh6
+42. Kg1 Rg6 43. Kf1 Qe8 44. Ra2 Rh6 45. Rac2 Rg6 46. Ra2 Rh6 47. Rac2 Rh4 48.
+Rh2 Qd8 49. Rhf2 Qe8 50. Ra2 h6 51. Rae2 Kh7 52. Re3 h5 53. Qe2 hxg4 0-1
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "6.5"]
+[White "Fitzsimons, David"]
+[Black "Astaneh Lopez, Alex"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2301"]
+[BlackElo "2427"]
+[ECO "B13"]
+[Opening "Caro-Kann"]
+[Variation "exchange variation"]
+[WhiteFideId "2501961"]
+[BlackFideId "2501430"]
+[EventDate "2019.02.22"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 g6 6. Nf3 Bg7 7. O-O Nf6 8. Bf4
+Bf5 9. Bxf5 gxf5 10. Qb3 Qd7 11. Be5 e6 12. Nbd2 O-O 13. Bxf6 Bxf6 14. Ne1 b5
+15. Qxb5 Rfb8 16. Qd3 Rxb2 17. Nb3 Qc7 18. Qd1 Na5 19. Nd3 Nxb3 20. axb3 Qxc3
+21. Nxb2 Qxb2 22. Ra4 Rc8 23. Qa1 Rc2 24. Qxb2 Rxb2 25. Rd1 Rxb3 26. Kf1 h5 27.
+Ke2 Kg7 28. Rd3 Rb2+ 29. Kf3 a5 30. g3 Bd8 31. Ke3 Kg6 32. Kf3 Bb6 33. Kg2 Kg5
+34. h4+ Kg6 35. Rda3 f4 36. gxf4 Kf5 37. Kf3 Bd8 38. Kg3 Be7 39. Rd3 Bb4 40. Kf3
+Be1 41. Ra1 Bxf2 42. Rxa5 Bxh4 43. Ra7 f6 44. Rh7 Kg6 45. Rh8 Bf2 46. Rg8+ Kf5
+47. Rg2 Bxd4 48. Rxd4 Rb3+ 49. Kf2 h4 50. Rg7 Rb2+ 51. Kf3 Rb3+ 52. Kg2 h3+ 53.
+Kh2 Rf3 54. Rh7 Kg4 55. f5+ Kxf5 56. Rxh3 Rf2+ 57. Kg3 Ra2 58. Rh5+ Kg6 59. Rh1
+Ra3+ 60. Kg4 Re3 61. Rg1 Ra3 62. Re1 f5+ 63. Kh4 Kf6 64. Rb4 Ra6 65. Rb5 Rd6 66.
+Reb1 Ra6 67. Kg3 Rc6 68. R1b3 Ke5 69. Kf3 Kf6 70. Rb6 Rc8 71. Re3 Re8 72. Kf4 d4
+73. Re5 1-0
+
+[Event "26th Bunratty Masters"]
+[Site "Bunratty IRL"]
+[Date "2019.02.24"]
+[Round "6.6"]
+[White "Bates, Richard A"]
+[Black "Lalic, Bogdan"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2351"]
+[BlackElo "2406"]
+[ECO "E60"]
+[Opening "King's Indian, 3.Nf3"]
+[WhiteFideId "403555"]
+[BlackFideId "409081"]
+[EventDate "2019.02.22"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. g3 c5 5. Bg2 Qa5+ 6. Nc3 Ne4 7. Qd3 cxd4 8.
+Nxd4 Nc5 9. Qe3 Nc6 10. Nxc6 dxc6 11. O-O Qb4 12. Bd2 Qxc4 13. Rac1 Ne6 14. Nb1
+Qxa2 15. Bc3 O-O 16. Nd2 Bxc3 17. Qxc3 Nc7 18. Qe5 Nb5 19. Qxe7 Qxb2 20. Ne4 f5
+21. Ng5 Qg7 22. Qb4 h6 23. Nf3 Be6 24. Rc5 Rad8 25. Re5 Rfe8 26. Qh4 Bd5 0-1
+

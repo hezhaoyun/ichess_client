@@ -1,0 +1,410 @@
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "1.1"]
+[White "Bacrot, Etienne"]
+[Black "Carlsen, Magnus"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2713"]
+[BlackElo "2837"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "605506"]
+[BlackFideId "1503014"]
+[EventDate "2012.07.22"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 c6 4. d4 e4 5. Nc3 d5 6. Bg5 Nbd7 7. cxd5 cxd5 8. Qb3
+h6 9. Bf4 Qa5 10. Bd2 Qb6 11. Nxd5 Nxd5 12. Qxd5 Nf6 13. Qb3 Be6 14. Qxb6 axb6
+15. a3 b5 16. Rc1 Bd6 17. e3 b4 18. Bxb4 Bxb4+ 19. axb4 Ra2 20. Ne2 Rxb2 21. Nc3
+Bf5 22. O-O Ke7 23. Rb1 Rc2 24. Rfc1 Rxc1+ 25. Rxc1 Rc8 26. Kf1 Be6 27. Ke1 Rc4
+28. b5 b6 29. Kd2 Rb4 30. Nxe4 Rxb5 31. Nxf6 gxf6 32. Be4 Rb2+ 33. Bc2 Kd6 34.
+Rb1 Rxb1 35. Bxb1 Ke7 36. Kc3 Kd6 37. Kb4 Bd7 38. Ba2 Ke7 39. Bc4 Bc6 40. Bd3
+Bd7 41. Be4 Be8 42. Bd3 Bc6 43. e4 Bd7 44. f4 Kd6 45. Bb5 Bg4 46. Bc4 Bf3 47.
+e5+ fxe5 48. fxe5+ Ke7 49. Kb5 f6 50. exf6+ Kxf6 51. Kxb6 Ke7 52. Kc5 1-0
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "1.1"]
+[White "Harikrishna, Pentala"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2684"]
+[BlackElo "2778"]
+[ECO "A04"]
+[Opening "Reti v Dutch"]
+[WhiteFideId "5007003"]
+[BlackFideId "2016192"]
+[EventDate "2012.07.22"]
+
+1. Nf3 f5 2. g3 Nf6 3. Bg2 g6 4. O-O d6 5. d4 Bg7 6. c3 O-O 7. Qb3+ e6 8. Ng5 d5
+9. Bf4 Nh5 10. Nh3 Nxf4 11. Nxf4 c6 12. Nd2 Qe7 13. c4 Nd7 14. Nf3 dxc4 15. Qxc4
+Re8 16. Rfe1 Nf6 17. e3 Bd7 18. Rac1 Rad8 19. Ne5 Bc8 20. b4 a6 21. a4 Nd7 22.
+Nxd7 Bxd7 23. Nd3 Kh8 24. Nc5 Bc8 25. b5 axb5 26. axb5 cxb5 27. Qxb5 e5 28. dxe5
+Qxe5 29. Bxb7 Be6 30. Bc6 Rf8 31. Nxe6 Qxe6 32. Red1 Qe5 33. Qxe5 Bxe5 34. h4
+Bb2 35. Rb1 Rxd1+ 36. Rxd1 Rc8 37. Bf3 Rc1 38. Kg2 Rxd1 39. Bxd1 Kg7 40. g4 fxg4
+41. Bxg4 h6 42. f4 g5 43. hxg5 hxg5 1/2-1/2
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "1.1"]
+[White "Wang, Hao"]
+[Black "Kosteniuk, Alexandra"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2739"]
+[BlackElo "2472"]
+[ECO "E58"]
+[Opening "Nimzo-Indian"]
+[Variation "4.e3, main line with 8...Bxc3"]
+[WhiteFideId "8602883"]
+[BlackFideId "4128125"]
+[EventDate "2012.07.22"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 c5 6. Nf3 d5 7. O-O Nc6 8. a3
+Bxc3 9. bxc3 Re8 10. a4 dxc4 11. Bxc4 Qc7 12. Ba3 b6 13. Qe2 Na5 14. Bd3 c4 15.
+Bc2 Nb3 16. Rab1 Nd5 17. Qe1 Bd7 18. e4 Nf4 19. g3 Ng6 20. h4 h6 21. h5 Nf8 22.
+Qe3 Nh7 23. e5 Bc6 24. Nh4 Bb7 25. Bd6 Qc6 26. Kh2 Ng5 27. f3 a6 28. Rbe1 b5 29.
+f4 Nh7 30. f5 exf5 31. Nxf5 Qg2# 0-1
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "1.1"]
+[White "Pelletier, Yannick"]
+[Black "Morozevich, Alexander"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2599"]
+[BlackElo "2770"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack (Barcza system)"]
+[WhiteFideId "1301837"]
+[BlackFideId "4116992"]
+[EventDate "2012.07.22"]
+
+1. Nf3 d5 2. g3 Bg4 3. Bg2 c6 4. c4 e6 5. O-O Nf6 6. d3 Nbd7 7. cxd5 cxd5 8. Qb3
+Nc5 9. Qb5+ Qd7 10. Nc3 a6 11. Qxd7+ Ncxd7 12. Bf4 Be7 13. Rac1 O-O 14. Rc2 d4
+15. Nb1 Nd5 16. Nxd4 Nxf4 17. gxf4 Bd6 18. e3 Nc5 19. Bf3 Bh3 20. Rd1 Rad8 21.
+Nc3 e5 22. fxe5 Bxe5 23. Nce2 b6 24. b4 Nd7 25. Nc6 Rde8 26. d4 Bd6 27. a3 f5
+28. Rdc1 g5 29. Bg2 Bg4 30. Ng3 Bxg3 31. hxg3 f4 32. gxf4 gxf4 33. f3 Bh5 34. e4
+Kh8 35. Kf2 b5 36. Rh1 Bg6 37. Bh3 Nb6 38. Ne5 Rf6 39. Rc7 Rd8 40. Nxg6+ Rxg6
+41. Bf5 Rg7 42. Rxh7+ Rxh7 43. Rxh7+ Kg8 44. d5 Nc4 45. Ra7 Rd6 46. Be6+ Kf8 47.
+Rf7+ Ke8 48. Rxf4 Rb6 49. Rh4 Nxa3 50. e5 Nc4 51. d6 1-0
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "1.2"]
+[White "Nakamura, Hikaru"]
+[Black "Harikrishna, Pentala"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2778"]
+[BlackElo "2684"]
+[ECO "B09"]
+[Opening "Pirc"]
+[Variation "Austrian attack, dragon formation"]
+[WhiteFideId "2016192"]
+[BlackFideId "5007003"]
+[EventDate "2012.07.22"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 c5 6. Bb5+ Bd7 7. e5 Ng4 8. e6
+fxe6 9. Ng5 Bxb5 10. Nxe6 Bxd4 11. Nxb5 Qa5+ 12. Qd2 Bf2+ 13. Kd1 Ne3+ 14. Ke2
+Qxb5+ 15. Kxf2 Ng4+ 16. Kg3 Qd7 17. Re1 Nc6 18. b3 Nh6 19. Bb2 Nf5+ 20. Kf2 Ncd4
+21. g4 Nh6 22. Bxd4 cxd4 23. h3 Rc8 24. Rac1 Qc6 25. Qxd4 Qb6 26. Qxb6 axb6 27.
+c4 Kd7 28. Re2 b5 29. c5 b6 30. b4 bxc5 31. bxc5 Nf7 32. Rb1 dxc5 33. Rxb5 Nd6
+34. Rxc5 Ra8 35. Rc7+ Ke8 36. Nd4 Nc8 37. Nc6 Rf8 1-0
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "1.2"]
+[White "Kosteniuk, Alexandra"]
+[Black "Wang, Hao"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2472"]
+[BlackElo "2739"]
+[ECO "B92"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Opovcensky variation"]
+[WhiteFideId "4128125"]
+[BlackFideId "8602883"]
+[EventDate "2012.07.22"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. O-O
+O-O 9. Re1 Be6 10. Bf3 Qc7 11. a4 Rc8 12. Be3 Nbd7 13. a5 Qb8 14. Na4 Bd8 15.
+Qd2 Rc4 16. Qd3 Rc6 17. Red1 Qc8 18. Nc3 Qc7 19. Rdc1 Rc8 20. h3 h6 21. Bd1 Rc4
+22. Nd5 Bxd5 23. exd5 e4 24. Qd2 Ne5 25. Bd4 Qe7 26. Be2 R4c7 27. c3 Nxd5 28.
+Rd1 Nf6 29. Bb6 Rd7 30. Nd4 g6 31. Bxd8 Rdxd8 32. Qxh6 d5 33. Qg5 Re8 34. Nf5
+Qe6 35. Ne3 Rcd8 36. Ra4 Nh7 37. Qg3 Nc6 38. Bg4 Qe5 39. Qxe5 Rxe5 40. Be2 f5
+41. Nc2 Nf6 42. Nd4 Rc8 43. Nb3 Rc7 44. g3 g5 45. Rd2 f4 46. Bd1 Kg7 47. Nd4 f3
+48. Nc2 Ne7 49. Ne3 Nf5 50. Nxf5+ Rxf5 51. Bb3 e3 52. fxe3 Ne4 53. Rf2 Nxg3 54.
+Bc2 Rf6 55. Rg4 Ne2+ 56. Kf1 Kh6 57. h4 gxh4 58. Rh2 Ng3+ 59. Kf2 Nf5 60. Rf4
+Rcf7 61. Bxf5 Rxf5 62. Rhxh4+ Kg5 63. Rhg4+ Kh6 64. Rh4+ Kg7 65. Rhg4+ Kh6 66.
+Rh4+ 1/2-1/2
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "1.2"]
+[White "Morozevich, Alexander"]
+[Black "Pelletier, Yannick"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2770"]
+[BlackElo "2599"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "4116992"]
+[BlackFideId "1301837"]
+[EventDate "2012.07.22"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d5 6. e5 Ne4 7. a3 Bxc3+ 8. bxc3
+c5 9. Bd3 cxd4 10. cxd4 Qa5+ 11. Kf1 Bd7 12. Ne2 f5 13. exf6 Nxf6 14. Bd2 Qd8
+15. Bg5 h6 16. Bh4 Nc6 17. cxd5 exd5 18. f3 Rc8 19. Qa2 Be6 20. Rd1 Na5 21. Bf2
+Qd7 22. Nf4 Bf5 23. g4 Bxd3+ 24. Nxd3 Nc4 25. Ne5 Qb5 26. Kg2 Qa4 27. Qe2 Nxe5
+28. dxe5 Nxg4 29. Rd4 Qxa3 30. fxg4 Qb3 31. Rhd1 Rc2 32. R1d2 Rc3 33. e6 Rcf3
+34. Bg1 R3f6 35. Rxd5 1-0
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "1.2"]
+[White "Carlsen, Magnus"]
+[Black "Bacrot, Etienne"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2837"]
+[BlackElo "2713"]
+[ECO "C53"]
+[Opening "Giuoco Piano"]
+[WhiteFideId "1503014"]
+[BlackFideId "605506"]
+[EventDate "2012.07.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. Bb3 d5 7. Qe2 Re8 8. Bg5
+dxe4 9. dxe4 h6 10. Bh4 Be7 11. Nbd2 Nh5 12. Bg3 Bf8 13. O-O-O Qf6 14. Nc4 Nf4
+15. Bxf4 Qxf4+ 16. Kb1 Bg4 17. h3 Bxf3 18. gxf3 Bc5 19. Rd5 Bb6 20. a4 Rad8 21.
+Rhd1 Rxd5 22. exd5 Ne7 23. d6 cxd6 24. Nxd6 Rf8 25. Nxb7 Qf5+ 26. Ka2 Qxh3 27.
+Qxe5 Ng6 28. Qe4 Nh4 29. Nd6 Bxf2 30. Nxf7 Rxf7 31. Rd8# 1-0
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "1.3"]
+[White "Carlsen, Magnus"]
+[Black "Bacrot, Etienne"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2837"]
+[BlackElo "2713"]
+[ECO "B31"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (with ...g6, without ...d6)"]
+[WhiteFideId "1503014"]
+[BlackFideId "605506"]
+[EventDate "2012.07.22"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. Nc3 Nd4 6. Nxd4 cxd4 7. Ne2 Qb6 8.
+Bc4 d6 9. d3 Nf6 10. Bb3 O-O 11. Kh1 Nd7 12. f4 Nc5 13. f5 Nxb3 14. axb3 d5 15.
+Bg5 dxe4 16. dxe4 Qd6 17. Qd3 b6 18. Bf4 Qc5 19. Ng3 a5 20. Rf2 Ba6 21. Qd2 Rac8
+22. Re1 Rc6 23. e5 Rfc8 24. Rd1 Qxc2 25. Qxd4 Qxb3 26. Re1 Qb4 27. Qd1 Bc4 28.
+e6 fxe6 29. fxg6 hxg6 30. h3 Bb3 31. Qe2 Rc2 32. Qe3 Bd4 33. Qe4 Rxf2 34. Qxg6+
+Bg7 35. Re4 Rxf4 36. Rxb4 axb4 37. Nh5 Rf7 38. Qg4 Bd5 39. Nf4 Rc4 0-1
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "1.3"]
+[White "Pelletier, Yannick"]
+[Black "Morozevich, Alexander"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2599"]
+[BlackElo "2770"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack (Barcza system)"]
+[WhiteFideId "1301837"]
+[BlackFideId "4116992"]
+[EventDate "2012.07.22"]
+
+1. Nf3 d5 2. g3 c6 3. Bg2 Bg4 4. c4 e6 5. O-O Nd7 6. cxd5 cxd5 7. Nc3 Ngf6 8.
+Qb3 Nc5 9. Qb5+ Nfd7 10. d4 a6 11. Qb4 Ne4 12. Qxb7 Nd6 13. Qb3 Be7 14. Ne5 Nxe5
+15. dxe5 Nc4 16. e4 Rb8 17. Qa4+ Qd7 18. Qxd7+ Kxd7 19. f3 Bh5 20. exd5 Rhc8 21.
+d6 Bd8 22. f4 Nxb2 23. Ne4 f5 24. Ng5 Nc4 25. Rd1 Bxd1 0-1
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "2.1"]
+[White "Nakamura, Hikaru"]
+[Black "Morozevich, Alexander"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2778"]
+[BlackElo "2770"]
+[ECO "A13"]
+[Opening "English opening"]
+[Variation "Agincourt variation"]
+[WhiteFideId "2016192"]
+[BlackFideId "4116992"]
+[EventDate "2012.07.22"]
+
+1. c4 e6 2. Nf3 d5 3. d4 a6 4. e3 Nf6 5. cxd5 exd5 6. Bd3 Bd6 7. O-O O-O 8. h3
+Re8 9. Nc3 b6 10. b3 Bb7 11. Bb2 Nbd7 12. Rc1 Qe7 13. Qe2 Ne4 14. Nd2 f5 15. Nf3
+Rf8 16. Rfe1 Rf6 17. Qf1 Rh6 18. Ne2 g5 19. Bxe4 fxe4 20. Ne5 Nxe5 21. dxe5 Bxe5
+22. Bxe5 Qxe5 23. b4 Rf8 24. Ng3 Rhf6 25. Rc2 c5 26. bxc5 bxc5 27. Rb1 Qc7 28.
+Qc1 c4 29. Qb2 Bc8 30. Qd4 Rd6 31. Qe5 h6 32. Rd1 Rfd8 33. Rcd2 Rc6 34. Qc3 Rcd6
+35. Qe5 Rc6 36. Qc3 Rcd6 37. Rb1 Qg7 38. Rd4 Rf8 39. Qd2 Rdf6 40. Nh5 Qf7 41.
+Nxf6+ Qxf6 42. Rxd5 c3 43. Qc2 Be6 44. Rc5 g4 45. hxg4 Bxg4 46. Rb7 Bf3 47. Rcc7
+Bh5 48. Rxc3 Bg6 49. Rc6 Qg5 50. Qc4+ Bf7 51. Rxf7 Rxf7 52. Rc7 Qh5 53. Qxf7+
+Qxf7 54. Rxf7 Kxf7 55. f4 h5 56. Kh2 Kf6 57. Kh3 Kf5 58. Kh4 Kg6 59. g4 hxg4 60.
+Kxg4 Kf6 61. f5 1-0
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "2.1"]
+[White "Bacrot, Etienne"]
+[Black "Kosteniuk, Alexandra"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2713"]
+[BlackElo "2472"]
+[ECO "E15"]
+[Opening "Queen's Indian"]
+[Variation "4.g3"]
+[WhiteFideId "605506"]
+[BlackFideId "4128125"]
+[EventDate "2012.07.22"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb4+ 5. Bd2 Bxd2+ 6. Qxd2 Ba6 7. Qc2 d5 8.
+Nbd2 O-O 9. Bg2 c6 10. O-O Nbd7 11. b4 c5 12. bxc5 bxc5 13. Qa4 Qc8 14. cxd5 Nb6
+15. Qa5 Nbxd5 16. dxc5 Bxe2 17. Rfe1 Qa6 18. Qxa6 Bxa6 19. Ne5 Rfc8 20. Nb3 Kf8
+21. Rac1 Ke7 22. Nd4 Rc7 23. f4 Rac8 24. c6 g6 25. Rc5 Nb6 26. Ra5 Bc4 27. Rc1
+Rd8 28. Nc2 Bd5 29. Nb4 Bxg2 30. Kxg2 Rd2+ 31. Kf3 Nfd5 32. Na6 Rc8 33. c7 f6
+34. Nc6+ Kd7 35. Nxa7 Rxc7 36. Nxc7 Nxc7 37. Nb5 Nxb5 38. Rxb5 Nd5 39. Rb7+ Kd6
+40. Rxh7 Rxa2 41. Rh6 Ne7 42. Rd1+ Kc6 43. Rd3 Kc5 44. h4 Kc4 45. Rd7 Ra3+ 46.
+Kf2 Ra2+ 47. Kf1 Nd5 48. Rxg6 Kd4 49. Rxf6 Ra6 50. f5 Ra1+ 51. Kg2 Ke5 52. Rxe6+
+Kxf5 53. Re2 Nf6 54. Rb7 Ra3 55. Rf2+ Ke5 56. Rb5+ 1-0
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "2.2"]
+[White "Kosteniuk, Alexandra"]
+[Black "Bacrot, Etienne"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2472"]
+[BlackElo "2713"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "4128125"]
+[BlackFideId "605506"]
+[EventDate "2012.07.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. O-O Nd4 6. Nxd4 Bxd4 7. Nd2 c6 8.
+Ba4 d6 9. c3 Bb6 10. Nc4 Bc7 11. Bc2 O-O 12. Bg5 h6 13. Bh4 d5 14. Nd2 g5 15.
+Bg3 Bg4 16. f3 Be6 17. Re1 dxe4 18. fxe4 Bg4 19. Nf3 Nh5 20. Bf2 Qf6 21. Rf1
+Bxf3 22. Qxf3 Qxf3 23. gxf3 Bb6 24. d4 Nf4 25. Rfd1 Nh3+ 26. Kg2 Nxf2 27. Kxf2
+Rad8 28. Ke3 Rd7 29. Rd3 Rfd8 30. Rad1 exd4+ 31. cxd4 c5 32. dxc5 Rxd3+ 33. Bxd3
+Bxc5+ 34. Ke2 Kg7 35. Rc1 b6 36. Bc4 Rd4 37. Bd5 f5 38. Bc6 Kf6 39. exf5 Kxf5
+40. a3 a5 41. Rd1 Rxd1 1/2-1/2
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "2.2"]
+[White "Morozevich, Alexander"]
+[Black "Nakamura, Hikaru"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2770"]
+[BlackElo "2778"]
+[ECO "D00"]
+[Opening "Levitsky attack (Queen's bishop attack)"]
+[WhiteFideId "4116992"]
+[BlackFideId "2016192"]
+[EventDate "2012.07.22"]
+
+1. d4 d5 2. Bg5 f6 3. Bf4 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bc1 Bg4 7. dxc5 Qxc5 8. b4
+Qd6 9. b5 Nd8 10. h3 Bxf3 11. exf3 e5 12. Bd3 Qd7 13. O-O Rc8 14. Qc2 g6 15. Rd1
+Bd6 16. Nd2 Ne7 17. f4 Ne6 18. fxe5 fxe5 19. c4 O-O 20. Nb3 Nf4 21. Bf1 b6 22.
+a4 Kg7 23. Bb2 Rf5 24. Rd2 Rg5 25. Kh1 Qb7 26. Re1 Kf8 27. Qd1 Nxh3 28. cxd5 Nf4
+29. g3 Nh5 30. Bg2 Rc4 31. Rc2 Qc7 32. Ree2 Nf6 33. Kg1 Rxc2 34. Rxc2 Qd7 35.
+Rc6 Ne8 36. Nd2 e4 37. Nxe4 Rxd5 38. Qf3+ Rf5 39. Qc3 Be5 40. Qc2 Nxc6 41. bxc6
+Qe7 42. Bc1 Kg7 43. Be3 h5 44. Bh3 Rf8 45. Bd7 Nc7 46. Qd2 Rh8 47. Bg5 Qf7 48.
+Qe3 Nd5 49. Qe1 h4 50. g4 h3 51. Ng3 h2+ 52. Kg2 Bxg3 0-1
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "3.1"]
+[White "Bacrot, Etienne"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2713"]
+[BlackElo "2778"]
+[ECO "A13"]
+[Opening "English opening"]
+[WhiteFideId "605506"]
+[BlackFideId "2016192"]
+[EventDate "2012.07.22"]
+
+1. c4 e6 2. Nf3 b6 3. Nc3 Bb7 4. e4 Bb4 5. Bd3 Ne7 6. O-O Ng6 7. Bc2 O-O 8. d4
+Bxc3 9. bxc3 d6 10. Ng5 h6 11. Nh3 Nc6 12. f4 f5 13. d5 Nce7 14. dxe6 fxe4 15.
+Qg4 Rf5 16. Nf2 d5 17. cxd5 Bxd5 18. Nxe4 Bxe6 19. Ng3 Qf8 20. Nxf5 Bxf5 21.
+Bxf5 Qxf5 22. Qxf5 Nxf5 23. g4 Nd6 24. f5 Ne5 25. h3 Nec4 26. f6 g5 27. h4 Kf7
+28. hxg5 hxg5 29. a4 Rh8 30. Ra2 Rh4 31. Bxg5 Rxg4+ 32. Rg2 Rxg2+ 33. Kxg2 Ne4
+34. Bh6 c5 35. Rf3 a6 36. Kh3 b5 37. axb5 axb5 38. Kg4 Ne5+ 39. Kf5 Nxf3 40.
+Kxe4 b4 41. Kxf3 bxc3 42. Bg5 c2 1/2-1/2
+
+[Event "Biel Exhibition Blitz"]
+[Site "Biel SUI"]
+[Date "2012.07.22"]
+[Round "3.2"]
+[White "Nakamura, Hikaru"]
+[Black "Bacrot, Etienne"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2778"]
+[BlackElo "2713"]
+[ECO "A23"]
+[Opening "English"]
+[Variation "Bremen system, Keres variation"]
+[WhiteFideId "2016192"]
+[BlackFideId "605506"]
+[EventDate "2012.07.22"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 c6 4. Nf3 e4 5. Nd4 d5 6. cxd5 Qb6 7. Nb3 a5 8. d3 a4
+9. Nd2 exd3 10. Bg2 Bb4 11. O-O O-O 12. Nc4 Qd8 13. dxc6 dxe2 14. Qxe2 Nxc6 15.
+Rd1 Qe7 16. Qxe7 Bxe7 17. Nb6 Ra6 18. Nxc8 Rxc8 19. a3 Kf8 20. Be3 Rb8 21. Bf1
+Raa8 22. Bb5 Na5 23. Bxa4 Nc4 24. Bc1 Rc8 25. Bb3 Nxa3 26. Bd2 Rd8 27. bxa3 1-0
+

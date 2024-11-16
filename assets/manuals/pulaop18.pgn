@@ -1,0 +1,2025 @@
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.23"]
+[Round "1.1"]
+[White "Schmuck, Corentin"]
+[Black "Saric, Ante"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "1925"]
+[BlackElo "2543"]
+[ECO "B23"]
+[Opening "Sicilian"]
+[Variation "closed"]
+[WhiteFideId "20669569"]
+[BlackFideId "14506254"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nc3 d6 3. g3 Nc6 4. Bg2 g6 5. f4 Bg7 6. Nf3 e6 7. O-O Nge7 8. d3 O-O
+9. Be3 b6 10. Bf2 Bb7 11. g4 Qd7 12. Qd2 f5 13. exf5 gxf5 14. g5 e5 15. Bg3 exf4
+16. Bxf4 Ng6 17. h4 Nd4 18. h5 Nxf4 19. Qxf4 Nxc2 20. Rac1 Nd4 21. h6 Nxf3+ 22.
+Bxf3 Be5 23. Qh4 Rae8 24. Rc2 Bd4+ 25. Kh2 Re3 26. Bd5+ Kh8 27. Bxb7 Qxb7 28.
+Rg2 Qf7 29. Ne2 Be5+ 30. Nf4 Rxd3 31. Kg1 Rd4 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.23"]
+[Round "1.2"]
+[White "Zelcic, Robert"]
+[Black "Weber, Harald"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2499"]
+[BlackElo "1919"]
+[ECO "D01"]
+[Opening "Richter-Veresov attack"]
+[WhiteFideId "14500310"]
+[BlackFideId "1618210"]
+[EventDate "2018.06.23"]
+
+1. d4 d5 2. Nc3 Nf6 3. Bg5 c6 4. Qd3 h6 5. Bf4 b6 6. O-O-O e6 7. Kb1 a5 8. e4
+Ba6 9. Qf3 Bxf1 10. Rxf1 a4 11. Nge2 b5 12. exd5 Nxd5 13. Nxd5 cxd5 14. Nc3 b4
+15. Nb5 Na6 16. Qg3 Qb6 17. Nd6+ Bxd6 18. Bxd6 Kd7 19. Bc5 Nxc5 20. dxc5 Qxc5
+21. Qxg7 Ke7 22. Re1 Rag8 23. Qe5 Rc8 24. Re2 Rhg8 25. f4 Qd6 26. Qe3 Qc5 27.
+Qh3 Qc4 28. Rhe1 Kd7 29. f5 Rge8 30. Qh5 Rf8 31. Qxh6 e5 32. Rxe5 Rce8 33. Qd2
+Rxe5 34. Rxe5 Kd6 35. b3 axb3 36. axb3 Qc3 37. Qxd5+ 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.23"]
+[Round "1.3"]
+[White "Marceta, Milan"]
+[Black "Fernandez, Daniel Howard"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "1916"]
+[BlackElo "2485"]
+[ECO "B58"]
+[Opening "Sicilian"]
+[Variation "classical"]
+[WhiteFideId "14509628"]
+[BlackFideId "5801605"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 Nc6 6. Be2 g6 7. Be3 Bg7 8. h3
+O-O 9. Qd2 d5 10. Nxc6 bxc6 11. O-O-O Qc7 12. exd5 cxd5 13. Bh6 Bxh6 14. Qxh6
+Rb8 15. Nxd5 Nxd5 16. Rxd5 Be6 17. Rh5 gxh5 18. Bd3 f5 19. Qxe6+ Kh8 20. Qe3 Qb6
+21. Qe5+ Qf6 22. Re1 e6 23. Bc4 Rb6 24. Bb3 h4 25. Qc7 Qg5+ 26. Kb1 Qxg2 27. Qc5
+Qg7 28. f4 Rfb8 29. Rg1 Rd8 30. c3 Rb5 31. Qf2 Rd2 32. Qe1 Rg2 33. Rf1 Qd7 34.
+Rf3 Qd2 35. Qxd2 Rxd2 36. Re3 e5 37. fxe5 f4 38. Re4 f3 39. e6 f2 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.23"]
+[Round "1.4"]
+[White "Plenca, Jadranko"]
+[Black "Mrdjen, David"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2482"]
+[BlackElo "1909"]
+[ECO "B20"]
+[Opening "Sicilian"]
+[Variation "Keres variation (2.Ne2)"]
+[WhiteFideId "14527146"]
+[BlackFideId "14503956"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Ne2 b6 3. d4 cxd4 4. Nxd4 Bb7 5. Nc3 e6 6. Bd3 Nc6 7. Nxc6 Bxc6 8.
+O-O h5 9. Bf4 g5 10. Be5 f6 11. Bd4 Bd6 12. Re1 Qc7 13. g3 h4 14. Kg2 hxg3 15.
+hxg3 Be7 16. Ba6 e5 17. Be3 Rd8 18. Rh1 Rxh1 19. Qxh1 Kf8 20. Qh3 d5 21. Nxd5
+Bxd5 22. exd5 Rxd5 23. Bd3 Rd7 24. Bf5 Rd6 25. Be4 Rd7 26. Qf5 Nh6 27. Qg6 Ng8
+28. Rh1 Bd8 29. Qf5 Rg7 30. Rh8 Qd7 31. Qf3 g4 32. Qf5 Qxf5 33. Bxf5 Kf7 34. Bd3 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.23"]
+[Round "1.5"]
+[White "Orel Music, Simona"]
+[Black "Gumularz, Szymon"]
+[Result "0-1"]
+[WhiteTitle "WFM"]
+[BlackTitle "IM"]
+[WhiteElo "1902"]
+[BlackElo "2452"]
+[ECO "A42"]
+[Opening "Modern defence"]
+[Variation "Averbakh system, Kotov variation"]
+[WhiteFideId "14601192"]
+[BlackFideId "1188062"]
+[EventDate "2018.06.23"]
+
+1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. e4 Nc6 5. Be3 e5 6. d5 Nce7 7. f3 f5 8. Bd3 Nf6
+9. Nge2 O-O 10. b4 fxe4 11. Nxe4 Nf5 12. Bd2 Nxe4 13. Bxe4 Qh4+ 14. g3 Qh3 15.
+Kf2 Nd4 16. Nxd4 exd4 17. Qf1 Qh5 18. Qd3 Bg4 19. Ke2 Rae8 20. Raf1 Qf5 21. fxg4
+Rxe4+ 22. Kd1 Re1+ 23. Kc2 Qxd3+ 24. Kxd3 Rexf1 25. Rxf1 Rxf1 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.23"]
+[Round "1.6"]
+[White "Tratar, Marko"]
+[Black "Jelen, Miha"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2449"]
+[BlackElo "1898"]
+[ECO "A05"]
+[Opening "Reti opening"]
+[WhiteFideId "14600684"]
+[BlackFideId "14611791"]
+[EventDate "2018.06.23"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 c5 4. O-O e6 5. c4 Be7 6. d4 Nc6 7. dxc5 Bxc5 8. a3
+a5 9. cxd5 exd5 10. Bg5 Be6 11. Nc3 d4 12. Bxf6 Qxf6 13. Ne4 Qe7 14. Nxc5 Qxc5
+15. b4 Qb6 16. Rb1 axb4 17. Nxd4 Nxd4 18. Rxb4 Nxe2+ 19. Qxe2 Qa6 20. Qb2 Qxa3
+21. Qxg7 Qxb4 22. Qxh8+ Qf8 23. Qxh7 Rb8 24. Rb1 Qd6 25. Qh8+ Kd7 26. Qxb8 Qxb8
+27. Rxb7+ 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.23"]
+[Round "1.7"]
+[White "Kainz, Josef"]
+[Black "Haria, Ravi"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "1897"]
+[BlackElo "2440"]
+[ECO "A40"]
+[Opening "Queen's pawn"]
+[Variation "Franco-Indian (Keres) defence"]
+[WhiteFideId "1613030"]
+[BlackFideId "415820"]
+[EventDate "2018.06.23"]
+
+1. d4 e6 2. c4 Bb4+ 3. Bd2 a5 4. g3 Nc6 5. Nf3 d6 6. Nc3 Nf6 7. Qc2 e5 8. d5 Nb8
+9. Bg2 Nbd7 10. O-O O-O 11. a3 Bxc3 12. Bxc3 a4 13. Nd2 Nc5 14. f4 Ng4 15. Rf3
+e4 16. Nxe4 Bf5 17. Nf6+ Qxf6 18. e4 Bxe4 19. Qxe4 Nxe4 20. Bxf6 Ngxf6 21. Re3
+Rfe8 22. Rae1 Nd2 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.23"]
+[Round "1.8"]
+[White "Fercec, Nenad"]
+[Black "Ayzenberg, Alena"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[WhiteElo "2436"]
+[BlackElo "1887"]
+[ECO "C07"]
+[Opening "French"]
+[Variation "Tarrasch, open variation"]
+[WhiteFideId "14500299"]
+[BlackFideId "1518798"]
+[EventDate "2018.06.23"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qd6 7. Ne4 Qb4+ 8.
+Nfd2 Nf6 9. Nxf6+ gxf6 10. O-O Nc6 11. c3 dxc3 12. bxc3 Qd6 13. Re1 Ne5 14. Qh5
+Nxc4 15. Nxc4 Qc5 16. Qh4 Be7 17. Be3 Qc6 18. g3 b5 19. Nd2 Bb7 20. f3 f5 21.
+Qh5 Rd8 22. Bd4 Rxd4 23. cxd4 Qc3 24. Rad1 Qxd4+ 25. Kg2 O-O 26. Ne4 Qb2+ 27.
+Rd2 Qb4 28. a3 Qa5 29. Rd7 fxe4 30. Rxe7 exf3+ 31. Kh3 Qxe1 32. Qg5+ Kh8 33.
+Qf6+ 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.23"]
+[Round "1.9"]
+[White "Kundianok, Vladislav"]
+[Black "Loncar, Robert"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "1885"]
+[BlackElo "2423"]
+[ECO "B42"]
+[Opening "Sicilian"]
+[Variation "Kan, Swiss cheese variation"]
+[WhiteFideId "44157819"]
+[BlackFideId "14501325"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 g6 6. O-O Bg7 7. Nb3 Ne7 8. Nc3
+O-O 9. a4 Nbc6 10. a5 d5 11. f3 Qc7 12. Bd2 dxe4 13. fxe4 Ne5 14. Na4 Bd7 15.
+Nb6 Rad8 16. Bf4 Bb5 17. Qe2 Bxd3 18. cxd3 N7c6 19. Nc4 Qe7 20. Nxe5 Nxe5 21.
+Rfd1 Qb4 22. Ra3 Rd7 23. Be3 Rc8 24. Bb6 Bf8 25. Nc1 Bc5+ 26. Bxc5 Qxc5+ 27. Kf1
+Rcd8 28. g3 h5 29. Kg2 Nc6 30. Qf2 Qe5 31. Qb6 Rd4 32. Rc3 Rb4 33. Qf2 Qxa5 34.
+Rf1 Rd7 35. Rc2 Qb6 36. Qf6 Qd4 37. Na2 Qxf6 38. Rxf6 Rbd4 39. Nc1 Ne5 40. Rc8+
+Kg7 41. Rf1 Nxd3 42. Ne2 Rxe4 43. Nc3 Rb4 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.23"]
+[Round "1.10"]
+[White "Schnider, Gert"]
+[Black "Ikica, Ante"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2422"]
+[BlackElo "1882"]
+[ECO "C66"]
+[Opening "Ruy Lopez"]
+[Variation "closed Berlin defence, Chigorin variation"]
+[WhiteFideId "1606310"]
+[BlackFideId "14503581"]
+[EventDate "2018.06.23"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O d6 5. d4 Nd7 6. Nc3 a6 7. Ba4 Be7 8. Nd5
+O-O 9. c3 Nb6 10. Bxc6 bxc6 11. Nxb6 cxb6 12. dxe5 Bg4 13. Bf4 d5 14. exd5 cxd5
+15. Qd3 Qd7 16. Nd4 Bc5 17. Rfe1 Rfe8 18. Re3 Bh5 19. Qd2 b5 20. Rae1 Rac8 21.
+Rh3 Bg6 22. Nb3 Bb6 23. Be3 Bc7 24. Bd4 Re7 25. Rhe3 Rce8 26. f4 Qc6 27. Qf2 Qe6
+28. Bc5 Bb6 29. f5 Bxf5 30. Bxb6 Qxb6 31. Qxf5 Rxe5 32. Nd4 g6 33. Qf4 Rxe3 34.
+Rxe3 Rxe3 35. Qxe3 b4 36. Qe8+ Kg7 37. Qe5+ Kg8 38. Qxd5 bxc3 39. bxc3 Qb1+ 40.
+Kf2 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.24"]
+[Round "2.1"]
+[White "Saric, Ante"]
+[Black "Stankovic, Andrej"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2543"]
+[BlackElo "2130"]
+[ECO "A10"]
+[Opening "English opening"]
+[WhiteFideId "14506254"]
+[BlackFideId "14513501"]
+[EventDate "2018.06.23"]
+
+1. c4 g6 2. d4 Bg7 3. e4 c5 4. d5 d6 5. Nc3 f5 6. exf5 Bxf5 7. Bd3 Qa5 8. Ne2
+Bg4 9. O-O Nh6 10. h3 Bd7 11. Re1 O-O 12. Nf4 Re8 13. Nxg6 hxg6 14. Bxg6 Rf8 15.
+Bxh6 Bxh6 16. Qh5 Kg7 17. Rxe7+ Kf6 18. Rae1 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.24"]
+[Round "2.2"]
+[White "Vasic, Bosko"]
+[Black "Zelcic, Robert"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2130"]
+[BlackElo "2499"]
+[ECO "C41"]
+[Opening "Philidor"]
+[Variation "Improved Hanham variation"]
+[WhiteFideId "14503972"]
+[BlackFideId "14500310"]
+[EventDate "2018.06.23"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 Nbd7 4. Nf3 e5 5. Bc4 Be7 6. O-O O-O 7. Re1 exd4 8.
+Nxd4 Nb6 9. Bf1 d5 10. e5 Ne8 11. Nce2 c5 12. Nf3 g6 13. h3 Ng7 14. Bf4 Bd7 15.
+b3 Bc6 16. Qd2 d4 17. c4 Bxf3 18. gxf3 f6 19. Ng3 fxe5 20. Bxe5 Ne6 21. f4 Nd7
+22. Qe2 Bf6 23. Qg4 Ng7 24. Bd6 Rf7 25. Bg2 d3 26. Rad1 Bc3 27. Ne4 Bxe1 28.
+Rxe1 Nf5 29. Bxc5 Nxc5 30. Nxc5 Qd4 31. Ne6 Qf6 32. Bd5 Kh8 33. Rd1 Re7 34. Nc5
+Nd4 35. Nxd3 Ne2+ 36. Kg2 Nc3 37. Rd2 Nxd5 38. cxd5 Qd4 39. Kg3 Rae8 40. Qd1
+Qxd5 41. Ne5 Qe6 42. h4 Qf5 43. Rd8 Qf6 44. Qd4 Rxd8 45. Qxd8+ Kg7 46. Nd7 Re3+ 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.24"]
+[Round "2.3"]
+[White "Fernandez, Daniel Howard"]
+[Black "Novkovic, Julia"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "WFM"]
+[WhiteElo "2485"]
+[BlackElo "2127"]
+[ECO "C29"]
+[Opening "Vienna gambit"]
+[Variation "Paulsen attack"]
+[WhiteFideId "5801605"]
+[BlackFideId "12000086"]
+[EventDate "2018.06.23"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Qf3 Nxc3 6. bxc3 c5 7. Qg3 Nc6 8.
+Nf3 Bf5 9. Bd3 Bxd3 10. cxd3 g6 11. Rb1 Qd7 12. O-O Be7 13. Ng5 Bxg5 14. Qxg5
+O-O 15. Rf4 Rae8 16. d4 f6 17. exf6 Re1+ 18. Kf2 Qe6 19. Rxb7 Rh1 20. Rg7+ Kh8
+21. Rxh7+ 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.24"]
+[Round "2.4"]
+[White "Sunjic, Vitomir"]
+[Black "Plenca, Jadranko"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2118"]
+[BlackElo "2482"]
+[ECO "D02"]
+[Opening "Queen's bishop game"]
+[WhiteFideId "14508281"]
+[BlackFideId "14527146"]
+[EventDate "2018.06.23"]
+
+1. d4 Nf6 2. Nf3 d5 3. Bf4 c5 4. e3 Nc6 5. c3 g6 6. h3 Bg7 7. Nbd2 Qb6 8. Qb3 c4
+9. Qxb6 axb6 10. e4 Nxe4 11. Nxe4 dxe4 12. Nd2 b5 13. Nxe4 O-O 14. Be2 e5 15.
+dxe5 Nxe5 16. O-O Bf5 17. Ng3 Nd3 18. Nxf5 Nxf4 19. Ne7+ Kh8 20. Bf3 Rad8 21.
+Rad1 Nd3 22. Rd2 Bh6 23. Rc2 Rfe8 24. Nd5 Ne1 25. Rxe1 Rxe1+ 26. Kh2 Re5 27. Nb4
+Re7 28. g3 Red7 29. Kg2 Rd2 30. Rxd2 Rxd2 31. Bxb7 Rxb2 32. Bc6 Bd2 33. Nd5 b4 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "3.1"]
+[White "Reichmann, Egon"]
+[Black "Saric, Ante"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2265"]
+[BlackElo "2543"]
+[ECO "A40"]
+[Opening "Queen's pawn"]
+[WhiteFideId "1600486"]
+[BlackFideId "14506254"]
+[EventDate "2018.06.23"]
+
+1. d4 e6 2. Nf3 c5 3. Nc3 cxd4 4. Qxd4 Nc6 5. Qa4 Nf6 6. e4 Bb4 7. Bd2 O-O 8.
+Bd3 d6 9. a3 Bc5 10. b4 Bb6 11. O-O Bd7 12. Qb3 Rc8 13. Rad1 Qe7 14. Bg5 h6 15.
+Bh4 g5 16. Bg3 Nh5 17. e5 d5 18. Nb5 Nxg3 19. hxg3 g4 20. Nh2 Nxe5 21. Be2 Nc4
+22. Nd4 e5 23. Nxg4 exd4 24. Rfe1 Qg5 25. Nh2 Rfe8 26. Nf3 Qf6 27. a4 a6 28. a5
+Ba7 29. Bd3 Bg4 30. Kh2 Rxe1 31. Rxe1 Bxf3 32. gxf3 Nd2 33. Bh7+ Kg7 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "3.2"]
+[White "Zelcic, Robert"]
+[Black "Maksimovic, Bojan"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2499"]
+[BlackElo "2250"]
+[ECO "B43"]
+[Opening "Sicilian"]
+[Variation "Kan, 5.Nc3"]
+[WhiteFideId "14500310"]
+[BlackFideId "14408120"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nf3 e6 3. Nc3 a6 4. d4 cxd4 5. Nxd4 Qc7 6. Bd3 Nc6 7. Be3 Nf6 8. O-O
+Be7 9. Kh1 O-O 10. f4 d6 11. Qf3 Bd7 12. Qg3 b5 13. Rae1 Nxd4 14. Bxd4 b4 15. e5
+dxe5 16. fxe5 Nh5 17. Qh3 bxc3 18. Qxh5 g6 19. Qh6 Qd8 20. Bxc3 Bg5 21. Qh3 Bb5
+22. Rd1 Qc7 23. Qg3 Be7 24. Rf4 Rad8 25. h3 Rd5 26. a4 Bxd3 27. Rxd3 Rfd8 28.
+Rff3 Bf8 29. Rxd5 Rxd5 30. Rd3 Qc4 31. b3 Rxd3 32. Qxd3 Qf4 33. Qd2 Qf1+ 34. Kh2
+h5 35. Bd4 Ba3 36. Bf2 Bb2 37. Bg3 Qa1 38. Qe1 Qxe1 39. Bxe1 Bxe5+ 40. Kg1 Kf8
+41. b4 Ke7 42. c4 Bd4+ 43. Kf1 Kd6 44. b5 axb5 45. cxb5 Kc5 46. h4 f5 47. Bf2
+Bxf2 48. Kxf2 e5 49. Ke2 e4 50. Ke3 Kb6 51. Kd4 Ka5 52. g3 Kb6 53. Kc3 Kc5 54.
+Kd2 Kb6 55. Kc2 Kc7 56. a5 Kb7 57. Kc3 Kc7 58. Kd4 Kd7 59. a6 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "3.3"]
+[White "Pichler, Michael"]
+[Black "Fernandez, Daniel Howard"]
+[Result "1-0"]
+[BlackTitle "GM"]
+[WhiteElo "2239"]
+[BlackElo "2485"]
+[ECO "B22"]
+[Opening "Sicilian"]
+[Variation "Alapin's variation (2.c3)"]
+[WhiteFideId "1611208"]
+[BlackFideId "5801605"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 d6 5. Bc4 Nb6 6. Bb3 d5 7. d4 cxd4 8. Nxd4
+Nc6 9. Qe2 Nxd4 10. cxd4 e6 11. O-O Bd7 12. Bc2 h5 13. Bd3 Rc8 14. b3 Na8 15.
+Bb2 Qb6 16. Nd2 Be7 17. f4 g6 18. Nf3 a6 19. Rfc1 O-O 20. Rxc8 Rxc8 21. Rc1
+Rxc1+ 22. Bxc1 Nc7 23. Qc2 Ne8 24. Be3 Ng7 25. g3 Nf5 26. Bf2 Ba3 27. h3 Ne7 28.
+g4 hxg4 29. hxg4 Qc6 30. Be3 Qxc2 31. Bxc2 Nc6 32. Kf2 Bb2 33. Bb1 b5 34. Ke2 a5
+35. Bd2 Bxd4 36. Bxa5 Bb2 37. Bb6 b4 38. Bc5 Bc1 39. Be3 Bb2 40. Bc5 d4 41. Kd1
+Nb8 42. Nxd4 Na6 43. Bb6 Nc7 44. Bxc7 Bxd4 45. Ke2 Bc6 46. Bd6 Bc3 47. Bd3 Kg7
+48. g5 Bd5 49. Ke3 Bg2 50. Bc5 Bc6 51. a4 bxa3 52. Bxa3 Be1 53. b4 Bg3 54. b5
+Bd5 55. Be4 Bf2+ 56. Kd3 Ba2 57. Bc6 Bb1+ 58. Ke2 Bb6 59. Bc1 Ba2 60. Be3 Bc4+
+61. Kf2 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "3.4"]
+[White "Plenca, Jadranko"]
+[Black "Krebs, Johann"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2482"]
+[BlackElo "2222"]
+[ECO "B31"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (with ...g6, without ...d6)"]
+[WhiteFideId "14527146"]
+[BlackFideId "1603590"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 bxc6 5. O-O Bg7 6. Re1 Nf6 7. e5 Nd5 8. c4
+Nc7 9. d4 cxd4 10. Qxd4 Ne6 11. Qh4 d6 12. exd6 Qxd6 13. Nc3 h5 14. Bd2 O-O 15.
+Ne4 Qc7 16. Bc3 Bxc3 17. Nxc3 Re8 18. Ne5 Rd8 19. Qe4 Rd4 20. Qf3 Rf4 21. Qxc6
+Qxc6 22. Nxc6 Rxc4 23. Nxe7+ Kf8 24. Nxc8 Raxc8 25. Rad1 Nc5 26. Rd2 Na4 27.
+Nxa4 Rxa4 28. b3 Rb4 29. Rd7 a5 30. g3 Rb5 31. Re2 Kg7 32. h4 Rc3 33. Rd4 Rf5
+34. Red2 Rcc5 35. Kf1 Kf6 36. Ke2 Rfe5+ 37. Kd1 Rf5 38. Re2 Rc3 39. Red2 Rcc5
+40. Ke2 Rfe5+ 41. Kf3 Rc3+ 42. Kg2 Rcc5 43. Rf4+ Ke6 44. Rd8 Ke7 45. Ra8 Rc7 46.
+b4 axb4 47. Rxb4 Rf5 48. Rb2 Rc1 49. Ra3 Rc7 50. Ra6 Rc1 51. a4 Ra1 52. Rb5 Rxb5
+53. axb5 Rb1 54. Rb6 Rb3 55. Rb7+ Ke6 56. b6 f6 57. Rb8 Kf5 58. b7 Rb1 59. f3
+Rb2+ 60. Kf1 Rb1+ 61. Ke2 Rb2+ 62. Kd3 Rb1 63. Kc4 Rc1+ 64. Kd5 Rd1+ 65. Kc6
+Rc1+ 66. Kd6 Rd1+ 67. Ke7 Rb1 68. Kf7 Rb6 69. Kg7 Rb1 70. Kh6 Rb6 71. Ra8 Rxb7
+72. Ra5+ Ke6 73. Kxg6 Rb8 74. Kxh5 Rg8 75. g4 Rb8 76. Kg6 Rg8+ 77. Kh7 Rb8 78.
+Kg7 Rb7+ 79. Kg6 Rb6 80. h5 Ke7 81. Kg7 Ke6 82. h6 Rb3 83. h7 Rb7+ 84. Kg6 Rb8
+85. Ra7 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "3.5"]
+[White "Karsay, Pascal"]
+[Black "Gumularz, Szymon"]
+[Result "1/2-1/2"]
+[BlackTitle "IM"]
+[WhiteElo "2227"]
+[BlackElo "2452"]
+[ECO "A05"]
+[Opening "Reti"]
+[Variation "King's Indian attack"]
+[WhiteFideId "12953474"]
+[BlackFideId "1188062"]
+[EventDate "2018.06.23"]
+
+1. Nf3 Nf6 2. g3 g6 3. b3 Bg7 4. Bb2 d6 5. d4 c5 6. Bg2 Nc6 7. O-O cxd4 8. Nxd4
+Bd7 9. c4 Qc8 10. Nc3 Bh3 11. Nd5 Bxg2 12. Kxg2 Nxd5 13. cxd5 Nb4 14. e4 O-O 15.
+Qd2 Na6 16. Rac1 Qd7 17. Ne2 Bxb2 18. Qxb2 Nc5 19. Qd4 a5 20. Qe3 Rfc8 21. Nd4
+Na6 22. h4 Rxc1 23. Rxc1 Rc8 24. Rxc8+ Qxc8 25. Qg5 Kf8 26. Nf3 Ke8 27. Qh6 Qc2
+28. Qxh7 Qxe4 29. Qg8+ Kd7 30. Qxf7 Nb4 31. a3 Nxd5 32. Kh2 Nf6 33. Ng5 Qf5 34.
+Kg1 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "3.6"]
+[White "Tratar, Marko"]
+[Black "Mihalinec, Damir"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[WhiteElo "2449"]
+[BlackElo "2203"]
+[ECO "E99"]
+[Opening "King's Indian"]
+[Variation "orthodox, Aronin-Taimanov, Benko attack"]
+[WhiteFideId "14600684"]
+[BlackFideId "14504260"]
+[EventDate "2018.06.23"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7
+9. Ne1 Nd7 10. f3 f5 11. g4 a6 12. Ng2 Nf6 13. Be3 Rf7 14. a4 Bf8 15. a5 Bd7 16.
+b4 Qc8 17. h3 f4 18. Bf2 g5 19. Ne1 h5 20. Kg2 Ng6 21. Rh1 Rg7 22. Nd3 Be7 23.
+c5 Nh4+ 24. Bxh4 gxh4 25. Rc1 Kf7 26. cxd6 Bxd6 27. Kf1 Qf8 28. Na4 Qe7 29. Nac5
+b6 30. Qe1 Bb5 31. Ne6 Rg6 32. Qxh4 Rag8 33. g5 Nh7 34. Qxh5 Nxg5 35. Rg1 Nxe6
+36. Qf5+ Qf6 37. dxe6+ Ke7 38. Rxg6 Qxg6 39. Qxg6 Rxg6 40. Nf2 Bxe2+ 41. Kxe2
+bxa5 42. bxa5 Rg2 43. Rc6 Kxe6 44. Rxa6 Kd7 45. Kf1 Rg3 46. Ke2 Rg2 47. Kf1 Rg3
+48. Ke2 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "3.7"]
+[White "Babic, Zvonko"]
+[Black "Haria, Ravi"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2208"]
+[BlackElo "2440"]
+[ECO "A40"]
+[Opening "Queen's pawn"]
+[WhiteFideId "14509105"]
+[BlackFideId "415820"]
+[EventDate "2018.06.23"]
+
+1. d4 e6 2. Nf3 Nf6 3. g3 d5 4. Bg2 b5 5. a4 b4 6. O-O Nbd7 7. c4 bxc3 8. bxc3
+Be7 9. c4 c6 10. Bg5 O-O 11. Nbd2 Ba6 12. Re1 Rc8 13. a5 c5 14. cxd5 exd5 15.
+Bh3 h6 16. Bxf6 Bxf6 17. e4 g6 18. e5 Bg7 19. e6 fxe6 20. Bxe6+ Kh7 21. Bxd5
+cxd4 22. h4 Nc5 23. Be6 Nxe6 24. Rxe6 Bd3 25. h5 g5 26. Qa4 Bf5 27. Ra6 Rc7 28.
+Re1 Qd5 29. Qb4 Bg4 30. Ne5 Rb7 31. Qa3 Bh3 32. Qd3+ Bf5 33. Qa3 Re8 34. Rd6 Qb5
+35. Qf3 Rxe5 36. Rxe5 Qxe5 37. Rd5 Qe8 38. Kh1 Bd7 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "3.8"]
+[White "Voscilla, Adriano"]
+[Black "Loncar, Robert"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2202"]
+[BlackElo "2423"]
+[ECO "B23"]
+[Opening "Sicilian"]
+[Variation "closed"]
+[WhiteFideId "14500736"]
+[BlackFideId "14501325"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nc3 e6 3. g3 Nc6 4. Nge2 Nf6 5. Bg2 Be7 6. O-O d6 7. d3 O-O 8. f4 d5
+9. e5 Ne8 10. Kh1 f6 11. d4 cxd4 12. Nxd4 fxe5 13. Nxc6 bxc6 14. fxe5 Rxf1+ 15.
+Bxf1 Qc7 16. Bf4 Rb8 17. b3 g6 18. Qe2 Ng7 19. g4 Bd7 20. Bg2 Qa5 21. Qd3 Qb4
+22. Ne4 Rf8 23. Bd2 Qb8 24. Nf6+ Bxf6 25. exf6 Rxf6 26. Bc3 e5 27. Qg3 Rf4 28.
+Re1 e4 29. Bb2 Qf8 30. h3 g5 31. c4 Ne6 32. cxd5 cxd5 33. Qc3 d4 34. Qc4 e3 35.
+Bd5 Qc8 36. Rd1 Qxc4 37. Bxc4 Kf8 38. Kg1 Ke8 39. Rf1 Re4 40. Bd5 Rf4 41. Bxe6
+Bxe6 42. Rxf4 gxf4 43. Bxd4 a5 44. Kf1 h5 45. gxh5 Bxh3+ 46. Ke1 Kf7 47. a3 Bg4
+48. b4 axb4 49. axb4 Bxh5 50. b5 Ke6 51. b6 Bf3 52. b7 Bxb7 53. Bxe3 fxe3 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "3.9"]
+[White "Schnider, Gert"]
+[Black "Petrovic, Zvonko"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2422"]
+[BlackElo "2186"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "1606310"]
+[BlackFideId "14500914"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Qb6 4. Nc3 e6 5. Bxc6 Qxc6 6. d4 cxd4 7. Nxd4 Qc7 8.
+O-O a6 9. Re1 Bb4 10. Nf5 Kf8 11. Qd4 Bxc3 12. bxc3 f6 13. Ba3+ Kf7 14. Nd6+ Kg6
+15. Re3 h5 16. Rg3+ Kh6 17. Bc1+ 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "4.1"]
+[White "Saric, Ante"]
+[Black "McPhillips, Joseph"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2543"]
+[BlackElo "2399"]
+[ECO "A14"]
+[Opening "English"]
+[Variation "Neo-Catalan declined"]
+[WhiteFideId "14506254"]
+[BlackFideId "422487"]
+[EventDate "2018.06.23"]
+
+1. c4 e6 2. g3 Nf6 3. Bg2 d5 4. Nf3 Be7 5. O-O O-O 6. b3 c5 7. Bb2 Nc6 8. cxd5
+exd5 9. d4 Ne4 10. Nc3 Bf6 11. Na4 Re8 12. Rc1 b6 13. e3 Ba6 14. Re1 Nb4 15. Bf1
+Bxf1 16. Rxf1 Nxa2 17. Ra1 Nb4 18. Qe2 Nc6 19. dxc5 Bxb2 20. Qxb2 b5 21. Nc3 Qf6
+22. Nd4 Nxd4 23. exd4 Qxd4 24. Rfc1 Nd2 25. Rc2 Nf3+ 26. Kh1 b4 27. Nb5 Qg4 28.
+Kg2 Nh4+ 29. Kg1 Nf3+ 30. Kg2 Qe4 31. Re2 Ne1+ 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "4.2"]
+[White "Horton, Andrew P"]
+[Black "Zelcic, Robert"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2407"]
+[BlackElo "2499"]
+[ECO "A14"]
+[Opening "English"]
+[Variation "Neo-Catalan declined"]
+[WhiteFideId "424269"]
+[BlackFideId "14500310"]
+[EventDate "2018.06.23"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. O-O O-O 6. b3 d4 7. e3 c5 8. Bb2 Nc6
+9. exd4 cxd4 10. Re1 Re8 11. d3 Bb4 12. Nbd2 e5 13. a3 Bc3 14. Qc2 Bxb2 15. Qxb2
+Bf5 16. Qc2 a5 17. Ng5 Qd7 18. Rab1 h6 19. Nge4 Nxe4 20. Nxe4 Bxe4 21. Bxe4 f5
+22. Bd5+ Kh8 23. b4 axb4 24. axb4 e4 25. dxe4 fxe4 26. Bxe4 Ne5 27. Bd5 d3 28.
+Qd1 Qf5 29. Qd2 Qd7 30. Re3 Re7 31. Rbe1 Rae8 32. b5 Qg4 33. Qc3 Qf5 34. Qd4 Qf6
+35. Kg2 b6 36. Qf4 d2 37. Rd1 Qxf4 38. gxf4 Ng6 39. Kf3 Nh4+ 40. Kg4 Ng6 41.
+Rxe7 Nxe7 42. Rxd2 Rd8 43. Kf3 g6 44. Rd3 Rc8 45. Be6 Nf5 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "4.3"]
+[White "Jelen, Igor"]
+[Black "Plenca, Jadranko"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2360"]
+[BlackElo "2482"]
+[ECO "D31"]
+[Opening "QGD"]
+[Variation "Janowski variation"]
+[WhiteFideId "14600668"]
+[BlackFideId "14527146"]
+[EventDate "2018.06.23"]
+
+1. d4 d5 2. c4 e6 3. Nc3 a6 4. cxd5 exd5 5. Bf4 Nf6 6. e3 Bd6 7. Bg3 Bf5 8. Bd3
+Bxd3 9. Qxd3 O-O 10. Nf3 Re8 11. O-O-O c6 12. Kb1 Ne4 13. Ne5 Nxc3+ 14. Qxc3 Qe7
+15. Nd3 Nd7 16. Rhe1 a5 17. Re2 Nb6 18. Bxd6 Qxd6 19. Qc5 Qc7 20. Nf4 Ra6 21.
+Rc1 Qb8 22. Qc2 Nc4 23. Qf5 Rb6 24. Ka1 a4 25. Qg4 Re4 26. Qg3 Qf8 27. Nd3 Re7
+28. Nc5 Qa8 29. e4 h6 30. e5 Rb5 31. f4 Qc8 32. Nxa4 Ra5 33. Nc3 b5 34. b3 Nb6
+35. Qh3 Qa8 36. f5 f6 37. Qg3 Raa7 38. Rce1 b4 39. Nb1 fxe5 40. dxe5 Ra5 41. f6
+Rea7 42. Qf2 d4 43. e6 gxf6 44. e7 Qe8 45. Qxf6 Nd5 46. Qxh6 Ne3 47. Rc1 Rxe7
+48. Rxc6 Rg7 49. Qe6+ Qxe6 50. Rxe6 Nxg2 51. Rd2 Ne3 52. Rb6 Rc7 53. Rd6 Kf7 54.
+R6xd4 Nc2+ 55. Kb2 Nxd4 56. Rxd4 Rca7 57. Rxb4 Rxa2+ 58. Kc3 Rxh2 59. Rf4+ Ke6
+60. Nd2 Rh3+ 61. Rf3 Rxf3+ 62. Nxf3 Kd5 63. Nd2 Rh7 64. Nc4 Kc5 65. b4+ Kb5 66.
+Na3+ Ka4 67. Nc2 Rc7+ 68. Kd3 Kb3 69. Nd4+ Kxb4 70. Nc2+ Kc5 71. Ne3 Rh7 72. Ke4
+Rd7 73. Nf5 Rd8 74. Ne3 Rd2 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "4.4"]
+[White "Haria, Ravi"]
+[Black "Pichler, Michael"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2440"]
+[BlackElo "2239"]
+[ECO "C00"]
+[Opening "French"]
+[Variation "Schlechter variation"]
+[WhiteFideId "415820"]
+[BlackFideId "1611208"]
+[EventDate "2018.06.23"]
+
+1. e4 e6 2. d4 d5 3. Bd3 c5 4. exd5 exd5 5. Nf3 c4 6. Be2 Nf6 7. b3 cxb3 8. axb3
+Bb4+ 9. c3 Be7 10. O-O O-O 11. Bd3 Bg4 12. Nbd2 Nc6 13. Re1 Bh5 14. Nf1 Re8 15.
+Ng3 Bg6 16. Ne5 Bd6 17. f4 Bxd3 18. Qxd3 Qc7 19. Bd2 Rad8 20. Re2 Re6 21. Rae1
+Ree8 22. Ng4 Rxe2 23. Nxf6+ gxf6 24. Rxe2 Kh8 25. Nh5 Be7 26. Be1 Rg8 27. Bh4
+Rg6 28. f5 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "4.5"]
+[White "Ostovic, Matija"]
+[Black "Schnider, Gert"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2352"]
+[BlackElo "2422"]
+[ECO "E10"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "14515547"]
+[BlackFideId "1606310"]
+[EventDate "2018.06.23"]
+
+1. Nf3 Nf6 2. c4 e6 3. d4 d5 4. e3 a6 5. b3 c5 6. cxd5 exd5 7. Be2 Nc6 8. O-O
+cxd4 9. Nxd4 Bd6 10. Bb2 O-O 11. Nd2 Re8 12. a3 Bd7 13. b4 Ne5 14. Rc1 Qe7 15.
+N4f3 Neg4 16. Bd4 Ne4 17. h3 Nh6 18. Qb3 Be6 19. Qb2 f6 20. Nxe4 dxe4 21. Nd2
+Bf7 22. Nc4 Bc7 23. Rfd1 Nf5 24. Bc5 Qe6 25. g4 Nh4 26. Nd6 Bxd6 27. Rxd6 Qe5
+28. Qxe5 Rxe5 29. Rd7 b5 30. Bd6 Rg5 31. Bg3 Nf3+ 32. Kg2 h5 33. Bxf3 exf3+ 34.
+Kxf3 hxg4+ 35. hxg4 Bd5+ 36. e4 Be6 37. Re7 Bxg4+ 38. Ke3 Bh5 39. Bf4 Rg4 40.
+Rc5 Re8 41. Rxe8+ Bxe8 42. Rc8 Kf7 43. Ra8 Rg1 44. Ra7+ Kg6 45. Rxa6 Rd1 46. Bd6
+Bf7 47. f4 Bc4 48. Bf8 Rd7 49. Bd6 Kf7 50. Kd4 Bf1 51. Kc5 Bd3 52. Kc6 Rd8 53.
+Ra7+ Kg6 54. e5 fxe5 55. fxe5 Rc8+ 56. Kd5 Bc4+ 57. Ke4 Rh8 58. Kd4 Rh3 59. a4
+Rd3+ 60. Ke4 bxa4 61. Rxa4 Rd1 62. Ra7 Bd5+ 63. Ke3 Bc6 64. Ra6 Bb5 65. Rb6 Bc4
+66. Rc6 Rd3+ 67. Kf2 Rd2+ 68. Ke1 Bd5 69. Rc5 Rd4 70. b5 Kf5 71. b6 g5 72. Rxd5 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "4.6"]
+[White "Gumularz, Szymon"]
+[Black "Sestic, Nermin"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2452"]
+[BlackElo "2147"]
+[ECO "C00"]
+[Opening "French"]
+[Variation "King's Indian attack"]
+[WhiteFideId "1188062"]
+[BlackFideId "14405458"]
+[EventDate "2018.06.23"]
+
+1. e4 e6 2. d3 d5 3. Qe2 Nf6 4. Nf3 Be7 5. g3 O-O 6. Bg2 c5 7. O-O Nc6 8. e5 Nd7
+9. c4 dxc4 10. dxc4 Qc7 11. Bf4 b6 12. Nc3 a6 13. Nd5 Qd8 14. Nxe7+ Qxe7 15.
+Rad1 Bb7 16. Bg5 f6 17. exf6 gxf6 18. Bh6 Rfe8 19. Nh4 Nde5 20. f4 Ng6 21. Qg4
+Qf7 22. f5 exf5 23. Rxf5 Ne5 24. Rxe5 Rxe5 25. Bxb7 Qxb7 26. Nxg6 Re4 27. Nf4+
+Kh8 28. Rd7 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "4.7"]
+[White "Srienz, Christian"]
+[Black "Tratar, Marko"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2212"]
+[BlackElo "2449"]
+[ECO "A10"]
+[Opening "English opening"]
+[WhiteFideId "1603175"]
+[BlackFideId "14600684"]
+[EventDate "2018.06.23"]
+
+1. c4 b6 2. Nc3 e6 3. d4 Bb4 4. e4 Bb7 5. d5 Qe7 6. Be2 Nf6 7. Bg5 Bxc3+ 8. bxc3
+h6 9. Bh4 e5 10. Bd3 Na6 11. f3 Nc5 12. Ne2 Ba6 13. Rb1 c6 14. Nc1 Nxd3+ 15.
+Qxd3 cxd5 16. Bxf6 Qxf6 17. Qxd5 O-O 18. Nd3 Rac8 19. Rb4 Qg5 20. Ra4 Bb7 21.
+Qd6 Rc6 22. Qd5 Rg6 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "4.8"]
+[White "Loncar, Robert"]
+[Black "Mayr, Thomas"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "CM"]
+[WhiteElo "2423"]
+[BlackElo "2218"]
+[ECO "A56"]
+[Opening "Benoni defence, Hromodka system"]
+[WhiteFideId "14501325"]
+[BlackFideId "1607677"]
+[EventDate "2018.06.23"]
+
+1. d4 Nf6 2. c4 c5 3. d5 d6 4. Nc3 e5 5. e4 Be7 6. h3 Nbd7 7. Bd3 Nf8 8. Be3 Ng6
+9. g3 h6 10. f3 Nh7 11. h4 O-O 12. Qc2 Bd7 13. a3 a6 14. Nge2 Rb8 15. b4 cxb4
+16. axb4 Qc7 17. Kd2 Rfc8 18. Rhc1 Qd8 19. Qb3 Nf6 20. Nd1 Qf8 21. Qa3 Ne8 22.
+Ba7 Ra8 23. Bb6 Nc7 24. Qa5 Bd8 25. Ne3 Ne7 26. Rf1 Rab8 27. f4 Na8 28. Bxd8
+Qxd8 29. fxe5 dxe5 30. Qxd8+ Rxd8 31. c5 Nc8 32. d6 Bc6 33. Nc3 Na7 34. Bc4 Be8
+35. Ncd5 Nc6 36. Kc3 Rbc8 37. Nf5 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "4.9"]
+[White "Zufic, Miroslav"]
+[Black "Voscilla, Adriano"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2384"]
+[BlackElo "2202"]
+[ECO "A05"]
+[Opening "Reti opening"]
+[WhiteFideId "14506157"]
+[BlackFideId "14500736"]
+[EventDate "2018.06.23"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 Bf5 4. O-O e6 5. d3 Be7 6. c4 c6 7. Qb3 Qb6 8. Be3
+Qxb3 9. axb3 Na6 10. Nd4 Kd7 11. Nxf5 exf5 12. Nc3 Ke6 13. cxd5+ Nxd5 14. Bd4 f6
+15. Nxd5 cxd5 16. Ra5 Nb4 17. Rb5 Rhd8 18. Rxb7 Nc6 19. Be3 Rab8 20. Rc7 Ne5 21.
+Bd4 Rxb3 22. Ra1 Rb5 23. f4 Rd7 24. Ra6+ Kf7 25. Bxe5 Bc5+ 26. Kf1 Rxc7 27. Bxc7
+Be3 28. b4 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.25"]
+[Round "4.10"]
+[White "Ronce, Nathan"]
+[Black "Franic, Milan"]
+[Result "1-0"]
+[BlackTitle "IM"]
+[WhiteElo "2210"]
+[BlackElo "2379"]
+[ECO "C00"]
+[Opening "French"]
+[Variation "Schlechter variation"]
+[WhiteFideId "685623"]
+[BlackFideId "14500272"]
+[EventDate "2018.06.23"]
+
+1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 Nd5 8.
+Bxd5 Qxd5 9. Nbc3 Qxg2 10. Rg1 Qf3 11. Nb5 cxd4 12. Nc7+ Ke7 13. Bxd4 e5 14.
+Bc5+ Kf6 15. Nd5+ Ke6 16. Nef4+ 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.26"]
+[Round "5.1"]
+[White "McPhillips, Joseph"]
+[Black "Haria, Ravi"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2399"]
+[BlackElo "2440"]
+[ECO "C00"]
+[Opening "French"]
+[Variation "Wing gambit"]
+[WhiteFideId "422487"]
+[BlackFideId "415820"]
+[EventDate "2018.06.23"]
+
+1. Nf3 e6 2. e4 d5 3. e5 c5 4. b4 d4 5. bxc5 Bxc5 6. Ba3 Qa5 7. Bxc5 Qxc5 8. c3
+Nc6 9. cxd4 Nxd4 10. Qa4+ Bd7 11. Qxd4 Qc1+ 12. Ke2 Bb5+ 13. d3 Rd8 14. Nbd2 Qa3
+15. Qf4 Qb2 16. Rd1 Bxd3+ 17. Ke1 Bc2 18. Be2 Bxd1 19. Bxd1 Ne7 20. Qa4+ Nc6 21.
+Qb3 Qc1 22. Qxb7 Nd4 23. Nxd4 Rxd4 24. Qb8+ Ke7 25. Qb7+ Ke8 26. Qb5+ Ke7 27.
+Qb7+ Ke8 28. Qb8+ 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.26"]
+[Round "5.2"]
+[White "Ostovic, Matija"]
+[Black "Horton, Andrew P"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "FM"]
+[WhiteElo "2352"]
+[BlackElo "2407"]
+[ECO "E11"]
+[Opening "Bogo-Indian defence, Gruenfeld variation"]
+[WhiteFideId "14515547"]
+[BlackFideId "424269"]
+[EventDate "2018.06.23"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 b6 5. a3 Bxd2+ 6. Qxd2 Bb7 7. e3 O-O 8.
+Be2 a5 9. b3 d6 10. O-O Nbd7 11. Bb2 Qe7 12. b4 Ne4 13. Qc2 f5 14. d5 e5 15. Nd2
+Nxd2 16. Qxd2 Rfe8 17. Qc2 Qf7 18. f4 exf4 19. Rxf4 axb4 20. axb4 Rxa1+ 21. Bxa1
+Rxe3 22. Bd4 Re4 23. Rxe4 fxe4 24. Qxe4 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.26"]
+[Round "5.3"]
+[White "Plenca, Jadranko"]
+[Black "Popovic, Milan S"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[WhiteElo "2482"]
+[BlackElo "2264"]
+[ECO "B07"]
+[Opening "Pirc defence"]
+[WhiteFideId "14527146"]
+[BlackFideId "940720"]
+[EventDate "2018.06.23"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 exd4 5. Nxd4 Be7 6. Bc4 O-O 7. O-O c6 8. Re1
+Re8 9. a3 Bf8 10. Bf4 Nbd7 11. h3 Ne5 12. Bb3 Bd7 13. Bg3 Ng6 14. Qd3 Ne5 15.
+Qd2 Qc7 16. f4 Ng6 17. Nf3 Be6 18. Bxe6 fxe6 19. Kh1 Rad8 20. Bh2 Qc8 21. Rad1
+d5 22. Qe3 c5 23. e5 d4 24. Qc1 dxc3 25. exf6 gxf6 26. bxc3 Bh6 27. Rxd8 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.26"]
+[Round "5.4"]
+[White "Guid, Matej"]
+[Black "Gumularz, Szymon"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2358"]
+[BlackElo "2452"]
+[ECO "A13"]
+[Opening "English"]
+[Variation "Neo-Catalan accepted"]
+[WhiteFideId "14601966"]
+[BlackFideId "1188062"]
+[EventDate "2018.06.23"]
+
+1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. Nf3 dxc4 5. Na3 Bxa3 6. bxa3 Nbd7 7. Qa4 c5 8.
+Qxc4 O-O 9. O-O b6 10. d4 Bb7 11. Rd1 Qe7 12. a4 Bd5 13. Qc3 cxd4 14. Nxd4 Rfc8
+15. Qe3 Bxg2 16. Kxg2 Nc5 17. Qa3 Qb7+ 18. Kg1 Qa6 19. a5 bxa5 20. Bd2 a4 21.
+Bb4 Ncd7 22. Qf3 Nd5 23. Nf5 Ne5 24. Qe4 exf5 25. Qxd5 Qxe2 26. Bc3 Nf3+ 27. Kg2
+Qe4 28. Rac1 h6 29. Bb2 Rxc1 30. Bxc1 Rc8 31. Qxe4 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.26"]
+[Round "5.5"]
+[White "Tratar, Marko"]
+[Black "Jelen, Igor"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2449"]
+[BlackElo "2360"]
+[ECO "A15"]
+[Opening "English opening"]
+[WhiteFideId "14600684"]
+[BlackFideId "14600668"]
+[EventDate "2018.06.23"]
+
+1. Nf3 Nf6 2. c4 g6 3. b3 Bg7 4. Bb2 O-O 5. g3 b6 6. Bg2 Bb7 7. O-O c5 8. d4 d5
+9. dxc5 dxc4 10. Qxd8 Rxd8 11. cxb6 axb6 12. bxc4 Na6 13. Rc1 Nc5 14. Nbd2 Bh6
+15. Bxf6 exf6 16. e3 Rd3 17. Nb3 Rd7 18. Nfd4 Bxg2 19. Kxg2 f5 20. Rc2 Bg7 21.
+Rb1 Ne4 22. Ne2 Rda7 23. Nbc1 Ra6 24. Nf4 Rd8 25. Nd5 Rd6 26. Ne2 h5 27. Nd4 Kh7
+28. Rcb2 Nc5 29. Rc2 Ne6 30. Nxe6 fxe6 31. Nb4 Ra4 32. h4 Kg8 33. Rb3 Bf8 34.
+Nd3 Bg7 35. Nf4 Kf7 36. c5 bxc5 37. Rb7+ Kf6 38. Rxc5 Bh6 39. Rcc7 Bxf4 40. exf4
+e5 41. Rf7+ Ke6 42. Rfe7+ Kd5 43. fxe5 Rc6 44. Rbd7+ Ke4 45. Rd2 f4 46. gxf4
+Kxf4 47. Rd6 Rc2 48. Rxg6 Rcxa2 49. Rg5 Re2 50. Rf7+ Ke4 51. e6 Kd3 52. e7 Rxh4
+53. Rg3+ Kd2 54. Rg8 Rhe4 55. Rgg7 Ke1 56. Kg3 h4+ 57. Kg2 Kd2 58. Kh3 Ke1 59.
+f3 R4e3 60. Rg1+ Kd2 61. Rg2 Rxg2 62. Kxg2 Kd3 63. Kh3 Kd4 64. Rf4+ 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.26"]
+[Round "5.6"]
+[White "Krsnik Cohar, Ivan Vihor"]
+[Black "Loncar, Robert"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2309"]
+[BlackElo "2423"]
+[ECO "E01"]
+[Opening "Catalan"]
+[Variation "closed"]
+[WhiteFideId "14520044"]
+[BlackFideId "14501325"]
+[EventDate "2018.06.23"]
+
+1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. d4 Bb4+ 5. Nc3 O-O 6. a3 Be7 7. Nf3 a6 8. O-O
+dxc4 9. Ne5 c5 10. dxc5 Qc7 11. Nxc4 Bxc5 12. Be3 Bxe3 13. Nxe3 Bd7 14. Rc1 Bc6
+15. Ne4 Nxe4 16. Bxe4 Qe5 17. Bxc6 Nxc6 18. Nc4 Qb5 19. e3 Rad8 20. Qc2 Qh5 21.
+Qe4 Rd5 22. Rc2 Rfd8 23. Kg2 h6 24. Rfc1 Rd3 25. Rc3 Rxc3 26. Rxc3 Qe2 27. Qc2
+Qg4 28. h3 Qh5 29. Rd3 Rd5 30. e4 Rxd3 31. Qxd3 Qb5 32. Qc3 Qc5 33. Qd3 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.26"]
+[Round "5.7"]
+[White "Fossum, Oystein Boyum"]
+[Black "Zufic, Miroslav"]
+[Result "1/2-1/2"]
+[BlackTitle "IM"]
+[WhiteElo "2257"]
+[BlackElo "2384"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "1503430"]
+[BlackFideId "14506157"]
+[EventDate "2018.06.23"]
+
+1. Nf3 g6 2. c4 Bg7 3. g3 Nf6 4. Bg2 O-O 5. O-O c6 6. Nc3 d5 7. cxd5 cxd5 8. d4
+Nc6 9. Ne5 e6 10. Nxc6 bxc6 11. Na4 Nd7 12. b3 c5 13. Bb2 Ba6 14. dxc5 Bxb2 15.
+Nxb2 Nxc5 16. Qd4 Nd7 17. Rfe1 Bb7 18. Nd3 a5 19. Rac1 Qb8 20. f4 Rc8 21. Rxc8+
+Qxc8 22. Rc1 Qd8 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.26"]
+[Round "5.8"]
+[White "Beletic, Daniel"]
+[Black "Ronce, Nathan"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[WhiteElo "2370"]
+[BlackElo "2210"]
+[ECO "D00"]
+[Opening "Queen's pawn, Mason variation"]
+[WhiteFideId "14602709"]
+[BlackFideId "685623"]
+[EventDate "2018.06.23"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. Nf3 Nc6 5. Nbd2 e6 6. c3 Bd6 7. Bg3 O-O 8. Bd3
+b6 9. Qe2 Bb7 10. Rd1 Re8 11. e4 Be7 12. e5 Nh5 13. a3 c4 14. Bb1 b5 15. Nf1 a5
+16. h4 g6 17. Bh2 Rf8 18. g4 Ng7 19. h5 b4 20. a4 Qd7 21. Qe3 Rfb8 22. Qh6 Ne8
+23. hxg6 fxg6 24. Bf4 Bf8 25. Qh4 Bc8 26. Ng5 Qg7 27. Nxh7 Be7 28. Bg5 bxc3 29.
+bxc3 Rb2 30. Bf6 Rab8 31. g5 Qf7 32. Nf8 Bxf6 33. gxf6 Kxf8 34. Qh6+ Ng7 35.
+Qh8+ Qg8 36. fxg7+ 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.26"]
+[Round "5.9"]
+[White "Karsay, Pascal"]
+[Black "Saric, Ante"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2227"]
+[BlackElo "2543"]
+[ECO "A05"]
+[Opening "Reti opening"]
+[WhiteFideId "12953474"]
+[BlackFideId "14506254"]
+[EventDate "2018.06.23"]
+
+1. Nf3 Nf6 2. g3 c5 3. Bg2 Nc6 4. O-O e5 5. d3 Be7 6. c4 d5 7. cxd5 Nxd5 8. Nc3
+Be6 9. Bd2 Qd7 10. Nxd5 Bxd5 11. Bc3 f6 12. a4 Rc8 13. Nd2 Be6 14. Nc4 O-O 15.
+a5 Rc7 16. Qa4 Rb8 17. Rfc1 Bf8 18. Rab1 g6 19. Ne3 Nd4 20. Qxd7 Rxd7 21. Bxd4
+cxd4 22. Nc4 Bb4 23. Ra1 Rc7 24. Ra4 Bf8 25. Rb1 Kg7 26. b4 Bxc4 27. Rc1 Rbc8
+28. Rxc4 Rxc4 29. dxc4 Rxc4 30. Bxb7 Rc1+ 31. Kg2 Rb1 32. Be4 Rb2 33. Bd3 Bxb4
+34. g4 Bc3 35. Kf3 h5 36. h3 Kh6 37. a6 hxg4+ 38. hxg4 Rb6 39. Rc4 Rxa6 40. Rxd4
+Ra3 41. g5+ Kh5 42. Rd6 Kxg5 43. Ra6 Rxa6 44. Bxa6 f5 45. e4 Bd4 46. Bb5 a5 47.
+exf5 gxf5 48. Ke2 e4 49. Bc6 Kf4 50. Be8 Bb6 51. Bd7 Ke5 52. f3 e3 53. Kd3 f4
+54. Bb5 Kd5 55. Kc3 Kc5 56. Be8 Bd8 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.26"]
+[Round "5.10"]
+[White "Zelcic, Robert"]
+[Black "Krebs, Johann"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2499"]
+[BlackElo "2222"]
+[ECO "B33"]
+[Opening "Sicilian"]
+[Variation "Pelikan, Chelyabinsk variation"]
+[WhiteFideId "14500310"]
+[BlackFideId "1603590"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3
+b5 9. Nd5 Be7 10. Nxe7 Nxe7 11. Bxf6 gxf6 12. c4 f5 13. Bd3 fxe4 14. Bxe4 d5 15.
+cxd5 Qa5+ 16. Kf1 Bb7 17. Qh5 Qb4 18. Qxe5 O-O 19. Nc2 Qc5 20. Ne3 Rfe8 21. Qf6
+Rad8 22. Ng4 Bxd5 23. Bxh7+ 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.27"]
+[Round "6.1"]
+[White "Gumularz, Szymon"]
+[Black "McPhillips, Joseph"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2452"]
+[BlackElo "2399"]
+[ECO "A14"]
+[Opening "English"]
+[Variation "Neo-Catalan declined"]
+[WhiteFideId "1188062"]
+[BlackFideId "422487"]
+[EventDate "2018.06.23"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 e6 4. O-O Be7 5. c4 O-O 6. d4 dxc4 7. Ne5 Nc6 8. Nxc6
+bxc6 9. Na3 Bxa3 10. bxa3 Rb8 11. Qa4 Qxd4 12. Be3 Qd6 13. Qxc4 Rb5 14. Rac1 Rd8
+15. Bc5 Qd7 16. Bxa7 Bb7 17. Bc5 Ra8 18. Rfd1 Qe8 19. Rd2 Ba6 20. Qc2 Nd5 21. e4
+Nf6 22. Bb4 Rb6 23. Qc3 Bb5 24. Qe5 Rb7 25. Bc3 h6 26. g4 Ba4 27. Qg3 Rb5 28.
+Bxf6 gxf6 29. Qxc7 Qf8 30. Rd3 Re5 31. Qd6 Qxd6 32. Rxd6 Rea5 33. Bf1 Bb5 34.
+Bxb5 cxb5 35. Rc7 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.27"]
+[Round "6.2"]
+[White "Horton, Andrew P"]
+[Black "Tratar, Marko"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2407"]
+[BlackElo "2449"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "424269"]
+[BlackFideId "14600684"]
+[EventDate "2018.06.23"]
+
+1. Nf3 g6 2. c4 Bg7 3. g3 e5 4. Nc3 Ne7 5. Bg2 d6 6. O-O O-O 7. d3 h6 8. Ne1 c6
+9. e4 Be6 10. Nc2 a6 11. b3 b5 12. Ba3 Ra7 13. Rc1 Qd7 14. Qd2 c5 15. Nd5 b4 16.
+Bb2 Nbc6 17. f4 f5 18. Rce1 fxe4 19. Nxe7+ Nxe7 20. Bxe4 Bh3 21. Rf2 exf4 22.
+Bxg7 Kxg7 23. Rxf4 Rxf4 24. Qxf4 Nc6 25. Re2 Ne5 26. Rf2 Qd8 27. Qd2 Rf7 28. Ne3
+Qf8 29. Nd5 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.27"]
+[Round "6.3"]
+[White "Haria, Ravi"]
+[Black "Beletic, Daniel"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2440"]
+[BlackElo "2370"]
+[ECO "E67"]
+[Opening "King's Indian"]
+[Variation "fianchetto, classical variation"]
+[WhiteFideId "415820"]
+[BlackFideId "14602709"]
+[EventDate "2018.06.23"]
+
+1. Nf3 d6 2. d4 g6 3. g3 Bg7 4. Bg2 Nd7 5. c4 Ngf6 6. Nc3 O-O 7. O-O e5 8. h3
+Re8 9. e4 exd4 10. Nxd4 a6 11. Be3 Rb8 12. a4 c6 13. Qc2 a5 14. Rad1 Qc7 15.
+Rfe1 Bf8 16. f4 Nc5 17. Bf2 Bd7 18. g4 Rbd8 19. Kh1 Bc8 20. Bh4 Be7 21. Bg3 Bf8
+22. Rf1 Nfd7 23. Bh4 Be7 24. Bxe7 Rxe7 25. Ndb5 Qb8 26. Nxd6 Qa7 27. e5 Qb6 28.
+Nde4 Rf8 29. Rd6 Qb4 30. Qf2 Qxc4 31. Qh4 f6 32. Rfd1 Rfe8 33. R6d4 Qb3 34. exf6
+Rf7 35. Nd6 Ref8 36. Nxf7 Rxf7 37. g5 Qxb2 38. Ne4 Nxe4 39. Rxe4 h5 40. Re8+ Rf8
+41. Rxc8 Rxc8 42. Rxd7 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.27"]
+[Round "6.4"]
+[White "Loncar, Robert"]
+[Black "Ostovic, Matija"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2423"]
+[BlackElo "2352"]
+[ECO "A16"]
+[Opening "English"]
+[Variation "Anglo-Gruenfeld defense"]
+[WhiteFideId "14501325"]
+[BlackFideId "14515547"]
+[EventDate "2018.06.23"]
+
+1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. e4 Nb4 5. d3 e5 6. Be3 Be7 7. Nf3 Bg4 8. a3
+Bxf3 9. gxf3 N4c6 10. Nd5 Nd7 11. Rc1 Nb6 12. Nxe7 Qxe7 13. Rg1 Qf6 14. b4 O-O
+15. Bh3 Nd4 16. Bxd4 exd4 17. Rxc7 Nd5 18. Rc5 Nf4 19. Bf1 Qh4 20. h3 Nxh3 21.
+Bxh3 Qxh3 22. Qd2 g6 23. Ke2 Rac8 24. Rgc1 Qe6 25. Qb2 Rxc5 26. bxc5 Qd7 27. Rc4
+Rc8 28. Rxd4 Qe7 29. Rb4 Qxc5 30. Rxb7 a5 31. Rb5 Qc7 32. Qd2 a4 33. Rb4 Qd7 34.
+Qd1 Ra8 35. Qa1 h5 36. Qd4 Qc6 37. Rc4 Qb5 38. Rb4 Qc6 39. Qc4 Qf6 40. Qd4 Qc6 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.27"]
+[Round "6.5"]
+[White "Saric, Ante"]
+[Black "Krsnik Cohar, Ivan Vihor"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2543"]
+[BlackElo "2309"]
+[ECO "A31"]
+[Opening "English"]
+[Variation "symmetrical, Benoni formation"]
+[WhiteFideId "14506254"]
+[BlackFideId "14520044"]
+[EventDate "2018.06.23"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.27"]
+[Round "6.6"]
+[White "Zufic, Miroslav"]
+[Black "Zelcic, Robert"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2384"]
+[BlackElo "2499"]
+[ECO "D02"]
+[Opening "Queen's bishop game"]
+[WhiteFideId "14506157"]
+[BlackFideId "14500310"]
+[EventDate "2018.06.23"]
+
+1. d4 Nf6 2. Nf3 d5 3. Bf4 e6 4. e3 Bd6 5. Bg3 c5 6. Nbd2 Nc6 7. c3 O-O 8. Bd3
+b6 9. Qe2 Qc7 10. e4 dxe4 11. Nxe4 Nxe4 12. Bxe4 f5 13. Bxd6 Qxd6 14. dxc5 bxc5
+15. Rd1 Qc7 16. Bxc6 Qxc6 17. c4 Bb7 18. O-O Rf6 19. Ne1 e5 20. Qxe5 Re8 21.
+Qd5+ Qxd5 22. cxd5 Rd6 23. Nd3 Rxd5 24. Nf4 Rd4 25. Rxd4 cxd4 26. h4 Re4 27. g3
+Re7 28. Rd1 Re3 29. Rxd4 Rxg3+ 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.27"]
+[Round "6.7"]
+[White "Fernandez, Daniel Howard"]
+[Black "Fossum, Oystein Boyum"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2485"]
+[BlackElo "2257"]
+[ECO "B27"]
+[Opening "Sicilian"]
+[Variation "Hungarian variation"]
+[WhiteFideId "5801605"]
+[BlackFideId "1503430"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. c3 Bg7 5. Bc4 e6 6. O-O Ne7 7. cxd4 d5 8. exd5
+exd5 9. Bb5+ Nbc6 10. h3 O-O 11. Nc3 Nf5 12. Bxc6 bxc6 13. Bf4 Re8 14. Qd2 Qa5
+15. Rfe1 Be6 16. g4 Ne7 17. Be5 Nc8 18. Qf4 h6 19. Bxg7 Kxg7 20. g5 h5 21. Qf6+
+Kg8 22. Ne5 Qd8 23. Nxc6 Qb6 24. Ne5 Qd8 25. Qxd8 Rxd8 26. Nxg6 Bxh3 27. Nf4 Bg4
+28. Ncxd5 Kg7 29. Kg2 Rb8 30. b3 Nb6 31. Nxb6 Rxb6 32. d5 Rb4 33. Kg3 Rxf4 34.
+Kxf4 Rxd5 35. Re5 Rd3 36. Re3 Rd5 37. f3 Be6 38. Re5 Rd2 39. Rae1 Rxa2 40. Rxe6
+fxe6 41. Rxe6 Rb2 42. Re7+ Kg6 43. Rxa7 Rxb3 44. Ra6+ Kg7 45. Rh6 Rb4+ 46. Kg3
+Ra4 47. f4 Ra3+ 48. Kh4 Rf3 49. Rf6 Rf1 50. Kxh5 Rg1 51. Ra6 Rh1+ 52. Kg4 Rb1
+53. Ra7+ Kg8 54. Kh5 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.27"]
+[Round "6.8"]
+[White "Filipovic, Branko"]
+[Black "Plenca, Jadranko"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2378"]
+[BlackElo "2482"]
+[ECO "D00"]
+[Opening "Queen's pawn, Mason variation"]
+[WhiteFideId "14507951"]
+[BlackFideId "14527146"]
+[EventDate "2018.06.23"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 g6 4. Nc3 a6 5. h4 Bg7 6. Be2 h5 7. Nf3 Bf5 8. Ne5 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.27"]
+[Round "6.9"]
+[White "Petran, Peter"]
+[Black "Fercec, Nenad"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2302"]
+[BlackElo "2436"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack"]
+[WhiteFideId "14900114"]
+[BlackFideId "14500299"]
+[EventDate "2018.06.23"]
+
+1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. c4 dxc4 5. Qa4+ Nc6 6. Qxc4 Nf6 7. O-O O-O 8.
+d3 h6 9. Nc3 e5 10. Qh4 Ne8 11. Qxd8 Nxd8 12. Be3 Ne6 13. Rfc1 c6 14. b4 Nd6 15.
+Rab1 Bd7 16. Na4 Nb5 17. Nc5 Nxc5 18. bxc5 Rab8 19. a4 Nc7 20. d4 Bf5 21. Rb2
+Nd5 22. Nxe5 Nxe3 23. fxe3 Bxe5 24. dxe5 Rfe8 25. Rc4 Rxe5 26. Rcb4 Rxc5 27.
+Rxb7 Rxb7 28. Rxb7 a5 29. Rc7 Rc4 30. Rxc6 Rxa4 31. Bd5 Be4 32. Bxe4 Rxe4 33.
+Ra6 Rxe3 34. Rxa5 Rxe2 35. Ra7 h5 36. h4 Kg7 37. Ra6 Rd2 38. Rb6 Kf8 39. Ra6 Ke7
+40. Rb6 Rd6 41. Rb2 Ke6 42. Kg2 Rd4 43. Rf2 f5 44. Re2+ Re4 45. Ra2 f4 46. Ra5
+fxg3 47. Kxg3 Re3+ 48. Kg2 Re5 49. Ra6+ Kf5 50. Kf3 Rd5 51. Rb6 Rd3+ 52. Kg2 Re3
+53. Ra6 Re6 54. Ra5+ Re5 55. Ra6 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.27"]
+[Round "6.10"]
+[White "Popovic, Milan S"]
+[Black "Schnider, Gert"]
+[Result "1-0"]
+[BlackTitle "IM"]
+[WhiteElo "2264"]
+[BlackElo "2422"]
+[ECO "D02"]
+[Opening "Queen's bishop game"]
+[WhiteFideId "940720"]
+[BlackFideId "1606310"]
+[EventDate "2018.06.23"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 c5 4. e3 Nc6 5. Nbd2 Bg4 6. c3 e6 7. Qb3 Qc8 8. h3
+Bh5 9. g4 Bg6 10. Nh4 Be7 11. Nxg6 hxg6 12. Bg2 Qd7 13. Nf3 O-O 14. Ne5 Nxe5 15.
+dxe5 Ne4 16. Qc2 Qc6 17. c4 Ng5 18. h4 Nh7 19. Rd1 Rfd8 20. Qd2 Qa4 21. cxd5
+exd5 22. Bxd5 c4 23. Qd4 Nf8 24. Qxc4 Qa5+ 25. Ke2 Rac8 26. Bxf7+ Kh8 27. Qb3
+Qa6+ 28. Kf3 Qc6+ 29. Bd5 Qc5 30. g5 Nh7 31. Kg2 Rf8 32. h5 b5 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.28"]
+[Round "7.1"]
+[White "Zelcic, Robert"]
+[Black "Haria, Ravi"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2499"]
+[BlackElo "2440"]
+[ECO "C19"]
+[Opening "French"]
+[Variation "Winawer, advance, poisoned pawn variation"]
+[WhiteFideId "14500310"]
+[BlackFideId "415820"]
+[EventDate "2018.06.23"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Ne7 5. a3 Bxc3+ 6. bxc3 c5 7. Qg4 Qc7 8. Qxg7
+Rg8 9. Qxh7 cxd4 10. Qd3 dxc3 11. Ne2 Nbc6 12. Qxc3 Bd7 13. Bb2 Nf5 14. O-O-O
+Qb6 15. Qf3 Rc8 16. g4 Nh4 17. Qg3 Nf5 18. Qf4 Nfe7 19. Nd4 Ng6 20. Qe3 Ngxe5
+21. h3 Nxd4 22. Rxd4 Qc5 23. Rd2 Qxe3 24. fxe3 f6 25. Bxe5 fxe5 26. Be2 Ke7 27.
+h4 e4 28. Kb2 Rcf8 29. Bd1 Rg7 30. g5 Be8 31. Rg2 Rfg8 32. Kb3 Kd6 33. c4 Ke5
+34. Bg4 Rh8 35. Be2 Rhg8 36. Rf2 Rh8 37. Rfh2 Bf7 38. Kb4 Be8 39. Rg1 Rhg8 40.
+Rc1 Rh8 41. Rg1 Rhg8 42. cxd5 exd5 43. Rc1 Bc6 44. a4 Rh8 45. Rg1 Rhg8 46. Bb5
+Bxb5 47. axb5 d4 48. exd4+ Kxd4 49. Rh3 a6 50. Rd1+ Ke5 51. Re1 Rh8 52. Rhh1
+axb5 53. Rc1 Rgh7 54. Rc5+ Kd4 55. Rd1+ Ke3 56. Re1+ Kd4 57. Rd1+ Ke3 58. Re1+
+Kd4 59. Rd1+ 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.28"]
+[Round "7.2"]
+[White "McPhillips, Joseph"]
+[Black "Fernandez, Daniel Howard"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2399"]
+[BlackElo "2485"]
+[ECO "C42"]
+[Opening "Petrov"]
+[Variation "Kaufmann attack"]
+[WhiteFideId "422487"]
+[BlackFideId "5801605"]
+[EventDate "2018.06.23"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. c4 Nc6 6. Nc3 Nxc3 7. dxc3 Be7 8.
+Bd3 Ne5 9. Nxe5 dxe5 10. Qc2 Be6 11. O-O c6 12. Re1 Qc7 13. Be3 g6 14. Bh6 Bf8
+15. Bxf8 Kxf8 16. Qe2 Rd8 17. Qe3 Kg7 18. Bf1 b6 19. c5 Rhe8 20. cxb6 axb6 21.
+Qxe5+ Qxe5 22. Rxe5 Rd2 23. b4 Rc2 24. a4 Rxc3 25. a5 Rb3 26. b5 bxa5 27. bxc6
+Rc3 28. Rexa5 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.28"]
+[Round "7.3"]
+[White "Ostovic, Matija"]
+[Black "Gumularz, Szymon"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2352"]
+[BlackElo "2452"]
+[ECO "E60"]
+[Opening "King's Indian, 3.Nf3"]
+[WhiteFideId "14515547"]
+[BlackFideId "1188062"]
+[EventDate "2018.06.23"]
+
+1. Nf3 Nf6 2. c4 g6 3. d4 Bg7 4. g3 O-O 5. Bg2 d6 6. O-O Nc6 7. d5 Na5 8. Nbd2
+c5 9. e4 a6 10. Rb1 b5 11. b3 Rb8 12. Qc2 Bd7 13. Bb2 e5 14. dxe6 Bxe6 15. cxb5
+axb5 16. Rbd1 Qb6 17. e5 Bf5 18. Qc1 dxe5 19. Nxe5 Rbd8 20. Ndf3 Be4 21. Qf4 Bb7 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.28"]
+[Round "7.4"]
+[White "Tratar, Marko"]
+[Black "Popovic, Milan S"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[WhiteElo "2449"]
+[BlackElo "2264"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "14600684"]
+[BlackFideId "940720"]
+[EventDate "2018.06.23"]
+
+1. c4 e5 2. g3 Nc6 3. Nc3 Bc5 4. Bg2 a6 5. e3 d6 6. Nge2 Ba7 7. b3 Nge7 8. Bb2
+h5 9. h4 Bf5 10. d3 Qd7 11. Qd2 Rb8 12. Nd5 Nd8 13. d4 f6 14. e4 Bg4 15. f3 Be6
+16. Ne3 O-O 17. d5 Bf7 18. Bh3 Qe8 19. Rc1 Bg6 20. Qd3 Qf7 21. g4 Bh7 22. Nf5
+hxg4 23. fxg4 Nxf5 24. gxf5 Qh5 25. Qg3 Kh8 26. Rc3 Qe8 27. Bc1 Nf7 28. Bg4 Nh6
+29. Bf3 Rg8 30. Rh2 c6 31. Rg2 Rc8 32. dxc6 bxc6 33. Qh3 d5 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.28"]
+[Round "7.5"]
+[White "Plenca, Jadranko"]
+[Black "Horton, Andrew P"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2482"]
+[BlackElo "2407"]
+[ECO "C77"]
+[Opening "Ruy Lopez"]
+[Variation "Morphy defence, Duras variation"]
+[WhiteFideId "14527146"]
+[BlackFideId "424269"]
+[EventDate "2018.06.23"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 d6 6. c4 g6 7. Nc3 Bg7 8. Nd5 h6
+9. Nb4 Bd7 10. Nxc6 Bxc6 11. Bxc6+ bxc6 12. b4 O-O 13. O-O Re8 14. Bd2 Nh7 15.
+Qc2 Qd7 16. Rab1 Nf8 17. a4 Rab8 18. Rb2 Ne6 19. Rfb1 Rb7 20. h3 Reb8 21. Bc3
+Qe8 22. Nd2 Ra8 23. Nb3 Rbb8 24. Na5 Qd7 25. b5 cxb5 26. axb5 axb5 27. cxb5 Kh7
+28. Nc4 Bf8 29. b6 Rb7 30. Ba5 Nd4 31. Qd1 c6 32. Bd2 Nb5 33. Qe1 Bg7 34. Be3
+Rbb8 35. Na5 Na3 36. Ra1 Nb5 37. Qb4 Ra6 38. Rc1 Na7 39. Nxc6 Nxc6 40. Qb5 Rbxb6
+41. Bxb6 Nb8 42. Rc7 Ra1+ 43. Kh2 Qe6 44. Be3 Na6 45. Ra7 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.28"]
+[Round "7.6"]
+[White "Mayr, Thomas"]
+[Black "Saric, Ante"]
+[Result "0-1"]
+[WhiteTitle "CM"]
+[BlackTitle "GM"]
+[WhiteElo "2218"]
+[BlackElo "2543"]
+[ECO "B20"]
+[Opening "Sicilian"]
+[Variation "Keres variation (2.Ne2)"]
+[WhiteFideId "1607677"]
+[BlackFideId "14506254"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Ne2 Nc6 3. c4 Nf6 4. Nbc3 e6 5. d4 cxd4 6. Nxd4 Bb4 7. Nxc6 bxc6 8.
+Bd3 e5 9. O-O d6 10. Na4 Be6 11. f4 exf4 12. Bxf4 Ng4 13. Be2 Ne5 14. a3 Ba5 15.
+c5 Bc7 16. Qc2 O-O 17. cxd6 Bxd6 18. Bg3 Qe7 19. Qc3 f6 20. Rac1 Rab8 21. b4 a5
+22. Nc5 axb4 23. axb4 Bf7 24. Rfd1 Rfd8 25. Rd4 h6 26. Rcd1 Kh7 27. h3 Bg6 28.
+Bg4 Bxc5 29. bxc5 Rxd4 30. Qxd4 Rb3 31. Bxe5 fxe5 32. Qc4 Rb5 33. Rd6 Qg5 34.
+Qd3 Rxc5 35. Rxg6 Rc1+ 36. Kf2 Qf4+ 37. Bf3 Kxg6 38. Ke2 Kh7 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.28"]
+[Round "7.7"]
+[White "Fercec, Nenad"]
+[Black "Uwira, Oliver"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2436"]
+[BlackElo "2224"]
+[ECO "B33"]
+[Opening "Sicilian"]
+[Variation "Pelikan, Chelyabinsk variation"]
+[WhiteFideId "14500299"]
+[BlackFideId "4646630"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3
+b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c4 b4 12. Nc2 a5 13. Qf3 Bg5 14. h4 Bh6 15. g4
+Bf4 16. Rd1 O-O 17. Nxf4 Qf6 18. g5 Qxf4 19. Qxf4 exf4 20. f3 a4 21. Rxd6 Ne5
+22. Be2 b3 23. axb3 axb3 24. Na3 Be6 25. Kd2 Nd7 26. Kc3 Nc5 27. Nb5 Rfb8 28.
+Rb1 g6 29. Rc6 Na4+ 30. Kb4 Nb6 31. Rd1 Ra4+ 32. Kxb3 Bxc4+ 33. Rxc4 Nxc4 34.
+Bxc4 Ra7 35. Rd6 Rab7 36. Kb4 Kg7 37. Rf6 h6 38. Rxf4 hxg5 39. hxg5 Re8 40. Bd5
+Rbe7 41. Rf6 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.28"]
+[Round "7.8"]
+[White "Karsay, Pascal"]
+[Black "Loncar, Robert"]
+[Result "1/2-1/2"]
+[BlackTitle "IM"]
+[WhiteElo "2227"]
+[BlackElo "2423"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack"]
+[WhiteFideId "12953474"]
+[BlackFideId "14501325"]
+[EventDate "2018.06.23"]
+
+1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nd7 5. O-O Ngf6 6. c4 dxc4 7. Nbd2 Nb6 8.
+Nxc4 Nxc4 9. Qa4+ c6 10. Qxc4 Be6 11. Qb4 Qb6 12. Qa3 Bd5 13. Re1 Be4 14. Bf1
+O-O 15. Ng5 Qxd4 16. Be3 Qd7 17. Rad1 Qc7 18. Bd4 Bf5 19. e4 Bg4 20. f3 Bc8 21.
+f4 Bg4 22. Be5 Qc8 23. Qxe7 Bxd1 24. Rxd1 h6 25. Nxf7 Rxf7 26. Bc4 Nd5 27. Qd6
+Qg4 28. Rxd5 Bf8 29. Qd7 Bc5+ 30. Kg2 Rxd7 31. Rxd7+ Kf8 32. Rh7 Qd1 33. Rh8+
+Ke7 34. Rh7+ Ke8 35. Bf7+ Kf8 36. Bxg6 Qe2+ 37. Kh3 Qc4 38. Rh8+ Ke7 39. Rh7+
+Kf8 40. Rh8+ Ke7 41. Rh7+ 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.28"]
+[Round "7.9"]
+[White "Franic, Milan"]
+[Black "Petran, Peter"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2379"]
+[BlackElo "2302"]
+[ECO "A42"]
+[Opening "Modern defence"]
+[Variation "Averbakh system"]
+[WhiteFideId "14500272"]
+[BlackFideId "14900114"]
+[EventDate "2018.06.23"]
+
+1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. e4 e5 5. d5 f5 6. exf5 gxf5 7. Qh5+ Kf8 8. g3
+Nf6 9. Qe2 c5 10. Nf3 Na6 11. Bh3 Bd7 12. O-O f4 13. Bxd7 Qxd7 14. Ng5 Nc7 15.
+gxf4 Re8 16. Qf3 e4 17. Ngxe4 Nxe4 18. Nxe4 b5 19. f5 Rg8 20. Kh1 Rxe4 21. Qxe4
+bxc4 22. Rg1 Qf7 23. Bf4 Qxd5 24. Qxd5 Nxd5 25. Bxd6+ Kf7 26. Rad1 Nb4 27. Bxc5
+Nd3 28. f6 Bxf6 29. Rxg8 Kxg8 30. Bxa7 Bxb2 31. a4 Kf7 32. Be3 Bc3 33. Kg2 Ke6
+34. Rb1 Bb4 35. Kf3 c3 36. Rd1 Nb2 37. Rd4 Bc5 38. Re4+ Kd5 39. Bxc5 Kxc5 40.
+Ke2 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.28"]
+[Round "7.10"]
+[White "Krsnik Cohar, Ivan Vihor"]
+[Black "Filipovic, Branko"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2309"]
+[BlackElo "2378"]
+[ECO "D31"]
+[Opening "QGD"]
+[Variation "Janowski variation"]
+[WhiteFideId "14520044"]
+[BlackFideId "14507951"]
+[EventDate "2018.06.23"]
+
+1. c4 a6 2. Nc3 e6 3. d4 d5 4. g3 Nf6 5. Bg2 c6 6. e4 dxe4 7. Nge2 Nbd7 8. O-O
+Be7 9. Nxe4 Nxe4 10. Bxe4 Nf6 11. Bg2 O-O 12. b3 Qa5 13. Bb2 Rd8 14. Qc2 Ba3 15.
+Rad1 Bxb2 16. Qxb2 Bd7 17. Nf4 Qc7 18. Rfe1 Re8 19. Nd3 Rad8 20. Ne5 Bc8 21. c5
+Re7 22. b4 Nd5 23. Nc4 Qb8 24. a4 Nc7 25. f4 Ne8 26. b5 axb5 27. axb5 cxb5 28.
+Qxb5 Qc7 29. Qb6 Red7 30. d5 exd5 31. Rxd5 Qxb6 32. Nxb6 Rxd5 33. Bxd5 Nc7 34.
+Nxc8 Nxd5 35. Nd6 b6 36. Re5 Nf6 37. cxb6 Rxd6 38. b7 Rb6 39. Rc5 g5 40. Rc8+
+Kg7 41. b8=Q Rxb8 42. Rxb8 gxf4 43. gxf4 Nd5 44. f5 Ne7 45. Rb5 Kf6 46. Rb6+ Kg5
+47. f6 Ng8 48. Kg2 Nxf6 49. h4+ Kf5 50. Kf3 Ng4 51. Kg3 h6 52. Rb7 f6 53. Rg7 h5
+54. Rh7 Kg6 55. Rh8 Nh6 56. Ra8 Nf5+ 57. Kh3 Nh6 58. Ra4 Ng4 59. Kg3 Kf5 60.
+Ra5+ Ne5 61. Ra8 Nf7 62. Ra7 Kg6 63. Kf4 Ne5 64. Ra3 Ng4 65. Rg3 Kf7 66. Kf5
+Nh6+ 67. Ke4 Ng8 68. Ra3 Nh6 69. Ra5 Kg6 70. Rb5 Ng4 71. Kf4 Ne5 72. Ke4 Ng4 73.
+Rb8 Nh6 74. Rb2 Ng4 75. Rg2 Kf7 76. Rg3 Nh6 77. Rb3 Kg6 78. Rb5 Ng4 79. Kd5 Ne3+
+80. Ke6 Ng2 81. Rb4 Kg7 82. Ra4 Kg6 83. Re4 f5 84. Ra4 f4 85. Ke5 f3 86. Ra6+
+Kg7 87. Ra2 Nxh4 88. Kf4 Ng6+ 89. Kg5 Ne5 90. Ra7+ Kg8 91. Kxh5 f2 92. Ra1 Kf7
+93. Rf1 Nd3 94. Kg4 Ke6 95. Kf3 Kd5 96. Ke3 Ne5 97. Kxf2 Ke4 98. Rh1 Kf4 99.
+Rh4+ Ng4+ 100. Kg2 Kg5 101. Kg3 Nh6 102. Ra4 Nf5+ 103. Kf3 Nh4+ 104. Ke4 Kg4
+105. Ra8 Kg5 106. Rh8 Ng6 107. Rh1 Kf6 108. Rh5 Ne7 109. Rh6+ Ng6 110. Rh2 Ne7
+111. Rf2+ Ke6 112. Ra2 Kd6 113. Rd2+ Ke6 114. Rd8 Nc6 115. Rh8 Kd6 116. Rh5 Ne7
+117. Rh6+ Kd7 118. Ra6 Nc6 119. Rb6 Kd6 120. Rb1 Ke6 121. Rd1 Ne7 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.29"]
+[Round "8.1"]
+[White "Haria, Ravi"]
+[Black "Tratar, Marko"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2440"]
+[BlackElo "2449"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "415820"]
+[BlackFideId "14600684"]
+[EventDate "2018.06.23"]
+
+1. Nf3 b6 2. g3 Bb7 3. Bg2 g6 4. O-O Bg7 5. c4 c5 6. Nc3 Nc6 7. b3 e6 8. Bb2
+Nge7 9. Qc1 O-O 10. Nb5 d5 11. Bxg7 Kxg7 12. Qb2+ Kg8 13. cxd5 Nxd5 14. Rfd1 a6
+15. Na3 Qe7 16. Nc4 b5 17. Nce5 Nxe5 18. Nxe5 f6 19. Nc4 Nb4 20. Bxb7 Qxb7 21.
+Ne3 e5 22. Rac1 Rac8 23. a3 Nd5 24. Nxd5 Qxd5 25. d3 Rc6 26. Rc3 Rfc8 27. Rdc1
+Kg7 28. R1c2 R6c7 29. Qc1 Rc6 30. Qf1 R8c7 31. Qg2 Qxg2+ 32. Kxg2 Kf7 33. Kf3
+Ke6 34. Ke3 h5 35. h4 Kf5 36. b4 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.29"]
+[Round "8.2"]
+[White "Saric, Ante"]
+[Black "Franic, Milan"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2543"]
+[BlackElo "2379"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "14506254"]
+[BlackFideId "14500272"]
+[EventDate "2018.06.23"]
+
+1. Nf3 b6 2. g3 Bb7 3. Bg2 g6 4. d4 Bg7 5. c4 f5 6. Nc3 Nf6 7. d5 O-O 8. O-O c6
+9. Nd4 c5 10. Nc2 d6 11. e4 fxe4 12. Re1 Nbd7 13. Nxe4 Nxe4 14. Rxe4 Nf6 15. Re2
+Bc8 16. b3 Bg4 17. f3 Bd7 18. a4 a6 19. Bb2 Rf7 20. Na3 Qf8 21. Qd2 Rb8 22. Rae1
+Rb7 23. f4 Ne8 24. Re4 Bxb2 25. Qxb2 Ng7 26. Qc3 Nf5 27. Bh3 Bc8 28. Nc2 Qh6 29.
+Bf1 Qg7 30. Qd3 h5 31. Bg2 Bd7 32. Re6 Rb8 33. R6e2 b5 34. axb5 axb5 35. Be4
+bxc4 36. bxc4 Kh7 37. Rf2 Qf6 38. Qf3 Kg7 39. Bxf5 Bxf5 40. Ne3 Bc8 41. Qd1 Qc3
+42. Qa1 Qxa1 43. Rxa1 Rb3 44. Re2 Bh3 45. Ree1 Kf6 46. Rab1 Rc3 47. Rbc1 Rxc1
+48. Rxc1 Rf8 49. Ra1 Rb8 50. Ra2 Rb3 51. Kf2 Rc3 52. Ke2 Bf5 53. Kd2 Rd3+ 54.
+Ke2 Rd4 55. Rd2 Rxd2+ 56. Kxd2 Be4 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.29"]
+[Round "8.3"]
+[White "McPhillips, Joseph"]
+[Black "Zelcic, Robert"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2399"]
+[BlackElo "2499"]
+[ECO "B11"]
+[Opening "Caro-Kann"]
+[Variation "two knights, 3...Bg4"]
+[WhiteFideId "422487"]
+[BlackFideId "14500310"]
+[EventDate "2018.06.23"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 Bg4 4. h3 Bxf3 5. Qxf3 e6 6. a3 Nd7 7. g3 Ngf6 8. Bg2
+Bc5 9. d3 Bd4 10. Nd1 O-O 11. O-O b5 12. Qe2 Qc7 13. Bf4 e5 14. Bg5 dxe4 15.
+dxe4 h6 16. Bd2 Rfe8 17. a4 a6 18. c3 Bb6 19. b4 bxa4 20. Nb2 a5 21. Nxa4 Ba7
+22. bxa5 Qxa5 23. Nb2 Qc7 24. Nc4 Bc5 25. Be3 Reb8 26. Kh2 Kh7 27. Qf3 Bxe3 28.
+Qxe3 Rxa1 29. Rxa1 Nb6 30. Bf1 Ne8 31. Kg2 Nxc4 32. Bxc4 Nd6 33. Ra7 Qb6 34.
+Qxb6 Rxb6 35. Bxf7 Nxe4 36. h4 h5 37. Be6 Kg6 38. Bf7+ Kh6 39. Re7 Rb2 40. Re6+
+g6 41. Kf3 Nxf2 42. Kg2 Ne4+ 43. Kf3 Nd2+ 44. Kg2 Ne4+ 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.29"]
+[Round "8.4"]
+[White "Fernandez, Daniel Howard"]
+[Black "Beletic, Daniel"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2485"]
+[BlackElo "2370"]
+[ECO "A02"]
+[Opening "Bird's opening"]
+[WhiteFideId "5801605"]
+[BlackFideId "14602709"]
+[EventDate "2018.06.23"]
+
+1. f4 b6 2. a4 a6 3. b3 Bb7 4. Bb2 Nf6 5. Nf3 c5 6. e3 e6 7. Be2 d6 8. O-O Nbd7
+9. c4 Qc7 10. Nc3 h6 11. d4 g5 12. d5 Rg8 13. a5 bxa5 14. f5 e5 15. Nd2 g4 16.
+Nde4 h5 17. Ra3 Bh6 18. Qd3 Rb8 19. Rfa1 Bc8 20. Nxf6+ Nxf6 21. Bd1 Qe7 22. e4
+h4 23. Rxa5 Nh5 24. g3 hxg3 25. hxg3 Qg5 26. R5a2 Qe3+ 27. Qxe3 Bxe3+ 28. Kg2
+Nf6 29. Bc2 Rh8 30. Rh1 Rxh1 31. Kxh1 Bd4 32. Nd1 Kf8 33. Bc1 Kg7 34. Kg2 Bb7
+35. Nf2 Rh8 36. Bd3 Bxf2 37. Rxf2 Rh3 38. Re2 Nh5 39. Re3 Nf6 40. Bd2 Rh8 41.
+Ba5 Rc8 42. Re1 Rh8 43. Bc2 Kf8 44. Bd8 Rh6 45. Bd1 Kg7 46. Bc7 Ne8 47. Bb8 Kf6
+48. Bxg4 Ke7 49. Bf3 Kd7 50. Rb1 a5 51. Ra1 Kc8 52. Ba7 Kc7 53. Rxa5 Nf6 54. b4
+cxb4 55. c5 dxc5 56. Rxc5+ Kd7 57. Bb8 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.29"]
+[Round "8.5"]
+[White "Plenca, Jadranko"]
+[Black "Ostovic, Matija"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2482"]
+[BlackElo "2352"]
+[ECO "A38"]
+[Opening "English"]
+[Variation "symmetrical, main line with d3"]
+[WhiteFideId "14527146"]
+[BlackFideId "14515547"]
+[EventDate "2018.06.23"]
+
+1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. g3 g6 5. Bg2 Bg7 6. O-O O-O 7. d3 d6 8. Bd2 a6
+9. a3 Bd7 10. Re1 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.29"]
+[Round "8.6"]
+[White "Gumularz, Szymon"]
+[Black "Christensen, Jan"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2452"]
+[BlackElo "2181"]
+[ECO "C53"]
+[Opening "Giuoco Piano"]
+[WhiteFideId "1188062"]
+[BlackFideId "1400916"]
+[EventDate "2018.06.23"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. Nbd2 a6 7. Bb3 Ba7 8. O-O
+h6 9. Re1 g5 10. Nf1 g4 11. N3d2 h5 12. Nc4 h4 13. Be3 h3 14. g3 d5 15. exd5
+Qxd5 16. f3 gxf3 17. Qd2 Ng4 18. Nxe5 f2+ 19. Qxf2 Nxf2 20. Bxd5 Nxe5 21. Bxf2 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.29"]
+[Round "8.7"]
+[White "Popovic, Milan S"]
+[Black "Fercec, Nenad"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2264"]
+[BlackElo "2436"]
+[ECO "C27"]
+[Opening "Vienna game"]
+[WhiteFideId "940720"]
+[BlackFideId "14500299"]
+[EventDate "2018.06.23"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Be7 6. Qxe5 O-O 7. d4 c6 8.
+Nge2 Ne8 9. O-O d5 10. Bf4 Nd7 11. Qe3 Nd6 12. Qd2 Nb6 13. Rad1 Nbc4 14. Bxc4
+Nxc4 15. Qc1 Bf5 16. Ng3 Bg6 17. Be3 h5 18. b3 Nd6 19. Nge2 h4 20. f3 Re8 21.
+Qd2 Nf5 22. Nb1 Bh7 23. c3 g5 24. Rfe1 f6 25. Bf2 Bd6 26. g4 Ng7 27. c4 Bc7 28.
+Kg2 Qd6 29. Bg1 Re7 30. Nbc3 a6 31. c5 Qd7 32. Nc1 Ne6 33. b4 Rae8 34. a4 Bf4
+35. Be3 Bxe3 36. Qxe3 Nf4+ 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.29"]
+[Round "8.8"]
+[White "Horton, Andrew P"]
+[Black "Guid, Matej"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "FM"]
+[WhiteElo "2407"]
+[BlackElo "2358"]
+[ECO "A14"]
+[Opening "English"]
+[Variation "Neo-Catalan declined"]
+[WhiteFideId "424269"]
+[BlackFideId "14601966"]
+[EventDate "2018.06.23"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. O-O O-O 6. b3 d4 7. Bb2 c5 8. e3 Nc6
+9. exd4 cxd4 10. Re1 Re8 11. d3 Bc5 12. a3 a5 13. Ne5 Nxe5 14. Rxe5 Nd7 15. Re1
+e5 16. Nd2 Ra6 17. Rb1 Rb6 18. Bc1 Nf6 19. Ne4 Nxe4 20. Bxe4 Qd6 21. Bd2 Ra6 22.
+b4 axb4 23. axb4 Ba7 24. f4 Qf6 25. fxe5 Rxe5 26. Ra1 g6 27. Bf4 Ree6 28. Rxa6
+bxa6 29. Bd5 Re3 30. Bxe3 dxe3 31. Qf3 Bf5 32. c5 Qd4 33. Bc4 e2+ 34. Kg2 Qd7
+35. Qd5 Qe7 36. Qf3 a5 37. Rxe2 Qf6 38. g4 Qg5 39. h4 Qxh4 40. gxf5 axb4 41.
+fxg6 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.29"]
+[Round "8.9"]
+[White "Loncar, Robert"]
+[Black "Babic, Zvonko"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2423"]
+[BlackElo "2208"]
+[ECO "D30"]
+[Opening "Queen's gambit declined"]
+[WhiteFideId "14501325"]
+[BlackFideId "14509105"]
+[EventDate "2018.06.23"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. Nbd2 Nf6 5. Qc2 Nbd7 6. g3 Bd6 7. Bg2 O-O 8. O-O
+Re8 9. Rd1 Qe7 10. Nh4 Nf8 11. e4 dxe4 12. Nxe4 Nxe4 13. Qxe4 Bd7 14. Nf3 Rad8
+15. Be3 Bc8 16. a3 Nd7 17. h3 a6 18. Re1 Qf8 19. Bf4 Nf6 20. Qe3 Nd7 21. Rad1
+Bxf4 22. Qxf4 Nb6 23. Bf1 Na4 24. Qc1 Nb6 25. Qe3 Nd7 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.29"]
+[Round "8.10"]
+[White "Zufic, Miroslav"]
+[Black "Karsay, Pascal"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2384"]
+[BlackElo "2227"]
+[ECO "A46"]
+[Opening "Queen's pawn"]
+[Variation "Yusupov-Rubinstein system"]
+[WhiteFideId "14506157"]
+[BlackFideId "12953474"]
+[EventDate "2018.06.23"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 b6 4. Bd3 Bb7 5. O-O Be7 6. c4 O-O 7. Nc3 d5 8. cxd5
+exd5 9. b3 Nbd7 10. Bb2 c5 11. Ne5 cxd4 12. exd4 Ne4 13. Ne2 Rc8 14. f3 Nd6 15.
+Qb1 g6 16. g4 f6 17. Bxg6 hxg6 18. Qxg6+ Kh8 19. Nf4 Qe8 20. Qh6+ Kg8 21. Neg6
+Nf7 22. Nxe7+ Qxe7 23. Qg6+ Kh8 24. Rae1 Qd6 25. Ne6 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.30"]
+[Round "9.1"]
+[White "Haria, Ravi"]
+[Black "Fernandez, Daniel Howard"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2440"]
+[BlackElo "2485"]
+[ECO "A41"]
+[Opening "Old Indian"]
+[Variation "Tartakower (Wade) variation"]
+[WhiteFideId "415820"]
+[BlackFideId "5801605"]
+[EventDate "2018.06.23"]
+
+1. Nf3 d6 2. d4 Bg4 3. e4 Nd7 4. h3 Bxf3 5. Qxf3 g6 6. Bd3 Bg7 7. c3 c5 8. d5 a6
+9. a4 Ne5 10. Qe2 Nxd3+ 11. Qxd3 Nf6 12. O-O O-O 13. Be3 b5 14. axb5 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.30"]
+[Round "9.2"]
+[White "Fercec, Nenad"]
+[Black "Gumularz, Szymon"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2436"]
+[BlackElo "2452"]
+[ECO "B60"]
+[Opening "Sicilian"]
+[Variation "Richter-Rauzer, Larsen variation"]
+[WhiteFideId "14500299"]
+[BlackFideId "1188062"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 Bd7 7. Be2 a6 8.
+Bxf6 gxf6 9. Nf5 Qa5 10. O-O O-O-O 11. a3 Qe5 12. Bd3 e6 13. Ne3 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.30"]
+[Round "9.3"]
+[White "Ostovic, Matija"]
+[Black "Saric, Ante"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2352"]
+[BlackElo "2543"]
+[ECO "E10"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "14515547"]
+[BlackFideId "14506254"]
+[EventDate "2018.06.23"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. e3 Be7 5. b3 O-O 6. Bd3 c5 7. O-O cxd4 8. exd4
+Nc6 9. Bb2 b6 10. Nc3 Bb7 11. Re1 Nb4 12. Be2 Rc8 13. Ne5 dxc4 14. bxc4 Ne4 15.
+Nxe4 Bxe4 16. Bg4 Bc2 17. Qf3 f5 18. Bh5 Ba4 19. d5 exd5 20. Bf7+ Rxf7 21. Nxf7
+Qf8 22. Qxf5 Re8 23. Nh6+ gxh6 24. Qg4+ Bg5 25. h4 Nd3 26. Rxe8 Bxe8 27. Bd4 Qf4
+28. Qe2 Qxd4 29. Qxe8+ Kg7 30. Qd7+ Kf8 31. Qc8+ Ke7 32. Qc7+ Ke8 33. Qc6+ Kf7
+34. Rf1 Bxh4 35. g3 Bf6 36. cxd5 Qe4 37. Qc2 Bd4 38. Rd1 Bxf2+ 39. Kf1 Be3 40.
+Qc7+ Kg6 41. Qd6+ Kh5 42. g4+ Kh4 43. Qh2+ Kxg4 44. Qg2+ Qxg2+ 45. Kxg2 Nf4+ 46.
+Kf1 Bc5 47. d6 Ne6 48. d7 Be7 49. Rd5 Kf4 50. a4 Ke4 51. Rd2 Ke5 52. a5 bxa5 53.
+Ra2 Bd8 54. Rh2 a4 55. Ke2 a3 56. Kd3 Kd6 57. Kc4 Kxd7 58. Kb3 Bg5 59. Kxa3 Ke7
+60. Kb3 Kf6 61. Rf2+ Kg6 62. Ra2 Be3 63. Kc4 Bb6 64. Rg2+ Kf5 65. Rh2 Kg6 66.
+Rg2+ Ng5 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.30"]
+[Round "9.4"]
+[White "Zelcic, Robert"]
+[Black "Filipovic, Branko"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2499"]
+[BlackElo "2378"]
+[ECO "C10"]
+[Opening "French"]
+[Variation "Paulsen variation"]
+[WhiteFideId "14500310"]
+[BlackFideId "14507951"]
+[EventDate "2018.06.23"]
+
+1. e4 e6 2. d4 d5 3. Nc3 a6 4. Bd3 c5 5. dxc5 Nf6 6. exd5 Nxd5 7. Nxd5 Qxd5 8.
+Nf3 Bxc5 9. O-O O-O 10. Qe2 Nc6 11. Rd1 Qh5 12. Be4 Re8 13. Be3 Ne5 14. Bxc5
+Nxf3+ 15. Qxf3 Qxc5 16. c3 Qc7 17. Rd2 Rb8 18. Rad1 e5 19. Bd5 Qe7 20. h3 g6 21.
+c4 Kg7 22. Qc3 f6 23. b4 Rd8 24. Re1 g5 25. Red1 Bd7 26. Qc2 Be8 27. c5 Bg6 28.
+Be4 Rxd2 29. Rxd2 Bxe4 30. Qxe4 Rc8 31. Rd6 Rc7 32. Qf5 Qf7 33. a3 Re7 34. a4 e4
+35. b5 axb5 36. axb5 Re5 37. Qc8 Qc4 38. Qd7+ Kg6 39. c6 e3 40. fxe3 Rxe3 41.
+Rd1 bxc6 42. bxc6 Qe4 43. Qd4 Re1+ 44. Kh2 Qxd4 45. Rxd4 Rc1 46. Rd6 Kf5 47. h4
+gxh4 48. Rd5+ Ke6 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.30"]
+[Round "9.5"]
+[White "Zufic, Miroslav"]
+[Black "Plenca, Jadranko"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2384"]
+[BlackElo "2482"]
+[ECO "C64"]
+[Opening "Ruy Lopez"]
+[Variation "classical defence, 4.c3"]
+[WhiteFideId "14506157"]
+[BlackFideId "14527146"]
+[EventDate "2018.06.23"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. c3 Nf6 5. d3 d6 6. Nbd2 Bd7 7. O-O O-O 8. b4
+Bb6 9. Nc4 Ne7 10. Bxd7 Qxd7 11. a4 c6 12. Nxb6 axb6 13. Be3 Qc7 14. Nd2 Ng6 15.
+g3 d5 16. Qf3 Rfd8 17. c4 d4 18. Bg5 Rd6 19. Nb3 c5 20. Bd2 cxb4 21. Bxb4 Rc6
+22. Ra2 h5 23. a5 bxa5 24. Rxa5 Rxa5 25. Bxa5 Qc8 26. Bd2 Qh3 27. Qg2 Qd7 28.
+Rb1 b6 29. Ra1 b5 30. Na5 Ra6 31. Rb1 bxc4 32. Nxc4 Ra2 33. h3 h4 34. g4 Qa7 35.
+Qf3 Nd7 36. Qf5 Ra1 37. Rxa1 Qxa1+ 38. Kg2 Qa7 39. g5 Qc7 40. Ba5 Qc6 41. Bd2
+Qc7 42. Ba5 Qa7 43. Bd2 Nc5 44. Nxe5 Nxe5 45. Qxe5 Nxd3 46. Qd5 Qb6 47. Qa8+ Kh7
+48. Qd5 Qa7 49. Qf5+ g6 50. Qf6 Qa2 51. Kf3 Ne5+ 52. Qxe5 Qxd2 53. Qf4 Qc3+ 54.
+Kg2 Kg7 55. Qe5+ Kh7 56. Qd5 Kg8 57. Qd8+ Kg7 58. Qf6+ Kg8 59. Qd8+ Kg7 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.30"]
+[Round "9.6"]
+[White "Tratar, Marko"]
+[Black "McPhillips, Joseph"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2449"]
+[BlackElo "2399"]
+[ECO "A14"]
+[Opening "English"]
+[Variation "Neo-Catalan declined"]
+[WhiteFideId "14600684"]
+[BlackFideId "422487"]
+[EventDate "2018.06.23"]
+
+1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. Nf3 Be7 5. O-O O-O 6. b3 d4 7. e3 c5 8. exd4
+cxd4 9. Bb2 Nc6 10. Re1 Re8 11. d3 Bb4 12. Nbd2 e5 13. a3 Bc3 14. Qc2 Bf5 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.30"]
+[Round "9.7"]
+[White "Franic, Milan"]
+[Black "Loncar, Robert"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2379"]
+[BlackElo "2423"]
+[ECO "D50"]
+[Opening "QGD"]
+[Variation "4.Bg5"]
+[WhiteFideId "14500272"]
+[BlackFideId "14501325"]
+[EventDate "2018.06.23"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 dxc4 5. e4 c5 6. d5 Be7 7. Bxf6 Bxf6 8. Bxc4
+exd5 9. Bxd5 O-O 10. Nf3 Nc6 11. O-O Bg4 12. h3 Bh5 13. Re1 Qa5 14. g4 Bg6 15.
+e5 Be7 16. Bxc6 bxc6 17. Qd7 Bd8 18. Rac1 Rb8 19. b3 Qa6 20. e6 Rb7 21. Qd6 Bc7
+22. Qd1 fxe6 23. Na4 Bb6 24. Rxe6 Rbf7 25. Rc3 c4 26. Nxb6 axb6 27. bxc4 Qxa2
+28. Kg2 Rf4 29. Qe1 Rxc4 30. Rxc6 Rxc6 31. Rxc6 Rxf3 32. Rc8+ Rf8 33. Rxf8+ Kxf8
+34. Qb4+ Kg8 35. Qxb6 Qd5+ 36. f3 Be8 37. Qb8 Qd2+ 38. Kg3 Qe3 39. Kg2 h6 40. h4
+Qe7 41. h5 Qf8 42. Qb3+ Bf7 43. Qd3 Qa8 44. Kg3 Qd5 45. Qc3 Qd6+ 46. Kg2 Bd5 47.
+Qc8+ Qf8 48. Qc3 Qe8 49. Kf2 Qc6 50. Qe3 Qf6 51. Kg3 Kf7 52. Kg2 Qd6 53. Qd3 Qe5
+54. Kf2 Ke7 55. Kg2 Bc6 56. Qa3+ Ke6 57. Qd3 Bb5 58. Qb3+ Kf6 59. Qa3 Qe2+ 60.
+Kh3 Qf1+ 61. Kh2 Qf2+ 62. Kh1 Kg5 63. Qe7+ Kf4 64. Qc7+ Kxf3 65. Qc3+ Qe3 0-1
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.30"]
+[Round "9.8"]
+[White "Krsnik Cohar, Ivan Vihor"]
+[Black "Horton, Andrew P"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "FM"]
+[WhiteElo "2309"]
+[BlackElo "2407"]
+[ECO "A36"]
+[Opening "English"]
+[Variation "ultra-symmetrical variation"]
+[WhiteFideId "14520044"]
+[BlackFideId "424269"]
+[EventDate "2018.06.23"]
+
+1. c4 c5 2. g3 g6 3. Bg2 Bg7 4. Nc3 Nc6 5. e3 e6 6. Nge2 Nge7 7. d4 cxd4 8. exd4
+d5 9. cxd5 Nxd5 10. Nxd5 exd5 11. O-O O-O 1/2-1/2
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.30"]
+[Round "9.9"]
+[White "Schnider, Gert"]
+[Black "Mihalinec, Damir"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2422"]
+[BlackElo "2203"]
+[ECO "B76"]
+[Opening "Sicilian"]
+[Variation "dragon, Yugoslav attack, 7...O-O"]
+[WhiteFideId "1606310"]
+[BlackFideId "14504260"]
+[EventDate "2018.06.23"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2
+Nc6 9. g4 Bxg4 10. fxg4 Nxg4 11. Nb3 a5 12. a4 Nb4 13. O-O-O Rc8 14. Kb1 Nxe3
+15. Qxe3 e6 16. h4 Qc7 17. Nd4 d5 18. exd5 Bxd4 19. Qxd4 Nxd5 20. Nxd5 Qxc2+ 21.
+Ka1 exd5 22. h5 Qe4 23. Rh4 Qxd4 24. Rhxd4 Rfd8 25. Bg2 Rc2 26. Bxd5 Rb8 27. Rf1
+Rc7 28. Rdf4 Rf8 29. h6 Rd7 30. Bc4 Re7 31. Ka2 Rd7 32. Kb3 Rc7 33. R1f3 Rd7 34.
+Rf6 Rc7 35. Kc3 Rfc8 36. b3 Rd7 37. Re3 Kf8 38. Re5 Ra8 39. Rb5 Rc7 40. Kd4 Ke8
+41. Bd5 Ra7 42. Rc5 Re7 43. Rc8+ Kd7 44. Rf8 1-0
+
+[Event "32nd Pula Open 2018"]
+[Site "Pula CRO"]
+[Date "2018.06.30"]
+[Round "9.10"]
+[White "Beletic, Daniel"]
+[Black "Zherebtsova, Alexandra"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "WFM"]
+[WhiteElo "2370"]
+[BlackElo "2195"]
+[ECO "A43"]
+[Opening "Old Benoni defence"]
+[WhiteFideId "14602709"]
+[BlackFideId "24129518"]
+[EventDate "2018.06.23"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 b5 4. Bg5 Qb6 5. Bxf6 Qxf6 6. c3 g6 7. e4 Qb6 8. a4
+bxa4 9. Na3 d6 10. Qxa4+ Bd7 11. Bb5 Bg7 12. Bxd7+ Nxd7 13. Nc4 Qd8 14. Qa5 Qb8
+15. Qa4 Qd8 16. Na5 O-O 17. Nc6 Qe8 18. O-O a6 19. Nd2 Nb8 20. Na5 Qb5 21. Ndc4
+f5 22. Qc2 Nd7 23. f4 Nb6 24. Nxb6 Qxb6 25. Rfe1 fxe4 26. Rxe4 c4+ 27. Kh1 Qb5
+28. Nxc4 Rac8 29. Ne3 e5 30. dxe6 d5 31. Rea4 d4 32. Ra5 Qe8 33. Nd5 Qxe6 34. c4
+Rfe8 35. h3 Qe2 36. Qxe2 Rxe2 37. Rxa6 d3 38. Rd1 Rxc4 39. Ra8+ Kf7 40. Ra7+ Kf8
+41. Rxd3 Rxb2 42. Nb6 Rd4 43. Nd7+ Ke8 44. Re3+ Kd8 45. Nc5 Rd1+ 46. Kh2 Bh6 47.
+Ne6+ Kc8 48. Rxh7 Rdd2 49. Rg3 1-0
+

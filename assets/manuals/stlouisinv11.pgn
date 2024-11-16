@@ -1,0 +1,1145 @@
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.04"]
+[Round "1"]
+[White "Benjamin, Joel"]
+[Black "Kraai, Jesse"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2564"]
+[BlackElo "2509"]
+[ECO "E20"]
+[Opening "Nimzo-Indian"]
+[Variation "Kmoch variation"]
+[WhiteFideId "2000091"]
+[BlackFideId "2002035"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 O-O 5. a3 Bxc3+ 6. bxc3 Nc6 7. e4 e5 8. Ne2
+d6 9. Ng3 Nd7 10. Be3 Na5 11. Bd3 c5 12. d5 Nb6 13. Qe2 Na4 14. Qc2 Nb6 15. Qa2
+Na4 16. O-O Bd7 17. Nf5 Qc7 18. Rac1 b5 19. cxb5 c4 20. Be2 Rab8 21. Qc2 Bxb5
+22. f4 Bd7 23. fxe5 Rb2 24. Qd1 dxe5 25. d6 Qb7 26. Ne7+ Kh8 27. Bf3 Nb3 28. Rc2
+Be6 29. h3 Rd8 30. Bg4 Qxe4 31. Rxb2 Nxb2 32. Qe1 Bxg4 33. hxg4 f6 34. g5 Nd1
+35. gxf6 Qxe3+ 36. Qxe3 Nxe3 37. Nc6 Nxf1 38. Nxd8 Nc5 39. f7 Nd7 40. Ne6 Ng3
+41. Nc5 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.04"]
+[Round "1"]
+[White "Brooks, Michael A"]
+[Black "Becerra Rivero, Julio"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2451"]
+[BlackElo "2549"]
+[ECO "B93"]
+[Opening "Sicilian"]
+[Variation "Najdorf, 6.f4"]
+[WhiteFideId "2000334"]
+[BlackFideId "3501728"]
+[EventDate "2011.03.04"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f4 e6 7. Be2 Nc6 8. Be3
+Be7 9. O-O O-O 10. Kh1 Bd7 11. Qe1 Rc8 12. Rd1 Na5 13. e5 Ne8 14. f5 Bh4 15. g3
+Bg5 16. Bxg5 Qxg5 17. fxe6 fxe6 18. Rxf8+ Kxf8 19. Qf2+ Kg8 20. Rf1 Qe7 21. Bg4
+h5 22. Nd5 exd5 23. Bxd7 Rc7 24. Be6+ Kh7 25. Qe2 Qg5 26. Bf5+ Kg8 27. Ne6 Qh6
+28. Nxc7 Nxc7 29. e6 Nc6 30. e7 Ne5 31. Bd7 h4 32. gxh4 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.04"]
+[Round "1"]
+[White "Ramirez, Alejandro"]
+[Black "Robson, Ray"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2594"]
+[BlackElo "2522"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "6500617"]
+[BlackFideId "2023970"]
+[EventDate "2011.03.04"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 dxc4 5. Bg2 Bb4+ 6. Bd2 c5 7. Qc1 O-O 8. Bxb4
+cxb4 9. Qxc4 a5 10. O-O b6 11. Rc1 Ba6 12. Qc2 Nbd7 13. Qd1 Qe7 14. Nbd2 Rac8
+15. e3 e5 16. Rxc8 Rxc8 17. Rc1 Rxc1 18. Qxc1 exd4 19. Nxd4 Ne5 20. Ne4 Nxe4 21.
+Bxe4 g6 22. Qc2 Kg7 23. h4 h5 24. Kg2 Bb7 25. Bxb7 Qxb7+ 26. e4 Qd7 27. Nf3 Nxf3
+28. Kxf3 Qd4 29. Kg2 b5 30. b3 Qc3 31. Qd1 Qe5 32. Kf3 Qb2 33. Kg2 Qxa2 34. Qd4+
+Kg8 35. Qd8+ Kh7 36. Qd5 Kg7 37. Qd4+ Kg8 38. Qd8+ Kh7 39. Qd5 Kg7 40. Qd4+ 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.04"]
+[Round "1"]
+[White "Yang, Darwin"]
+[Black "Perelshteyn, Eugene"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2416"]
+[BlackElo "2533"]
+[ECO "E44"]
+[Opening "Nimzo-Indian"]
+[Variation "Fischer variation, 5.Ne2"]
+[WhiteFideId "2029111"]
+[BlackFideId "2012529"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Ne2 Bb7 6. a3 Bd6 7. Qc2 O-O 8. Ng3 c5
+9. d5 Be5 10. e4 Re8 11. Be2 exd5 12. cxd5 a6 13. O-O d6 14. Kh1 Bc8 15. Be3 Ra7
+16. f3 Rae7 17. Qd2 b5 18. Bd3 Qb6 19. Rfe1 Qb7 20. Rab1 g6 21. Bg5 Nbd7 22.
+Nce2 h6 23. Bxh6 Nh7 24. Be3 Bg7 25. Bf4 Ne5 26. Bc2 Nc4 27. Qc1 Ne5 28. h4 Qb6
+29. h5 Qd8 30. Kg1 Rc7 31. Bxe5 Rxe5 32. f4 Re8 33. hxg6 fxg6 34. e5 Nf8 35. e6
+Bb7 36. Qd2 c4 37. Ne4 Rce7 38. N2c3 Qb6+ 39. Kh2 a5 40. a4 b4 41. Nb5 b3 42.
+Bd1 Nxe6 43. Nexd6 Bf6 44. Bg4 Rh7+ 45. Bh3 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.04"]
+[Round "1"]
+[White "Kaidanov, Gregory S"]
+[Black "Khachiyan, Melikset"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2569"]
+[BlackElo "2511"]
+[ECO "B06"]
+[Opening "Robatsch defence"]
+[WhiteFideId "2008564"]
+[BlackFideId "13300512"]
+[EventDate "2011.03.04"]
+
+1. d4 g6 2. e4 Bg7 3. Nc3 c6 4. f4 d5 5. e5 Nh6 6. Be2 O-O 7. Nf3 Bg4 8. Ng5
+Bxe2 9. Nxe2 Na6 10. O-O Nc7 11. Kh1 f6 12. Nf3 Ne6 13. h3 c5 14. c3 cxd4 15.
+Nexd4 Nc5 16. e6 Qd6 17. Qe1 f5 18. Qh4 Nxe6 19. Nxe6 Qxe6 20. Re1 Qd7 21. Ng5
+e6 22. Be3 Rfe8 23. Bd4 Bf8 24. Re3 a5 25. a4 Ra6 26. Rae1 Bg7 27. R1e2 Rc6 28.
+Kh2 Bxd4 29. cxd4 Kg7 30. g4 fxg4 31. hxg4 e5 32. Qxh6+ Kxh6 33. Rh3+ 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.05"]
+[Round "2"]
+[White "Perelshteyn, Eugene"]
+[Black "Brooks, Michael A"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2533"]
+[BlackElo "2451"]
+[ECO "E11"]
+[Opening "Bogo-Indian defence"]
+[WhiteFideId "2012529"]
+[BlackFideId "2000334"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Bxd2+ 5. Qxd2 O-O 6. Nc3 d6 7. g3 Nbd7 8.
+Bg2 e5 9. O-O Re8 10. Rad1 h6 11. dxe5 dxe5 12. Nh4 Qe7 13. Qc2 Nb6 14. b3 e4
+15. Bh1 Bh3 16. Rfe1 c6 17. Ng2 Bf5 18. Ne3 Bg6 19. Rd2 h5 20. Red1 Ng4 21. Rd4
+Nxe3 22. fxe3 f5 23. Qd2 Bf7 24. Bg2 Qe5 25. Kf2 Re6 26. Rd8+ Rxd8 27. Qxd8+ Re8
+28. Qd4 g6 29. h3 c5 30. Qxe5 Rxe5 31. g4 h4 32. gxf5 gxf5 33. Nb5 Nc8 34. Rd7
+Re7 35. Rd8+ Re8 36. Rd7 Re7 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.05"]
+[Round "2"]
+[White "Becerra Rivero, Julio"]
+[Black "Kaidanov, Gregory S"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2549"]
+[BlackElo "2569"]
+[ECO "C11"]
+[Opening "French"]
+[Variation "Burn variation"]
+[WhiteFideId "3501728"]
+[BlackFideId "2008564"]
+[EventDate "2011.03.04"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Nbd7 6. Nf3 h6 7. Nxf6+ Nxf6 8.
+Bh4 c5 9. dxc5 Bxc5 10. Qxd8+ Kxd8 11. Ne5 Ke7 12. Be2 g5 13. Bg3 Ne4 14. Bh5
+Rf8 15. Bf3 Nxg3 16. hxg3 Bd4 17. Nc4 Bd7 18. Rd1 Bg7 19. c3 Rac8 20. Nd6 Rc7
+21. g4 b5 22. a3 Rb8 23. O-O Rb6 24. Ne4 a5 25. Rd2 b4 26. axb4 axb4 27. Rfd1
+Be8 28. c4 Rxc4 29. Nd6 Rc7 30. Nxe8 Kxe8 31. Rd8+ Ke7 32. b3 Be5 33. Be2 Rd6
+34. R8xd6 Bxd6 35. Bc4 Ra7 36. g3 Ra2 37. Re1 Bc5 38. Re2 Ra1+ 39. Kg2 Bd4 40.
+Rd2 e5 41. Kf3 f6 42. Ke4 Bc3 43. Re2 Rd1 44. Ra2 Rd2 45. Ra7+ Rd7 46. Rxd7+
+Kxd7 47. Kd5 Be1 48. f3 Bxg3 49. Bd3 Ke7 50. Bg6 Be1 51. Bd3 Kf7 52. Bf5 Bc3 53.
+Bd3 Kg7 54. Bf5 Bd4 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.05"]
+[Round "2"]
+[White "Ramirez, Alejandro"]
+[Black "Yang, Darwin"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2594"]
+[BlackElo "2416"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "6500617"]
+[BlackFideId "2029111"]
+[EventDate "2011.03.04"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 dxc4 5. Bg2 c5 6. O-O Nc6 7. Qa4 Bd7 8. Qxc4
+cxd4 9. Nxd4 Rc8 10. Nc3 Nxd4 11. Qxd4 Bc5 12. Qh4 O-O 13. Bg5 h6 14. Bxf6 Qxf6
+15. Qxf6 gxf6 16. Rac1 b6 17. Bb7 Rb8 18. Bf3 Rfd8 19. Ne4 Bd4 20. Rc7 f5 21.
+Nc3 b5 22. Bc6 Bxc3 23. bxc3 Bxc6 24. Rxc6 Rbc8 25. Rxc8 Rxc8 26. Rb1 a6 27. Rb3
+Kf8 28. Kf1 Ke7 29. Ke1 Kd6 30. Kd2 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.05"]
+[Round "2"]
+[White "Robson, Ray"]
+[Black "Kraai, Jesse"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2522"]
+[BlackElo "2509"]
+[ECO "C11"]
+[Opening "French"]
+[Variation "Steinitz variation"]
+[WhiteFideId "2023970"]
+[BlackFideId "2002035"]
+[EventDate "2011.03.04"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nce2 c5 6. c3 Nc6 7. f4 Be7 8. Nf3
+O-O 9. g3 cxd4 10. cxd4 f6 11. Bg2 Qb6 12. a3 a5 13. b3 a4 14. b4 Qc7 15. O-O
+Nb6 16. Be3 Bd7 17. Qd3 Be8 18. Bh3 f5 19. g4 fxg4 20. Bxg4 Qd7 21. Ng3 Bg6 22.
+Qe2 Nc4 23. Ng5 Bxg5 24. fxg5 Rxf1+ 25. Kxf1 Rf8+ 26. Kg1 Ne7 27. Bf2 Nf5 28.
+Nf1 Qf7 29. Nd2 Nxd2 30. Qxd2 Bh5 31. Bh3 Bf3 32. Qf4 Qh5 33. Bf1 Be4 34. Rc1
+Nxd4 35. Qxf8+ Kxf8 36. Rc8+ Kf7 37. Bxd4 Qxg5+ 38. Kf2 Qd2+ 0-1
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.05"]
+[Round "2"]
+[White "Khachiyan, Melikset"]
+[Black "Benjamin, Joel"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2511"]
+[BlackElo "2564"]
+[ECO "B06"]
+[Opening "Robatsch defence"]
+[Variation "Pseudo-Austrian attack"]
+[WhiteFideId "13300512"]
+[BlackFideId "2000091"]
+[EventDate "2011.03.04"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nc6 5. Be3 e6 6. Nf3 Nf6 7. Bb5 a6 8. Bxc6+
+bxc6 9. Qe2 a5 10. O-O-O Ba6 11. Qe1 Qb8 12. f5 exf5 13. exf5 O-O 14. Qh4 Re8
+15. Rde1 Qc8 16. g4 Qb7 17. Bg5 Nd7 18. f6 Bh8 19. Rxe8+ Rxe8 20. Re1 Qc8 21.
+Re7 Rxe7 22. fxe7 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.05"]
+[Round "3"]
+[White "Benjamin, Joel"]
+[Black "Becerra Rivero, Julio"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2564"]
+[BlackElo "2549"]
+[ECO "E67"]
+[Opening "King's Indian"]
+[Variation "fianchetto, classical variation"]
+[WhiteFideId "2000091"]
+[BlackFideId "3501728"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d6 6. O-O Nbd7 7. Nc3 e5 8. e3
+Re8 9. a4 a5 10. b3 Rb8 11. Ra2 b6 12. dxe5 dxe5 13. Ba3 Bf8 14. Bxf8 Rxf8 15.
+Rd2 Qe7 16. Ng5 Nc5 17. Nge4 Ncxe4 18. Nxe4 Nxe4 19. Bxe4 Bh3 20. Bg2 Bxg2 21.
+Kxg2 Rbd8 22. Rd5 c6 23. Rxd8 Rxd8 24. Qf3 Qd6 25. g4 Kg7 26. h4 Qe6 27. Qe4 c5
+28. Rh1 f5 29. gxf5 Qxf5 30. Qxf5 gxf5 31. Kf3 Kf6 32. Ke2 e4 33. f3 exf3+ 34.
+Kxf3 Rd3 35. Kf4 Rxb3 36. Rd1 Ke6 37. Rd5 Rb4 38. Re5+ Kd6 39. Kxf5 Rxc4 40.
+Re6+ Kc7 41. Re7+ Kc6 42. Re6+ Kb7 43. Re7+ Ka6 44. Rxh7 Rxa4 45. e4 Ra1 46. e5
+Rf1+ 47. Ke4 a4 48. Rh8 Kb7 49. h5 a3 50. Rh7+ Kc6 51. Ra7 Rh1 52. Rxa3 Rh4+ 53.
+Kf5 Rxh5+ 54. Kf6 Rh6+ 55. Kf5 Rh8 56. e6 c4 57. e7 Kd6 58. Ra6 Kc5 59. Ra7 c3
+60. Rc7+ Kd6 61. Rxc3 Kxe7 62. Rc6 b5 63. Ke4 Kd7 64. Rb6 Rh5 65. Kd3 Kc7 66.
+Rg6 Rc5 67. Rh6 Kb7 68. Rg6 Ka7 69. Rh6 Rc7 70. Rg6 b4 71. Rg4 Rb7 72. Kc2 Ka6 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.05"]
+[Round "3"]
+[White "Kaidanov, Gregory S"]
+[Black "Perelshteyn, Eugene"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2569"]
+[BlackElo "2533"]
+[ECO "E45"]
+[Opening "Nimzo-Indian"]
+[Variation "4.e3, Bronstein (Byrne) variation"]
+[WhiteFideId "2008564"]
+[BlackFideId "2012529"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Ne2 Ba6 6. Ng3 Bxc3+ 7. bxc3 d5 8. Ba3
+Bxc4 9. Bxc4 dxc4 10. O-O Qd7 11. e4 Qb5 12. e5 Nd5 13. Qg4 g6 14. Ne4 Qa4 15.
+Bc1 Nc6 16. Bg5 Nce7 17. Nf6+ Nxf6 18. Bxf6 Rf8 19. Bxe7 Kxe7 20. Qh4+ Kd7 21.
+Qxh7 Qc2 22. Qh3 Qf5 23. Qe3 Rh8 24. f4 Rag8 25. h3 Rh7 26. Rf3 g5 27. fxg5 Qxg5
+28. Qf2 Ke8 29. Kh2 Rhg7 30. Rg1 Qg6 31. g4 Qe4 32. Rf4 Qd5 33. Rg3 Rh8 34. g5
+Rhg8 35. h4 Rh8 36. Rfg4 Rg6 37. Rf3 Rg7 38. Rh3 Rgh7 39. Qf6 Kd7 40. h5 Kc6 41.
+h6 b5 42. Qf3 a5 43. a3 Qxf3 44. Rxf3 Kd7 45. Kg3 Ke7 46. Kf2 c6 47. Ke3 Rg8 48.
+Rf6 Rhh8 49. Kf4 Rh7 50. Rg3 Rhh8 51. Kg4 Rh7 52. Kh5 Rgh8 53. Rgf3 Ke8 54. Kg4
+Ke7 55. Rh3 Rg8 56. g6 fxg6 57. Kg5 Rhh8 58. Rhf3 Rf8 59. Rxf8 Rxf8 60. h7 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.05"]
+[Round "3"]
+[White "Brooks, Michael A"]
+[Black "Ramirez, Alejandro"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2451"]
+[BlackElo "2594"]
+[ECO "C19"]
+[Opening "French"]
+[Variation "Winawer, advance, Smyslov variation"]
+[WhiteFideId "2000334"]
+[BlackFideId "6500617"]
+[EventDate "2011.03.04"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. a4 Qc7 8. Nf3
+b6 9. a5 bxa5 10. Bd3 Nbc6 11. Ba3 c4 12. Be2 O-O 13. O-O f6 14. Qd2 Rf7 15.
+exf6 gxf6 16. Nh4 Ng6 17. g3 Rg7 18. Ng2 Nce7 19. Rae1 Bd7 20. Bg4 f5 21. Bh5
+Nc8 22. Bxg6 hxg6 23. Nf4 Nd6 24. Nxe6 Bxe6 25. Rxe6 Ne4 26. Qe3 Qd7 27. Re5 Qa4
+28. Bc1 Qxc2 29. f3 Nxc3 30. Bd2 Nd1 31. Re8+ Rxe8 32. Qxe8+ Kh7 33. Bh6 Kxh6
+34. Qh8+ Rh7 35. Qf8+ Rg7 36. Qh8+ Rh7 37. Qf8+ Kh5 38. Qd8 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.05"]
+[Round "3"]
+[White "Yang, Darwin"]
+[Black "Robson, Ray"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2416"]
+[BlackElo "2522"]
+[ECO "E44"]
+[Opening "Nimzo-Indian"]
+[Variation "Fischer variation, 5.Ne2"]
+[WhiteFideId "2029111"]
+[BlackFideId "2023970"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Ne2 c5 6. a3 Ba5 7. Rb1 Na6 8. Bd2 O-O
+9. Ng3 Bb7 10. f3 d5 11. cxd5 cxd4 12. exd4 Bxc3 13. bxc3 Qxd5 14. Be2 Nb8 15.
+O-O Nc6 16. Rb5 Qd6 17. Ne4 Nxe4 18. fxe4 Rad8 19. Qc1 e5 20. Rd5 Qg6 21. Bc4
+Qxe4 22. Re1 Qg6 23. Bg5 Rxd5 24. Bxd5 h6 25. Bh4 Qd6 26. Bxc6 Qxc6 27. Qd2 exd4
+28. cxd4 Rc8 29. h3 Qg6 30. Re2 Qb1+ 31. Kh2 Rc1 32. Be1 Rd1 33. Qc3 Kh7 34. Qg3
+Qf5 35. Re5 Qf1 36. Qf2 Rxe1 0-1
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.05"]
+[Round "3"]
+[White "Kraai, Jesse"]
+[Black "Khachiyan, Melikset"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2509"]
+[BlackElo "2511"]
+[ECO "B76"]
+[Opening "Sicilian"]
+[Variation "dragon, Yugoslav attack, Rauser variation"]
+[WhiteFideId "2002035"]
+[BlackFideId "13300512"]
+[EventDate "2011.03.04"]
+
+1. Nf3 g6 2. e4 c5 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be3 Bg7 7. f3 Nc6 8. Qd2
+O-O 9. O-O-O Nxd4 10. Bxd4 Be6 11. Kb1 Qc7 12. g4 Rfc8 13. h4 Qa5 14. Qg5 Qxg5
+15. hxg5 Nd7 16. Be2 Bxd4 17. Rxd4 f6 18. gxf6 Nxf6 19. Nd5 Bxd5 20. exd5 Rc5
+21. c4 Kg7 22. f4 h6 23. g5 hxg5 24. fxg5 Nh7 25. Re4 e5 26. b4 Rc7 27. c5 Rd8
+28. cxd6 Rxd6 29. Rxe5 Rf7 30. Rf1 Nf8 31. Rxf7+ Kxf7 32. Bc4 Nd7 33. Re6 Rb6
+34. a3 Nf8 35. Re5 Rd6 36. Kc2 Nh7 37. Kc3 b6 38. Kd4 Kf8 39. Bb5 Rd8 40. Bc6
+Kf7 41. Kc4 Nf8 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.06"]
+[Round "4"]
+[White "Yang, Darwin"]
+[Black "Brooks, Michael A"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2416"]
+[BlackElo "2451"]
+[ECO "E42"]
+[Opening "Nimzo-Indian"]
+[Variation "4.e3 c5, 5.Ne2 (Rubinstein)"]
+[WhiteFideId "2029111"]
+[BlackFideId "2000334"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Ne2 d5 6. a3 Bxc3+ 7. Nxc3 cxd4 8.
+exd4 dxc4 9. Bxc4 Nc6 10. Be3 O-O 11. O-O b6 12. Qf3 Bb7 13. Bd3 Qd7 14. Qh3 Ne7
+15. Bg5 Ng6 16. Bxf6 gxf6 17. d5 Bxd5 18. Rad1 Rad8 19. Be4 Kg7 20. Bxd5 exd5
+21. Qxd7 Rxd7 22. Nxd5 Rfd8 23. Ne3 Ne5 24. Rxd7 Rxd7 25. Rd1 Rxd1+ 26. Nxd1 f5
+27. f4 Ng6 28. g3 Kf6 29. Kf2 Ne7 30. Ne3 Ke6 31. Ke2 Nd5 32. Nc2 Ne7 33. Kd3
+Kd5 34. Nd4 a6 35. Nf3 f6 36. Nd4 Kd6 37. b3 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.06"]
+[Round "4"]
+[White "Ramirez, Alejandro"]
+[Black "Kaidanov, Gregory S"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2594"]
+[BlackElo "2569"]
+[ECO "A13"]
+[Opening "English opening"]
+[Variation "Agincourt variation"]
+[WhiteFideId "6500617"]
+[BlackFideId "2008564"]
+[EventDate "2011.03.04"]
+
+1. c4 e6 2. Nf3 d5 3. b3 Nf6 4. g3 c5 5. Bg2 Nc6 6. O-O d4 7. e3 Be7 8. exd4
+cxd4 9. d3 O-O 10. Na3 e5 11. Nc2 Bf5 12. Re1 Qc7 13. b4 e4 14. Bf4 Qd8 15. dxe4
+Bxe4 16. b5 Na5 17. Nfxd4 Bxg2 18. Kxg2 Nxc4 19. Qf3 Bd6 20. Nf5 Bxf4 21. Qxf4
+Qd5+ 22. Kg1 Rae8 23. Ne7+ Rxe7 24. Rxe7 Qxb5 25. Nd4 Qb2 26. Ree1 Nd5 27. Qg4
+Nd2 28. Nf5 g6 29. Rad1 Qc3 30. Re2 Nf6 31. Ne7+ Kg7 32. Qf4 Nc4 33. Rc1 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.06"]
+[Round "4"]
+[White "Robson, Ray"]
+[Black "Khachiyan, Melikset"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2522"]
+[BlackElo "2511"]
+[ECO "B35"]
+[Opening "Sicilian"]
+[Variation "accelerated fianchetto, modern variation with Bc4"]
+[WhiteFideId "2023970"]
+[BlackFideId "13300512"]
+[EventDate "2011.03.04"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 d6 9. f3 Bd7 10. Qd2 Rc8 11. O-O-O Ne5 12. Kb1 Nc4 13. Bxc4 Rxc4 14. g4 Re8
+15. h4 a6 16. h5 e5 17. Nb3 Rc6 18. Nd5 Be6 19. hxg6 fxg6 20. Qh2 Bxd5 21. exd5
+Rc7 22. Nd2 Qd7 23. Bg5 Bh8 24. Bxf6 Bxf6 25. Ne4 Rf8 26. Qe2 Qd8 27. Rh3 Bg5
+28. Rdh1 Rcf7 29. Qd3 Be7 30. c4 b6 31. Qe3 Qc7 32. Qh6 Rg7 33. Qxg7+ Kxg7 34.
+Rxh7+ Kg8 35. Ng5 Bxg5 36. Rh8+ 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.06"]
+[Round "4"]
+[White "Becerra Rivero, Julio"]
+[Black "Kraai, Jesse"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2549"]
+[BlackElo "2509"]
+[ECO "B31"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (with ...g6, without ...d6)"]
+[WhiteFideId "3501728"]
+[BlackFideId "2002035"]
+[EventDate "2011.03.04"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. Re1 Nf6 6. e5 Nd5 7. Nc3 Nc7 8. Bxc6
+dxc6 9. Ne4 Ne6 10. d3 b6 11. Be3 O-O 12. Qd2 Nd4 13. Nxd4 cxd4 14. Bh6 Bf5 15.
+Ng3 Qd7 16. a4 Rfe8 17. Bxg7 Kxg7 18. a5 c5 19. Qf4 Be6 20. Reb1 Rac8 21. axb6
+axb6 22. h4 Ra8 23. h5 Bd5 24. h6+ Kg8 25. b4 Qc7 26. bxc5 bxc5 27. Qg5 Rxa1 28.
+Rxa1 Ra8 29. Rb1 Kf8 30. Ne2 Ba2 31. Ra1 Bd5 32. Rc1 Qb6 33. Nf4 Be6 34. c3 Qb2
+35. Nxe6+ fxe6 36. cxd4 Ra1 37. Qf4+ Ke8 38. Rxa1 Qxa1+ 39. Kh2 cxd4 40. Kg3 Qh1
+41. Qg4 Qxh6 42. Qxe6 Qg5+ 43. Kf3 Kf8 44. g3 Qd2 45. Qc4 Qd1+ 46. Kg2 Qg4 47.
+Qd5 Kg7 48. f3 Qc8 49. Qxd4 Qc2+ 50. Kh3 Kf7 51. Qc4+ Qxc4 52. dxc4 Ke6 53. f4
+Kf5 54. c5 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.06"]
+[Round "4"]
+[White "Perelshteyn, Eugene"]
+[Black "Benjamin, Joel"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2533"]
+[BlackElo "2564"]
+[ECO "E20"]
+[Opening "Nimzo-Indian"]
+[Variation "Romanishin-Kasparov (Steiner) system"]
+[WhiteFideId "2012529"]
+[BlackFideId "2000091"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. g3 d6 5. Bg2 Bxc3+ 6. bxc3 Nbd7 7. Nf3 O-O 8.
+O-O Rb8 9. Ne1 c5 10. Nc2 Qc7 11. Qd3 b6 12. a4 Ba6 13. Na3 cxd4 14. cxd4 Rbc8
+15. Nb5 Qxc4 16. Nxd6 Qxd3 17. exd3 Rc2 18. Nb5 Nd5 19. Ba3 Rd8 20. Rfc1 Rxc1+
+21. Rxc1 N7f6 22. Bf1 Rc8 23. Rc4 h6 24. Be2 Rd8 25. Kf1 Rd7 26. Bf3 Ne8 27. Rc2
+Nec7 28. Rb2 Nxb5 29. axb5 Bb7 30. Kg2 Ne7 31. Bxe7 Rxe7 32. Be4 f5 33. Bxb7
+Rxb7 34. Rc2 Rd7 35. Rc4 Kf7 36. f4 Rd5 37. Rb4 Kf6 38. Kf3 g5 39. h3 Rd8 40.
+Ke3 Rd7 41. Rc4 Rd5 42. Rb4 h5 43. h4 gxh4 44. gxh4 Rd7 45. Rc4 Rd5 46. Rc7 Rxb5
+47. Rxa7 Rd5 48. Rh7 Kg6 49. Re7 Kf6 50. Rh7 Kg6 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.06"]
+[Round "5"]
+[White "Brooks, Michael A"]
+[Black "Robson, Ray"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2451"]
+[BlackElo "2522"]
+[ECO "B70"]
+[Opening "Sicilian"]
+[Variation "dragon variation"]
+[WhiteFideId "2000334"]
+[BlackFideId "2023970"]
+[EventDate "2011.03.04"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be2 Bg7 7. O-O O-O 8. Bg5
+Nc6 9. Nb3 Be6 10. Kh1 Rc8 11. f4 Na5 12. f5 Bc4 13. Bd3 b5 14. Qd2 b4 15. Ne2
+Bxd3 16. cxd3 Nc6 17. Nf4 a5 18. a4 Ne5 19. Qe2 Ned7 20. fxg6 hxg6 21. d4 Nh7
+22. Bh4 Ndf6 23. Bxf6 Nxf6 24. Rae1 Qd7 25. e5 dxe5 26. dxe5 Nd5 27. e6 Qd6 28.
+exf7+ Rxf7 29. Ne6 Rxf1+ 30. Rxf1 Qe5 31. Qa6 Rc2 32. Nbd4 Rxg2 33. Qc8+ Kh7 34.
+Nf3 Qf5 35. Kxg2 Ne3+ 36. Kf2 Nxf1 37. Ng5+ Kh6 38. Qg8 Bd4+ 39. Kxf1 Qd3+ 40.
+Kg2 Qe2+ 41. Kh3 Qf1+ 42. Kg3 Qf2+ 43. Kh3 Qf1+ 44. Kh4 Qf2+ 45. Kh3 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.06"]
+[Round "5"]
+[White "Kaidanov, Gregory S"]
+[Black "Yang, Darwin"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2569"]
+[BlackElo "2416"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "2008564"]
+[BlackFideId "2029111"]
+[EventDate "2011.03.04"]
+
+1. c4 e6 2. Nf3 d5 3. d4 Nf6 4. g3 dxc4 5. Bg2 c5 6. O-O Nc6 7. Qa4 Bd7 8. Qxc4
+cxd4 9. Nxd4 Rc8 10. Nc3 Nxd4 11. Qxd4 Bc5 12. Qh4 O-O 13. Bxb7 Rb8 14. Bf3 Rb4
+15. Qg5 Bd4 16. Qd2 Qc7 17. Nd1 Rfb8 18. a3 Ra4 19. Ne3 e5 20. Qc2 Qa5 21. b4
+Raxb4 22. Bd2 Bxa1 23. Bxb4 Qa6 24. Nd5 Nxd5 25. Bxd5 Bd4 26. e3 Bb6 27. Qb3 Be8
+28. Qc3 Rd8 29. Qxe5 Qb5 30. Bc3 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.06"]
+[Round "5"]
+[White "Benjamin, Joel"]
+[Black "Ramirez, Alejandro"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2564"]
+[BlackElo "2594"]
+[ECO "D45"]
+[Opening "QGD semi-Slav"]
+[Variation "accelerated Meran (Alekhine variation)"]
+[WhiteFideId "2000091"]
+[BlackFideId "6500617"]
+[EventDate "2011.03.04"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 a6 5. e3 e6 6. b3 Bb4 7. Bd2 Nbd7 8. g3 O-O
+9. Bg2 Bd6 10. O-O e5 11. cxd5 cxd5 12. Nh4 exd4 13. exd4 Nb6 14. Qc2 Be6 15.
+Rfe1 Rc8 16. Qd3 Ba3 17. Ne2 Bd7 18. Rad1 Bb5 19. Qb1 Re8 20. Nc3 Bd7 21. Rxe8+
+Qxe8 22. Re1 Qf8 23. Nf3 g6 24. Bf1 Bb4 25. Rc1 Ba3 26. Re1 Bb4 27. Rc1 Bf5 28.
+Bd3 Bxd3 29. Qxd3 Qd6 30. Kg2 Bxc3 31. Rxc3 Rxc3 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.06"]
+[Round "5"]
+[White "Khachiyan, Melikset"]
+[Black "Becerra Rivero, Julio"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2511"]
+[BlackElo "2549"]
+[ECO "C68"]
+[Opening "Ruy Lopez"]
+[Variation "exchange, Keres variation"]
+[WhiteFideId "13300512"]
+[BlackFideId "3501728"]
+[EventDate "2011.03.04"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. Nc3 f6 6. d4 exd4 7. Nxd4 c5 8.
+Nde2 Qxd1+ 9. Nxd1 Bd7 10. Bf4 O-O-O 11. Ne3 Re8 12. Nc3 Be7 13. O-O-O Bd8 14.
+h4 Ne7 15. f3 b6 16. Ncd5 Nxd5 17. Nxd5 f5 18. e5 c6 19. Ne3 Be6 20. Bg3 Be7 21.
+f4 Rd8 22. Bf2 Rd4 23. g3 h5 24. b3 Rhd8 25. c3 R4d7 26. Rxd7 Rxd7 27. Rd1 g6
+28. Rxd7 Kxd7 29. c4 a5 30. Kd2 Bd8 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.06"]
+[Round "5"]
+[White "Kraai, Jesse"]
+[Black "Perelshteyn, Eugene"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2509"]
+[BlackElo "2533"]
+[ECO "E91"]
+[Opening "King's Indian"]
+[Variation "Kazakh variation"]
+[WhiteFideId "2002035"]
+[BlackFideId "2012529"]
+[EventDate "2011.03.04"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 Na6 7. O-O e5 8. dxe5
+dxe5 9. Be3 Ng4 10. Bg5 f6 11. Bd2 Nh6 12. Qa4 c6 13. b4 Qe7 14. b5 Nc5 15. Qb4
+Re8 16. Rfd1 Bf8 17. bxc6 bxc6 18. Rab1 Nf7 19. Be3 Bg4 20. Nd2 Bxe2 21. Nxe2
+Ng5 22. f3 Nge6 23. Nb3 a5 24. Qe1 a4 25. Nxc5 Nxc5 26. Qb4 Qa7 27. Qb6 Qxb6 28.
+Rxb6 Red8 29. Rdb1 Rac8 30. Kf2 Nd3+ 31. Kg3 Bc5 32. Bxc5 Nxc5 33. Kf2 Rd2 34.
+Rb8 Rxb8 35. Rxb8+ Kg7 36. Rb6 Ne6 37. Kf1 Rxa2 38. Rxc6 Nd4 39. Nxd4 exd4 40.
+Rc7+ Kh6 41. Ra7 d3 42. Ke1 a3 43. c5 Re2+ 44. Kd1 a2 45. c6 Rxg2 46. c7 Rc2 47.
+Rxa2 Rxc7 48. Ra6 Kg5 49. Kd2 Rd7 50. h4+ Kxh4 51. Rxf6 g5 52. e5 h5 53. e6 Rd8
+54. Rg6 Rd5 55. e7 Re5 56. Rg7 Re6 57. Kxd3 Kg3 58. Rxg5+ Kxf3 59. Rxh5 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.07"]
+[Round "6"]
+[White "Yang, Darwin"]
+[Black "Benjamin, Joel"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2416"]
+[BlackElo "2564"]
+[ECO "A50"]
+[Opening "Kevitz-Trajkovich defence"]
+[WhiteFideId "2029111"]
+[BlackFideId "2000091"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 Nc6 3. Nf3 e6 4. g3 Bb4+ 5. Bd2 Qe7 6. Bg2 Bxd2+ 7. Nbxd2 O-O 8.
+O-O d6 9. e4 e5 10. d5 Nb8 11. Ne1 a5 12. Nd3 Na6 13. a3 Bg4 14. f3 Bd7 15. b4
+c6 16. Qb3 cxd5 17. exd5 a4 18. Qb2 b5 19. f4 e4 20. Rfe1 bxc4 21. Bxe4 Qd8 22.
+Nxc4 Bb5 23. Rac1 Rc8 24. Qd4 Rxc4 25. Rxc4 Bxc4 26. Qxc4 Qb6+ 27. Kg2 Nc7 28.
+Bf3 Nb5 29. Qc6 Qb8 30. Qa6 Nxa3 31. Qxa4 Nb5 32. Qa6 Nd4 33. Qc4 Nf5 34. Be4
+Rc8 35. Qa6 Nd4 36. Nf2 h5 37. Qd3 Qxb4 38. Rd1 Nc2 39. Qd2 Qxd2 40. Rxd2 Ne3+
+41. Kh3 Nfg4 42. Re2 Re8 43. Bf3 Nf6 44. Nd1 Nxd1 45. Rxe8+ Nxe8 46. Bxd1 Nf6
+47. Bf3 Kf8 48. Kh4 g6 49. h3 Kg7 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.07"]
+[Round "6"]
+[White "Brooks, Michael A"]
+[Black "Kaidanov, Gregory S"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2451"]
+[BlackElo "2569"]
+[ECO "C69"]
+[Opening "Ruy Lopez"]
+[Variation "exchange, Bronstein variation"]
+[WhiteFideId "2000334"]
+[BlackFideId "2008564"]
+[EventDate "2011.03.04"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Qd6 6. d3 Ne7 7. Nbd2 Ng6 8.
+Nc4 Qe6 9. Ng5 Qf6 10. d4 Be7 11. Nxe5 Nxe5 12. f4 Nc4 13. b3 Bg4 14. Qd3 Be2
+15. Qxe2 Qxd4+ 16. Kh1 Qxa1 17. Qxc4 Bxg5 18. fxg5 O-O-O 19. c3 Qxa2 20. Bf4 Rd7
+21. h3 Qa5 22. Qe2 Qxc3 23. Rf3 Qd4 24. Kh2 Re8 25. e5 Kb8 26. Bg3 a5 27. Qe1 b6
+28. Qf1 Qd5 29. Rf5 Qxb3 30. e6 fxe6 31. Rf7 Red8 32. Rxd7 Rxd7 33. Qf8+ Kb7 34.
+Qg8 g6 0-1
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.07"]
+[Round "6"]
+[White "Perelshteyn, Eugene"]
+[Black "Khachiyan, Melikset"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2533"]
+[BlackElo "2511"]
+[ECO "D85"]
+[Opening "Gruenfeld"]
+[Variation "exchange variation"]
+[WhiteFideId "2012529"]
+[BlackFideId "13300512"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Bg7 6. e4 Nb6 7. Be3 O-O 8. h3
+f5 9. exf5 Bxf5 10. Nf3 Be6 11. Ng5 Bd5 12. Nxd5 Qxd5 13. Qb3 Qxb3 14. axb3 Nc6
+15. Rd1 Nb4 16. Bc4+ Nxc4 17. bxc4 Nc2+ 18. Ke2 c5 19. Ne6 Nxd4+ 20. Bxd4 Bxd4
+21. Nxf8 Kxf8 22. Rd2 a5 23. Ra1 e5 24. Ra3 b6 25. Rb3 Ra6 26. Rdd3 Ke7 27. Rb5
+Kd6 28. Rf3 e4 29. Rf7 a4 30. Rxh7 a3 31. bxa3 Rxa3 32. Rxb6+ Ke5 33. Re7+ Kf5
+34. Rf7+ Ke5 35. g3 Ra2+ 36. Kf1 Ra1+ 37. Kg2 Ra2 38. Rff6 Bc3 39. Rfd6 Kf5 40.
+Rd5+ 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.07"]
+[Round "6"]
+[White "Robson, Ray"]
+[Black "Becerra Rivero, Julio"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2522"]
+[BlackElo "2549"]
+[ECO "C96"]
+[Opening "Ruy Lopez"]
+[Variation "closed (8...Na5)"]
+[WhiteFideId "2023970"]
+[BlackFideId "3501728"]
+[EventDate "2011.03.04"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Na5 10. Bc2 d5 11. d4 Nxe4 12. Nxe5 f6 13. Nd3 Bd6 14. Nd2 f5 15. Nf3
+Nc4 16. Nfe5 Qh4 17. Qf3 g5 18. a4 Rb8 19. axb5 axb5 20. b3 Nb6 21. Ba3 f4 22.
+Nc5 g4 23. hxg4 Ng5 24. Qd3 Bxg4 25. Nxg4 f3 26. Re6 fxg2 27. Rh6 Bh2+ 28. Kxg2
+Qxg4+ 29. Kh1 Rxf2 30. Rg6+ hxg6 31. Qxg6+ Kh8 32. Qh6+ Kg8 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.07"]
+[Round "6"]
+[White "Ramirez, Alejandro"]
+[Black "Kraai, Jesse"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2594"]
+[BlackElo "2509"]
+[ECO "E00"]
+[Opening "Catalan opening"]
+[WhiteFideId "6500617"]
+[BlackFideId "2002035"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 Bb4+ 5. Bd2 Be7 6. Bg2 O-O 7. O-O c6 8. Bf4
+Nbd7 9. Nc3 dxc4 10. e4 b5 11. Qc2 Bb7 12. Rfd1 Re8 13. h4 Qb6 14. Ne5 Rad8 15.
+Nxd7 Rxd7 16. e5 Nd5 17. Bg5 Bf8 18. Ne4 c5 19. dxc5 Bxc5 20. Nxc5 Qxc5 21. Qe2
+Qc7 22. Rd4 Ne7 23. Rxd7 Qxd7 24. Rd1 Qc7 25. Bxb7 Qxb7 26. Bxe7 Qxe7 27. Rd6
+Qc7 28. Qd2 Qc5 29. Rd8 Rf8 30. Qd7 b4 31. Rxf8+ Qxf8 32. Qc6 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.07"]
+[Round "7"]
+[White "Khachiyan, Melikset"]
+[Black "Ramirez, Alejandro"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2511"]
+[BlackElo "2594"]
+[ECO "C19"]
+[Opening "French"]
+[Variation "Winawer, advance, poisoned pawn variation"]
+[WhiteFideId "13300512"]
+[BlackFideId "6500617"]
+[EventDate "2011.03.04"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 O-O 8. Bd3
+Nbc6 9. Qh5 Ng6 10. Nf3 Qc7 11. Be3 Nce7 12. dxc5 b6 13. O-O bxc5 14. Rfe1 Rb8
+15. Bg5 c4 16. Bxe7 Qxe7 17. Bxg6 fxg6 18. Qg4 Bd7 19. Nd4 g5 20. g3 Rb6 21. Kg2
+h6 22. Rh1 Be8 23. h4 gxh4 24. Qxh4 Qxh4 25. Rxh4 Bg6 26. Rhh1 Rfb8 27. f3 Kf7
+28. Rhc1 Rb2 29. Kf1 Bh7 30. Ke2 h5 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.07"]
+[Round "7"]
+[White "Benjamin, Joel"]
+[Black "Brooks, Michael A"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2564"]
+[BlackElo "2451"]
+[ECO "E40"]
+[Opening "Nimzo-Indian"]
+[Variation "4.e3"]
+[WhiteFideId "2000091"]
+[BlackFideId "2000334"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 Bxc3+ 5. bxc3 d6 6. Bd3 c5 7. Ne2 Nc6 8. e4
+e5 9. f3 b6 10. O-O O-O 11. d5 Na5 12. Ng3 Ne8 13. f4 f6 14. Be3 Rb8 15. Rf2 Rb7
+16. f5 g5 17. Rf3 h6 18. Nf1 Rh7 19. Rh3 Ng7 20. Nd2 Bd7 21. Nb3 Ba4 22. Qb1 Nb7
+23. Be2 h5 24. Qc1 h4 25. Nd2 Nh5 26. g3 Kh8 27. gxh4 g4 28. Rg3 Nxg3 29. hxg3
+Rg8 30. Nf1 Qe8 31. Bd2 Na5 32. Ne3 Qh5 33. Kf2 Rgg7 34. Rb1 Kg8 35. Qa3 Be8 36.
+Qb2 Kf8 37. Qc2 Rg8 38. Qd1 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.07"]
+[Round "7"]
+[White "Kaidanov, Gregory S"]
+[Black "Robson, Ray"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2569"]
+[BlackElo "2522"]
+[ECO "D34"]
+[Opening "QGD"]
+[Variation "Tarrasch, Prague variation, 9.Bg5"]
+[WhiteFideId "2008564"]
+[BlackFideId "2023970"]
+[EventDate "2011.03.04"]
+
+1. c4 e6 2. Nf3 d5 3. d4 c5 4. cxd5 exd5 5. g3 Nf6 6. Bg2 Be7 7. O-O O-O 8. Nc3
+Nc6 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 Re8 12. Qa4 Bd7 13. Nxd5 Nxd5 14. Bxd5 Nb4
+15. Qb3 Nxd5 16. Qxd5 Bh3 17. Qxd8 Raxd8 18. Rfd1 Bf6 19. Rd2 Bg4 20. Rad1 Bxd4
+21. Rxd4 Rxd4 22. Rxd4 Bxe2 23. Kg2 Bb5 24. g4 a6 25. h4 Bc6+ 26. Kg3 Re4 27.
+Rxe4 Bxe4 28. a3 f6 29. h5 Kf7 30. f3 Bc6 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.07"]
+[Round "7"]
+[White "Becerra Rivero, Julio"]
+[Black "Perelshteyn, Eugene"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2549"]
+[BlackElo "2533"]
+[ECO "B27"]
+[Opening "Sicilian"]
+[Variation "Hungarian variation"]
+[WhiteFideId "3501728"]
+[BlackFideId "2012529"]
+[EventDate "2011.03.04"]
+
+1. e4 c5 2. Nf3 g6 3. c3 d5 4. Qa4+ Bd7 5. Qb3 c4 6. Qc2 e6 7. exd5 exd5 8. d3
+cxd3 9. Qxd3 Nf6 10. Bg5 Bg7 11. Qe3+ Be6 12. Bb5+ Nbd7 13. Nd4 Qe7 14. O-O O-O
+15. Nd2 a6 16. Bxd7 Qxd7 17. f3 Rfe8 18. Bh6 Bh8 19. N2b3 Qc7 20. Rfe1 Bd7 21.
+Qf2 Nh5 22. Rxe8+ Rxe8 23. Re1 Be5 24. g3 f6 25. Bd2 Kf7 26. f4 Bd6 27. Qf3
+Rxe1+ 28. Bxe1 Bc6 29. Bf2 Ng7 30. Nxc6 bxc6 31. Qe2 Qc8 32. Bc5 Nf5 33. Bxd6
+Nxd6 34. Nc5 a5 35. g4 Ne4 36. Nxe4 dxe4 37. Kf2 Qe6 38. c4 f5 39. gxf5 gxf5 40.
+Qh5+ Qg6 41. Qd1 Ke7 42. Qd4 Qf6 43. Qc5+ Kf7 44. Ke3 Kg6 45. a4 Qxb2 46. Qxc6+
+Qf6 47. Qe8+ Kh6 48. Qe5 Qb6+ 49. c5 Qb3+ 50. Kf2 Qf3+ 51. Kg1 Qd1+ 52. Kf2 Qf3+
+53. Kg1 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.07"]
+[Round "7"]
+[White "Kraai, Jesse"]
+[Black "Yang, Darwin"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2509"]
+[BlackElo "2416"]
+[ECO "C10"]
+[Opening "French"]
+[Variation "Rubinstein variation"]
+[WhiteFideId "2002035"]
+[BlackFideId "2029111"]
+[EventDate "2011.03.04"]
+
+1. e4 e6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Nxf6+ Nxf6 7. Bd3 c5 8.
+Be3 Qc7 9. Qe2 Be7 10. dxc5 Bxc5 11. Bg5 Bb4+ 12. Nd2 Bd7 13. Bxf6 gxf6 14.
+O-O-O O-O-O 15. Be4 a6 16. Nb3 f5 17. Bf3 Qf4+ 18. Kb1 Bb5 19. c4 Ba4 20. g3 Qc7
+21. Qe3 Kb8 22. c5 Bxb3 23. Qxb3 Bxc5 24. Rc1 b6 25. Rc4 Rd4 26. Rxd4 Bxd4 27.
+Rc1 Qd7 28. Qd3 Rc8 29. Rxc8+ 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.08"]
+[Round "8"]
+[White "Kaidanov, Gregory S"]
+[Black "Benjamin, Joel"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2569"]
+[BlackElo "2564"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "2008564"]
+[BlackFideId "2000091"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d6 5. Bg5 h6 6. Bh4 c5 7. dxc5 dxc5 8. e3
+Nc6 9. a3 Bxc3+ 10. Qxc3 Ne4 11. Bxd8 Nxc3 12. Bc7 Kd7 13. Bf4 e5 14. Bxe5 Nxe5
+15. bxc3 Kc7 16. Nf3 Nxf3+ 17. gxf3 Rd8 18. Rd1 Be6 19. Be2 Rxd1+ 20. Kxd1 Rd8+
+21. Kc1 Rd6 22. Rd1 Rxd1+ 23. Kxd1 g5 24. Kd2 Kd6 25. f4 gxf4 26. exf4 b6 27.
+Bd3 f5 28. Ke3 Ke7 29. Kf3 Kf6 30. Kg3 Bf7 31. Kf3 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.08"]
+[Round "8"]
+[White "Ramirez, Alejandro"]
+[Black "Becerra Rivero, Julio"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2594"]
+[BlackElo "2549"]
+[ECO "E69"]
+[Opening "King's Indian"]
+[Variation "fianchetto, classical main line"]
+[WhiteFideId "6500617"]
+[BlackFideId "3501728"]
+[EventDate "2011.03.04"]
+
+1. c4 g6 2. Nf3 Nf6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. d4 Nbd7 7. Nc3 e5 8. e4 c6
+9. h3 exd4 10. Nxd4 Qa5 11. Re1 Re8 12. Be3 Ne5 13. Bf1 Be6 14. Nxe6 Rxe6 15.
+Kg2 Rae8 16. c5 dxc5 17. f4 Ned7 18. e5 Nxe5 19. fxe5 Rxe5 20. Bf2 Rxe1 21. Bxe1
+b5 22. Ne4 Qc7 23. Nxf6+ Bxf6 24. Rc1 Bxb2 25. Rxc5 Qe7 26. Bf2 Rd8 27. Qe2 Qf6
+28. Rc2 Bd4 29. Qf3 Qxf3+ 30. Kxf3 Bxf2 31. Kxf2 Rd4 32. Rxc6 Rd2+ 33. Kf3 Rxa2
+34. Bxb5 Rb2 35. Bc4 Rb7 36. Bd5 Re7 37. Rc3 Kg7 38. Rb3 Re5 39. Be4 Re7 40. Kf4
+Kf8 41. Rb7 Rxb7 42. Bxb7 a5 43. Ke5 Ke7 44. Bc6 f6+ 45. Kd5 h5 46. g4 Kf7 47.
+Kd6 Kg7 48. Ke6 h4 49. Ba4 f5 50. g5 f4 51. Bc6 Kg8 52. Ke5 f3 53. Bxf3 a4 54.
+Bd5+ Kg7 55. Kd4 Kf8 56. Be4 a3 57. Kc3 Kf7 58. Kb3 Ke6 59. Bxg6 1-0
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.08"]
+[Round "8"]
+[White "Yang, Darwin"]
+[Black "Khachiyan, Melikset"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2416"]
+[BlackElo "2511"]
+[ECO "A50"]
+[Opening "Kevitz-Trajkovich defence"]
+[WhiteFideId "2029111"]
+[BlackFideId "13300512"]
+[EventDate "2011.03.04"]
+
+1. d4 Nf6 2. c4 Nc6 3. Nf3 e6 4. g3 d5 5. Nbd2 Bb4 6. Qc2 dxc4 7. Qxc4 Qd5 8.
+Qxd5 exd5 9. e3 O-O 10. a3 Bd6 11. Bd3 a5 12. b3 Bd7 13. Bb2 a4 14. b4 Na7 15.
+Ne5 Bb5 16. Bxb5 Nxb5 17. Nd3 Rfe8 18. Ke2 Ne4 19. Nxe4 Rxe4 20. Nc5 Bxc5 21.
+bxc5 f5 22. Rab1 c6 23. Kd3 Kf7 24. Bc1 Ke7 25. Rb4 Kd7 26. Re1 Re6 27. f3 Kc7
+28. Re2 g6 29. Bb2 Kd7 30. Bc1 Kc7 31. Bb2 Kd7 32. Bc1 Kc7 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.08"]
+[Round "8"]
+[White "Robson, Ray"]
+[Black "Perelshteyn, Eugene"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2522"]
+[BlackElo "2533"]
+[ECO "B60"]
+[Opening "Sicilian"]
+[Variation "Richter-Rauzer, Bondarevsky variation"]
+[WhiteFideId "2023970"]
+[BlackFideId "2012529"]
+[EventDate "2011.03.04"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 g6 7. Bxf6 exf6 8.
+Bc4 Bg7 9. Ndb5 O-O 10. Qxd6 f5 11. O-O a6 12. Qxd8 Rxd8 13. Nc7 Ra7 14. Bd3 b5
+15. N7d5 Nd4 16. exf5 Bxf5 17. Bxf5 gxf5 18. Rad1 Rad7 19. g3 Nxc2 20. Ne7+ Kf8
+21. Nxf5 Bxc3 22. Rxd7 Rxd7 23. bxc3 Rd2 24. Rb1 Na3 25. Rb4 Rxa2 26. Rh4 Nb1
+27. Rxh7 Kg8 28. Rg7+ Kf8 29. h4 Nxc3 30. Rh7 Kg8 31. Rg7+ Kf8 32. Rh7 Kg8 33.
+Rg7+ 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.08"]
+[Round "8"]
+[White "Brooks, Michael A"]
+[Black "Kraai, Jesse"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2451"]
+[BlackElo "2509"]
+[ECO "C02"]
+[Opening "French"]
+[Variation "advance, Milner-Barry gambit"]
+[WhiteFideId "2000334"]
+[BlackFideId "2002035"]
+[EventDate "2011.03.04"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. cxd4 Bd7 8. O-O
+Nxd4 9. Nxd4 Qxd4 10. Nc3 a6 11. Re1 Ne7 12. Be3 Qxe5 13. Rc1 Bc6 14. Bb1 Ng6
+15. g3 Qd6 16. h4 d4 17. Qxd4 Ne5 18. Qxd6 Bxd6 19. Red1 O-O-O 20. Be4 Bc7 21.
+Bxc6 Nxc6 22. Ne4 Rxd1+ 23. Rxd1 Rd8 24. Rxd8+ Nxd8 25. Bc5 Kd7 26. f4 Kc6 27.
+Be7 h6 28. Kf2 f5 29. Nc3 g6 30. Kf3 h5 31. b3 Nf7 32. Ne2 Kd5 33. Ke3 Bb6+ 34.
+Kf3 Ba5 35. Ke3 Be1 36. Kd3 Nh6 37. a4 Ng4 38. Bd8 Nf2+ 39. Ke3 Ne4 0-1
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.08"]
+[Round "9"]
+[White "Benjamin, Joel"]
+[Black "Robson, Ray"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2564"]
+[BlackElo "2522"]
+[ECO "A05"]
+[Opening "Reti opening"]
+[WhiteFideId "2000091"]
+[BlackFideId "2023970"]
+[EventDate "2011.03.04"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 c5 4. c4 e6 5. cxd5 exd5 6. d4 Be7 7. O-O O-O 8. dxc5
+Nc6 9. Bg5 Bf5 10. Nbd2 h6 11. Bxf6 Bxf6 12. Qb3 b6 13. Rac1 Rb8 14. Qa4 Bd7 15.
+Nb3 Bxb2 16. Rb1 Bf6 17. Qf4 Qe7 18. cxb6 Rxb6 19. Nbd4 Nxd4 20. Nxd4 Ra6 21.
+Rb7 Qd8 22. e3 Rxa2 23. Rc1 Ra5 24. h4 Bxd4 25. exd4 Be6 26. Rcc7 Ra1+ 27. Kh2
+Qf6 28. Qxf6 gxf6 29. Rxa7 Rd1 30. Bh3 f5 31. Ra4 Rd2 32. Rca7 Rxf2+ 33. Kg1 Rd2
+34. Ra8 Rxa8 35. Rxa8+ Kg7 36. Ra4 Rd3 37. Kf2 f4 38. Bxe6 fxg3+ 0-1
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.08"]
+[Round "9"]
+[White "Becerra Rivero, Julio"]
+[Black "Yang, Darwin"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2549"]
+[BlackElo "2416"]
+[ECO "C11"]
+[Opening "French"]
+[Variation "Steinitz, Boleslavsky variation"]
+[WhiteFideId "3501728"]
+[BlackFideId "2029111"]
+[EventDate "2011.03.04"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 a6 8. Qd2 Be7
+9. dxc5 Nxc5 10. Bd3 b5 11. Qf2 Nxd3+ 12. cxd3 O-O 13. Bc5 f6 14. Bxe7 Qxe7 15.
+d4 fxe5 16. fxe5 Bd7 17. O-O Be8 18. Rac1 Rc8 19. Qd2 Bh5 20. Ne2 Bxf3 21. Rxf3
+Rxf3 22. gxf3 Qd7 23. Rc3 Ne7 24. Rxc8+ Qxc8 25. Qc1 Qxc1+ 26. Nxc1 Nc6 27. Nb3
+a5 28. Kf2 a4 29. Nc5 Nxd4 30. Ke3 Nc6 31. Nxe6 Nxe5 32. Nc7 b4 33. Nxd5 b3 34.
+axb3 axb3 35. Nb6 Kf7 36. Na4 Ke6 37. Nc5+ 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.08"]
+[Round "9"]
+[White "Perelshteyn, Eugene"]
+[Black "Ramirez, Alejandro"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2533"]
+[BlackElo "2594"]
+[ECO "D10"]
+[Opening "QGD Slav defence"]
+[Variation "exchange variation"]
+[WhiteFideId "2012529"]
+[BlackFideId "6500617"]
+[EventDate "2011.03.04"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6 5. Bg5 Ne4 6. Nxe4 dxe4 7. a3 Qd5 8.
+Bh4 Nc6 9. e3 e5 10. Ne2 exd4 11. Nc3 Qa5 12. exd4 g5 13. Bg3 Bg7 14. Bc4 O-O
+15. O-O Bf5 16. Bd6 Rfc8 17. Qb3 Bg6 18. Qxb7 Qd8 19. Bc5 Nxd4 20. b4 Rc7 21.
+Qa6 Nf3+ 22. gxf3 Bxc3 23. Rad1 Rd7 24. Be2 Rxd1 25. Rxd1 Qf6 26. Qxf6 Bxf6 27.
+Rd7 Bh5 28. Kg2 a6 29. Bd1 Bxf3+ 30. Bxf3 exf3+ 31. Kxf3 h5 32. h3 Kg7 33. Rd6
+Be5 34. Rc6 f5 35. Re6 g4+ 36. Kg2 Bf6 37. f3 Kf7 38. Rc6 Be5 39. hxg4 hxg4 40.
+fxg4 fxg4 41. Kf2 a5 42. b5 Rd8 43. Ke3 Re8 44. Kd3 g3 45. b6 g2 46. b7 Rb8 47.
+Rb6 Bh2 48. Rb1 Ke6 49. Bg1 Bxg1 50. Rxg1 Rxb7 51. Rxg2 Rb3+ 52. Kc4 Rxa3 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.08"]
+[Round "9"]
+[White "Khachiyan, Melikset"]
+[Black "Brooks, Michael A"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2511"]
+[BlackElo "2451"]
+[ECO "B52"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky attack, 3...Bd7"]
+[WhiteFideId "13300512"]
+[BlackFideId "2000334"]
+[EventDate "2011.03.04"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nf6 6. e5 dxe5 7. Nxe5 Qd6
+8. Nc4 Qa6 9. d3 e6 10. Nc3 Nbd7 11. Qf3 Be7 12. a4 O-O 13. Bf4 Rfc8 14. Ra3 Qc6
+15. Qxc6 Rxc6 16. Re1 Kf8 17. Rb3 b6 18. Kf1 a6 19. h3 Ne8 20. Ne4 h6 21. g4 Bd8
+22. Ra3 Bc7 23. Bd2 Nd6 24. f4 Re8 25. Ncxd6 Bxd6 26. c4 a5 27. Kf2 Be7 28. Kf3
+Nf6 29. Bc3 Nxe4 30. dxe4 Rd8 1/2-1/2
+
+[Event "Saint Louis Invitational"]
+[Site "Saint Louis USA"]
+[Date "2011.03.08"]
+[Round "9"]
+[White "Kraai, Jesse"]
+[Black "Kaidanov, Gregory S"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2509"]
+[BlackElo "2569"]
+[ECO "A08"]
+[Opening "Reti"]
+[Variation "King's Indian attack"]
+[WhiteFideId "2002035"]
+[BlackFideId "2008564"]
+[EventDate "2011.03.04"]
+
+1. Nf3 d5 2. g3 c5 3. Bg2 Nc6 4. d4 Nf6 5. O-O e6 6. c4 dxc4 7. Ne5 Bd7 8. Na3
+cxd4 9. Naxc4 Be7 10. Qb3 Qc7 11. Nxc6 Bxc6 12. Bf4 Qd8 13. Bxc6+ bxc6 14. Ne5
+c5 15. Qa4+ Kf8 16. e3 Nd5 17. exd4 cxd4 18. Qxd4 f6 19. Nc6 Qb6 20. Qxb6 axb6
+21. Bd2 Kf7 22. Rfc1 Rhc8 23. b4 b5 24. a4 bxa4 25. b5 Rc7 26. Ba5 Rb7 27. b6 a3
+28. Rcb1 Bd6 29. Rb5 Ke8 30. Ra2 Kd7 31. Nd4 Rc8 32. Nc2 Nc3 33. Bxc3 Rxc3 34.
+Ra5 Rxb6 35. Nxa3 Bxa3 36. R5xa3 Rxa3 37. Rxa3 Kc6 38. Rc3+ Kd6 39. Rd3+ Ke7 40.
+Ra3 Rb7 41. h4 h5 42. Ra8 Kf7 43. Rh8 Kg6 44. Kg2 Rb3 45. Kf1 Rb2 46. Kg2 Rb3
+47. Kf1 Ra3 48. Ke2 e5 49. Rg8 Kf7 50. Rh8 g6 51. Rh7+ Ke6 52. Rg7 Kf5 53. Rg8
+Rb3 54. Rg7 g5 55. hxg5 fxg5 56. Rh7 Kg4 57. Rg7 Rb6 58. f3+ Kf5 59. Rf7+ Kg6
+60. Re7 Kf5 61. Rf7+ Kg6 62. Re7 Rb2+ 63. Ke3 Rg2 64. Rxe5 Rxg3 65. Kf2 Rh3 66.
+Kg2 Rh4 67. Re6+ Kf7 68. Rh6 Kg7 69. Ra6 Rf4 70. Kg3 Rf6 71. Ra5 Kg6 72. Rb5 Rc6
+73. Ra5 h4+ 74. Kh3 Rc3 75. Kg4 Rc4+ 76. Kh3 Rc2 77. Ra8 Kf5 78. Rf8+ Ke5 79.
+Rg8 Kf6 80. Rf8+ Kg7 81. Rf5 Kg6 82. Rf8 Rc5 83. Kg4 Rc4+ 84. Kh3 Rc2 85. Kg4
+Rg2+ 86. Kh3 Rg1 87. Kh2 Rd1 88. Kh3 Rd4 89. Rg8+ Kf5 90. Rf8+ Ke5 91. Re8+ Kf4
+92. Rf8+ Ke3 93. Rf5 Rf4 94. Rxg5 Kxf3 1/2-1/2
+

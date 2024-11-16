@@ -1,0 +1,944 @@
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.26"]
+[Round "1"]
+[White "Janssen,Ru"]
+[Black "Brandenburg,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2512"]
+[BlackElo "2535"]
+[EventDate "2011.06.25"]
+[ECO "A15"]
+
+1. c4 Nf6 2. g3 g6 3. Bg2 Bg7 4. Nc3 O-O 5. d3 e5 6. e4 d6 7. Nge2 Nc6 8.
+O-O Nh5 9. Be3 f5 10. exf5 Bxf5 11. d4 Kh8 12. h3 Bd7 13. b3 a6 14. Qd2 Rb8
+15. dxe5 Nxe5 16. f4 Nc6 17. Rad1 Nf6 18. c5 d5 19. g4 Be6 20. f5 gxf5 21.
+gxf5 Bf7 22. Nf4 d4 23. Bxd4 Nxd4 24. Qxd4 Qxd4+ 25. Rxd4 Nh5 26. Rd3 Rbd8
+27. Rxd8 Rxd8 28. Nce2 Rd2 29. Bxb7 Nxf4 30. Nxf4 Bd4+ 31. Kh1 Rxa2 32. Bd5
+Bxd5+ 33. Nxd5 Bxc5 34. Nxc7 Kg8 35. Ne6 Be3 36. f6 Rf2 37. Rxf2 Bxf2 38.
+Nc7 a5 39. Kg2 Bd4 40. Nd5 Kf7 41. Kf3 Bxf6 42. Ke4 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.26"]
+[Round "1"]
+[White "Ernst,S"]
+[Black "Giri,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2596"]
+[BlackElo "2687"]
+[EventDate "2011.06.25"]
+[ECO "D43"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bh4 dxc4 7. e4 g5 8.
+Bg3 b5 9. Be2 Bb7 10. O-O Nbd7 11. Ne5 Bg7 12. Nxd7 Nxd7 13. Bd6 Bf8 14.
+Bxf8 Rxf8 15. e5 Qb6 16. Ne4 O-O-O 17. Nd6+ Kb8 18. b3 c3 19. a4 f6 20.
+axb5 Nxe5 21. Nxb7 Kxb7 22. Qc2 Qxd4 23. bxc6+ Nxc6 24. Bf3 Qd3 25. Qa2 Rd5
+26. b4 Qb5 27. Rfe1 g4 28. Bxg4 Rd2 29. Qxe6 Kb8 30. Be2 Qd5 31. Qe3 Qe5
+32. Bf3 Nd4 33. Qxh6 Nxf3+ 34. gxf3 Qg5+ 35. Qxg5 fxg5 36. Kg2 g4 37. fxg4
+Rdxf2+ 38. Kg1 c2 39. Re8+ Rxe8 40. Kxf2 Re4 41. Kg3 Rxb4 42. Rc1 Rc4 43.
+h4 Kc7 44. h5 Kd6 45. h6 Rc7 46. g5 Ke6 47. g6 Rc3+ 48. Kh2 Rc8 49. Rf1 Rh8
+50. h7 a5 51. Kg3 c1=Q 52. Rxc1 Kf6 53. Rc6+ Kg7 54. Kf4 Rb8 55. Kf5 Rb5+
+56. Ke6 Rb8 57. Kd7 a4 58. Ra6 a3 59. Ke7 a2 60. Rxa2 Kxg6 61. h8=N+ Rxh8
+1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.26"]
+[Round "1"]
+[White "Spoelman,W"]
+[Black "Swinkels,R"]
+[Result "1-0"]
+[WhiteElo "2564"]
+[BlackElo "2483"]
+[EventDate "2011.06.25"]
+[ECO "D85"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Nb6 6. Nf3 Bg7 7. Bf4 O-O
+8. e3 c5 9. dxc5 N6d7 10. Rc1 Nxc5 11. Nd5 Nbd7 12. Bc7 Qe8 13. Bg3 Ne6 14.
+Bb5 Qd8 15. Nc7 Nxc7 16. Bxc7 Qe8 17. Ne5 Bxe5 18. Bxe5 a6 19. Rxc8 Qxc8
+20. Bxd7 Qc4 21. b3 Qe4 22. Bc7 Qxg2 23. Ke2 b5 24. Rg1 Qe4 25. f3 Qb4 26.
+Qc2 e6 27. Bxe6 fxe6 28. Rxg6+ Kf7 29. Rg4 Qe7 30. Be5 Rfc8 31. Qxh7+ Ke8
+32. Rg8+ Kd7 33. Rg7 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.26"]
+[Round "1"]
+[White "Sokolov,Ivan"]
+[Black "Nijboer,F"]
+[Result "1-0"]
+[WhiteElo "2645"]
+[BlackElo "2538"]
+[EventDate "2011.06.25"]
+[ECO "D83"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Bf4 d5 5. Rc1 O-O 6. e3 dxc4 7. Bxc4 c5 8.
+Nf3 cxd4 9. exd4 a6 10. O-O b5 11. Bb3 Bb7 12. Re1 Nc6 13. a3 Rc8 14. Ba2
+e6 15. Qd2 Ne7 16. Ne5 Nfd5 17. Bh6 Bxh6 18. Qxh6 Nf5 19. Qd2 Nxc3 20. bxc3
+Bd5 21. Bb1 Nd6 22. Bd3 Bc4 23. a4 Bxd3 24. Qxd3 Nc4 25. axb5 axb5 26. Rb1
+Qa5 27. Nd7 Rfd8 28. Nf6+ Kg7 29. Ne4 e5 30. Qf3 Qb6 31. dxe5 Nxe5 32. Qg3
+Rd5 33. h4 Qc7 34. Qf4 Nc4 35. Qf6+ Kg8 36. Rbd1 Rxd1 37. Rxd1 Qe5 38. Qa6
+Rb8 39. Nf6+ Kg7 40. Nd7 Qe2 41. Qf6+ Kg8 42. Qd4 Rc8 43. Nf6+ Kg7 44. Nh5+
+Kf8 45. Nf6 Ne5 46. Ra1 Nc6 47. Nxh7+ Kg8 48. Nf6+ Kf8 49. Qf4 Kg7 50. Ne4
+Re8 51. Qf6+ Kg8 52. Nd6 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.26"]
+[Round "1"]
+[White "L'Ami,E"]
+[Black "Smeets,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2611"]
+[BlackElo "2647"]
+[EventDate "2011.06.25"]
+[ECO "D45"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8.
+O-O dxc4 9. Bxc4 a6 10. Rd1 b5 11. Bd3 Qc7 12. Bd2 c5 13. Ne4 c4 14. Nxd6
+Qxd6 15. Be2 Bb7 16. b3 Rfc8 17. bxc4 Be4 18. Qc3 bxc4 19. Qa5 Rab8 20.
+Rac1 Bd5 21. Ne5 Nxe5 22. dxe5 Qxe5 23. f3 c3 24. Rxc3 Rxc3 25. Qxc3 Qxc3
+26. Bxc3 Bxa2 27. Rd2 Bd5 28. e4 Bc6 29. Bxa6 h6 30. Be2 Rb3 31. Rd8+ Kh7
+32. Bd4 Bb5 33. Rb8 Bc4 34. Rxb3 Bxb3 35. Bb5 Nh5 36. g3 f6 37. Be8 e5 38.
+Bxe5 fxe5 39. Bxh5 g5 40. Kf2 Kg7 41. Ke3 Kf6 42. Kd3 Ke7 43. Kd2 Bc4 44.
+Bg4 Ba6 45. Bh3 Kd6 46. Ke3 Ke7 47. Kf2 Bc4 48. Bf1 Be6 49. Ke3 Bc8 50. Bc4
+Bd7 51. f4 gxf4+ 52. gxf4 Kf6 53. Bd3 exf4+ 54. Kxf4 Be6 55. Be2 Bd7 56.
+Bc4 Bc8 57. e5+ Ke7 58. Kg3 Bf5 59. Bd5 Bd7 60. Kh4 Be6 61. Bf3 Bf5 62. Kg3
+Be6 63. Bg4 Bf7 64. Kf4 Bg6 65. Bc8 Bc2 66. Kg4 Bg6 67. Bf5 Bf7 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.27"]
+[Round "2"]
+[White "Giri,A"]
+[Black "L'Ami,E"]
+[Result "1-0"]
+[WhiteElo "2687"]
+[BlackElo "2611"]
+[EventDate "2011.06.25"]
+[ECO "A13"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Qa4+ Bd7 6. Qxc4 Bc6 7. O-O Be7
+8. Qc2 O-O 9. Nc3 b6 10. d4 Nbd7 11. e4 Bb7 12. Rd1 a6 13. a3 Qb8 14. Bf4
+Nh5 15. Be3 Nhf6 16. Bf4 Nh5 17. Be3 Nhf6 18. Rac1 Rc8 19. Qb1 b5 20. b4
+Nb6 21. Bf1 Rd8 22. h3 Qa7 23. Nd2 Rac8 24. Nb3 Qa8 25. f3 Nfd7 26. Na5 e5
+27. Ne2 Bf8 28. Bg2 exd4 29. Nxd4 Ne5 30. Bg5 Re8 31. Nxb7 Qxb7 32. f4 Nec4
+33. e5 c6 34. Qe4 f6 35. Bh4 g5 36. fxg5 Rxe5 37. Qf4 fxg5 38. Bxg5 Nd5 39.
+Qg4 h5 40. Qxh5 Nde3 41. Nf3 c5 42. Qg6+ Bg7 43. Rxc4 bxc4 44. Bxe3 Rxe3
+45. Ne5 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.27"]
+[Round "2"]
+[White "Smeets,J"]
+[Black "Sokolov,Ivan"]
+[Result "1-0"]
+[WhiteElo "2647"]
+[BlackElo "2645"]
+[EventDate "2011.06.25"]
+[ECO "C69"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O f6 6. d4 Bg4 7. dxe5 Qxd1
+8. Rxd1 fxe5 9. Nbd2 O-O-O 10. Re1 Re8 11. h3 Bh5 12. b3 Bb4 13. g4 Bf7 14.
+Bb2 Nf6 15. Rad1 Nd7 16. a3 Bd6 17. Ng5 Bg8 18. Kg2 Rf8 19. Nf1 g6 20. Nf3
+h5 21. Ng5 b5 22. Rd2 Rf4 23. f3 Kd8 24. Ng3 Ke7 25. gxh5 Nf8 26. Red1 Ne6
+27. Nxe6 Bxe6 28. hxg6 Bxh3+ 29. Kf2 Bc5+ 30. Ke2 Bg2 31. Bxe5 Bxf3+ 32.
+Kd3 Rd8+ 33. Kc3 Rxd2 34. Rxd2 Rg4 35. b4 Ke6 36. Bxc7 Be7 37. Rd3 Bxe4 38.
+Re3 Bf6+ 39. Kb3 Kd5 40. Nxe4 Rxe4 41. Rd3+ Rd4 42. Rxd4+ Bxd4 43. c3 Bf6
+44. Bb6 Ke6 45. Bd4 Bd8 46. c4 a5 47. c5 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.27"]
+[Round "2"]
+[White "Swinkels,R"]
+[Black "Ernst,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2483"]
+[BlackElo "2596"]
+[EventDate "2011.06.25"]
+[ECO "C60"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 g6 4. d4 exd4 5. Bg5 Be7 6. Bxe7 Qxe7 7. Bxc6
+dxc6 8. Qxd4 Nf6 9. O-O c5 10. Qe5 Qxe5 11. Nxe5 O-O 12. f3 Re8 13. Nd3 b6
+14. Nc3 Bb7 15. Nf4 Bc6 16. Rfd1 Kf8 17. Nfd5 Bxd5 18. Nxd5 Nxd5 19. Rxd5
+Red8 20. Rad1 Rxd5 21. Rxd5 Ke7 22. Kf2 a5 23. Ke3 a4 24. g4 h6 25. f4 f6
+26. h4 Rh8 27. h5 c6 28. Rd1 gxh5 29. gxh5 Rg8 30. Kf3 b5 31. a3 c4 32. c3
+Ke6 33. e5 fxe5 34. Re1 Rd8 35. Rxe5+ Kf7 36. Re2 Rd1 37. Rg2 Rh1 38. f5
+Rxh5 39. Ke4 Rh3 40. Rg6 Rh2 41. Rxc6 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.27"]
+[Round "2"]
+[White "Brandenburg,D"]
+[Black "Nijboer,F"]
+[Result "1/2-1/2"]
+[WhiteElo "2535"]
+[BlackElo "2538"]
+[EventDate "2011.06.25"]
+[ECO "C58"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6
+bxc6 8. Bd3 Nd5 9. Nf3 Bd6 10. O-O O-O 11. Re1 Re8 12. Nc3 f5 13. Nxd5 cxd5
+14. Bb5 Bd7 15. Bxd7 Qxd7 16. d4 e4 17. Ne5 Bxe5 18. dxe5 Rxe5 19. Bf4 Re6
+20. Qd2 Nc6 21. c3 h6 22. Rad1 Rd8 23. h4 Qe7 24. Bg3 Ne5 25. Bxe5 Rxe5 26.
+g3 g5 27. hxg5 hxg5 28. f3 e3 29. Qg2 e2 30. Rd2 Re8 31. f4 Re4 32. Rxd5
+Qe6 33. Rd4 Rxd4 34. cxd4 g4 35. Qb7 Qe3+ 36. Kg2 Qxd4 37. Qb3+ Kf8 38. Qc3
+Qxc3 39. bxc3 Re3 40. c4 Ke7 41. Kf2 Rf3+ 42. Kxe2 Kf6 43. Kd2 Rxg3 44. c5
+Rh3 45. c6 Rh8 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.27"]
+[Round "2"]
+[White "Janssen,Ru"]
+[Black "Spoelman,W"]
+[Result "0-1"]
+[WhiteElo "2512"]
+[BlackElo "2564"]
+[EventDate "2011.06.25"]
+[ECO "A11"]
+
+1. c4 c6 2. Nf3 d5 3. g3 Nf6 4. Bg2 dxc4 5. O-O Nbd7 6. Na3 Nb6 7. Qc2 Qd5
+8. Ne1 Qd4 9. e3 Qg4 10. e4 h5 11. Nxc4 Nxc4 12. Qxc4 h4 13. d4 Nxe4 14.
+Qc2 Nd6 15. Bxc6+ Bd7 16. Bxd7+ Qxd7 17. Nf3 g6 18. Bg5 hxg3 19. fxg3 Nf5
+20. Rad1 Bg7 21. Ne5 Qd5 22. Qa4+ b5 23. Qb3 Rd8 24. g4 Qxb3 25. axb3 Rxd4
+26. Rxd4 Nxd4 27. Nxf7 Rf8 0-1
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.28"]
+[Round "3"]
+[White "L'Ami,E"]
+[Black "Swinkels,R"]
+[Result "0-1"]
+[WhiteElo "2611"]
+[BlackElo "2483"]
+[EventDate "2011.06.25"]
+[ECO "A52"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. Bf4 Nc6 5. Nf3 Bb4+ 6. Nbd2 Qe7 7. a3
+Ngxe5 8. Nxe5 Nxe5 9. e3 Bxd2+ 10. Qxd2 d6 11. Be2 b6 12. O-O Bb7 13. b4
+Ng6 14. Bg3 h5 15. c5 dxc5 16. bxc5 h4 17. Bb5+ Kf8 18. c6 Bc8 19. Bf4 Rh5
+20. Be2 Nxf4 21. exf4 Rc5 22. Bf3 Be6 23. Rad1 Qf6 24. Rfe1 Bb3 25. Rc1
+Rxc1 26. Rxc1 Be6 27. Rd1 Ke8 28. Re1 Rd8 29. Qe3 Kf8 30. g4 hxg3 31. hxg3
+Qd4 32. Qc1 Bd5 33. Bxd5 Rxd5 34. Qb1 Qd3 35. Qb4+ Rd6 36. f5 Qd4 37. Qb3
+Qd5 38. Qa4 Rh6 39. Qb4+ Kg8 40. Qe4 Qxe4 41. Rxe4 Rxc6 42. Re8+ Kh7 43.
+Re7 f6 44. Kg2 b5 45. g4 a5 46. f4 b4 47. axb4 axb4 48. g5 fxg5 49. fxg5 b3
+50. f6 b2 51. Rxg7+ Kh8 52. g6 Rxf6 53. Rh7+ Kg8 54. Rh1 Rc6 55. Rb1 Rc2+
+56. Kf3 c5 57. Ke3 c4 0-1
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.28"]
+[Round "3"]
+[White "Nijboer,F"]
+[Black "Smeets,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2538"]
+[BlackElo "2647"]
+[EventDate "2011.06.25"]
+[ECO "C65"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. c3 O-O 6. O-O d5 7. exd5 Qxd5
+8. Bc4 Qd7 9. b4 Bd6 10. Re1 h6 11. Nbd2 Re8 12. a4 a6 13. a5 Qe7 14. Ne4
+Nxe4 15. dxe4 Be6 16. Bxe6 Qxe6 17. Qe2 Red8 18. Be3 Rd7 19. Reb1 Ne7 20.
+Nd2 c6 21. Nc4 Re8 22. Rd1 Bc7 23. Rxd7 Qxd7 24. Rd1 Qc8 25. Bb6 Ng6 26. g3
+Nf8 27. Qe3 Qe6 28. Qe2 Bb8 29. Kg2 g6 30. Ne3 h5 31. Qc4 Qf6 32. Qd3 Qe6
+33. Qc4 Qf6 34. Qd3 Qe6 35. h4 Re7 36. Qd8 Re8 37. Qd3 Re7 38. Qd8 Re8 39.
+Qd3 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.28"]
+[Round "3"]
+[White "Spoelman,W"]
+[Black "Brandenburg,D"]
+[Result "1-0"]
+[WhiteElo "2564"]
+[BlackElo "2535"]
+[EventDate "2011.06.25"]
+[ECO "A58"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bxa6 7. g3 d6 8.
+Bg2 Bg7 9. Nf3 Nbd7 10. Rb1 O-O 11. O-O Ne8 12. Qc2 Nc7 13. Rd1 Bxc3 14.
+Qxc3 Bxe2 15. Bh6 Nf6 16. Re1 Ncxd5 17. Qd2 Bb5 18. Bxf8 Qxf8 19. a3 Ra4
+20. b4 c4 21. Nd4 Bd7 22. b5 e6 23. b6 Qb8 24. Nc2 Ra6 25. b7 Ra7 26. Qd4
+Ra4 27. Nb4 Rxb4 28. Rxb4 Bc6 29. Qxc4 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.28"]
+[Round "3"]
+[White "Sokolov,Ivan"]
+[Black "Giri,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2645"]
+[BlackElo "2687"]
+[EventDate "2011.06.25"]
+[ECO "D10"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. cxd5 cxd5 5. Bf4 Nc6 6. e3 Bf5 7. Qb3 Na5
+8. Qa4+ Bd7 9. Qc2 Rc8 10. Bd3 e6 11. Nf3 b5 12. a3 Nc4 13. O-O Be7 14. h3
+a5 15. Qe2 Nxa3 16. Nxb5 Nxb5 17. Bxb5 Qb6 18. Bd3 O-O 19. Ne5 Be8 20. Rfc1
+Rxc1+ 21. Rxc1 Ba4 22. Bg5 h6 23. Bh4 Rb8 24. Ng4 Qd8 25. Bxf6 Bxf6 26.
+Nxf6+ Qxf6 27. Rc5 Qd8 28. e4 Bb3 29. e5 Rb4 30. Qd2 Bc4 31. Qc1 Qb8 32.
+Bc2 a4 33. Ra5 Bb3 34. Bd3 Bc4 35. Bc2 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.28"]
+[Round "3"]
+[White "Ernst,S"]
+[Black "Janssen,Ru"]
+[Result "1-0"]
+[WhiteElo "2596"]
+[BlackElo "2512"]
+[EventDate "2011.06.25"]
+[ECO "E11"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 d5 5. Qa4+ Nc6 6. a3 Be7 7. g3 O-O
+8. Bg2 a5 9. O-O Bd7 10. Qc2 a4 11. cxd5 exd5 12. b4 axb3 13. Nxb3 Re8 14.
+Ne5 Bd6 15. Nxd7 Qxd7 16. e3 Na5 17. Nxa5 Rxa5 18. Bd2 Qa4 19. Qf5 Rb5 20.
+Rfb1 Rxb1+ 21. Qxb1 b6 22. Bf1 Qd7 23. Bb5 c6 24. Be2 b5 25. a4 bxa4 26.
+Rxa4 Rb8 27. Qa2 c5 28. dxc5 Bxc5 29. Bf3 Re8 30. Ra5 Bb6 31. Ra6 Bc5 32.
+Be1 Rd8 33. Qa5 Bf8 34. Ra7 Qe8 35. Bc3 Ne4 36. Bd4 g6 37. Kg2 h5 38. h4
+Bg7 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.29"]
+[Round "4"]
+[White "Swinkels,R"]
+[Black "Sokolov,Ivan"]
+[Result "1-0"]
+[WhiteElo "2483"]
+[BlackElo "2645"]
+[EventDate "2011.06.25"]
+[ECO "C69"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. h3 Bh5 7. g4 Bg6
+8. Nxe5 Qh4 9. Qf3 f6 10. Nxg6 hxg6 11. Kg2 O-O-O 12. d3 g5 13. Rh1 Ne7 14.
+Be3 Qh7 15. Nd2 Kb8 16. Kg1 Qg8 17. Nc4 Ng6 18. a3 Nh4 19. Qg3 Re8 20. f3
+g6 21. b4 Be7 22. Bb6 Bd8 23. Bd4 Rh7 24. Rh2 f5 25. Rf2 Qe6 26. c3 Rd7 27.
+Raf1 f4 28. Qh2 Rxd4 29. cxd4 Qd7 30. Kh1 Rh8 31. Qg1 Qxd4 32. Rd2 Qc3 33.
+Rc1 Qg7 34. Qf1 Bf6 35. d4 Bxd4 36. Rcd1 c5 37. bxc5 Bxc5 38. e5 Qe7 39.
+Rd5 Be3 40. Qd3 Rh7 41. Rd8+ Ka7 42. Rd7 Nxf3 43. Qf1 Qc5 44. Rxh7 Nd4 45.
+Nxe3 fxe3 46. Rxd4 Qxd4 47. Rxc7 Qd5+ 48. Qg2 e2 49. Rc1 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.29"]
+[Round "4"]
+[White "Brandenburg,D"]
+[Black "Smeets,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2535"]
+[BlackElo "2647"]
+[EventDate "2011.06.25"]
+[ECO "C24"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. Nf3 O-O 5. O-O d6 6. c3 Bb6 7. Bb3 c6 8.
+Nbd2 Re8 9. Re1 h6 10. h3 Nbd7 11. Nf1 d5 12. Ng3 Bc7 13. Nh2 Nc5 14. Bc2
+dxe4 15. dxe4 Qxd1 16. Rxd1 Be6 17. Be3 Bb6 18. Nhf1 a5 19. b4 Ncd7 20. a4
+c5 21. Rdb1 cxb4 22. cxb4 Bxe3 23. Nxe3 axb4 24. Rxb4 Nc5 25. Rd1 g6 26.
+Ne2 Rec8 27. f3 Kg7 28. Kf2 Bd7 29. Rdb1 Rc7 30. Rb6 Be6 31. R6b2 Bd7 32.
+Rb6 Bc6 33. Nc3 Ne6 34. Ne2 Nd7 35. R6b4 Ndc5 36. Nc4 Bxa4 37. Bxa4 Nd3+
+38. Ke3 Nxb4 39. Rxb4 Rxa4 40. Rxa4 b5 41. Ra5 bxc4 42. Rxe5 Ra7 43. Rd5
+Ra3+ 44. Kf2 Ra2 45. Ke3 Ra3+ 46. Kf2 Ra2 47. Ke3 Ra3+ 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.29"]
+[Round "4"]
+[White "Janssen,Ru"]
+[Black "L'Ami,E"]
+[Result "0-1"]
+[WhiteElo "2512"]
+[BlackElo "2611"]
+[EventDate "2011.06.25"]
+[ECO "A05"]
+
+1. Nf3 Nf6 2. g3 g6 3. b3 Bg7 4. Bb2 O-O 5. Bg2 d6 6. d4 e5 7. dxe5 Ng4 8.
+Nc3 Nxe5 9. Nxe5 Bxe5 10. O-O Nc6 11. Qd2 Be6 12. Rad1 Qd7 13. f4 Bg7 14.
+e4 Rad8 15. f5 gxf5 16. exf5 Bxf5 17. Nd5 Bxb2 18. c3 f6 19. Qxb2 Kh8 20.
+Qf2 Bg4 21. Rde1 Qg7 22. Nxf6 Ne5 23. Re4 Rf7 24. Rf4 Nd3 25. Rxg4 Nxf2 26.
+Rxg7 Kxg7 27. Nh5+ Kh6 28. Nf4 Ng4 29. Bxb7 Ne5 30. Bd5 Rf6 31. Re1 Rdf8
+32. c4 c5 33. Kg2 a5 34. Re2 Rxf4 35. gxf4 Rxf4 36. Rd2 Kg5 37. Bg8 Rg4+
+38. Kf2 Kf4 39. Be6 Rg6 40. Rxd6 Ng4+ 41. Ke2 Nxh2 42. Kd3 Nf3 43. Ra6 Rg2
+44. Kc3 Ne1 45. b4 axb4+ 46. Kb3 Nc2 47. a3 Nd4+ 48. Ka4 Ra2 0-1
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.29"]
+[Round "4"]
+[White "Spoelman,W"]
+[Black "Ernst,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2564"]
+[BlackElo "2596"]
+[EventDate "2011.06.25"]
+[ECO "D80"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bg5 Ne4 5. Bh4 Nxc3 6. bxc3 dxc4 7. e3 Be6
+8. Nf3 Nd7 9. Rb1 Nb6 10. Qc2 Bg7 11. Be2 O-O 12. O-O Rc8 13. a4 c5 14.
+Rfd1 Bf5 15. e4 Bd7 16. dxc5 Rxc5 17. Qd2 Rc7 18. Bg3 Rc8 19. Qe3 Qe8 20.
+a5 Na4 21. e5 b5 22. axb6 axb6 23. Nd4 b5 24. Rb4 Nc5 25. Rdb1 Na6 26. R4b2
+Nc7 27. Bf3 e6 28. Ra1 Qe7 29. Ra7 Rfd8 30. Nxb5 Bxb5 31. Rxb5 Qd7 32. Rb1
+Qd3 33. Qe1 Nd5 34. Rbb7 Rb8 35. Bxd5 Qxd5 36. Rxf7 Bh6 37. h4 Qd3 38. Rfb7
+Rxb7 39. Rxb7 Qc2 40. Rb1 Bd2 41. Qd1 Qd3 42. Kh2 Bxc3 43. Qg4 Qxb1 44.
+Qxe6+ Kf8 45. Qf6+ Ke8 46. Qe6+ 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.29"]
+[Round "4"]
+[White "Giri,A"]
+[Black "Nijboer,F"]
+[Result "1/2-1/2"]
+[WhiteElo "2687"]
+[BlackElo "2538"]
+[EventDate "2011.06.25"]
+[ECO "A80"]
+
+1. d4 f5 2. Nf3 Nf6 3. g3 g6 4. Bg2 Bg7 5. O-O O-O 6. b3 d6 7. Bb2 Ne4 8.
+Nbd2 Nc6 9. Re1 Nxd2 10. Qxd2 e5 11. dxe5 dxe5 12. Qxd8 Rxd8 13. e4 fxe4
+14. Ng5 h6 15. Nxe4 Nd4 16. c3 Ne6 17. Ba3 Re8 18. Nd2 Nd8 19. Nc4 Rb8 20.
+Rad1 Nf7 21. Bd5 Be6 22. Na5 Bxd5 23. Rxd5 e4 24. Re3 Ne5 25. h3 Re6 26.
+Bc1 b6 27. Nc4 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.30"]
+[Round "5"]
+[White "L'Ami,E"]
+[Black "Spoelman,W"]
+[Result "1/2-1/2"]
+[WhiteElo "2611"]
+[BlackElo "2564"]
+[EventDate "2011.06.25"]
+[ECO "D31"]
+
+1. d4 d5 2. c4 c6 3. Nf3 e6 4. Nc3 dxc4 5. Bg5 f6 6. Bd2 b5 7. a4 Qd7 8. g3
+Bb4 9. Bh3 Ne7 10. O-O a5 11. axb5 cxb5 12. d5 Bxc3 13. dxe6 Qd5 14. Bxc3
+Nbc6 15. Nd4 Nxd4 16. Bg2 Qxe6 17. Qxd4 Ra6 18. Rxa5 Rxa5 19. Bxa5 Kf7 20.
+Qc5 Bd7 21. Rd1 Rc8 22. Qa7 Bc6 23. Bxc6 Rxc6 24. Bb4 Ra6 25. Qb7 Rb6 26.
+Qc7 Rc6 27. Qd7 Rb6 28. e3 Qe4 29. Bxe7 Qxe7 30. Qd5+ Kf8 31. Qf5 Rd6 32.
+Rxd6 Qxd6 33. Qxb5 Qd1+ 34. Kg2 Qc2 35. Qc5+ Kf7 36. Qd5+ Ke7 37. Qd4 h5
+38. h4 Qe2 39. Qc5+ Ke6 40. Qc6+ Ke5 41. Qc5+ Ke4 42. Qd4+ Kf5 43. Qd5+ Kg6
+44. Qe4+ Kh6 45. Qd4 Kg6 46. Qc3 Kh6 47. b3 cxb3 48. Qxb3 Kg6 49. Qd5 Kh6
+50. Qf5 Qd1 51. e4 Qe2 52. Qf4+ Kg6 53. Qf3 Qb5 54. Qe3 Kf7 55. Qd2 Kg6 56.
+Qd6 Qe2 57. Qe6 Kh7 58. Qf5+ Kh6 59. Kh2 Qd1 60. Qf4+ Kg6 61. Qe3 Kf7 62.
+Kg2 Kg6 63. Qf3 Qd7 64. Qe2 Qc6 65. Qd3 Kh6 66. Kf3 Qa4 67. Ke2 Qc6 68. Qd5
+Qa4 69. Kf3 Qc2 70. Qd4 Kg6 71. Qe3 Kf7 72. Kg2 Kg6 73. Qf3 Qc8 74. Qd3 Kh6
+75. Qe3+ Kg6 76. Kg1 Qc2 77. e5 Qd1+ 78. Kh2 fxe5 79. Qxe5 Kh7 80. Qe4+ g6
+81. Kg2 Kg7 82. Qb7+ Kg8 83. Qf3 Qc2 84. Qd5+ Kg7 85. Qd7+ Kf6 86. Qe8 Qc5
+87. Qe3 Qc2 88. Qd4+ Kf7 89. Kf3 Qc6+ 90. Kf4 Qc1+ 91. Ke4 Qc2+ 92. Kd5
+Qf5+ 93. Kd6 Qe6+ 94. Kc5 Qc8+ 95. Kb4 Qb7+ 96. Kc3 Qf3+ 97. Kd2 Qb3 98.
+Qd7+ Kf6 99. Qd3 Qb6 100. Ke2 Qc5 101. Qe3 Qc2+ 102. Kf3 Qc6+ 103. Qe4 Qc3+
+104. Kg2 Qb2 105. Qf4+ Kg7 106. Qc7+ Kf6 107. Qd8+ Kf7 108. Qd7+ Kf6 109.
+Qe8 Qb4 110. Qe3 Qb2 111. Qf4+ Kg7 112. Kf3 Qc3+ 113. Qe3 Qc6+ 114. Qe4 Qc5
+115. Kg2 Kf7 116. g4 hxg4 117. Qxg4 Qc2 118. Kg3 Qb1 119. Qf4+ Kg7 120. Kg2
+Qc2 121. Qe5+ Kf7 122. Kg3 Qb1 123. Kg4 Qd1+ 124. f3 Qd7+ 125. Kg3 Qa7 126.
+Kf4 Qd7 127. h5 Qd2+ 128. Kg3 gxh5 129. Qxh5+ Kf6 130. Qh8+ Kf7 131. Qe5
+Qd1 132. Qc7+ Kf6 133. Qc6+ Kf7 134. Qc7+ Kf6 135. Qb6+ Kf5 136. Qc5+ Kf6
+137. Kg4 Qd7+ 138. Kf4 Qd2+ 139. Kg3 Qg5+ 140. Qxg5+ Kxg5 141. f4+ Kf5 142.
+Kf3 Kf6 143. Ke4 Ke6 144. f5+ Kf6 145. Kf4 Kf7 146. Ke5 Ke7 147. f6+ Kf7
+148. Kf5 Kf8 149. Ke6 Ke8 150. f7+ Kf8 151. Kf6 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.30"]
+[Round "5"]
+[White "Sokolov,Ivan"]
+[Black "Janssen,Ru"]
+[Result "1-0"]
+[WhiteElo "2645"]
+[BlackElo "2512"]
+[EventDate "2011.06.25"]
+[ECO "E45"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Nge2 Ba6 6. Ng3 h5 7. h4 Bb7 8.
+f3 c5 9. a3 cxd4 10. axb4 dxc3 11. bxc3 Qc7 12. Kf2 Nc6 13. Be2 Ne5 14. c5
+bxc5 15. bxc5 Qxc5 16. Ba3 Qc6 17. Qd6 Qxd6 18. Bxd6 Nc6 19. Rhb1 Nd8 20.
+Ra5 Bc6 21. Ba6 g6 22. e4 Ng8 23. Ne2 f6 24. c4 Ne7 25. c5 Kf7 26. Nf4 Nc8
+27. Bc7 Kg7 28. Rd1 Nf7 29. Bb5 Bxb5 30. Rxb5 g5 31. hxg5 fxg5 32. Rxd7
+gxf4 33. Be5+ Kg6 34. Bxh8 Nxh8 35. Rbb7 a5 36. Rh7 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.30"]
+[Round "5"]
+[White "Nijboer,F"]
+[Black "Swinkels,R"]
+[Result "0-1"]
+[WhiteElo "2538"]
+[BlackElo "2483"]
+[EventDate "2011.06.25"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nd2 e6 5. Nb3 Nd7 6. Nf3 Ne7 7. Be2 Nc8 8.
+O-O Be7 9. Be3 O-O 10. c3 Qc7 11. a4 c5 12. dxc5 Nxc5 13. Nfd4 Nxb3 14.
+Qxb3 Be4 15. f3 Bg6 16. f4 Bc5 17. Qd1 a6 18. Kh1 Be4 19. Bf3 Bxf3 20. Rxf3
+Ne7 21. Rh3 Bxd4 22. Bxd4 Nf5 23. a5 Nxd4 24. Qxd4 Rac8 25. Rd3 Qe7 26. Qf2
+g6 27. Rd4 Rc5 28. Rb4 Rfc8 29. Kg1 Rc4 30. Rxc4 Rxc4 31. g3 Qc7 32. Qe3
+Rc5 33. g4 Rxa5 34. Rxa5 Qxa5 35. Kg2 Qb5 36. b4 Qc4 37. h3 d4 38. cxd4
+Qxb4 39. f5 a5 40. d5 exd5 41. e6 Qe7 42. Kh1 gxf5 43. gxf5 fxe6 44. fxe6
+Kg7 45. Qe5+ Kg6 46. Qxd5 Kf6 47. Qxa5 Kxe6 48. Qb6+ Kf7 49. Qb3+ Ke8 50.
+Qd5 Qf7 51. Qd6 Qf3+ 52. Kh2 h5 53. Kg1 Qe3+ 54. Kg2 Qe4+ 55. Kh2 h4 56.
+Qc7 Qe2+ 57. Kg1 Qe3+ 58. Kg2 Qg5+ 59. Kh2 Qd2+ 60. Kg1 Qd4+ 61. Kg2 Qd5+
+62. Kh2 b5 63. Qc8+ Ke7 64. Qc7+ Ke6 65. Qc8+ Kf7 66. Qc7+ Kg6 67. Qf4 Qa2+
+68. Kg1 Qb1+ 69. Kg2 Qc2+ 70. Kg1 Qc5+ 71. Kh2 Qc4 72. Qe5 b4 73. Qe8+ Kf6
+74. Qf8+ Ke5 75. Qe7+ Kd5 76. Qf7+ Kd4 77. Qf4+ Kc3 78. Qe3+ 0-1
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.30"]
+[Round "5"]
+[White "Smeets,J"]
+[Black "Giri,A"]
+[Result "0-1"]
+[WhiteElo "2647"]
+[BlackElo "2687"]
+[EventDate "2011.06.25"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 Ng4 7. Bg5 h6 8.
+Bh4 g5 9. Bg3 Bg7 10. h3 Nf6 11. Qf3 Qb6 12. O-O-O Nc6 13. Nxc6 Qxc6 14.
+Be2 Qc5 15. Rhe1 Be6 16. e5 dxe5 17. Bd3 Nd7 18. Bf5 Bxf5 19. Qxf5 Qc6 20.
+Rd2 e6 21. Qd3 f5 22. Red1 Rd8 23. Qe2 Ke7 24. Qh5 Rhg8 25. Qe2 Qc7 26. Re1
+Bf6 27. Bh2 b5 28. a3 Qc4 29. Qxc4 bxc4 30. f3 Bg7 31. Na4 h5 32. Kb1 g4
+33. hxg4 hxg4 34. fxg4 Bh6 35. Rxd7+ Rxd7 36. gxf5 exf5 37. Bxe5 Kf7 38.
+Rf1 Kg6 39. Nb6 Re7 40. Nxc4 Rc8 41. Bd6 Re6 42. Ne5+ Kg7 43. Rd1 Bf4 44.
+Nf7 Be3 45. Ne5 Bf4 46. Nf7 Rc4 47. Bxf4 Rxf4 48. Nd6 Rf2 49. g3 Kg6 50. b4
+Ree2 51. Rc1 Rf3 52. a4 Rxg3 53. Rf1 Re5 54. Kb2 Rd5 55. Nb7 Rd4 56. c3
+Rdd3 57. Rc1 f4 58. Nc5 Rd6 59. Kb3 Kf5 60. b5 axb5 61. axb5 f3 62. Kb4 f2
+63. Rf1 Rd2 64. Nb3 Rb2 65. b6 Rg1 66. Rxf2+ Rxf2 67. Kc5 Rb1 68. Nd4+ Ke5
+69. Nb5 Rxb5+ 0-1
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.06.30"]
+[Round "5"]
+[White "Ernst,S"]
+[Black "Brandenburg,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2596"]
+[BlackElo "2535"]
+[EventDate "2011.06.25"]
+[ECO "E94"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 e5 7. O-O Na6 8.
+Be3 Ng4 9. Bg5 Qe8 10. h3 h6 11. Bh4 exd4 12. Nxd4 Nf6 13. Bf3 Nh7 14. g4
+Ng5 15. Bg2 Nc5 16. f4 Ngxe4 17. Nd5 g5 18. Be1 gxf4 19. Nxc7 Qe5 20. Ne2
+Rb8 21. Rb1 f5 22. gxf5 Bxf5 23. Nxf4 Ng5 24. Ncd5 Bxb1 25. Bc3 Qe8 26.
+Bxg7 Kxg7 27. Qxb1 Nce6 28. Qd3 Nxf4 29. Nxf4 Rxf4 30. Rxf4 Qe1+ 31. Kh2
+Qe5 32. Qg3 Kh8 33. h4 Ne6 34. Rf7 Qxg3+ 35. Kxg3 b5 36. cxb5 Rxb5 37. b3
+a5 38. Rd7 Nd4 39. Bf1 Rc5 40. Bc4 a4 41. Kf4 axb3 42. axb3 Rh5 43. Rxd6
+Rxh4+ 44. Ke5 Nf3+ 45. Kf6 Rf4+ 46. Kg6 Ne5+ 47. Kxh6 Rh4+ 48. Kg5 Rxc4
+1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.02"]
+[Round "6"]
+[White "Brandenburg,D"]
+[Black "Giri,A"]
+[Result "0-1"]
+[WhiteElo "2535"]
+[BlackElo "2687"]
+[EventDate "2011.06.25"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e6 7. g4 Be7 8.
+Bg2 Nfd7 9. Be3 Nc6 10. O-O O-O 11. f4 Nxd4 12. Qxd4 e5 13. Qd2 exf4 14.
+Bxf4 Ne5 15. Nd5 Be6 16. Nxe7+ Qxe7 17. Rad1 Rfd8 18. Rf2 b5 19. b3 Qc7 20.
+Qe3 Rd7 21. Rfd2 h6 22. Qf2 f6 23. Rd4 Rc8 24. Qd2 Nf7 25. Kh1 Qxc2 26.
+Bxd6 a5 27. Bf1 b4 28. Bb5 Rdd8 29. Qxc2 Rxc2 30. Bf4 Rxd4 31. Rxd4 Rxa2
+32. Ba4 Rc2 33. Rd3 g5 34. Bd2 Ne5 35. Rd6 Nf3 0-1
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.02"]
+[Round "6"]
+[White "Ernst,S"]
+[Black "L'Ami,E"]
+[Result "1-0"]
+[WhiteElo "2596"]
+[BlackElo "2611"]
+[EventDate "2011.06.25"]
+[ECO "D58"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 b6 8.
+Be2 Bb7 9. Bxf6 Bxf6 10. cxd5 exd5 11. b4 c6 12. O-O a5 13. b5 c5 14. Ne5
+Bxe5 15. dxe5 d4 16. exd4 cxd4 17. Na4 Qg5 18. Bf3 Bxf3 19. Qxf3 Nd7 20.
+Qh3 Qe7 21. Rad1 Nxe5 22. Rxd4 Rad8 23. Qe3 Rxd4 24. Qxd4 Qf6 25. Rd1 Re8
+26. f4 Nf3+ 27. gxf3 Re1+ 28. Kf2 Rxd1 29. Qxd1 Qxf4 30. Kg2 Qg5+ 31. Kh1
+Qxb5 32. Nc3 Qc4 33. Qe1 f5 34. a4 Kh7 35. Kg2 Qd4 36. Qc1 Qd3 37. Kf2 Qd6
+38. Kg2 Qd3 39. Qb2 g5 40. Nb5 Kg6 41. Nd4 Kh5 42. Ne2 f4 43. Qe5 Kg6 44.
+h4 Qd7 45. h5+ 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.02"]
+[Round "6"]
+[White "Spoelman,W"]
+[Black "Sokolov,Ivan"]
+[Result "0-1"]
+[WhiteElo "2564"]
+[BlackElo "2645"]
+[EventDate "2011.06.25"]
+[ECO "A50"]
+
+1. d4 Nf6 2. c4 b6 3. Nc3 Bb7 4. Qc2 d5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 g6
+8. Nf3 Bg7 9. Bc4 O-O 10. O-O Nd7 11. Bf4 e5 12. dxe5 Qe7 13. Rad1 Nxe5 14.
+Nxe5 Bxe5 15. Bxe5 Qxe5 16. Bd5 c6 17. f4 Qe7 18. Bb3 Rad8 19. e5 Bc8 20.
+Rxd8 Rxd8 21. Rd1 Kg7 22. Rxd8 Qxd8 23. Qd1 Qe7 24. Qd4 c5 25. Qe4 h5 26.
+Bd5 b5 27. Bc6 a6 28. a3 c4 29. Qd4 Be6 30. a4 b4 31. cxb4 Qxb4 32. Kf2 a5
+33. Ke3 Qe1+ 0-1
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.02"]
+[Round "6"]
+[White "Janssen,Ru"]
+[Black "Nijboer,F"]
+[Result "0-1"]
+[WhiteElo "2512"]
+[BlackElo "2538"]
+[EventDate "2011.06.25"]
+[ECO "A00"]
+
+1. g3 g6 2. Bg2 Bg7 3. c4 f5 4. Nc3 Nf6 5. d3 d6 6. e4 fxe4 7. dxe4 O-O 8.
+Nge2 c5 9. O-O Nc6 10. f4 Be6 11. b3 Qd7 12. Qd3 Bg4 13. Be3 e5 14. Rf2 Nd4
+15. Rff1 Rae8 16. Rae1 Kh8 17. Bd2 a6 18. Kh1 b5 19. Ng1 b4 20. Nd1 a5 21.
+Ne3 Be6 22. f5 gxf5 23. exf5 Bg8 24. g4 Bh6 25. h3 e4 26. Qb1 Qg7 27. Qc1
+Bg5 28. Nc2 Bxd2 29. Qxd2 Nxc2 30. Qxc2 h5 31. Qd2 hxg4 32. Qxd6 Rd8 33.
+Qxc5 Nh5 34. Re3 Rd3 35. f6 Nxf6 36. Rf5 Bh7 37. Rg5 Nd7 38. Qxa5 Qf6 39.
+Re1 gxh3 40. Nxh3 Qc3 41. Rb1 Rxh3+ 42. Bxh3 Qxh3+ 43. Kg1 e3 44. Qd5 e2
+45. Qd4+ Rf6 0-1
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.02"]
+[Round "6"]
+[White "Swinkels,R"]
+[Black "Smeets,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2483"]
+[BlackElo "2647"]
+[EventDate "2011.06.25"]
+[ECO "A11"]
+
+1. c4 c6 2. g3 d5 3. Nf3 dxc4 4. Bg2 b5 5. a4 Bb7 6. b3 cxb3 7. Qxb3 a6 8.
+Ne5 e6 9. Bb2 Qb6 10. O-O Nf6 11. Rc1 Be7 12. Na3 O-O 13. Nac4 Qc7 14. Ne3
+Nfd7 15. Nxd7 Qxd7 16. Ng4 Qxd2 17. Rc2 Qb4 18. Qf3 Nd7 19. Rd1 Rad8 20.
+Rd4 Qe1+ 21. Bf1 f5 22. Rc1 fxg4 23. Qxf8+ Nxf8 24. Rxe1 Rxd4 25. Bxd4 c5
+26. Rc1 Nd7 27. axb5 axb5 28. e3 Bc6 29. Be2 h5 30. h3 gxh3 31. Bxh5 Bd5
+32. Be8 cxd4 33. Bxd7 dxe3 34. fxe3 b4 35. e4 Bxe4 36. Bxe6+ Kh7 37. Kh2
+Kg6 38. Kxh3 Kf6 39. Bb3 Ke5 40. Rc7 Kd6 41. Rc4 Ke5 42. Rc7 Kd6 43. Rc4
+1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.03"]
+[Round "7"]
+[White "Nijboer,F"]
+[Black "Spoelman,W"]
+[Result "1-0"]
+[WhiteElo "2538"]
+[BlackElo "2564"]
+[EventDate "2011.06.25"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8.
+f4 exf4 9. Bxf4 Nc6 10. Qe2 Be7 11. h3 Nd7 12. O-O-O Nde5 13. Nd5 O-O 14.
+Kb1 b5 15. Qd2 Re8 16. g4 Bf8 17. g5 Nc4 18. Qc1 Bxd5 19. exd5 N6e5 20. Nd4
+g6 21. b3 Nb6 22. Nc6 Qc7 23. Bg2 Bg7 24. Rhe1 Nxd5 25. Bxe5 Rxe5 26. Bxd5
+Ree8 27. Rf1 Rf8 28. Rde1 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.03"]
+[Round "7"]
+[White "Giri,A"]
+[Black "Swinkels,R"]
+[Result "1-0"]
+[WhiteElo "2687"]
+[BlackElo "2483"]
+[EventDate "2011.06.25"]
+[ECO "D97"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Nc6
+8. Be2 Bg4 9. d5 Na5 10. Qb4 Bxf3 11. Bxf3 c6 12. O-O Qb6 13. Qa4 Nd7 14.
+Rd1 Rfd8 15. g3 Rac8 16. Bg4 Nc5 17. Qc2 e6 18. Bg5 Re8 19. Na4 Nxa4 20.
+Qxa4 cxd5 21. exd5 Nc4 22. dxe6 fxe6 23. Rac1 Ne5 24. Be3 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.03"]
+[Round "7"]
+[White "L'Ami,E"]
+[Black "Brandenburg,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2611"]
+[BlackElo "2535"]
+[EventDate "2011.06.25"]
+[ECO "A57"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. e3 axb5 6. Bxb5 Qa5+ 7. Nc3 Bb7
+8. Bd2 Qb6 9. a4 Nxd5 10. Nf3 e6 11. O-O Be7 12. e4 Nxc3 13. Bxc3 O-O 14.
+e5 Nc6 15. Re1 Qc7 16. Nd2 Rfd8 17. Qg4 Nd4 18. Bxd4 cxd4 19. Rac1 Qb8 20.
+Qxd4 Bc6 21. Qc4 Bxb5 22. Qxb5 Qxb5 23. axb5 Rab8 24. Rc7 Rxb5 25. Nc4 Rc5
+26. Rxc5 Bxc5 27. Rd1 Kf8 28. Kf1 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.03"]
+[Round "7"]
+[White "Smeets,J"]
+[Black "Janssen,Ru"]
+[Result "0-1"]
+[WhiteElo "2647"]
+[BlackElo "2512"]
+[EventDate "2011.06.25"]
+[ECO "C73"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. Bxc6+ bxc6 6. d4 exd4 7. Nxd4
+Ne7 8. b3 c5 9. Nf3 Ng6 10. Bb2 Bb7 11. Nbd2 f6 12. h4 h5 13. Qe2 Qe7 14.
+O-O-O Nf4 15. Qf1 g6 16. g3 Ne6 17. Qd3 Bh6 18. Rhe1 O-O-O 19. Kb1 Rhe8 20.
+Qc3 Bg7 21. Qc4 Qd7 22. Qf1 Qf7 23. Qc4 Qd7 24. Qf1 Qf7 25. Qc4 Bh6 26. Qc3
+Rf8 27. Nc4 f5 28. e5 d5 29. Na5 f4 30. Rd3 fxg3 31. fxg3 Qd7 32. Nxb7 Kxb7
+33. Bc1 Bxc1 34. Kxc1 Qe7 35. Red1 c6 36. Kb2 Rf5 37. Ng5 Nxg5 38. hxg5
+Qxe5 39. g4 hxg4 40. Rg1 Qxc3+ 41. Rxc3 Rxg5 42. Rxc5 Rf8 43. Rc3 Kc7 44.
+Re3 Kd6 45. Kc3 Rf3 46. Rxf3 gxf3 47. Rxg5 f2 48. Rxg6+ Ke7 49. Rxc6 f1=Q
+50. Kb2 d4 51. Rc4 Qf2 52. Ka3 Kd6 53. Rc8 Qd2 54. b4 Qc1+ 55. Kb3 Qb1+ 56.
+Ka3 Kd5 57. Rc7 Ke4 58. Rc5 Ke3 59. Rc4 d3 0-1
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.03"]
+[Round "7"]
+[White "Sokolov,Ivan"]
+[Black "Ernst,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2645"]
+[BlackElo "2596"]
+[EventDate "2011.06.25"]
+[ECO "D80"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Qa4+ Bd7 5. Qb3 dxc4 6. Qxc4 Bg7 7. g3 Bc6
+8. Nf3 Bxf3 9. exf3 Nc6 10. Be3 e5 11. dxe5 Nxe5 12. Qa4+ Qd7 13. Qxd7+
+Nfxd7 14. O-O-O Nxf3 15. Nb5 O-O-O 16. Nxa7+ Kb8 17. Be2 Nde5 18. Nb5 g5
+19. h3 f5 20. Rxd8+ Rxd8 21. Rd1 Rxd1+ 22. Kxd1 Kc8 23. b3 Kd7 24. a4 h5
+25. Bd4 c6 26. Bxe5 Bxe5 27. Bxf3 cxb5 28. Bxb7 bxa4 29. bxa4 f4 30. gxf4
+gxf4 31. Ke2 Bd4 32. a5 Kc7 33. Be4 h4 34. Kf3 Kb8 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.04"]
+[Round "8"]
+[White "Ernst,S"]
+[Black "Nijboer,F"]
+[Result "1/2-1/2"]
+[WhiteElo "2596"]
+[BlackElo "2538"]
+[EventDate "2011.06.25"]
+[ECO "A89"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nf3 Bg7 5. O-O O-O 6. c4 d6 7. Nc3 Nc6 8.
+d5 Na5 9. Qa4 c5 10. dxc6 Nxc6 11. Rd1 Kh8 12. Qc2 e5 13. Nb5 Qe7 14. b3 e4
+15. Nfd4 Nxd4 16. Rxd4 Ne8 17. Be3 a6 18. Nc3 Be6 19. f3 Bxd4 20. Bxd4+ Kg8
+21. Rf1 Nf6 22. fxe4 fxe4 23. Rxf6 Rxf6 24. Nxe4 Rf5 25. g4 Re5 26. h3 Re8
+27. Bxe5 dxe5 28. Qc3 Bf7 29. c5 Rd8 30. Nd6 b6 31. Nxf7 Qxf7 32. cxb6 Rd1+
+33. Kh2 Qf4+ 34. Qg3 Qd4 35. e3 Qxb6 36. Qxe5 Qd6 37. Qxd6 Rxd6 38. Kg3 g5
+39. Bf1 Kg7 40. h4 h6 41. hxg5 hxg5 42. Kf3 Rf6+ 43. Ke2 a5 44. Bg2 Rh6 45.
+a3 Rh4 46. Kf3 Kf6 47. b4 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.04"]
+[Round "8"]
+[White "Brandenburg,D"]
+[Black "Swinkels,R"]
+[Result "1/2-1/2"]
+[WhiteElo "2535"]
+[BlackElo "2483"]
+[EventDate "2011.06.25"]
+[ECO "C45"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2
+Nd5 8. c4 Nb6 9. Nc3 Qe6 10. Qe4 g6 11. Bd3 Bg7 12. f4 O-O 13. O-O Ba6 14.
+b3 d5 15. cxd5 cxd5 16. Qf3 Bxd3 17. Qxd3 c5 18. Ba3 Rac8 19. Qb5 a6 20.
+Qa5 Qc6 21. Rac1 Rfd8 22. Ne2 Bf8 23. Nd4 Qb7 24. Rxc5 Bxc5 25. Bxc5 Nd7
+26. Be7 Re8 27. Bd6 Qb6 28. Qxd5 Nc5 29. Kh1 Ne6 30. Nxe6 fxe6 31. Qd2 Qc6
+32. h3 Qe4 33. Rc1 Qd5 34. Qe3 Rc6 35. Rxc6 Qxc6 36. b4 Rc8 37. Bc5 a5 38.
+a3 Qd5 39. Kh2 axb4 40. axb4 Ra8 41. Qg3 Qe4 42. Qh4 h5 43. Bd6 Ra2 44.
+Qd8+ Kh7 45. Qd7+ Kh8 46. Qe8+ Kh7 47. Qf7+ Kh8 48. Qf6+ Kh7 49. Qe7+ Kh8
+50. Qf8+ 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.04"]
+[Round "8"]
+[White "L'Ami,E"]
+[Black "Sokolov,Ivan"]
+[Result "0-1"]
+[WhiteElo "2611"]
+[BlackElo "2645"]
+[EventDate "2011.06.25"]
+[ECO "D35"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 Be7 6. e3 c6 7. Qc2 Nbd7
+8. Bd3 Nh5 9. Bxe7 Qxe7 10. Nge2 Nb6 11. h3 g6 12. O-O-O Ng7 13. g4 Bd7 14.
+Nf4 g5 15. Nfe2 h5 16. Ng3 O-O-O 17. Nf5 Bxf5 18. gxf5 Ne8 19. Rhe1 g4 20.
+hxg4 hxg4 21. Ne2 Nf6 22. Rh1 Rh3 23. Rdg1 Rdh8 24. Qd1 c5 25. dxc5 Qxc5+
+26. Kb1 Nc4 27. Nf4 Rh2 28. Rxh2 Rxh2 29. Qe1 Ne5 30. Qe2 Kb8 31. Rc1 Qd6
+32. Qc2 Nc6 33. Bf1 g3 34. Bg2 Ng4 35. fxg3 Nxe3 36. Qf2 Qe5 37. Ka1 Nxg2
+38. Nxg2 d4 39. Rg1 d3 40. Rd1 Qe2 0-1
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.04"]
+[Round "8"]
+[White "Spoelman,W"]
+[Black "Smeets,J"]
+[Result "1-0"]
+[WhiteElo "2564"]
+[BlackElo "2647"]
+[EventDate "2011.06.25"]
+[ECO "D12"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 e6 6. Nh4 Bg6 7. Nxg6 hxg6 8.
+g3 Nbd7 9. a3 Bd6 10. b3 Ne4 11. Nxe4 dxe4 12. Bb2 Qe7 13. Be2 f5 14. b4 a6
+15. Qb3 Nf6 16. h4 g5 17. O-O-O gxh4 18. gxh4 O-O-O 19. Rdg1 Rh6 20. h5
+Rdh8 21. Rg2 g5 22. Rxg5 Ng4 23. Rxg4 fxg4 24. d5 Rxh5 25. Rd1 Rg8 26. dxc6
+Be5 27. Bxe5 Rxe5 28. Qa4 Rd8 29. Rxd8+ Kxd8 30. c5 bxc6 31. Qxc6 Qd7 32.
+Qb6+ Qc7 33. Qxa6 Ke7 34. Bc4 Kf6 35. Qb6 Qe7 36. c6 Rh5 37. c7 Rh8 38. Ba6
+Qd7 39. Qd4+ Qxd4 40. exd4 e3 41. c8=Q Rxc8+ 42. Bxc8 exf2 43. Ba6 g3 44.
+Bf1 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.04"]
+[Round "8"]
+[White "Janssen,Ru"]
+[Black "Giri,A"]
+[Result "0-1"]
+[WhiteElo "2512"]
+[BlackElo "2687"]
+[EventDate "2011.06.25"]
+[ECO "A07"]
+
+1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. O-O Nf6 5. b3 Ne4 6. c3 O-O 7. Bb2 c5 8.
+d3 Nd6 9. Nbd2 Nc6 10. Rb1 e5 11. c4 d4 12. a3 a5 13. e3 dxe3 14. fxe3 Nf5
+15. Qe2 Bh6 16. Ne4 Bxe3+ 17. Kh1 Ncd4 18. Nxd4 cxd4 19. g4 Nh4 20. Nf6+
+Kg7 21. Bc1 Ra6 22. Bxe3 dxe3 23. g5 Nf5 24. Be4 h6 25. gxh6+ Kxf6 26. Qxe3
+Ke7 27. Qg1 Rh8 28. Rbe1 Nxh6 29. Bd5 Nf5 30. Rxe5+ Kf8 31. Qg2 Rf6 32.
+Rfe1 Kg7 33. Qb2 Qb6 34. c5 Qxc5 35. Bxf7 Ng3+ 36. Kg2 Rf2+ 0-1
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.05"]
+[Round "9"]
+[White "Swinkels,R"]
+[Black "Janssen,Ru"]
+[Result "1/2-1/2"]
+[WhiteElo "2483"]
+[BlackElo "2512"]
+[EventDate "2011.06.25"]
+[ECO "A62"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. d5 exd5 5. cxd5 d6 6. Nc3 g6 7. Bg2 Bg7 8.
+Nf3 O-O 9. O-O a6 10. a4 Nbd7 11. h3 Re8 12. Nd2 Rb8 13. Nc4 Nb6 14. Na3
+Nfd7 15. Ne4 Ne5 16. Bg5 f6 17. Bf4 Bf5 18. Nc3 Bd7 19. Bxe5 Rxe5 20. a5
+Nc8 21. Nc4 Re8 22. e4 f5 23. exf5 Bxf5 24. Qd2 b5 25. axb6 Nxb6 26. Na5
+Qf6 27. Ra2 Qd4 28. Qc1 Bd3 29. Nc6 Qc4 30. Ra3 Ra8 31. Re1 Bd4 32. Na5 Qb4
+33. Nc6 Qc4 34. Na5 Qb4 35. Nc6 Qc4 1/2-1/2
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.05"]
+[Round "9"]
+[White "Giri,A"]
+[Black "Spoelman,W"]
+[Result "1-0"]
+[WhiteElo "2687"]
+[BlackElo "2564"]
+[EventDate "2011.06.25"]
+[ECO "D45"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e6 4. e3 Nf6 5. Nf3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8.
+O-O dxc4 9. Bxc4 a6 10. Rd1 b5 11. Bd3 Qc7 12. Bd2 c5 13. Ne4 c4 14. Nxd6
+Qxd6 15. Be2 Bb7 16. b3 Rfc8 17. bxc4 Be4 18. Qc3 bxc4 19. Qa5 Rab8 20. Ne5
+Bd5 21. Nxd7 Nxd7 22. f3 Rb5 23. Qc3 f5 24. Rdc1 Nb6 25. a4 Rb3 26. Qa5 Nd7
+27. Bd1 Rb7 28. Be1 e5 29. Bg3 Qe6 30. dxe5 Nc5 31. Rab1 Rxb1 32. Rxb1 Nb3
+33. Qc3 Bc6 34. Rxb3 cxb3 35. Bxb3 Bd5 36. Bxd5 Rxc3 37. Bxe6+ Kf8 38. Bxf5
+1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.05"]
+[Round "9"]
+[White "Nijboer,F"]
+[Black "L'Ami,E"]
+[Result "1-0"]
+[WhiteElo "2538"]
+[BlackElo "2611"]
+[EventDate "2011.06.25"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. O-O c5 7. c4 Nbc6 8.
+dxc5 d4 9. Qb3 Qd7 10. Rd1 Ng6 11. Nc3 Bxc5 12. Qb5 b6 13. Na4 Ncxe5 14.
+Qxd7+ Nxd7 15. Nxd4 Bxd4 16. Rxd4 e5 17. Rd2 Nf4 18. Bf1 f6 19. b3 Nc5 20.
+Nxc5 bxc5 21. Ba3 Ne6 22. f4 Nxf4 23. Bxc5 a5 24. Be3 Kf7 25. Rd6 Rhd8 26.
+Rad1 Rxd6 27. Rxd6 Bb1 28. g3 Ne6 29. c5 Nd4 30. Bxd4 exd4 31. a3 d3 32.
+Bxd3 Bxd3 33. Rxd3 Rb8 34. c6 Ke6 35. Rc3 Kd6 36. c7 Rc8 37. Kf2 Rxc7 38.
+Rxc7 Kxc7 39. Ke3 Kd6 40. Ke4 g6 41. g4 Kc5 42. h3 Kd6 43. Kd4 Kc6 44. Kc4
+f5 45. gxf5 gxf5 46. Kd4 Kd6 47. h4 Ke6 48. h5 Kd6 49. Ke3 Ke5 50. h6 Kd5
+1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.05"]
+[Round "9"]
+[White "Smeets,J"]
+[Black "Ernst,S"]
+[Result "1-0"]
+[WhiteElo "2647"]
+[BlackElo "2596"]
+[EventDate "2011.06.25"]
+[ECO "C69"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Qf6 6. d4 exd4 7. Bg5 Qd6
+8. Qxd4 Qxd4 9. Nxd4 Bd7 10. Nc3 Ne7 11. Rad1 O-O-O 12. h3 b6 13. Rd2 f6
+14. Be3 Ng6 15. f4 Bb4 16. Nde2 f5 17. a3 Bxc3 18. Nxc3 fxe4 19. f5 Ne5 20.
+Rd4 Nf7 21. Rxe4 Nd6 22. Ref4 Rhe8 23. Bc1 Re5 24. g4 h5 25. Rd4 hxg4 26.
+hxg4 c5 27. Rdd1 Bc6 28. Kf2 g6 29. Bf4 Ree8 30. f6 g5 31. Bxd6 cxd6 32.
+Nd5 Re4 33. Kg3 Kd7 34. f7 Rf8 35. Nf6+ Ke6 36. Nxe4 Bxe4 37. Rfe1 d5 38.
+c4 Rxf7 39. cxd5+ Ke5 40. Re3 1-0
+
+[Event "ch-NED"]
+[Site "Boxtel NED"]
+[Date "2011.07.05"]
+[Round "9"]
+[White "Sokolov,Ivan"]
+[Black "Brandenburg,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2645"]
+[BlackElo "2535"]
+[EventDate "2011.06.25"]
+[ECO "D27"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. Bd3 Nc6 8.
+Nc3 cxd4 9. exd4 Be7 10. Bg5 O-O 11. Rc1 Nb4 12. Bb1 b5 13. Ne4 Bb7 14. Nc5
+Bd5 15. Ne5 Bxa2 16. Bxa2 Nxa2 17. Nc6 Qe8 18. Nxe7+ Qxe7 19. Bxf6 gxf6 20.
+Ra1 Nb4 21. Ra3 Kh8 22. Qd2 Nd5 23. Rfa1 Rg8 24. Rxa6 Rxa6 25. Rxa6 b4 26.
+g3 Rd8 27. Qh6 f5 28. Nd3 Qf6 29. Qxf6+ Nxf6 30. Ne5 Rxd4 31. Nxf7+ Kg8 32.
+Nh6+ Kg7 33. Rxe6 Kxh6 34. Rxf6+ Kg5 35. Rb6 f4 36. Rb5+ Kg4 37. gxf4 Kf3
+38. h4 Rxf4 39. h5 Rg4+ 40. Kf1 Rh4 41. Rf5+ Ke4 42. Rg5 Kd3 43. Kg2 Kc2
+44. Kg3 Rh1 45. Kg2 1/2-1/2
+

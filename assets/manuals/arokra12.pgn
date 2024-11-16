@@ -1,0 +1,158 @@
+[Event "Zurich Chess Challenge"]
+[Site "Zuerich SUI"]
+[Date "2012.04.21"]
+[Round "1"]
+[White "Kramnik, Vladimir"]
+[Black "Aronian, Levon"]
+[Result "0-1"]
+[WhiteElo "2801"]
+[BlackElo "2820"]
+[EventDate "2012.04.21"]
+[ECO "D43"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. Nc3 e6 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 Nd7 8.
+Bd3 dxc4 9. Bxc4 g6 10. O-O Bg7 11. Re1 O-O 12. e4 e5 13. d5 Rd8 14. Re3 b5
+15. dxc6 bxc4 16. Nd5 Qe6 17. cxd7 Rxd7 18. Qa4 Bb7 19. Qxc4 Bxd5 20. exd5
+Qxd5 21. Qxd5 Rxd5 22. Rae1 Re8 23. g4 Kh7 24. g5 hxg5 25. Nxg5+ Kg8 26. f4
+Rb8 27. fxe5 Rxb2 28. Nf3 Rxa2 29. e6 fxe6 30. Rxe6 Rf5 31. Nh4 Rf4 32.
+R6e4 Rf6 33. Rg4 Kf7 34. Rc1 Bh6 35. Rc7+ Ke8 36. Re4+ Kd8 37. Rh7 Bf8 38.
+Rd4+ Kc8 39. Rc4+ Kb8 40. Rd7 g5 41. Ng6 Bd6 0-1
+
+[Event "Zurich Chess Challenge"]
+[Site "Zuerich SUI"]
+[Date "2012.04.22"]
+[Round "2"]
+[White "Aronian, Levon"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteElo "2820"]
+[BlackElo "2801"]
+[EventDate "2012.04.21"]
+[ECO "C67"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5
+Nf5 8. Qxd8+ Kxd8 9. Nc3 Be6 10. Rd1+ Ke8 11. Ng5 Bc8 12. h3 Be7 13. Bf4
+Nh4 14. e6 f6 15. Nf7 Rg8 16. Bxc7 Bxe6 17. Nd6+ Bxd6 18. Bxd6 Kf7 19. f3
+Nf5 20. Bc5 b6 21. Bf2 Rgd8 22. a4 Ne7 23. a5 c5 24. Nb5 Nc6 25. Rxd8 Rxd8
+26. axb6 axb6 27. Ra6 Rd1+ 28. Kh2 Rd2 29. Rxb6 Rxc2 30. Nd6+ Ke7 31. Ne4
+Nd4 32. Rb7+ Kf8 33. Rc7 Rxb2 34. Rxc5 Nf5 35. Ng3 Rxf2 36. Nxf5 Bxf5 37.
+Rxf5 Ra2 1/2-1/2
+
+[Event "Zurich Chess Challenge"]
+[Site "Zuerich SUI"]
+[Date "2012.04.24"]
+[Round "3"]
+[White "Kramnik, Vladimir"]
+[Black "Aronian, Levon"]
+[Result "1-0"]
+[WhiteElo "2801"]
+[BlackElo "2820"]
+[EventDate "2012.04.21"]
+[ECO "C47"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 Bc5 6. Be3 Bb6 7. Qd2 O-O
+8. O-O-O Re8 9. f3 d5 10. exd5 Nxd5 11. Bg5 Nxc3 12. Bxd8 Nxd1 13. Bxc7
+Bxc7 14. Nxc6 Ne3 15. Bb5 bxc6 16. Bxc6 Nc4 17. Qd4 Be6 18. Bxa8 Bb6 19.
+Qd3 Rxa8 20. Re1 Rd8 21. Qe4 g5 22. c3 Bc5 23. Re2 h6 24. g3 a5 25. f4 a4
+26. f5 Bd5 27. Qd3 Bb6 28. b3 axb3 29. axb3 Na5 30. Re8+ Rxe8 31. Qxd5 Rd8
+32. Qb5 Rd6 33. Kc2 Kg7 34. b4 Nb7 35. c4 Rf6 36. g4 Nd8 37. c5 Bc7 38. Qd7
+Nc6 39. b5 Na7 40. Qxc7 Nxb5 41. Qe5 Na7 42. Kd3 1-0
+
+[Event "Zurich Chess Challenge"]
+[Site "Zuerich SUI"]
+[Date "2012.04.25"]
+[Round "4"]
+[White "Aronian, Levon"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteElo "2820"]
+[BlackElo "2801"]
+[EventDate "2012.04.21"]
+[ECO "C67"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5
+Nf5 8. Qxd8+ Kxd8 9. h3 Ke8 10. Nc3 h5 11. Bg5 Be6 12. b3 Be7 13. Rad1 h4
+14. Rfe1 Rd8 15. Rxd8+ Kxd8 16. Ne4 b6 17. Bf4 Kc8 18. Neg5 Bxg5 19. Bxg5
+Bd5 20. Nh2 c5 21. Rd1 Bc6 22. c3 a5 23. Ng4 Bd7 24. f3 a4 25. Kf2 1/2-1/2
+
+[Event "Zurich Chess Challenge"]
+[Site "Zurich SUI"]
+[Date "2012.04.27"]
+[Round "5"]
+[White "Kramnik, Vladimir"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[ECO "D43"]
+[PlyCount "86"]
+[EventDate "2012.04.21"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. Nc3 e6 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 Nd7 8. Be2
+Qd8 9. O-O Be7 10. Qc2 O-O 11. a3 b6 12. Rfd1 Bb7 13. Rac1 Qb8 14. cxd5 cxd5
+15. Qa4 Nf6 16. Ba6 Bxa6 17. Qxa6 Qc8 18. Qxc8 Rfxc8 19. Ne5 Bd6 20. Nd3 Ne8
+21. Kf1 Kf8 22. Ke2 Ke7 23. h3 Rc4 24. b3 Rcc8 25. a4 Ba3 26. Rc2 Rc7 27. Ra1
+Bd6 28. Kd2 a5 29. Rcc1 Rac8 30. f3 f5 31. g4 g6 32. Ne2 Rxc1 33. Nexc1 Nf6 34.
+Ne2 Nh7 35. Ne5 Ng5 36. Nf4 Bb4+ 37. Kd1 Rc3 38. Rc1 Rxe3 39. Rc7+ Kd8 40. Rg7
+Kc8 41. Rg8+ Kb7 42. Rg7+ Kc8 43. Rg8+ Kb7 1/2-1/2
+
+[Event "Zurich Chess Challenge"]
+[Site "Zurich SUI"]
+[Date "2012.04.27"]
+[Round "6"]
+[White "Aronian, Levon"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[EventDate "2012.04.21"]
+
+1. e4 { [%clk 1:59] } 1... e5 { [%clk 1:59] } 2. Nf3 { [%clk 1:59] } 2...
+Nc6 { [%clk 1:59] } 3. Bb5 { [%clk 1:59] } 3... Nf6 { [%clk 1:59] } 4. d3 {
+[%clk 1:59] } 4... Bc5 { [%clk 1:59] } 5. Nbd2 { [%clk 1:59] } 5... d6 {
+[%clk 1:58] } 6. c3 { [%clk 1:59] } 6... O-O { [%clk 1:57] } 7. O-O { [%clk
+1:59] } 7... Ne7 { [%clk 1:56] } 8. h3 { [%clk 1:54] } 8... Ng6 { [%clk
+1:53] } 9. Re1 { [%clk 1:51] } 9... c6 { [%clk 1:42] } 10. Ba4 { [%clk
+1:51] } 10... Re8 { [%clk 1:38] } 11. d4 { [%clk 1:43] } 11... Bb6 { [%clk
+1:35] } 12. Bc2 { [%clk 1:42] } 12... h6 { [%clk 1:29] } 13. a4 { [%clk
+1:37] } 13... Be6 { [%clk 1:15] } 14. Nf1 { [%clk 1:35] } 14... exd4 {
+[%clk 1:13] } 15. Nxd4 { [%clk 1:30] } 15... Bd7 { [%clk 1:12] } 16. f4 {
+[%clk 1:29] } 16... d5 { [%clk 1:05] } 17. e5 { [%clk 1:27] } 17... Ne4 {
+[%clk 1:04] } 18. Bxe4 { [%clk 1:11] } 18... dxe4 { [%clk 1:04] } 19. a5 {
+[%clk 1:09] } 19... Bxa5 { [%clk 0:52] } 20. Ng3 { [%clk 1:09] } 20... Bb6
+{ [%clk 0:47] } 21. Kh2 { [%clk 0:54] } 21... c5 { [%clk 0:39] } 22. Ndf5 {
+[%clk 0:53] } 22... Bxf5 { [%clk 0:36] } 23. Nxf5 { [%clk 0:47] } 23...
+Qxd1 { [%clk 0:35] } 24. Rxd1 { [%clk 0:47] } 24... Rad8 { [%clk 0:32] }
+25. Be3 { [%clk 0:40] } 25... Rd3 { [%clk 0:30] } 26. Re1 { [%clk 0:36] }
+26... f6 { [%clk 0:24] } 27. exf6 { [%clk 0:34] } 27... gxf6 { [%clk 0:22]
+} 28. Nxh6+ { [%clk 0:34] } 28... Kf8 { [%clk 0:21] } 29. Ra4 { [%clk 0:30]
+} 29... Rd5 { [%clk 0:19.06] } 30. c4 { [%clk 0:27] } 30... Rd3 { [%clk
+0:18.23] } 31. b4 { [%clk 0:19.20] } 31... Rxe3 { [%clk 0:13.24] } 32. Rxe3
+{ [%clk 0:18.43] } 32... cxb4 { [%clk 0:13.16] } 33. Rg3 { [%clk 0:14.09] }
+33... e3 { [%clk 0:10.32] } 34. Rxg6 { [%clk 0:04.23] } 34... e2 { [%clk
+0:10.29] } 35. Ra1 { [%clk 0:04.18] } 35... Bf2 { [%clk 0:09.12] } 36. Rg8+
+{ [%clk 0:04.13] } 36... Ke7 { [%clk 0:09.11] } 37. Rg7+ { [%clk 0:04.09] }
+37... Kd6 { [%clk 0:07.51] } 38. Rxb7 { [%clk 0:03.35] } 38... e1=Q { [%clk
+0:06.10] } 39. Rxe1 { [%clk 0:03.02] } 39... Bxe1 { [%clk 0:05.57] } 40.
+Nf5+ { [%clk 0:02.56] } 40... Kc5 { [%clk 0:02.14] } 41. Rb5+ { [%clk 1:02]
+} 41... Kc6 { [%clk 0:59] } 42. Nd4+ { [%clk 1:01] } 42... Kc7 { [%clk
+0:59] } 43. Rc5+ { [%clk 1:01] } 1/2-1/2
+
+[Event "Zurich Chess Challenge Rapid"]
+[Site "Zurich SUI"]
+[Date "2012.04.25"]
+[Round "1"]
+[White "Kramnik, Vladimir"]
+[Black "Aronian, Levon"]
+[Result "0-1"]
+[ECO "C77"]
+[Opening "Ruy Lopez"]
+[Variation "Anderssen variation"]
+[EventDate "2012.04.21"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Bc5 7. c3 d6 8. Bg5 h6
+9. Bh4 Bb6 10. Nbd2 Rb8 11. Qe2 a5 12. a4 b4 13. O-O g5 14. Bg3 O-O 15. Nc4 Ba7
+16. Nfd2 h5 17. h3 h4 18. Bh2 Kg7 19. Kh1 Rh8 20. d4 bxc3 21. bxc3 exd4 22. e5
+dxc3 23. exf6+ Qxf6 24. f4 cxd2 25. fxg5 Qe6 26. Qd1 Rxb3 27. Qxb3 Ba6 28. Qf3
+Bxc4 29. Qxc6 Bd4 30. Bg1 Bxa1 31. Rxa1 Re8 32. g6 Qf6 33. Qxc4 Re1 34. Kh2
+Rxa1 35. Bd4 Rh1+ 0-1
+

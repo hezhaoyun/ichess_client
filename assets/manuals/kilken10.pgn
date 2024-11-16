@@ -1,0 +1,196 @@
+[Event "Kilkenny Masters"]
+[Site "Kilkenny IRL"]
+[Date "2010.11.27"]
+[Round "1"]
+[White "Jones, Gawain C B"]
+[Black "Vospernik, Andrej"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2575"]
+[BlackElo "2205"]
+[ECO "B01"]
+[Opening "Scandinavian defence"]
+[WhiteFideId "409561"]
+[BlackFideId "14601281"]
+[EventDate "2010.11.27"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Qxd5 4. Nc3 Qa5 5. Nf3 c6 6. Bc4 Bg4 7. h3 Qh5 8. Be2
+e6 9. O-O Bxf3 10. Bxf3 Qa5 11. Re1 Be7 12. Bf4 O-O 13. Qd2 Bb4 14. a3 Bxc3 15.
+bxc3 Nd5 16. c4 Qxd2 17. Bxd2 Nb6 18. c5 Nc4 19. Bf4 b6 20. Be2 Na5 21. Reb1 Nd7
+22. Bc7 Rfc8 23. cxb6 axb6 24. Bxb6 c5 25. dxc5 Nxc5 26. Bf3 Ra6 27. Bxc5 Rxc5
+28. Rb8+ 1-0
+
+[Event "Kilkenny Masters"]
+[Site "Kilkenny IRL"]
+[Date "2010.11.27"]
+[Round "2"]
+[White "Baburin, Alexander"]
+[Black "Fitzsimons, David"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[WhiteElo "2539"]
+[BlackElo "2240"]
+[ECO "A43"]
+[Opening "Old Benoni defence"]
+[WhiteFideId "2500914"]
+[BlackFideId "2501961"]
+[EventDate "2010.11.27"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 b5 4. Bg5 Ne4 5. Bf4 Bb7 6. Qd3 f5 7. Nbd2 c4 8. Qd4
+Na6 9. c3 Nc7 10. Nxe4 fxe4 11. Bxc7 Qxc7 12. Qxe4 e6 13. Rd1 O-O-O 14. Ng5 Bc5
+15. e3 Bxd5 16. Rxd5 exd5 17. Qxd5 Rde8 18. b4 cxb3 19. Bxb5 Bxe3 20. O-O Bxg5
+21. Ba6+ Kb8 22. Rb1 Re6 23. Rxb3+ Rb6 24. Qxg5 Re8 25. Qd2 Re6 26. Bf1 Qd6 27.
+Qc1 Re5 28. g3 Rd5 29. Qc2 g6 30. h4 Rd1 31. Qe2 Qd5 32. Kh2 Rd2 33. Qe3 Kc7 34.
+Bg2 Qd6 35. c4 Qd4 36. Rxb6 axb6 37. Qf3 Qxf2 38. Qb7+ Kd8 39. a4 Ke7 40. Qe4+
+Kf7 41. h5 Rd4 42. Qb7 0-1
+
+[Event "Kilkenny Masters"]
+[Site "Kilkenny IRL"]
+[Date "2010.11.27"]
+[Round "2"]
+[White "Cheparinov, Ivan"]
+[Black "Astaneh Lopez, Alex"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2668"]
+[BlackElo "2405"]
+[ECO "D88"]
+[Opening "Gruenfeld"]
+[Variation "Spassky variation, main line, 10...cd, 11.cd"]
+[WhiteFideId "2905540"]
+[BlackFideId "2501430"]
+[EventDate "2010.11.27"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.
+Ne2 Nc6 9. Be3 O-O 10. O-O cxd4 11. cxd4 Na5 12. Bd3 Be6 13. d5 Bxa1 14. Qxa1 f6
+15. Qb1 Bf7 16. Nd4 Rc8 17. Qb4 b6 18. Bh6 Re8 19. Bb5 Qd6 20. Qxd6 exd6 21.
+Bxe8 Bxe8 22. f3 Kf7 23. h4 Rc4 24. Rd1 Bd7 25. Bf4 Ke7 26. g4 Ra4 27. g5 Nc4
+28. Nc6+ Bxc6 29. gxf6+ Kxf6 30. dxc6 Ke7 31. Rd4 b5 32. Bg5+ Ke6 33. f4 Ra6 34.
+Rd5 Rxc6 35. Rxb5 Rb6 36. f5+ gxf5 37. exf5+ Kd7 38. Rxb6 axb6 39. Kf2 Kc6 40.
+Kf3 Kd5 41. Bf6 Ne5+ 42. Kf4 Nf7 43. Bb2 b5 44. h5 Kc4 1/2-1/2
+
+[Event "Kilkenny Masters"]
+[Site "Kilkenny IRL"]
+[Date "2010.11.27"]
+[Round "3"]
+[White "Fitzsimons, David"]
+[Black "Cheparinov, Ivan"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2240"]
+[BlackElo "2668"]
+[ECO "C45"]
+[Opening "Scotch"]
+[Variation "Schmidt variation"]
+[WhiteFideId "2501961"]
+[BlackFideId "2905540"]
+[EventDate "2010.11.27"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. Bd3 d5 7. e5 Nd7 8.
+O-O Nc5 9. Be2 Be7 10. Be3 O-O 11. f4 f6 12. Nd2 fxe5 13. fxe5 Bf5 14. Nf3 Ne6
+15. c4 Qd7 16. Qd2 Rad8 17. Nd4 Nxd4 18. Qxd4 a5 19. Rad1 Be6 20. Rxf8+ Rxf8 21.
+Qc3 Bg4 22. Bxg4 Qxg4 23. Qd4 Qe2 24. cxd5 Bc5 25. Qxc5 Qxd1# 0-1
+
+[Event "Kilkenny Masters"]
+[Site "Kilkenny IRL"]
+[Date "2010.11.27"]
+[Round "3"]
+[White "Orr, Mark J L"]
+[Black "Baburin, Alexander"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2264"]
+[BlackElo "2539"]
+[ECO "D45"]
+[Opening "QGD semi-Slav"]
+[Variation "5...Nd7"]
+[WhiteFideId "2500035"]
+[BlackFideId "2500914"]
+[EventDate "2010.11.30"]
+
+1. c4 e6 2. d4 d5 3. Nc3 c6 4. e3 Nf6 5. Nf3 Nbd7 6. b3 Bb4 7. Bd2 O-O 8. Be2
+Qe7 9. O-O dxc4 10. bxc4 e5 11. dxe5 Nxe5 12. Nxe5 Qxe5 13. Qb3 Bd6 14. g3 h5
+15. Rfe1 h4 16. Bf3 Bg4 17. Bg2 Rad8 18. e4 Qh5 19. Be3 Bf3 20. Bxf3 Qxf3 21.
+Qd1 Qxd1 22. Raxd1 Bb4 23. Rxd8 Rxd8 24. Rd1 Re8 25. Rc1 Bxc3 26. Rxc3 Nxe4 27.
+Rb3 hxg3 28. hxg3 b6 29. Kg2 c5 30. Rd3 Re7 31. Rd8+ Kh7 32. Kf3 Kg6 33. Ke2
+Nc3+ 0-1
+
+[Event "Kilkenny Masters"]
+[Site "Kilkenny IRL"]
+[Date "2010.11.28"]
+[Round "4"]
+[White "Maze, Sebastien"]
+[Black "Hebden, Mark L"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2571"]
+[BlackElo "2560"]
+[ECO "E62"]
+[Opening "King's Indian"]
+[Variation "fianchetto with ...Nc6"]
+[WhiteFideId "613762"]
+[BlackFideId "400084"]
+[EventDate "2010.11.27"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 O-O 5. g3 d6 6. Bg2 Nc6 7. O-O Rb8 8. h3 a6
+9. e4 b5 10. e5 Nd7 11. cxb5 axb5 12. Ng5 Bb7 13. e6 Nxd4 14. Bxb7 Rxb7 15. Nxf7
+Rxf7 16. exf7+ Kh8 17. Ne4 c5 18. Be3 Nf8 19. a4 b4 20. a5 Qd7 21. Qa4 Qf5 22.
+Bxd4 Bxd4 23. Qe8 Kg7 24. Qa8 Rd7 25. a6 c4 26. a7 Bxa7 27. Nxd6 exd6 28. Rxa7
+Qxh3 29. Rxd7 Qxd7 30. Qb8 b3 31. Rd1 Qxf7 32. Qxd6 h5 33. Qd4+ Kh6 34. Rc1 Ne6
+35. Qxc4 Qf5 36. Qxb3 h4 37. Qe3+ Kh7 38. gxh4 Qg4+ 39. Kh2 Ng7 40. Qg3 Qd4 41.
+Rc6 Qe4 42. Rc7 Kg8 43. h5 Nxh5 44. Qb3+ 1-0
+
+[Event "Kilkenny Masters"]
+[Site "Kilkenny IRL"]
+[Date "2010.11.28"]
+[Round "4"]
+[White "Collins, Sam E."]
+[Black "Libiszewski, Fabien"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2436"]
+[BlackElo "2496"]
+[ECO "B22"]
+[Opening "Sicilian"]
+[Variation "Alapin's variation (2.c3)"]
+[WhiteFideId "2501198"]
+[BlackFideId "616834"]
+[EventDate "2010.11.27"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Nf3 Nc6 6. cxd4 d6 7. Bc4 Nb6 8. Bb3
+dxe5 9. d5 Na5 10. Nc3 Bg4 11. Be3 g6 12. Bxb6 Qxb6 13. Ba4+ Kd8 14. h3 Bxf3 15.
+Qxf3 f5 16. O-O Nc4 17. Qe2 Rc8 18. Bb3 Nd6 19. Qxe5 Rg8 20. Na4 Qb4 21. Qe6 Rh8
+22. Rac1 Rxc1 23. Rxc1 b6 24. Qe5 Rg8 25. Qe6 Rh8 26. Re1 Ne4 27. Nc3 Nxc3 28.
+Qe5 Nb5 29. Rc1 Bg7 30. Qb8+ 1-0
+
+[Event "Kilkenny Masters"]
+[Site "Kilkenny IRL"]
+[Date "2010.11.28"]
+[Round "6"]
+[White "Collins, Sam E."]
+[Black "Jones, Gawain C B"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2436"]
+[BlackElo "2575"]
+[ECO "C63"]
+[Opening "Ruy Lopez"]
+[Variation "Schliemann defence"]
+[WhiteFideId "2501198"]
+[BlackFideId "409561"]
+[EventDate "2010.11.27"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d3 fxe4 5. dxe4 Nf6 6. O-O Bc5 7. Qd3 Nd4 8.
+Nxd4 Bxd4 9. Nd2 a6 10. Ba4 Qe7 11. Nf3 Bb6 12. Bg5 O-O 13. Bxf6 Qxf6 14. Qd5+
+Kh8 15. Qxe5 Qxe5 16. Nxe5 Bd4 17. Nxd7 Bxd7 18. Bxd7 Rad8 19. Bg4 Bxb2 20. Rad1
+g6 21. g3 Rd4 22. Rxd4 Bxd4 23. Kg2 Rf6 24. Be2 Rc6 25. Bd3 b5 26. Rd1 Rc3 27.
+Bxb5 Bxf2 28. Rd8+ Kg7 29. Bd3 Bb6 30. e5 Kf7 31. Rd7+ Ke6 32. Rxh7 Kxe5 33.
+Bxg6 a5 34. h4 Ra3 35. h5 Kf6 36. Bd3 Rxa2 37. h6 Ra1 38. Rd7 Rg1+ 39. Kh2 Re1
+40. Rd8 Ke7 41. h7 Kxd8 42. h8=Q+ Ke7 43. Qg7+ Kd6 44. Qf6+ Re6 45. Qd8+ Kc6 46.
+Be4+ 1-0
+

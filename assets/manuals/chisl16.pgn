@@ -1,0 +1,1652 @@
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.05.31"]
+[Round "1.1"]
+[White "Kjartansson, David"]
+[Black "Thorfinnsson, Bjorn"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2371"]
+[BlackElo "2410"]
+[ECO "A31"]
+[Opening "English"]
+[Variation "symmetrical, Benoni formation"]
+[WhiteFideId "2301130"]
+[BlackFideId "2300982"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 g6 5. Nc3 Nc6 6. g3 Bg7 7. Bg2 O-O 8. O-O
+d6 9. Nxc6 bxc6 10. Bxc6 Rb8 11. Bg2 Qa5 12. Nb5 Bd7 13. Bd2 Qd8 14. Nxa7 Qc7
+15. Nb5 Qxc4 16. Na3 Qa6 17. Bc3 Rfc8 18. Qd3 Qa4 19. Nb1 Bf5 20. Qd1 Qa6 21. a4
+Nd7 22. Bxg7 Kxg7 23. e4 Be6 24. Nc3 Bc4 25. Re1 Rxb2 26. Bh3 Qa7 27. Re3 Be6
+28. Nb5 Qb6 29. Bxe6 fxe6 30. Rc1 Rf8 31. Rc2 Rb4 32. Rc1 Ne5 33. Kg2 Rxf2+ 34.
+Kxf2 Rxe4 35. Kg2 Rxe3 36. Rc7 Rd3 37. Qf1 Rd2+ 38. Kh3 Rf2 39. Qg1 Qe3 40. Qc1
+Qe2 41. Rxe7+ Kf6 42. Rxe6+ Kg7 43. Qc7+ Rf7 44. Qxd6 Qf1+ 45. Kh4 Nf3+ 46. Kg4
+h5# 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.05.31"]
+[Round "1.2"]
+[White "Hjartarson, Johann"]
+[Black "Gislason, Gudmundur"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2547"]
+[BlackElo "2280"]
+[ECO "B47"]
+[Opening "Sicilian"]
+[Variation "Taimanov (Bastrikov) variation"]
+[WhiteFideId "2300044"]
+[BlackFideId "2300559"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 Nf6 7. O-O a6 8. Be3
+b5 9. Nxc6 dxc6 10. f4 e5 11. fxe5 Qxe5 12. Kh1 Be7 13. Bd4 Qe6 14. e5 Ng4 15.
+Bf3 O-O 16. Qe2 Bd7 17. Rad1 Rae8 18. h3 Nh6 19. Ne4 Nf5 20. Bg4 Qg6 21. Qf2
+Nxd4 22. Bxd7 Ne6 23. Bxe8 Qxe4 24. Bxf7+ Kh8 25. Qa7 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.05.31"]
+[Round "1.3"]
+[White "Thorfinnsson, Bragi"]
+[Black "Ingvason, Johann"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2426"]
+[BlackElo "2142"]
+[ECO "A19"]
+[Opening "English"]
+[Variation "Mikenas-Carls, Sicilian variation"]
+[WhiteFideId "2300958"]
+[BlackFideId "2301431"]
+[EventDate "2016.05.31"]
+
+1. c4 Nf6 2. Nc3 e6 3. e4 c5 4. Nf3 d6 5. d4 cxd4 6. Nxd4 Be7 7. Be2 Nc6 8. Nc2
+e5 9. O-O Be6 10. f4 exf4 11. Bxf4 Rc8 12. Kh1 a6 13. Qe1 Ne5 14. Rd1 Qc7 15.
+Nd5 Bxd5 16. exd5 O-O 17. Bxe5 dxe5 18. Ne3 Ne8 19. b4 b6 20. a4 a5 21. bxa5
+bxa5 22. Qg3 g6 23. h3 Ng7 24. d6 Bxd6 25. Nd5 Qc6 26. Nf6+ Kh8 27. Qh4 h5 28.
+Qg5 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.05.31"]
+[Round "1.4"]
+[White "Gunnarsson, Jon Viktor"]
+[Black "Johannsson, Orn Leo"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2454"]
+[BlackElo "2226"]
+[ECO "C16"]
+[Opening "French"]
+[Variation "Winawer, advance variation"]
+[WhiteFideId "2300931"]
+[BlackFideId "2303051"]
+[EventDate "2016.05.31"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Ne7 5. Bd2 b6 6. Nce2 Bxd2+ 7. Qxd2 Ba6 8.
+Nf3 h5 9. g3 Nbc6 10. h4 Nf5 11. Nf4 Bxf1 12. Kxf1 Qd7 13. Kg2 g6 14. c3 Kf8 15.
+Ng5 Kg7 16. f3 Rh6 17. g4 hxg4 18. fxg4 Nxh4+ 19. Kg3 Rah8 20. Nfh3 Ne7 21. Raf1
+Nhf5+ 22. gxf5 Nxf5+ 23. Kg2 Rh5 24. Nf3 Qe7 25. Nf2 c5 26. Rxh5 Rxh5 27. Rh1
+Rxh1 28. Nxh1 cxd4 29. cxd4 Nh4+ 30. Nxh4 Qxh4 31. Nf2 g5 32. Qe3 Kg6 33. Qf3
+Qh8 34. Ng4 Qh7 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.05.31"]
+[Round "1.5"]
+[White "Steingrimsson, Hedinn"]
+[Black "Kjartansson, Gudmundur"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2574"]
+[BlackElo "2457"]
+[ECO "D47"]
+[Opening "QGD semi-Slav"]
+[Variation "Meran variation"]
+[WhiteFideId "2300117"]
+[BlackFideId "2301318"]
+[EventDate "2016.05.31"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. Nf3 Nf6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+Bd6 9. O-O O-O 10. Qc2 Bb7 11. a3 h6 12. e4 e5 13. dxe5 Nxe5 14. Nxe5 Bxe5 15.
+h3 Re8 16. Be3 Qe7 17. Ne2 Rad8 18. Bxa7 Bxb2 19. Bc5 Qc7 20. Qxb2 Rxd3 21. f3
+Red8 22. Rac1 Nd7 23. Be7 Qb6+ 24. Kh1 Re8 25. Nf4 Rd4 26. Bc5 Nxc5 27. Qxd4 Na4
+28. Rfd1 Ra8 29. Qe5 c5 30. Rd7 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.05.31"]
+[Round "1.6"]
+[White "Gretarsson, Hjorvar Steinn"]
+[Black "Jensson, Einar Hjalti"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2580"]
+[BlackElo "2370"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "2302241"]
+[BlackFideId "2301067"]
+[EventDate "2016.05.31"]
+
+1. c4 e5 2. e3 Nf6 3. Nc3 Nc6 4. a3 Be7 5. Nf3 O-O 6. Qc2 Re8 7. b4 Bf8 8. Bb2
+d6 9. d3 a5 10. b5 Nb8 11. Be2 Nbd7 12. O-O b6 13. Nd2 Bb7 14. Bf3 Bxf3 15. Nxf3
+g6 16. d4 Qc8 17. Rfd1 Qb7 18. Rac1 Rac8 19. dxe5 dxe5 20. Nd5 Bd6 21. Ng5 Nxd5
+22. cxd5 Rcd8 23. Ne4 f5 24. Nxd6 cxd6 25. Qc7 Qxc7 26. Rxc7 Nc5 27. Rc6 Rd7 28.
+Rc1 Kf7 29. Rc4 Rb8 30. a4 Ke7 31. f3 Rdb7 32. Ba3 Kd7 33. Bxc5 dxc5 34. h4 Rc7
+35. Re6 Rcc8 36. Kf2 Re8 37. Rc6 Rec8 38. e4 Rxc6 39. dxc6+ Ke6 40. h5 f4 41.
+hxg6 hxg6 42. g3 g5 43. gxf4 gxf4 44. Rc1 Rd8 45. Rh1 Kd6 46. Ke2 Kc7 47. Rh7+
+Kc8 48. Re7 Rd4 49. Rxe5 Rxa4 50. Re8+ Kc7 51. Re7+ Kc8 52. e5 Ra3 53. e6 c4 54.
+Kd2 Re3 55. Kc2 a4 56. Re8+ Kc7 57. Re7+ Kc8 58. Rb7 Rxe6 59. Kc3 Re3+ 60. Kxc4
+Rxf3 61. Rxb6 Rf1 62. Ra6 Kc7 63. Ra7+ Kb6 64. Ra6+ Kc7 65. Ra7+ Kb6 66. Rb7+
+Ka5 67. c7 Rc1+ 68. Kd3 a3 69. Kd2 Rc5 70. b6 a2 71. Ra7+ Kxb6 72. Rxa2 Rxc7 73.
+Ra4 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.01"]
+[Round "2.1"]
+[White "Thorfinnsson, Bjorn"]
+[Black "Jensson, Einar Hjalti"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2410"]
+[BlackElo "2370"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "2300982"]
+[BlackFideId "2301067"]
+[EventDate "2016.05.31"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6 6. Nf3 Nc6 7. O-O Be7 8. b3
+O-O 9. Bb2 Bf5 10. d3 Qd7 11. Re1 Rad8 12. Rc1 Bh3 13. Bh1 f5 14. Na4 Nxa4 15.
+bxa4 Qe6 16. Qb3 Qxb3 17. axb3 e4 18. dxe4 fxe4 19. Ne5 e3 20. fxe3 Bb4 21. Nxc6
+Bxe1 22. Rxe1 bxc6 23. Bd4 a5 24. Bxc6 Be6 25. Bc5 Rf5 26. b4 Rd2 27. e4 Rf6 28.
+e5 Rf5 29. bxa5 Rxe5 30. Bb4 Rc2 31. Rf1 Bf7 32. Bb5 c5 33. Bd3 Ra2 34. Bc3 Re3
+35. Rxf7 Kxf7 36. Bc4+ Ke7 37. Bxa2 Rxc3 38. a6 Ra3 39. Bb3 c4 40. Bc2 Ra1+ 41.
+Kf2 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.01"]
+[Round "2.2"]
+[White "Kjartansson, Gudmundur"]
+[Black "Gretarsson, Hjorvar Steinn"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2457"]
+[BlackElo "2580"]
+[ECO "D11"]
+[Opening "QGD Slav"]
+[Variation "3.Nf3"]
+[WhiteFideId "2301318"]
+[BlackFideId "2302241"]
+[EventDate "2016.05.31"]
+
+1. Nf3 d5 2. d4 c6 3. c4 e6 4. Qc2 Nf6 5. g3 Nbd7 6. Bg2 b6 7. O-O Bb7 8. b3 Rc8
+9. cxd5 cxd5 10. Qd3 Ne4 11. Nfd2 Ndf6 12. Bb2 Be7 13. f3 Nxd2 14. Nxd2 O-O 15.
+Rfc1 Qd7 16. e3 Bb4 17. Kf2 Bc6 18. Bf1 a6 19. a4 Bb7 20. Rxc8 Rxc8 21. Rc1 Rxc1
+22. Bxc1 Qc7 23. Bb2 h5 24. Be2 h4 25. Nf1 hxg3+ 26. Nxg3 g5 27. Qd1 Kf8 28. Bd3
+a5 29. Qc1 Qe7 30. h3 Bd6 31. Kg2 Ne8 32. Bc3 f5 33. Ne2 Nf6 34. Be1 Nh5 35. Ng3
+Nf6 36. Ne2 Qf7 37. Bg3 f4 38. exf4 Nh5 39. fxg5 Bxg3 40. g6 Nf4+ 41. Kxg3 Qxg6+
+42. Kxf4 Qxd3 43. Qe3 Qg6 44. Qe5 Ba6 45. Nc3 Kf7 46. Qc7+ Kf6 47. Qd8+ Kf7 48.
+Qc7+ Kf6 49. Nxd5+ exd5 50. Qxb6+ Kf7 51. Qxg6+ Kxg6 52. Ke5 Be2 53. Kxd5 Bxf3+
+54. Kc5 Kf5 55. b4 axb4 56. Kxb4 Bg2 57. h4 Kg4 58. Kc5 Kxh4 59. d5 Kg5 60. d6 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.01"]
+[Round "2.3"]
+[White "Johannsson, Orn Leo"]
+[Black "Steingrimsson, Hedinn"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2226"]
+[BlackElo "2574"]
+[ECO "B51"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky (Nimzovich-Rossolimo, Moscow) attack"]
+[WhiteFideId "2303051"]
+[BlackFideId "2300117"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O a6 5. Bxd7+ Bxd7 6. b3 Nf6 7. Re1 e5 8. c3
+Be7 9. d4 exd4 10. cxd4 Bg4 11. Bb2 O-O 12. Nbd2 Re8 13. h3 Bh5 14. Nf1 Bg6 15.
+Ng3 Bf8 16. e5 dxe5 17. Nxe5 cxd4 18. Qxd4 Qxd4 19. Bxd4 Bb4 20. Rec1 Rad8 21.
+Bb6 Rd6 22. Bc5 Bxc5 23. Rxc5 b6 24. Rc6 Rxc6 25. Nxc6 Nd5 26. Rd1 Nc3 27. Rd6
+h5 28. Nb4 Re1+ 29. Kh2 h4 30. Nh1 a5 31. Nd5 Nxd5 32. Rxd5 Re2 33. a4 Re4 34.
+Rd3 Rb4 35. Rc3 f6 36. g3 Bf7 37. gxh4 Rxb3 38. Rc8+ Kh7 39. Ng3 Rb2 40. Rc7
+Rxf2+ 41. Kg1 Rf3 42. Kh2 Bd5 43. Nh5 Kh6 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.01"]
+[Round "2.4"]
+[White "Ingvason, Johann"]
+[Black "Gunnarsson, Jon Viktor"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2142"]
+[BlackElo "2454"]
+[ECO "B43"]
+[Opening "Sicilian"]
+[Variation "Kan, 5.Nc3"]
+[WhiteFideId "2301431"]
+[BlackFideId "2300931"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 b5 6. a3 Bb7 7. Be3 Nc6 8. f4
+Rc8 9. Be2 d6 10. O-O Nf6 11. Bf3 Qc7 12. Qe1 Be7 13. Rd1 O-O 14. Qg3 Kh8 15.
+Kh1 Rce8 16. e5 dxe5 17. fxe5 Nd7 18. Bxc6 Bxc6 19. Nxc6 Qxc6 20. Rd3 f5 21.
+Rfd1 Nc5 22. Bxc5 Qxc5 23. Rd7 a5 24. R1d2 f4 25. Qf2 Qxe5 26. Qe2 Qxe2 27. Rxe2
+b4 28. axb4 axb4 29. Nb5 Rd8 30. Rd3 b3 31. Rd4 e5 32. Rxd8 Rxd8 33. Nc3 Bb4 34.
+h4 Bxc3 35. bxc3 Rd1+ 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.01"]
+[Round "2.5"]
+[White "Gislason, Gudmundur"]
+[Black "Thorfinnsson, Bragi"]
+[Result "0-1"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2280"]
+[BlackElo "2426"]
+[ECO "A40"]
+[Opening "Queen's pawn"]
+[WhiteFideId "2300559"]
+[BlackFideId "2300958"]
+[EventDate "2016.05.31"]
+
+1. d4 e6 2. Nf3 f5 3. Bg5 Nf6 4. Nbd2 Be7 5. e3 b6 6. Bd3 Bb7 7. Qe2 Ne4 8. Bxe4
+fxe4 9. Ne5 O-O 10. Bf4 d6 11. Nec4 e5 12. dxe5 d5 13. Na3 Ba6 14. Qg4 Bxa3 15.
+bxa3 Qe7 16. c4 Nd7 17. O-O Nxe5 18. Qg3 Nxc4 19. Nb3 c5 20. Rfd1 Qf7 21. Rac1
+Rad8 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.01"]
+[Round "2.6"]
+[White "Kjartansson, David"]
+[Black "Hjartarson, Johann"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2371"]
+[BlackElo "2547"]
+[ECO "E38"]
+[Opening "Nimzo-Indian"]
+[Variation "classical, 4...c5"]
+[WhiteFideId "2301130"]
+[BlackFideId "2300044"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 Qc7 6. a3 Bxc5 7. Bg5 Bxf2+ 8.
+Kxf2 Qc5+ 9. Ke1 Qxg5 10. Nf3 Qc5 11. b4 Qxc4 12. e4 Qc7 13. Rc1 Nc6 14. Qd2 O-O
+15. b5 Ne5 16. Nd5 Nxf3+ 17. gxf3 Qe5 18. Nc7 Rb8 19. Rg1 Ne8 20. Rg5 f5 21. Be2
+Nxc7 22. f4 Qf6 23. e5 Qd8 24. Qd6 Nd5 25. Qxb8 Nxf4 26. Rg3 Qa5+ 27. Kd1 Qa4+
+28. Kd2 Qd4+ 29. Bd3 Qf2+ 30. Kd1 Nd5 31. Rxc8 Nc3+ 32. Kc1 Na2+ 33. Kb1 Nc3+
+34. Kc1 Na2+ 35. Kb1 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.02"]
+[Round "3.1"]
+[White "Hjartarson, Johann"]
+[Black "Thorfinnsson, Bjorn"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2547"]
+[BlackElo "2410"]
+[ECO "C60"]
+[Opening "Ruy Lopez"]
+[Variation "Cozio defence, Paulsen variation"]
+[WhiteFideId "2300044"]
+[BlackFideId "2300982"]
+[EventDate "2016.05.31"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. Nc3 g6 5. d4 exd4 6. Nd5 Bg7 7. Bg5 h6 8. Bf6
+Bxf6 9. Nxf6+ Kf8 10. O-O a6 11. Be2 d5 12. Nxd4 dxe4 13. Nxc6 Nxc6 14. Qxd8+
+Nxd8 15. Nxe4 Bf5 16. Nc5 Ne6 17. Nxb7 Rb8 18. Na5 Rxb2 19. Bxa6 Rxc2 20. Rfc1
+Ke7 21. Nc6+ Kd6 22. Bb5 Ra8 23. a4 Be4 24. Rd1+ Kc5 25. Ne5 c6 26. Bf1 Bd5 27.
+a5 Ra7 28. a6 Nf4 29. Rdb1 Kd6 30. Re1 h5 31. h4 Ne6 32. Rad1 Ra2 33. Bc4 Ra5
+34. Rb1 Nc5 35. Bxd5 cxd5 36. Rb6+ Kc7 37. Rc6+ Kd8 38. Rd6+ Kc7 39. Nxf7 Ne4
+40. Rc1+ Rc5 41. Rxc5+ Nxc5 42. Rxd5 Nd7 43. Rd6 Nf8 44. Rf6 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.02"]
+[Round "3.2"]
+[White "Thorfinnsson, Bragi"]
+[Black "Kjartansson, David"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2426"]
+[BlackElo "2371"]
+[ECO "E24"]
+[Opening "Nimzo-Indian"]
+[Variation "Saemisch variation"]
+[WhiteFideId "2300958"]
+[BlackFideId "2301130"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 c5 6. f3 Qa5 7. Bd2 O-O 8. e4
+d6 9. e5 dxe5 10. dxe5 Nfd7 11. f4 Rd8 12. Nf3 Nf8 13. Qc2 Bd7 14. a4 Bc6 15.
+Bd3 Bxf3 16. gxf3 Nc6 17. O-O Qa6 18. Be3 b6 19. Kh1 Na5 20. Rg1 Rd7 21. Rg3
+Rad8 22. Rag1 g6 23. Be2 Nc6 24. f5 exf5 25. Qxf5 Re7 26. f4 Re6 27. Qe4 Qxa4
+28. h4 Ne7 29. f5 Qc6 30. Qxc6 Rxc6 31. Bf3 Rcc8 32. Be4 Re8 33. h5 Nc6 34. e6
+Kg7 35. Rf1 Ne5 36. h6+ Kg8 37. exf7+ Kxf7 38. fxg6+ Ke7 39. g7 Nfg6 40. Bxg6
+Nxg6 41. Bg5+ Kd7 42. Rd3+ Kc7 43. Rf7+ Kc6 44. Rfd7 Re6 45. Rd8 Rxd8 46. Rxd8
+Ne7 47. Re8 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.02"]
+[Round "3.3"]
+[White "Gunnarsson, Jon Viktor"]
+[Black "Gislason, Gudmundur"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2454"]
+[BlackElo "2280"]
+[ECO "B47"]
+[Opening "Sicilian"]
+[Variation "Taimanov (Bastrikov) variation"]
+[WhiteFideId "2300931"]
+[BlackFideId "2300559"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8. Be3
+Bb4 9. Nxc6 bxc6 10. Qd4 Bd6 11. f4 e5 12. Qd2 O-O 13. Rad1 exf4 14. Qxd6 Qxd6
+15. Rxd6 fxe3 16. e5 Ne8 17. Rd4 a5 18. Bc4 a4 19. a3 Ra5 20. Rdf4 Rxe5 21. Rxf7
+Rxf7 22. Bxf7+ Kf8 23. Bc4+ Nf6 24. Nxa4 d5 25. Bd3 Ke7 26. b4 Ne4 27. Nb6 Bf5
+28. Re1 d4 29. Nc4 Re6 30. a4 g6 31. a5 Nd2 32. a6 Bxd3 33. a7 Bxc4 34. a8=Q Rd6
+35. Qa7+ Kf6 36. Qc5 Rd5 37. Qxc6+ Kg5 38. Qc7 Bb5 39. h4+ Kxh4 40. Qf4+ Kh5 41.
+g4+ Kh4 42. Kg2 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.02"]
+[Round "3.4"]
+[White "Steingrimsson, Hedinn"]
+[Black "Ingvason, Johann"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2574"]
+[BlackElo "2142"]
+[ECO "A29"]
+[Opening "English"]
+[Variation "four knights, kingside fianchetto"]
+[WhiteFideId "2300117"]
+[BlackFideId "2301431"]
+[EventDate "2016.05.31"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. d3 Be7 7. Bg2 Be6 8. O-O
+O-O 9. a3 h6 10. Bd2 Qd7 11. b4 Nxc3 12. Bxc3 Bf6 13. Rc1 Nd4 14. Nd2 c6 15. e3
+Nb5 16. Ne4 Rfd8 17. a4 Nxc3 18. Nxf6+ gxf6 19. Rxc3 a5 20. Qb1 axb4 21. Qxb4
+Ra7 22. Ra1 Bd5 23. Bxd5 Qxd5 24. Rb1 Qe6 25. Qh4 Qf5 26. Rb4 h5 27. Kg2 Rxd3
+28. Rxd3 Qxd3 29. Qxf6 Qd5+ 30. e4 Qe6 31. Qg5+ Kf8 32. a5 Qe7 33. Qh6+ Kg8 34.
+Rb3 Rxa5 35. Rf3 c5 36. Rf5 Ra6 37. Qxh5 f6 38. Qg4+ Qg7 39. Qd1 Qe7 40. Rh5 Rc6
+41. Rh4 Kf7 42. Rh7+ Kf8 43. Qh5 Qc7 44. Rh8+ Ke7 45. Re8+ 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.02"]
+[Round "3.5"]
+[White "Gretarsson, Hjorvar Steinn"]
+[Black "Johannsson, Orn Leo"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[WhiteElo "2580"]
+[BlackElo "2226"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "2302241"]
+[BlackFideId "2303051"]
+[EventDate "2016.05.31"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nxc3 6. bxc3 c6 7. Nf3 Bd6 8.
+d4 Nd7 9. O-O O-O 10. e4 Qe7 11. a4 a5 12. Qb3 Re8 13. Rd1 exd4 14. Nxd4 Nc5 15.
+Qc2 Bg4 16. Re1 Ne6 17. h3 Nxd4 18. cxd4 Bb4 19. Re3 Bd7 20. Bb2 b5 21. axb5
+cxb5 22. e5 Rac8 23. Qd3 a4 24. Kh2 Ba5 25. d5 Qb4 26. Re2 Qc4 27. Qf3 Bc3 28.
+Rc1 b4 29. Bxc3 bxc3 30. Rec2 Qd4 31. Rxc3 Qxe5 32. Rxc8 Rxc8 33. Rxc8+ Bxc8 34.
+Qa3 Bd7 35. Qb4 g6 36. h4 h5 37. d6 Kg7 38. Bf3 Qa1 39. Qb7 Qf6 40. Qxd7 Qxf3
+41. Qa7 Qd5 42. Qc7 Qd4 43. d7 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.02"]
+[Round "3.6"]
+[White "Jensson, Einar Hjalti"]
+[Black "Kjartansson, Gudmundur"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2370"]
+[BlackElo "2457"]
+[ECO "C18"]
+[Opening "French"]
+[Variation "Winawer, advance variation"]
+[WhiteFideId "2301067"]
+[BlackFideId "2301318"]
+[EventDate "2016.05.31"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qa5 7. Bd2 Qa4 8. Qg4
+Kf8 9. Qd1 b6 10. Nf3 Ne7 11. h4 Ba6 12. Bxa6 Qxa6 13. h5 h6 14. Rh4 Nbc6 15.
+Rf4 Rc8 16. Nh4 Ke8 17. Qf3 cxd4 18. cxd4 Qc4 19. c3 Rf8 20. Ng6 Nxg6 21. hxg6
+Rc7 22. Qg4 Re7 23. gxf7+ Rfxf7 24. Qg6 Nd8 25. g4 Kf8 26. Rxf7+ Rxf7 27. a4 Qc8
+28. a5 b5 29. a6 Nc6 30. Qd3 Rc7 31. Qxb5 Ne7 32. Ke2 Rc6 33. Qb7 Rc7 34. Qb5
+Rc6 35. Qb7 Rc7 36. Qxc8+ Rxc8 37. Kd3 Rc6 38. Bc1 Ke8 39. Ra4 Nc8 40. Ba3 Nb6
+41. Rb4 Nd7 42. Rb7 Rxa6 43. Bd6 g5 44. c4 dxc4+ 45. Kxc4 Rc6+ 46. Kd3 Ra6 47.
+f3 Ra1 48. Ke2 Ra2+ 49. Ke3 Ra1 50. f4 gxf4+ 51. Kxf4 Rf1+ 52. Ke4 Re1+ 53. Kf4
+Rf1+ 54. Kg3 Rg1+ 55. Kf3 Rf1+ 56. Ke3 Re1+ 57. Kd3 Rd1+ 58. Kc3 a5 59. Ra7 Rc1+
+60. Kd2 Rc4 61. Kd3 Rc1 62. Rxa5 Rg1 63. Ra8+ Kf7 64. Ra7 Ke8 65. Kc3 Rg3+ 66.
+Kc2 Rg2+ 67. Kd3 Rg3+ 68. Kc4 Rxg4 69. Ra8+ Kf7 70. Ra7 Ke8 71. Ra8+ Kf7 72. Rh8
+Kg6 73. Re8 Kf5 74. Rh8 Nb6+ 75. Kc5 Na4+ 76. Kc6 Rxd4 77. Rxh6 Ke4 78. Rxe6
+Rc4+ 79. Kb5 Kd5 80. Rh6 Nc3+ 81. Kb6 Rc6+ 82. Kb7 Ne4 83. Rh5 Rc3 84. Rh6 Rc6
+85. Rh5 Rc2 86. Be7 Rb2+ 87. Kc7 Ke6 88. Kc6 Rc2+ 89. Kb5 Kxe7 90. e6 Kxe6 91.
+Kb6 Kd6 92. Kb5 Rc1 93. Kb4 Kc6 94. Kb3 Nc5+ 95. Kb4 Na6+ 96. Kb3 Kb6 97. Kb2
+Rc4 98. Kb3 Rc8 99. Kb2 Nb4 100. Kb3 Nd3 101. Rh3 Ne5 102. Rh5 Rc5 103. Rh8 Nc6
+104. Kb2 Kb5 105. Rh4 Ne5 106. Ka3 Nd3 107. Kb3 Rc1 108. Rh8 Nc5+ 109. Kb2 Rg1
+110. Kc3 Rg4 111. Rb8+ Kc6 112. Rc8+ Kd5 113. Rd8+ Ke5 114. Re8+ Ne6 115. Kd3
+Kd5 116. Ke3 Rg3+ 117. Kf2 Ra3 118. Ke2 Nd4+ 119. Kd2 Nf3+ 120. Ke2 Ne5 121. Kd2
+Kd4 122. Rd8+ Ke4 123. Kc2 Nd3 124. Kd2 Nf4 125. Re8+ Kf3 126. Kc2 Kf2 127. Kb2
+Rf3 128. Kc2 Nd5 129. Kd2 Ra3 130. Rf8+ Kg3 131. Kc2 Ne3+ 132. Kd2 Nc4+ 133. Kc2
+Ne5 134. Kd2 Nf3+ 135. Ke2 Ne5 136. Kd2 Kg2 137. Ke2 Nc4 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.03"]
+[Round "4.1"]
+[White "Thorfinnsson, Bjorn"]
+[Black "Kjartansson, Gudmundur"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2410"]
+[BlackElo "2457"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "2300982"]
+[BlackFideId "2301318"]
+[EventDate "2016.05.31"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6 6. Nf3 Nc6 7. O-O Be7 8. d3
+O-O 9. Bd2 Be6 10. Qc2 Nd4 11. Nxd4 exd4 12. Na4 Nxa4 13. Qxa4 c5 14. Bxb7 Rb8
+15. Bf3 Rxb2 16. Bc1 Rb6 17. Qxa7 c4 18. Bf4 Bd6 19. dxc4 Bxf4 20. c5 Rb5 21.
+gxf4 Qf6 22. Qc7 Rc8 23. Qe5 Rcxc5 24. Qxf6 gxf6 25. Rfd1 Rc4 26. Be4 Ra5 27.
+Rd2 Rca4 28. a3 Rxa3 29. Rxa3 Rxa3 30. Rxd4 Ra5 31. Bd3 Bf5 32. Bc4 Kg7 33. f3
+Ra4 34. e3 Rb4 35. Kf2 Bd7 36. Kg3 Bb5 37. Bd5 Rb2 38. f5 Kf8 39. Rd1 Rc2 40.
+Rb1 Rc5 41. e4 Kg7 42. Kf4 Bc6 43. Bb3 Rc3 44. Bd1 Rc5 45. Rb6 Bb5 46. Ke3 Rc3+
+47. Kd2 Rc5 48. Rb7 Bc4 49. Ba4 Ra5 50. Rb4 Rc5 51. Ke3 Ba2 52. Bd1 Rc1 53. Kd2
+Rc7 54. Be2 Kh6 55. f4 Rc5 56. Rb2 Ra5 57. Rb6 Kg7 58. Bd3 Rc5 59. Rb4 Kh6 60.
+Ra4 Bb3 61. Ra3 Bc4 62. Rc3 Bxd3 63. Rxc5 Bxe4 64. Ke3 Bb1 65. Kd4 Kg7 66. Rd5
+Kf8 67. Rb5 Bc2 68. Kc5 Bxf5 69. Kd6 Bg4 70. Rb8+ Kg7 71. Ke7 Bh5 72. Rb6 f5 73.
+Ra6 Bg6 74. Ra3 Bh5 75. Ra6 Bg6 76. Ra3 Kh6 77. Rh3+ Bh5 78. Rg3 Bg6 79. Rg5 Kg7
+80. h3 f6 81. Rg3 Kh6 82. Kxf6 Kh5 83. Rg5+ Kh4 84. Rxg6 hxg6 85. Kxg6 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.03"]
+[Round "4.2"]
+[White "Johannsson, Orn Leo"]
+[Black "Jensson, Einar Hjalti"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2226"]
+[BlackElo "2370"]
+[ECO "B40"]
+[Opening "Sicilian defence"]
+[WhiteFideId "2303051"]
+[BlackFideId "2301067"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Nf3 e6 3. b3 a6 4. Bb2 Nc6 5. d3 Qc7 6. g3 b5 7. Nbd2 d5 8. Bg2 d4
+9. O-O Nf6 10. Qe2 Be7 11. c3 dxc3 12. Bxc3 e5 13. Rfc1 Qd6 14. a4 Rb8 15. axb5
+axb5 16. b4 cxb4 17. Bb2 Nd7 18. Nb3 O-O 19. d4 exd4 20. Nfxd4 Nxd4 21. Nxd4 Ne5
+22. f4 Nc4 23. Nxb5 Qb6+ 24. Bd4 Qxb5 25. Qxc4 Qxc4 26. Rxc4 Be6 27. Rc7 Bd8 28.
+Rc6 b3 29. Bf1 Re8 30. Be5 Rb4 31. f5 Bd7 32. Rd6 Bc8 33. Ra8 Bb6+ 34. Kg2 b2
+35. Bd3 f6 36. Rc6 Bd7 37. Rxe8+ Bxe8 38. Bc4+ Rxc4 39. Rxb6 Rc2+ 40. Kf3 fxe5
+41. Rb8 Kf7 42. Rb7+ Kf6 43. h4 h5 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.03"]
+[Round "4.3"]
+[White "Ingvason, Johann"]
+[Black "Gretarsson, Hjorvar Steinn"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2142"]
+[BlackElo "2580"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf"]
+[WhiteFideId "2301431"]
+[BlackFideId "2302241"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bd3 e5 7. Nde2 b5 8. Bg5
+Nbd7 9. Nd5 Bb7 10. c4 Bxd5 11. cxd5 Be7 12. Bxf6 Bxf6 13. O-O O-O 14. a4 b4 15.
+Nc1 Bg5 16. Nb3 Bh6 17. a5 Qb8 18. Qe1 Qb7 19. Ra4 Rfb8 20. g3 g6 21. Kg2 Nf6
+22. f3 Qa7 23. Rf2 Be3 24. Rc2 Bc5 25. Qc1 Nd7 26. h4 h5 27. Qe1 Rc8 28. Ra1 Bd4
+29. Rac1 Rxc2+ 30. Rxc2 Nc5 31. Nxc5 Bxc5 32. b3 Kg7 33. Qe2 Qc7 34. Ra2 Qc8 35.
+Qc2 Ra7 36. Qe2 Bd4 37. Qc2 Rc7 38. Bc4 Rc5 39. Qe2 Qc7 40. Bxa6 Rc1 41. Bc4 Ba7
+42. Qb2 Rg1+ 43. Kh2 Qc5 44. Ra1 Rxa1 45. Qxa1 Qf2+ 46. Kh3 Qxf3 47. Qf1 Qxe4
+48. Qg2 Qg4+ 49. Kh2 Qd4 50. Qf1 f5 51. a6 Qd2+ 52. Qe2 Qc1 53. Qf1 Qe3 54. Kg2
+Kf6 55. Qe2 Qg1+ 56. Kh3 Bf2 57. Qf3 e4 58. Qg2 Qe1 59. Qf1 Qe3 60. Qg2 Ke5 61.
+Kh2 f4 62. gxf4+ Qxf4+ 63. Kh1 Qxh4+ 64. Qh2+ Qxh2+ 65. Kxh2 Kf4 66. Bb5 g5 67.
+Be8 h4 68. Kg2 Bc5 69. Kh3 g4+ 70. Kxh4 Bf2+ 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.03"]
+[Round "4.4"]
+[White "Gislason, Gudmundur"]
+[Black "Steingrimsson, Hedinn"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2280"]
+[BlackElo "2574"]
+[ECO "B20"]
+[Opening "Sicilian defence"]
+[WhiteFideId "2300559"]
+[BlackFideId "2300117"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Be2 Nc6 3. f4 g6 4. Nf3 Bg7 5. c3 Nf6 6. d3 d6 7. O-O O-O 8. Qe1 e6
+9. Na3 Rb8 10. Nc4 Ne8 11. e5 b5 12. Nxd6 Nxd6 13. exd6 Qxd6 14. Qf2 Na5 15. Be3
+Nb7 16. a4 a6 17. axb5 axb5 18. Ra7 Re8 19. Rfa1 Nd8 20. Ne5 Bf8 21. Ng4 Re7 22.
+Bxc5 Rxa7 23. Nf6+ Kh8 24. Bxa7 Ra8 25. Ne8 Qd5 26. Qd4+ f6 27. Qxf6+ Kg8 28.
+Qh4 Qb7 29. Qxd8 Rxa7 30. Rxa7 Qxa7+ 31. d4 Qb8 32. Nf6+ Kg7 33. g3 Qb7 34. Ne8+
+Kf7 35. Nd6+ Bxd6 36. Qxd6 Bd7 37. Kf2 Bc6 38. Bg4 Bd5 39. Qd8 Bh1 40. Ke3 Qe4+
+41. Kd2 Qg2+ 42. Be2 Qxh2 43. Qd7+ Kf6 44. Qe8 Qh6 45. Qxb5 Qf8 46. Qe5+ Kf7 47.
+Qc7+ Kg8 48. Bc4 Bd5 49. Bxd5 exd5 50. Qd7 Qa8 51. g4 Qa2 52. Qb7 Qc4 53. f5
+gxf5 54. gxf5 Qf1 55. Qxd5+ Kg7 56. Qe5+ Kh6 57. Qe3+ Kg7 58. Qg5+ Kf7 59. b4
+Qf2+ 60. Kd3 Qf1+ 61. Kc2 Qe2+ 62. Kb3 Qd1+ 63. Kc4 Qf1+ 64. Kc5 Qa1 65. Qh5+
+Kg7 66. f6+ Kxf6 67. Qh6+ Kf5 68. Qxh7+ Kf4 69. c4 Ke3 70. d5 Qd4+ 71. Kb5 Qe5
+72. Qg6 Kd4 73. Qe6 Qb8+ 74. Qb6+ 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.03"]
+[Round "4.5"]
+[White "Kjartansson, David"]
+[Black "Gunnarsson, Jon Viktor"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2371"]
+[BlackElo "2454"]
+[ECO "A57"]
+[Opening "Benko gambit"]
+[WhiteFideId "2301130"]
+[BlackFideId "2300931"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. Nf3 g6 5. g3 Bg7 6. Bg2 bxc4 7. O-O O-O 8. Nc3 d6
+9. Nd2 Ba6 10. Qa4 Qb6 11. Rb1 Qb4 12. Qc2 Nbd7 13. Nf3 Rab8 14. Bd2 Qb6 15. Bf4
+Qc7 16. Rfd1 Nb6 17. Qd2 Rfe8 18. Bh6 Bh8 19. h3 Qd7 20. e4 Na4 21. e5 Nxc3 22.
+Qxc3 Ne4 23. Qe3 f5 24. e6 Qa4 25. g4 Rxb2 26. gxf5 gxf5 27. Rbc1 Rxf2 28. Nh4
+Bf6 29. Bxe4 Bxh4 30. Kh1 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.03"]
+[Round "4.6"]
+[White "Hjartarson, Johann"]
+[Black "Thorfinnsson, Bragi"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2547"]
+[BlackElo "2426"]
+[ECO "B84"]
+[Opening "Sicilian"]
+[Variation "Scheveningen (Paulsen), classical variation"]
+[WhiteFideId "2300044"]
+[BlackFideId "2300958"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. O-O Be7 8. f4
+Qc7 9. a4 Nc6 10. Be3 O-O 11. Kh1 Re8 12. Bf3 Rb8 13. Qd2 Nxd4 14. Bxd4 e5 15.
+Ba7 Ra8 16. Be3 exf4 17. Bxf4 Be6 18. Rfd1 Red8 19. a5 Rac8 20. Ra4 b5 21. axb6
+Qxb6 22. Rb1 Nd7 23. Nd5 Bxd5 24. exd5 Bf6 25. Be2 a5 26. Be3 Qc7 27. Rc4 Nc5
+28. c3 Qe7 29. Bxc5 Rxc5 30. Rxc5 dxc5 31. Bb5 Be5 32. Re1 Qd6 33. g3 g6 34. c4
+Qf6 35. Kg2 Bxb2 36. Rf1 Qd4 37. Qxa5 Rd6 38. Rf4 Qd3 39. Qa8+ Kg7 40. Rxf7+
+Kxf7 41. Qe8+ Kg7 42. Qe7+ Kg8 43. Qe8+ 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.04"]
+[Round "5.1"]
+[White "Thorfinnsson, Bragi"]
+[Black "Thorfinnsson, Bjorn"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2426"]
+[BlackElo "2410"]
+[ECO "A13"]
+[Opening "English"]
+[Variation "Wimpey system"]
+[WhiteFideId "2300958"]
+[BlackFideId "2300982"]
+[EventDate "2016.05.31"]
+
+1. Nf3 e6 2. c4 d5 3. e3 Nf6 4. b3 c5 5. Bb2 Nc6 6. cxd5 exd5 7. a3 d4 8. Bb5
+dxe3 9. fxe3 Bd6 10. O-O O-O 11. Qc2 h6 12. e4 Nd4 13. Bxd4 cxd4 14. e5 Bxe5 15.
+Nxe5 Qd5 16. Ng6 Qxb5 17. Nxf8 Kxf8 18. Qc7 Qd5 19. Qf4 Bd7 20. d3 Bc6 21. Rf2
+Qxb3 22. Qxd4 Qd1+ 23. Rf1 Qe2 24. Rf2 Qe1+ 25. Rf1 Qe7 26. Nc3 Rd8 27. Qxa7 Ng4
+28. h3 Ne3 29. Rf2 Nxg2 30. Rxg2 Bxg2 31. Kxg2 Qg5+ 32. Kh1 Qf5 33. Kg2 Qg6+ 34.
+Kh2 Qd6+ 35. Kg2 Qe5 36. d4 Qg5+ 37. Kh1 Qg3 38. Qa5 Qxh3+ 39. Kg1 Qg4+ 40. Kh2
+Qh4+ 41. Kg2 Rxd4 42. Ne2 Rg4+ 43. Kf3 Qh3+ 44. Kf2 Qg2+ 45. Ke1 Kg8 46. Qd8+
+Kh7 47. Qd3+ Re4 48. Rc1 f5 49. Rc8 h5 50. Rc4 Qg1+ 51. Kd2 Qg5+ 52. Kd1 Rxc4
+53. Qxc4 h4 54. Qd5 b6 55. Qf3 Qg4 56. Qxg4 fxg4 57. Kd2 Kg6 58. Ke3 Kf5 59. Nc3
+Ke5 60. Ne2 g5 61. Nc3 g3 62. Kf3 Kd4 63. Nb5+ Kc5 64. Nc7 Kd4 65. Na8 g4+ 66.
+Kg2 Kc5 67. Nc7 Kc4 68. Na8 Kb5 69. Nc7+ Ka4 70. Nd5 b5 71. Nc3+ Ka5 72. Nd5 Ka6
+73. Nc3 Kb6 74. Ne4 Kc6 75. Nc3 Kc5 76. Ne4+ Kd5 77. Nc3+ Kc4 78. Ne2 Kb3 79.
+Nd4+ Kc4 80. Ne2 Kd5 81. Nc3+ Kc5 82. Ne4+ Kd4 83. Nd6 Kc5 84. Ne4+ Kd5 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.04"]
+[Round "5.2"]
+[White "Gunnarsson, Jon Viktor"]
+[Black "Hjartarson, Johann"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2454"]
+[BlackElo "2547"]
+[ECO "C55"]
+[Opening "Two knights defence (Modern bishop's opening)"]
+[WhiteFideId "2300931"]
+[BlackFideId "2300044"]
+[EventDate "2016.05.31"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. Re1 d6 7. a4 Be6 8. a5
+Nd4 9. Nbd2 c5 10. c3 Nxf3+ 11. Nxf3 Bxc4 12. dxc4 a6 13. h3 Ne8 14. Nh2 Nc7 15.
+Nf1 f5 16. exf5 Rxf5 17. Ng3 Rf7 18. Ne4 Qf8 19. Be3 Rb8 20. Qg4 g6 21. b4 cxb4
+22. cxb4 d5 23. Nc5 d4 24. Nd7 dxe3 25. fxe3 Qe8 26. Nxb8 Qxb8 27. Rf1 Rxf1+ 28.
+Rxf1 Qe8 29. c5 h5 30. Qe4 Bg5 31. Rf3 h4 32. Qxb7 e4 33. Rf1 Bxe3+ 34. Kh1 Qe7
+35. Re1 Bf2 36. Qxe4 Qg5 37. Rf1 Bg3 38. b5 axb5 39. a6 Kg7 40. a7 Qd8 41. Qf3
+b4 42. Qf7+ Kh6 43. Qf8+ Qxf8 44. Rxf8 b3 45. Rb8 Bf2 46. Rxb3 Bxc5 47. Rc3 Bxa7
+48. Rxc7 Bb6 49. Rb7 Bf2 50. Rb2 Ba7 51. Kh2 Be3 52. Re2 Ba7 53. Re8 Bf2 54. Re4
+Kh5 55. Re2 Bb6 56. Re5+ Kh6 57. Rd5 Bf2 58. Rb5 Ba7 59. Rb4 Kh5 60. g4+ hxg3+
+61. Kxg3 Be3 62. Rg4 Kh6 63. Kf3 Bg5 64. Ke4 Bf6 65. Kd5 Bb2 66. Ke6 Kg7 67. Rb4
+Bc3 68. Rb3 Bd4 69. Rb7+ Kg8 70. Rd7 Bb2 71. h4 Bc3 72. Rc7 Be1 73. Rc4 Kg7 74.
+Re4 Bc3 75. Rg4 Kh6 76. Kf7 Kh5 77. Rxg6 Kxh4 78. Ke6 Kh3 79. Kf5 Kh2 80. Kf4
+Bd4 81. Kf3 Ba7 82. Rg8 Bc5 83. Rc8 Bd4 84. Rd8 Bb6 85. Rd2+ Kh1 86. Rb2 Bc5 87.
+Rg2 Bb6 88. Kg3 Bc5 89. Kh3 Bb6 90. Rb2 Bd4 91. Rb1+ Bg1 92. Rd1 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.04"]
+[Round "5.3"]
+[White "Steingrimsson, Hedinn"]
+[Black "Kjartansson, David"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2574"]
+[BlackElo "2371"]
+[ECO "E11"]
+[Opening "Bogo-Indian defence, Gruenfeld variation"]
+[WhiteFideId "2300117"]
+[BlackFideId "2301130"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 b6 5. a3 Bxd2+ 6. Qxd2 Bb7 7. e3 O-O 8.
+Be2 c5 9. O-O cxd4 10. Nxd4 d5 11. Rd1 Nc6 12. b4 Ne5 13. cxd5 Qxd5 14. f3 Rac8
+15. e4 Nxe4 16. fxe4 Qxe4 17. Bf1 Rfd8 18. Qe3 Qg4 19. Bb2 Nc4 20. Qf2 Nxb2 21.
+Qxb2 h5 22. h3 Qe4 23. Nf3 Rxd1 24. Rxd1 Qe3+ 25. Qf2 Qxa3 26. Ng5 f6 27. Nxe6
+Bc6 28. Rd3 Qa1 29. Rg3 g5 30. Nxg5 h4 31. Rg4 Bd7 32. Rd4 Rc2 33. Qxf6 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.04"]
+[Round "5.4"]
+[White "Gretarsson, Hjorvar Steinn"]
+[Black "Gislason, Gudmundur"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "FM"]
+[WhiteElo "2580"]
+[BlackElo "2280"]
+[ECO "D77"]
+[Opening "Neo-Gruenfeld, 6.O-O"]
+[WhiteFideId "2302241"]
+[BlackFideId "2300559"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. Nf3 O-O 6. O-O dxc4 7. Na3 c3 8. bxc3
+c5 9. e3 Nc6 10. Bb2 cxd4 11. cxd4 Be6 12. Ng5 Bg4 13. f3 Bd7 14. Qe2 Nd5 15. f4
+e6 16. Rfd1 Qe7 17. Ne4 Ncb4 18. Nc5 Bc6 19. e4 Nb6 20. e5 Bxg2 21. Kxg2 N6d5
+22. Nb5 b6 23. Ne4 Nc2 24. Rdc1 Nxa1 25. Ba3 Qd7 26. Bxf8 Bxf8 27. Rxa1 a6 28.
+Nbc3 Nxc3 29. Nf6+ Kg7 30. Qf3 Qc8 31. Rc1 Bb4 32. a3 Ba5 33. Ne4 Ra7 34. Nd6
+Qa8 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.04"]
+[Round "5.5"]
+[White "Jensson, Einar Hjalti"]
+[Black "Ingvason, Johann"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2370"]
+[BlackElo "2142"]
+[ECO "D50"]
+[Opening "QGD"]
+[Variation "4.Bg5"]
+[WhiteFideId "2301067"]
+[BlackFideId "2301431"]
+[EventDate "2016.05.31"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 h6 5. Bxf6 gxf6 6. cxd5 exd5 7. g3 c6 8. Bg2
+Be6 9. Nf3 Qb6 10. Qc2 h5 11. O-O h4 12. Nxh4 Qxd4 13. e4 dxe4 14. Rad1 Qc4 15.
+Rfe1 Rxh4 16. gxh4 f5 17. Bxe4 fxe4 18. Rxe4 Qc5 19. Rxe6+ fxe6 20. Qg6+ Ke7 21.
+Qh7+ Ke8 22. Qg6+ Ke7 23. Qh7+ Ke8 24. Qxb7 Qb4 25. Qc8+ Kf7 26. Rd3 Be7 27. Rg3
+Nd7 28. Qxa8 Nf6 29. Qxc6 Qxb2 30. Re3 Qc1+ 31. Kg2 e5 32. Rxe5 Bd8 33. Qe6+ Kf8
+34. Qd6+ Kf7 35. Qxd8 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.04"]
+[Round "5.6"]
+[White "Kjartansson, Gudmundur"]
+[Black "Johannsson, Orn Leo"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[WhiteElo "2457"]
+[BlackElo "2226"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "2301318"]
+[BlackFideId "2303051"]
+[EventDate "2016.05.31"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nf3 Bd6 6. O-O c6 7. Nc3 Nxc3 8.
+bxc3 O-O 9. d3 Qe7 10. Nd2 Be6 11. Ne4 Ba3 12. Bxa3 Qxa3 13. Qb1 Qe7 14. Qb4
+Qxb4 15. cxb4 a5 16. bxa5 Rxa5 17. Rfb1 b5 18. Nc5 Rxa2 19. Nxe6 Rxa1 20. Rxa1
+fxe6 21. Kf1 Kf7 22. h4 Kf6 23. Ra8 Rd8 24. Ra7 Rc8 25. g4 h6 26. e3 c5 27. Be4
+c4 28. dxc4 bxc4 29. f4 exf4 30. exf4 g5 31. fxg5+ hxg5 32. h5 Ke5 33. Bc2 Nc6
+34. Ra2 Kd4 35. Bg6 Ne5 36. Rd2+ Kc5 37. Re2 Nxg6 38. hxg6 c3 39. Ke1 Kd4 40.
+Kd1 e5 41. Rf2 e4 42. g7 e3 43. Rf8 c2+ 44. Kc1 e2 45. Rxc8 e1=Q+ 46. Kxc2 Qe2+
+47. Kc1 Qf1+ 48. Kb2 Qb5+ 49. Kc1 Qf1+ 50. Kb2 Qe2+ 51. Kc1 Qe3+ 52. Kc2 Qe4+
+53. Kc1 Qh1+ 54. Kd2 Qg2+ 55. Kc1 Qf1+ 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.05"]
+[Round "6.1"]
+[White "Thorfinnsson, Bjorn"]
+[Black "Johannsson, Orn Leo"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[WhiteElo "2410"]
+[BlackElo "2226"]
+[ECO "A09"]
+[Opening "Reti opening"]
+[WhiteFideId "2300982"]
+[BlackFideId "2303051"]
+[EventDate "2016.05.31"]
+
+1. Nf3 d5 2. c4 c6 3. g3 Nf6 4. Bg2 Bg4 5. b3 Bxf3 6. Bxf3 e6 7. Bb2 Nbd7 8. g4
+h6 9. h4 Bd6 10. Rg1 Ne5 11. Bxe5 Bxe5 12. d4 Bh2 13. Rh1 Bc7 14. Nc3 e5 15.
+cxd5 Ba5 16. Rc1 Nxd5 17. Bxd5 Qxd5 18. Rh3 exd4 19. e4 Qc5 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.05"]
+[Round "6.2"]
+[White "Ingvason, Johann"]
+[Black "Kjartansson, Gudmundur"]
+[Result "0-1"]
+[BlackTitle "IM"]
+[WhiteElo "2142"]
+[BlackElo "2457"]
+[ECO "B18"]
+[Opening "Caro-Kann"]
+[Variation "classical variation"]
+[WhiteFideId "2301431"]
+[BlackFideId "2301318"]
+[EventDate "2016.05.31"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Nf6 7. h4 Nh5 8.
+Nxh5 Bxh5 9. Bc4 e6 10. Qd3 Bxf3 11. gxf3 Nd7 12. Be3 Nb6 13. Bb3 Qf6 14. Qe2
+Qf5 15. O-O-O Nd5 16. c3 Bd6 17. Rdg1 Nf4 18. Qd2 g6 19. Bc2 Qf6 20. Be4 h5 21.
+Kb1 O-O 22. Qc2 Kh8 23. Rg5 Rad8 24. Bc1 Rfe8 25. Be3 Kg8 26. Qc1 Kf8 27. Re5
+Nd5 28. Bh6+ Kg8 29. Rxh5 Bf4 30. Bxf4 Nxf4 31. Rg5 e5 32. Rhg1 Ne2 33. Rxg6+
+fxg6 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.05"]
+[Round "6.3"]
+[White "Gislason, Gudmundur"]
+[Black "Jensson, Einar Hjalti"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2280"]
+[BlackElo "2370"]
+[ECO "D78"]
+[Opening "Neo-Gruenfeld, 6.O-O c6"]
+[WhiteFideId "2300559"]
+[BlackFideId "2301067"]
+[EventDate "2016.05.31"]
+
+1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nf6 5. O-O O-O 6. c4 c6 7. Bf4 dxc4 8. Qc1
+Be6 9. Bh6 Bd5 10. Bxg7 Kxg7 11. Rd1 Nbd7 12. Nbd2 c5 13. dxc5 Rc8 14. e4 Nxe4
+15. Nxe4 Bxe4 16. Ne5 Bd3 17. Nxd3 cxd3 18. Rxd3 Qc7 19. b4 Ne5 20. Qc3 f6 21.
+Re3 Rfe8 22. Rae1 h5 23. Rxe5 fxe5 24. Rxe5 e6 25. Be4 Kf7 26. Rg5 Rg8 27. Qf3+
+Ke7 28. Bxg6 Rg7 29. Bxh5 Rcg8 30. Rxg7+ Rxg7 31. Qe4 b6 32. Qh4+ Kd7 33. Qd4+
+Kc8 34. Bg4 Re7 35. Qc4 Qc6 36. h4 Kc7 37. h5 e5 38. cxb6+ axb6 39. Qxc6+ Kxc6
+40. Bf5 Kd6 41. h6 Re8 42. h7 Ke7 43. Be4 Kf6 44. Kg2 Kg7 45. Kf3 Rc8 46. Bd5
+Rf8+ 47. Ke3 Kxh7 48. a4 Rc8 49. Ke4 Rc2 50. f3 Re2+ 51. Kf5 Kg7 52. Ke6 Kf8 53.
+Kd6 Rb2 54. b5 Rb4 55. Kc6 Ke7 56. Kxb6 Kd6 57. Ka5 Kc5 58. Be4 Rb2 59. g4 Rg2
+60. b6 Rb2 61. b7 Kd6 62. g5 Kc7 63. g6 Kb8 64. f4 Rb3 65. f5 Ka7 66. f6 Rb2 67.
+f7 Rb6 68. f8=B 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.05"]
+[Round "6.4"]
+[White "Kjartansson, David"]
+[Black "Gretarsson, Hjorvar Steinn"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "GM"]
+[WhiteElo "2371"]
+[BlackElo "2580"]
+[WhiteFideId "2301130"]
+[BlackFideId "2302241"]
+[EventDate "2016.05.31"]
+
+1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.05"]
+[Round "6.5"]
+[White "Hjartarson, Johann"]
+[Black "Steingrimsson, Hedinn"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2547"]
+[BlackElo "2574"]
+[ECO "B10"]
+[Opening "Caro-Kann"]
+[Variation "anti-anti-Caro-Kann defence"]
+[WhiteFideId "2300044"]
+[BlackFideId "2300117"]
+[EventDate "2016.05.31"]
+
+1. c4 c6 2. e4 d5 3. exd5 cxd5 4. cxd5 Nf6 5. Nc3 Nxd5 6. Nf3 Nxc3 7. bxc3 g6 8.
+d4 Bg7 9. h4 Qc7 10. h5 Qxc3+ 11. Bd2 Qc7 12. Rc1 Qd8 13. Bc4 Nc6 14. Qb3 e6 15.
+d5 exd5 16. Bxd5 O-O 17. hxg6 hxg6 18. Bc3 Bg4 19. Bxg7 Qe7+ 20. Kf1 Kxg7 21.
+Qb2+ f6 22. Re1 Qd7 23. Bxc6 bxc6 24. Ne5 fxe5 25. Qxe5+ Rf6 26. Qg5 Rg8 27. Rh4
+Qf5 28. Qh6+ Kf7 29. Qe3 Re6 30. Qxa7+ Kf6 31. Qd4+ Kg5 32. Rxg4+ Qxg4 33. Qxg4+
+Kxg4 34. Rxe6 c5 35. Rc6 Ra8 36. Rxg6+ Kf4 37. Re6 Rxa2 38. g3+ Kf5 39. Re8 c4
+40. Re3 Rb2 41. Ke1 Rb1+ 42. Kd2 Rb2+ 43. Kc3 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.05"]
+[Round "6.6"]
+[White "Thorfinnsson, Bragi"]
+[Black "Gunnarsson, Jon Viktor"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2426"]
+[BlackElo "2454"]
+[ECO "A46"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "2300958"]
+[BlackFideId "2300931"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bf4 c5 4. e3 b6 5. Nbd2 Be7 6. h3 d6 7. c3 O-O 8. Be2 Bb7
+9. Qb1 Nbd7 10. Bh2 Qc7 11. O-O Rac8 12. a4 a6 13. Re1 Rfe8 14. Bf1 Bf8 15. e4
+cxd4 16. Nxd4 Qb8 17. c4 g6 18. b4 a5 19. Nb5 e5 20. bxa5 bxa5 21. f3 Nc5 22.
+Kh1 Nh5 23. Nb3 Qa8 24. Qb2 Qa6 25. Red1 Red8 26. Qc3 Nxb3 27. Qxb3 Bc6 28. Qe3
+Qb7 29. Qe1 Ra8 30. Qe3 Qe7 31. Ra2 Qh4 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.07"]
+[Round "7.1"]
+[White "Gunnarsson, Jon Viktor"]
+[Black "Thorfinnsson, Bjorn"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2454"]
+[BlackElo "2410"]
+[ECO "C55"]
+[Opening "Two knights defence (Modern bishop's opening)"]
+[WhiteFideId "2300931"]
+[BlackFideId "2300982"]
+[EventDate "2016.05.31"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O d6 6. a4 Be6 7. Nbd2 O-O 8. c3
+a6 9. Re1 Re8 10. b4 d5 11. exd5 Nxd5 12. Ne4 Nf4 13. Bxf4 Bxc4 14. dxc4 Qxd1
+15. Raxd1 exf4 16. Rd5 g6 17. Kf1 f5 18. Nc5 Bf6 19. Rxe8+ Rxe8 20. Rd3 a5 21.
+b5 Nd8 22. h4 Be7 23. Nb3 Ne6 24. Rd7 Bd6 25. c5 Nf8 26. Rxd6 cxd6 27. Nxa5 Rb8
+28. Nxb7 dxc5 29. Nxc5 Rc8 30. Nb3 Rxc3 31. Nfd4 Nd7 32. a5 Rc4 33. Ke2 h6 34.
+b6 Rb4 35. Kd3 Nxb6 36. axb6 Rxb6 37. h5 gxh5 38. Ke2 Kf7 39. Kf3 Rb4 40. Kxf4
+Kf6 41. Ke3 Ra4 42. Nc5 Ra3+ 43. Kf4 Ra2 44. Nd3 Ra4 45. Ke3 h4 46. f4 Ra1 47.
+Nf3 Rh1 48. Nf2 Ra1 49. Nxh4 Ra3+ 50. Nd3 Ra2 51. Ne5 Ra3+ 52. Kf2 Ra2+ 53. Kg3
+Ra3+ 54. Kh2 Ra7 55. g3 Ra2+ 56. Kh3 Ke6 57. Nef3 Ra4 58. Nh2 Ra1 59. Kg2 Ra2+
+60. Kg1 Kf6 61. Nf1 Re2 62. Ng2 Ra2 63. Nfe3 Re2 64. Kf1 Ra2 65. Nh4 Ra5 66. Kg2
+h5 67. Nhxf5 Rxf5 68. Nxf5 Kxf5 69. Kf3 Kg6 70. Ke4 Kf6 71. f5 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.07"]
+[Round "7.2"]
+[White "Steingrimsson, Hedinn"]
+[Black "Thorfinnsson, Bragi"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2574"]
+[BlackElo "2426"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "classical variation (5.Bf4)"]
+[WhiteFideId "2300117"]
+[BlackFideId "2300958"]
+[EventDate "2016.05.31"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 Nbd7 7. a3 c5 8. cxd5
+Nxd5 9. Nxd5 exd5 10. dxc5 Nxc5 11. Be5 Bf6 12. Be2 Bxe5 13. Nxe5 Bf5 14. Nf3
+Be4 15. O-O Rc8 16. Rc1 Qb6 17. b4 Ne6 18. Qd2 h6 19. a4 a6 20. a5 Qd6 21. Rfd1
+Rfd8 22. Nd4 Nxd4 23. Qxd4 Qg6 24. Bf1 Bc2 25. Re1 Qe4 26. Qd2 Qg6 27. h3 Bb3
+28. g3 Bc2 29. Qd4 Be4 30. Be2 h5 31. Qe5 h4 32. Bh5 Qf5 33. Qxf5 Bxf5 34. gxh4
+Rc4 35. Rxc4 dxc4 36. Rc1 Bd3 37. Bf3 Rd7 38. h5 f5 39. Kg2 Kf7 40. Kg3 Ke7 41.
+Kf4 Kd6 42. e4 fxe4 43. Bxe4 Rf7+ 44. Ke3 Bxe4 45. Kxe4 Rxf2 46. Rxc4 Rh2 47.
+Rc3 Rb2 48. Kf5 Rxb4 49. Kg6 Rb5 50. Ra3 Kc6 51. h4 Rc5 52. Rg3 Rxa5 53. Rg5 Ra4
+54. Kxg7 Rxh4 55. h6 a5 56. Rxa5 b5 57. h7 Rg4+ 58. Kf7 Rh4 59. Kg6 Kc5 60. Ra8
+Rxh7 61. Kxh7 b4 62. Kg6 b3 63. Kf5 Kd4 64. Rb8 Kc3 65. Ke4 b2 66. Ke3 Kc2 67.
+Rc8+ Kb3 68. Kd2 b1=Q 69. Rb8+ Ka2 70. Rxb1 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.07"]
+[Round "7.3"]
+[White "Gretarsson, Hjorvar Steinn"]
+[Black "Hjartarson, Johann"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2580"]
+[BlackElo "2547"]
+[ECO "E69"]
+[Opening "King's Indian"]
+[Variation "fianchetto, classical main line"]
+[WhiteFideId "2302241"]
+[BlackFideId "2300044"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nf3 d6 6. O-O Nbd7 7. Nc3 e5 8. e4 c6
+9. h3 a6 10. a4 exd4 11. Nxd4 Re8 12. Be3 Nc5 13. Qc2 a5 14. Rfd1 Qe7 15. Re1
+Nfd7 16. Rad1 h5 17. b3 Na6 18. f4 Ndc5 19. Bf2 Nb4 20. Qb1 g5 21. e5 dxe5 22.
+fxe5 g4 23. h4 Bxe5 24. Rxe5 Qxe5 25. Re1 Bf5 26. Rxe5 Bxb1 27. Rxh5 Ne4 28.
+Bxe4 Bxe4 29. Rg5+ Kh8 30. Rxg4 Bg6 31. h5 Bd3 32. Nf3 Nc2 33. Ng5 Re7 34. Bc5
+Re1+ 35. Kg2 f6 36. Nf7+ Kh7 37. Rf4 Kg7 38. Nd6 Re5 39. Bf2 Rxh5 40. Nxb7 Rah8
+41. Nc5 Bg6 42. Kf3 Rxc5 43. Bxc5 Ne1+ 44. Kg4 f5+ 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.07"]
+[Round "7.4"]
+[White "Jensson, Einar Hjalti"]
+[Black "Kjartansson, David"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2370"]
+[BlackElo "2371"]
+[ECO "A10"]
+[Opening "English opening"]
+[WhiteFideId "2301067"]
+[BlackFideId "2301130"]
+[EventDate "2016.05.31"]
+
+1. c4 d6 2. g3 c5 3. Bg2 Nc6 4. Nc3 Nf6 5. e4 g6 6. Nge2 Bg7 7. O-O O-O 8. a3
+Ne8 9. b4 Nc7 10. Rb1 Ne6 11. Kh1 Ned4 12. Ng1 Rb8 13. d3 cxb4 14. axb4 b5 15.
+Be3 Bd7 16. Qd2 e6 17. Nge2 Nxe2 18. Nxe2 a5 19. c5 Nxb4 20. cxd6 Rc8 21. Rfc1
+Be5 22. Bc5 Na6 23. d4 Nxc5 24. dxc5 b4 25. f4 Bg7 26. e5 f6 27. exf6 Bxf6 28.
+c6 Bxc6 29. Rxc6 Rxc6 30. Bxc6 Qb6 31. Ba4 Qb7+ 32. Kg1 Bd8 33. h4 Qf3 34. Kh2
+Qf2+ 35. Kh3 e5 36. Rd1 Kg7 37. Bc6 Bf6 38. d7 b3 39. fxe5 Qf5+ 40. Kg2 Qxe5 41.
+Nf4 b2 42. Qd5 Qxd5+ 43. Bxd5 Rb8 44. Ba2 Bd8 45. Rf1 Kf6 46. Ne6+ Ke5 47. Nxd8
+Rxd8 48. Rb1 Rxd7 49. Rxb2 Kf6 50. Rb6+ Kg7 51. Bc4 Rc7 52. Bd3 Rc3 53. Be4 a4
+54. Rb7+ Kg8 55. Ra7 a3 56. Kh3 Re3 57. Bd5+ Kh8 58. Kg4 Rd3 59. Be4 Rc3 60. Kf4
+Rb3 61. g4 Rc3 62. Ke5 h5 63. Kf6 Rc8 64. g5 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.07"]
+[Round "7.5"]
+[White "Kjartansson, Gudmundur"]
+[Black "Gislason, Gudmundur"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2457"]
+[BlackElo "2280"]
+[ECO "E98"]
+[Opening "King's Indian"]
+[Variation "orthodox, Aronin-Taimanov, 9.Ne1"]
+[WhiteFideId "2301318"]
+[BlackFideId "2300559"]
+[EventDate "2016.05.31"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 Bg7 4. d4 O-O 5. Nf3 d6 6. Be2 e5 7. O-O Nc6 8. d5 Ne7
+9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. Rc1 Rf6 14. Nd3 Rh6 15. c5 Qe8
+16. Nb5 Qh5 17. h4 gxh4 18. Kh2 Rg6 19. Nxc7 h3 20. g4 fxg3+ 21. Bxg3 Rxg3 22.
+Kxg3 Qg5+ 23. Kf2 Qh4+ 24. Ke3 Bh6+ 25. f4 exf4+ 26. Kd2 f3+ 27. Kc2 fxe2 28.
+Qxe2 Bxc1 29. Nxa8 Bg5 30. cxd6 Ng6 31. Nc7 Nf6 32. e5 Qc4+ 33. Kd1 Bg4 34. exf6 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.07"]
+[Round "7.6"]
+[White "Johannsson, Orn Leo"]
+[Black "Ingvason, Johann"]
+[Result "0-1"]
+[WhiteElo "2226"]
+[BlackElo "2142"]
+[ECO "B51"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky (Nimzovich-Rossolimo, Moscow) attack"]
+[WhiteFideId "2303051"]
+[BlackFideId "2301431"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6 4. Bxc6+ bxc6 5. O-O e5 6. c3 Bg4 7. d4 cxd4 8.
+cxd4 exd4 9. Qa4 Qb6 10. Nxd4 Bd7 11. Qd1 Nf6 12. Nc3 Be7 13. Nb3 O-O 14. Bg5
+Bg4 15. Qd3 a5 16. Qg3 a4 17. Be3 c5 18. Nd2 Qxb2 19. Rfc1 Qb7 20. f4 Bd7 21. f5
+Kh8 22. Rab1 Qc7 23. Nb5 Bxb5 24. Rxb5 Qc6 25. Rb4 Rfb8 26. Rxb8+ Rxb8 27. Rxc5
+Qb7 28. Rc4 Qb5 29. Bd4 Qxc4 30. Nxc4 Rb1+ 31. Kf2 Nxe4+ 32. Ke3 Nxg3 33. hxg3
+f6 34. Nb6 a3 35. Kd3 Kg8 36. Kc2 Rb5 37. g4 d5 38. Kd3 Bc5 39. Nxd5 Bxd4 40.
+Kxd4 Rb2 41. Nc3 Rxg2 42. Kc4 Rxg4+ 43. Kb3 Rg3 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.08"]
+[Round "8.1"]
+[White "Thorfinnsson, Bjorn"]
+[Black "Ingvason, Johann"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[WhiteElo "2410"]
+[BlackElo "2142"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "2300982"]
+[BlackFideId "2301431"]
+[EventDate "2016.05.31"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 Nc6 4. Nc3 Bc5 5. Nf3 O-O 6. O-O Re8 7. e3 Bb4 8. Nd5
+e4 9. Nh4 Bd6 10. f3 Nxd5 11. cxd5 exf3 12. Bh3 Ne5 13. d4 Ng6 14. Nf5 Bf8 15.
+Qxf3 d6 16. e4 Nh8 17. Bg2 f6 18. g4 Nf7 19. h4 Qd7 20. g5 g6 21. Nh6+ Nxh6 22.
+gxh6 f5 23. exf5 Qxf5 24. Qc3 Qg4 25. Bg5 Re2 26. Rf2 Rxf2 27. Kxf2 Bxh6 28. Bf3
+Qf5 29. Bxh6 Bd7 30. Qe3 Re8 31. Qf4 Qc2+ 32. Qd2 Qa4 33. b3 Qa6 34. Re1 Rxe1
+35. Qxe1 Qxa2+ 36. Kg3 Kf7 37. Bg5 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.08"]
+[Round "8.2"]
+[White "Gislason, Gudmundur"]
+[Black "Johannsson, Orn Leo"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[WhiteElo "2280"]
+[BlackElo "2226"]
+[ECO "A09"]
+[Opening "Reti opening"]
+[WhiteFideId "2300559"]
+[BlackFideId "2303051"]
+[EventDate "2016.05.31"]
+
+1. Nf3 d5 2. c4 c6 3. g3 Nf6 4. Bg2 Bg4 5. Ne5 Be6 6. d4 Nbd7 7. O-O dxc4 8. f4
+Bd5 9. Bh3 e6 10. Nc3 Bb4 11. Nxd5 exd5 12. b3 Qb6 13. Nxd7 Nxd7 14. e3 c3 15.
+Bxd7+ Kxd7 16. Qg4+ Kc7 17. Qxg7 Raf8 18. Qf6 Qb5 19. Qf5 Qe2 20. Rf2 Qe1+ 21.
+Kg2 h5 22. Qd3 c2 23. Rxc2 Re8 24. a3 Bd6 25. Re2 Qa5 26. Bd2 Qb5 27. Qxb5 cxb5
+28. a4 b4 29. Kf3 f5 30. a5 Kc6 31. h3 Kb5 32. Rg2 Reg8 33. Rgg1 Rh7 34. Rg2
+Rhg7 35. Rag1 Kxa5 36. g4 hxg4+ 37. hxg4 b5 38. gxf5 Rxg2 39. Rxg2 Rxg2 40. Kxg2
+Kb6 41. Kf3 a5 42. Kg4 a4 43. Kg5 axb3 44. Bc1 b2 45. Bxb2 Ka5 46. Kf6 Ka4 47.
+Ke6 Bf8 48. Kf7 Bd6 49. f6 Kb3 50. Ke6 Bf8 51. e4 dxe4 52. Kf7 e3 53. Kxf8 e2
+54. d5 Kxb2 55. d6 e1=Q 56. d7 Qd2 57. Ke7 Qe3+ 58. Kf7 Qd4 59. Ke7 Qc5+ 60. Ke8
+Qc6 61. Ke7 Qc5+ 62. Ke8 Qc6 63. Ke7 Qe4+ 64. Kf8 Qd5 65. Ke7 Qc5+ 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.08"]
+[Round "8.3"]
+[White "Kjartansson, David"]
+[Black "Kjartansson, Gudmundur"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2371"]
+[BlackElo "2457"]
+[ECO "D45"]
+[Opening "QGD semi-Slav"]
+[Variation "Stoltz variation"]
+[WhiteFideId "2301130"]
+[BlackFideId "2301318"]
+[EventDate "2016.05.31"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8. b3 e5
+9. dxe5 Nxe5 10. cxd5 Nxf3+ 11. gxf3 cxd5 12. Bb2 Bh3 13. Rg1 Rc8 14. Qd2 Re8
+15. Nb5 Bb8 16. Qb4 d4 17. Qxd4 Kh8 18. Rd1 Qxd4 19. Nxd4 Rc5 20. Kd2 Rh5 21.
+Bc4 Kg8 22. Ne2 Kf8 23. Ng3 Rh4 24. Ke2 Bc8 25. Bb5 Bc7 26. Bxf6 gxf6 27. Bxe8
+Kxe8 28. Ne4 Be6 29. Nxf6+ Ke7 30. Nd5+ Bxd5 31. Rxd5 Rxh2 32. f4 Ke6 33. Rc5
+Bd6 34. Rcc1 Rh5 35. Rg5 Rh2 36. Kf3 a6 37. Rd1 Be7 38. Re5+ Kf6 39. Rd7 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.08"]
+[Round "8.4"]
+[White "Hjartarson, Johann"]
+[Black "Jensson, Einar Hjalti"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2547"]
+[BlackElo "2370"]
+[ECO "D11"]
+[Opening "QGD Slav"]
+[Variation "3.Nf3"]
+[WhiteFideId "2300044"]
+[BlackFideId "2301067"]
+[EventDate "2016.05.31"]
+
+1. c4 c6 2. Nf3 d5 3. d4 e6 4. e3 Bd6 5. Bd3 f5 6. O-O Nf6 7. b3 Qe7 8. Bb2 O-O
+9. Nbd2 Nbd7 10. Ne5 Ne4 11. f3 Nxd2 12. Qxd2 Nxe5 13. dxe5 Bc5 14. Kh1 b6 15.
+f4 a5 16. Rf3 h5 17. Rg3 Kf7 18. Rf1 g6 19. Rff3 Rg8 20. cxd5 cxd5 21. Qd1 Ba6
+22. Bxa6 Rxa6 23. Rg5 Qf8 24. Rh3 Rg7 25. Bd4 a4 26. bxa4 Ra8 27. Qb3 Qe8 28.
+Bxc5 bxc5 29. Rf3 Rb8 30. Qd3 Qxa4 31. Rf1 Qxa2 32. h3 Rb3 33. Qd1 Rxe3 34. Kh2
+Rg8 35. Qc1 Qa3 36. Qd1 c4 37. Qd4 Rd3 38. Qb6 Rb3 39. Qc6 Qe7 40. Ra1 Qb7 41.
+Qd6 Rb6 42. Qc5 Rc8 43. Qf2 Rb8 44. Qg3 Rb3 45. Qh4 Qe7 46. Ra6 R3b6 47. Ra4 Qe8
+48. Ra7+ R8b7 49. Ra5 Rc7 50. g4 Rb2+ 51. Kg1 c3 52. Rc5 Rxc5 53. Rxg6 Kxg6 54.
+Qxh5+ Kg7 55. Qxe8 Rb7 56. Qxe6 Rf7 57. g5 Rcc7 58. Qh6+ Kg8 59. Qg6+ Kf8 60.
+Qd6+ Rfe7 61. Qf6+ Ke8 62. Qg6+ Kd7 63. Qxf5+ Kc6 64. Kf2 Kb7 65. Qc2 Rc4 66.
+Kf3 Kc6 67. g6 d4 68. Ke4 Kc5 69. f5 Rd7 70. Kd3 Rd5 71. Qa2 Rb4 72. Qa5+ Rb5
+73. Qc7+ Kb4 74. Qc4+ Ka3 75. g7 Rbc5 76. Qxd5 Rxd5 77. g8=Q Rc5 78. Qf8 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.08"]
+[Round "8.5"]
+[White "Thorfinnsson, Bragi"]
+[Black "Gretarsson, Hjorvar Steinn"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2426"]
+[BlackElo "2580"]
+[ECO "E12"]
+[Opening "Queen's Indian"]
+[Variation "Miles variation"]
+[WhiteFideId "2300958"]
+[BlackFideId "2302241"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Bf4 Bb7 5. e3 d5 6. Nc3 Be7 7. Qa4+ c6 8. cxd5
+Nxd5 9. Nxd5 exd5 10. Be2 Nd7 11. O-O O-O 12. Rac1 a5 13. Qc2 Rc8 14. Rfd1 c5
+15. dxc5 bxc5 16. Ne5 Nxe5 17. Bxe5 Qb6 18. Bf3 Rfd8 19. Rd3 Qe6 20. Bc3 Ba6 21.
+Rd2 d4 22. Bxa5 dxe3 23. Rxd8+ Bxd8 24. Bxd8 Rxd8 25. fxe3 Qxa2 26. b3 Qxc2 27.
+Rxc2 Rc8 28. Ra2 Bd3 29. Bd5 Bf5 30. Ra6 Kf8 31. e4 Bd7 32. Ra7 Be6 33. Bxe6
+fxe6 34. Kf2 Rb8 35. Ra5 Rxb3 36. Rxc5 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.08"]
+[Round "8.6"]
+[White "Gunnarsson, Jon Viktor"]
+[Black "Steingrimsson, Hedinn"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2454"]
+[BlackElo "2574"]
+[ECO "C50"]
+[Opening "Giuoco Pianissimo"]
+[WhiteFideId "2300931"]
+[BlackFideId "2300117"]
+[EventDate "2016.05.31"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. O-O d6 6. c3 h6 7. Nbd2 O-O 8. Re1
+a6 9. Bb3 Be6 10. h3 Re8 11. Bxe6 Rxe6 12. Nf1 d5 13. Qc2 Qd7 14. Ng3 a5 15. Bd2
+Rae8 16. Rad1 Bf8 17. Nf5 Kh7 18. g4 g6 19. Ng3 Rd6 20. Kg2 Bg7 21. a3 dxe4 22.
+dxe4 Rd8 23. Re2 b5 24. Rc1 Qe6 25. Be3 a4 26. g5 Ne8 27. h4 h5 28. c4 Na5 29.
+cxb5 Nb3 30. Rce1 Rb8 31. Nd2 Rxb5 32. Nxb3 axb3 33. Qb1 c5 34. Rc1 c4 35. Rc3
+Ra5 36. Qe1 Ra4 37. Bc5 Rc6 38. Bb4 Nc7 39. Rd2 Na6 40. Qd1 Nxb4 41. axb4 Rxb4
+42. Rd7 Rb8 43. Qd5 Kg8 44. Qxe6 fxe6 45. Nf1 Bf8 46. Nd2 Rbc8 47. Rb7 Bd6 48.
+Kf1 Kh8 49. Ke2 Kg8 50. Kf1 Kh8 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.09"]
+[Round "9.1"]
+[White "Steingrimsson, Hedinn"]
+[Black "Thorfinnsson, Bjorn"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2574"]
+[BlackElo "2410"]
+[ECO "C00"]
+[Opening "French defence"]
+[WhiteFideId "2300117"]
+[BlackFideId "2300982"]
+[EventDate "2016.05.31"]
+
+1. d4 e6 2. e4 b6 3. Nf3 Bb7 4. Bd3 c5 5. c3 Nf6 6. Nbd2 Nc6 7. a3 Be7 8. b4 Qc7
+9. O-O a5 10. b5 Nb8 11. Qe2 d5 12. e5 Nh5 13. Nb1 g6 14. Bh6 Bf8 15. Qd2 f5 16.
+exf6 Nd7 17. Bxf8 Nxf8 18. Qg5 Qf7 19. Nbd2 Rc8 20. Rfe1 Qxf6 21. Re3 Qxg5 22.
+Nxg5 Ng7 23. Rf3 Rc7 24. dxc5 bxc5 25. b6 Re7 26. Bb5+ Nd7 27. Nb3 d4 28. Nxc5
+Bxf3 29. Nxf3 Kd8 30. Bxd7 Rxd7 31. Nxd4 Rf7 32. Rb1 e5 33. Nc6+ Kc8 34. b7+ 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.09"]
+[Round "9.2"]
+[White "Gretarsson, Hjorvar Steinn"]
+[Black "Gunnarsson, Jon Viktor"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2580"]
+[BlackElo "2454"]
+[ECO "E06"]
+[Opening "Catalan"]
+[Variation "closed, 5.Nf3"]
+[WhiteFideId "2302241"]
+[BlackFideId "2300931"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8. Nxc6
+bxc6 9. Na3 Bxa3 10. bxa3 Rb8 11. Qd2 c5 12. dxc5 e5 13. Qa5 Bg4 14. Re1 h6 15.
+Be3 Rb2 16. h3 Bh5 17. g4 Bg6 18. c6 Re8 19. Rac1 Rxa2 20. Rxc4 e4 21. Qxa7 Qd6
+22. a4 h5 23. g5 Nd5 24. Qd4 Qe6 25. Rc5 Nxe3 26. fxe3 Bf5 27. h4 Bh3 28. Qd7
+Qxd7 29. cxd7 Bxd7 30. Rxc7 Bxa4 31. Rb1 Rxe2 32. Rbb7 Rd8 33. Rxf7 Rd1+ 34. Bf1
+Be8 35. Rxg7+ Kf8 36. Rh7 Kg8 37. Rbg7+ Kf8 38. Rc7 Kg8 39. Rhg7+ Kf8 40. Rh7
+Kg8 41. Rhe7 Kf8 42. Rxe4 Bg6 43. Rf4+ Kg8 44. Rf6 Be4 45. Rf2 Rxe3 46. Kh2 Bd5
+47. Rc8+ Kg7 48. Rc7+ Kg8 49. Rc8+ Kg7 50. Rc7+ Kg8 51. Rd7 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.09"]
+[Round "9.3"]
+[White "Jensson, Einar Hjalti"]
+[Black "Thorfinnsson, Bragi"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2370"]
+[BlackElo "2426"]
+[ECO "A37"]
+[Opening "English"]
+[Variation "symmetrical variation"]
+[WhiteFideId "2301067"]
+[BlackFideId "2300958"]
+[EventDate "2016.05.31"]
+
+1. c4 c5 2. Nc3 g6 3. g3 Bg7 4. Bg2 Nc6 5. Nf3 d6 6. O-O Bf5 7. d3 Qd7 8. Nd5
+Nf6 9. Re1 O-O 10. Rb1 Bh3 11. Bh1 Rab8 12. Ng5 Bg4 13. f3 Be6 14. Nxe6 fxe6 15.
+Nc3 e5 16. a3 a5 17. Bd2 e6 18. Bg2 Kh8 19. Qa4 d5 20. Red1 Qf7 21. Rf1 Rbd8 22.
+Kh1 h6 23. Nb5 g5 24. Be3 b6 25. Bg1 Ng8 26. Nc3 Nge7 27. Na2 Qh5 28. e3 e4 29.
+fxe4 dxe4 30. Bxe4 Ne5 31. Qd1 g4 32. Nc3 Nf3 33. Ne2 e5 34. b4 Nf5 35. bxc5
+bxc5 36. Rb6 Nxe3 37. Qc1 Nxf1 38. Qxf1 Nxh2 39. Qxf8+ Rxf8 40. Bxh2 Rf2 41.
+Rb8+ Bf8 42. Bg2 Rxe2 43. Rxf8+ Kg7 44. Rf1 Rc2 45. Rb1 Qg5 46. Bg1 Rc1 47. Rxc1
+Qxc1 48. a4 Kf6 49. Kh2 Qa3 50. Be4 Qxa4 51. Bxc5 Qc2+ 52. Kg1 a4 53. Bd6 a3 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.09"]
+[Round "9.4"]
+[White "Kjartansson, Gudmundur"]
+[Black "Hjartarson, Johann"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2457"]
+[BlackElo "2547"]
+[ECO "E17"]
+[Opening "Queen's Indian"]
+[Variation "old main line, 6.O-O"]
+[WhiteFideId "2301318"]
+[BlackFideId "2300044"]
+[EventDate "2016.05.31"]
+
+1. Nf3 Nf6 2. g3 b6 3. Bg2 Bb7 4. O-O e6 5. c4 Be7 6. d4 O-O 7. Re1 d5 8. cxd5
+exd5 9. Nc3 Na6 10. Bf4 Re8 11. Ne5 c5 12. e3 h6 13. h4 Nc7 14. dxc5 bxc5 15.
+Nc4 Rc8 16. Qa4 Ba8 17. Rad1 Ne6 18. Be5 d4 19. Bxa8 Rxa8 20. Ne2 Ng4 21. exd4
+Qd5 22. Qb3 cxd4 23. Nxd4 Bc5 24. Na5 Rad8 25. Qxd5 Rxd5 26. Ndc6 Bxf2+ 27. Kh1
+Rxd1 28. Rxd1 Nxe5 29. Nxe5 Bxg3 30. Nac6 Bxh4 31. Rd7 Nd8 32. Rxa7 Nxc6 33.
+Nxc6 Re2 34. b4 Rb2 35. a4 f5 36. Rb7 Bf6 37. a5 Ra2 38. b5 f4 39. Rd7 f3 40.
+Rd1 Bh4 41. Rf1 Bf2 42. b6 Bxb6 43. axb6 Rb2 44. Rxf3 Rxb6 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.09"]
+[Round "9.5"]
+[White "Johannsson, Orn Leo"]
+[Black "Kjartansson, David"]
+[Result "1-0"]
+[BlackTitle "FM"]
+[WhiteElo "2226"]
+[BlackElo "2371"]
+[ECO "C05"]
+[Opening "French"]
+[Variation "Tarrasch, closed variation"]
+[WhiteFideId "2303051"]
+[BlackFideId "2301130"]
+[EventDate "2016.05.31"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 Qb6 8. Nf3
+Be7 9. O-O a5 10. b3 h6 11. a3 g5 12. Be3 cxd4 13. cxd4 Nf8 14. Ne1 Bd7 15. Nc2
+Ng6 16. Bxg6 fxg6 17. Qd3 O-O-O 18. b4 Kb8 19. Rfb1 a4 20. Nc3 Na7 21. b5 Rc8
+22. Nxa4 Bxb5 23. Qd2 Qc7 24. Nc5 Rhe8 25. a4 Bxc5 26. dxc5 Bc4 27. Nd4 Qxe5 28.
+Qb2 Qc7 29. Nb5 Qc6 30. Qe5+ Ka8 31. Nxa7 Kxa7 32. Rb6 Qc7 33. c6 Qxb6 34. Bxb6+
+Kxb6 35. cxb7 Kxb7 36. Rb1+ Kc6 37. a5 Kc5 38. Rb6 Rc6 39. Qe3+ Kd6 40. Rxc6+
+Kxc6 41. Qb6+ Kd7 42. a6 Bxa6 43. Qxa6 Ke7 44. Qa7+ Kf6 45. Qd4+ Kf7 46. g3 Rc8
+47. Kg2 Rc4 48. Qd3 g4 49. Qe3 h5 50. Qh6 Re4 51. Qh7+ Kf6 52. Qg8 Rc4 53. Qf8+
+Ke5 54. Qg7+ Kd6 55. Qxg6 d4 56. Qxh5 d3 57. Qg5 Rd4 58. Qd2 Kd5 59. f3 e5 60.
+Kf2 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.09"]
+[Round "9.6"]
+[White "Ingvason, Johann"]
+[Black "Gislason, Gudmundur"]
+[Result "0-1"]
+[BlackTitle "FM"]
+[WhiteElo "2142"]
+[BlackElo "2280"]
+[ECO "B49"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "2301431"]
+[BlackFideId "2300559"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. Be3 Nf6 8. O-O
+Bb4 9. Na4 Bd6 10. Nxc6 bxc6 11. Nb6 Rb8 12. Nxc8 Rxc8 13. g3 Rb8 14. Qd3 O-O
+15. b3 Be5 16. Rad1 d5 17. f4 dxe4 18. Qxa6 Bd6 19. Qc4 Nd5 20. Bc5 Bxc5+ 21.
+Qxc5 Qb6 22. Qxb6 Rxb6 23. Ra1 Ra8 24. a4 Ra5 25. Kf2 Kf8 26. Rfd1 Ke7 27. Rd4
+f5 28. Rad1 Kf6 29. Bc4 e5 30. fxe5+ Kxe5 31. Bxd5 Rxd5 32. Rxd5+ cxd5 33. Ke3
+Rc6 34. Kd2 d4 35. a5 e3+ 36. Kc1 Ke4 37. Kb2 e2 38. Ra1 Ke3 39. a6 Kd2 40. a7
+Rxc2+ 41. Ka3 Rc8 42. b4 Ra8 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.10"]
+[Round "10.1"]
+[White "Thorfinnsson, Bjorn"]
+[Black "Gislason, Gudmundur"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2410"]
+[BlackElo "2280"]
+[ECO "E91"]
+[Opening "King's Indian"]
+[Variation "6.Be2"]
+[WhiteFideId "2300982"]
+[BlackFideId "2300559"]
+[EventDate "2016.05.31"]
+
+1. c4 Nf6 2. Nc3 g6 3. d4 Bg7 4. e4 O-O 5. Nf3 d6 6. Be2 Bg4 7. Be3 Nfd7 8. Qd2
+e5 9. d5 f5 10. exf5 gxf5 11. Bh6 Bxh6 12. Qxh6 Bxf3 13. gxf3 Qf6 14. Qh3 Kh8
+15. O-O-O a6 16. Rhg1 Nb6 17. Bd3 N8d7 18. Rg4 Nc5 19. Bc2 Rf7 20. Rh4 Rg8 21.
+b3 e4 22. fxe4 fxe4 23. Kb1 Nd3 24. Bxd3 exd3 25. Ne4 Qe7 26. Rxd3 Rg1+ 27. Kb2
+Qe5+ 28. Ka3 Qa1 29. Qe3 Rb1 30. Ng5 Qb2+ 31. Kb4 c5+ 32. dxc6 a5+ 33. Kb5 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.10"]
+[Round "10.2"]
+[White "Kjartansson, David"]
+[Black "Ingvason, Johann"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[WhiteElo "2371"]
+[BlackElo "2142"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "2301130"]
+[BlackFideId "2301431"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 Bxc3+ 5. Qxc3 b5 6. cxb5 a6 7. Bg5 axb5 8.
+e3 Bb7 9. Nf3 h6 10. Bh4 Bxf3 11. gxf3 c6 12. Bg3 Nd5 13. Qd2 Qe7 14. e4 Nb6 15.
+Bd3 d5 16. O-O Qf6 17. Be2 O-O 18. Kh1 Nc4 19. Qc3 b4 20. Qxb4 Qxd4 21. Bxc4 Na6
+22. Qc3 Qxc3 23. bxc3 dxc4 24. Bd6 Rfd8 25. e5 Nb8 26. Rfb1 Nd7 27. Rb7 Nf8 28.
+a4 Ng6 29. a5 Ra6 30. Rb6 Rda8 31. Rxa6 Rxa6 32. Ra4 Kh7 33. Bc7 Nf4 34. Rxc4 g5
+35. Bb6 Nd3 36. Rxc6 Nxe5 37. Rc7 Ra8 38. Ra7 Rc8 39. Bd4 Nc6 40. Rxf7+ Kg8 41.
+Rg7+ Kf8 42. Rh7 Kg8 43. Rh8+ 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.10"]
+[Round "10.3"]
+[White "Hjartarson, Johann"]
+[Black "Johannsson, Orn Leo"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[WhiteElo "2547"]
+[BlackElo "2226"]
+[ECO "C02"]
+[Opening "French"]
+[Variation "advance, Wade variation"]
+[WhiteFideId "2300044"]
+[BlackFideId "2303051"]
+[EventDate "2016.05.31"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Bd7 6. Bd3 Bb5 7. dxc5 Bxc5 8. b4
+Bxd3 9. Qxd3 Be7 10. O-O Nd7 11. Re1 h5 12. Na3 Nh6 13. Be3 Qd8 14. Nb5 a6 15.
+Nd6+ Kf8 16. Nxb7 Qc7 17. Na5 Nf5 18. Bd2 g5 19. Qe2 g4 20. Nd4 Bxb4 21. Nxe6+
+fxe6 22. cxb4 Kf7 23. Rac1 Qb6 24. a3 Rac8 25. Nb3 Nd4 26. Nxd4 Qxd4 27. Be3
+Qxe5 28. Qxa6 Rxc1 29. Rxc1 d4 30. Bd2 Qd5 31. Rc7 Kf6 32. Qa4 Ne5 33. Qc2 h4
+34. Rc5 Qa8 35. Bf4 Nf7 36. Qe2 h3 37. Qxg4 Qxg2+ 38. Qxg2 hxg2 39. a4 e5 40.
+Bd2 Rg8 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.10"]
+[Round "10.4"]
+[White "Thorfinnsson, Bragi"]
+[Black "Kjartansson, Gudmundur"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2426"]
+[BlackElo "2457"]
+[ECO "A15"]
+[Opening "English opening"]
+[WhiteFideId "2300958"]
+[BlackFideId "2301318"]
+[EventDate "2016.05.31"]
+
+1. Nf3 Nf6 2. c4 b6 3. Nc3 Bb7 4. d4 e6 5. a3 d5 6. cxd5 Nxd5 7. Bd2 Nd7 8. Qc2
+c5 9. e4 Nxc3 10. Bxc3 cxd4 11. Nxd4 a6 12. Be2 Qc7 13. O-O Be7 14. Rac1 O-O 15.
+Qb1 Qf4 16. Bd3 Nc5 17. Ne2 Qg4 18. Ng3 Nxd3 19. Qxd3 Rfd8 20. Qc2 h5 21. Rfe1
+h4 22. h3 Qg6 23. Nf1 f5 24. f3 fxe4 25. fxe4 Bc5+ 26. Kh1 Rf8 27. Re2 Rf4 28.
+Be5 Bxe4 29. Qd2 Rf3 30. Rxc5 Rxf1+ 31. Kh2 bxc5 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.10"]
+[Round "10.5"]
+[White "Gunnarsson, Jon Viktor"]
+[Black "Jensson, Einar Hjalti"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2454"]
+[BlackElo "2370"]
+[ECO "C00"]
+[Opening "French"]
+[Variation "Schlechter variation"]
+[WhiteFideId "2300931"]
+[BlackFideId "2301067"]
+[EventDate "2016.05.31"]
+
+1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 cxd4 7. Nxd4 e5 8.
+Nb5 a6 9. Qxd8+ Kxd8 10. N5c3 Nc6 11. Be3 Bf5 12. Na3 Bxa3 13. O-O-O+ Kc7 14.
+bxa3 Rad8 15. Na4 Rxd1+ 16. Rxd1 Be4 17. Bb6+ Kc8 18. Bxe4 Nxe4 19. f3 Nf6 20.
+Nc5 Re8 21. g4 Re7 22. Ne4 Nxe4 23. fxe4 Re6 24. g5 Rg6 25. h4 f6 26. Be3 fxg5
+27. hxg5 h6 28. gxh6 gxh6 29. Rh1 Rg4 30. Rxh6 Rxe4 31. Bb6 Rc4 32. Rd6 Rh4 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.11"]
+[Round "11.2"]
+[White "Jensson, Einar Hjalti"]
+[Black "Steingrimsson, Hedinn"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2370"]
+[BlackElo "2574"]
+[ECO "D43"]
+[Opening "QGD semi-Slav"]
+[WhiteFideId "2301067"]
+[BlackFideId "2300117"]
+[EventDate "2016.05.31"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. Bg5 Nbd7 6. cxd5 exd5 7. e3 Be7 8. Bd3
+Ne4 9. Bxe7 Qxe7 10. Qc2 Nd6 11. O-O g6 12. b4 a6 13. a4 O-O 14. b5 a5 15. Rab1
+Nf6 16. bxc6 bxc6 17. Ne5 c5 18. Nc6 Qc7 19. dxc5 Nc4 20. Nd4 Ng4 21. g3 Qe5 22.
+Bxc4 dxc4 23. Qe4 Qh5 24. h4 Ba6 25. Qd5 Ne5 26. f4 Nd3 27. Qxh5 gxh5 28. c6 Nb4
+29. Rfc1 Rfc8 30. Ncb5 Nxc6 31. Rxc4 Nxd4 32. Rxc8+ Rxc8 33. Nxd4 Bd3 34. Rb3
+Rc1+ 35. Kf2 Rf1+ 36. Kg2 Rd1 37. Kf2 Rf1+ 38. Kg2 Rd1 39. Kf2 1/2-1/2
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.11"]
+[Round "11.3"]
+[White "Kjartansson, Gudmundur"]
+[Black "Gunnarsson, Jon Viktor"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2457"]
+[BlackElo "2454"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Adams attack"]
+[WhiteFideId "2301318"]
+[BlackFideId "2300931"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e6 7. g4 Be7 8. g5
+Nfd7 9. h4 b5 10. Bg2 Bb7 11. f4 Qc7 12. f5 e5 13. Nb3 Nb6 14. Na5 Bc8 15. Be3
+d5 16. exd5 Bb4 17. d6 Bxd6 18. Bxa8 Nxa8 19. Nb3 Bb7 20. Rg1 O-O 21. Qg4 Rc8
+22. Ne4 Bf8 23. Nf6+ Kh8 24. Nxh7 Qxc2 25. Nxf8 Rxf8 26. Qh5+ Kg8 27. g6 fxg6
+28. fxg6 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.11"]
+[Round "11.4"]
+[White "Johannsson, Orn Leo"]
+[Black "Thorfinnsson, Bragi"]
+[Result "1-0"]
+[BlackTitle "IM"]
+[WhiteElo "2226"]
+[BlackElo "2426"]
+[ECO "B40"]
+[Opening "Sicilian defence"]
+[WhiteFideId "2303051"]
+[BlackFideId "2300958"]
+[EventDate "2016.05.31"]
+
+1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. g3 d5 5. Nbd2 Nf6 6. Bg2 Be7 7. O-O O-O 8. e5
+Nd7 9. Re1 Qc7 10. Qe2 b5 11. Nf1 Bb7 12. h4 Rfe8 13. Bf4 Rac8 14. N1h2 Nd4 15.
+Nxd4 cxd4 16. Rec1 Qb6 17. h5 a5 18. g4 f6 19. Nf3 fxe5 20. Nxe5 Nxe5 21. Bxe5
+Bd6 22. g5 Qc7 23. f4 Bxe5 24. Qxe5 Qxe5 25. fxe5 Rf8 26. Bh3 Kf7 27. Rf1+ Ke7
+28. Rxf8 Rxf8 29. Rf1 Rxf1+ 30. Kxf1 b4 31. Ke1 Bc8 32. Kd2 Kd7 33. h6 g6 34.
+Bg4 Ke7 35. a3 bxa3 36. bxa3 Bd7 37. Kc1 Bb5 38. Kb2 Ba4 39. Bd1 Kf7 40. Bf3 Ke7
+41. c4 Bc6 42. Kc1 Kf7 43. Kd2 Ke7 44. Ke1 Bb7 45. Kf2 Bc6 46. Kg3 Kf7 47. Kf4
+Ke7 48. Bg2 Bb7 49. cxd5 Bxd5 50. Be4 Kf7 51. Bf3 a4 52. Be4 1-0
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.11"]
+[Round "11.5"]
+[White "Ingvason, Johann"]
+[Black "Hjartarson, Johann"]
+[Result "0-1"]
+[BlackTitle "GM"]
+[WhiteElo "2142"]
+[BlackElo "2547"]
+[ECO "C44"]
+[Opening "Scotch gambit"]
+[Variation "Dubois-Reti defence"]
+[WhiteFideId "2301431"]
+[BlackFideId "2300044"]
+[EventDate "2016.05.31"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Nf6 5. e5 d5 6. Bb5 Ne4 7. Nxd4 Bc5 8. Be3
+Bd7 9. Bxc6 bxc6 10. O-O Qe7 11. f3 Nd6 12. Re1 Nc4 13. Bf2 Nxb2 14. Qc1 Nc4 15.
+Nd2 Nxd2 16. Qxd2 O-O 17. a4 Rfb8 18. Re2 a5 19. c3 Bb6 20. Qf4 h6 21. g4 c5 22.
+Nf5 Qe6 23. Rd1 Re8 24. h4 c4 25. Nd4 Bxd4 26. Qxd4 Bxa4 27. Ra1 Bb3 28. Qc5 a4
+29. Ra3 c6 30. Re1 h5 31. gxh5 Qf5 32. Qe3 Qxh5 33. Kh2 Re6 34. Qf4 Rae8 35.
+Raa1 Rxe5 36. Rg1 Re2 37. Rg5 Qh6 38. Qg3 d4 39. Rg1 g6 40. Kh3 d3 41. Qd6 R8e6
+42. Qb8+ Qf8 43. Qg3 d2 44. Bd4 Qd6 45. f4 Qxd4 46. cxd4 R6e3 0-1
+
+[Event "ch-ISL 2016"]
+[Site "Reykjavik ISL"]
+[Date "2016.06.11"]
+[Round "11.6"]
+[White "Gislason, Gudmundur"]
+[Black "Kjartansson, David"]
+[Result "1/2-1/2"]
+[WhiteTitle "FM"]
+[BlackTitle "FM"]
+[WhiteElo "2280"]
+[BlackElo "2371"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack (Barcza system)"]
+[WhiteFideId "2300559"]
+[BlackFideId "2301130"]
+[EventDate "2016.05.31"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. d4 Bg4 5. h3 Bxf3 6. Bxf3 g6 7. c4 Bg7 8. Qb3
+Qd7 9. Nc3 O-O 10. Bf4 Rd8 11. Rd1 dxc4 12. Qxc4 Nd5 13. Nxd5 cxd5 14. Qc7 Nc6
+15. Qxd7 Rxd7 16. e3 e6 17. Be2 a6 18. h4 Bf8 19. h5 Rc8 20. hxg6 hxg6 21. Bd3
+Bd6 22. Bh6 Bf8 23. Ke2 Bxh6 24. Rxh6 Kg7 25. Rdh1 Kf6 26. Rh7 Rg8 27. f4 Ke7
+28. g4 g5 29. f5 e5 30. R1h6 exd4 31. Bxa6 dxe3 32. Kxe3 Kd8 33. Kd2 Ne5 34. Be2
+d4 35. b3 Kc7 36. a4 Rd6 37. Re6 Rd5 38. Bc4 Rc5 39. Re7+ Kd6 40. Rxb7 Nxc4+ 41.
+bxc4 Rxc4 42. Rb5 Rxa4 43. Rh6+ Kc7 44. Rc5+ Kd7 45. Rd5+ Kc7 46. Rc5+ Kd7 47.
+Kd3 Rb8 48. Rd5+ Ke7 49. Re5+ Kd7 50. Rd5+ 1/2-1/2
+

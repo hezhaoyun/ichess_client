@@ -1,0 +1,933 @@
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.09"]
+[Round "1"]
+[White "Dziuba,M"]
+[Black "Kurnosov,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2576"]
+[BlackElo "2680"]
+[EventDate "2010.05.09"]
+[ECO "E60"]
+
+1. d4 Nf6 2. c4 g6 3. g3 c5 4. d5 b5 5. cxb5 a6 6. bxa6 Bg7 7. Bg2 d6 8.
+Nc3 O-O 9. Nf3 Nxa6 10. Nd2 Qa5 11. O-O Nc7 12. Nc4 Qb4 13. Ne3 Ng4 14. Nc2
+Qb6 15. Bd2 Nb5 16. Nxb5 Qxb5 17. h3 Ne5 18. Bc3 Bd7 19. Qe1 Rfb8 20. b3
+Bf5 21. Ne3 Bc8 22. Qd2 Ba6 23. Rfe1 Nd7 24. Bxg7 Kxg7 25. Nc2 Nf6 26. e4
+Qd3 27. Red1 Qxd2 28. Rxd2 Nd7 29. f4 h5 30. h4 Bc8 31. e5 dxe5 32. d6 Ra6
+33. dxe7 Re6 34. f5 Rxe7 35. Ne3 Nf6 36. fxg6 fxg6 37. Rd8 Rc7 38. Nc4 Rd7
+39. Rxd7+ Bxd7 40. Nxe5 Be6 41. Nc6 Rb6 42. Rc1 Ra6 43. Rc2 Ng4 44. Bf3
+Bxb3 45. Rxc5 Bxa2 46. Nb4 Ra4 47. Nxa2 Rxa2 48. Bxg4 hxg4 49. Rc4 Kh6 50.
+Rxg4 Ra5 51. Kg2 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.09"]
+[Round "1"]
+[White "Baklan,V"]
+[Black "Meier,Geo"]
+[Result "1/2-1/2"]
+[WhiteElo "2633"]
+[BlackElo "2638"]
+[EventDate "2010.05.09"]
+[ECO "C10"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Bg5 h6 7. Nxf6+
+Nxf6 8. Be3 Bd6 9. Bd3 O-O 10. Qe2 b6 11. O-O-O Bb7 12. Kb1 Nd5 13. Bd2 Qf6
+14. Ne5 Nf4 15. Bxf4 Qxf4 16. g3 Qf6 17. Rhe1 Bxe5 18. dxe5 Qf3 19. Qf1 Qg2
+20. Qxg2 Bxg2 21. Be4 Bxe4 22. Rxe4 Rad8 23. Red4 Rxd4 24. Rxd4 f6 25. exf6
+Rxf6 26. Rd2 Kf8 27. Kc1 Ke7 28. Kd1 Rf5 29. h4 a5 30. c4 a4 31. Ke2 g6 32.
+Rd4 c6 33. Ke3 h5 34. f3 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.09"]
+[Round "1"]
+[White "Tiviakov,S"]
+[Black "Macieja,B"]
+[Result "0-1"]
+[WhiteElo "2634"]
+[BlackElo "2618"]
+[EventDate "2010.05.09"]
+[ECO "B10"]
+
+1. e4 c6 2. d3 d5 3. Nd2 g6 4. f4 Bg7 5. Ngf3 Nh6 6. e5 d4 7. Nb3 c5 8. c3
+dxc3 9. bxc3 b6 10. Be2 O-O 11. O-O Nc6 12. d4 cxd4 13. Nfxd4 Bb7 14. Bf3
+Rc8 15. Ba3 Qc7 16. Bxc6 Bxc6 17. Nxc6 Qxc6 18. Bxe7 Rfe8 19. Bd6 Qxc3 20.
+Rf3 Qc4 21. Rc1 Qa4 22. Rxc8 Rxc8 23. Qd2 Nf5 24. Bb4 h5 25. g3 a5 26. Bc3
+Qe4 27. Qd3 Qc6 28. Kg2 Bf8 29. Nd2 Qe6 30. a4 Be7 31. Qb1 Qd5 32. Qd3 Qa2
+33. Kh3 Rd8 34. Qe2 Qe6 35. Kg2 Nd4 36. Bxd4 Rxd4 37. Ne4 Rxa4 38. Nc3 Rc4
+39. Qd3 a4 40. Nd5 Rc5 41. Nxe7+ Qxe7 42. Qe4 Ra5 43. Qd4 Qe6 44. Qd8+ Kg7
+45. f5 gxf5 46. Qg5+ Qg6 47. Qe7 Rc5 48. Rd3 Qc6+ 49. Kh3 Qe6 50. Qd8 f4+
+51. Kg2 Rc2+ 0-1
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.09"]
+[Round "1"]
+[White "Grachev,B"]
+[Black "Bartel,Mat"]
+[Result "1/2-1/2"]
+[WhiteElo "2667"]
+[BlackElo "2609"]
+[EventDate "2010.05.09"]
+[ECO "E04"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. g3 dxc4 5. Bg2 Bb4+ 6. Bd2 a5 7. O-O Nc6 8.
+e3 O-O 9. Qe2 Bd6 10. Qxc4 e5 11. Nc3 exd4 12. exd4 Nb4 13. a3 Be6 14. Qe2
+Nbd5 15. Ng5 Bg4 16. Qb5 Nxc3 17. Bxc3 h6 18. Ne4 Nxe4 19. Bxe4 Bc8 20.
+Rfe1 c6 21. Qc4 Bd7 22. d5 c5 23. a4 Qc7 24. Re3 Rae8 25. Rae1 b6 26. Bc2
+Rxe3 27. Rxe3 Qd8 28. Re6 Bxe6 29. dxe6 Qe7 30. Qg4 fxe6 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.09"]
+[Round "1"]
+[White "Socko,B"]
+[Black "Swiercz,D"]
+[Result "1-0"]
+[WhiteElo "2644"]
+[BlackElo "2501"]
+[EventDate "2010.05.09"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be7 8.
+Qd2 Be6 9. O-O-O O-O 10. f4 b5 11. Kb1 Nbd7 12. f5 Bc4 13. Rg1 Qc7 14. g4
+b4 15. Bxc4 Qxc4 16. Nd5 Nxd5 17. Qxd5 Qxd5 18. exd5 Bd8 19. Nd2 Bb6 20.
+Bxb6 Nxb6 21. Ne4 Rfd8 22. Rg3 Rac8 23. b3 Na8 24. Kb2 Nc7 25. c4 a5 26.
+Ra1 Na6 27. a3 Nc5 28. Nxc5 bxa3+ 29. Rxa3 Rxc5 30. Kc3 f6 31. Rg1 Ra8 32.
+Rga1 Kf7 33. Kd3 Rb8 34. Kc2 Ra8 35. Ra4 Ke7 36. h4 h6 37. Rb4 Kd7 38. Kd3
+Kc7 39. Rba4 Rb8 40. Kc3 Ra8 41. g5 hxg5 42. hxg5 fxg5 43. Rg1 Rh8 44. Rxg5
+Rh3+ 45. Kc2 Rh2+ 46. Kd3 Rh3+ 47. Ke4 Rh4+ 48. Kf3 Rh3+ 49. Kg4 Rxb3 50.
+Rxg7+ Kb6 51. f6 Rb4 52. Ra1 Rbxc4+ 53. Kf5 Rf4+ 54. Ke6 Rc3 55. Rd7 Kb5
+56. Rxd6 Rcf3 57. Ke7 e4 58. Re6 Rd3 59. d6 Rf5 60. d7 Rfd5 61. Rb1+ Kc5
+62. Rb7 e3 63. f7 1-0
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.10"]
+[Round "2"]
+[White "Kurnosov,I"]
+[Black "Swiercz,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2680"]
+[BlackElo "2501"]
+[EventDate "2010.05.09"]
+[ECO "C11"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 8.
+Qd2 O-O 9. Be2 a6 10. O-O b5 11. a3 Bb7 12. Nd1 Qb6 13. Kh1 a5 14. c3 b4
+15. a4 Ba6 16. Bg1 bxc3 17. bxc3 cxd4 18. cxd4 Nb4 19. Ne3 f5 20. Rfc1 Rfc8
+21. Bf2 Bxe2 22. Qxe2 Qa6 23. Qxa6 Nxa6 24. Bh4 Kf8 25. Ng5 Bxg5 26. Bxg5
+h6 27. Bh4 Nb4 28. g4 g6 29. gxf5 gxf5 30. Rg1 Kf7 31. Rg2 Rg8 32. Rxg8
+Kxg8 33. Rc1 Nb6 34. Rc7 Rc8 35. Re7 Nd3 36. Bg3 Nc4 37. Nf1 Rc6 38. Kg2
+Rb6 39. Kf3 Rb3 40. Ke2 Nc1+ 41. Kd1 Rb1 42. Nd2 Ne3+ 43. Ke1 Ra1 44. Nf3
+Ra2 45. Nd2 Ra1 46. Nf3 Ra2 47. Nd2 Nc4 48. Nxc4 Nd3+ 49. Kf1 dxc4 50. Rc7
+Nb4 51. Rxc4 Rxa4 52. Kg2 Ra2+ 53. Kh3 Rc2 54. Rc5 Rxc5 55. dxc5 a4 56. Be1
+Nd3 57. c6 Nxf4+ 58. Kh4 Nd5 59. Bb4 Kf7 60. Kh5 Ke8 61. Bc5 Ne7 62. c7 Nc8
+63. Kxh6 Kd7 64. h4 f4 65. Kg5 f3 66. Kg4 Kc6 67. Be3 Kxc7 68. Kxf3 Ne7
+1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.10"]
+[Round "2"]
+[White "Bartel,Mat"]
+[Black "Socko,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2609"]
+[BlackElo "2644"]
+[EventDate "2010.05.09"]
+[ECO "C88"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 Na5 9. Bc2 c5 10. d4 Qc7 11. d5 O-O 12. b3 g6 13. Bh6 Re8 14. h3 Kh8 15.
+Nbd2 Ng8 16. Be3 Bf8 17. Nf1 Bh6 18. Bxh6 Nxh6 19. Qd2 Ng8 20. Ng3 Bd7 21.
+h4 Nb7 22. h5 a5 23. Kh2 Bg4 24. Rh1 Qe7 25. Bd1 Bxf3 26. Bxf3 b4 27. a3
+bxa3 28. Be2 a4 29. bxa4 Qh4+ 30. Kg1 Qf4 31. Qc2 Nf6 32. Rxa3 Reb8 33. c4
+Na5 34. hxg6 fxg6 35. Rf3 Qg5 36. Nf1 Kg8 37. Rg3 Qf4 38. Rf3 Qg5 39. Rg3
+Qf4 40. Rf3 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.10"]
+[Round "2"]
+[White "Meier,Geo"]
+[Black "Grachev,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2638"]
+[BlackElo "2667"]
+[EventDate "2010.05.09"]
+[ECO "A07"]
+
+1. Nf3 d5 2. g3 c6 3. Bg2 Bg4 4. c4 e6 5. O-O Nf6 6. d3 Be7 7. Qb3 Qb6 8.
+Qc2 Nbd7 9. Be3 Bc5 10. Bxc5 Qxc5 11. Nbd2 a5 12. Rfc1 O-O 13. cxd5 Qxc2
+14. Rxc2 exd5 15. h3 Bxf3 16. Nxf3 Rfe8 17. Rb1 g6 18. Nd4 Ra6 19. f4 Nf8
+20. Kf2 Ne6 21. Nxe6 fxe6 22. d4 Rb6 23. b3 Ra8 24. a3 Ne8 25. e3 Nd6 26.
+Bf1 Nb5 27. Ra1 Nd6 28. Rb1 Nb5 29. Ra1 Nd6 30. Rb1 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.10"]
+[Round "2"]
+[White "Macieja,B"]
+[Black "Baklan,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2618"]
+[BlackElo "2633"]
+[EventDate "2010.05.09"]
+[ECO "A17"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. a3 Ba5 6. g3 O-O 7. Bg2 Nc6 8.
+O-O d6 9. e3 Bd7 10. d4 cxd4 11. exd4 Bxc3 12. Qxc3 Rc8 13. b4 Ne7 14. Qb3
+Qc7 15. c5 Ned5 16. Bb2 b6 17. Rfc1 Qb8 18. Rab1 bxc5 19. dxc5 Rxc5 20.
+Rxc5 dxc5 21. Bxf6 gxf6 22. bxc5 Qxb3 23. Rxb3 Rc8 24. Rb7 Be8 25. Rxa7
+Rxc5 26. Nd4 Rc1+ 27. Bf1 Rd1 28. Ra8 Kf8 29. Nb5 Nb6 30. Rb8 Nd7 31. Ra8
+Nb6 32. Rb8 Nd7 33. Ra8 Nb6 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.10"]
+[Round "2"]
+[White "Dziuba,M"]
+[Black "Tiviakov,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2576"]
+[BlackElo "2634"]
+[EventDate "2010.05.09"]
+[ECO "E00"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 Bb4+ 5. Bd2 Be7 6. Bg2 c6 7. Qc2 O-O 8.
+O-O b6 9. Rd1 Bb7 10. Bf4 Nbd7 11. Nc3 Rc8 12. Ne5 Nh5 13. Be3 Nhf6 14. Bf4
+Nh5 15. Bc1 Nhf6 16. e4 dxc4 17. Nxc4 b5 18. Ne3 Qb6 19. b3 Rfe8 20. Bb2 c5
+21. d5 exd5 22. Ncxd5 Nxd5 23. exd5 Bf6 24. a4 a6 25. axb5 axb5 26. Bxf6
+Nxf6 27. Rac1 Red8 28. Nf5 Kf8 29. Qc3 c4 30. bxc4 Rxc4 31. Qb2 Rxc1 32.
+Rxc1 b4 33. Rc4 Bxd5 34. Rxb4 Qe6 35. Rb8 Qe1+ 36. Bf1 Qe8 37. Qb4+ Kg8 38.
+Rxd8 Qxd8 39. Ne7+ Kh8 40. Nxd5 Nxd5 41. Qd4 Qd7 42. Bh3 Qc6 43. Bg2 Qc1+
+44. Bf1 Qc6 45. Bc4 Nf6 46. Bxf7 Qc1+ 47. Kg2 Qc6+ 48. f3 Qc2+ 49. Kh3 Qf5+
+50. Kg2 Qc2+ 51. Qf2 Qxf2+ 52. Kxf2 g5 53. Ke3 Kg7 54. Bc4 h6 55. Kd4 Nh7
+56. Bd3 Nf6 57. Ke5 Nh5 58. Kd4 Nf6 59. Ke3 Nd5+ 60. Kf2 Nf6 61. Bc4 Kg6
+62. Kg2 Kg7 63. h4 gxh4 64. g4 Kg6 65. Kh3 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.11"]
+[Round "3"]
+[White "Swiercz,D"]
+[Black "Bartel,Mat"]
+[Result "0-1"]
+[WhiteElo "2501"]
+[BlackElo "2609"]
+[EventDate "2010.05.09"]
+[ECO "E04"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 dxc4 5. Bg2 Bd7 6. Ne5 Bc6 7. Nxc6 Nxc6
+8. O-O Qd7 9. e3 O-O-O 10. Qa4 h5 11. h3 h4 12. g4 Nd5 13. Qxc4 f5 14. gxf5
+exf5 15. Nc3 Nb6 16. Qe2 g5 17. a4 Bb4 18. Bd2 Kb8 19. Rfc1 g4 20. a5 gxh3
+21. Bf3 Bxa5 22. Kh1 Bxc3 23. Rxc3 Rh6 24. Rca3 Rg6 25. b4 Rdg8 26. b5 Qd6
+27. Bb4 Nxb4 28. Rxa7 h2 29. Rxb7+ Kc8 0-1
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.11"]
+[Round "3"]
+[White "Baklan,V"]
+[Black "Dziuba,M"]
+[Result "0-1"]
+[WhiteElo "2633"]
+[BlackElo "2576"]
+[EventDate "2010.05.09"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nde2 h5 8.
+g3 Nbd7 9. a4 h4 10. g4 Nc5 11. Bg2 Be6 12. a5 Be7 13. b4 Ncd7 14. Nd5 Bxd5
+15. exd5 Rc8 16. c3 O-O 17. O-O Nh7 18. Qd3 Qc7 19. f4 exf4 20. Bxf4 Ne5
+21. Qd1 g6 22. Kh1 Nc4 23. Bh6 Rfe8 24. Qd4 Bf8 25. Bxf8 Nxf8 26. Rf2 Nh7
+27. Raf1 Ng5 28. Nf4 Ne5 29. Rc2 Qc4 30. Qf2 Ne4 31. Qxh4 g5 32. Qe1 Nd3
+33. Nxd3 Qxd3 34. Bxe4 Rxe4 35. Qc1 Re3 36. Qd1 Rxh3+ 37. Rh2 Qe4+ 38. Kg1
+Rg3+ 0-1
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.11"]
+[Round "3"]
+[White "Socko,B"]
+[Black "Meier,Geo"]
+[Result "1/2-1/2"]
+[WhiteElo "2644"]
+[BlackElo "2638"]
+[EventDate "2010.05.09"]
+[ECO "C10"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Nxf6+ Nxf6 7. c3
+c5 8. Ne5 a6 9. Be3 Qc7 10. Qa4+ Nd7 11. Bb5 cxd4 12. Bxd7+ Bxd7 13. Qxd4
+Bb5 14. a4 Bd6 15. Nxf7 Kxf7 16. axb5 axb5 17. Ke2 Qc6 18. Rhd1 Rxa1 19.
+Rxa1 b4 20. Rd1 Rd8 21. Qh4 Be7 22. Qf4+ Kg8 23. Rxd8+ Bxd8 24. Qxb4 Qxg2
+25. Qb5 Qc6 26. Qxc6 bxc6 27. b4 Kf7 28. Kd3 Be7 29. Kc4 Ke8 30. Bc5 Bf6
+31. Bd4 e5 32. Be3 e4 33. Bd4 Bh4 34. b5 Kd7 35. b6 g6 36. Kb4 Kc8 37. c4
+Be7+ 38. c5 g5 39. h3 h5 40. Kc4 g4 41. hxg4 hxg4 42. Be5 Bh4 43. Bg3 Bf6
+44. Bf4 Bh4 45. Bg3 Bf6 46. Bf4 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.11"]
+[Round "3"]
+[White "Grachev,B"]
+[Black "Macieja,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2667"]
+[BlackElo "2618"]
+[EventDate "2010.05.09"]
+[ECO "A48"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nbd2 c5 4. dxc5 Qa5 5. a3 Qxc5 6. b4 Qc7 7. Bb2 Bg7
+8. e3 O-O 9. Be2 b6 10. O-O Bb7 11. c4 d6 12. Rc1 Nbd7 13. Qb3 Rac8 14. Nd4
+a6 15. h3 Qb8 16. Bf3 Rc7 17. Rc2 Rfc8 18. Rfc1 Ne5 19. Bxb7 Qxb7 20. N4f3
+Nfd7 21. Ng5 h6 22. Nge4 Nf6 23. Nxf6+ Bxf6 24. f4 Nd7 25. Bxf6 Nxf6 26.
+Qd3 Nd7 27. Kh2 d5 28. e4 dxc4 29. Nxc4 Nf6 30. Nd2 Rxc2 31. Rxc2 Rxc2 32.
+Qxc2 Qd7 33. Nf3 Qe6 34. e5 Nh5 35. Qe4 Kh7 36. a4 Ng7 37. b5 axb5 38. axb5
+Qb3 39. Nd4 Qc4 40. Qe3 Qc5 41. Qe4 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.11"]
+[Round "3"]
+[White "Tiviakov,S"]
+[Black "Kurnosov,I"]
+[Result "1-0"]
+[WhiteElo "2634"]
+[BlackElo "2680"]
+[EventDate "2010.05.09"]
+[ECO "B23"]
+
+1. e4 c5 2. Nc3 d6 3. f4 Nc6 4. Nf3 g6 5. d4 cxd4 6. Nxd4 Bg7 7. Be3 Nf6 8.
+Be2 O-O 9. Nb3 b6 10. O-O Bb7 11. Bf3 Rc8 12. Rf2 Nd7 13. Rd2 Bxc3 14. bxc3
+Rc7 15. Qe1 Na5 16. Nxa5 bxa5 17. Bd4 Qc8 18. Bg4 Qa8 19. e5 dxe5 20. fxe5
+Nc5 21. Qh4 Ne6 22. Re1 Nxd4 23. cxd4 Kg7 24. c4 Qd8 25. Be2 e6 26. Qf4 Ba6
+27. d5 exd5 28. cxd5 Bxe2 29. Rexe2 Rc1+ 30. Kf2 Qb6+ 31. Re3 Rfc8 32. d6
+R8c2 33. Rxc2 Rxc2+ 34. Kg3 Qb2 35. d7 Rxg2+ 36. Kh3 Rf2 37. Rf3 Rxf3+ 38.
+Qxf3 Qd2 39. Qf6+ Kh6 40. Qh4+ 1-0
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.12"]
+[Round "4"]
+[White "Tiviakov,S"]
+[Black "Baklan,V"]
+[Result "0-1"]
+[WhiteElo "2634"]
+[BlackElo "2633"]
+[EventDate "2010.05.09"]
+[ECO "B69"]
+
+1. e4 c5 2. Nc3 d6 3. Nge2 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Bg5 e6 7. Qd2 a6
+8. O-O-O Bd7 9. f4 Be7 10. Nf3 b5 11. Bxf6 gxf6 12. Kb1 Qb6 13. f5 O-O-O
+14. g3 Kb8 15. fxe6 fxe6 16. Bh3 Bc8 17. Qe1 Rhe8 18. Ne2 Ne5 19. Rf1 Nc4
+20. Nf4 Bf8 21. Qf2 Qb7 22. Nh5 Bh6 23. Rfe1 Rf8 24. Nd4 Qb6 25. b3 Na3+
+26. Kb2 b4 27. Qe2 Qc5 28. Rd3 Rde8 29. Nf4 f5 30. Qd2 Bg7 31. Kc1 a5 32.
+exf5 exf5 33. Nde6 Bxe6 34. Rxe6 Be5 35. Rdxd6 Rxe6 36. Nxe6 Qxd6 37. Nxf8
+Qxf8 38. Qd5 Qh6+ 39. Kd1 Qd6 40. Qxd6+ Bxd6 41. Bxf5 h6 42. Kd2 Be5 43.
+Ke3 Kc7 44. Kf3 Kd6 45. Kg4 Bc3 46. Kh5 Ke5 47. Bd3 Bd2 48. h4 Kd4 49. g4
+Kc3 50. g5 hxg5 51. hxg5 Be3 52. g6 Bd4 53. Kh6 Nxc2 0-1
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.12"]
+[Round "4"]
+[White "Meier,Geo"]
+[Black "Swiercz,D"]
+[Result "1-0"]
+[WhiteElo "2638"]
+[BlackElo "2501"]
+[EventDate "2010.05.09"]
+[ECO "A15"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 c5 4. g3 Nc6 5. Bg2 d6 6. O-O Bg7 7. d4 cxd4 8.
+Nxd4 Bd7 9. Nc2 O-O 10. b3 a6 11. Bb2 Qa5 12. Qd2 Rfc8 13. Rfd1 Rab8 14.
+Ne3 b5 15. Rac1 Ne5 16. Ncd5 Qxd2 17. Rxd2 Nxd5 18. Nxd5 Kf8 19. f4 Nc6 20.
+Bxg7+ Kxg7 21. c5 Be8 22. cxd6 exd6 23. Bh3 f5 24. e4 Bd7 25. exf5 gxf5 26.
+Ne3 Ne7 27. Rxc8 Rxc8 28. Rxd6 Rc1+ 29. Kf2 Bc8 30. Rd1 Rc5 31. Rd2 Rc1 32.
+Ke2 Ra1 33. Kd3 Be6 34. Kc3 Kf6 35. Kb4 h5 36. Bg2 Kf7 37. Bf3 Kf6 38. Bxh5
+Rc1 39. Bf3 1-0
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.12"]
+[Round "4"]
+[White "Dziuba,M"]
+[Black "Grachev,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2576"]
+[BlackElo "2667"]
+[EventDate "2010.05.09"]
+[ECO "D11"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 e6 5. b3 b6 6. Bb2 Bb7 7. Bd3 Bd6 8.
+Nbd2 Nbd7 9. O-O O-O 10. Ne5 Qe7 11. Qe2 Ba3 12. Ndf3 Bxb2 13. Qxb2 Nxe5
+14. Nxe5 dxc4 15. Bxc4 c5 16. dxc5 Qxc5 17. Rac1 Qe7 18. Bb5 Rac8 19. Bc6
+Nd5 20. h3 Bxc6 21. Nxc6 Qb7 22. Ne5 h6 23. Rfd1 Rxc1 24. Rxc1 Rc8 25. Rc2
+Nb4 26. Rd2 Nd5 27. Rc2 Nb4 28. Rd2 Nd5 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.12"]
+[Round "4"]
+[White "Kurnosov,I"]
+[Black "Bartel,Mat"]
+[Result "0-1"]
+[WhiteElo "2680"]
+[BlackElo "2609"]
+[EventDate "2010.05.09"]
+[ECO "C65"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Nbd2 O-O 6. Bxc6 dxc6 7. Nc4
+Re8 8. Bg5 b5 9. Ncd2 h6 10. Be3 Bxe3 11. fxe3 c5 12. b3 a5 13. a4 c6 14.
+Qe2 Ba6 15. c4 Ra7 16. O-O Rd7 17. Ne1 b4 18. Rf3 Rd6 19. Nf1 Bc8 20. h3
+Nh7 21. Ng3 g6 22. Rf1 Qh4 23. Nh1 Ng5 24. Nf3 Nxf3+ 25. Qxf3 Be6 26. Rad1
+Red8 27. Nf2 h5 28. Kh2 Kg7 29. Rd2 R6d7 30. Qd1 Qg5 31. Qf3 Rf8 32. Rdd1
+Rd6 33. Kg1 Bd7 34. Kh2 Rf6 35. Qe2 h4 36. Ng4 Rxf1 37. Rxf1 f5 38. exf5
+gxf5 39. Qf3 Re8 40. Nf2 Kh6 41. g4 hxg3+ 42. Qxg3 Qxg3+ 43. Kxg3 Rg8+ 44.
+Kh2 Be6 45. Nh1 Rd8 46. Rd1 Bf7 47. Kg3 Bh5 48. Rd2 Kg5 49. h4+ Kf6 50. Kf2
+f4 51. exf4 exf4 52. Ke1 Ke5 53. Rg2 Bf3 54. Rg5+ Kd4 55. Nf2 Re8+ 56. Kf1
+Kc3 57. Ne4+ Bxe4 58. dxe4 Kxb3 59. Kf2 Kxc4 60. Kf3 b3 0-1
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.12"]
+[Round "4"]
+[White "Macieja,B"]
+[Black "Socko,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2618"]
+[BlackElo "2644"]
+[EventDate "2010.05.09"]
+[ECO "E12"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 d5 6. cxd5 Nxd5 7. e3 Be7 8.
+Bb5+ c6 9. Bd3 O-O 10. e4 Nxc3 11. bxc3 c5 12. O-O Qc7 13. Qe2 Nd7 14. e5
+Rfd8 15. Rd1 Nf8 16. Be3 Rac8 17. Nd2 Qc6 18. Qg4 Ng6 19. Nf3 cxd4 20. cxd4
+Qd5 21. h4 Nxh4 22. Nxh4 Bxh4 23. Bxh7+ Kxh7 24. Qxh4+ Kg8 25. f3 Rc2 26.
+Qg4 Kf8 27. a4 Rdc8 28. Qh5 Kg8 29. Qg4 Kf8 30. Qh5 Kg8 31. Qg4 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.13"]
+[Round "5"]
+[White "Bartel,Mat"]
+[Black "Meier,Geo"]
+[Result "1/2-1/2"]
+[WhiteElo "2609"]
+[BlackElo "2638"]
+[EventDate "2010.05.09"]
+[ECO "C10"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. c3 Ngf6 6. Bg5 h6 7. Bh4 Be7
+8. Nxf6+ Bxf6 9. Bg3 O-O 10. Nf3 c5 11. Be2 Qb6 12. O-O cxd4 13. cxd4 Nb8
+14. Be5 Bxe5 15. dxe5 Rd8 16. Qc2 Bd7 17. Rfd1 Nc6 18. Qe4 Ne7 19. Bd3 Nf5
+20. Qe2 Ne7 21. Qe4 Nf5 22. Qe2 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.13"]
+[Round "5"]
+[White "Swiercz,D"]
+[Black "Macieja,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2501"]
+[BlackElo "2618"]
+[EventDate "2010.05.09"]
+[ECO "D19"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 Bf5 5. a4 dxc4 6. e3 e6 7. Bxc4 Bb4 8.
+O-O O-O 9. Qe2 Nbd7 10. e4 Bg6 11. Bd3 Bh5 12. e5 Nd5 13. Nxd5 cxd5 14. Qe3
+Re8 15. Ng5 Bg6 16. Bxg6 fxg6 17. a5 Bxa5 18. Qf3 Nf8 19. Qf7+ Kh8 20. Qxb7
+Qb6 21. Qxb6 Bxb6 22. Nf7+ Kg8 23. Nd6 Reb8 24. Be3 g5 25. Rfc1 Ng6 26. Rc2
+h6 27. g3 Ne7 28. Ra6 Nf5 29. Nxf5 exf5 30. b3 Rc8 31. Raa2 Kf7 32. f3 Ke6
+33. Kf1 f4 34. Bf2 fxg3 35. hxg3 h5 36. g4 hxg4 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.13"]
+[Round "5"]
+[White "Socko,B"]
+[Black "Dziuba,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2644"]
+[BlackElo "2576"]
+[EventDate "2010.05.09"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be7 8.
+Qd2 O-O 9. O-O-O Be6 10. f4 b5 11. Kb1 Nbd7 12. f5 Bc4 13. Rg1 Bxf1 14.
+Rgxf1 b4 15. Nd5 Nxd5 16. Qxd5 a5 17. Qd3 Nf6 18. Bg5 Ne8 19. Bxe7 Qxe7 20.
+Rfe1 a4 21. Nc1 Ra5 22. g4 Rc5 23. Qd2 Qb7 24. g5 a3 25. Nb3 Rc8 26. Qd5
+Qa7 27. bxa3 bxa3 28. c4 Rb8 29. Ka1 Qf2 30. Qd2 Qh4 31. Re2 Rc8 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.13"]
+[Round "5"]
+[White "Grachev,B"]
+[Black "Tiviakov,S"]
+[Result "1-0"]
+[WhiteElo "2667"]
+[BlackElo "2634"]
+[EventDate "2010.05.09"]
+[ECO "E00"]
+
+1. c4 Nf6 2. d4 e6 3. g3 Bb4+ 4. Bd2 d5 5. Nf3 Be7 6. Bg2 c6 7. Qc2 O-O 8.
+O-O b6 9. Rd1 Bb7 10. Bf4 Nbd7 11. Nc3 Rc8 12. Ne5 Nh5 13. Bc1 Qc7 14. Nxd7
+Qxd7 15. e4 Nf6 16. e5 Ne8 17. Qa4 Qc7 18. Bf4 Qb8 19. cxd5 cxd5 20. Bf1
+Nc7 21. Rac1 a6 22. Bd3 g6 23. h4 b5 24. Qc2 Ne8 25. Qd2 Ng7 26. Bg5 f6 27.
+exf6 Bxf6 28. Qe3 Qd6 29. Ne2 Nh5 30. Bxf6 Nxf6 31. Qe5 Ne4 32. Nf4 Rfe8
+33. Rxc8 Bxc8 34. Bxe4 Qxe5 35. dxe5 dxe4 36. Kf1 Kf7 37. Rc1 Bd7 38. Ke2
+b4 39. Ke3 a5 40. Nh3 h6 41. Rc7 Ke7 42. Nf4 Kd8 43. Ra7 g5 44. Nh5 Bc6 45.
+Nf6 1-0
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.13"]
+[Round "5"]
+[White "Baklan,V"]
+[Black "Kurnosov,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2633"]
+[BlackElo "2680"]
+[EventDate "2010.05.09"]
+[ECO "C67"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1
+Nxe5 8. Rxe5 O-O 9. d4 Bf6 10. Re1 Nf5 11. c3 d5 12. Bf4 Nh4 13. Nd2 c6 14.
+Bd3 Bf5 15. Bxf5 Nxf5 16. Nf3 Qd7 17. Bg5 Bxg5 18. Nxg5 Rfe8 19. Qd3 f6 20.
+Nf3 Nd6 21. h3 Rxe1+ 22. Rxe1 Re8 23. Rxe8+ Qxe8 24. Kf1 Qe6 25. Nd2 Ne4
+26. a3 Nxd2+ 27. Qxd2 Qf5 28. Qe2 Qb1+ 29. Qe1 Qd3+ 30. Qe2 Qb1+ 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.14"]
+[Round "6"]
+[White "Tiviakov,S"]
+[Black "Socko,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2634"]
+[BlackElo "2644"]
+[EventDate "2010.05.09"]
+[ECO "C43"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 d5 5. Nxe5 Nd7 6. Nxd7 Bxd7 7. O-O
+Bd6 8. Qh5 Nf6 9. Re1+ Be7 10. Qe2 Be6 11. Nd2 O-O 12. Nf3 Re8 13. Ne5 Nd7
+14. f4 Nxe5 15. dxe5 Qd7 16. Be3 Rad8 17. c3 Bf5 18. Bxf5 Qxf5 19. Rad1 Qe6
+20. Qf3 g6 21. g4 Qc6 22. Bd4 Bc5 23. f5 Bxd4+ 24. cxd4 gxf5 25. gxf5 Qh6
+26. Qe3 Qh5 27. Qf4 Kh8 28. Kf2 Rg8 29. Rg1 Rxg1 30. Rxg1 Rg8 31. Rxg8+
+Kxg8 32. Ke1 Kf8 33. h4 h6 34. Kd2 Ke8 35. e6 fxe6 36. fxe6 Ke7 37. Qxc7+
+Kxe6 38. Qc8+ Kf6 39. Qf8+ Ke6 40. Qc8+ Kf6 41. Qxb7 Qxh4 42. Qc6+ Kg7 43.
+Qxd5 h5 44. Qd7+ Kg6 45. Qe8+ Kg7 46. Qe5+ Kg6 47. Qe8+ 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.14"]
+[Round "6"]
+[White "Dziuba,M"]
+[Black "Swiercz,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2576"]
+[BlackElo "2501"]
+[EventDate "2010.05.09"]
+[ECO "E60"]
+
+1. d4 Nf6 2. c4 g6 3. g3 c6 4. Nf3 Bg7 5. Bg2 d5 6. b3 O-O 7. O-O Bf5 8.
+Bb2 Ne4 9. Nc3 Nxc3 10. Bxc3 Be4 11. e3 c5 12. Rc1 cxd4 13. Bxd4 Bxd4 14.
+Nxd4 Bxg2 15. Kxg2 e5 16. Nb5 a6 17. Nc3 dxc4 18. bxc4 Qxd1 19. Rfxd1 Nc6
+20. Rb1 Rab8 21. Ne4 Rfd8 22. Rxd8+ Nxd8 23. Rd1 f5 24. Nf6+ Kf7 25. Nd7
+Rc8 26. Nxe5+ Ke6 27. Nf3 Ke7 28. Nd2 Nf7 29. Rb1 Nd6 30. Kf3 Ke6 31. h4
+Rc5 32. Ke2 Nxc4 33. Nxc4 Rxc4 34. Rxb7 Rc2+ 35. Kf3 Rxa2 36. Rxh7 a5 37.
+h5 gxh5 38. Rxh5 a4 39. Rh6+ Kd5 40. Rf6 Ke5 41. Ra6 a3 42. Ra5+ Ke6 43.
+Ra4 Kd5 44. g4 fxg4+ 45. Rxg4 Kc5 46. Ra4 Kb5 47. Ra8 Kb4 48. e4 Rc2 49.
+Rb8+ Kc4 50. Rc8+ Kb3 51. Rb8+ Kc4 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.14"]
+[Round "6"]
+[White "Macieja,B"]
+[Black "Bartel,Mat"]
+[Result "1/2-1/2"]
+[WhiteElo "2618"]
+[BlackElo "2609"]
+[EventDate "2010.05.09"]
+[ECO "A04"]
+
+1. Nf3 f5 2. d4 Nf6 3. g3 g6 4. c4 Bg7 5. b4 c6 6. Bg2 d5 7. Nbd2 Be6 8.
+Qc2 a5 9. b5 dxc4 10. a4 Nd5 11. Bb2 Nd7 12. O-O cxb5 13. axb5 Rc8 14. Bc3
+b6 15. Rac1 h6 16. Nh4 Nf8 17. Nhf3 Nd7 18. Nh4 Nf8 19. Ba1 c3 20. Nb1 Qd7
+21. Qa4 g5 22. Nf3 Ng6 23. Nxc3 O-O 24. Ne5 Nxe5 25. dxe5 Nxc3 26. Rxc3
+Rxc3 27. Bxc3 Qc7 28. Qa1 Qc4 29. Qb2 Bd5 30. Bxd5+ Qxd5 31. Bd4 Ra8 32.
+Bxb6 Rb8 33. Qd4 Qxd4 34. Bxd4 Rxb5 35. f4 a4 36. Kf2 e6 37. Rc1 Bf8 38.
+Rc6 Kf7 39. Rc7+ Be7 40. Ra7 a3 41. fxg5 hxg5 42. h4 gxh4 43. gxh4 Ke8 44.
+h5 Bf8 45. Ra8+ Kf7 46. Ra7+ Kg8 47. Ra8 Kf7 48. Ra7+ Kg8 49. Ra8 Kf7 50.
+Ra7+ 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.14"]
+[Round "6"]
+[White "Kurnosov,I"]
+[Black "Meier,Geo"]
+[Result "1/2-1/2"]
+[WhiteElo "2680"]
+[BlackElo "2638"]
+[EventDate "2010.05.09"]
+[ECO "C10"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Bd3 c5 7. O-O Nxe4
+8. Bxe4 Nf6 9. Bg5 cxd4 10. Nxd4 Be7 11. Bf3 O-O 12. Qd3 Qc7 13. Rfe1 Rd8
+14. Rad1 a6 15. c3 Bd7 16. Qe3 Be8 17. Bf4 Qb6 18. Nb3 Qb5 19. Nd4 Qxb2 20.
+Rb1 Qxa2 21. Rxb7 Bf8 22. Be5 Nd7 23. Bg3 Nc5 24. Rbb1 Rac8 25. Bh4 f6 26.
+Ra1 Qc4 27. Be2 Qd5 28. Bf3 Qd6 29. Nxe6 Nxe6 30. Bg3 Qd7 31. Bg4 Bf7 32.
+Bxe6 Bxe6 33. Qxe6+ Qxe6 34. Rxe6 Rxc3 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.14"]
+[Round "6"]
+[White "Baklan,V"]
+[Black "Grachev,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2633"]
+[BlackElo "2667"]
+[EventDate "2010.05.09"]
+[ECO "C11"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Nbd7 6. Nf3 h6 7. Nxf6+
+Nxf6 8. Be3 Ng4 9. Bd2 c5 10. Bc3 Bd7 11. Qe2 Qc7 12. O-O-O O-O-O 13. h3
+Nf6 14. dxc5 Bxc5 15. Be5 Qa5 16. a3 Bc6 17. Nd2 Qa4 18. f3 Rd5 19. Nb3 Bb6
+20. Rxd5 Bxd5 21. Qd3 Rd8 22. Qc3+ Qc6 23. Qxc6+ Bxc6 24. Bc4 Be3+ 25. Kb1
+Nd7 26. Bh2 Nb6 27. Bd3 Bd5 28. Re1 Bf2 29. Re2 Bxb3 30. Rxf2 Bc4 31. Bxc4
+Nxc4 32. Ka2 Rd1 33. Kb3 b5 34. a4 a6 35. axb5 axb5 36. Kb4 Nxb2 37. Kxb5
+f6 38. Re2 Kd7 39. Bg3 e5 40. f4 Rd5+ 41. Kb4 Rd4+ 42. Kb3 Nd3 43. cxd3
+Rxd3+ 44. Kc4 Rxg3 45. fxe5 Ke6 46. exf6+ Kxf6 47. Kd5 Kg5 48. Ke6 Kh4 49.
+Kf7 h5 50. Re4+ Kg5 51. h4+ Kf5 52. Ra4 Rxg2 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.16"]
+[Round "7"]
+[White "Meier,Geo"]
+[Black "Macieja,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2638"]
+[BlackElo "2618"]
+[EventDate "2010.05.09"]
+[ECO "D11"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bg4 5. Nc3 e6 6. h3 Bxf3 7. Qxf3 Nbd7 8.
+Bd2 Bb4 9. Bd3 O-O 10. a3 Bd6 11. cxd5 exd5 12. g4 Nb6 13. g5 Nfd7 14. Qf5
+g6 15. Qg4 Qe7 16. h4 c5 17. O-O-O cxd4 18. exd4 Bxa3 19. Rde1 Qb4 20. bxa3
+Qxa3+ 21. Kc2 Na4 22. Nxa4 Qxa4+ 23. Kb2 Nc5 24. Bc2 Qb5+ 25. Ka1 Qa6+ 26.
+Kb2 Qb5+ 27. Ka1 Qa6+ 28. Kb2 Qb5+ 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.16"]
+[Round "7"]
+[White "Socko,B"]
+[Black "Baklan,V"]
+[Result "1-0"]
+[WhiteElo "2644"]
+[BlackElo "2633"]
+[EventDate "2010.05.09"]
+[ECO "E17"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. g3 Bb7 5. Bg2 Be7 6. Nc3 Ne4 7. Qc2 Nxc3 8.
+Qxc3 Be4 9. O-O O-O 10. Bh3 c5 11. dxc5 bxc5 12. Qe3 d5 13. Nd2 Bg6 14. f4
+d4 15. Qf3 Nd7 16. e4 dxe3 17. Qxe3 Bf6 18. Kh1 Nb6 19. Bg2 Rb8 20. Ne4 Bd4
+21. Qe2 Na4 22. Rb1 Re8 23. Qc2 Qd7 24. Rd1 Qb7 25. h4 Qa6 26. Rd3 Nb6 27.
+b3 Nd5 28. Qe2 Bxe4 29. Bxe4 f5 30. cxd5 fxe4 31. Re3 Qxe2 32. Rxe2 exd5
+33. Ba3 Rb5 34. Rd1 h5 35. Rc2 Kf7 36. Kg2 Ke6 37. Kh3 g6 38. g4 hxg4+ 39.
+Kxg4 Ra5 40. Bc1 Rb5 41. Ba3 a5 42. Rdc1 Be3 43. Re1 d4 44. Bc1 Kd5 45.
+Bxe3 dxe3 46. Rxe3 Rb4 47. Rec3 Rc8 48. Kg5 Rc6 49. f5 gxf5 50. Kxf5 Rd4
+51. h5 Rd1 52. Rc1 Rd2 53. R3c2 Rxc2 54. Rd1+ 1-0
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.16"]
+[Round "7"]
+[White "Bartel,Mat"]
+[Black "Dziuba,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2609"]
+[BlackElo "2576"]
+[EventDate "2010.05.09"]
+[ECO "B23"]
+
+1. e4 c5 2. Nc3 a6 3. Nge2 d6 4. g3 g6 5. d4 cxd4 6. Nxd4 Bg7 7. Bg2 Nf6 8.
+O-O O-O 9. h3 Nc6 10. Nde2 Bd7 11. Be3 b5 12. f4 Rb8 13. a3 a5 14. Nd5 Ne8
+15. Qc1 e6 16. Ndc3 b4 17. axb4 axb4 18. Na4 Na5 19. Nb6 Rxb6 20. Rxa5 Rb8
+21. Ra7 Nc7 22. c4 bxc3 23. Nxc3 Nb5 24. Nxb5 Bxb5 25. Rd1 Qf6 26. Rd2 Rfc8
+27. Rc7 Qd8 28. Rxc8 Rxc8 29. Qd1 Qa5 30. Kh2 Be8 31. Qb3 Qc7 32. Qd3 Rb8
+33. Rc2 Qd8 34. b3 Qe7 35. Bg1 Qb7 36. Qxd6 Qxb3 37. Qc7 Rb7 38. Qc8 Rb8
+39. Qc7 Rb7 40. Qc8 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.16"]
+[Round "7"]
+[White "Swiercz,D"]
+[Black "Tiviakov,S"]
+[Result "0-1"]
+[WhiteElo "2501"]
+[BlackElo "2634"]
+[EventDate "2010.05.09"]
+[ECO "E59"]
+
+1. d4 Nf6 2. c4 e6 3. e3 Bb4+ 4. Nc3 O-O 5. Bd3 d5 6. Nf3 c5 7. O-O Nc6 8.
+a3 Bxc3 9. bxc3 dxc4 10. Bxc4 Qc7 11. Qc2 e5 12. Be2 Re8 13. h3 Be6 14. Bb2
+e4 15. Nd2 cxd4 16. cxd4 Bd5 17. Rfc1 Rad8 18. a4 Qd7 19. Ba3 Qe6 20. Qb2
+Rc8 21. Nc4 Red8 22. a5 Rb8 23. Qb5 Ne8 24. Bc5 Nc7 25. Qb2 Na6 26. Ba3 Qf6
+27. Rab1 h6 28. Ne5 Nc7 29. Bg4 Ne6 30. Nxc6 Bxc6 31. Rxc6 bxc6 32. Qxb8
+Rxb8 33. Rxb8+ Kh7 34. Rb7 c5 35. Bxe6 cxd4 36. Bb2 Qxe6 37. Bxd4 a6 38.
+Rb1 Qd5 39. Ra1 h5 40. h4 Qd8 41. g3 f6 42. Kg2 Kg6 43. Ra4 Qd5 44. Ra1 Qb5
+45. Ra2 Qb3 46. Rd2 Qd5 47. Rc2 Qxa5 48. Rc5 Qd8 49. Rc6 a5 50. Ra6 Qd5 51.
+Ra7 Qb5 52. Kg1 a4 53. Kg2 Qb4 54. Kg1 a3 55. Kg2 Qb3 56. Ra5 a2 57. Ra7
+Qg8 58. Ra5 Qf7 59. Ba1 Qc4 60. Bd4 Qe2 61. Ra7 Kf5 62. Bc3 g5 63. Ra5+ Kg4
+64. Bxf6 Qf3+ 65. Kf1 Qxf6 66. Rxa2 gxh4 67. gxh4 Qxh4 0-1
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.16"]
+[Round "7"]
+[White "Grachev,B"]
+[Black "Kurnosov,I"]
+[Result "1-0"]
+[WhiteElo "2667"]
+[BlackElo "2680"]
+[EventDate "2010.05.09"]
+[ECO "A48"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 O-O 5. c3 d5 6. e3 Nbd7 7. Be2 Re8
+8. O-O e5 9. Bh4 c6 10. h3 Qb6 11. Qb3 exd4 12. cxd4 a5 13. a4 Qxb3 14.
+Nxb3 Ne4 15. Bd3 b6 16. Rac1 Bb7 17. Nfd2 Nxd2 18. Nxd2 Nf8 19. Rb1 Ne6 20.
+b4 axb4 21. Rxb4 Ba6 22. Bxa6 Rxa6 23. Rfb1 c5 24. Rxb6 Rxa4 25. Rb8 Rxb8
+26. Rxb8+ Bf8 27. Nf3 cxd4 28. Nxd4 Nxd4 29. exd4 Kg7 30. Rb6 Rb4 31. Bf6+
+Kg8 32. Ra6 Rb8 33. Ra5 Rb6 34. Be5 f6 35. Bg3 Bd6 36. Rxd5 Bxg3 37. fxg3
+Kf7 38. Rd7+ Ke6 39. Rxh7 Rb1+ 40. Kf2 Rb2+ 41. Kf3 Rb3+ 42. Kf4 g5+ 43.
+Kg4 Rd3 44. Ra7 Rxd4+ 45. Kh5 Rd2 46. g4 Rxg2 47. Kg6 Rf2 48. Ra3 Rf4 49.
+Re3+ Kd6 50. Re1 Rf3 51. Re2 Kd5 52. Re8 Rf1 53. Kf7 Rf3 54. Re7 Rf4 55.
+Re8 Rf3 56. Ra8 f5 57. Kg6 f4 58. Kxg5 Rxh3 59. Kxf4 Ke6 60. Kg5 Kf7 61.
+Ra7+ Kf8 62. Kg6 Rg3 63. Ra8+ Ke7 64. g5 Rg1 65. Rg8 Rg2 66. Kh7 Kf7 67.
+g6+ Ke7 68. Ra8 Rh2+ 69. Kg8 Kf6 70. g7 Ke7 71. Ra7+ Ke8 72. Ra4 Re2 73.
+Rh4 1-0
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.17"]
+[Round "8"]
+[White "Baklan,V"]
+[Black "Swiercz,D"]
+[Result "1-0"]
+[WhiteElo "2633"]
+[BlackElo "2501"]
+[EventDate "2010.05.09"]
+[ECO "C01"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nf6 5. Bg5 Be7 6. Bd3 Bg4 7. O-O O-O
+8. Nbd2 Nbd7 9. c3 c6 10. Re1 Bh5 11. Qb3 Nb6 12. a4 Qc7 13. a5 Nc8 14. Ne5
+Bg6 15. Nxg6 hxg6 16. Nf3 Nh5 17. Bd2 Nd6 18. Ne5 Rfe8 19. Re2 Bf8 20. Qa4
+Re6 21. Rae1 Rae8 22. g3 Nf6 23. f3 Nd7 24. b3 a6 25. Kg2 Nb5 26. Ng4 Rxe2+
+27. Rxe2 Rxe2+ 28. Bxe2 Nf6 29. Nf2 Be7 30. Qa1 Qd8 31. Nd3 Bd6 32. Bf1 Nd7
+33. Qe1 Bc7 34. b4 Bd6 35. Kf2 Kf8 36. Bh3 Qe7 37. Qxe7+ Kxe7 38. Ke2 Kd8
+39. Kd1 Nf8 40. Kc2 Nd7 41. Kb3 Nc7 42. Bg5+ f6 43. Be3 Ke7 44. c4 dxc4+
+45. Kxc4 Nd5 46. Bd2 Nf8 47. Bg2 Ne6 48. Nb2 Nxd4 49. Kxd4 Be5+ 50. Kc5
+Bxb2 51. f4 Kd7 52. Bxd5 cxd5 53. Kxd5 f5 54. Be3 Bf6 55. Bd4 Be7 56. Kc4
+g5 57. fxg5 g6 58. Be3 Ke6 59. Bd2 Bd6 60. Bf4 Be7 61. b5 Bf8 62. b6 Bg7
+63. Bd2 Be5 64. Kd3 Kd5 65. Ke3 Ke6 66. Kf3 Bd6 67. h4 Be5 68. g4 Bb2 69.
+h5 fxg4+ 70. Kxg4 Kf7 71. h6 Ke6 72. Kf4 Kd5 73. Ke3 Ke6 74. Kd3 Kf7 75.
+Bc3 Bc1 76. h7 1-0
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.17"]
+[Round "8"]
+[White "Dziuba,M"]
+[Black "Meier,Geo"]
+[Result "1/2-1/2"]
+[WhiteElo "2576"]
+[BlackElo "2638"]
+[EventDate "2010.05.09"]
+[ECO "E04"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 dxc4 5. Bg2 Nc6 6. O-O a6 7. Bg5 Rb8 8.
+e3 b5 9. Nfd2 Na5 10. b3 Bb7 11. Bxb7 Rxb7 12. bxc4 c5 13. cxb5 axb5 14.
+Nb3 cxd4 15. Nxd4 Be7 16. Nc3 b4 17. Qa4+ Rd7 18. Bxf6 Bxf6 19. Ncb5 Be7
+20. a3 bxa3 21. Nxa3 O-O 22. Rfd1 Bxa3 23. Rxa3 Nb7 24. Rc1 Rc7 25. Rac3
+Rxc3 26. Rxc3 Nd6 27. Nc6 Qc7 28. Qa7 Qxa7 29. Nxa7 Ne4 30. Rc7 f6 31. f3
+1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.17"]
+[Round "8"]
+[White "Grachev,B"]
+[Black "Socko,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2667"]
+[BlackElo "2644"]
+[EventDate "2010.05.09"]
+[ECO "D27"]
+
+1. d4 d5 2. c4 dxc4 3. e3 Nf6 4. Bxc4 e6 5. Nf3 c5 6. O-O a6 7. dxc5 Bxc5
+8. Qxd8+ Kxd8 9. Ne5 Ke7 10. Be2 Bd7 11. Bf3 Nc6 12. Bxc6 Bxc6 13. Nxc6+
+bxc6 14. Bd2 Ne4 15. Rc1 Rab8 16. b3 Bd6 17. Be1 Be5 18. Nc3 Nxc3 19. Bxc3
+Bxc3 20. Rxc3 Rb6 21. Kf1 Rd8 22. Ke2 e5 23. Rac1 Rd6 24. Rc5 f6 25. R1c4
+Kd7 26. Ra5 Kc7 27. f4 exf4 28. exf4 Kb7 29. Rca4 Re6+ 30. Kf3 Re1 31. Rh5
+h6 32. Re4 Rxe4 33. Kxe4 Rb4+ 34. Kf5 a5 35. g3 a4 36. bxa4 c5 37. g4 Rxa4
+38. g5 fxg5 39. fxg5 Kc6 40. gxh6 gxh6 41. Rxh6+ Kd5 42. Rh8 Rxa2 43. Rd8+
+Kc4 44. h4 Rf2+ 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.17"]
+[Round "8"]
+[White "Tiviakov,S"]
+[Black "Bartel,Mat"]
+[Result "1/2-1/2"]
+[WhiteElo "2634"]
+[BlackElo "2609"]
+[EventDate "2010.05.09"]
+[ECO "B18"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nh3 Nf6 7. Bc4 e6
+8. Nf4 Bd6 9. c3 Qc7 10. Qf3 Nbd7 11. Bb3 O-O-O 12. O-O Rhe8 13. Nxg6 hxg6
+14. Re1 c5 15. Bg5 Qa5 16. Ne4 Be7 17. Bf4 Nxe4 18. Rxe4 Nf6 19. Re2 Qb6
+20. Be5 Qc6 21. Qxc6+ bxc6 22. Bc4 Kb7 23. a4 cxd4 24. Bxd4 c5 25. Be3 Nd5
+26. Bd2 a6 27. a5 Rd7 28. g3 Red8 29. Be1 Nc7 30. Bb3 Nb5 31. f4 Rc7 32.
+Ra4 Kb8 33. Kg2 Rb7 34. Bc2 Nd6 35. Bd3 Nb5 36. Be4 Rc7 37. Bf2 Rdd7 38. g4
+Bd6 39. Bc2 Re7 40. Rae4 Rb7 41. Rc4 Nc7 42. Ba4 Nd5 43. Kf3 Rec7 44. h4
+Rc8 45. f5 gxf5 46. gxf5 Re7 47. Rd2 g6 48. fxe6 fxe6 49. Re4 Rf8+ 50. Kg2
+Kc7 51. Rc4 Rf4 52. Rxf4 Nxf4+ 53. Kf3 Rf7 54. Ke4 Nd5 55. Bb3 Kc6 56. Ba4+
+Kc7 57. Bb3 Kc6 58. Ba4+ Kc7 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.17"]
+[Round "8"]
+[White "Kurnosov,I"]
+[Black "Macieja,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2680"]
+[BlackElo "2618"]
+[EventDate "2010.05.09"]
+[ECO "B35"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O
+8. Bb3 d6 9. f3 Bd7 10. Qd2 Nxd4 11. Bxd4 b5 12. a4 b4 13. Nd5 Nxd5 14.
+exd5 Bxd4 15. Qxd4 Qb6 16. Qxb6 axb6 17. Kd2 e5 18. dxe6 fxe6 19. Ke3 d5
+20. Rhd1 Ra5 21. Rd4 b5 22. Rxb4 Rfa8 23. Rd1 bxa4 24. Ba2 a3 25. bxa3 Rb5
+26. Bb3 Rxa3 27. Rxb5 Bxb5 28. Kd4 Ba4 29. Bxa4 Rxa4+ 30. Ke5 Rc4 31. Kxe6
+Rxc2 32. Rxd5 Rxg2 33. Kf6 h5 34. Rg5 Rxg5 35. Kxg5 Kg7 36. f4 Kf7 37. h4
+Kg7 38. f5 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.18"]
+[Round "9"]
+[White "Meier,Geo"]
+[Black "Tiviakov,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2638"]
+[BlackElo "2634"]
+[EventDate "2010.05.09"]
+[ECO "E00"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 Bb4+ 5. Bd2 Be7 6. Bg2 c6 7. O-O Nbd7 8.
+Qc2 b6 9. Bf4 Ba6 10. Ne5 Nxe5 11. dxe5 Nd7 12. cxd5 cxd5 13. Rd1 Rc8 14.
+Nc3 b5 15. a3 Qb6 16. Rac1 O-O 17. Be3 Qb8 18. f4 b4 19. axb4 Bxb4 20. Bd4
+Nc5 21. Rb1 Bc4 22. Re1 Nb3 23. e3 Nxd4 24. exd4 Qb6 25. Qf2 Bb3 26. Bf1
+Bxc3 27. bxc3 Rxc3 28. Re3 Rxe3 29. Qxe3 Rb8 30. g4 a5 31. f5 g6 32. Kh1 a4
+33. Bd3 a3 34. Qh6 Qd8 35. fxg6 fxg6 36. Bxg6 Qe7 37. Rf1 hxg6 38. Qxg6+
+Qg7 39. Qxe6+ Kh8 40. Rf3 Bc2 41. Rxa3 Rf8 42. Ra6 Be4+ 43. Kg1 Kh7 44. h3
+Bf5 45. Qxd5 Bxg4 46. Qg2 Qg5 47. Rf6 Rxf6 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.18"]
+[Round "9"]
+[White "Bartel,Mat"]
+[Black "Baklan,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2609"]
+[BlackElo "2633"]
+[EventDate "2010.05.09"]
+[ECO "E20"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. g3 c5 5. Nf3 Bxc3+ 6. bxc3 Qa5 7. Bd2 b6
+8. Bg2 Bb7 9. O-O O-O 10. Qb3 Ne4 11. Ng5 f5 12. Nxe4 Bxe4 13. Bxe4 fxe4
+14. d5 Qa6 15. Bf4 Re8 16. a4 e5 17. Be3 d6 18. f3 exf3 19. exf3 Nd7 20.
+Rae1 Re7 21. f4 Rf8 22. Kg2 Qc8 23. Qc2 Qe8 24. f5 Nf6 25. h3 h5 26. Bg5
+Ref7 27. Bh4 Rb7 28. Qd1 Nh7 29. Qc2 Nf6 30. Rf2 a6 31. Rb1 Qd7 32. Rff1 b5
+33. axb5 axb5 34. Bxf6 Rxf6 35. cxb5 Rxb5 36. Rxb5 Qxb5 37. c4 Qd7 38. Qb1
+Rf8 39. Rf2 Qe7 40. Qe4 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.18"]
+[Round "9"]
+[White "Macieja,B"]
+[Black "Dziuba,M"]
+[Result "1-0"]
+[WhiteElo "2618"]
+[BlackElo "2576"]
+[EventDate "2010.05.09"]
+[ECO "D30"]
+
+1. c4 e6 2. d4 d5 3. Nf3 c6 4. Nbd2 Nf6 5. e3 Be7 6. b3 b6 7. Bd3 Bb7 8.
+O-O Nbd7 9. Bb2 O-O 10. Qe2 c5 11. Rfd1 cxd4 12. exd4 Re8 13. Ne5 dxc4 14.
+bxc4 Qc7 15. f4 g6 16. Ndf3 Nh5 17. Qe3 Ng7 18. Nxd7 Qxd7 19. Ne5 Qc7 20.
+Qh3 f5 21. Be2 Bd6 22. Rac1 Bxe5 23. fxe5 Be4 24. d5 Rad8 25. d6 Qc6 26. c5
+bxc5 27. Bd4 Qa4 28. Rxc5 Rb8 29. Qe3 Qxa2 30. Ra1 Rb1+ 31. Rxb1 Qxb1+ 32.
+Rc1 Qb8 33. Bxa7 Qa8 34. Bb6 f4 35. Qf2 Qa3 36. Qc5 Qb2 37. Bf3 Bxf3 38.
+gxf3 Nf5 39. d7 Rd8 40. Rc2 Qb1+ 41. Rc1 Qb2 42. Qc7 Kg7 43. Bf2 Kh6 44.
+Rf1 Nd4 45. Qxd8 Nxf3+ 46. Kg2 Qb7 47. Kh3 Qe4 48. Qf8+ Kh5 49. d8=Q Qe2
+50. Qxf4 1-0
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.18"]
+[Round "9"]
+[White "Swiercz,D"]
+[Black "Grachev,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2501"]
+[BlackElo "2667"]
+[EventDate "2010.05.09"]
+[ECO "A00"]
+
+1. g3 d5 2. Bg2 Nf6 3. f4 g6 4. Nf3 Bg7 5. O-O O-O 6. d3 d4 7. c3 c5 8. Qe1
+Nc6 9. Na3 Nd5 10. Bd2 b6 11. Nc2 Bb7 12. c4 Nc7 13. b4 Nxb4 14. Nxb4 cxb4
+15. Bxb4 b5 16. cxb5 Nxb5 17. Qf2 a5 18. Bd2 Nc3 19. Ne5 Rb8 20. Bxb7 Rxb7
+21. Nc4 a4 22. Qf3 Rb5 23. Rfc1 Qd7 24. e4 Rfb8 25. e5 Bf8 26. Kh1 Nb1 27.
+a3 e6 28. Bb4 Bxb4 29. Raxb1 Be7 30. Rxb5 Qxb5 31. Qd1 Qd5+ 32. Kg1 Rb3 33.
+Rb1 Rc3 34. Qxa4 Kg7 35. Qd1 Bxa3 36. Qf1 Qc6 37. Ra1 Bb4 38. Rb1 Ba3 39.
+Ra1 Bb4 40. Rb1 Ba3 41. Ra1 1/2-1/2
+
+[Event "2nd GM"]
+[Site "Lublin POL"]
+[Date "2010.05.18"]
+[Round "9"]
+[White "Socko,B"]
+[Black "Kurnosov,I"]
+[Result "0-1"]
+[WhiteElo "2644"]
+[BlackElo "2680"]
+[EventDate "2010.05.09"]
+[ECO "B53"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Nf6 5. Nc3 Nc6 6. Bb5 Nd7 7. Qd1 a6
+8. Be2 e6 9. Be3 Be7 10. Qd2 O-O 11. O-O-O b5 12. Kb1 Nc5 13. a3 b4 14.
+axb4 Nxb4 15. Bxc5 dxc5 16. Qxd8 Bxd8 17. Na4 Ra7 18. c3 Nc6 19. Nxc5 Bb6
+20. Nd3 a5 21. Rhf1 a4 22. Nd2 Na5 23. Nc1 Bd7 24. Nf3 Rc8 25. Rd6 Bc6 26.
+Nd2 Bc5 27. Rd3 Bb5 28. Rh3 Bxe2 29. Nxe2 Rd8 30. Kc2 Rad7 31. Nf3 Nb3 32.
+Nc1 Nd2 33. Nxd2 Rxd2+ 34. Kb1 a3 35. b4 Bxf2 36. Rf3 Bh4 37. e5 Bg5 38.
+Na2 Rb2+ 39. Ka1 Rdd2 40. Nc1 Rxg2 41. Rg3 f5 42. Rxg2 Rxg2 43. Nb3 Rxh2
+44. Nd4 Bd2 45. Rf3 g5 46. b5 g4 47. Rd3 Bf4 48. b6 Rb2 49. Nxe6 Bxe5 0-1
+

@@ -1,0 +1,933 @@
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.15"]
+[Round "1"]
+[White "Timman,J"]
+[Black "Palo,D"]
+[Result "1-0"]
+[WhiteElo "2607"]
+[BlackElo "2525"]
+[EventDate "2005.04.15"]
+[ECO "A38"]
+
+1. c4 c5 2. Nf3 Nc6 3. Nc3 Nf6 4. g3 g6 5. Bg2 Bg7 6. d4 cxd4 7. Nxd4 O-O
+8. O-O Ng4 9. e3 d6 10. b3 Nge5 11. Bb2 Nxd4 12. exd4 Nc6 13. d5 Ne5 14. h3
+a6 15. Qe2 Rb8 16. Rfe1 b5 17. c5 dxc5 18. Nxb5 Nf3+ 19. Bxf3 Bxb2 20. Qxb2
+axb5 21. h4 Qd6 22. Re3 Bb7 23. h5 Rfd8 24. h6 Qf6 25. Qxf6 exf6 26. Rd1
+Kf8 27. d6 Bxf3 28. Rxf3 f5 29. Rc3 Rbc8 30. Rd5 b4 31. Rcxc5 Rxc5 32. Rxc5
+Rxd6 33. Kg2 Ra6 34. Rb5 Rxa2 35. Rxb4 Ra6 36. Rb8+ Ke7 37. Rh8 Kf6 38.
+Rxh7 Ra8 39. b4 g5 40. b5 Rf8 41. Rg7 g4 42. b6 Rh8 43. b7 Rb8 44. Kf1 Re8
+45. f3 gxf3 46. g4 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.15"]
+[Round "1"]
+[White "Nakamura,H"]
+[Black "Hansen,Cu"]
+[Result "1/2-1/2"]
+[WhiteElo "2657"]
+[BlackElo "2633"]
+[EventDate "2005.04.15"]
+[ECO "D11"]
+
+1. c4 c6 2. d4 d5 3. Nf3 Nf6 4. Qc2 dxc4 5. e4 b5 6. b3 cxb3 7. axb3 e6 8.
+Bd2 a5 9. Bd3 Bb7 10. O-O Be7 11. Bc3 h6 12. Nbd2 Nbd7 13. Ra2 O-O 14. Rfa1
+b4 15. Bb2 c5 16. Nc4 a4 17. Rxa4 Rxa4 18. Rxa4 cxd4 19. Bxd4 Bc5 20. Ncd2
+Bxd4 21. Nxd4 Qb6 22. Qc4 Nc5 23. Rxb4 Qa5 24. Bf1 Ncxe4 25. Nxe4 Bxe4 26.
+Nxe6 fxe6 27. Qxe6+ Kh8 28. Rxe4 Nxe4 29. Qxe4 Qd2 30. Qe2 Qxe2 31. Bxe2
+Rb8 32. Bc4 Rd8 33. f4 Rd2 34. f5 h5 35. h4 Kh7 36. Kh2 g6 37. f6 Rf2 38.
+f7 Kg7 39. Kg3 Rf6 40. Kh3 Rf4 41. Kg3 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.15"]
+[Round "1"]
+[White "Iordachescu,V"]
+[Black "Hillarp Persson,T"]
+[Result "1-0"]
+[WhiteElo "2609"]
+[BlackElo "2533"]
+[EventDate "2005.04.15"]
+[ECO "B06"]
+
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Bc4 Nf6 5. Qe2 O-O 6. e5 Ne8 7. h3 c5 8. c3
+Nc6 9. O-O Nc7 10. Rd1 cxd4 11. cxd4 d5 12. Bb3 f6 13. Nc3 g5 14. Bc2 h6
+15. Qd3 f5 16. a3 e6 17. g3 a5 18. h4 g4 19. Ne1 b6 20. Ng2 Ba6 21. Qe3 Qe8
+22. f3 gxf3 23. Qxf3 b5 24. Nf4 Rc8 25. Be3 b4 26. axb4 axb4 27. Na4 Nb5
+28. Qf2 Rc7 29. Nc5 Bc8 30. Ba4 Nca7 31. Rdc1 Qe7 32. Ng6 Qf7 33. Nxf8 Bxf8
+34. Nd3 Rc4 35. Bb3 Rxc1+ 36. Rxc1 Bd7 37. Nf4 Nc8 38. Kh2 Nb6 39. Rg1 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.15"]
+[Round "1"]
+[White "Hermansson,E"]
+[Black "Sasikiran,K"]
+[Result "0-1"]
+[WhiteElo "2432"]
+[BlackElo "2642"]
+[EventDate "2005.04.15"]
+[ECO "C95"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3
+g6 15. b3 c6 16. Bg5 Bg7 17. Qd2 Qe7 18. Nh2 Qf8 19. Ng4 Nxg4 20. hxg4 d5
+21. Be3 Rad8 22. Rad1 Qd6 23. g5 Qc7 24. Bb1 Nf8 25. Qe2 Bc8 26. Qf3 Ne6
+27. Ne2 Bb7 28. Qg4 c5 29. exd5 Bxd5 30. Qg3 exd4 31. Qxc7 Nxc7 32. cxd4 c4
+33. bxc4 Bxc4 34. Rc1 Ne6 35. a4 Nxd4 36. Nxd4 Bxd4 37. axb5 axb5 38. Bxd4
+Rxe1+ 39. Rxe1 Rxd4 40. Re8+ Kg7 41. Be4 Rd1+ 42. Kh2 Rd6 43. Rb8 Re6 44.
+Ba8 h6 45. gxh6+ Kxh6 46. Kg3 Kg7 47. f4 Kf6 48. Kg4 Ra6 49. Be4 Ra3 50.
+Bc6 Rb3 51. Rb6 Ke7 52. Kg5 b4 53. Rb7+ Kd6 54. Be8 Rg3+ 55. Kf6 b3 56.
+Bxf7 Bxf7 57. Kxf7 Kc5 58. Kf6 Kc4 59. Rc7+ Kd4 60. Rb7 Kc3 61. Rc7+ Kd3
+62. Rb7 Kc2 63. Rc7+ Kb1 64. Rg7 b2 65. f5 Kc2 66. Rc7+ Rc3 67. Rxc3+ Kxc3
+68. Kxg6 b1=Q 69. g4 Kd4 70. Kg7 Ke5 71. f6 Qb7+ 72. Kg6 Ke6 73. g5 Qf7+
+74. Kh6 Kf5 0-1
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.15"]
+[Round "1"]
+[White "Hansen,SuB"]
+[Black "Hector,J"]
+[Result "0-1"]
+[WhiteElo "2553"]
+[BlackElo "2513"]
+[EventDate "2005.04.15"]
+[ECO "C77"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 Bc5 6. Nc3 d6 7. Bg5 h6 8.
+Bxc6+ bxc6 9. Be3 Bxe3 10. fxe3 O-O 11. O-O Nh7 12. Rf2 Qe7 13. Qd2 g6 14.
+Ne2 a5 15. Ng3 h5 16. h3 c5 17. a4 Rb8 18. b3 Rb4 19. Raf1 c6 20. Kh2 d5
+21. Qc3 h4 22. Ne2 Re8 23. Nd2 f5 24. exf5 gxf5 25. Nf3 e4 26. dxe4 Rxe4
+27. Qxa5 d4 28. Nc1 dxe3 29. Re2 Nf6 30. Nd3 c4 31. bxc4 Rxc4 32. Kg1 Qd6
+33. Qe1 Ree4 34. Ng5 Re7 35. Nf3 Nd5 36. Nxh4 Qf6 37. Nf3 f4 38. Qh4 Qxh4
+39. Nxh4 Rg7 40. Ne5 Re4 41. Nd3 Bxh3 42. c4 Rxc4 43. Ra2 Bc8 44. Rb2 Ba6
+45. Ra1 Rb7 46. Rxb7 Bxb7 47. Ne5 Re4 48. Nhf3 Nc3 49. a5 Ba6 50. Kh2 e2
+51. Nxc6 Nd1 52. Ne1 Bb7 53. Rc1 Kg7 54. Rc5 Kf6 55. Kg1 Ra4 56. Rc1 Ba8
+57. Nf3 Rxa5 58. Ncd4 Bxf3 59. Nxf3 Ra2 60. Rc6+ Kf5 61. Rc5+ Kf6 62. Rc4
+Kf5 63. Rc5+ Ke4 64. Re5+ Kd3 65. Rd5+ Kc3 66. Rc5+ Kb3 67. Rc8 Ra4 68. Ne1
+Re4 69. Rc7 Re3 70. Rf7 Kc3 71. Rd7 Rg3 72. Rd8 Re3 73. Rd7 Kb2 74. Rc7 Nc3
+75. Kf2 Ne4+ 76. Kg1 Rc3 77. Re7 Rc4 78. Kh2 Kc3 79. Rd7 Rd4 80. Rc7+ Kd2
+81. Nf3+ Ke3 82. Nxd4 Kxd4 83. Rc1 Ke3 84. Kh3 Nf2+ 85. Kh4 Nd1 86. Rc8 Kd3
+87. Rd8+ Kc4 88. Re8 Ne3 89. Rc8+ Kd5 90. Rc1 Nd1 0-1
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.16"]
+[Round "2"]
+[White "Sasikiran,K"]
+[Black "Palo,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2642"]
+[BlackElo "2525"]
+[EventDate "2005.04.15"]
+[ECO "E30"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5 c5 5. d5 d6 6. e3 exd5 7. cxd5 Nbd7 8.
+Bb5 Qa5 9. Bxd7+ Nxd7 10. Nge2 Ne5 11. O-O Bxc3 12. Nxc3 f6 13. Bf4 O-O 14.
+Ne4 Qd8 15. f3 Qe7 16. Qd2 b6 17. Bxe5 fxe5 18. b4 Bf5 19. Ng3 Bg6 20. bxc5
+bxc5 21. e4 Rfb8 22. Rfb1 Qd8 23. Nf1 Rb6 24. Ne3 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.16"]
+[Round "2"]
+[White "Hillarp Persson,T"]
+[Black "Hansen,SuB"]
+[Result "1-0"]
+[WhiteElo "2533"]
+[BlackElo "2553"]
+[EventDate "2005.04.15"]
+[ECO "E55"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 c5 6. Nf3 d5 7. O-O dxc4 8.
+Bxc4 Nbd7 9. Qe2 b6 10. a3 cxd4 11. Nb5 Be7 12. Nbxd4 Bb7 13. b4 a5 14. b5
+Qc7 15. Bb2 Rac8 16. Rac1 Qb8 17. Rfd1 Bd6 18. h3 Rfe8 19. Ba2 Bc5 20. Bb1
+Qa8 21. Nc6 Bxc6 22. bxc6 Qxc6 23. Rc4 e5 24. Ba2 Qb7 25. Rh4 Re7 26. g4 h6
+27. g5 hxg5 28. Nxg5 Rce8 29. Qc2 Qc7 30. Rxd7 Qxd7 31. Qg6 Bxe3 32. Rh7
+Bxf2+ 33. Kh2 Bg1+ 34. Kh1 Qc6+ 35. Kxg1 Qc5+ 36. Kf1 Qb5+ 37. Ke1 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.16"]
+[Round "2"]
+[White "Hansen,Cu"]
+[Black "Timman,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2633"]
+[BlackElo "2607"]
+[EventDate "2005.04.15"]
+[ECO "E00"]
+
+1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 c5 5. Bxb4 cxb4 6. Bg2 O-O 7. Nf3 d6
+8. O-O Nc6 9. a3 bxa3 10. Rxa3 e5 11. Nc3 Bg4 12. Qd2 Bxf3 13. Bxf3 Nxd4
+14. Bxb7 Rb8 15. Bg2 Nb3 16. Qc2 Nd4 17. Qd2 Nb3 18. Qd1 Nc5 19. Nb5 a6 20.
+Qxd6 axb5 21. Qxc5 bxc4 22. Qxe5 Re8 23. Qc3 Rxe2 24. Qxc4 Rexb2 25. Ra7
+Qf8 26. Rd1 R2b4 27. Qc7 Rc8 28. Qa5 Rbb8 29. Qa2 Qe8 30. Bf3 Rd8 31. Rxd8
+Rxd8 32. Kg2 h6 33. h4 Qe6 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.16"]
+[Round "2"]
+[White "Hector,J"]
+[Black "Nakamura,H"]
+[Result "0-1"]
+[WhiteElo "2513"]
+[BlackElo "2657"]
+[EventDate "2005.04.15"]
+[ECO "B01"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 c6 5. Bc4 Bf5 6. Bd2 e6 7. g4 Bg6 8.
+Qe2 Bb4 9. f4 Ne7 10. O-O-O Nd7 11. a3 Bxc3 12. Bxc3 Qc7 13. Nh3 Nb6 14. d5
+exd5 15. Bxg7 Rg8 16. Be5 Qd7 17. Bd3 Bxd3 18. Qxd3 Rxg4 19. Ng5 Qf5 20.
+Nxh7 Nd7 21. h4 Qxd3 22. Rxd3 Rg6 23. h5 Rh6 24. Ng5 f6 25. Bc3 Nf5 26. Bb4
+Nb6 27. Re1+ Kd7 28. Ne6 Rg8 29. b3 Rxh5 30. a4 Nc8 31. Nf8+ Kc7 32. c4 Rg3
+33. Ne6+ Kb8 34. Rxg3 Nxg3 35. Nc5 Rf5 36. Re8 b6 37. Ne6 dxc4 38. bxc4 c5
+39. Bd2 Rh5 40. f5 Nxf5 41. Rd8 Kb7 42. a5 Nfe7 43. Bf4 bxa5 44. Rd7+ Kb6
+45. Rc7 Rh3 46. Rxc5 a4 47. Bc7+ Ka6 48. Bd8 Re3 49. Rc6+ Kb7 50. Rc7+ Kb8
+51. Nc5 a3 52. Kb1 f5 53. Na6+ Ka8 54. c5 Nd5 55. c6 Nd6 56. Rd7 Rb3+ 57.
+Kc2 Rc3+ 58. Kb1 Rxc6 59. Nc7+ Nxc7 60. Bxc7 Nb5 61. Be5 Re6 62. Rd5 a6 63.
+Rc5 Kb7 64. Bf4 Re1+ 65. Ka2 Re2+ 66. Ka1 Kb6 67. Rc8 Nd4 68. Rc3 Kb5 69.
+Bd6 Nc2+ 70. Kb1 Re1+ 71. Kxc2 a2 0-1
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.16"]
+[Round "2"]
+[White "Hermansson,E"]
+[Black "Iordachescu,V"]
+[Result "0-1"]
+[WhiteElo "2432"]
+[BlackElo "2609"]
+[EventDate "2005.04.15"]
+[ECO "C42"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Nc6 7. O-O Be7
+8. c4 Nb4 9. Be2 Be6 10. Nc3 O-O 11. Ne5 c5 12. Nxe4 dxe4 13. d5 Qc7 14.
+Ng4 Bxg4 15. Bxg4 Nd3 16. Bd2 Bf6 17. Rb1 Bd4 18. Be3 f5 19. Be2 Bxe3 20.
+fxe3 Ne5 21. Qd2 Rf6 22. Rbd1 Qd6 23. a3 Raf8 24. b4 b6 25. bxc5 bxc5 26.
+Qa5 g5 27. g3 h5 28. Rb1 h4 29. gxh4 f4 30. hxg5 f3 31. gxf6 Ng4 32. Rf2
+Nxf2 33. Qxa7 Nh3+ 34. Kh1 Qxf6 35. Bf1 Nf2+ 36. Kg1 Ng4 37. Qc7 f2+ 38.
+Kh1 Nxe3 39. Qg3+ Qg7 40. Qxg7+ 0-1
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.17"]
+[Round "3"]
+[White "Nakamura,H"]
+[Black "Hillarp Persson,T"]
+[Result "1-0"]
+[WhiteElo "2657"]
+[BlackElo "2533"]
+[EventDate "2005.04.15"]
+[ECO "C02"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Nc6 6. a3 c4 7. g3 Bd7 8. h4
+Na5 9. Nbd2 O-O-O 10. Bh3 f5 11. exf6 gxf6 12. O-O h5 13. Re1 Nh6 14. Nh2
+Nf5 15. Bxf5 exf5 16. f4 Bd6 17. Kf2 Rde8 18. Rxe8+ Rxe8 19. Nhf1 Nb3 20.
+Nxb3 Qxb3 21. Qxb3 cxb3 22. a4 b5 23. a5 b4 24. Bd2 bxc3 25. Bxc3 a6 26.
+Rc1 Kb7 27. Ne3 Be6 28. Ke2 Rc8 29. Kd3 Rc6 30. Re1 Bf8 31. Nf1 Bd7 32. Nd2
+Re6 33. Rxe6 Bxe6 34. Nxb3 Kc6 35. Kc2 Kb5 36. Nd2 Ka4 37. Nf1 Bd6 38. Ne3
+Bc7 39. Nd1 Bxa5 40. Bxa5 Kxa5 41. Kb3 Kb6 42. Nc3 a5 43. Ka4 Bd7+ 44. Ka3
+Bc6 45. Na4+ Kb5 46. Kb3 Bb7 47. Nc3+ Kb6 48. Ka3 Bc6 49. b4 Ka6 50. Kb3
+Kb6 51. Na4+ Kb5 52. bxa5 Kxa5 53. Nc5 Be8 54. Ne6 Bf7 55. Nd8 Be8 56. Nb7+
+Kb6 57. Nd6 Bd7 58. Kb4 Kc6 59. Nb5 Kb6 60. Nc3 Bc6 61. Nb1 Bd7 62. Nd2 Bb5
+63. Nb3 Bd7 64. Nc5 Be8 65. Ne6 Bf7 66. Nf8 Kc6 67. Nh7 Kd6 68. Nxf6 Bg6
+69. Ng8 Bf7 70. Nf6 Bg6 71. Ng8 Bf7 72. Nh6 Be6 73. Kb5 Bd7+ 74. Ka5 Be6
+75. Kb6 Kd7 76. Kc5 Kc7 77. Nxf5 Bxf5 78. Kxd5 Kd7 79. Ke5 Bg4 80. Kf6 Kd6
+81. f5 Kd7 82. Kg6 Bf3 83. d5 Bxd5 84. Kxh5 Ke7 85. Kg5 Kf7 86. g4 Bf3 87.
+h5 Kg7 88. Kh4 Bd1 89. g5 Bc2 90. h6+ Kh7 91. Kg4 Bb1 92. Kf4 Bc2 93. Ke5
+Bd3 94. Ke6 Bc4+ 95. Ke7 Bb3 96. f6 Kg6 97. f7 Bxf7 98. h7 Kxh7 99. Kxf7
+Kh8 100. Kg6 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.17"]
+[Round "3"]
+[White "Iordachescu,V"]
+[Black "Sasikiran,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2609"]
+[BlackElo "2642"]
+[EventDate "2005.04.15"]
+[ECO "C95"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3
+g6 15. a4 Bg7 16. Bd3 c6 17. Bg5 Nf8 18. Be3 Qc7 19. dxe5 dxe5 20. c4 bxa4
+21. c5 Ne6 22. Qxa4 Nd7 23. Qa5 Qxa5 24. Rxa5 Bf6 25. b4 Bd8 26. Ra3 a5 27.
+Rea1 Bc7 28. bxa5 Ba6 29. Rc1 Red8 30. Ne1 Bxd3 31. Nxd3 Rxa5 32. Rxa5
+1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.17"]
+[Round "3"]
+[White "Timman,J"]
+[Black "Hector,J"]
+[Result "1-0"]
+[WhiteElo "2607"]
+[BlackElo "2513"]
+[EventDate "2005.04.15"]
+[ECO "A29"]
+
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 Nd4 5. Bg2 Nxf3+ 6. Bxf3 Bb4 7. Qb3
+Bc5 8. d3 O-O 9. Bg5 c6 10. O-O h6 11. Bxf6 Qxf6 12. Ne4 Qe7 13. Nxc5 Qxc5
+14. Qc3 a5 15. a3 a4 16. Rfc1 Qe7 17. c5 d5 18. cxd6 Qxd6 19. Qb4 Qc7 20.
+Rc5 Be6 21. Rac1 Rfd8 22. Rb5 Rd7 23. h4 Bb3 24. Rb6 Rf8 25. Qc5 f5 26. Rb4
+Rf6 27. Bg2 Re7 28. Qb6 Qd7 29. Qa7 Rff7 30. Qc5 Qe6 31. Qe3 Qf6 32. Qf3 e4
+33. dxe4 Qxb2 34. Rd1 Qxa3 35. Rd8+ Kh7 36. Rbd4 Qa1+ 37. Kh2 Bd5 38. Qd3
+fxe4 39. Rxe4 Bxe4 40. Bxe4+ Rxe4 41. Qxe4+ g6 42. f4 Qf6 43. h5 Re7 44.
+hxg6+ Kg7 45. Qd3 Rxe2+ 46. Kh3 Re7 47. f5 a3 48. Ra8 Qe5 49. Qf3 Qf6 50.
+Qd3 Qe5 51. Qf3 Qf6 52. Rxa3 Re5 53. g4 h5 54. Re3 hxg4+ 55. Kxg4 Rd5 56.
+Qf4 Qd8 57. Re4 c5 58. Qg5 Qxg5+ 59. Kxg5 b5 60. Re7+ Kf8 61. g7+ 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.17"]
+[Round "3"]
+[White "Palo,D"]
+[Black "Hansen,Cu"]
+[Result "0-1"]
+[WhiteElo "2525"]
+[BlackElo "2633"]
+[EventDate "2005.04.15"]
+[ECO "E21"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb4 5. Bg5 h6 6. Bh4 Bxc3+ 7. bxc3 d6
+8. Nd2 Nbd7 9. e4 e5 10. Bd3 Nf8 11. Nf3 Ng6 12. Bg3 Qe7 13. Nh4 Nxh4 14.
+Bxh4 g5 15. Bg3 Bb7 16. f3 Nh5 17. Qa4+ Qd7 18. Qxd7+ Kxd7 19. O-O-O f6 20.
+c5 Ke7 21. cxd6+ cxd6 22. Rd2 Rac8 23. Kb2 Nxg3 24. hxg3 h5 25. f4 exf4 26.
+gxf4 gxf4 27. Rh4 Rcg8 28. Rxf4 Rg4 29. Rdf2 Rxf4 30. Rxf4 Rg8 31. Bf1 Rg4
+32. Rf5 h4 33. e5 fxe5 34. dxe5 Bxg2 35. exd6+ Kxd6 36. Bxg2 Rxg2+ 37. Kb3
+h3 38. Rh5 h2 39. a4 a5 40. Kc4 Rd2 41. Rh4 Ke6 42. Kb5 Rb2+ 43. Ka6 Kf5
+44. c4 Kg5 45. Rh8 Kg4 46. Rh6 Kg5 47. Rh8 Kf4 48. Rh6 Kg3 49. Rg6+ Kf2 50.
+Rh6 Kg1 51. Rg6+ Rg2 52. Rxb6 Rg5 53. Rh6 h1=Q 54. Rxh1+ Kxh1 55. Kb6 Kg2
+56. c5 Kf3 57. c6 Ke4 58. c7 Rg8 59. Kxa5 Kd5 60. Kb6 Kd6 61. a5 Kd7 62.
+Kb7 Rc8 63. a6 Rxc7+ 0-1
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.17"]
+[Round "3"]
+[White "Hansen,SuB"]
+[Black "Hermansson,E"]
+[Result "1-0"]
+[WhiteElo "2553"]
+[BlackElo "2432"]
+[EventDate "2005.04.15"]
+[ECO "E54"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 e6 6. Nf3 Bb4 7. Bd3 dxc4
+8. Bxc4 O-O 9. O-O b6 10. Bg5 Bb7 11. Ne5 Bxc3 12. bxc3 Nbd7 13. Qe2 Qc7
+14. Nxd7 Nxd7 15. Rac1 Rfe8 16. Bb3 Qc6 17. Qg4 h6 18. Be3 Nf6 19. Qh3 Qe4
+20. Bd1 Qg6 21. c4 Rac8 22. Be2 Bc6 23. Rfe1 Red8 24. Red1 Rb8 25. Bf4 Rb7
+26. f3 b5 27. Be5 bxc4 28. Bxc4 Ba4 29. Re1 Rb4 30. a3 Rb7 31. Qh4 Rc8 32.
+Bd3 Qxd3 33. Rxc8+ Ne8 34. Qg4 g5 35. Qe4 Qd2 36. Qe3 Qa2 37. d5 Qxd5 38.
+h4 Bd7 39. Rc5 Qb3 40. Rc3 Qb6 41. Bd4 Qa5 42. Rc5 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.18"]
+[Round "4"]
+[White "Hillarp Persson,T"]
+[Black "Timman,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2533"]
+[BlackElo "2607"]
+[EventDate "2005.04.15"]
+[ECO "E44"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Nge2 Ne4 6. Bd2 Nxd2 7. Qxd2 O-O
+8. a3 Be7 9. Nf4 c6 10. g3 d5 11. cxd5 cxd5 12. Rc1 Nd7 13. Bg2 Ba6 14. Nd3
+Rc8 15. O-O Bd6 16. Rfd1 Qe7 17. a4 Bc4 18. Nb5 a5 19. Na7 Rc7 20. Nb5 Rcc8
+21. Na7 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.18"]
+[Round "4"]
+[White "Sasikiran,K"]
+[Black "Hansen,Cu"]
+[Result "1-0"]
+[WhiteElo "2642"]
+[BlackElo "2633"]
+[EventDate "2005.04.15"]
+[ECO "D36"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 c6 6. Qc2 Be7 7. e3 Nbd7
+8. Bd3 O-O 9. Nge2 Re8 10. O-O Nf8 11. f3 Ng6 12. Rad1 Be6 13. h3 Rc8 14.
+a3 b6 15. e4 dxe4 16. fxe4 Qc7 17. e5 Nd5 18. Bxe7 Qxe7 19. Nxd5 cxd5 20.
+Qd2 Rf8 21. Qe3 Qh4 22. Rf3 Rce8 23. Rdf1 f6 24. exf6 Rxf6 25. Rxf6 gxf6
+26. Qg3 Qg5 27. Kh2 Qxg3+ 28. Nxg3 Rf8 29. Nh5 f5 30. Kg3 Ne7 31. Rc1 Rc8
+32. Rxc8+ Bxc8 33. Kf4 Kf7 34. Ke5 Nc6+ 35. Kxd5 Bb7 36. Nf4 Kf6 37. Kc4
+Kg5 38. g3 h5 39. d5 Na5+ 40. Kd4 h4 41. Ne2 hxg3 42. Nxg3 Kf4 43. Ne2+ Kf3
+44. Nc1 Bc8 45. b4 Nb7 46. Ke5 f4 47. Ne2 Bxh3 48. Nxf4 Bd7 49. Ne6 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.18"]
+[Round "4"]
+[White "Hermansson,E"]
+[Black "Nakamura,H"]
+[Result "1/2-1/2"]
+[WhiteElo "2432"]
+[BlackElo "2657"]
+[EventDate "2005.04.15"]
+[ECO "B42"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Nf6 6. O-O Qc7 7. Qe2 d6 8.
+c4 g6 9. Nc3 Bg7 10. Nf3 Nc6 11. h3 O-O 12. Bf4 Nd7 13. Rac1 Nde5 14. Rfd1
+b6 15. Qe3 Rb8 16. Be2 Qe7 17. Bg5 f6 18. Bh6 Nxf3+ 19. Bxf3 e5 20. Bxg7
+Kxg7 21. Nd5 Qd8 22. Bg4 Bb7 23. Qxb6 h5 24. Qxd8 Rfxd8 25. Be2 Nd4 26. Rd2
+Rdc8 27. Rc3 a5 28. f3 Bxd5 29. exd5 h4 30. Kf2 g5 31. Ra3 Rc5 32. Bd3 f5
+33. Ke3 Kf6 34. Rc3 Ke7 35. b3 Rbc8 36. a3 Rxd5 37. b4 axb4 38. axb4 Rb5
+39. Rb2 Rb6 40. Ra3 Kf6 41. b5 Ne6 42. Ra7 d5 43. cxd5 Nf4 44. Bf1 Nxd5+
+45. Kf2 e4 46. fxe4 fxe4 47. g3 Ke5 48. gxh4 Rf6+ 49. Kg1 Rc1 50. Rf2 Rxf2
+51. Kxf2 e3+ 52. Ke2 gxh4 53. b6 Nf4+ 54. Kxe3 Rxf1 55. Re7+ Kf6 56. Re4
+Kf5 57. Rb4 Re1+ 58. Kf3 Rf1+ 59. Ke3 Nd5+ 60. Ke2 Nxb4 61. Kxf1 Kf4 62. b7
+Nc6 63. Kf2 Nb8 64. Kg2 Ke3 65. Kg1 Kf3 66. Kh2 Kf2 67. Kh1 Kg3 68. Kg1
+Kxh3 69. Kh1 Kg3 70. Kg1 Nc6 71. Kh1 h3 72. Kg1 h2+ 73. Kh1 Kh3 74. b8=Q
+Nxb8 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.18"]
+[Round "4"]
+[White "Iordachescu,V"]
+[Black "Hansen,SuB"]
+[Result "1/2-1/2"]
+[WhiteElo "2609"]
+[BlackElo "2553"]
+[EventDate "2005.04.15"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8.
+f4 exf4 9. Bxf4 Nc6 10. Qd2 d5 11. O-O-O Nxe4 12. Nxe4 dxe4 13. Qe3 Qf6 14.
+Qxe4 Be7 15. Bd3 Nb4 16. Nd4 Bd5 17. Qf5 Nxd3+ 18. Rxd3 O-O 19. Kb1 Bc4 20.
+Rg3 g6 21. Be5 Qxf5 22. Nxf5 Rfe8 23. Nxe7+ Rxe7 24. Bc3 Rae8 25. b3 Bb5
+26. Rd1 Re2 27. Kc1 Bc6 28. Rd2 Re1+ 29. Rd1 R1e2 30. Rd2 Re1+ 31. Rd1
+1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.18"]
+[Round "4"]
+[White "Hector,J"]
+[Black "Palo,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2513"]
+[BlackElo "2525"]
+[EventDate "2005.04.15"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. f3 g6 4. e5 h5 5. c3 Bf5 6. Be3 e6 7. Nd2 Qb6 8. b4
+Bh6 9. Bxh6 Nxh6 10. Be2 a5 11. a3 Nd7 12. Nb3 axb4 13. axb4 O-O 14. h3 h4
+15. Qc1 Kg7 16. f4 Be4 17. Nf3 Nf5 18. Kf2 Ng3 19. Re1 Rxa1 20. Qxa1 Nxe2
+21. Rxe2 Bxf3 22. gxf3 Qb5 23. Nc1 b6 24. Rb2 Qc4 25. Ne2 f6 26. Qa7 Rf7
+27. exf6+ Nxf6 28. Qxb6 Qd3 29. Ra2 Nh5 30. Qb8 Ng3 31. Qe5+ Kh7 32. Qxe6
+Rg7 33. Qf6 Nf5 34. Qxc6 Re7 35. Qxd5 Qb1 36. Ra8 Rxe2+ 37. Kxe2 Qc2+ 38.
+Ke1 Qc1+ 39. Ke2 Qc2+ 40. Ke1 Qc1+ 41. Ke2 Qc2+ 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.20"]
+[Round "5"]
+[White "Nakamura,H"]
+[Black "Iordachescu,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2657"]
+[BlackElo "2609"]
+[EventDate "2005.04.15"]
+[ECO "D31"]
+
+1. c4 e6 2. Nc3 d5 3. d4 Be7 4. cxd5 exd5 5. Nf3 Nf6 6. Bg5 O-O 7. e3 Nbd7
+8. Bd3 Re8 9. Qc2 Nf8 10. O-O c6 11. a3 a5 12. Rab1 Bd6 13. Bh4 Bg4 14. Nd2
+Bh5 15. Bg3 Bg6 16. b4 Re7 17. Ne2 Bxg3 18. Nxg3 Qd6 19. Rfc1 Ne6 20. Nf3
+axb4 21. axb4 Nc7 22. Ne5 Bxd3 23. Nxd3 g6 24. Ra1 Rb8 25. Ra2 Kg7 26. Rca1
+h5 27. Nf1 Ne4 28. Nd2 h4 29. h3 g5 30. Nf3 f6 31. Nc5 Qd8 32. Nd2 Nd6 33.
+Re1 Qe8 34. Qd3 Qh5 35. f3 Rbe8 36. Nf1 Qg6 37. Qxg6+ Kxg6 38. Kf2 Ncb5 39.
+Rea1 Nc3 40. Ra3 Ncb5 41. Ra8 b6 42. Rxe8 Rxe8 43. Nb3 Nc4 44. Ke2 f5 45.
+Kd3 Nb2+ 46. Kc2 Nc4 47. Kd3 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.20"]
+[Round "5"]
+[White "Hansen,SuB"]
+[Black "Sasikiran,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2553"]
+[BlackElo "2642"]
+[EventDate "2005.04.15"]
+[ECO "C99"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 Nc6 14. a3
+Bd7 15. d5 Na5 16. Nf1 Nh5 17. Bd3 g6 18. Bh6 Rfc8 19. Rc1 Qd8 20. b4 Rxc1
+21. Bxc1 Nc4 22. N1d2 Rc8 23. a4 Qe8 24. axb5 Bxb5 25. Nxc4 Bxc4 26. Bc2
+Bb5 27. Bd2 Nf4 28. Bxf4 exf4 29. Bd3 Bf6 30. Bxb5 Qxb5 31. Nd4 Qxb4 32.
+Nc6 Qc3 33. Re2 Kg7 34. Ra2 Rc7 35. Qb1 Qc4 36. Ra5 h5 37. Kh2 Rc8 38. f3
+Rf8 39. Qb7 Bh4 40. Qb2+ Bf6 41. Qa3 Bh4 42. Qa1+ Bf6 43. Qa3 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.20"]
+[Round "5"]
+[White "Hansen,Cu"]
+[Black "Hector,J"]
+[Result "1-0"]
+[WhiteElo "2633"]
+[BlackElo "2513"]
+[EventDate "2005.04.15"]
+[ECO "D30"]
+
+1. c4 e6 2. d4 d5 3. Nf3 c6 4. e3 Nf6 5. Nbd2 c5 6. dxc5 Bxc5 7. a3 a5 8.
+b3 Nc6 9. Bb2 O-O 10. Bd3 Qe7 11. O-O Rd8 12. Qc2 Kh8 13. cxd5 Rxd5 14. Ne4
+Nxe4 15. Bxe4 Rh5 16. Rfd1 Ra6 17. g4 Rh6 18. Rac1 Bd6 19. Qd3 e5 20. Bxe5
+Na7 21. Qd4 Qf8 22. g5 Re6 23. Bd5 Rg6 24. Bxd6 Rgxd6 25. Qf4 Be6 26. Bxe6
+Rxd1+ 27. Rxd1 Rxe6 28. Rd7 Kg8 29. Nd4 Re8 30. Rxb7 Nc8 31. Nf5 Qxa3 32.
+Nh6+ Kh8 33. Nxf7+ Kg8 34. Qc4 Kf8 35. Nh6 Qa1+ 36. Kg2 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.20"]
+[Round "5"]
+[White "Palo,D"]
+[Black "Hillarp Persson,T"]
+[Result "1-0"]
+[WhiteElo "2525"]
+[BlackElo "2533"]
+[EventDate "2005.04.15"]
+[ECO "A40"]
+
+1. d4 e6 2. c4 Bb4+ 3. Bd2 a5 4. Nf3 d6 5. Nc3 f5 6. g3 Nf6 7. Bg2 Qe7 8.
+O-O O-O 9. Qc2 Kh8 10. Rac1 Nbd7 11. Rfd1 c6 12. a3 Bxc3 13. Bxc3 Ne4 14.
+b4 axb4 15. axb4 d5 16. Be1 Nd6 17. c5 Nb5 18. e3 e5 19. dxe5 Nxe5 20. Nd4
+Nxd4 21. Rxd4 Bd7 22. Bc3 Kg8 23. Rdd1 Be8 24. Qe2 Bg6 25. Ra1 Rae8 26. Ra7
+Qf7 27. Bxe5 Rxe5 28. Qb2 Re7 29. Rd4 Qe8 30. h4 Bh5 31. b5 h6 32. bxc6
+bxc6 33. Rxe7 Qxe7 34. Qb6 Qf6 35. Kh2 g5 36. hxg5 hxg5 37. Ra4 Be8 38. Bf3
+f4 39. exf4 Qh6+ 40. Kg2 gxf4 41. Bxd5+ Kh8 42. g4 f3+ 43. Bxf3 Qc1 44. Qb4
+1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.20"]
+[Round "5"]
+[White "Timman,J"]
+[Black "Hermansson,E"]
+[Result "1-0"]
+[WhiteElo "2607"]
+[BlackElo "2432"]
+[EventDate "2005.04.15"]
+[ECO "A30"]
+
+1. c4 c5 2. Nf3 Nc6 3. Nc3 e5 4. g3 g6 5. Bg2 Bg7 6. O-O d6 7. d3 Nge7 8.
+a3 a5 9. Bg5 f6 10. Bd2 O-O 11. Ne1 Be6 12. Nc2 d5 13. cxd5 Nxd5 14. Ne3
+Nde7 15. Rb1 Qc7 16. Ned5 Nxd5 17. Bxd5 Bxd5 18. Nxd5 Qf7 19. e4 Ne7 20.
+Nxe7+ Qxe7 21. Qb3+ Rf7 22. Rbc1 Qd6 23. Be3 b6 24. Qc4 Bf8 25. f4 Raa7 26.
+f5 g5 27. Rc3 a4 28. b3 Qd7 29. Qe6 Kg7 30. Qxb6 Rb7 31. Qe6 axb3 32. Qxd7
+Rfxd7 33. Rb1 b2 34. Kf2 Rb5 35. Ke2 Ra7 36. Kd2 Rba5 37. Rxb2 Rxa3 38.
+Bxc5 Bxc5 39. Rxc5 Ra2 40. Rc7+ Kh6 41. Rxa2 Rxa2+ 42. Ke3 g4 43. Rf7 Rxh2
+44. Rxf6+ Kg5 45. Rf7 h5 46. Rg7+ Kf6 47. Rg6+ Kf7 48. d4 exd4+ 49. Kxd4
+Rh3 50. e5 Rxg3 51. e6+ Ke7 52. Rg7+ Kd6 53. e7 Kd7 54. f6 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.21"]
+[Round "6"]
+[White "Hansen,SuB"]
+[Black "Nakamura,H"]
+[Result "0-1"]
+[WhiteElo "2553"]
+[BlackElo "2657"]
+[EventDate "2005.04.15"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. a4 e5 7. Nf3 Qc7 8.
+Bg5 Nbd7 9. Nd2 h6 10. Bh4 g5 11. Bg3 Nc5 12. a5 Be6 13. h4 Bg7 14. Ra3 Rd8
+15. Qe2 d5 16. f3 d4 17. Nd1 Nh5 18. Qf2 Bf6 19. hxg5 Nxg3 20. Qxg3 Bxg5
+21. Qh2 Ke7 22. Nc4 d3 23. cxd3 Bxc4 24. dxc4 Bd2+ 25. Ke2 Ne6 26. g3 Qxc4+
+27. Kf2 Qc5+ 28. Ne3 Bxe3+ 29. Rxe3 Rd2+ 30. Be2 Rxb2 31. Rd1 Rb3 32. Qh4+
+f6 33. Rdd3 Rxd3 34. Bxd3 Qxa5 0-1
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.21"]
+[Round "6"]
+[White "Iordachescu,V"]
+[Black "Timman,J"]
+[Result "0-1"]
+[WhiteElo "2609"]
+[BlackElo "2607"]
+[EventDate "2005.04.15"]
+[ECO "B07"]
+
+1. e4 d6 2. d4 Nf6 3. Bd3 e5 4. c3 d5 5. dxe5 Nxe4 6. Nf3 Nc6 7. Nbd2 Nc5
+8. Bb1 Bg4 9. O-O Be7 10. b4 Ne6 11. Qa4 Bh5 12. b5 Nc5 13. Qf4 Ne6 14. Qg3
+Na5 15. Nd4 Nxd4 16. cxd4 Qd7 17. a4 O-O 18. f4 f5 19. Qh3 Bg6 20. Qc3 b6
+21. Ba3 Rac8 22. Bxe7 Qxe7 23. Ba2 Bf7 24. Rfc1 Be6 25. Nf1 c5 26. Ne3 Rfd8
+27. dxc5 Qxc5 28. Qe1 Nc4 29. Rc3 Qd4 30. Bxc4 dxc4 31. g3 Qe4 32. Rd1 h6
+33. Kf2 g5 34. fxg5 hxg5 35. Rxd8+ Rxd8 36. Nxc4 Qxe1+ 0-1
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.21"]
+[Round "6"]
+[White "Hillarp Persson,T"]
+[Black "Hansen,Cu"]
+[Result "0-1"]
+[WhiteElo "2533"]
+[BlackElo "2633"]
+[EventDate "2005.04.15"]
+[ECO "E45"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Nge2 Ba6 6. a3 Be7 7. Nf4 d5 8.
+cxd5 Bxf1 9. Kxf1 exd5 10. g4 g5 11. Nd3 h5 12. gxh5 Rxh5 13. Qf3 Qd7 14.
+Ne5 g4 15. Qxf6 Bxf6 16. Nxd7 Nxd7 17. Rg1 c6 18. Rxg4 Rxh2 19. Rg8+ Nf8
+20. Ke2 Bh4 21. Nd1 O-O-O 22. Bd2 Ne6 23. Rxd8+ Kxd8 24. a4 Kd7 25. a5 b5
+26. a6 f5 27. Kf1 Bd8 28. Kg1 Bc7 29. Ba5 Ng5 30. Bxc7 Nf3+ 31. Kf1 Kxc7
+32. Ke2 Ng5 33. b4 Kb6 34. Nb2 f4 35. exf4 Ne6 36. Ke3 Rh3+ 37. f3 Ng7 38.
+Nd3 Nf5+ 39. Kf2 Rh2+ 40. Kg1 Rd2 41. Ne5 Nxd4 42. Kf1 Rc2 43. Ra3 Nf5 44.
+Ke1 d4 45. Kd1 Rb2 46. Nd3 Ne3+ 47. Kc1 Rh2 48. Ne5 Rh1+ 49. Kb2 Nc4+ 50.
+Nxc4+ bxc4 51. Ra5 d3 52. Kc3 Rc1+ 53. Kd2 Rc2+ 54. Kd1 Rb2 0-1
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.21"]
+[Round "6"]
+[White "Hermansson,E"]
+[Black "Palo,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2432"]
+[BlackElo "2525"]
+[EventDate "2005.04.15"]
+[ECO "B06"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. Qd2 b5 6. a4 b4 7. Nd1 a5 8. f3
+Nf6 9. Bd3 O-O 10. c3 bxc3 11. bxc3 c5 12. Ne2 cxd4 13. cxd4 Nc6 14. Bb5
+Nb4 15. Nf2 d5 16. O-O Ba6 17. Nc3 Nd7 18. Bh6 Bxb5 19. Nxb5 Qb6 20. Kh1
+Rac8 21. Bxg7 Kxg7 22. Ng4 Nf6 23. Qh6+ Kg8 24. Nf2 dxe4 25. fxe4 Rc2 26.
+Qh4 h5 27. Qf4 Qe6 28. d5 Qd7 29. Rad1 Rc4 30. d6 Nh7 31. dxe7 Qxe7 32. Nd6
+Rc5 33. Nh3 Qe5 34. Qf2 Rc7 35. Nb5 Re7 36. Qb6 Qxe4 37. Qxa5 Nc2 38. Nc3
+Qc4 39. Nd5 Rd7 40. Ng5 Rxd5 41. Qxd5 Qxd5 42. Rxd5 Ne3 43. Nxh7 Kxh7 44.
+Rdd1 Kg7 45. Kg1 Ra8 46. Ra1 Nxf1 47. Kxf1 Ra5 48. Ke2 Kf6 49. Kd3 Ke6 50.
+Kc4 Kd6 51. Kb4 Rf5 52. a5 Kc7 53. a6 Kb8 54. a7+ Ka8 55. Ra2 Rd5 56. Kc4
+Rd1 57. Kc5 h4 58. h3 Rd3 59. Kc4 Rg3 60. Kd5 g5 61. Ke4 g4 62. hxg4 Rxg4+
+63. Kf3 Rg3+ 64. Kf2 Rb3 65. Ra4 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.21"]
+[Round "6"]
+[White "Sasikiran,K"]
+[Black "Hector,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2642"]
+[BlackElo "2513"]
+[EventDate "2005.04.15"]
+[ECO "D12"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 Bf5 5. e3 e6 6. Nh4 Be4 7. f3 Bg6 8.
+Qb3 Qb6 9. Nxg6 hxg6 10. Bd2 Bd6 11. O-O-O Qxb3 12. axb3 Nbd7 13. h3 a6 14.
+Kb1 O-O-O 15. g4 Bc7 16. Bg2 Ne8 17. cxd5 cxd5 18. e4 dxe4 19. fxe4 e5 20.
+Nd5 exd4 21. Rhf1 Ne5 22. Bf4 f6 23. Rxd4 Nc6 24. Rc4 g5 25. Bxc7 Nxc7 26.
+Rfc1 Rd6 27. Ne7+ Kd7 28. e5 fxe5 29. Nf5 Rf6 30. Rd1+ Nd4 31. Nxd4 exd4
+32. Rcxd4+ Kc8 33. Rd7 Rg8 34. Be4 Kb8 35. Rd8+ Rxd8 36. Rxd8+ Ka7 37. Rd7
+Kb6 38. Rxg7 Re6 39. Bf5 Re1+ 40. Kc2 Re2+ 41. Kc1 Rh2 42. Rg6+ Kc5 43. Be4
+b5 44. Bb7 Kb4 45. Rxg5 Rxh3 46. Re5 Rg3 47. Kc2 Ka5 48. g5 Kb6 49. Be4 b4
+50. g6 Nb5 51. Rd5 Kc7 52. Rd2 a5 53. Rg2 Nd4+ 54. Kd1 Rxg2 55. Bxg2 Ne6
+56. Kd2 Kd6 57. Kd3 Nf4+ 58. Kc4 Nxg6 59. Kb5 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.22"]
+[Round "7"]
+[White "Timman,J"]
+[Black "Hansen,SuB"]
+[Result "1/2-1/2"]
+[WhiteElo "2607"]
+[BlackElo "2553"]
+[EventDate "2005.04.15"]
+[ECO "C67"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5
+Nf5 8. Qxd8+ Kxd8 9. Nc3 Ne7 10. h3 h6 11. Re1 Bd7 12. Ne4 b6 13. Bf4 Kc8
+14. Rad1 c5 15. g4 Be6 16. Bg3 Kb7 17. Nc3 a5 18. a3 g5 19. Rd2 Bg7 20.
+Red1 Rae8 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.22"]
+[Round "7"]
+[White "Palo,D"]
+[Black "Iordachescu,V"]
+[Result "1-0"]
+[WhiteElo "2525"]
+[BlackElo "2609"]
+[EventDate "2005.04.15"]
+[ECO "D37"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. c5 c6 8.
+h3 b6 9. b4 a5 10. a3 Ne4 11. Nxe4 dxe4 12. Ne5 Nxe5 13. Bxe5 f6 14. Bg3
+Qd5 15. Be2 Ba6 16. O-O axb4 17. axb4 Bxe2 18. Qxe2 b5 19. Rfb1 Rfc8 20.
+Qd1 Kf7 21. Rxa8 Rxa8 22. Ra1 Rxa1 23. Qxa1 h6 24. Qa7 e5 25. dxe5 fxe5 26.
+Qc7 Ke6 27. Qc8+ Kf7 28. Qf5+ Bf6 29. Bh4 g5 30. Bg3 Kg7 31. h4 Qd1+ 32.
+Kh2 Qd5 33. Kg1 Qd1+ 34. Kh2 Qd5 35. Kh3 Kf7 36. Qh7+ Bg7 37. Qf5+ Bf6 38.
+Qh7+ Bg7 39. hxg5 hxg5 40. Kg4 Qd1+ 41. Kxg5 Qd8+ 42. Kg4 Qd1+ 43. Kh3 Qh1+
+44. Bh2 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.22"]
+[Round "7"]
+[White "Hansen,Cu"]
+[Black "Hermansson,E"]
+[Result "1/2-1/2"]
+[WhiteElo "2633"]
+[BlackElo "2432"]
+[EventDate "2005.04.15"]
+[ECO "A30"]
+
+1. c4 c5 2. Nf3 Nc6 3. Nc3 e5 4. d3 g6 5. a3 Bg7 6. b4 d6 7. Rb1 Nge7 8. g3
+O-O 9. Bg2 cxb4 10. axb4 d5 11. Nxd5 Nxd5 12. cxd5 Qxd5 13. O-O Qb5 14. Nd2
+Nxb4 15. Nc4 a5 16. Bd2 Rd8 17. Nxa5 Qxa5 18. Bxb4 Qa2 19. Ra1 Qxa1 20.
+Qxa1 Rxa1 21. Rxa1 e4 22. Ra8 exd3 23. exd3 Bf6 24. Ba5 Rf8 25. Bb4 Rd8 26.
+Ba5 Rf8 27. Bb4 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.22"]
+[Round "7"]
+[White "Hector,J"]
+[Black "Hillarp Persson,T"]
+[Result "1-0"]
+[WhiteElo "2513"]
+[BlackElo "2533"]
+[EventDate "2005.04.15"]
+[ECO "C10"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bd7 5. Be3 Bc6 6. f3 Nd7 7. Bd3 Ngf6
+8. Nh3 Bxe4 9. fxe4 c5 10. e5 Nd5 11. Bf2 cxd4 12. O-O Nxe5 13. Bb5+ Nc6
+14. Bxd4 Nf6 15. Bxc6+ bxc6 16. Bxf6 gxf6 17. Qf3 Qb6+ 18. Kh1 Be7 19. Nf4
+Rd8 20. Rae1 c5 21. b3 h5 22. Nxh5 Qc7 23. h3 Rd2 24. Rd1 Rxd1 25. Rxd1 Rh6
+26. Qa8+ Bd8 27. Ng3 f5 28. Ne2 Rh4 29. a4 Rb4 30. Qf3 Qb7 31. Qg3 Be7 32.
+Rd2 Re4 33. Nc3 Rd4 34. Qg8+ Kd7 35. Re2 Rh4 36. Qxf7 Rxh3+ 37. Kg1 Rh6 38.
+Rd2+ Kc6 39. Qe8+ 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.22"]
+[Round "7"]
+[White "Nakamura,H"]
+[Black "Sasikiran,K"]
+[Result "0-1"]
+[WhiteElo "2657"]
+[BlackElo "2642"]
+[EventDate "2005.04.15"]
+[ECO "C20"]
+
+1. e4 e5 2. Qh5 Nc6 3. Bc4 g6 4. Qf3 Nf6 5. Ne2 Bg7 6. Nbc3 d6 7. d3 Bg4 8.
+Qg3 Qd7 9. f3 Be6 10. Bg5 Nh5 11. Qh4 h6 12. Be3 Na5 13. Bb3 Nxb3 14. axb3
+a6 15. d4 Qe7 16. Qf2 exd4 17. Bxd4 Nf6 18. O-O-O O-O-O 19. Nf4 Rhg8 20.
+Rhe1 Kb8 21. Kb1 g5 22. Nfe2 Rge8 23. g4 Qf8 24. Ng3 Nd7 25. Be3 Qh8 26.
+Nge2 Be5 27. h4 Qg7 28. Rh1 Nf6 29. Bd4 Nd7 30. Qe3 Qf6 31. hxg5 hxg5 32.
+Bxe5 Qxe5 33. Rh5 Rg8 34. Nd5 Rde8 35. Qc1 Qg7 36. Ne3 Nf6 37. Rh2 Rh8 38.
+Rg2 Nd7 39. Nd4 Rh3 40. c4 Qf6 41. Rf2 Reh8 42. b4 Qe5 43. c5 dxc5 44. bxc5
+Nxc5 45. Qc3 f6 46. Rc2 Na4 47. Qb4 Bd7 48. Nb3 Rh1 49. Rxh1 Rxh1+ 50. Ka2
+Nb6 51. Qf8+ Qe8 52. Qxe8+ Bxe8 53. Nc5 Nd7 54. Nxd7+ Bxd7 55. Kb3 Re1 56.
+Rc3 Be6+ 57. Kc2 Re2+ 58. Kc1 a5 59. Nc2 Rf2 60. Nd4 Bd7 61. Rc5 b6 62. Rd5
+Kc8 63. e5 fxe5 64. Rxe5 c5 65. Nb3 Rf1+ 66. Kd2 a4 67. Nxc5 bxc5 68. Rxc5+
+Kb7 69. Rxg5 Rxf3 70. Rd5 Be6 71. Rd3 Rf1 72. Rg3 Rf2+ 73. Kc3 Kb6 74. Kb4
+Rf4+ 75. Ka3 Kb5 76. Re3 Bd5 77. Rd3 Bc4 78. Re3 Rd4 79. g5 Rd1 80. b3 axb3
+81. Re8 Ra1+ 82. Kb2 Ra2+ 83. Kc3 Rc2+ 84. Kd4 b2 85. Rb8+ Ka4 86. g6 Bb5
+87. g7 b1=Q 0-1
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.23"]
+[Round "8"]
+[White "Nakamura,H"]
+[Black "Timman,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2657"]
+[BlackElo "2607"]
+[EventDate "2005.04.15"]
+[ECO "C02"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 c4 7. Nbd2 Bd7 8. Be2
+Na5 9. Rb1 Ne7 10. O-O h6 11. Re1 O-O-O 12. Qc2 Kb8 13. Nf1 Qb3 14. Bd1
+Qxc2 15. Bxc2 Nc8 16. a4 Nb6 17. Ra1 Rc8 18. N3d2 Be7 19. f4 g6 20. Ne3 h5
+21. g3 Rhg8 22. h3 Rc6 23. g4 Rh8 24. Nf3 Rcc8 25. Ra2 hxg4 26. hxg4 Rh3
+27. Kg2 Rch8 28. Nf1 Nb3 29. a5 Nxc1 30. Rxc1 Nc8 31. Ng3 a6 32. Raa1 Na7
+33. Rh1 Rxh1 34. Nxh1 Nc6 35. Nf2 Kc8 36. Nh3 Kd8 37. Nhg5 Ke8 38. Kg3 Bd8
+39. Ba4 Nb8 40. b3 cxb3 41. Bxb3 Bc6 42. f5 gxf5 43. gxf5 exf5 44. c4 dxc4
+45. Bxc4 Bxf3 46. Nxf7 Rh1 47. Rxh1 Bxh1 48. Nxd8 Kxd8 49. d5 Nd7 50. Kf4
+Nc5 51. Kxf5 Ke7 52. Kf4 Bg2 53. Ke3 Ne4 54. Bb3 Ng5 55. Ba2 Nf7 56. Kd4
+Bf3 57. Bb1 Bg2 58. Bf5 Kd8 59. Bd3 Bxd5 60. Kxd5 Nxe5 61. Kxe5 Kc7 62. Kd5
+b6 63. axb6+ Kxb6 64. Bxa6 Kxa6 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.23"]
+[Round "8"]
+[White "Hansen,SuB"]
+[Black "Palo,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2553"]
+[BlackElo "2525"]
+[EventDate "2005.04.15"]
+[ECO "D02"]
+
+1. d4 d5 2. Nf3 Nf6 3. Nc3 g6 4. Bf4 Bg7 5. e3 O-O 6. Be2 c5 7. Ne5 cxd4 8.
+exd4 Be6 9. O-O Nbd7 10. Re1 Rc8 11. Qd2 Nxe5 12. Bxe5 a6 13. Bd3 Qd7 14.
+a4 Bf5 15. a5 Bxd3 16. Qxd3 Qc6 17. Qf3 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.23"]
+[Round "8"]
+[White "Iordachescu,V"]
+[Black "Hansen,Cu"]
+[Result "1/2-1/2"]
+[WhiteElo "2609"]
+[BlackElo "2633"]
+[EventDate "2005.04.15"]
+[ECO "C07"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. Ngf3 a6 5. c3 cxd4 6. cxd4 dxe4 7. Nxe4 Bb4+
+8. Bd2 Bxd2+ 9. Qxd2 Nf6 10. Bd3 O-O 11. Ne5 Nbd7 12. Rd1 b5 13. O-O Bb7
+14. Rfe1 Nxe4 15. Bxe4 Bxe4 16. Rxe4 Rc8 17. g3 Nf6 18. Re3 Qd6 19. Rd3 h6
+20. Rc1 Qd5 21. a3 Ne4 22. Qe3 Rfd8 23. h4 Qb7 24. Rdd1 Nd6 25. Rxc8 Rxc8
+26. Rc1 Rxc1+ 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.23"]
+[Round "8"]
+[White "Hermansson,E"]
+[Black "Hector,J"]
+[Result "0-1"]
+[WhiteElo "2432"]
+[BlackElo "2513"]
+[EventDate "2005.04.15"]
+[ECO "C88"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 Bb7 8.
+d3 O-O 9. Nbd2 Re8 10. Ng5 d5 11. exd5 Nd4 12. Rxe5 Nxb3 13. Nxb3 Bxd5 14.
+Nh3 Qd7 15. Bf4 Be6 16. Qf3 Bd6 17. Ree1 Bg4 18. Rxe8+ Rxe8 19. Qb7 Bxh3
+20. Bxd6 cxd6 0-1
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.23"]
+[Round "8"]
+[White "Sasikiran,K"]
+[Black "Hillarp Persson,T"]
+[Result "1-0"]
+[WhiteElo "2642"]
+[BlackElo "2533"]
+[EventDate "2005.04.15"]
+[ECO "A40"]
+
+1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. e4 e5 5. d5 f5 6. exf5 gxf5 7. Qh5+ Kf8 8.
+Bd3 Nf6 9. Qd1 Na6 10. Nge2 Qe8 11. Ng3 Qg6 12. h4 h5 13. Bg5 Nc5 14. Bc2
+Ng4 15. Rh3 e4 16. Nge2 Ne5 17. Nf4 Qf7 18. Kf1 Nxc4 19. b4 e3 20. bxc5
+Bxc3 21. Rc1 Be5 22. fxe3 dxc5 23. Ne6+ Kg8 24. Rf3 Nd6 25. Nxc5 b6 26. Ne6
+c5 27. Kg1 Bxe6 28. dxe6 Qxe6 29. Rxf5 Rf8 30. Rxe5 Qxe5 31. Qd3 Rf6 32.
+Bxf6 Qxf6 33. Qd5+ Kg7 34. Rf1 Qe7 35. Rf3 Nf7 36. Qf5 Rh6 37. Rg3+ Kf8 38.
+Bb3 Rf6 39. Qc8+ Qd8 40. Rg8+ 1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.24"]
+[Round "9"]
+[White "Hector,J"]
+[Black "Iordachescu,V"]
+[Result "1-0"]
+[WhiteElo "2513"]
+[BlackElo "2609"]
+[EventDate "2005.04.15"]
+[ECO "B19"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8.
+h5 Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Bf4 Qa5+ 12. Nd2 Ngf6 13. c4 Be7 14. Qe2
+O-O 15. O-O Rfe8 16. Rfd1 b5 17. a3 Rac8 18. Rac1 Qa6 19. Be5 bxc4 20. Nxc4
+c5 21. b3 cxd4 22. Bxd4 e5 23. Be3 Nc5 24. b4 Nb3 25. Rc2 Nd4 26. Bxd4 exd4
+27. Qd3 Nd5 28. Qxd4 Nxb4 29. axb4 Red8 30. Qg4 Rxd1+ 31. Qxd1 Rxc4 32. Qf1
+1-0
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.24"]
+[Round "9"]
+[White "Hansen,Cu"]
+[Black "Hansen,SuB"]
+[Result "1/2-1/2"]
+[WhiteElo "2633"]
+[BlackElo "2553"]
+[EventDate "2005.04.15"]
+[ECO "D38"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. Qa4+ Nc6
+8. cxd5 exd5 9. e3 O-O 10. Be2 Be6 11. O-O a6 12. Rac1 Bd6 13. Qd1 Ne7 14.
+Ne1 Rad8 15. Na4 Nf5 16. g3 Rfe8 17. Bf3 Nh4 18. Bg4 Bxg4 19. Qxg4 Nf5 20.
+Nd3 c6 21. b4 Re4 22. Qf3 Qg6 23. Nac5 Nh4 24. Qe2 Nf5 25. Qf3 Re7 26. Qf4
+1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.24"]
+[Round "9"]
+[White "Palo,D"]
+[Black "Nakamura,H"]
+[Result "0-1"]
+[WhiteElo "2525"]
+[BlackElo "2657"]
+[EventDate "2005.04.15"]
+[ECO "A50"]
+
+1. d4 Nf6 2. c4 Nc6 3. Nf3 e6 4. Bf4 d6 5. Nc3 g6 6. e4 Bg7 7. Be2 O-O 8.
+O-O Nd7 9. Bg5 f6 10. Be3 Ne7 11. Qb3 Kh8 12. c5 f5 13. Ng5 Nb8 14. f4 fxe4
+15. Ncxe4 Nbc6 16. Rad1 Nd5 17. cxd6 cxd6 18. g3 Nxe3 19. Qxe3 Qb6 20. Nf3
+Ne7 21. Rd2 Bd7 22. Re1 Rae8 23. Qb3 Qc7 24. Bf1 Nf5 25. Nc3 Bc6 26. d5
+exd5 27. Rxe8 Rxe8 28. Nxd5 Qa5 29. Qc4 Ne3 30. Nxe3 Rxe3 31. Ng5 h6 32.
+Nf7+ Kh7 33. Rxd6 Qb6 0-1
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.24"]
+[Round "9"]
+[White "Timman,J"]
+[Black "Sasikiran,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2607"]
+[BlackElo "2642"]
+[EventDate "2005.04.15"]
+[ECO "A29"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 Bb4 5. Nd5 e4 6. Nh4 O-O 7. Bg2 Re8 8.
+O-O Bc5 9. d3 exd3 10. Qxd3 Ne5 11. Qc3 1/2-1/2
+
+[Event "13th Sigeman & Co"]
+[Site "Copenhagen/Malmoe DEN"]
+[Date "2005.04.24"]
+[Round "9"]
+[White "Hillarp Persson,T"]
+[Black "Hermansson,E"]
+[Result "0-1"]
+[WhiteElo "2533"]
+[BlackElo "2432"]
+[EventDate "2005.04.15"]
+[ECO "A45"]
+
+1. d4 Nf6 2. c3 g6 3. Bg5 Bg7 4. Nd2 d5 5. e3 O-O 6. Bd3 Nbd7 7. f4 c5 8.
+Ngf3 cxd4 9. exd4 h6 10. Bxf6 Nxf6 11. Ne5 Bf5 12. Bxf5 gxf5 13. O-O Qd6
+14. a4 a6 15. a5 Rfb8 16. h3 b6 17. axb6 Rxb6 18. b4 Qc7 19. Rf3 e6 20. Kh1
+Rbb8 21. Qe2 a5 22. b5 a4 23. g4 a3 24. gxf5 exf5 25. Rg3 Kh7 26. Qd3 Ne4
+27. Nxe4 fxe4 28. Qe2 f6 29. Nc6 Rb7 30. Qg4 Qd7 31. Qg6+ Kh8 32. c4 a2 33.
+Kh2 dxc4 34. Qxe4 Rxb5 35. Rg2 Re8 36. Qg6 Rb3 37. f5 Qc7+ 38. Ne5 Rxe5 39.
+Qxg7+ Qxg7 40. Rxg7 Re2+ 0-1
+

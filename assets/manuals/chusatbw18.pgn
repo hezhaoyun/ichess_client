@@ -1,0 +1,74 @@
+[Event "ch-USA Women TB 2018"]
+[Site "Saint Louis USA"]
+[Date "2018.04.30"]
+[Round "1"]
+[White "Wang, Annie"]
+[Black "Paikidze, Nazi"]
+[Result "1-0"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2321"]
+[BlackElo "2352"]
+[ECO "E36"]
+[Opening "Nimzo-Indian"]
+[Variation "classical, Noa variation, 5.a3"]
+[WhiteFideId "2053900"]
+[BlackFideId "13603620"]
+[EventDate "2018.04.30"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. a3 Bxc3+ 6. Qxc3 c5 7. dxc5 d4 8. Qg3
+Nc6 9. Qxg7 Rg8 10. Qh6 e5 11. Bg5 Rg6 12. Qh4 Qa5+ 13. Bd2 Qxc5 14. e4 Qd6 15.
+f3 d3 16. Qf2 Nd4 17. Bb4 Qc6 18. Bxd3 Be6 19. Ne2 O-O-O 20. O-O-O Bxc4 21. Nxd4
+Rxd4 22. Bxc4 Rxc4+ 23. Kb1 Nd7 24. Qxa7 Rxg2 25. Qa8+ Kc7 26. Ba5+ b6 27. Qa7+
+Kd8 28. Bxb6+ Ke8 29. Bf2 f6 30. Rd2 Rg7 31. Rhd1 Re7 32. Rg1 Kf7 33. Qe3 Nf8
+34. Qh6 Ke8 35. Rgd1 Nd7 36. Qh5+ Kd8 37. Qg4 Kc7 38. Qg8 Qb5 39. Qg4 Qc6 40.
+Rd5 Nb8 41. Qg8 Nd7 42. Be1 Rc5 43. Bb4 Rxd5 44. exd5 Qa4 45. Rc1+ 1-0
+
+[Event "ch-USA Women TB 2018"]
+[Site "Saint Louis USA"]
+[Date "2018.04.30"]
+[Round "2"]
+[White "Paikidze, Nazi"]
+[Black "Wang, Annie"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2352"]
+[BlackElo "2321"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "13603620"]
+[BlackFideId "2053900"]
+[EventDate "2018.04.30"]
+
+1. Nf3 e6 2. g3 Nf6 3. Bg2 d5 4. O-O Be7 5. d3 c5 6. Nbd2 Nc6 7. e4 b6 8. e5 Nd7
+9. Re1 Qc7 10. Qe2 Bb7 11. c4 d4 12. Nf1 h6 13. h4 O-O-O 14. h5 Rdf8 15. a3 g5
+16. g4 Kb8 17. Bd2 Re8 18. b4 cxb4 19. axb4 Nxb4 20. Nxd4 Bxg2 21. Kxg2 Nc6 22.
+Nxc6+ Qxc6+ 23. f3 f6 24. exf6 Bxf6 25. Ra2 Rhf8 26. Be3 Ne5 27. Nh2 Rd8 28. Rd1
+Ka8 29. Bf2 Rc8 30. Rb1 Nd7 31. Ra6 Qb7 32. Qa2 Kb8 33. d4 Bd8 34. Ra1 Rc7 35.
+c5 Re8 36. Rc1 e5 37. Bg3 Rc6 38. Ra1 Rc7 39. cxb6 Nxb6 40. Bxe5 Rxe5 41. dxe5
+Qc8 42. Rxb6+ 1-0
+
+[Event "ch-USA Women TB 2018"]
+[Site "Saint Louis USA"]
+[Date "2018.04.30"]
+[Round "3"]
+[White "Paikidze, Nazi"]
+[Black "Wang, Annie"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "FM"]
+[WhiteElo "2352"]
+[BlackElo "2321"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "13603620"]
+[BlackFideId "2053900"]
+[EventDate "2018.04.30"]
+
+1. Nf3 e6 2. g3 Nf6 3. Bg2 d5 4. O-O Be7 5. d3 c5 6. Nbd2 Nc6 7. e4 b6 8. e5 Nd7
+9. Re1 Qc7 10. Qe2 Bb7 11. c4 d4 12. Nf1 h6 13. h4 O-O-O 14. N1h2 g5 15. h5 Rdf8
+16. Ng4 Kb8 17. Bd2 f5 18. exf6 Nxf6 19. Nge5 g4 20. Nxc6+ Bxc6 21. Ne5 Bxg2 22.
+Kxg2 Qb7+ 23. Kg1 Re8 24. Ng6 Rh7 25. Qxe6 Nxh5 26. Qxg4 Nf6 27. Qf4+ Ka8 28.
+Nxe7 Rf7 29. Nf5 Rxe1+ 30. Rxe1 Rf8 31. Re7 Qc6 32. Qxh6 Rc8 33. Rf7 Qf3 1-0
+

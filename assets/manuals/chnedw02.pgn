@@ -1,0 +1,543 @@
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.18"]
+[Round "1"]
+[White "Bos, I."]
+[Black "Veenstra, P."]
+[Result "1-0"]
+[PlyCount "91"]
+[EventDate "2002.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5
+8. Qe2 Nd4 9. Nxd4 Qxd4 10. c3 Bg4 11. Qe3 Qxe3 12. Bxe3 h5 13. Nd2 c5 14. c4
+Be7 15. Ne4 b6 16. b3 O-O 17. Nc3 c6 18. f3 Bf5 19. Rad1 f6 20. f4 Rfd8 21. Bc1
+Kf7 22. Rde1 fxe5 23. fxe5 Ke6 24. Ne2 g5 25. h4 Bd3 26. hxg5 Bxe2 27. Rxe2 Rf8
+28. Rf3 Rad8 29. Kf2 Rd4 30. Rxf8 Bxf8 31. g3 Be7 32. Bf4 b5 33. Rc2 Kf5 34.
+Kf3 Rd3+ 35. Ke2 Rd4 36. Kf3 Rd3+ 37. Kg2 Kg4 38. g6 Bf8 39. e6 Rd8 40. Re2 Bg7
+41. Be5 Bxe5 42. Rxe5 h4 43. gxh4 Kf4 44. e7 Re8 45. Re2 Kf5 46. h5 1-0
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.18"]
+[Round "1"]
+[White "Bensdorp, M."]
+[Black "Peng, Z."]
+[Result "1/2-1/2"]
+[PlyCount "67"]
+[EventDate "2002.??.??"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. e4 Nbd7 6. Bd3 Be7 7. Nge2 a6 8. h3 h5
+9. Be3 h4 10. Qd2 Nf8 11. Ng1 Ng6 12. Nf3 Bd7 13. a4 Nh5 14. Ne2 O-O 15. g4
+hxg3 16. fxg3 f5 17. exf5 Bxf5 18. Bxf5 Rxf5 19. O-O e4 20. Qc2 exf3 21. Qxf5
+fxe2 22. Rfe1 Ne5 23. Qxh5 Nxc4 24. Qxe2 Ne5 25. Bxc5 Qc8 26. Bd4 Qxh3 27. Qg2
+Qg4 28. Bxe5 dxe5 29. Kh2 Rf8 30. Rf1 Qh5+ 31. Qh3 Qe2+ 32. Qg2 Qh5+ 33. Qh3
+Qe2+ 34. Qg2 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.18"]
+[Round "1"]
+[White "Lanchava, T."]
+[Black "Hamelink, D."]
+[Result "1/2-1/2"]
+[PlyCount "149"]
+[EventDate "2002.??.??"]
+
+1. d4 d5 2. c4 c6 3. e3 Bf5 4. Nc3 Nf6 5. cxd5 cxd5 6. Qb3 Bc8 7. Nf3 Nc6 8.
+Ne5 e6 9. f4 Be7 10. Bd3 O-O 11. O-O Nd7 12. Bd2 f5 13. Rac1 Ndxe5 14. fxe5 Bd7
+15. g4 Bg5 16. Qd1 g6 17. Kh1 Nxe5 18. dxe5 d4 19. exd4 Bc6+ 20. d5 Bxd5+ 21.
+Be4 Bxe4+ 22. Nxe4 fxe4 23. Rxf8+ Kxf8 24. Bxg5 Qxg5 25. Rc7 Qf4 26. Qd6+ Kg8
+27. Qxe6+ Kh8 28. Qf6+ Qxf6 29. exf6 h6 30. Rxb7 a6 31. Kg2 g5 32. Kf2 a5 33.
+Ke3 Rf8 34. f7 Kg7 35. Kxe4 Rc8 36. h3 Rc2 37. Ke5 Re2+ 38. Kd6 Re3 39. Re7
+Rd3+ 40. Kc7 Kf8 41. Re5 a4 42. Ra5 Rd4 43. Ra6 Kxf7 44. Rxh6 a3 45. bxa3 Ra4
+46. Rb6 Rxa3 47. Rb2 Rxh3 48. Rb3 Rh2 49. a3 Ke6 50. Kc6 Rc2+ 51. Kb5 Kd5 52.
+Rb4 Rc8 53. Ka4 Ra8+ 54. Kb3 Kc6 55. a4 Rf8 56. Rc4+ Kb6 57. Kb4 Rf6 58. Re4
+Rf1 59. a5+ Kc6 60. Rc4+ Kb7 61. Kb5 Rb1+ 62. Rb4 Rc1 63. Re4 Rb1+ 64. Kc4 Rg1
+65. Kd5 Ra1 66. Re7+ Kc8 67. Kc6 Rc1+ 68. Kb5 Rb1+ 69. Kc5 Rc1+ 70. Kb4 Rb1+
+71. Kc5 Rc1+ 72. Kd5 Ra1 73. Kc6 Rc1+ 74. Kb6 Rb1+ 75. Kc5 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.19"]
+[Round "2"]
+[White "Peng, Z."]
+[Black "Bos, I."]
+[Result "1-0"]
+[PlyCount "47"]
+[EventDate "2002.??.??"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 a6 5. Bd3 Nbd7 6. O-O e6 7. Nbd2 Be7 8. e4
+dxe4 9. Nxe4 Nxe4 10. Bxe4 Nf6 11. Bc2 O-O 12. Qd3 b5 13. c5 Qd5 14. Bg5 g6 15.
+Ne5 Bb7 16. Rfd1 Qd8 17. Qf3 Nd5 18. Bh6 f6 19. Bxf8 Qxf8 20. Ng4 h5 21. Ne3
+Kg7 22. Re1 e5 23. Qg3 Nf4 24. Nf5+ 1-0
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.19"]
+[Round "2"]
+[White "Lanchava, T."]
+[Black "Bensdorp, M."]
+[Result "1/2-1/2"]
+[PlyCount "71"]
+[EventDate "2002.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nf6 5. Nf3 Be7 6. Qc2 Nbd7 7. Bd3 O-O 8. O-O
+Re8 9. Rd1 h6 10. b3 Bd6 11. Bb2 Qe7 12. e4 dxe4 13. Nxe4 Nxe4 14. Bxe4 Nf6 15.
+Bd3 b6 16. Ne5 Bb7 17. Qe2 c5 18. Bc2 Rad8 19. dxc5 Bxc5 20. Ng4 Nxg4 21. Qxg4
+Qg5 22. Qxg5 hxg5 23. Be5 Kf8 24. a3 a5 25. Bc7 Rxd1+ 26. Rxd1 Rc8 27. Bd6+
+Bxd6 28. Rxd6 Bc6 29. f3 Ke7 30. Rd2 Bb7 31. Kf2 Rh8 32. h3 Rd8 33. Bd3 Kf6 34.
+Ke2 Ke5 35. Rc2 Rc8 36. b4 {#} 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.19"]
+[Round "2"]
+[White "Hamelink, D."]
+[Black "Veenstra, P."]
+[Result "1-0"]
+[PlyCount "129"]
+[EventDate "2002.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Qd2 dxc6 7. Nc3 Bd4
+8. Bd3 Ne7 9. O-O Ng6 10. Kh1 Ne5 11. f4 Nxd3 12. cxd3 b6 13. Ne2 Ba6 14. Qc2
+O-O-O 15. Rb1 c5 16. Bd2 h5 17. Rf3 h4 18. h3 Qd6 19. b4 f5 20. Be1 Rh6 21. Rd1
+Bb7 22. Nxd4 cxd4 23. e5 Qe7 24. Rf2 Rc6 25. Qe2 Re6 26. Qf1 Rg8 27. Bd2 Qe8
+28. Bc1 Qa4 29. a3 Rg6 30. Qe2 Qc6 31. Kh2 Rg3 32. Qc2 Qd5 33. Qa2 Kd7 34.
+Qxd5+ Bxd5 35. Rdd2 Re8 36. Bb2 c5 37. bxc5 bxc5 38. Rc2 Rc8 39. Rfd2 Rc6 40.
+Rc1 Ke6 41. a4 {#} 41... Bb3 42. Bxd4 Kd5 43. Bf2 Rgg6 44. a5 Ba4 45. Rb2 Rc8
+46. Bxh4 a6 47. Bf2 Bb5 48. Rc3 Rh6 49. Rbc2 Rhc6 50. g3 c4 51. dxc4+ Rxc4 52.
+Rd2+ Ke6 53. Rcd3 Rc2 54. Rd6+ Kf7 55. g4 fxg4 56. hxg4 Rh8+ 57. Kg2 Bc6+ 58.
+Kg3 Rc1 59. f5 Rc3+ 60. R2d3 Rxd3+ 61. Rxd3 Re8 62. Kf4 Bb5 63. e6+ Kg8 64. Rd6
+Bc4 65. Ke5 1-0
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.21"]
+[Round "3"]
+[White "Bensdorp, M."]
+[Black "Hamelink, D."]
+[Result "1/2-1/2"]
+[PlyCount "38"]
+[EventDate "2002.??.??"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O
+O-O 9. Nh4 Nbd7 10. Nxf5 exf5 11. Qf3 g6 12. Rd1 Nb6 13. Bb3 Nbd5 14. Bd2 Ba5
+15. Rac1 Bb6 16. Be1 Qd6 17. Nxd5 cxd5 18. a5 Bc7 19. Qg3 Rac8 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.21"]
+[Round "3"]
+[White "Veenstra, P."]
+[Black "Peng, Z."]
+[Result "0-1"]
+[PlyCount "82"]
+[EventDate "2002.??.??"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Nbd2 Nd7 6. c3 f6 7. Be2 Nh6 8. Nf1
+Nf7 9. exf6 Qxf6 10. Ng3 Bg6 11. Be3 Bd6 12. Qd2 O-O 13. O-O-O Nb6 14. Bd3 Nc4
+15. Qc2 Bxd3 16. Qxd3 e5 17. Qf5 Qe7 18. Qh5 {#} 18... Ba3 19. Nf5 Bxb2+ 20.
+Kb1 Qf6 21. dxe5 Nfxe5 22. Nxe5 Qxe5 23. Nh6+ gxh6 24. Qxe5 Nxe5 25. Kxb2 Nc4+
+26. Kc2 Nxe3+ 27. fxe3 Rae8 28. Kd3 Rf2 29. Rd2 Rxd2+ 30. Kxd2 Re4 31. Rb1 b5
+32. Rb4 a5 33. Rxe4 dxe4 34. a3 Kf7 35. Kc2 Ke6 36. Kb3 Kd5 37. c4+ Kc5 38. Kc3
+h5 39. g3 h6 40. h3 h4 41. g4 a4 0-1
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.21"]
+[Round "3"]
+[White "Bos, I."]
+[Black "Lanchava, T."]
+[Result "0-1"]
+[PlyCount "68"]
+[EventDate "2002.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qc7 5. Nc3 e6 6. Be2 a6 7. O-O Nf6 8.
+Be3 h5 9. Nxc6 dxc6 10. f4 Bd7 11. e5 Nd5 12. Nxd5 cxd5 13. Bxh5 Bc5 14. Bxc5
+Qxc5+ 15. Kh1 O-O-O 16. Bf3 {#} 16... Bb5 17. Rg1 Qf2 18. h3 Qg3 19. Qd2 Rh4
+20. Qc3+ Kb8 21. Bd1 Qxc3 22. bxc3 Rxf4 23. Re1 Rc8 24. Be2 Bxe2 25. Rxe2 Rxc3
+26. a4 b6 27. Rb1 Kc7 28. Ra1 Rcc4 29. g3 Rf3 30. Kh2 Rcc3 31. Rg2 Rce3 32. Rc1
+Rxe5 33. c4 d4 34. Rd2 d3 0-1
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.22"]
+[Round "4"]
+[White "Peng, Z."]
+[Black "Lanchava, T."]
+[Result "1/2-1/2"]
+[PlyCount "85"]
+[EventDate "2002.??.??"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. O-O Be7 6. c4 O-O 7. Nc3 Ne4 8. Bd2
+f5 9. d5 Bf6 10. Rc1 Na6 11. Be1 Nac5 12. Nd4 Qe7 13. b3 Rad8 14. Ndb5 a6 15.
+Nxe4 Nxe4 16. Bxe4 fxe4 17. d6 cxd6 18. Nxd6 Bc6 19. Bc3 Bg5 20. e3 e5 21. Qh5
+g6 22. Qd1 Qe6 23. b4 Be7 24. c5 Bd5 25. Qc2 Bxd6 26. cxd6 Rf5 27. f4 exf4 28.
+gxf4 Qxd6 29. Qd2 Kf7 30. Rfd1 Qe7 31. Be5 Be6 32. Rc2 Rh5 33. Qd6 Qh4 34. Bc3
+Rg8 35. Rg2 Qh3 36. Qxb6 Rb5 37. Qd4 Rd5 38. Qf6+ Ke8 39. Re1 Rf8 40. Qg7 Rg8
+41. Qf6 Rf8 42. Qg7 Rg8 43. Qf6 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.22"]
+[Round "4"]
+[White "Bos, I."]
+[Black "Hamelink, D."]
+[Result "0-1"]
+[PlyCount "114"]
+[EventDate "2002.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qc7 8. Qf3
+Nbd7 9. O-O-O b5 10. g4 b4 11. Nce2 Bb7 12. Ng3 Be7 13. Bxf6 Nxf6 14. g5 Nd7
+15. Bh3 Rc8 16. Kb1 O-O 17. Qe2 Nc5 18. f5 Bxg5 19. fxe6 Rce8 20. exf7+ Rxf7
+21. Qc4 Nxe4 22. Qxc7 Rxc7 23. Ne6 Rce7 24. Nxe4 Bxe4 25. Rhg1 Bf6 26. Rxd6 Bb7
+27. Rgd1 Bf3 28. Rf1 Be2 29. Rc1 Bc4 30. Nc5 Re3 31. Bd7 R8e5 32. Nd3 Ra5 33.
+Nxb4 Be7 34. Rd4 Bf7 35. a3 Rh5 36. h3 a5 37. Nc6 Bf6 38. Rd3 Re2 39. Nd4 Re4
+40. Nb3 Bc4 41. Rd6 Re7 42. Nd2 Bf7 43. Nf3 Rc5 44. Rc6 Rxc6 45. Bxc6 Rc7 46.
+Be4 Re7 47. Re1 Be6 48. h4 Bg4 49. Ng5 g6 50. Rg1 Bh5 51. Bd5+ Kg7 52. c4 Re2
+53. Rg2 Re1+ 54. Ka2 a4 55. Rf2 Bg4 56. Bc6 Bd1 57. Rxf6 Bb3# 0-1
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.22"]
+[Round "4"]
+[White "Veenstra, P."]
+[Black "Bensdorp, M."]
+[Result "1/2-1/2"]
+[PlyCount "170"]
+[EventDate "2002.??.??"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Bd7 5. Nf3 Qb6 6. Nbd2 cxd4 7. Nxd4 Nc6 8.
+N2f3 Nge7 9. Qb3 Ng6 10. Qxb6 axb6 11. Nb5 Rc8 12. Nd6+ Bxd6 13. exd6 Na7 14.
+h4 Bb5 15. h5 Nf8 16. Be3 Nd7 17. Nd4 Bxf1 18. Kxf1 h6 19. Rh4 O-O 20. g4 Nc6
+21. g5 hxg5 22. Bxg5 Nxd4 23. Rxd4 f6 24. Be3 Rc6 25. Ke2 Ne5 26. h6 g6 27. h7+
+Kg7 28. Rh1 Rh8 29. Ra4 Nc4 30. Ra7 Nxd6 31. Bh6+ Kf7 32. Bf4 e5 33. Be3 g5 34.
+Ra4 b5 35. Rg4 Rc4 36. f3 Rxg4 37. fxg4 Nc4 38. Bc1 Kg7 39. b3 Nd6 40. Rd1 Ne4
+41. Bb2 Rd8 42. Ke3 Nd6 43. Kf3 Nf7 44. Ba3 Nh8 45. c4 bxc4 46. bxc4 d4 47. Ke4
+Ng6 48. Kf5 d3 49. h8=Q+ Rxh8 50. Rxd3 Nh4+ 51. Ke4 Kg6 52. Bb4 Rc8 53. c5 Rc7
+54. Rd6 Ng2 55. a4 Nf4 56. a5 Ne2 57. a6 bxa6 58. Rxa6 Nd4 59. Kd5 Rd7+ 60. Rd6
+Rb7 61. Rb6 Rd7+ 62. Rd6 Rb7 63. Ba5 Rb1 64. Bd8 Rf1 65. c6 Nxc6 66. Kxc6 e4
+67. Re6 Rf4 68. Kd5 e3 69. Rxe3 Rxg4 70. Rf3 f5 71. Rh3 Rg1 72. Kd4 g4 73. Rc3
+g3 74. Ke3 Rd1 75. Bb6 g2 76. Kf3 g1=Q 77. Bxg1 Rxg1 78. Rc4 Kg5 79. Ra4 Rf1+
+80. Kg3 Rb1 81. Kf3 Rb3+ 82. Kf2 Rc3 83. Kg2 f4 84. Ra8 Rg3+ 85. Kf2 Rb3
+1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.23"]
+[Round "5"]
+[White "Hamelink"]
+[Black "Peng"]
+[Result "1/2-1/2"]
+[PlyCount "99"]
+[EventDate "2002.??.??"]
+
+1. e4 g6 2. d4 Bg7 3. f4 d6 4. Nc3 Nf6 5. Nf3 O-O 6. Bd3 Na6 7. O-O c5 8. Kh1
+cxd4 9. Nxd4 Qb6 10. Nb3 Nb4 11. Qe2 Bg4 12. Qe3 Nd7 13. Qg3 Nxd3 14. Nd5 Qd8
+15. Qxd3 Be6 16. c3 Nb6 17. Be3 Nxd5 18. exd5 Bf5 19. Qd2 Qd7 20. Nd4 Be4 21.
+Nf3 b5 22. Rad1 Rac8 23. Bd4 Bh6 24. Qf2 Qg4 25. Be3 a6 26. h3 Qh5 27. Kh2 Bxf3
+28. Qxf3 Qxf3 29. Rxf3 Rc4 30. Bd4 f5 31. Re1 Rf7 32. g3 Kf8 33. Rfe3 Ke8 34.
+Kg2 Kd7 35. Kf3 Ra4 36. a3 Rc4 37. b4 Bg7 38. Bxg7 Rxg7 39. h4 h6 40. R1e2 g5
+41. h5 gxf4 42. gxf4 Kd8 43. Rd2 Rg4 44. Rd4 Rxd4 45. cxd4 Rh4 46. Kg3 Rxh5 47.
+Re1 Kd7 48. Rc1 e6 49. Re1 exd5 50. Rc1 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.23"]
+[Round "5"]
+[White "Lanchava"]
+[Black "Veenstra"]
+[Result "1-0"]
+[PlyCount "69"]
+[EventDate "2002.??.??"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. Qc2 bxc4 5. e4 e6 6. dxe6 fxe6 7. e5 Nd5 8. Bxc4
+Bb7 9. Nf3 Be7 10. a3 Ba6 11. O-O O-O 12. Bxa6 Nxa6 13. Nbd2 Nf4 14. Nc4 Nc7
+15. Nd6 Bxd6 16. exd6 Ncd5 17. Bxf4 Rxf4 18. Nd2 Qg5 19. g3 Raf8 20. Rae1 Rh4
+21. Ne4 Qg6 22. f3 Rhf4 23. Qxc5 Rxf3 24. Rxf3 Rxf3 25. Qc8+ Rf8 26. Qxd7 Nf4
+27. Nf2 Qg5 28. Qxa7 Nd5 29. Qd4 Qf5 30. b4 Qc2 31. Rxe6 Qc1+ 32. Kg2 Qc6 33.
+Kg1 Qc1+ 34. Qd1 Qb2 35. Re2 1-0
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.23"]
+[Round "5"]
+[White "Bensdorp"]
+[Black "Bos"]
+[Result "1-0"]
+[PlyCount "153"]
+[EventDate "2002.??.??"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 e5 4. Nf3 Nbd7 5. g3 g6 6. Bg2 Bg7 7. O-O O-O 8. e4
+a5 9. Re1 Re8 10. h3 exd4 11. Nxd4 Nc5 12. Ndb5 Be6 13. e5 dxe5 14. Qxd8 Raxd8
+15. Nxc7 Re7 16. Nxe6 Rxe6 17. Be3 Nd3 18. Re2 e4 19. Rd1 Rde8 20. b3 Ng4 21.
+Nxe4 Nxe3 22. Rxe3 Nb4 23. Rd7 Nc2 24. Re2 Nb4 25. Red2 Rxe4 26. Bxe4 Rxe4 27.
+Rd8+ Bf8 28. Rb8 Kg7 29. Rxb7 Nc6 30. Kf1 Bb4 31. Rd1 Ne5 32. Rb5 Nf3 33. a3
+Bc3 34. Rd3 Nd2+ 35. Kg2 Nb1 36. Rb7 Re6 37. c5 Bb2 38. Rf3 Bf6 39. Rb6 Nxa3
+40. c6 Be5 41. Rb7 Rxc6 42. Rfxf7+ Kg8 43. Rfe7 Bd6 44. Rg7+ Kf8 45. Rxh7 Be5
+46. Rhf7+ Kg8 47. Rfe7 Bd6 48. Rg7+ Kf8 49. Rgf7+ Ke8 50. Rh7 Rc8 51. Rh8+ Bf8
+52. Rg8 Nc2 53. Rxg6 Nd4 54. h4 Rc3 55. Ra6 Be7 56. Rxa5 Rxb3 57. Rxb3 Nxb3 58.
+Ra8+ Kf7 59. h5 Nd4 60. f4 Bc5 61. g4 Kf6 62. Ra6+ Kg7 63. f5 Kh7 64. Ra5 Bb4
+65. Rd5 Ne2 66. Kf3 Ng1+ 67. Ke4 Nh3 68. f6 Kh6 69. Kf5 Ng5 70. Rd8 Nf7 71. Rg8
+Nd6+ 72. Ke6 Ne4 73. f7 Ng5+ 74. Kf6 Ne4+ 75. Ke5 Nf2 76. Kf5 Nd1 77. g5+ 1-0
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.25"]
+[Round "6"]
+[White "Hamelink"]
+[Black "Lanchava"]
+[Result "1/2-1/2"]
+[PlyCount "82"]
+[EventDate "2002.??.??"]
+
+1. e4 c5 2. c4 Nc6 3. Ne2 g6 4. d4 cxd4 5. Nxd4 d6 6. Nc3 Nf6 7. Be2 Nxd4 8.
+Qxd4 Bg7 9. Be3 O-O 10. Qd2 Be6 11. Rc1 Qa5 12. f3 Rfc8 13. b3 a6 14. Nd5 Qxd2+
+15. Kxd2 Nxd5 16. exd5 Bd7 17. a4 e6 18. dxe6 Bxe6 19. Rc2 b5 20. axb5 axb5 21.
+Rhc1 b4 22. Bd3 Ra3 23. Rb1 d5 24. cxd5 Bc3+ 25. Ke2 Bxd5 26. Bc4 Rxc4 27. bxc4
+Bxc4+ 28. Kf2 Bd3 29. Rxc3 bxc3 30. Rb8+ Kg7 31. Bd4+ Kh6 32. g4 c2 33. Rc8 Ra4
+34. Be3+ Kg7 35. Rc3 Ra2 36. Kg3 Bf1 37. h4 Kf6 38. Rc7 Ke6 39. Kf4 Ra4+ 40.
+Kg3 h5 41. Rxc2 hxg4 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.25"]
+[Round "6"]
+[White "Peng"]
+[Black "Bensdorp"]
+[Result "1-0"]
+[PlyCount "125"]
+[EventDate "2002.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. e3 Nf6 5. Nc3 Nbd7 6. Qc2 Bd6 7. Be2 O-O 8. O-O
+dxc4 9. Bxc4 Qc7 10. Bd2 a6 11. Rac1 h6 12. Ne4 Nxe4 13. Qxe4 Re8 14. h3 e5 15.
+Qg6 Nf8 16. Qh5 e4 17. Nh4 Nh7 18. Nf5 Bxf5 19. Qxf5 Nf6 20. b4 Qe7 21. a3 Kf8
+22. Bb3 a5 23. h4 g6 24. Qh3 axb4 25. axb4 Bxb4 26. Bxb4 Qxb4 27. Rb1 Qd6 28.
+f3 Re7 29. h5 Kg7 30. hxg6 fxg6 31. Bc2 b5 32. Rbc1 Rae8 33. f4 Ra8 34. Bb3 Ra3
+35. Rb1 Qd7 36. f5 g5 37. Be6 Qd6 38. Rfe1 Rea7 39. Rbc1 Ra8 40. Rb1 h5 41. Bb3
+Rh8 42. Be6 h4 43. Rbc1 Rha8 44. Qh2 Qxh2+ 45. Kxh2 Ng4+ 46. Kg1 R8a6 47. Bd7
+Rxe3 48. f6+ Nxf6 49. Rxe3 Nxd7 50. Rxe4 Kf7 51. Rf1+ Nf6 52. Re5 b4 53. Rxg5
+b3 54. Rgf5 c5 55. dxc5 Kg6 56. R5f3 Ne4 57. Rxb3 Nxc5 58. Rb4 h3 59. Rg4+ Kh5
+60. gxh3 Nd3 61. Rf8 Re6 62. Rh8+ Rh6 63. Rd8 1-0
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.25"]
+[Round "6"]
+[White "Veenstra"]
+[Black "Bos"]
+[Result "1/2-1/2"]
+[PlyCount "42"]
+[EventDate "2002.??.??"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 e6 4. Nf3 Nge7 5. d3 Nd4 6. g3 g6 7. Bg2 Bg7 8. O-O
+O-O 9. Ne2 Nxf3+ 10. Bxf3 d5 11. Qe1 e5 12. Rb1 Be6 13. b3 dxe4 14. dxe4 Qd7
+15. Bb2 Nc6 16. Bg2 f5 17. fxe5 Nxe5 18. Nf4 Rae8 19. Qd1 Qxd1 20. Rfxd1 Bc8
+21. Re1 b6 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.26"]
+[Round "7"]
+[White "Bos"]
+[Black "Peng"]
+[Result "0-1"]
+[PlyCount "79"]
+[EventDate "2002.??.??"]
+
+1. e4 g6 2. d4 Bg7 3. c3 d6 4. f4 Nf6 5. e5 Nd5 6. Nf3 O-O 7. Bc4 Nb6 8. Bb3
+Na6 9. O-O c5 10. Nbd2 Bf5 11. Nc4 cxd4 12. Nxd4 Be4 13. exd6 exd6 14. f5 d5
+15. Ne3 Nc5 16. Ng4 h5 17. Nf2 Kh7 18. Nh3 Bf6 19. Nf4 Rh8 20. Be3 Qe7 21. Qd2
+Nc4 22. Bxc4 dxc4 23. Qf2 Bh4 24. g3 Bg5 25. Nh3 Bxe3 26. Qxe3 Rhe8 27. Ng5+
+Kg8 28. f6 Qf8 29. Nxe4 Nxe4 30. Qf4 Qd6 31. Qxd6 Nxd6 32. Rae1 a6 33. Kg2 Ne4
+34. Rd1 Rad8 35. Rf4 Nc5 36. Rf2 Nd3 37. Rfd2 Rd6 38. Rf1 Re3 39. h3 Nc5 40.
+Rdf2 0-1
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.26"]
+[Round "7"]
+[White "Bensdorp"]
+[Black "Lanchava"]
+[Result "1/2-1/2"]
+[PlyCount "85"]
+[EventDate "2002.??.??"]
+
+1. d4 d6 2. c4 g6 3. Nc3 Nd7 4. e4 e5 5. Nf3 Bg7 6. Be2 Nh6 7. h4 Ng4 8. h5
+exd4 9. Nxd4 Nc5 10. f3 Ne5 11. Be3 Bf6 12. Qd2 Bh4+ 13. Kd1 Ne6 14. Kc2 Nc6
+15. Nxe6 Bxe6 16. Nd5 Bxd5 17. exd5 Ne5 18. hxg6 Nxg6 19. Bd3 Qf6 20. Rxh4 Qxh4
+21. Bg5 Qh2 22. Re1+ Kf8 23. Bh6+ Kg8 24. Qg5 Qh4 25. Qe3 Ne5 26. g3 Qh5 27. g4
+Qh4 28. Bf5 Rf8 29. b3 a6 30. g5 Qh5 31. Bxf8 Kxf8 32. f4 Qf3 33. Qd2 Ng6 34.
+Qh2 h6 35. Bxg6 fxg6 36. gxh6 Qg4 37. Re6 Kf7 38. Kb2 Rh7 39. Ka3 b5 40. Kb4
+bxc4 41. Kxc4 Qf5 42. Qh4 Qc2+ 43. Kb4 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.26"]
+[Round "7"]
+[White "Veenstra"]
+[Black "Hamelink"]
+[Result "1/2-1/2"]
+[PlyCount "98"]
+[EventDate "2002.??.??"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bb5 e6 6. Bxc6 bxc6 7. e5 d5 8. exd6
+Qxd6 9. d3 Nf6 10. Rb1 O-O 11. Qe2 Qc7 12. O-O Nd5 13. Ne5 c4 14. Nxd5 cxd5 15.
+dxc4 dxc4 16. Bd2 Bb7 17. Bc3 Bd5 18. Rbd1 Qb7 19. Rd2 Rac8 20. Rfd1 f5 21. a3
+Rfe8 22. h3 Bf8 23. Qe1 Bg7 24. Kh2 Qe7 25. Bb4 Qc7 26. Bc3 Bf6 27. Qg3 Qg7 28.
+Re2 Re7 29. Bb4 Rb7 30. Bc3 Kh8 31. Qe3 Rf8 32. Qc5 Rc7 33. Qe3 Rg8 34. Qd4 Rf8
+35. Qe3 Kg8 36. Qg3 Qh6 37. Qe3 g5 38. g3 Rg7 39. fxg5 Bxg5 40. Qd4 f4 41. Ng4
+fxg3+ 42. Kg1 Qg6 43. Qxg7+ Qxg7 44. Bxg7 Kxg7 45. Ne3 Rf2 46. Rde1 Bxe3 47.
+Rxe3 Rg2+ 48. Kf1 Rf2+ 49. Kg1 Rg2+ 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.27"]
+[Round "8"]
+[White "Peng"]
+[Black "Veenstra"]
+[Result "1-0"]
+[PlyCount "125"]
+[EventDate "2002.??.??"]
+
+1. Nf3 d5 2. c4 dxc4 3. Na3 Nc6 4. Nxc4 f6 5. d4 Bg4 6. d5 Nb8 7. e4 e5 8. Qb3
+Nd7 9. Be3 b6 10. Be2 Bc5 11. O-O Bxe3 12. Nxe3 Nc5 13. Qc2 Bd7 14. b4 Nb7 15.
+Rfc1 Nd6 16. Nd2 Ne7 17. Qxc7 Bb5 18. Qxd8+ Kxd8 19. Bxb5 Nxb5 20. Nb3 Kd7 21.
+Kf1 Rhc8 22. Ke2 Rxc1 23. Rxc1 Rc8 24. Rxc8 Nxc8 25. Kd3 Ncd6 26. g3 Nf7 27. f4
+Nbd6 28. Nd2 g5 29. fxg5 Nxg5 30. h4 Ngf7 31. a4 Nh6 32. Ndc4 Nb7 33. Ke2 Kc7
+34. Kf3 a5 35. bxa5 bxa5 36. Ng4 Ng8 37. Nf2 Nc5 38. Nb2 Nb3 39. Nfd3 Nh6 40.
+Nc4 Nd4+ 41. Kf2 Ng4+ 42. Ke1 Nb3 43. Kd1 Nh2 44. Ne3 Nd4 45. Nc5 h5 46. Ne6+
+Nxe6 47. dxe6 Nf3 48. Nf5 Nh2 49. Ke2 Ng4 50. Ng7 Kd6 51. Nxh5 Kxe6 52. Ng7+
+Kd6 53. Nf5+ Kc5 54. h5 Kb4 55. Kd2 Kxa4 56. Kc2 Kb4 57. h6 Nxh6 58. Nxh6 Kc4
+59. Ng4 Kd4 60. Nxf6 Ke3 61. Kb3 Kf3 62. Ka4 Kxg3 63. Kxa5 1-0
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.27"]
+[Round "8"]
+[White "Hamelink"]
+[Black "Bensdorp"]
+[Result "1/2-1/2"]
+[PlyCount "61"]
+[EventDate "2002.??.??"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4
+f6 9. exf6 Nxf6 10. Nf3 Bd6 11. O-O O-O 12. Ng3 Bd7 13. Re1 Qc7 14. Bd2 Rae8
+15. Rc1 Qb8 16. Bc3 e5 17. dxe5 Nxe5 18. Nxe5 Bxe5 19. Bxe5 Rxe5 20. Qb3 Bc6
+21. Qb4 Rfe8 22. Nf5 Qc7 23. Nd4 a5 24. Qc3 Ng4 25. Nf3 R5e7 26. h3 Ne5 27.
+Nxe5 Rxe5 28. Rxe5 Rxe5 29. Bb5 Re6 30. Qd2 Qb6 31. Bxc6 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.27"]
+[Round "8"]
+[White "Lanchava"]
+[Black "Bos"]
+[Result "1-0"]
+[PlyCount "59"]
+[EventDate "2002.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bg5 Ne4 6. Bh4 Nxc3 7. bxc3 c5 8.
+cxd5 Qxd5 9. e3 Nc6 10. Be2 O-O 11. O-O Bf5 12. Nd2 cxd4 13. cxd4 Rac8 14. Bf3
+Qd6 15. Qa4 Bd3 16. Rfc1 a6 17. Qb3 Bb5 18. Ne4 Qd7 19. a4 Nxd4 20. exd4 Bxa4
+21. Qb4 Bxd4 22. Bxe7 f5 23. Bxf8 Bxa1 24. Rxc8 Qxc8 25. Bc5 b5 26. Ng5 Qd8 27.
+h4 Be5 28. Qe1 Qc7 29. Bd5+ Kh8 30. Qxe5+ 1-0
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.28"]
+[Round "9"]
+[White "Peng"]
+[Black "Hamelink"]
+[Result "1/2-1/2"]
+[PlyCount "36"]
+[EventDate "2002.??.??"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Bd3 Bg4 5. Ne2 e6 6. Nbc3 Bd6 7. f3 Bh5 8. O-O
+Nbd7 9. cxd5 cxd5 10. Qb3 Qb8 11. h3 O-O 12. Bd2 a6 13. Rac1 b5 14. e4 b4 15.
+Nxd5 exd5 16. e5 Bxe5 17. dxe5 Nxe5 18. Bg5 Qb6+ 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.28"]
+[Round "9"]
+[White "Veenstra"]
+[Black "Lanchava"]
+[Result "0-1"]
+[PlyCount "70"]
+[EventDate "2002.??.??"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bb5 Nd4 6. O-O a6 7. Bc4 b5 8. Bd5
+Ra7 9. a4 b4 10. Ne2 Nf6 11. Nexd4 cxd4 12. Ba2 Nxe4 13. Qe2 d5 14. d3 Nc5 15.
+Ne5 Rc7 16. f5 Bxf5 17. Bf4 O-O 18. Qf2 f6 19. Nxg6 Bxg6 20. Bxc7 Qxc7 21.
+Bxd5+ e6 22. Bc4 Qd6 23. a5 Bh6 24. Qe1 Bf4 25. Qh4 Bg5 26. Qe1 b3 27. Qe2 Qe5
+28. Qxe5 fxe5 29. Rxf8+ Kxf8 30. cxb3 Bxd3 31. Bxd3 Nxd3 32. Kf1 e4 33. Ra4 e5
+34. Rc4 Nxb2 35. Rc8+ Ke7 0-1
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.28"]
+[Round "9"]
+[White "Bos"]
+[Black "Bensdorp"]
+[Result "0-1"]
+[PlyCount "58"]
+[EventDate "2002.??.??"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qc7 7. Qg4 f5 8. Qh5+
+g6 9. Qd1 b6 10. a4 h6 11. Nf3 Ne7 12. Be2 Bd7 13. O-O Nbc6 14. Ba3 Na5 15. c4
+dxc4 16. dxc5 bxc5 17. Qd6 Rc8 18. Rfb1 Kf7 19. Nd2 Nd5 20. Bxc4 Qxd6 21. exd6
+Nc3 22. Re1 Ne4 23. Nxe4 Nxc4 24. Nc3 Nxa3 25. Rxa3 Rc6 26. Rd1 Rb8 27. Ne2
+Rxd6 28. Re1 Rd2 29. Rc3 Rxe2 0-1
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.29"]
+[Round "10"]
+[White "Lanchava"]
+[Black "Peng"]
+[Result "1/2-1/2"]
+[PlyCount "41"]
+[EventDate "2002.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. g4 Bb4 8. Bd2
+b6 9. cxd5 Nxd5 10. Bd3 Bb7 11. e4 Nxc3 12. bxc3 Be7 13. g5 c5 14. Rg1 Qc7 15.
+Qb2 O-O 16. Rg3 Rfd8 17. Rc1 Rac8 18. h4 cxd4 19. cxd4 Qd6 20. Rxc8 Rxc8 21.
+Bb1 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.29"]
+[Round "10"]
+[White "Bensdorp"]
+[Black "Veenstra"]
+[Result "1/2-1/2"]
+[PlyCount "30"]
+[EventDate "2002.??.??"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bxa6 7. g3 d6 8. Bg2
+Bg7 9. Nf3 Nbd7 10. Rb1 Qa5 11. O-O O-O 12. Qc2 Rfb8 13. Re1 Ra7 14. e4 Ng4 15.
+Bf4 Nge5 1/2-1/2
+
+[Event "Essent NK"]
+[Site "Leeuwarden NED"]
+[Date "2002.06.29"]
+[Round "10"]
+[White "Hamelink"]
+[Black "Bos"]
+[Result "1/2-1/2"]
+[PlyCount "137"]
+[EventDate "2002.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8.
+Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 Bg5 12. Nc2 Rb8 13. a4 O-O 14. axb5 axb5
+15. Nce3 b4 16. Ba6 bxc3 17. bxc3 Be6 18. O-O Ne7 19. Nxe7+ Bxe7 20. Bc4 Bxc4
+21. Nxc4 Qc7 22. Ne3 Qc5 23. Nd5 Bd8 24. Qd3 h6 25. Ra4 Bg5 26. g3 Qb5 27. Qxb5
+Rxb5 28. h4 Bd8 29. Ra6 f5 30. f3 Rc5 31. Rfa1 fxe4 32. fxe4 Rc4 33. Rxd6 Rxe4
+34. Ra8 Bf6 35. Nxf6+ gxf6 36. Rxf8+ Kxf8 37. Rxf6+ Kg7 38. Rf3 Re2 39. Kf1 Rc2
+40. g4 Kg6 41. Rd3 e4 42. Rd6+ Kg7 43. Rc6 e3 44. h5 Rf2+ 45. Ke1 Rc2 46. c4
+Kh7 47. c5 Rc4 48. Rc7+ Kg8 49. Rc6 Kf7 50. Rxh6 Rxc5 51. Rg6 Re5 52. Ke2 Re4
+53. Rg5 Kf6 54. Rf5+ Ke6 55. Rg5 Kf6 56. Rg8 Kf7 57. Rg6 Re8 58. Rg5 Re6 59.
+Rf5+ Kg7 60. Rf3 Re4 61. Rg3 Kh6 62. Rg2 Kg5 63. Kf3 Re8 64. Ra2 Kh4 65. Rh2+
+Kg5 66. Rg2 Re7 67. Re2 Rf7+ 68. Kg3 Rf4 69. Rxe3 1/2-1/2
+

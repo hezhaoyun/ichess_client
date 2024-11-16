@@ -1,0 +1,731 @@
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.06"]
+[Round "1.1"]
+[White "Bluebaum, Matthias"]
+[Black "Meier, Georg"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2521"]
+[BlackElo "2652"]
+[ECO "E21"]
+[Opening "Nimzo-Indian"]
+[Variation "three knights variation"]
+[WhiteFideId "24651516"]
+[BlackFideId "4675789"]
+[EventDate "2014.09.06"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 Bxc3+ 5. bxc3 d6 6. g3 b6 7. Bg2 Bb7 8. O-O
+O-O 9. Re1 h6 10. Bh3 Re8 11. Qc2 Nc6 12. d5 Na5 13. dxe6 fxe6 14. Nd4 Qd7 15.
+c5 bxc5 16. Nf3 Be4 17. Qd1 Bc6 18. Qd3 Bb5 19. Qc2 Qf7 20. Nd2 e5 21. Bf5 Rf8
+22. Bg6 Qd7 23. c4 Ba4 24. Qc3 Nc6 25. e3 e4 26. Nxe4 Ne5 27. Nxf6+ Rxf6 28. Be4
+Bc6 0-1
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.06"]
+[Round "1.2"]
+[White "Naiditsch, Arkadij"]
+[Black "Nisipeanu, Liviu-Dieter"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2715"]
+[BlackElo "2672"]
+[ECO "B47"]
+[Opening "Sicilian"]
+[Variation "Taimanov (Bastrikov) variation"]
+[WhiteFideId "4650891"]
+[BlackFideId "1202758"]
+[EventDate "2014.09.06"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. f4 Nxd4 7. Qxd4 b6 8.
+Bd2 Bb7 9. Nb5 Qc6 10. Bb4 Nf6 11. Bxf8 Kxf8 12. e5 Qe4+ 13. Be2 Qxd4 14. Nxd4
+Ne4 15. O-O Ke7 16. f5 f6 17. fxe6 dxe6 18. exf6+ gxf6 19. Rae1 Rad8 20. c3 f5
+21. Bc4 Bd5 22. Bb3 Rd6 23. Rxf5 Bxb3 24. Rxe4 Bxa2 25. Rf1 Rf8 26. Ra1 Bd5 27.
+Rxa7+ Rd7 28. Rxd7+ Kxd7 29. Rh4 Rf7 30. Nc2 b5 31. Ne3 Bc6 32. c4 Kd6 33. Rh5
+b4 34. Nc2 e5 35. Nxb4 Be4 36. Rh4 Bg6 37. Na2 e4 38. Nc3 Ke5 39. c5 Rb7 40. c6
+Rc7 41. Rg4 Rxc6 42. Rg5+ Kd4 43. Rd5+ Ke3 44. Kf1 Rc8 45. Ke1 Rb8 46. Nd1+ Kf4
+47. Ke2 e3 48. g3+ Kg4 49. Kxe3 Kh3 50. Rd2 Re8+ 51. Kf4 Re4+ 1-0
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.06"]
+[Round "1.3"]
+[White "Fridman, Daniel"]
+[Black "Baramidze, David"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2633"]
+[BlackElo "2599"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "classical variation (5.Bf4)"]
+[WhiteFideId "11600454"]
+[BlackFideId "4667719"]
+[EventDate "2014.09.06"]
+
+1. c4 e6 2. Nf3 d5 3. d4 Nf6 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. cxd5 Nxd5 8.
+Nxd5 exd5 9. Bd3 Bb4+ 10. Nd2 c5 11. a3 Bxd2+ 12. Qxd2 cxd4 13. exd4 Re8+ 14.
+Be3 Nf6 15. f3 Bd7 16. O-O Qb6 17. a4 a5 18. Bf2 h6 19. Rfb1 Rec8 20. b3 Ne8 21.
+Rb2 Nc7 22. b4 Ne8 23. bxa5 Qxa5 24. Qxa5 Rxa5 25. Rxb7 Rxa4 26. Rxa4 Bxa4 27.
+Bg3 Rc3 28. Bb5 Bxb5 29. Rxb5 Rc1+ 30. Kf2 Rc2+ 31. Kf1 Rc1+ 32. Ke2 Rc2+ 33.
+Kd3 Rc6 34. Rxd5 Kf8 35. Ra5 Ke7 36. d5 Rc1 37. Ra7+ Kf6 38. d6 Nxd6 39. Ra6 Rg1
+40. Bxd6 Rxg2 41. Bf8+ Kf5 42. Ke3 h5 43. h4 f6 44. Ra5+ Kg6 45. Ra7 Kh7 46. Kf4
+Kg8 47. Rxg7+ 1-0
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.06"]
+[Round "1.4"]
+[White "Schlosser, Philipp"]
+[Black "Wagner, Dennis"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2582"]
+[BlackElo "2499"]
+[ECO "A34"]
+[Opening "English"]
+[Variation "symmetrical, three knights system"]
+[WhiteFideId "4600169"]
+[BlackFideId "24650684"]
+[EventDate "2014.09.06"]
+
+1. Nf3 c5 2. c4 Nf6 3. Nc3 d5 4. cxd5 Nxd5 5. Qa4+ Bd7 6. Qb3 Nb6 7. Ne5 e6 8.
+Nxd7 Qxd7 9. e3 Nc6 10. Be2 Be7 11. O-O O-O 12. d3 Rac8 13. Rd1 Ne5 14. Nb5 Ra8
+15. Bd2 Nd5 16. d4 cxd4 17. Nxd4 Rfc8 18. e4 Nb6 19. Bf4 Bf6 20. Nb5 Qe7 21.
+Nxa7 Rxa7 22. Qxb6 Ra4 23. Qe3 Qb4 24. b3 Raa8 25. Rac1 Rxc1 26. Rxc1 h6 27. a4
+Nc6 28. e5 Bd8 29. Bb5 Nd4 30. Bc4 Bb6 31. h4 Nf5 32. Qh3 Rd8 33. h5 Rd2 34. Rf1
+Rxf2 35. Kh2 Rxf1 36. Bxf1 Qxf4+ 0-1
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.07"]
+[Round "2.1"]
+[White "Meier, Georg"]
+[Black "Wagner, Dennis"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2652"]
+[BlackElo "2499"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "4675789"]
+[BlackFideId "24650684"]
+[EventDate "2014.09.06"]
+
+1. Nf3 c5 2. c4 Nc6 3. e3 Nf6 4. Nc3 g6 5. d4 cxd4 6. exd4 d5 7. cxd5 Nxd5 8.
+Bc4 Nb6 9. Bb3 Bg7 10. d5 Na5 11. O-O O-O 12. h3 Qd6 13. Re1 Nxb3 14. Qxb3 e6
+15. Nb5 Qxd5 16. Nc7 Qxb3 17. axb3 Rb8 18. Rxa7 Bd7 19. Be3 Nc8 20. Raa1 Bc6 21.
+Bc5 Rd8 22. Red1 Bf6 23. Nd4 Ne7 24. b4 Nd5 25. Nxc6 bxc6 26. Nxd5 cxd5 27. Rd2
+Rb7 28. Kf1 Rc8 29. Ke2 Bxb2 30. Rxb2 Rxc5 31. bxc5 Rxb2+ 32. Kd3 Kf8 33. c6 Ke7
+34. Ra7+ Kd6 35. c7 Kd7 36. c8=Q+ Kxc8 37. Rxf7 Rb7 38. Rf8+ Kd7 39. Rh8 Kd6 40.
+f4 Rb2 41. Rxh7 Rxg2 42. h4 Rg3+ 43. Ke2 d4 44. h5 g5 45. fxg5 Rxg5 46. Rh8 Ke5
+47. h6 Rh5 48. h7 Ke4 49. Re8 Rh2+ 50. Ke1 Rxh7 51. Rxe6+ Kd3 52. Ra6 Rh1+ 53.
+Kf2 Rc1 54. Rd6 Rc4 55. Ke1 Rc1+ 56. Kf2 Rb1 57. Rd8 Rb4 58. Ke1 Rb6 59. Rd7
+Rb1+ 60. Kf2 Rd1 61. Ra7 Rc1 62. Rd7 Rc8 63. Ke1 Rh8 64. Ra7 Rh1+ 65. Kf2 Rb1
+66. Rd7 Rd1 67. Ra7 Kc2 68. Ra2+ Kb3 69. Ke2 Kxa2 70. Kxd1 Kb3 71. Kd2 Kc4 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.07"]
+[Round "2.2"]
+[White "Baramidze, David"]
+[Black "Schlosser, Philipp"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2599"]
+[BlackElo "2582"]
+[ECO "E01"]
+[Opening "Catalan"]
+[Variation "closed"]
+[WhiteFideId "4667719"]
+[BlackFideId "4600169"]
+[EventDate "2014.09.06"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bb4+ 5. Bd2 Be7 6. Nf3 c6 7. Qc2 Nbd7 8. O-O
+O-O 9. Rd1 b6 10. Bf4 Bb7 11. Ne5 Nxe5 12. dxe5 Nd7 13. cxd5 cxd5 14. e4 dxe4
+15. Nc3 Qc8 16. Bxe4 Nc5 17. Bxb7 Qxb7 18. b4 Na6 19. a3 Nc7 20. Rd7 Qc6 21. Rd2
+Rfc8 22. Rc1 Qe8 23. Qb1 a5 24. Be3 Nb5 25. Nxb5 Qxb5 26. Rdc2 Rxc2 27. Qxc2
+axb4 28. axb4 Qxb4 29. Rb1 Qa5 30. Qc6 Bc5 31. Bxc5 bxc5 32. Rc1 h5 33. Kg2 Rd8
+34. Rxc5 Qa8 35. Qxa8 Rxa8 36. h3 g5 37. g4 hxg4 38. hxg4 Ra4 39. Kg3 Re4 40.
+Kf3 Rf4+ 41. Kg3 Re4 42. Kf3 Rf4+ 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.07"]
+[Round "2.3"]
+[White "Nisipeanu, Liviu-Dieter"]
+[Black "Fridman, Daniel"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2672"]
+[BlackElo "2633"]
+[ECO "D40"]
+[Opening "QGD"]
+[Variation "Semi-Tarrasch defence"]
+[WhiteFideId "1202758"]
+[BlackFideId "11600454"]
+[EventDate "2014.09.06"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. Bf4 cxd4 6. Nxd4 Nbd7 7. Qa4 Bc5 8.
+Nb3 O-O 9. Nxc5 Nxc5 10. Qa3 b6 11. Rd1 Bb7 12. e3 Qe7 13. Bg3 Rfd8 14. Be2 dxc4
+15. O-O Nd5 16. Bxc4 Nxc3 17. Qxc3 Ne4 18. Qc2 Nxg3 19. hxg3 Qc5 20. Rxd8+ Rxd8
+21. Rd1 Rxd1+ 22. Qxd1 Qc7 23. Be2 h6 24. Bf3 g6 25. Bxb7 Qxb7 26. Qd8+ Kg7 27.
+Qd4+ Kg8 28. Qd8+ Kg7 29. Qd4+ Kg8 30. Qd8+ 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.07"]
+[Round "2.4"]
+[White "Bluebaum, Matthias"]
+[Black "Naiditsch, Arkadij"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2521"]
+[BlackElo "2715"]
+[ECO "E15"]
+[Opening "Queen's Indian"]
+[Variation "Nimzovich variation (exaggerated fianchetto)"]
+[WhiteFideId "24651516"]
+[BlackFideId "4650891"]
+[EventDate "2014.09.06"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 d5 6. Bg2 Nbd7 7. O-O c5 8. cxd5
+Nxd5 9. Bb2 cxd4 10. Nxd4 Rc8 11. Bxd5 exd5 12. Nf5 Nf6 13. Qd4 Rc6 14. Na3 Bc8
+15. Qe3+ Re6 16. Qg5 Rg8 17. Nb5 Rxe2 18. Rac1 Be6 19. Qf4 Ne4 20. Nc7+ Kd7 21.
+Nxe6 fxe6 22. Nd4 Rxb2 23. Qf7+ Qe7 24. Qxg8 Nf6 25. Qh8 Qf7 26. Nc6 Ng4 27. h3
+Bc5 28. Rxc5 bxc5 29. Nb8+ Kc7 30. hxg4 Kb7 31. Qd8 Qc7 32. Qe8 Qxb8 33. Qb5+
+Ka8 34. Qxc5 Qe8 35. Rc1 Qd7 36. Qf8+ Kb7 37. Qb4+ Ka8 38. Qa3 Rd2 39. Qf8+ 1-0
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.08"]
+[Round "3.1"]
+[White "Naiditsch, Arkadij"]
+[Black "Meier, Georg"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2715"]
+[BlackElo "2652"]
+[ECO "E21"]
+[Opening "Nimzo-Indian"]
+[Variation "three knights variation"]
+[WhiteFideId "4650891"]
+[BlackFideId "4675789"]
+[EventDate "2014.09.06"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 Bxc3+ 5. bxc3 d6 6. g4 O-O 7. g5 Nfd7 8. h4
+Nc6 9. Bg2 Qe8 10. h5 e5 11. g6 h6 12. Nh4 Ne7 13. c5 dxc5 14. Rg1 fxg6 15. hxg6
+Rf6 16. Qb3+ Kf8 17. Bxh6 c4 18. Qxc4 Nb6 19. Qd3 gxh6 20. g7+ Kf7 21. Bf3 Qg8
+22. Bh5+ Ke6 23. dxe5 Rf4 24. Ng6 Nxg6 25. Bxg6 1-0
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.08"]
+[Round "3.2"]
+[White "Fridman, Daniel"]
+[Black "Bluebaum, Matthias"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2633"]
+[BlackElo "2521"]
+[ECO "D17"]
+[Opening "QGD Slav"]
+[Variation "Krause attack"]
+[WhiteFideId "11600454"]
+[BlackFideId "24651516"]
+[EventDate "2014.09.06"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Nb6 8.
+Ne3 e6 9. Nxf5 exf5 10. g3 a5 11. Bh3 g6 12. O-O Bg7 13. Bg5 h6 14. Bxf6 Qxf6
+15. e3 Qe7 16. Qb3 Qb4 17. Qc2 O-O 18. Bg2 Rfd8 19. Rfd1 Rac8 20. Ra3 Qe7 21.
+Rb3 Qc7 22. Ra3 Qe7 23. Raa1 Bf8 24. Qb3 Qb4 25. Qc2 Qe7 26. Rd3 Rc7 27. Rad1
+Qb4 28. b3 Qe7 29. Qd2 Qb4 30. Qb2 Qe7 31. Qe2 Rcd7 32. d5 cxd5 33. Nxd5 Nxd5
+34. Bxd5 Rd6 35. Bc4 Rxd3 36. Rxd3 Rxd3 37. Qxd3 Qd6 38. Bd5 Qb4 39. Kg2 Be7 40.
+Qc2 Qc5 41. Qxc5 Bxc5 42. Bxb7 Kf8 43. Bd5 Ke7 44. Kf3 Bd6 45. h3 h5 46. Bc4 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.08"]
+[Round "3.3"]
+[White "Schlosser, Philipp"]
+[Black "Nisipeanu, Liviu-Dieter"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2582"]
+[BlackElo "2672"]
+[ECO "A20"]
+[Opening "English opening"]
+[WhiteFideId "4600169"]
+[BlackFideId "1202758"]
+[EventDate "2014.09.06"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 c6 4. d4 exd4 5. Qxd4 Na6 6. Nc3 Bc5 7. Qe5+ Be7 8.
+Nf3 O-O 9. O-O Re8 10. Qf4 Bb4 11. Bd2 d5 12. Rad1 Qe7 13. a3 Bd6 14. Qh4 dxc4
+15. Bg5 Bc7 16. Nd2 h6 17. Bxf6 Qxf6 18. Qxf6 gxf6 19. Nxc4 Bg4 20. b4 Bxe2 21.
+Nxe2 Rxe2 22. b5 cxb5 23. Bxb7 Rd8 24. Rxd8+ Bxd8 25. Rd1 Be7 26. Bxa6 bxc4 27.
+Bxc4 Rc2 28. Rd7 Kf8 29. Bb3 Rb2 30. Rb7 Bxa3 31. Rxf7+ Ke8 32. Rb7 Kd8 33. Bd5
+Rxb7 34. Bxb7 Kc7 35. Bd5 Kd6 36. Bb3 Bc5 37. Kg2 a5 38. f4 Bd4 39. Kf3 Bg1 40.
+h3 Kc5 41. g4 Kd4 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.08"]
+[Round "3.4"]
+[White "Wagner, Dennis"]
+[Black "Baramidze, David"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2499"]
+[BlackElo "2599"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack"]
+[WhiteFideId "24650684"]
+[BlackFideId "4667719"]
+[EventDate "2014.09.06"]
+
+1. Nf3 d5 2. g3 g6 3. c4 d4 4. b4 Bg7 5. Bb2 e5 6. e3 Ne7 7. Bg2 O-O 8. O-O Nd7
+9. exd4 exd4 10. d3 Nc6 11. Ba3 a5 12. bxa5 Re8 13. Nbd2 Nxa5 14. Qc1 Nc6 15.
+Nb3 Nde5 16. Nxe5 Nxe5 17. Be4 c6 18. Bb2 f5 19. f4 fxe4 20. fxe5 exd3 21. Bxd4
+Bxe5 22. Bxe5 Rxe5 23. Qc3 Re2 24. Nd4 Ra3 25. Nb3 Bf5 26. Rf4 Qe7 27. Qd4 Raxa2
+28. Rxa2 Rxa2 29. g4 Qh4 30. Kf1 Re2 31. Rf2 Qh3+ 32. Kg1 Re1+ 0-1
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.09"]
+[Round "4.1"]
+[White "Meier, Georg"]
+[Black "Baramidze, David"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2652"]
+[BlackElo "2599"]
+[ECO "D02"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "4675789"]
+[BlackFideId "4667719"]
+[EventDate "2014.09.06"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 c6 7. O-O O-O 8. Qb3
+Nbd7 9. Rc1 a5 10. a3 Nb6 11. c5 Nc4 12. Rxc4 dxc4 13. Qxc4 Nd7 14. Bf4 b6 15.
+Qc2 bxc5 16. dxc5 Nxc5 17. Nbd2 Ba6 18. Ne5 Rc8 19. Ndc4 Bb5 20. a4 Bxc4 21.
+Nxc4 Na6 22. Rd1 Nb4 23. Qb3 Qe8 24. Nd6 Bxd6 25. Bxd6 Rd8 26. Bxf8 Qxf8 27. Bf3
+g6 28. h4 Rxd1+ 29. Qxd1 Qc5 30. Kg2 h6 31. Qd2 Kg7 32. b3 e5 33. e3 h5 34. Kg1
+Nd5 35. Bg2 Kf8 36. Qb2 Nb6 37. Bf1 Ke7 38. Qd2 Nd5 39. Qd3 Nb4 40. Qd1 Qc2 41.
+Qa1 f6 42. Bc4 Nd3 43. Bxd3 Qxd3 44. Qa3+ Qd6 45. Qc1 Qd5 46. Qb1 e4 47. b4 axb4
+48. Qxb4+ c5 49. Qb6 Qd1+ 50. Kh2 Qxa4 51. Qxc5+ Kf7 52. Qd5+ Kg7 53. Qb7+ Kg8
+54. Qc8+ Kg7 55. Qc7+ Kg8 56. Qd8+ Kf7 57. Qd5+ Kg7 58. Qe6 f5 59. Qe7+ 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.09"]
+[Round "4.2"]
+[White "Nisipeanu, Liviu-Dieter"]
+[Black "Wagner, Dennis"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2672"]
+[BlackElo "2499"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "1202758"]
+[BlackFideId "24650684"]
+[EventDate "2014.09.06"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 Be6 7. O-O Nd7 8.
+Nb3 Be7 9. Na5 Rb8 10. Bd2 O-O 11. h3 f5 12. exf5 Rxf5 13. Qe2 Bd5 14. Nh2 Nc5
+15. Nb3 e4 16. Rae1 Rf7 17. dxe4 Bxe4 18. Nxc5 Bxc5 19. Qxe4 Qxd2 20. Nf3 Qf4
+21. Qe6 Kh8 22. Re4 Rf6 23. Qe5 Qxe5 24. Nxe5 Rd8 25. Nd3 Bd6 26. Rfe1 Kg8 27.
+Re8+ Rf8 28. Rxd8 Rxd8 29. Re4 b5 30. Kf1 Rb8 31. c4 a5 32. c5 Bf8 33. Re6 b4
+34. b3 a4 35. Rxc6 axb3 36. axb3 Rb7 37. Ke2 Kf7 38. Ke3 Ra7 39. Nxb4 Ke8 40.
+Kd4 Ra3 41. Kc4 Ra1 42. Nd5 Ra2 43. Rxc7 Rxf2 44. g4 Kd8 45. b4 Rc2+ 46. Kb5 Rd2
+47. Kc6 Rxd5 48. Rf7 1-0
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.09"]
+[Round "4.3"]
+[White "Bluebaum, Matthias"]
+[Black "Schlosser, Philipp"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2521"]
+[BlackElo "2582"]
+[ECO "E15"]
+[Opening "Queen's Indian"]
+[Variation "Nimzovich variation (exaggerated fianchetto)"]
+[WhiteFideId "24651516"]
+[BlackFideId "4600169"]
+[EventDate "2014.09.06"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Nc3 d5 8. cxd5
+exd5 9. Bg2 O-O 10. O-O Bb7 11. Ne5 Re8 12. Rc1 Nbd7 13. Rc2 a6 14. Bc1 Bd6 15.
+Nc4 Bf8 16. Bf4 h6 17. Ne5 Bd6 18. Nd3 Ne4 19. Bxd6 cxd6 20. Nf4 Ndf6 21. e3 Rc8
+22. Qd3 Nxc3 23. Rxc3 Ne4 24. Rc2 Rxc2 25. Qxc2 Qe7 26. Rc1 g5 27. Nd3 Rc8 28.
+Qb2 a5 29. Rxc8+ Bxc8 30. Qc2 Ba6 31. Nb2 Qb7 32. a3 Kg7 33. Nd1 Bb5 34. f3 Nf6
+35. e4 Qe7 36. Ne3 Bd7 37. Qc7 Kf8 38. Qb8+ Kg7 39. Qxb6 dxe4 40. Qb7 Qe8 41.
+fxe4 Kg6 42. Nd5 Nxd5 43. Qxd5 Qb8 44. h3 Be6 45. Qxa5 Qxb3 46. Kh2 Qb8 47. Qa6
+Kg7 48. Qc6 Bb3 49. Qc3 Ba4 50. e5 dxe5 51. dxe5 Qb3 52. Qd4 Qxa3 53. e6+ Kg6
+54. exf7 Kxf7 55. Bd5+ Ke7 56. Qg7+ Kd8 57. Qxh6 Qb2+ 58. Bg2 Qe5 59. h4 Be8 60.
+hxg5 Ke7 61. Qh4 Bg6 62. Qb4+ Ke8 63. Bc6+ Kf7 64. Qf4+ Ke6 65. Bd7+ Kd6 66. Bh3
+Kd5 67. Qd2+ Kc6 68. Bg2+ Kc7 69. Qf4 Kd6 70. Bf1 Kd5 71. Bc4+ Kd6 72. Kh3 1-0
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.09"]
+[Round "4.4"]
+[White "Naiditsch, Arkadij"]
+[Black "Fridman, Daniel"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2715"]
+[BlackElo "2633"]
+[ECO "C42"]
+[Opening "Petrov"]
+[Variation "Nimzovich attack"]
+[WhiteFideId "4650891"]
+[BlackFideId "11600454"]
+[EventDate "2014.09.06"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Be3 Nc6 8.
+Qd2 O-O 9. O-O-O Ne5 10. Kb1 Be6 11. Nd4 Bd7 12. f4 Ng4 13. Bd3 Re8 14. Rhe1 Bh4
+15. g3 Nxe3 16. Rxe3 Bf6 17. Rxe8+ Qxe8 18. h3 c5 19. Nf5 Bxf5 20. Bxf5 Qc6 21.
+Qd3 c4 22. Qxd6 Qxd6 23. Rxd6 h5 24. a4 Rd8 25. Rxd8+ Bxd8 26. Be4 b6 27. Kc1 h4
+28. gxh4 Bxh4 29. Kd2 Kf8 30. Ke3 Ke7 31. Kd4 Kd6 32. Kxc4 Bg3 33. f5 f6 34. Kb5
+Kc7 35. c4 Bf2 36. Ka6 Kb8 37. b4 Bd4 38. h4 Bf2 39. h5 Bd4 40. Bd5 Be3 41. c5
+bxc5 42. b5 c4 43. Bxc4 Bf2 44. Be6 Be3 45. Bf7 Bf2 46. c3 Be1 47. c4 Bf2 48. b6
+axb6 49. Kb5 Kc7 50. c5 bxc5 51. Bc4 Kb7 52. a5 Ka7 53. a6 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.10"]
+[Round "5.1"]
+[White "Fridman, Daniel"]
+[Black "Meier, Georg"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2633"]
+[BlackElo "2652"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "11600454"]
+[BlackFideId "4675789"]
+[EventDate "2014.09.06"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. Nf3 c5 6. dxc5 Na6 7. g3 Nxc5 8. Bg2
+Nce4 9. O-O Nxc3 10. bxc3 Be7 11. e4 d6 12. e5 dxe5 13. Nxe5 Qc7 14. Qe2 Nd7 15.
+Bf4 Nxe5 16. Bxe5 Bd6 17. Bxd6 Qxd6 18. Rfd1 Qc7 19. Qd3 Rb8 20. Qd6 Qxd6 21.
+Rxd6 b6 22. Rb1 e5 23. Re1 Be6 24. Rxe5 Bxc4 25. Bd5 Rbc8 26. Re7 Bxd5 27. Rxd5
+Rxc3 28. Rxa7 Rc6 29. Rb5 g6 30. Ra6 Rb8 31. a4 Kg7 32. Kg2 h5 33. h4 Re6 34.
+Rb3 Rb7 35. Rb4 Rf6 36. Rb5 Re6 37. a5 bxa5 38. Raxa5 Rxb5 39. Rxb5 Kf6 40. Rb3
+Re5 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.10"]
+[Round "5.2"]
+[White "Schlosser, Philipp"]
+[Black "Naiditsch, Arkadij"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2582"]
+[BlackElo "2715"]
+[ECO "E91"]
+[Opening "King's Indian"]
+[Variation "Kazakh variation"]
+[WhiteFideId "4600169"]
+[BlackFideId "4650891"]
+[EventDate "2014.09.06"]
+
+1. c4 Nf6 2. Nf3 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 Na6 7. O-O e5 8. Re1
+Qe8 9. Bf1 Bg4 10. d5 Nb4 11. Be2 a5 12. Rb1 Na6 13. Be3 Bd7 14. Nd2 Kh8 15. a3
+a4 16. Nb5 Qe7 17. Bg5 c6 18. Nc3 Nc5 19. b4 axb3 20. Nxb3 Nxb3 21. Qxb3 Bc8 22.
+Na4 c5 23. Nb6 Ra7 24. Qf3 h6 25. Bh4 Kg8 26. Rb3 g5 27. Nxc8 Rxc8 28. Bg3 Rca8
+29. Reb1 h5 30. Qf5 Bh6 31. h4 g4 32. Rb6 Kg7 33. a4 Rd8 34. Bd1 Qd7 35. Qxd7
+Rxd7 36. Bc2 Bf4 37. Bxf4 exf4 38. Re1 Ne8 39. Kf1 Re7 40. e5 Ra6 41. Reb1 dxe5
+42. Rxa6 bxa6 43. Rb6 Rd7 44. Rc6 Nd6 45. Rxc5 Rb7 46. Rc6 Rb2 47. c5 Nc4 48.
+Bd3 Nd2+ 49. Ke2 e4 50. Bxa6 Nb3+ 51. Ke1 f3 52. gxf3 gxf3 53. Kd1 Rd2+ 54. Ke1
+Rc2 0-1
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.10"]
+[Round "5.3"]
+[White "Wagner, Dennis"]
+[Black "Bluebaum, Matthias"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2499"]
+[BlackElo "2521"]
+[ECO "D11"]
+[Opening "QGD Slav"]
+[Variation "3.Nf3"]
+[WhiteFideId "24650684"]
+[BlackFideId "24651516"]
+[EventDate "2014.09.06"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. g3 Bf5 5. Nc3 e6 6. Nh4 Bg4 7. f3 Bh5 8. Qb3 Na6
+9. cxd5 Nxd5 10. Nxd5 exd5 11. Nf5 Bb4+ 12. Kf2 O-O 13. a3 Bg6 14. Nh4 Qa5 15.
+Bf4 Bd2 16. e3 c5 17. Nxg6 hxg6 18. Qxb7 g5 19. Be5 Bxe3+ 20. Kxe3 cxd4+ 21. Kf2
+Qd2+ 22. Kg1 Qe3+ 23. Kg2 Qd2+ 24. Kg1 Qe3+ 25. Kg2 Qd2+ 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.10"]
+[Round "5.4"]
+[White "Baramidze, David"]
+[Black "Nisipeanu, Liviu-Dieter"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2599"]
+[BlackElo "2672"]
+[ECO "E83"]
+[Opening "King's Indian"]
+[Variation "Saemisch, Panno formation"]
+[WhiteFideId "4667719"]
+[BlackFideId "1202758"]
+[EventDate "2014.09.06"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 Nc6 7. Nge2 a6 8. Qd2
+Na5 9. Nc1 Nd7 10. b4 Nc6 11. Rb1 e5 12. d5 Nd4 13. N1e2 Nxe2 14. Bxe2 f5 15. c5
+Nf6 16. O-O f4 17. Bf2 g5 18. b5 axb5 19. Nxb5 g4 20. cxd6 cxd6 21. Rfc1 g3 22.
+hxg3 fxg3 23. Bxg3 Nh5 24. Bh2 Qf6 25. Rc2 Bh6 26. Qe1 Kh8 27. Nc7 Ra3 28. Ne6
+Rg8 29. g4 Bxe6 30. dxe6 Bf4 31. Bd1 Re3 32. Qf2 Rd3 33. Qf1 Re3 34. Qf2 Bxh2+
+35. Qxh2 Nf4 36. Kf2 Rd3 37. Rxb7 h5 38. Be2 Qxe6 39. Bxd3 Nxd3+ 40. Kf1 Nf4 41.
+Rcc7 1-0
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.11"]
+[Round "6.1"]
+[White "Meier, Georg"]
+[Black "Nisipeanu, Liviu-Dieter"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2652"]
+[BlackElo "2672"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "4675789"]
+[BlackFideId "1202758"]
+[EventDate "2014.09.06"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 dxc4 5. Bg2 Bd7 6. Ne5 Bc6 7. Nxc6 Nxc6 8.
+O-O Qd7 9. e3 O-O-O 10. Nd2 e5 11. Qa4 exd4 12. exd4 a6 13. Bxc6 Qxc6 14. Qxc6
+bxc6 15. Nxc4 Rxd4 16. b3 Re4 17. Bb2 Nd5 18. Rfe1 Rxe1+ 19. Rxe1 Bb4 20. Rc1 f6
+21. a3 Be7 22. Na5 c5 23. a4 Rd8 24. Ba3 Nb4 25. Bxb4 cxb4 26. Nc6 Rd7 27. Kf1
+Kb7 28. Rc4 Kb6 29. Nxe7 Rxe7 30. Rxb4+ Kc5 31. Rb7 Kc6 32. Rb8 Kd5 33. Rb7 Kc6
+34. Rb8 Kd5 35. h4 g6 36. Rb7 Kc6 37. Rb8 Kd5 38. Rb7 Kc6 39. Rb8 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.11"]
+[Round "6.2"]
+[White "Bluebaum, Matthias"]
+[Black "Baramidze, David"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2521"]
+[BlackElo "2599"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "classical variation (5.Bf4)"]
+[WhiteFideId "24651516"]
+[BlackFideId "4667719"]
+[EventDate "2014.09.06"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 Nbd7 7. c5 c6 8. h3 b6
+9. b4 a5 10. a3 h6 11. Bd3 Ba6 12. Bxa6 Rxa6 13. O-O Qa8 14. b5 cxb5 15. Bd6 Qd8
+16. Bxe7 Qxe7 17. c6 Rc8 18. Rc1 Nb8 19. Nxb5 Rxc6 20. Ne5 Rxc1 21. Qxc1 Qd8 22.
+Qc2 Ra8 23. Qc7 Nbd7 24. Qxd8+ Rxd8 25. Nc6 Ra8 26. Rc1 Ne8 27. Nca7 Nd6 28.
+Nxd6 Rxa7 29. Rc8+ Kh7 30. a4 Kg6 31. Nb5 Rb7 32. Nd6 Ra7 33. Nb5 Rb7 34. Nd6 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.11"]
+[Round "6.3"]
+[White "Naiditsch, Arkadij"]
+[Black "Wagner, Dennis"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2715"]
+[BlackElo "2499"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "4650891"]
+[BlackFideId "24650684"]
+[EventDate "2014.09.06"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8.
+Qxd8+ Kxd8 9. Nc3 Ke8 10. Bf4 Be6 11. Rfd1 h6 12. h3 Be7 13. g4 Nh4 14. Nxh4
+Bxh4 15. Kg2 Be7 16. f3 Rd8 17. Ne2 h5 18. Nd4 Bd7 19. Bg3 c5 20. Ne2 Bc6 21.
+Nf4 hxg4 22. hxg4 Rh6 23. c4 Rxd1 24. Rxd1 Bd7 25. Nd5 Bd8 26. Bf2 b6 27. Be3
+Rh8 28. b3 Rh7 29. Bf4 Rh8 30. Bg3 Rh6 31. Ne3 Bc6 32. Kf2 Rh7 33. f4 Be4 34.
+Re1 Rh1 35. Rxh1 Bxh1 36. Ng2 c6 37. Kg1 Bxg2 38. Kxg2 g5 39. Kf3 Kd7 40. f5 Ke7
+41. Ke4 Bc7 42. Be1 Bd8 43. Bd2 f6 44. exf6+ Kxf6 45. Bc3+ Kf7 46. Be5 a6 47. f6
+Ke6 48. f7 Be7 49. Bc7 Kxf7 50. Kf5 b5 51. Be5 b4 52. Bb2 Bd8 53. Bc1 Bf6 54.
+Bxg5 Bd4 55. Bd8 Bc3 56. g5 Bd4 57. Bf6 Bc3 58. g6+ Kg8 59. Be5 Bd4 60. Ke6 1-0
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.11"]
+[Round "6.4"]
+[White "Fridman, Daniel"]
+[Black "Schlosser, Philipp"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2633"]
+[BlackElo "2582"]
+[ECO "E20"]
+[Opening "Nimzo-Indian"]
+[Variation "Kmoch variation"]
+[WhiteFideId "11600454"]
+[BlackFideId "4600169"]
+[EventDate "2014.09.06"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 O-O 5. a3 Bxc3+ 6. bxc3 Ne8 7. Nh3 b6 8. e4
+Nc6 9. Bd3 Ba6 10. Qe2 Qh4+ 11. Nf2 Na5 12. O-O Nd6 13. g3 Qe7 14. e5 Ndxc4 15.
+Qe4 f5 16. exf6 gxf6 17. Bh6 f5 18. Bxf8 fxe4 19. Bxe7 exd3 20. Nxd3 Ne3 21.
+Rfe1 Nc2 22. Ne5 d6 23. Ng4 h5 24. Ne3 Nxa1 25. Rxa1 Nc4 26. Nxc4 Bxc4 27. Kf2
+Kf7 28. Bg5 Kg6 29. f4 Bd5 30. Rc1 Bc4 31. h3 Kf5 32. Ke3 Re8 33. Re1 Bd5 34.
+Kf2 Rh8 35. Rc1 Bc4 36. Kf3 Bd5+ 37. Kf2 Bc4 38. Kf3 Bd5+ 39. Kf2 Bc4 40. Kf3
+Bd5+ 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.12"]
+[Round "7.1"]
+[White "Schlosser, Philipp"]
+[Black "Meier, Georg"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2582"]
+[BlackElo "2652"]
+[ECO "A33"]
+[Opening "English"]
+[Variation "symmetrical, Geller variation"]
+[WhiteFideId "4600169"]
+[BlackFideId "4675789"]
+[EventDate "2014.09.06"]
+
+1. c4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. g3 Qb6 7. Ndb5 d5 8.
+cxd5 Bc5 9. Bg2 Bxf2+ 10. Kf1 Nxd5 11. Nd6+ Kf8 12. Nxc8 Rxc8 13. Bxd5 exd5 14.
+Nxd5 Qd4 15. Bf4 Rd8 16. Qxd4 Bxd4 17. e4 Rd7 18. Nc3 Ke7 19. Ke2 Re8 20. Rhd1
+Kd8 21. Kf3 f6 22. h4 h5 23. Rd2 Bxc3 24. Rxd7+ Kxd7 25. bxc3 Ne5+ 26. Ke3 Kc6
+27. Rd1 Nc4+ 28. Kf3 b5 29. Rd4 a5 30. g4 hxg4+ 31. Kxg4 g6 32. Kf3 a4 33. Bg3
+Ne5+ 34. Ke2 Rf8 35. Rd5 Re8 36. Rd4 Nf7 37. Kf3 Re6 38. Rb4 Ne5+ 39. Bxe5 Rxe5
+40. c4 bxc4 41. Rxc4+ Kb5 42. Rc2 Kb4 43. Rc6 f5 44. exf5 Rxf5+ 45. Kg4 Rf2 46.
+Rxg6 Rxa2 47. Rb6+ Kc4 48. Ra6 Kb4 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.12"]
+[Round "7.2"]
+[White "Wagner, Dennis"]
+[Black "Fridman, Daniel"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2499"]
+[BlackElo "2633"]
+[ECO "D73"]
+[Opening "Neo-Gruenfeld, 5.Nf3"]
+[WhiteFideId "24650684"]
+[BlackFideId "11600454"]
+[EventDate "2014.09.06"]
+
+1. Nf3 d5 2. g3 g6 3. d4 Bg7 4. Bg2 Nf6 5. c4 dxc4 6. Na3 c3 7. bxc3 O-O 8. O-O
+c5 9. Bb2 Nc6 10. Re1 Nd7 11. e4 Nb6 12. Rb1 e5 13. d5 Na5 14. Nd2 Bd7 15. c4
+Nc8 16. f4 Re8 17. fxe5 Bxe5 18. Bxe5 Rxe5 19. Qc1 Nd6 20. Qc3 f6 21. Rf1 b6 22.
+Nc2 Bg4 23. Rf4 g5 24. Rxg4 h5 25. Rf4 gxf4 26. gxf4 Re8 27. e5 fxe5 28. fxe5
+Qg5 29. Re1 Qg7 30. Kh1 Kh8 31. Bh3 Naxc4 32. Nxc4 Nxc4 33. Qxc4 Rxe5 34. Rd1
+Rg8 35. Qc3 Rd8 36. Ne3 Re4 37. Qxg7+ Kxg7 38. Nf5+ Kf6 39. d6 h4 40. Ne7 Rd4
+41. Rf1+ Kg5 42. Rg1+ Kf4 43. Nc6 R8xd6 44. Nxd4 Rxd4 45. Be6 Ke3 46. Kg2 c4 47.
+Kh3 b5 48. Rg5 a6 49. Rc5 Kd2 50. a4 c3 51. axb5 axb5 52. Rxb5 c2 53. Rb2 Kc3
+54. Rb3+ Kd2 55. Rb2 Rf4 56. Bg4 Rf2 57. Kxh4 Rxh2+ 58. Kg3 Kc3 59. Rb8 Rh1 60.
+Rc8+ Kb2 61. Rb8+ Ka3 62. Rc8 c1=Q 63. Rxc1 Rxc1 64. Kf4 Kb4 65. Ke5 Kc5 66. Be6
+Re1+ 67. Kf6 Kd6 68. Bf7 Rf1+ 69. Kg7 Ke7 70. Bg8 Rg1+ 71. Kh8 Kf6 72. Bh7 Rh1
+73. Kg8 Ra1 74. Kh8 Ra8+ 75. Bg8 Kg6 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.12"]
+[Round "7.3"]
+[White "Baramidze, David"]
+[Black "Naiditsch, Arkadij"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2599"]
+[BlackElo "2715"]
+[ECO "E81"]
+[Opening "King's Indian"]
+[Variation "Saemisch, 5...O-O"]
+[WhiteFideId "4667719"]
+[BlackFideId "4650891"]
+[EventDate "2014.09.06"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. Nge2 Nc6 8. d5 Ne5
+9. Ng3 h5 10. Be2 h4 11. Nf1 e6 12. f4 Nxc4 13. Bxc4 b5 14. Bxb5 exd5 15. exd5
+Rb8 16. Rc1 a6 17. Be2 Rxb2 18. Rc2 Rxc2 19. Qxc2 Re8 20. h3 Qa5 21. Bd2 Qb4 22.
+Kd1 Bf5 23. Bd3 Qd4 24. Bxf5 gxf5 25. Qxf5 Ne4 26. Nxe4 Rxe4 27. Qc8+ Kh7 28.
+Qf5+ Kg8 29. Qc8+ Kh7 30. Qf5+ Kg8 1/2-1/2
+
+[Event "GRENKE Classic 2014"]
+[Site "Baden Baden GER"]
+[Date "2014.09.12"]
+[Round "7.4"]
+[White "Nisipeanu, Liviu-Dieter"]
+[Black "Bluebaum, Matthias"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2672"]
+[BlackElo "2521"]
+[ECO "B13"]
+[Opening "Caro-Kann"]
+[Variation "Panov-Botvinnik attack"]
+[WhiteFideId "1202758"]
+[BlackFideId "24651516"]
+[EventDate "2014.09.06"]
+
+1. c4 c6 2. e4 d5 3. exd5 cxd5 4. d4 Nf6 5. Nc3 Nc6 6. Bg5 Be6 7. a3 Qd7 8. Rc1
+Rd8 9. c5 Ne4 10. Be3 Nxc5 11. dxc5 d4 12. Nf3 dxe3 13. Qxd7+ Rxd7 14. fxe3 g6
+15. Bb5 Bg7 16. Ke2 O-O 17. Rhd1 Rfd8 18. Rxd7 Rxd7 19. b4 Rc7 20. Bd3 a5 21. b5
+Ne5 22. Na4 Nxd3 23. Kxd3 Bf5+ 24. Ke2 e5 25. Nd2 Rd7 26. Nc4 Bd3+ 27. Ke1 e4
+28. Ncb6 Bxb5 29. Nxd7 Bxa4 30. Nb6 Bb3 31. Nc4 a4 32. Kd2 f5 33. h3 Kf8 34. g4
+Ke7 35. gxf5 gxf5 36. Na5 Bb2 37. Rb1 Bxa3 38. Nxb3 axb3 39. Rxb3 Bxc5 40. Rxb7+
+Kf6 41. Rxh7 Bf8 42. Ke2 Kg6 43. Rh8 Be7 44. Rg8+ Kf7 45. Rg2 Bh4 46. Kd2 Bf6
+47. Kc2 Bd8 48. Kc3 Bb6 49. Rg3 Bc7 50. Rg5 Ke6 51. h4 Ba5+ 52. Kc2 Bd8 53. Rg6+
+Kf7 54. h5 Bf6 55. Kb3 Bh4 56. Rg2 Kf6 57. h6 1-0
+

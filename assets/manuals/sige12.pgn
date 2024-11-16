@@ -1,0 +1,570 @@
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.09"]
+[Round "1"]
+[White "Caruana,F"]
+[Black "Giri,A"]
+[Result "1-0"]
+[WhiteElo "2770"]
+[BlackElo "2693"]
+[EventDate "2012.05.09"]
+[ECO "C65"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. c3 O-O 6. O-O d6 7. h3 Ne7 8.
+d4 Bb6 9. Re1 c6 10. Bd3 Ng6 11. Be3 Re8 12. Nbd2 h6 13. Qc2 Bd7 14. Rad1
+Bc7 15. dxe5 Nxe5 16. Nxe5 dxe5 17. Bf1 Qe7 18. b4 Red8 19. a4 Be6 20. a5
+Nd7 21. Ra1 b6 22. a6 Nf8 23. Nf3 Ng6 24. g3 Bd6 25. Red1 Rac8 26. Rd2 Bc7
+27. Rad1 Rxd2 28. Rxd2 Rd8 29. h4 Nf8 30. Rxd8 Qxd8 31. Nd2 Qc8 32. Qa4 Bd6
+33. Nc4 Bxc4 34. Bxc4 b5 35. Qd1 Be7 36. Bb3 Ne6 37. Qg4 Kf8 38. Qf5 Bf6
+39. g4 Ke8 40. g5 hxg5 41. hxg5 1-0
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.09"]
+[Round "1"]
+[White "Tikkanen,H"]
+[Black "Hector,J"]
+[Result "0-1"]
+[WhiteElo "2566"]
+[BlackElo "2560"]
+[EventDate "2012.05.09"]
+[ECO "A09"]
+
+1. Nf3 d5 2. c4 c6 3. e3 Nf6 4. Nc3 e6 5. b3 Bd6 6. Bb2 O-O 7. Be2 e5 8.
+cxd5 cxd5 9. Nb5 Nc6 10. Nxd6 Qxd6 11. d4 e4 12. Ne5 Ne7 13. Qc1 Be6 14.
+Ba3 Qd8 15. Qc5 Re8 16. Qb4 Nc6 17. Nxc6 bxc6 18. h3 a5 19. Qd6 Bd7 20. O-O
+Re6 21. Qf4 h6 22. Rfb1 Nh7 23. Bc5 Rf6 24. Qe5 Qc8 25. Bf1 Bxh3 26. b4 Ng5
+27. bxa5 Rg6 28. Kh2 Qg4 29. Rb8+ Rxb8 30. Qxb8+ Kh7 31. Qg3 Qh5 32. gxh3
+Nf3+ 33. Kg2 Rxg3+ 34. fxg3 Ng5 35. Kh2 Qf3 36. Bg2 Qf2 37. Bd6 Nf3+ 38.
+Kh1 Ne1 39. a6 Qxg2+ 0-1
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.09"]
+[Round "1"]
+[White "Leko,P"]
+[Black "Grandelius,N"]
+[Result "1/2-1/2"]
+[WhiteElo "2723"]
+[BlackElo "2556"]
+[EventDate "2012.05.09"]
+[ECO "B78"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8.
+Qd2 O-O 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Nxd4 12. Bxd4 b5 13. Nd5 Nxd5 14.
+Bxg7 Kxg7 15. exd5 a5 16. a3 Kg8 17. Rhe1 Rc5 18. Re3 Qa8 19. Rxe7 Bf5 20.
+g4 a4 21. Bxa4 Qxa4 22. gxf5 Rfc8 23. c3 b4 24. axb4 Qa1+ 25. Kc2 Qa4+ 26.
+Kc1 Qa1+ 27. Kc2 Qa4+ 28. Kb1 Rxc3 29. Ra7 Qxb4 30. f6 Qb3 31. Ra3 Qc2+ 32.
+Qxc2 Rxc2 33. h4 R2c4 34. Ra6 Rxh4 35. Rxd6 Rf4 36. Rd3 h5 37. Rc6 Rd8 38.
+b3 Rf5 39. d6 Rxf6 40. Kc2 h4 41. Rc4 Rdxd6 42. Rxd6 Rxd6 43. Rxh4 Kg7 44.
+Rc4 g5 45. b4 Kg6 46. b5 Kh5 47. Rb4 Rb6 48. Kd3 f5 49. Ke2 g4 50. Kf2 gxf3
+51. Kxf3 1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.09"]
+[Round "1"]
+[White "Berg,E"]
+[Black "Li Chao2"]
+[Result "1/2-1/2"]
+[WhiteElo "2587"]
+[BlackElo "2703"]
+[EventDate "2012.05.09"]
+[ECO "B32"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 a6 6. Nd6+ Bxd6 7. Qxd6
+Qe7 8. Qd1 Nf6 9. Nc3 d6 10. Be2 O-O 11. Be3 b5 12. O-O Bb7 13. a4 Nd4 14.
+Bxd4 exd4 15. Qxd4 Nxe4 16. Nxe4 Bxe4 17. Rfe1 Qb7 18. axb5 axb5 19. Rxa8
+Rxa8 20. Bf1 Bxc2 21. Qxd6 Be4 22. Rc1 h6 23. h4 b4 24. Rc7 Qd5 25. Qxd5
+Bxd5 26. Bc4 Ra5 27. b3 g6 28. Bxd5 Rxd5 29. Rc4 Rb5 30. Kf1 Kg7 31. Ke2
+Kf6 32. Rd4 Ke5 33. Ke3 h5 34. g3 Rb7 35. Kd3 f6 36. Ke3 g5 37. Rc4 Rb5 38.
+Re4+ Kf5 39. Rd4 Ke6 40. Rc4 Re5+ 41. Kf3 Rf5+ 42. Kg2 Rb5 43. Re4+ Kf5 44.
+f3 Kg6 45. Rc4 Rb6 46. Kh3 Rb5 47. Kg2 Rb6 48. Kf2 Rb5 49. Ke3 Re5+ 50. Kf2
+Rb5 51. Rd4 Rc5 52. Rxb4 Rc2+ 53. Ke3 Rc3+ 54. Ke2 Rc2+ 55. Kf1 Rc1+ 56.
+Kg2 Rc2+ 57. Kh3 Rf2 58. hxg5 fxg5 59. Rb6+ Kg7 60. Rb5 1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.10"]
+[Round "2"]
+[White "Hector,J"]
+[Black "Leko,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2560"]
+[BlackElo "2723"]
+[EventDate "2012.05.09"]
+[ECO "C25"]
+
+1. e4 e5 2. Nc3 Nc6 3. g3 Bc5 4. Bg2 d6 5. d3 Nf6 6. Nge2 a6 7. O-O O-O 8.
+h3 Be6 9. Nd5 Bxd5 10. exd5 Nd4 11. Nxd4 Bxd4 12. c3 Bb6 13. a4 a5 14. d4
+exd4 15. cxd4 Re8 16. Ra3 Qd7 17. Re3 c6 18. dxc6 bxc6 19. Rfe1 d5 20. Qd3
+h6 21. Bd2 Rxe3 22. Bxe3 Bc7 23. Rc1 Bd6 24. Bf1 Ne4 25. Kg2 Rb8 26. Qc2
+Rb6 27. Bd3 f5 28. Re1 Qf7 29. Re2 Qg6 30. Kf1 Qh5 31. Kg2 Qg6 32. Kf1 h5
+33. Bd2 Bb4 34. Bf4 Bd6 35. Bd2 Bb4 36. Bf4 Bd6 1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.10"]
+[Round "2"]
+[White "Grandelius,N"]
+[Black "Berg,E"]
+[Result "1-0"]
+[WhiteElo "2556"]
+[BlackElo "2587"]
+[EventDate "2012.05.09"]
+[ECO "E62"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. Nc3 d6 5. g3 O-O 6. Bg2 c6 7. O-O Qb6 8.
+Qc2 Na6 9. e4 Bg4 10. Be3 Qa5 11. h3 Bxf3 12. Bxf3 e5 13. d5 cxd5 14. cxd5
+Nd7 15. Bg4 Nb6 16. Be2 Rfc8 17. a3 Nd7 18. Qb1 Qd8 19. Nb5 Ndc5 20. b4 Na4
+21. Qb3 Nb6 22. a4 f5 23. a5 f4 24. Bd2 Nd7 25. Nxd6 Ndc5 26. bxc5 Nxc5 27.
+Qa3 Qxd6 28. Bb4 Bf8 29. Bg4 fxg3 30. fxg3 Rc7 31. Rac1 Be7 32. Be6+ Kh8
+33. Rf7 Rf8 34. Rxe7 Qxe7 35. Bxc5 Qg5 36. Qe3 Qxe3+ 37. Bxe3 Rxc1+ 38.
+Bxc1 Kg7 39. Bg5 Rf3 40. Kg2 Rd3 41. Be7 1-0
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.10"]
+[Round "2"]
+[White "Giri,A"]
+[Black "Li Chao2"]
+[Result "1/2-1/2"]
+[WhiteElo "2693"]
+[BlackElo "2703"]
+[EventDate "2012.05.09"]
+[ECO "D11"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 g6 5. Nc3 Bg7 6. Be2 O-O 7. O-O b6 8. b3
+Ne4 9. Bb2 Nxc3 10. Bxc3 Bb7 11. Qc2 e6 12. Rfd1 Qe7 13. Qb2 Nd7 14. cxd5
+exd5 15. a4 a6 16. Ne1 a5 17. b4 axb4 18. Bxb4 c5 19. Bc3 Nf6 20. Bf3 Bc6
+21. Qxb6 Bxa4 22. Rdc1 Nd7 23. Qb7 Rab8 24. Qxd5 Bb3 25. Qe4 Qxe4 26. Bxe4
+cxd4 27. Bxd4 Bxd4 28. exd4 Nf6 29. Bc6 Rfd8 30. Nf3 Nd5 31. g3 Nb4 32. Be4
+f5 33. Bb1 Rbc8 34. Re1 Rc3 35. Ne5 Rxd4 36. Ra7 1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.10"]
+[Round "2"]
+[White "Caruana,F"]
+[Black "Tikkanen,H"]
+[Result "1-0"]
+[WhiteElo "2770"]
+[BlackElo "2566"]
+[EventDate "2012.05.09"]
+[ECO "D71"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 Nb6 7. Nc3 Nc6
+8. e3 O-O 9. O-O Re8 10. Re1 a5 11. Qc2 a4 12. Rd1 Bf5 13. Qe2 Ra5 14. Bd2
+Be6 15. Ne4 Bc4 16. Qe1 Rb5 17. Bc3 Nd5 18. Nc5 a3 19. Nd2 axb2 20. Bxb2
+Na5 21. Ba3 c6 22. Rdc1 Qa8 23. Rxc4 Nxc4 24. Nxc4 Nb6 25. Nxb6 Rxb6 26.
+Bb4 e5 27. dxe5 Bxe5 28. Bc3 Rb5 29. Nd7 Bxc3 30. Qxc3 Re6 31. Nf6+ Kf8 32.
+Nd5 Qa5 33. Qh8+ 1-0
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.11"]
+[Round "3"]
+[White "Tikkanen,H"]
+[Black "Giri,A"]
+[Result "0-1"]
+[WhiteElo "2566"]
+[BlackElo "2693"]
+[EventDate "2012.05.09"]
+[ECO "A15"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. g3 Bg7 6. Bg2 O-O 7. O-O Nxc3
+8. bxc3 c5 9. Rb1 Nc6 10. Qa4 Qc7 11. d4 Bf5 12. Bf4 Qa5 13. Qxa5 Nxa5 14.
+Rb5 b6 15. dxc5 Bd7 16. Rxa5 bxa5 17. Ne5 Bxe5 18. Bxe5 Rac8 19. Bd4 Bc6
+20. Bxc6 Rxc6 21. Rb1 f6 22. f4 Kf7 23. Rb7 Ra8 24. Kf2 Rcc8 25. Rb5 Ke6
+26. Rxa5 a6 27. Ke3 Kd5 28. Kd3 Rcb8 29. Ra3 Kc6 30. Rb3 Rxb3 31. axb3 a5
+32. c4 Rb8 33. Kc3 Re8 34. Kd3 Rb8 35. Kc3 h5 36. e4 Rd8 37. e5 fxe5 38.
+fxe5 e6 39. Be3 Rd1 40. h4 Rf1 41. Kb2 Rf3 42. Bf4 a4 43. bxa4 Kxc5 44. a5
+Kxc4 0-1
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.11"]
+[Round "3"]
+[White "Leko,P"]
+[Black "Caruana,F"]
+[Result "1/2-1/2"]
+[WhiteElo "2723"]
+[BlackElo "2770"]
+[EventDate "2012.05.09"]
+[ECO "C92"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. h3 Re8 10. d4 Bb7 11. Nbd2 Bf8 12. a3 h6 13. Bc2 Nb8 14. b3 Nbd7
+15. Bb2 g6 16. a4 c6 17. Bd3 Nh5 18. g3 Bg7 19. Qc2 Qb6 20. Bf1 Rac8 21.
+Bg2 a5 22. Nf1 bxa4 23. bxa4 exd4 24. Nxd4 Ne5 25. Ne3 Ba6 26. Ba3 Nc4 27.
+Nxc4 Bxc4 28. Rab1 Qa6 29. Red1 d5 30. exd5 cxd5 31. Nb5 Red8 32. Rd2 Nf6
+33. Be7 Rd7 34. Bxf6 Qxf6 35. Qd1 Rcd8 36. Qf3 Qg5 37. Qd1 h5 38. h4 Qe5
+39. Bf1 Qe7 1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.11"]
+[Round "3"]
+[White "Li Chao2"]
+[Black "Grandelius,N"]
+[Result "1/2-1/2"]
+[WhiteElo "2703"]
+[BlackElo "2556"]
+[EventDate "2012.05.09"]
+[ECO "B42"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 g6 6. O-O Bg7 7. Nb3 Ne7 8.
+c4 O-O 9. Nc3 Nbc6 10. Be2 f5 11. c5 fxe4 12. Nxe4 b6 13. Nd6 bxc5 14. Be3
+Bxb2 15. Rb1 Be5 16. Bxc5 Qc7 17. g3 Nd5 18. Ne4 d6 19. Ba3 Bb7 20. Bg4 Qe7
+21. Nbc5 Bc8 22. Nxe6 Ne3 23. Qb3 Nxg4 24. Nxf8+ Kxf8 25. Qd5 Bd7 26. Nxd6
+Nf6 27. Qd3 Kg8 28. Rfe1 Qe6 29. Nc4 Qf5 30. Qxf5 Bxf5 31. Rb6 Bc3 32. Re3
+Nd4 33. Rxf6 Ne2+ 34. Rxe2 Bxf6 35. Nd6 Bh3 36. Ne4 Bd8 37. f3 Rc8 38. Rb2
+Rc6 39. Bc5 Bf5 40. Be3 Be7 41. Kf2 h5 42. Ke2 Kf7 43. Kd3 Rd6+ 44. Bd4 Rd5
+45. Ke3 Rb5 46. Rc2 Ra5 47. Rc7 Ke6 48. Rc6+ Kd5 49. Rb6 Ra3+ 50. Rb3 Rxb3+
+51. axb3 Bf8 52. Bc3 Bh6+ 53. Kd3 g5 54. Bd2 1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.11"]
+[Round "3"]
+[White "Berg,E"]
+[Black "Hector,J"]
+[Result "1-0"]
+[WhiteElo "2587"]
+[BlackElo "2560"]
+[EventDate "2012.05.09"]
+[ECO "D17"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Qc7
+8. g3 e5 9. dxe5 Nxe5 10. Bf4 Nfd7 11. Bg2 Be7 12. Rc1 f6 13. O-O Qb8 14.
+a5 a6 15. Na4 Qc7 16. Nab6 Rd8 17. Nd5 cxd5 18. Ne3 Qxa5 19. Nxf5 g6 20.
+Nxe7 Kxe7 21. Qd4 Nc6 22. Qe3+ Kf7 23. Rfd1 Nde5 24. b4 Qb5 25. Rc5 Qxb4
+26. Bxd5+ Rxd5 27. Rcxd5 Re8 28. Bxe5 Nxe5 29. Qh6 Kg8 30. Rxe5 fxe5 31.
+Rd7 Re7 32. Rd8+ Kf7 33. Qxh7+ Kf6 34. Qh8+ Kg5 35. h4+ Kf5 36. Qf8+ Ke6
+37. Qg8+ Kf5 38. Qf8+ Ke6 39. Qg8+ Kf5 40. Rf8+ Ke4 41. Qxg6+ Kd5 42. Rd8+
+Kc5 43. Rd1 a5 44. Qd6+ Kb5 45. Qd3+ Qc4 46. Rb1+ Kc5 47. Qa3+ 1-0
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.13"]
+[Round "4"]
+[White "Hector,J"]
+[Black "Li Chao2"]
+[Result "0-1"]
+[WhiteElo "2560"]
+[BlackElo "2703"]
+[EventDate "2012.05.09"]
+[ECO "B56"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Be3 e5 7. Nxc6 bxc6
+8. Be2 Be7 9. O-O O-O 10. f4 exf4 11. Rxf4 Be6 12. Qd2 Nd7 13. Rd1 Ne5 14.
+b3 Re8 15. Na4 Qc7 16. c4 Rad8 17. Rf2 d5 18. cxd5 cxd5 19. Rc1 Qb8 20. Qd4
+dxe4 21. Qxe4 Bd5 22. Qf5 Bh4 23. g3 Ng6 24. gxh4 Rxe3 25. Qg5 Re5 26. Qg3
+Rde8 27. h5 Nf8 28. h6 Ne6 29. Bg4 Ng5 30. Rf5 gxh6 31. Rxe5 Qxe5 32. Qxe5
+Rxe5 33. Nc3 Bb7 34. Kf2 h5 35. Be2 Nh3+ 36. Kg3 Re3+ 37. Kh4 Nf4 38. Bxh5
+Ng2+ 39. Kg5 Kg7 40. Bg4 f6+ 0-1
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.13"]
+[Round "4"]
+[White "Giri,A"]
+[Black "Grandelius,N"]
+[Result "1/2-1/2"]
+[WhiteElo "2693"]
+[BlackElo "2556"]
+[EventDate "2012.05.09"]
+[ECO "D80"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bg5 Ne4 5. Bh4 Nxc3 6. bxc3 dxc4 7. e3 Be6
+8. Be2 Bg7 9. Nf3 c5 10. O-O O-O 11. Rb1 Qd7 12. dxc5 Bf5 13. Qxd7 Nxd7 14.
+Rxb7 Nxc5 15. Rc7 1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.13"]
+[Round "4"]
+[White "Caruana,F"]
+[Black "Berg,E"]
+[Result "1/2-1/2"]
+[WhiteElo "2770"]
+[BlackElo "2587"]
+[EventDate "2012.05.09"]
+[ECO "E68"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d6 6. O-O Nbd7 7. Nc3 e5 8.
+e4 a6 9. a4 Rb8 10. h3 exd4 11. Nxd4 Re8 12. Be3 Nc5 13. Qc2 Qe7 14. Rfe1
+Nfxe4 15. Nxe4 Nxe4 16. Bxe4 Qxe4 17. Bd2 Qxe1+ 18. Rxe1 Rxe1+ 19. Bxe1
+Bxd4 20. Qe4 Be5 21. Bc3 Bf5 22. Qe3 Bxc3 23. bxc3 Rc8 24. Qf3 Rb8 25. g4
+Bd7 26. a5 Bc6 27. Qf6 Re8 28. f4 Re3 29. Kh2 Re2+ 30. Kg3 Re3+ 31. Kh2
+Re2+ 32. Kg1 Re3 33. Qh4 Kg7 34. f5 Rf3 35. c5 h6 36. fxg6 fxg6 37. cxd6
+cxd6 38. Qe7+ Rf7 39. Qxd6 g5 40. h4 gxh4 41. Kh2 Rf1 42. Qd4+ 1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.13"]
+[Round "4"]
+[White "Tikkanen,H"]
+[Black "Leko,P"]
+[Result "0-1"]
+[WhiteElo "2566"]
+[BlackElo "2723"]
+[EventDate "2012.05.09"]
+[ECO "A13"]
+
+1. c4 Nf6 2. g3 e6 3. Bg2 d5 4. Nf3 dxc4 5. Qa4+ c6 6. Qxc4 b5 7. Qc2 Bb7
+8. O-O Nbd7 9. Nc3 a6 10. a4 Rc8 11. d3 Be7 12. e4 O-O 13. h3 a5 14. Rd1
+Ba6 15. Be3 b4 16. Nb1 Nb8 17. Bf1 c5 18. Nbd2 Nc6 19. Nb3 Nd7 20. Rac1 Nd4
+21. Bxd4 cxd4 22. Qb1 Nc5 23. Nfxd4 Qb6 24. Qa2 Nxb3 25. Nxb3 Bb7 26. Bg2
+e5 27. Qb1 Bc6 28. Qa1 Bd7 29. Nd2 Rxc1 30. Rxc1 Bc5 31. Rf1 b3 32. Nc4 Qc7
+33. Qd1 Rb8 34. Qh5 Bd4 35. Ra1 Rb4 36. Qd1 Qc5 37. Qd2 g6 38. Rc1 Rxa4 39.
+Ne3 Qb4 40. Qe2 Ra2 0-1
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.14"]
+[Round "5"]
+[White "Berg,E"]
+[Black "Tikkanen,H"]
+[Result "0-1"]
+[WhiteElo "2587"]
+[BlackElo "2566"]
+[EventDate "2012.05.09"]
+[ECO "C12"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4 5. e5 h6 6. Be3 Ne4 7. Qg4 g6 8. a3
+Bxc3+ 9. bxc3 c5 10. Bd3 h5 11. Qf4 g5 12. Qf3 Nxc3 13. dxc5 Nc6 14. Qg3
+Qa5 15. Bd2 Qxc5 16. Nf3 Bd7 17. Qxg5 Ne4 18. Bxe4 dxe4 19. Qf6 Rf8 20. Ng5
+Qc4 21. f3 Nd4 22. Kf2 Qe2+ 23. Kg3 exf3 24. gxf3 Nf5+ 25. Kh3 Bc6 26. Rhe1
+Qxd2 27. Rad1 Qf2 28. Rd6 Qxe1 29. Rxe6+ fxe6 30. Qg6+ Kd7 31. Qxe6+ Kc7
+0-1
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.14"]
+[Round "5"]
+[White "Li Chao2"]
+[Black "Caruana,F"]
+[Result "1/2-1/2"]
+[WhiteElo "2703"]
+[BlackElo "2770"]
+[EventDate "2012.05.09"]
+[ECO "D85"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5
+8. Rb1 O-O 9. Be2 Nc6 10. d5 Ne5 11. Nxe5 Bxe5 12. Qd2 e6 13. f4 Bc7 14.
+O-O exd5 15. exd5 Ba5 16. d6 Rb8 17. Rb5 Bd7 18. f5 Bxb5 19. Bxb5 Qh4 20.
+Rf4 Qg5 21. Qe1 Qd8 22. Qe5 Re8 23. Qd5 Re1+ 24. Kf2 g5 25. f6 h6 26. Qf5
+Qxd6 27. Kxe1 Rd8 28. Kf2 Qd1 29. Bc4 Kh8 30. Rf3 Qxc1 31. Bd3 Qd2+ 32. Kf1
+Qd1+ 33. Kf2 Qd2+ 34. Kf1 Qd1+ 1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.14"]
+[Round "5"]
+[White "Leko,P"]
+[Black "Giri,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2723"]
+[BlackElo "2693"]
+[EventDate "2012.05.09"]
+[ECO "C50"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. c3 O-O 6. O-O d5 7. exd5 Nxd5
+8. Nbd2 Nf6 9. Qe2 Bd6 10. Ne4 Nxe4 11. dxe4 Qf6 12. Be3 h6 13. Nd2 Ne7 14.
+Qf3 Qg6 15. Qg3 Qf6 16. Qf3 Qg6 17. Bb3 Kh8 18. Qg3 Qf6 19. Qf3 Qg6 20. Qg3
+Qf6 21. Qf3 Qg6 22. Qg3 1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.14"]
+[Round "5"]
+[White "Grandelius,N"]
+[Black "Hector,J"]
+[Result "1-0"]
+[WhiteElo "2556"]
+[BlackElo "2560"]
+[EventDate "2012.05.09"]
+[ECO "D17"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 e6 7. f3 Bb4 8.
+Nxc4 O-O 9. Kf2 c5 10. e4 Bg6 11. Na2 Nc6 12. Nxb4 Nxb4 13. Qb3 Nxe4+ 14.
+fxe4 Bxe4 15. Bd2 Nc2 16. Rc1 Nxd4 17. Qe3 Qd5 18. Qf4 Rad8 19. Ne3 Qc6 20.
+Bc3 e5 21. Qxe5 Rfe8 22. Qg3 Qf6+ 23. Kg1 Qh6 24. Re1 f5 25. Qf2 f4 26.
+Bxd4 cxd4 27. Nc4 d3 28. h4 Bf5 29. Rxe8+ Rxe8 30. Qd4 Qh5 31. Nd6 Rf8 32.
+Qd5+ Kh8 33. Nxf5 d2 34. Qxd2 Qxf5 35. Rh3 Qc5+ 36. Qf2 Qb4 37. b3 h6 38.
+Rf3 a6 39. g3 b5 40. axb5 axb5 41. Rxf4 Rxf4 42. Qxf4 Qxb3 43. Qf8+ Kh7 44.
+Qf5+ Kg8 45. Qd3 Qe6 46. Qxb5 Qe3+ 47. Kh2 g5 48. Bc4+ Kf8 49. Qf5+ Ke7 50.
+Qh7+ Ke8 51. Bb5+ 1-0
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.15"]
+[Round "6"]
+[White "Leko,P"]
+[Black "Berg,E"]
+[Result "1-0"]
+[WhiteElo "2723"]
+[BlackElo "2587"]
+[EventDate "2012.05.09"]
+[ECO "E60"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 c6 6. O-O d6 7. Nc3 Qb6 8.
+Qc2 Qa6 9. Nd2 Be6 10. d5 cxd5 11. cxd5 Bg4 12. Nb3 Qc4 13. h3 Bd7 14. e4
+Na6 15. Be3 Nb4 16. Qb1 a5 17. Rc1 Qd3 18. Bf1 Qxb1 19. Raxb1 a4 20. Nd2
+Rac8 21. Kh2 Nh5 22. Nc4 Bxc3 23. bxc3 Nxa2 24. Rc2 b5 25. Nb6 Nxc3 26.
+Rbc1 b4 27. Nxd7 Rfd8 28. Bb5 Rc7 29. Bxa4 Rdxd7 30. Bxd7 Rxd7 31. Bd4 Nf6
+32. Bxc3 bxc3 33. f3 h5 34. h4 Ra7 35. Rxc3 Ra2+ 36. R1c2 Ra1 37. Rc7 Kf8
+38. Rb7 Ng8 39. Rc8+ Kg7 40. Re8 Ra2+ 41. Kg1 Ra1+ 42. Kf2 Ra2+ 43. Ke3
+Ra3+ 44. Kf4 Ra4 45. Rb5 Ra7 46. Rbb8 Nf6 47. Ra8 Rc7 48. Rec8 Rb7 49. Rcb8
+Rc7 50. g4 hxg4 51. fxg4 Rc4 52. g5 Rxe4+ 53. Kf3 Rxh4 54. gxf6+ Kxf6 55.
+Rb1 Rd4 56. Ra5 g5 57. Re1 g4+ 58. Ke3 Rb4 59. Rf1+ Kg6 60. Ra7 Rb3+ 61.
+Kf4 Rb4+ 62. Kg3 f5 63. Rxe7 Rb3+ 64. Kg2 Rd3 65. Re8 Rxd5 66. Rg8+ Kf6 67.
+Rxg4 1-0
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.15"]
+[Round "6"]
+[White "Caruana,F"]
+[Black "Grandelius,N"]
+[Result "1-0"]
+[WhiteElo "2770"]
+[BlackElo "2556"]
+[EventDate "2012.05.09"]
+[ECO "B52"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nf6 6. Qe2 Nc6 7. c3 e6
+8. d3 Be7 9. Rd1 O-O 10. Nbd2 Ng4 11. d4 cxd4 12. cxd4 d5 13. e5 Nh6 14.
+Nb3 Nf5 15. Bf4 Qd8 16. Rac1 Rc8 17. Rc3 Bb4 18. Rcd3 Be7 19. a3 a5 20.
+Nbd2 a4 21. Nb1 b5 22. g4 Nh4 23. Nxh4 Bxh4 24. Nc3 Rb8 25. Rh3 Bg5 26. Bg3
+b4 27. Nxa4 bxa3 28. Qc2 h6 29. Qxc6 axb2 30. Qc2 Qa5 31. f4 Rfc8 32. Nc5
+Qb4 33. Qb1 Qc3 34. Kg2 Rxc5 35. dxc5 Rb3 36. Rf1 Ra3 37. Rf2 Ra1 38. Qxb2
+Qe1 39. Rh5 g6 40. fxg5 gxh5 41. Qb8+ Kg7 42. Rxf7+ 1-0
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.15"]
+[Round "6"]
+[White "Giri,A"]
+[Black "Hector,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2693"]
+[BlackElo "2560"]
+[EventDate "2012.05.09"]
+[ECO "D17"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 e6 7. f3 Bb4 8.
+Nxc4 O-O 9. Kf2 Bg6 10. e4 Qc7 11. Qb3 c5 12. Na2 Nc6 13. Nxb4 cxb4 14. Be3
+Rfd8 15. Rd1 Rd7 16. Ne5 Nxe5 17. dxe5 Rxd1 18. Qxd1 Qxe5 19. b3 h5 20. Qd4
+Qa5 21. Be2 Rd8 22. Qxa7 Qe5 23. Qb6 Rd7 24. Qc5 Qb2 25. Bg5 Rd3 26. Qc1
+Rxb3 27. Qxb2 Rxb2 28. Rc1 Ra2 29. Rc7 Bxe4 30. fxe4 Nxe4+ 31. Ke3 Nxg5 32.
+Rxb7 Ra3+ 33. Kf4 f6 34. Bxh5 Rxa4 35. Bg6 b3+ 36. Ke3 Kf8 37. Rxb3 Ke7 38.
+Rb7+ Kd6 39. Rxg7 Ke5 40. Bd3 Ne4 41. Bxe4 Rxe4+ 42. Kf3 f5 43. g4 Rxg4
+1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.15"]
+[Round "6"]
+[White "Tikkanen,H"]
+[Black "Li Chao2"]
+[Result "1-0"]
+[WhiteElo "2566"]
+[BlackElo "2703"]
+[EventDate "2012.05.09"]
+[ECO "A15"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. g3 O-O 5. Bg2 d5 6. cxd5 Nxd5 7. O-O c5
+8. Nxd5 Qxd5 9. d3 Nc6 10. Be3 Bxb2 11. Rb1 Bf6 12. Qa4 Nb4 13. Nd2 Qf5 14.
+a3 Nd5 15. Ne4 Nxe3 16. fxe3 Qe5 17. Nxf6+ exf6 18. Qf4 Qe7 19. Qe4 Qxe4
+20. Bxe4 Rb8 21. Rfc1 f5 22. Bf3 Re8 23. Rxc5 Rxe3 24. Rc7 Kf8 25. Rbc1 Re8
+26. Bd5 Be6 27. Bxb7 Re7 28. Bf3 a5 29. d4 Bb3 30. d5 Rd8 31. Rc8 Red7 32.
+Rxd8+ Rxd8 33. Rc5 a4 34. Kf2 Re8 35. Rc7 Rd8 36. Rc5 Re8 37. Ra5 g5 38. d6
+Rd8 39. Ra8 Rxa8 40. Bxa8 f6 41. Bc6 Kf7 42. Bd7 Bc2 43. Ke3 h5 44. Kd4 f4
+45. gxf4 gxf4 46. Kd5 Bd1 47. Kc6 Bxe2 48. Bh3 Ke8 49. Kc7 1-0
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.16"]
+[Round "7"]
+[White "Grandelius,N"]
+[Black "Tikkanen,H"]
+[Result "1/2-1/2"]
+[WhiteElo "2556"]
+[BlackElo "2566"]
+[EventDate "2012.05.09"]
+[ECO "D31"]
+
+1. d4 d5 2. Nf3 c6 3. c4 e6 4. Nc3 dxc4 5. a4 Bb4 6. e3 b5 7. Bd2 a5 8. Rb1
+Qb6 9. axb5 cxb5 10. Ne5 Nf6 11. b3 Bxc3 12. Bxc3 Nd5 13. Ba1 c3 14. e4 Nf6
+15. Bxc3 Nxe4 16. Qf3 Nxc3 17. Qxf7+ Kd8 18. Qxg7 Nxb1 19. Qxh8+ Kc7 20.
+Qxh7+ Bd7 21. Qxb1 Qxd4 22. Qc2+ Bc6 23. Nxc6 Nxc6 24. Be2 Qb4+ 25. Qd2
+Qxb3 26. O-O Rd8 27. Qg5 Rd5 28. Qg7+ Rd7 29. Qa1 Rd2 30. Rb1 Qc2 31. Bxb5
+Rxf2 32. Qg7+ Kd6 33. Qg3+ e5 34. Bd3 Rxg2+ 35. Qxg2 Qxd3 36. Rf1 Nd4 37.
+h4 a4 38. h5 a3 39. Qg6+ Qxg6+ 40. hxg6 Ne6 41. Kf2 Ke7 42. Ke3 Nf4 43. Rg1
+a2 44. g7 Nd5+ 45. Ke4 Nf6+ 46. Kxe5 Kf7 47. Kf5 Ng8 48. Ke5 Ne7 49. Ra1
+Ng6+ 50. Kf5 Ne7+ 51. Kg5 Kxg7 52. Rxa2 Kf7 53. Ra6 Nd5 54. Rd6 Ne7 55. Rh6
+Nd5 56. Rc6 Ne7 57. Rd6 Nc8 58. Rg6 Ne7 59. Rh6 Nd5 60. Kf5 1/2-1/2
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.16"]
+[Round "7"]
+[White "Li Chao2"]
+[Black "Leko,P"]
+[Result "0-1"]
+[WhiteElo "2703"]
+[BlackElo "2723"]
+[EventDate "2012.05.09"]
+[ECO "E06"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 d5 4. Bg2 Be7 5. c4 O-O 6. Bg5 Nbd7 7. O-O c6 8.
+Nc3 b6 9. Bxf6 Nxf6 10. e4 dxe4 11. Ne5 Bb7 12. Nxe4 Qc7 13. Nxf6+ Bxf6 14.
+Ng4 Be7 15. Qf3 Rab8 16. Rfe1 c5 17. d5 exd5 18. cxd5 Bd6 19. Ne3 Rbe8 20.
+h4 Bc8 21. Bf1 a6 22. a4 Be5 23. Rad1 Bd4 24. b3 g6 25. h5 Qd8 26. h6 Re5
+27. Bc4 Rh5 28. Re2 Qd6 29. Nc2 Bf6 30. Ne3 Rxh6 31. Qf4 Qxf4 32. gxf4 Bd4
+33. Red2 Bb7 34. Kg2 Kg7 35. Kg3 Rd8 36. Nc2 Bf6 37. Ne3 Bd4 38. Nc2 Bc3
+39. Rd3 Bf6 40. Ne3 Rh5 41. R3d2 Bd4 42. Nc2 Bc3 43. Rd3 Bf6 44. b4 Bh4+
+45. Kf3 b5 46. axb5 axb5 47. Bxb5 Rdxd5 48. Ke3 Be7 49. Rxd5 Bxd5 50. Be2
+Rh3+ 51. f3 Bb3 52. Rd7 Kf6 53. Ne1 Be6 54. Rb7 cxb4 55. Nd3 Rh4 56. Bd1 h6
+57. Ba4 g5 58. Bd7 Bd6 59. Bxe6 Kxe6 60. Rb6 Ke7 61. Rb7+ Ke6 62. Rb6 Kd7
+63. Rb7+ Kc6 64. Rxf7 Bxf4+ 65. Kd4 Bd6+ 66. f4 gxf4 67. Rf6 f3+ 68. Ke3
+Kd5 69. Kxf3 b3 70. Ke2 Rh2+ 71. Ke3 Bc5+ 72. Kf4 Bd4 73. Rf8 Kc4 74. Rb8
+Rh3 75. Ne1 Be5+ 0-1
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.16"]
+[Round "7"]
+[White "Hector,J"]
+[Black "Caruana,F"]
+[Result "0-1"]
+[WhiteElo "2560"]
+[BlackElo "2770"]
+[EventDate "2012.05.09"]
+[ECO "C29"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nf3 Nc6 6. Bb5 Bb4 7. O-O O-O
+8. Ne2 Bg4 9. Bxc6 bxc6 10. Kh1 Ng5 11. d3 f6 12. Bxg5 fxg5 13. c3 Be7 14.
+Qa4 Bd7 15. Nd2 c5 16. Rxf8+ Bxf8 17. Qb3 Bf5 18. c4 Rb8 19. Qc3 d4 20. Qc2
+Qe8 21. Ng3 Bg6 22. Re1 g4 23. h3 Qe6 24. hxg4 Qxg4 25. Ndf1 Be7 26. b3 Bh4
+27. Qd1 Qxd1 28. Rxd1 Re8 29. Ne2 Bh5 30. Rd2 Bg5 0-1
+
+[Event "20th Sigeman & Co"]
+[Site "Malmo SWE"]
+[Date "2012.05.16"]
+[Round "7"]
+[White "Berg,E"]
+[Black "Giri,A"]
+[Result "0-1"]
+[WhiteElo "2587"]
+[BlackElo "2693"]
+[EventDate "2012.05.09"]
+[ECO "A02"]
+
+1. f4 Nf6 2. b3 g6 3. Bb2 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 Nc6 7. O-O Nb4 8.
+Qe2 b6 9. a3 Nxd3 10. Qxd3 Bb7 11. Bxf6 Bxf6 12. Nc3 Bg7 13. Rae1 a5 14.
+Qe3 e5 15. f5 gxf5 16. exf5 f6 17. d4 d5 18. dxe5 fxe5 19. f6 Rxf6 20. Qxe5
+Rg6 21. Qf5 Bxc3 22. Re6 Rg7 23. h4 Qf8 24. Qd3 Qc5+ 25. Kh1 Ba6 0-1
+

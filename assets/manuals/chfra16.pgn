@@ -1,0 +1,1137 @@
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.13"]
+[Round "1.1"]
+[White "Edouard, Romain"]
+[Black "Cornette, Matthieu"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2647"]
+[BlackElo "2581"]
+[ECO "D31"]
+[Opening "QGD"]
+[Variation "3.Nc3"]
+[WhiteFideId "633429"]
+[BlackFideId "620084"]
+[EventDate "2016.08.13"]
+
+1. c4 e6 2. Nc3 d5 3. d4 Bb4 4. a3 Bxc3+ 5. bxc3 c6 6. e3 Nf6 7. Bd3 e5 8. Ne2
+e4 9. Bb1 O-O 10. Ng3 Qa5 11. Bd2 Qa6 12. cxd5 cxd5 13. f3 Re8 14. Rf1 Nc6 15.
+fxe4 Bg4 16. Qb3 Na5 17. Qa2 dxe4 18. Bc2 Rac8 19. h3 Be6 20. Qb1 Bc4 21. Rf4
+Bd3 22. Nxe4 Bxc2 23. Qxc2 Nd5 24. Rf5 Nxe3 25. Bxe3 Nc4 26. Bf4 Qe6 27. Re5
+Nxe5 28. dxe5 Qf5 29. g3 Rc4 30. O-O-O Qxe4 31. Qxe4 Rxe4 32. Rd7 h6 33. h4 Rc8
+34. Kd2 Rc6 35. Rxb7 Ra4 36. Rb8+ Kh7 37. Rb7 Kg6 38. h5+ Kxh5 39. Rxf7 Kg6 40.
+Re7 Rxa3 41. e6 Kf6 42. Rf7+ Kxe6 43. Rxg7 Rcxc3 44. Rxa7 Rxa7 45. Kxc3 h5 46.
+Kd3 Kf5 47. Ke3 h4 48. Bd6 h3 49. g4+ 0-1
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.13"]
+[Round "1.2"]
+[White "Gharamian, Tigran"]
+[Black "Jolly, Jean-Francois"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2637"]
+[BlackElo "2361"]
+[ECO "C95"]
+[Opening "Ruy Lopez"]
+[Variation "closed, Breyer, Borisenko variation"]
+[WhiteFideId "13301527"]
+[BlackFideId "634751"]
+[EventDate "2016.08.13"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3 g6 15. b3
+c6 16. Bg5 h6 17. Be3 Qc7 18. Qd2 Kh7 19. c4 exd4 20. Bxd4 Bg7 21. Rad1 Re6 22.
+Be3 c5 23. Bf4 Ne5 24. Nxe5 dxe5 25. Be3 Ne8 26. Qd7 Re7 27. Qxc7 Rxc7 28. Rd2
+Bf8 29. Red1 Ng7 30. Rd7 Rac8 31. Rxc7 Rxc7 32. Ne2 Ne6 33. Nc3 Nd4 34. Bd3 b4
+35. Nd5 Bxd5 36. cxd5 Bd6 37. Rc1 a5 38. Kf1 h5 39. Bxd4 cxd4 40. Rc6 Rxc6 41.
+dxc6 Kg7 42. Ke2 Kf8 43. Bc4 Ke7 44. h4 Bc7 45. Kd3 Bb8 46. Bd5 Bd6 47. Bc4 Bc7
+48. Kd2 Bb6 49. Kd1 Bd8 50. Ke2 Bb6 51. Kd3 Bc7 52. Bd5 Bb8 53. Kc4 Bc7 54. g3
+Bb8 55. Kb5 d3 56. Bc4 d2 57. Be2 Bc7 58. Ka6 Kd6 59. Kb7 Bd8 60. Bd1 Bc7 61.
+Be2 Bd8 62. Bd1 Bc7 63. f4 exf4 64. gxf4 Bd8 65. Bc2 f6 66. Bd1 g5 67. hxg5 h4
+68. g6 Ke7 69. Bh5 Kf8 70. Kc8 Bb6 71. Kb7 Bd8 72. Kc8 Bb6 73. Kb7 Bd8 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.13"]
+[Round "1.3"]
+[White "Bauer, Christian"]
+[Black "Demuth, Adrien"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2620"]
+[BlackElo "2545"]
+[ECO "C77"]
+[Opening "Ruy Lopez"]
+[Variation "Anderssen variation"]
+[WhiteFideId "603767"]
+[BlackFideId "642274"]
+[EventDate "2016.08.13"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 Bc5 6. O-O b5 7. Bb3 d6 8. c3 O-O
+9. Re1 Bb6 10. h3 Be6 11. Bg5 h6 12. Bh4 g5 13. Bg3 Nh5 14. Nxe5 Bxb3 15. Qxh5
+dxe5 16. axb3 Qxd3 17. Kh2 Qd6 18. Qe2 Rfd8 19. Na3 Qd2 20. Qh5 Kg7 21. Rab1 Qd6
+22. Nc2 Qe6 23. b4 Rd2 24. Ne3 Bxe3 25. Rxe3 Qg6 26. Qxg6+ Kxg6 27. Kg1 a5 28.
+bxa5 Rxa5 29. Kf1 Ra2 30. Re2 Rd3 31. f3 f6 32. Be1 Na5 33. b4 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.13"]
+[Round "1.4"]
+[White "Maze, Sebastien"]
+[Black "Feller, Sebastien"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2627"]
+[BlackElo "2602"]
+[ECO "C26"]
+[Opening "Vienna"]
+[Variation "Paulsen-Mieses variation"]
+[WhiteFideId "613762"]
+[BlackFideId "634654"]
+[EventDate "2016.08.13"]
+
+1. e4 e5 2. Nc3 Nf6 3. g3 d5 4. exd5 Nxd5 5. Bg2 Nxc3 6. bxc3 Nc6 7. d3 Bd6 8.
+Nf3 O-O 9. O-O Bg4 10. h3 Bh5 11. Rb1 Rb8 12. g4 Bg6 13. Ng5 Be7 14. Ne4 Qd7 15.
+Ng3 Bc5 16. Be3 Bb6 17. Re1 Kh8 18. Qf3 f6 19. a4 Ba5 20. Bd2 Nd4 21. Qd1 Ne6
+22. Rb5 b6 23. h4 c6 24. Rb1 c5 25. h5 Bf7 26. Re4 c4 27. h6 g5 28. Qf3 Nf4 29.
+Bxf4 gxf4 30. Nf5 Bd5 31. dxc4 Bxe4 32. Qxe4 Bxc3 33. Bf3 Qc7 34. Rd1 Rbd8 35.
+Rd5 Bb4 36. Be2 Qf7 37. Bd3 Qg6 38. f3 Bc5+ 39. Kf1 Rg8 40. Rxd8 Rxd8 41. Qb7
+Qg8 42. Qxa7 Rd4 43. Nxd4 Bxd4 44. Qe7 e4 45. Qxe4 Bc5 46. Qxf4 Qf8 47. Kg2 Bd6
+48. Qe3 Bc5 49. Qd2 Qd6 50. Qe1 Qe5 51. Qxe5 fxe5 52. f4 exf4 53. Kf3 Be3 54.
+Be4 Kg8 55. Bd5+ Kh8 56. g5 Bd2 57. c5 bxc5 58. c4 Bc3 59. Kxf4 Bd2+ 60. Kf5
+Bxg5 61. a5 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.13"]
+[Round "1.5"]
+[White "Gozzoli, Yannick"]
+[Black "Fressinet, Laurent"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2573"]
+[BlackElo "2677"]
+[ECO "E20"]
+[Opening "Nimzo-Indian"]
+[Variation "Romanishin-Kasparov (Steiner) system"]
+[WhiteFideId "616915"]
+[BlackFideId "608742"]
+[EventDate "2016.08.13"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. g3 O-O 5. Bg2 d5 6. a3 Bxc3+ 7. bxc3 c6 8. Nf3
+b6 9. Bg5 Ba6 10. Bxf6 Qxf6 11. Ne5 Bxc4 12. Nxc4 dxc4 13. O-O e5 14. dxe5 Qxe5
+15. Qd4 Qe6 16. Rad1 Na6 17. Qd6 Rae8 18. Rfe1 Nb8 19. Qf4 b5 20. a4 Qe5 21.
+Qxe5 Rxe5 22. Rd6 Re6 23. Rxe6 fxe6 24. Ra1 a6 25. axb5 cxb5 26. Bb7 Rf7 27. Be4
+Rd7 28. f4 Rd6 29. Kf2 Nd7 30. Ke3 Nc5 31. Bc2 g6 32. g4 Kg7 33. h4 h6 34. g5 h5
+35. Ra3 Rd5 36. Ra2 Kf7 37. Ra1 Rd6 38. Ra3 Rd7 39. Ra2 Rd5 40. Ra3 e5 41. fxe5
+Rxe5+ 42. Kd4 Ke6 43. e4 Kd6 44. Ra1 Re6 45. Ra2 Re8 46. Ra1 Re7 47. Ra2 Re6 48.
+Ra3 Re5 49. Ra2 Ne6+ 50. Ke3 Nc7 51. Kd4 Re8 52. Ra1 Rd8 53. Rf1 a5 54. Ke3 Ke7
+55. Rf6 Rd6 56. e5 Nd5+ 57. Kd4 Rd8 58. Rd6 Rxd6 59. exd6+ Kxd6 60. Bxg6 Nf4 61.
+Be8 Ne2+ 62. Ke3 Nxc3 63. g6 Nd5+ 64. Kd4 Nc7 65. g7 Ne6+ 66. Kc3 Nxg7 67. Bxb5
+Kc5 68. Bxc4 Nf5 69. Be2 Ng3 70. Bf3 a4 71. Bd1 Ne4+ 72. Kb2 Kd5 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.14"]
+[Round "2.1"]
+[White "Gozzoli, Yannick"]
+[Black "Maze, Sebastien"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2573"]
+[BlackElo "2627"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "616915"]
+[BlackFideId "613762"]
+[EventDate "2016.08.13"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 a6 6. Ne5 Bb4+ 7. Nc3 Nd5 8. Bd2
+b5 9. O-O Bxc3 10. bxc3 O-O 11. e4 Ne7 12. a4 f6 13. Ng4 Bb7 14. Qb1 Qd7 15. Rd1
+e5 16. Bh3 Qe8 17. Ne3 Kh8 18. d5 Bc8 19. Bg2 Nd7 20. axb5 Rb8 21. Nxc4 axb5 22.
+Ne3 Nb6 23. Qb4 Bd7 24. Qc5 c6 25. Rdb1 cxd5 26. exd5 f5 27. Ra6 Na4 28. Qa3 f4
+29. Nd1 f3 30. Bf1 Nxd5 31. c4 Nc7 32. Ra7 bxc4 33. Rxb8 Qxb8 34. Qd6 Rc8 35.
+Be3 Bb5 36. Qxe5 Ne8 37. Qf5 Nf6 38. Bd4 Rc6 39. Qg5 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.14"]
+[Round "2.2"]
+[White "Jolly, Jean-Francois"]
+[Black "Bauer, Christian"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2361"]
+[BlackElo "2620"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "advance variation"]
+[WhiteFideId "634751"]
+[BlackFideId "603767"]
+[EventDate "2016.08.13"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Be3 e6 5. Nd2 Bb4 6. c3 Ba5 7. Be2 Nd7 8. f4 Nh6
+9. h4 f6 10. g4 Bg6 11. h5 Bf7 12. Bd3 fxe5 13. fxe5 c5 14. a3 Rc8 15. Nh3 cxd4
+16. cxd4 Qc7 17. O-O O-O 18. Nb3 Bb6 19. Rc1 Qb8 20. Rxc8 Qxc8 21. Qe2 Qd8 22.
+Bg5 Qe8 23. Bb1 Kh8 24. Nf4 Bg8 25. Kg2 Nf7 26. Bh4 Nh6 27. Kh3 Bd8 28. Qe1 Nf7
+29. Bxd8 Nxd8 30. Qh4 Nf7 31. g5 Qe7 32. Rg1 Nfxe5 33. dxe5 Nxe5 34. Ng6+ Nxg6
+35. hxg6 Rf3+ 36. Kg4 Qf8 37. Qh2 Rxb3 38. gxh7 Bf7 39. Rf1 g6 40. Qe5+ 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.14"]
+[Round "2.3"]
+[White "Fressinet, Laurent"]
+[Black "Cornette, Matthieu"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2677"]
+[BlackElo "2581"]
+[ECO "A06"]
+[Opening "Reti opening"]
+[WhiteFideId "608742"]
+[BlackFideId "620084"]
+[EventDate "2016.08.13"]
+
+1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 b6 5. Bb2 Bb7 6. Nc3 Nbd7 7. d4 Bd6 8. Bd3
+O-O 9. O-O a6 10. Qe2 Ne4 11. a4 f5 12. a5 Rf6 13. cxd5 Nxc3 14. Bxc3 Bxd5 15.
+e4 fxe4 16. Bxe4 b5 17. Bd2 h6 18. Bxd5 exd5 19. Ne5 Re6 20. Qg4 Qe7 21. Nxd7
+Qxd7 22. Rae1 Rae8 23. g3 Qf7 24. Rxe6 Rxe6 25. Re1 Rxe1+ 26. Bxe1 Kh7 27. Bd2
+Qg6 28. Qxg6+ Kxg6 29. f3 h5 30. Kf2 Kf5 31. h3 c6 32. g4+ hxg4 33. hxg4+ Ke6
+34. Ke2 g6 35. Kd3 Kf6 36. Ke2 Ke6 37. Kd3 Kf6 38. Ke2 Ke6 39. Kd3 Kf6 40. Ke2
+Ke6 41. Kd3 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.14"]
+[Round "2.4"]
+[White "Demuth, Adrien"]
+[Black "Edouard, Romain"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2545"]
+[BlackElo "2647"]
+[ECO "A10"]
+[Opening "English opening"]
+[WhiteFideId "642274"]
+[BlackFideId "633429"]
+[EventDate "2016.08.13"]
+
+1. c4 b6 2. Nf3 Bb7 3. g3 c5 4. Bg2 g6 5. Nc3 Bg7 6. b3 Nh6 7. Bb2 Nf5 8. O-O
+O-O 9. e3 Nc6 10. g4 Nh6 11. h3 e5 12. Nd5 f5 13. Nh2 fxg4 14. Nxg4 Nf5 15. f4
+d6 16. fxe5 dxe5 17. e4 Nfd4 18. Rxf8+ Qxf8 19. Qf1 Qd6 20. Qd3 Nb4 21. Nxb4
+cxb4 22. Bxd4 Rd8 23. Rd1 Qe6 24. Qe3 exd4 25. Qg5 Rf8 26. Rf1 Rxf1+ 27. Kxf1 h5
+28. Nf2 Kh7 29. Ke2 Qf7 30. Nd3 a5 31. e5 Bxg2 32. Qxg2 Qe6 33. Qe4 Qxh3 34. e6
+Qh2+ 35. Nf2 d3+ 36. Kf1 Qb8 37. e7 Qe8 38. Qe6 Kh6 39. Qe3+ Kh7 40. Qe6 Kh6 41.
+Qd6 Qf7 42. Qd8 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.14"]
+[Round "2.5"]
+[White "Feller, Sebastien"]
+[Black "Gharamian, Tigran"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2602"]
+[BlackElo "2637"]
+[ECO "E21"]
+[Opening "Nimzo-Indian"]
+[Variation "three knights variation"]
+[WhiteFideId "634654"]
+[BlackFideId "13301527"]
+[EventDate "2016.08.13"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 c5 5. g3 cxd4 6. Nxd4 O-O 7. Bg2 d5 8. cxd5
+Nxd5 9. Qb3 Qb6 10. Bxd5 exd5 11. Be3 Nc6 12. Rd1 Ba5 13. Qa3 Bb4 14. Qb3 Ba5
+15. Qxb6 Bxc3+ 16. bxc3 axb6 17. Nxc6 bxc6 18. Bxb6 Rxa2 19. Rd2 Ra1+ 20. Rd1
+Ra2 21. Rd2 Ra1+ 22. Rd1 Ra2 23. Rd2 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.15"]
+[Round "3.1"]
+[White "Edouard, Romain"]
+[Black "Jolly, Jean-Francois"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2647"]
+[BlackElo "2361"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack, Pachman system"]
+[WhiteFideId "633429"]
+[BlackFideId "634751"]
+[EventDate "2016.08.13"]
+
+1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. O-O e5 5. d3 Ne7 6. Nc3 d4 7. Ne4 f5 8. Ned2 c5
+9. c3 Be6 10. Nb3 Qb6 11. cxd4 exd4 12. e3 O-O 13. exd4 cxd4 14. Re1 Bxb3 15.
+axb3 Nbc6 16. Ng5 Bf6 17. Bf4 Rac8 18. Re6 Qb5 19. h4 Nd5 20. Bd6 Nc7 21. Bxf8
+Nxe6 22. Nxe6 Kf7 23. b4 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.15"]
+[Round "3.2"]
+[White "Maze, Sebastien"]
+[Black "Fressinet, Laurent"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2627"]
+[BlackElo "2677"]
+[ECO "C48"]
+[Opening "Four knights"]
+[Variation "Rubinstein counter-gambit"]
+[WhiteFideId "613762"]
+[BlackFideId "608742"]
+[EventDate "2016.08.13"]
+
+1. e4 e5 2. Nc3 Nc6 3. Nf3 Nf6 4. Bb5 Nd4 5. Bc4 Bc5 6. d3 d6 7. Na4 b5 8. Nxd4
+bxc4 9. Nf5 Bxf5 10. exf5 cxd3 11. Nxc5 dxc5 12. cxd3 O-O 13. O-O Qd7 14. Qf3
+Rfd8 15. Be3 Qxd3 16. Rfc1 e4 17. Qg3 Qd5 18. Qxc7 Rac8 19. Qf4 c4 20. h3 Qb5
+21. Rc2 Qa4 22. Rcc1 Qb5 23. Rc2 Qa4 24. Rcc1 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.15"]
+[Round "3.3"]
+[White "Gharamian, Tigran"]
+[Black "Gozzoli, Yannick"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2637"]
+[BlackElo "2573"]
+[ECO "B51"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky (Nimzovich-Rossolimo, Moscow) attack"]
+[WhiteFideId "13301527"]
+[BlackFideId "616915"]
+[EventDate "2016.08.13"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 cxd4 5. Qxd4 a6 6. Bxd7+ Bxd7 7. c4 Nf6 8.
+Bg5 e6 9. Nc3 Be7 10. e5 dxe5 11. Nxe5 Qc7 12. O-O Bc6 13. Rfe1 h6 14. Bh4 Rd8
+15. Qe3 Ng4 16. Nxg4 Bxh4 17. Nd5 Bxd5 18. cxd5 Rxd5 19. Rac1 Qd8 20. Qa7 Bg5
+21. Rb1 Qc7 22. h4 Bd2 23. Re2 O-O 24. Ne3 Rd3 25. b4 Rfd8 26. Nf1 Bc3 27. Rc2
+Qd7 28. Qc5 Bd4 29. Qa5 Rc8 30. Re2 Bf6 31. g3 Rd1 32. Re1 Rxb1 33. Rxb1 Qd3 34.
+Re1 Bd4 35. Ne3 Bxe3 36. Rxe3 Rc1+ 37. Kh2 Qd1 38. g4 Qg1+ 39. Kh3 Qxf2 0-1
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.15"]
+[Round "3.4"]
+[White "Bauer, Christian"]
+[Black "Feller, Sebastien"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2620"]
+[BlackElo "2602"]
+[ECO "C50"]
+[Opening "Giuoco Pianissimo"]
+[WhiteFideId "603767"]
+[BlackFideId "634654"]
+[EventDate "2016.08.13"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. O-O O-O 6. c3 d6 7. Bg5 h6 8. Bh4
+Bb6 9. a4 a6 10. Nbd2 Kh8 11. b4 g5 12. Bg3 Nh7 13. a5 Ba7 14. b5 axb5 15. Bxb5
+Ne7 16. d4 exd4 17. Nxd4 f5 18. f3 f4 19. Bf2 Ng6 20. a6 bxa6 21. Bxa6 Ne5 22.
+Qe2 Nf6 23. Kh1 Kh7 24. Bb7 Bxb7 25. Ne6 Qb8 26. Bxa7 Rxa7 27. Nxf8+ Kg8 28. Ne6
+c5 29. Qb5 Nfd7 30. Nc4 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.15"]
+[Round "3.5"]
+[White "Cornette, Matthieu"]
+[Black "Demuth, Adrien"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2581"]
+[BlackElo "2545"]
+[ECO "C50"]
+[Opening "Giuoco Piano"]
+[WhiteFideId "620084"]
+[BlackFideId "642274"]
+[EventDate "2016.08.13"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 a6 6. a4 O-O 7. c3 Ba7 8. Bg5 h6
+9. Bh4 g5 10. Bg3 d6 11. Nbd2 Be6 12. Re1 Qd7 13. b4 Ne7 14. d4 Ng6 15. h3 Bxc4
+16. Nxc4 g4 17. Nh4 exd4 18. cxd4 Rae8 19. Nf5 h5 20. hxg4 Nxe4 21. Nce3 Nxg3
+22. fxg3 Ne7 23. gxh5 Nxf5 24. Qg4+ Kh7 25. Qxf5+ Qxf5 26. Nxf5 Re6 27. Kh2 Rfe8
+28. Rf1 Rg8 29. Rf4 d5 30. Raf1 Bb8 31. Nh4 c6 32. Rxf7+ Kh6 33. Nf5+ Kxh5 34.
+Ng7+ 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.16"]
+[Round "4.1"]
+[White "Maze, Sebastien"]
+[Black "Gharamian, Tigran"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2627"]
+[BlackElo "2637"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "613762"]
+[BlackFideId "13301527"]
+[EventDate "2016.08.13"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. O-O Bd7 5. Re1 Nf6 6. c3 a6 7. Bf1 Bg4 8. h3
+Bxf3 9. Qxf3 e6 10. d3 Be7 11. Nd2 O-O 12. Qd1 d5 13. e5 Nd7 14. Nf3 b5 15. Bf4
+Rb8 16. a3 c4 17. d4 a5 18. g3 b4 19. axb4 axb4 20. h4 Re8 21. b3 Nb6 22. Re3
+Ra8 23. cxb4 Nxb4 24. Rc1 Na2 25. Rc2 Nb4 26. Rc1 Na2 27. Rc2 Nb4 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.16"]
+[Round "4.2"]
+[White "Jolly, Jean-Francois"]
+[Black "Cornette, Matthieu"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2361"]
+[BlackElo "2581"]
+[ECO "C55"]
+[Opening "Two knights defence (Modern bishop's opening)"]
+[WhiteFideId "634751"]
+[BlackFideId "620084"]
+[EventDate "2016.08.13"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. Re1 d6 7. c3 Kh8 8. h3
+Nd7 9. d4 exd4 10. cxd4 Nb6 11. Bb3 d5 12. Nc3 dxe4 13. Nxe4 Bf5 14. Nc5 Rb8 15.
+Bf4 Nd5 16. Bg3 Bg6 17. a3 Bh5 18. Rc1 Bf6 19. Nxb7 Rxb7 20. Rxc6 Qd7 21. Rc5 c6
+22. Ba4 Rc8 23. Bxc6 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.16"]
+[Round "4.3"]
+[White "Gozzoli, Yannick"]
+[Black "Bauer, Christian"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2573"]
+[BlackElo "2620"]
+[ECO "A41"]
+[Opening "Queen's Pawn"]
+[WhiteFideId "616915"]
+[BlackFideId "603767"]
+[EventDate "2016.08.13"]
+
+1. d4 d6 2. Nf3 f5 3. g3 Nf6 4. Bg2 h6 5. d5 c6 6. c4 e5 7. dxe6 Bxe6 8. b3 Na6
+9. O-O Be7 10. Nc3 O-O 11. Nd4 Bd7 12. Bb2 Qe8 13. e4 fxe4 14. Nxe4 Qg6 15. Qc2
+Nc5 16. Nxc5 Qxc2 17. Nxc2 dxc5 18. Ne3 Rfd8 19. Rad1 Kf7 20. f4 a5 21. a4 Ng4
+22. Rxd7 Nxe3 23. Rxe7+ Kxe7 24. Re1 Rd1 25. Rxd1 Nxd1 26. Bxg7 Rd8 27. f5 Ne3
+28. Bxh6 Rd1+ 29. Kf2 Nxf5 30. Bg5+ Ke6 31. h4 Rb1 32. Bh3 Rxb3 33. h5 Rxg3 34.
+Bxf5+ Kxf5 35. Kxg3 Kxg5 36. Kf3 Kxh5 37. Kf4 Kg6 38. Ke5 Kf7 39. Kd6 Kf6 40.
+Kxc5 Ke5 41. Kb6 Kd4 42. Kxb7 Kxc4 43. Kxc6 Kb4 44. Kd5 Kxa4 45. Kc4 Ka3 46. Kc3
+a4 47. Kc2 Ka2 48. Kc1 a3 49. Kc2 Ka1 50. Kc1 a2 51. Kc2 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.16"]
+[Round "4.4"]
+[White "Fressinet, Laurent"]
+[Black "Demuth, Adrien"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2677"]
+[BlackElo "2545"]
+[ECO "D30"]
+[Opening "Queen's gambit declined"]
+[WhiteFideId "608742"]
+[BlackFideId "642274"]
+[EventDate "2016.08.13"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c5 4. cxd5 exd5 5. g3 Nf6 6. Bg2 Nc6 7. O-O Be7 8. dxc5
+Bxc5 9. Qc2 Bb6 10. Nc3 d4 11. Na4 O-O 12. Rd1 Re8 13. Bg5 h6 14. Nxb6 axb6 15.
+Be3 dxe3 16. Rxd8 exf2+ 17. Kxf2 Rxd8 18. Qb3 Ra6 19. Rd1 Rxd1 20. Qxd1 Rxa2 21.
+Nd4 Ng4+ 22. Kg1 Nxd4 23. Qxd4 Ra1+ 24. Bf1 Be6 25. h3 Ne3 26. Qxe3 Bxh3 27. Kh2
+Bxf1 28. Qe8+ Kh7 29. Qe4+ Kg8 30. Qe8+ Kh7 31. Qe4+ Kg8 32. g4 Re1 33. Qe8+ Kh7
+34. Qxf7 Rxe2+ 35. Kg1 Bg2 36. Qf5+ Kh8 37. Qf8+ Kh7 38. Qf5+ Kh8 39. Qd3 Rxb2
+40. Qd4 Ra2 41. Qd8+ Kh7 42. Qd3+ Kh8 43. Qc4 Rd2 44. Qc8+ Kh7 45. Qc3 Ra2 46.
+Qd3+ 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.16"]
+[Round "4.5"]
+[White "Feller, Sebastien"]
+[Black "Edouard, Romain"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2602"]
+[BlackElo "2647"]
+[ECO "C17"]
+[Opening "French"]
+[Variation "Winawer, advance, 5.a3"]
+[WhiteFideId "634654"]
+[BlackFideId "633429"]
+[EventDate "2016.08.13"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Ba5 6. b4 cxd4 7. Qg4 Kf8 8. Nb5 Bb6
+9. Nf3 Nc6 10. Bb2 Nge7 11. Nbxd4 h5 12. Qf4 Ng6 13. Nxc6 Nxf4 14. Nxd8 Bxd8 15.
+g3 Ng6 16. h4 Bd7 17. a4 Ne7 18. b5 Ba5+ 19. Kd1 Rc8 20. Bd3 Nf5 21. Ke2 Ke7 22.
+Rhd1 Rhd8 23. Nd4 Nxd4+ 24. Bxd4 Bc3 25. Bxc3 Rxc3 26. Ke3 f6 27. Kd4 Rdc8 28.
+Re1 Be8 29. f4 Bg6 30. Re2 Be4 31. Ra2 Kf7 32. a5 Kg6 33. Ra4 Bxd3 34. cxd3 Rb3
+35. exf6 Kxf6 36. b6 axb6 37. axb6 Rcc3 38. Re3 Rc1 39. Re5 Rd1 40. Re3 Rxb6 41.
+Ra8 Rc6 42. Rf8+ Ke7 43. Rb8 Kf6 44. Rf8+ Ke7 45. Rb8 Kf6 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.17"]
+[Round "5.1"]
+[White "Edouard, Romain"]
+[Black "Gozzoli, Yannick"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2647"]
+[BlackElo "2573"]
+[ECO "A04"]
+[Opening "Reti opening"]
+[WhiteFideId "633429"]
+[BlackFideId "616915"]
+[EventDate "2016.08.13"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 g6 4. O-O Bg7 5. e4 d6 6. d3 Nf6 7. Nh4 O-O 8. f4 Rb8
+9. h3 Nd7 10. f5 c4 11. Nc3 b5 12. Kh1 b4 13. Nd5 cxd3 14. cxd3 e6 15. Ne3 Ba6
+16. Nf3 Nde5 17. Nxe5 Nxe5 18. Ng4 Re8 19. fxg6 fxg6 20. Nh6+ Kh8 21. Nf7+ Nxf7
+22. Rxf7 Rf8 23. Rxf8+ Qxf8 24. Qe2 Qf6 25. Rb1 b3 26. axb3 Rxb3 27. Ra1 Bxd3
+28. Qd1 Bc4 29. Rxa7 h5 30. Qxd6 Rd3 31. Qb8+ Rd8 32. e5 Rxb8 33. exf6 Bxf6 34.
+Ra8 Rxa8 35. Bxa8 Kg7 36. Kg2 Kf7 37. Be4 Bb3 38. h4 Bd4 39. Kf3 Bd1+ 40. Kg2
+Bb3 41. Kf3 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.17"]
+[Round "5.2"]
+[White "Gharamian, Tigran"]
+[Black "Fressinet, Laurent"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2637"]
+[BlackElo "2677"]
+[ECO "C45"]
+[Opening "Scotch game"]
+[WhiteFideId "13301527"]
+[BlackFideId "608742"]
+[EventDate "2016.08.13"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Qf3 dxc6 7. Nc3 Be6 8.
+Be3 Qxf3 9. gxf3 Bxe3 10. fxe3 O-O-O 11. Rg1 g6 12. Ne2 Kb8 13. Nf4 Bc8 14. Rd1
+Re8 15. Kf2 Nh6 16. Bh3 f6 17. Bxc8 Kxc8 18. h4 Nf7 19. Ne2 Re5 20. Ng3 Ra5 21.
+Ra1 Rc5 22. Rac1 Ra5 23. Ra1 Rc5 24. Rac1 Ra5 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.17"]
+[Round "5.3"]
+[White "Demuth, Adrien"]
+[Black "Jolly, Jean-Francois"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2545"]
+[BlackElo "2361"]
+[ECO "D73"]
+[Opening "Neo-Gruenfeld, 5.Nf3"]
+[WhiteFideId "642274"]
+[BlackFideId "634751"]
+[EventDate "2016.08.13"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 g6 4. d4 Bg7 5. c4 dxc4 6. Na3 O-O 7. O-O Na6 8. Nxc4
+c5 9. b3 Be6 10. Bb2 Bd5 11. Rc1 Rc8 12. Qd2 Ne4 13. Qe3 Nd6 14. Nxd6 exd6 15.
+Qd2 Be4 16. Rfd1 Qe7 17. Ne1 Rfe8 18. e3 b6 19. dxc5 dxc5 20. Bxg7 Kxg7 21. Qc3+
+Qf6 22. Bxe4 Qxc3 23. Rxc3 Rxe4 24. Nc2 Rc7 25. f3 Ree7 26. Kf2 Red7 27. Rxd7
+Rxd7 28. Ke2 Kf6 29. Rc4 Nc7 30. Ne1 Ne6 31. Nd3 Rc7 32. Nf4 Nxf4+ 33. Rxf4+ Ke6
+34. g4 b5 35. Kd3 Rd7+ 36. Kc2 Rd5 37. h4 h6 38. Kc3 g5 39. hxg5 hxg5 40. Re4+
+Re5 41. Rxe5+ Kxe5 42. a4 a6 43. axb5 axb5 44. Kd3 Kd5 45. Kc3 Kc6 46. Kd3 Kb6
+47. Kc2 Ka5 48. Kc3 f6 49. b4+ Kb6 50. f4 Kc6 51. f5 c4 52. Kd4 Kd7 53. Kc3 Kc6
+54. Kd4 Kd6 55. e4 Ke7 56. Kc3 Kd7 57. Kd4 Kd6 58. e5+ fxe5+ 59. Ke4 Kd7 60. Ke3
+Ke7 61. Ke4 Kd6 62. Ke3 Kd5 63. Kd2 e4 64. Ke3 c3 65. Ke2 Kd6 66. Ke3 Ke5 67.
+Ke2 Kd5 68. Ke3 Kc4 69. f6 c2 70. Kd2 Kb3 71. f7 Kb2 72. f8=Q c1=Q+ 73. Ke2 Qc2+
+74. Ke1 Qc3+ 75. Ke2 Qd3+ 0-1
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.17"]
+[Round "5.4"]
+[White "Bauer, Christian"]
+[Black "Maze, Sebastien"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2620"]
+[BlackElo "2627"]
+[ECO "E60"]
+[Opening "King's Indian, 3.Nf3"]
+[WhiteFideId "603767"]
+[BlackFideId "613762"]
+[EventDate "2016.08.13"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. h3 c5 7. d5 e6 8. Bd3 a6 9.
+O-O e5 10. Rb1 Nh5 11. Re1 Nf4 12. Bf1 h6 13. a3 g5 14. Nh2 a5 15. g3 Ng6 16.
+Ng4 Nd7 17. Ne3 Nf6 18. Bg2 Re8 19. Bd2 Bd7 20. b4 axb4 21. axb4 b6 22. Nb5 Bf8
+23. Qf3 Kg7 24. Ra1 Rxa1 25. Rxa1 Qb8 26. Ra6 Bc8 27. Ra2 Be7 28. Na7 Bd7 29.
+Nc6 Qc8 30. Ra7 Bd8 31. b5 Ne7 32. Kh2 Bc7 33. Qd1 Nfg8 34. Bc3 Bb8 35. Nxb8 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.17"]
+[Round "5.5"]
+[White "Cornette, Matthieu"]
+[Black "Feller, Sebastien"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2581"]
+[BlackElo "2602"]
+[ECO "A45"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "620084"]
+[BlackFideId "634654"]
+[EventDate "2016.08.13"]
+
+1. d4 Nf6 2. Bf4 e6 3. e3 b6 4. Nf3 Bb7 5. Bd3 c5 6. c3 Be7 7. h3 O-O 8. O-O Nc6
+9. a3 cxd4 10. cxd4 Rc8 11. Nc3 d5 12. Rc1 Na5 13. Nd2 Nc4 14. Nxc4 dxc4 15. Bb1
+b5 16. Be5 a6 17. e4 Qb6 18. Qe2 Rfe8 19. Rfd1 Rcd8 20. Qf3 Nd7 21. Bf4 Nf8 22.
+Qg3 Rd7 23. Be3 Qd8 24. e5 Ng6 25. Ne4 Bf8 26. Ng5 f5 27. exf6 Qxf6 28. Nxh7
+Kxh7 29. Bg5 Bd6 30. Qg4 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.18"]
+[Round "6.1"]
+[White "Gharamian, Tigran"]
+[Black "Bauer, Christian"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2637"]
+[BlackElo "2620"]
+[ECO "B01"]
+[Opening "Scandinavian"]
+[Variation "Pytel-Wade variation"]
+[WhiteFideId "13301527"]
+[BlackFideId "603767"]
+[EventDate "2016.08.13"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 c6 5. Ne4 Qe6 6. Qe2 Nf6 7. Nxf6+ Qxf6 8.
+Be3 Bf5 9. O-O-O Nd7 10. g4 Be6 11. Bg2 Nb6 12. f4 O-O-O 13. Kb1 Bc4 14. Qf2 e6
+15. Nf3 Bd6 16. Nd2 Bd5 17. Ne4 Qg6 18. Ng5 Bxg2 19. f5 exf5 20. gxf5 Qh5 21.
+Qxg2 Rhe8 22. Bc1 h6 23. Qf3 Qxf3 24. Nxf3 Be7 25. Ne5 f6 26. Ng6 Rd5 27. Rhf1
+Bd6 28. h3 Re4 29. c3 Kd7 30. Kc2 Re2+ 31. Rd2 Rxd2+ 32. Bxd2 Nc8 33. Kd3 b5 34.
+b3 c5 35. Be3 cxd4 36. Ke4 dxe3 37. Kxd5 Bg3 38. Nf4 Ne7+ 39. Ke4 Bxf4 40. Kxf4
+e2 41. Rg1 Nd5+ 42. Kf3 Nxc3 43. Kf2 Kd6 44. Rxg7 a5 45. Ra7 Ke5 46. Rxa5 Kxf5
+47. a4 Ke4 48. Rxb5 Kd3 49. Ke1 Ke3 50. Rc5 Ne4 51. Rc2 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.18"]
+[Round "6.2"]
+[White "Maze, Sebastien"]
+[Black "Edouard, Romain"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2627"]
+[BlackElo "2647"]
+[ECO "D05"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "613762"]
+[BlackFideId "633429"]
+[EventDate "2016.08.13"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. b3 Bb4+ 5. c3 Bd6 6. Bd3 c5 7. c4 Nc6 8. Bb2
+cxd4 9. exd4 Ne4 10. O-O f5 11. Nc3 Be7 12. Rc1 Bf6 13. Ne2 Qd6 14. cxd5 exd5
+15. Bb5 Bd7 16. Bxc6 Bxc6 17. Ne5 Bb5 18. f3 Ng5 19. Re1 O-O 20. Nf4 Nf7 21. Qd2
+Bg5 22. g3 Nd8 23. a4 Bc6 24. h4 Bh6 25. Ned3 Ne6 26. Re5 Nxf4 27. Nxf4 Rae8 28.
+Rce1 Bxf4 29. Qxf4 Qb4 30. Rxe8 Rxe8 31. Rxe8+ Bxe8 32. Qe5 Qf8 33. Ba3 Qf7 34.
+Bc5 a6 35. Bd6 h6 36. Qe1 Bd7 37. Kf2 Qe6 38. Qb4 Be8 39. Be5 Qc6 40. Qd2 b5 41.
+axb5 Qxb5 42. Qc2 Bd7 43. Kg2 Qb4 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.18"]
+[Round "6.3"]
+[White "Gozzoli, Yannick"]
+[Black "Cornette, Matthieu"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2573"]
+[BlackElo "2581"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "616915"]
+[BlackFideId "620084"]
+[EventDate "2016.08.13"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 O-O 8. Rc1
+dxc4 9. Bxc4 c5 10. O-O cxd4 11. Nxd4 Bd7 12. Qb3 Nc6 13. Nxc6 Bxc3 14. Rxc3
+Bxc6 15. Bb5 Bd5 16. Bc4 Bc6 17. Bb5 Bd5 18. Bc4 Bc6 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.18"]
+[Round "6.4"]
+[White "Fressinet, Laurent"]
+[Black "Jolly, Jean-Francois"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2677"]
+[BlackElo "2361"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "608742"]
+[BlackFideId "634751"]
+[EventDate "2016.08.13"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 Bb4 5. cxd5 exd5 6. Bg5 O-O 7. e3 c5 8. Be2
+Be6 9. dxc5 Bxc3+ 10. bxc3 Nbd7 11. Qd4 Qa5 12. Qb4 Qc7 13. O-O Rfc8 14. Nd4
+Qxc5 15. Qxb7 Qxc3 16. Bf4 Nc5 17. Qe7 Nce4 18. Ba6 Re8 19. Qc7 Qxc7 20. Bxc7
+Nc5 21. Be2 Rec8 22. Bf4 Nfe4 23. Rfc1 Na4 24. Ba6 Rxc1+ 25. Rxc1 Nec5 26. Be2
+Bd7 27. f3 Rc8 28. Bd6 Nb7 29. Rxc8+ Bxc8 30. Bb4 Bd7 31. Nb3 Nb6 32. Nc5 Nxc5
+33. Bxc5 f6 34. Bd1 Kf7 35. Bb3 Be6 36. Kf2 Nc8 37. Ke2 a6 38. Kd3 Ne7 39. Kc3
+Nc6 40. Ba4 Bd7 41. Bc2 g6 42. Bd3 Bc8 43. e4 Ne5 44. Bc2 Be6 45. a3 h5 46. Bd4
+Nc6 47. Bd3 dxe4 48. Bxe4 Ne7 49. Kb4 Bd7 50. Bd3 a5+ 51. Kc5 g5 52. Bc4+ Be6
+53. Bb5 Nd5 54. a4 h4 55. g3 hxg3 56. hxg3 f5 57. Bc4 Ne7 58. Be2 f4 59. g4 Bd7
+60. Bd1 Nc8 61. Bc3 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.18"]
+[Round "6.5"]
+[White "Feller, Sebastien"]
+[Black "Demuth, Adrien"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2602"]
+[BlackElo "2545"]
+[ECO "B63"]
+[Opening "Sicilian"]
+[Variation "Richter-Rauzer, Rauzer attack"]
+[WhiteFideId "634654"]
+[BlackFideId "642274"]
+[EventDate "2016.08.13"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6 7. Qd2 Qb6 8. Nb3
+a6 9. Bxf6 gxf6 10. f4 Bd7 11. O-O-O O-O-O 12. Be2 h5 13. Kb1 Be7 14. Qe1 Kb8
+15. Rd3 Rdg8 16. Bf3 Rc8 17. a3 h4 18. Qd2 Rc7 19. Rd1 Rhc8 20. Rc1 Rh8 21. Rd1
+Rhc8 22. Rc1 Rh8 23. Rd1 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.19"]
+[Round "7.1"]
+[White "Edouard, Romain"]
+[Black "Gharamian, Tigran"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2647"]
+[BlackElo "2637"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "633429"]
+[BlackFideId "13301527"]
+[EventDate "2016.08.13"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. O-O Nd4 6. Nxd4 Bxd4 7. c3 Bb6 8.
+Ba4 O-O 9. Bg5 h6 10. Bh4 d6 11. Kh1 g5 12. Bg3 Bg4 13. f3 Be6 14. d4 Nh5 15.
+Bf2 Nf4 16. Na3 Qf6 17. Bb3 Rad8 18. Bxe6 Qxe6 19. d5 Qg6 20. Bxb6 axb6 21. g3
+Nh5 22. Nc2 Ng7 23. g4 h5 24. Qe2 Ra8 25. Rg1 h4 26. Ne3 f6 27. a4 Ra6 28. Ra3
+Rfa8 29. Rga1 Qe8 30. Qc4 Qd7 31. Qb4 Qc8 32. Nc4 R8a7 33. Kg1 Ne8 34. Qb5 Kf8
+35. Kf2 c6 36. Qb4 c5 37. Qb3 Qd8 38. Ke2 Qc7 39. Qc2 Ra8 40. Kd3 R8a7 41. Rb3
+Rxa4 42. Rxa4 Rxa4 43. Rxb6 Rxc4 44. Rb5 b6 45. Qb3 Qa7 46. Qxc4 Nc7 47. Rb3 Qa1
+48. Kc2 Qa2 49. Qd3 Qa4 50. c4 b5 51. Kb1 b4 52. Qc2 Ke7 53. Rd3 Qxc2+ 54. Kxc2
+Kd7 55. Rd1 Kc8 56. Ra1 Kb7 57. Kd3 Na8 58. f4 exf4 59. e5 dxe5 60. Ra5 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.19"]
+[Round "7.2"]
+[White "Jolly, Jean-Francois"]
+[Black "Feller, Sebastien"]
+[Result "1-0"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2361"]
+[BlackElo "2602"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf"]
+[WhiteFideId "634751"]
+[BlackFideId "634654"]
+[EventDate "2016.08.13"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Nb3 e6 7. g4 b5 8. Bg2
+Bb7 9. g5 Nfd7 10. Be3 Ne5 11. Qe2 Nc4 12. O-O-O Nd7 13. f4 Be7 14. h4 Rc8 15.
+Bd4 e5 16. fxe5 dxe5 17. Bf2 Qc7 18. Bh3 Rd8 19. Bxd7+ Rxd7 20. Rxd7 Qxd7 21.
+Nc5 Qc7 22. Nxb7 Qxb7 23. Rd1 O-O 24. Nd5 Bd6 25. h5 Qc8 26. Qf3 Qd8 27. Qg4 Qc8
+28. Qg3 Qe6 29. Qf3 h6 30. b3 Ba3+ 31. Kb1 Rb8 32. Qg3 hxg5 33. Qxg5 Kh8 34. Rg1
+Qh6 35. Qxh6+ gxh6 36. bxc4 bxc4+ 37. Nb6 Bb4 38. Kc1 Bc3 39. Nxc4 Rb4 40. Nd2
+Ra4 41. Bh4 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.19"]
+[Round "7.3"]
+[White "Bauer, Christian"]
+[Black "Fressinet, Laurent"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2620"]
+[BlackElo "2677"]
+[ECO "B31"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (with ...g6, without ...d6)"]
+[WhiteFideId "603767"]
+[BlackFideId "608742"]
+[EventDate "2016.08.13"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 bxc6 5. O-O Bg7 6. Re1 Nf6 7. e5 Nd5 8. c4
+Nc7 9. d4 cxd4 10. Qxd4 Ne6 11. Qh4 d6 12. exd6 Qxd6 13. Nc3 h5 14. Bd2 O-O 15.
+Ne4 Qc7 16. Bc3 f6 17. Qg3 Qxg3 18. hxg3 Rd8 19. Re2 Kf7 20. Rae1 Bf8 21. Ba5
+Rd3 22. Ned2 g5 23. Nb3 g4 24. Nfd2 Nd4 25. Nxd4 Rxd4 26. Bb4 e5 27. Bxf8 Kxf8
+28. Ne4 Ke7 29. f4 gxf3 30. gxf3 Rxc4 31. Rh2 Bf5 32. Rxh5 Bxe4 33. Rxe4 Rxe4
+34. fxe4 a5 35. Rh7+ Ke6 36. Rc7 Kd6 37. Rf7 Ke6 38. Rc7 Kd6 39. Rf7 Ke6 40. Rc7 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.19"]
+[Round "7.4"]
+[White "Demuth, Adrien"]
+[Black "Gozzoli, Yannick"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2545"]
+[BlackElo "2573"]
+[ECO "D97"]
+[Opening "Gruenfeld"]
+[Variation "Russian, Byrne (Simagin) variation"]
+[WhiteFideId "642274"]
+[BlackFideId "616915"]
+[EventDate "2016.08.13"]
+
+1. Nf3 Nf6 2. c4 g6 3. d4 Bg7 4. Nc3 d5 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Nc6 8. Be2
+e5 9. d5 Nd4 10. Nxd4 exd4 11. Qxd4 c6 12. Qc4 b5 13. Qxc6 Bd7 14. Qd6 Re8 15.
+f3 Nh5 16. g3 f5 17. Be3 Be5 18. Qc5 f4 19. Bd4 Rc8 20. Qxa7 fxg3 21. hxg3 Bxg3+
+22. Bf2 Bb8 23. Qa3 Bg3 24. Qa7 Bb8 25. Qa3 Bg3 26. Qa7 Bb8 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.19"]
+[Round "7.5"]
+[White "Cornette, Matthieu"]
+[Black "Maze, Sebastien"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2581"]
+[BlackElo "2627"]
+[ECO "E06"]
+[Opening "Catalan"]
+[Variation "closed, 5.Nf3"]
+[WhiteFideId "620084"]
+[BlackFideId "613762"]
+[EventDate "2016.08.13"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4
+Bd7 9. Qxc4 Bc6 10. Bg5 Nbd7 11. Nc3 h6 12. Bxf6 Nxf6 13. b4 Bd5 14. Nxd5 exd5
+15. Qb3 Bd6 16. e3 c6 17. Rfc1 Ne4 18. Ne1 h5 19. b5 axb5 20. axb5 Qb6 21. Bxe4
+Rxa1 22. Rxa1 dxe4 23. Qc2 Qxb5 24. Qxe4 g6 25. Qd3 Qxd3 26. Nxd3 f5 27. Ra7 Rb8
+28. h4 Kf7 29. Kf1 Ke6 30. Ke2 Kf6 31. Nf4 Kf7 32. Kd3 Kf6 33. Kc4 Kf7 34. Kd3
+Kf6 35. Ra2 Kf7 36. Ra7 Kf6 37. Ra2 Kf7 38. Ra7 Kf6 39. Ra2 Kf7 40. Ra7 Kf6 41.
+Ra2 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.20"]
+[Round "8.1"]
+[White "Bauer, Christian"]
+[Black "Edouard, Romain"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2620"]
+[BlackElo "2647"]
+[ECO "B20"]
+[Opening "Sicilian defence"]
+[WhiteFideId "603767"]
+[BlackFideId "633429"]
+[EventDate "2016.08.13"]
+
+1. e4 c5 2. Na3 g6 3. c3 Bg7 4. f4 Nc6 5. Nf3 Nf6 6. d3 O-O 7. Be2 d5 8. e5 Ng4
+9. d4 cxd4 10. cxd4 Qa5+ 11. Bd2 Qb6 12. Qb3 Qxb3 13. axb3 Nh6 14. Bc3 Nf5 15.
+Nc2 h5 16. b4 Bd7 17. Kf2 a6 18. Bd3 f6 19. Rhe1 fxe5 20. dxe5 e6 21. g3 Na7 22.
+Ncd4 Rfc8 23. Ng5 Nxd4 24. Bxd4 Nc6 25. Bc5 Bf8 26. Bxg6 Nxb4 27. Bf7+ Kg7 28.
+Bxf8+ Kxf8 29. Bxe6 Bxe6 30. Nxe6+ Ke7 31. Nd4 Nd3+ 32. Ke3 Nxe1 33. Rxe1 a5 34.
+f5 a4 35. f6+ Kf7 36. Kf4 Rc4 37. Rd1 Kg6 38. Rd3 b5 39. h4 b4 40. g4 a3 41.
+gxh5+ Kxh5 42. Kf5 axb2 43. Rb3 Rxd4 44. Rxb2 Re4 45. e6 Ra6 46. f7 Raxe6 47.
+f8=Q R6e5+ 48. Kf6 Rf4+ 49. Kxe5 Rxf8 50. Rxb4 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.20"]
+[Round "8.2"]
+[White "Maze, Sebastien"]
+[Black "Demuth, Adrien"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2627"]
+[BlackElo "2545"]
+[ECO "B66"]
+[Opening "Sicilian"]
+[Variation "Richter-Rauzer, Rauzer attack, 7...a6"]
+[WhiteFideId "613762"]
+[BlackFideId "642274"]
+[EventDate "2016.08.13"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O Nxd4 9. Qxd4 Be7 10. f3 O-O 11. h4 b5 12. Qd2 Bb7 13. Bd3 Qc7 14. Ne2 d5
+15. e5 Ne4 16. fxe4 dxe4 17. Bxe7 Qxe7 18. Nf4 exd3 19. Qxd3 Rfd8 20. Qg3 Be4
+21. Nh5 Bg6 22. Nf4 Be4 23. Nh5 Bg6 24. Nf4 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.20"]
+[Round "8.3"]
+[White "Gozzoli, Yannick"]
+[Black "Jolly, Jean-Francois"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2573"]
+[BlackElo "2361"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "616915"]
+[BlackFideId "634751"]
+[EventDate "2016.08.13"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. cxd5 exd5 6. Bg5 h6 7. Bh4 Nbd7 8. e3
+g5 9. Bg3 Ne4 10. Nd2 Nxg3 11. hxg3 Nb6 12. Qc2 Be6 13. Bd3 c6 14. O-O-O Qf6 15.
+Rhf1 O-O-O 16. Kb1 Kb8 17. Ka1 Rc8 18. Nb3 c5 19. Nxc5 Bxc5 20. dxc5 Rxc5 21.
+Qd2 Rhc8 22. Be2 Nc4 23. Qd4 Qe7 24. Bxc4 Rxc4 25. Qe5+ Ka8 26. Rxd5 Qb4 27. Rd2
+R4c5 28. Qd4 Rc4 29. Qe5 R4c5 30. Qd4 Rc4 31. Qe5 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.20"]
+[Round "8.4"]
+[White "Gharamian, Tigran"]
+[Black "Cornette, Matthieu"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2637"]
+[BlackElo "2581"]
+[ECO "B31"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (with ...g6, without ...d6)"]
+[WhiteFideId "13301527"]
+[BlackFideId "620084"]
+[EventDate "2016.08.13"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 bxc6 5. O-O Bg7 6. Re1 Nh6 7. c3 O-O 8. d4
+cxd4 9. cxd4 d5 10. e5 f6 11. exf6 exf6 12. Nbd2 Re8 13. h3 Nf7 14. Nb3 Bf5 15.
+Bf4 g5 16. Bh2 Qb6 17. Qd2 Bf8 18. Nc5 Bxc5 19. dxc5 Qxc5 20. Rec1 Qb6 21. Qd4
+Be4 22. Qxb6 axb6 23. Rxc6 Rec8 24. Nd4 Ne5 25. Rxf6 Rxa2 26. Rf1 Nd3 27. f3 Bg6
+28. Rxb6 Rxb2 29. Rxb2 Nxb2 30. Ra1 Nd3 31. Bg3 Rc1+ 32. Rxc1 Nxc1 33. Kf2 Nd3+
+34. Ke3 Kf7 35. Nb5 Nb4 36. Nc7 Kf6 37. Kd2 Bf7 38. Nb5 Nc6 39. Ke3 Bg6 40. Be1
+d4+ 41. Nxd4 Nxd4 42. Kxd4 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.20"]
+[Round "8.5"]
+[White "Fressinet, Laurent"]
+[Black "Feller, Sebastien"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2677"]
+[BlackElo "2602"]
+[ECO "B52"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky attack, 3...Bd7"]
+[WhiteFideId "608742"]
+[BlackFideId "634654"]
+[EventDate "2016.08.13"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. c4 Nf6 5. Nc3 g6 6. Bxd7+ Nbxd7 7. d4 cxd4 8.
+Nxd4 Bg7 9. O-O O-O 10. b3 a6 11. Bb2 e6 12. Re1 Rc8 13. Qd2 Qc7 14. Rad1 Rfd8
+15. h3 d5 16. cxd5 exd5 17. exd5 Nb6 18. Rc1 Qb8 19. Nf3 Nfxd5 20. Nxd5 Rxd5 21.
+Qe2 Rxc1 22. Bxc1 Qf8 23. Be3 Nd7 24. Qc4 Nf6 25. Bd4 b5 26. Qc6 Rd6 27. Qb7 Nd7
+28. Rc1 Bxd4 29. Rc8 Bg7 30. g3 h6 31. Kg2 Nc5 32. Rxf8+ Bxf8 33. Qc8 Nd3 34. h4
+Re6 35. Nd4 Rf6 36. f4 Nb4 37. a3 Nd5 38. b4 Rd6 39. Nf3 Ne3+ 40. Kf2 Nc4 41. a4
+Kg7 42. h5 gxh5 43. axb5 axb5 44. Qf5 Rb6 45. Qb1 Kg8 46. Nd4 Rd6 47. Qe4 Nd2
+48. Qe3 Nc4 49. Qe4 Nd2 50. Qe3 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.21"]
+[Round "9.1"]
+[White "Edouard, Romain"]
+[Black "Fressinet, Laurent"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2647"]
+[BlackElo "2677"]
+[ECO "A81"]
+[Opening "Dutch defence"]
+[WhiteFideId "633429"]
+[BlackFideId "608742"]
+[EventDate "2016.08.13"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 e6 4. Nf3 d5 5. O-O Bd6 6. c4 c6 7. Nc3 O-O 8. Qc2 Ne4
+9. Rb1 Qe7 10. b4 b5 11. cxb5 Nxc3 12. Qxc3 cxb5 13. Bf4 Bxf4 14. gxf4 Bd7 15.
+Qc5 Qxc5 16. bxc5 a5 17. a3 Rc8 18. Rb2 Nc6 19. Rxb5 Nxd4 20. Nxd4 Bxb5 21. Nxb5
+Rxc5 22. Nd4 Kf7 23. Rb1 Rac8 24. Bf1 Rc1 25. Rb7+ R8c7 26. Rxc7+ Rxc7 27. e3 a4
+28. Bb5 Rc3 29. Bxa4 Rxa3 30. Bd7 Ra6 31. Kf1 Kf6 32. Ke2 Ra2+ 33. Kf3 Ra6 34.
+Kg3 g6 35. Kf3 Rb6 36. Bxe6 Rxe6 37. Nxe6 Kxe6 38. Ke2 Kd6 39. Kd3 Kc5 40. Kc3
+h6 41. h4 Kc6 42. Kd4 Kd6 43. f3 h5 44. Kc3 Kc5 45. Kd3 Kc6 46. e4 dxe4+ 47.
+fxe4 fxe4+ 48. Kxe4 Kd6 49. f5 gxf5+ 50. Kxf5 Ke7 51. Kg6 Kf8 52. Kxh5 Kg7 53.
+Kg5 Kh8 54. Kg6 Kg8 55. h5 Kh8 56. h6 Kg8 57. h7+ Kh8 58. Kh6 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.21"]
+[Round "9.2"]
+[White "Jolly, Jean-Francois"]
+[Black "Maze, Sebastien"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2361"]
+[BlackElo "2627"]
+[ECO "B33"]
+[Opening "Sicilian"]
+[Variation "Pelikan, Chelyabinsk variation"]
+[WhiteFideId "634751"]
+[BlackFideId "613762"]
+[EventDate "2016.08.13"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3
+b5 9. Bxf6 gxf6 10. Nd5 Bg7 11. Bd3 Be6 12. c3 f5 13. Qh5 O-O 14. O-O fxe4 15.
+Bxe4 f5 16. Nf4 exf4 17. Bxc6 Rc8 18. Qe2 Be5 19. Qf3 Kh8 20. Bd5 Bxd5 21. Qxd5
+f3 22. Qxf3 b4 23. cxb4 Qh4 24. g3 Qxb4 25. Rab1 f4 26. Qd3 fxg3 27. hxg3 Rc7
+28. Nc2 Qg4 29. Ne3 Qh3 30. Ng2 Rg7 31. Rbe1 Rf5 32. Re3 Rh5 33. f4 Qh2+ 34. Kf2
+Rf7 35. b3 Rhf5 36. Rf3 Bf6 37. Qd1 Kg8 38. Re1 Rc5 39. Rfe3 Rfc7 40. Qg4+ Kf7
+41. Qe6+ Kg7 42. Qg4+ Kf7 43. Qe6+ Kg7 44. Qg4+ Kf7 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.21"]
+[Round "9.3"]
+[White "Cornette, Matthieu"]
+[Black "Bauer, Christian"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2581"]
+[BlackElo "2620"]
+[ECO "B03"]
+[Opening "Alekhine's defence"]
+[Variation "exchange variation"]
+[WhiteFideId "620084"]
+[BlackFideId "603767"]
+[EventDate "2016.08.13"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 exd6 6. Nc3 Be7 7. Bd3 Nc6 8.
+Nge2 O-O 9. O-O Bf6 10. b3 Re8 11. Be3 Bg4 12. Qd2 Bh5 13. Nf4 Bg6 14. Nxg6 hxg6
+15. Be4 Rb8 16. Rfe1 Ne7 17. Bg5 Nd7 18. h4 c6 19. Re2 Nf8 20. Bxf6 gxf6 21.
+Rae1 Kg7 22. d5 c5 23. Qf4 Ng8 24. Qg3 Re5 25. f4 Rh5 26. Bf3 Rh7 27. f5 Nh6 28.
+fxg6 Nf5 29. Qf4 fxg6 30. h5 Qd7 31. g4 Kh8 32. gxf5 gxf5 33. Rg2 Rd8 34. Qg3
+Qf7 35. Re7 1-0
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.21"]
+[Round "9.4"]
+[White "Demuth, Adrien"]
+[Black "Gharamian, Tigran"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2545"]
+[BlackElo "2637"]
+[ECO "D35"]
+[Opening "QGD"]
+[Variation "exchange, positional line"]
+[WhiteFideId "642274"]
+[BlackFideId "13301527"]
+[EventDate "2016.08.13"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 Be7 6. e3 c6 7. Qc2 Nbd7 8. Bd3
+Nh5 9. Bxe7 Qxe7 10. O-O-O Nb6 11. Kb1 Nf6 12. h3 Be6 13. Nf3 O-O-O 14. Rc1 Kb8
+15. Na4 Ne4 16. Nc5 Bf5 17. Ne5 f6 18. Nxc6+ bxc6 19. Na6+ Ka8 20. Qxc6+ Qb7 21.
+Nc7+ Kb8 22. Na6+ Ka8 23. Nc7+ Kb8 24. Na6+ 1/2-1/2
+
+[Event "91st ch-FRA 2016"]
+[Site "Agen FRA"]
+[Date "2016.08.21"]
+[Round "9.5"]
+[White "Feller, Sebastien"]
+[Black "Gozzoli, Yannick"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2602"]
+[BlackElo "2573"]
+[ECO "C48"]
+[Opening "Four knights"]
+[Variation "Marshall variation"]
+[WhiteFideId "634654"]
+[BlackFideId "616915"]
+[EventDate "2016.08.13"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bc5 5. O-O Nd4 6. Nxe5 O-O 7. Nd3 Bb6 8.
+e5 Ne8 9. Bc4 c6 10. Na4 Bc7 11. c3 d5 12. Bb3 Nxb3 13. axb3 f6 14. e6 Qd6 15.
+g3 Bxe6 16. Nf4 Bf5 17. d4 g5 18. Ng2 b6 19. c4 dxc4 20. bxc4 Rd8 21. Be3 Ng7
+22. Nc3 Bb8 23. f3 Rfe8 24. Qd2 Ne6 25. d5 Nc5 26. Rad1 Nb3 27. Qf2 Qb4 28. Ne4
+Kg7 29. Qe2 cxd5 30. cxd5 Nc5 31. Bd4 Be5 32. Bxe5 Rxe5 33. Qf2 Bxe4 34. Rd4 Nd3
+35. Rxb4 Nxf2 36. Kxf2 Bxd5 37. Rd1 Rde8 38. Rd2 Bc6 39. Rc4 Bb5 40. Rcc2 Kg6
+41. h4 h6 42. g4 R5e7 43. Kg3 Bf1 44. Rf2 Bxg2 45. Rxg2 h5 46. hxg5 fxg5 47.
+gxh5+ Kxh5 48. Rh2+ Kg6 49. Kg4 Re6 50. Rc7 Rf8 51. Rxa7 Rf4+ 52. Kg3 Re3 53.
+Rf2 Rb4 54. Rd7 Reb3 55. Rd6+ Kg7 56. Rc2 Rf4 57. Rc7+ Rf7 58. Rxf7+ Kxf7 59.
+Kg4 Rxb2 1/2-1/2
+

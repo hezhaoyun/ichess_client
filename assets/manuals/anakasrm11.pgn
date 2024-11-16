@@ -1,0 +1,99 @@
+[Event "Rapid Match"]
+[Site "Tashkent UZB"]
+[Date "2011.03.27"]
+[Round "1"]
+[White "Anand, Viswanathan"]
+[Black "Kasimdzhanov, Rustam"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2817"]
+[BlackElo "2687"]
+[ECO "C42"]
+[Opening "Petrov"]
+[Variation "classical attack"]
+[WhiteFideId "5000017"]
+[BlackFideId "14200244"]
+[EventDate "2011.03.27"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Nc6 7. O-O Be7 8. Nc3
+Bf5 9. Re1 Nxc3 10. bxc3 Bxd3 11. cxd3 O-O 12. Rb1 Rb8 13. Rb2 b5 14. Rbe2 a5
+15. h3 Bd6 16. Ne5 Bxe5 17. dxe5 d4 18. cxd4 Nxd4 19. Re4 f5 20. exf6 Qxf6 21.
+Bf4 Rbd8 22. Qd2 c5 23. Bg5 Qg6 24. Rg4 h5 25. Rg3 Nf5 26. Bxd8 Nxg3 27. Bxa5
+Nf5 28. Qf4 Nd4 29. Qe4 Qf7 30. f3 Qxa2 31. Bb6 Rf5 32. Kh1 Qd5 33. Rc1 Ne6 34.
+Re1 1/2-1/2
+
+[Event "Rapid Match"]
+[Site "Tashkent UZB"]
+[Date "2011.03.27"]
+[Round "2"]
+[White "Kasimdzhanov, Rustam"]
+[Black "Anand, Viswanathan"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2687"]
+[BlackElo "2817"]
+[ECO "E01"]
+[Opening "Catalan"]
+[Variation "closed"]
+[WhiteFideId "14200244"]
+[BlackFideId "5000017"]
+[EventDate "2011.03.27"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bb4+ 5. Bd2 Bxd2+ 6. Nxd2 O-O 7. Ngf3 b6 8.
+O-O Bb7 9. Ne5 Qe7 10. Rc1 Rd8 11. Qa4 Na6 12. c5 bxc5 13. dxc5 c6 14. Nb3 Qc7
+15. f4 Nb8 16. Qa5 Rc8 17. Rfd1 Nbd7 18. Nxd7 Qxd7 19. e4 Qe7 20. e5 Nd7 21. Nd4
+Kh8 22. Re1 g5 23. f5 g4 24. f6 Qf8 25. Re3 a6 26. Bf1 Qd8 27. Qxd8+ Rxd8 28. b4
+a5 29. b5 Rdc8 30. a4 cxb5 31. c6 Bxc6 32. Rxc6 Rxc6 33. Nxc6 bxa4 34. Bb5 Nb6
+35. Ra3 Rc8 36. Kf2 h5 37. Ke2 Kh7 38. Bd3+ Kh6 39. Nxa5 Nd7 40. Rxa4 Nxe5 41.
+Nb7 Kg5 42. Nd6 Rd8 43. Nb7 Rb8 44. Ra7 Kxf6 45. Ke3 Rc8 46. Ra3 Rc1 47. Nd6
+Re1+ 48. Be2 Rh1 49. Ne8+ Ke7 50. Bb5 Nc4+ 51. Bxc4 dxc4 52. Ng7 Rxh2 53. Ra7+
+Kf8 0-1
+
+[Event "Rapid Match"]
+[Site "Tashkent UZB"]
+[Date "2011.03.27"]
+[Round "3"]
+[White "Anand, Viswanathan"]
+[Black "Kasimdzhanov, Rustam"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2817"]
+[BlackElo "2687"]
+[ECO "C42"]
+[Opening "Petrov"]
+[Variation "Nimzovich attack"]
+[WhiteFideId "5000017"]
+[BlackFideId "14200244"]
+[EventDate "2011.03.27"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Be3 Nc6 8.
+Qd2 O-O 9. O-O-O Ne5 10. Kb1 c6 11. Be2 Ng4 12. Bd3 d5 13. Bf4 Bd6 14. h3 Bxf4
+15. Bxh7+ Kh8 16. Qxf4 Nxf2 17. Ng5 f6 18. Nf7+ Rxf7 19. Bg6 Nxd1 20. Qh4+ Kg8
+21. Re1 Nxc3+ 22. bxc3 Be6 23. Rxe6 Qb6+ 24. Kc1 1-0
+
+[Event "Rapid Match"]
+[Site "Tashkent UZB"]
+[Date "2011.03.27"]
+[Round "4"]
+[White "Kasimdzhanov, Rustam"]
+[Black "Anand, Viswanathan"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2687"]
+[BlackElo "2817"]
+[ECO "E00"]
+[Opening "Catalan opening"]
+[WhiteFideId "14200244"]
+[BlackFideId "5000017"]
+[EventDate "2011.03.27"]
+
+1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 Qe7 5. Bg2 Nc6 6. e3 O-O 7. Ne2 d5 8. cxd5
+exd5 9. Nbc3 Rd8 10. O-O Bxc3 11. Nxc3 b6 12. a3 Be6 13. Rc1 Na5 14. Nb5 Nc4 15.
+b3 Nxd2 16. Qxd2 c5 17. Qb2 Qd7 18. a4 a6 19. Na3 Rac8 20. Rfd1 Bh3 21. Bh1 Qf5
+22. dxc5 bxc5 23. b4 cxb4 24. Qxb4 h6 25. Qb6 Ne4 26. f3 Nf6 27. Qxa6 Rxc1 28.
+Rxc1 d4 29. Qb6 Rc8 30. Re1 Qd3 31. Nb1 Rc1 0-1
+

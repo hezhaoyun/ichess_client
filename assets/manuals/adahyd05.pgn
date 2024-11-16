@@ -1,0 +1,79 @@
+[Event "Man-Machine"]
+[Site "London ENG"]
+[Date "2005.06.21"]
+[Round "1"]
+[White "HYDRA"]
+[Black "Adams,Mi"]
+[Result "1-0"]
+[BlackElo "2737"]
+[EventDate "2005.06.21"]
+[ECO "C42"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Nc6 7. O-O Be7
+8. Re1 Bg4 9. c3 f5 10. Qb3 O-O 11. Nbd2 Na5 12. Qc2 Nc6 13. b4 a6 14. Rb1
+Bd6 15. h3 Bh5 16. b5 Na5 17. c4 dxc4 18. Nxc4 Nxc4 19. Bxc4+ Kh8 20. bxa6
+bxa6 21. Ne5 c5 22. Bd5 Rc8 23. Be6 Rc7 24. Bxf5 Bxe5 25. dxe5 Rxf5 26.
+Qxe4 Bg6 27. Rb6 Rf8 28. Qe3 Rcf7 29. Rd6 Qa5 30. e6 Re7 31. Ba3 Rfe8 32.
+Bxc5 Qxa2 33. Rd2 1-0
+
+[Event "Man-Machine"]
+[Site "London ENG"]
+[Date "2005.06.22"]
+[Round "2"]
+[White "Adams,Mi"]
+[Black "HYDRA"]
+[Result "1/2-1/2"]
+[WhiteElo "2737"]
+[EventDate "2005.06.21"]
+[ECO "B47"]
+
+1. e4 c5 2. Nc3 e6 3. Nf3 Nc6 4. d4 cxd4 5. Nxd4 Qc7 6. g3 a6 7. Bg2 d6 8.
+Nxc6 bxc6 9. O-O Nf6 10. Na4 e5 11. c4 Be7 12. Be3 Be6 13. Rc1 O-O 14. b3
+Qb7 15. Qe2 Rfe8 16. h3 Rab8 17. Rfd1 Bf8 18. Kh2 h6 19. Rc2 Be7 20. Bc1
+Qc7 21. Bb2 Nd7 22. Bc3 Nf8 23. Qe3 c5 24. Bb2 Bd7 25. Nc3 Ne6 26. Nd5 Qd8
+27. f4 Nd4 28. Rf2 Bc6 29. fxe5 dxe5 30. Bxd4 cxd4 31. Qf3 Rf8 32. Qh5 f6
+33. h4 Be8 34. Qf3 Bf7 35. Bh3 Rb7 36. h5 a5 37. Kg2 Qe8 38. Bg4 Bc5 39.
+Rh1 Qc6 40. Rb2 Rfb8 41. Bf5 Kh8 42. Rhb1 Qe8 43. g4 Qc6 44. Qd3 Bg8 45.
+Qd1 Qa6 46. Rd2 a4 47. Rdb2 Qa8 48. Kh2 Bf7 49. Kg2 Bf8 50. Kh2 Be8 51. b4
+a3 52. Rb3 Ba4 53. b5 Qa7 54. Kg2 Qc5 55. Qd3 Bxb3 56. Qxb3 Ra8 57. Rd1 Qd6
+58. Rc1 Qb8 59. Kf3 Bd6 60. Ke2 Bc5 61. Kd3 Qa7 62. Rb1 Qa5 63. Qc2 Qd8 64.
+Rh1 Qd6 65. Qb3 Re8 1/2-1/2
+
+[Event "Man-Machine"]
+[Site "London ENG"]
+[Date "2005.06.23"]
+[Round "3"]
+[White "HYDRA"]
+[Black "Adams,Mi"]
+[Result "1-0"]
+[BlackElo "2737"]
+[EventDate "2005.06.21"]
+[ECO "C91"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. d4 Bg4 10. d5 Na5 11. Bc2 c6 12. h3 Bc8 13. dxc6 Qc7 14. Nbd2
+Qxc6 15. Nf1 Be6 16. Ng5 Bd8 17. Ne3 Bd7 18. a4 h6 19. Nf3 Rc8 20. axb5
+axb5 21. Nh4 Nc4 22. Nxc4 bxc4 23. Ba4 Qc7 24. Bxd7 Qxd7 25. Nf5 d5 26. Ra6
+Qb7 27. Rd6 Be7 28. Bxh6 1-0
+
+[Event "Man-Machine"]
+[Site "London ENG"]
+[Date "2005.06.25"]
+[Round "4"]
+[White "Adams,Mi"]
+[Black "HYDRA"]
+[Result "0-1"]
+[WhiteElo "2737"]
+[EventDate "2005.06.21"]
+[ECO "B23"]
+
+1. e4 c5 2. Nc3 d6 3. Nge2 Nf6 4. g3 g6 5. Bg2 Nc6 6. d4 cxd4 7. Nxd4 Nxd4
+8. Qxd4 Bg7 9. O-O O-O 10. a4 Qa5 11. Qd3 Bd7 12. Nd5 Nxd5 13. Qxd5 Qxd5
+14. exd5 Bf6 15. c3 a5 16. Re1 Rfb8 17. Bf1 b5 18. axb5 Bxb5 19. Bxb5 Rxb5
+20. Rd1 Rc8 21. Ra4 Rcc5 22. c4 Rb3 23. Be3 Rc8 24. Bd4 Kg7 25. Kf1 Bxd4
+26. Rxd4 Rxb2 27. Rxa5 f5 28. Ra7 Kf6 29. g4 Rb4 30. g5+ Kxg5 31. Rxe7
+Rcxc4 32. Rxc4 Rxc4 33. Rxh7 Kf6 34. Rd7 Ke5 35. Rg7 Rg4 36. f3 Rg5 37. Kf2
+Kxd5 38. h4 Rh5 39. Kg3 Rh6 40. Re7 Kd4 41. Re1 d5 42. Rd1+ Ke5 43. Re1+
+Kd6 44. Rd1 Rh5 45. Ra1 Kc5 46. Rc1+ Kb4 47. Rd1 Kc4 48. Rc1+ Kd3 49. Rc6
+Rh6 50. h5 f4+ 0-1
+

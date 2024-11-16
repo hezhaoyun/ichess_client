@@ -1,0 +1,606 @@
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.23"]
+[Round "1"]
+[White "Lahno,Kateri"]
+[Black "Kosintseva,T"]
+[Result "1-0"]
+[WhiteElo "2539"]
+[BlackElo "2573"]
+[EventDate "2010.10.23"]
+[ECO "D38"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. cxd5 exd5 6. Bg5 Nbd7 7. Rc1 h6
+8. Bh4 c5 9. dxc5 Qa5 10. a3 Bxc3+ 11. Rxc3 Ne4 12. b4 Nxc3 13. Qb3 Qa4 14.
+Qxc3 O-O 15. e3 a5 16. b5 Nxc5 17. Qxc5 Be6 18. Qd4 Qxa3 19. Be2 Qc1+ 20.
+Qd1 Qb2 21. O-O a4 22. Bg3 f6 23. Nd4 Bf7 24. Bd3 a3 25. Nf5 a2 26. Qg4 g5
+27. Nxh6+ Kg7 28. Qf5 Rh8 29. Nxf7 Kxf7 30. Qg6+ Ke7 31. Qg7+ Ke6 32. f4
+gxf4 33. exf4 Qd4+ 34. Kh1 Qxd3 35. f5+ Qxf5 36. Re1+ Qe4 37. Rxe4+ dxe4
+38. Qg4+ Kd5 39. Qf5+ Kc4 40. Qxe4+ Kxb5 41. Qd5+ Kb6 42. Qb3+ Kc6 43. Qc4+
+Kd7 44. Qf7+ Kc6 45. Qxf6+ Kd5 46. Qe5+ Kc4 47. Qe4+ Kb3 48. Qxb7+ Kc2 49.
+Qe4+ Kb3 50. Qd3+ Kb4 51. Bd6+ Ka5 52. Qd5+ Kb6 53. Qc5+ Ka6 54. Qc6+ Ka5
+55. Be5 Kb4 56. Qc3+ 1-0
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.23"]
+[Round "1"]
+[White "Zhu Chen"]
+[Black "Gharamian,T"]
+[Result "1/2-1/2"]
+[WhiteElo "2480"]
+[BlackElo "2658"]
+[EventDate "2010.10.23"]
+[ECO "E38"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 Bxc5 6. Nf3 Qb6 7. e3 Be7
+8. Be2 a6 9. b3 Qc7 10. Bb2 d6 11. Rc1 b6 12. O-O Bb7 13. Rfd1 Nbd7 14. Ng5
+Rc8 15. Qb1 Qb8 16. Bf3 Bxf3 17. Nxf3 O-O 18. Nd4 g6 19. h3 Qb7 20. a4 Rfd8
+21. Nde2 Nc5 22. Ba1 Nce4 23. Qb2 Rc5 24. f3 Nxc3 25. Nxc3 e5 26. Rc2 Rdc8
+27. Rcd2 Bf8 28. Rd3 Qd7 29. Qd2 Qe6 30. e4 Nh5 31. Nd5 b5 32. cxb5 axb5
+33. axb5 Rxb5 34. Bb2 Nf6 35. Nxf6+ Qxf6 36. Ba3 Rc6 37. Rc1 Rxc1+ 38. Qxc1
+Qe6 39. Qc3 Rb8 40. Kh1 Rc8 41. Qd2 Ra8 42. Qc1 h5 43. Qb2 Rb8 44. Qc2 Rc8
+45. Qd1 Rb8 46. Rd5 Rb6 47. Qd3 h4 48. b4 Qc8 49. b5 Rb7 50. Kh2 Rc7 51. b6
+Rc6 52. Bxd6 Bxd6 53. Rxd6 Kg7 54. Qd5 Rc2 55. Qxe5+ Kh7 56. Qf6 Qc4 57.
+Qxh4+ Kg7 58. Qf6+ Kh7 59. Rd8 Rxg2+ 60. Kxg2 Qe2+ 61. Kg3 Qe1+ 62. Kf4
+Qc1+ 63. Ke5 Qc3+ 64. Rd4 Qc5+ 65. Kf4 Qc1+ 66. Kg3 Qg1+ 67. Kf4 Qc1+ 68.
+Kg3 Qg1+ 69. Kf4 Qc1+ 1/2-1/2
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.23"]
+[Round "1"]
+[White "Ivanchuk,V"]
+[Black "Pelletier,Y"]
+[Result "1-0"]
+[WhiteElo "2754"]
+[BlackElo "2592"]
+[EventDate "2010.10.23"]
+[ECO "C10"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Bd3 c5 7. O-O Nxe4
+8. Bxe4 Nf6 9. Bg5 cxd4 10. Nxd4 Be7 11. Bf3 O-O 12. Qd3 Qb6 13. Rfd1 Rd8
+14. Be3 e5 15. Nf5 Rxd3 16. Nxe7+ Kf8 17. Bxb6 Rxd1+ 18. Rxd1 axb6 19. Nxc8
+Rxc8 20. c3 Rc7 21. Kf1 Ke7 22. g3 Nd7 23. Rd5 Rc5 24. g4 Ke6 25. Rd2 Rc7
+26. Ke2 f6 27. h4 g6 28. Bd5+ Ke7 29. Bg8 Nf8 30. Ke3 Rc8 31. Bd5 Rc7 32.
+f4 exf4+ 33. Kxf4 Rd7 34. Re2+ Kd8 35. Bc4 Rd6 36. g5 Nd7 37. Bg8 Nf8 38.
+a3 Kd7 39. Kg4 f5+ 40. Kf4 Rd3 41. Ke5 Ke7 42. h5 Rh3 43. h6 Rd3 44. Bd5
+Nd7+ 45. Kf4+ Kd6 46. Bg8 Rh3 47. Re6+ Kc7 48. Bxh7 Rh4+ 49. Kf3 Nf8 50.
+Re7+ 1-0
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.23"]
+[Round "1"]
+[White "Hammer,J"]
+[Black "Le Quang Liem"]
+[Result "0-1"]
+[WhiteElo "2633"]
+[BlackElo "2694"]
+[EventDate "2010.10.23"]
+[ECO "D83"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Rc1 Be6 7. Qb3 c5 8.
+Qxb7 Qb6 9. Qxb6 axb6 10. dxc5 bxc5 11. Be5 dxc4 12. Nh3 Nc6 13. Bg3 Nh5
+14. Ng5 Bxc3+ 15. bxc3 Nxg3 16. hxg3 Ne5 17. Rc2 Rfb8 18. Nxe6 Rb1+ 19. Ke2
+fxe6 20. Rh4 Rd8 21. f4 Nd3 22. Rh1 Kg7 23. g4 Rdb8 24. g3 Re1+ 25. Kf3
+Rbb1 26. Kg2 Red1 27. Bxd3 cxd3 28. Rxd1 dxc2 0-1
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.24"]
+[Round "2"]
+[White "Pelletier,Y"]
+[Black "Le Quang Liem"]
+[Result "1/2-1/2"]
+[WhiteElo "2592"]
+[BlackElo "2694"]
+[EventDate "2010.10.23"]
+[ECO "A15"]
+
+1. Nf3 Nf6 2. c4 b6 3. g3 c5 4. Bg2 Bb7 5. O-O g6 6. Nc3 Bg7 7. d4 cxd4 8.
+Qxd4 d6 9. Be3 Nbd7 10. Rac1 Rc8 11. b3 a6 12. Bh3 O-O 13. Qh4 Rc7 14. Rfd1
+Qb8 15. Nd5 Nxd5 16. cxd5 Nf6 17. Bxb6 Rxc1 18. Rxc1 Nxd5 19. Ba5 Bc8 20.
+Bxc8 Rxc8 21. Rc4 e6 22. Qe4 Bc3 23. Bxc3 Nxc3 24. Rxc8+ Qxc8 25. Qc2 Qc5
+26. e3 e5 27. h4 Kg7 28. Ne1 Qa5 29. Qd2 Qc7 30. Qc2 Qa5 31. Qd2 Qc7 32.
+Qc2 d5 33. Nf3 f6 34. Kh2 Qc5 35. Nd2 Ne4 36. Qxc5 Nxc5 37. Kg2 Kf7 38. Kf3
+Ke6 39. Ke2 a5 40. f3 f5 41. e4 d4 42. g4 fxg4 43. fxg4 h6 44. Kf3 Nd3 45.
+Nc4 Nc1 46. Nxa5 Nxa2 47. Nc4 Nb4 48. Nb2 Na6 49. Nd3 Kd6 50. Nb2 g5 51.
+hxg5 hxg5 52. Nc4+ Ke6 53. Ke2 Nc5 54. Nd2 Kd6 55. Nc4+ Ke6 56. Nd2 Kd6 57.
+Nc4+ Ke6 58. Nd2 1/2-1/2
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.24"]
+[Round "2"]
+[White "Kosintseva,T"]
+[Black "Hammer,J"]
+[Result "0-1"]
+[WhiteElo "2573"]
+[BlackElo "2633"]
+[EventDate "2010.10.23"]
+[ECO "C95"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3
+g6 15. b3 Bg7 16. d5 Rc8 17. c4 c6 18. Bg5 h6 19. Be3 Nb6 20. Qe2 cxd5 21.
+cxd5 Nbxd5 22. exd5 Nxd5 23. Rac1 f5 24. Nxf5 gxf5 25. Bxf5 Rxc1 26. Bxc1
+Qf6 27. Qe4 Ba8 28. Qg4 Ne7 29. Be6+ Kf8 30. Bg5 hxg5 31. Nxg5 Qg6 32. Bf7
+Qxf7 33. Nxf7 Kxf7 34. Qd7 Bf6 35. Qxd6 Rg8 36. g3 Nf5 37. Qd7+ Kg6 38. Qe6
+Rd8 39. Rxe5 Nd4 40. Qg4+ Kf7 41. Qh5+ Kf8 42. Qh6+ Bg7 43. Qf4+ Kg8 44.
+Qxd4 Rxd4 45. Re8+ Kf7 46. Rxa8 Rd2 47. Ra7+ Kg8 48. Rxa6 Bd4 49. b4 Bxf2+
+50. Kf1 Kf7 51. Ra5 Bxg3 52. Rxb5 Rxa2 53. Rg5 Bd6 54. Rg2 Ra1+ 55. Kf2
+Bxb4 56. Kf3 Ra3+ 57. Kg4 Be7 58. Re2 Bf6 59. Re4 Kg6 60. h4 Ra1 61. h5+
+Kf7 62. Re3 Ra4+ 63. Kf5 Ra5+ 64. Kg4 Rg5+ 65. Kf4 Rxh5 66. Re4 Kg6 67. Kg4
+Rh1 68. Kf3 Bg5 69. Rc4 Bf6 70. Re4 Kf5 71. Rf4+ Ke5 72. Re4+ Kd5 73. Ra4
+Rh3+ 74. Kg2 Rb3 75. Ra2 Bd4 76. Kf1 Ke4 77. Re2+ Be3 78. Rc2 Ra3 79. Ke2
+Bd4 80. Kf1 Kd3 81. Re2 Ra6 82. Re8 Rg6 0-1
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.24"]
+[Round "2"]
+[White "Gharamian,T"]
+[Black "Lahno,Kateri"]
+[Result "1/2-1/2"]
+[WhiteElo "2658"]
+[BlackElo "2539"]
+[EventDate "2010.10.23"]
+[ECO "B72"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. Be2 Nc6
+8. Qd2 O-O 9. O-O-O Ng4 10. Bxg4 Bxg4 11. f3 Bd7 12. Kb1 Re8 13. h4 Ne5 14.
+b3 Qa5 15. h5 Rac8 16. Nce2 Qxd2 17. Bxd2 a6 18. Rh2 Nc6 19. Be3 b5 20.
+Rdh1 Nxd4 21. Bxd4 Bxd4 22. Nxd4 g5 23. Kb2 Rc5 24. g4 Rec8 25. Rd2 Kg7 26.
+a3 Rc3 27. Rd3 Rxd3 28. cxd3 e6 29. Re1 h6 30. b4 Rc7 31. Re2 Rc8 32. Re1
+Rc7 33. Re2 Rc8 34. Nb3 Kf8 35. d4 Ke7 1/2-1/2
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.24"]
+[Round "2"]
+[White "Ivanchuk,V"]
+[Black "Zhu Chen"]
+[Result "1/2-1/2"]
+[WhiteElo "2754"]
+[BlackElo "2480"]
+[EventDate "2010.10.23"]
+[ECO "B00"]
+
+1. e4 d6 2. g3 c5 3. Bg2 Nc6 4. Ne2 g6 5. c3 e5 6. d4 Bg7 7. Be3 b6 8. Qd2
+Ba6 9. Na3 Nge7 10. d5 Nb8 11. c4 f5 12. f3 Nd7 13. g4 Nf6 14. h3 Bc8 15.
+O-O-O a6 16. Kb1 Bd7 17. Ka1 Qc7 18. Nc3 f4 19. Bf2 h5 20. g5 Nh7 21. h4
+O-O 22. Rb1 a5 23. Nab5 Qb8 24. Bh3 Bxh3 25. Rxh3 Rd8 26. Rhh1 Nf8 27. Qd1
+Nc8 28. Qf1 Na7 29. Na3 Qc8 30. b3 Rb8 31. Be1 Kf7 32. Bd2 Qd7 33. Kb2 Rb7
+34. Qe2 Qc8 35. Qf1 Nd7 36. Qh3 Nb8 37. Qxc8 Rxc8 38. Rhd1 Na6 39. Na4 Bf8
+40. Be1 Be7 41. Nc3 Ke8 42. Ra1 Bd8 43. Nab1 Nc7 44. Nd2 Kd7 45. Rab1 Ra8
+46. Kc2 b5 47. cxb5 Naxb5 48. Nxb5 Nxb5 49. Kd3 Na3 50. Rb2 1/2-1/2
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.24"]
+[Round "3"]
+[White "Hammer,J"]
+[Black "Gharamian,T"]
+[Result "1/2-1/2"]
+[WhiteElo "2633"]
+[BlackElo "2658"]
+[EventDate "2010.10.23"]
+[ECO "E04"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 Bb4+ 6. Bd2 c5 7. O-O O-O 8.
+dxc5 Bxc5 9. Qc2 Nbd7 10. Qxc4 b5 11. Qxb5 Rb8 12. Qc4 Bb7 13. Qc1 Qb6 14.
+Nc3 Rfc8 15. Qe1 Qxb2 16. Na4 Qa3 17. Nxc5 Nxc5 18. Bf4 Ra8 19. Qc1 Qa6 20.
+Qe1 Bd5 21. Be5 Nce4 22. Nd2 Rc2 23. Nxe4 Bxe4 24. Bxf6 Bxg2 25. Kxg2 gxf6
+26. e4 Qe2 27. Qxe2 Rxe2 28. Rfe1 Rc2 29. Rec1 Rac8 30. Rxc2 Rxc2 31. Rb1
+Rxa2 32. Rb8+ Kg7 33. Ra8 Ra3 34. g4 h6 35. f3 f5 36. gxf5 exf5 37. e5 f4
+38. Kh3 h5 39. Kh4 Kg6 40. Rg8+ Kf5 41. Rg5+ Ke6 42. Rxh5 Rxf3 43. Kg4 Rf1
+44. Rh6+ Kxe5 45. Ra6 f5+ 46. Kh3 Rg1 47. Ra5+ Kf6 48. Ra6+ Ke5 49. Ra5+
+Ke4 50. Ra4+ Kd3 51. Ra3+ Kd4 52. Ra4+ Kd3 53. Ra3+ Kc4 54. Rxa7 f3 55.
+Ra4+ Kd3 56. Ra3+ Ke4 57. Ra4+ Ke3 58. Ra3+ Kf4 59. Ra4+ Kg5 60. Ra2 Kf4
+61. Ra4+ Ke5 62. Ra5+ Kf6 63. Ra6+ Kg7 64. Ra7+ Kg6 65. Ra6+ Kh5 66. Ra2
+Kg5 67. Rb2 Kf4 68. Rb4+ Ke3 69. Rb3+ Kf4 70. Rb4+ Kg5 71. Rb2 Re1 72. Kg3
+Re3 73. Rb5 1/2-1/2
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.24"]
+[Round "3"]
+[White "Lahno,Kateri"]
+[Black "Ivanchuk,V"]
+[Result "0-1"]
+[WhiteElo "2539"]
+[BlackElo "2754"]
+[EventDate "2010.10.23"]
+[ECO "E17"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. Nc3 Ne4 7. Qc2 Nxc3 8.
+bxc3 d6 9. O-O Nd7 10. a4 a5 11. Rd1 Qc8 12. d5 e5 13. Bh3 Qd8 14. e4 Bc8
+15. Be3 Nf6 16. Bxc8 Qxc8 17. Bg5 Nh5 18. Bxe7 Kxe7 19. Qe2 g6 20. c5 bxc5
+21. Nd2 Nf6 22. Nc4 Qa6 23. Qd3 Nd7 24. Rab1 Rhb8 25. Rxb8 Rxb8 26. Nxe5
+Qxd3 27. Nc6+ Ke8 28. Rxd3 Rb1+ 29. Kg2 Ra1 30. Nxa5 Rxa4 31. Nc6 Rxe4 32.
+Kf3 Nf6 33. h3 h5 34. h4 Kd7 35. Nb8+ Kc8 36. Nc6 Ra4 37. Kg2 Kd7 38. Nb8+
+Ke8 39. Nc6 Ra2 40. c4 Ng4 41. Rf3 f5 42. Kg1 Rc2 43. Rf4 Ne5 44. Na5 Rc1+
+45. Kh2 Kd7 46. g4 hxg4 47. h5 Nf3+ 48. Rxf3 gxf3 49. hxg6 Ke7 50. Kg3 Kf6
+0-1
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.24"]
+[Round "3"]
+[White "Zhu Chen"]
+[Black "Pelletier,Y"]
+[Result "0-1"]
+[WhiteElo "2480"]
+[BlackElo "2592"]
+[EventDate "2010.10.23"]
+[ECO "E32"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d5 7. Nf3 dxc4
+8. Qxc4 b6 9. Bg5 Ba6 10. Qc2 h6 11. Bh4 c5 12. dxc5 bxc5 13. Qxc5 Nbd7 14.
+Qc6 Nb6 15. Rd1 Rc8 16. Rxd8 Rxc6 17. Rxf8+ Kxf8 18. Nd4 Rc4 19. Bxf6 gxf6
+20. Nb3 Rc2 21. e4 Rxb2 22. Nd2 Ra2 23. Bxa6 Ra1+ 24. Ke2 Rxh1 25. Nf1 Rg1
+26. g3 Ke7 27. Bb5 Kd6 28. Be8 Nc4 29. a4 Ne5 30. Bb5 Kc5 31. Ke3 Nc4+ 32.
+Ke2 Kb4 33. Ke1 Nd6 34. Bc6 Kc5 35. Ba8 Kd4 36. e5 fxe5 37. f4 Ne4 38. fxe5
+Nd2 0-1
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.24"]
+[Round "3"]
+[White "Le Quang Liem"]
+[Black "Kosintseva,T"]
+[Result "1-0"]
+[WhiteElo "2694"]
+[BlackElo "2573"]
+[EventDate "2010.10.23"]
+[ECO "A29"]
+
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7
+8. d3 O-O 9. Be3 Be6 10. Rc1 f6 11. d4 exd4 12. Nxd4 Nxd4 13. Bxd4 c6 14.
+Ne4 Rf7 15. e3 Bf8 16. Qc2 Qc8 17. Rfd1 Bf5 18. Bc5 Qe6 19. Bxf8 Raxf8 20.
+Qb3 Qxb3 21. axb3 Bxe4 22. Bxe4 f5 23. Bd3 g6 24. Ra1 a6 25. Bc4 Nxc4 26.
+bxc4 Re8 27. Rd4 Kg7 28. Kg2 Kf6 29. Kf3 Re5 30. Rad1 Rfe7 31. Rd6+ Kf7 32.
+h4 h5 33. b3 Re4 34. Rd8 Kg7 35. Rc8 R4e5 36. Rdd8 Ra5 37. Rg8+ Kf6 38.
+Rcf8+ Rf7 39. Rd8 Ra3 40. Kf4 Rxb3 41. Rd6+ Ke7 42. Rgd8 Ra3 43. Kg5 f4 44.
+gxf4 Ra1 45. c5 Rg1+ 46. Kh6 Rf5 47. R8d7+ Ke8 48. Rxb7 Rxc5 49. Ra7 a5 50.
+Re6+ Kd8 51. Rf6 Ke8 52. Kg7 Rf5 53. Rxc6 Kd8 54. Rxg6 Rd1 55. Rg5 Rxg5+
+56. fxg5 Rd7+ 57. Rxd7+ Kxd7 58. g6 a4 59. Kh7 1-0
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.25"]
+[Round "4"]
+[White "Zhu Chen"]
+[Black "Lahno,Kateri"]
+[Result "0-1"]
+[WhiteElo "2480"]
+[BlackElo "2539"]
+[EventDate "2010.10.23"]
+[ECO "E70"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Bd3 O-O 6. Nge2 Nbd7 7. O-O c5 8.
+Bc2 cxd4 9. Nxd4 Nc5 10. b3 b6 11. Bb2 Bb7 12. Re1 a6 13. a4 Rc8 14. h3 a5
+15. Qd2 Ne8 16. Rad1 Nc7 17. Nd5 N7a6 18. Ba3 e6 19. Nc3 Qe7 20. Ndb5 Rcd8
+21. Qe3 Rd7 22. Re2 Rfd8 23. Red2 h5 24. Re2 Kh7 25. f4 Bh6 26. Qg3 h4 27.
+Qf2 Qf6 28. Rf1 e5 29. f5 Bf4 30. Qf3 Kg7 31. Qg4 Nb4 32. Bxb4 axb4 33. Na2
+Na6 34. Nd4 exd4 35. Qxf4 g5 36. Qf2 d3 37. Bxd3 Nc5 38. Bc2 Re7 39. Nxb4
+Rde8 40. Rfe1 Qc3 41. Nd5 Bxd5 42. cxd5 f6 43. Re3 Qb4 44. Qe2 Kh6 45. Kh2
+Rc7 46. g3 hxg3+ 47. Rxg3 Qd4 48. h4 Qe5 49. hxg5+ fxg5 50. Kg2 Kg7 51. Qh5
+Kf8 52. Qxg5 Nd7 53. Bd3 Nf6 54. Re2 Rh7 55. Qe3 Rh2+ 56. Kf3 Rh7 57. Reg2
+Nxd5 58. Rg8+ Kf7 59. Bc4 Rxg8 60. Bxd5+ Kf6 61. Rxg8 Rh3+ 62. Kg4 Rxe3 63.
+Rg6+ Ke7 64. Re6+ Qxe6 65. fxe6 Kf6 66. Kf4 Rc3 67. Bc4 Rh3 68. Kg4 Rc3 69.
+Bd5 Re3 70. Kf4 Rc3 71. Bc4 Rh3 72. Kg4 Rc3 73. Bd5 Re3 74. Kf4 Rc3 75. e5+
+dxe5+ 76. Ke4 Rh3 77. Bc4 Rh4+ 78. Kd3 Rd4+ 79. Kc3 Rd8 80. b4 e4 81. a5
+bxa5 82. bxa5 e3 83. a6 Rc8 84. Kd3 e2 85. Kd4 0-1
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.25"]
+[Round "4"]
+[White "Gharamian,T"]
+[Black "Le Quang Liem"]
+[Result "0-1"]
+[WhiteElo "2658"]
+[BlackElo "2694"]
+[EventDate "2010.10.23"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8.
+Qd2 Nbd7 9. O-O-O Rc8 10. f4 Be7 11. Kb1 b5 12. h3 Qc7 13. f5 Bc4 14. g4 h6
+15. Rg1 Bxf1 16. Rgxf1 Qc4 17. Qd3 b4 18. Nd5 Nxd5 19. Qxc4 Rxc4 20. exd5
+Nf6 21. Na5 Re4 22. Bf2 Rf4 23. Nc6 Kd7 24. Bh4 Rxf1 25. Rxf1 Nxd5 26. Nxe7
+Nxe7 27. f6 gxf6 28. Rxf6 Rh7 29. Be1 Nd5 30. Rf5 Ke6 31. Bd2 Nf6 32. Bxb4
+h5 33. b3 hxg4 34. hxg4 Nxg4 35. Rg5 Ne3 36. c4 Rh1+ 37. Kb2 Rh2+ 38. Kb1
+d5 39. cxd5+ Nxd5 40. Ba5 e4 41. Rg8 f5 42. Re8+ Kd6 43. Ra8 f4 44. Rxa6+
+Ke5 45. Ra8 f3 0-1
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.25"]
+[Round "4"]
+[White "Ivanchuk,V"]
+[Black "Hammer,J"]
+[Result "1-0"]
+[WhiteElo "2754"]
+[BlackElo "2633"]
+[EventDate "2010.10.23"]
+[ECO "A14"]
+
+1. c4 Nf6 2. Nf3 e6 3. g3 d5 4. Bg2 Be7 5. O-O O-O 6. b3 d4 7. e3 c5 8.
+exd4 cxd4 9. Re1 Nc6 10. d3 a5 11. Bb2 Qb6 12. Na3 a4 13. Nb5 a3 14. Bc1
+Ne8 15. Rb1 Bd7 16. Qe2 Nc7 17. Nxc7 Qxc7 18. Bf4 Bd6 19. Ne5 Ra5 20. b4
+Nxb4 21. c5 Bxc5 22. Rec1 Qd8 23. Rxc5 Rxc5 24. Rxb4 Bc8 25. h4 f6 26. Nc4
+b5 27. Nxa3 e5 28. Bd2 Be6 29. Rxb5 Rxb5 30. Nxb5 Qb6 31. a4 Bb3 32. Bb4
+Rb8 33. Bd6 Rc8 34. Qb2 Bc2 35. Bh3 Rc6 36. Qa2+ Kh8 37. Qf7 Qd8 38. Bf8
+1-0
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.25"]
+[Round "4"]
+[White "Pelletier,Y"]
+[Black "Kosintseva,T"]
+[Result "1/2-1/2"]
+[WhiteElo "2592"]
+[BlackElo "2573"]
+[EventDate "2010.10.23"]
+[ECO "A07"]
+
+1. Nf3 d5 2. g3 c6 3. Bg2 Bg4 4. c4 e6 5. O-O Nf6 6. d3 Nbd7 7. cxd5 cxd5
+8. Qb3 Nc5 9. Qb5+ Qd7 10. Nc3 a6 11. Qxd7+ Ncxd7 12. Bf4 Be7 13. Rac1 O-O
+14. h3 Bxf3 15. Bxf3 Rfc8 16. g4 h6 17. e4 e5 18. Bg3 d4 19. Nd5 Nxd5 20.
+exd5 Bd6 21. Be4 Nf6 22. Kg2 Nxe4 23. dxe4 f6 24. Kf3 Kf7 25. Ke2 g5 26. h4
+Rxc1 27. Rxc1 Rg8 28. Rh1 Kg7 29. Kd3 Rc8 30. f3 Rc7 31. Rd1 Rc8 32. Bf2
+Kg6 33. Be1 Rc7 34. Bd2 Rc8 35. Rh1 Kg7 36. a4 b6 37. b4 Rc7 38. hxg5 hxg5
+39. Rb1 Rc8 40. Rh1 Rc7 41. Rb1 Rc8 42. Rh1 Rc7 1/2-1/2
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.25"]
+[Round "5"]
+[White "Hammer,J"]
+[Black "Zhu Chen"]
+[Result "1-0"]
+[WhiteElo "2633"]
+[BlackElo "2480"]
+[EventDate "2010.10.23"]
+[ECO "D10"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 g6 5. Nf3 Bg7 6. Be2 O-O 7. O-O dxc4 8.
+Bxc4 Bg4 9. h3 Bxf3 10. Qxf3 Nbd7 11. Rd1 e5 12. d5 e4 13. Nxe4 Nxe4 14.
+Qxe4 Nb6 15. Rb1 Re8 16. Qd3 Nxd5 17. Bd2 Nb6 18. Ba5 Qxd3 19. Bxd3 Na4 20.
+Rdc1 Re5 21. Be1 Rd8 22. Bc2 Nb6 23. Bb3 Re7 24. g4 Bf6 25. a4 Nd7 26. Rd1
+Ree8 27. Bc2 Nb6 28. Rxd8 Rxd8 29. b3 Kg7 30. Kg2 Nd5 31. Rd1 c5 32. Kf3
+Nb4 33. Rxd8 Bxd8 34. Be4 b6 35. Ke2 Kf6 36. f4 Ke6 37. f5+ Kd7 38. Bc3 Kd6
+39. Be1 Bf6 40. h4 Be5 41. g5 Nd5 42. Kf3 Ne7 43. f6 Nc6 44. Bd3 Nd8 45.
+Ke4 h6 46. gxh6 Bxf6 47. Bg3+ Ke7 48. Kd5 Kf8 49. Bb8 Bxh4 50. Bxa7 Bg5 51.
+Bxb6 Ne6 52. h7 Kg7 53. Bxg6 Bxe3 54. Bxf7 Nf4+ 1-0
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.25"]
+[Round "5"]
+[White "Lahno,Kateri"]
+[Black "Pelletier,Y"]
+[Result "0-1"]
+[WhiteElo "2539"]
+[BlackElo "2592"]
+[EventDate "2010.10.23"]
+[ECO "D37"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 dxc4 5. e4 Bb4 6. Bg5 h6 7. Bxf6 Qxf6
+8. Bxc4 c5 9. O-O cxd4 10. e5 Qd8 11. Nb5 Nc6 12. Nbxd4 Nxd4 13. Nxd4 O-O
+14. Rc1 Qb6 15. Qg4 Rd8 16. Ne2 Bd7 17. Ng3 Bf8 18. Qe2 Bc6 19. Bd3 Rd4 20.
+Bb1 Rad8 21. Qc2 g6 22. b3 Rd2 23. Qc3 Bb4 24. Qa1 Bc5 25. Be4 Bd4 26. Rxc6
+bxc6 27. Qb1 Rxf2 0-1
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.25"]
+[Round "5"]
+[White "Kosintseva,T"]
+[Black "Gharamian,T"]
+[Result "0-1"]
+[WhiteElo "2573"]
+[BlackElo "2658"]
+[EventDate "2010.10.23"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. g4 e5 8.
+Nf5 g6 9. Qf3 gxf5 10. exf5 e4 11. Qe2 Rg8 12. Bh3 h6 13. O-O-O Nc6 14. Bf4
+Kd7 15. Qc4 Kc7 16. Qxf7+ Kb8 17. Rhe1 Rg7 18. Qxf8 Qxf8 19. Bxd6+ Qxd6 20.
+Rxd6 Nxg4 21. f6 Rf7 22. Bxg4 Bxg4 23. Rxe4 h5 24. Re8+ Ka7 25. Rxa8+ Kxa8
+26. Ne4 Bf5 27. Ng5 Rf8 28. f7 h4 29. Rf6 Ne7 30. Rh6 h3 31. Rf6 Kb8 32.
+Nf3 Kc7 33. Ne5 Be4 34. c4 Nc6 35. Ng4 Kd8 36. Rf4 Bg6 37. Nh6 Ke7 38. Rh4
+Bxf7 39. Nxf7 Rxf7 40. Rxh3 Kd6 41. f3 Ne5 42. b3 Nxf3 43. Rh5 Rg7 44. Rd5+
+Kc6 45. Rd3 Nxh2 46. Rd2 Nf3 47. Rf2 Rg3 48. Kb2 Kc5 49. Ka3 Ne5 50. Rf5
+Re3 51. Rf4 b5 52. cxb5 axb5 53. Rh4 Nc4+ 0-1
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.25"]
+[Round "5"]
+[White "Le Quang Liem"]
+[Black "Ivanchuk,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2694"]
+[BlackElo "2754"]
+[EventDate "2010.10.23"]
+[ECO "A30"]
+
+1. Nf3 Nf6 2. c4 c5 3. Nc3 e6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. Re1 d5 8.
+cxd5 Nxd5 9. e4 Nb4 10. d4 cxd4 11. Nxd4 N8c6 12. Nxc6 Qxd1 13. Rxd1 Bxc6
+14. a3 Nc2 15. Ra2 Rd8 16. Rxd8+ Bxd8 17. b4 Ne1 18. Bf1 Bf6 19. Bb5 Kd7
+20. Bd2 Bxb5 21. Nxb5 a6 22. Bxe1 axb5 23. Rd2+ Kc6 24. f4 Ra8 25. e5 Be7
+26. Rd3 Rd8 27. Rc3+ Kb7 28. Kf2 f6 29. Re3 f5 30. Ke2 g5 31. Rd3 Rxd3 32.
+Kxd3 Kc6 33. Kd4 h5 34. h4 gxh4 35. gxh4 Bd8 36. Bf2 Bc7 37. Be1 1/2-1/2
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.26"]
+[Round "6"]
+[White "Pelletier,Y"]
+[Black "Gharamian,T"]
+[Result "1-0"]
+[WhiteElo "2592"]
+[BlackElo "2658"]
+[EventDate "2010.10.23"]
+[ECO "E11"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 c5 5. g3 Qb6 6. Bg2 Nc6 7. Nc3 Nxd4
+8. Nxd4 cxd4 9. Nb5 Bc5 10. b4 Be7 11. a4 d5 12. c5 Qd8 13. Bf4 O-O 14.
+Qxd4 Ne8 15. e4 a5 16. exd5 exd5 17. O-O Be6 18. bxa5 Rc8 19. Rac1 Qxa5 20.
+Rfd1 Bf6 21. Be5 Bxe5 22. Qxe5 Qxa4 23. Nc3 Qa7 24. Nxd5 Bxd5 25. Qxd5 Rc7
+26. Qe5 Qb8 27. Rd7 Qc8 28. Rxc7 Nxc7 29. Qe4 Ne6 30. Qxb7 Rd8 31. c6 Qc7
+32. Bh3 Rb8 33. Qxc7 Nxc7 34. Rd1 Kf8 35. Rd7 Ne8 36. Rb7 1-0
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.26"]
+[Round "6"]
+[White "Zhu Chen"]
+[Black "Le Quang Liem"]
+[Result "1/2-1/2"]
+[WhiteElo "2480"]
+[BlackElo "2694"]
+[EventDate "2010.10.23"]
+[ECO "E32"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d5 7. Nf3 dxc4
+8. Qxc4 b6 9. Bf4 Ba6 10. Qa4 Qd7 11. Qxd7 Nbxd7 12. e3 Bxf1 13. Rxf1 c5
+14. O-O-O c4 15. Ne5 Rfc8 16. Nxd7 Nxd7 17. Kc2 b5 18. e4 a5 19. f3 f6 20.
+d5 Nc5 21. dxe6 Nd3 22. Bg3 Ra6 23. b3 Rxe6 24. bxc4 Ne5 25. Bxe5 Rxe5 26.
+Rd4 Rec5 27. Rb1 Rxc4+ 28. Rxc4 Rxc4+ 29. Kd3 Ra4 30. Rxb5 Rxa3+ 31. Kd4
+Ra2 32. g4 a4 33. Ra5 Ra3 34. f4 Rf3 35. f5 h5 36. Rxa4 hxg4 37. Ra2 g3 38.
+hxg3 1/2-1/2
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.26"]
+[Round "6"]
+[White "Lahno,Kateri"]
+[Black "Hammer,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2539"]
+[BlackElo "2633"]
+[EventDate "2010.10.23"]
+[ECO "C49"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. O-O O-O 6. d3 d6 7. Bg5 Ne7 8.
+Bxf6 gxf6 9. Nh4 c6 10. Ba4 Ng6 11. Nxg6 hxg6 12. Ne2 Kg7 13. c3 Ba5 14.
+Ng3 Rh8 15. Qf3 Rh4 16. h3 Rf4 17. Qe2 Bb6 18. Rad1 Qh8 19. d4 Qh4 20. Rd3
+Bd7 21. Bb3 Rh8 22. Re1 Qg5 23. Qd2 Bc8 24. Re2 Qh4 25. a4 a6 26. Ba2 Ba7
+27. a5 Qh7 28. Qd1 Qg8 29. Nf5+ Bxf5 30. exf5 Rxf5 31. dxe5 fxe5 32. Rxd6
+Rh4 33. Bb1 Rxf2 34. Rxf2 Rf4 35. Rdd2 Qf8 36. b4 Qe7 37. g3 Rxf2 38. Rxf2
+e4 39. Kg2 Bxf2 40. Kxf2 Qf6+ 41. Kg2 Qxc3 42. Bxe4 Qxb4 43. Qa1+ Kg8 44.
+Qb1 Qxa5 45. Qxb7 Qd2+ 46. Kf3 Qd1+ 47. Kf2 Qd4+ 48. Kf3 Qd1+ 49. Kf2 Qd2+
+50. Kf3 Qd1+ 51. Kf2 1/2-1/2
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.26"]
+[Round "6"]
+[White "Ivanchuk,V"]
+[Black "Kosintseva,T"]
+[Result "1-0"]
+[WhiteElo "2754"]
+[BlackElo "2573"]
+[EventDate "2010.10.23"]
+[ECO "A14"]
+
+1. c4 Nf6 2. Nf3 e6 3. g3 d5 4. Bg2 Be7 5. O-O O-O 6. d4 dxc4 7. Qc2 a6 8.
+Qxc4 b5 9. Qc2 Bb7 10. Bg5 Nbd7 11. Bxf6 Nxf6 12. Nbd2 Rc8 13. Nb3 Be4 14.
+Qc3 Nd5 15. Qa5 Bb4 16. Qxa6 c6 17. Ne5 Bxg2 18. Kxg2 Qc7 19. Rfc1 Ne7 20.
+Nd3 Bd6 21. Qa5 Qd7 22. Qd2 Ra8 23. a3 f5 24. Qc2 f4 25. Nd2 Ra4 26. Nf3 h6
+27. b4 Raa8 28. a4 bxa4 29. Rxa4 Rxa4 30. Qxa4 Qb7 31. Nc5 Bxc5 32. Rxc5
+fxg3 33. hxg3 Rb8 34. Qa2 Qc8 35. Qc4 Rb6 36. Ne5 Kh7 37. e4 Qf8 38. Nd7
+1-0
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.26"]
+[Round "7"]
+[White "Hammer,J"]
+[Black "Pelletier,Y"]
+[Result "1-0"]
+[WhiteElo "2633"]
+[BlackElo "2592"]
+[EventDate "2010.10.23"]
+[ECO "D37"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 dxc4 5. e4 Bb4 6. Bg5 h6 7. Bxf6 Qxf6
+8. Bxc4 c5 9. O-O cxd4 10. Nb5 Qe7 11. Qxd4 O-O 12. Nxa7 Bc5 13. Nxc8 Rxc8
+14. Qd2 Nc6 15. Rac1 Rd8 16. Qe2 Nd4 17. Nxd4 Rxd4 18. Rfd1 Rad8 19. Rxd4
+Rxd4 20. g3 Qg5 21. Rc2 Qe5 22. Bd3 Rd8 23. Kg2 Bxf2 24. Kxf2 Qd4+ 25. Qe3
+Qxd3 26. Qxd3 Rxd3 27. Ke2 Rd4 28. Ke3 Rb4 29. Rc8+ Kh7 30. b3 f5 31. Rc4
+Rb6 32. Kf4 Rb5 33. b4 g5+ 34. Ke3 Kg6 35. a4 Re5 36. b5 Kf6 37. Kd3 fxe4+
+38. Rxe4 Rf5 39. Kc4 Ke7 40. a5 Kd7 41. Re2 h5 42. Kb4 g4 43. Rd2+ Kc7 44.
+b6+ Kc8 45. Rc2+ Kb8 46. Rc5 e5 47. Kb5 h4 48. Rd5 Kc8 49. a6 bxa6+ 50.
+Kxa6 Rf8 51. Ka7 hxg3 52. hxg3 Rf7+ 53. Ka8 Rf8 54. b7+ Kc7+ 55. Ka7 Kc6
+56. Rxe5 Rf3 57. Ra5 Rb3 1-0
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.26"]
+[Round "7"]
+[White "Kosintseva,T"]
+[Black "Zhu Chen"]
+[Result "1/2-1/2"]
+[WhiteElo "2573"]
+[BlackElo "2480"]
+[EventDate "2010.10.23"]
+[ECO "C96"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. h3 Na5 10. Bc2 d5 11. exd5 e4 12. Bxe4 Nxe4 13. Rxe4 Bb7 14. d4
+Re8 15. Bf4 Nc4 16. b3 Nb6 17. c4 bxc4 18. bxc4 Nxc4 19. Nc3 Nb6 20. Qb3
+Nxd5 21. Qxb7 Nxc3 22. Ree1 Bd6 23. Rxe8+ Qxe8 24. Bd2 Qe4 25. Qxe4 Nxe4
+26. Ba5 Rb8 27. Rc1 f5 28. Ne5 Nf6 29. Rc6 Rb1+ 30. Kh2 Nd5 31. Rxa6 g5 32.
+Bd2 h6 33. Ra5 Rb2 34. Bc1 Rc2 35. Rxd5 Rxc1 36. a4 Ra1 37. a5 Kg7 38. g3
+Ra2 39. Kg2 Kf6 40. Nc4 Ke6 41. Rb5 Ra4 42. Nxd6 cxd6 43. d5+ Ke5 44. Kf3
+Ra3+ 45. Ke2 Ra2+ 46. Kf3 Ra3+ 47. Kg2 Ra2 48. h4 gxh4 49. gxh4 h5 50. Kf3
+Ra3+ 51. Ke2 Ra4 52. Kd3 Rxh4 53. Kc3 Rf4 54. Rb2 Ra4 55. Rb5 h4 56. Kb3
+Ra1 57. Kb2 Rf1 58. a6 Rxf2+ 59. Ka3 Rf1 60. Ka2 Rf2+ 61. Ka3 Rf1 62. Ka2
+Rf2+ 63. Ka3 1/2-1/2
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.26"]
+[Round "7"]
+[White "Gharamian,T"]
+[Black "Ivanchuk,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2658"]
+[BlackElo "2754"]
+[EventDate "2010.10.23"]
+[ECO "C42"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nc4 Nxe4 5. d4 d5 6. Ne3 Nf6 7. Bd3 c5 8.
+O-O cxd4 9. Nf5 Bxf5 10. Bxf5 Nc6 11. Nd2 Be7 12. Nf3 Qb6 13. b3 O-O 14.
+Bb2 Bc5 15. a3 g6 16. Bh3 Rfe8 17. Qd3 a5 18. Rad1 Re4 19. Ng5 Re7 20. Nf3
+Re4 21. g3 Rae8 22. Bg2 h5 23. h3 R8e7 24. Rd2 Nd7 25. Rdd1 Qc7 26. Ng5
+R4e5 27. Bc1 Bd6 28. f4 Rxg5 29. fxg5 Nc5 30. Qf3 Ne4 31. Bf4 Ne5 32. Qe2
+Nc3 33. Qf2 Ne4 34. Qe2 Nc3 35. Qf2 Ne4 36. Qe2 Nc3 1/2-1/2
+
+[Event "Trophee CCAS GpB"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.26"]
+[Round "7"]
+[White "Le Quang Liem"]
+[Black "Lahno,Kateri"]
+[Result "1-0"]
+[WhiteElo "2694"]
+[BlackElo "2539"]
+[EventDate "2010.10.23"]
+[ECO "E91"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 Na6 7. O-O e5 8.
+Re1 Qe8 9. Bf1 Bg4 10. d5 Nb4 11. Be2 a5 12. Be3 Nh5 13. h3 Bd7 14. c5 Na6
+15. cxd6 cxd6 16. Nd2 Nf4 17. Nc4 Qe7 18. Bf1 Nc5 19. Rc1 g5 20. Nb6 Rad8
+21. Nxd7 Nxd7 22. g3 Ng6 23. Be2 Bf6 24. Bg4 Rc8 25. Qa4 Nc5 26. Qxa5 Nd3
+27. Bxc8 Rxc8 28. Red1 Nxc1 29. Rxc1 Qd7 30. Kh2 Nf4 31. gxf4 exf4 32. Qb5
+Qe7 33. Bd2 Be5 34. Kg2 Kg7 35. Qe2 Kg6 36. Qg4 Rc4 37. h4 Rd4 38. Be1 h6
+39. Qf5+ Kg7 40. Nb5 Rd3 41. Rc7 f3+ 42. Kh3 Qf6 43. Qxf6+ Kxf6 44. Bc3 h5
+45. hxg5+ Kxg5 46. Bxe5 dxe5 47. Rxf7 1-0
+

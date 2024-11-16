@@ -1,0 +1,916 @@
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.16"]
+[Round "1"]
+[White "Anastasian,A"]
+[Black "Asrian,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2602"]
+[BlackElo "2646"]
+[EventDate "2006.03.16"]
+[ECO "A11"]
+
+1. c4 c6 2. Nf3 d5 3. e3 Nf6 4. Nc3 e6 5. b3 Nbd7 6. Bb2 Bd6 7. Qc2 O-O 8.
+Be2 Qe7 9. O-O b6 10. cxd5 cxd5 11. Nb5 Ba6 12. Rfc1 Rac8 13. Qd1 Bxb5 14.
+Bxb5 Ba3 15. Bxa3 Qxa3 16. d4 a6 17. Bxd7 Nxd7 18. Rc2 Rxc2 19. Qxc2 g6 20.
+Rc1 a5 21. h3 b5 22. Qc7 a4 23. bxa4 bxa4 24. Rc2 Qb4 25. g4 Nb6 26. Qc5
+Qb1+ 27. Rc1 Qb2 28. Rc2 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.16"]
+[Round "1"]
+[White "Kalashian,D"]
+[Black "Nalbandian,T"]
+[Result "0-1"]
+[WhiteElo "2319"]
+[BlackElo "2524"]
+[EventDate "2006.03.16"]
+[ECO "E73"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Bg5 h6 7. Be3 c5 8.
+dxc5 Qa5 9. Bd2 Qxc5 10. Nf3 Bg4 11. Be3 Qa5 12. O-O Nc6 13. h3 Bxf3 14.
+Bxf3 Qb4 15. Qb3 a5 16. Be2 a4 17. Qc2 Rfc8 18. a3 Qb3 19. Qxb3 axb3 20. f4
+Nd7 21. Bg4 e6 22. f5 exf5 23. exf5 h5 24. Bf3 Bxc3 25. bxc3 gxf5 26. Bd5
+Nf6 27. Rxf5 Nxd5 28. Rxd5 Na5 29. c5 Nc4 30. Rg5+ Kf8 31. Bd4 b2 32. Rb1
+Ra5 33. Rxh5 Ke8 34. Rh4 Kd7 35. Rf4 Rxa3 36. Rxf7+ Kc6 37. Rf2 dxc5 38.
+Bg7 Rg8 39. Bf6 Rf8 40. g4 Ra1 41. Rfxb2 Rxb1+ 42. Rxb1 Rxf6 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.16"]
+[Round "1"]
+[White "Kotanjian,T"]
+[Black "Petrosian,TL"]
+[Result "0-1"]
+[WhiteElo "2471"]
+[BlackElo "2558"]
+[EventDate "2006.03.16"]
+[ECO "D10"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6 5. Bf4 Nc6 6. e3 a6 7. Bd3 Bg4 8.
+Nge2 e6 9. Rc1 Bd6 10. f3 Bh5 11. O-O O-O 12. Bxd6 Qxd6 13. Nf4 Bg6 14.
+Nxg6 hxg6 15. f4 Rac8 16. Na4 Nd7 17. Qd2 Qb4 18. Qxb4 Nxb4 19. Bb1 b5 20.
+Nc3 Nb6 21. b3 Nd7 22. Kf2 f5 23. a4 Rb8 24. axb5 axb5 25. Ke2 Nf6 26. Kd2
+Rfc8 27. Ne2 Ne4+ 28. Bxe4 dxe4 29. Rxc8+ Rxc8 30. Nc3 Ra8 31. Rc1 Ra5 32.
+g4 Kf7 33. g5 Ke7 34. Rb1 Kd7 35. Rc1 Ra3 36. Rb1 Kc6 37. h3 Kb6 38. h4 Ka5
+39. Kd1 Ka6 40. Kd2 Kb6 41. Rb2 Nd3 42. Rc2 Nb4 43. Rb2 Ka5 44. Rb1 Nd3 45.
+Kd1 b4 46. Na4 Kb5 47. Nc5 Nxc5 48. dxc5 Kxc5 49. Rc1+ Kd6 50. Rc8 Rxb3 51.
+Ke2 Rd3 52. Rg8 b3 53. Rxg7 Kc6 54. Rg8 Kc7 55. Rg7+ Rd7 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.16"]
+[Round "1"]
+[White "Yegiazarian,A"]
+[Black "Pashikian,A"]
+[Result "0-1"]
+[WhiteElo "2531"]
+[BlackElo "2472"]
+[EventDate "2006.03.16"]
+[ECO "D05"]
+
+1. Nf3 Nf6 2. d4 e6 3. e3 d5 4. Bd3 Bd6 5. O-O O-O 6. Nbd2 c5 7. c3 Nbd7 8.
+Re1 b6 9. e4 dxe4 10. Nxe4 Be7 11. Bf4 Bb7 12. Nd6 Qc7 13. dxc5 Nxc5 14.
+Nxb7 Qxf4 15. Nxc5 Bxc5 16. Qe2 Rfd8 17. Rad1 Ng4 18. Rf1 Rd5 19. g3 Qh6
+20. b4 Bxf2+ 21. Rxf2 Nxf2 22. Kxf2 Rad8 23. c4 R5d7 24. c5 bxc5 25. bxc5
+g6 26. c6 Rd5 27. c7 Rc8 28. Ba6 Rxc7 29. Rxd5 exd5 30. Qe5 Rc2+ 31. Be2
+Qf8 32. Qxd5 Qe7 33. Nd4 Rd2 34. Qc4 Qe4 35. Qc8+ Kg7 36. Ne6+ Qxe6 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.16"]
+[Round "1"]
+[White "Minasian,Art"]
+[Black "Minasian,Ara"]
+[Result "1-0"]
+[WhiteElo "2574"]
+[BlackElo "2487"]
+[EventDate "2006.03.16"]
+[ECO "B07"]
+
+1. Nf3 d6 2. d4 g6 3. e4 Nf6 4. Bd3 Bg7 5. O-O O-O 6. c3 Nc6 7. Re1 e5 8.
+Bb5 Ne7 9. dxe5 dxe5 10. Qc2 c6 11. Bc4 Qc7 12. a4 Bg4 13. Nbd2 Rad8 14. h3
+Bc8 15. Nf1 Nh5 16. Be3 h6 17. Red1 Rxd1 18. Rxd1 b6 19. Qd2 Kh7 20. Qd6
+Qxd6 21. Rxd6 Nf6 22. Ng3 Ne8 23. Rd8 f5 24. Ng5+ hxg5 25. Bxg5 Nc7 26.
+Bxe7 Rxd8 27. Bxd8 Ne6 28. Be7 Nc5 29. Bxc5 bxc5 30. Bd3 f4 31. Nf1 Kg8 32.
+Nd2 Kf7 33. Kf1 Ke7 34. Ke2 Bf6 35. Bc4 Bg7 36. Nb3 Kd6 37. Kf3 g5 38. Bf7
+Bf6 39. Nd2 Ba6 40. Bc4 Bc8 41. Ke2 g4 42. hxg4 Bxg4+ 43. Ke1 Bc8 44. Bf7
+Ba6 45. Bc4 Bc8 46. Be2 Be6 47. Kf1 Kc7 48. Bc4 Bg4 49. Bf7 Bd1 50. Bb3 Bg4
+51. Ke1 Bh4 52. Bc4 Bf6 53. Bf7 Bc8 54. Bg6 Ba6 55. Bf5 Bd3 56. Be6 Ba6 57.
+c4 Bd8 58. b3 Kd6 59. Bf5 Ba5 60. Ke2 Ke7 61. Nf3 Kd6 62. g4 fxg3 63. fxg3
+Bc3 64. g4 Bb2 65. g5 Ke7 66. Kf2 Bb7 67. Kg3 Kf7 68. Kg4 Kg7 69. Be6 Kg6
+70. Nh4+ Kg7 71. Kf5 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.17"]
+[Round "2"]
+[White "Asrian,K"]
+[Black "Minasian,Ara"]
+[Result "1-0"]
+[WhiteElo "2646"]
+[BlackElo "2487"]
+[EventDate "2006.03.16"]
+[ECO "C65"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 d6 5. c3 g6 6. Bg5 Bg7 7. Nbd2 h6 8.
+Bh4 O-O 9. Nf1 Bd7 10. Ne3 Nb8 11. Bc4 b5 12. Bb3 Na6 13. O-O Re8 14. a4
+bxa4 15. Bxa4 Nc5 16. Bxd7 Ncxd7 17. b4 c6 18. Ra6 Qc8 19. Qa1 Nb6 20. Qa2
+Qb7 21. Ra1 Nc8 22. Bxf6 Bxf6 23. Nc4 Bd8 24. h4 Re7 25. h5 Kg7 26. g3 Rd7
+27. Kg2 Ne7 28. Rh1 Bc7 29. Ne3 g5 30. Nc4 f6 31. Ra1 d5 32. exd5 cxd5 33.
+Qa4 Qc8 34. Ne3 Bd8 35. Re6 Rc7 36. Qa6 Rxc3 37. Rxf6 Qxa6 38. Raxa6 Bc7
+39. Rfe6 Ng8 40. Nxd5 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.17"]
+[Round "2"]
+[White "Nalbandian,T"]
+[Black "Kotanjian,T"]
+[Result "1-0"]
+[WhiteElo "2524"]
+[BlackElo "2471"]
+[EventDate "2006.03.16"]
+[ECO "A04"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 g6 4. c3 Bg7 5. d4 cxd4 6. cxd4 d5 7. Nc3 e6 8.
+Bf4 Nge7 9. h4 f6 10. e4 dxe4 11. Nxe4 O-O 12. O-O Nd5 13. Bd2 h6 14. Nc3
+Nde7 15. Re1 g5 16. h5 f5 17. Rc1 g4 18. Ne5 Qxd4 19. Nb5 Qb6 20. Nxc6 Nxc6
+21. Nd6 Nd4 22. Nc4 Qb5 23. a4 Qd7 24. Ne5 Qd6 25. Bf4 Bd7 26. Rc4 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.17"]
+[Round "2"]
+[White "Petrosian,TL"]
+[Black "Yegiazarian,A"]
+[Result "0-1"]
+[WhiteElo "2558"]
+[BlackElo "2531"]
+[EventDate "2006.03.16"]
+[ECO "D47"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 c6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8.
+Bd3 b4 9. Ne4 Nxe4 10. Bxe4 Bb7 11. O-O Bd6 12. Qc2 Rc8 13. b3 Nf6 14. Bb2
+Nxe4 15. Qxe4 Qe7 16. Qg4 O-O 17. Rac1 f5 18. Qg5 Qxg5 19. Nxg5 Rfe8 20.
+Rfd1 a5 21. Nf3 c5 22. dxc5 Bxc5 23. Rd7 Re7 24. Rd2 Rec7 25. Be5 Bd6 26.
+Rxc7 Rxc7 27. h4 Bxe5 28. Rd8+ Kf7 29. Nxe5+ Ke7 30. Rb8 Bd5 31. Rb5 Rc1+
+32. Kh2 Rc2 33. Rxa5 Rxf2 34. Ra7+ Kd6 35. Nc4+ Bxc4 36. bxc4 h6 37. a3 b3
+38. Rb7 b2 39. a4 Rc2 40. a5 Rxc4 41. Kh3 Rc3 42. Rxb2 Rxe3+ 43. Kh2 Ra3
+44. Rb7 g5 45. h5 Rxa5 46. Rh7 Ke5 47. Rxh6 f4 48. Rh8 g4 49. h6 Ke4 50. h7
+Rh5+ 51. Kg1 e5 52. Rg8 Rxh7 53. Rxg4 Ke3 54. Rg5 e4 55. Ra5 Rd7 56. Re5
+Rd4 57. Re8 Ke2 58. Ra8 e3 59. Ra2+ Rd2 60. Ra4 Rd1+ 61. Kh2 f3 62. gxf3
+Kf2 63. f4 e2 64. Ra2 Rd4 65. Ra1 Rxf4 66. Rf1+ 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.17"]
+[Round "2"]
+[White "Pashikian,A"]
+[Black "Minasian,Art"]
+[Result "1/2-1/2"]
+[WhiteElo "2472"]
+[BlackElo "2574"]
+[EventDate "2006.03.16"]
+[ECO "B09"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Bd3 Na6 7. O-O c5 8.
+d5 Bg4 9. Bc4 Nc7 10. h3 Bxf3 11. Qxf3 a6 12. a4 Rb8 13. a5 b5 14. axb6
+Rxb6 15. Qd3 e6 16. dxe6 fxe6 17. Be3 Qe7 18. Rad1 Nd7 19. e5 d5 20. Bxd5
+exd5 21. Nxd5 Nxd5 22. Qxd5+ Rf7 23. f5 Bxe5 24. fxg6 hxg6 25. Rxf7 Qxf7
+26. Qxf7+ Kxf7 27. Rxd7+ Ke6 28. Ra7 Rxb2 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.17"]
+[Round "2"]
+[White "Anastasian,A"]
+[Black "Kalashian,D"]
+[Result "1-0"]
+[WhiteElo "2602"]
+[BlackElo "2319"]
+[EventDate "2006.03.16"]
+[ECO "E39"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 O-O 6. a3 Bxc5 7. Nf3 b6 8.
+Bf4 Nh5 9. Bg5 Be7 10. h4 Bb7 11. O-O-O Na6 12. e4 Rc8 13. Be2 Nc5 14. e5
+f5 15. Rd4 Be4 16. Nxe4 fxe4 17. Rxe4 Nxe4 18. Qxe4 g6 19. Bh6 Rf7 20. Kb1
+Qc7 21. Bd3 Bf8 22. Be3 Bg7 23. Rc1 Rxf3 24. Qxf3 Qxe5 25. Rc2 d5 26. Bc1
+Rf8 27. Qd1 Nf4 28. Bf1 d4 29. g3 Nh5 30. Bd3 Qd6 31. Re2 Qc6 32. Qb3 Kh8
+33. Be4 Qc5 34. Bg5 Nf6 35. Bxf6 Bxf6 36. Qd3 Bg7 37. f4 Rc8 38. Rc2 Qh5
+39. Ka2 Qc5 40. Qf3 Qh5 41. Qd3 Qc5 42. Qd1 Qh5 43. Bf3 Qc5 44. Be4 Qh5 45.
+Qf1 Qg4 46. Qd3 Qh5 47. Rc1 Rf8 48. Rf1 Rc8 49. Qb3 Qc5 50. Bd3 Rf8 51. Qa4
+a5 52. Re1 e5 53. fxe5 Bxe5 54. Qd7 Qd6 55. Qb7 Rf2 56. h5 Rd2 57. hxg6
+hxg6 58. Qf7 Rh2 59. Qe8+ Kh7 60. Rxe5 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.18"]
+[Round "3"]
+[White "Kalashian,D"]
+[Black "Asrian,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2319"]
+[BlackElo "2646"]
+[EventDate "2006.03.16"]
+[ECO "C04"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nc6 4. Ngf3 Nf6 5. e5 Nd7 6. Be2 f6 7. exf6 Qxf6
+8. Nf1 Bd6 9. Ne3 O-O 10. O-O Qg6 11. c4 Nf6 12. h3 Bd7 13. b3 Ne4 14. Bb2
+Rad8 15. Ng4 h5 16. Nge5 Nxe5 17. Nxe5 Bxe5 18. dxe5 Be8 19. b4 Qg5 20. Qc1
+Rf4 21. Bd4 Qh4 22. Be3 Rf7 23. cxd5 Rxd5 24. Bc4 Rxe5 25. f4 Rd5 26. Bxd5
+exd5 27. a4 Bd7 28. Ra2 a6 29. Qxc7 Bxh3 30. Qb8+ Kh7 31. Qe5 Bf5 32. Qxd5
+Qf6 33. Qe5 Qg6 34. Rd1 Qg3 35. Re2 Qg4 36. Rde1 Ng3 37. Bf2 Nxe2+ 38. Qxe2
+Qg6 39. Qf3 Bg4 40. Qe4 Bf5 41. Qf3 Rc7 42. Bc5 b6 43. Bd4 Bg4 44. Qa8 Rd7
+45. Bc3 Qd3 46. Qe4+ Qxe4 47. Rxe4 Rd3 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.18"]
+[Round "3"]
+[White "Kotanjian,T"]
+[Black "Anastasian,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2471"]
+[BlackElo "2602"]
+[EventDate "2006.03.16"]
+[ECO "D17"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Nb6
+8. Ne5 a5 9. f3 Nfd7 10. e4 Nxe5 11. exf5 Ned7 12. d5 g6 13. dxc6 bxc6 14.
+Qd4 Nf6 15. Be3 Nbd5 16. Nxd5 Qxd5 17. Bc4 Qxd4 18. Bxd4 gxf5 19. Bxf6 exf6
+20. O-O-O Bb4 21. f4 Ke7 22. Rd3 Rad8 23. Re3+ Kf8 24. Rd1 Rxd1+ 25. Kxd1
+Rg8 26. g3 Kg7 27. Rd3 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.18"]
+[Round "3"]
+[White "Yegiazarian,A"]
+[Black "Nalbandian,T"]
+[Result "0-1"]
+[WhiteElo "2531"]
+[BlackElo "2524"]
+[EventDate "2006.03.16"]
+[ECO "B22"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. c5 Nd5 5. Nc3 e6 6. d4 d6 7. cxd6 cxd6 8.
+Nf3 Nc6 9. Bb5 Bd7 10. Nxd5 exd5 11. O-O Be7 12. exd6 Bxd6 13. Bxc6 bxc6
+14. Re1+ Kf8 15. Ne5 Bxe5 16. dxe5 Be6 17. Be3 h6 18. Rc1 Qd7 19. Qa4 Kg8
+20. Qxc6 Qxc6 21. Rxc6 a5 22. Bd4 Kh7 23. f3 Rhb8 24. Kf2 Rb4 25. Ke3 Rab8
+26. Re2 h5 27. Rec2 Ra4 28. b3 Rab4 29. Ra6 a4 30. bxa4 Rb1 31. a5 Bf5 32.
+Rd2 Rc1 33. Rb6 Ra8 34. Rb5 Be6 35. Bb6 Rc3+ 36. Kf2 Ra3 37. Rb4 Rc8 38.
+Rb3 Ra4 39. a3 Rcc4 40. Rbd3 g5 41. h3 Kg6 42. Rb2 Kf5 43. Re2 h4 44. Rb3
+Rc1 45. Be3 Ra1 46. Rb8 d4 47. Bd2 d3 48. Re4 Rxe4 49. fxe4+ Kxe4 50. Rb4+
+Kd5 51. Rb3 Kc4 52. Rb4+ Kd5 53. Rb5+ Kd4 54. Rb4+ Bc4 55. Rb2 Rxa3 56.
+Bxg5 Rxa5 57. Bf6 Be6 58. Rd2 Kc3 59. Ke3 Rd5 60. Bg7 f5 61. Rd1 d2 62. Ke2
+Kc2 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.18"]
+[Round "3"]
+[White "Minasian,Art"]
+[Black "Petrosian,TL"]
+[Result "1-0"]
+[WhiteElo "2574"]
+[BlackElo "2558"]
+[EventDate "2006.03.16"]
+[ECO "B25"]
+
+1. e4 c5 2. Ne2 Nc6 3. Nbc3 g6 4. g3 Bg7 5. Bg2 d6 6. d3 e6 7. O-O Nge7 8.
+Bg5 h6 9. Be3 Nd4 10. Qd2 Nec6 11. Rab1 Rb8 12. a3 a5 13. a4 Nb4 14. Bxd4
+cxd4 15. Nb5 Nc6 16. c3 dxc3 17. bxc3 O-O 18. d4 e5 19. Rfd1 Qe7 20. Qa2
+exd4 21. Nexd4 Ne5 22. h3 Rd8 23. f4 Nd7 24. Na7 Kh7 25. Kh2 Qf6 26. Nxc8
+Rbxc8 27. Rxb7 h5 28. Nf3 Kg8 29. e5 dxe5 30. Rdxd7 Rxd7 31. Rxd7 exf4 32.
+g4 hxg4 33. hxg4 Rf8 34. Qc4 Bh6 35. Rc7 Qd8 36. Rc6 Kh7 37. Rc5 Qe7 38.
+Re5 Qd7 39. g5 Bg7 40. Re4 Rc8 41. Qe2 Qg4 42. Qe1 Rc5 43. c4 Rxg5 44.
+Nxg5+ Qxg5 45. Qf2 f5 46. Re1 Bd4 47. Qf3 Kg7 48. Qh3 Bf2 49. Rd1 Bg3+ 50.
+Kh1 Qe7 51. Bf3 Qc7 52. Qf1 Qe7 53. Kg2 Qa3 54. Qe2 Kh6 55. Rh1+ Kg5 56.
+Rh7 Kf6 57. Qd2 Qf8 58. Qd4+ Kg5 59. Qg7 Qxg7 60. Rxg7 Kf6 61. c5 Kxg7 62.
+c6 g5 63. c7 g4 64. c8=Q 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.18"]
+[Round "3"]
+[White "Minasian,Ara"]
+[Black "Pashikian,A"]
+[Result "0-1"]
+[WhiteElo "2487"]
+[BlackElo "2472"]
+[EventDate "2006.03.16"]
+[ECO "A13"]
+
+1. c4 e6 2. Nf3 d5 3. b3 Be7 4. Bb2 Bf6 5. Nc3 Ne7 6. Qc2 O-O 7. g4 Nbc6 8.
+g5 Bxc3 9. Qxc3 Nf5 10. e3 Re8 11. Bd3 e5 12. cxd5 Ncd4 13. Nxd4 exd4 14.
+Qc4 dxe3 15. dxe3 c6 16. Qc3 Qxg5 17. O-O-O cxd5 18. Bxf5 Bxf5 19. Rhg1 Bg4
+20. h4 Qh6 21. Kb1 Rac8 22. Qd4 Re4 23. Qxd5 Bxd1 24. Qxd1 g6 25. h5 Rh4
+26. Qf3 Rc6 27. Rd1 Qf8 28. hxg6 Rxg6 29. Bf6 Rhh6 30. Rd8 Rxf6 31. Rxf8+
+Kxf8 32. Qxb7 Rxf2 33. Qb8+ Ke7 34. Qc7+ Kf8 35. Qb8+ Ke7 36. Qc7+ Kf8 37.
+Qb8+ Ke7 38. Qxa7+ Kf6 39. Qd4+ Kg5 40. Qe5+ Kh4 41. Qe4+ Kg3 42. Qe5+ Kh3
+43. a4 Rg6 44. Qh5+ Kg2 45. a5 Kg1 46. b4 Rgg2 47. Qd1+ Rf1 48. Qxf1+ Kxf1
+49. a6 Rg6 50. b5 Rb6 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.19"]
+[Round "4"]
+[White "Asrian,K"]
+[Black "Pashikian,A"]
+[Result "1-0"]
+[WhiteElo "2646"]
+[BlackElo "2472"]
+[EventDate "2006.03.16"]
+[ECO "C65"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. c3 O-O 6. Bg5 Re8 7. Nbd2 h6 8.
+Bh4 Be7 9. O-O d6 10. a4 a6 11. Bc4 Nh5 12. Bg3 g6 13. h3 Rf8 14. Bh2 Bg5
+15. Nxg5 hxg5 16. Re1 Kg7 17. Nf1 Nf4 18. Ne3 Rh8 19. d4 Bxh3 20. gxh3
+Nxh3+ 21. Kf1 Nf4 22. Bxf4 gxf4 23. Qf3 Qd7 24. dxe5 Rh4 25. e6 fxe6 26.
+Ng4 e5 27. Be2 Nd8 28. Kg2 Nf7 29. Rh1 Rah8 30. Rxh4 Rxh4 31. Rh1 Ng5 32.
+Rxh4 Nxf3 33. Rh7+ Kxh7 34. Nf6+ Kg7 35. Nxd7 Ng5 36. c4 Kf7 37. c5 Ke7 38.
+c6 b6 39. Bxa6 f3+ 40. Kg3 Nxe4+ 41. Kxf3 d5 42. Nxe5 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.19"]
+[Round "4"]
+[White "Nalbandian,T"]
+[Black "Minasian,Art"]
+[Result "0-1"]
+[WhiteElo "2524"]
+[BlackElo "2574"]
+[EventDate "2006.03.16"]
+[ECO "A04"]
+
+1. Nf3 g6 2. d4 Bg7 3. g3 c5 4. Bg2 cxd4 5. Nxd4 Nc6 6. Nxc6 bxc6 7. O-O
+Rb8 8. c3 Qc7 9. e4 d6 10. Nd2 Nf6 11. Re1 O-O 12. Nc4 Be6 13. Qa4 Nd7 14.
+Ne3 a5 15. f4 Nc5 16. Qc2 f5 17. exf5 gxf5 18. b3 d5 19. Ba3 Ne4 20. Bxe4
+fxe4 21. Bc5 Bh3 22. Rad1 e5 23. Bxf8 Rxf8 24. f5 Qa7 25. Kh1 Bh6 26. Qe2
+Bxe3 27. Qxe3 Qxe3 28. Rxe3 Rxf5 29. c4 Kf7 30. cxd5 cxd5 31. g4 Rf3 32.
+Rxf3+ exf3 33. Kg1 Ke6 34. g5 e4 35. Kf2 Ke5 36. Ke3 Bd7 37. h4 Be8 38. a4
+Bh5 39. b4 axb4 40. a5 f2 41. Rb1 d4+ 42. Kxf2 e3+ 43. Kg3 d3 44. g6 hxg6
+45. a6 d2 46. a7 e2 47. a8=Q e1=Q+ 48. Kh2 Qf2+ 49. Kh3 Qf3+ 50. Qxf3 Bxf3
+0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.19"]
+[Round "4"]
+[White "Petrosian,TL"]
+[Black "Minasian,Ara"]
+[Result "1-0"]
+[WhiteElo "2558"]
+[BlackElo "2487"]
+[EventDate "2006.03.16"]
+[ECO "C67"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Qe2 Ng5 6. Nxg5 Qxg5 7. d4
+Qe7 8. dxe5 Nd4 9. Qd3 Qxe5 10. Bd2 Ne6 11. Re1 Qd6 12. Qh3 Be7 13. Bd3 c6
+14. Nc3 Qc7 15. f4 g6 16. g4 O-O 17. f5 Ng5 18. Qe3 Bf6 19. Rf1 d5 20. fxg6
+d4 21. gxh7+ Kg7 22. Qe1 dxc3 23. Bxc3 Qb6+ 24. Kh1 Bd4 25. Qh4 Ne6 26.
+Qf6+ Bxf6 27. Bxf6+ Kh6 28. Rf5 Ng7 29. Rh5+ Nxh5 30. g5+ 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.19"]
+[Round "4"]
+[White "Anastasian,A"]
+[Black "Yegiazarian,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2602"]
+[BlackElo "2531"]
+[EventDate "2006.03.16"]
+[ECO "E35"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 exd5 6. Bg5 h6 7. Bxf6 Qxf6
+8. a3 Bxc3+ 9. Qxc3 c6 10. Nf3 O-O 11. e3 Bf5 12. Be2 Nd7 13. O-O Rfe8 14.
+b4 a6 15. Rfc1 Nf8 16. a4 Rac8 17. Qd2 Be4 18. Ne5 Ng6 19. Nxg6 Qxg6 20.
+Bf1 h5 21. Qe2 h4 22. h3 Bf5 23. Qf3 Re6 24. b5 axb5 25. axb5 Rf6 26. bxc6
+bxc6 27. Qf4 Bxh3 28. Qxh4 Bd7 29. Ra7 Qf5 30. Rca1 Rh6 31. Qe7 Qh7 32. f3
+Rh1+ 33. Kf2 Qc2+ 34. Be2 Rxa1 35. Rxa1 Bf5 36. Ra7 Be6 37. Qc5 Qh7 38. Qe7
+Qc2 39. Ra3 Qd2 40. Ra1 c5 41. Rd1 Qc2 42. dxc5 Qxc5 43. Qh4 Qc3 44. Rh1
+Kf8 45. Qh7 Qb2 46. Rb1 Qf6 47. Qh8+ Ke7 48. Rb7+ Kd6 49. Qh2+ Kc6 50. Rb4
+Qe7 51. Qf4 g5 52. Bb5+ Kc5 53. Qd4+ Kd6 54. Qb6+ Ke5 55. Bd3 Qc5 56. Qb7
+Kf6 57. Ra4 Qc3 58. Be2 Qe5 59. Qb6 Rc3 60. Ra8 Kg7 61. Ra4 Rc2 62. Rd4 Qc7
+63. Qb4 Qh2 64. Rd2 Rxd2 65. Qxd2 Qe5 66. g3 Qf6 67. Qb4 Qa1 68. Qd6 Qf6
+69. g4 Qb2 70. Qh2 Bd7 71. Qg1 d4 72. exd4 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.19"]
+[Round "4"]
+[White "Kalashian,D"]
+[Black "Kotanjian,T"]
+[Result "0-1"]
+[WhiteElo "2319"]
+[BlackElo "2471"]
+[EventDate "2006.03.16"]
+[ECO "D49"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nf6 5. Nf3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8.
+Bd3 a6 9. e4 c5 10. e5 cxd4 11. Nxb5 axb5 12. exf6 gxf6 13. O-O Qb6 14. Qe2
+b4 15. Rd1 Bc5 16. Bf4 h5 17. Rac1 Kf8 18. Nd2 e5 19. Nc4 Qe6 20. Bd2 Bb7
+21. Be4 Bxe4 22. Qxe4 Kg7 23. Qe1 Rhb8 24. f3 Rxa2 25. Qg3+ Kh7 26. Qh4 Qf5
+27. Re1 Rg8 28. Kh1 Rg6 29. Rf1 Kg7 30. Qe1 Ra4 31. Rf2 Kh7 32. Re2 Qd3 33.
+Re4 b3 34. Na5 Ra2 35. Nc4 Kg8 36. f4 Ra4 37. Na5 f5 38. Rxe5 Nxe5 39. fxe5
+Qe4 40. Qf2 Qd5 41. Qf3 Qxf3 42. gxf3 Bb6 43. Nxb3 h4 44. h3 Ra2 45. Rc8+
+Kg7 46. Bc1 d3 47. Kh2 Bg1+ 48. Kh1 Bf2 49. Rd8 Rg1+ 50. Kh2 Rd1 51. Kg2
+Bg3 52. f4 d2 53. Rxd2 Rxd2+ 54. Nxd2 Bxf4 55. Kf3 Bxe5 56. Nc4 Bf6 57. Ne3
+Kg6 58. b4 Bc3 59. Ng2 Bxb4 60. Nxh4+ Kf6 61. Ng2 Bd2 62. Bxd2 Rxd2 63. h4
+Rd3+ 64. Kf4 Rh3 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.20"]
+[Round "5"]
+[White "Kotanjian,T"]
+[Black "Asrian,K"]
+[Result "1-0"]
+[WhiteElo "2471"]
+[BlackElo "2646"]
+[EventDate "2006.03.16"]
+[ECO "D36"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 Nbd7 6. e3 Be7 7. Nf3 c6
+8. Bd3 O-O 9. Qc2 Re8 10. O-O Nf8 11. h3 Be6 12. a3 N6d7 13. Bf4 Nb6 14. b4
+Bd6 15. Bxd6 Qxd6 16. Rfc1 a6 17. a4 f6 18. Rab1 Bf7 19. Nh4 Be6 20. Ne2
+Nc4 21. Bxc4 dxc4 22. a5 Nd7 23. Nc3 Bd5 24. Nf5 Qf8 25. e4 Bf7 26. Na4
+Rad8 27. Rd1 Kh8 28. f3 Bg6 29. Nh4 Bf7 30. Nc5 g6 31. Nxb7 Rb8 32. Nc5
+Nxc5 33. dxc5 Rxb4 34. Rd6 Rxb1+ 35. Qxb1 Re6 36. Qd1 c3 37. g4 c2 38. Qxc2
+Rxd6 39. cxd6 Qxd6 40. Qc3 Kg8 41. Ng2 c5 42. Kf2 c4 43. h4 h6 44. Kf1 h5
+45. gxh5 gxh5 46. Kf2 Kg7 47. f4 Qc6 48. Ke3 Qc5+ 49. Kf3 Qg1 50. Qe1 Qd4
+51. Ne3 Qd3 52. Qg1+ Kh7 53. Qd1 Qb3 54. Qd6 c3 55. Qxf6 c2 56. Qf5+ Kg7
+57. Qe5+ Kg8 58. Qg5+ Kh7 59. Qf5+ Kg7 60. Qc5 Bc4 61. Kf2 Qc3 62. Nf5+ Kf7
+63. Qc7+ Kf8 64. Qd8+ Kf7 65. e5 Qe1+ 66. Kxe1 c1=Q+ 67. Qd1 Qc3+ 68. Qd2
+Qa1+ 69. Kf2 Qf1+ 70. Kg3 Qg1+ 71. Qg2 Qe1+ 72. Qf2 Qxa5 73. Nd6+ 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.20"]
+[Round "5"]
+[White "Minasian,Art"]
+[Black "Anastasian,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2574"]
+[BlackElo "2602"]
+[EventDate "2006.03.16"]
+[ECO "B21"]
+
+1. e4 c5 2. f4 e6 3. Nf3 d5 4. Bb5+ Bd7 5. Bxd7+ Nxd7 6. d3 Bd6 7. O-O Ne7
+8. c4 dxe4 9. dxe4 Bc7 10. Nc3 Nc6 11. Be3 O-O 12. Qe2 Qe7 13. Rad1 Rad8
+14. Qf2 Ba5 15. Nb5 Bb6 16. h3 f6 17. Nc3 Ba5 18. Na4 b6 19. Bd2 Ndb8 20.
+Bxa5 Nxa5 21. b3 Nac6 22. Nc3 Rxd1 23. Rxd1 Rd8 24. Rxd8+ Qxd8 25. f5 Qd3
+26. Qd2 Qxd2 27. Nxd2 Kf7 28. Kf2 Nd4 29. fxe6+ Kxe6 30. Ke3 Nbc6 31. Nf3
+Nc2+ 32. Kd2 N2b4 33. a3 Na6 34. Nd5 Nab8 35. Ke3 Nd7 36. b4 Nde5 37. Nf4+
+Kd6 38. bxc5+ bxc5 39. Nxe5 Kxe5 40. Nd3+ Kd6 41. Nf4 Nd8 42. Kd2 Nc6 43.
+Nd3 Nd4 44. Nf4 g5 45. Nd3 Nc6 46. Ke3 h5 47. g3 Ne5 48. Nb2 a6 49. Ke2 Nc6
+50. Nd3 Nd4+ 51. Kd2 Nc6 52. Ke3 Ne5 53. Nxe5 Kxe5 54. h4 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.20"]
+[Round "5"]
+[White "Yegiazarian,A"]
+[Black "Kalashian,D"]
+[Result "1-0"]
+[WhiteElo "2531"]
+[BlackElo "2319"]
+[EventDate "2006.03.16"]
+[ECO "B82"]
+
+1. e4 c5 2. Nf3 d6 3. Nc3 Nf6 4. d4 cxd4 5. Nxd4 a6 6. f4 Qc7 7. Bd3 e6 8.
+Qf3 Be7 9. g4 Nc6 10. Nxc6 bxc6 11. g5 Nd7 12. b3 Qa5 13. Bd2 Qc7 14. h4 d5
+15. h5 Bb7 16. g6 fxg6 17. hxg6 h6 18. Na4 c5 19. Qe2 Nf6 20. exd5 exd5 21.
+Qe6 Rf8 22. O-O-O Qc6 23. Rhe1 Ne4 24. Qxc6+ Bxc6 25. Nb6 Ra7 26. Nxd5 Nxd2
+27. Nxe7 Rxe7 28. Kxd2 Rxf4 29. Bxa6 h5 30. Bc4 h4 31. Rxe7+ Kxe7 32. Re1+
+Kd6 33. Re6+ Kd7 34. Re5 h3 35. Rh5 Rf2+ 36. Ke3 Rf3+ 37. Ke2 Rg3 38. Bd5
+Bxd5 39. Rxd5+ Kc6 40. Rh5 Kb5 41. Rh4 Kc6 42. a4 Kd5 43. Kd2 Ke5 44. a5
+Rxg6 45. Rxh3 Ra6 46. Rh5+ Kd6 47. Kc3 Rxa5 48. Kc4 Ra2 49. Rd5+ Ke6 50. c3
+Rg2 51. Rxc5 g5 52. b4 g4 53. b5 g3 54. Rg5 Kd6 55. b6 Rg1 56. Rg6+ Kd7 57.
+Kc5 g2 58. c4 Kd8 59. Rg8+ Kd7 60. Rg7+ Ke6 61. b7 Rb1 62. Kc6 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.20"]
+[Round "5"]
+[White "Minasian,Ara"]
+[Black "Nalbandian,T"]
+[Result "1/2-1/2"]
+[WhiteElo "2487"]
+[BlackElo "2524"]
+[EventDate "2006.03.16"]
+[ECO "E62"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O 5. d4 d6 6. Nf3 c6 7. O-O Qa5 8.
+h3 Qa6 9. Qb3 Nbd7 10. Be3 Nb6 11. Nd2 d5 12. c5 Nbd7 13. Qc2 e5 14. dxe5
+Nxe5 15. Bd4 Bf5 16. Qd1 Rfe8 17. g4 Bc8 18. f4 Nc4 19. Nxc4 Qxc4 20. b3
+Qb4 21. a3 Qa5 22. b4 Qc7 23. Qd2 a5 24. Rad1 axb4 25. axb4 Ra3 26. Qb2 Ra8
+27. e4 dxe4 28. Nxe4 Nxe4 29. Bxg7 f5 30. Be5 Qf7 31. Ra1 Rxa1 32. Rxa1 Be6
+33. Qd4 h5 34. gxf5 gxf5 35. Kh2 Kh7 36. Bxe4 fxe4 37. Rg1 Qf5 38. Rg7+ Kh6
+39. Qe3 Qxh3+ 40. Qxh3 Bxh3 41. Rxb7 e3 42. Bg7+ Kg6 43. Kxh3 e2 44. Bc3
+Re3+ 45. Kg2 Rxc3 46. Kf2 Re3 47. Ke1 h4 48. Rb8 h3 49. Rh8 Kf5 50. b5 cxb5
+51. c6 Rc3 52. c7 Rxc7 53. Rxh3 Ke4 54. Rb3 Rb7 55. Kxe2 Kd4 56. Kf3 b4 57.
+f5 Kc4 58. Rb1 b3 59. Kf4 b2 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.20"]
+[Round "5"]
+[White "Pashikian,A"]
+[Black "Petrosian,TL"]
+[Result "1/2-1/2"]
+[WhiteElo "2472"]
+[BlackElo "2558"]
+[EventDate "2006.03.16"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8.
+f3 Be7 9. Qd2 O-O 10. O-O-O Nbd7 11. g4 b5 12. g5 b4 13. Ne2 Ne8 14. f4 a5
+15. f5 a4 16. fxe6 axb3 17. exf7+ Rxf7 18. cxb3 Rxa2 19. Ng3 Rxf1 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.21"]
+[Round "6"]
+[White "Asrian,K"]
+[Black "Petrosian,TL"]
+[Result "1/2-1/2"]
+[WhiteElo "2646"]
+[BlackElo "2558"]
+[EventDate "2006.03.16"]
+[ECO "B93"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. a4 g6 7. Be2 Bg7 8.
+O-O O-O 9. Be3 Nc6 10. f4 Bg4 11. Bxg4 Nxg4 12. Qxg4 Nxd4 13. Qd1 Nc6 14.
+Nd5 b5 15. axb5 axb5 16. Qd3 e6 17. Qxb5 Rxa1 18. Rxa1 Nd4 19. Qd3 Nxc2 20.
+Qxc2 exd5 21. exd5 Qe7 22. Bf2 Qb7 23. Qd2 Rb8 24. h3 Qxb2 25. Qxb2 Rxb2
+26. Ra8+ Bf8 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.21"]
+[Round "6"]
+[White "Nalbandian,T"]
+[Black "Pashikian,A"]
+[Result "0-1"]
+[WhiteElo "2524"]
+[BlackElo "2472"]
+[EventDate "2006.03.16"]
+[ECO "A46"]
+
+1. d4 Nf6 2. Bg5 e6 3. Nf3 c5 4. e3 h6 5. Bh4 b6 6. c4 cxd4 7. exd4 Bb7 8.
+Nc3 Be7 9. Bd3 Bxf3 10. Qxf3 Nc6 11. Ne2 Bb4+ 12. Kf1 Be7 13. g4 Rc8 14.
+Rc1 O-O 15. Kg2 d5 16. a3 Ne4 17. Bxe7 Qxe7 18. cxd5 exd5 19. Nf4 Qd6 20.
+Nxd5 Ng5 21. Rxc6 Rxc6 22. Ne7+ Qxe7 23. Qxc6 Rd8 24. Bf5 g6 25. h4 gxf5
+26. hxg5 Qxg5 27. Qxh6 Qxh6 28. Rxh6 fxg4 29. Rc6 Rxd4 30. Rc7 Ra4 31. Kg3
+Kg7 32. Rc6 Rd4 33. Rc7 Ra4 34. Rc6 f6 35. Rc7+ Kg6 36. Rb7 f5 37. Rc7 Kg5
+38. Rg7+ Kf6 39. Rc7 b5 40. Rb7 a6 41. Rc7 Re4 42. Rc6+ Re6 43. Rc5 Rd6 44.
+Kf4 Rd4+ 45. Kg3 Kg5 46. Kg2 Rd2 47. Rc6 a5 48. b3 Rd3 49. Ra6 f4 50. Rxa5
+Kh4 51. Ra8 Rxb3 52. a4 bxa4 53. Rxa4 f3+ 54. Kg1 Rb1+ 55. Kh2 Rb2 56. Kg1
+Kh3 57. Ra1 g3 58. Rf1 Rc2 59. fxg3 Rg2+ 60. Kh1 f2 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.21"]
+[Round "6"]
+[White "Anastasian,A"]
+[Black "Minasian,Ara"]
+[Result "1-0"]
+[WhiteElo "2602"]
+[BlackElo "2487"]
+[EventDate "2006.03.16"]
+[ECO "A87"]
+
+1. Nf3 d6 2. d4 f5 3. c4 Nf6 4. Nc3 g6 5. g3 Bg7 6. Bg2 O-O 7. O-O Qe8 8.
+d5 Na6 9. Be3 h6 10. Rb1 c5 11. dxc6 bxc6 12. b4 Ng4 13. Nd4 Bd7 14. b5
+cxb5 15. cxb5 Nxe3 16. fxe3 Nc5 17. Bxa8 Qxa8 18. Nb3 Ne6 19. Nd5 Bxb5 20.
+Na5 a6 21. a4 Be8 22. Nxe7+ Kh7 23. Nc4 Ng5 24. Qd5 Qxd5 25. Nxd5 Bxa4 26.
+Rfc1 Ne4 27. Na3 Nc5 28. Rb6 Rd8 29. Kf1 h5 30. Nc4 Ne4 31. Na5 Re8 32. Rc7
+Re5 33. Nf4 Nc5 34. Nc4 Nd7 35. Rxa6 Bb5 36. Rxd6 Re4 37. Na3 Ba4 38. Rdxd7
+1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.21"]
+[Round "6"]
+[White "Kalashian,D"]
+[Black "Minasian,Art"]
+[Result "0-1"]
+[WhiteElo "2319"]
+[BlackElo "2574"]
+[EventDate "2006.03.16"]
+[ECO "B07"]
+
+1. e4 d6 2. d4 g6 3. Nc3 c6 4. g3 Bg7 5. Bg2 Nf6 6. Nge2 O-O 7. h3 e5 8.
+Be3 Nbd7 9. O-O Re8 10. a4 a5 11. g4 h5 12. g5 Nh7 13. h4 f6 14. f4 fxg5
+15. fxg5 exd4 16. Bxd4 Ne5 17. Nf4 Nf8 18. Nce2 Kh7 19. Nd3 Bg4 20. Bxe5
+dxe5 21. Bf3 Bxf3 22. Rxf3 Ne6 23. Qd2 Qd7 24. c3 Rf8 25. Qe3 Rxf3 26. Qxf3
+Rf8 27. Qh3 Qe7 28. Rf1 Rxf1+ 29. Qxf1 Nc5 30. Ng3 Nxd3 31. Qxd3 Qe6 32.
+Qe2 Qh3 33. Nf5 Bf8 34. Qc4 Kh8 35. Nh6 Bxh6 36. gxh6 Qxh4 37. Qf7 Qg5+ 38.
+Kh1 Qc1+ 39. Kg2 Qxb2+ 40. Kg3 Qxc3+ 41. Kh4 Qe1+ 42. Kg5 Qg3+ 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.21"]
+[Round "6"]
+[White "Kotanjian,T"]
+[Black "Yegiazarian,A"]
+[Result "1-0"]
+[WhiteElo "2471"]
+[BlackElo "2531"]
+[EventDate "2006.03.16"]
+[ECO "E35"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 exd5 6. Bg5 h6 7. Bh4 g5 8.
+Bg3 Ne4 9. e3 h5 10. Bd3 h4 11. Be5 f6 12. Bxe4 dxe4 13. d5 Qe7 14. a3 Qxe5
+15. axb4 Na6 16. O-O-O Bf5 17. Rd4 O-O-O 18. Nge2 Kb8 19. Rc4 Qd6 20. Nd4
+Bg6 21. Qa4 Bf7 22. Rc6 Qxb4 23. Rxa6 Qxa4 24. Rxa4 Bxd5 25. Ra5 c6 26.
+Nxd5 Rxd5 27. Rxd5 cxd5 28. Kd2 a6 29. Rc1 Rd8 30. Rc5 Rd6 31. Kc3 Ka7 32.
+Nf5 Rd7 33. Kd4 Kb6 34. b4 Rd8 35. Ne7 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.22"]
+[Round "7"]
+[White "Yegiazarian,A"]
+[Black "Asrian,K"]
+[Result "0-1"]
+[WhiteElo "2531"]
+[BlackElo "2646"]
+[EventDate "2006.03.16"]
+[ECO "A32"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 e6 5. Nc3 Bb4 6. Qb3 Na6 7. Bd2 O-O
+8. e3 b6 9. Be2 Bb7 10. O-O Be7 11. Rfd1 Rc8 12. Rac1 d5 13. a3 Nc5 14. Qa2
+dxc4 15. Bxc4 Bd6 16. Be1 Bxh2+ 17. Kxh2 Ng4+ 18. Kg1 Qh4 19. b4 Qh2+ 20.
+Kf1 Qxg2+ 21. Ke2 Nd7 22. Kd2 Nxf2 23. Bxf2 Qxf2+ 24. Be2 Ne5 25. Rf1 Qh2
+26. Ncb5 Bd5 27. Qb1 Nc4+ 28. Rxc4 Rxc4 29. Nc3 Rxc3 30. Kxc3 e5 31. Nf5
+Qxe2 32. Ne7+ Kh8 33. Rd1 Qc4+ 34. Kd2 Bf3 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.22"]
+[Round "7"]
+[White "Pashikian,A"]
+[Black "Anastasian,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2472"]
+[BlackElo "2602"]
+[EventDate "2006.03.16"]
+[ECO "B19"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8.
+h5 Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Bf4 Qa5+ 12. Bd2 Qc7 13. O-O-O Ngf6 14.
+Ne4 O-O-O 15. g3 Be7 16. Kb1 c5 17. Bf4 Qc6 18. Nxf6 Bxf6 19. d5 Qb6 20.
+Qb3 Rhe8 21. dxe6 Rxe6 22. Rd5 Qxb3 23. axb3 Be7 24. Ne5 Nxe5 25. Rxe5 Rxe5
+26. Bxe5 f6 27. Bf4 Rd5 28. c3 Kd7 29. Kc2 Bd6 30. c4 Rd4 31. Be3 Re4 32.
+Kd3 Re6 33. g4 Kc6 34. f4 a6 35. Rg1 b6 36. Bd2 Re7 37. g5 fxg5 38. fxg5
+hxg5 39. Rxg5 Be5 40. Rg6+ Kb7 41. Bc3 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.22"]
+[Round "7"]
+[White "Minasian,Ara"]
+[Black "Kalashian,D"]
+[Result "1-0"]
+[WhiteElo "2487"]
+[BlackElo "2319"]
+[EventDate "2006.03.16"]
+[ECO "A17"]
+
+1. c4 e6 2. Nc3 Nf6 3. Nf3 Bb4 4. Qc2 O-O 5. a3 Bxc3 6. Qxc3 b6 7. e3 Bb7
+8. Be2 d6 9. b4 Nbd7 10. Bb2 e5 11. O-O Re8 12. d4 Qe7 13. dxe5 Nxe5 14.
+Nxe5 dxe5 15. f3 Nd7 16. Rfd1 Nf8 17. Rac1 Ng6 18. c5 Qg5 19. c6 Bc8 20. f4
+Qf6 21. Rd7 Bxd7 22. cxd7 Red8 23. Bf3 Rab8 24. Qxc7 Qe6 25. Rd1 e4 26. Be2
+Nf8 27. Be5 Ra8 28. Bb5 Qb3 29. Qc1 a6 30. Bc6 Ra7 31. Rd4 Qe6 32. Rxe4
+Nxd7 33. Bxg7 Qg6 34. Bb2 Rc7 35. Qc3 Nf6 36. Qxf6 Rd1+ 37. Kf2 Rd2+ 38.
+Ke1 Re2+ 39. Kxe2 Qxg2+ 40. Kd3 Qf1+ 41. Kc2 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.22"]
+[Round "7"]
+[White "Minasian,Art"]
+[Black "Kotanjian,T"]
+[Result "1/2-1/2"]
+[WhiteElo "2574"]
+[BlackElo "2471"]
+[EventDate "2006.03.16"]
+[ECO "A38"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 g6 4. c4 Bg7 5. O-O d6 6. Nc3 Nf6 7. a3 O-O 8.
+d3 d5 9. cxd5 Nxd5 10. Bd2 Nc7 11. Rb1 a5 12. Na4 Na6 13. Qb3 Rb8 14. Qb6
+Be6 15. b3 Bg4 16. Rfc1 Bxf3 17. Bxf3 Nd4 18. Qxd8 Nxf3+ 19. exf3 Rfxd8 20.
+Nxc5 Nxc5 21. Rxc5 Rxd3 22. Be3 b5 23. Kf1 e6 24. Ke2 Rdd8 25. Rc7 Bf8 26.
+Ra7 Bxa3 27. Rxa5 Bb4 28. Ra7 Rbc8 29. Rc1 Rxc1 30. Bxc1 Rc8 31. Bh6 Bf8
+32. Bd2 Rb8 33. Be3 h5 34. h4 Rd8 35. Rb7 Rd5 36. f4 Bb4 37. Kf3 Bc3 38.
+Rc7 Ba5 39. Rc8+ Kg7 40. Ke2 Bb4 41. Rc7 Kf8 42. Rb7 Ke8 43. Kf3 Bc3 44.
+Rc7 Bb4 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.22"]
+[Round "7"]
+[White "Petrosian,TL"]
+[Black "Nalbandian,T"]
+[Result "1-0"]
+[WhiteElo "2558"]
+[BlackElo "2524"]
+[EventDate "2006.03.16"]
+[ECO "C43"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 d5 5. Nxe5 Nd7 6. Nxd7 Bxd7 7. O-O
+Bd6 8. Nc3 Nxc3 9. bxc3 O-O 10. Qh5 f5 11. Re1 Qf6 12. Qf3 c6 13. Bf4 Rae8
+14. Qg3 Ba3 15. Rab1 b5 16. Rxe8 Rxe8 17. Be5 Qg6 18. Qf4 h6 19. h3 Qg5 20.
+Qf3 Be7 21. Bxb5 Qg6 22. Bd3 Bd6 23. Rb7 Qe6 24. Rxa7 Bxe5 25. dxe5 c5 26.
+Qe3 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.23"]
+[Round "8"]
+[White "Asrian,K"]
+[Black "Nalbandian,T"]
+[Result "1/2-1/2"]
+[WhiteElo "2646"]
+[BlackElo "2524"]
+[EventDate "2006.03.16"]
+[ECO "C43"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 d5 5. Nxe5 Nd7 6. Nc3 Nxe5 7. dxe5
+Nxc3 8. bxc3 Be7 9. O-O O-O 10. Rb1 c6 11. f4 f5 12. Be3 b5 13. Kh1 Be6 14.
+Qd2 a5 15. Qf2 d4 16. Bxd4 Bxa2 17. Ra1 Qd5 18. Rfd1 Qe6 19. Bc5 Bxc5 20.
+Qxc5 Rfd8 21. Rd2 Bc4 22. Bxc4 Qxc4 23. Qxc4+ bxc4 24. Rxa5 Rxd2 25. Rxa8+
+Kf7 26. Kg1 Rxc2 27. Rc8 Rxc3 28. Rxc6 Rc2 29. h4 h5 30. Kh2 Rc3 31. Rc7+
+Kf8 32. Kg1 Rc2 33. Kf1 c3 34. Kg1 Kg8 35. Kh2 Kh7 36. Kg3 Kg6 37. Kf3 Rc1
+38. Ke3 Rc2 39. Kf3 Rc1 40. Ke3 Rc2 41. Kf3 Rc1 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.23"]
+[Round "8"]
+[White "Anastasian,A"]
+[Black "Petrosian,TL"]
+[Result "1/2-1/2"]
+[WhiteElo "2602"]
+[BlackElo "2558"]
+[EventDate "2006.03.16"]
+[ECO "A11"]
+
+1. Nf3 d5 2. c4 c6 3. e3 Nf6 4. Nc3 e6 5. b3 Bd6 6. Bb2 O-O 7. Qc2 Nbd7 8.
+Be2 Qe7 9. O-O dxc4 10. bxc4 e5 11. Ng5 Re8 12. Nge4 Bc7 13. Rad1 Nf8 14.
+Nxf6+ Qxf6 15. f4 Qh6 16. f5 e4 17. g3 Be5 18. Rf2 g6 19. fxg6 hxg6 20.
+Qxe4 Bxg3 21. hxg3 Rxe4 22. Nxe4 f5 23. Rh2 Qxh2+ 24. Kxh2 fxe4 25. Rf1 Bd7
+26. Rf6 Re8 27. c5 Be6 28. a4 Rd8 29. Bd4 b6 30. g4 bxc5 31. Bc3 Rd7 32.
+Kg3 Rf7 33. Kf4 Bd5 34. a5 Nd7 35. Rxf7 Kxf7 36. Bf1 Ke6 37. Kg5 Kf7 38.
+Bg2 Nf8 39. Kf4 Ke6 40. Bg7 Nd7 41. Bf1 c4 42. Bd4 c5 43. Bc3 Nb8 44. Be2
+Nc6 45. Bd1 Nb4 46. Ba4 Bc6 47. Bxc6 Nxc6 48. Kxe4 g5 49. d3 cxd3 50. Kxd3
+Ne5+ 51. Bxe5 Kxe5 52. a6 Kd5 53. e4+ Ke5 54. Kc4 Kxe4 55. Kxc5 Kf4 56. Kc6
+Kxg4 57. Kb7 Kh3 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.23"]
+[Round "8"]
+[White "Kalashian,D"]
+[Black "Pashikian,A"]
+[Result "0-1"]
+[WhiteElo "2319"]
+[BlackElo "2472"]
+[EventDate "2006.03.16"]
+[ECO "E11"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 c5 5. Bxb4 cxb4 6. e3 b6 7. Bd3 Bb7
+8. Nbd2 O-O 9. O-O d6 10. Qc2 Nbd7 11. Ne4 Qc7 12. Rfc1 Rac8 13. Nfg5 g6
+14. Nxf6+ Nxf6 15. f3 Qe7 16. Qf2 e5 17. Qh4 Nh5 18. g4 exd4 19. e4 Rc5 20.
+f4 h6 21. gxh5 hxg5 22. Qf2 gxf4 23. hxg6 Rg5+ 24. Kf1 Bxe4 25. Qxd4 Bxd3+
+26. Qxd3 fxg6 27. Re1 Qf6 28. Re2 f3 29. Rf2 Rg2 30. Qd2 Rxf2+ 31. Qxf2 Qe6
+32. Rc1 Rf4 33. Kg1 Rxc4 34. Re1 Re4 35. Rc1 Qg4+ 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.23"]
+[Round "8"]
+[White "Kotanjian,T"]
+[Black "Minasian,Ara"]
+[Result "1-0"]
+[WhiteElo "2471"]
+[BlackElo "2487"]
+[EventDate "2006.03.16"]
+[ECO "A85"]
+
+1. d4 f5 2. c4 Nf6 3. Nc3 e6 4. a3 Be7 5. Nf3 d6 6. g3 O-O 7. Bg2 Qe8 8.
+O-O Nc6 9. b4 e5 10. d5 Nd8 11. c5 a5 12. cxd6 Bxd6 13. b5 b6 14. a4 Nb7
+15. Nd2 Bb4 16. Bb2 Nd6 17. Rc1 e4 18. Na2 e3 19. Nb3 exf2+ 20. Rxf2 Nde4
+21. Rf1 Bd6 22. Nc3 Nxg3 23. hxg3 Qe3+ 24. Rf2 Bxg3 25. Qf1 Ng4 26. Nd1
+Qxb3 27. Rf3 Bh2+ 28. Kh1 Qxa4 29. Rd3 Qxb5 30. d6 Ra7 31. Bc6 Bb7 32. Bxb7
+Rxb7 33. Qf3 Ra7 34. Rc6 Bxd6 35. Rb3 Qa4 36. Qd5+ Rf7 37. Bd4 Qa2 38. Bxb6
+Qxe2 39. Bg1 Nf6 40. Rb8+ Ne8 41. Rc2 Qh5+ 42. Rh2 Qg5 43. Rxe8+ Bf8 44.
+Bc5 1-0
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.23"]
+[Round "8"]
+[White "Yegiazarian,A"]
+[Black "Minasian,Art"]
+[Result "0-1"]
+[WhiteElo "2531"]
+[BlackElo "2574"]
+[EventDate "2006.03.16"]
+[ECO "E61"]
+
+1. Nf3 g6 2. c4 Bg7 3. Nc3 c5 4. e3 Nf6 5. d4 O-O 6. Be2 d6 7. O-O Bf5 8.
+b3 e5 9. dxc5 dxc5 10. Bb2 Nc6 11. Nd5 Re8 12. Qc1 e4 13. Nxf6+ Bxf6 14.
+Rd1 Qe7 15. Ne1 Rad8 16. a3 Rxd1 17. Bxd1 h5 18. Ra2 Ne5 19. Bc3 h4 20. Rd2
+h3 21. g3 Nd3 22. Nxd3 exd3 23. Bf3 Rd8 24. Qa1 Bxc3 25. Qxc3 b6 26. Qa1
+Qe6 27. Qf1 b5 28. Bd5 Rxd5 29. cxd5 Qxd5 30. f3 c4 31. bxc4 bxc4 32. e4
+Qd4+ 33. Qf2 Qa1+ 34. Qf1 Qc3 35. Qe1 Bc8 36. Kf2 Qxa3 37. Qe3 Ba6 38. Qxa7
+c3 39. Qb8+ Qf8 40. Qxf8+ Kxf8 41. Ra2 c2 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.24"]
+[Round "9"]
+[White "Minasian,Art"]
+[Black "Asrian,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2574"]
+[BlackElo "2646"]
+[EventDate "2006.03.16"]
+[ECO "C42"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Bf4
+O-O 8. Qd2 Nd7 9. O-O-O Nc5 10. Nd4 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.24"]
+[Round "9"]
+[White "Nalbandian,T"]
+[Black "Anastasian,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2524"]
+[BlackElo "2602"]
+[EventDate "2006.03.16"]
+[ECO "D14"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. cxd5 cxd5 5. Nf3 Nc6 6. Bf4 Bf5 7. e3 e6 8.
+Bb5 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.24"]
+[Round "9"]
+[White "Petrosian,TL"]
+[Black "Kalashian,D"]
+[Result "0-1"]
+[WhiteElo "2558"]
+[BlackElo "2319"]
+[EventDate "2006.03.16"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 Qc7 8.
+a4 b6 9. Nd5 Nxd5 10. Qxd5 Nc6 11. Ng5 Rb8 12. Bc4 Nd8 13. Qd3 a5 14. Qc3
+Qa7 15. f4 f6 16. Nf3 d5 17. Bb5+ Bd7 18. Qd3 d4 19. O-O-O Rb7 20. Qb3 Nf7
+21. fxe5 fxe5 22. Nxe5 Nxe5 23. Qe6+ Be7 24. Qxe5 dxe3 25. Rxd7 Rxd7 26.
+Qxg7 Rf8 27. Rd1 Kd8 28. Rd4 Rxd4 29. Qxd4+ Kc8 30. Qxe3 Qc7 31. Kb1 Bd6
+32. h4 Kb8 33. g4 Rf4 34. Qe2 Be5 35. h5 h6 36. c3 Qb7 37. Bd3 Qd7 38. Bb5
+Qb7 39. Bd3 Qc6 40. Bc2 Ka7 41. Ka2 Qd7 42. Bd1 Bc7 43. Bb3 Qxg4 44. Qb5
+Rxe4 45. Qc6 Kb8 46. Qxh6 Re5 47. Qh8+ Qc8 48. Qh7 Re2 49. h6 Be5 50. Qd3
+Rh2 51. Qe3 Qc5 52. Qd3 Qxc3 53. Qd8+ Ka7 54. Qe7+ Qc7 0-1
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.24"]
+[Round "9"]
+[White "Pashikian,A"]
+[Black "Kotanjian,T"]
+[Result "1/2-1/2"]
+[WhiteElo "2472"]
+[BlackElo "2471"]
+[EventDate "2006.03.16"]
+[ECO "B30"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nf3 e5 4. Bc4 Be7 5. d3 Nf6 6. Nd2 O-O 7. Nf1 d6 8.
+Ne3 Ne8 9. O-O 1/2-1/2
+
+[Event "66th ch-ARM"]
+[Site "Yerevan ARM"]
+[Date "2006.03.24"]
+[Round "9"]
+[White "Minasian,Ara"]
+[Black "Yegiazarian,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2487"]
+[BlackElo "2531"]
+[EventDate "2006.03.16"]
+[ECO "C68"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. h3 h5 7. d3 Qf6 8.
+Nbd2 Ne7 9. c3 Ng6 10. d4 1/2-1/2
+

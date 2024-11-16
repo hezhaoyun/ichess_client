@@ -1,0 +1,100 @@
+[Event "49th Biel Masters Match"]
+[Site "Biel SUI"]
+[Date "2016.07.25"]
+[Round "1"]
+[White "Svidler, Peter"]
+[Black "Vachier-Lagrave, Maxime"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2759"]
+[BlackElo "2798"]
+[ECO "B51"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky (Nimzovich-Rossolimo, Moscow) attack"]
+[WhiteFideId "4102142"]
+[BlackFideId "623539"]
+[EventDate "2016.07.25"]
+
+1. Nf3 c5 2. e4 d6 3. Bb5+ Nd7 4. O-O a6 5. Bd3 Ngf6 6. Re1 b5 7. c4 Rb8 8. cxb5
+axb5 9. a3 Ne5 10. Nxe5 dxe5 11. Qe2 Ba6 12. b4 e6 13. Nc3 Nd7 14. Nxb5 Be7 15.
+Bc4 O-O 16. bxc5 Nxc5 17. a4 Qd7 18. Ba3 Rfc8 19. Reb1 Bd8 20. Bxc5 Rxc5 21. d3
+g6 22. g3 Be7 23. Rd1 Bxb5 24. Bxb5 Qc7 25. Bc4 Qa5 26. Qc2 Rcc8 27. Kg2 Bc5 28.
+Rab1 Bd4 29. Rxb8 Rxb8 30. Bb5 Kg7 31. Qd2 Bc3 32. Qc2 Bd4 33. Qd2 Bc3 34. Qc2 1/2-1/2
+
+[Event "49th Biel Masters Match"]
+[Site "Biel SUI"]
+[Date "2016.07.26"]
+[Round "2"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "Svidler, Peter"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2798"]
+[BlackElo "2759"]
+[ECO "C89"]
+[Opening "Ruy Lopez"]
+[Variation "Marshall counter-attack, 11...c6"]
+[WhiteFideId "623539"]
+[BlackFideId "4102142"]
+[EventDate "2016.07.25"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3
+d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d3 Bd6 13. Re1 Bf5 14. Qf3 Qf6 15.
+Nd2 Qg6 16. Bd1 Bxd3 17. Ne4 Bxe4 18. Qxe4 Qxe4 19. Rxe4 f5 20. Re2 Rfe8 21. Bd2
+Bf4 22. Be1 Nb6 23. g3 Bc7 24. Rxe8+ Rxe8 25. Bf3 Re6 26. b3 Be5 27. Rd1 Kf7 28.
+Kf1 g6 29. Rc1 a5 30. c4 bxc4 31. Bxa5 cxb3 32. axb3 Nd5 33. Rxc6 Rxc6 34. Bxd5+
+Re6 35. Bd2 Ke7 36. Bxe6 Kxe6 37. Ke2 Kd5 38. Kd3 h5 39. b4 Bd6 40. Kc3 h4 41.
+Be3 h3 42. b5 Ke4 43. b6 Kf3 44. b7 Bb8 45. Kd3 Kg2 46. Bf4 Ba7 47. g4 1-0
+
+[Event "49th Biel Masters Match"]
+[Site "Biel SUI"]
+[Date "2016.07.28"]
+[Round "3"]
+[White "Svidler, Peter"]
+[Black "Vachier-Lagrave, Maxime"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2759"]
+[BlackElo "2798"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Adams attack"]
+[WhiteFideId "4102142"]
+[BlackFideId "623539"]
+[EventDate "2016.07.25"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e6 7. g4 h6 8. Bg2 Be7
+9. h4 Nc6 10. g5 hxg5 11. hxg5 Rxh1+ 12. Bxh1 Nh7 13. Nxc6 bxc6 14. g6 fxg6 15.
+Qd3 e5 16. Qc4 Bd7 17. Bd2 Bg5 18. O-O-O Qf6 19. Na4 Rb8 20. Bxg5 Qxg5+ 21. Kb1
+Nf6 22. a3 Qh4 23. Qd3 d5 24. Nc5 d4 25. Qxa6 Qxf2 26. Rf1 Qg3 27. Bf3 Qh3 28.
+Rh1 Qxf3 29. Rh8+ Ke7 30. Rxb8 Nxe4 31. Nxd7 Nd2+ 32. Ka2 Qd5+ 33. b3 Qh1 34. a4
+Qb1+ 35. Ka3 Qa1+ 36. Kb4 Qc3+ 37. Ka3 Nb1+ 0-1
+
+[Event "49th Biel Masters Match"]
+[Site "Biel SUI"]
+[Date "2016.07.29"]
+[Round "4"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "Svidler, Peter"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2798"]
+[BlackElo "2759"]
+[ECO "C92"]
+[Opening "Ruy Lopez"]
+[Variation "closed, 9.h3"]
+[WhiteFideId "623539"]
+[BlackFideId "4102142"]
+[EventDate "2016.07.25"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Re8 10. d4 Bb7 11. Nbd2 Bf8 12. d5 Nb8 13. Nf1 Nbd7 14. N3h2 Nc5 15.
+Bc2 c6 16. b4 Ncd7 17. dxc6 Bxc6 18. Bg5 Qc7 19. Bxf6 Nxf6 20. Ng4 Nxg4 21. hxg4
+Be7 22. Bb3 Bg5 23. Qf3 Qb7 24. Rad1 Red8 25. c4 bxc4 26. Bxc4 g6 27. a3 Rd7 28.
+Qd3 Kg7 29. Nh2 d5 30. exd5 Rad8 31. Nf3 Bxd5 32. Bxd5 Rxd5 33. Qe4 Bf6 34. g5
+Be7 35. g3 Qb5 36. Rxd5 Rxd5 37. Kg2 Bd6 38. a4 Qd3 39. Qxd3 Rxd3 40. Nxe5 Rb3 1/2-1/2
+

@@ -1,0 +1,212 @@
+[Event "1st ch-CHN w Rapid KO"]
+[Site "Hefei CHN"]
+[Date "2011.07.06"]
+[Round "1.1"]
+[White "Ju, Wenjun"]
+[Black "Tan, Zhongyi"]
+[Result "1-0"]
+[WhiteTitle "WGM"]
+[BlackTitle "WGM"]
+[WhiteElo "2515"]
+[BlackElo "2396"]
+[ECO "E71"]
+[Opening "King's Indian"]
+[Variation "Makagonov system (5.h3)"]
+[WhiteFideId "8603006"]
+[BlackFideId "8603642"]
+[EventDate "2011.07.06"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 Ne8 8. g4 f5 9.
+gxf5 gxf5 10. exf5 Bxf5 11. Nge2 Qh4 12. Ng3 Bg6 13. Qg4 Qxg4 14. hxg4 Nf6 15.
+Be2 Na6 16. O-O-O Rae8 17. a3 e4 18. Nb5 Nd7 19. Nxa7 Nac5 20. Nb5 Rc8 21. Nf5
+Bxf5 22. gxf5 Ne5 23. Nd4 Ncd3+ 24. Bxd3 Nxd3+ 25. Kc2 Bxd4 26. Bxd4 Ne5 27.
+Rdg1+ Kh8 28. Rh5 Rf7 29. Rg4 c5 30. Bxe5+ dxe5 31. Rxe4 Rg8 32. Rxe5 Rg4 33.
+Kb3 Kg7 34. d6 b6 35. Re7 Rxe7 36. dxe7 Re4 37. f6+ Kxf6 38. Rxh7 Kg6 39. e8=Q+
+Rxe8 40. Rb7 Re6 41. Ka4 Kf5 42. b3 Rd6 43. Re7 Kf4 44. Re3 Rd2 45. Kb5 Rxf2 46.
+Rc3 Ke4 47. Kxb6 Kd4 48. Rh3 Rf8 49. a4 Rb8+ 50. Kc7 Ra8 51. Kb7 Rg8 52. a5 Rg7+
+53. Kb6 Rg6+ 54. Kb5 Rg8 55. a6 Rb8+ 56. Kc6 1-0
+
+[Event "1st ch-CHN w Rapid KO"]
+[Site "Hefei CHN"]
+[Date "2011.07.06"]
+[Round "1.1"]
+[White "Guo, Qi"]
+[Black "Zhao, Xue"]
+[Result "0-1"]
+[WhiteTitle "WGM"]
+[BlackTitle "GM"]
+[WhiteElo "2368"]
+[BlackElo "2470"]
+[ECO "E11"]
+[Opening "Bogo-Indian defence, Gruenfeld variation"]
+[WhiteFideId "8604002"]
+[BlackFideId "8601283"]
+[EventDate "2011.07.06"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 O-O 5. a3 Be7 6. e4 d5 7. Qc2 dxe4 8.
+Nxe4 Nbd7 9. Bd3 b6 10. O-O Bb7 11. h3 c5 12. dxc5 bxc5 13. Re1 h6 14. b3 Qc7
+15. Bb2 Rfd8 16. Rad1 Rab8 17. Nfd2 Bc6 18. Bc3 Qb6 19. Rb1 a5 20. Ng3 Qc7 21.
+a4 Bd6 22. Nde4 Be5 23. Bxe5 Qxe5 24. Nc3 Qf4 25. Qe2 Rb7 26. Nb5 Nb8 27. Qe3
+Qxe3 28. Rxe3 Rbd7 29. Be2 Na6 30. Nf1 Nb4 31. f3 Nh5 32. g3 g5 33. Kf2 Kg7 34.
+Re5 Nd3+ 35. Bxd3 Rxd3 36. Re3 R3d7 37. Rbe1 Nf6 38. Re5 Rd3 39. R1e3 Rxe3 40.
+Rxe3 Rd1 41. Ke2 Rd8 42. g4 Kg6 43. Nd2 h5 44. Rd3 Rxd3 45. Kxd3 Nd7 46. Nd6 f5
+47. gxf5+ exf5 48. Ke3 Nf8 49. f4 Ne6 50. fxg5 Kxg5 51. Kf2 Nf4 52. h4+ Kg4 53.
+Nf1 Nh3+ 54. Ke2 f4 55. Nf7 Ng1+ 56. Kf2 Nh3+ 57. Ke2 Kxh4 58. Ne5 Bg2 59. Nd2
+Kg3 60. Ndf3 h4 61. Ne1 Ng1+ 0-1
+
+[Event "1st ch-CHN w Rapid KO"]
+[Site "Hefei CHN"]
+[Date "2011.07.06"]
+[Round "1.2"]
+[White "Zhao, Xue"]
+[Black "Guo, Qi"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "WGM"]
+[WhiteElo "2470"]
+[BlackElo "2368"]
+[ECO "D31"]
+[Opening "QGD"]
+[Variation "Charousek (Petrosian) variation"]
+[WhiteFideId "8601283"]
+[BlackFideId "8604002"]
+[EventDate "2011.07.06"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 c6 6. Qc2 Bd6 7. Bxd6 Qxd6 8.
+e3 Nf6 9. Bd3 O-O 10. Nge2 Re8 11. h3 Nbd7 12. g4 Nf8 13. Ng3 Kh8 14. O-O-O b5
+15. g5 Ng8 16. Kb1 a5 17. Rc1 Bd7 18. h4 Rec8 19. Nf5 Bxf5 20. Bxf5 Rcb8 21. Ne2
+Ne7 22. Bg4 b4 23. Nf4 b3 24. axb3 a4 25. Qc5 Qxc5 26. Rxc5 Rxb3 27. Rc3 Rb6 28.
+Ka2 Rab8 29. Nd3 f5 30. gxf6 gxf6 31. Bd1 Nd7 32. Bxa4 Ra6 33. Ra3 Nf5 34. Rc1
+Rbb6 35. h5 Kg7 36. Bd1 Nd6 37. Nc5 Rxa3+ 38. bxa3 Nb8 39. Be2 Kh6 40. Rg1 Ne4
+41. Nxe4 dxe4 42. a4 Na6 43. a5 Nb4+ 44. Kb3 Rb8 45. Kc4 Nd3 46. Bxd3 exd3 47.
+Kxd3 Kxh5 48. Rc1 Kg4 49. Rxc6 f5 50. Rh6 Kf3 51. Rxh7 Kxf2 52. Rf7 Rb3+ 53. Kc4
+Ra3 54. e4 Ra4+ 55. Kc3 Ke3 56. Rxf5 Kxe4 57. Re5+ Kf4 58. Rc5 Ke4 59. d5 Ke5
+60. Kb3 Ra1 61. Kc4 Rb1 62. a6 Ra1 63. Rc6 Rc1+ 64. Kb5 Rb1+ 65. Kc5 Rc1+ 66.
+Kb6 Rb1+ 67. Kc7 Kxd5 68. Rb6 Ra1 69. Kb7 Rh1 70. a7 Rh7+ 71. Ka6 1-0
+
+[Event "1st ch-CHN w Rapid KO"]
+[Site "Hefei CHN"]
+[Date "2011.07.06"]
+[Round "1.2"]
+[White "Tan, Zhongyi"]
+[Black "Ju, Wenjun"]
+[Result "0-1"]
+[WhiteTitle "WGM"]
+[BlackTitle "WGM"]
+[WhiteElo "2396"]
+[BlackElo "2515"]
+[ECO "E98"]
+[Opening "King's Indian"]
+[Variation "orthodox, Aronin-Taimanov, 9.Ne1"]
+[WhiteFideId "8603642"]
+[BlackFideId "8603006"]
+[EventDate "2011.07.06"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7
+9. Ne1 Nd7 10. Nd3 f5 11. f3 f4 12. Bd2 g5 13. Rc1 Nf6 14. c5 Ng6 15. cxd6 cxd6
+16. Nb5 Rf7 17. Qc2 Ne8 18. a4 h5 19. Nf2 Bd7 20. Qb3 Bf8 21. Rc4 a6 22. Na3 Nh4
+23. h3 Rg7 24. a5 Nf6 25. Qd1 g4 26. fxg4 hxg4 27. Nxg4 Bxg4 28. Bxg4 Nxg4 29.
+hxg4 Qd7 30. Be1 Rxg4 31. Bxh4 Rxh4 32. Qf3 Re8 33. Nc2 Re7 34. Ne1 Rg7 35. Qb3
+Qg4 36. Qf3 Qd7 37. Qc3 Qg4 38. Rc8 Rgh7 39. Kf2 Rh1 40. Rxh1 Rxh1 41. Rb8 Qh4+
+42. Ke2 f3+ 43. gxf3 Rh2+ 44. Kd3 Qf2 45. Kc4 Qxb2 46. Qxb2 Rxb2 47. Nd3 Rb5 48.
+f4 exf4 49. e5 dxe5 50. d6 Kf7 51. d7 Be7 52. Re8 Kf6 53. Nf2 Rc5+ 54. Kb3 Rd5
+55. Ng4+ Ke6 0-1
+
+[Event "1st ch-CHN w Rapid KO"]
+[Site "Hefei CHN"]
+[Date "2011.07.07"]
+[Round "2.1"]
+[White "Tan, Zhongyi"]
+[Black "Guo, Qi"]
+[Result "1/2-1/2"]
+[WhiteTitle "WGM"]
+[BlackTitle "WGM"]
+[WhiteElo "2396"]
+[BlackElo "2368"]
+[ECO "D56"]
+[Opening "QGD"]
+[Variation "Lasker defence, Teichmann variation"]
+[WhiteFideId "8603642"]
+[BlackFideId "8604002"]
+[EventDate "2011.07.06"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Ne4 8. Bxe7
+Qxe7 9. Qc2 Nxc3 10. Qxc3 dxc4 11. Bxc4 c5 12. O-O cxd4 13. Nxd4 Bd7 14. Rfd1
+Nc6 15. Nb5 Rfd8 16. Nd6 Be8 17. Nxe8 Qxe8 18. Bb5 Rac8 19. h3 Qe7 20. Rxd8+
+Qxd8 21. Rc1 Ne7 22. Qe1 Rxc1 23. Qxc1 Qd5 24. Bc4 1/2-1/2
+
+[Event "1st ch-CHN w Rapid KO"]
+[Site "Hefei CHN"]
+[Date "2011.07.07"]
+[Round "2.1"]
+[White "Zhao, Xue"]
+[Black "Ju, Wenjun"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "WGM"]
+[WhiteElo "2470"]
+[BlackElo "2515"]
+[ECO "E92"]
+[Opening "King's Indian"]
+[Variation "Gligoric-Taimanov system"]
+[WhiteFideId "8601283"]
+[BlackFideId "8603006"]
+[EventDate "2011.07.06"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 Na6 8. O-O
+Ng4 9. Bg5 Qe8 10. dxe5 dxe5 11. Qc1 c6 12. Rd1 f6 13. Bd2 f5 14. h3 Nf6 15.
+exf5 gxf5 16. Bh6 f4 17. Bxg7 Kxg7 18. Re1 e4 19. Bd3 Nc5 20. Bxe4 Nfxe4 21.
+Nxe4 Nxe4 22. Qc2 Bf5 23. Nh4 Bg6 24. Nxg6 hxg6 25. Rxe4 Qf7 26. Rae1 Rae8 27.
+Qc3+ Kh7 28. Qb4 Rxe4 29. Rxe4 Re8 30. Rxe8 Qxe8 31. Qxb7+ Kh6 32. Qxa7 Qe1+ 33.
+Kh2 f3 34. Qd4 fxg2 35. Qe3+ 1-0
+
+[Event "1st ch-CHN w Rapid KO"]
+[Site "Hefei CHN"]
+[Date "2011.07.07"]
+[Round "2.2"]
+[White "Guo, Qi"]
+[Black "Tan, Zhongyi"]
+[Result "0-1"]
+[WhiteTitle "WGM"]
+[BlackTitle "WGM"]
+[WhiteElo "2368"]
+[BlackElo "2396"]
+[ECO "E60"]
+[Opening "King's Indian, 3.Nf3"]
+[WhiteFideId "8604002"]
+[BlackFideId "8603642"]
+[EventDate "2011.07.06"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. h3 e5 7. d5 a5 8. Bg5 Na6
+9. g4 Nc5 10. Nd2 Bd7 11. Be2 c6 12. h4 Qb6 13. Rb1 cxd5 14. Bxf6 Bxf6 15. Nxd5
+Qd8 16. Qc2 Bc6 17. g5 Bg7 18. Qc3 Ne6 19. Bg4 Nf4 20. Kd1 b5 21. b3 a4 22. b4
+Rb8 23. cxb5 Bxd5 24. exd5 Nxd5 25. Qc6 Nf4 26. Nc4 d5 27. Na5 Nd3 28. Ke2 e4
+29. Bh3 Qe7 30. Qd7 Qe5 31. Qa7 d4 32. Nc6 Qf4 33. Rhf1 Qf3+ 34. Kd2 Nf4 0-1
+
+[Event "1st ch-CHN w Rapid KO"]
+[Site "Hefei CHN"]
+[Date "2011.07.07"]
+[Round "2.2"]
+[White "Ju, Wenjun"]
+[Black "Zhao, Xue"]
+[Result "0-1"]
+[WhiteTitle "WGM"]
+[BlackTitle "GM"]
+[WhiteElo "2515"]
+[BlackElo "2470"]
+[ECO "E00"]
+[Opening "Catalan opening"]
+[WhiteFideId "8603006"]
+[BlackFideId "8601283"]
+[EventDate "2011.07.06"]
+
+1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 c5 5. Bxb4 cxb4 6. Bg2 O-O 7. e4 d6 8. Ne2
+e5 9. O-O Qc7 10. Nd2 Nc6 11. d5 Nb8 12. a3 Na6 13. Nc1 bxa3 14. Rxa3 Nb4 15.
+Na2 Nxa2 16. Rxa2 b5 17. Qa1 Bd7 18. Rc1 Rfc8 19. Ra6 Qc5 20. b3 Ng4 21. Rf1
+bxc4 22. bxc4 Rcb8 23. h3 Nf6 24. Rb1 Rxb1+ 25. Qxb1 Qc7 26. Qb4 Ne8 27. Qa3 h6
+28. Bf1 Kh7 29. Nb3 Bc8 30. Ra5 Nf6 31. Bd3 Bxh3 32. c5 dxc5 33. Qxc5 Qd7 34.
+Qe3 Kg8 35. Ra6 Qg4 36. Ra1 a5 37. Nd2 a4 38. Nc4 Nd7 39. Be2 Qg6 40. Kh2 Bg4
+41. f3 Qh5+ 42. Kg1 Bh3 43. Qf2 f5 44. exf5 Bxf5 45. f4 Bg4 46. Bxg4 Qxg4 47.
+Ne3 Qg6 48. f5 Qb6 49. Nc4 Qb4 50. Qc2 Rc8 51. Rxa4 Qc5+ 52. Qf2 Qxd5 53. Ne3
+Rc1+ 54. Nf1 Nf6 55. Ra3 Ne4 56. Qe3 Nd2 0-1
+

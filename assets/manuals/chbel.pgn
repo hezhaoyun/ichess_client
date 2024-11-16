@@ -1,0 +1,846 @@
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.07"]
+[Round "1"]
+[White "Claesen,J"]
+[Black "Gurevich,M"]
+[Result "0-1"]
+[WhiteElo "2273"]
+[BlackElo "2633"]
+[EventDate "2001.07.07"]
+[ECO "C08"]
+
+1. d4 Nf6 2. Nf3 e6 3. Nbd2 c5 4. e4 d5 5. exd5 exd5 6. Bb5+ Bd7 7. Qe2+
+Be7 8. Bxd7+ Nbxd7 9. Qb5 Qc7 10. dxc5 a6 11. Qe2 O-O 12. Nb3 Rfe8 13. O-O
+Bxc5 14. Qd3 Ba7 15. Bg5 Re4 16. c3 Rae8 17. Nbd4 Ng4 18. h3 Ngf6 19. Rad1
+h6 20. Bxf6 Nxf6 21. Rd2 g6 22. Nc2 Bc5 23. Ncd4 Nh5 24. Ne2 Kg7 25. Nfd4
+Ba7 26. Ng3 Nf4 27. Qf3 Bxd4 28. cxd4 R4e6 29. Qg4 h5 30. Qd1 h4 31. Rc2
+Qd6 32. Nh1 Ne2+ 0-1
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.07"]
+[Round "1"]
+[White "Dutreeuw,M"]
+[Black "Dgebuadze,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2390"]
+[BlackElo "2547"]
+[EventDate "2001.07.07"]
+[ECO "C18"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 O-O 8.
+Bd3 Nbc6 9. Qh5 Ng6 10. Nf3 Qc7 11. Be3 c4 12. Bxg6 fxg6 13. Qg4 Qf7 14.
+Ng5 Qe8 15. h4 Ne7 16. Qe2 h6 17. Nh3 Bd7 18. h5 gxh5 19. Nf4 g6 20. g4 h4
+21. Qd2 b5 22. Ng2 g5 23. f4 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.07"]
+[Round "1"]
+[White "Van Mechelen,J"]
+[Black "Chuchelov,V"]
+[Result "0-1"]
+[WhiteElo "2260"]
+[BlackElo "2607"]
+[EventDate "2001.07.07"]
+[ECO "B24"]
+
+1. e4 c5 2. Nc3 e6 3. g3 Nc6 4. Bg2 g6 5. d3 Bg7 6. Nge2 Nge7 7. h4 h6 8.
+h5 g5 9. f4 gxf4 10. Bxf4 d6 11. Qd2 Nd4 12. Nd1 d5 13. Ng1 Ndc6 14. Qe2
+dxe4 15. dxe4 Qa5+ 16. c3 b6 17. Ne3 Ba6 18. Qc2 e5 19. Nf5 exf4 20. Nxg7+
+Kf8 21. Nf5 Nxf5 22. exf5 Re8+ 23. Kf2 Ne5 24. gxf4 Ng4+ 25. Kg3 Ne3 0-1
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.07"]
+[Round "1"]
+[White "Meessen,R"]
+[Black "Cekro,E"]
+[Result "1/2-1/2"]
+[WhiteElo "2323"]
+[BlackElo "2393"]
+[EventDate "2001.07.07"]
+[ECO "A50"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 b6 4. e4 Bb4 5. Bd3 Bb7 6. f3 Bxc3+ 7. bxc3 d6 8.
+Ne2 Nbd7 9. O-O Qe7 10. Ng3 h5 11. Bg5 h4 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.07"]
+[Round "1"]
+[White "Claesen,P"]
+[Black "Winants,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2411"]
+[BlackElo "2497"]
+[EventDate "2001.07.07"]
+[ECO "A47"]
+
+1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Bd3 d5 5. Ne5 g6 6. O-O Bg7 7. c4 O-O 8.
+Nc3 c5 9. dxc5 Qc7 10. Ng4 dxc4 11. Nxf6+ Bxf6 12. Bxc4 Qxc5 13. Bd5 Qc8
+14. Qf3 Nc6 15. Bd2 Bg7 16. Rac1 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.08"]
+[Round "2"]
+[White "Gurevich,M"]
+[Black "Winants,L"]
+[Result "1-0"]
+[WhiteElo "2633"]
+[BlackElo "2497"]
+[EventDate "2001.07.07"]
+[ECO "A40"]
+
+1. d4 e6 2. c4 Bb4+ 3. Nd2 b6 4. a3 Bxd2+ 5. Qxd2 Bb7 6. e3 d6 7. b3 Nd7 8.
+Bb2 Ngf6 9. f3 d5 10. Bd3 O-O 11. Ne2 c5 12. O-O Re8 13. cxd5 Bxd5 14. Bc2
+cxd4 15. e4 Bb7 16. Nxd4 b5 17. Rfd1 Qb6 18. Qf2 Rac8 19. Rac1 a6 20. Ne2
+Qxf2+ 21. Kxf2 e5 22. Ng3 g6 23. Nf1 Rc7 24. Ne3 h5 25. Rd2 Nh7 26. Rcd1
+Nhf8 27. b4 Nb6 28. Rd6 Na4 29. Bxa4 bxa4 30. R1d2 Kg7 31. Nd5 Bxd5 32.
+exd5 Ra7 33. f4 f6 34. fxe5 fxe5 35. Rc2 Rf7+ 36. Ke2 Kh7 37. Rxa6 e4 38.
+Rf6 Rxf6 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.08"]
+[Round "2"]
+[White "Cekro,E"]
+[Black "Claesen,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2393"]
+[BlackElo "2411"]
+[EventDate "2001.07.07"]
+[ECO "A13"]
+
+1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. Nf3 dxc4 5. Qa4+ Nbd7 6. O-O a6 7. Qxc4 c5
+8. Qc2 b5 9. a4 Bb7 10. d3 Be7 11. Nc3 Qb6 12. Bg5 h6 13. Bxf6 Bxf6 14. Nd2
+Bxg2 15. Kxg2 O-O 16. Qb3 Rab8 17. axb5 axb5 18. Nde4 Rfc8 19. Rfc1 Ra8
+1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.08"]
+[Round "2"]
+[White "Chuchelov,V"]
+[Black "Meessen,R"]
+[Result "1-0"]
+[WhiteElo "2607"]
+[BlackElo "2323"]
+[EventDate "2001.07.07"]
+[ECO "E92"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. Be3 h6 8.
+O-O Ng4 9. Bc1 Nc6 10. d5 Ne7 11. Nd2 f5 12. Bxg4 fxg4 13. b4 g5 14. c5 Ng6
+15. Nc4 Rf4 16. Be3 Bf8 17. a4 Nh4 18. Qd3 Qd7 19. Rfc1 Be7 20. c6 bxc6 21.
+dxc6 Qd8 22. Nd5 Rf7 23. b5 Bf8 24. a5 Be6 25. b6 axb6 26. axb6 Rxa1 27.
+Rxa1 Bxd5 28. Qxd5 cxb6 29. Nxe5 Qf6 30. Qxf7+ 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.08"]
+[Round "2"]
+[White "Dgebuadze,A"]
+[Black "Van Mechelen,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2547"]
+[BlackElo "2260"]
+[EventDate "2001.07.07"]
+[ECO "A36"]
+
+1. c4 g6 2. Nc3 Bg7 3. g3 d6 4. Bg2 Nf6 5. e4 c5 6. Nge2 Nc6 7. d3 O-O 8.
+O-O Rb8 9. h3 Ne8 10. Kh2 Nc7 11. Be3 Ne6 12. Qd2 Ned4 13. Bh6 Bxh6 14.
+Qxh6 Ne5 15. Nxd4 cxd4 16. Nb5 Qb6 17. Qd2 a6 18. Na3 Nc6 19. f4 f6 20. Rf2
+Bd7 21. Raf1 e5 22. Nb1 Kg7 23. a3 a5 24. h4 a4 25. f5 Na5 26. Bh3 Nb3 27.
+Qc2 Nc5 28. Rf3 Qd8 29. Nd2 Ra8 30. R1f2 Qe7 31. Qb1 Rf7 32. Nf1 Rb8 33.
+Kg1 Rff8 34. Nh2 b5 35. cxb5 Rxb5 36. Qf1 Rb3 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.08"]
+[Round "2"]
+[White "Claesen,J"]
+[Black "Dutreeuw,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2273"]
+[BlackElo "2390"]
+[EventDate "2001.07.07"]
+[ECO "C28"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nc6 4. d3 Bb4 5. Bg5 h6 6. Bxf6 Bxc3+ 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.09"]
+[Round "3"]
+[White "Dutreeuw,M"]
+[Black "Gurevich,M"]
+[Result "0-1"]
+[WhiteElo "2390"]
+[BlackElo "2633"]
+[EventDate "2001.07.07"]
+[ECO "C11"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Nbd7 6. Nf3 h6 7. Bh4 c5
+8. Bxf6 Nxf6 9. Nxc5 Bxc5 10. dxc5 Qa5+ 11. c3 Qxc5 12. Qd4 Qxd4 13. Nxd4
+Ke7 14. Bd3 Bd7 15. f3 Rac8 16. Kf2 Rhd8 17. Rhe1 Ba4 18. Re5 Nd7 19. Re3
+Nc5 20. Bf1 Kf6 21. Rae1 Rd6 22. h4 a6 23. f4 h5 24. b3 Bc6 25. f5 exf5 26.
+Nxf5 Rd2+ 27. Kg1 Ne6 28. Ng3 g6 29. R1e2 Rcd8 30. Ne4+ Bxe4 31. Rxe4 Rxe2
+32. Rxe2 Rd1 33. Kf2 Rc1 34. c4 Nd4 35. Rd2 Nf5 36. g3 Nxg3 37. Bg2 Nf5 38.
+Bxb7 a5 39. Rb2 Nxh4 40. a3 Nf5 41. b4 axb4 42. axb4 Nd6 43. Bd5 Nxc4 44.
+Rb3 Ke7 45. b5 Nb6 46. Re3+ Kf8 47. Bc6 Rb1 48. Re8+ Kg7 49. Rb8 Nc4 50.
+Bd5 Rb2+ 51. Kg3 Rb4 52. Rb7 Nd6 53. Rd7 Nf5+ 54. Kh3 Rxb5 55. Rxf7+ Kh6
+56. Be6 Re5 57. Bd7 Re7 58. Rxe7 Nxe7 59. Ba4 g5 60. Bd1 Nd5 61. Kg3 Kg6
+62. Bb3 Ne3 63. Kf3 Nf5 64. Ba4 Kf6 65. Be8 Ng7 66. Ba4 Ke5 0-1
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.09"]
+[Round "3"]
+[White "Van Mechelen,J"]
+[Black "Claesen,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2260"]
+[BlackElo "2273"]
+[EventDate "2001.07.07"]
+[ECO "A87"]
+
+1. d4 g6 2. Nf3 f5 3. g3 Bg7 4. Bg2 Nf6 5. O-O d6 6. c4 O-O 7. Nc3 Qe8 8.
+b3 e5 9. dxe5 dxe5 10. e4 Nc6 11. Nd5 Qd7 12. Ba3 Rd8 13. Qc2 Nxe4 14. Rad1
+Kh8 15. Nb6 axb6 16. Rxd7 Bxd7 17. Bb2 Rxa2 18. Qb1 Raa8 19. Rd1 Be6 20.
+Rxd8+ Rxd8 21. Nxe5 Nxe5 22. Bxe4 fxe4 23. Bxe5 Bh3 24. Qa1 Bxe5 25. Qxe5+
+Kg8 26. f4 exf3 27. Kf2 Rd3 28. Qe8+ 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.09"]
+[Round "3"]
+[White "Meessen,R"]
+[Black "Dgebuadze,A"]
+[Result "0-1"]
+[WhiteElo "2323"]
+[BlackElo "2547"]
+[EventDate "2001.07.07"]
+[ECO "B56"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be3 Ng4 7. Bb5 Nxe3
+8. fxe3 Bd7 9. O-O e6 10. Bxc6 bxc6 11. Qf3 Qf6 12. Qe2 Qg5 13. Rf3 Be7 14.
+Rg3 Qe5 15. Qa6 O-O 16. Qb7 Rfd8 17. Nxc6 Bxc6 18. Qxe7 Rd7 19. Qg5 Rb8 20.
+Qxe5 dxe5 21. b3 Rc8 22. Rc1 Bb7 23. Nb1 Bxe4 24. c4 f5 25. Nc3 Bb7 26. Rc2
+e4 27. Nb5 a6 28. Nd4 f4 0-1
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.09"]
+[Round "3"]
+[White "Claesen,P"]
+[Black "Chuchelov,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2411"]
+[BlackElo "2607"]
+[EventDate "2001.07.07"]
+[ECO "B51"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O Ngf6 5. Nc3 a6 6. Bxd7+ Bxd7 7. d4
+cxd4 8. Qxd4 e5 9. Qd3 h6 10. a4 Rc8 11. b3 Qc7 12. Bb2 Be7 13. Rac1 O-O
+14. Nd2 Be6 15. Nd5 Nxd5 16. exd5 Bd7 17. f4 f5 18. Qg3 Bf6 19. fxe5 Bxe5
+20. Bxe5 dxe5 21. Nc4 f4 22. Qf2 e4 23. Qd4 Rce8 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.09"]
+[Round "3"]
+[White "Winants,L"]
+[Black "Cekro,E"]
+[Result "1-0"]
+[WhiteElo "2497"]
+[BlackElo "2393"]
+[EventDate "2001.07.07"]
+[ECO "D60"]
+
+1. d4 Nf6 2. Bg5 d5 3. e3 Nbd7 4. Nf3 h6 5. Bh4 e6 6. c4 Be7 7. Nc3 O-O 8.
+Bd3 c5 9. O-O cxd4 10. exd4 dxc4 11. Bxc4 Nb6 12. Bb3 Bd7 13. Qd3 Bc6 14.
+Bc2 Nbd7 15. Rad1 Re8 16. Rfe1 Nf8 17. Ne5 Qa5 18. Bg3 Red8 19. Bf4 Be8 20.
+Qe3 N6h7 21. Be4 f6 22. Nf3 Rd7 23. Bc2 Bf7 24. Bb3 b5 25. Bg3 Bb4 26. Rc1
+Rad8 27. Red1 Bxc3 28. bxc3 Qb6 29. h4 Ng6 30. a4 a6 31. Rb1 Qc6 32. Rdc1
+Ne7 33. Qe2 Nf5 34. Bf4 Nf8 35. axb5 axb5 36. Bc2 Rb7 37. Be4 Rd5 38. Qb2
+Ng6 39. Bh2 Qc4 40. Bxd5 exd5 41. Qa3 Kh7 42. Bg3 Qd3 43. Qb3 Qe4 44. Nh2
+Qg4 45. Qc2 Ngxh4 46. Qd2 Qd1+ 47. Qxd1 Bg6 48. Qh5 Bxh5 49. Bxh4 Nxh4 50.
+Nf1 Nf5 51. Re1 Bg6 52. Rb3 Ne7 53. Ne3 Bd3 54. Ra3 Rd7 55. Rea1 Nf5 56.
+Nxf5 Bxf5 57. R3a2 Re7 58. Ra7 Rxa7 59. Rxa7 h5 60. g3 Kh6 61. Ra8 Bd3 62.
+Rh8+ Kg5 63. f3 g6 64. Kf2 Bc4 65. Rf8 Bb3 66. Rb8 Bc4 67. Rb6 Bd3 68. Re6
+Kf5 69. Re1 Kg5 70. Rh1 Bc4 71. Ke3 Kf5 72. Rh2 Bb3 73. Kd2 Kg5 74. Rg2 Kf5
+75. Rf2 Kg5 76. Rh2 Bc4 77. Rh1 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.10"]
+[Round "4"]
+[White "Gurevich,M"]
+[Black "Cekro,E"]
+[Result "1-0"]
+[WhiteElo "2633"]
+[BlackElo "2393"]
+[EventDate "2001.07.07"]
+[ECO "E32"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 b6 5. a3 Bxc3+ 6. Qxc3 Bb7 7. Bg5 c5
+8. dxc5 bxc5 9. e3 a5 10. f3 d6 11. Nh3 Nbd7 12. Be2 h6 13. Bf4 Qc7 14. Rd1
+Ra6 15. Bg3 a4 16. Rd2 O-O 17. O-O Rb8 18. Rfd1 e5 19. Rc1 Bc8 20. Bd1 Nf8
+21. Nf2 Nh5 22. Bc2 f5 23. Re1 Qf7 24. Red1 Rbb6 25. Nd3 Nxg3 26. hxg3 Be6
+27. Nf2 Nd7 28. f4 e4 29. g4 Nf6 30. gxf5 Bxf5 31. Rb1 Qb7 32. Bd1 h5 33.
+Nh3 Bxh3 34. gxh3 Ra8 35. Kh2 Kf8 36. Bc2 Qe7 37. Rg1 Rb7 38. Rg5 Qc7 39.
+Rf5 Qe7 40. Rg2 Qe6 41. Rfg5 Rf7 42. Bd1 Rb7 43. Bxh5 Nxh5 44. Qc1 Rb3 45.
+Rxh5 Ra7 46. Rh8+ Kf7 47. Rh5 Kg8 48. Qd1 Kf7 49. Rh8 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.10"]
+[Round "4"]
+[White "Chuchelov,V"]
+[Black "Winants,L"]
+[Result "1-0"]
+[WhiteElo "2607"]
+[BlackElo "2497"]
+[EventDate "2001.07.07"]
+[ECO "D85"]
+
+1. Nf3 c5 2. c4 Nf6 3. Nc3 d5 4. cxd5 Nxd5 5. d4 Nxc3 6. bxc3 g6 7. e4 Bg7
+8. Rb1 O-O 9. Qd2 Bg4 10. d5 e6 11. dxe6 Bxe6 12. Rxb7 Qa5 13. Rb5 Qxc3 14.
+Qxc3 Bxc3+ 15. Bd2 Bxd2+ 16. Kxd2 Bxa2 17. Rxc5 Be6 18. Ng5 Bd7 19. Bc4 a5
+20. Rb1 Nc6 21. Rb7 Be8 22. Bxf7+ Bxf7 23. Rxc6 Rab8 24. Rxb8 Rxb8 25. Ra6
+Rb5 26. Nxf7 Kxf7 27. Ke3 Rb3+ 28. Kf4 Rb2 29. Ra7+ Ke6 30. Ra6+ Kf7 31.
+Kg3 Ra2 32. Ra7+ Ke6 33. Rxh7 Ke5 34. Rg7 Kf6 35. Ra7 Ke5 36. Rg7 Kf6 37.
+Ra7 Ke5 38. f3 a4 39. h4 a3 40. Ra6 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.10"]
+[Round "4"]
+[White "Dgebuadze,A"]
+[Black "Claesen,P"]
+[Result "1-0"]
+[WhiteElo "2547"]
+[BlackElo "2411"]
+[EventDate "2001.07.07"]
+[ECO "B07"]
+
+1. e4 c6 2. d4 g6 3. Nf3 Bg7 4. c3 d6 5. Bd3 Nf6 6. O-O O-O 7. Re1 Qc7 8.
+a4 e5 9. Nbd2 Nbd7 10. h3 a5 11. Bf1 d5 12. dxe5 Nxe4 13. Nxe4 dxe4 14.
+Rxe4 Nxe5 15. Nxe5 Bxe5 16. Qe2 Bf6 17. Bd2 Qb6 18. Bh6 Bf5 19. Re7 Be6 20.
+Bxf8 Rxf8 21. Rxe6 fxe6 22. Rd1 Bh4 23. Qxe6+ Kg7 24. Rd7+ Kh6 25. Qe5 Qc5
+26. Qe3+ Qxe3 27. fxe3 Bf2+ 28. Kh1 Bg3 29. Kg1 Bf2+ 30. Kh2 Bxe3 31. Bc4
+b6 32. Bf7 Bc1 33. g3 Kg5 34. h4+ Kf6 35. Bc4 Bxb2 36. Rd6+ Ke7 37. Rxc6
+Bxc3 38. Rc7+ Kf6 39. Rxh7 Bd4 40. Kh3 Bc5 41. Kg4 Rd8 42. Rf7+ Ke5 43. Kg5
+Rd6 44. Kh6 Be3+ 45. Kh7 g5 46. Re7+ Kd4 47. Rxe3 Rd7+ 48. Kh6 gxh4 49.
+Rd3+ Kxc4 50. Rxd7 hxg3 51. Rg7 Kb3 52. Rg4 g2 53. Kg5 g1=Q 54. Rxg1 Kxa4
+1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.10"]
+[Round "4"]
+[White "Claesen,J"]
+[Black "Meessen,R"]
+[Result "1-0"]
+[WhiteElo "2273"]
+[BlackElo "2323"]
+[EventDate "2001.07.07"]
+[ECO "A85"]
+
+1. d4 e6 2. Nf3 f5 3. c4 Nf6 4. Nc3 Bb4 5. Qb3 a5 6. Bg5 b6 7. O-O-O Na6 8.
+g4 fxg4 9. Ne5 Bb7 10. Rg1 Bxc3 11. bxc3 Qe7 12. Bg2 a4 13. Qb2 Qd6 14.
+Bxb7 Ra7 15. Bh1 O-O 16. Bxf6 Rxf6 17. Nxg4 Rf8 18. e3 c5 19. Be4 cxd4 20.
+Rxd4 Qc5 21. f4 Nc7 22. Qb4 d5 23. cxd5 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.10"]
+[Round "4"]
+[White "Dutreeuw,M"]
+[Black "Van Mechelen,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2390"]
+[BlackElo "2260"]
+[EventDate "2001.07.07"]
+[ECO "C18"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 O-O 8.
+Bd3 Nbc6 9. Qh5 Ng6 10. Nf3 Qc7 11. Be3 c4 12. Bxg6 fxg6 13. Qg4 Bd7 14. h4
+Rf5 15. Ng5 Raf8 16. h5 Qa5 17. Bd2 Rxg5 18. Qxg5 Rf5 19. Qg3 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.11"]
+[Round "5"]
+[White "Van Mechelen,J"]
+[Black "Gurevich,M"]
+[Result "0-1"]
+[WhiteElo "2260"]
+[BlackElo "2633"]
+[EventDate "2001.07.07"]
+[ECO "A20"]
+
+1. c4 Nf6 2. g3 e5 3. Bg2 d5 4. cxd5 Nxd5 5. Nf3 Nc6 6. O-O Nb6 7. d3 Be7
+8. Nbd2 Be6 9. a3 a5 10. b3 O-O 11. Bb2 f6 12. Qc2 Qd7 13. e3 Bf5 14. Ne4
+Rfd8 15. d4 exd4 16. Nxd4 Nxd4 17. Bxd4 Nd5 18. Qb2 Bh3 19. Bxh3 Qxh3 20.
+Rac1 Qe6 21. Nd2 Bd6 22. Rfe1 Ne7 23. Nc4 Nc6 24. Nxd6 Rxd6 25. Bc3 Rad8
+26. Qc2 h5 27. h4 b6 28. Red1 Ne7 29. b4 axb4 30. axb4 Kf7 31. Rxd6 Rxd6
+32. Qe2 Qg4 33. Kf1 Rc6 34. e4 Re6 35. Bd2 c6 36. Qxg4 hxg4 37. Be3 b5 38.
+Bc5 Ng6 39. Re1 Ne5 40. Re3 Nc4 41. e5 Rxe5 42. Re2 Re4 43. Rxe4 Nd2+ 44.
+Ke2 Nxe4 45. Bd4 Ke6 46. Kd3 c5 47. bxc5 Kd5 48. Be3 Nxc5+ 49. Kc3 Na6 50.
+Kb3 Ke4 51. Kc3 Nb4 52. Bc5 Nd5+ 53. Kb3 g6 0-1
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.11"]
+[Round "5"]
+[White "Meessen,R"]
+[Black "Dutreeuw,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2323"]
+[BlackElo "2390"]
+[EventDate "2001.07.07"]
+[ECO "D35"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 Bf5 7. Qb3 Nc6
+8. Qxb7 Nb4 9. Bb5+ Kf8 10. Kd2 Bd6 11. Bxd6+ cxd6 12. Be8 Kxe8 13. Qxb4
+Rb8 14. Qa3 Qb6 15. b3 a5 16. f3 Qb4 17. Qxb4 axb4 18. Na4 Ke7 19. Ne2 Rhc8
+20. Rhc1 g5 21. Nb2 Kd7 22. Rxc8 Rxc8 23. Nd3 Bxd3 24. Kxd3 Ra8 25. Kd2 Ng8
+26. Nc1 Ne7 27. Nd3 Nc6 28. Ne1 f5 29. Nc2 Na5 30. Kd3 Nc6 31. a3 bxa3 32.
+Rxa3 Rb8 33. g3 h5 34. Ne1 g4 35. Kc3 Rc8 36. fxg4 hxg4 37. Nd3 Ne5+ 38.
+Kd2 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.11"]
+[Round "5"]
+[White "Claesen,P"]
+[Black "Claesen,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2411"]
+[BlackElo "2273"]
+[EventDate "2001.07.07"]
+[ECO "B01"]
+
+1. e4 d5 2. exd5 Nf6 3. c4 e6 4. dxe6 Bxe6 5. d4 Bb4+ 6. Bd2 Bxd2+ 7. Qxd2
+Qe7 8. Qe3 Nc6 9. Nf3 Ng4 10. Qe2 O-O-O 11. d5 Rhe8 12. Nc3 Bxd5 13. cxd5
+Qb4 14. O-O-O Rxe2 15. Bxe2 Nxf2 16. dxc6 Rxd1+ 17. Rxd1 Nxd1 18. cxb7+
+Kxb7 19. Bxd1 Qf4+ 20. Kc2 Qe3 21. Nd2 c6 22. Bf3 g5 23. h3 f5 24. b4 g4
+25. hxg4 fxg4 26. Be4 a6 27. a4 Ka7 28. Bxh7 Qe7 29. Be4 Qxb4 30. Bxc6 Qd4
+31. Be4 Qd3+ 32. Kxd3 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.11"]
+[Round "5"]
+[White "Winants,L"]
+[Black "Dgebuadze,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2497"]
+[BlackElo "2547"]
+[EventDate "2001.07.07"]
+[ECO "A46"]
+
+1. d4 Nf6 2. Bg5 e6 3. e3 h6 4. Bh4 c5 5. Nf3 b6 6. c4 Bb7 7. Nc3 Be7 8.
+Bd3 cxd4 9. exd4 Bxf3 10. Qxf3 Nc6 11. O-O Nxd4 12. Qh3 Nc6 13. Rad1 Rc8
+14. Bb1 Ne5 15. b3 Ng6 16. Bxg6 fxg6 17. Qg3 O-O 18. Qxg6 a6 19. Qd3 Qc7
+20. Ne4 Nxe4 21. Bxe7 Rf7 22. Ba3 Qb7 23. f3 Nf6 24. Bd6 b5 25. Rc1 Qb6+
+26. Kh1 bxc4 27. bxc4 Qc6 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.11"]
+[Round "5"]
+[White "Cekro,E"]
+[Black "Chuchelov,V"]
+[Result "1-0"]
+[WhiteElo "2393"]
+[BlackElo "2607"]
+[EventDate "2001.07.07"]
+[ECO "A12"]
+
+1. c4 Nf6 2. g3 c6 3. b3 d5 4. Bh3 Bd7 5. Bb2 Bg4 6. Bg2 Nbd7 7. Nf3 e6 8.
+O-O Bd6 9. d3 O-O 10. Nbd2 a5 11. a3 Re8 12. Qc2 e5 13. h3 Bh5 14. e4 dxe4
+15. dxe4 Bc5 16. Nh4 Qb6 17. Ndf3 Bf8 18. Rab1 Qc7 19. Rfe1 Nc5 20. Bc3
+Nfd7 21. b4 axb4 22. axb4 Ne6 23. c5 f6 24. Red1 b6 25. cxb6 Nxb6 26. Rdc1
+Bf7 27. Bf1 Rec8 28. Bd2 c5 29. Be3 Qd8 30. Qd2 Nd4 31. bxc5 Bxc5 32. Rxc5
+Rxc5 33. Nxd4 Nc4 34. Qb4 Rcc8 35. Ndf5 Rcb8 36. Qe1 Rxb1 37. Qxb1 Nxe3 38.
+Nxe3 Rc8 39. Nf3 Be6 40. Qe1 Kh8 41. Qb4 Rc5 42. Qc4 Rc8 43. Qb4 Rb8 44.
+Qe1 Qc7 45. Bg2 Qc5 46. Nh2 Qb6 47. Nhf1 Ra8 48. Nd5 Qb2 49. Qe3 Rc8 50.
+Qf3 Qd4 51. Kh2 Qd3 52. Nfe3 Qa3 53. h4 Rb8 54. g4 Rf8 55. Qe2 Qa7 56. Qd2
+Rb8 57. Bf3 Qa3 58. Kg3 Qa1 59. Bg2 Qf1 60. Qc3 Qa1 61. Bf1 Qxc3 62. Nxc3
+h6 63. Ncd5 Rb1 64. Bh3 Rb2 65. f3 Bf7 66. g5 hxg5 67. hxg5 fxg5 68. Nc4
+Re2 69. Bf1 Re1 70. Kf2 Ra1 71. Nde3 Be6 72. Nxe5 Kg8 73. Bc4 Bxc4 74.
+N3xc4 Kh7 75. Ng4 Kg6 76. Nd6 Ra2+ 77. Kg3 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.12"]
+[Round "6"]
+[White "Gurevich,M"]
+[Black "Chuchelov,V"]
+[Result "1-0"]
+[WhiteElo "2633"]
+[BlackElo "2607"]
+[EventDate "2001.07.07"]
+[ECO "E12"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. a3 Ba6 5. Qb3 c6 6. Bg5 Be7 7. Nc3 d5 8.
+cxd5 Nxd5 9. Bxe7 Qxe7 10. e4 Nxc3 11. Qxc3 Bb7 12. Bc4 O-O 13. O-O Nd7 14.
+Rfe1 Rfc8 15. Rad1 a6 16. Ba2 h6 17. Nd2 c5 18. d5 e5 19. Nc4 b5 20. Ne3 c4
+21. Nf5 Qf6 22. Re3 Kh7 23. Rf3 Qb6 24. Nxh6 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.12"]
+[Round "6"]
+[White "Dgebuadze,A"]
+[Black "Cekro,E"]
+[Result "1-0"]
+[WhiteElo "2547"]
+[BlackElo "2393"]
+[EventDate "2001.07.07"]
+[ECO "E32"]
+
+1. d4 Nf6 2. c4 b6 3. Nc3 Bb7 4. Qc2 e6 5. e4 Bb4 6. Bd3 Bxc3+ 7. bxc3 d6
+8. f4 Nc6 9. Nf3 Nd7 10. O-O Qe7 11. Ba3 Na5 12. Bb4 Nc6 13. Rab1 Nd8 14.
+Ba3 c5 15. e5 f5 16. exf6 gxf6 17. d5 e5 18. fxe5 Nxe5 19. Nxe5 dxe5 20.
+Rbe1 Bc8 21. Bc1 Kd7 22. Qf2 Rf8 23. Bg5 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.12"]
+[Round "6"]
+[White "Claesen,J"]
+[Black "Winants,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2273"]
+[BlackElo "2497"]
+[EventDate "2001.07.07"]
+[ECO "C44"]
+
+1. e4 e5 2. Nf3 Nc6 3. c3 Nf6 4. d4 Nxe4 5. d5 Ne7 6. Nxe5 Ng6 7. Nc4 Bc5
+8. Be3 d6 9. Nbd2 Nf6 10. Nb3 Bxe3 11. Nxe3 O-O 12. Be2 Bd7 13. Qd4 a5 14.
+O-O-O a4 15. Nd2 a3 16. b3 Re8 17. g4 c5 18. dxc6 Bxc6 19. Rhe1 Nf8 20. Nf5
+Ne6 21. Qxd6 Qa5 22. b4 Qa7 23. Bc4 Rad8 24. Ne7+ Kh8 25. Nxc6 bxc6 26. Qg3
+Nd5 27. Ne4 Qe7 28. g5 Qf8 29. h4 Nef4 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.12"]
+[Round "6"]
+[White "Dutreeuw,M"]
+[Black "Claesen,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2390"]
+[BlackElo "2411"]
+[EventDate "2001.07.07"]
+[ECO "C18"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Nc6 7. Nf3 Qa5 8.
+Bd2 Qa4 9. Qb1 c4 10. g3 Bd7 11. Bg2 O-O-O 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.12"]
+[Round "6"]
+[White "Van Mechelen,J"]
+[Black "Meessen,R"]
+[Result "0-1"]
+[WhiteElo "2260"]
+[BlackElo "2323"]
+[EventDate "2001.07.07"]
+[ECO "C17"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. dxc5 Ne7 6. Nf3 Nbc6 7. Bd3 d4 8.
+a3 Ba5 9. b4 Nxb4 10. axb4 Bxb4 11. O-O Bxc3 12. Rb1 h6 13. Nd2 Bxd2 14.
+Bxd2 Bd7 15. Rxb7 Bc6 16. Rb4 a5 17. Rb6 Qd5 18. Qg4 Qxe5 19. Rfb1 h5 20.
+Qh4 f6 21. Bxa5 Qxc5 22. Rxc6 Nxc6 23. Qe4 Rxa5 24. Qxe6+ Kd8 25. Bf5 Qxf5
+26. Qxc6 Qd7 0-1
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.13"]
+[Round "7"]
+[White "Meessen,R"]
+[Black "Gurevich,M"]
+[Result "0-1"]
+[WhiteElo "2323"]
+[BlackElo "2633"]
+[EventDate "2001.07.07"]
+[ECO "C02"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Be2 Nge7 7. O-O Ng6 8.
+g3 f6 9. Bd3 cxd4 10. cxd4 Nb4 11. Be2 fxe5 12. Nxe5 Nxe5 13. dxe5 Bc5 14.
+a3 Nc6 15. Bh5+ g6 16. Bh6 Qe7 17. Qc1 gxh5 18. Bf8 Qf7 19. Bg7 Nd4 20. Bh6
+Qf8 21. Bxf8 Ne2+ 22. Kg2 Nxc1 23. Bg7 Nb3 24. Bxh8 Nxa1 25. Nc3 Nb3 26.
+Nb1 Na1 27. Nd2 Nc2 28. Rc1 Ne3+ 29. fxe3 Bxe3 30. Rc2 Rc8 31. Rxc8+ Bxc8
+32. Nf1 Bc1 0-1
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.13"]
+[Round "7"]
+[White "Claesen,P"]
+[Black "Van Mechelen,J"]
+[Result "1-0"]
+[WhiteElo "2411"]
+[BlackElo "2260"]
+[EventDate "2001.07.07"]
+[ECO "A30"]
+
+1. c4 e6 2. Nf3 Nf6 3. g3 b6 4. Bg2 c5 5. O-O Bb7 6. d4 cxd4 7. Qxd4 d6 8.
+Nc3 a6 9. Bg5 Be7 10. Rfd1 Nbd7 11. Bf4 O-O 12. Qd2 Ne8 13. e4 Qc7 14. Rac1
+Ne5 15. Bxe5 dxe5 16. Qd7 Bf6 17. Qxc7 Nxc7 18. Na4 Bxe4 19. Nxb6 Rad8 20.
+Nd7 Bxf3 21. Bxf3 Rfe8 22. Nxf6+ gxf6 23. Bc6 Rf8 24. Rxd8 Re8 25. Rc8 Rf8
+26. Rd8 Rxd8 27. b4 Kf8 28. a4 Ke7 29. b5 a5 30. c5 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.13"]
+[Round "7"]
+[White "Winants,L"]
+[Black "Dutreeuw,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2497"]
+[BlackElo "2390"]
+[EventDate "2001.07.07"]
+[ECO "C59"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6
+bxc6 8. Be2 h6 9. Nf3 Bd6 10. d3 O-O 11. O-O Re8 12. Nc3 Nd5 13. Ne4 Bc7
+14. c4 Ne7 15. Nc5 Nb7 16. Na6 Nd6 17. c5 Bb8 18. cxd6 Bxd6 19. Nc5 Bxc5
+20. Nxe5 Bd4 21. Nc4 Nd5 22. Bg4 Bd7 23. Bf5 Be6 24. Be4 Bg4 25. Bf5 Bf3
+26. Be4 Bxe4 27. dxe4 Rxe4 28. Qd3 Nf6 29. Be3 Bxe3 30. Qxd8+ Rxd8 31. Nxe3
+Rd2 32. b3 Nd5 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.13"]
+[Round "7"]
+[White "Cekro,E"]
+[Black "Claesen,J"]
+[Result "1-0"]
+[WhiteElo "2393"]
+[BlackElo "2273"]
+[EventDate "2001.07.07"]
+[ECO "A86"]
+
+1. c4 f5 2. Nc3 Nf6 3. d4 g6 4. g3 Bg7 5. Bg2 d6 6. d5 e5 7. dxe6 Nc6 8. b3
+Bxe6 9. Nh3 Ne4 10. Nxe4 fxe4 11. Rb1 Bf5 12. O-O Qe7 13. Nf4 O-O-O 14. b4
+Ne5 15. Qa4 Kb8 16. Be3 b6 17. Nd5 Qd7 18. b5 h5 19. Nb4 h4 20. Bf4 a5 21.
+Nc6+ Nxc6 22. bxc6 Qe8 23. c5 e3 24. cxb6 exf2+ 25. Kxf2 hxg3+ 26. hxg3
+Bxb1 27. bxc7+ Kc8 28. Rxb1 g5 29. Rb8+ Kxc7 30. Qxa5+ 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.13"]
+[Round "7"]
+[White "Chuchelov,V"]
+[Black "Dgebuadze,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2607"]
+[BlackElo "2547"]
+[EventDate "2001.07.07"]
+[ECO "A00"]
+
+1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.14"]
+[Round "8"]
+[White "Gurevich,M"]
+[Black "Dgebuadze,A"]
+[Result "1-0"]
+[WhiteElo "2633"]
+[BlackElo "2547"]
+[EventDate "2001.07.07"]
+[ECO "E14"]
+
+1. d4 e6 2. c4 Nf6 3. Nf3 Bb4+ 4. Nbd2 b6 5. a3 Bxd2+ 6. Qxd2 Bb7 7. e3 d6
+8. Be2 Nbd7 9. O-O h6 10. b4 a5 11. Bb2 O-O 12. Qc2 Qe7 13. Nd2 c5 14. dxc5
+dxc5 15. b5 e5 16. f3 Rfd8 17. Rfd1 Nf8 18. Nf1 Ng6 19. Ng3 Rxd1+ 20. Rxd1
+Rd8 21. Nf5 Qc7 22. Re1 Qd7 23. Bc3 Qe6 24. Ng3 h5 25. Rd1 Rxd1+ 26. Qxd1
+h4 27. Qd8+ Kh7 28. Nf1 h3 29. g3 Qf5 30. e4 Bxe4 31. fxe4 Qxe4 32. Kf2
+Qf5+ 33. Ke1 Ne4 34. Qd3 Qf2+ 35. Kd1 Nxc3+ 36. Qxc3 e4 37. Qe3 Qf6 38. Ke1
+Qa1+ 39. Kf2 f5 40. Qg5 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.14"]
+[Round "8"]
+[White "Claesen,J"]
+[Black "Chuchelov,V"]
+[Result "0-1"]
+[WhiteElo "2273"]
+[BlackElo "2607"]
+[EventDate "2001.07.07"]
+[ECO "B22"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nf6 5. Na3 a6 6. Nf3 Bg4 7. Be2 e6 8.
+Nc4 Bxf3 9. gxf3 Nbd7 10. Be3 Qc6 11. Qc2 Be7 12. Rg1 g6 13. O-O-O Qc7 14.
+Ne5 cxd4 15. Nxd7 dxe3 16. Nxf6+ Bxf6 17. fxe3 O-O 18. f4 Rfc8 19. Rgf1 b5
+20. e4 b4 21. c4 a5 22. h4 Be7 23. e5 a4 24. Qe4 Bxh4 25. Rh1 Be7 26. Rh3
+Bf8 27. Rdh1 h6 28. Bd3 Bg7 29. Qg2 Rd8 30. Rxh6 Rac8 31. Bxg6 fxg6 32.
+Qxg6 Qxc4+ 33. Kb1 Qd3+ 34. Qxd3 Rxd3 35. Rxe6 Rd2 36. Rg1 Rcc2 37. Reg6
+Rxb2+ 38. Kc1 Rbc2+ 39. Kb1 Rb2+ 40. Kc1 Rdc2+ 41. Kd1 Rc7 42. f5 Rb1+ 43.
+Kd2 Rxg1 44. Rxg1 Kf7 45. Re1 Rc5 46. f6 Bh6+ 47. Kd3 Ke6 48. Kd4 Bf8 49.
+f7 Rd5+ 0-1
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.14"]
+[Round "8"]
+[White "Dutreeuw,M"]
+[Black "Cekro,E"]
+[Result "1/2-1/2"]
+[WhiteElo "2390"]
+[BlackElo "2393"]
+[EventDate "2001.07.07"]
+[ECO "B07"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 Bg7 5. Qd2 c6 6. h3 Nbd7 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.14"]
+[Round "8"]
+[White "Van Mechelen,J"]
+[Black "Winants,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2260"]
+[BlackElo "2497"]
+[EventDate "2001.07.07"]
+[ECO "C54"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. Bb3 a6 7. Nbd2 O-O 8.
+O-O Ba7 9. Re1 Ng4 10. Re2 Kh8 11. h3 Nh6 12. Nc4 f5 13. Bxh6 gxh6 14. exf5
+Bxf5 15. Rd2 Qf6 16. Nh2 Ne7 17. Ne3 Bd7 18. Qh5 Qg5 19. Qxg5 hxg5 20. Nd5
+Nxd5 21. Bxd5 c6 22. Bf3 Bf5 23. Re1 Kg7 24. Bh5 Kh6 25. Nf3 Bg6 26. Bg4
+Rae8 27. g3 Bf7 28. h4 gxh4 29. Nxh4 Kg5 30. Bd1 Bd5 31. Bc2 Bc4 32. Bb3
+Bxb3 33. axb3 Rf7 34. d4 Ref8 35. Kg2 Kh6 36. Rh1 Kg7 37. f3 exd4 38. cxd4
+h5 39. Re1 Bb6 40. Re6 Rf6 41. Re5 R8f7 42. Re8 Rd7 43. g4 hxg4 44. fxg4
+Kf7 45. Rh8 Kg7 46. Re8 Kf7 47. Rh8 Kg7 48. Re8 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.14"]
+[Round "8"]
+[White "Meessen,R"]
+[Black "Claesen,P"]
+[Result "1-0"]
+[WhiteElo "2323"]
+[BlackElo "2411"]
+[EventDate "2001.07.07"]
+[ECO "A57"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. f3 axb5 6. e4 Qa5+ 7. Bd2 b4 8.
+Na3 d6 9. Nc4 Qd8 10. a3 e6 11. Ne3 exd5 12. exd5 Qe7 13. axb4 Rxa1 14.
+Qxa1 Qb7 15. Bc4 Be7 16. Ne2 O-O 17. bxc5 dxc5 18. O-O Bd6 19. Ng3 Bf4 20.
+Re1 Nbd7 21. b3 Qc7 22. Qc1 Nb6 23. Nef5 Nfxd5 24. Bxf4 Nxf4 25. Re7 Qb8
+26. Bxf7+ Rxf7 27. Re8+ Rf8 28. Qc3 Bxf5 29. Rxb8 Rxb8 30. Qe5 Rd8 31. Qxf4
+Bg6 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.15"]
+[Round "9"]
+[White "Claesen,P"]
+[Black "Gurevich,M"]
+[Result "0-1"]
+[WhiteElo "2411"]
+[BlackElo "2633"]
+[EventDate "2001.07.07"]
+[ECO "A85"]
+
+1. c4 f5 2. d4 Nf6 3. Nc3 d6 4. Bg5 Nbd7 5. Qc2 g6 6. e4 fxe4 7. Nxe4 Bg7
+8. Ng3 c5 9. h4 cxd4 10. O-O-O Qa5 11. Rxd4 Qxa2 12. Rd3 Qa1+ 13. Kd2 Ng4
+14. Be2 Nxf2 15. Re3 Qa5+ 16. Kc1 Ne5 0-1
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.15"]
+[Round "9"]
+[White "Cekro,E"]
+[Black "Van Mechelen,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2393"]
+[BlackElo "2260"]
+[EventDate "2001.07.07"]
+[ECO "A21"]
+
+1. c4 g6 2. g3 Bg7 3. Bg2 d6 4. Nc3 e5 5. e3 f5 6. Nge2 Nf6 7. f4 e4 8. d3
+exd3 9. Qxd3 Na6 10. O-O 1/2-1/2
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.15"]
+[Round "9"]
+[White "Chuchelov,V"]
+[Black "Dutreeuw,M"]
+[Result "1-0"]
+[WhiteElo "2607"]
+[BlackElo "2390"]
+[EventDate "2001.07.07"]
+[ECO "D37"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Be7 5. Qc2 Na6 6. a3 c5 7. e3 O-O 8. b3
+b6 9. cxd5 Nxd5 10. Nxd5 Qxd5 11. Bd3 f5 12. O-O Bb7 13. Be2 Qc4 14. Bd3
+Qa4 15. Bc4 Qc6 16. Qe2 Nc7 17. Bb2 Qe4 18. dxc5 bxc5 19. Rfd1 Bf6 20. Rac1
+Rfd8 21. Bxf6 gxf6 22. Bb5 Qd3 23. b4 Qd5 24. Rxc5 Qb3 25. Bd3 Bxf3 26.
+gxf3 Nd5 27. Bc4 Nxb4 28. axb4 Qa3 29. Bd5 Rxd5 30. Rcxd5 exd5 31. Qb5 Rd8
+32. Rxd5 Rxd5 33. Qxd5+ Kg7 34. b5 Qc1+ 35. Kg2 Qb1 36. Qb7+ Kg6 37. e4 f4
+38. Qd7 Qb2 39. h4 Qe5 40. Kh3 f5 41. h5+ Kxh5 42. Qxh7+ Kg5 43. Qxf5+
+Qxf5+ 44. exf5 Kxf5 45. Kh4 Ke6 46. Kg4 Ke5 47. Kg5 Kd5 48. Kxf4 Kc5 49.
+Ke5 Kxb5 50. f4 a5 51. f5 a4 52. f6 a3 53. f7 a2 54. f8=Q a1=Q+ 55. Kf5
+Qe5+ 56. Kg6 Ka4 57. f4 Qe4+ 58. Qf5 Qg2+ 59. Kf7 Qb7+ 60. Kf6 Qc6+ 61. Qe6
+Qc3+ 62. Qe5 Qc6+ 63. Ke7 Qg6 64. f5 Qh7+ 65. Kd8 Qh4+ 66. f6 Qb4 67. f7
+Qb6+ 68. Ke7 Qc6 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.15"]
+[Round "9"]
+[White "Dgebuadze,A"]
+[Black "Claesen,J"]
+[Result "1-0"]
+[WhiteElo "2547"]
+[BlackElo "2273"]
+[EventDate "2001.07.07"]
+[ECO "B08"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 Bg7 5. Nf3 O-O 6. Qd2 e5 7. dxe5 dxe5
+8. O-O-O Qe7 9. h4 c6 10. Bg5 Bg4 11. h5 Nbd7 12. hxg6 fxg6 13. Bc4+ Be6
+14. Qxd7 Qxd7 15. Rxd7 Bxc4 16. Rxg7+ Kxg7 17. Bh6+ Kg8 18. Bxf8 Rxf8 19.
+Nxe5 Be6 20. f3 Kg7 21. Kd2 g5 22. g3 h5 23. Ke3 Rh8 24. f4 Ng4+ 25. Nxg4
+Bxg4 26. Nd1 Kg6 27. f5+ Kf6 28. Nf2 Rd8 29. Nxg4+ hxg4 30. Rh6+ Kf7 31.
+Rg6 Rd1 32. Rxg5 Re1+ 33. Kf4 Re2 34. e5 Rxc2 35. e6+ Kf6 36. Rg6+ Ke7 37.
+Rg7+ Kf8 38. Rxb7 1-0
+
+[Event "ch-BEL"]
+[Site "Charleroi BEL"]
+[Date "2001.07.15"]
+[Round "9"]
+[White "Winants,L"]
+[Black "Meessen,R"]
+[Result "1-0"]
+[WhiteElo "2497"]
+[BlackElo "2323"]
+[EventDate "2001.07.07"]
+[ECO "D77"]
+
+1. g3 g6 2. Bg2 Bg7 3. d4 d5 4. Nf3 Nf6 5. c4 dxc4 6. O-O O-O 7. Na3 Nc6 8.
+Nxc4 Be6 9. b3 a5 10. Bb2 Bd5 11. Ne3 Be4 12. a3 Qc8 13. Nc4 Rd8 14. e3 Bd5
+15. Qe2 Ne4 16. Rac1 f5 17. Rfd1 Qe6 18. Ne1 g5 19. a4 b6 20. Nd3 Rd7 21.
+Re1 Re8 22. f3 Nd6 23. Qc2 Qg6 24. Kh1 Nf7 25. Nd2 Nb4 26. Nxb4 axb4 27. e4
+fxe4 28. fxe4 Bb7 29. d5 Bxb2 30. Qxb2 e6 31. Nc4 Red8 32. Qd2 Qg7 33. Ne3
+Ne5 34. Red1 g4 35. Qxb4 Qg5 36. Qc3 c6 37. Rf1 cxd5 38. exd5 Nf3 39. Nxg4
+Qxg4 40. Qxf3 Qxf3 41. Bxf3 Bxd5 42. Bxd5 Rxd5 43. Rc6 Rd2 44. Rxb6 Re2 45.
+Rb4 h6 46. Rh4 Ra2 47. Rb1 Rdd2 48. b4 Rxa4 49. Rxh6 Kg7 50. Rh4 Raa2 51.
+b5 e5 52. b6 Re2 53. Rb2 Rf2 54. Rxa2 Rg2 55. Rb2 Rxb2 56. Rh5 Rb5 57. Kg2
+Kf6 58. Rh8 Kf5 59. Rb8 Ke4 60. b7 Rb3 61. h4 Rb2+ 62. Kh3 Rb1 63. h5 Rb4
+64. h6 Rb6 65. Kg4 1-0
+

@@ -1,0 +1,150 @@
+[Event "Navara-Laznicka Match"]
+[Site "Novy Bor CZE"]
+[Date "2011.08.02"]
+[Round "1"]
+[White "Laznicka, Viktor"]
+[Black "Navara, David"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2681"]
+[BlackElo "2722"]
+[ECO "D86"]
+[Opening "Gruenfeld"]
+[Variation "exchange, classical variation"]
+[WhiteFideId "316385"]
+[BlackFideId "309095"]
+[EventDate "2011.08.02"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.
+Ne2 Nc6 9. Be3 O-O 10. O-O e6 11. dxc5 Qa5 12. f4 Rd8 13. Qe1 Qa4 14. Bb3 Qxe4
+15. Ng3 Qd3 16. Rd1 Qxc3 17. Rxd8+ Nxd8 18. Qxc3 Bxc3 19. Ne4 Bg7 20. Rd1 Nc6
+21. Ba4 Kf8 22. Bf2 Ke7 23. Rd6 Rb8 24. Bh4+ f6 25. g4 h6 26. g5 hxg5 27. fxg5
+f5 28. Nf6 Ne5 29. Ng8+ Kf7 30. Nh6+ Ke7 31. Ng8+ Kf7 32. Nh6+ Ke7 33. Ng8+ 1/2-1/2
+
+[Event "Navara-Laznicka Match"]
+[Site "Novy Bor CZE"]
+[Date "2011.08.03"]
+[Round "2"]
+[White "Navara, David"]
+[Black "Laznicka, Viktor"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2722"]
+[BlackElo "2681"]
+[ECO "D15"]
+[Opening "QGD Slav"]
+[Variation "4.Nc3"]
+[WhiteFideId "309095"]
+[BlackFideId "316385"]
+[EventDate "2011.08.02"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 a6 5. Bg5 Ne4 6. e3 Nxg5 7. Nxg5 e6 8. Nf3
+Nd7 9. Qc2 g6 10. h4 h6 11. O-O-O Bg7 12. Kb1 O-O 13. g4 b5 14. cxd5 cxd5 15. g5
+h5 16. Ne2 Bb7 17. Nf4 Rc8 18. Qd3 Qe7 19. Bh3 Rc4 20. Bxe6 fxe6 21. Nxg6 Qf7
+22. Nxf8 Kxf8 23. Nd2 e5 24. g6 Qe6 25. Nxc4 dxc4 26. d5 cxd3 27. dxe6 Nc5 28.
+Rhg1 Nxe6 29. f3 e4 30. f4 Nc7 31. Rg5 Nd5 32. Re1 Kg8 33. Rxh5 Nxf4 34. Rg5 Nd5
+35. h5 Bh6 36. Re5 d2 37. Rd1 Bxe3 38. Kc2 Nb4+ 39. Kc3 Nd5+ 40. Kc2 Nb4+ 41.
+Kc3 1/2-1/2
+
+[Event "Navara-Laznicka Match"]
+[Site "Novy Bor CZE"]
+[Date "2011.08.04"]
+[Round "3"]
+[White "Laznicka, Viktor"]
+[Black "Navara, David"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2681"]
+[BlackElo "2722"]
+[ECO "D85"]
+[Opening "Gruenfeld"]
+[Variation "modern exchange variation"]
+[WhiteFideId "316385"]
+[BlackFideId "309095"]
+[EventDate "2011.08.02"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8.
+Be3 Qa5 9. Nd2 O-O 10. Be2 Qxc3 11. Rc1 Qa5 12. Rxc5 Qxa2 13. O-O Na6 14. Rc2
+Qa5 15. Qb1 Qd8 16. Rfc1 b6 17. Qa1 Nb4 18. Rb2 f5 19. g3 e5 20. dxe5 Nd3 21.
+Bxd3 Qxd3 22. Rxb6 fxe4 23. Qa2+ Kh8 24. Rd6 Qb5 25. e6 Qe5 26. Rcc6 Bb7 27. Nc4
+Qh5 28. Rc5 Rf5 29. e7 Bf6 30. Rd8+ Rxd8 31. exd8=Q+ Bxd8 32. Bd4+ Kg8 33. Ne3+
+Kf8 34. Rxf5+ gxf5 35. Bc5+ 1-0
+
+[Event "Navara-Laznicka Match"]
+[Site "Novy Bor CZE"]
+[Date "2011.08.05"]
+[Round "4"]
+[White "Navara, David"]
+[Black "Laznicka, Viktor"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2722"]
+[BlackElo "2681"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "advance variation"]
+[WhiteFideId "309095"]
+[BlackFideId "316385"]
+[EventDate "2011.08.02"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. Be3 cxd4 7. Nxd4 Ne7 8. Nd2
+Nbc6 9. N2f3 Be4 10. O-O Bxf3 11. Nxf3 Ng6 12. c4 dxc4 13. Bxc4 Qc7 14. Bb5 Be7
+15. Qa4 O-O 16. Bxc6 bxc6 17. Qe4 Rab8 18. Bd4 Rfd8 19. Bc3 Rd5 20. h4 h6 21.
+Rae1 Rbd8 22. h5 Nf8 23. Nh2 Bc5 24. Rc1 Bb6 25. Ng4 Qe7 26. Nf6+ gxf6 27. Qg4+
+Ng6 28. exf6 Qc5 29. Be5 Rd4 30. Bxd4 Rxd4 31. Qf3 Nh4 32. Qxc6 Qxh5 33. Rc3 Rg4
+34. g3 Qg6 35. Kh2 Qxf6 36. gxh4 Qf4+ 37. Rg3 Rxg3 0-1
+
+[Event "Navara-Laznicka Match"]
+[Site "Novy Bor CZE"]
+[Date "2011.08.06"]
+[Round "5"]
+[White "Laznicka, Viktor"]
+[Black "Navara, David"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2681"]
+[BlackElo "2722"]
+[ECO "D87"]
+[Opening "Gruenfeld"]
+[Variation "exchange, Spassky variation"]
+[WhiteFideId "316385"]
+[BlackFideId "309095"]
+[EventDate "2011.08.02"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 O-O 8.
+Ne2 c5 9. Be3 Nc6 10. O-O Na5 11. Bd3 b6 12. Qa4 Bb7 13. Rad1 cxd4 14. cxd4 e6
+15. Nf4 Rc8 16. d5 exd5 17. Nxd5 Bxd5 18. Ba6 Qh4 19. Rxd5 Rce8 20. f4 Qe7 21.
+e5 Rd8 22. Rfd1 Rxd5 23. Rxd5 f6 24. Qe4 fxe5 25. fxe5 Nc6 26. Qc4 Qb4 27. Rd1+
+Qxc4 28. Bxc4+ Kh8 29. e6 Re8 30. Rd6 Ne7 31. g4 h5 32. h3 hxg4 33. hxg4 Nc8 34.
+Rd2 Bc3 35. Rc2 Be5 36. Bb5 Rf8 37. Rxc8 Rxc8 38. e7 Kg7 39. e8=Q Rxe8 40. Bxe8
+Kf6 41. Kf2 1-0
+
+[Event "Navara-Laznicka Match"]
+[Site "Novy Bor CZE"]
+[Date "2011.08.07"]
+[Round "6"]
+[White "Navara, David"]
+[Black "Laznicka, Viktor"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2722"]
+[BlackElo "2681"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "advance variation"]
+[WhiteFideId "309095"]
+[BlackFideId "316385"]
+[EventDate "2011.08.02"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. Be3 cxd4 7. Nxd4 Ne7 8. Nd2
+Nbc6 9. N2f3 Be4 10. O-O Bxf3 11. Nxf3 Ng6 12. c4 dxc4 13. Bxc4 Qc7 14. Rc1 Be7
+15. Qb3 O-O 16. Bd3 Qb8 17. Rfd1 Ngxe5 18. Nxe5 Nxe5 19. h3 Nxd3 20. Rxd3 Rd8
+21. Rxd8+ Bxd8 22. Qb5 Bc7 23. Qd7 Bh2+ 24. Kf1 Bd6 25. a4 h6 26. Rc4 b6 27. b4
+Qd8 28. Qxd8+ Rxd8 29. a5 Rb8 30. Rd4 Rd8 31. Rc4 Rb8 32. Rd4 Rd8 33. Rc4 1/2-1/2
+

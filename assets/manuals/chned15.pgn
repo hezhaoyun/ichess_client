@@ -1,0 +1,707 @@
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.05"]
+[Round "1.1"]
+[White "Bok, Benjamin"]
+[Black "Ernst, Sipke"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2562"]
+[BlackElo "2545"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteFideId "1017063"]
+[BlackFideId "1004689"]
+[EventDate "2015.07.05"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Nf6 4. Bxc6 dxc6 5. d3 Bg4 6. h3 Bxf3 7. Qxf3 g6 8.
+O-O Nd7 9. Be3 Bg7 10. Nd2 a5 11. Rab1 O-O 12. Qe2 e5 13. a4 Qe7 14. Nc4 b5 15.
+Nd2 f5 16. exf5 gxf5 17. f3 Nb6 18. Qf2 Nxa4 19. b3 Nc3 20. Bxc5 Qd7 21. Bxf8
+Rxf8 22. Rbe1 e4 23. Kh1 exd3 24. cxd3 Qxd3 25. Re7 Bf6 26. Rb7 Kh8 27. Re1 Qd6
+28. Qe3 Nd5 29. Qh6 Be7 30. Re6 1-0
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.05"]
+[Round "1.2"]
+[White "Van Wely, Loek"]
+[Black "L'Ami, Erwin"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2647"]
+[BlackElo "2628"]
+[ECO "E17"]
+[Opening "Queen's Indian"]
+[Variation "old main line, 6.O-O"]
+[WhiteFideId "1000268"]
+[BlackFideId "1007998"]
+[EventDate "2015.07.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Re1 Na6 8. Nc3
+Ne4 9. Bf4 Nxc3 10. bxc3 Be4 11. Bf1 Bxf3 12. exf3 Bg5 13. Bxg5 Qxg5 14. Qa4 Nb8
+15. f4 Qd8 16. Bg2 c6 17. Rad1 Qc8 18. h4 Na6 19. h5 h6 20. Qc2 Nc7 21. f5 Qd8
+22. fxe6 Nxe6 23. d5 cxd5 24. Bxd5 Rc8 25. Re5 Rc5 26. Rf5 Nc7 27. Bg2 Ne6 28.
+Bd5 Nc7 29. Bg2 Ne6 30. Bd5 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.05"]
+[Round "1.3"]
+[White "Pruijssers, Roeland"]
+[Black "Van Kampen, Robin"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2507"]
+[BlackElo "2609"]
+[ECO "B48"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "1013068"]
+[BlackFideId "1020854"]
+[EventDate "2015.07.05"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qd2 Nf6 8. f4
+Bb4 9. Bd3 Na5 10. a3 Bxc3 11. Qxc3 Qxc3+ 12. bxc3 d5 13. exd5 exd5 14. Nb3 Nc4
+15. Bd4 Ne4 16. O-O O-O 17. Rfe1 Ned6 18. Bc5 Rd8 19. Nd4 Bd7 20. Bxd6 Nxd6 21.
+Re5 Bc6 22. Rb1 Nb5 23. Bxb5 axb5 24. Nxb5 g6 25. Nd4 Rxa3 26. Rb3 Rda8 27. Re7
+Rxb3 28. cxb3 Ra1+ 29. Kf2 Rc1 30. b4 Ba4 31. Rc7 b6 32. h4 h5 33. f5 Kg7 34.
+fxg6 Kxg6 35. b5 Kf6 36. Ke2 Ke5 37. Ra7 Ra1 38. Rxf7 Ra2+ 39. Ke3 Rxg2 40. Rf5+
+Kd6 41. Rxh5 Rg3+ 42. Kd2 Rg2+ 43. Ke3 Rg3+ 44. Kd2 Rg2+ 45. Ke1 Kc5 46. Rh7 Kc4
+47. Rc7+ Kd3 48. Ra7 Bd1 49. Nc6 Bb3 50. Rc7 Kxc3 51. h5 Bc4 52. Rf7 Re2+ 53.
+Kd1 d4 54. Nxd4 Rd2+ 0-1
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.05"]
+[Round "1.4"]
+[White "Giri, Anish"]
+[Black "Tiviakov, Sergei"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2791"]
+[BlackElo "2639"]
+[ECO "C11"]
+[Opening "French"]
+[Variation "Steinitz, Boleslavsky variation"]
+[WhiteFideId "24116068"]
+[BlackFideId "1008013"]
+[EventDate "2015.07.05"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 cxd4 8. Nxd4
+Bc5 9. Qd2 O-O 10. O-O-O a6 11. Kb1 Nxd4 12. Bxd4 b5 13. g3 b4 14. Ne2 a5 15.
+Bh3 Qc7 16. Rhe1 Re8 17. f5 Nxe5 18. Bxe5 Qxe5 19. Nf4 Qd6 20. Nxd5 e5 21. Qe2
+Bb7 22. Bg2 e4 23. Nc3 Qf6 24. Nxe4 Bxe4 25. Bxe4 Rac8 26. Qb5 Bd4 27. Bb7 Rxe1
+28. Rxe1 Rf8 29. Re8 Qb6 30. Qd7 Bf6 31. Bf3 h6 32. Rxf8+ Kxf8 33. Qc8+ Ke7 34.
+Qb7+ 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.06"]
+[Round "2.1"]
+[White "Van Kampen, Robin"]
+[Black "Van Wely, Loek"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2609"]
+[BlackElo "2647"]
+[ECO "B42"]
+[Opening "Sicilian"]
+[Variation "Kan, Polugaievsky variation"]
+[WhiteFideId "1020854"]
+[BlackFideId "1000268"]
+[EventDate "2015.07.05"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Bc5 6. Nb3 Be7 7. Qg4 g6 8. Qe2
+d6 9. a4 Nc6 10. O-O Ne5 11. Nc3 Nf6 12. Bh6 Nfg4 13. Bd2 O-O 14. a5 Bd7 15. f4
+Nxd3 16. cxd3 Nf6 17. Be3 e5 18. d4 Bg4 19. Qd3 exf4 20. Rxf4 Bd7 21. h3 b5 22.
+axb6 Qxb6 23. Na5 Rfc8 24. Rf2 Bb5 25. Qd1 Qd8 26. Qf3 Qe8 27. Bg5 Rxc3 28. bxc3
+Nxe4 29. Bxe7 Qxe7 30. c4 Be8 31. Rb2 f5 32. Rb7 Qg5 33. Re1 Qd2 34. Rxe4 fxe4
+35. Qf6 Qh6 36. Qe6+ Kh8 37. Qf6+ Kg8 38. Qe6+ Kh8 39. Qxd6 Ba4 40. Qe5+ Kg8 41.
+Qxe4 Re8 42. Qf3 g5 43. c5 Qe6 44. Qd3 Qf6 45. Qc4+ Kh8 46. Rf7 Qg6 47. Rf2 g4
+48. Qxa4 Re1+ 49. Rf1 gxh3 50. Qc6 Rxf1+ 51. Kh2 Qxg2+ 52. Qxg2 hxg2 53. Kxg2
+Rd1 54. Nc6 Kg7 55. Kf3 Kf6 56. Ke2 Rc1 57. Nb8 a5 58. d5 Ke7 59. d6+ Ke6 60.
+Na6 h5 61. Kd2 Rg1 62. Nc7+ Kd7 63. Nd5 h4 64. Nf6+ Kc6 65. d7 Kc7 66. c6 Rg5
+67. Ke3 Rc5 0-1
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.06"]
+[Round "2.2"]
+[White "Tiviakov, Sergei"]
+[Black "Ernst, Sipke"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2639"]
+[BlackElo "2545"]
+[ECO "C77"]
+[Opening "Ruy Lopez"]
+[Variation "Anderssen variation"]
+[WhiteFideId "1008013"]
+[BlackFideId "1004689"]
+[EventDate "2015.07.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 d6 6. c3 Be7 7. O-O O-O 8. Re1 b5
+9. Bc2 d5 10. Nbd2 d4 11. cxd4 exd4 12. Nb3 a5 13. a4 bxa4 14. Rxa4 Bb4 15. Bd2
+Bg4 16. h3 Bxf3 17. Qxf3 Nd7 18. Qe2 Nb6 19. Bxb4 Nxa4 20. Bxf8 Qxf8 21. Ra1 Nb6
+22. Nd2 a4 23. Qd1 Nb4 24. Nf3 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.06"]
+[Round "2.3"]
+[White "Giri, Anish"]
+[Black "Pruijssers, Roeland"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2791"]
+[BlackElo "2507"]
+[ECO "C80"]
+[Opening "Ruy Lopez"]
+[Variation "open, 8...Be6"]
+[WhiteFideId "24116068"]
+[BlackFideId "1013068"]
+[EventDate "2015.07.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. Be3 Be7 10. c3 O-O 11. Nbd2 Qd7 12. Bc2 Nxd2 13. Qxd2 Na5 14. Nd4 c5 15.
+Qd3 g6 16. Nxe6 fxe6 17. Bh6 Rf7 18. Qg3 Kh8 19. h4 Rg8 20. Rad1 Nc6 21. Rfe1
+Bd8 22. Qh3 g5 23. hxg5 Bxg5 24. Rd3 Bxh6 25. Qxh6 c4 26. Rh3 d4 27. Bg6 Rfg7
+28. Be4 Rf7 29. f4 d3 30. Kh2 Rg4 31. Rh5 Rgg7 32. Bg6 Qd5 33. Rg5 Re7 34. Re3
+d2 35. Reg3 Qd8 36. Bc2 Qf8 37. Rxg7 Rxg7 38. Rxg7 Qxg7 39. Qxe6 Ne7 40. Qd6 h5
+41. Qxd2 Qg4 42. f5 Nd5 43. f6 1-0
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.06"]
+[Round "2.4"]
+[White "L'Ami, Erwin"]
+[Black "Bok, Benjamin"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2628"]
+[BlackElo "2562"]
+[ECO "D85"]
+[Opening "Gruenfeld"]
+[Variation "exchange variation"]
+[WhiteFideId "1007998"]
+[BlackFideId "1017063"]
+[EventDate "2015.07.05"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Bg7 6. e4 Nxc3 7. Bxc3 O-O 8.
+Rc1 c5 9. dxc5 Qxd1+ 10. Kxd1 Rd8+ 11. Ke1 Bh6 12. Ra1 Nd7 13. Rd1 Rf8 14. b4 a5
+15. Bb5 axb4 16. Bxb4 Nf6 17. a4 Nxe4 18. Ne2 Nf6 19. f3 Be6 20. Nd4 Bd5 21. Kf2 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.07"]
+[Round "3.1"]
+[White "Van Wely, Loek"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2647"]
+[BlackElo "2791"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack"]
+[WhiteFideId "1000268"]
+[BlackFideId "24116068"]
+[EventDate "2015.07.05"]
+
+1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nd7 5. O-O Ngf6 6. c4 dxc4 7. Qa4 O-O 8.
+Qxc4 Nb6 9. Qc5 Bf5 10. Bf4 Ne4 11. Qxc7 Nd5 12. Qxb7 Nxf4 13. gxf4 Qd6 14. Qb3
+Qxf4 15. Nc3 Rab8 16. Qa3 Ng5 17. Nd5 Nxf3+ 18. Qxf3 Qd6 19. Qg3 Qd8 20. Qa3 Re8
+21. Rad1 a5 22. Ne3 Be6 23. b3 Rc8 24. d5 Bd7 25. Rc1 Bb5 26. Rxc8 Qxc8 27. Rc1
+Qa6 28. Nc4 a4 29. Qb4 axb3 30. axb3 Bf8 31. Qd2 Rc8 32. e3 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.07"]
+[Round "3.2"]
+[White "Bok, Benjamin"]
+[Black "Van Kampen, Robin"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2562"]
+[BlackElo "2609"]
+[ECO "C15"]
+[Opening "French"]
+[Variation "Winawer (Nimzovich) variation"]
+[WhiteFideId "1017063"]
+[BlackFideId "1020854"]
+[EventDate "2015.07.05"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Bd3 Nf6 6. Ne2 c6 7. O-O O-O 8. h3
+Re8 9. Ng3 Nbd7 10. Qf3 Nf8 11. Nce2 Ng6 12. c3 Bd6 13. Bg5 Be7 14. Nf4 Nxf4 15.
+Bxf4 g6 16. Rae1 Be6 17. Re2 Nd7 18. Rfe1 Nf8 19. Bh6 Bd6 20. Bf4 Be7 21. Re3
+Qb6 22. Bh6 Qc7 23. Ne2 Qd8 24. Nf4 Bg5 25. Bxg5 Qxg5 26. Re5 Qh4 27. g3 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.07"]
+[Round "3.3"]
+[White "Pruijssers, Roeland"]
+[Black "Tiviakov, Sergei"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2507"]
+[BlackElo "2639"]
+[ECO "C02"]
+[Opening "French"]
+[Variation "advance, Paulsen attack"]
+[WhiteFideId "1013068"]
+[BlackFideId "1008013"]
+[EventDate "2015.07.05"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 c4 7. g3 Na5 8. Nbd2 Bd7
+9. h4 Ne7 10. h5 h6 11. Bh3 Nec6 12. Nh4 Be7 13. Ng2 O-O-O 14. O-O f6 15. exf6
+Bxf6 16. Nf4 e5 17. Nxd5 Qb5 18. Bg2 exd4 19. a4 Qa6 20. Ne4 Nb3 21. Nd6+ Kb8
+22. Bf4 Be5 23. Nb4 Nxb4 24. Bxe5 Nc6 25. Bf4 Ka8 26. Ra3 Nca5 27. cxd4 Be8 28.
+Qg4 Nxd4 29. Re3 Bxa4 30. Qxg7 Bc6 31. Qxd4 Bxg2 32. Kxg2 Rhf8 33. Qc5 1-0
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.07"]
+[Round "3.4"]
+[White "Ernst, Sipke"]
+[Black "L'Ami, Erwin"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2545"]
+[BlackElo "2628"]
+[ECO "E11"]
+[Opening "Bogo-Indian defence, Gruenfeld variation"]
+[WhiteFideId "1004689"]
+[BlackFideId "1007998"]
+[EventDate "2015.07.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 O-O 5. e3 d5 6. a3 Be7 7. b4 c6 8. Bb2 a5
+9. c5 b6 10. Be2 Ba6 11. O-O Nbd7 12. Bxa6 Rxa6 13. Qc2 Qa8 14. Rfc1 Qb7 15. Ne1
+axb4 16. axb4 Rxa1 17. Bxa1 Ra8 18. Nd3 Ne8 19. Nb3 bxc5 20. bxc5 Nc7 21. Bc3
+Nb5 22. Ra1 Rxa1+ 23. Bxa1 Bd8 24. Qa2 Bc7 25. Qa4 h6 26. h3 Kf8 27. Bb2 Nb8 28.
+Nb4 Ke8 29. f3 Kd7 30. Nc1 Qa7 31. Qxa7 Nxa7 32. Nb3 Nb5 33. Kf2 Bd8 34. g4 Nc7
+35. Bc3 Nba6 36. Nd3 f6 37. Ba5 Be7 38. h4 Nb5 39. h5 Na3 40. Nd2 e5 41. f4 e4
+42. Ne1 f5 43. Kg3 Ke6 44. Ng2 Bf6 45. Nb3 Nc4 46. Kh3 Be7 47. Kg3 Kf6 48. Be1
+Bd8 49. Nd2 Ba5 50. Nf1 Bxe1+ 51. Nxe1 Nb4 52. Ng2 Nc2 53. gxf5 Nb2 54. Nh2 Kxf5
+55. Nh4+ Ke6 56. Ng4 Nd3 57. f5+ Kf7 58. Ng6 Ncb4 59. Nh4 Na6 60. f6 gxf6 61.
+Nxh6+ Kg7 62. N4f5+ 1-0
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.08"]
+[Round "4.1"]
+[White "Van Kampen, Robin"]
+[Black "Ernst, Sipke"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2609"]
+[BlackElo "2545"]
+[ECO "C93"]
+[Opening "Ruy Lopez"]
+[Variation "closed, Smyslov defence"]
+[WhiteFideId "1020854"]
+[BlackFideId "1004689"]
+[EventDate "2015.07.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 h6 10. d4 Re8 11. Nbd2 Bf8 12. Nf1 Bd7 13. Bc2 Na5 14. b3 c5 15. Ng3
+Nc6 16. Be3 cxd4 17. cxd4 exd4 18. Nxd4 d5 19. exd5 Nb4 20. Nc6 Nxc6 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.08"]
+[Round "4.2"]
+[White "Tiviakov, Sergei"]
+[Black "L'Ami, Erwin"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2639"]
+[BlackElo "2628"]
+[ECO "C65"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence"]
+[WhiteFideId "1008013"]
+[BlackFideId "1007998"]
+[EventDate "2015.07.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. Qe2 Be7 5. O-O d6 6. d4 exd4 7. Nxd4 Bd7 8.
+Bxc6 bxc6 9. Rd1 O-O 10. e5 Nd5 11. c4 dxe5 12. Nf3 Nf4 13. Qxe5 Ng6 14. Qa5 Qc8
+15. Bg5 Bd6 16. Nbd2 Re8 17. Re1 Qb7 18. c5 Bf8 19. Qc3 Be6 20. Nd4 Bd5 21. b3
+Reb8 22. a3 Re8 23. Be3 Qc8 24. f3 Be7 25. Nc2 Qf5 26. Nf1 Nf4 27. Nd4 Bf6 28.
+Rad1 Ne6 29. b4 Qg6 30. Kf2 h5 31. Qd3 Qxd3 32. Rxd3 Nxd4 33. Bxd4 Rxe1 34. Kxe1
+Bc4 35. Rd2 Re8+ 36. Kf2 Bxd4+ 37. Rxd4 Re2+ 38. Kg3 Bd5 39. h4 f6 40. Rd2 Re1
+41. Kf2 Ra1 42. Ne3 Be6 43. Rd3 Ra2+ 44. Kg3 Kf7 45. Kf4 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.08"]
+[Round "4.3"]
+[White "Giri, Anish"]
+[Black "Bok, Benjamin"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2791"]
+[BlackElo "2562"]
+[ECO "E15"]
+[Opening "Queen's Indian"]
+[Variation "Nimzovich variation (exaggerated fianchetto)"]
+[WhiteFideId "24116068"]
+[BlackFideId "1017063"]
+[EventDate "2015.07.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Bg2 c6 8. O-O d5
+9. Qc2 Nbd7 10. a4 O-O 11. Rd1 Qc8 12. e3 Rd8 13. Na3 Bb7 14. b4 c5 15. dxc5
+bxc5 16. b5 Qc7 17. cxd5 exd5 18. Nd4 Ne4 19. Nf5 Bf8 20. a5 Rab8 21. a6 Ba8 22.
+Bxe4 dxe4 23. Nc4 Rxb5 24. Bc3 Rbb8 25. Qe2 g6 26. Qg4 Rb3 27. Ba5 Nb6 28. Rdb1
+Rxb1+ 29. Rxb1 Qc8 30. Bxb6 axb6 31. Qg5 f6 32. Qxf6 gxf5 33. Nxb6 Qb8 34. Qe6+
+Kg7 35. Qxf5 c4 36. Kg2 c3 37. Qg5+ Kf7 38. a7 Qd6 39. Nxa8 c2 40. Qf5+ Kg8 41.
+Ra1 Rxa8 42. Qxe4 c1=Q 43. Rxc1 Rxa7 44. Rc6 Qe7 45. Qc2 Qf7 46. Rc4 Ra6 47. e4
+Ra3 48. Qe2 Ra6 49. h4 Re6 50. e5 Qb7+ 51. Kh2 Qd5 52. Qg4+ Rg6 53. Qf4 Qf7 54.
+Qxf7+ Kxf7 55. f4 Re6 56. h5 Be7 57. Rc7 h6 58. Kh3 Ra6 59. Kg4 Rb6 60. Kf5 Ra6
+61. g4 Kf8 62. g5 hxg5 63. fxg5 Bd8 64. Rc8 Ke7 65. h6 Ra1 66. h7 Rh1 67. Kg6 1-0
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.08"]
+[Round "4.4"]
+[White "Pruijssers, Roeland"]
+[Black "Van Wely, Loek"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2507"]
+[BlackElo "2647"]
+[ECO "B45"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "1013068"]
+[BlackFideId "1000268"]
+[EventDate "2015.07.05"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 d6 6. Be3 Nf6 7. Qd2 Be7 8. f3
+O-O 9. O-O-O a6 10. g4 Nd7 11. h4 Nde5 12. Nxc6 bxc6 13. Be2 Rb8 14. h5 Qa5 15.
+g5 d5 16. Qd4 Bd6 17. h6 c5 18. Qa4 Qb6 19. hxg7 Rd8 20. b3 d4 21. f4 dxe3 22.
+fxe5 Bxe5 23. Qc4 Bd7 24. Bh5 Be8 25. Na4 Bxa4 26. Qxa4 Qc7 27. Rdf1 Rd7 28. Qc4
+Bxg7 29. c3 Qe5 30. Kb1 Qxc3 31. Qxc3 Bxc3 32. Rh3 Bd4 33. Be2 a5 34. Rfh1 a4
+35. Bc4 axb3 36. axb3 Ra8 37. b4 Ra4 0-1
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.10"]
+[Round "5.1"]
+[White "Bok, Benjamin"]
+[Black "Pruijssers, Roeland"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2562"]
+[BlackElo "2507"]
+[ECO "C80"]
+[Opening "Ruy Lopez"]
+[Variation "open, Bernstein variation"]
+[WhiteFideId "1017063"]
+[BlackFideId "1013068"]
+[EventDate "2015.07.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. Nbd2 Nc5 10. c3 Be7 11. Bc2 d4 12. Nb3 d3 13. Bb1 Nxb3 14. axb3 Bf5 15.
+Be3 O-O 16. Re1 Qd5 17. Bd4 Nd8 18. b4 Ne6 19. Bxd3 Bxd3 20. Qxd3 Rfd8 21. Qe2
+Bxb4 22. cxb4 Nxd4 23. Nxd4 Qxd4 24. e6 fxe6 25. Qxe6+ Kh8 26. Rxa6 Rf8 27. Rxa8
+Qxf2+ 28. Kh1 Rxa8 29. Qe8+ Qf8 30. Qxb5 Rb8 31. Qc6 h6 32. Qxc7 Qxb4 33. Re2
+Rf8 34. h3 Qd4 35. Kh2 Qb4 36. Qe5 Rc8 37. Re3 Rc5 38. Qd6 Qb5 39. Qf8+ Kh7 40.
+Re8 Qc4 41. Rd8 Re5 42. Qh8+ Kg6 43. Rd6+ Kh5 44. g4+ Kh4 45. Rxh6+ Kg5 46.
+Qxg7+ Kf4 47. Qf6+ Ke4 48. Qc6+ Qxc6 49. Rxc6 Rb5 50. Re6+ Kf4 51. Rf6+ Ke4 52.
+Rf2 Rb3 53. g5 Ke5 54. h4 Ke6 55. g6 Rb8 56. Kg3 Ra8 57. h5 Rb8 58. g7 1-0
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.10"]
+[Round "5.2"]
+[White "L'Ami, Erwin"]
+[Black "Van Kampen, Robin"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2628"]
+[BlackElo "2609"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "4.Nf3"]
+[WhiteFideId "1007998"]
+[BlackFideId "1020854"]
+[EventDate "2015.07.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. Bf4 dxc4 6. e3 a6 7. a4 Bd6 8. Bxd6
+cxd6 9. Bxc4 O-O 10. O-O d5 11. Bd3 b6 12. b4 Bb7 13. b5 Qe7 14. Qb3 Rfc8 15.
+Rfc1 a5 16. Ne2 Qf8 17. h3 Rxc1+ 18. Rxc1 Rc8 19. Rc2 Rxc2 20. Bxc2 Qd6 21. Qb2
+Ne4 22. Ne5 f6 23. Nd3 Qc7 24. f3 Ng3 25. Nxg3 Qxg3 26. Qc3 Qd6 27. Bb3 Kf8 28.
+Kf2 g5 29. f4 h6 30. g4 Kf7 31. Bd1 Nf8 32. Bf3 Ng6 33. Qc1 Ke8 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.10"]
+[Round "5.3"]
+[White "Van Wely, Loek"]
+[Black "Tiviakov, Sergei"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2647"]
+[BlackElo "2639"]
+[ECO "E18"]
+[Opening "Queen's Indian"]
+[Variation "old main line, 7.Nc3"]
+[WhiteFideId "1000268"]
+[BlackFideId "1008013"]
+[EventDate "2015.07.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 Na6 8. Bf4
+Ne4 9. Qc2 Nb4 10. Qa4 Nxc3 11. bxc3 Na6 12. e4 d6 13. Rfe1 Nb8 14. Rad1 Nd7 15.
+e5 Qe8 16. Qc2 dxe5 17. Bxe5 Nxe5 18. Nxe5 Bxg2 19. Kxg2 Bd6 20. d5 exd5 21. Ng6
+hxg6 22. Rxe8 Rfxe8 23. cxd5 Re5 24. h4 Rae8 25. Qd3 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.10"]
+[Round "5.4"]
+[White "Ernst, Sipke"]
+[Black "Giri, Anish"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2545"]
+[BlackElo "2791"]
+[ECO "D45"]
+[Opening "QGD semi-Slav"]
+[Variation "Stoltz variation"]
+[WhiteFideId "1004689"]
+[BlackFideId "24116068"]
+[EventDate "2015.07.05"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nf6 5. Nf3 Nbd7 6. Qc2 Bd6 7. b3 O-O 8. Be2 b6
+9. O-O Bb7 10. Bb2 Qe7 11. Rad1 Rad8 12. Rfe1 Rfe8 13. Bd3 e5 14. cxd5 cxd5 15.
+dxe5 Nxe5 16. Nd4 Nxd3 17. Qxd3 Bb8 18. Nce2 Ne4 19. Ng3 f6 20. Rc1 Qf7 21. Qe2
+Qg6 22. Red1 Rc8 23. Rxc8 Rxc8 24. Qb5 Nc5 25. Qe2 Re8 26. Ba3 Be5 27. Qc2 Ne4
+28. Nxe4 dxe4 29. Nc6 Bxh2+ 30. Kxh2 Qh5+ 31. Kg3 g5 0-1
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.11"]
+[Round "6.1"]
+[White "Giri, Anish"]
+[Black "L'Ami, Erwin"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2791"]
+[BlackElo "2628"]
+[ECO "A35"]
+[Opening "English"]
+[Variation "symmetrical, four knights system"]
+[WhiteFideId "24116068"]
+[BlackFideId "1007998"]
+[EventDate "2015.07.05"]
+
+1. c4 c5 2. Nc3 Nc6 3. Nf3 Nf6 4. e3 e6 5. d4 d5 6. cxd5 exd5 7. Bb5 Bd6 8. dxc5
+Bxc5 9. O-O O-O 10. b3 Bg4 11. Bb2 a6 12. Bxc6 bxc6 13. Rc1 Bd6 14. Ne2 Rc8 15.
+Ne5 Bxe5 16. Bxe5 Qe7 17. Bxf6 Qxf6 18. f3 Bd7 19. Qd4 Qe7 20. Nc3 Rfe8 21. Rfe1
+h5 22. Na4 Rb8 23. Nc5 a5 24. Qc3 Rb5 25. e4 Qd6 26. e5 Qe7 27. a3 Bf5 28. Qd4
+Qg5 29. Kf2 Qg6 30. Re3 Qg5 31. Rce1 Qe7 32. Rc1 Qg5 33. Rcc3 Qe7 34. Kg1 Qg5
+35. Kf1 Qe7 36. Kf2 Qg5 37. g3 Qe7 38. Kg2 Be6 39. h3 g6 40. Re1 Kg7 41. Rec1
+Bc8 42. Re3 Be6 43. Re2 Kg8 44. Rd2 Bc8 45. Re2 Be6 46. Kh2 Kg7 47. Qc3 Kg8 48.
+Qd4 Kg7 49. Ree1 Kg8 50. Re3 Kg7 51. Re2 Kg8 52. Rc3 Kg7 53. Rg2 Kg8 54. g4 hxg4
+55. fxg4 Kg7 56. Rf2 Qg5 57. b4 axb4 58. axb4 Kg8 59. Nd3 Bd7 60. Ra3 Rbb8 61.
+Ra7 Be6 62. Ra6 Bd7 63. Ra7 Be6 64. Kg3 Ra8 65. h4 Qh6 66. Nf4 g5 67. Nh5 Rxa7
+68. Qxa7 gxh4+ 69. Kxh4 Kh8 70. g5 Qh7 71. Qd4 Qe4+ 72. Qxe4 dxe4 73. Nf6 Rb8
+74. g6 fxg6 75. Kg5 Kg7 76. Rh2 Rb5 77. Ne8+ Kf8 78. Nc7 Bc4 1-0
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.11"]
+[Round "6.2"]
+[White "Van Wely, Loek"]
+[Black "Bok, Benjamin"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2647"]
+[BlackElo "2562"]
+[ECO "A05"]
+[Opening "Reti opening"]
+[WhiteFideId "1000268"]
+[BlackFideId "1017063"]
+[EventDate "2015.07.05"]
+
+1. Nf3 Nf6 2. g3 c5 3. Bg2 Nc6 4. O-O e5 5. e4 Be7 6. Re1 O-O 7. c3 Re8 8. Na3
+d6 9. h3 h6 10. d3 Be6 11. Kh2 Bf8 12. Nc2 g6 13. d4 exd4 14. cxd4 d5 15. exd5
+Bxd5 16. dxc5 Be4 17. Ne3 Bxc5 18. Bd2 Nb4 19. Bc3 Nfd5 20. Nxd5 Qxd5 21. Qxd5
+Bxd5 22. Rxe8+ Rxe8 23. Ne5 Bxg2 24. Kxg2 Bd6 25. Ng4 Re6 26. Nxh6+ Kf8 27. Ng4
+Nd5 28. Bd4 b6 29. Rd1 Ke7 30. Kf3 f5 31. Ne3 Nxe3 32. Bxe3 Be5 33. Bg5+ Bf6 34.
+Bxf6+ Kxf6 35. Rd7 Rc6 36. Rxa7 Rc2 37. b4 Rb2 38. a3 Rb3+ 39. Kg2 f4 40. gxf4
+Kf5 41. Rf7+ Ke6 42. Rb7 Rxa3 43. Rxb6+ Kf5 44. b5 1-0
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.11"]
+[Round "6.3"]
+[White "Pruijssers, Roeland"]
+[Black "Ernst, Sipke"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2507"]
+[BlackElo "2545"]
+[ECO "C50"]
+[Opening "Giuoco Piano"]
+[WhiteFideId "1013068"]
+[BlackFideId "1004689"]
+[EventDate "2015.07.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. h3 d6 7. c3 Bb6 8. a4 a6
+9. b4 Be6 10. Nbd2 Qd7 11. Bb3 Ba7 12. Bc2 h6 13. Kh2 Nh7 14. b5 axb5 15. axb5
+Ne7 16. d4 f6 17. Bb3 Rfd8 18. Bxe6+ Qxe6 19. Qb3 Nf8 20. Bb2 Qxb3 21. Nxb3 Ne6
+22. c4 exd4 23. Nfxd4 Bxd4 24. Bxd4 Ng6 25. Rxa8 Rxa8 26. Ra1 Rxa1 27. Bxa1 Kf7
+28. g3 Ne5 29. Bxe5 fxe5 30. h4 Kf6 31. Nd2 g6 32. Kg2 h5 33. Kf3 g5 34. hxg5+
+Kxg5 35. Kg2 Nc5 36. Nf3+ Kf6 37. Nd2 Nd3 38. Nf3 Nb2 39. Nd2 Kg5 40. Nf3+ Kf6
+41. Nd2 Nd3 42. Nf3 Nc5 43. Nd2 Kg6 44. Kh3 Nd3 45. Kg2 Ne1+ 46. Kf1 Nc2 47. Kg2
+Ne1+ 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.11"]
+[Round "6.4"]
+[White "Tiviakov, Sergei"]
+[Black "Van Kampen, Robin"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2639"]
+[BlackElo "2609"]
+[ECO "C07"]
+[Opening "French"]
+[Variation "Tarrasch, open variation"]
+[WhiteFideId "1008013"]
+[BlackFideId "1020854"]
+[EventDate "2015.07.05"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. dxc5 Nf6 6. Ngf3 Qxc5 7. Bd3 Be7 8.
+O-O O-O 9. Qe2 Nbd7 10. a4 Qc7 11. a5 Nc5 12. Bc4 b6 13. a6 Bd7 14. Nd4 Rac8 15.
+N2f3 Rfd8 16. Nb5 Qb8 17. Ne5 Be8 18. Bf4 Qa8 19. f3 Nd5 20. Bg3 f6 21. Ng4 e5
+22. f4 Bxb5 23. Bxb5 Ne6 24. fxe5 Nd4 25. Qe4 f5 26. Rxf5 Nxb5 27. c4 Nd4 28.
+Nh6+ gxh6 29. Qg4+ Bg5 30. Rxg5+ hxg5 31. Qxg5+ Kh8 32. cxd5 Rg8 33. Qf6+ Rg7
+34. Rd1 Ne2+ 35. Kh1 Qxd5 0-1
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.12"]
+[Round "7.1"]
+[White "Van Kampen, Robin"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2609"]
+[BlackElo "2791"]
+[ECO "C47"]
+[Opening "Four knights"]
+[Variation "Scotch, 4...exd4"]
+[WhiteFideId "1020854"]
+[BlackFideId "24116068"]
+[EventDate "2015.07.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8.
+exd5 cxd5 9. O-O O-O 10. h3 Re8 11. Qf3 c6 12. Bg5 h6 13. Bxf6 Qxf6 14. Qxf6
+gxf6 15. Ne2 Rb8 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.12"]
+[Round "7.2"]
+[White "Bok, Benjamin"]
+[Black "Tiviakov, Sergei"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2562"]
+[BlackElo "2639"]
+[ECO "C11"]
+[Opening "French"]
+[Variation "Steinitz, Boleslavsky variation"]
+[WhiteFideId "1017063"]
+[BlackFideId "1008013"]
+[EventDate "2015.07.05"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 8. Qd2
+O-O 9. dxc5 Bxc5 10. O-O-O Qb6 11. Nd4 Nxd4 12. Bxd4 Bxd4 13. Qxd4 Qxd4 14. Rxd4
+a6 15. Be2 b6 16. b3 Ra7 17. Kb2 Rc7 18. Nd1 Bb7 19. Ne3 b5 20. a4 bxa4 21. Rxa4
+g5 22. Ng4 f5 23. exf6 Nxf6 24. fxg5 Ne4 25. Re1 Nxg5 26. Bxa6 Bxa6 27. Rxa6 Rf4
+28. h3 h5 29. g3 Rf3 30. Ne5 Rxg3 31. h4 Ne4 32. Rxe6 Kh7 33. Rc6 Rxc6 34. Nxc6
+Rh3 35. Ne7 Rxh4 36. Nxd5 Kg6 37. b4 Kf5 38. Kb3 Rh3+ 39. Kc4 h4 40. b5 Rg3 41.
+b6 Rg7 42. Kd4 Nd6 43. c4 Rg4+ 44. Kc5 Nb7+ 45. Kb4 Re4 46. Ne7+ Ke5 47. Ng6+
+Kf5 48. Rxe4 Kxe4 49. Nxh4 Ke5 50. Kb5 Kd4 51. Nf5+ Ke5 52. c5 Kxf5 53. c6 Nd6+
+54. Ka6 1-0
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.12"]
+[Round "7.3"]
+[White "L'Ami, Erwin"]
+[Black "Pruijssers, Roeland"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2628"]
+[BlackElo "2507"]
+[ECO "A80"]
+[Opening "Dutch"]
+[WhiteFideId "1007998"]
+[BlackFideId "1013068"]
+[EventDate "2015.07.05"]
+
+1. d4 f5 2. Bf4 Nf6 3. e3 e6 4. Nf3 b6 5. Be2 Bb7 6. O-O Be7 7. c4 O-O 8. Nc3 d6
+9. h3 h6 10. Qb3 Nbd7 11. c5 Nd5 12. cxd6 cxd6 13. Nxd5 Bxd5 14. Bc4 Nf6 15. Bh2
+Qd7 16. Rac1 Rfc8 17. Bxd5 Nxd5 18. Nd2 Rxc1 19. Rxc1 Rc8 20. Rxc8+ Qxc8 21. Qc4
+Qd7 22. a4 Kf7 23. Kf1 Qb7 24. Ke2 1/2-1/2
+
+[Event "ch-NED 2015"]
+[Site "Amsterdam NED"]
+[Date "2015.07.12"]
+[Round "7.4"]
+[White "Ernst, Sipke"]
+[Black "Van Wely, Loek"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2545"]
+[BlackElo "2647"]
+[ECO "D19"]
+[Opening "QGD Slav"]
+[Variation "Dutch variation, main line"]
+[WhiteFideId "1004689"]
+[BlackFideId "1000268"]
+[EventDate "2015.07.05"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O
+O-O 9. Qe2 Bg6 10. Ne5 Nbd7 11. Rd1 Nxe5 12. dxe5 Nd7 13. f4 Qe7 14. Na2 Nb6 15.
+Nxb4 Qxb4 16. b3 Nxc4 17. Qxc4 c5 18. Ba3 Qxc4 19. bxc4 Rfc8 20. Rd6 h5 21. Ra2
+Be4 22. Kf2 Bc6 23. Bxc5 Be8 24. Bd4 Rxc4 25. a5 Bc6 26. Kg3 Bd5 27. Rb2 Ra4 28.
+Rxd5 exd5 29. Rxb7 Rxa5 30. e6 f6 31. Kh4 Ra2 32. Bb2 Ra6 33. Kxh5 Rb6 34. Rxb6
+axb6 35. Kg6 b5 36. g4 b4 37. h4 b3 38. g5 fxg5 39. hxg5 Ra6 40. f5 Rb6 41. Bxg7
+Ra6 42. Bd4 Kf8 43. Kh7 Ke7 44. g6 Ra4 45. g7 Rxd4 46. exd4 1-0
+

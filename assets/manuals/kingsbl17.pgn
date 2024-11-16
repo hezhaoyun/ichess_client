@@ -1,0 +1,619 @@
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "1.1"]
+[White "Wei, Yi"]
+[Black "Deac, Bogdan-Daniel"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2739"]
+[BlackElo "2566"]
+[ECO "A01"]
+[Opening "Nimzovich-Larsen attack"]
+[Variation "modern variation"]
+[WhiteFideId "8603405"]
+[BlackFideId "1226380"]
+[EventDate "2017.11.28"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 Nf6 4. Bb5 Bd6 5. Ne2 a6 6. Bxc6 dxc6 7. d3 Qe7 8. Nd2
+h5 9. e4 h4 10. h3 c5 11. Nc4 g5 12. Qd2 Rg8 13. O-O-O b5 14. Ne3 Be6 15. g4
+O-O-O 16. c4 c6 17. f3 Nd7 18. Rhe1 f6 19. Nf5 Qf8 20. Kb1 Kb7 21. Rc1 Bxf5 22.
+exf5 b4 23. Kc2 a5 24. a3 Nb6 25. Ra1 Bc7 26. Qe3 Qd6 27. Red1 Rge8 28. Bc1 Nd7
+29. Qf2 Bb6 30. Be3 Ra8 31. Kb2 Ra7 32. Ra2 Rea8 33. a4 Re8 34. Kc2 Raa8 35. Bc1
+Rad8 36. Qe3 Nf8 37. Rb2 Nd7 38. Kb1 Nb8 39. Rbd2 Na6 40. Bb2 Nc7 41. Nc1 Na6
+42. Re2 Rf8 43. Qd2 Qc7 44. Re4 Qd7 45. Rde1 Bc7 46. Kc2 Rf7 47. Qf2 Qd6 48. f4
+gxf4 49. Qxh4 Qd7 50. Qf2 Rg7 51. Qf1 Rh8 52. Qf3 Rgh7 53. Rh1 Qg7 54. Ne2 Nb8
+55. Ng1 Nd7 56. Qg2 Nf8 57. Nf3 Rg8 58. Rhe1 Nd7 59. Rh1 Nf8 60. g5 fxg5 61.
+Nxe5 Qh6 62. Ng4 Qh4 63. Nf6 Rgg7 64. Nxh7 Rxh7 65. f6 g4 66. Re7 f3 67. Qd2 g3
+68. Rxh7 Nxh7 69. f7 g2 70. Rg1 Bh2 71. Rxg2 fxg2 72. Qxg2 Bd6 73. Qf3 Nf8 74.
+Qf5 Qg3 75. Kb1 Qg6 76. Qxg6 Nxg6 77. Bg7 Bf8 78. Bf6 Kc7 79. h4 Ne7 80. h5 Nf5
+81. Kc2 Nh6 82. Be5+ Kd7 83. d4 Nxf7 84. Bf6 Ke6 85. Bh4 cxd4 86. Kd3 Be7 87.
+Bg3 Bd8 88. Ke4 Ng5+ 89. Kd3 Kf5 90. Bd6 Ne4 91. Bf8 Bb6 92. h6 Nf6 93. Be7 Kg6
+94. h7 Nxh7 95. Ke4 Nf6+ 96. Ke5 d3 0-1
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "1.2"]
+[White "Ivanchuk, Vassily"]
+[Black "Karjakin, Sergey"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2729"]
+[BlackElo "2760"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "4.Nf3"]
+[WhiteFideId "14100010"]
+[BlackFideId "14109603"]
+[EventDate "2017.11.28"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Qc2 c5 6. cxd5 cxd4 7. Nxd4 O-O 8.
+Bg5 h6 9. Bh4 Nxd5 10. Bxe7 Nxe7 11. Rd1 Qb6 12. Qb3 Qa5 13. g3 e5 14. Qb5 Qc7
+15. Nb3 Bd7 16. Qc5 Qxc5 17. Nxc5 Bc6 18. e4 b6 19. Nd3 Nd7 20. Bh3 Rad8 21.
+Bxd7 Bxd7 22. Nxe5 Bc8 23. f3 Ba6 24. Kf2 f6 25. Ng4 Nc6 26. Ne3 Nb4 27. Ned5
+Nd3+ 28. Kg2 Nxb2 29. Rd4 Kh8 30. h4 Nc4 31. Rhd1 Ne5 32. Ra4 Bc4 33. Rxa7 b5
+34. Rb1 Ra8 35. Rxa8 Rxa8 36. Nb4 Ra3 37. Rc1 h5 38. Kf2 Kg8 39. Ke3 Kf8 40. f4
+Nd7 41. Kd4 Ke8 42. Rb1 Kd8 43. Nc6+ Kc7 44. Ne7 Nb6 45. Rxb5 Ra8 1-0
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "2.1"]
+[White "Ivanchuk, Vassily"]
+[Black "Wei, Yi"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2729"]
+[BlackElo "2739"]
+[ECO "D41"]
+[Opening "QGD"]
+[Variation "Semi-Tarrasch, 5.cd"]
+[WhiteFideId "14100010"]
+[BlackFideId "8603405"]
+[EventDate "2017.11.28"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. g3 cxd4 7. Nxd5 Qxd5 8.
+Qxd4 Qb5 9. a3 Nc6 10. Qc3 a5 11. e4 Qc5 12. Bd2 Qxc3 13. Bxc3 f6 14. e5 Bc5 15.
+Bc4 Ke7 16. O-O Rb8 17. Rfe1 f5 18. Bb5 Bd7 19. Nd2 Rhd8 20. Nc4 b6 21. Rad1
+Rbc8 22. Nd6 Rc7 23. Bf1 Be8 24. Bg2 Bxd6 25. exd6+ Rxd6 26. Bxg7 Rxd1 27. Rxd1
+Rd7 28. Rc1 Nd4 29. Kf1 Nb3 30. Rc3 Nc5 31. Ke2 Rd8 32. Ke3 a4 33. Bd4 Rc8 34.
+Rc4 Kd6 35. Rb4 b5 36. Bc3 e5 37. Rh4 Rc7 38. Rh6+ Bg6 39. h4 f4+ 40. gxf4 exf4+
+41. Kxf4 Ne6+ 42. Kg4 Rc4+ 43. Kg3 Ke7 44. Bd5 Rc8 45. Bxe6 Kxe6 1-0
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "2.2"]
+[White "Karjakin, Sergey"]
+[Black "Deac, Bogdan-Daniel"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2566"]
+[ECO "C88"]
+[Opening "Ruy Lopez"]
+[Variation "closed, anti-Marshall 8.a4"]
+[WhiteFideId "14109603"]
+[BlackFideId "1226380"]
+[EventDate "2017.11.28"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4
+b4 9. d4 d6 10. dxe5 Nxe5 11. Nbd2 Ned7 12. Bc4 a5 13. b3 Nb6 14. Bd3 Nfd7 15.
+Bb2 Nc5 16. Nc4 Nbd7 17. Bf1 Bb7 18. e5 dxe5 19. Nfxe5 Nb6 20. Qh5 Bf6 21. Rad1
+Qc8 22. Nxb6 cxb6 23. Rd6 Be7 24. Ng4 Bxd6 25. Nf6+ gxf6 26. Bxf6 Be4 27. Qh6
+Ne6 28. Rxe4 Qxc2 29. Rg4+ Qg6 30. h4 Rac8 31. g3 Rc2 32. Bd3 Rc3 33. Bxg6 fxg6
+34. Rxg6+ 1-0
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "3.1"]
+[White "Wei, Yi"]
+[Black "Karjakin, Sergey"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2739"]
+[BlackElo "2760"]
+[ECO "A13"]
+[Opening "English"]
+[Variation "Neo-Catalan"]
+[WhiteFideId "8603405"]
+[BlackFideId "14109603"]
+[EventDate "2017.11.28"]
+
+1. Nf3 d5 2. c4 e6 3. g3 Nf6 4. Bg2 d4 5. O-O c5 6. e3 Nc6 7. exd4 cxd4 8. d3
+Be7 9. b3 O-O 10. Na3 e5 11. Nc2 Nd7 12. a3 a5 13. Rb1 Nc5 14. b4 axb4 15. axb4
+Na4 16. Bd2 Bf6 17. b5 Ne7 18. Re1 Ng6 19. Nb4 Nc5 20. h3 Bf5 21. Qc2 Ra3 22.
+Ra1 Rxa1 23. Rxa1 e4 24. dxe4 Bxe4 25. Qd1 Re8 26. Ra3 h6 27. Ne1 Ne5 28. Qc1
+Bxg2 29. Nxg2 d3 30. Ne3 Ne4 31. Kg2 Be7 32. Rb3 Qd7 33. Nbd5 Ng5 34. g4 Ngf3
+35. Qd1 Bc5 36. Bc3 Bxe3 37. Nxe3 Rc8 38. Bxe5 Nxe5 39. Qd2 Qd4 40. f3 Rd8 41.
+Rc3 Qf4 42. Qf2 d2 43. Nd1 Nxc4 44. Qc5 Ne5 45. Re3 Ng6 46. Kf1 Qh2 47. Qb6 0-1
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "3.2"]
+[White "Deac, Bogdan-Daniel"]
+[Black "Ivanchuk, Vassily"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2566"]
+[BlackElo "2729"]
+[ECO "E21"]
+[Opening "Nimzo-Indian"]
+[Variation "three knights variation"]
+[WhiteFideId "1226380"]
+[BlackFideId "14100010"]
+[EventDate "2017.11.28"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 Bb4 4. d4 b6 5. Bd2 Bb7 6. g3 a5 7. Bg2 Ne4 8. Nxe4
+Bxe4 9. O-O O-O 10. Rc1 Bxd2 11. Qxd2 d6 12. Qe3 Bb7 13. Qd3 Nc6 14. Rfd1 Qe7
+15. Qc3 Rfd8 16. Ne1 e5 17. dxe5 dxe5 18. Rxd8+ Rxd8 19. Kf1 e4 20. Nc2 Nb4 21.
+Qb3 Qg5 22. Ne3 Qe5 23. c5 Ba6 24. a3 Nc6 25. cxb6 Nd4 26. Rd1 Bxe2+ 27. Ke1
+Bxd1 28. Qxd1 cxb6 0-1
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "4.1"]
+[White "Deac, Bogdan-Daniel"]
+[Black "Wei, Yi"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2566"]
+[BlackElo "2739"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "advance variation"]
+[WhiteFideId "1226380"]
+[BlackFideId "8603405"]
+[EventDate "2017.11.28"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. c3 Ng6 7. h4 h5 8. g3 Nd7 9.
+Nbd2 f6 10. exf6 Qxf6 11. Nf1 Bd6 12. Bg5 Qf7 13. Ne3 Nf6 14. Bxf6 Qxf6 15. Ng5
+O-O-O 16. Bxh5 Rdf8 17. Rf1 Ne7 18. Bg4 Kb8 19. Qe2 e5 20. Nxf5 Nxf5 21. dxe5
+Bxe5 22. O-O-O Re8 23. Qd3 Nxh4 24. f4 Ng6 25. Bf5 Ne7 26. Bd7 Rd8 27. Bg4 Bc7
+28. Rde1 Nc8 29. Re6 Qf8 30. Rfe1 Qc5 31. Nf7 Qf2 32. Nxd8 Rxd8 33. R6e2 Bxf4+
+34. Kb1 Qxg3 35. Qf5 Bd2 36. Rd1 Bh6 37. Qe6 Qc7 38. Rf2 Nd6 39. Rf3 a5 40. a4
+Ne4 41. Rf7 Qb6 42. Kc2 Nc5 43. Qe5+ Ka8 44. Qc7 Qxc7 45. Rxc7 Kb8 46. Rf7 Re8
+47. Rdf1 Re4 48. Bh5 Rxa4 49. Re7 Ka7 50. Rff7 Rh4 51. Bg6 Rh1 52. b4 Rc1+ 53.
+Kb2 Na4+ 54. Kb3 Nxc3 55. Rxb7+ Ka6 56. Ra7+ 1-0
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "4.2"]
+[White "Karjakin, Sergey"]
+[Black "Ivanchuk, Vassily"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2729"]
+[ECO "A15"]
+[Opening "English opening"]
+[WhiteFideId "14109603"]
+[BlackFideId "14100010"]
+[EventDate "2017.11.28"]
+
+1. Nf3 Nf6 2. c4 e6 3. b3 b6 4. g3 Bb7 5. Bg2 c5 6. O-O Be7 7. Bb2 O-O 8. Nc3 d6
+9. d4 cxd4 10. Qxd4 a6 11. e4 Nbd7 12. h3 Qc7 13. Rfe1 Rfe8 14. Qe3 Bf8 15. Nd4
+g6 16. Rad1 Rad8 17. Ba1 Qb8 18. Qd2 Bg7 19. g4 Nc5 20. Qc2 Qa8 21. Qe2 e5 22.
+Nc2 Ne6 23. Qe3 Nf4 24. Bf1 Bh6 25. Qxb6 Nxe4 26. Nxe4 Bxe4 27. Ne3 Re6 28. Qc7
+Bg5 29. Bc3 h5 30. Bb4 hxg4 31. Bxd6 gxh3 32. Bxe5 Nd3 33. Rxd3 Bxd3 34. Bxh3
+Re7 35. Qc5 Rde8 36. Bg2 Qd8 37. Bb2 Bxe3 38. fxe3 Be4 39. Qd4 Qxd4 40. Bxd4
+Bxg2 41. Kxg2 f5 42. Kf3 Kf7 43. c5 g5 44. Rh1 Kg6 45. b4 f4 46. exf4 Re4 47.
+Be5 Rxb4 48. c6 gxf4 49. c7 Rc4 50. Bxf4 Rf8 51. Rh6+ Kg7 52. Rh4 Rxc7 53. Kg4 0-1
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "5.1"]
+[White "Karjakin, Sergey"]
+[Black "Wei, Yi"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2739"]
+[ECO "A13"]
+[Opening "English"]
+[Variation "Wimpey system"]
+[WhiteFideId "14109603"]
+[BlackFideId "8603405"]
+[EventDate "2017.11.28"]
+
+1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 c5 5. Bb2 Nc6 6. cxd5 exd5 7. Bb5 Bd6 8. d4
+cxd4 9. Nxd4 O-O 10. Nxc6 bxc6 11. Be2 Qa5+ 12. Bc3 Bb4 13. Qd2 Rb8 14. Bxb4
+Qxb4 15. Qxb4 Rxb4 16. Nd2 Re8 17. Nf3 d4 18. a3 Rxb3 19. Nxd4 Rb2 20. Nxc6 Bb7
+21. Bf3 Ba6 22. a4 g5 23. h3 Ne4 24. Bxe4 Re2+ 25. Kd1 Rxe4 26. Nxa7 Rxf2 27.
+Nb5 Rxe3 28. Re1 Rd3+ 29. Kc1 Rxg2 30. Rb1 Rxh3 31. Rb4 Kg7 32. Kb1 Rh4 33. Rxh4
+gxh4 34. Rh1 Rg4 35. Nd6 Bd3+ 36. Kb2 Rxa4 37. Kc3 Bg6 38. Nc4 f5 39. Kb3 Ra6
+40. Rxh4 Bf7 41. Kb2 Ra4 0-1
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "5.2"]
+[White "Ivanchuk, Vassily"]
+[Black "Deac, Bogdan-Daniel"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2729"]
+[BlackElo "2566"]
+[ECO "E20"]
+[Opening "Nimzo-Indian"]
+[Variation "Kmoch variation"]
+[WhiteFideId "14100010"]
+[BlackFideId "1226380"]
+[EventDate "2017.11.28"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 c5 5. a3 cxd4 6. axb4 dxc3 7. e4 Qc7 8. bxc3
+O-O 9. Bg5 d5 10. Bxf6 gxf6 11. exd5 exd5 12. c5 b6 13. Ne2 bxc5 14. Qxd5 Bb7
+15. Qxc5 Qxc5 16. bxc5 Nd7 17. c6 Bxc6 18. Nd4 Bb7 19. Ba6 Bxa6 20. Rxa6 Rfb8
+21. O-O Rb6 22. Ra5 a6 23. Rfa1 h6 24. Rh5 Rc8 25. Ra3 Kh7 26. Nf5 Kg6 27. g4
+Rh8 28. Ne7+ Kg7 29. Rha5 Ne5 30. Nf5+ Kg6 31. Rxa6 Rxa6 32. Rxa6 Nxf3+ 33. Kg2
+Ne5 34. Kg3 h5 35. h3 hxg4 36. hxg4 Rh1 37. Ne3 Rg1+ 38. Kf4 Nd3+ 39. Kf3 Ne5+
+40. Kf4 Nd3+ 41. Ke4 1/2-1/2
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "6.1"]
+[White "Wei, Yi"]
+[Black "Ivanchuk, Vassily"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2739"]
+[BlackElo "2729"]
+[ECO "C19"]
+[Opening "French"]
+[Variation "Winawer, advance, poisoned pawn variation"]
+[WhiteFideId "8603405"]
+[BlackFideId "14100010"]
+[EventDate "2017.11.28"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Kf8 8. Nf3
+Qa5 9. Bd2 Qa4 10. Bd3 h6 11. O-O b6 12. h3 Nd7 13. Be3 c4 14. Be2 Qxc2 15. Rfc1
+Qxe2 0-1
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "6.2"]
+[White "Deac, Bogdan-Daniel"]
+[Black "Karjakin, Sergey"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2566"]
+[BlackElo "2760"]
+[ECO "E00"]
+[Opening "Catalan opening"]
+[WhiteFideId "1226380"]
+[BlackFideId "14109603"]
+[EventDate "2017.11.28"]
+
+1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 Be7 5. Bg2 d5 6. Nf3 O-O 7. Qc2 c6 8. O-O
+Nbd7 9. b3 Ne4 10. Bc1 f5 11. Nfd2 Qe8 12. Nc3 Qh5 13. Ndxe4 fxe4 14. f3 Bf6 15.
+e3 exf3 16. Bxf3 Qe8 17. Bd2 b6 18. cxd5 cxd5 19. Nxd5 Ba6 20. Nxf6+ Nxf6 21.
+Bxa8 Qxa8 22. Bb4 Rc8 23. Qd2 Bxf1 24. Rxf1 Qe4 25. Bd6 Rc2 0-1
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "7.1"]
+[White "Wei, Yi"]
+[Black "Deac, Bogdan-Daniel"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2739"]
+[BlackElo "2566"]
+[ECO "A45"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "8603405"]
+[BlackFideId "1226380"]
+[EventDate "2017.11.28"]
+
+1. d4 Nf6 2. Bf4 d5 3. e3 c5 4. Nd2 Nc6 5. Ngf3 Qb6 6. dxc5 Qxb2 7. Rb1 Qc3 8.
+Bb5 e6 9. O-O Be7 10. Nb3 Bd7 11. Nfd4 Nxd4 12. Nxd4 Qxc5 13. Bxd7+ Nxd7 14.
+Rxb7 e5 15. Rxd7 exd4 16. Rc7 Qb6 17. exd4 Kf8 18. Qf3 Rd8 19. Re1 Bf6 20. Qh5
+g6 21. Bh6+ Bg7 22. Qe5 f6 1-0
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "7.2"]
+[White "Ivanchuk, Vassily"]
+[Black "Karjakin, Sergey"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2729"]
+[BlackElo "2760"]
+[ECO "E15"]
+[Opening "Queen's Indian"]
+[Variation "Nimzovich variation (exaggerated fianchetto)"]
+[WhiteFideId "14100010"]
+[BlackFideId "14109603"]
+[EventDate "2017.11.28"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Bg2 d5 8. cxd5
+exd5 9. Nc3 O-O 10. O-O Re8 11. Qc2 c5 12. Rfd1 Nc6 13. Be3 Rc8 14. Qf5 g6 15.
+Qf4 cxd4 16. Nxd4 Bd6 17. Nxc6 Rxc6 18. Qa4 Rxc3 19. Qxa6 Rcxe3 20. fxe3 Bc5 21.
+Bf3 Qe7 22. Kg2 h5 23. Qd3 h4 24. Bxd5 Nxd5 25. Qxd5 Qxe3 26. Qf3 Qxe2+ 27. Qxe2
+Rxe2+ 28. Kh3 hxg3 29. hxg3 a5 30. Rd7 Rf2 31. a4 Kg7 32. Rad1 Kh6 33. R1d3 f5
+34. g4 Kg5 35. gxf5 gxf5 36. Rc3 Kf4 37. Rc4+ Ke5 38. Rd3 f4 39. Kg4 Be3 40. Rd8
+Bc5 41. Re8+ Kd5 42. Rxf4 Rg2+ 43. Kf3 Rb2 44. Rd8+ Kc6 45. Rd3 Kc7 46. Rf5 Kc6
+47. Rh5 Kc7 48. Rc3 Kc6 49. Ke4 Rd2 50. Rh6+ Kc7 51. Rd3 Re2+ 52. Kd5 Rg2 53.
+Rh7+ Kc8 54. Kc6 Rg6+ 55. Kb5 1-0
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "8.1"]
+[White "Ivanchuk, Vassily"]
+[Black "Wei, Yi"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2729"]
+[BlackElo "2739"]
+[ECO "C42"]
+[Opening "Petrov"]
+[Variation "classical attack"]
+[WhiteFideId "14100010"]
+[BlackFideId "8603405"]
+[EventDate "2017.11.28"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Bf5 7. O-O Be7 8. c4
+Nc6 9. cxd5 Qxd5 10. Nc3 Nxc3 11. bxc3 Bxd3 12. Qxd3 O-O 13. Re1 Qd7 14. Bf4
+Rad8 15. Rad1 Bf6 16. Bg5 Qd6 17. Qf5 Bxg5 18. Nxg5 Qg6 19. Qxg6 hxg6 20. d5 Nb8
+21. c4 b6 22. Re7 Rd7 23. Rde1 f6 24. Nh3 Rxe7 25. Rxe7 Rf7 26. Re8+ Rf8 27. Re6
+Kf7 28. Nf4 g5 29. Ne2 c6 30. Re3 Rd8 31. Ra3 cxd5 32. Rxa7+ Kg6 33. cxd5 Rxd5
+34. f3 Rd2 35. Ng3 Nc6 36. Ra6 Rb2 37. a4 Ne5 38. a5 bxa5 39. Rxa5 Nd3 40. Nf1
+Re2 41. Ra1 Nf4 42. g3 Nh3+ 43. Kh1 f5 44. Rc1 Kf6 45. Rc8 Ke7 46. Rh8 g4 47.
+fxg4 fxg4 48. Ra8 Kd6 49. Ra1 Ke5 50. Rc1 Kd4 51. Rd1+ Kc3 52. Ra1 Kb2 53. Ra8
+Kc3 54. Ra3+ Kd4 55. Rb3 Rf2 56. Ne3 Rf3 57. Nc2+ Ke4 58. Rb4+ Kd3 59. Ne1+ Ke2
+60. Nxf3 gxf3 61. Rb2+ Ke1 62. Rb1+ Ke2 63. Rb2+ Kd1 64. Rb1+ Kd2 65. Rb2+ Ke3
+66. Rb3+ Ke2 1/2-1/2
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "8.2"]
+[White "Karjakin, Sergey"]
+[Black "Deac, Bogdan-Daniel"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2566"]
+[ECO "C53"]
+[Opening "Giuoco Piano"]
+[WhiteFideId "14109603"]
+[BlackFideId "1226380"]
+[EventDate "2017.11.28"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 a6 6. a4 O-O 7. b4 Ba7 8. Bg5 d6
+9. O-O Ne7 10. Nh4 Ng6 11. Nxg6 hxg6 12. Na3 Qe8 13. Nc2 Be6 14. Qf3 Bxc4 15.
+dxc4 Qe6 16. Qd3 Nh5 17. Be3 Nf4 18. Bxf4 exf4 19. Nd4 Qf6 20. a5 Rfe8 21. Rfe1
+g5 22. h3 Re7 23. Re2 Qg6 24. Rae1 Rae8 25. Nf3 g4 26. hxg4 Qxg4 27. e5 dxe5 28.
+Rxe5 Rxe5 29. Rxe5 Rxe5 30. Nxe5 Qg3 31. Qd8+ Kh7 32. Qd2 f6 33. c5 Qg5 34. Qd3+
+Kg8 35. Qd5+ Kh7 36. Qe4+ f5 37. Qxb7 f3 38. Qxf3 Qc1+ 1-0
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "9.1"]
+[White "Wei, Yi"]
+[Black "Karjakin, Sergey"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2739"]
+[BlackElo "2760"]
+[ECO "A01"]
+[Opening "Nimzovich-Larsen attack"]
+[Variation "modern variation"]
+[WhiteFideId "8603405"]
+[BlackFideId "14109603"]
+[EventDate "2017.11.28"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 g6 4. f4 Bg7 5. Nf3 d6 6. fxe5 Nge7 7. Nc3 dxe5 8. Qe2
+O-O 9. O-O-O a5 10. a4 Nb4 11. h4 h5 12. Qf2 Bf5 13. e4 Bg4 14. Bc4 Nec6 15. Ng5
+Bf6 16. Nxf7 Rxf7 17. Rdf1 Kg7 18. Bxf7 Kxf7 19. Nd5 Nxd5 20. exd5 Nb4 21. Bxe5
+Bf5 22. Qg3 Ra6 23. Bxf6 Rxf6 24. d3 Nxd5 25. Qe5 Qd6 26. Qxd6 Rxd6 27. Kd2 Nf6
+28. Rf4 Ne4+ 29. Kc1 Nc5 30. Re1 b6 31. Re3 Ne6 32. Rf2 Rd4 33. Re4 Rd5 34. g4
+hxg4 35. Rxg4 Kg7 36. Rg3 Kh6 37. Kd2 Kh5 38. Ke3 Rd4 39. Rg1 Rxh4 40. Kd2 Kh6
+41. Re1 Rf4 42. Rxf4 Nxf4 43. Re7 Ne6 44. c3 g5 45. d4 Kg6 46. d5 Kf6 47. Rd7
+Nc5 48. Rxc7 Nxb3+ 49. Ke3 Ke5 50. Rc6 Kxd5 51. Rxb6 Kc4 52. Rb5 Bd7 53. Rxg5
+Kxc3 54. Rd5 Bxa4 55. Rd3+ Kb2 56. Rd6 Bb5 57. Rb6 Bc4 58. Rc6 Kc3 59. Rc7 a4
+60. Ra7 Kb4 61. Kf2 a3 62. Ke1 Na5 0-1
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "9.2"]
+[White "Deac, Bogdan-Daniel"]
+[Black "Ivanchuk, Vassily"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2566"]
+[BlackElo "2729"]
+[ECO "B51"]
+[Opening "Sicilian"]
+[Variation "Canal-Sokolsky (Nimzovich-Rossolimo, Moscow) attack"]
+[WhiteFideId "1226380"]
+[BlackFideId "14100010"]
+[EventDate "2017.11.28"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. a4 Nf6 5. Nc3 e6 6. a5 a6 7. Bxd7+ Bxd7 8. e5
+Nd5 9. Nxd5 exd5 10. O-O dxe5 11. Nxe5 Be6 12. c4 Be7 13. Qa4+ Kf8 14. d3 f6 15.
+Nf3 Kf7 16. Re1 Re8 17. Bf4 Bf8 18. h3 Re7 19. Re3 Qd7 20. Qb3 Rae8 21. Qc2 Bf5
+22. Qb3 g5 23. Rxe7+ Rxe7 24. Bh2 dxc4 25. dxc4 Re2 26. Bg3 h5 27. Rd1 Qc6 28.
+Rd8 h4 29. Bb8 Be7 30. Rd2 Re4 31. Kh1 Be6 32. Qc2 Bxc4 33. Rd1 Bd5 34. Qd3 Be6
+35. Nd2 Rd4 36. Qh7+ Kf8 37. Qh8+ Bg8 38. Qh6+ Ke8 39. Qh8 Qd5 40. Qg7 Qf7 41.
+Qh8 Qh7 42. Qxh7 Bxh7 43. Ba7 Kd7 44. b4 Bc2 45. Re1 Rxd2 0-1
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "10.1"]
+[White "Deac, Bogdan-Daniel"]
+[Black "Wei, Yi"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2566"]
+[BlackElo "2739"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "advance variation"]
+[WhiteFideId "1226380"]
+[BlackFideId "8603405"]
+[EventDate "2017.11.28"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. c3 Ng6 7. h4 h5 8. g3 Nd7 9.
+Nbd2 f6 10. exf6 Nxf6 11. Nf1 Bd6 12. Ng5 e5 13. Ne3 Qd7 14. dxe5 Nxe5 15. Nxf5
+Qxf5 16. Bf4 O-O-O 17. O-O Ne4 18. Bxh5 Kb8 19. Bxe5 Bxe5 20. Qg4 g6 21. Qxf5
+gxf5 22. Nf7 Rxh5 23. Nxd8 f4 24. Nf7 fxg3 25. Nxe5 gxf2+ 26. Rxf2 Nxf2 27. Kxf2
+Rxe5 28. Rh1 Kc7 29. h5 Kd6 30. h6 Re8 31. Rg1 Rh8 32. Rg6+ Ke5 33. Ke3 Kf5 34.
+Rg7 b6 35. h7 a5 36. Kd4 Kf6 37. Rc7 Kf5 38. a4 b5 39. Rxc6 bxa4 40. Rc5 Rxh7
+41. Rxd5+ Ke6 42. Rxa5 Rb7 43. Ra6+ Kd7 44. Rxa4 Rxb2 45. Kc5 Rh2 46. c4 Rh6 47.
+Ra7+ Kc8 1/2-1/2
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "10.2"]
+[White "Karjakin, Sergey"]
+[Black "Ivanchuk, Vassily"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2729"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Byrne (English) attack"]
+[WhiteFideId "14109603"]
+[BlackFideId "14100010"]
+[EventDate "2017.11.28"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 Be7 8. Bc4
+O-O 9. O-O Nc6 10. Re1 Be6 11. Nd5 Bxd5 12. exd5 Nb8 13. a4 Nbd7 14. a5 Ng4 15.
+Bc1 f5 16. Bf1 Bf6 17. h3 Nh6 18. c4 Nf7 19. b4 Ng5 20. Nxg5 Bxg5 21. c5 Bxc1
+22. Rxc1 Nf6 23. c6 Qc7 24. Qb3 e4 25. cxb7 Qxb7 26. Rc6 Rfb8 27. Rxd6 Qe7 28.
+Rxa6 Rxa6 29. d6+ Qf7 30. Bc4 1-0
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "11.1"]
+[White "Karjakin, Sergey"]
+[Black "Wei, Yi"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2760"]
+[BlackElo "2739"]
+[ECO "C24"]
+[Opening "Bishop's opening"]
+[Variation "Berlin defence"]
+[WhiteFideId "14109603"]
+[BlackFideId "8603405"]
+[EventDate "2017.11.28"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 c6 4. Nf3 d5 5. Bb3 a5 6. a4 Bb4+ 7. c3 Bd6 8. Bg5
+dxe4 9. dxe4 h6 10. Bh4 O-O 11. O-O Na6 12. Nbd2 Qe7 13. Nc4 Bc7 14. Bc2 Nc5 15.
+Re1 Bg4 16. h3 Bh5 17. Qe2 Rad8 18. Qe3 Ncd7 19. Bg3 Bxf3 20. Qxf3 Rfe8 21. Bh4
+g6 22. Red1 Kg7 23. Rd2 Nf8 24. Rad1 Rxd2 25. Rxd2 Rd8 26. Rxd8 Qxd8 27. Ne3 Ne6
+28. Ng4 Ng5 29. Bxg5 hxg5 30. Qxf6+ Qxf6 1/2-1/2
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "11.2"]
+[White "Ivanchuk, Vassily"]
+[Black "Deac, Bogdan-Daniel"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2729"]
+[BlackElo "2566"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "4.Nf3"]
+[WhiteFideId "14100010"]
+[BlackFideId "1226380"]
+[EventDate "2017.11.28"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 a6 5. cxd5 exd5 6. Qb3 c5 7. Bg5 c4 8. Qc2
+Be6 9. g3 Nbd7 10. Bg2 Be7 11. O-O O-O 12. Ne5 Rc8 13. f4 g6 14. f5 gxf5 15.
+Rxf5 Bxf5 16. Qxf5 Nxe5 17. dxe5 Ne4 18. Nxe4 dxe4 19. Bxe4 1-0
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "12.1"]
+[White "Wei, Yi"]
+[Black "Ivanchuk, Vassily"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2739"]
+[BlackElo "2729"]
+[ECO "C08"]
+[Opening "French"]
+[Variation "Tarrasch, open, 4.ed ed"]
+[WhiteFideId "8603405"]
+[BlackFideId "14100010"]
+[EventDate "2017.11.28"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 exd5 5. Ngf3 a6 6. Be2 c4 7. O-O Bd6 8. b3
+cxb3 9. cxb3 Nc6 10. Re1 Nge7 11. Bb2 O-O 12. Ne5 f6 13. Nxc6 Nxc6 14. Bf3 Kh8
+15. Nf1 Bf5 16. Ne3 Be4 17. Bxe4 dxe4 18. Nf5 Ne7 19. Qg4 Nxf5 20. Qxf5 Rc8 21.
+Qxe4 Qd7 22. Rac1 Rxc1 23. Rxc1 Re8 24. Qd3 Qe6 25. d5 Qe1+ 26. Qf1 Qd2 27. Bc3
+Qxd5 28. Rd1 Qc6 1/2-1/2
+
+[Event "11th Kings Blitz 2017"]
+[Site "Medias ROU"]
+[Date "2017.11.28"]
+[Round "12.2"]
+[White "Deac, Bogdan-Daniel"]
+[Black "Karjakin, Sergey"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2566"]
+[BlackElo "2760"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "1226380"]
+[BlackFideId "14109603"]
+[EventDate "2017.11.28"]
+[EventType "blitz"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d6 5. Bd2 Nbd7 6. a3 Bxc3 7. Bxc3 a5 8. e4
+e5 9. Nf3 Qe7 10. Bd3 a4 11. O-O O-O 12. Rfe1 b6 13. Nd2 c5 14. d5 Nh5 15. g3
+Ndf6 16. b4 axb3 17. Qxb3 Bh3 18. f3 Nd7 19. Qc2 g6 20. Nf1 Qg5 21. Bd2 Qf6 22.
+Be2 Qg7 23. Qc1 Rfe8 24. Bh6 Qf6 25. Bg5 Qg7 26. Bh6 Qf6 27. Bg5 Qh8 28. a4 Nhf6
+29. Bh6 Ra6 30. Nd2 Rea8 31. Bd1 Ne8 32. Re3 Qf6 33. f4 exf4 34. gxf4 Bf5 35.
+exf5 Qxf5 36. Qc2 Qf6 37. Ra2 Ng7 38. Ne4 Qd4 39. Ra3 Nf5 40. Qe2 Nxh6 41. Rd3
+Qa1 42. Nxd6 Rf8 43. Re8 Ra8 44. Rxa8 Rxa8 45. Qe7 Nf6 46. f5 Rf8 47. a5 bxa5
+48. Kg2 Qb2+ 49. Qe2 Qc1 50. Rb3 0-1
+

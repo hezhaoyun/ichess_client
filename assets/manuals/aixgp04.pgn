@@ -1,0 +1,382 @@
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.08"]
+[Round "1.1"]
+[White "Gouliev,N"]
+[Black "Lautier,J"]
+[Result "0-1"]
+[WhiteElo "2509"]
+[BlackElo "2682"]
+[EventDate "2004.12.08"]
+[ECO "B33"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6
+8. Na3 b5 9. Bxf6 gxf6 10. Nd5 f5 11. Bd3 Be6 12. O-O Bxd5 13. exd5 Ne7 14.
+Re1 Bg7 15. c3 O-O 16. Qh5 e4 17. Bf1 Qd7 18. Rad1 Ng6 19. Nc2 Rfe8 20. g3
+f4 21. Bh3 Qa7 22. Bf5 e3 23. fxe3 fxe3 24. Kg2 Re5 25. Nb4 Qc5 26. Qf3
+Ree8 27. Re2 Ne5 28. Qh5 h6 29. Rd4 a5 30. Nc2 Nc4 31. b4 axb4 32. cxb4 Qc7
+33. Rg4 Ne5 34. Rxg7+ Kxg7 35. Nxe3 Ng6 36. Bd3 Rxe3 37. Rxe3 Rxa2+ 38. Re2
+Rxe2+ 39. Qxe2 Ne5 40. Bxb5 Qb7 41. Bd3 Qxb4 42. Be4 Qd4 43. Bf3 Nc4 44.
+Qe4 Qd2+ 45. Kh3 Ne5 46. Bg2 Qd1 47. Qh4 Qe2 48. Qe7 Qd2 49. Qh4 Qe3 50.
+Qf4 Qxf4 51. gxf4 Nd3 52. Kg3 Kf6 53. Be4 Nc5 54. Kf3 Nd7 55. Bc2 Nb6 56.
+Bb3 Nd7 57. Bc2 Nc5 58. Bb1 Ke7 59. Bc2 Nd7 60. Bb3 Nf6 61. Ba2 Kd8 62. Ke3
+Kc7 63. Kd4 Kb6 64. Bc4 Ka5 65. Kc3 Ka4 66. Bb3+ Kb5 67. Kd4 Kb4 68. Bc4
+Ng4 69. h3 Nf6 70. Bf1 Kb3 71. Bg2 Kc2 72. Bf3 Kd2 73. Bg4 Ke1 74. Kc4 Kf2
+75. Bc8 Kg3 76. f5 Kxh3 77. Kb5 Kg3 78. Kc6 Ne4 79. f6 Kf4 80. Ba6 Ke5 81.
+Bf1 Nxf6 82. Bh3 Nxd5 83. Bf1 Nf4 84. Kb5 h5 0-1
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.08"]
+[Round "1.2"]
+[White "Lautier,J"]
+[Black "Gouliev,N"]
+[Result "1-0"]
+[WhiteElo "2682"]
+[BlackElo "2509"]
+[EventDate "2004.12.08"]
+[ECO "E70"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. Be3 c6 6. h3 d5 7. cxd5 cxd5 8.
+e5 Ne4 9. Bd3 Nc6 10. Nge2 Bf5 11. Bxe4 Bxe4 12. Nxe4 dxe4 13. O-O Qd7 14.
+Qc2 Qd5 15. Rfd1 Nb4 16. Qd2 Nd3 17. Nc3 Qc6 18. f3 Rad8 19. Qe2 f5 20.
+exf6 Bxf6 21. fxe4 Nb4 22. a3 Na6 23. Nd5 Qe6 24. Qg4 Qxg4 25. hxg4 Rd7 26.
+Nxf6+ exf6 27. e5 Re8 28. Bf4 g5 29. Bg3 Red8 30. exf6 Rxd4 31. Rxd4 Rxd4
+32. Be5 Rxg4 33. Rd1 Nc5 34. b4 Re4 35. Bb8 Ne6 36. Rd7 h5 37. Bd6 g4 38.
+f7+ Kh8 39. Re7 1-0
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.08"]
+[Round "1.1"]
+[White "Kosteniuk,A"]
+[Black "Kazhgaleyev,M"]
+[Result "0-1"]
+[WhiteElo "2508"]
+[BlackElo "2607"]
+[EventDate "2004.12.08"]
+[ECO "C78"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bc5 7. a4 Rb8 8.
+axb5 axb5 9. c3 d6 10. d4 Bb6 11. Na3 O-O 12. Nxb5 exd4 13. cxd4 Bg4 14.
+Ba4 Bxf3 15. gxf3 d5 16. e5 Nh5 17. Be3 Qh4 18. Qd2 Nd8 19. Nc3 Ne6 20. Bc6
+Bxd4 21. Ra4 Nhf4 22. Bxf4 Nxf4 23. Kh1 Qh3 0-1
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.08"]
+[Round "1.2"]
+[White "Kazhgaleyev,M"]
+[Black "Kosteniuk,A"]
+[Result "1-0"]
+[WhiteElo "2607"]
+[BlackElo "2508"]
+[EventDate "2004.12.08"]
+[ECO "D47"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 e6 5. Nf3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8.
+Bb3 a6 9. e4 b4 10. e5 bxc3 11. exf6 cxb2 12. fxg7 Bxg7 13. Bxb2 Qa5+ 14.
+Nd2 c5 15. O-O Bb7 16. Nc4 Qc7 17. d5 Bxb2 18. dxe6 fxe6 19. Qh5+ Ke7 20.
+Nxb2 Nf6 21. Qh3 Nd5 22. Rfe1 Qc6 23. Nd3 Rag8 24. Bxd5 Qxd5 25. Nf4 Rxg2+
+26. Qxg2 Qxg2+ 27. Nxg2 Rg8 28. f3 1-0
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.09"]
+[Round "1.1"]
+[White "Istratescu,A"]
+[Black "Stefanova,A"]
+[Result "1-0"]
+[WhiteElo "2611"]
+[BlackElo "2523"]
+[EventDate "2004.12.08"]
+[ECO "A29"]
+
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7
+8. a3 Be6 9. b4 a5 10. b5 Nd4 11. Rb1 f6 12. d3 a4 13. Nd2 Bd5 14. Nxd5
+Nxd5 15. Bb2 Nxb5 16. Qc1 c6 17. Qc4 Ra5 18. Qg4 O-O 19. Nc4 Ra6 20. Be4
+Qe8 21. Ba1 Nb6 22. Bf5 Nxc4 23. dxc4 Nd6 24. Bd7 Qg6 25. Qe6+ Qf7 26. Qh3
+Kh8 27. Be6 Qe8 28. Rfd1 b6 29. Bd7 Qf7 30. Be6 Qe8 1-0
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.09"]
+[Round "1.2"]
+[White "Stefanova,A"]
+[Black "Istratescu,A"]
+[Result "0-1"]
+[WhiteElo "2523"]
+[BlackElo "2611"]
+[EventDate "2004.12.08"]
+[ECO "A45"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 d5 4. e3 c6 5. Bd3 Nd6 6. Nd2 Nd7 7. Ngf3 g6 8.
+c4 dxc4 9. Nxc4 Nxc4 10. Bxc4 Qa5+ 11. Kf1 Nb6 12. Bb3 Bg7 13. Be5 O-O 14.
+Bxg7 Kxg7 15. Ne5 c5 16. Rc1 cxd4 17. Qxd4 f6 18. Nd3 Bf5 19. e4 Rad8 20.
+Qc5 Qxc5 21. Nxc5 Bc8 22. Ke2 Rd6 23. a4 a5 24. Rhd1 Rfd8 25. Rxd6 Rxd6 26.
+Nd3 Kf8 27. Ke3 Be6 28. Bxe6 Rxe6 29. Rc5 f5 30. e5 Nxa4 31. Rxa5 Nb6 32.
+Kd4 Nd7 33. Ra8+ Kg7 34. Rd8 Nf8 35. Nc5 Rc6 36. Kd5 Rxc5+ 0-1
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.09"]
+[Round "1.1"]
+[White "Karpov,Ana"]
+[Black "Flear,G"]
+[Result "1/2-1/2"]
+[WhiteElo "2682"]
+[BlackElo "2457"]
+[EventDate "2004.12.08"]
+[ECO "D37"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. e3 Be7 5. Nc3 O-O 6. Bd3 dxc4 7. Bxc4 c5 8.
+O-O a6 9. dxc5 Qxd1 10. Rxd1 Bxc5 11. Ne5 Nbd7 12. Nd3 Be7 13. f3 b5 14.
+Bb3 Bb7 15. e4 Nc5 16. Nxc5 Bxc5+ 17. Kf1 Rfd8 18. Bf4 Kf8 19. Bc7 Rxd1+
+20. Rxd1 Rc8 21. Ba5 Ke7 22. Ne2 g5 23. Bd2 Rg8 24. a3 g4 25. Rc1 Bd6 26.
+Bb4 Nd7 27. Rc7 gxf3 28. gxf3 Bxb4 29. axb4 Rb8 30. Nf4 Kd6 31. Rc3 Ne5 32.
+Kf2 Rc8 33. Ke3 Rg8 34. Rc2 Rg1 35. Nd3 Nxd3 36. Kxd3 f5 37. Rc5 fxe4+ 38.
+fxe4 e5 39. Bd5 Bxd5 40. Rxd5+ Ke6 41. Rc5 Kd6 42. Rd5+ Ke6 {Game may not
+be fully correct towards the end} 1/2-1/2
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.09"]
+[Round "1.2"]
+[White "Flear,G"]
+[Black "Karpov,Ana"]
+[Result "0-1"]
+[WhiteElo "2457"]
+[BlackElo "2682"]
+[EventDate "2004.12.08"]
+[ECO "E32"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d6 6. a3 Bxc3+ 7. bxc3 Nc6
+8. Bd3 h6 9. Ne2 b6 10. f4 Na5 11. e5 Ne8 12. Ng3 Ba6 13. Qe2 d5 14. cxd5
+Bxd3 15. Qxd3 Qxd5 16. O-O f5 17. exf6 Nxf6 18. Bd2 Nc4 19. Rae1 c5 20. Bc1
+cxd4 21. cxd4 Rad8 22. Rd1 b5 23. Qg6 Qd7 24. f5 Qe8 25. Qxe8 Rfxe8 26.
+fxe6 Rxe6 27. Nf5 Nd5 28. Rf3 Kh7 29. h3 Rd7 30. g4 a5 31. Kf2 b4 32. axb4
+axb4 33. Bd2 Rf7 34. Bc1 Ra7 35. g5 hxg5 36. Bxg5 Nc3 37. Rc1 Ne4+ 38. Kg1
+Nxg5 39. Rg3 Nd2 40. d5 Re5 41. Ne3 Ngf3+ 42. Kh1 Rxe3 0-1
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.10"]
+[Round "2.1"]
+[White "Istratescu,A"]
+[Black "Lautier,J"]
+[Result "1-0"]
+[WhiteElo "2611"]
+[BlackElo "2682"]
+[EventDate "2004.12.08"]
+[ECO "D31"]
+
+1. c4 e6 2. d4 d5 3. Nc3 c6 4. cxd5 exd5 5. Bf4 Bd6 6. Bg3 Ne7 7. e3 Nf5 8.
+Bd3 Nxg3 9. hxg3 Nd7 10. Qc2 Nf6 11. O-O-O g6 12. Kb1 Kf8 13. Nge2 Ng4 14.
+Nf4 Kg7 15. Qd2 Bxf4 16. gxf4 f5 17. Qe1 Re8 18. Ne2 Qe7 19. Ng1 a5 20. Nf3
+Be6 21. Rc1 Qb4 22. Qe2 a4 23. a3 Qe7 24. Ne5 Nxe5 25. fxe5 h5 26. f3 Qg5
+27. Qf2 Rf8 28. f4 Qe7 29. Rh3 Rh8 30. Rg3 Kf7 31. Rg5 Rh6 32. Rh1 Rah8 33.
+Qc2 h4 34. Qxa4 h3 35. gxh3 Rxh3 36. Rhg1 R8h6 37. Qc2 Rxe3 38. Bxf5 Bxf5
+39. Rxf5+ Ke8 40. Rf6 Qh7 41. Qa4 Kd7 42. Rd6+ Ke7 43. Qb4 g5+ 44. Ka2 Rxd6
+45. Qxd6+ Ke8 46. Rxg5 1-0
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.10"]
+[Round "2.2"]
+[White "Lautier,J"]
+[Black "Istratescu,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2682"]
+[BlackElo "2611"]
+[EventDate "2004.12.08"]
+[ECO "D37"]
+
+1. d4 e6 2. c4 d5 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8.
+Qc2 Nc6 9. a3 Qa5 10. Nd2 Be7 11. Bg3 Bd7 12. Be2 Qd8 13. Qd3 dxc4 14. Nxc4
+b5 15. Nd2 b4 16. Nb5 a6 17. Nd6 bxa3 18. bxa3 Qa5 19. O-O Ne5 20. Nb3 Nxd3
+21. Nxa5 Nc5 22. Bf3 Rab8 23. Ndc4 Nb3 24. Bxb8 Nxa1 25. Bd6 Bxd6 26. Nxd6
+Nc2 27. Ndc4 Rc8 28. Rd1 Rc5 29. Bb7 Nxa3 30. Bxa6 Nxc4 31. Nxc4 Kf8 32. h3
+Bb5 1/2-1/2
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.10"]
+[Round "2.1"]
+[White "Karpov,Ana"]
+[Black "Kazhgaleyev,M"]
+[Result "1-0"]
+[WhiteElo "2682"]
+[BlackElo "2607"]
+[EventDate "2004.12.08"]
+[ECO "D10"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e5 4. e3 e4 5. Bd2 Nf6 6. Rc1 Be7 7. Nge2 Na6 8.
+cxd5 cxd5 9. Nf4 O-O 10. Bxa6 bxa6 11. Qb3 Be6 12. Nxe6 fxe6 13. Qd1 Qe8
+14. Qe2 Qg6 15. O-O Ng4 16. Qxa6 Rad8 17. Ne2 Bd6 18. Nf4 Qh6 19. h3 g5 20.
+Rc6 gxf4 21. Rxd6 Rxd6 22. Qxd6 fxe3 23. fxe3 Rxf1+ 24. Kxf1 Nxe3+ 25. Ke2
+Nf5 26. Bxh6 Nxd6 27. g4 1-0
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.10"]
+[Round "2.2"]
+[White "Kazhgaleyev,M"]
+[Black "Karpov,Ana"]
+[Result "1/2-1/2"]
+[WhiteElo "2607"]
+[BlackElo "2682"]
+[EventDate "2004.12.08"]
+[ECO "E12"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 d5 6. cxd5 Nxd5 7. Qc2 Nxc3
+8. bxc3 Be7 9. e4 O-O 10. Bd3 c5 11. O-O Qc8 12. Qe2 Ba6 13. Rd1 cxd4 14.
+cxd4 Bxd3 15. Rxd3 Nd7 16. e5 Re8 17. Bg5 Nf8 18. h4 h6 19. Be3 Qb7 20. h5
+Rac8 21. Nd2 Nh7 22. Qg4 Kh8 23. Rd1 Qd5 24. Bf4 Bg5 25. Bxg5 Nxg5 26. f3
+Qb5 27. Nf1 Rc1 28. f4 Ne4 29. Qf3 Rxd1 30. Rxd1 f5 31. Ne3 Nc3 32. Rd2 Rd8
+33. Nxf5 Qb1+ 34. Kh2 Qxf5 35. Qxc3 Qxf4+ 36. Kg1 Qg5 37. Rf2 Qxh5 38. Rf3
+Qg4 39. Rd3 Qe4 40. Rd1 Kh7 41. Qc4 1/2-1/2
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.11"]
+[Round "3.1"]
+[White "Kazhgaleyev,M"]
+[Black "Lautier,J"]
+[Result "1-0"]
+[WhiteElo "2607"]
+[BlackElo "2682"]
+[EventDate "2004.12.08"]
+[ECO "D47"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nf6 5. Nf3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8.
+Bb3 b4 9. Ne2 Bd6 10. Ng3 Bb7 11. e4 Bxg3 12. hxg3 Nxe4 13. Qc2 c5 14. Rh4
+c4 15. Ba4 Nef6 16. Ne5 Qa5 17. Nxc4 Qd5 18. Bf4 O-O 19. Ne3 Qa5 20. Nc4
+Qd5 21. Bxd7 Qxd7 22. Be5 Rfc8 23. Bxf6 gxf6 24. Qxh7+ Kf8 25. Ne3 Ke7 26.
+d5 Bxd5 27. Rd1 Rc5 28. Rxb4 Qc6 29. Rbd4 Rd8 30. Qd3 a5 31. Qa3 Ke8 32.
+Qa4 Qxa4 33. Rxa4 Bc6 34. Rxd8+ Kxd8 35. Rc4 Rxc4 36. Nxc4 Bd5 37. b3 a4
+38. f3 axb3 39. axb3 Kc7 40. Kd2 Kc6 41. Kc3 Kc5 42. b4+ Kc6 43. Ne3 Ba2
+44. Kb2 Bd5 45. g4 1-0
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.11"]
+[Round "3.2"]
+[White "Lautier,J"]
+[Black "Kazhgaleyev,M"]
+[Result "1-0"]
+[WhiteElo "2682"]
+[BlackElo "2607"]
+[EventDate "2004.12.08"]
+[ECO "D11"]
+
+1. d4 d5 2. c4 c6 3. Nf3 dxc4 4. e3 Be6 5. a4 Nf6 6. Nc3 Bd5 7. Nd2 g6 8.
+e4 Be6 9. Nxc4 Bg7 10. f3 O-O 11. Be3 a5 12. Be2 Na6 13. O-O Nb4 14. Rc1
+Ne8 15. d5 cxd5 16. exd5 Bd7 17. Kh1 Nd6 18. Bb6 Qb8 19. Nxa5 Bh6 20. Ra1
+Nf5 21. Nc4 Bf4 22. Bg1 e6 23. Nb6 Qd8 24. g4 Ne7 25. Qd4 Bd6 26. dxe6 Bxe6
+27. Nxa8 Nec6 28. Qd2 Qe7 29. Nb6 Rd8 30. Qh6 Be5 31. Rad1 Nd4 32. Bc4 Nbc6
+33. Nbd5 Qc5 34. Ne4 Bxd5 35. Nxc5 Bxc4 36. Ne4 Re8 37. Rfe1 1-0
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.11"]
+[Round "3.3"]
+[White "Kazhgaleyev,M"]
+[Black "Lautier,J"]
+[Result "0-1"]
+[WhiteElo "2607"]
+[BlackElo "2682"]
+[EventDate "2004.12.08"]
+[ECO "A85"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Bd6 5. Nf3 f5 6. Be2 Nf6 7. Ne5 O-O 8.
+O-O b6 9. f4 Bb7 10. Bd2 c5 11. Nb5 Be7 12. Bf3 Nc6 13. dxc5 Bxc5 14. Nxc6
+Bxc6 15. b4 Bxb5 16. cxb5 Bd6 17. Bc3 Rc8 18. Rc1 Qe7 19. a3 Rc7 20. Bxf6
+Qxf6 21. Rxc7 Bxc7 22. Qc2 Bd6 23. Qc6 Qe7 24. Rd1 Rd8 25. Qc3 Rd7 26. Qc6
+h6 27. Qc8+ Rd8 28. Qc6 Rd7 29. Qc8+ Kh7 30. Qc2 Rc7 31. Qd3 Qf6 32. Qd2
+Qc3 33. g4 g6 34. Kh1 Qxd2 35. Rxd2 Rc3 36. Re2 Rxa3 37. Kg2 Bxb4 38. Rc2
+Bc5 39. h4 Rxe3 40. Ra2 Ra3 41. Re2 Be3 42. Kg3 d4 43. Rc2 Rc3 44. Ra2 Rc7
+45. Be2 Kg7 46. Bd3 Kf6 47. Kf3 fxg4+ 48. Kxg4 Rc3 49. Be4 h5+ 50. Kf3 Bc1+
+51. Kg2 Bxf4 52. Rxa7 Rg3+ 53. Kf2 Re3 54. Bc6 d3 55. Rd7 e5 56. Bd5 g5 57.
+Rd6+ Ke7 58. Re6+ Kd7 0-1
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.11"]
+[Round "3.4"]
+[White "Lautier,J"]
+[Black "Kazhgaleyev,M"]
+[Result "0-1"]
+[WhiteElo "2682"]
+[BlackElo "2607"]
+[EventDate "2004.12.08"]
+[ECO "A65"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. Nge2 Nc6 8.
+d5 Ne5 9. Ng3 e6 10. Be2 exd5 11. cxd5 h5 12. O-O a6 13. a4 h4 14. Nh1 Nh7
+15. Nf2 f5 16. Qd2 Bd7 17. exf5 gxf5 18. Nh3 Ng6 19. f4 Re8 20. Bf2 Nf6 21.
+Ng5 Bh6 22. h3 Qe7 23. Bc4 Qg7 24. Be3 Rad8 25. Rae1 Kh8 26. Ba2 Rxe3 27.
+Qxe3 Nxf4 28. Qxf4 Bxg5 29. Qxd6 Rg8 30. Re2 Nh5 31. Rf3 Bf6 32. Bb1 Ng3
+33. Rxg3 hxg3 34. Kh1 Rf8 35. Qf4 Kg8 36. Re3 Bg5 37. Qf3 Bxe3 38. Qxe3 f4
+39. Qf3 Qe5 40. Be4 Bf5 41. Qh5 Rf6 42. Qg5+ Kf8 43. d6 Rxd6 44. Qxf5+ Qxf5
+45. Bxf5 Rd2 46. h4 Rxb2 47. Bg4 Rc2 48. Nd1 c4 49. Kg1 c3 50. Kf1 Rc1 51.
+Ke1 c2 52. Kd2 Ra1 53. Kc3 Ra2 54. Kd3 0-1
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.11"]
+[Round "3.5"]
+[White "Kazhgaleyev,M"]
+[Black "Lautier,J"]
+[Result "1-0"]
+[WhiteElo "2607"]
+[BlackElo "2682"]
+[EventDate "2004.12.08"]
+[ECO "A84"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Bd6 5. Bd3 f5 6. g4 Nf6 7. gxf5 exf5 8.
+Nf3 O-O 9. Qb3 Kh8 10. Bd2 dxc4 11. Bxc4 Qe7 12. O-O-O Nbd7 13. Qc2 Ne4 14.
+Rhf1 Ndf6 15. Ne5 Nxd2 16. Qxd2 Bxe5 17. Rg1 Be6 18. Rg3 Rad8 19. Bd3 Ng4
+20. Qc2 Nxf2 21. Rdg1 Rd7 22. Qxf2 a6 23. Qf4 Bd5 24. Qxe5 h6 25. h4 Kh7
+26. h5 1-0
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.11"]
+[Round "3.1"]
+[White "Karpov,Ana"]
+[Black "Istratescu,A"]
+[Result "1-0"]
+[WhiteElo "2682"]
+[BlackElo "2611"]
+[EventDate "2004.12.08"]
+[ECO "E15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb7 6. Bg2 Bb4+ 7. Bd2 a5 8.
+O-O O-O 9. Qc2 d6 10. Nc3 Nbd7 11. Rad1 Bxc3 12. Bxc3 Be4 13. Qb2 c6 14.
+Rfe1 b5 15. Bf1 bxc4 16. bxc4 Nb6 17. Nd2 Na4 18. Qa3 Nxc3 19. Qxc3 d5 20.
+e3 Qe7 21. Nxe4 Nxe4 22. Qc2 h5 23. Bg2 f5 24. Rb1 Rab8 25. Rec1 h4 26. Rb3
+Rxb3 27. axb3 Rb8 28. Ra1 Qb4 29. cxd5 cxd5 30. gxh4 Nd2 31. Qc6 Qe7 32.
+Rxa5 Rxb3 33. Bxd5 exd5 34. Qxd5+ Kh7 35. Qxf5+ g6 36. Qd5 Rb6 37. Kg2 Ne4
+38. h5 Rf6 39. hxg6+ Kg7 40. f4 Rxg6+ 41. Kf3 Nf6 42. Qa8 Nd7 43. Rh5 Nf6
+44. Ra5 Rh6 45. Ra7 Nd7 46. Qd5 Rd6 47. Qg5+ Qxg5 48. fxg5 Kg6 49. Kg4 Nb6
+50. h4 Rd7 51. h5+ Kf7 52. Rxd7+ Nxd7 53. Kf5 Kg7 54. e4 Nb6 55. d5 Nc4 56.
+e5 Kf7 57. h6 Ne3+ 58. Ke4 Ng4 59. Kf4 Nf2 60. Kf5 Nd3 61. g6+ Ke7 62. h7
+Nb4 63. h8=Q 1-0
+
+[Event "GP"]
+[Site "Aix-En-Provence FRA"]
+[Date "2004.12.11"]
+[Round "3.2"]
+[White "Istratescu,A"]
+[Black "Karpov,Ana"]
+[Result "1/2-1/2"]
+[WhiteElo "2611"]
+[BlackElo "2682"]
+[EventDate "2004.12.08"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. O-O h6 7. b3 a5 8. Ba3
+Ng6 9. Bxf8 Nxf8 10. c4 Ng6 11. Qd2 Bg4 12. Qe3 Bxf3 13. Bxf3 Nh4 14. Bg4
+Qg5 15. Qg3 Nd7 16. Nc3 Qe7 17. cxd5 cxd5 18. Rac1 Rd8 19. Nb5 O-O 20. Rc7
+Rc8 21. Rxb7 Rb8 22. Nd6 {Game incomplete} 1/2-1/2
+

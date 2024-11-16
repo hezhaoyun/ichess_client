@@ -1,0 +1,487 @@
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.07"]
+[Round "1.1"]
+[White "Moiseenko, Alexander"]
+[Black "Wojtaszek, Radoslaw"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2707"]
+[BlackElo "2724"]
+[ECO "A80"]
+[Opening "Dutch, 2.Bg5 variation"]
+[WhiteTeam "UKR"]
+[BlackTeam "POL"]
+[WhiteFideId "14102560"]
+[BlackFideId "1118358"]
+[EventDate "2014.05.07"]
+
+1. d4 f5 2. Bg5 h6 3. Bd2 Nf6 4. e3 e6 5. Be2 g6 6. Nh3 d6 7. Nf4 Rg8 8. Bc4 Qe7
+9. Nc3 Nc6 10. O-O g5 11. Nh5 d5 12. Be2 Bd7 13. Nb5 O-O-O 14. Nxf6 Qxf6 15. c4
+g4 16. cxd5 exd5 17. Rc1 f4 18. exf4 a6 19. Nc3 Qxd4 20. a3 Bf5 21. b4 g3 22.
+hxg3 Rxg3 23. Kh2 Rg6 24. b5 axb5 25. Nxb5 Qf6 26. g3 Re8 27. Bh5 Bd3 28. Re1
+Rxe1 29. Qxe1 Be7 30. Bc3 Qf5 31. Bxg6 Qxg6 32. Na7+ Kd7 33. Nxc6 Qh5+ 34. Kg1
+bxc6 35. Qe5 Qf3 36. Qe3 Qxe3 37. fxe3 Bxa3 38. Ra1 Bc5 39. Kf2 h5 40. Ra8 Ke6
+41. Be5 Bd6 42. Rg8 Bf5 43. Bxd6 cxd6 44. Rg5 Bg4 45. Ke1 Kf6 46. Kd2 Bf3 47.
+Kc3 c5 48. Kb2 Ke6 49. Kb3 Bg4 50. Kc3 Bf3 51. Kd2 Bg4 52. Ke1 Bf3 53. Rg6+ Ke7
+54. Rh6 Bg4 55. Kd2 Bf3 56. Kc3 Bg4 57. Kb2 Bf3 58. Kb3 Bd1+ 59. Ka3 Kd7 60. Kb2
+Ke7 61. Kb1 Bg4 62. Kc2 Be2 63. Kd2 Bg4 64. Ke1 Bf3 65. Kf2 Bd1 66. f5 Bg4 67.
+Re6+ Kd7 68. Rf6 Ke7 69. Rh6 c4 70. Ke1 c3 71. Re6+ Kd7 72. Rf6 Ke7 73. Rh6 Bf3
+74. Rh7+ Kf6 75. Rc7 Kxf5 76. Rxc3 d4 77. Rc4 Kg4 78. Kf2 d5 79. Rxd4+ Be4 80.
+Rd1 Kh3 81. Ra1 Kg4 82. Ra8 Kg5 83. Rg8+ Kf5 84. Ke2 Bg2 85. Rf8+ Kg4 86. Kf2
+Be4 87. Rf4+ Kg5 88. Kg1 Bf5 89. Kf1 Be4 90. Ke1 Bg2 91. Kd2 Be4 92. Kc3 Bg2 93.
+Kd4 Bh1 94. Rf8 Kg4 95. Rg8+ Kf5 96. Kd3 Be4+ 97. Ke2 Bc2 98. Kf2 Be4 99. Kg1
+Bf3 100. Re8 Kg4 101. Kf2 Be4 102. Rg8+ Kf5 103. Rg7 Kf6 104. Ra7 Kf5 105. Rf7+
+Kg6 106. Rf4 Kg5 107. Rh4 Bf5 108. Ke2 Be4 109. Kd2 Bf5 110. Kc3 Be4 111. Kd4
+Bg2 112. Ke5 Be4 113. Rf4 Bg2 114. Rf2 Be4 115. Rf4 Bg2 116. Rf8 Kg4 117. Rg8+
+Kf3 118. Kd4 Kf2 119. g4 hxg4 120. Rxg4 Bf3 121. Rf4 Ke2 122. Rh4 Kf2 123. Kd3
+Ke1 124. Ra4 Be2+ 125. Kd4 Bf3 126. Ra2 Be4 127. Ke5 Bf3 128. Rb2 Kd1 129. Kf4
+Be4 130. Rb4 Bg2 131. Rb1+ Kc2 132. Ra1 Kd3 133. Ra3+ Kc4 134. Ra2 Bh1 135. Rd2
+Kc5 136. Ke5 Be4 137. Rd1 1-0
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.07"]
+[Round "1.2"]
+[White "Areshchenko, Alexander"]
+[Black "Gajewski, Grzegorz"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2701"]
+[BlackElo "2641"]
+[ECO "B43"]
+[Opening "Sicilian"]
+[Variation "Kan, 5.Nc3"]
+[WhiteTeam "UKR"]
+[BlackTeam "POL"]
+[WhiteFideId "14109530"]
+[BlackFideId "1116207"]
+[EventDate "2014.05.07"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Be2 Nf6 7. O-O Bc5 8. Qd3
+Nc6 9. Nxc6 bxc6 10. Kh1 d5 11. f4 O-O 12. e5 Nd7 13. Na4 Be7 14. c4 dxc4 15.
+Qxc4 Nb6 16. Nxb6 Qxb6 17. Rf3 a5 18. Rb3 Qc7 19. Bf3 Ba6 20. Qc2 Rab8 21. Bd2
+c5 22. Rxb8 Rxb8 23. Rd1 Bb7 24. Bxb7 Qxb7 25. Bc3 Qc6 26. f5 exf5 27. Qxf5 Qa4
+28. Qb1 Qc4 29. h3 a4 30. a3 Rd8 31. Rxd8+ Bxd8 32. Qd1 Bg5 33. Qf3 h5 34. g3 h4
+35. gxh4 Bxh4 36. Kg2 Bg5 37. Kf2 Bh4+ 38. Kg2 Bg5 39. Kf2 Bh4+ 40. Kg2 1/2-1/2
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.07"]
+[Round "1.3"]
+[White "Swiercz, Dariusz"]
+[Black "Efimenko, Zahar"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2608"]
+[BlackElo "2648"]
+[ECO "C78"]
+[Opening "Ruy Lopez"]
+[Variation "...b5 & ...d6"]
+[WhiteTeam "POL"]
+[BlackTeam "UKR"]
+[WhiteFideId "1126881"]
+[BlackFideId "14107201"]
+[EventDate "2014.05.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 d6 7. d3 Be7 8. a3 O-O
+9. Nc3 Na5 10. Ba2 Be6 11. Bd2 Bxa2 12. Rxa2 Nc6 13. a4 Rb8 14. Nd5 b4 15. Nxe7+
+Nxe7 16. Bg5 Ng6 17. Nh4 h6 18. Nxg6 fxg6 19. Be3 g5 20. Ra1 c5 21. c3 Qe7 22.
+f3 Kh8 23. d4 bxc3 24. bxc3 cxd4 25. cxd4 Rb4 26. Rc1 Rfb8 27. dxe5 Qxe5 28. Bf2
+Ne8 29. Rc6 Qa5 30. Bg3 Qxa4 31. Qxa4 Rxa4 32. e5 Rd8 33. exd6 Rd4 34. Rxa6 Nxd6
+35. Rxd6 R8xd6 36. Bxd6 Rxd6 37. Re1 Kh7 38. Re4 Rd2 39. h3 Ra2 40. Kh2 Rb2 41.
+Kg3 Ra2 1/2-1/2
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.07"]
+[Round "1.4"]
+[White "Duda, Jan-Krzysztof"]
+[Black "Oleksienko, Mikhailo"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2587"]
+[BlackElo "2618"]
+[ECO "B15"]
+[Opening "Caro-Kann"]
+[Variation "Gurgenidze system"]
+[WhiteTeam "POL"]
+[BlackTeam "UKR"]
+[WhiteFideId "1170546"]
+[BlackFideId "4152417"]
+[EventDate "2014.05.07"]
+
+1. e4 c6 2. d4 d5 3. Nc3 g6 4. e5 Bg7 5. f4 Qb6 6. Be2 Nh6 7. Nf3 Bg4 8. O-O Nd7
+9. a4 a5 10. Be3 Nf5 11. Bf2 e6 12. Qd2 h5 13. h3 Bxf3 14. Bxf3 h4 15. Ne2 Bf8
+16. Rfd1 Be7 17. b3 Kf8 18. Qe1 Kg7 19. Kh1 Rad8 20. Rab1 Nb8 21. Bg4 Na6 22. c3
+Rc8 23. Ng1 Qd8 24. Nf3 Nc7 25. Rdc1 Ra8 26. Rc2 Kf8 27. Nh2 Ne8 28. c4 Bb4 29.
+Qd1 Neg7 30. Nf3 Be7 31. Qc1 Nh5 32. Bxf5 exf5 33. c5 Ng7 34. b4 axb4 35. Rxb4
+Ra7 36. Rcb2 Qa8 37. Qe1 Ne6 38. Kh2 Nxf4 39. Qb1 Ne6 40. Rxb7 Rxb7 41. Rxb7
+Qxa4 42. Rb8+ Kg7 43. Rxh8 Kxh8 44. Qb7 Qc2 45. Bxh4 Bxh4 46. Qxf7 Qe4 47. Nxh4
+Qxh4 1/2-1/2
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.08"]
+[Round "2.1"]
+[White "Oleksienko, Mikhailo"]
+[Black "Swiercz, Dariusz"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2618"]
+[BlackElo "2608"]
+[ECO "A80"]
+[Opening "Dutch"]
+[WhiteTeam "UKR"]
+[BlackTeam "POL"]
+[WhiteFideId "4152417"]
+[BlackFideId "1126881"]
+[EventDate "2014.05.07"]
+
+1. d4 f5 2. Nf3 Nf6 3. g3 g6 4. Bg2 Bg7 5. O-O O-O 6. b3 d6 7. Bb2 Ne4 8. Nbd2
+Nc6 9. Ne1 Ng5 10. f4 Nf7 11. Nc4 e6 12. e3 Rb8 13. Nd3 Ne7 14. a4 Bd7 15. Nd2
+Bc6 16. Bxc6 Nxc6 17. c4 a5 18. Qc2 Qd7 19. d5 Nb4 20. Nxb4 Bxb2 21. Qxb2 axb4
+22. dxe6 Qxe6 23. Rfe1 Rbe8 24. Qd4 Nd8 25. Qd5 c6 26. Qd3 Qf6 27. Rad1 Re6 28.
+Nf3 Nf7 29. e4 fxe4 30. Rxe4 Rfe8 31. Rxe6 Rxe6 32. Qd2 c5 33. Kg2 Qf5 34. Qd3
+Qf6 35. Rd2 Kg7 36. Kf2 Nh6 37. Ng5 Ng4+ 38. Kg2 Re3 39. Qxd6 Qxd6 40. Rxd6 Rxb3
+41. Rd7+ Kg8 42. Rxb7 Rb2+ 43. Kf3 Nxh2+ 44. Ke4 Nf1 45. g4 h5 46. gxh5 Ng3+ 47.
+Ke5 Nxh5 48. Rb8+ Kg7 49. Ne6+ Kh7 50. Nxc5 Re2+ 51. Kd6 Nxf4 52. a5 Ra2 53. a6
+g5 54. Rxb4 g4 55. Na4 Rd2+ 56. Kc6 g3 57. a7 g2 58. a8=Q g1=Q 59. Rb7+ Kh6 60.
+Qh8+ Kg5 61. Rg7+ Ng6 62. Rxg6+ Kxg6 63. Qg8+ 1-0
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.08"]
+[Round "2.2"]
+[White "Efimenko, Zahar"]
+[Black "Duda, Jan-Krzysztof"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2648"]
+[BlackElo "2587"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack (Barcza system)"]
+[WhiteTeam "UKR"]
+[BlackTeam "POL"]
+[WhiteFideId "14107201"]
+[BlackFideId "1170546"]
+[EventDate "2014.05.07"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. d3 Bf5 5. Nh4 e6 6. Nxf5 exf5 7. O-O Be7 8. Nd2
+Nbd7 9. c4 O-O 10. cxd5 Nxd5 11. Nc4 Nc5 12. Bd2 Re8 13. Rc1 Bf8 14. a3 Ne6 15.
+e3 Qe7 16. b4 Rad8 17. Qc2 g6 18. Rb1 Qc7 19. Na5 Rd7 20. Nb3 h5 21. Rfd1 h4 22.
+e4 Ne7 23. Bh3 Bg7 24. Be3 Red8 25. Qe2 b6 26. Rbc1 hxg3 27. hxg3 Qe5 28. exf5
+Nxf5 29. Bxf5 Qxf5 30. d4 Rd6 31. Rd2 Bf6 32. Qd3 Qxd3 33. Rxd3 Nxd4 34. Bxd4
+Bxd4 35. Nxd4 Rxd4 36. Rxd4 Rxd4 37. Rxc6 Rd3 38. a4 Ra3 39. a5 bxa5 40. bxa5
+Rxa5 41. Kg2 Rd5 42. Rc7 a5 43. Ra7 Kg7 44. Kh3 Kf6 45. f4 Ke6 46. g4 Rb5 47.
+Kg3 Rc5 48. Kh3 Kf6 49. Kh4 Rb5 50. Ra6+ Kg7 51. Ra7 Rc5 52. Kg3 Rc3+ 53. Kh4
+Ra3 54. Kg5 a4 55. f5 gxf5 56. gxf5 Rg3+ 57. Kh4 Ra3 58. Kg5 Ra1 59. f6+ Kg8 60.
+Kh6 Rh1+ 61. Kg5 Rg1+ 62. Kh5 Rg6 63. Rxa4 Rxf6 64. Kg4 Kg7 65. Ra5 Rg6+ 66. Kf4
+Rf6+ 67. Kg4 Rf1 68. Kg3 Kg6 69. Kg2 Rf5 70. Ra4 Kg5 71. Kg3 Rf1 72. Ra5+ f5 73.
+Ra3 Rg1+ 74. Kf2 Rh1 75. Kg2 Rh4 76. Kg3 f4+ 77. Kg2 Kg4 78. Ra8 f3+ 79. Kg1 Kg3
+80. Rg8+ Rg4 81. Rxg4+ Kxg4 82. Kf2 Kf4 83. Kf1 Ke3 84. Ke1 f2+ 85. Kf1 Kf3 1/2-1/2
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.08"]
+[Round "2.3"]
+[White "Wojtaszek, Radoslaw"]
+[Black "Areshchenko, Alexander"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2724"]
+[BlackElo "2701"]
+[ECO "A33"]
+[Opening "English"]
+[Variation "symmetrical variation"]
+[WhiteTeam "POL"]
+[BlackTeam "UKR"]
+[WhiteFideId "1118358"]
+[BlackFideId "14109530"]
+[EventDate "2014.05.07"]
+
+1. Nf3 c5 2. c4 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. a3 Bc5 7. Nb3 Be7 8. e4
+Qc7 9. Be2 O-O 10. Be3 b6 11. O-O Ba6 12. f4 d6 13. Rc1 Rac8 14. Nd2 Qb8 15. b4
+Bb7 16. Bd3 Rfd8 17. Qf3 Nd7 18. Qh3 Nf8 19. b5 Na5 20. f5 Bf6 21. fxe6 fxe6 22.
+Rxf6 gxf6 23. Bh6 Qc7 24. Rf1 Qe7 25. e5 dxe5 26. Nde4 Bxe4 27. Nxe4 f5 28. Bg5
+Rxd3 29. Qxd3 fxe4 30. Qg3 Qg7 31. Qh4 Nxc4 32. Bh6 Ng6 33. Qg5 Qd7 34. h4 e3 0-1
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.08"]
+[Round "2.4"]
+[White "Gajewski, Grzegorz"]
+[Black "Moiseenko, Alexander"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2641"]
+[BlackElo "2707"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+[WhiteTeam "POL"]
+[BlackTeam "UKR"]
+[WhiteFideId "1116207"]
+[BlackFideId "14102560"]
+[EventDate "2014.05.07"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. Bxc6 bxc6 5. d3 Ne7 6. h4 d6 7. h5 e5 8. h6 Ng6
+9. hxg7 Bxg7 10. Bh6 Bxh6 11. Rxh6 Rb8 12. b3 Bg4 13. Nbd2 d5 14. exd5 cxd5 15.
+Qe2 O-O 16. O-O-O f6 17. Rdh1 Rb7 18. Qe3 Qa5 19. Nh4 Nf4 20. f3 Be6 21. g3 d4
+22. Qe4 Qa3+ 23. Kd1 Nd5 24. Nb1 Qxa2 25. Nf5 Rff7 26. Nd6 Qxb1+ 27. Kd2 Qb2 28.
+Nxf7 Rxf7 29. Rxh7 Kf8 30. Rxf7+ Bxf7 31. Rh8+ Ke7 32. Rh7 Qc3+ 33. Kc1 Qa1+ 34.
+Kd2 Qa5+ 35. Kc1 Qa3+ 36. Kd2 Qb4+ 37. Kc1 Ne3 38. Kb1 c4 39. dxc4 Nxc4 40. Qc6
+Qe1+ 41. Ka2 Qa5+ 42. Kb1 Nd6 43. Kb2 d3 44. cxd3 Qd2+ 45. Qc2 Qxc2+ 46. Kxc2
+Nb5 47. f4 exf4 48. gxf4 Nd4+ 49. Kd2 a5 50. Ke3 Nxb3 51. d4 a4 52. d5 Kf8 53.
+Rh8+ Bg8 54. d6 Nc5 55. Rh5 Nb7 56. Rf5 Kf7 57. d7 Ke7 58. Rb5 Nd8 59. Ra5 Bb3
+60. Ra7 Ne6 61. Ra6 Kxd7 62. f5 Nc7 0-1
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.09"]
+[Round "3.1"]
+[White "Moiseenko, Alexander"]
+[Black "Swiercz, Dariusz"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2707"]
+[BlackElo "2608"]
+[ECO "D15"]
+[Opening "QGD Slav"]
+[Variation "4.Nc3"]
+[WhiteTeam "UKR"]
+[BlackTeam "POL"]
+[WhiteFideId "14102560"]
+[BlackFideId "1126881"]
+[EventDate "2014.05.07"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 a6 5. c5 Bg4 6. Ne5 Be6 7. e3 Nbd7 8. f4 g6
+9. Bd3 Bg7 10. O-O O-O 11. Nxd7 Qxd7 12. Na4 Rae8 13. Nb6 Qc7 14. Qc2 Nd7 15.
+Bd2 Nxb6 16. Ba5 Bd7 17. Qb3 Qc8 18. Qxb6 f6 19. Qc7 e5 20. Qxc8 Rxc8 21. Rae1
+Rfe8 22. h3 Re7 23. Bc3 Rce8 24. Kf2 exf4 25. exf4 Rxe1 26. Bxe1 Kf7 27. Bc3 h5
+28. Rd1 Bh6 29. Bd2 Bf5 30. Bxf5 gxf5 31. Kf3 Re4 32. Be3 Ke8 33. Rd3 Kd7 34. b4
+Re8 35. a4 Rg8 36. Rb3 Kc7 37. Bd2 Ra8 38. Be3 Re8 39. b5 axb5 40. axb5 Ra8 41.
+bxc6 bxc6 42. g4 hxg4+ 43. hxg4 Bf8 44. gxf5 Be7 45. Bd2 Ra1 46. Kg4 Rd1 47. Bc3
+Kc8 48. Kh5 Rd3 49. Ra3 Bd8 50. Kg6 Kb7 51. Kf7 Re3 52. Bb2 Re7+ 53. Kg6 Re4 54.
+Rf3 Kc8 55. Bc3 Kd7 56. Rf1 Kc8 57. Rf2 Re3 58. Bb2 Re4 59. Rf3 Kb7 60. Bc3 Kc8
+61. Rf1 Re3 62. Be1 Rh3 63. Rg1 Kd7 64. Bg3 Rh8 65. Kg7 Rh3 66. Rg2 Rh1 67. Ra2
+Rg1 68. Ra3 Ke8 69. Kg6 Rg2 70. Kh5 Rd2 71. Ra4 Kd7 72. Bh4 Rh2 73. Kg4 Rg2+ 74.
+Kf3 Rh2 75. Ra7+ Ke8 76. Bf2 Rh3+ 77. Bg3 Rh1 78. Bf2 Rh3+ 79. Kg4 Rh1 80. Bh4
+Rg1+ 81. Kh5 Rh1 82. Rh7 Rg1 83. Rb7 Rh1 84. Rb2 Ke7 85. Re2+ Kd7 86. Re6 Be7
+87. Kg4 Rg1+ 88. Kf3 Rf1+ 89. Kg3 Rg1+ 90. Kf2 Rg4 91. Bxf6 Bxf6 92. Kf3 Rxf4+
+93. Kxf4 Bxd4 94. Re2 Bxc5 95. f6 Bd6+ 96. Kf5 c5 97. Ra2 c4 98. Ra7+ Kc6 99.
+Ra6+ Kd7 100. Rxd6+ Kxd6 101. Kg6 c3 102. f7 Ke7 103. Kg7 1-0
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.09"]
+[Round "3.2"]
+[White "Areshchenko, Alexander"]
+[Black "Duda, Jan-Krzysztof"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2701"]
+[BlackElo "2587"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Adams attack"]
+[WhiteTeam "UKR"]
+[BlackTeam "POL"]
+[WhiteFideId "14109530"]
+[BlackFideId "1170546"]
+[EventDate "2014.05.07"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nde2 h5 8. g3
+Be7 9. Bg2 b5 10. Nd5 Nxd5 11. Qxd5 Ra7 12. Be3 Be6 13. Qd2 Rb7 14. f4 Nd7 15.
+b3 Nf6 16. O-O-O Qa8 17. g4 Rc7 18. Ng3 O-O 19. f5 h4 20. g5 Nh7 21. fxe6 hxg3
+22. exf7+ Kxf7 23. Kb1 Kg8 24. h4 Rfc8 25. Rc1 Nf8 26. h5 Rc3 27. g6 Bf6 28. h6
+b4 29. hxg7 Kxg7 30. Bh6+ Kxg6 31. Bxf8 Rxf8 32. Qh6+ Kf7 33. Rcf1 Qd8 34. Rxf6+
+Qxf6 35. Rf1 Qxf1+ 36. Bxf1 Rg8 37. Qh7+ Rg7 38. Qf5+ Ke7 39. Bg2 a5 40. Qh5 Kd7
+41. Kb2 Kc7 42. Qe8 Rh7 43. Qa8 Rh2 44. Qxa5+ Kd7 45. Qxb4 Rxc2+ 46. Kxc2 Rxg2+
+47. Kc3 Rxa2 48. Qb7+ Ke6 49. Qc8+ Ke7 50. Qg4 g2 51. b4 Kd8 52. Kc4 Kc7 53. Kb5
+Rc2 54. Qg7+ Kd8 55. Kb6 Rc4 56. b5 Rc2 57. Kb7 Ke8 58. b6 Kd8 59. Ka6 Ke8 60.
+b7 Rb2 61. Ka7 Ra2+ 62. Kb6 Rb2+ 63. Kc7 Rc2+ 64. Kxd6 Rd2+ 65. Ke6 1-0
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.09"]
+[Round "3.3"]
+[White "Wojtaszek, Radoslaw"]
+[Black "Efimenko, Zahar"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2724"]
+[BlackElo "2648"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteTeam "POL"]
+[BlackTeam "UKR"]
+[WhiteFideId "1118358"]
+[BlackFideId "14107201"]
+[EventDate "2014.05.07"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. Nf3 d6 6. Bd2 c5 7. dxc5 dxc5 8. a3
+Ba5 9. e3 Nc6 10. Bd3 Qe7 11. O-O-O Bd7 12. Rhg1 Rfd8 13. g4 g6 14. h4 Be8 15.
+h5 a6 16. hxg6 fxg6 17. g5 Nh5 18. Ne4 b5 19. Bxa5 Nxa5 20. Ne5 b4 21. axb4 cxb4
+22. Be2 Nc6 23. Ng4 Rxd1+ 24. Rxd1 Rd8 25. Rh1 Kh8 26. Ngf6 Nxf6 27. Nxf6 h5 28.
+Bxh5 gxh5 29. Nxh5 Qxg5 30. Nf4+ 1-0
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.09"]
+[Round "3.4"]
+[White "Gajewski, Grzegorz"]
+[Black "Oleksienko, Mikhailo"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2641"]
+[BlackElo "2618"]
+[ECO "B09"]
+[Opening "Pirc"]
+[Variation "Austrian attack"]
+[WhiteTeam "POL"]
+[BlackTeam "UKR"]
+[WhiteFideId "1116207"]
+[BlackFideId "4152417"]
+[EventDate "2014.05.07"]
+
+1. e4 d6 2. d4 g6 3. f4 Bg7 4. Nf3 Nf6 5. Nc3 O-O 6. a3 Nc6 7. Be2 Bg4 8. e5
+dxe5 9. fxe5 Nd5 10. O-O Nb6 11. Be3 f6 12. exf6 exf6 13. h3 Bxf3 14. Bxf3 f5
+15. Ne2 Nc4 16. Bf2 Nxb2 17. Qb1 Nxd4 18. Bxd4 Bxd4+ 19. Kh1 Be5 20. Ra2 c6 21.
+Rxb2 Bxb2 22. Qxb2 Rf7 23. Nf4 Qf6 24. Qxf6 Rxf6 25. Rd1 Re8 26. h4 Kg7 27. Kg1
+Re5 28. Kf2 Rf7 29. Be2 Rfe7 30. g3 Rc5 31. c4 Ra5 32. Rd3 Ra4 33. Rc3 Ra5 34.
+Nd3 Kf6 35. Bd1 h6 36. a4 g5 37. h5 g4 38. Bb3 Kg5 39. Nf4 Re4 40. c5 Rxf4+ 41.
+gxf4+ Kxf4 42. Rc4+ Kg5 43. Kg3 b6 44. cxb6 axb6 45. Rxc6 f4+ 46. Kf2 Re5 47.
+Rxb6 g3+ 48. Kf1 Re3 49. a5 f3 50. a6 Kh4 51. Rb4+ Kh3 52. Ba4 Rd3 53. a7 Rd2
+54. Rh4+ Kxh4 55. a8=Q Rf2+ 56. Ke1 Re2+ 57. Kd1 g2 58. Qg8 f2 59. Qd8+ Kh3 60.
+Bd7+ Kh2 61. Qh4+ Kg1 62. Qd4 Re4 63. Qxe4 f1=Q+ 64. Kd2 Qf2+ 65. Kd1 Kh2 66.
+Qe5+ Qg3 67. Qe2 Qd6+ 68. Kc2 Qxd7 69. Qe5+ Kh1 70. Qe4 Qh3 71. Qd5 Qe3 72. Kb2
+Qf4 73. Qc6 Kh2 74. Qc2 Qd4+ 75. Ka2 Kh3 76. Qf5+ Kh4 0-1
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.10"]
+[Round "4.1"]
+[White "Duda, Jan-Krzysztof"]
+[Black "Moiseenko, Alexander"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2587"]
+[BlackElo "2707"]
+[ECO "B33"]
+[Opening "Sicilian"]
+[Variation "Sveshnikov variation"]
+[WhiteTeam "POL"]
+[BlackTeam "UKR"]
+[WhiteFideId "1170546"]
+[BlackFideId "14102560"]
+[EventDate "2014.05.07"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3
+b5 9. Bxf6 gxf6 10. Nd5 f5 11. Bd3 Be6 12. c3 Bg7 13. Nxb5 axb5 14. Bxb5 Bd7 15.
+exf5 O-O 16. O-O e4 17. Re1 Re8 18. a4 Rc8 19. Qg4 Re5 20. Ne3 Qf6 21. Rad1 Kh8
+22. Qe2 Bxf5 23. Nxf5 Qxf5 24. Rxd6 Nb8 25. Red1 Bf6 26. Rb6 Be7 27. b4 Rd5 28.
+Re1 Nd7 29. Rb7 Bf6 30. c4 Rd4 31. Rxd7 Rxd7 32. Bxd7 Qxd7 33. Qxe4 Bc3 34. Rb1
+Bxb4 35. Qe5+ Kg8 36. Qg5+ Kf8 37. Qh6+ Kg8 38. Qg5+ Kf8 39. Qh5 Bc3 40. Qxh7
+Qxa4 41. c5 Qc6 42. g3 Qxc5 43. Rc1 Qe5 44. Qd3 Rc5 45. Kg2 Bd4 46. Rxc5 Bxc5
+47. Qf3 Qd4 48. Qf5 Ke7 49. h4 Kf8 50. Qc8+ Kg7 51. Qf5 Qd6 52. Qg5+ Kf8 53. Qf5
+Qc6+ 54. Kh2 Bd4 55. Qf4 Qf6 56. Qxf6 Bxf6 57. f4 Ke7 58. Kg2 Ke6 59. Kf3 Bc3
+60. g4 f5 61. gxf5+ 1/2-1/2
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.10"]
+[Round "4.2"]
+[White "Swiercz, Dariusz"]
+[Black "Areshchenko, Alexander"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2608"]
+[BlackElo "2701"]
+[ECO "B23"]
+[Opening "Sicilian"]
+[Variation "closed"]
+[WhiteTeam "POL"]
+[BlackTeam "UKR"]
+[WhiteFideId "1126881"]
+[BlackFideId "14109530"]
+[EventDate "2014.05.07"]
+
+1. e4 c5 2. Nc3 d6 3. Nge2 Nf6 4. g3 Nc6 5. Bg2 g6 6. O-O Bg7 7. d3 Rb8 8. f4
+O-O 9. h3 Nd7 10. a4 a6 11. Nd5 e6 12. Ne3 Nd4 13. a5 b5 14. axb6 Nxb6 15. g4
+Nxe2+ 16. Qxe2 f5 17. Kh1 d5 18. gxf5 gxf5 19. e5 Kh8 20. Rg1 Qh4 21. Qe1 Qxe1
+22. Rxe1 Bh6 23. Rf1 Rg8 24. Ra5 Nd7 25. c3 Bb7 26. Kh2 d4 27. Bxb7 dxe3 28.
+Bxa6 Bxf4+ 29. Rxf4 e2 30. Bd2 Rxb2 31. Be1 Rb1 32. Bh4 e1=Q 33. Bxe1 Rxe1 34.
+d4 Ra8 35. Rf2 cxd4 36. cxd4 Re4 37. Rd2 Nb8 38. Rda2 Nc6 39. R5a3 Nxd4 40. Rg2
+Rxe5 41. Rc3 Rg8 42. Bb7 Rxg2+ 43. Bxg2 Re2 0-1
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.10"]
+[Round "4.3"]
+[White "Efimenko, Zahar"]
+[Black "Gajewski, Grzegorz"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2648"]
+[BlackElo "2641"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack (Barcza system)"]
+[WhiteTeam "UKR"]
+[BlackTeam "POL"]
+[WhiteFideId "14107201"]
+[BlackFideId "1116207"]
+[EventDate "2014.05.07"]
+
+1. Nf3 d5 2. g3 c6 3. Bg2 Nf6 4. O-O Bf5 5. c4 e6 6. cxd5 exd5 7. d3 Be7 8. Qb3
+Qb6 9. Qc2 O-O 10. Nc3 Na6 11. a3 Bg4 12. b4 Bxf3 13. Bxf3 d4 14. Na4 Qd8 15.
+Rb1 Rc8 16. Nc5 Nxc5 17. bxc5 b6 18. cxb6 axb6 19. a4 Nd7 20. Bd2 Bg5 21. Rfc1
+c5 22. Rb5 Re8 23. a5 Bxd2 24. Qxd2 bxa5 25. Rxa5 Rc7 26. Qf4 h6 27. h4 Rc8 28.
+Ra7 Ne5 29. Be4 Rc7 30. Rca1 Rxa7 31. Rxa7 h5 32. Ra8 Qe7 33. Qg5 f6 34. Bd5+
+Nf7 35. Rxe8+ Qxe8 36. Qxh5 1-0
+
+[Event "6th Lublin GM 2014"]
+[Site "Lublin POL"]
+[Date "2014.05.10"]
+[Round "4.4"]
+[White "Oleksienko, Mikhailo"]
+[Black "Wojtaszek, Radoslaw"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2618"]
+[BlackElo "2724"]
+[ECO "B40"]
+[Opening "Sicilian defence"]
+[WhiteTeam "UKR"]
+[BlackTeam "POL"]
+[WhiteFideId "4152417"]
+[BlackFideId "1118358"]
+[EventDate "2014.05.07"]
+
+1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. g3 Nf6 5. Bg2 Be7 6. O-O O-O 7. c4 d6 8. Nc3 a6
+9. d4 e5 10. dxc5 dxc5 11. Qxd8 Bxd8 12. Be3 b6 13. Ne1 Be6 14. b3 Nd7 15. f4 f6
+16. Nd3 Be7 17. h4 Bd6 18. Rac1 Nd4 19. Kh2 Rab8 20. Bh3 Bxh3 21. Kxh3 exf4 22.
+gxf4 Rbe8 23. Rfe1 Rf7 24. Bxd4 cxd4 25. Nd5 Nc5 26. Nxc5 bxc5 27. b4 Rb7 28. e5
+fxe5 29. fxe5 Bxe5 30. bxc5 Rb2 31. c6 Rh2+ 32. Kg4 Rg2+ 33. Kf5 Rf2+ 34. Ke4
+Bf6+ 35. Kd3 Rf3+ 36. Kd2 Rc8 37. c7 Bxh4 38. Re4 Bg5+ 39. Ke2 Rcf8 40. Rd1 Ra3
+41. Ne7+ Bxe7 42. Rxe7 1-0
+

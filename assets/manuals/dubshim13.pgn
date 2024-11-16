@@ -1,0 +1,149 @@
+[Event "Battle of the Generations 2013"]
+[Site "Moscow RUS"]
+[Date "2013.12.02"]
+[Round "1"]
+[White "Shirov, Alexei"]
+[Black "Dubov, Daniil"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2695"]
+[BlackElo "2629"]
+[ECO "D45"]
+[Opening "QGD semi-Slav"]
+[Variation "Stoltz variation"]
+[WhiteFideId "2209390"]
+[BlackFideId "24126055"]
+[EventDate "2013.12.02"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nf6 5. Nf3 Nbd7 6. Qc2 Bd6 7. b3 O-O 8. Bb2
+dxc4 9. Bxc4 b5 10. Bd3 Bb7 11. O-O Rc8 12. e4 b4 13. Na4 c5 14. dxc5 Nxc5 15.
+Nxc5 Rxc5 16. Qe2 Qb8 17. Bd4 Ra5 18. g3 Nd7 19. Nd2 Be5 20. Qe3 Rd8 21. Rfd1
+Bxd4 22. Qxd4 Bc6 23. Be2 Nf6 24. Qe3 h6 25. Rdc1 Bb5 26. Rc2 Bxe2 27. Qxe2 Nd7
+28. Nc4 Rc5 29. Rd1 Nb6 30. Rxd8+ Qxd8 31. Rd2 Qc7 32. Nxb6 Qxb6 33. Rd7 Rc7 34.
+Rxc7 1/2-1/2
+
+[Event "Battle of the Generations 2013"]
+[Site "Moscow RUS"]
+[Date "2013.12.03"]
+[Round "2"]
+[White "Dubov, Daniil"]
+[Black "Shirov, Alexei"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2629"]
+[BlackElo "2695"]
+[ECO "D44"]
+[Opening "QGD semi-Slav"]
+[Variation "Botvinnik system (anti-Meran)"]
+[WhiteFideId "24126055"]
+[BlackFideId "2209390"]
+[EventDate "2013.12.02"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 dxc4 6. e4 b5 7. e5 h6 8. Bh4 g5
+9. Bg3 Nd5 10. h4 Qa5 11. Rc1 Bb4 12. hxg5 Nxc3 13. bxc3 Bxc3+ 14. Nd2 Nd7 15.
+Rxh6 Rg8 16. Be2 Bb7 17. Bh5 O-O-O 18. Bxf7 Rxg5 19. Bxe6 Rxg3 20. fxg3 Bxd4 21.
+Bxd7+ Rxd7 22. e6 Re7 23. Kf1 Qa3 24. Nf3 Qe3 25. Nxd4 Qxh6 26. Nf5 Qf6 27. g4
+Rxe6 28. Qd2 c5 29. Kg1 Qd8 30. Qf2 Qd5 31. g5 Kc7 32. a4 Re5 33. Nh4 Rxg5 34.
+axb5 Rg4 35. Re1 Qd4 0-1
+
+[Event "Battle of the Generations 2013"]
+[Site "Moscow RUS"]
+[Date "2013.12.04"]
+[Round "3"]
+[White "Shirov, Alexei"]
+[Black "Dubov, Daniil"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2695"]
+[BlackElo "2629"]
+[ECO "D43"]
+[Opening "QGD semi-Slav"]
+[WhiteFideId "2209390"]
+[BlackFideId "24126055"]
+[EventDate "2013.12.02"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bh4 dxc4 7. e4 g5 8. Bg3 b5
+9. h4 g4 10. Ne5 Bb4 11. Be2 Bb7 12. Bxg4 Nbd7 13. Nxd7 Nxd7 14. O-O Rg8 15. e5
+Qb6 16. a3 Be7 17. a4 a6 18. axb5 axb5 19. Rxa8+ Bxa8 20. Bf3 Bb7 21. Qd2 b4 22.
+Ne2 Rh8 23. Nf4 Rg8 24. Bh5 Nf8 25. Rc1 Ba6 26. Be2 Ng6 27. Nxg6 Rxg6 28. Bxc4
+Bxc4 29. Rxc4 h5 30. Kh2 Rg4 31. f3 Rg6 32. b3 Qa6 33. Rc2 Kf8 34. Ra2 Qb6 35.
+Ra8+ Kg7 36. Qd3 c5 37. Re8 Bf8 38. dxc5 Qxc5 39. Qd8 Rxg3 40. Qf6+ Kh7 41. Kxg3 1-0
+
+[Event "Battle of the Generations 2013"]
+[Site "Moscow RUS"]
+[Date "2013.12.06"]
+[Round "4"]
+[White "Dubov, Daniil"]
+[Black "Shirov, Alexei"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2629"]
+[BlackElo "2695"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack, Keres variation"]
+[WhiteFideId "24126055"]
+[BlackFideId "2209390"]
+[EventDate "2013.12.02"]
+
+1. Nf3 d5 2. g3 Bg4 3. Bg2 Nd7 4. O-O Ngf6 5. d3 e5 6. h3 Be6 7. c4 dxc4 8. d4
+Bd6 9. Ng5 Bf5 10. e4 Bg6 11. f4 h6 12. Nf3 Nxe4 13. Qe1 exf4 14. Nh4 O-O 15.
+Nxg6 Nxg3 16. Nxf8 Nxf8 17. Rf2 Ne6 18. Nc3 Qh4 19. Ne4 Nxd4 20. Nxd6 cxd6 21.
+Bd2 f3 22. Bxf3 Nc2 23. Bg5 Ne2+ 24. Qxe2 Qxg5+ 25. Bg2 Nxa1 26. Qe1 d5 27. Qxa1
+d4 28. Qf1 d3 29. Rxf7 Rd8 30. Rf5 Qe3+ 31. Kh2 Qd4 32. Bf3 Qxb2+ 33. Kh1 Qd4
+34. Qg2 d2 35. Bd1 Re8 36. Rf1 Re1 37. Qf3 Qe4 38. Qxe4 Rxe4 39. Kg2 Re1 40. Kf2
+Rxd1 0-1
+
+[Event "Battle of the Generations 2013"]
+[Site "Moscow RUS"]
+[Date "2013.12.07"]
+[Round "5"]
+[White "Shirov, Alexei"]
+[Black "Dubov, Daniil"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2695"]
+[BlackElo "2629"]
+[ECO "B48"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+[WhiteFideId "2209390"]
+[BlackFideId "24126055"]
+[EventDate "2013.12.02"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qd2 b5 8. Nxc6
+Qxc6 9. O-O-O Bb7 10. f3 Rc8 11. g4 Nf6 12. g5 Nh5 13. Bh3 Be7 14. Bg4 g6 15.
+Bxh5 gxh5 16. h4 a5 17. Kb1 b4 18. Ne2 a4 19. Nf4 b3 20. cxb3 axb3 21. axb3 Bb4
+22. Qf2 Ra8 23. Nxh5 Ke7 24. Nf6 Rhc8 25. Rxd7+ Qxd7 26. Nxd7 Kxd7 27. Ba7 Ba6
+28. Rd1+ Ke8 29. h5 Be7 30. g6 fxg6 31. hxg6 hxg6 32. Qb6 Kf7 33. Rd7 Be2 34.
+Qd6 1-0
+
+[Event "Battle of the Generations 2013"]
+[Site "Moscow RUS"]
+[Date "2013.12.08"]
+[Round "6"]
+[White "Dubov, Daniil"]
+[Black "Shirov, Alexei"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2629"]
+[BlackElo "2695"]
+[ECO "D45"]
+[Opening "QGD semi-Slav"]
+[Variation "Stoltz variation"]
+[WhiteFideId "24126055"]
+[BlackFideId "2209390"]
+[EventDate "2013.12.02"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nc3 e6 5. Nf3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8. O-O
+dxc4 9. Bxc4 b5 10. Bd3 Bb7 11. a3 a5 12. e4 e5 13. dxe5 Nxe5 14. Nxe5 Bxe5 15.
+h3 Ba6 16. Be3 b4 17. Bxa6 bxc3 18. Bc4 cxb2 19. Rad1 Qe7 20. Bc5 Qc7 21. Bxf8
+Rxf8 22. g3 c5 23. f4 Bd4+ 24. Kh2 Qb7 25. Rfe1 Rb8 26. Ba2 g6 27. e5 Nd5 28.
+Rd3 a4 29. Qd2 Qc6 30. Qc2 Qb7 31. Qd2 Qc6 32. Qc2 1/2-1/2
+

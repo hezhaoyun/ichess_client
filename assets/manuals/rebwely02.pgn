@@ -1,0 +1,89 @@
+[Event "Man-Machine Match"]
+[Site "Maastricht NED"]
+[Date "2002.02.19"]
+[Round "1"]
+[White "REBEL CENTURY"]
+[Black "Van Wely,L"]
+[Result "1-0"]
+[BlackElo "2697"]
+[EventDate "2002.02.19"]
+[ECO "C10"]
+
+1. e4 e6 2. d4 d5 3. Nc3 a6 4. Bd3 Nf6 5. Nf3 Be7 6. O-O c6 7. Re1 b5 8.
+Ne5 Bb7 9. Qf3 O-O 10. exd5 cxd5 11. Qh3 Nc6 12. Bg5 g6 13. Bh6 Nxd4 14.
+Bxf8 Bxf8 15. a4 b4 16. Ne2 Nxe2+ 17. Rxe2 Ne4 18. Rd1 Qc7 19. Bxe4 dxe4
+20. Ng4 Bg7 21. Red2 Bd5 22. Ne3 Bc6 23. Qh4 Bxb2 24. Rd8+ Rxd8 25. Rxd8+
+Kg7 26. Ng4 Qf4 27. Rg8+ Kxg8 28. Nh6+ Qxh6 29. Qxh6 Bxa4 30. Qf4 Bxc2 31.
+Qb8+ Kg7 32. Qxb4 Bf6 33. Qd6 Bd3 34. f3 h5 35. Kf2 a5 36. Qd7 a4 37. Qxa4
+exf3 38. gxf3 g5 39. Qb4 Bf5 40. Kg2 g4 41. f4 h4 42. Kf2 h3 43. Ke2 Kg6
+44. Qf8 Bg7 45. Qd8 Bf6 46. Qg8+ Bg7 47. Ke3 Kf6 48. Qd8+ Kg6 49. Kf2 Bf6
+50. Qg8+ Bg7 51. Kg3 Kf6 52. Kh4 Kg6 53. Qc8 e5 54. Qc6+ Bf6+ 55. Kg3 exf4+
+56. Kxf4 Be6 57. Qe4+ Kh6 58. Qd3 Bg5+ 59. Ke5 Kg7 60. Qe4 Bd8 61. Kd6 Bf6
+62. Kc7 Kh6 63. Kc6 Kg5 64. Kd6 Bf5 65. Qc6 Be6 66. Qc2 Bf5 67. Qe2 Kg6 68.
+Kc5 Bg7 69. Qa6+ Be6 70. Qd6 Bb2 71. Kc6 Bg7 72. Kc7 Kf5 73. Qd3+ Kf4 74.
+Qd2+ Kf3 75. Kd6 Bf8+ 76. Kc6 Be7 77. Qd3+ Kg2 78. Qg3+ Kf1 79. Kb6 Bf8 80.
+Qc3 Kg2 81. Qd2+ Kg1 82. Qf4 Be7 83. Qg3+ Kf1 84. Kc6 Bf8 85. Qf4+ Kg2 86.
+Kb5 Kg1 87. Qe5 Kg2 88. Qg3+ Kf1 89. Qc7 Bh6 90. Qc3 Ke2 91. Qc2+ Bd2 92.
+Kc6 Ke1 93. Qd3 Bh6 94. Kc5 Kf2 95. Qg3+ Ke2 96. Kd4 Bg7+ 97. Ke4 Bh6 98.
+Qe5 Bd2 99. Kd4+ Kf1 100. Kd3 Bh6 101. Qf6+ Kg2 102. Qxh6 Kxh2 103. Qd2+
+Kg1 104. Ke3 g3 105. Kf3 1-0
+
+[Event "Man-Machine Match"]
+[Site "Maastricht NED"]
+[Date "2002.02.20"]
+[Round "2"]
+[White "Van Wely,L"]
+[Black "REBEL CENTURY"]
+[Result "1-0"]
+[WhiteElo "2697"]
+[EventDate "2002.02.19"]
+[ECO "A46"]
+
+1. d4 Nf6 2. c3 e6 3. Bg5 h6 4. Bh4 b6 5. Nd2 Bb7 6. e3 Be7 7. Ngf3 c5 8.
+Bd3 O-O 9. Qe2 d5 10. Ne5 Nc6 11. f4 Ne4 12. Bg3 Nxg3 13. hxg3 Rc8 14. Ndf3
+Bd6 15. g4 f6 16. Ng6 Rf7 17. g5 Rcc7 18. gxh6 gxh6 19. Rxh6 Rh7 20. Rxh7
+Rxh7 21. O-O-O c4 22. Bc2 Qe8 23. g4 Rh6 24. Nfh4 Rh7 25. Qg2 Nd8 26. Rh1
+b5 27. Nf3 Rxh1+ 28. Qxh1 Nf7 29. Qh5 Qd7 30. Ngh4 Nh8 31. g5 f5 32. Ne5
+Bxe5 33. dxe5 Bc8 34. Nf3 Qf7 35. Qh6 Qg6 36. Qxg6+ Nxg6 37. Nd4 Bd7 38. b3
+Kg7 39. Bd1 Ne7 40. Kb2 Kg6 41. Be2 Nc8 42. a4 a6 43. axb5 axb5 44. Ka3 Ne7
+45. Kb4 Nc6+ 46. Nxc6 Bxc6 47. Kc5 Be8 48. b4 1-0
+
+[Event "Man-Machine Match"]
+[Site "Maastricht NED"]
+[Date "2002.02.21"]
+[Round "3"]
+[White "REBEL CENTURY"]
+[Black "Van Wely,L"]
+[Result "1-0"]
+[BlackElo "2697"]
+[EventDate "2002.02.19"]
+[ECO "C04"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nc6 4. Ngf3 Nf6 5. e5 Nd7 6. Nb3 Be7 7. Bb5 Ncb8
+8. O-O b6 9. Qe2 a5 10. Be3 Ba6 11. a4 c6 12. Bxa6 Nxa6 13. Rfc1 O-O 14. c4
+dxc4 15. Rxc4 Ndb8 16. Nbd2 Nb4 17. Ne4 N8a6 18. Nfd2 Nc7 19. Qg4 Kh8 20.
+Ra3 Nbd5 21. Bg5 f6 22. exf6 gxf6 23. Rh3 Qe8 24. Qh4 Rf7 25. Bh6 b5 26.
+axb5 cxb5 27. Rc1 a4 28. Rg3 a3 29. bxa3 Rxa3 30. Nf3 b4 31. Qh5 Rxf3 32.
+gxf3 Bf8 33. Kh1 Re7 34. Rcg1 1-0
+
+[Event "Man-Machine Match"]
+[Site "Maastricht NED"]
+[Date "2002.02.22"]
+[Round "4"]
+[White "Van Wely,L"]
+[Black "REBEL CENTURY"]
+[Result "1-0"]
+[WhiteElo "2697"]
+[EventDate "2002.02.19"]
+[ECO "A36"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. a3 Nf6 6. Rb1 a5 7. e3 d6 8.
+Nge2 Bf5 9. d3 Ne5 10. e4 Bg4 11. h3 Bf3 12. O-O Bxg2 13. Kxg2 O-O 14. g4
+e6 15. Ng3 Ne8 16. f4 Nc6 17. f5 Qh4 18. Be3 Be5 19. Nce2 exf5 20. exf5 Ng7
+21. Ne4 Qd8 22. f6 Ne6 23. N2c3 Re8 24. Qd2 Kh8 25. b3 Rb8 26. Bg1 Rg8 27.
+a4 g5 28. Be3 Nb4 29. Nd5 Nxd5 30. cxd5 Nf4+ 31. Bxf4 Bxf4 32. Rxf4 gxf4
+33. Qxf4 b6 34. Qxd6 Qxd6 35. Nxd6 Rgf8 36. Ne4 Rbe8 37. Kf3 Re5 38. Nc3
+Rfe8 39. Kf4 Re3 40. Rd1 Rxh3 41. Ne4 Rh2 42. d4 cxd4 43. d6 Rd8 44. Rxd4
+Rc2 45. Rc4 Rxc4 46. bxc4 Kg8 47. Ke5 Kf8 48. c5 bxc5 49. Nxc5 Ke8 50. Kd5
+Rb8 51. d7+ Kd8 52. Kc6 Rb2 53. Nb7+ Rxb7 54. Kxb7 Kxd7 55. Kb6 1-0
+

@@ -1,0 +1,260 @@
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.14"]
+[Round "1"]
+[White "Polgar,Ju"]
+[Black "Van Wely,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2686"]
+[BlackElo "2714"]
+[EventDate "2001.10.14"]
+[ECO "C10"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Bd3 c5 7. O-O Nxe4
+8. Bxe4 Nf6 9. Bg5 cxd4 10. Nxd4 Be7 11. Bf3 O-O 12. Re1 Qb6 13. Nb3 Rd8
+14. Qe2 Bd7 15. Bd2 Bb4 16. c3 Bd6 17. c4 a5 18. Rac1 a4 19. c5 Bxh2+ 20.
+Kh1 Qc7 21. Na5 Bb5 22. Qxb5 Rxd2 23. Nc4 Rxf2 24. Qxb7 Rb8 25. Qxc7 Bxc7
+26. Kg1 Bg3 27. c6 Ne8 28. Red1 a3 29. bxa3 Rxa2 30. Rd7 g6 31. Rb7 Rd8 32.
+Rd7 Rc8 33. Rb7 Rd8 34. Rd7 Rc8 35. Rf1 Nf6 36. Rb7 Rc7 37. Rd1 Kg7 38. Nd6
+Bxd6 39. Rxd6 Rc8 40. Rxe6 Rxa3 41. Ree7 Rf8 42. Kf2 Rc3 43. Rb5 Ra8 44.
+Rbb7 Rf8 45. Rb5 Re8 46. Rxe8 Nxe8 47. Ke2 Nd6 48. Rb1 Kf6 49. Kd2 Rc5 50.
+Kd3 Nb5 51. Bg4 Nc7 52. Bd7 Ke7 53. Rb8 h5 54. Rc8 Nb5 55. Re8+ Kd6 56. Rf8
+Ke7 57. Re8+ Kf6 58. Rb8 Nd6 59. Rb1 Ke7 60. Rb8 Rg5 61. Rb2 Kd8 62. Kd4
+Kc7 63. Ra2 Nb5+ 64. Ke3 Re5+ 65. Kd3 Kd6 66. Kc4 Rc5+ 67. Kd3 Nc7 68. Ke4
+Re5+ 69. Kf3 g5 70. Rb2 Nb5 71. Kf2 Rd5 72. Be8 Rf5+ 73. Kg3 Ke7 74. Re2+
+Kf6 75. Rd2 Ke7 76. Re2+ Kd6 77. Rd2+ Ke7 78. Re2+ 1/2-1/2
+
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.14"]
+[Round "1"]
+[White "Korchnoi,V"]
+[Black "Bruzon,L"]
+[Result "1-0"]
+[WhiteElo "2639"]
+[BlackElo "2564"]
+[EventDate "2001.10.14"]
+[ECO "D54"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Be7 5. e3 O-O 6. Rc1 h6 7. Bh4 b6 8.
+cxd5 Nxd5 9. Nxd5 exd5 10. Bxe7 Qxe7 11. Bd3 c5 12. Ne2 Nd7 13. O-O Nf6 14.
+b3 Bb7 15. Ng3 g6 16. Re1 Rfc8 17. Qd2 h5 18. Ne2 Ne4 19. Bxe4 dxe4 20.
+dxc5 Rxc5 21. Rxc5 Qxc5 22. Nf4 Rc8 23. Rd1 Qc2 24. h4 Qxd2 25. Rxd2 Bc6
+26. Kh2 Kf8 27. Rc2 Ke7 28. Ne2 Kd6 29. Nd4 Bd7 30. Rxc8 Bxc8 31. Kg3 a5
+32. Kf4 Bb7 33. a3 Bd5 34. Kg5 Ke5 35. Kh6 Kf6 36. Kh7 Bb7 37. Kg8 Ke7 38.
+Kg7 Bd5 39. f4 exf3 40. gxf3 Ba8 41. e4 Bb7 42. e5 Bd5 43. Kh6 Bb7 44. Kg5
+Bd5 45. f4 Be4 46. f5 gxf5 47. Kf4 Kd7 48. b4 axb4 49. axb4 Bd3 50. Nxf5
+Ke6 51. Ng7+ Kd5 52. Nxh5 Kc4 53. Kg5 Kxb4 54. Nf4 Be4 55. h5 b5 56. e6
+fxe6 57. Ng6 Ka3 58. h6 b4 59. h7 b3 60. h8=Q b2 61. Qc3+ Ka2 62. Qc4+ 1-0
+
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.15"]
+[Round "2"]
+[White "Korchnoi,V"]
+[Black "Polgar,Ju"]
+[Result "1-0"]
+[WhiteElo "2639"]
+[BlackElo "2686"]
+[EventDate "2001.10.14"]
+[ECO "D43"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 dxc4 5. Qa4+ c6 6. Qxc4 b5 7. Qd3 Bb7
+8. e4 b4 9. Na4 Qa5 10. b3 Nbd7 11. e5 Nd5 12. Bd2 N7b6 13. Ng5 Nxa4 14.
+Qf3 f6 15. exf6 gxf6 16. Qh5+ Kd7 17. Qf7+ Be7 18. Nxe6 Rae8 19. bxa4 Kc8
+20. Ng7 Rhf8 21. Qh5 b3 22. Be2 b2 23. Rb1 Bb4 24. O-O Re7 25. Bh6 Ba6 26.
+Qg4+ f5 27. Nxf5 Rxe2 28. Ng3+ Kc7 29. Nxe2 Rf6 30. Qg7+ Be7 31. Rxb2 Re6
+32. Rfb1 Kd7 33. Be3 Nxe3 34. fxe3 Rg6 35. Qe5 Qxe5 36. dxe5 Bc5 37. Rd1+
+Ke7 38. Nd4 Rg5 39. Rc2 Bb6 40. a5 1-0
+
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.15"]
+[Round "2"]
+[White "Bruzon,L"]
+[Black "Van Wely,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2564"]
+[BlackElo "2714"]
+[EventDate "2001.10.14"]
+[ECO "A28"]
+
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. d3 Bb4 5. Bd2 a5 6. g3 O-O 7. Bg2 d6 8.
+O-O h6 9. Nd5 Nxd5 10. cxd5 Ne7 11. Ne1 c6 12. dxc6 bxc6 13. Nc2 Bxd2 14.
+Qxd2 Qb6 15. d4 d5 16. Qc3 e4 17. Ne3 Ba6 18. Rfe1 Rfb8 19. Rab1 Qb4 20.
+Bf1 Rb6 21. Rec1 Rab8 22. b3 Qxc3 23. Rxc3 a4 24. Nc2 Bc4 25. Na1 axb3 26.
+Nxb3 Ra8 27. Rb2 Nf5 28. e3 Nd6 29. Rc1 Kf8 30. Rbc2 Ke7 31. Bxc4 Nxc4 32.
+Nd2 Na5 33. h4 Kd6 34. Kf1 g6 35. Ke2 f5 36. Ke1 Nb7 37. Nb3 Ra3 38. Rd2
+Rba6 39. Rcc2 Ra7 40. Kf1 Ra8 41. Rb2 Kc7 42. Rdc2 R8a7 43. Kg1 Ra8 44. Kf1
+R3a7 45. Kg1 g5 46. hxg5 hxg5 47. Kf1 Ra3 48. Kg2 R8a7 49. Kf1 R7a4 50. Ke2
+Ra8 51. Kf1 Rf8 52. Rc3 f4 53. gxf4 gxf4 54. exf4 Rxf4 55. Rbc2 Rf6 56. Ke2
+Ra8 57. f3 Re8 58. fxe4 Rxe4+ 59. Kd2 Rf2+ 60. Kc1 Rxc2+ 61. Rxc2 Rh4
+1/2-1/2
+
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.16"]
+[Round "3"]
+[White "Van Wely,L"]
+[Black "Korchnoi,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2714"]
+[BlackElo "2639"]
+[EventDate "2001.10.14"]
+[ECO "E17"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Re1 Na6 8.
+Ne5 d5 9. cxd5 exd5 10. Nc3 c5 11. Bf4 Ne4 12. Nxe4 dxe4 13. dxc5 Nxc5 14.
+Qc2 Qc8 15. Red1 g5 16. Be3 Qe6 17. Nc4 Rac8 18. b3 h6 19. Bd4 Bd5 20. Bb2
+Rfd8 21. Rac1 b5 22. Qc3 f6 23. Ne3 Nxb3 24. Qxc8 Rxc8 25. Rxc8+ Qxc8 26.
+Rxd5 Nc5 27. Nf5 Bf8 28. Bh3 Kh7 29. Kg2 h5 30. Ne3 Qc6 31. Bf5+ Kg7 32.
+Bd4 Kf7 33. Bxc5 Bxc5 34. Rd7+ Kf8 35. Nd5 Bb6 1/2-1/2
+
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.16"]
+[Round "3"]
+[White "Polgar,Ju"]
+[Black "Bruzon,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2686"]
+[BlackElo "2564"]
+[EventDate "2001.10.14"]
+[ECO "C91"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. d4 Bg4 10. d5 Na5 11. Bc2 Qc8 12. h3 Bd7 13. Nbd2 c6 14. b4 Nb7
+15. dxc6 Qxc6 16. Bb2 Nd8 17. Bd3 Ne6 18. c4 Qb7 19. c5 dxc5 20. bxc5 Nxc5
+21. Bc2 Rfd8 22. Bxe5 Rac8 23. Qb1 h6 24. Nd4 Re8 25. N2f3 Nh7 26. Qd1 Bd8
+27. Re2 Ng5 28. Qe1 Nxf3+ 29. Nxf3 Bc7 30. Bxc7 Qxc7 1/2-1/2
+
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.18"]
+[Round "4"]
+[White "Bruzon,L"]
+[Black "Korchnoi,V"]
+[Result "1-0"]
+[WhiteElo "2564"]
+[BlackElo "2639"]
+[EventDate "2001.10.14"]
+[ECO "C00"]
+
+1. e4 e6 2. d3 d5 3. Nd2 Nf6 4. Ngf3 Be7 5. g3 b5 6. Bg2 Bb7 7. O-O b4 8.
+e5 Nfd7 9. Re1 c5 10. h4 Nc6 11. Nf1 Qc7 12. Bf4 h6 13. Ne3 Nb6 14. a3 d4
+15. Nc4 Nxc4 16. dxc4 O-O-O 17. axb4 cxb4 18. Qd3 Qb6 19. h5 Kb8 20. Nd2 b3
+21. Qxb3 Qxb3 22. Nxb3 Nb4 23. Bxb7 Kxb7 24. Re2 g5 25. hxg6 fxg6 26. c3 g5
+27. Bd2 d3 28. Re4 Nc2 29. Rc1 Rc8 30. Na1 Nxa1 31. Rxa1 Rhd8 32. b4 Rc6
+33. g4 Bf8 34. Kf1 Rdc8 35. c5 Rd8 36. Ke1 Ra6 37. Rxa6 Kxa6 38. c4 Kb7 39.
+Be3 a5 40. bxa5 Ra8 41. Kd2 Rxa5 42. Kxd3 Ra3+ 43. Ke2 Ra2+ 44. Kf3 Rc2 45.
+Rd4 Bxc5 46. Rd7+ Kc6 47. Rd8 Rxc4 48. Bxc5 Kxc5 49. Rd6 Rd4 50. Rxe6 Kd5
+51. Rxh6 Kxe5 52. Kg3 Rd5 53. Rg6 Ke4 54. Re6+ Re5 55. Rxe5+ Kxe5 56. Kf3
+Kd4 57. Ke2 Ke4 58. f3+ Kd4 59. Kd2 Ke5 60. Ke3 Kd5 61. f4 Ke6 62. fxg5 Kf7
+63. Ke4 Kg6 64. Kf4 Kh7 65. Kf5 Kg7 66. g6 Kh6 67. g7 Kxg7 68. Kg5 Kh7 69.
+Kf6 Kh6 70. g5+ Kh7 71. Kf7 Kh8 72. Kg6 1-0
+
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.18"]
+[Round "4"]
+[White "Van Wely,L"]
+[Black "Polgar,Ju"]
+[Result "0-1"]
+[WhiteElo "2714"]
+[BlackElo "2686"]
+[EventDate "2001.10.14"]
+[ECO "E15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Bg2 c6 8.
+O-O d5 9. Qc2 Nbd7 10. Rd1 Rc8 11. Bf4 c5 12. dxc5 Bxc5 13. Qb2 O-O 14. Nc3
+Bb4 15. Ne5 b5 16. a3 Bxc3 17. Qxc3 bxc4 18. b4 Bb7 19. e4 dxe4 20. Nxd7
+Nxd7 21. Be5 f6 22. Bd4 Qc7 23. Bxa7 Ne5 24. a4 e3 25. Qxe3 Bxg2 26. Kxg2
+Qb7+ 27. Kg1 Nf3+ 28. Kf1 Nxh2+ 29. Kg1 Nf3+ 30. Kf1 e5 31. Bc5 Rfd8 32. a5
+Nd4 33. Kg1 Nf3+ 34. Kf1 Qc6 35. a6 Nd2+ 36. Kg1 Nb3 37. a7 Nxa1 38. Rxa1
+Rd3 39. Qe2 Qd5 40. Kh2 Ra8 41. Be3 Qe4 42. b5 f5 43. Re1 f4 44. Bc5 fxg3+
+45. fxg3 Qd5 46. Qxe5 Rd2+ 47. Kh3 Qg2+ 48. Kh4 Qh2+ 49. Kg4 h5+ 50. Kg5
+Qh3 51. Re4 Rd3 52. g4 hxg4 53. Qe6+ Kh8 54. b6 Rad8 55. Re5 Qh1 56. Qxg4
+Qh6+ 57. Kf5 Qf6+ 58. Ke4 Qc6+ 59. Kf5 Rf3+ 60. Qxf3 Qxf3+ 61. Ke6 Qf6+ 0-1
+
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.19"]
+[Round "5"]
+[White "Korchnoi,V"]
+[Black "Van Wely,L"]
+[Result "0-1"]
+[WhiteElo "2639"]
+[BlackElo "2714"]
+[EventDate "2001.10.14"]
+[ECO "A32"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. Nf3 cxd4 5. Nxd4 Qc7 6. Nd2 Nc6 7. Nb5 Qb8
+8. Bg2 a6 9. Nc3 b5 10. O-O Be7 11. a3 O-O 12. Rb1 Rd8 13. e4 Bb7 14. Qe2
+b4 15. axb4 Bxb4 16. Na4 Qc7 17. Nb3 Ne5 18. Bd2 Bxd2 19. Nxd2 d6 20. b4
+Rac8 21. Rfc1 Bc6 22. b5 Be8 23. f4 Ned7 24. b6 Qc6 25. e5 Qxa4 26. exf6
+Nxf6 27. Ra1 Qb4 28. Qe3 Ng4 29. Qd4 e5 30. fxe5 dxe5 31. Qxg4 Qc5+ 32. Kh1
+Rxd2 33. Ra5 Qf2 34. Rg1 Bd7 35. Qe4 Qxb6 36. Rxe5 g6 37. Qe1 Qb2 38. Rd5
+Re2 39. Qa5 Bh3 0-1
+
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.19"]
+[Round "5"]
+[White "Bruzon,L"]
+[Black "Polgar,Ju"]
+[Result "0-1"]
+[WhiteElo "2564"]
+[BlackElo "2686"]
+[EventDate "2001.10.14"]
+[ECO "A13"]
+
+1. c4 e6 2. Nf3 d5 3. b3 Be7 4. Bb2 Bf6 5. Qc2 Bxb2 6. Qxb2 Nf6 7. g3 O-O
+8. Bg2 c5 9. O-O b6 10. cxd5 exd5 11. d4 Bb7 12. Nc3 Nbd7 13. Rfd1 Qe7 14.
+Rac1 Rfd8 15. e3 Rac8 16. Rc2 h6 17. Rdc1 Ba6 18. Bh3 Rb8 19. Rd1 Bb7 20.
+Ne2 Re8 21. Bg2 Ne4 22. Nf4 Ndf6 23. Nd3 Rbc8 24. Nfe5 Ba6 25. Rdc1 Ng4 26.
+Bh3 h5 27. Nf4 Nxe5 28. dxe5 Rcd8 29. e6 Bc8 30. Nxh5 fxe6 31. Bg2 e5 32.
+f3 Ng5 33. f4 exf4 34. Nxf4 Qxe3+ 35. Kh1 Bg4 36. Rf1 d4 37. h3 Bf5 38. Kh2
+Bxc2 39. Qxc2 d3 40. Qc4+ Kh7 41. h4 Rd4 42. Qb5 Nf7 43. Rf3 d2 44. Rxe3
+Rxe3 0-1
+
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.20"]
+[Round "6"]
+[White "Polgar,Ju"]
+[Black "Korchnoi,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2686"]
+[BlackElo "2639"]
+[EventDate "2001.10.14"]
+[ECO "C11"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Nbd7 6. Nf3 Be7 7. Nxf6+
+Bxf6 8. h4 O-O 9. Qd2 e5 10. Bxf6 Qxf6 11. O-O-O exd4 12. Qxd4 Qxd4 13.
+Rxd4 Nb6 14. Bd3 h6 15. Rd1 Be6 16. Be4 Rab8 17. Nd2 Rfe8 18. Bf3 c6 19.
+Nb3 Bd5 20. Bxd5 1/2-1/2
+
+[Event "Essent"]
+[Site "Hoogeveen NED"]
+[Date "2001.10.20"]
+[Round "6"]
+[White "Van Wely,L"]
+[Black "Bruzon,L"]
+[Result "1-0"]
+[WhiteElo "2714"]
+[BlackElo "2564"]
+[EventDate "2001.10.14"]
+[ECO "D37"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. c5 Nh5 8.
+Bd3 Nxf4 9. exf4 c6 10. Qc2 h6 11. O-O b6 12. b4 bxc5 13. bxc5 Qa5 14. Rab1
+Ba6 15. Bxa6 Qxa6 16. Rb3 Rfb8 17. Rfb1 Bd8 18. Ne2 Bc7 19. Ne1 Rxb3 20.
+axb3 Qb7 21. b4 a6 22. Nd3 Re8 23. Nc3 Qc8 24. g3 Nb8 25. h4 f6 26. Re1 Qd7
+27. Qa4 Qf7 28. Kg2 Kf8 29. Re3 Bd8 30. Qa2 Bc7 31. Qe2 Nd7 32. Nc1 Nb8 33.
+h5 Kg8 34. Nb3 Qd7 35. Nb1 e5 36. fxe5 fxe5 37. dxe5 Qf5 38. Nc3 Rxe5 39.
+Nd4 Rxe3 40. Qxe3 Qe5 41. Qxe5 Bxe5 42. Nce2 Kf7 43. f4 Bc7 44. Nb3 Nd7 45.
+Ned4 Nf6 46. Nxc6 Nxh5 47. Nbd4 g5 48. Ne5+ Kf6 49. Ng4+ Ke7 50. Ne3 Nf6
+51. Nef5+ Kd7 52. c6+ Kc8 53. Nxh6 gxf4 54. g4 Bd6 55. g5 Ne8 56. b5 Kc7
+57. bxa6 Kb6 58. Nhf5 Be5 59. Nf3 Bb2 60. Ne7 Nc7 61. Ne1 Ne6 62. g6 Kxa6
+63. Nd3 Bd4 64. Nb4+ Kb5 65. Nbxd5 Kc5 66. c7 Nxc7 67. Nxc7 Be5 68. Ne8 1-0
+

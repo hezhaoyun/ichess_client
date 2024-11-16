@@ -1,0 +1,850 @@
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.15"]
+[Round "1"]
+[White "Marzolo,C"]
+[Black "Pira,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2462"]
+[BlackElo "2403"]
+[EventDate "2003.12.15"]
+[ECO "B48"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Qc7 6. Be3 Nf6 7. Qd2 Bb4
+8. f3 Nxd4 9. Qxd4 Bxc3+ 10. bxc3 O-O 11. c4 d6 12. O-O-O e5 13. Qxd6 Qxd6
+14. Rxd6 Be6 15. Be2 Rfc8 16. Rhd1 Kf8 17. Kb2 Ne8 18. R6d2 Bxc4 19. Bxc4
+Rxc4 20. Rd8 Rxd8 21. Rxd8 b6 22. Ra8 Rc7 23. c4 Ke7 24. c5 bxc5 25. Rxa7
+Kd6 26. Ra8 Rb7+ 27. Kc3 Nc7 28. Ra5 Ne6 29. Ra6+ Kd7 30. g3 f6 31. f4 exf4
+32. gxf4 Rb4 33. Ra7+ Nc7 34. Kd3 Rb2 35. Bxc5 Kc6 36. Be3 Rxh2 37. f5 Rh4
+38. a4 Rg4 39. a5 h5 40. Bb6 Nb5 41. Re7 h4 42. e5 h3 43. exf6 gxf6 44. Re1
+h2 45. Rh1 Rg3+ 46. Ke2 Rg2+ 47. Kf3 Ra2 48. Kg3 Nd6 49. Rxh2 Nxf5+ 50. Kh3
+1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.15"]
+[Round "1"]
+[White "Skripchenko,A"]
+[Black "Gozzoli,Y"]
+[Result "1/2-1/2"]
+[WhiteElo "2460"]
+[BlackElo "2430"]
+[EventDate "2003.12.15"]
+[ECO "B51"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. O-O Bd7 5. Re1 Nf6 6. c3 a6 7. Bf1 Bg4 8.
+d3 e5 9. Nbd2 Be7 10. h3 Bh5 11. g3 O-O 12. Bg2 Ne8 13. g4 Bg6 14. d4 cxd4
+15. cxd4 Rc8 16. a3 h5 17. d5 hxg4 18. hxg4 Nb8 19. Nf1 Nf6 20. Ng3 Nh7 21.
+Be3 Nd7 22. b4 Nb6 23. Bf1 Nc4 24. Bxc4 Rxc4 25. Qd3 Qc8 26. Nf5 Bxf5 27.
+gxf5 Rc3 28. Qf1 g6 29. fxg6 Qg4+ 30. Qg2 Qxg6 31. Rec1 Rfc8 32. Rxc3 Rxc3
+33. Qxg6+ fxg6 34. Rc1 Rxc1+ 35. Bxc1 Nf6 36. Ng5 Bf8 37. Kg2 Bh6 38. Kf3
+b5 39. Be3 Bxg5 40. Bxg5 Kf7 41. Bxf6 Kxf6 42. Kg4 Kf7 43. Kg5 Kg7 44. f3
+Kf7 45. Kh6 Kf6 46. Kh7 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.15"]
+[Round "1"]
+[White "Vachier Lagrave,M"]
+[Black "Shchekachev,A"]
+[Result "0-1"]
+[WhiteElo "2412"]
+[BlackElo "2522"]
+[EventDate "2003.12.15"]
+[ECO "B43"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 b5 6. Bd3 d6 7. O-O Nf6 8.
+Re1 Be7 9. a4 b4 10. Na2 Qb6 11. Be3 Qb7 12. Bd2 e5 13. Nf3 Nc6 14. c3 bxc3
+15. Bxc3 Be6 16. b4 O-O 17. Qd2 Rfc8 18. Ng5 Bd7 19. Rab1 Nd8 20. f4 Bxa4
+21. fxe5 Qb6+ 22. Kh1 Ng4 23. Nh3 Nxe5 24. Bxe5 dxe5 25. Nc3 Be8 26. b5 Qa5
+27. Rec1 Bb4 28. Rxb4 Qxb4 29. bxa6 Ne6 30. Bf1 Nd4 31. Qe1 Qb2 0-1
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.15"]
+[Round "1"]
+[White "Bagheri,A"]
+[Black "Murey,J"]
+[Result "0-1"]
+[WhiteElo "2541"]
+[BlackElo "2465"]
+[EventDate "2003.12.15"]
+[ECO "A46"]
+
+1. d4 e6 2. Nf3 c5 3. c3 Nf6 4. Bg5 Qb6 5. Nbd2 Qxb2 6. Nc4 Qxc3+ 7. Bd2
+Qxc4 8. e4 Qxf1+ 9. Kxf1 Nxe4 10. Qc2 Nxd2+ 11. Nxd2 Na6 12. h4 Be7 13. Rh3
+Nb4 14. Qb3 cxd4 15. Rg3 O-O 16. h5 d5 17. Nf3 Nc6 18. Rc1 Bd6 19. Rg4 e5
+20. Rg5 h6 21. Qxd5 Ba3 22. Rxc6 bxc6 23. Rxg7+ Kxg7 24. Qxe5+ Kg8 25. Qxd4
+Be6 26. Qe3 Rab8 27. Qxa3 Rb1+ 28. Ke2 Re8 29. Ke3 Ra1 30. Kf4 Rxa2 31. Qe3
+Ra5 32. Ne5 Bc8 33. Qg3+ Kf8 0-1
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.15"]
+[Round "1"]
+[White "Vandevoort,P"]
+[Black "Maze,S"]
+[Result "0-1"]
+[WhiteElo "2363"]
+[BlackElo "2464"]
+[EventDate "2003.12.15"]
+[ECO "E32"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d6 7. Bg5 Nbd7
+8. e3 b6 9. Ne2 Bb7 10. Qd3 Re8 11. Nc3 e5 12. O-O-O h6 13. Bh4 a6 14. d5
+b5 15. Qc2 bxc4 16. Bxc4 Nb6 17. Bb3 Rc8 18. f4 c6 19. dxc6 Rxc6 20. Rhf1
+Nc4 21. fxe5 Rxe5 22. Bxf6 gxf6 23. Rf4 Rec5 24. Rdd4 Ne5 25. Bxf7+ Kxf7
+26. Qh7+ Ke6 27. Qxb7 Qa5 28. Qb3+ d5 29. Kd2 Nc4+ 30. Ke2 Rb6 31. Qa4
+Rxb2+ 32. Kf3 Ne5+ 33. Kg3 Qd8 34. Qxa6+ Rc6 35. Qa5 Qxa5 0-1
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.16"]
+[Round "2"]
+[White "Pira,D"]
+[Black "Gozzoli,Y"]
+[Result "1-0"]
+[WhiteElo "2403"]
+[BlackElo "2430"]
+[EventDate "2003.12.15"]
+[ECO "A46"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 h6 4. Bxf6 Qxf6 5. e4 d6 6. Nc3 Nd7 7. Qd2 c6 8.
+O-O-O e5 9. dxe5 dxe5 10. Nb5 Kd8 11. Kb1 Qe6 12. Qc3 cxb5 13. Bxb5 f6 14.
+Nh4 Be7 15. Rd3 a6 16. Ba4 Ra7 17. Rhd1 b5 18. Bb3 Qb6 19. Ng6 Rf8 20. f4
+Rc7 21. Qd2 Qc5 22. Be6 Qb4 23. Qe2 Qc5 24. c3 Qc6 25. Bd5 Qb6 26. Nxe7
+Kxe7 27. Qg4 g5 28. Qf5 Bb7 29. Qh7+ Kd8 30. Qxh6 Re8 31. fxg5 Bxd5 32.
+Rxd5 Qe3 33. Qxf6+ Re7 34. Rxe5 Qe2 35. Qxe7+ Kc8 36. Red5 Qxd1+ 37. Rxd1
+1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.16"]
+[Round "2"]
+[White "Maze,S"]
+[Black "Vachier Lagrave,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2464"]
+[BlackElo "2412"]
+[EventDate "2003.12.15"]
+[ECO "B33"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Bc5 6. Nb3 Be7 7. Nc3 Nc6
+8. Be3 Nf6 9. f4 d6 10. Qf3 Qc7 11. O-O O-O 12. Rae1 Rb8 13. Qg3 b5 14. Nd4
+Bb7 15. Nxc6 Bxc6 16. e5 dxe5 17. fxe5 Nh5 18. Qh3 g6 19. Bh6 Rfd8 20. Ne4
+Qxe5 21. Nf6+ Qxf6 22. Rxf6 Bxf6 23. g4 Ng7 24. Bf4 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.16"]
+[Round "2"]
+[White "Shchekachev,A"]
+[Black "Bagheri,A"]
+[Result "1-0"]
+[WhiteElo "2522"]
+[BlackElo "2541"]
+[EventDate "2003.12.15"]
+[ECO "E32"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3 6. Qxc3 b6 7. d4 Bb7
+8. Bg5 d6 9. Nd2 Nbd7 10. f3 h6 11. Bh4 c5 12. e4 Re8 13. Bd3 e5 14. dxe5
+dxe5 15. O-O-O Nb8 16. Nf1 Nc6 17. Ne3 Bc8 18. Kb1 Nd4 19. Rdf1 Qd6 20. g4
+a6 21. Rhg1 b5 22. g5 Nh7 23. Nd5 hxg5 24. Bxg5 Bb7 25. Qd2 Bxd5 26. exd5
+bxc4 27. Bxc4 Rab8 28. Ka2 Rb6 29. Qg2 Nxg5 30. Qxg5 Qf6 31. h4 a5 32. Rg2
+Nf5 33. Rfg1 Kf8 34. Qd2 Qxh4 35. Bd3 Nh6 36. Qxa5 Reb8 37. Qxc5+ Qe7 38.
+Qxe7+ 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.16"]
+[Round "2"]
+[White "Murey,J"]
+[Black "Skripchenko,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2465"]
+[BlackElo "2460"]
+[EventDate "2003.12.15"]
+[ECO "A01"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 Nf6 4. Bb5 Bd6 5. Na3 Na5 6. Nc4 Nxc4 7. Bxc4 Qe7
+8. Nf3 O-O 9. O-O e4 10. Nh4 Be5 11. d4 exd3 12. Bxe5 Qxe5 13. Bxd3 d5 14.
+Nf3 Qe7 15. c4 dxc4 16. Bxc4 Bg4 17. Qd4 Bxf3 18. gxf3 Rfd8 19. Qf4 Rd6 20.
+Kh1 Rad8 21. Rg1 g6 22. Rg5 Nd5 23. Bxd5 Rxd5 24. Rxd5 Rxd5 25. Rc1 c5 26.
+Kg2 b6 27. h4 h5 28. Rc4 Kg7 29. b4 Rf5 30. Qe4 Re5 31. Qd3 cxb4 32. Qd4
+Qf6 33. Rxb4 Ra5 34. a4 Qxd4 35. Rxd4 Kf6 36. f4 Ke6 37. Kf3 Rc5 38. Ke4
+Rc2 39. f3 Rc5 40. Rb4 Rd5 41. f5+ Rxf5 42. Rd4 Rc5 43. Kf4 Rc3 44. e4 a5
+45. e5 Rb3 46. Rd6+ Ke7 47. Kg3 Rb4 48. Rc6 Rxa4 49. Rxb6 Ra1 50. Ra6 a4
+51. Kf4 a3 52. Ra7+ Ke6 53. Ra6+ Kd5 54. Ra5+ Kd4 55. Ra7 a2 56. Ra5 Kc4
+57. Ra7 Kd5 58. Ra5+ Kc6 59. Ra7 Kb6 60. Ra8 Kb7 61. Ra5 Kc7 62. Ra7+ Kc6
+63. Ra5 Kb6 64. Ra8 Kc5 65. Ra7 Kc4 66. Ra8 Kd3 67. Ra7 Ke2 68. Ra6 Kf2 69.
+Ra3 Kg2 70. Kg5 Re1 71. Rxa2+ Kxf3 72. Kf6 Re4 73. Kxf7 Rxe5 74. Kxg6 Kg3
+75. Ra4 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.16"]
+[Round "2"]
+[White "Marzolo,C"]
+[Black "Vandevoort,P"]
+[Result "1-0"]
+[WhiteElo "2462"]
+[BlackElo "2363"]
+[EventDate "2003.12.15"]
+[ECO "C54"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 Nc6 4. Nf3 Bc5 5. O-O d6 6. c3 a6 7. Bb3 Ba7 8.
+Be3 Bxe3 9. fxe3 Na5 10. Bc2 c5 11. Nbd2 b5 12. Qe1 O-O 13. d4 Nc6 14. Rd1
+Qc7 15. Bb3 a5 16. Qg3 a4 17. Bd5 exd4 18. exd4 Nxd5 19. exd5 Ne7 20. Ne4
+Nf5 21. Qf4 cxd4 22. Nxd4 Nxd4 23. Rxd4 Ra6 24. Nf6+ Kh8 25. Qg3 Qe7 26.
+Rh4 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.17"]
+[Round "3"]
+[White "Shchekachev,A"]
+[Black "Skripchenko,A"]
+[Result "1-0"]
+[WhiteElo "2522"]
+[BlackElo "2460"]
+[EventDate "2003.12.15"]
+
+1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.17"]
+[Round "3"]
+[White "Bagheri,A"]
+[Black "Maze,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2541"]
+[BlackElo "2464"]
+[EventDate "2003.12.15"]
+[ECO "A47"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 c5 4. e3 Be7 5. Nbd2 b6 6. Bd3 Bb7 7. c3 Nc6 8.
+a3 d5 9. O-O O-O 10. b4 Ne4 11. Bxe4 dxe4 12. Nxe4 Nxd4 13. exd4 Bxe4 14.
+Bxe7 Qxe7 15. dxc5 Rad8 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.17"]
+[Round "3"]
+[White "Vachier Lagrave,M"]
+[Black "Marzolo,C"]
+[Result "1-0"]
+[WhiteElo "2412"]
+[BlackElo "2462"]
+[EventDate "2003.12.15"]
+[ECO "C06"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8.
+cxd4 f6 9. exf6 Nxf6 10. Nf3 Bd6 11. O-O Qc7 12. Bg5 O-O 13. Bh4 Nh5 14.
+Qc2 h6 15. Bh7+ Kh8 16. Bg6 Rxf3 17. Bxh5 Rf8 18. Bg3 Bd7 19. Rac1 Rac8 20.
+Qd2 Bxg3 21. hxg3 Rf6 22. Nf4 Qb6 23. Rfd1 g5 24. Ng6+ Kg7 25. Ne5 Nxe5 26.
+Rxc8 Nf3+ 27. gxf3 Bxc8 28. Qc3 Qd8 29. Rc1 Rf8 30. Qa3 Kf6 31. Rc7 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.17"]
+[Round "3"]
+[White "Gozzoli,Y"]
+[Black "Murey,J"]
+[Result "1-0"]
+[WhiteElo "2430"]
+[BlackElo "2465"]
+[EventDate "2003.12.15"]
+[ECO "A80"]
+
+1. d4 f5 2. Nc3 Nf6 3. Bg5 c6 4. e3 Qb6 5. Bd3 d5 6. Bxf6 exf6 7. a3 Bd6 8.
+h4 h5 9. Nh3 g6 10. Ne2 Be6 11. Qc1 Bf7 12. c4 Qb3 13. Nc3 dxc4 14. Be2 Nd7
+15. Nb1 Qa4 16. O-O Rc8 17. Nd2 b5 18. e4 fxe4 19. Nxe4 Bc7 20. Bd1 Qa5 21.
+b4 Qb6 22. Nc5 Nxc5 23. dxc5 Qb8 24. f4 O-O 25. f5 Kg7 26. Bc2 gxf5 27.
+Rxf5 Be5 28. Rg5+ Bg6 29. Rxg6+ Kf7 30. Qd1 Rfd8 31. Qxh5 Bxa1 32. Ng5+ 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.17"]
+[Round "3"]
+[White "Vandevoort,P"]
+[Black "Pira,D"]
+[Result "1-0"]
+[WhiteElo "2363"]
+[BlackElo "2403"]
+[EventDate "2003.12.15"]
+[ECO "E32"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 b6 7. Bg5 h6
+8. Bh4 Bb7 9. e3 d6 10. Ne2 Nbd7 11. Qd3 c5 12. Nc3 Qe7 13. Rd1 Rad8 14.
+Be2 Bxg2 15. Rg1 Bb7 16. e4 Kh8 17. Qh3 Rg8 18. Bg5 cxd4 19. Rxd4 Nf8 20.
+Bc1 e5 21. Rd3 Nxe4 22. Bxh6 gxh6 23. Qxh6+ Nh7 24. Qxh7+ 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.18"]
+[Round "4"]
+[White "Pira,D"]
+[Black "Murey,J"]
+[Result "1-0"]
+[WhiteElo "2403"]
+[BlackElo "2465"]
+[EventDate "2003.12.15"]
+[ECO "A25"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e3 Nge7 6. Nge2 O-O 7. b3 Nb4 8.
+O-O Nd3 9. Ba3 d6 10. Qc2 Nc5 11. d4 exd4 12. exd4 Ne6 13. Bb2 Nxd4 14.
+Nxd4 Bxd4 15. Ne4 c5 16. Bxd4 cxd4 17. Qd2 Nc6 18. Qf4 f5 19. Ng5 h6 20.
+Bd5+ Kg7 21. Nf3 g5 22. Qd2 Qf6 23. Rad1 Bd7 24. Nxd4 Rad8 25. Nb5 Ne5 26.
+f4 gxf4 27. gxf4 Ng6 28. Nxa7 Kh7 29. Nb5 Bxb5 30. cxb5 Rd7 31. Kh1 Re8 32.
+Rfe1 Rxe1+ 33. Rxe1 Qh4 34. Rg1 Qh3 35. Qd4 Rg7 36. b6 Qh4 37. a4 h5 38. a5
+Kh6 39. a6 bxa6 40. b7 Qd8 41. Qc3 Rc7 42. Qg3 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.18"]
+[Round "4"]
+[White "Maze,S"]
+[Black "Santo Roman,M"]
+[Result "1-0"]
+[WhiteElo "2464"]
+[BlackElo "2385"]
+[EventDate "2003.12.15"]
+[ECO "A04"]
+
+1. Nf3 f5 2. d3 Nf6 3. Bg5 d5 4. Bxf6 exf6 5. g3 Bd6 6. e3 Qe7 7. Nc3 c6 8.
+Ne2 Nd7 9. d4 Nb6 10. Bg2 Be6 11. a4 Bc7 12. b3 Nc8 13. c3 Nd6 14. Qc2 g5
+15. h4 O-O-O 16. hxg5 fxg5 17. Ne5 Nf7 18. f4 Nd6 19. O-O-O Qg7 20. Rh5 h6
+21. Rdh1 Rdf8 22. Kb2 Kb8 23. b4 Ne4 24. Bxe4 fxe4 25. Nc1 Bxe5 26. dxe5
+Bg4 27. R5h2 Bf3 28. Rf1 h5 29. Nb3 h4 30. Qf2 hxg3 31. Qxg3 Rxh2+ 32. Qxh2
+gxf4 33. exf4 Qf7 34. Nc5 Qxf4 35. Qxf4 Rxf4 36. e6 Rh4 37. e7 Bh5 38. Rf8+
+Kc7 39. Rh8 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.18"]
+[Round "4"]
+[White "Marzolo,C"]
+[Black "Bagheri,A"]
+[Result "1-0"]
+[WhiteElo "2462"]
+[BlackElo "2541"]
+[EventDate "2003.12.15"]
+[ECO "E41"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Bd3 Nc6 6. Nf3 d6 7. O-O Bxc3 8.
+bxc3 e5 9. Ng5 O-O 10. f4 exd4 11. cxd4 h6 12. d5 Nb4 13. Nf3 Nxd3 14. Qxd3
+Re8 15. Nd2 Ne4 16. f5 Qe7 17. Rf4 Nf6 18. Bb2 Bd7 19. e4 a6 20. Raf1 b5
+21. Qh3 bxc4 22. R1f3 Nh7 23. Rg3 Ng5 24. Qh5 f6 25. h4 Nh7 26. Rfg4 Rf8
+27. Rxg7+ Qxg7 28. Rxg7+ Kxg7 29. Qg6+ Kh8 30. Nxc4 Be8 31. Qxh6 Rb8 32.
+Bc3 Rd8 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.18"]
+[Round "4"]
+[White "Shchekachev,A"]
+[Black "Gozzoli,Y"]
+[Result "1-0"]
+[WhiteElo "2522"]
+[BlackElo "2430"]
+[EventDate "2003.12.15"]
+[ECO "D16"]
+
+1. Nf3 Nf6 2. c4 c6 3. d4 d5 4. Nc3 dxc4 5. a4 Na6 6. e3 Bg4 7. Bxc4 e6 8.
+h3 Bh5 9. O-O Nb4 10. Qe2 Be7 11. Rd1 O-O 12. g4 Bg6 13. e4 Nd7 14. Bf4 Re8
+15. Bb3 a6 16. Bg3 Qa5 17. Nd2 Qb6 18. Nc4 Qa7 19. h4 h6 20. Nd6 Bxd6 21.
+Bxd6 c5 22. Rac1 cxd4 23. Bxb4 Qb6 24. Nb5 axb5 25. a5 Qa7 26. Qxb5 Nf6 27.
+f3 Qb8 28. e5 Nd5 29. Bd6 Qd8 30. Bxd5 Rxa5 31. Qxb7 Rxd5 32. h5 Bh7 33.
+Kg2 Qa8 34. Qxa8 Rxa8 35. Rc4 d3 36. Rdc1 Kh8 37. Kf2 d2 38. Rd1 f6 39. f4
+g6 40. Be7 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.18"]
+[Round "4"]
+[White "Vandevoort,P"]
+[Black "Vachier Lagrave,M"]
+[Result "1-0"]
+[WhiteElo "2363"]
+[BlackElo "2412"]
+[EventDate "2003.12.15"]
+[ECO "A45"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 c5 4. d5 Qb6 5. Nd2 Qxb2 6. Nxe4 Qb4+ 7. Qd2
+Qxe4 8. e3 g5 9. f3 Qf5 10. Bg3 d6 11. Bd3 Qf6 12. Rb1 b6 13. Ne2 Bb7 14.
+O-O Bg7 15. f4 g4 16. e4 Nd7 17. a4 e6 18. e5 Qe7 19. dxe6 fxe6 20. Nc3
+dxe5 21. fxe5 O-O-O 22. Qe2 c4 23. Be4 Rhf8 24. Rfe1 Bxe4 25. Qxe4 Kb8 26.
+Nb5 Nc5 27. Qxc4 Rd2 28. Nd6 Qc7 29. a5 Qc6 30. Re2 Rxe2 31. Qxe2 Na4 32.
+axb6 Nxb6 33. Bf2 Kc7 34. Nb5+ Kd7 35. Nxa7 Qc4 36. Qxc4 Nxc4 37. Rb7+ Ke8
+38. Rxg7 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.19"]
+[Round "5"]
+[White "Gozzoli,Y"]
+[Black "Maze,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2430"]
+[BlackElo "2464"]
+[EventDate "2003.12.15"]
+[ECO "A45"]
+
+1. d4 Nf6 2. Bg5 e6 3. e3 c5 4. Nf3 Be7 5. Bd3 b6 6. Nbd2 Bb7 7. O-O O-O 8.
+c3 Nc6 9. e4 d6 10. Re1 cxd4 11. cxd4 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.19"]
+[Round "5"]
+[White "Bagheri,A"]
+[Black "Vandevoort,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2541"]
+[BlackElo "2363"]
+[EventDate "2003.12.15"]
+[ECO "A48"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 O-O 5. e4 d6 6. c3 c5 7. dxc5 dxc5
+8. Be2 b6 9. O-O Bb7 10. Qc2 Nc6 11. a4 Qc7 12. Bh4 Nh5 13. Rfd1 Rad8 14.
+Ne1 Nf4 15. Bf1 Qc8 16. f3 Rd7 17. Bg5 Ne6 18. Be3 Rfd8 19. Bc4 Rd6 20. f4
+Bh6 21. g3 Ne5 22. Be2 c4 23. a5 Qc6 24. axb6 axb6 25. Kf1 R6d7 26. b3 cxb3
+27. Qxb3 Nc5 28. Qb5 Ng4 29. Bd4 Rxd4 30. cxd4 Ne3+ 31. Kf2 Nxd1+ 32. Rxd1
+Qxb5 33. Bxb5 Rxd4 34. Ke3 e5 35. Nd3 Nxd3 36. Bxd3 Rd8 37. Nc4 exf4+ 38.
+gxf4 Bf8 39. Rb1 Bc5+ 40. Ke2 Ra8 41. Nxb6 Ra2+ 42. Ke1 Rxh2 43. Nd7 Rh1+
+44. Bf1 Ba6 45. Rb8+ Kg7 46. Nxc5 Rxf1+ 47. Kd2 Rxf4 48. Nxa6 Rxe4 49. Nc5
+Re7 50. Rb3 g5 51. Re3 Ra7 52. Ke2 h5 53. Kf3 Kg6 54. Rd3 f6 55. Rd6 Ra5
+56. Rc6 h4 57. Kg4 Rb5 58. Ne4 Rf5 59. Nxg5 Rxg5+ 60. Kxh4 Rg1 61. Rc5 Kf7
+62. Rc6 Ke7 63. Ra6 Kf7 64. Ra7+ Kg6 65. Ra4 Rh1+ 66. Kg4 f5+ 67. Kf3 Kg5
+68. Kg3 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.19"]
+[Round "5"]
+[White "Murey,J"]
+[Black "Shchekachev,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2465"]
+[BlackElo "2522"]
+[EventDate "2003.12.15"]
+[ECO "D35"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Bf4 Nf6 5. e3 O-O 6. a3 dxc4 7. Bxc4 Nbd7
+8. Nb5 Ne8 9. Nf3 a6 10. Nc3 Nef6 11. e4 b5 12. Bd3 Bb7 13. b4 a5 14. Nxb5
+axb4 15. Bxc7 Qc8 16. Rc1 Bxe4 17. Nd6 Bxd6 18. Bxd6 Bxf3 19. gxf3 Qb7 20.
+axb4 Rfd8 21. O-O Nf8 22. Bc5 Ng6 23. Re1 Qd5 24. Be4 Qg5+ 25. Kh1 Ra2 26.
+Rc2 Nxe4 27. Rxa2 Nc3 28. Qd2 Qd5 29. Qxc3 Qxa2 30. Qe3 Qb2 31. Qe4 h6 32.
+Rg1 Qb3 33. Rb1 Qa2 34. Rf1 Qc4 35. Rb1 Qa2 36. Rf1 Qc4 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.19"]
+[Round "5"]
+[White "Vachier Lagrave,M"]
+[Black "Pira,D"]
+[Result "1-0"]
+[WhiteElo "2412"]
+[BlackElo "2403"]
+[EventDate "2003.12.15"]
+[ECO "B08"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Bc4 d6 5. Nf3 Nf6 6. O-O b5 7. Bb3 b4 8. e5
+bxc3 9. exf6 Bxf6 10. bxc3 O-O 11. Bg5 Bxg5 12. Nxg5 h6 13. Ne4 d5 14. Nd2
+Nd7 15. c4 Nf6 16. Re1 Bg4 17. Qc1 Kg7 18. c3 Qd6 19. h3 Bf5 20. c5 Qc7 21.
+Nf3 Rae8 22. Bc2 Be4 23. Ne5 Bxc2 24. Qxc2 Ne4 25. f3 Ng5 26. Rab1 Rb8 27.
+Qa4 Rxb1 28. Rxb1 f6 29. Qxc6 Qa5 30. Nd7 Qxa2 31. Re1 Rf7 32. Rxe7 Qb1+
+33. Kh2 Qf5 34. Qd6 h5 35. Rxf7+ Kh6 36. Qf8+ 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.19"]
+[Round "5"]
+[White "Santo Roman,M"]
+[Black "Marzolo,C"]
+[Result "1-0"]
+[WhiteElo "2385"]
+[BlackElo "2462"]
+[EventDate "2003.12.15"]
+[ECO "C18"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Qc7 8.
+Bd3 c4 9. Be2 Nf5 10. Bf3 Nc6 11. Ne2 Bd7 12. Ng3 Nce7 13. Nh5 Rg8 14. Qh3
+Ng6 15. O-O O-O-O 16. a4 Rde8 17. Bg4 Kb8 18. Ba3 Qd8 19. f4 f6 20. Be2
+fxe5 21. fxe5 Nh8 22. g4 Ne7 23. a5 Ka8 24. Qg3 Nc6 25. a6 b6 26. Bd6 Bc8
+27. Qf3 Qd7 28. Ra3 Na5 29. Nf4 Bxa6 30. Bb4 Rgf8 31. Bxf8 Rxf8 32. Qe3 Qe7
+33. Raa1 Bb7 34. Nxe6 Rxf1+ 35. Rxf1 Qxe6 36. Rf8+ Bc8 37. Rxh8 Kb7 38. Qg5
+1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.20"]
+[Round "6"]
+[White "Vandevoort,P"]
+[Black "Santo Roman,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2363"]
+[BlackElo "2385"]
+[EventDate "2003.12.15"]
+[ECO "A80"]
+
+1. d4 f5 2. f3 Nf6 3. e4 fxe4 4. fxe4 Nxe4 5. Bd3 d5 6. Nf3 Nc6 7. O-O Bg4
+8. c3 Qd7 9. Nbd2 Nxd2 10. Bxd2 O-O-O 11. b4 Bxf3 12. Rxf3 Re8 13. a4 e6
+14. a5 Bd6 15. a6 Nb8 16. axb7+ Kxb7 17. b5 Rhf8 18. Qa4 Rxf3 19. Qxa7+ Kc8
+20. gxf3 e5 21. b6 c6 22. Qa8 e4 23. Ra7 Qf5 24. Ba6+ Kd8 25. Rb7 e3 26.
+Be1 Qg5+ 27. Kh1 Qf4 28. Bg3 Qxf3+ 29. Kg1 Bxg3 30. hxg3 Qxg3+ 31. Kh1 Qh3+
+32. Kg1 Qg3+ 33. Kh1 Qe1+ 34. Kh2 Qf2+ 35. Kh1 Qf3+ 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.20"]
+[Round "6"]
+[White "Vachier Lagrave,M"]
+[Black "Bagheri,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2412"]
+[BlackElo "2541"]
+[EventDate "2003.12.15"]
+[ECO "B14"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 e6 6. c5 Be7 7. Nf3 b6 8.
+b4 a5 9. Na4 Nfd7 10. Bb5 O-O 11. Bf4 Ba6 12. Bxa6 Nxa6 13. b5 Nc7 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.20"]
+[Round "6"]
+[White "Pira,D"]
+[Black "Shchekachev,A"]
+[Result "0-1"]
+[WhiteElo "2403"]
+[BlackElo "2522"]
+[EventDate "2003.12.15"]
+[ECO "E05"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 d5 4. Bg2 Be7 5. c4 O-O 6. O-O dxc4 7. Ne5 Nc6 8.
+Nxc6 bxc6 9. Qa4 Qxd4 10. Nc3 Qb6 11. Bxc6 Bb7 12. Bxb7 Qxb7 13. Qxc4 c5
+14. b3 Nd5 15. Bb2 Nb6 16. Qg4 Bf6 17. Rac1 Rfd8 18. Rfd1 c4 19. bxc4 Nxc4
+20. Qxc4 Qxb2 21. Ne4 Be7 22. Qc7 Kf8 23. Rxd8+ Rxd8 24. Rc2 Qb5 25. Kg2 a5
+26. Nc5 g6 27. a4 Qb4 28. Rc4 Qd2 29. e4 Qe2 30. Rc2 Qd1 31. Rc3 Qd6 32.
+Qxa5 Qc6 33. Qb5 Qa8 34. Rf3 Kg8 35. Nb7 Rd4 36. a5 Rb4 37. Qc6 Qxb7 38.
+Qe8+ Bf8 39. a6 Qa7 40. Rd3 Rb2 41. Rf3 Ra2 0-1
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.20"]
+[Round "6"]
+[White "Maze,S"]
+[Black "Murey,J"]
+[Result "0-1"]
+[WhiteElo "2464"]
+[BlackElo "2465"]
+[EventDate "2003.12.15"]
+[ECO "B51"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 Ngf6 5. Nc3 cxd4 6. Qxd4 e5 7. Qd3 h6
+8. h3 Be7 9. Be3 O-O 10. a4 Nb8 11. O-O Nc6 12. Bc4 Nb4 13. Qe2 a6 14. Rfd1
+Qa5 15. Bb3 Kh7 16. Nd2 Be6 17. Nc4 Qc7 18. Nb6 Rad8 19. a5 Bxb3 20. cxb3
+Qc6 21. Ra4 d5 22. Nbxd5 Nfxd5 23. exd5 Nxd5 24. Qd3+ e4 25. Rxe4 Nxc3 26.
+Rd4+ Ne4 0-1
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.20"]
+[Round "6"]
+[White "Marzolo,C"]
+[Black "Gozzoli,Y"]
+[Result "1/2-1/2"]
+[WhiteElo "2462"]
+[BlackElo "2430"]
+[EventDate "2003.12.15"]
+[ECO "E91"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 O-O 5. e4 d6 6. Be2 Bg4 7. Be3 Nfd7 8.
+Rc1 a6 9. c5 dxc5 10. dxc5 Nc6 11. h3 Bxf3 12. Bxf3 e5 13. O-O Nd4 14. b4
+a5 15. a3 axb4 16. axb4 c6 17. Be2 Ra3 18. Bc4 b5 19. cxb6 Nxb6 20. Ne2 Qd6
+21. Qd2 Nxc4 22. Rxc4 Qe6 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.21"]
+[Round "7"]
+[White "Gozzoli,Y"]
+[Black "Vandevoort,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2430"]
+[BlackElo "2363"]
+[EventDate "2003.12.15"]
+[ECO "D15"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 dxc4 5. e4 b5 6. e5 Nd5 7. a4 e6 8.
+axb5 Nxc3 9. bxc3 cxb5 10. Ng5 Bb7 11. Qh5 Qd7 12. Be2 h6 13. Bf3 g6 14.
+Qh3 Nc6 15. Ne4 O-O-O 16. O-O Kb8 17. Be3 a6 18. Qg3 Qc7 19. Nd6 Rxd6 20.
+exd6 Bxd6 21. Qh4 Ne7 22. Bxb7 Kxb7 23. d5 Nxd5 24. Rxa6 Kxa6 25. Ra1+ Kb7
+26. Ra7+ Kc6 27. Rxc7+ 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.21"]
+[Round "7"]
+[White "Murey,J"]
+[Black "Marzolo,C"]
+[Result "1/2-1/2"]
+[WhiteElo "2465"]
+[BlackElo "2462"]
+[EventDate "2003.12.15"]
+[ECO "B07"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Nf3 Bd6 7. Bc4
+Ke7 8. Bg5 Be6 9. Bxe6 fxe6 10. O-O-O a6 11. h3 Rf8 12. a3 Nc6 13. Rhe1 Rf7
+14. Be3 h6 15. Ng1 Nh5 16. f3 Nf4 17. Rd2 b5 18. Red1 Na5 19. g3 Nc4 20.
+gxf4 Nxe3 21. fxe5 Bxe5 22. Rd7+ Ke8 23. Rxf7 Nxd1 24. Rxg7 Bxg7 25. Nxd1
+Rd8 26. Ne2 h5 27. Nf2 Bh6+ 28. f4 e5 29. Nd3 exf4 30. Kd1 c5 31. Ke1 c4
+32. Ndxf4 Bxf4 33. Nxf4 Rd4 34. Nxh5 Rxe4+ 35. Kd2 Rh4 36. Nf6+ Ke7 37.
+Nd5+ Kd6 38. Ne3 Rxh3 39. c3 Rh1 40. a4 Kc5 41. axb5 axb5 42. Kc2 Rh3 43.
+Nf1 Kb6 44. Nd2 Ka5 45. Kb1 Rh2 46. Nf3 Rf2 47. Nd4 Ka4 48. Nc6 Rf6 49. Nd4
+b4 50. cxb4 Rd6 51. Ne2 Rd2 52. Nc1 Kxb4 53. Na2+ Kc5 54. Kc1 Rh2 55. Kb1
+Kd4 56. Nb4 Rh6 57. Kc2 Rh2+ 58. Kb1 Rf2 59. Kc1 Rh2 60. Kb1 Ke3 61. Kc1
+Kd4 62. Kb1 Rf2 63. Kc1 c3 64. bxc3+ Kxc3 65. Nd5+ Kd4 66. Nb4 Kc4 67. Nc2
+Kd3 68. Nb4+ Kc3 69. Nd5+ Kc4 70. Nb6+ Kb5 71. Nd5 Kc4 72. Nb6+ Kd4 73. Na4
+Ra2 74. Nb2 Kc3 75. Nd1+ Kb3 76. Ne3 Rh2 77. Kd1 Kc3 78. Ng4 Ra2 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.21"]
+[Round "7"]
+[White "Bagheri,A"]
+[Black "Pira,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2541"]
+[BlackElo "2403"]
+[EventDate "2003.12.15"]
+[ECO "C95"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8.
+c3 O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3
+g6 15. a4 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.21"]
+[Round "7"]
+[White "Santo Roman,M"]
+[Black "Vachier Lagrave,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2385"]
+[BlackElo "2412"]
+[EventDate "2003.12.15"]
+[ECO "B38"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 Nf6 7. Nc3 d6 8.
+Be2 O-O 9. O-O Bd7 10. f4 Nxd4 11. Bxd4 Bc6 12. Bf3 Nd7 13. Bxg7 Kxg7 14.
+Kh1 a5 15. Qd4+ Kg8 16. Rac1 a4 17. Nd5 e5 18. fxe5 Nxe5 19. c5 Re8 20. Be2
+Bxd5 21. exd5 dxc5 22. Rxc5 Nd7 23. Rc2 Qb6 24. Qxb6 Nxb6 25. d6 Rad8 26.
+Bf3 Rxd6 27. Bxb7 Red8 28. Kg1 Nd5 29. Bxd5 Rxd5 30. Rf4 Rd1+ 31. Kf2 R8d2+
+32. Rxd2 Rxd2+ 33. Kf3 Rxb2 34. Rxa4 Kg7 35. Ra6 h5 36. h4 f6 37. Ra7+ Kh6
+38. Ra6 Kg7 39. Ra7+ Kh6 40. g3 g5 41. hxg5+ fxg5 42. Ra6+ Kg7 43. Ra7+
+1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.21"]
+[Round "7"]
+[White "Shchekachev,A"]
+[Black "Maze,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2522"]
+[BlackElo "2464"]
+[EventDate "2003.12.15"]
+[ECO "B49"]
+
+1. Nf3 c5 2. e4 Nc6 3. d4 cxd4 4. Nxd4 Qc7 5. Nc3 e6 6. Be2 Nf6 7. O-O a6
+8. Be3 Bb4 9. Na4 b5 10. Nxc6 Qxc6 11. Nb6 Rb8 12. e5 Bb7 13. Bf3 Ne4 14.
+c4 bxc4 15. Rc1 c3 16. bxc3 Be7 17. c4 Qc7 18. c5 f5 19. exf6 Nxf6 20. Nxd7
+Qxd7 21. Qxd7+ Nxd7 22. Bxb7 Rxb7 23. c6 Rc7 24. Bf4 e5 25. cxd7+ Rxd7 26.
+Bxe5 O-O 27. Rc2 Rf5 28. f4 Bd6 29. Rc6 Bxe5 30. fxe5 Rxf1+ 31. Kxf1 Ra7
+32. Ke2 Kf7 33. Ke3 a5 34. Ke4 a4 35. Kf5 Rb7 36. Ra6 g6+ 37. Ke4 Rb2 38.
+Rxa4 Rxg2 39. Ra7+ Ke6 40. Ra6+ Ke7 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.22"]
+[Round "8"]
+[White "Pira,D"]
+[Black "Maze,S"]
+[Result "0-1"]
+[WhiteElo "2403"]
+[BlackElo "2464"]
+[EventDate "2003.12.15"]
+[ECO "A45"]
+
+1. d4 Nf6 2. Bg5 e6 3. e4 h6 4. Bxf6 Qxf6 5. Nc3 d6 6. Qd2 c6 7. O-O-O e5
+8. Nge2 Nd7 9. f4 g6 10. h4 h5 11. g3 Bg7 12. Bh3 Nb6 13. Bxc8 Rxc8 14. Qd3
+O-O 15. g4 hxg4 16. h5 exd4 17. e5 dxe5 18. Ne4 Qe7 19. fxe5 Qxe5 20. hxg6
+f5 21. N4g3 Nd5 22. Kb1 Qe3 23. Nxd4 Qxd3 24. Rxd3 Bxd4 25. Rxd4 f4 26. Ne4
+g3 27. c4 g2 28. Rg1 Ne3 29. Kc1 f3 30. Nf2 Rcd8 31. Re4 Rde8 32. Rd4 Kg7
+33. Kd2 Nf5 34. Rd7+ Kxg6 35. Nd3 Ng3 36. Rxb7 Ne2 0-1
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.22"]
+[Round "8"]
+[White "Bagheri,A"]
+[Black "Santo Roman,M"]
+[Result "1-0"]
+[WhiteElo "2541"]
+[BlackElo "2385"]
+[EventDate "2003.12.15"]
+[ECO "A87"]
+
+1. d4 f5 2. Nf3 Nf6 3. c4 g6 4. g3 Bg7 5. Bg2 O-O 6. b4 d6 7. Bb2 e5 8.
+dxe5 Ng4 9. O-O Nd7 10. Nc3 dxe5 11. e4 c6 12. c5 f4 13. Qd6 fxg3 14. Qe6+
+Kh8 15. Qxg4 gxf2+ 16. Rxf2 Nxc5 17. Qg3 Ne6 18. Ne2 Nf4 19. Nxe5 Nxe2+ 20.
+Rxe2 Qb6+ 21. Qe3 Qxb4 22. Nxg6+ 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.22"]
+[Round "8"]
+[White "Vandevoort,P"]
+[Black "Murey,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2363"]
+[BlackElo "2465"]
+[EventDate "2003.12.15"]
+[ECO "A43"]
+
+1. d4 g6 2. e4 Bg7 3. Nc3 c5 4. d5 d6 5. Nf3 Nf6 6. Bb5+ Nbd7 7. a4 O-O 8.
+O-O a6 9. Be2 b6 10. Bg5 h6 11. Bf4 Ne8 12. Nd2 Ne5 13. Bg3 f5 14. f4 Nf7
+15. exf5 Bxf5 16. Nf3 h5 17. Nh4 Nh6 18. Bd3 Bxc3 19. bxc3 Kg7 20. c4 Nf6
+21. Be1 Bg4 22. Qc1 Bf5 23. Qd1 Bg4 24. Qc1 Bf5 25. Bd2 Bg4 26. Qd1 Nf5 27.
+Kh1 Nxh4 28. Qc1 Bf5 29. Be1 Bg4 30. Bc3 Rh8 31. Qd1 Bc8 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.22"]
+[Round "8"]
+[White "Vachier Lagrave,M"]
+[Black "Gozzoli,Y"]
+[Result "1/2-1/2"]
+[WhiteElo "2412"]
+[BlackElo "2430"]
+[EventDate "2003.12.15"]
+[ECO "B51"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. O-O Bd7 5. Re1 Nf6 6. c3 a6 7. Ba4 c4 8.
+d4 cxd3 9. Qxd3 Ne5 10. Nxe5 dxe5 11. Bxd7+ Nxd7 12. Nd2 Qc7 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.22"]
+[Round "8"]
+[White "Marzolo,C"]
+[Black "Shchekachev,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2462"]
+[BlackElo "2522"]
+[EventDate "2003.12.15"]
+[ECO "D01"]
+
+1. d4 Nf6 2. Bg5 d5 3. Nc3 c6 4. e3 Qb6 5. Rb1 g6 6. Bxf6 exf6 7. Nf3 f5 8.
+Be2 Nd7 9. O-O Bd6 10. g3 O-O 11. b4 a6 12. a4 Nf6 13. a5 Qd8 14. Na4 Qe7
+15. c3 Re8 16. Rb2 Kg7 17. Qb3 Rb8 18. Nc5 Be6 19. c4 dxc4 20. Nxe6+ fxe6
+21. Bxc4 Nd5 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.23"]
+[Round "9"]
+[White "Murey,J"]
+[Black "Vachier Lagrave,M"]
+[Result "1-0"]
+[WhiteElo "2465"]
+[BlackElo "2412"]
+[EventDate "2003.12.15"]
+[ECO "B36"]
+
+1. c4 Nf6 2. Nc3 c5 3. Nf3 Nc6 4. d4 cxd4 5. Nxd4 g6 6. e4 d6 7. Be2 Nxd4
+8. Qxd4 Bg7 9. Bg5 O-O 10. Qe3 Be6 11. O-O Qa5 12. Rab1 Rfc8 13. b4 Qb6 14.
+Nd5 Qxe3 15. Bxe3 Kf8 16. f3 Nxd5 17. cxd5 Bd7 18. Rfc1 a6 19. Kf2 Ke8 20.
+Bd3 Bb5 21. Ke2 Kd7 22. Kd2 Bxd3 23. Kxd3 Rxc1 24. Bxc1 Rc8 25. Bd2 b5 26.
+Rb3 Kc7 27. Bc3 Bxc3 28. Rxc3+ Kb7 29. Rxc8 Kxc8 30. Ke3 Kd7 31. Kf4 f6 32.
+h4 e5+ 33. dxe6+ Kxe6 34. Ke3 d5 35. Kd4 dxe4 36. Kxe4 h6 37. g3 h5 38. g4
+g5 39. hxg5 h4 40. f4 fxg5 41. fxg5 Kf7 42. Kf3 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.23"]
+[Round "9"]
+[White "Maze,S"]
+[Black "Marzolo,C"]
+[Result "1/2-1/2"]
+[WhiteElo "2464"]
+[BlackElo "2462"]
+[EventDate "2003.12.15"]
+[ECO "D76"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d5 6. cxd5 Nxd5 7. d4 Nc6
+8. e4 Nb6 9. d5 Na5 10. Nc3 c6 11. dxc6 Nxc6 12. Qe2 Bg4 13. Be3 Nd4 14.
+Bxd4 Bxf3 15. Qxf3 Qxd4 16. Rab1 e6 17. Rfd1 Qb4 18. a3 Qb3 19. Ne2 Qxf3
+20. Bxf3 Nc4 21. Nd4 Rfd8 22. Be2 Rac8 23. Nb5 Nd2 24. Nxa7 Ra8 25. Rbc1
+Bxb2 26. Rc2 Bxa3 27. Rdxd2 Rxd2 28. Rxd2 Rxa7 29. f4 Bc5+ 30. Kg2 Ra4 31.
+Rb2 b6 32. Bf3 Kg7 33. e5 h6 34. Bc6 Rd4 35. h4 g5 36. hxg5 hxg5 37. Kf3
+Rd3+ 38. Kg4 gxf4 39. gxf4 f5+ 40. exf6+ Kxf6 41. Re2 1/2-1/2
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.23"]
+[Round "9"]
+[White "Shchekachev,A"]
+[Black "Vandevoort,P"]
+[Result "1-0"]
+[WhiteElo "2522"]
+[BlackElo "2363"]
+[EventDate "2003.12.15"]
+[ECO "D17"]
+
+1. Nf3 Nf6 2. c4 c6 3. d4 d5 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 e6 7. f3 Bb4 8.
+e4 Bxe4 9. fxe4 Nxe4 10. Bd2 Qxd4 11. Nxe4 Qxe4+ 12. Qe2 Bxd2+ 13. Kxd2
+Qd5+ 14. Kc2 Na6 15. Nxc4 O-O 16. Qe5 Rab8 17. a5 f6 18. Qxd5 cxd5 19. Nd2
+Rfc8+ 20. Kb1 Nb4 21. Ra4 Nc6 22. Bb5 Kf7 23. Rc1 Ne5 24. Rxc8 Rxc8 25. a6
+bxa6 26. Rxa6 Rc7 27. Nb3 f5 28. Nd4 Re7 29. Be2 f4 30. b4 g5 31. h3 Kf6
+32. Kc2 h6 33. Kb3 Nf7 34. Nc6 Rc7 35. Bg4 Nd6 36. Nxa7 Ke5 37. Nc6+ Ke4
+38. Nd8 Nc4 39. Rxe6+ Kd3 40. Nc6 Nd2+ 41. Ka4 Kc3 42. Kb5 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.23"]
+[Round "9"]
+[White "Santo Roman,M"]
+[Black "Pira,D"]
+[Result "1-0"]
+[WhiteElo "2385"]
+[BlackElo "2403"]
+[EventDate "2003.12.15"]
+[ECO "B47"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. g3 a6 7. Bg2 Nf6 8.
+O-O h6 9. Re1 Nxd4 10. Qxd4 Bc5 11. Bf4 d6 12. Qd2 Ng4 13. Re2 g5 14. Be3
+Bxe3 15. fxe3 Ne5 16. Rd1 Ke7 17. Qd4 Rd8 18. Red2 b5 19. a4 bxa4 20. Nxa4
+Rb8 21. Nc5 Nc6 22. Qg7 Qb6 23. Rf2 Rf8 24. Rdf1 Nd8 25. Nd3 Qxe3 26. Qxh6
+Rb5 27. Re1 Qd4 28. e5 dxe5 29. Nxe5 Rxe5 30. Qf6+ Kd6 31. Rxe5 Qd1+ 32.
+Rf1 Qd4+ 33. Kh1 Qb4 34. c3 Qb3 35. Rd5+ Kc7 36. Qh8 1-0
+
+[Event "3rd NAO GM"]
+[Site "Paris FRA"]
+[Date "2003.12.23"]
+[Round "9"]
+[White "Gozzoli,Y"]
+[Black "Bagheri,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2430"]
+[BlackElo "2541"]
+[EventDate "2003.12.15"]
+[ECO "B26"]
+
+1. e4 c5 2. Nc3 d6 3. g3 Nc6 4. Bg2 g6 5. d3 Bg7 6. Be3 e6 7. Qd2 Nd4 8.
+Nge2 Ne7 9. Nd1 O-O 10. O-O Rb8 11. Nxd4 cxd4 12. Bh6 e5 13. c3 Nc6 14.
+Bxg7 Kxg7 15. f4 f6 1/2-1/2
+

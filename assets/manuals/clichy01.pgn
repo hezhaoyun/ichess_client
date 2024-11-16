@@ -1,0 +1,894 @@
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.25"]
+[Round "1"]
+[White "Gurevich,M"]
+[Black "Renet,O"]
+[Result "1/2-1/2"]
+[WhiteElo "2688"]
+[BlackElo "2494"]
+[EventDate "2001.06.25"]
+[ECO "D10"]
+
+1. d4 d5 2. c4 c6 3. e3 Bf5 4. cxd5 cxd5 5. Qb3 Qc7 6. Bb5+ Bd7 7. Nc3 e6
+8. Bd3 Nc6 9. Nf3 Nf6 10. O-O Be7 11. a3 O-O 12. e4 dxe4 13. Nxe4 Qb6 14.
+Qxb6 axb6 15. Bg5 Nd5 16. Rfd1 Rfd8 17. Rac1 Be8 18. Nc3 Nxc3 19. Rxc3 Bxg5
+20. Nxg5 g6 21. Be4 Nxd4 22. Kf1 Bc6 23. Ke1 h6 24. Bxc6 bxc6 25. Nf3 Nxf3+
+26. Rxf3 Rd5 27. Rb3 Ra6 28. Rc3 c5 29. Rcd3 Re5+ 30. Re3 Rxe3+ 31. fxe3
+Kf8 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.25"]
+[Round "1"]
+[White "Bauer,Ch"]
+[Black "Nataf,IA"]
+[Result "1-0"]
+[WhiteElo "2612"]
+[BlackElo "2552"]
+[EventDate "2001.06.25"]
+[ECO "B32"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. N1c3 a6 7. Na3 b5 8.
+Nd5 Nce7 9. c4 Nxd5 10. exd5 bxc4 11. Nxc4 Nf6 12. Be3 Rb8 13. Be2 Be7 14.
+a4 O-O 15. Rc1 a5 16. Bd2 Ra8 17. Nxa5 Rxa5 18. Rxc8 Qxc8 19. Bxa5 Qc5 20.
+b4 Qxd5 21. Qxd5 Nxd5 22. Bf3 Nc3 23. Kd2 Nxa4 24. Ra1 Nb2 25. Kc3 e4 26.
+Bxe4 Bf6+ 27. Kb3 Nc4 28. Ra2 Nxa5+ 29. bxa5 Bd4 30. a6 Rb8+ 31. Kc4 Ba7
+32. Bb7 Rd8 33. Kd5 Kf8 34. Kc6 Re8 35. f3 h5 36. Kd7 Re7+ 37. Kxd6 Re6+
+38. Kd5 Ke7 39. Rc2 Rd6+ 40. Kc4 Rd7 41. Kb5 Kd8 42. Rc8+ Ke7 43. Bc6 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.25"]
+[Round "1"]
+[White "Lautier,J"]
+[Black "Hebden,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2658"]
+[BlackElo "2560"]
+[EventDate "2001.06.25"]
+[ECO "C45"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2
+Nd5 8. c4 Nb6 9. Nc3 a5 10. f4 a4 11. Qe4 g6 12. Bd3 Bg7 13. O-O O-O 14.
+Be3 f5 15. Qf3 Qb4 16. c5 a3 17. cxb6 axb2 18. Rab1 Qxc3 19. Qe2 cxb6 20.
+Bxb6 d6 21. Rxb2 Be6 22. Rc2 Qb4 23. Rxc6 Bd5 24. Bc4 Bxc4 25. Qxc4+ Qxc4
+26. Rxc4 Ra6 27. Bc7 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.25"]
+[Round "1"]
+[White "Degraeve,JM"]
+[Black "Apicella,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2589"]
+[BlackElo "2508"]
+[EventDate "2001.06.25"]
+[ECO "C05"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ngf3 cxd4 8.
+cxd4 Nb6 9. a3 a5 10. b3 a4 11. b4 Bd7 12. h4 Rc8 13. Bb2 Na7 14. Ng5 Be7
+15. f4 Bb5 16. Bc2 h6 17. Ngf3 Rc6 18. h5 Qc7 19. Rc1 Kd7 20. Kf2 Rc8 21.
+Bb1 Rxc1 22. Qxc1 Qd8 23. Qe1 Nc4 24. Nxc4 Bxc4 25. Nd2 Bb5 26. Qe3 Rc6 27.
+Rc1 Rxc1 28. Bxc1 Nc8 29. Bb2 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.25"]
+[Round "1"]
+[White "Tregubov,P"]
+[Black "Conquest,S"]
+[Result "0-1"]
+[WhiteElo "2628"]
+[BlackElo "2563"]
+[EventDate "2001.06.25"]
+[ECO "D35"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 Nbd7 5. cxd5 exd5 6. Bf4 c6 7. Qc2 Nh5
+8. Bg5 Be7 9. Bxe7 Qxe7 10. e3 g6 11. g4 Ng7 12. Bd3 Nb6 13. Rg1 Be6 14.
+O-O-O O-O-O 15. Kb1 Kb8 16. Rc1 h5 17. h3 hxg4 18. hxg4 Rh3 19. Ne5 c5 20.
+dxc5 Qxc5 21. Ne2 Qxc2+ 22. Rxc2 Nd7 23. Nxd7+ Bxd7 24. Nf4 Rh4 25. Be2 Rh2
+26. Rd1 Ne6 27. Rxd5 Rh1+ 28. Bd1 Ba4 29. Rxd8+ Nxd8 30. Kc1 Bxc2 31. Kxc2
+Kc7 32. Kd2 Kd6 33. Bf3 Rf1 34. Nd3 Nc6 35. Be2 Rg1 36. f4 f6 37. Bf3 g5
+38. Ke2 Ra1 39. a3 gxf4 40. Bxc6 bxc6 41. exf4 Kd5 42. Nf2 Rg1 43. Kf3 Rb1
+44. Ne4 Rf1+ 45. Nf2 c5 46. f5 c4 47. Ke2 Rg1 48. Nd1 Kd4 49. Nf2 a5 50. a4
+Rg3 51. Kd2 Rf3 52. Ke2 Rf4 0-1
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.26"]
+[Round "2"]
+[White "Renet,O"]
+[Black "Conquest,S"]
+[Result "0-1"]
+[WhiteElo "2494"]
+[BlackElo "2563"]
+[EventDate "2001.06.25"]
+[ECO "D32"]
+
+1. Nf3 c5 2. c4 Nf6 3. Nc3 e6 4. e3 d5 5. d4 a6 6. cxd5 exd5 7. Be2 Nc6 8.
+O-O Bd6 9. dxc5 Bxc5 10. b3 O-O 11. Bb2 Re8 12. Rc1 Ba7 13. Na4 Ne4 14. Nd4
+Qg5 15. Nxc6 bxc6 16. Bd4 Bh3 17. Bf3 Bxd4 18. Qxd4 Re6 19. Rc2 Rg6 20.
+Bxe4 dxe4 21. f4 exf3 22. Rxf3 Rd8 23. Qa1 Bxg2 24. Rg3 Qh5 25. Kxg2 Rxg3+
+26. hxg3 Rd1 27. Qxd1 Qxd1 28. Rf2 Qd5+ 29. Kh2 Qd3 30. Nb2 Qxe3 31. Rg2
+Qh6+ 32. Kg1 Qc1+ 33. Kh2 h5 34. Nd3 Qe3 35. Nf4 h4 0-1
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.26"]
+[Round "2"]
+[White "Apicella,M"]
+[Black "Tregubov,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2508"]
+[BlackElo "2628"]
+[EventDate "2001.06.25"]
+[ECO "B32"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. c4 Be7 7. N1c3 a6 8.
+Na3 f5 9. exf5 Bxf5 10. Bd3 Be6 11. O-O Nf6 12. Nc2 O-O 13. Bg5 Ng4 14.
+Bxe7 Qxe7 15. h3 Nf6 16. Nd5 Qf7 17. Nce3 Kh8 18. Nxf6 Qxf6 19. Be4 Nd4 20.
+Nd5 Qh4 21. Qd3 Rf7 22. f4 Raf8 23. fxe5 dxe5 24. Qe3 Qh5 25. Rxf7 Qxf7 26.
+Kh2 Qf2 27. Qxf2 Rxf2 28. b3 g6 29. Nb6 Bf5 30. Bxb7 e4 31. Nd5 Nc2 32. Rc1
+e3 33. Nc3 Rd2 34. Bf3 Kg7 35. Kg3 Kf6 36. Ne4+ Bxe4 37. Bxe4 Nd4 38. Re1
+e2 39. Kf2 Rxa2 40. Bf3 Rb2 41. Bxe2 a5 42. Kf1 Nxb3 43. c5 a4 44. c6 Rc2
+45. Bb5 a3 46. Ba4 Rc3 47. Bxb3 Rxb3 48. c7 Rc3 49. Ra1 Rc6 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.26"]
+[Round "2"]
+[White "Hebden,M"]
+[Black "Degraeve,JM"]
+[Result "1-0"]
+[WhiteElo "2560"]
+[BlackElo "2589"]
+[EventDate "2001.06.25"]
+[ECO "A43"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 b5 4. Bg5 Ne4 5. Bf4 Bb7 6. a4 Qa5+ 7. Nbd2 Bxd5
+8. axb5 Qd8 9. Ra4 Nxd2 10. Nxd2 d6 11. e4 Bb7 12. Qa1 e5 13. Bg5 Be7 14.
+Bxe7 Kxe7 15. Bd3 Nd7 16. O-O Qb8 17. Qa2 Nb6 18. Ra5 Qc7 19. Ra1 Rhd8 20.
+Bc4 Kf8 21. c3 h6 22. Qb1 Bc8 23. Qd3 Be6 24. Bd5 Bxd5 25. exd5 Kg8 26. Nc4
+Nc8 27. Ra6 Rb8 28. Na5 Rb6 29. Nc6 Rxa6 30. Rxa6 Rf8 31. Nxa7 Nxa7 32. b6
+Qb7 33. bxa7 Ra8 34. Rxd6 Qxb2 35. g3 Qa1+ 36. Kg2 Qxa7 37. Qf5 Qe7 38. Rd7
+Qe8 39. Rc7 Rd8 40. Rxc5 Qe7 41. Rc8 Rxc8 42. Qxc8+ Kh7 43. c4 g6 44. c5 e4
+45. d6 Qf6 46. Qg4 Qd4 47. Qf4 Qd5 48. Qe3 g5 49. h3 f5 50. Kh2 Kg6 51. Qc1
+Qd4 52. Kg1 Kf7 53. c6 e3 54. c7 Qd2 55. Qc4+ Kf6 56. fxe3 Qxe3+ 57. Kg2
+Qd2+ 58. Kf1 Qd1+ 59. Kf2 Qd2+ 60. Qe2 Qd4+ 61. Kf1 Qa1+ 62. Kg2 Qa8+ 63.
+Kh2 Qc8 64. Qb2+ Kf7 65. Qb3+ Kf6 66. Qc3+ 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.26"]
+[Round "2"]
+[White "Nataf,IA"]
+[Black "Lautier,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2552"]
+[BlackElo "2658"]
+[EventDate "2001.06.25"]
+[ECO "C45"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Qd2 dxc6 7. Nc3
+Be6 8. Na4 Rd8 9. Bd3 Bd4 10. c3 Bxf2+ 11. Qxf2 Rxd3 12. Qxf6 Nxf6 13. Nc5
+Rd8 14. Nxb7 Rb8 15. Nc5 Rb5 16. b4 Nxe4 17. a4 Rxc5 18. bxc5 Bc4 19. Bf4
+O-O 20. Bxc7 Re8 21. O-O-O Nf2 22. Rd4 Nxh1 23. Rxc4 Nf2 24. Bb6 a6 25. Rd4
+Kf8 26. Kc2 Re3 27. Kb3 Nd3 28. Kc4 Ne1 29. Rd6 Re4+ 30. Kb3 Nxg2 31. Rxc6
+Ne3 32. Rd6 Nc4 33. Rd4 Rxd4 34. cxd4 Ne3 35. Kb4 Ke7 36. Ka5 Kd7 37. Kxa6
+Kc6 38. Ka7 f5 39. a5 Nc2 40. a6 Nxd4 41. Kb8 Nb5 42. h4 f4 43. Ba5 f3 44.
+Be1 Kxc5 45. Kb7 Nd6+ 46. Kc7 Nb5+ 47. Kb7 Nd6+ 48. Kb8 Nb5 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.26"]
+[Round "2"]
+[White "Gurevich,M"]
+[Black "Bauer,Ch"]
+[Result "1/2-1/2"]
+[WhiteElo "2688"]
+[BlackElo "2612"]
+[EventDate "2001.06.25"]
+[ECO "A40"]
+
+1. c4 b6 2. Nc3 Bb7 3. d4 e6 4. a3 f5 5. d5 Nf6 6. g3 Na6 7. Bg2 Nc5 8. Nh3
+Bd6 9. O-O O-O 10. Qc2 Be5 11. Rd1 Qe7 12. Be3 c6 13. dxe6 dxe6 14. Rac1
+Na6 15. b4 c5 16. Bxb7 Qxb7 17. b5 Nb8 18. Ng5 Qe7 19. Nf3 Nbd7 20. Bg5 Bc7
+21. e4 f4 22. gxf4 h6 23. e5 hxg5 24. Nxg5 Nxe5 25. fxe5 Bxe5 26. Re1 Bxh2+
+27. Kf1 Qb7 28. Rxe6 Bf4 29. Nd5 Bxg5 30. Ne7+ Kh8 31. Ng6+ Kg8 32. Ne7+
+Kh8 33. Ng6+ Kg8 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.27"]
+[Round "3"]
+[White "Bauer,Ch"]
+[Black "Renet,O"]
+[Result "1-0"]
+[WhiteElo "2612"]
+[BlackElo "2494"]
+[EventDate "2001.06.25"]
+[ECO "B90"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8.
+f3 Nbd7 9. Qd2 Be7 10. g4 O-O 11. g5 Nh5 12. O-O-O b5 13. Nd5 Bxd5 14. exd5
+b4 15. Kb1 a5 16. Bb5 f5 17. gxf6 Nhxf6 18. Bc6 Rc8 19. Qe2 Qc7 20. Rhg1
+Nb8 21. Bb5 Nh5 22. Rg4 Bd8 23. Rdg1 Kh8 24. Bd3 Nd7 25. Ba6 Ra8 26. Rc4
+Nc5 27. Nxc5 dxc5 28. Bxc5 Rg8 29. Bb5 Nf4 30. Qe4 Be7 31. Bd4 Qd6 32. Bxe5
+Qxd5 33. Bc6 Qxe4 34. Bxe4 Raf8 35. Rc7 Ne2 36. Rxg7 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.27"]
+[Round "3"]
+[White "Lautier,J"]
+[Black "Gurevich,M"]
+[Result "1-0"]
+[WhiteElo "2658"]
+[BlackElo "2688"]
+[EventDate "2001.06.25"]
+[ECO "A86"]
+
+1. d4 f5 2. g3 Nf6 3. c4 d6 4. Nf3 g6 5. b4 Bg7 6. Bb2 c6 7. Bg2 Na6 8. a3
+Nc7 9. O-O O-O 10. Nbd2 Kh8 11. Ne1 Be6 12. Nd3 a5 13. Qc2 axb4 14. axb4
+Qd7 15. Nb3 Rxa1 16. Rxa1 Ra8 17. Na5 Rb8 18. Rd1 Qe8 19. Re1 Qd7 20. Rd1
+Qe8 21. Re1 Qd7 22. e3 Bf7 23. Rc1 Ne4 24. f3 Nf6 25. e4 b6 26. Nb3 b5 27.
+c5 Bc4 28. cxd6 exd6 29. Na5 fxe4 30. fxe4 Ne6 31. Nxc4 bxc4 32. Qxc4 Nxe4
+33. Qxc6 Qxc6 34. Rxc6 Nxd4 35. Bxe4 Nxc6 36. Bxg7+ Kxg7 37. Bxc6 Kf6 38.
+Kf2 Ke7 39. Ke3 Kd8 40. b5 Kc7 41. Nf4 Rg8 42. Nd5+ Kb8 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.27"]
+[Round "3"]
+[White "Degraeve,JM"]
+[Black "Nataf,IA"]
+[Result "1-0"]
+[WhiteElo "2589"]
+[BlackElo "2552"]
+[EventDate "2001.06.25"]
+[ECO "B30"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. c3 a6 6. Ba4 b5 7. Bc2 Bb7 8.
+Qe2 Ng6 9. d4 cxd4 10. cxd4 Nh4 11. Nbd2 Rc8 12. d5 Ne5 13. Bb3 Nexf3+ 14.
+Nxf3 Nxf3+ 15. Qxf3 Bd6 16. Bf4 Bxf4 17. Qxf4 O-O 18. Rad1 Qc7 19. Qd2 Rfe8
+20. Rfe1 h6 21. d6 Qc5 22. e5 Rf8 23. Rc1 Qb6 24. Bc2 f5 25. Bb3 Rc5 26.
+Qe3 Rxc1 27. Rxc1 Qxe3 28. fxe3 Rc8 29. Rxc8+ Bxc8 30. Kf2 Kf7 31. Ke2 Bb7
+32. g3 Be4 33. Kd2 Ke8 34. Kc3 Kd8 35. Kb4 Kc8 36. a4 Bc6 37. axb5 Bxb5 38.
+Ka5 Kb7 39. Bd1 Ka7 40. Bf3 Bf1 41. h4 Bb5 42. Bg2 Be2 43. Bc6 Bb5 44. Bxb5
+axb5 45. h5 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.27"]
+[Round "3"]
+[White "Tregubov,P"]
+[Black "Hebden,M"]
+[Result "1-0"]
+[WhiteElo "2628"]
+[BlackElo "2560"]
+[EventDate "2001.06.25"]
+[ECO "E70"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 a6 6. Ng3 c6 7. Be2 O-O 8.
+O-O b5 9. e5 dxe5 10. dxe5 Qxd1 11. Rxd1 Ng4 12. f4 f6 13. h3 Nh6 14. exf6
+exf6 15. Nge4 Nf7 16. Bf3 f5 17. Nc5 Re8 18. Kh1 Ra7 19. Bd2 Nd6 20. cxb5
+axb5 21. Re1 Rae7 22. Rxe7 Rxe7 23. Re1 Kf8 24. b3 Bd4 25. Nd3 Rxe1+ 26.
+Bxe1 c5 27. b4 cxb4 28. Ne2 Bf6 29. Bxb4 Be7 30. Nd4 Ne4 31. Bxe7+ Kxe7 32.
+Nxb5 Ba6 33. a4 Nd7 34. Kg1 Bxb5 35. axb5 Nc3 36. Bc6 Nb8 37. Kf2 Kd6 38.
+Ke3 Nxc6 39. bxc6 Kxc6 40. Kd4 Ne2+ 41. Ke5 h5 42. h4 Ng3 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.27"]
+[Round "3"]
+[White "Conquest,S"]
+[Black "Apicella,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2563"]
+[BlackElo "2508"]
+[EventDate "2001.06.25"]
+[ECO "E81"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Nge2 c5 7. d5 e6 8. Ng3
+exd5 9. cxd5 a6 10. a4 Nbd7 11. Be2 Re8 12. O-O h5 13. Bg5 Qa5 14. f4 Nh7
+15. Bh4 Qb4 16. Qc2 Bf6 17. Bxf6 Ndxf6 18. Bf3 h4 19. Nge2 h3 20. Ng3 Ng4
+21. Bxg4 Bxg4 22. Kh1 Qd4 23. e5 dxe5 24. f5 e4 25. fxg6 fxg6 26. Ncxe4 Bf5
+27. Nxf5 Qxe4 28. Qxe4 Rxe4 29. Nd6 hxg2+ 30. Kxg2 Rb4 31. Rad1 Ng5 32. b3
+Rxb3 33. h4 Rb2+ 34. Kg3 Rd8 35. hxg5 Rxd6 36. Rf6 Rd7 37. Rxg6+ Kf7 38.
+Rf6+ Kg7 39. d6 c4 40. Kf4 c3 41. Ke5 Re2+ 42. Kd5 c2 43. Rc1 Rd2+ 44. Kc5
+a5 45. Re6 Rd8 46. Re7+ Kg6 47. Rxb7 R8xd6 48. Rxc2 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.28"]
+[Round "4"]
+[White "Renet,O"]
+[Black "Apicella,M"]
+[Result "0-1"]
+[WhiteElo "2494"]
+[BlackElo "2508"]
+[EventDate "2001.06.25"]
+[ECO "B59"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 e5 7. Nb3 Be7
+8. O-O O-O 9. Be3 a5 10. a4 Nb4 11. f4 d5 12. fxe5 Nxe4 13. Nxe4 dxe4 14.
+Qxd8 Rxd8 15. Bc4 Be6 16. Bxe6 fxe6 17. Bb6 Nxc2 18. Bxd8 Nxa1 19. Bxe7
+Nxb3 20. Kf2 Rc8 21. Ke3 h5 22. Rd1 Rc2 23. Rd8+ Kh7 24. Rd7 Rxg2 25. Rxb7
+Rxh2 26. Kf4 Nd4 27. Kxe4 Nf5 28. Bd8 Re2+ 29. Kf3 Rxe5 30. b4 axb4 31. a5
+Nd4+ 32. Kg2 Nc6 33. Bf6 Rxa5 0-1
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.28"]
+[Round "4"]
+[White "Nataf,IA"]
+[Black "Tregubov,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2552"]
+[BlackElo "2628"]
+[EventDate "2001.06.25"]
+[ECO "B49"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6
+8. Be3 Bb4 9. Na4 b5 10. Nxc6 dxc6 11. Bc5 a5 12. a3 Bxc5 13. Nxc5 O-O 14.
+Qd4 Rd8 15. Qc3 Bd7 16. Rad1 Be8 17. Bf3 e5 18. Nd3 Nd7 19. Bg4 f6 20. Be6+
+Bf7 21. Bxf7+ Kxf7 22. Qb3+ Kf8 23. Qe6 Re8 24. Qh3 Kg8 25. b4 Re7 26. Nc5
+Nxc5 27. bxc5 Rd8 28. Qb3+ Kf8 29. c4 Red7 30. cxb5 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.28"]
+[Round "4"]
+[White "Gurevich,M"]
+[Black "Degraeve,JM"]
+[Result "1-0"]
+[WhiteElo "2688"]
+[BlackElo "2589"]
+[EventDate "2001.06.25"]
+[ECO "A65"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Nge2 Bg7 8.
+Ng3 a6 9. a4 Nbd7 10. Be2 h5 11. Bg5 Qa5 12. Bd2 Qd8 13. Bg5 Qa5 14. O-O h4
+15. Nh1 Qb4 16. Qc2 Ne5 17. h3 Nfd7 18. Ra3 c4 19. Na2 Qa5 20. Bd2 Qd8 21.
+f4 Nd3 22. Qxc4 N3c5 23. Nf2 O-O 24. Qc2 a5 25. Nc3 Nf6 26. Bf3 Nh5 27.
+Bxh5 gxh5 28. Be3 b6 29. Qd1 f5 30. Qxh5 fxe4 31. Ncxe4 Bf5 32. Ng5 Bxb2
+33. Qxh4 Ra7 34. Bxc5 bxc5 35. Rg3 Rg7 36. Ng4 Bd4+ 37. Kh2 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.28"]
+[Round "4"]
+[White "Bauer,Ch"]
+[Black "Lautier,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2612"]
+[BlackElo "2658"]
+[EventDate "2001.06.25"]
+[ECO "B48"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Qc7 6. Be3 a6 7. Bd3 Nf6
+8. O-O Nxd4 9. Bxd4 Bc5 10. Bxc5 Qxc5 11. Na4 Qc7 12. c4 d6 13. Rc1 Bd7 14.
+Nc3 O-O 15. Qe2 Rac8 16. Rfe1 Qc5 17. e5 Qxe5 18. Qxe5 dxe5 19. Rxe5 Rfd8
+1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.28"]
+[Round "4"]
+[White "Hebden,M"]
+[Black "Conquest,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2560"]
+[BlackElo "2563"]
+[EventDate "2001.06.25"]
+[ECO "D25"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 dxc4 4. e3 Bg4 5. Nbd2 Nc6 6. Bxc4 e6 7. Qa4 Bd6
+8. Bb5 O-O 9. Bxc6 bxc6 10. Qxc6 Nd5 11. O-O Rb8 12. e4 Nf4 13. e5 Be7 14.
+Qe4 g5 15. Nb3 Bf5 16. Qe3 Kh8 17. Nfd2 a5 18. Ne4 a4 19. Nbc5 Rb4 20. Rd1
+Rc4 21. Qf3 Rxd4 22. Bxf4 gxf4 23. b4 Rg8 24. Nd6 Rxd1+ 25. Rxd1 cxd6 26.
+exd6 Bg4 27. Qxf4 Bxd1 28. dxe7 Qxe7 29. Qd4+ e5 30. Qxd1 a3 31. g3 Qd8 32.
+Qb3 Qe7 33. Qxa3 Rd8 34. Qf3 f6 35. Ne4 Rf8 36. a3 f5 37. Nc5 e4 38. Qc3+
+Qf6 39. Qxf6+ Rxf6 40. b5 Kg7 41. a4 Rb6 42. Kf1 Kf7 43. Ke2 Ke7 44. Ke3
+Kd6 45. Na6 Rb7 46. Kd4 h5 47. h4 Rb6 48. Nb4 Rb8 49. Nd5 Rd8 50. Ne3 Kc7+
+51. Ke5 Rd2 52. Nxf5 Rxf2 53. Kxe4 Ra2 54. Ng7 Rxa4+ 55. Kf5 Kd6 56. Nxh5
+Ke7 57. Nf6 Kf7 58. Nd5 Ra5 59. Nc7 Ke7 60. Kg6 Ra4 61. Nd5+ Ke6 62. Nf4+
+Ke5 63. Kg5 Ra5 64. h5 Rxb5 65. h6 Ke4+ 66. Kg4 Rb6 67. Kh5 Kf3 68. h7 Rb1
+69. Kg6 Rb6+ 70. Kg5 Rb5+ 71. Kh6 Rb6+ 72. Ng6 Rb8 73. Kg7 Rb7+ 74. Kg8
+Rxh7 75. Kxh7 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.29"]
+[Round "5"]
+[White "Lautier,J"]
+[Black "Renet,O"]
+[Result "1/2-1/2"]
+[WhiteElo "2658"]
+[BlackElo "2494"]
+[EventDate "2001.06.25"]
+[ECO "D94"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 g6 5. Nf3 Bg7 6. Be2 O-O 7. O-O a6 8. h3
+dxc4 9. a4 c5 10. Bxc4 Nc6 11. dxc5 Qa5 12. Qe2 Qxc5 13. e4 Nd7 14. Be3 Qa5
+15. Ra3 e6 16. Rd1 Qc7 17. Rc1 Rd8 18. Bg5 Re8 19. Nd1 b6 20. b4 Bb7 21. b5
+axb5 22. Bxb5 Rec8 23. Be3 Nc5 24. Bxc5 bxc5 25. Rd3 Qe7 26. Nb2 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.29"]
+[Round "5"]
+[White "Degraeve,JM"]
+[Black "Bauer,Ch"]
+[Result "1/2-1/2"]
+[WhiteElo "2589"]
+[BlackElo "2612"]
+[EventDate "2001.06.25"]
+[ECO "D40"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 Nc6 6. Nf3 e6 7. Bd3 dxc4
+8. Bxc4 Be7 9. O-O O-O 10. a3 a6 11. Ba2 b5 12. d5 exd5 13. Nxd5 Nxd5 14.
+Qxd5 Qxd5 15. Bxd5 Bb7 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.29"]
+[Round "5"]
+[White "Tregubov,P"]
+[Black "Gurevich,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2628"]
+[BlackElo "2688"]
+[EventDate "2001.06.25"]
+[ECO "D43"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. Qb3 Be7 6. g3 b6 7. Bg2 Ba6 8.
+cxd5 cxd5 9. Ne5 O-O 10. O-O Bb7 11. Bf4 Nfd7 12. Nxd7 Qxd7 13. Rfd1 Nc6
+14. e4 Na5 15. Qc2 Rac8 16. exd5 Bxd5 17. Bxd5 exd5 18. Qe2 Nc6 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.29"]
+[Round "5"]
+[White "Conquest,S"]
+[Black "Nataf,IA"]
+[Result "1/2-1/2"]
+[WhiteElo "2563"]
+[BlackElo "2552"]
+[EventDate "2001.06.25"]
+[ECO "A45"]
+
+1. d4 Nf6 2. c3 g6 3. Bg5 Bg7 4. Nd2 d6 5. e3 h6 6. Bh4 O-O 7. Bxf6 Bxf6 8.
+h4 Bg7 9. h5 g5 10. Bd3 c5 11. Ne2 cxd4 12. exd4 Nc6 13. Qc2 e5 14. dxe5
+Nxe5 15. Bh7+ Kh8 16. Bf5 Bxf5 17. Qxf5 Qb6 18. O-O Qxb2 19. Rfd1 Rad8 20.
+a4 Qb6 21. Nd4 Nc6 22. Nc4 Qc5 23. Qxc5 dxc5 24. Nxc6 bxc6 25. Rac1 Rd5 26.
+Ne3 Rxd1+ 27. Rxd1 Bxc3 28. Rd6 Rc8 29. Rxh6+ Kg7 30. Rd6 Be5 31. Rd7 Bf4
+32. Nc4 Rb8 33. g3 Rb4 34. Na5 Rxa4 35. Nxc6 Ra6 36. Nd8 Rd6 37. Rxf7+ Kg8
+38. gxf4 Rxd8 39. Rxa7 gxf4 40. Kg2 Rd5 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.29"]
+[Round "5"]
+[White "Apicella,M"]
+[Black "Hebden,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2508"]
+[BlackElo "2560"]
+[EventDate "2001.06.25"]
+[ECO "C88"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8.
+a4 Bb7 9. d3 d6 10. c3 h6 11. Nbd2 Re8 12. Nf1 Qd7 13. Ne3 Nd8 14. Nf5 Bf8
+15. N3h4 Kh8 16. Qf3 Ng8 17. Qg4 Ne6 18. Ng3 Nf6 19. Qf3 Ng8 20. Qg4 Nf6
+21. Qf3 Ng8 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.30"]
+[Round "6"]
+[White "Renet,O"]
+[Black "Hebden,M"]
+[Result "0-1"]
+[WhiteElo "2494"]
+[BlackElo "2560"]
+[EventDate "2001.06.25"]
+[ECO "C96"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8.
+c3 d6 9. h3 Na5 10. Bc2 c5 11. d4 Nd7 12. Nbd2 exd4 13. cxd4 Nc6 14. dxc5
+Nxc5 15. Nf1 Be6 16. Ne3 Bf6 17. Nd5 Bxd5 18. exd5 Ne5 19. Nd4 Re8 20. Bf4
+g6 21. b4 Ncd7 22. Bb3 Nc4 23. Nc6 Rxe1+ 24. Qxe1 Qf8 25. Rc1 Re8 26. Qd1
+Re4 27. Qf3 Qe8 28. Bxc4 bxc4 29. Be3 Bg7 30. a4 f5 31. b5 axb5 32. axb5 c3
+33. g4 Ne5 34. Nxe5 Qxe5 35. gxf5 Qxf5 36. Qxf5 gxf5 37. Rb1 f4 38. Ba7 Ra4
+39. b6 Bd4 40. Kg2 Ra2 41. Kf3 Rxf2+ 42. Ke4 Rb2 43. Ra1 Be5 44. Ra4 c2 45.
+Rc4 Rb4 46. Rxb4 c1=Q 47. b7 Qh1+ 48. Kd3 Qxh3+ 49. Kc4 Qf1+ 50. Kb3 Qb1+
+51. Ka3 Qa1+ 52. Kb3 Qb1+ 53. Ka3 Bb2+ 54. Rxb2 Qa1+ 55. Ra2 Qc3+ 56. Ka4
+Qc4+ 57. Ka5 Qxd5+ 58. Kb6 Qc5+ 59. Ka6 Qc6+ 60. Bb6 Qc4+ 61. Ka7 Qxa2+ 62.
+Kb8 Qc4 0-1
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.30"]
+[Round "6"]
+[White "Nataf,IA"]
+[Black "Apicella,M"]
+[Result "1-0"]
+[WhiteElo "2552"]
+[BlackElo "2508"]
+[EventDate "2001.06.25"]
+[ECO "C01"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Bd3 Nc6 6. a3 Bxc3+ 7. bxc3
+Nge7 8. Qf3 Be6 9. Ne2 Qd7 10. O-O O-O-O 11. h3 h5 12. Nf4 Bf5 13. Nxh5 Be4
+14. Qg4 Nf5 15. Ng3 Nxg3 16. Qxd7+ Rxd7 17. fxg3 Re8 18. Bd2 Na5 19. Rae1
+Rde7 20. g4 Nc4 21. Bc1 b5 22. g5 Kd8 23. Rf2 c6 24. h4 g6 25. Ref1 Nd6 26.
+Bf4 Nf5 27. Be5 Kd7 28. Rf4 Ne3 29. Re1 Nc4 30. Bxc4 bxc4 31. Ref1 Bxc2 32.
+Rxf7 Rxf7 33. Rxf7+ Re7 34. Rf6 Re6 35. Rf2 Bd1 36. Rf1 Be2 37. Rb1 Re7 38.
+Kf2 Bh5 39. Ke3 Ke6 40. Kf4 Be2 41. Re1 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.30"]
+[Round "6"]
+[White "Gurevich,M"]
+[Black "Conquest,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2688"]
+[BlackElo "2563"]
+[EventDate "2001.06.25"]
+[ECO "A11"]
+
+1. c4 c6 2. Nf3 d5 3. e3 Nf6 4. Nc3 a6 5. Qc2 g6 6. b3 Bg7 7. Bb2 O-O 8. d4
+Bf5 9. Bd3 Bxd3 10. Qxd3 Nbd7 11. O-O b5 12. cxd5 cxd5 13. Rfc1 Qb8 14. a4
+b4 15. Ne2 Ne4 16. Rc2 Qb7 17. Rac1 Rac8 18. Nf4 e6 19. Qd1 Rfe8 20. Nd3
+Bf8 21. Nfe5 f6 22. Nxd7 Qxd7 23. Nc5 Nxc5 24. dxc5 Rc6 25. Bxf6 e5 26. Bh4
+Rec8 27. e4 d4 28. Bg5 Qe6 29. Qd3 Rxc5 30. Rxc5 Rxc5 31. Rxc5 Bxc5 32. Bd2
+Be7 33. f3 Qc6 34. Kf1 Kf7 35. Ke2 Ke6 36. f4 exf4 37. Bxf4 Kf7 38. Bd2 Qe6
+39. Kd1 a5 40. Kc2 Qc6+ 41. Kb1 Bf6 42. Bf4 Ke6 43. h3 Bg7 44. Qf3 Bf6 45.
+Bd2 Qc5 46. Qd3 Bg5 47. Qa6+ Kf7 48. Qb7+ Kf6 49. Qa6+ Kf7 50. Bxg5 Qxg5
+51. Qc4+ Ke7 52. Qc7+ Ke6 53. Qc8+ Ke7 54. Qb7+ Ke6 55. Qb6+ Ke7 56. Qxd4
+Qxg2 57. Qe3 Ke6 58. Qb6+ Ke7 59. Qc5+ Ke6 60. Qd5+ Ke7 61. Qe5+ Kf7 62.
+Qd5+ Ke7 63. h4 Qf1+ 64. Kc2 Qe2+ 65. Kc1 Qe1+ 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.30"]
+[Round "6"]
+[White "Bauer,Ch"]
+[Black "Tregubov,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2612"]
+[BlackElo "2628"]
+[EventDate "2001.06.25"]
+[ECO "B32"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. N1c3 a6 7. Na3 b5 8.
+Nd5 Nge7 9. c4 Nxd5 10. exd5 Nd4 11. cxb5 Be7 12. Bd3 Bg5 13. O-O Bxc1 14.
+Rxc1 O-O 15. Nc2 Nxb5 16. a4 Nc7 17. Nb4 Ne8 18. Nc6 Qg5 19. Rc4 Kh8 20. f4
+exf4 21. Rcxf4 Nf6 22. Bf5 Bxf5 23. Rxf5 Qe3+ 24. Kh1 Rae8 25. b4 Ne4 26.
+Qd4 Nc3 27. Qxe3 Rxe3 28. h3 f6 29. Kh2 Rc8 30. R1f3 Rxf3 31. Rxf3 Nxd5 32.
+b5 axb5 33. axb5 Nb6 34. Ra3 h5 35. Ra6 Nd7 36. Nd4 Rc4 37. Rxd6 Ne5 38. b6
+Rb4 39. Ne6 Kh7 40. Nd8 Kg6 41. b7 Nf7 42. Nxf7 Kxf7 43. Rd7+ Kg6 44. Kg3
+f5 45. Kf3 Kf6 46. Ke3 g5 47. Kd3 Ke6 48. Rh7 h4 49. Kc3 Rb1 50. Kd4 Kd6
+51. Rg7 g4 52. hxg4 fxg4 53. Rxg4 Rb4+ 54. Ke3 Rxb7 55. Rxh4 Ke5 56. Rh6
+Rb3+ 57. Kf2 Kf5 58. g4+ 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.06.30"]
+[Round "6"]
+[White "Lautier,J"]
+[Black "Degraeve,JM"]
+[Result "1/2-1/2"]
+[WhiteElo "2658"]
+[BlackElo "2589"]
+[EventDate "2001.06.25"]
+[ECO "A67"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. f4 Bg7 8.
+Bb5+ Nbd7 9. e5 dxe5 10. fxe5 Nh5 11. e6 Qh4+ 12. g3 Nxg3 13. hxg3 Qxh1 14.
+Be3 Bxc3+ 15. bxc3 a6 16. exd7+ Bxd7 17. Bxd7+ Kxd7 18. Qb3 b5 19. O-O-O
+Rhe8 20. Bxc5 Qg2 21. d6 Re6 22. Nh3 Qxh3 23. Qd5 Rb8 24. Ba7 Qh6+ 25. Kb1
+Qf8 26. g4 Qe8 27. Bxb8 Qxb8 28. Rf1 Qxd6 29. Rxf7+ Ke8 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.01"]
+[Round "7"]
+[White "Degraeve,JM"]
+[Black "Renet,O"]
+[Result "1-0"]
+[WhiteElo "2589"]
+[BlackElo "2494"]
+[EventDate "2001.06.25"]
+[ECO "C45"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nb3 Bb6 6. Nc3 Nf6 7. a4 a6
+8. Bg5 d6 9. Bd3 h6 10. Bh4 Be6 11. Nd2 g5 12. Bg3 Qe7 13. O-O O-O-O 14.
+Re1 Nb4 15. Nc4 Ba7 16. Ne3 Nxd3 17. Qxd3 h5 18. h4 Ng4 19. Ncd5 Bxd5 20.
+Nxd5 Qd7 21. a5 Rdg8 22. Rad1 gxh4 23. Bxh4 Kb8 24. Qc3 Rh6 25. Rd2 Ne5 26.
+Bg3 Nc6 27. Kh2 h4 28. Bf4 Rhg6 29. Nf6 Rxg2+ 30. Kh1 Qc8 31. Nxg8 Qxg8 32.
+Qf3 Nd4 33. Rxd4 Bxd4 34. Qxg2 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.01"]
+[Round "7"]
+[White "Tregubov,P"]
+[Black "Lautier,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2628"]
+[BlackElo "2658"]
+[EventDate "2001.06.25"]
+[ECO "E15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qa4 Bb7 6. Bg2 c5 7. O-O cxd4 8.
+Nxd4 Bxg2 9. Kxg2 Qc7 10. f3 a6 11. Rd1 Be7 12. Nb5 Qb7 13. Nd6+ Bxd6 14.
+Rxd6 b5 15. Qc2 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.01"]
+[Round "7"]
+[White "Conquest,S"]
+[Black "Bauer,Ch"]
+[Result "1-0"]
+[WhiteElo "2563"]
+[BlackElo "2612"]
+[EventDate "2001.06.25"]
+[ECO "A29"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 d6 6. d3 h6 7. O-O O-O 8.
+Na4 Bb6 9. a3 Be6 10. b4 a6 11. Nxb6 cxb6 12. Bb2 Qd7 13. Re1 Bh3 14. Bh1
+Ng4 15. d4 e4 16. d5 e3 17. fxe3 Qe7 18. Qb3 Nb8 19. c5 bxc5 20. bxc5 dxc5
+21. e4 Nd7 22. Rad1 Rac8 23. d6 Qe6 24. Qxe6 fxe6 25. e5 b5 26. Bc3 a5 27.
+Bxa5 Ra8 28. Bc7 Rxa3 29. Ra1 Rxa1 30. Rxa1 b4 31. Nd2 Ngxe5 32. Ra8 Rxa8
+33. Bxa8 Bf5 34. e4 Bg4 35. Kf2 c4 36. Ba5 c3 37. Nb3 Bd1 38. Nc1 Nc5 39.
+Bxb4 Ncd3+ 40. Nxd3 Nxd3+ 41. Kg2 Ba4 42. Bxc3 Kf7 43. Kf3 Nc5 44. Ke3 Bb5
+45. Bb4 Nd7 46. Kd4 Ba4 47. Ba5 Bb5 48. Bb7 Ke8 49. Bc7 Kf7 50. Kc3 Ne5 51.
+Kb4 Bd7 52. Kc5 g5 53. Ba5 Ba4 54. Bc3 Nd7+ 55. Kb4 Bc2 56. Kb5 Ke8 57. Bc6
+Bd3+ 58. Kb4 Kd8 59. Bg7 h5 60. Bh6 g4 61. Bg5+ Kc8 62. Kc3 Bb1 63. Be7 Ne5
+64. Be8 Bxe4 65. Kd4 Bc6 66. Bxh5 Nf3+ 67. Kc5 Bd5 68. Bxg4 Ne5 69. Be2
+Nd7+ 70. Kd4 Bb7 71. Bg4 Bd5 72. h4 Nb8 73. h5 Nc6+ 74. Kc5 Nxe7 75. dxe7
+Kd7 76. h6 Be4 77. Kd4 Bg6 78. Bh5 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.01"]
+[Round "7"]
+[White "Apicella,M"]
+[Black "Gurevich,M"]
+[Result "0-1"]
+[WhiteElo "2508"]
+[BlackElo "2688"]
+[EventDate "2001.06.25"]
+[ECO "C11"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 cxd4 8.
+Nxd4 Bc5 9. Qd2 O-O 10. O-O-O Nxd4 11. Bxd4 a6 12. h4 b5 13. Bxc5 Nxc5 14.
+Qd4 Qc7 15. a3 Bd7 16. f5 Rfc8 17. f6 gxf6 18. exf6 Kh8 19. Kb1 Rab8 20.
+Be2 a5 21. Bh5 b4 22. Bxf7 e5 23. Qe3 Bf5 24. axb4 axb4 25. Nxd5 Qxf7 26.
+Ne7 b3 27. Nxf5 bxc2+ 28. Kxc2 Ne4+ 0-1
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.01"]
+[Round "7"]
+[White "Hebden,M"]
+[Black "Nataf,IA"]
+[Result "1/2-1/2"]
+[WhiteElo "2560"]
+[BlackElo "2552"]
+[EventDate "2001.06.25"]
+[ECO "D00"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Be2 c5 7. Ne5 Be6 8.
+O-O Nbd7 9. Bf3 Rc8 10. a4 cxd4 11. exd4 Nb6 12. a5 Nc4 13. Nxc4 Rxc4 14.
+Ne2 Bf5 15. c3 Be4 16. Nc1 Bxf3 17. Qxf3 Ne4 18. Qe3 e6 19. f3 Nd6 20. Nd3
+Rc8 21. Bxd6 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.02"]
+[Round "8"]
+[White "Renet,O"]
+[Black "Nataf,IA"]
+[Result "1/2-1/2"]
+[WhiteElo "2494"]
+[BlackElo "2552"]
+[EventDate "2001.06.25"]
+[ECO "E71"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Bg5 Qe8 7. g4 c5 8. d5
+e6 9. Qf3 Nbd7 10. O-O-O a6 11. Qf4 e5 12. Qe3 b5 13. Nge2 Nb6 14. Ng3 b4
+15. Nb1 Qa4 16. Qb3 Qxb3 17. axb3 a5 18. Bd3 a4 19. bxa4 b3 20. Nf1 Rxa4
+21. Na3 h6 22. Bh4 Nxe4 23. Bxe4 Nxc4 24. Nb1 f5 25. gxf5 gxf5 26. Nc3 Rb4
+27. Bb1 Nxb2 28. Kxb2 Rxh4 29. Kxb3 Ba6 30. Kc2 Rb4 31. Kd2 e4 32. Rg1 Kh8
+33. Rg6 Rd4+ 34. Ke1 Rb4 35. Kd2 Rc4 36. Ne2 Rb8 37. Rxd6 Rb2+ 38. Ke3 Rb3+
+39. Kd2 Rb2+ 40. Ke3 Rb3+ 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.02"]
+[Round "8"]
+[White "Gurevich,M"]
+[Black "Hebden,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2688"]
+[BlackElo "2560"]
+[EventDate "2001.06.25"]
+[ECO "E97"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8.
+d5 Ne7 9. Nd2 c5 10. Rb1 Ne8 11. b4 b6 12. bxc5 bxc5 13. Nb3 f5 14. Bg5 h6
+15. Bxe7 Qxe7 16. Na5 Nf6 17. Nc6 Qe8 18. Bd3 Rf7 19. Rb3 f4 20. Be2 Bf8
+21. Qc2 Bd7 22. Rfb1 Bxc6 23. dxc6 Qxc6 24. Nd5 Kg7 25. Rb5 Be7 26. Qd3 Bd8
+27. Bd1 a6 28. R5b2 Raa7 29. h3 Ba5 30. a3 h5 31. Bc2 Nh7 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.02"]
+[Round "8"]
+[White "Bauer,Ch"]
+[Black "Apicella,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2612"]
+[BlackElo "2508"]
+[EventDate "2001.06.25"]
+[ECO "E70"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 e5 7. d5 c6 8.
+Be2 cxd5 9. cxd5 h5 10. Bg5 a6 11. Qd2 Nbd7 12. O-O Qe8 13. a4 Nh7 14. Be3
+h4 15. Nh1 Qe7 16. a5 Ndf6 17. Ra4 Nh5 18. Bxh5 gxh5 19. f4 exf4 20. Bxf4
+Kh8 21. Nf2 Rg8 22. Kh1 Qf6 23. Raa1 Qg6 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.02"]
+[Round "8"]
+[White "Lautier,J"]
+[Black "Conquest,S"]
+[Result "1-0"]
+[WhiteElo "2658"]
+[BlackElo "2563"]
+[EventDate "2001.06.25"]
+[ECO "D33"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 c4 7. Bg2 Bb4 8.
+O-O Nge7 9. e4 O-O 10. Nxd5 Nxd5 11. exd5 Qxd5 12. a3 Ba5 13. Ne5 Qb5 14.
+a4 Qa6 15. Be3 Be6 16. Qh5 Rad8 17. Rfd1 Bd5 18. Nd7 Rxd7 19. Bxd5 Rfd8 20.
+Be4 g6 21. Qf3 f5 22. Bxc6 bxc6 23. Rac1 Bc7 24. Bg5 Rb8 25. Qe2 Qxa4 26.
+Be7 Kg7 27. Qe6 c5 28. Bxc5 Rf7 29. d5 Re8 30. Qc6 Qxc6 31. dxc6 Be5 32.
+Re1 Bxb2 33. Rxe8 Bxc1 34. Bd6 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.02"]
+[Round "8"]
+[White "Degraeve,JM"]
+[Black "Tregubov,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2589"]
+[BlackElo "2628"]
+[EventDate "2001.06.25"]
+[ECO "B22"]
+
+1. e4 c5 2. Nf3 e6 3. c3 d5 4. exd5 exd5 5. d4 Nf6 6. Bg5 Nbd7 7. Be2 Be7
+8. O-O O-O 9. Nbd2 a6 10. Re1 Re8 11. Bf1 c4 12. g3 b5 13. Bg2 Bb7 14. Ne5
+Nxe5 15. Rxe5 Nd7 16. Rxe7 Rxe7 17. Bxe7 Qxe7 18. Nf1 Nf6 19. Ne3 Re8 20.
+Qf3 Qc7 21. a3 a5 22. Qf5 Qc6 23. Qf4 Bc8 24. h3 h6 25. Kh2 Be6 26. g4 Qb6
+27. Re1 Rd8 28. Nc2 Nh7 29. Qg3 g5 30. f4 gxf4 31. Qxf4 Qd6 32. Qxd6 Rxd6
+33. Re5 Nf6 34. Ne3 Kh7 35. Bf3 Nd7 36. Rh5 Nf6 37. Nf5 Bxf5 38. Rxf5 Kg6
+39. Kg3 b4 40. axb4 axb4 41. Kf4 bxc3 42. bxc3 Ra6 43. h4 Ra3 44. g5 hxg5+
+45. hxg5 Nh7 46. Bxd5 Rxc3 47. Bxf7+ Kg7 48. Bd5 Rc1 49. Kg4 Rd1 50. Kh5
+Rxd4 51. Rf7+ Kg8 52. Rd7+ Kf8 53. Rxh7 Rxd5 54. Kh6 Kg8 55. Rc7 Rd6+ 56.
+g6 Rd8 57. Rxc4 Ra8 58. Rc6 Rb8 59. Kg5 Ra8 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.03"]
+[Round "9"]
+[White "Tregubov,P"]
+[Black "Renet,O"]
+[Result "1/2-1/2"]
+[WhiteElo "2628"]
+[BlackElo "2494"]
+[EventDate "2001.06.25"]
+[ECO "D37"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 Be7 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8.
+cxd5 exd5 9. Be2 Nc6 10. O-O Be6 11. Rc1 Rc8 12. Bg5 Be7 13. a3 h6 14. Bh4
+Ne4 15. Bxe7 Nxe7 16. Qd4 Nc6 17. Qd3 Qf6 18. Nxd5 Bxd5 19. Qxd5 Qxb2 20.
+Qxe4 Qxe2 21. Qa4 Rfd8 22. h3 Qa2 23. Rfd1 Qe6 24. Qb5 Qe7 25. a4 Rc7 26.
+Rxd8+ Qxd8 27. Qc5 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.03"]
+[Round "9"]
+[White "Conquest,S"]
+[Black "Degraeve,JM"]
+[Result "1-0"]
+[WhiteElo "2563"]
+[BlackElo "2589"]
+[EventDate "2001.06.25"]
+[ECO "A57"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 b5 4. c4 Bb7 5. Qc2 bxc4 6. e4 g6 7. Bxc4 Bg7 8.
+Nc3 O-O 9. e5 Ne8 10. h4 d6 11. h5 dxe5 12. hxg6 hxg6 13. Qe4 Nd6 14. Qh4
+f6 15. Bd3 e4 16. Nxe4 Nf5 17. Qh7+ Kf7 18. Neg5+ fxg5 19. Ne5+ Kf6 20.
+Qxg6+ Kxe5 21. Qe6+ Kd4 22. Qe4+ 1-0
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.03"]
+[Round "9"]
+[White "Nataf,IA"]
+[Black "Gurevich,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2552"]
+[BlackElo "2688"]
+[EventDate "2001.06.25"]
+[ECO "C11"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Nbd7 6. Nf3 h6 7. Nxf6+
+Nxf6 8. Bh4 c5 9. Bc4 a6 10. O-O cxd4 11. Qe2 Qb6 12. Bb3 Bc5 13. Rad1 Bd7
+14. a4 Rd8 15. Ne5 Be7 16. Rd3 Bc8 17. Rfd1 O-O 18. Rg3 Qc5 19. Rdd3 Ne4
+20. Rg4 Bxh4 21. Rxh4 f5 22. Ng6 Rf6 23. f3 Rxg6 24. fxe4 Kh7 25. exf5 exf5
+26. Qf2 b6 27. Rhxd4 Bb7 28. g3 Rxd4 29. Qxd4 Qc6 30. Qd5 Qxd5 31. Bxd5
+1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.03"]
+[Round "9"]
+[White "Apicella,M"]
+[Black "Lautier,J"]
+[Result "1/2-1/2"]
+[WhiteElo "2508"]
+[BlackElo "2658"]
+[EventDate "2001.06.25"]
+[ECO "A48"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 O-O 5. h3 d6 6. Nbd2 c5 7. c3 Nc6 8.
+Be2 Be6 9. Ng5 Bd7 10. O-O cxd4 11. exd4 e5 12. dxe5 dxe5 13. Bh2 Bf5 14.
+Bf3 Qe7 15. Re1 Nd7 16. Nge4 Be6 17. Nb3 f5 18. Nd6 e4 19. Be2 Nde5 20. Nb5
+Rad8 21. N5d4 f4 22. Qc2 Bd5 23. Nxc6 Bxc6 24. Nd4 Bd5 25. Bf1 Nc6 26. Nb3
+e3 27. Rad1 Kh8 28. fxe3 fxe3 29. Qe2 Bh6 30. Bg3 Be6 31. Nd4 Nxd4 32. cxd4
+Qg5 33. Kh2 Qxg3+ 34. Kxg3 Bf4+ 35. Kf3 Bd5+ 36. Kg4 Be6+ 37. Kf3 Bd5+ 38.
+Kg4 h5+ 39. Kh4 Kg7 40. g3 g5+ 41. Kxh5 Bf7+ 42. Kg4 Be6+ 43. Kf3 Bd5+ 44.
+Kg4 Be6+ 45. Kf3 Bd5+ 46. Kg4 1/2-1/2
+
+[Event "GM"]
+[Site "Clichy FRA"]
+[Date "2001.07.03"]
+[Round "9"]
+[White "Hebden,M"]
+[Black "Bauer,Ch"]
+[Result "1-0"]
+[WhiteElo "2560"]
+[BlackElo "2612"]
+[EventDate "2001.06.25"]
+[ECO "D94"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 c6 4. e3 g6 5. Nc3 Bg7 6. Bd3 O-O 7. O-O a6 8.
+Bd2 b5 9. cxd5 cxd5 10. Rc1 Nbd7 11. Ne2 Ne4 12. Be1 Nd6 13. b3 Bb7 14. a4
+bxa4 15. bxa4 a5 16. Nf4 e6 17. Bc3 Nb6 18. Ne5 Ndc4 19. Nxc4 dxc4 20. Bc2
+Bc6 21. Ra1 Qd7 22. Ne2 Qb7 23. Rb1 Bxg2 24. Rxb6 Qxb6 25. Kxg2 Qc6+ 26. f3
+f5 27. Nf4 Qd6 28. Qe2 Qa3 29. Qd2 Qd6 30. Bxa5 Rfb8 31. Bc3 e5 32. Ne2 Ra7
+33. d5 Rd7 34. Rd1 Bh6 35. f4 Bg7 36. fxe5 Bxe5 37. Bxe5 Qxe5 38. Qd4 Qxd4
+39. Rxd4 Rb2 40. Rd2 Kf7 41. Nc3 Ke7 42. e4 Kd6 43. Re2 Re7 44. Nb5+ Kc5
+45. e5 Kxd5 46. Be4+ fxe4 47. Rxb2 Rxe5 48. Kf2 Rf5+ 49. Ke2 Rh5 50. Ke1 e3
+51. Nc3+ Kc6 52. Nd1 Ra5 53. Ra2 Re5 54. Ke2 Rh5 55. Kxe3 Kb6 56. Nc3 Ka5
+57. Rb2 Rh4 58. Rb5+ Ka6 59. Nd5 c3 60. Nxc3 Rxh2 61. Ne4 h5 62. Kd4 h4 63.
+Kd5 Rc2 64. Nc5+ Ka7 65. Rb7+ Ka8 66. Rg7 h3 67. Rxg6 h2 68. Rh6 Rg2 69.
+Rh7 Rg5+ 70. Kc6 Rg6+ 71. Kb5 Rg2 72. a5 Rf2 73. Na4 Rf5+ 74. Ka6 Kb8 75.
+Nb6 Rf7 76. Rxh2 Ra7+ 77. Kb5 Rg7 78. Rh5 Kb7 79. Na4 Ka7 80. Nc5 Rg6 81.
+Rh7+ Ka8 82. Na4 Rg5+ 83. Ka6 Kb8 84. Rb7+ Kc8 85. Rb1 Kc7 86. Nc3 Rc5 87.
+Rb3 Kc8 88. Kb6 Rc7 89. Nb5 Rb7+ 90. Ka6 Rh7 91. Rd3 Rh6+ 92. Rd6 Rh7 93.
+Kb6 Rb7+ 94. Kc6 Rh7 95. a6 Rg7 96. Rh6 Kd8 97. Rh8+ Ke7 98. a7 Rg6+ 99.
+Kb7 1-0
+

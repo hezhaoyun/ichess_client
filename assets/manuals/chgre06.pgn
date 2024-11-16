@@ -1,0 +1,900 @@
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.27"]
+[Round "1"]
+[White "Goritsas,C"]
+[Black "Mastrovasilis,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2289"]
+[BlackElo "2562"]
+[EventDate "2006.11.27"]
+[ECO "D00"]
+
+1. d4 d5 2. Bf4 e6 3. e3 Bd6 4. Bxd6 Qxd6 5. Qg4 Kf8 6. Nd2 Nf6 7. Qg3 Nc6
+8. c3 Bd7 9. Ngf3 Qxg3 10. hxg3 Re8 11. Bb5 h5 12. a4 Ng4 13. Nh2 Ke7 14.
+Nb3 Nd8 15. Nc5 c6 16. Be2 b6 17. Nd3 Nb7 18. Nxg4 hxg4 19. Kd2 f5 20. Ne5
+Rxh1 21. Rxh1 Nd6 22. f3 gxf3 23. gxf3 Nf7 24. Nxf7 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.27"]
+[Round "1"]
+[White "Skembris,S"]
+[Black "Kotrotsos,V"]
+[Result "1-0"]
+[WhiteElo "2455"]
+[BlackElo "2276"]
+[EventDate "2006.11.27"]
+[ECO "A75"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Nf3 a6 8. a4
+Bg4 9. Be2 Bxf3 10. Bxf3 Bg7 11. O-O O-O 12. Bf4 Qe7 13. Qb3 Qc7 14. a5
+Nbd7 15. Na4 Rfe8 16. Rfe1 Rab8 17. Nb6 Re7 18. g3 h5 19. Bxd6 Qxd6 20. Nc4
+Qc7 21. d6 Qd8 22. dxe7 Qxe7 23. e5 Ng4 24. Bxg4 hxg4 25. Rad1 Nf8 26. Rd6
+Ne6 27. Qd1 Qg5 28. Re4 Nd4 29. Rxg4 Qf5 30. Rf4 Qh3 31. Rd5 g5 32. Rg4 Ne6
+33. Qf3 Rf8 34. Qf5 Nd4 35. Rdxd4 cxd4 36. Qxg5 Qh7 37. Rxd4 1-0
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.27"]
+[Round "1"]
+[White "Banikas,H"]
+[Black "Kotronias,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2568"]
+[BlackElo "2587"]
+[EventDate "2006.11.27"]
+[ECO "A65"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Nge2 c5 7. Be3 Nc6 8.
+d5 Ne5 9. Ng3 e6 10. Be2 exd5 11. cxd5 a6 12. a4 h5 13. O-O Nh7 14. Qd2 h4
+15. Nh1 f5 16. Nf2 Re8 17. Kh1 Rb8 18. Rg1 Kh8 19. g4 f4 20. Bxf4 g5 21.
+Be3 Qf6 22. Qd1 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.27"]
+[Round "1"]
+[White "Mastrovasilis,A"]
+[Black "Kapnisis,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2533"]
+[BlackElo "2421"]
+[EventDate "2006.11.27"]
+[ECO "A29"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6 6. Nf3 Nc6 7. O-O Be7
+8. d3 O-O 9. a3 Be6 10. b4 f6 11. Be3 a5 12. b5 Nd4 13. Bxd4 exd4 14. Na4
+Qd7 15. Qc2 Rfd8 16. Rfc1 Rac8 17. Nc5 Bxc5 18. Qxc5 Na4 19. Qc2 Qxb5 20.
+Rab1 Qc6 21. Qxc6 bxc6 22. Rxc6 Bd5 23. Nxd4 Bxg2 24. Kxg2 Rxd4 25. Rb5 Rd6
+26. Rxd6 cxd6 27. Rxa5 Nc3 28. Kf3 Rc5 29. Ra8+ Kf7 30. e4 d5 31. Ke3 Nb5
+32. Ra5 dxe4 33. a4 exd3 34. Kxd3 Rc3+ 35. Kd2 Ra3 36. Rxb5 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.27"]
+[Round "1"]
+[White "Karayannis,A"]
+[Black "Nikolaidis,I"]
+[Result "0-1"]
+[WhiteElo "2361"]
+[BlackElo "2536"]
+[EventDate "2006.11.27"]
+[ECO "E14"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. e3 Bb7 5. Bd3 Bb4+ 6. Bd2 Bxd2+ 7. Nbxd2
+O-O 8. Qc2 Na6 9. a3 c5 10. d5 exd5 11. cxd5 Kh8 12. e4 d6 13. O-O Nh5 14.
+Rfe1 Nc7 15. Nc4 f5 16. e5 Bxd5 17. exd6 Ne6 18. Nce5 Ng5 19. Nxg5 Qxg5 20.
+Bf1 Nf4 21. f3 Ne6 22. b4 Nd4 23. Qf2 f4 24. bxc5 bxc5 25. Bc4 Rae8 26.
+Bxd5 Rxe5 27. Be4 Re6 28. Rab1 Rxd6 29. Rb7 a6 30. Qa2 Re6 31. Reb1 Qe5 32.
+a4 Nf5 33. Rd7 Nd6 34. Qd5 Nxe4 35. fxe4 Qxe4 36. Qxe4 Rxe4 37. Rbb7 Rg8
+38. Rdc7 Rxa4 39. Rxc5 h6 40. Rcc7 Ra2 41. Rf7 Rc8 42. h4 f3 43. Rxf3 Rc4
+44. Rg3 Ra1+ 45. Kf2 Rc2+ 46. Kf3 Rc3+ 47. Kg4 Rc4+ 48. Kf5 Ra5+ 49. Ke6
+Rc6+ 50. Kd7 Rf6 51. Rb4 Rd5+ 52. Kc7 Re5 53. Kd7 Kg8 54. Rbg4 Rf7+ 55. Kd6
+Ref5 56. Ke6 Kf8 57. Kd6 Rb5 58. Kc6 Rf6+ 59. Kc7 Rf7+ 60. Kc6 Rbf5 61. Kd6
+a5 62. Kc6 Re7 63. Kd6 Ra7 64. Kc6 a4 65. Kb6 Re7 66. Kc6 Re6+ 67. Kd7 Ra6
+68. Rf3 Rxf3 69. gxf3 a3 70. Rg1 a2 71. Ra1 Kf7 72. Kc7 Kg6 73. Kb7 Ra3 74.
+Kb6 Kh5 75. Kb5 Kxh4 76. Kb4 Ra8 0-1
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.28"]
+[Round "2"]
+[White "Skembris,S"]
+[Black "Mastrovasilis,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2455"]
+[BlackElo "2533"]
+[EventDate "2006.11.27"]
+[ECO "D57"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Ne4 8.
+Bxe7 Qxe7 9. cxd5 Nxc3 10. bxc3 exd5 11. c4 Be6 12. Qb3 Rd8 13. Rc1 c5 14.
+Qa3 Nd7 15. cxd5 Bxd5 16. Be2 b6 17. O-O Qf6 18. Rfd1 Qg6 19. Ne1 Qf6 20.
+h3 Bb7 21. Bf3 Bxf3 22. Nxf3 cxd4 23. exd4 Nf8 24. Rc7 Ne6 25. Rxa7 Rxa7
+26. Qxa7 Nxd4 27. Nxd4 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.28"]
+[Round "2"]
+[White "Kotrotsos,V"]
+[Black "Kotronias,V"]
+[Result "0-1"]
+[WhiteElo "2276"]
+[BlackElo "2587"]
+[EventDate "2006.11.27"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Nf3 Nc6 5. c4 cxd4 6. Nxd4 e6 7. Nxc6 bxc6 8.
+Be2 Ne7 9. O-O Ng6 10. f4 Bc5+ 11. Kh1 O-O 12. Qc2 Bb6 13. Nd2 f6 14. Nf3
+fxe5 15. fxe5 Ba6 16. Bg5 Qe8 17. Bd3 dxc4 18. Bxc4 Bxc4 19. Qxc4 h6 20.
+Bd2 Rd8 21. Rad1 Rd5 22. Bc3 Nf4 23. Qe4 Qh5 24. Bd4 Bxd4 25. Rxd4 c5 26.
+Rd2 Qg4 27. g3 Qh3 28. Rff2 Nh5 29. Kg1 Nxg3 30. hxg3 Qxg3+ 31. Rg2 Qxf3
+32. Rxg7+ Kxg7 33. Rg2+ Kh8 0-1
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.28"]
+[Round "2"]
+[White "Mastrovasilis,D"]
+[Black "Karayannis,A"]
+[Result "1-0"]
+[WhiteElo "2562"]
+[BlackElo "2361"]
+[EventDate "2006.11.27"]
+[ECO "B32"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 a6 6. Nd6+ Bxd6 7. Qxd6
+Qe7 8. Qd1 Nf6 9. Nc3 h6 10. Be2 d6 11. O-O O-O 12. Be3 Be6 13. Qd2 Rfd8
+14. Bb6 Rd7 15. Nd5 Bxd5 16. exd5 Nd4 17. Bxd4 exd4 18. Rfe1 Rc7 19. Bxa6
+Qd7 20. Bd3 Rc5 21. Re2 Rxd5 22. Bc4 Rg5 23. f4 Rh5 24. Qxd4 d5 25. Bd3 Ra4
+26. b4 Ra8 27. Rae1 Qg4 28. Qe3 Qd7 29. Qe7 Qc6 30. Qc5 Qxc5+ 31. bxc5 d4
+32. Re7 Rxc5 33. Rxb7 Nd5 34. Re5 Rc7 35. Rxc7 Nxc7 36. Bc4 Kf8 37. Kf2 Ne6
+38. f5 Rc8 39. Bd3 Nf4 40. Be4 Rc3 41. Ra5 Re3 42. Bf3 Rc3 43. Bd1 Ke7 44.
+Ra4 d3 45. cxd3 Nxd3+ 46. Ke2 Nc5 47. Ra7+ Kf6 48. Ke1 Ne4 49. Bb3 Nd6 50.
+Kd2 Ne4+ 51. Kd1 Nd6 52. Ra6 Ke5 53. Ra5+ Kf6 54. Kd2 Ne4+ 55. Ke2 Nd6 56.
+Ra6 Ke5 57. f6 gxf6 58. Ra5+ Ke4 59. Kd2 Rd3+ 60. Kc2 Re3 61. Ra4+ Kf5 62.
+Kd2 Re5 63. Bc2+ Kg5 64. Rd4 Nf5 65. Rd3 h5 66. Bb3 h4 67. a4 Ne7 68. Bxf7
+f5 69. Re3 Nc6 70. Rxe5 Nxe5 71. Bd5 h3 72. gxh3 Nd7 73. a5 Nc5 74. Kc3 Kf6
+75. Kc4 Na6 76. Kb5 Nb8 77. h4 f4 78. h5 Kg5 79. Bf3 Kf6 80. Be2 Kg5 81.
+Kb6 Kh6 82. Kc7 f3 83. Bf1 1-0
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.28"]
+[Round "2"]
+[White "Kapnisis,S"]
+[Black "Goritsas,C"]
+[Result "1/2-1/2"]
+[WhiteElo "2421"]
+[BlackElo "2289"]
+[EventDate "2006.11.27"]
+[ECO "E44"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Nge2 Ne4 6. Bd2 Nxd2 7. Qxd2 O-O
+8. a3 Be7 9. g3 Ba6 10. b3 c6 11. d5 exd5 12. cxd5 c5 13. Bg2 d6 14. O-O
+Bf6 15. Rfc1 Nd7 16. Nf4 g6 17. b4 Bc4 18. Rab1 Ne5 19. Qd1 Bg7 20. h4 Re8
+21. Ne4 Ba2 22. Ra1 Bc4 23. Rab1 Ba2 24. Ra1 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.28"]
+[Round "2"]
+[White "Nikolaidis,I"]
+[Black "Banikas,H"]
+[Result "1/2-1/2"]
+[WhiteElo "2536"]
+[BlackElo "2568"]
+[EventDate "2006.11.27"]
+[ECO "B27"]
+
+1. e4 c5 2. Nf3 f5 3. exf5 Nf6 4. d4 d5 5. dxc5 Bxf5 6. Bd3 Bg4 7. O-O e5
+1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.29"]
+[Round "3"]
+[White "Kotronias,V"]
+[Black "Nikolaidis,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2587"]
+[BlackElo "2536"]
+[EventDate "2006.11.27"]
+[ECO "B17"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Ng5 e6 6. Bd3 Ngf6 7. N1f3 Bd6
+8. Qe2 h6 9. Ne4 Nxe4 10. Qxe4 Nf6 11. Qe2 Qc7 12. Bd2 b6 13. O-O-O Bb7 14.
+Ne5 c5 15. Bb5+ Kf8 16. Bf4 Bd5 17. dxc5 Qxc5 18. Kb1 Rd8 19. f3 Kg8 20. h4
+a6 21. Bd3 b5 22. c3 Qc7 23. Rhe1 Nd7 24. Bc2 Nb6 25. Rd4 Nc4 26. Bb3 Bxe5
+27. Bxe5 Qe7 28. Bf4 Qf6 29. Bc1 e5 30. Rdd1 Be6 31. Rxd8+ Qxd8 32. h5 Bf5+
+33. Bc2 Qc8 34. g4 Bxc2+ 35. Qxc2 Qe6 36. Rd1 e4 37. b3 Nd6 38. Bf4 Ne8 39.
+Qxe4 Qxe4+ 40. fxe4 Nf6 41. e5 Nxg4 42. Rd6 Kh7 43. Rxa6 Re8 44. Rb6 g5 45.
+hxg6+ fxg6 46. Rb7+ Kg8 47. Rxb5 g5 48. Bxg5 hxg5 49. e6 Kf8 50. Rxg5 Nf6
+51. Re5 Ke7 52. Kc2 Kd6 53. Re1 Nd5 54. a4 Rxe6 55. Rxe6+ Kxe6 56. Kd3 Kd6
+57. Kd4 Kc6 58. b4 Nb6 59. b5+ Kd6 60. a5 Nd7 61. a6 Kc7 62. c4 Kb6 63. Kd5
+Nf6+ 64. Ke5 Nd7+ 65. Kd4 Nc5 66. a7 Ne6+ 67. Ke5 Nc7 68. Kd6 Na8 69. Kd7
+Kxa7 70. Kc6 Nb6 71. c5 Na4 72. b6+ 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.29"]
+[Round "3"]
+[White "Goritsas,C"]
+[Black "Skembris,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2289"]
+[BlackElo "2455"]
+[EventDate "2006.11.27"]
+[ECO "A20"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nf3 Nc6 6. O-O Nb6 7. d3 Be7
+8. Nbd2 O-O 9. a3 a5 10. b3 f5 11. Bb2 Bf6 12. Rc1 Qd6 13. Qc2 Be6 14. Rfd1
+Rf7 15. e3 Re8 16. Nc4 Nxc4 17. bxc4 Qf8 18. d4 exd4 19. exd4 Bc8 20. d5
+Ne5 21. Nxe5 Bxe5 22. Bxe5 Rxe5 23. c5 f4 24. d6 c6 25. Qc3 Rg5 26. Qxa5
+Bg4 27. Rd4 fxg3 28. fxg3 Bd7 29. Qe1 Qd8 30. Qe3 b6 31. cxb6 Qxb6 32. Re4
+Qxe3+ 33. Rxe3 Rf6 34. Rd3 Rgg6 35. Rcd1 Kf8 36. Be4 Rg4 37. Bf3 Ra4 38.
+Kg2 c5 39. Rc1 Rd4 40. Rdc3 Rdxd6 41. R1c2 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.29"]
+[Round "3"]
+[White "Karayannis,A"]
+[Black "Kapnisis,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2361"]
+[BlackElo "2421"]
+[EventDate "2006.11.27"]
+[ECO "D79"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. d4 d5 6. c4 c6 7. cxd5 cxd5
+1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.29"]
+[Round "3"]
+[White "Mastrovasilis,A"]
+[Black "Kotrotsos,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2533"]
+[BlackElo "2276"]
+[EventDate "2006.11.27"]
+[ECO "A41"]
+
+1. Nf3 g6 2. d4 Bg7 3. g3 d6 4. Bg2 Nd7 5. O-O e5 6. c4 Ne7 7. Nc3 O-O 8.
+e3 exd4 9. exd4 Nf6 10. h3 c6 11. Re1 Re8 12. b3 h6 13. Bb2 d5 14. Qd2 Be6
+15. Rxe6 fxe6 16. Re1 Nf5 17. g4 Nd6 18. Ne5 g5 19. Qc2 Nf7 20. Ng6 Qc7 21.
+Ne2 Rac8 22. c5 b6 23. b4 a5 24. a3 axb4 25. axb4 Rb8 26. Nc1 bxc5 27. bxc5
+Nd7 28. Nd3 e5 29. dxe5 Ndxe5 30. Ngxe5 Nxe5 31. Bxe5 Rxe5 32. Nxe5 Bxe5
+33. Qg6+ Bg7 34. Qe6+ Kh8 35. Bf1 Rf8 36. Bd3 Qf7 37. Bf5 Qxe6 38. Rxe6 Rf6
+39. Re8+ Bf8 40. Rc8 Kg7 41. Rc7+ Kg8 42. Rc8 Kg7 43. Rc7+ Kg8 44. Rc8
+1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.29"]
+[Round "3"]
+[White "Banikas,H"]
+[Black "Mastrovasilis,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2568"]
+[BlackElo "2562"]
+[EventDate "2006.11.27"]
+[ECO "D20"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nf6 4. e5 Nd5 5. Bxc4 Nb6 6. Bb3 Nc6 7. Nf3 Bg4
+8. Ng5 Bxd1 9. Bxf7+ 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.30"]
+[Round "4"]
+[White "Mastrovasilis,D"]
+[Black "Kotronias,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2562"]
+[BlackElo "2587"]
+[EventDate "2006.11.27"]
+[ECO "B65"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 Be7
+8. O-O-O O-O 9. f4 Nxd4 10. Qxd4 Qa5 11. Bc4 Bd7 12. e5 dxe5 13. fxe5 Bc6
+14. Bd2 Nd7 15. Nd5 Qd8 16. Nxe7+ Qxe7 17. Rhe1 Rfc8 18. Bf1 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.30"]
+[Round "4"]
+[White "Kapnisis,S"]
+[Black "Banikas,H"]
+[Result "1/2-1/2"]
+[WhiteElo "2421"]
+[BlackElo "2568"]
+[EventDate "2006.11.27"]
+[ECO "B97"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8.
+Qd2 Nc6 9. O-O-O Nxd4 10. Qxd4 Qxd4 11. Rxd4 Be7 12. Na4 Bd8 13. Rxd6 Bc7
+14. Rd4 b5 15. e5 h6 16. Bh4 Nh5 17. Be2 Nxf4 18. Rxf4 g5 19. Bf3 Rb8 20.
+Bc6+ Kf8 21. Re4 gxh4 22. Nc5 Rg8 23. Rf1 Ke7 24. Ref4 Bxe5 25. Rxf7+ Kd6
+26. Nd7 Bxd7 27. Bxd7 Rg4 28. c3 Rb6 29. Rd1+ Kc5 30. Re1 Kd6 31. Rd1+ Kc5
+32. Rf8 Rb8 33. Rf2 Rg6 34. Re2 Bf4+ 35. Kc2 e5 36. h3 b4 37. Bf5 Rg3 38.
+Be4 bxc3 39. bxc3 Rc8 40. Bb7 Rc7 41. Bf3 Rg8 42. Re4 a5 43. Ra4 Ra7 44.
+Rd5+ Kb6 45. Rc4 Re7 46. Be4 Rgg7 47. Rd6+ Ka7 48. Rc5 Be3 49. Rxa5+ Kb8
+50. Ra8+ Kc7 51. Rdd8 Rd7 52. Rdc8+ Kd6 53. Re8 Ra7 54. Red8+ Ke6 55. Bd5+
+Ke7 56. Rac8 Bb6 57. Rf8 Kd6 58. c4 Bc7 59. Kb3 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.30"]
+[Round "4"]
+[White "Kotrotsos,V"]
+[Black "Nikolaidis,I"]
+[Result "0-1"]
+[WhiteElo "2276"]
+[BlackElo "2536"]
+[EventDate "2006.11.27"]
+[ECO "B30"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. b3 a6 6. Bxc6 Nxc6 7. Bb2 b5
+8. c4 bxc4 9. bxc4 Rb8 10. Bc3 f6 11. Nh4 Qe7 12. f4 Qf7 13. f5 Bd6 14. d3
+Be5 15. Bxe5 Nxe5 16. Nc3 O-O 17. Rb1 Rxb1 18. Qxb1 Qe7 19. Ne2 d5 20. cxd5
+exd5 21. Nf4 dxe4 22. Nd5 Qa7 23. dxe4 c4+ 24. Kh1 Bb7 25. Qd1 Nd3 26. Qf3
+Bxd5 27. exd5 Qd4 28. Ng6 hxg6 29. fxg6 Re8 30. d6 Qxd6 31. Qh5 Qe6 32.
+Qh7+ Kf8 33. Qh8+ Qg8 34. Qh4 Ne5 35. Qh5 Ke7 36. Rb1 Rb8 37. Re1 Qe6 0-1
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.30"]
+[Round "4"]
+[White "Skembris,S"]
+[Black "Karayannis,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2455"]
+[BlackElo "2361"]
+[EventDate "2006.11.27"]
+[ECO "E10"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 b5 5. Bg5 Qa5+ 6. Qd2 Qxd2+ 7. Nfxd2
+bxc4 8. e4 Be7 9. Nc3 Nxd5 10. exd5 Bxg5 11. Nde4 Bf4 12. Bxc4 Ba6 13. Bb3
+c4 14. Ba4 Bb7 15. Rd1 Be5 16. O-O O-O 17. f4 exd5 18. fxe5 dxe4 19. Rd4
+Nc6 20. Rxd7 Na5 21. Re1 Rfd8 22. Nxe4 Rxd7 23. Bxd7 Bxe4 24. Rxe4 Rb8 25.
+e6 fxe6 26. Re5 Rxb2 27. Rxa5 c3 28. Bxe6+ Kf8 29. Bb3 c2 30. Bxc2 Rxc2 31.
+Rxa7 h5 32. h3 Kg8 33. Ra5 Kf7 34. Rf5+ Kg6 35. Rf2 Rc1+ 36. Rf1 Rc3 37.
+Re1 Ra3 38. Re2 Kf5 39. Kf2 g5 40. Rb2 h4 41. Kf1 Kf4 42. Rf2+ Ke4 43. Ke1
+Rg3 44. Kd2 Kd4 45. Kc2 Kc4 46. Kb2 Kb4 47. Re2 Kb5 48. Kc1 g4 49. a4+ Kb6
+50. hxg4 Rxg4 51. Ra2 Rg3 52. a5+ Ka6 53. Kd1 h3 54. gxh3 Rxh3 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.11.30"]
+[Round "4"]
+[White "Mastrovasilis,A"]
+[Black "Goritsas,C"]
+[Result "1-0"]
+[WhiteElo "2533"]
+[BlackElo "2289"]
+[EventDate "2006.11.27"]
+[ECO "D27"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 dxc4 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. a4 Nc6 8.
+Qe2 cxd4 9. Rd1 d3 10. Bxd3 Qc7 11. e4 Bc5 12. h3 Nd7 13. Na3 O-O 14. Be3
+Bxe3 15. Qxe3 Qb6 16. Qd2 Nc5 17. e5 h6 18. Qe3 Nd7 19. Qe4 f5 20. exf6
+Nxf6 21. Nc4 Qc7 22. Qe2 Bd7 23. Rac1 Rad8 24. Nce5 Be8 25. Nxc6 Bxc6 26.
+Qxe6+ Kh8 27. Ne5 Rfe8 28. Ng6+ Kh7 29. Nf4+ Kh8 30. Qf5 Qb6 31. Ng6+ Kh7
+32. Ne5+ Kg8 33. Bc4+ Bd5 34. Rxd5 Nxd5 35. Bxd5+ Rxd5 36. Qf7+ Kh7 37.
+Qxd5 Qxb2 38. Re1 Qb4 39. Re4 Qb1+ 40. Kh2 Qb2 41. Nd3 1-0
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.01"]
+[Round "5"]
+[White "Kotronias,V"]
+[Black "Kapnisis,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2587"]
+[BlackElo "2421"]
+[EventDate "2006.11.27"]
+[ECO "C78"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 b5 7. Bc2 d5 8.
+exd5 Qxd5 9. d4 exd4 10. Re1+ Be7 11. Bb3 Qd8 12. a4 b4 13. Nxd4 Nxd4 14.
+Qxd4 Qxd4 15. cxd4 Bb7 16. Bg5 Rd8 17. Nd2 Rd7 18. Nc4 O-O 19. Rac1 Bd8 20.
+Ne5 Rd6 21. Nxf7 Rxf7 22. Bxf6 gxf6 23. Re8+ Kg7 24. Bxf7 Kxf7 25. Rxd8
+Rxd8 26. Rxc7+ Kg6 27. Rxb7 Rxd4 28. Kf1 b3 29. Rxb3 Rxa4 30. Ke2 Rd4 31.
+Ke3 Rd6 32. Rd3 Rb6 33. b3 a5 34. Kd2 Rb5 35. Kc3 h5 36. Rg3+ Kf7 37. Rf3
+h4 38. Rf4 Rg5 39. g3 hxg3 40. fxg3 Rh5 41. h4 Kg6 42. Rg4+ Kf7 43. Rc4 Kg6
+44. Rg4+ Kf7 45. Kc4 Re5 46. Rf4 Kg6 47. g4 Re3 48. Rd4 Rh3 49. g5 fxg5 50.
+Rd6+ Kh5 51. hxg5 Kxg5 52. Ra6 Kf5 53. Rxa5+ Ke6 54. Rc5 Kd7 55. b4 Rh8 56.
+b5 Rh4+ 57. Kb3 Rg4 58. Ka3 Rh4 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.01"]
+[Round "5"]
+[White "Karayannis,A"]
+[Black "Mastrovasilis,A"]
+[Result "0-1"]
+[WhiteElo "2361"]
+[BlackElo "2533"]
+[EventDate "2006.11.27"]
+[ECO "A30"]
+
+1. Nf3 Nf6 2. g3 b6 3. Bg2 Bb7 4. c4 c5 5. O-O g6 6. Nc3 Bg7 7. d3 O-O 8.
+Bd2 Nc6 9. Qc1 e6 10. Bh6 d5 11. Bxg7 Kxg7 12. cxd5 exd5 13. d4 Nxd4 14.
+Nxd4 cxd4 15. Nb5 d3 16. exd3 Ba6 17. a4 Qd7 18. Nc3 Rac8 19. Qd2 Qf5 20.
+Rfd1 Rfe8 21. a5 Bxd3 22. axb6 axb6 23. Ra4 Bc4 24. Rb4 d4 25. Qxd4 b5 26.
+g4 Qg5 27. Ne4 Qe5 28. Nxf6 Qxf6 29. Qxf6+ Kxf6 30. b3 Be2 31. Rd6+ Kg7 32.
+h3 Red8 33. Rb6 Rc7 34. Re4 Bd3 35. Re1 Rc3 36. b4 Bc4 37. Bf1 Bxf1 38.
+Kxf1 Rxh3 39. Re4 Rd5 40. Rf4 g5 41. Rf5 Rxf5 42. gxf5 Rh4 43. Rxb5 Kf6 44.
+Rb7 h5 45. b5 Rb4 46. b6 Rb3 47. Kg2 g4 48. Rb8 h4 49. b7 Kxf5 50. Kh2 h3
+51. Ra8 Rxb7 52. Ra5+ Kf4 53. Ra4+ Kf3 54. Ra5 Kf4 55. Ra4+ Kg5 56. Ra5+ f5
+57. Ra2 Rb3 58. Rc2 Kh4 59. Rc5 Rb2 60. Kg1 h2+ 61. Kxh2 Rxf2+ 62. Kg1 Kg3
+63. Rc3+ Rf3 64. Rc1 Ra3 65. Rb1 f4 66. Rc1 f3 67. Rb1 Ra2 0-1
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.01"]
+[Round "5"]
+[White "Banikas,H"]
+[Black "Skembris,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2568"]
+[BlackElo "2455"]
+[EventDate "2006.11.27"]
+[ECO "D65"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 Nbd7 7. e3 O-O 8.
+Rc1 a6 9. cxd5 exd5 10. Bd3 c6 11. Qc2 Re8 12. O-O Ne4 13. Bxe4 dxe4 14.
+Qxe4 Bxh4 15. Qxh4 Nf6 16. e4 Bg4 17. Ne5 Bh5 18. Nxc6 bxc6 19. e5 Ng4 20.
+Qxh5 Qxd4 21. Rcd1 Qf4 22. Qh4 Rxe5 23. f3 Qe3+ 24. Kh1 Nf6 25. Qd4 Rb8 26.
+Qxe3 Rxe3 27. Rd6 Nd5 28. Rxc6 Nxc3 29. bxc3 Rb2 30. Rxa6 Rxc3 31. Rg1 Rcc2
+32. a3 Ra2 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.01"]
+[Round "5"]
+[White "Nikolaidis,I"]
+[Black "Mastrovasilis,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2536"]
+[BlackElo "2562"]
+[EventDate "2006.11.27"]
+[ECO "D02"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. c3 Nc6 5. Nd2 e6 6. Ngf3 Nh5 7. Be5 f6 8.
+Bg3 Qb6 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.01"]
+[Round "5"]
+[White "Goritsas,C"]
+[Black "Kotrotsos,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2289"]
+[BlackElo "2276"]
+[EventDate "2006.11.27"]
+[ECO "A28"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. a3 g6 5. e3 Bg7 6. d3 O-O 7. Be2 d5 8.
+cxd5 Nxd5 9. Bd2 a5 10. Na4 h6 11. Qb3 b6 12. Rc1 Qd6 13. O-O Bd7 14. Rfd1
+Rac8 15. Nc3 Nxc3 16. Bxc3 Ne7 17. d4 e4 18. Nd2 Bc6 19. Qc2 f5 20. b4 Bd5
+21. bxa5 Qe6 22. Bb4 bxa5 23. Bxe7 Qxe7 24. Qc5 Qe6 25. Qxd5 Qxd5 26. Bc4
+Rfd8 27. Nb3 Bf8 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.02"]
+[Round "6"]
+[White "Goritsas,C"]
+[Black "Karayannis,A"]
+[Result "1-0"]
+[WhiteElo "2289"]
+[BlackElo "2361"]
+[EventDate "2006.11.27"]
+[ECO "A11"]
+
+1. c4 Nf6 2. g3 c6 3. Bg2 d5 4. Nf3 Bf5 5. cxd5 Bxb1 6. Rxb1 Qxd5 7. a3 e6
+8. d4 Qd8 9. b4 a6 10. O-O Be7 11. Ne5 O-O 12. Nc4 Nbd7 13. Na5 Qc8 14. Qb3
+Nb6 15. h3 Rd8 16. Rd1 h6 17. e4 Nbd7 18. Qc3 Bf8 19. Bf4 g5 20. Be3 Bg7
+21. Rbc1 Ne8 22. Qe1 Qb8 23. d5 cxd5 24. exd5 e5 25. d6 e4 26. Bxe4 Nxd6
+27. Bg2 Ne5 28. Qe2 Rd7 29. Bc5 Qd8 30. Nxb7 Nxb7 31. Bxb7 Rb8 32. Be4 a5
+33. Bf5 Rxd1+ 34. Rxd1 Qf6 35. Be4 axb4 36. axb4 Qe6 37. Bg2 Qb3 38. Bd5
+Qa4 39. Bg2 Re8 40. Re1 Nf3+ 41. Bxf3 Rxe2 42. Rxe2 Bf8 43. Kg2 Qb5 44. Re5
+Bxc5 45. bxc5 Kf8 46. Rd5 Qc4 47. c6 Ke8 48. g4 Qc3 49. Rf5 Ke7 50. Rb5 Kd6
+51. Rb7 f5 52. Rd7+ Ke6 53. Rh7 Ke5 54. c7 h5 55. Bb7 fxg4 56. hxg4 Qc2 57.
+Rg7 Kf6 58. c8=Q Qxc8 59. Bxc8 Kxg7 60. gxh5 1-0
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.02"]
+[Round "6"]
+[White "Skembris,S"]
+[Black "Kotronias,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2455"]
+[BlackElo "2587"]
+[EventDate "2006.11.27"]
+[ECO "E70"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Bd3 O-O 6. Nge2 Nc6 7. O-O e5 8.
+d5 Nd4 9. Nxd4 exd4 10. Ne2 Re8 11. f3 Nd7 12. b4 a5 13. b5 Nc5 14. Bb2 Qg5
+15. Bc1 Qd8 16. Bb2 Qg5 17. Bc1 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.02"]
+[Round "6"]
+[White "Kapnisis,S"]
+[Black "Nikolaidis,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2421"]
+[BlackElo "2536"]
+[EventDate "2006.11.27"]
+[ECO "B12"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nd2 e6 5. Nb3 c5 6. dxc5 Bxc5 7. Nxc5 Qa5+
+8. c3 Qxc5 9. Qa4+ Nd7 10. Nf3 Qc7 11. Bb5 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.02"]
+[Round "6"]
+[White "Kotrotsos,V"]
+[Black "Mastrovasilis,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2276"]
+[BlackElo "2562"]
+[EventDate "2006.11.27"]
+[ECO "B40"]
+
+1. e4 c5 2. Nf3 e6 3. c4 Nc6 4. Nc3 e5 5. Be2 g6 6. O-O Bg7 7. a3 Nge7 8.
+Rb1 a5 9. Nd5 O-O 10. d3 d6 11. Ne1 a4 12. Nc2 Nxd5 13. exd5 Na5 14. Na1
+Bd7 15. Bd2 Qc7 16. b4 axb3 17. Nxb3 Ba4 18. Bxa5 Rxa5 19. Qc1 Ra6 20. Nd2
+f5 21. Nf3 h6 22. Bd1 Bd7 23. Rb3 Ba4 24. Rb1 Bd7 25. Rb3 Rfa8 26. Qb1 b6
+27. Nd2 Kh7 28. g3 Ba4 29. Rb2 Bxd1 30. Rxd1 Rxa3 31. Rb3 Ra2 32. Nf1 R8a6
+33. Rb5 Qa7 34. Ne3 Ra1 35. Qb3 f4 36. Nf1 Qd7 37. Rb1 e4 38. dxe4 R6a3 39.
+Qd1 Qh3 40. Rxa1 Rxa1 41. Rb1 Ra3 42. Rb3 Ra1 43. Rb1 fxg3 44. Rxa1 gxf2+
+45. Kxf2 Qh4+ 46. Ke3 Qh3+ 47. Ke2 Qg2+ 48. Kd3 b5 49. Rc1 b4 50. Qe2 Qg5
+51. Qe3 Qe5 52. Nd2 Qb2 53. Rb1 Qa2 54. Ke2 h5 55. Qb3 Qa7 56. Rg1 Bc3 57.
+Nf3 Qe7 58. Qc2 Qf6 59. Qa4 Qe7 60. Ng5+ Kh6 61. Qa8 Bd4 62. Qg8 Bxg1 63.
+Nf7+ Qxf7 64. Qxf7 Bxh2 65. Kf3 Be5 66. Qf8+ Kh7 67. Qe7+ Kh6 68. Qf8+ Kh7
+69. Qb8 Kh6 70. Kg2 Kg7 71. Kh3 Kf7 72. Qb7+ Kg8 73. Kh4 Bf6+ 74. Kg3 Be5+
+75. Kf3 Bh2 76. Ke3 Be5 77. Kd3 Bg3 78. Kc2 Be5 79. Kb3 Bf4 80. Ka4 Be5 81.
+Ka5 Kf8 82. Ka4 Kg8 83. Ka5 Kf8 84. Ka6 Ke8 85. Qc8+ Kf7 86. Qh3 Kg7 87.
+Kb5 Kh6 88. Qe3+ g5 89. Kc6 Kg6 90. Kd7 g4 91. Ke6 g3 92. Qf3 Kg5 93. Kf7
+b3 94. Qxb3 g2 95. Qd1 Kf4 96. Ke6 h4 97. Qd2+ Kf3 98. Qd3+ Kf2 99. Qd2+
+Kf3 100. Qd3+ Kf2 101. Qd2+ Kg3 102. Qe1+ Kg4 103. Qd1+ Kf4 104. Qd2+ Kg3
+105. Qe1+ Kh3 106. Kf5 Bd4 107. e5 Bxe5 108. Kg5 Bg3 109. Qg1 Bh2 110. Qe3+
+Bg3 111. Qg1 Bh2 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.02"]
+[Round "6"]
+[White "Mastrovasilis,A"]
+[Black "Banikas,H"]
+[Result "1/2-1/2"]
+[WhiteElo "2533"]
+[BlackElo "2568"]
+[EventDate "2006.11.27"]
+[ECO "A37"]
+
+1. c4 g6 2. Nc3 c5 3. g3 Bg7 4. Bg2 Nc6 5. Nf3 e5 6. O-O Nge7 7. Ne1 d6 8.
+Nc2 Be6 9. Ne3 Qd7 10. Ned5 O-O 11. d3 Bh3 12. Ne4 Nxd5 13. Bxh3 Qxh3 14.
+cxd5 Ne7 15. Qb3 Qd7 16. a4 Rae8 17. Bd2 Kh8 18. Qb5 Qc7 19. b4 f5 20. Nc3
+Nc8 21. a5 e4 22. Rac1 exd3 23. exd3 a6 24. Qc4 Qd7 25. Rfe1 Rxe1+ 26. Rxe1
+b5 27. axb6 Nxb6 28. Qb3 Qc7 29. bxc5 Qxc5 30. Rc1 Nd7 31. Ne4 Qb6 32. Qxb6
+Nxb6 33. Nxd6 Nxd5 34. Rc5 Nf6 35. Ra5 Ra8 36. Nb7 Ng4 37. Be3 Nxe3 38.
+fxe3 Bh6 39. Kf2 Re8 40. e4 fxe4 41. dxe4 Rxe4 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.03"]
+[Round "7"]
+[White "Karayannis,A"]
+[Black "Kotrotsos,V"]
+[Result "0-1"]
+[WhiteElo "2361"]
+[BlackElo "2276"]
+[EventDate "2006.11.27"]
+[ECO "B07"]
+
+1. d4 g6 2. h4 h5 3. Nc3 Bg7 4. e4 c5 5. d5 d6 6. Be2 Nf6 7. Nh3 Na6 8. Ng5
+Nc7 9. Bf4 O-O 10. a4 b6 11. Bf3 Bg4 12. Qd2 Bxf3 13. Nxf3 a6 14. Bh6 b5
+15. Bxg7 Kxg7 16. Ng5 Qd7 17. f3 Rfb8 18. a5 Re8 19. O-O Rad8 20. Rad1 b4
+21. Ne2 e6 22. dxe6 fxe6 23. c4 bxc3 24. bxc3 d5 25. e5 Nh7 26. Rb1 Rb8 27.
+Rb6 Rxb6 28. axb6 Nb5 29. c4 Na3 30. cxd5 Qxd5 31. Qa5 Nc4 32. Qxa6 Nxg5
+33. Qa7+ Nf7 34. f4 Ne3 0-1
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.03"]
+[Round "7"]
+[White "Banikas,H"]
+[Black "Goritsas,C"]
+[Result "1-0"]
+[WhiteElo "2568"]
+[BlackElo "2289"]
+[EventDate "2006.11.27"]
+[ECO "E11"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 Nc6 6. Nc3 Bxc3 7. Bxc3 Ne4
+8. Rc1 O-O 9. Bg2 d6 10. Qc2 Nxc3 11. Qxc3 a5 12. a3 a4 13. d5 Nb8 14. dxe6
+fxe6 15. c5 d5 16. e4 dxe4 17. Nd2 e5 18. Bxe4 Nc6 19. O-O Kh8 20. Bxc6
+bxc6 21. Rfe1 Qf7 22. f3 Be6 23. Rxe5 Bd5 24. Rce1 Rae8 25. Rxe8 Rxe8 26.
+Rxe8+ Qxe8 27. Kf2 h6 28. Qd4 Qh5 29. h4 Qf5 30. Qxa4 Qh3 31. Qf4 Qh2+ 32.
+Kf1 Qh1+ 33. Ke2 Qg2+ 34. Kd3 Qg1 35. Qxc7 Qxc5 36. Qe5 Qb5+ 37. Ke3 Qc5+
+38. Ke2 Qg1 39. g4 Qg2+ 40. Ke3 Qh1 41. Qb8+ Kh7 42. h5 Qe1+ 43. Kd3 Qd1
+44. Qf4 Qc1 45. Qe5 Qd1 46. b4 Qc1 47. Qc3 Qd1 48. Kd4 Qg1+ 49. Qe3 Qc1 50.
+Ne4 Qc4+ 51. Ke5 Qb5 52. Nd6 Qb8 53. b5 Qd8 54. Qd3+ Kg8 55. bxc6 Ba2 56.
+Kf4 Qc7 57. Kg3 Qxc6 58. Nf5 Qb6 59. Qe3 Qb8+ 60. Kh3 Qf8 61. Qe7 Qxe7 62.
+Nxe7+ Kf7 63. Nf5 Bb3 64. Kg3 Kf6 65. Kf4 Bd1 66. Nd6 Bc2 67. Ne4+ Ke6 68.
+a4 1-0
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.03"]
+[Round "7"]
+[White "Mastrovasilis,D"]
+[Black "Kapnisis,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2562"]
+[BlackElo "2421"]
+[EventDate "2006.11.27"]
+[ECO "C78"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 b5 7. Bb3 d6 8.
+a4 Bg4 9. h3 Bxf3 10. Qxf3 Na5 11. Bc2 b4 12. Qd1 Qb8 13. d4 b3 14. dxc5
+bxc2 15. Qxc2 Nb3 16. Ra3 Nxc5 17. Nd2 a5 18. Re1 Qb7 19. f3 O-O 20. Nc4
+Rfe8 21. Be3 Qc6 22. b4 axb4 23. cxb4 Nxa4 24. Rc1 Nb6 25. Na5 Qxc2 26.
+Rxc2 Rec8 27. Rc6 d5 28. Bg5 Nfd7 29. Rac3 d4 30. Rc1 Nf8 31. Rxc7 Ne6 32.
+Rxc8+ Rxc8 33. Rxc8+ Nxc8 34. Bd2 Nd6 35. Kf1 Kf8 36. Ke2 Ke8 37. Kd3 f6
+38. Nc4 Nb5 39. Nb6 Nd6 40. Nc4 Nb5 41. g3 g5 42. Nb6 Nd6 43. Nc4 Nb5 44.
+Kc2 h5 45. Kb3 d3 46. Be3 Ned4+ 47. Bxd4 Nxd4+ 48. Kc3 Nxf3 49. Kxd3 h4 50.
+gxh4 gxh4 51. Nd6+ Kd7 52. Nf5 Kc6 53. Kc4 Nd2+ 54. Kd3 Nf3 55. Kc4 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.03"]
+[Round "7"]
+[White "Nikolaidis,I"]
+[Black "Skembris,S"]
+[Result "0-1"]
+[WhiteElo "2536"]
+[BlackElo "2455"]
+[EventDate "2006.11.27"]
+[ECO "D43"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Bg5 h6 5. Bxf6 Qxf6 6. Nc3 c6 7. a3 Nd7 8.
+e4 dxe4 9. Nxe4 Qf4 10. Bd3 Be7 11. O-O O-O 12. Re1 Rd8 13. Qe2 b6 14. g3
+Qc7 15. d5 Nf8 16. Nc3 cxd5 17. cxd5 Bb7 18. Rac1 Qd6 19. Bc4 Rac8 20. Nb5
+Qb8 21. dxe6 f6 22. Nbd4 g6 23. Bd3 f5 24. Bxf5 Rxc1 25. Rxc1 Bxf3 26. Qxf3
+Rxd4 27. Bxg6 Nxg6 28. Qf7+ Kh8 29. Qxg6 Qf8 30. b4 Rd2 31. Rc8 Bd8 32. f4
+Qg7 33. Qxg7+ Kxg7 34. f5 Kf6 35. g4 a5 36. h3 axb4 37. axb4 Be7 38. b5 Rb2
+39. Rg8 Rxb5 40. Kg2 Ke5 41. Rg7 Rb2+ 42. Kf3 Rb3+ 43. Kg2 Rb2+ 44. Kf1 Kd6
+45. Rf7 Bg5 46. Rd7+ Kc6 47. Rh7 Rh2 48. f6 Bxf6 49. Rxh6 Be7 50. g5 Bc5
+51. h4 b5 52. g6 Rf2+ 53. Ke1 Rg2 54. h5 b4 55. Rh8 b3 56. Rc8+ Kd6 57. Rb8
+b2 58. Kd1 Bd4 59. h6 Rxg6 60. Kc2 Rxh6 61. Rd8+ Ke5 0-1
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.03"]
+[Round "7"]
+[White "Kotronias,V"]
+[Black "Mastrovasilis,A"]
+[Result "1-0"]
+[WhiteElo "2587"]
+[BlackElo "2533"]
+[EventDate "2006.11.27"]
+[ECO "C67"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5
+Nf5 8. Qxd8+ Kxd8 9. Nc3 Ke8 10. h3 Be7 11. Bg5 Bxg5 12. Nxg5 h6 13. Nf3 h5
+14. Ne2 Ke7 15. Nf4 a5 16. Rfd1 h4 17. Ng5 Re8 18. Rd3 Nh6 19. Re1 Bf5 20.
+Rc3 Kf8 21. Nf3 Bh7 22. Rc5 Rad8 23. c3 a4 24. e6 f6 25. e7+ Rxe7 26. Ne6+
+Rxe6 27. Rxe6 Bg8 28. Re2 Bxa2 29. Nxh4 Kf7 30. Nf3 Bd5 31. Rd2 Ra8 32.
+Rdxd5 cxd5 33. Rxc7+ Kg6 34. Rxb7 Nf5 35. Rd7 a3 36. bxa3 Rxa3 37. g4 Nh6
+38. Nd4 Rxc3 39. Ne6 f5 40. g5 Nf7 41. Nf8+ Kxg5 42. Rxf7 Rxh3 43. Ne6+ Kg6
+44. Rxg7+ Kf6 45. Rg6+ Kxg6 46. Nf4+ Kf6 47. Nxh3 Ke5 48. Kf1 1-0
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.04"]
+[Round "8"]
+[White "Karayannis,A"]
+[Black "Banikas,H"]
+[Result "0-1"]
+[WhiteElo "2361"]
+[BlackElo "2568"]
+[EventDate "2006.11.27"]
+[ECO "A01"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 Nf6 4. Bb5 Bd6 5. Na3 Na5 6. Nc4 Nxc4 7. Bxc4 c6
+8. Nf3 Qe7 9. d4 e4 10. Ne5 O-O 11. a4 Bc7 12. h3 d6 13. Ng4 Nd7 14. f4
+Qh4+ 15. Kf1 Nb6 16. Qe1 Qxe1+ 17. Kxe1 Nxc4 18. bxc4 Be6 19. c5 f5 20. Nf2
+dxc5 21. dxc5 Rfd8 22. Rd1 Ba5+ 23. Kf1 Rxd1+ 24. Nxd1 Rd8 25. Bd4 b6 26.
+Kf2 bxc5 27. Bxc5 Rd2+ 28. Kg3 a6 29. Nf2 Rxc2 30. Bd4 c5 31. Be5 Re2 32.
+Rb1 Be1 33. Rb8+ Kf7 34. Rb7+ Ke8 35. Bd6 Bxf2+ 36. Kh2 Bd7 0-1
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.04"]
+[Round "8"]
+[White "Kotrotsos,V"]
+[Black "Kapnisis,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2276"]
+[BlackElo "2421"]
+[EventDate "2006.11.27"]
+[ECO "C47"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. g3 d5 5. exd5 Nxd5 6. Bg2 Nde7 7. O-O Nf5
+8. Re1 f6 9. d3 Be7 10. Ne4 Be6 11. c3 Qd7 12. b4 a6 13. a4 O-O 14. Qe2 Bf7
+15. h3 b6 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.04"]
+[Round "8"]
+[White "Mastrovasilis,A"]
+[Black "Nikolaidis,I"]
+[Result "1-0"]
+[WhiteElo "2533"]
+[BlackElo "2536"]
+[EventDate "2006.11.27"]
+[ECO "E12"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. Nc3 Bb7 5. Bg5 h6 6. Bh4 Be7 7. Qc2 d6 8.
+e4 c5 9. d5 exd5 10. exd5 O-O 11. Bg3 Nh5 12. Bd3 Na6 13. a3 Nc7 14. O-O
+Bc8 15. Nd2 f5 16. Be2 Nf6 17. Rae1 Bd7 18. f4 Rf7 19. h3 g6 20. Nf3 Nh5
+21. Bh2 Bf6 22. Ne5 dxe5 23. fxe5 Bh4 24. Bxh5 Bxe1 25. Rxe1 Qh4 26. Re2
+gxh5 27. e6 Bxe6 28. dxe6 Nxe6 29. Rxe6 Qxc4 30. Qe2 Qxe2 31. Nxe2 Rd8 32.
+Be5 Rdd7 33. Bf6 Kh7 34. Nf4 h4 35. Kf2 Rd2+ 36. Kf3 Rd1 37. Bc3 Rd8 38.
+Ng6 Rg8 39. Nxh4 f4 40. Kf2 Rd8 41. Nf3 Rd1 42. Re8 1-0
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.04"]
+[Round "8"]
+[White "Skembris,S"]
+[Black "Mastrovasilis,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2455"]
+[BlackElo "2562"]
+[EventDate "2006.11.27"]
+[ECO "D18"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8.
+O-O Nbd7 9. Qb3 a5 10. h3 Ne4 11. Rd1 O-O 12. Bd2 Nxd2 13. Rxd2 Bg6 14.
+Rad1 Qe7 15. Bd3 Bh5 16. Be2 Rfd8 17. Ne1 Bg6 18. Bd3 Bh5 19. Be2 Bg6 20.
+Bd3 Bh5 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.04"]
+[Round "8"]
+[White "Goritsas,C"]
+[Black "Kotronias,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2289"]
+[BlackElo "2587"]
+[EventDate "2006.11.27"]
+[ECO "E90"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. h3 e5 7. dxe5 dxe5 8.
+Qxd8 Rxd8 9. Bg5 Na6 10. Nd5 Rd6 11. Bxf6 Bxf6 12. Rc1 c6 13. Nxf6+ Rxf6
+14. c5 b6 15. cxb6 axb6 16. Nxe5 Nc5 17. Bc4 Be6 18. O-O Nxe4 19. Bxe6 Rxe6
+20. Nxc6 Rxa2 21. Rc2 Rd6 22. f3 Ng3 23. Re1 h5 24. h4 Kg7 25. Ne7 Re6 26.
+Rxe6 fxe6 27. Kf2 Nf5 28. Nxf5+ gxf5 29. f4 Ra4 30. Ke3 Re4+ 31. Kf3 Rb4
+32. Rd2 Kf6 33. Kg3 Ke7 34. Kf3 Rb3+ 35. Kf2 b5 36. Ke2 b4 37. Kf2 e5 38.
+fxe5 Ke6 39. Re2 f4 40. Re4 Rxb2+ 41. Kf3 b3 42. Rxf4 Kxe5 43. Rb4 Rb1 44.
+Rb5+ Kd4 45. g4 b2 46. gxh5 Rf1+ 47. Kg4 b1=Q 48. Rxb1 Rxb1 49. Kf5 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.05"]
+[Round "9"]
+[White "Nikolaidis,I"]
+[Black "Goritsas,C"]
+[Result "1-0"]
+[WhiteElo "2536"]
+[BlackElo "2289"]
+[EventDate "2006.11.27"]
+[ECO "A56"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. e4 Be7 6. Be2 Nbd7 7. Nf3 O-O 8.
+O-O Ne8 9. Ne1 Bg5 10. Nd3 g6 11. a3 Ng7 12. b4 b6 13. Nb5 Bxc1 14. Qxc1
+Qe7 15. f4 a6 16. Nc3 f5 17. bxc5 bxc5 18. Qd2 Rb8 19. Rae1 Rb3 20. Bd1
+Rxa3 21. Qb2 Ra5 22. Ba4 exf4 23. Bxd7 Bxd7 24. e5 dxe5 25. Nxe5 Qd6 26.
+Rxf4 Re8 27. Nb1 Rb8 28. Qc3 Ra2 29. Rf2 Rxf2 30. Kxf2 Re8 31. Nd2 Bc8 32.
+Ndf3 Qf6 33. Qe3 Qd6 34. Qh6 Nh5 35. Nf7 Qf8 36. Rxe8 Qxe8 37. Nd6 Qd8 38.
+Nxc8 Qxc8 39. Qe3 Nf6 40. Qe7 Ne4+ 41. Ke3 Qf8 42. Qe6+ Kh8 43. g4 Nd6 44.
+Ng5 Qe8 45. Nf7+ Qxf7 46. Qxd6 fxg4 47. Qxc5 Qf3+ 48. Kd2 Kg8 49. Qc7 Qf2+
+50. Kc3 a5 51. Kb3 Qd2 52. d6 Qd1+ 53. Kc3 Qa1+ 54. Kd3 Qb1+ 55. Kd4 Qg1+
+56. Kd5 Qxh2 57. Qd8+ Kg7 58. Qe7+ Kh6 59. d7 g3 60. Qe3+ Kg7 61. d8=Q Qh1+
+62. Kc5 1-0
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.05"]
+[Round "9"]
+[White "Mastrovasilis,D"]
+[Black "Mastrovasilis,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2562"]
+[BlackElo "2533"]
+[EventDate "2006.11.27"]
+[ECO "C84"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d4 exd4 7. e5 Ne4 8.
+Nxd4 O-O 9. Nf5 d5 10. exd6 Bxf5 11. dxe7 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.05"]
+[Round "9"]
+[White "Kotronias,V"]
+[Black "Karayannis,A"]
+[Result "1-0"]
+[WhiteElo "2587"]
+[BlackElo "2361"]
+[EventDate "2006.11.27"]
+[ECO "B03"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. f4 dxe5 6. fxe5 c5 7. d5 e6 8.
+Nc3 Qh4+ 9. g3 Qd4 10. Qxd4 cxd4 11. Nb5 Na6 12. d6 f6 13. Nf3 Bd7 14.
+Nbxd4 fxe5 15. Nxe5 Bxd6 16. Nxd7 Kxd7 17. Bh3 Rae8 18. b3 Bb4+ 19. Ke2 Bc3
+20. Ba3 Bxa1 21. Rxa1 Nc7 22. Rf1 Re7 23. Nf3 Ke8 24. Ne5 Nc8 25. Bg2 Na6
+26. Bxe7 Nxe7 27. Bxb7 Nc5 28. Bc6+ Nxc6 29. Nxc6 a6 30. Rd1 Kf7 31. Rf1+
+Kg6 32. Ne5+ Kh5 33. b4 Na4 34. g4+ Kh4 35. Rg1 Nc3+ 36. Kf2 1-0
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.05"]
+[Round "9"]
+[White "Kapnisis,S"]
+[Black "Skembris,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2421"]
+[BlackElo "2455"]
+[EventDate "2006.11.27"]
+[ECO "B33"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qb6 5. Nb3 Nf6 6. Nc3 e6 7. Bd3 a6
+8. Be3 Qc7 9. Na4 b5 10. Nb6 Rb8 11. Nxc8 Rxc8 12. a4 Be7 13. axb5 axb5 14.
+O-O O-O 15. Nd4 Nxd4 16. Bxd4 Rb8 17. Qe2 e5 18. Ra7 Qd6 19. Be3 Qc6 20.
+Bg5 Rb6 21. h3 h6 22. Bxf6 Bxf6 23. c3 Rd8 24. Rd1 g6 25. Bc2 b4 26. Ba4
+Qc5 27. Rd5 Qf8 28. Rdxd7 Rxd7 29. Rxd7 bxc3 30. bxc3 Qc5 31. Qa2 Be7 32.
+Bb3 Rf6 33. Rd3 Kg7 34. Bd5 h5 35. Qe2 Qb6 36. Rf3 Bc5 37. Rxf6 Qxf6 38. g3
+h4 39. Kg2 hxg3 40. fxg3 Ba7 41. Qf3 Qe7 1/2-1/2
+
+[Event "56th ch-GRE"]
+[Site "Salonica GRE"]
+[Date "2006.12.05"]
+[Round "9"]
+[White "Banikas,H"]
+[Black "Kotrotsos,V"]
+[Result "1/2-1/2"]
+[WhiteElo "2568"]
+[BlackElo "2276"]
+[EventDate "2006.11.27"]
+[ECO "A65"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 c5 4. d5 exd5 5. cxd5 d6 6. e4 g6 7. Nge2 Bg7 8.
+Ng3 O-O 9. Be2 a6 10. a4 Nbd7 11. O-O h5 12. Bg5 Qb6 13. Qd2 Nh7 14. a5 Qc7
+15. Be3 h4 16. Nh1 f5 17. f3 Ne5 18. Nf2 Qe7 19. f4 Nf7 20. e5 dxe5 21. Na4
+Rd8 22. Bxc5 Qf6 23. Nb6 Rb8 24. Qb4 Bf8 25. Bxf8 Nxf8 26. fxe5 Qxe5 27.
+Rae1 Nd7 28. Bxa6 Qd6 29. Qxd6 Nxd6 30. Bd3 Nxb6 31. axb6 Bd7 32. Re7 Nc8
+33. Re5 Nxb6 34. Nd1 Re8 35. Rxe8+ Rxe8 36. Nc3 Re3 37. Rd1 Kg7 38. Bf1 Kf6
+39. d6 Re5 40. Rd4 Ke6 41. Rb4 Nc8 42. Rxb7 Nxd6 43. Rb6 Ke7 44. b4 g5 45.
+Ra6 Ne4 46. Nxe4 Rxe4 47. Rb6 g4 48. Kf2 f4 49. Be2 Re3 50. Kf1 h3 51. gxh3
+Rxh3 52. Rb7 Rxh2 53. Bxg4 Rd2 54. b5 Kd8 55. Bf3 Rb2 56. b6 Bb5+ 57. Ke1
+Ba6 58. Rb8+ Kd7 59. Kd1 Kd6 60. Kc1 Rb3 61. Bd1 Rb4 62. Bf3 Kc5 63. b7
+Bxb7 64. Bxb7 Kd6 1/2-1/2
+

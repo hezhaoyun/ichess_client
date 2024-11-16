@@ -1,0 +1,100 @@
+[Event "Match"]
+[Site "Prague CZE"]
+[Date "2006.08.09"]
+[Round "1"]
+[White "Navara,D"]
+[Black "Gelfand,B"]
+[Result "0-1"]
+[WhiteElo "2719"]
+[BlackElo "2729"]
+[EventDate "2006.08.09"]
+[ECO "E17"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. Nc3 O-O 7. Qc2 c5 8.
+d5 exd5 9. Ng5 h6 10. Nxd5 Bxd5 11. Bxd5 Nc6 12. Bxc6 dxc6 13. Nf3 Qc8 14.
+O-O Qe6 15. b3 Ne4 16. Bb2 Bf6 17. Bxf6 Nxf6 18. Rad1 Rfe8 19. Rfe1 Ne4 20.
+Rd3 Qf6 21. Kg2 g5 22. Rf1 Rad8 23. Rxd8 Qxd8 24. Rd1 Qf6 25. h3 h5 26. Qd3
+Kg7 27. Qd7 Re6 28. Rf1 Nc3 29. e3 Rd6 30. Qxa7 Ne4 31. Qc7 g4 32. hxg4
+hxg4 33. Nh4 Rd2 34. Qf4 Qxf4 35. exf4 Kf6 36. Kg1 Rxa2 37. Ng2 Nd2 38. Rd1
+Ke6 39. Re1+ Kd7 40. Rd1 Kc7 41. Ne3 Nxb3 42. Nxg4 Nd4 43. Nh6 f5 44. Kg2
+Ra8 45. Rc1 Rf8 46. Ra1 b5 47. cxb5 cxb5 48. Nf7 b4 49. Ne5 b3 50. f3 Kd6
+51. Ra6+ Kd5 52. g4 Rb8 53. Nd7 b2 54. Nb6+ Kc6 55. Na4+ Kb5 56. Ra7 b1=Q
+57. Nc3+ Kb6 0-1
+
+[Event "Match"]
+[Site "Prague CZE"]
+[Date "2006.08.10"]
+[Round "2"]
+[White "Gelfand,B"]
+[Black "Navara,D"]
+[Result "0-1"]
+[WhiteElo "2729"]
+[BlackElo "2719"]
+[EventDate "2006.08.09"]
+[ECO "A32"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. Nf3 cxd4 5. Nxd4 Bb4+ 6. Bd2 Bc5 7. Nb3 Be7
+8. Bg2 Nc6 9. Nc3 b6 10. Nd5 Ba6 11. Nxe7 Qxe7 12. Rc1 Rc8 13. c5 O-O 14.
+O-O d5 15. cxd6 Qxd6 16. Bg5 Qxd1 17. Rfxd1 Bxe2 18. Rd2 Bb5 19. Rdc2 Nd5
+20. Bd2 Nde7 21. h3 Rfd8 22. Be3 Kf8 23. Kh2 Nb4 24. Rxc8 Rxc8 25. Rxc8+
+Nxc8 26. Nd4 Bc4 27. a3 Nd3 28. b3 Bd5 29. Bf1 Nc5 30. b4 Ne4 31. a4 Nc3
+32. a5 Nd1 33. Bf4 Ke7 34. Kg1 Nc3 35. Bb8 Bb7 36. Be5 Na2 37. axb6 f6 38.
+Bb8 axb6 39. b5 Nc3 40. f4 Nd6 41. g4 Be4 42. Kf2 Kd7 43. f5 exf5 44. gxf5
+Nxf5 45. Nxf5 Bxf5 46. Ke3 Nd5+ 47. Kd2 Nc7 48. Ba7 Nxb5 49. Bxb6 Nd6 50.
+Ke3 Be6 51. Kf2 h5 52. Kg3 g5 53. Kh2 h4 54. Bd4 Ke7 55. Be2 Kf7 56. Bh5+
+Kg7 57. Bf3 Nc4 58. Be2 Ne5 59. Bc3 Ng6 60. Bd2 Ne5 61. Bc3 Bd5 62. Bb2 Kg6
+63. Kg1 Kf5 64. Kf2 Ke4 65. Bf1 Be6 66. Bc3 Kf5 67. Bg2 Kg6 68. Kg1 Bf5 69.
+Kh2 Nd3 70. Bf1 Nf4 71. Bd2 Bd3 72. Bxf4 Bxf1 73. Bc7 f5 74. Bd8 f4 75. Be7
+f3 76. Bc5 Kf6 77. Bd4+ Ke6 78. Bb6 Ke5 79. Bd8 Bxh3 80. Kxh3 g4+ 81. Kh2
+g3+ 82. Kg1 f2+ 83. Kf1 Ke4 84. Bxh4 0-1
+
+[Event "Match"]
+[Site "Prague CZE"]
+[Date "2006.08.11"]
+[Round "3"]
+[White "Navara,D"]
+[Black "Gelfand,B"]
+[Result "1/2-1/2"]
+[WhiteElo "2719"]
+[BlackElo "2729"]
+[EventDate "2006.08.09"]
+[ECO "E17"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. d5 exd5 8.
+Nh4 c6 9. cxd5 Nxd5 10. Nf5 Nc7 11. e4 d5 12. Nc3 Bf6 13. Bf4 Bc8 14. g4
+Nba6 15. e5 Be7 16. Bg3 f6 17. Nd4 Bd7 18. Rc1 fxe5 19. Bxe5 Bf6 20. Bg3
+Rc8 21. h3 c5 22. Nde2 d4 23. Ne4 Be7 24. Nf4 Bg5 25. Nxg5 Qxg5 26. Nd3 Be6
+27. Bb7 Rcd8 28. Qa4 c4 29. Bxa6 Nxa6 30. Qxa6 cxd3 31. Qxd3 Bxa2 32. Rc7
+Rf7 33. Re1 Qg6 34. Qa3 Bd5 35. Qxa7 d3 36. Rxf7 d2 37. Rd1 Bxf7 38. Qc7
+Qd3 39. Bf4 Re8 40. Kh2 Qf3 41. Rxd2 Re1 42. Qd8+ Re8 43. Qd4 Re1 44. Qd8+
+Re8 45. Be3 h6 46. Qd6 b5 47. Qf4 Qxf4+ 48. Bxf4 b4 49. Be3 b3 50. Kg3 Re7
+51. Rd8+ Kh7 52. Bd4 Be6 53. Rd6 Kg8 54. f4 g6 55. Rd8+ Kf7 56. Rh8 Rd7 57.
+Be5 h5 58. Rh7+ Ke8 59. Rh6 hxg4 60. hxg4 Kf7 61. Kh4 Bd5 62. Kg5 Be4 63.
+f5 gxf5 64. gxf5 Rd2 65. Rh7+ Ke8 66. Rh8+ Kf7 67. Rh7+ Ke8 68. Kf6 Rf2 69.
+Rh5 Kd7 70. Bd4 Rf1 71. Ke5 Bc2 72. f6 Re1+ 73. Kd5 Bg6 74. Rh8 Re8 75. Rh4
+Bf7+ 76. Kc5 Rc8+ 77. Kb5 Rb8+ 78. Kc5 Rc8+ 79. Kb4 Kd6 80. Rh7 Rb8+ 81.
+Kc3 Rc8+ 82. Kd2 Ke6 83. Bc3 Rg8 84. Rh1 Rg3 85. Ra1 Kf5 86. Rf1+ Kg6 87.
+Be5 Rh3 88. Bd4 Rg3 89. Bc3 Rh3 90. Be5 Kg5 91. Rg1+ Kf5 92. Rg7 Kxe5 93.
+Rxf7 Ke6 94. Rf8 Rg3 95. Rd8 Kxf6 96. Rd3 Rg8 97. Kc3 Rb8 98. Re3 Kf7 99.
+Kc4 Kf6 100. Rxb3 Rc8+ 101. Kd5 Ke7 102. Rb6 Rc2 103. b4 Kd7 104. Rb7+
+1/2-1/2
+
+[Event "Match"]
+[Site "Prague CZE"]
+[Date "2006.08.12"]
+[Round "4"]
+[White "Gelfand,B"]
+[Black "Navara,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2719"]
+[EventDate "2006.08.09"]
+[ECO "E33"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 Nc6 5. Nf3 d6 6. Bd2 O-O 7. a3 Bxc3 8.
+Bxc3 Qe7 9. e3 a5 10. Be2 e5 11. d5 Nb8 12. b4 axb4 13. axb4 Rxa1+ 14. Bxa1
+b5 15. O-O Nbd7 16. e4 bxc4 17. Nd2 Nb6 18. Nxc4 Nxc4 19. Qxc4 Ne8 20. f4
+exf4 21. Qd4 f5 22. Rxf4 Nf6 23. e5 dxe5 24. Qxe5 Qxe5 25. Bxe5 Re8 26.
+Bxf6 Rxe2 27. Bd8 Rc2 28. b5 Rc5 29. Rd4 Bb7 30. b6 cxb6 31. d6 Rd5 32.
+Bxb6 Rxd4 1/2-1/2
+

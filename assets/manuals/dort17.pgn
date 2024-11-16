@@ -1,0 +1,752 @@
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.15"]
+[Round "1.1"]
+[White "Nisipeanu, Liviu-Dieter"]
+[Black "Bluebaum, Matthias"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2683"]
+[BlackElo "2642"]
+[ECO "A45"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "1202758"]
+[BlackFideId "24651516"]
+[EventDate "2017.07.15"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bf4 c5 4. e3 cxd4 5. exd4 a6 6. Nf3 Nc6 7. Ne5 e6 8. Nxc6
+bxc6 9. Na4 Bd6 10. Bg3 Bxg3 11. hxg3 Qd6 12. Bd3 e5 13. dxe5 Qxe5+ 14. Qe2
+Qxe2+ 15. Kxe2 a5 16. c4 Ba6 17. cxd5 Bxd3+ 18. Kxd3 O-O-O 19. Kc2 Nxd5 20. Rae1
+Rhe8 21. a3 Kc7 22. Nc5 h6 23. Nd3 Kd6 24. Rxe8 Rxe8 25. Rh4 Kc7 26. Rh5 Kd6 27.
+Rh4 Kc7 28. Kd2 Re7 29. Rg4 g6 30. Rc4 h5 31. g4 hxg4 32. Rxg4 Nf6 33. Rf4 Ne4+
+34. Kc2 Kb6 35. Rf3 Nc5 36. Nxc5 Kxc5 37. Rf6 Rd7 38. Kc3 Kb5 39. g4 Kc5 40. g5
+Rd5 41. f4 Rd7 42. f5 gxf5 43. Rxf5+ Kb6 44. a4 Re7 45. Kd4 Re2 46. b3 Rb2 47.
+Rxf7 Rxb3 48. Ke5 Rg3 49. Rf5 c5 50. Kf6 c4 51. g6 c3 52. g7 c2 53. Rf1 Kc5 54.
+Rc1 Kb4 55. Rxc2 Kxa4 56. Rc8 Rxg7 57. Kxg7 Kb3 58. Rb8+ Kc3 59. Ra8 Kb4 60. Kf6
+a4 61. Ke5 a3 62. Kd4 Kb3 63. Kd3 Kb2 64. Rb8+ Kc1 65. Ra8 Kb2 66. Kd2 a2 67.
+Rb8+ Ka1 68. Kc2 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.15"]
+[Round "1.2"]
+[White "Wang, Yue"]
+[Black "Andreikin, Dmitry"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2699"]
+[BlackElo "2712"]
+[ECO "D25"]
+[Opening "QGA, Janowsky-Larsen variation"]
+[WhiteFideId "8601429"]
+[BlackFideId "4158814"]
+[EventDate "2017.07.15"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 Bg4 5. Bxc4 e6 6. Qb3 Bxf3 7. gxf3 c5 8.
+Nc3 Qd7 9. dxc5 Bxc5 10. Qb5 Be7 11. Qxd7+ Nbxd7 12. Bd2 Rc8 13. Be2 Ne5 14.
+O-O-O O-O 15. Kb1 Nc4 16. Be1 Rc6 17. Nb5 a6 18. Nd4 Rc7 19. Nb3 Rfc8 20. Bxc4
+Rxc4 21. e4 Kf8 22. Bd2 b5 23. Be3 Ke8 24. Na5 R4c7 25. Bb6 Rc2 26. Rc1 Rxc1+
+27. Rxc1 Rxc1+ 28. Kxc1 Bd6 29. h3 Nd7 30. Bd4 Be5 31. Be3 f5 32. Nc6 Bd6 33.
+Kd2 Ne5 34. Nxe5 Bxe5 35. b3 f4 36. Bc5 Kd7 37. Kd3 g6 38. Bb4 Kc6 39. Ba3 Bf6
+40. Bc1 Be5 41. Ba3 Kd7 42. Bb4 Bd6 43. Bc3 e5 44. Ke2 Ke6 45. Kd3 Bc5 46. Ke2
+Kf6 47. Kf1 Bd6 48. Ke2 Kg5 49. Kf1 Kh4 50. Kg2 b4 51. Bb2 h6 52. Ba1 Kh5 53.
+Bb2 Kh4 54. Ba1 h5 55. Bb2 Kg5 56. Kf1 Kh4 57. Kg2 Kg5 58. Kf1 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.15"]
+[Round "1.3"]
+[White "Kramnik, Vladimir"]
+[Black "Fedoseev, Vladimir3"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2812"]
+[BlackElo "2726"]
+[ECO "B13"]
+[Opening "Caro-Kann"]
+[Variation "exchange variation"]
+[WhiteFideId "4101588"]
+[BlackFideId "24130737"]
+[EventDate "2017.07.15"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Qc7 6. Na3 a6 7. Nc2 Nf6 8. h3
+e6 9. Nf3 b5 10. O-O Bb7 11. Re1 Bd6 12. Bg5 Ne4 13. a4 bxa4 14. c4 Nxg5 15.
+Nxg5 dxc4 16. Bxc4 Nd8 17. Ne3 Bf4 18. Qh5 Bxe3 19. Rxe3 Qxc4 20. Rxe6+ Kf8 21.
+Re5 h6 22. Rae1 g6 23. Qh4 Kg7 24. Nxf7 Nxf7 25. Re6 g5 26. Qh5 Rhe8 27. Qg6+
+Kf8 28. f3 Qxd4+ 29. Kh1 Rac8 0-1
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.15"]
+[Round "1.4"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "Wojtaszek, Radoslaw"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2791"]
+[BlackElo "2736"]
+[ECO "C88"]
+[Opening "Ruy Lopez"]
+[Variation "closed, anti-Marshall 8.a4"]
+[WhiteFideId "623539"]
+[BlackFideId "1118358"]
+[EventDate "2017.07.15"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4
+b4 9. a5 d6 10. d3 Be6 11. Bxe6 fxe6 12. Nbd2 Rb8 13. c3 bxc3 14. bxc3 Rb5 15.
+Nf1 Qd7 16. Bg5 Rxa5 17. Rxa5 Nxa5 18. d4 exd4 19. cxd4 h6 20. Bh4 Nc6 21. d5
+Ne5 22. Nxe5 dxe5 23. dxe6 Qxe6 24. Qc2 Bb4 25. Rd1 Ba5 26. Ne3 Bb6 27. Nf5 Kh8
+28. Bxf6 Qxf6 29. Qd2 a5 30. h4 h5 31. Qc1 Rd8 32. Rxd8+ Qxd8 33. Qa1 Qf6 34.
+Qa4 Qe6 35. Ne3 Bxe3 36. fxe3 Qg6 37. Qb5 c6 38. Qxe5 a4 39. Qb8+ Kh7 40. Qb4
+Qg3 41. Qxa4 Qe1+ 42. Kh2 Qxh4+ 43. Kg1 Qe1+ 44. Kh2 c5 45. e5 Qxe3 46. e6 Qxe6
+47. Qc2+ Kh6 48. Qxc5 g5 49. g3 Qe2+ 50. Kg1 Kg6 51. Qd6+ Kf5 52. Qd7+ Qe6 53.
+Qd1 Qe3+ 54. Kg2 Qe4+ 55. Kh2 h4 56. Qd7+ Kg6 57. gxh4 Qxh4+ 58. Kg2 g4 59. Qe6+
+Qf6 60. Qxg4+ Qg5 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.16"]
+[Round "2.1"]
+[White "Wojtaszek, Radoslaw"]
+[Black "Wang, Yue"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2736"]
+[BlackElo "2699"]
+[ECO "E21"]
+[Opening "Nimzo-Indian"]
+[Variation "three knights variation"]
+[WhiteFideId "1118358"]
+[BlackFideId "8601429"]
+[EventDate "2017.07.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 O-O 5. Bg5 c5 6. e3 h6 7. Bh4 cxd4 8. exd4
+d5 9. Rc1 Be7 10. c5 b6 11. b4 a5 12. Na4 axb4 13. Nxb6 Rxa2 14. Qb3 Ra7 15.
+Qxb4 Nbd7 16. Nxd7 Bxd7 17. Bd3 Ra4 18. Qd2 Ne4 19. Bxe7 Nxd2 20. Bxd8 Nxf3+ 21.
+gxf3 Rxd8 22. Ke2 Bc6 23. Ke3 e5 24. dxe5 Rh4 25. Rb1 d4+ 26. Kd2 Kf8 27. Rb6
+Rc8 28. Rhb1 Ke7 29. Ra1 Rc7 30. Raa6 Bxf3 31. Bb5 Bg4 32. Ra8 Bc8 33. Rc6 Kd8
+34. Rxc7 Kxc7 35. Ra7+ Kb8 36. Rxf7 1-0
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.16"]
+[Round "2.2"]
+[White "Nisipeanu, Liviu-Dieter"]
+[Black "Vachier-Lagrave, Maxime"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2683"]
+[BlackElo "2791"]
+[ECO "A34"]
+[Opening "English"]
+[Variation "symmetrical, three knights system"]
+[WhiteFideId "1202758"]
+[BlackFideId "623539"]
+[EventDate "2017.07.15"]
+
+1. Nf3 c5 2. c4 Nf6 3. Nc3 d5 4. cxd5 Nxd5 5. g3 Nc6 6. Bg2 g6 7. d3 Bg7 8. Bd2
+O-O 9. O-O b6 10. d4 cxd4 11. Nxd5 Qxd5 12. Nxd4 Qxd4 13. Bxc6 Bh3 14. Bc3 Qxd1
+15. Rfxd1 Rad8 16. Bxg7 Kxg7 17. Bd5 Kf6 18. f3 Be6 19. Bxe6 Kxe6 20. Kf2 Rxd1
+21. Rxd1 Rc8 22. Rd3 Rc2 23. Ra3 Rxb2 24. Rxa7 Kf6 25. a4 Ra2 26. Rb7 Rxa4 27.
+Rxb6+ e6 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.16"]
+[Round "2.3"]
+[White "Andreikin, Dmitry"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2712"]
+[BlackElo "2812"]
+[ECO "C26"]
+[Opening "Vienna"]
+[Variation "Paulsen-Mieses variation"]
+[WhiteFideId "4158814"]
+[BlackFideId "4101588"]
+[EventDate "2017.07.15"]
+
+1. e4 e5 2. Nc3 Nf6 3. g3 Bc5 4. Bg2 c6 5. f4 d6 6. Nf3 O-O 7. d3 a5 8. Qe2 Nbd7
+9. a3 Re8 10. f5 b5 11. Be3 Qb6 12. Nd1 d5 13. Nd2 dxe4 14. Nxe4 Nxe4 15. Bxe4
+Nf6 16. O-O Bb7 17. Re1 Nxe4 18. dxe4 Rad8 19. Nf2 Bd4 20. c3 Bxe3 21. Qxe3 Qxe3
+22. Rxe3 c5 23. Kf1 f6 24. Ke2 Kf7 25. g4 Rd6 26. Rd3 Rxd3 27. Kxd3 h5 28. h3
+Rh8 29. Ke3 Bc6 30. Rd1 Ke7 31. g5 c4 32. h4 Rb8 33. Nh1 Rh8 34. g6 a4 35. Ng3
+Bb7 36. Ne2 Rc8 37. Nc1 Bc6 38. Na2 Bb7 39. Nb4 Rc5 40. Kf3 Ba8 41. Nc2 Bb7 42.
+Ne3 Ba8 43. Nf1 Rc8 44. Ng3 Rh8 45. Rd2 Bb7 46. Rd1 Ba8 47. Rd2 Bb7 48. Rd1 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.16"]
+[Round "2.4"]
+[White "Bluebaum, Matthias"]
+[Black "Fedoseev, Vladimir3"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2642"]
+[BlackElo "2726"]
+[ECO "D45"]
+[Opening "QGD semi-Slav"]
+[Variation "Stoltz variation"]
+[WhiteFideId "24651516"]
+[BlackFideId "24130737"]
+[EventDate "2017.07.15"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8. O-O
+dxc4 9. Bxc4 e5 10. h3 Qe7 11. Bb3 Nb6 12. dxe5 Bxe5 13. Nxe5 Qxe5 14. e4 Re8
+15. Re1 Nbd5 16. Bd2 Nf4 17. Bxf4 Qxf4 18. Rad1 Nd7 19. Re3 Qg5 20. f4 Qe7 21.
+Qf2 Nb6 22. f5 a5 23. e5 a4 24. f6 Qb4 25. a3 Qf8 26. fxg7 Qe7 27. Ne4 axb3 28.
+Nf6+ Kxg7 29. Nxe8+ Kh8 30. Nc7 Rb8 31. Rf3 1-0
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.18"]
+[Round "3.1"]
+[White "Fedoseev, Vladimir3"]
+[Black "Andreikin, Dmitry"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2726"]
+[BlackElo "2712"]
+[ECO "C18"]
+[Opening "French"]
+[Variation "Winawer, advance variation"]
+[WhiteFideId "24130737"]
+[BlackFideId "4158814"]
+[EventDate "2017.07.15"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qa5 7. Bd2 Qa4 8. Rb1
+c4 9. Qc1 Nc6 10. Nh3 f6 11. f4 f5 12. Be2 b6 13. Bh5+ g6 14. Bf3 Bd7 15. Nf2
+O-O-O 16. h4 h5 17. Nd1 Nh6 18. Ra1 Be8 19. Nb2 Qa6 20. a4 Qb7 21. Nd1 Ng4 22.
+Qb1 a5 23. Nf2 Nxf2 24. Kxf2 Na7 25. Ke3 Kb8 26. Qe1 Nc8 27. Qg3 Qe7 28. Rhb1
+Rd7 29. Rb2 Rb7 30. Rba2 Rh7 31. Bc1 Qd8 32. Kf2 Rhg7 33. Kg1 Bc6 34. Kh2 Bd7
+35. Kg1 Bc6 36. Kh2 Bd7 37. Kg1 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.18"]
+[Round "3.2"]
+[White "Wang, Yue"]
+[Black "Nisipeanu, Liviu-Dieter"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2699"]
+[BlackElo "2683"]
+[ECO "D55"]
+[Opening "QGD"]
+[Variation "Neo-orthodox variation, 7.Bh4"]
+[WhiteFideId "8601429"]
+[BlackFideId "1202758"]
+[EventDate "2017.07.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Nbd7 8. Rc1
+c5 9. dxc5 Nxc5 10. cxd5 g5 11. Bg3 Nxd5 12. Nxd5 Qxd5 13. Qxd5 exd5 14. Be2 Bd7
+15. O-O Rac8 16. Be5 g4 17. Nd4 f6 18. Bg3 h5 19. f3 f5 20. Rfd1 a6 21. Bf4 Rfe8
+22. Rd2 Bf6 23. Bd1 Ne6 24. Rxc8 Rxc8 25. Ne2 Bb5 26. Rxd5 gxf3 27. gxf3 Bxe2
+28. Bxe2 Nxf4 29. exf4 Bxb2 30. Bd3 Rc5 31. Rd8+ Kg7 32. Rd7+ Kf6 33. Rxb7 Bd4+
+34. Kg2 Rc3 35. Rb3 Rxb3 36. axb3 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.18"]
+[Round "3.3"]
+[White "Kramnik, Vladimir"]
+[Black "Wojtaszek, Radoslaw"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2812"]
+[BlackElo "2736"]
+[ECO "D05"]
+[Opening "Queen's pawn game"]
+[WhiteFideId "4101588"]
+[BlackFideId "1118358"]
+[EventDate "2017.07.15"]
+
+1. d4 Nf6 2. Nf3 d5 3. e3 e6 4. Bd3 Bd6 5. Nbd2 Nbd7 6. c4 b6 7. e4 dxe4 8. Nxe4
+Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 Bb7 11. Qe3 O-O 12. Nxf6+ Nxf6 13. Ne5 Nd7 14. Nxd7
+Qxd7 15. O-O-O Rad8 16. f3 Qe7 17. Rhe1 Rd6 18. Bc2 Rfd8 19. d5 Qf6 20. g4 Qh4
+21. Bb3 Bc8 22. g5 g6 23. Rd4 Qh3 24. Re4 c6 25. Qf4 cxd5 26. cxd5 Qf5 27. dxe6
+Qxf4+ 28. Rxf4 Bxe6 29. Bxe6 fxe6 30. Rf6 Rc8+ 31. Kb1 Rf8 32. Rxf8+ Kxf8 33.
+Kc2 Rd5 34. f4 Ke7 35. Re3 h6 36. gxh6 Rh5 37. h3 Rxh6 38. Ra3 Kd6 39. Kd2 Rh4
+40. Rxa7 Rxf4 41. Rg7 Rh4 42. Rxg6 Rxh3 43. a4 Kd5 44. b4 Ra3 45. a5 bxa5 46.
+bxa5 Rxa5 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.18"]
+[Round "3.4"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "Bluebaum, Matthias"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2791"]
+[BlackElo "2642"]
+[ECO "C11"]
+[Opening "French"]
+[Variation "Steinitz, Boleslavsky variation"]
+[WhiteFideId "623539"]
+[BlackFideId "24651516"]
+[EventDate "2017.07.15"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 a6 8. Qd2 b5
+9. Be2 Be7 10. O-O O-O 11. a3 Rb8 12. Kh1 Qc7 13. dxc5 Nxc5 14. b4 Ne4 15. Nxe4
+dxe4 16. Nd4 Nxd4 17. Bxd4 Bb7 18. c3 Bd5 19. Qe3 Qc6 20. g4 f5 21. exf6 Bxf6
+22. Bc5 Rf7 23. Rad1 Be7 24. Bxe7 Rxe7 25. f5 Rf7 26. a4 Rc8 27. axb5 axb5 28.
+fxe6 Rxf1+ 29. Bxf1 Bxe6 30. Bg2 Qxc3 31. Rd8+ Kf7 32. Qf2+ Qf6 33. Qa7+ Qe7 34.
+Qf2+ Qf6 35. Qa7+ Qe7 36. Qf2+ Qf6 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.19"]
+[Round "4.1"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "Wang, Yue"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2791"]
+[BlackElo "2699"]
+[ECO "C42"]
+[Opening "Petrov"]
+[Variation "classical attack"]
+[WhiteFideId "623539"]
+[BlackFideId "8601429"]
+[EventDate "2017.07.15"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Bf5 7. O-O Be7 8. Ne5
+Nd7 9. Qf3 Nxe5 10. dxe5 Bg6 11. c4 c6 12. cxd5 Qxd5 13. Nd2 Nc3 14. Bxg6 Qxf3
+15. Nxf3 Ne2+ 16. Kh1 fxg6 17. Be3 Rf8 18. Nd2 Nf4 19. Ne4 Rf5 20. Rad1 g5 21.
+Bd4 Ne6 22. Bc3 Rd8 23. f3 Rxd1 24. Rxd1 Nc5 25. Ng3 Rf4 26. b3 Ne6 27. h3 Rf7
+28. Ne4 Bf8 29. Kg1 Rd7 30. Rxd7 Kxd7 31. Kf2 c5 32. Ke3 Kc6 33. a4 Be7 34. g3
+Kd5 35. f4 gxf4+ 36. gxf4 g6 37. Bb2 Nc7 38. Nc3+ Ke6 39. Ke4 Bh4 40. Ne2 a6 41.
+a5 Nd5 42. Nc3 Nxc3+ 43. Bxc3 Bd8 44. Be1 Bc7 45. Bc3 Bd8 46. Be1 Bc7 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.19"]
+[Round "4.2"]
+[White "Wojtaszek, Radoslaw"]
+[Black "Fedoseev, Vladimir3"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2736"]
+[BlackElo "2726"]
+[ECO "D12"]
+[Opening "QGD Slav"]
+[Variation "4.e3 Bf5"]
+[WhiteFideId "1118358"]
+[BlackFideId "24130737"]
+[EventDate "2017.07.15"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 a6 6. Be2 h6 7. Qb3 b5 8. cxd5
+cxd5 9. a4 b4 10. Qxb4 Nc6 11. Qb3 e6 12. O-O Bd6 13. a5 O-O 14. Bd2 Nxa5 15.
+Qa4 Nc4 16. Bxc4 dxc4 17. Qxc4 Qb6 18. Na4 Qb7 19. Rfc1 Rfc8 20. Nc5 Qxb2 21.
+Rxa6 Qb8 22. Rxa8 Qxa8 23. Qa6 Qxa6 24. Nxa6 Ra8 25. Nc5 g5 26. h3 Rb8 27. Be1
+Nd5 28. Nd2 Rb5 29. e4 Nf4 30. Kf1 Bg6 31. f3 e5 32. Bf2 exd4 33. Bxd4 f5 34.
+Nd7 Kf7 35. Nc4 Ke6 36. Nxd6 Kxd6 37. Nf6 fxe4 38. fxe4 Ne6 39. Bc3 Nc5 40. e5+
+Ke6 41. Bd4 Nd3 42. Rc6+ Kf5 43. e6 Kf4 44. Ke2 Kg3 45. e7 Nf4+ 46. Kd2 Kxg2 47.
+Ng4 Rb8 48. Be5 Be8 49. Rxh6 Rb7 50. Bd6 Ng6 51. Nf6 Nxe7 52. Rh7 Rb2+ 53. Kc3
+Rc2+ 54. Kb3 Nc8 55. Nxe8 Re2 56. Rh8 Re3+ 57. Kc2 Rxh3 58. Rg8 Nxd6 59. Nxd6
+Rh5 60. Ne4 g4 61. Nf6 Rf5 62. Nxg4 Kf3 63. Kd3 Rd5+ 64. Kc4 Rf5 65. Nh2+ Ke4
+66. Rg1 Ke5 67. Ng4+ Kd6 68. Ne3 Rf4+ 69. Kd3 Ke6 70. Rg6+ Rf6 71. Rg5 Rf4 72.
+Ra5 Rh4 73. Nf5 Rh1 74. Ke4 Re1+ 75. Ne3 Kd6 76. Kd4 Kc6 77. Rc5+ Kd6 78. Re5
+Kc6 79. Re6+ Kb5 80. Rh6 Rc1 81. Rh8 Rc6 82. Rh5+ Kb4 83. Nd5+ Kb3 84. Rh3+ Kb2
+85. Nb4 Rc8 86. Nd3+ Kc2 87. Rh2+ Kd1 88. Nc5 Rd8+ 89. Ke3 Re8+ 90. Ne4 Kc1 91.
+Rg2 Rc8 92. Kd3 Rd8+ 93. Kc4 Kd1 94. Nc5 Ke1 95. Nb3 Kf1 96. Ra2 Rh8 97. Nd4
+Rc8+ 98. Kd3 Rd8 99. Ke3 Re8+ 100. Kf4 Ke1 101. Re2+ Rxe2 102. Nxe2 Kxe2 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.19"]
+[Round "4.3"]
+[White "Nisipeanu, Liviu-Dieter"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2683"]
+[BlackElo "2812"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "1202758"]
+[BlackFideId "4101588"]
+[EventDate "2017.07.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d5 6. e5 Ne4 7. Bd3 c5 8. Nf3
+cxd4 9. Nxd4 Nd7 10. Bf4 Qh4 11. g3 Qh5 12. O-O g5 13. cxd5 gxf4 14. dxe6 Bxc3
+15. bxc3 Nxe5 16. Bxe4 Bxe6 17. Rfb1 Rae8 18. gxf4 Qg4+ 19. Kh1 Qxf4 20. Nxe6
+Rxe6 21. Rb4 Kh8 22. Bd5 Qf6 23. f4 Ng4 24. Bxe6 Qxe6 25. Qg2 Rg8 26. Rb2 Nf2+
+27. Rxf2 Rxg2 28. Rxg2 Qc6 29. Re1 h6 30. Re3 b5 31. h3 b4 32. Rg3 bxc3 33. Rg8+
+Kh7 34. Rg7+ Kh8 35. Rg8+ Kh7 36. Rg7+ Kh8 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.19"]
+[Round "4.4"]
+[White "Bluebaum, Matthias"]
+[Black "Andreikin, Dmitry"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2642"]
+[BlackElo "2712"]
+[ECO "A40"]
+[Opening "Queen's pawn"]
+[Variation "Franco-Indian (Keres) defence"]
+[WhiteFideId "24651516"]
+[BlackFideId "4158814"]
+[EventDate "2017.07.15"]
+
+1. d4 e6 2. c4 Bb4+ 3. Nd2 c5 4. a3 Bxd2+ 5. Qxd2 cxd4 6. Nf3 Nf6 7. g3 b6 8. b4
+Bb7 9. Qxd4 Nc6 10. Qf4 d6 11. Bb2 e5 12. Qd2 a5 13. b5 Ne7 14. Bg2 Qc7 15. O-O
+O-O 16. Rac1 h6 17. Ne1 Ne4 18. Qc2 f5 19. Nd3 Ng5 20. f3 f4 21. gxf4 exf4 22.
+Qc3 Ng6 23. Qe1 Rae8 24. Kh1 Ne6 25. Qf2 Nc5 26. Rg1 Rf7 27. Rcd1 Qe7 28. Bf1
+Kh7 29. Qd4 Nh4 30. Nxc5 dxc5 31. Qd6 Qe3 32. Qd3+ Qxd3 33. Rxd3 g5 34. Rd6 Bc8
+35. Rxb6 Be6 36. Rc6 Bxc4 37. e4 Bxf1 38. Rxf1 Rd7 39. Rxc5 Rd2 40. Bc3 Rd3 41.
+b6 Rb8 42. Rc7+ Kg6 43. Rb1 Kh5 44. Bxa5 Rxa3 45. Bc3 Rd8 46. Be1 Rxf3 47. Bxh4
+Kxh4 48. b7 Rf2 49. Rh7 h5 50. b8=Q Rxb8 51. Rxb8 f3 52. Kg1 Rg2+ 53. Kf1 Kg4
+54. Rf8 Rxh2 55. Rhf7 Re2 56. Rxf3 Rxe4 57. Rf2 Re5 58. Rg2+ Kh3 59. Rf3+ Kh4
+60. Re2 Ra5 61. Kg2 g4 62. Rfe3 Ra4 63. Re1 Ra2+ 64. R3e2 Ra5 65. Re5 Ra2+ 66.
+R1e2 Ra3 67. Rf5 Ra4 68. Rb2 Ra3 69. Rbb5 Ra2+ 70. Rf2 Ra3 71. Rff5 Ra2+ 72. Kf1
+Ra1+ 73. Ke2 Ra2+ 74. Kd3 Ra3+ 75. Kd4 Ra4+ 76. Kc3 g3 77. Rxh5+ Kg4 78. Rbg5+
+Kf3 79. Rg8 Kg2 80. Rhg5 Ra3+ 81. Kd2 Kh2 82. Ke2 Rb3 83. R5g6 Ra3 84. R6g7 Rb3
+85. Rg5 Ra3 86. R5g6 Rb3 87. Re6 g2 88. Rh6+ Kg1 89. Rhg6 Kh1 90. Rh6+ Kg1 91.
+Re6 Kh1 92. Rh8+ Kg1 93. Rd6 Rb2+ 94. Kf3 Rb3+ 95. Ke2 Rb2+ 96. Kf3 Rb3+ 97. Ke4
+Rb4+ 98. Kd3 Rb2 99. Ra6 Kf2 100. Rf8+ Kg3 101. Ra1 Kh2 102. Rh8+ Kg3 103. Rg8+
+Kh2 104. Rg5 Rb3+ 105. Kd4 Rb2 106. Re1 Ra2 107. Rh5+ Kg3 108. Rg5+ Kh2 109. Rg6
+Ra4+ 110. Kc5 Ra5+ 111. Kc4 Ra2 112. Rb1 Rc2+ 113. Kd4 Ra2 114. Rh6+ Kg3 115.
+Rb3+ Kf2 116. Rf6+ Kg1 117. Ke3 Kh2 118. Rh6+ Kg3 119. Rg6+ Kh2 120. Kf3 Rf2+
+121. Kxf2 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.21"]
+[Round "5.1"]
+[White "Andreikin, Dmitry"]
+[Black "Wojtaszek, Radoslaw"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2712"]
+[BlackElo "2736"]
+[ECO "A45"]
+[Opening "Trompovsky attack (Ruth, Opovcensky opening)"]
+[WhiteFideId "4158814"]
+[BlackFideId "1118358"]
+[EventDate "2017.07.15"]
+
+1. d4 Nf6 2. Bg5 d5 3. Nd2 c6 4. e3 Bf5 5. c4 Nbd7 6. Ngf3 e6 7. Qb3 Qb6 8. c5
+Qc7 9. Bd3 Bxd3 10. Qxd3 b6 11. b4 a5 12. cxb6 Qxb6 13. bxa5 Rxa5 14. O-O Bd6
+15. a4 Qa6 16. Qc2 O-O 17. Rfc1 Rc8 18. Qd1 Ne4 19. Bf4 Nxd2 20. Nxd2 Bb4 21. e4
+Bf8 22. exd5 Rxd5 23. Be3 c5 24. Qf1 Ra8 25. Qxa6 Rxa6 26. Nb3 cxd4 27. Bxd4 e5
+28. Be3 f5 29. g3 Rd3 30. Rd1 Rxb3 31. Rxd7 f4 32. Bd2 f3 33. a5 h6 34. h4 e4
+35. Ra4 Rb1+ 36. Kh2 Rd1 37. Rxe4 Rxa5 38. Rxg7+ Kxg7 39. Bxa5 Bc5 40. Be1 h5
+41. Bc3+ Kg8 42. Re5 Bxf2 43. Rg5+ Kf7 44. Rf5+ Kg6 45. Rf6+ Kh7 46. Rf7+ Kg6
+47. Rf6+ Kh7 48. Rxf3 Bd4 49. Rf7+ Kg6 50. Rf3 Bxc3 51. Rxc3 Rd2+ 52. Kh3 Ra2
+53. Rc6+ Kg7 54. g4 Ra3+ 55. Kg2 hxg4 56. Rc4 g3 57. Rg4+ 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.21"]
+[Round "5.2"]
+[White "Fedoseev, Vladimir3"]
+[Black "Nisipeanu, Liviu-Dieter"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2726"]
+[BlackElo "2683"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "advance variation"]
+[WhiteFideId "24130737"]
+[BlackFideId "1202758"]
+[EventDate "2017.07.15"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. c3 Nd7 6. a4 c5 7. Be3 Ne7 8. dxc5 Bg4
+9. a5 Nf5 10. b4 Nxe3 11. fxe3 a6 12. Qd4 Bxf3 13. gxf3 g6 14. Nd2 Bg7 15. f4 f6
+16. exf6 Nxf6 17. Nf3 O-O 18. Bh3 Ne4 19. Bxe6+ Kh8 20. Qxd5 Bxc3+ 21. Ke2 Bxa1
+22. Qxe4 Qf6 23. Ng5 Rae8 24. h4 h6 25. h5 Kg7 26. hxg6 Rh8 27. Qxb7+ Re7 28.
+Qd5 Rhe8 29. c6 Bb2 30. Kf3 Rxe6 31. Nxe6+ Qxe6 32. Qxe6 Rxe6 33. f5 Rxc6 34.
+Rd1 Kf6 35. e4 Be5 36. Rd7 Kg5 37. g7 Rc3+ 38. Ke2 Rc8 39. Re7 Bf6 40. Re6 Rg8
+41. Rxa6 Rxg7 42. b5 Rb7 43. b6 Kf4 44. Ra7 Rb8 45. Kd3 Rd8+ 46. Kc2 Bd4 47. Re7
+h5 48. Rh7 Kxe4 49. Rxh5 Rc8+ 50. Kb3 Rc1 51. Ka4 Rb1 52. f6 Bxf6 53. a6 Rxb6
+54. a7 Ra6+ 55. Ra5 Rxa7 56. Rxa7 Bd4 57. Rd7 Be3 58. Re7+ Kf3 59. Rxe3+ Kxe3 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.21"]
+[Round "5.3"]
+[White "Kramnik, Vladimir"]
+[Black "Vachier-Lagrave, Maxime"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2812"]
+[BlackElo "2791"]
+[ECO "A49"]
+[Opening "King's Indian"]
+[Variation "fianchetto without c4"]
+[WhiteFideId "4101588"]
+[BlackFideId "623539"]
+[EventDate "2017.07.15"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d5 6. c3 a5 7. Bf4 Bf5 8. Qb3
+Qc8 9. Rc1 a4 10. Qa3 Re8 11. c4 Nc6 12. Nbd2 e6 13. b4 axb3 14. Qxb3 Ne4 15.
+cxd5 exd5 16. e3 h6 17. h4 Ra5 18. Nf1 Be6 19. Rab1 Ra7 20. a4 Qd8 21. N3d2 Nxd2
+22. Nxd2 g5 23. hxg5 hxg5 24. Bxc7 Qxc7 25. Bxd5 Bxd5 26. Qxd5 Rxe3 27. fxe3
+Qxg3+ 28. Qg2 Qxe3+ 29. Kh1 g4 30. d5 Ne5 31. Rc8+ Kh7 32. Qe4+ Qxe4+ 33. Nxe4
+Rxa4 34. Nc3 Rd4 35. Rd1 Nd3 36. Kg1 b5 37. Nxb5 Rxd5 38. Nc3 Bd4+ 39. Kh2 Rh5+
+40. Kg2 Nf4+ 41. Kg3 Be5 42. Ne4 Kg6 43. Rg8+ Kf5 44. Nd6+ Bxd6 45. Rxd6 Rh3+
+46. Kf2 Rf3+ 47. Kg1 g3 48. Rd2 Ra3 49. Rd1 Ra2 50. Rxg3 Ne2+ 51. Kf2 Nc3+ 52.
+Ke1 Nxd1 53. Kxd1 Kf4 54. Rb3 f5 55. Ke1 Ra1+ 56. Kf2 Ra2+ 57. Kf1 Ra1+ 58. Kf2 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.21"]
+[Round "5.4"]
+[White "Wang, Yue"]
+[Black "Bluebaum, Matthias"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2699"]
+[BlackElo "2642"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+[WhiteFideId "8601429"]
+[BlackFideId "24651516"]
+[EventDate "2017.07.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bd2 O-O 6. e3 b6 7. Rc1 Ba6 8. Qa4 c5
+9. cxd5 Bxf1 10. Rxf1 exd5 11. Ke2 a6 12. dxc5 bxc5 13. Rfd1 Nbd7 14. a3 Bxc3
+15. Bxc3 Qb6 16. Ne5 Qe6 17. Nxd7 Nxd7 18. Kf1 f6 19. h3 Rfc8 20. Qg4 Qxg4 21.
+hxg4 Nb6 22. Ba5 Nc4 23. Be1 Nb6 24. Ba5 Nc4 25. Be1 Nb6 26. b4 cxb4 27. axb4
+Kf7 28. Ra1 Rc4 29. Ra5 Rxg4 30. Rda1 Rb8 31. Rxa6 Re4 32. Ra7+ Re7 33. Ke2 Rbb7
+34. Rxb7 Rxb7 35. Kd3 Ke7 36. Bc3 Nd7 37. f4 Nb8 38. Bd4 Nc6 39. Bc5+ Kd7 40.
+Kc3 f5 41. Ra6 Kc7 42. Kb3 Rb8 43. Ka4 Re8 44. g3 h5 45. b5 Re4+ 46. Kb3 Nd8 47.
+Bd4 g5 48. Ra7+ Kb8 49. Rh7 gxf4 50. gxf4 Ne6 51. Be5+ Kc8 52. b6 Nc5+ 53. Kc2
+Rc4+ 54. Kd1 Nb7 55. Rxh5 Rb4 56. Bd4 Na5 57. Rxf5 Rb5 58. Kc2 Nc6 59. Kc3 1-0
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.22"]
+[Round "6.1"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "Fedoseev, Vladimir3"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2791"]
+[BlackElo "2726"]
+[ECO "B11"]
+[Opening "Caro-Kann"]
+[Variation "two knights, 3...Bg4"]
+[WhiteFideId "623539"]
+[BlackFideId "24130737"]
+[EventDate "2017.07.15"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 Bg4 4. h3 Bxf3 5. Qxf3 e6 6. Be2 Bc5 7. O-O Nf6 8. d3
+Nbd7 9. Qf4 O-O 10. Rd1 Ne8 11. Qg3 Kh8 12. d4 Bb6 13. a4 a6 14. h4 Nef6 15. Bf3
+Bc7 16. Qh3 dxe4 17. Bxe4 Nxe4 18. Nxe4 Qe8 19. Re1 h6 20. b3 f5 21. Nd2 Qg6 22.
+Ba3 Rfd8 23. Nf3 Re8 24. Re2 e5 25. h5 Qg4 26. Qxg4 fxg4 27. Nxe5 Nxe5 28. Rae1
+Ba5 29. b4 Bb6 30. c3 a5 31. Rxe5 Rxe5 32. Rxe5 axb4 33. Bxb4 Rxa4 34. Re8+ Kh7
+35. Bd6 Ba5 36. Re7 Bd8 37. Rxb7 Bf6 38. Kh2 Ra5 39. Bc5 Be5+ 40. g3 Bf6 41. Kg2
+Ra2 42. Rc7 Rc2 43. Rxc6 Rxc3 44. Re6 Rf3 45. Re4 Rf5 46. Rxg4 Rxh5 47. Re4 Kg6
+48. Kf3 Rh1 49. Re2 h5 50. Ke4 h4 51. gxh4 Rxh4+ 52. Kd5 Rf4 53. Rd2 Bh4 54. Bd6
+Rxf2 55. Rxf2 Bxf2 56. Be5 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.22"]
+[Round "6.2"]
+[White "Nisipeanu, Liviu-Dieter"]
+[Black "Andreikin, Dmitry"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2683"]
+[BlackElo "2712"]
+[ECO "B06"]
+[Opening "Robatsch defence"]
+[Variation "two knights, Suttles variation"]
+[WhiteFideId "1202758"]
+[BlackFideId "4158814"]
+[EventDate "2017.07.15"]
+
+1. d4 g6 2. e4 Bg7 3. Nc3 c6 4. Nf3 d6 5. a4 Bg4 6. Be2 d5 7. exd5 cxd5 8. Ne5
+Bxe2 9. Qxe2 a6 10. Qf3 Nf6 11. O-O Nc6 12. Rd1 O-O 13. Bg5 Qd6 14. Bxf6 Bxf6
+15. Qxd5 Bxe5 16. dxe5 Qxe5 17. Qxe5 Nxe5 18. Nd5 e6 19. Nb6 Rad8 20. f4 Ng4 21.
+Nd7 Rfe8 22. Rd3 Kg7 23. Rad1 Rc8 24. c3 b5 25. a5 Rc4 26. Rd4 e5 27. Rxc4 bxc4
+28. Re1 e4 29. Nb6 f5 30. Nxc4 Rd8 31. h3 Nf6 32. Kf2 Rd5 33. b4 Rd3 34. Re3 Rd1
+35. Re1 Rd3 36. Re3 Rd1 37. Re1 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.22"]
+[Round "6.3"]
+[White "Wang, Yue"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2699"]
+[BlackElo "2812"]
+[ECO "D55"]
+[Opening "QGD"]
+[Variation "Neo-orthodox variation, 7.Bh4"]
+[WhiteFideId "8601429"]
+[BlackFideId "4101588"]
+[EventDate "2017.07.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Nbd7 8. Qc2
+c5 9. cxd5 cxd4 10. Nxd4 Nxd5 11. Bxe7 Nxe7 12. Be2 Nf6 13. O-O Bd7 14. Rfd1 Qb6
+15. Qb3 Qxb3 16. axb3 a5 17. Bf3 Bc6 18. Nxc6 bxc6 19. Ra3 Rab8 20. Kf1 g5 21.
+Rc1 Rfd8 22. Ke1 Rb4 23. Bd1 Ng6 24. Rxa5 Rh4 25. h3 g4 26. hxg4 Nxg4 27. Rca1
+Rh1+ 28. Ke2 Rg1 29. Ra8 Rxa8 30. Rxa8+ Kg7 31. g3 N6e5 32. Ra4 Rh1 33. Rf4 f5
+34. Kd2 h5 35. Be2 Rg1 36. Nd1 Nf6 37. Nc3 Rg2 38. Ke1 Rg1+ 39. Kd2 Nfg4 40. Nd1
+Nf6 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.22"]
+[Round "6.4"]
+[White "Bluebaum, Matthias"]
+[Black "Wojtaszek, Radoslaw"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2642"]
+[BlackElo "2736"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "24651516"]
+[BlackFideId "1118358"]
+[EventDate "2017.07.15"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Nf3 c5 6. O-O Nc6 7. dxc5 Qxd1 8.
+Rxd1 Bxc5 9. Nbd2 c3 10. bxc3 O-O 11. Ne1 Be7 12. Nc4 Rd8 13. Ba3 Bxa3 14. Nxa3
+Bd7 15. Rab1 Rab8 16. Nb5 Kf8 17. Nd3 Be8 18. Nc5 Rxd1+ 19. Rxd1 Na5 20. a4 Bxb5
+21. axb5 Ke8 22. Rb1 b6 23. Nb3 Nxb3 24. Rxb3 Rc8 25. Ra3 Rc7 26. Bc6+ Ke7 27.
+f4 Kd6 28. Ra4 Kc5 29. c4 Kd4 30. h3 Kc3 31. Kf2 Nd7 32. Ra1 Nc5 33. Ke3 Kb2 34.
+Rd1 a5 35. bxa6 Rxc6 36. a7 Rc8 37. Rd6 Kc3 38. Rxb6 Ra8 39. Rc6 Kxc4 40. Rc7 f6
+41. Rxg7 Kd5 42. Rxh7 Kd6 43. g4 Nd7 44. h4 Rxa7 45. g5 Ra3+ 46. Kf2 fxg5 47.
+hxg5 Nc5 48. e3 Ne4+ 49. Kf3 Nd2+ 50. Ke2 Ne4 51. Kf3 Nd2+ 52. Ke2 Ne4 1/2-1/2
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.23"]
+[Round "7.1"]
+[White "Fedoseev, Vladimir3"]
+[Black "Wang, Yue"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2726"]
+[BlackElo "2699"]
+[ECO "C50"]
+[Opening "Giuoco Pianissimo"]
+[WhiteFideId "24130737"]
+[BlackFideId "8601429"]
+[EventDate "2017.07.15"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 Nc6 4. Nf3 Bc5 5. O-O d6 6. c3 Be6 7. Bxe6 fxe6 8. b4
+Bb6 9. Nbd2 a6 10. a4 Qd7 11. Ba3 Ba7 12. b5 Na5 13. Bb4 Bb6 14. Rb1 O-O 15. d4
+exd4 16. cxd4 axb5 17. axb5 Rfd8 18. Qe2 d5 19. e5 Ne4 20. Nxe4 dxe4 21. Qxe4
+Qd5 22. Qc2 Qc4 23. Rfc1 Qxc2 24. Rxc2 Rd5 25. Be1 Rf8 26. Rb4 Rf5 27. h4 h6 28.
+Bd2 Rf8 29. Ra2 Kf7 30. Bc3 Ra8 31. Nd2 Ke7 32. Nf1 Ra7 33. Ne3 Rd8 34. Rc2 Rc8
+35. h5 Raa8 36. Ra2 Ra7 37. Ra1 Rca8 38. Rab1 Rg8 39. Kf1 1-0
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.23"]
+[Round "7.2"]
+[White "Andreikin, Dmitry"]
+[Black "Vachier-Lagrave, Maxime"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2712"]
+[BlackElo "2791"]
+[ECO "B20"]
+[Opening "Sicilian defence"]
+[WhiteFideId "4158814"]
+[BlackFideId "623539"]
+[EventDate "2017.07.15"]
+
+1. e4 c5 2. b3 g6 3. Bb2 Nf6 4. e5 Nd5 5. Nc3 Nxc3 6. Bxc3 Bg7 7. h4 d5 8. exd6
+O-O 9. dxe7 Re8 10. Qf3 Qxe7+ 11. Ne2 Nc6 12. Bxg7 Kxg7 13. O-O-O Qe5 14. Qc3
+Nd4 15. Nxd4 cxd4 16. Qf3 d3 17. c3 h5 18. Bxd3 Bg4 19. Qxb7 Rab8 20. Qa6 Bxd1
+21. Rxd1 Qf4 22. Qxa7 Ra8 23. Qc5 Rxa2 24. Bb1 Raa8 25. g3 Qf3 26. Qd4+ Kg8 27.
+Qf4 Qb7 28. b4 Qa6 29. Qf3 Qa3+ 30. Kc2 Rac8 31. g4 Rc4 32. Qd5 Rxb4 33. Qa2
+Qxa2+ 34. Bxa2 Rxg4 35. Bd5 Rxh4 36. c4 Rf4 37. d4 Rxf2+ 38. Kc3 h4 39. c5 Re3+
+40. Kc4 Rc2+ 41. Kb5 h3 42. c6 h2 43. Kb6 Rg3 44. Be4 Rc4 45. Rd2 Rh3 46. Bh1
+Rc1 47. Bg2 h1=Q 48. Bxh1 Rhxh1 49. d5 Rc3 50. Rb2 Rd1 51. Rb5 Kf8 52. Kc7 Ke7 0-1
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.23"]
+[Round "7.3"]
+[White "Kramnik, Vladimir"]
+[Black "Bluebaum, Matthias"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2812"]
+[BlackElo "2642"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack (Barcza system)"]
+[WhiteFideId "4101588"]
+[BlackFideId "24651516"]
+[EventDate "2017.07.15"]
+
+1. Nf3 d5 2. g3 Bg4 3. Bg2 e6 4. O-O Nf6 5. d3 Be7 6. h3 Bh5 7. c4 c6 8. Qb3 Qc8
+9. g4 Bg6 10. cxd5 cxd5 11. Bf4 Nc6 12. Nc3 O-O 13. Rac1 Qd7 14. Ne5 Nxe5 15.
+Bxe5 h5 16. g5 Ne8 17. f4 Bc5+ 18. d4 Bb6 19. f5 Bxf5 20. Rxf5 exf5 21. Nxd5 Qe6
+22. Kh1 Rd8 23. Qf3 g6 24. e3 Kh7 25. Nf4 Qe7 26. Qg3 Bc7 27. Rxc7 Nxc7 28. Bf6
+Qb4 29. Nxh5 gxh5 30. g6+ Kg8 31. Qg5 h4 32. Qh6 Qe1+ 33. Kh2 Qg3+ 34. Kg1 Qe1+
+35. Bf1 1-0
+
+[Event "45th GM 2017"]
+[Site "Dortmund GER"]
+[Date "2017.07.23"]
+[Round "7.4"]
+[White "Wojtaszek, Radoslaw"]
+[Black "Nisipeanu, Liviu-Dieter"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2736"]
+[BlackElo "2683"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+[WhiteFideId "1118358"]
+[BlackFideId "1202758"]
+[EventDate "2017.07.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d6 5. Bd2 Nc6 6. Nf3 O-O 7. a3 Bxc3 8. Bxc3
+Qe7 9. e3 a5 10. Be2 e5 11. dxe5 dxe5 12. h3 Rd8 13. O-O e4 14. Nd4 Nxd4 15.
+Bxd4 c5 16. Bc3 a4 17. f4 Bd7 18. f5 Bc6 19. Rf4 Rd6 20. Raf1 Rad8 21. Qc1 Nd7
+22. f6 Nxf6 23. Qe1 Ne8 24. Rxf7 Qxf7 25. Rxf7 Kxf7 26. Qg3 Nf6 27. Qe5 Rd2 28.
+Bxd2 Rxd2 29. Kf1 Rc2 30. Ke1 Rc1+ 31. Kd2 Rg1 32. g4 h6 33. h4 g5 34. hxg5 hxg5
+35. Qxg5 Bd7 36. Qxc5 Bxg4 37. Bxg4 Rxg4 38. Qc7+ Ke6 39. Qxb7 Rg2+ 40. Kc3 Re2
+41. Qc8+ 1-0
+

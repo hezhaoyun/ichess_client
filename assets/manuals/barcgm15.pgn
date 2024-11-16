@@ -1,0 +1,398 @@
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.04"]
+[Round "1.1"]
+[White "Asis Gargatagli, Hipolito"]
+[Black "Morozevich, Alexander"]
+[Result "0-1"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2483"]
+[BlackElo "2695"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Byrne (English) attack"]
+[WhiteFideId "2260735"]
+[BlackFideId "4116992"]
+[EventDate "2015.11.04"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be7 8. h3
+Be6 9. f4 exf4 10. Bxf4 Nc6 11. Qe2 Nd7 12. O-O-O Nde5 13. Kb1 O-O 14. Nd5 Re8
+15. g4 Bf8 16. Qf2 a5 17. a4 Nb4 18. Nxb4 axb4 19. Bxe5 Rxa4 20. Bb5 Ra5 21.
+Nxa5 Ba2+ 22. Kxa2 Qxa5+ 23. Kb3 Qxb5 24. Bxd6 Rxe4 25. Rd4 Bxd6 26. Rf1 Qxf1
+27. Qxf1 Rxd4 28. Qb5 Re4 29. Qb6 Bf8 30. Ka2 Re2 31. Kb3 Re6 32. Qxb7 Re3+ 33.
+c3 bxc3 34. bxc3 Rxh3 35. Qd5 g6 36. Qg2 Re3 37. Qf2 Re5 38. Qf4 Rc5 39. Qe3 h5
+40. g5 Rf5 41. c4 Bc5 42. Qd2 Be7 43. Qd7 Bxg5 44. Qe8+ Kg7 45. Qe4 Bf6 46. Kb4
+Re5 0-1
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.04"]
+[Round "1.2"]
+[White "Narciso Dublan, Marc"]
+[Black "Grigoryan, Karen H."]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2529"]
+[BlackElo "2616"]
+[ECO "D94"]
+[Opening "Gruenfeld"]
+[Variation "Makogonov variation"]
+[WhiteFideId "2201500"]
+[BlackFideId "13301004"]
+[EventDate "2015.11.04"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. e3 O-O 6. b4 Nc6 7. b5 Na5 8. cxd5
+Nxd5 9. Bd2 Nb6 10. Na4 Nbc4 11. Bb4 c6 12. bxc6 b5 13. Bxc4 Nxc4 14. Nc3 a5 15.
+Bc5 b4 16. Na4 Ba6 17. Rc1 Na3 18. c7 Qxc7 19. Bxb4 Qxc1 20. Qxc1 axb4 21. Nb6
+Rab8 22. Qc5 Rfc8 23. Nxc8 Rxc8 24. Qa7 Rc1+ 25. Kd2 Rc2+ 26. Ke1 Rxa2 27. Qxa6
+Nc2+ 28. Kd2 Rxa6 29. Kxc2 Ra2+ 30. Kd3 Rxf2 31. Rb1 Rxg2 32. Rxb4 f5 33. e4
+fxe4+ 34. Kxe4 Bf6 35. Rb1 Kf7 36. Rf1 h5 37. d5 Kg7 38. h3 Rg3 39. Rh1 Kh6 40.
+Nd2 g5 41. Nc4 Rc3 42. Ne3 Kg6 43. Rd1 Be5 44. h4 gxh4 45. Kxe5 Rxe3+ 46. Kf4
+Re2 47. d6 Rf2+ 48. Ke3 Rf8 49. dxe7 Re8 50. Kf3 Rxe7 51. Kg2 Re3 52. Rd5 Ra3
+53. Rb5 h3+ 54. Kh2 h4 55. Rc5 Rf3 56. Ra5 Rf6 57. Kxh3 Rf5 58. Rxf5 Kxf5 59.
+Kxh4 1/2-1/2
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.04"]
+[Round "1.3"]
+[White "Bachmann, Axel"]
+[Black "Balogh, Csaba"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2601"]
+[BlackElo "2645"]
+[ECO "A29"]
+[Opening "English"]
+[Variation "four knights, kingside fianchetto"]
+[WhiteFideId "3700488"]
+[BlackFideId "718939"]
+[EventDate "2015.11.04"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 Bb4 5. Bg2 O-O 6. O-O d6 7. d3 h6 8. Bd2 a5
+9. a3 Bc5 10. Na4 Re8 11. e3 Ba7 12. b4 axb4 13. axb4 Be6 14. b5 Ne7 15. Bc3 Ng6
+16. Qb3 c6 17. Nd2 Rc8 18. Rfb1 Bf5 19. Rd1 Bg4 20. Rdb1 Bf5 21. Rd1 Bg4 22.
+Rdb1 1/2-1/2
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.05"]
+[Round "2.1"]
+[White "Morozevich, Alexander"]
+[Black "Balogh, Csaba"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2695"]
+[BlackElo "2645"]
+[ECO "A01"]
+[Opening "Nimzovich-Larsen attack"]
+[Variation "Indian variation"]
+[WhiteFideId "4116992"]
+[BlackFideId "718939"]
+[EventDate "2015.11.04"]
+
+1. b3 Nf6 2. Bb2 g6 3. c4 Bg7 4. g3 O-O 5. Bg2 d6 6. e3 e5 7. Ne2 Re8 8. O-O d5
+9. cxd5 Nxd5 10. d4 exd4 11. Bxd4 Nf6 12. Nd2 Nc6 13. Bxc6 bxc6 14. Rc1 Bg4 15.
+f3 Bh3 16. Re1 Bh6 17. Nf4 Bxf4 18. gxf4 Nd5 19. Ne4 Bf5 20. Bb2 Bxe4 21. Qd4
+Qf6 22. Qxf6 Nxf6 23. fxe4 Nxe4 24. Rxc6 Rad8 25. Re2 Rd7 26. Rec2 Rd1+ 27. Kg2
+Nd6 28. Rxc7 Nf5 29. Re2 Kf8 30. e4 Rd3 31. Kf2 Rh3 32. Kg1 Rf3 33. Be5 Ne3 34.
+h3 g5 35. Rf2 Rxh3 36. Rxa7 Rd8 37. Rb2 Rf3 38. fxg5 Rd1+ 39. Kh2 Ng4+ 40. Kg2
+Nxe5 41. Ra5 Nd3 42. Kxf3 Nxb2 43. Ke2 Rd4 44. Rd5 Rxe4+ 45. Kd2 Na4 46. bxa4
+Rxa4 47. Ke3 Rxa2 48. Kf4 Kg7 1/2-1/2
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.05"]
+[Round "2.2"]
+[White "Grigoryan, Karen H."]
+[Black "Bachmann, Axel"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2616"]
+[BlackElo "2601"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack (Barcza system)"]
+[WhiteFideId "13301004"]
+[BlackFideId "3700488"]
+[EventDate "2015.11.04"]
+
+1. Nf3 d5 2. g3 Bg4 3. Bg2 c6 4. c4 e6 5. cxd5 Bxf3 6. Bxf3 cxd5 7. O-O Nf6 8.
+d4 Nc6 9. Nc3 Be7 10. e3 O-O 11. Bd2 Rc8 12. Qe2 Ne8 13. Rfc1 Nd6 14. Na4 Ne4
+15. Be1 Qd7 16. Qb5 Rc7 17. Be2 Rfc8 18. Nc5 Nxc5 19. dxc5 a6 20. Qa4 Bf6 21.
+Qa3 d4 22. e4 d3 23. Rd1 Ne5 24. Bxd3 Nf3+ 25. Kg2 Nxe1+ 26. Rxe1 Rxc5 27. Rad1
+Qc7 28. f4 e5 29. f5 Rd8 30. Qb3 Rd4 31. Bf1 Qc6 32. Rxd4 exd4 33. Bd3 b5 34. a4
+bxa4 35. Qb8+ Qc8 36. Qxc8+ Rxc8 37. Ra1 Rb8 38. Rxa4 Rxb2+ 39. Kh3 g5 40. fxg6
+hxg6 41. Rxa6 Be5 42. Ra5 f6 43. Ra2 Rb7 44. Kg4 Kg7 45. Kf3 Rb3 46. Rd2 Kh6 47.
+Kg4 Rc3 48. Rd1 Ra3 49. Rd2 Rc3 50. Rd1 Ra3 51. Rd2 Rc3 1/2-1/2
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.05"]
+[Round "2.3"]
+[White "Asis Gargatagli, Hipolito"]
+[Black "Narciso Dublan, Marc"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2483"]
+[BlackElo "2529"]
+[ECO "B07"]
+[Opening "Pirc defence"]
+[WhiteFideId "2260735"]
+[BlackFideId "2201500"]
+[EventDate "2015.11.04"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 a6 5. Qd2 b5 6. f3 Nbd7 7. O-O-O Bb7 8. h4
+Nb6 9. Bd3 e6 10. Qf2 Bg7 11. a3 Qe7 12. Nge2 h6 13. Kb1 Nfd7 14. Nc1 c5 15. e5
+c4 16. exd6 Qxd6 17. Be4 Nd5 18. Bxd5 exd5 19. Qd2 O-O-O 20. N1a2 Nf8 21. Ne2
+Ne6 22. Nf4 Nc7 23. Rhe1 Rde8 24. Nh3 Qd8 25. g3 Re7 26. Bf4 Ne6 27. Be3 Qd6 28.
+Nf4 Nc7 29. Bf2 Rhe8 30. Rxe7 Rxe7 31. g4 Ne6 32. Bg3 Nxd4 33. Nb4 Qc5 34. Bf2
+a5 35. Bxd4 Bxd4 36. Nbxd5 Bxd5 37. Nxd5 Qxd5 38. Qxd4 Qxd4 39. Rxd4 Kc7 40. a4
+Kc6 41. axb5+ Kxb5 42. Rf4 Re1+ 43. Ka2 Rh1 44. Rxf7 Rxh4 45. Rf6 g5 46. Rf5+
+Kb6 47. Rf6+ 1/2-1/2
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.06"]
+[Round "3.1"]
+[White "Narciso Dublan, Marc"]
+[Black "Morozevich, Alexander"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2529"]
+[BlackElo "2695"]
+[ECO "B23"]
+[Opening "Sicilian"]
+[Variation "closed"]
+[WhiteFideId "2201500"]
+[BlackFideId "4116992"]
+[EventDate "2015.11.04"]
+
+1. e4 c5 2. Nc3 a6 3. g3 b5 4. Bg2 Bb7 5. Nh3 e6 6. O-O b4 7. Nb1 Nf6 8. d3 Be7
+9. Nd2 O-O 10. f4 Nc6 11. Nf2 a5 12. Nf3 a4 13. a3 bxa3 14. bxa3 c4 15. Rb1 Na5
+16. Bd2 Ba6 17. Bb4 Rb8 18. d4 c3 19. Re1 Nc4 20. Bxc3 Rxb1 21. Qxb1 Nxa3 22.
+Qb2 Qc7 23. Rc1 Nb5 24. Bb4 a3 25. Qb3 Bxb4 26. Qxb4 Nc3 27. Ra1 a2 28. Qa3 Bb7
+29. Nd2 Ra8 30. Qb2 h5 31. Bf3 h4 32. g4 d5 33. e5 Nfe4 34. Nb3 Qc4 35. Nd3 h3
+36. Qc1 Bc6 37. Qe3 Nb1 38. Ne1 Bb5 39. Qd3 Qxd3 40. cxd3 Nec3 41. Kf2 Ra4 42.
+Kg3 Rb4 43. Nc1 Rb2 44. Kxh3 Nd2 45. Nxa2 Nxa2 46. Bd1 Nc3 47. Rc1 Rb1 48. Rxc3
+Rxd1 49. Nc2 Nf3 50. Kg3 Rxd3 51. Rxd3 Bxd3 52. Nb4 Be4 53. Nc6 Kf8 54. f5 Ke8
+55. f6 g5 0-1
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.06"]
+[Round "3.2"]
+[White "Bachmann, Axel"]
+[Black "Asis Gargatagli, Hipolito"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2601"]
+[BlackElo "2483"]
+[ECO "B23"]
+[Opening "Sicilian"]
+[Variation "closed"]
+[WhiteFideId "3700488"]
+[BlackFideId "2260735"]
+[EventDate "2015.11.04"]
+
+1. e4 c5 2. Nc3 d6 3. f4 g6 4. Nf3 Bg7 5. Bb5+ Bd7 6. Bc4 Nc6 7. d3 Na5 8. Bd2
+a6 9. Qe2 b5 10. Bd5 b4 11. Nd1 Rb8 12. e5 e6 13. Bb3 d5 14. Ne3 Ne7 15. O-O Qc7
+16. Be1 O-O 17. Bh4 Bb5 18. c4 bxc3 19. bxc3 Bxd3 20. Qxd3 c4 21. Bxc4 Nxc4 22.
+Bxe7 Qxe7 23. Nxc4 dxc4 24. Qxc4 Rfc8 25. Qxa6 Rxc3 26. a4 Bh6 27. Nd4 Qc5 28.
+Qd6 Rb4 29. Qxc5 Rxc5 30. Rad1 Rxa4 31. g3 Bf8 32. Nf3 Ra3 33. Rd2 Be7 34. Kg2
+Rcc3 35. Rd7 Kf8 36. Ng5 Rc2+ 37. Kh3 Raa2 38. Nf3 h6 39. Rb1 Rcb2 40. Rbd1 Ke8
+41. Rc7 Rc2 42. Rb7 Rcb2 43. Rc7 Rc2 44. Rb7 Rcb2 1/2-1/2
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.06"]
+[Round "3.3"]
+[White "Balogh, Csaba"]
+[Black "Grigoryan, Karen H."]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2645"]
+[BlackElo "2616"]
+[ECO "C78"]
+[Opening "Ruy Lopez"]
+[Variation "5.O-O"]
+[WhiteFideId "718939"]
+[BlackFideId "13301004"]
+[EventDate "2015.11.04"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bc5 7. Nc3 d6 8. Nd5
+Rb8 9. c3 Nxd5 10. Bxd5 Ne7 11. d4 exd4 12. cxd4 Bb6 13. Bb3 O-O 14. h3 c5 15.
+Re1 c4 16. Bc2 Ng6 17. b3 Ba5 18. Bd2 Bd7 19. d5 Re8 20. bxc4 bxc4 21. Bxa5 Qxa5
+22. Qd4 Rec8 23. e5 dxe5 24. Nxe5 Nxe5 25. Rxe5 Qb6 26. Qh4 h6 27. Rae1 Qd6 28.
+Qf4 Qf6 29. Qe3 c3 30. d6 Qxd6 31. Rd1 Qxd1+ 32. Bxd1 Rb1 33. Rc5 Rxd1+ 34. Kh2
+Rxc5 35. Qxc5 Rc1 36. Qe3 Ra1 37. Qxc3 Rxa2 38. h4 Be6 39. f3 h5 40. Qe5 g6 41.
+Kg3 Ra4 42. Qb8+ 1/2-1/2
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.07"]
+[Round "4.1"]
+[White "Morozevich, Alexander"]
+[Black "Grigoryan, Karen H."]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2695"]
+[BlackElo "2616"]
+[ECO "C47"]
+[Opening "Four knights"]
+[Variation "Scotch, 4...exd4"]
+[WhiteFideId "4116992"]
+[BlackFideId "13301004"]
+[EventDate "2015.11.04"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 Bb4 6. Nxc6 bxc6 7. Bd3 O-O 8.
+O-O d5 9. exd5 cxd5 10. Qf3 c6 11. h3 Rb8 12. Bf4 Bd6 13. b3 Be6 14. Rad1 Bxf4
+15. Qxf4 Qa5 16. Qd2 Qc7 17. Rfe1 c5 18. Nb5 Qb6 19. c4 Bd7 20. Qf4 dxc4 21.
+bxc4 Rbd8 22. Bf1 a6 23. Qc7 Qxc7 24. Nxc7 Rc8 25. Nd5 Nxd5 26. Rxd5 Be6 27. Rd6
+Rfd8 28. Red1 Rxd6 29. Rxd6 g5 30. Rxa6 Kg7 31. f3 Kf6 32. Kf2 Rb8 33. Ke3 Rb2
+34. g4 h6 35. Ra5 Ke7 36. a4 Kd6 37. Ra6+ Kc7 38. Ra5 Kc6 39. Bd3 Rb4 40. Ra8
+Bxc4 41. Bxc4 Rxc4 42. Ra6+ Kd5 43. Rxh6 Rxa4 44. Rf6 Ra3+ 45. Kf2 Ra2+ 46. Ke3
+Ra3+ 47. Kf2 Ra2+ 48. Ke3 1/2-1/2
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.07"]
+[Round "4.2"]
+[White "Asis Gargatagli, Hipolito"]
+[Black "Balogh, Csaba"]
+[Result "1/2-1/2"]
+[WhiteTitle "IM"]
+[BlackTitle "GM"]
+[WhiteElo "2483"]
+[BlackElo "2645"]
+[ECO "C53"]
+[Opening "Giuoco Piano"]
+[WhiteFideId "2260735"]
+[BlackFideId "718939"]
+[EventDate "2015.11.04"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 a6 6. Bb3 d6 7. h3 h6 8. Nbd2 Be6
+9. O-O O-O 10. Re1 Re8 11. Bc2 d5 12. exd5 Qxd5 13. Nf1 Rad8 14. Ng3 Bf8 15. Be3
+Qd7 16. d4 exd4 17. Nxd4 Nxd4 18. Bxd4 Qc6 19. Ne4 Nxe4 20. Bxe4 Bd5 21. Bxd5
+Rxe1+ 22. Qxe1 Qxd5 23. b3 c5 24. Be3 c4 25. bxc4 Qxc4 26. a4 b5 27. axb5 axb5
+28. Ra5 Qb3 29. Ra1 Qc4 30. Ra5 b4 31. cxb4 Bxb4 32. Ra4 Bxe1 33. Rxc4 Bd2 34.
+Bxd2 Rxd2 35. Rc8+ Kh7 36. Rc7 Kg8 37. Rc8+ Kh7 38. Rc7 Kg8 39. Rc8+ Kh7 40. Rc7
+Kg8 1/2-1/2
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.07"]
+[Round "4.3"]
+[White "Narciso Dublan, Marc"]
+[Black "Bachmann, Axel"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2529"]
+[BlackElo "2601"]
+[ECO "E91"]
+[Opening "King's Indian"]
+[Variation "6.Be2"]
+[WhiteFideId "2201500"]
+[BlackFideId "3700488"]
+[EventDate "2015.11.04"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 Bg4 7. Be3 Nfd7 8. Qd2
+e5 9. d5 a5 10. O-O-O Na6 11. h3 Bxf3 12. gxf3 f5 13. exf5 gxf5 14. Bg5 Qe8 15.
+Rdg1 Kh8 16. Rg2 Qf7 17. Rhg1 Rg8 18. Bd3 Nac5 19. Bc2 e4 20. fxe4 Ne5 21. Bh6
+Bxh6 22. Qxh6 Rxg2 23. Rxg2 f4 24. Nb5 Rg8 25. Rxg8+ Qxg8 26. Qf6+ Qg7 27. Qd8+
+Qg8 28. Qf6+ Qg7 29. Qd8+ Qg8 30. Qxg8+ Kxg8 31. Nxc7 Kf7 32. Nb5 Ke7 33. Nd4
+Ncd3+ 34. Bxd3 Nxd3+ 35. Kd2 Nxf2 36. Nf5+ Kd7 37. h4 Nxe4+ 38. Kd3 Nc5+ 39. Ke2
+Na4 40. b3 Nc3+ 41. Kf3 Nxa2 42. Kxf4 Nc1 43. Nd4 Ke7 44. Kg5 Kf7 45. h5 b6 46.
+Nf5 Nxb3 47. Nxd6+ Kf8 48. Nb5 Nd2 49. Na3 Kf7 50. Kh6 Kg8 51. d6 Kf7 52. d7 Ke7
+53. Kxh7 Ne4 54. Kg6 Nc5 55. d8=Q+ Kxd8 56. h6 Ne6 57. Kf6 Nf8 58. Kf7 Nh7 59.
+Kg7 Ng5 60. Kg6 Ne6 61. Kf6 Nf8 62. Kf7 Nh7 63. Kg7 Ng5 64. Kg6 1/2-1/2
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.08"]
+[Round "5.1"]
+[White "Bachmann, Axel"]
+[Black "Morozevich, Alexander"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2601"]
+[BlackElo "2695"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack"]
+[WhiteFideId "3700488"]
+[BlackFideId "4116992"]
+[EventDate "2015.11.04"]
+
+1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nf6 5. O-O c6 6. c4 dxc4 7. a4 Ne4 8. Qc2
+Nd6 9. Na3 Bf5 10. Qc3 O-O 11. Nxc4 Re8 12. Rd1 Na6 13. b3 Be4 14. Ba3 Rc8 15.
+Rac1 c5 16. Nfe5 Bxg2 17. Kxg2 Qc7 18. Qf3 Nf5 19. e4 Nh6 20. g4 f6 21. Nd3 f5
+22. gxf5 Bxd4 23. Nf4 e5 24. Nd5 Qd8 25. fxg6 Rc6 26. Kh1 Rxg6 27. Rg1 Kg7 28.
+Rxg6+ hxg6 29. Rg1 Nc7 30. Bc1 Nxd5 31. Qh5 Nf7 32. Qxg6+ Kf8 33. Qg7+ Ke7 34.
+Bg5+ 1-0
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.08"]
+[Round "5.2"]
+[White "Balogh, Csaba"]
+[Black "Narciso Dublan, Marc"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2645"]
+[BlackElo "2529"]
+[ECO "B09"]
+[Opening "Pirc"]
+[Variation "Austrian attack, 6.Bd3"]
+[WhiteFideId "718939"]
+[BlackFideId "2201500"]
+[EventDate "2015.11.04"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 O-O 6. Bd3 Nc6 7. O-O e5 8. d5 Nd4
+9. fxe5 dxe5 10. Nxe5 Nxd5 11. Nxd5 Bxe5 12. Bf4 Nc6 13. Qd2 Be6 14. Bc4 Qd6 15.
+Nf6+ Kh8 16. Bd5 Qc5+ 17. Be3 Qxe3+ 18. Qxe3 Bd4 19. Qxd4 Nxd4 20. c3 Nc2 21.
+Rac1 Ne3 22. Rf3 Nc4 23. Bxc4 Bxc4 24. Nd7 Rfe8 25. b3 Re7 26. Nf6 Ba6 27. c4
+Rd8 28. Rcf1 Kg7 29. Nd5 Red7 30. Nf6 Re7 31. Nd5 Red7 32. Nf6 Re7 1/2-1/2
+
+[Event "Barcelona GM 2015"]
+[Site "Barcelona ESP"]
+[Date "2015.11.08"]
+[Round "5.3"]
+[White "Grigoryan, Karen H."]
+[Black "Asis Gargatagli, Hipolito"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "IM"]
+[WhiteElo "2616"]
+[BlackElo "2483"]
+[ECO "E60"]
+[Opening "King's Indian defence"]
+[WhiteFideId "13301004"]
+[BlackFideId "2260735"]
+[EventDate "2015.11.04"]
+
+1. d4 Nf6 2. c4 g6 3. f3 c5 4. d5 d6 5. Nc3 e6 6. e4 exd5 7. cxd5 Bg7 8. Bd3 O-O
+9. Nge2 a6 10. a4 Nbd7 11. O-O Rb8 12. Ng3 Ne5 13. Be2 Re8 14. Nh1 c4 15. a5
+Nfd7 16. Be3 Qc7 17. f4 Nd3 18. Bxd3 cxd3 19. Qxd3 f5 20. Nf2 Nf6 21. e5 dxe5
+22. Bb6 Qf7 23. fxe5 Rxe5 24. Qg3 Nh5 25. Qf3 Nf6 26. Nd3 Re8 27. Rae1 Qf8 28.
+Ne5 Bd7 29. Qf4 Bb5 30. Nxb5 axb5 31. Bd4 Nxd5 32. Qf2 Qb4 33. Nf3 Nf6 34. Qd2
+Qxd2 35. Nxd2 Ne4 36. Nb3 Bf8 37. Bb6 Rbc8 38. Nd4 b4 39. Re2 Nd6 40. Rxe8 Rxe8
+41. Rc1 Rc8 42. Rxc8 Nxc8 43. Bc7 Bc5 44. Be5 Nd6 45. Kf1 Bxd4 46. Bxd4 Nc4 47.
+Ke2 Nxa5 48. Ke3 Nc6 49. Bf6 Kf7 50. Bh8 g5 51. Kd3 b5 52. g3 Ke6 53. h3 h5 54.
+Bg7 g4 55. hxg4 hxg4 56. Ke3 b3 57. Bh6 Ne7 58. Kd4 Nd5 59. Bd2 Nb6 60. Bh6 Na4
+61. Bc1 Kf6 62. Kd5 Nc3+ 63. bxc3 f4 64. Ke4 fxg3 65. Ke3 Kf5 66. Ba3 g2 67. Kf2
+Ke4 68. Kxg2 Kd3 0-1
+

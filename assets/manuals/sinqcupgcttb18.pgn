@@ -1,0 +1,54 @@
+[Event "Sinquefield GCT TB 2018"]
+[Site "Saint Louis USA"]
+[Date "2018.08.28"]
+[Round "1"]
+[White "So, Wesley"]
+[Black "Caruana, Fabiano"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2780"]
+[BlackElo "2822"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+[WhiteFideId "5202213"]
+[BlackFideId "2020009"]
+[EventDate "2018.08.28"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 Nc6 6. Qa4 Bb4+ 7. Bd2 Nd5 8.
+Bxb4 Nxb4 9. O-O Rb8 10. Na3 O-O 11. Qb5 b6 12. Qxc4 Ba6 13. Nb5 Qe8 14. Rfc1
+Nd5 15. Qxc6 Qxc6 16. Rxc6 Bxb5 17. Rc2 Rfc8 18. Rac1 c5 19. dxc5 Nb4 20. Rd2
+Nxa2 21. Ra1 Nb4 22. Rxa7 Nc6 23. Ra1 bxc5 24. e3 h6 25. Bf1 Bxf1 26. Kxf1 Rb5
+27. Rc1 Kf8 28. Rdc2 Nb4 29. Nd4 Nxc2 30. Nxb5 Rb8 31. Na3 Nxa3 32. bxa3 Rb3 33.
+Rxc5 Rxa3 1/2-1/2
+
+[Event "Sinquefield GCT TB 2018"]
+[Site "Saint Louis USA"]
+[Date "2018.08.28"]
+[Round "2"]
+[White "Caruana, Fabiano"]
+[Black "So, Wesley"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2822"]
+[BlackElo "2780"]
+[ECO "E20"]
+[Opening "Nimzo-Indian"]
+[Variation "Romanishin-Kasparov (Steiner) system"]
+[WhiteFideId "2020009"]
+[BlackFideId "5202213"]
+[EventDate "2018.08.28"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. g3 O-O 5. Bg2 d5 6. Nf3 dxc4 7. O-O Nc6 8. Qa4
+Nd5 9. Qc2 Be7 10. Rd1 Bd7 11. e4 Ncb4 12. Qd2 Nb6 13. Ne5 Nc6 14. Nxc6 Bxc6 15.
+Qc2 f5 16. a4 fxe4 17. Bxe4 Bxe4 18. Qxe4 Qd7 19. d5 exd5 20. Nxd5 Nxd5 21. Rxd5
+Qc6 22. Rd4 Bc5 23. Qxc6 bxc6 24. Rxc4 Bxf2+ 25. Kg2 c5 26. Ra2 Bd4 27. b4 Rad8
+28. bxc5 c6 29. Bf4 Rfe8 30. Rd2 Bf6 31. Rd6 Rc8 32. h4 h5 33. Kf3 Re1 34. Re4
+Ra1 35. Rd7 Ra3+ 36. Kg2 a5 37. Bd6 Kh7 38. Ra7 Bc3 39. Kh3 Ra2 40. Rc4 Bb4 41.
+Rf4 Bc3 42. Re7 Rd8 43. Re6 Rd7 44. Rf5 g6 45. Rf3 Bd4 46. Re4 Bg7 47. Rfe3 Rb7
+48. Re2 Rxe2 49. Rxe2 Bd4 50. Re4 Rb4 51. Rf4 Bg1 52. Rf1 Bd4 53. Rf7+ Kg8 54.
+Rc7 Rxa4 55. Rxc6 Kf7 56. Ra6 Ke6 57. Bf4+ Kd5 58. c6 Rc4 59. c7 a4 60. Ra8 Bb2
+61. c8=Q Rxc8 62. Rxc8 1-0
+

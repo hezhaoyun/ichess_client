@@ -1,0 +1,106 @@
+[Event "105th ch-GBR TB 2018"]
+[Site "Hull ENG"]
+[Date "2018.08.05"]
+[Round "1"]
+[White "Adams, Michael"]
+[Black "McShane, Luke J"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2706"]
+[BlackElo "2669"]
+[ECO "C50"]
+[Opening "Giuoco Pianissimo"]
+[WhiteFideId "400041"]
+[BlackFideId "404853"]
+[EventDate "2018.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. O-O d6 6. c3 O-O 7. a4 a5 8. Bg5 Qe7
+9. Nbd2 Be6 10. Qb3 Rab8 11. Rad1 h6 12. Bh4 Ba7 13. Bxe6 Qxe6 14. Bxf6 Qxb3 15.
+Nxb3 gxf6 16. Nbd2 Rfd8 17. Nh4 Ne7 18. Nc4 b5 19. Nxa5 Bb6 20. b4 Bxa5 21. bxa5
+b4 22. cxb4 Rxb4 23. g3 Ra8 24. Rb1 Rxa4 25. Rfc1 c5 26. Rb6 Rd8 27. a6 f5 28.
+Nxf5 Nxf5 29. exf5 Kg7 30. Kf1 Ra2 31. g4 Kf6 32. Rxc5 Kg5 33. Rc4 d5 34. h4+
+Kxh4 35. Rxh6+ Kg5 36. Rh5+ Kf6 37. Rc6+ Ke7 38. Rh7 Rb8 39. Re6+ Kf8 40. Rh8+
+Kg7 41. Rxb8 fxe6 42. fxe6 Kf6 43. Ra8 Kxe6 44. a7 Kf7 45. Rh8 1-0
+
+[Event "105th ch-GBR TB 2018"]
+[Site "Hull ENG"]
+[Date "2018.08.05"]
+[Round "2"]
+[White "McShane, Luke J"]
+[Black "Adams, Michael"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2669"]
+[BlackElo "2706"]
+[ECO "C50"]
+[Opening "Giuoco Pianissimo"]
+[WhiteFideId "404853"]
+[BlackFideId "400041"]
+[EventDate "2018.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. O-O O-O 6. h3 h6 7. c3 d6 8. Re1 a6
+9. Bb3 Re8 10. Nbd2 Be6 11. Nf1 Bxb3 12. axb3 d5 13. Qe2 Qd7 14. b4 Bf8 15. Ng3
+Rad8 16. Kf1 g6 17. Qc2 Re6 18. Qa4 dxe4 19. dxe4 Qd3+ 20. Kg1 Red6 21. Be3 Qc4
+22. Rac1 Kh7 23. b3 Qe6 24. c4 R6d7 25. c5 Rd3 26. Rc4 Na7 27. Bc1 Nd7 28. Qa2
+Nb8 29. Bd2 Nbc6 30. Nf1 Nb5 31. Ne3 Nbd4 32. Nxd4 Nxd4 33. Bc3 Nb5 34. Bb2 c6
+35. Ba1 h5 36. Rc2 Bh6 37. Nc4 Nd4 38. Bxd4 R8xd4 39. Qb2 h4 40. Rce2 Bf4 41.
+Qc2 Kg7 42. Rf1 Kg8 43. Ree1 Qd7 44. Nd6 Rd2 45. Qc3 R2d3 46. Qc2 Rd2 47. Qb1
+Rxb4 48. Nc4 Rd4 49. Rd1 Rb5 50. b4 a5 51. Rxd4 Qxd4 52. Nd6 Qxb4 53. Nxb5 Qxc5
+54. Nc7 b5 55. Rd1 a4 56. Qd3 Bg5 57. Qd7 Qc4 58. Qe8+ Kh7 59. Qxe5 Qc2 60. Rf1
+Qd2 61. Ne8 Bh6 62. Nf6+ Kg7 63. Ng4+ Kh7 64. Qf6 Bg7 65. Qxh4+ Kg8 66. Nf6+
+Bxf6 67. Qxf6 a3 68. e5 Qc3 69. Rd1 Kh7 70. Rd8 1-0
+
+[Event "105th ch-GBR TB 2018"]
+[Site "Hull ENG"]
+[Date "2018.08.15"]
+[Round "3"]
+[White "Adams, Michael"]
+[Black "McShane, Luke J"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2706"]
+[BlackElo "2669"]
+[ECO "C76"]
+[Opening "Ruy Lopez"]
+[Variation "modern Steinitz defence, fianchetto (Bronstein) variation"]
+[WhiteFideId "400041"]
+[BlackFideId "404853"]
+[EventDate "2018.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. c3 Bd7 6. d4 g6 7. Bg5 f6 8. Be3 Qe7
+9. O-O Bh6 10. c4 exd4 11. Bxh6 Nxh6 12. Nxd4 Nxd4 13. Bxd7+ Kxd7 14. Qxd4 Qe5
+15. Qd3 Ng4 16. Qh3 Qe6 17. Nc3 Ne5 18. Qh6 c6 19. b3 g5 20. Rad1 Kc7 21. f3
+Rag8 22. Ne2 Qf7 23. Nd4 Rg6 24. Qh5 Rd8 25. Nf5 Rd7 26. Rd2 g4 27. fxg4 Nxg4
+28. Qh3 Qe6 29. Qf3 Qe5 30. g3 Qc5+ 31. Kg2 Ne5 32. Qe2 Rg8 33. Rfd1 Rgd8 34.
+Nd4 Re8 35. Qf2 h5 36. h3 Qb4 37. Qxf6 Qc3 38. Qf2 Nf7 39. Rd3 Qa5 40. Rf3 Ng5
+41. Rf5 Re5 42. Re1 Rde7 43. Re2 Kd7 44. h4 Ne6 45. Nf3 Rxf5 46. exf5 Nc5 47. f6
+Rf7 48. Ng5 Rf8 49. f7 Qc3 50. Qf3 Nd3 51. Kh2 Qd4 52. Qf5+ Kc7 53. Ne6+ 1-0
+
+[Event "105th ch-GBR TB 2018"]
+[Site "Hull ENG"]
+[Date "2018.08.15"]
+[Round "4"]
+[White "McShane, Luke J"]
+[Black "Adams, Michael"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2669"]
+[BlackElo "2706"]
+[ECO "C50"]
+[Opening "Giuoco Piano"]
+[WhiteFideId "404853"]
+[BlackFideId "400041"]
+[EventDate "2018.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 d6 6. c3 h6 7. Nbd2 O-O 8. h3
+Re8 9. Re1 a5 10. Nf1 Ba7 11. Ng3 Be6 12. Bb5 Bd7 13. Ba4 Ne7 14. Bc2 Ng6 15. d4
+b5 16. Be3 c5 17. dxe5 dxe5 18. Qc1 c4 19. Nf5 Bxe3 20. Qxe3 Qc7 21. Rad1 Rad8
+22. Rd6 Be6 23. Ra6 Ra8 24. Rxa8 Rxa8 25. Rd1 b4 26. Ba4 Rb8 27. g3 Qb6 28. Qxb6
+Rxb6 29. Rd8+ Kh7 30. Nd2 bxc3 31. bxc3 Rb2 32. a3 Rxd2 33. Rxd2 Nxe4 34. Rd8
+Bxf5 35. Bc2 Nxg3 36. Bxf5 Nxf5 37. Ra8 Nf4 38. Rxa5 Ne2+ 39. Kf1 Nxc3 40. Rc5
+Nd6 41. Rc6 Nde4 42. Ke1 Na4 43. Rxc4 Nec5 44. Rb4 Nd3+ 0-1
+

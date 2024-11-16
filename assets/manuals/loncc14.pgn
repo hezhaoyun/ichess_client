@@ -1,0 +1,397 @@
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.10"]
+[Round "1.1"]
+[White "Kramnik, Vladimir"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2769"]
+[BlackElo "2793"]
+[ECO "D44"]
+[Opening "QGD semi-Slav"]
+[Variation "anti-Meran, Lilienthal variation"]
+[WhiteFideId "4101588"]
+[BlackFideId "5000017"]
+[EventDate "2014.12.10"]
+
+1. c4 e6 2. Nc3 d5 3. d4 c6 4. Nf3 Nf6 5. Bg5 dxc4 6. e4 b5 7. e5 h6 8. Bh4 g5
+9. Nxg5 hxg5 10. Bxg5 Nbd7 11. g3 Bb7 12. Bg2 Qb6 13. exf6 O-O-O 14. O-O c5 15.
+d5 b4 16. Na4 Qb5 17. a3 Nb8 18. axb4 cxb4 19. Qg4 Bxd5 20. Rfc1 Nc6 21. Bxd5
+Rxd5 22. Rxc4 Rxg5 23. Qd4 Kb8 24. Rxc6 Rxg3+ 25. fxg3 Qxc6 26. Rd1 Qc7 27. b3
+Kc8 28. Qe4 Kb8 29. Qd4 Kc8 30. Qd3 Bc5+ 31. Nxc5 Qxc5+ 32. Kf1 Qc3 33. Qxc3+
+bxc3 34. h4 e5 35. Ke2 c2 36. Rc1 Kd7 37. Rxc2 Ke6 38. Rc6+ Kf5 39. Kf3 e4+ 40.
+Ke3 Rb8 41. Rc5+ Kxf6 42. Kxe4 Rxb3 43. Ra5 Rxg3 44. Kf4 Rg1 45. Rxa7 Kg7 1/2-1/2
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.10"]
+[Round "1.2"]
+[White "Adams, Michael"]
+[Black "Caruana, Fabiano"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2745"]
+[BlackElo "2829"]
+[ECO "C90"]
+[Opening "Ruy Lopez"]
+[Variation "closed, Pilnik variation"]
+[WhiteFideId "400041"]
+[BlackFideId "2020009"]
+[EventDate "2014.12.10"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. d3
+d6 9. c3 Na5 10. Bc2 c5 11. Nbd2 Nc6 12. Nf1 h6 13. Ne3 Re8 14. a4 Be6 15. h3
+Bf8 16. Nh2 b4 17. Bb3 Rb8 18. Bc4 bxc3 19. bxc3 d5 20. Bxa6 Qa5 21. c4 Qxa6 22.
+exd5 Bxd5 23. cxd5 Nb4 24. Ra3 Nfxd5 25. Neg4 f6 26. Nf1 Rbd8 27. Ng3 c4 28.
+Nxh6+ gxh6 29. Qg4+ Kh8 30. dxc4 Ne7 31. Qh5 Ng8 32. Nf5 Qb7 33. Rg3 Qh7 34. Nh4
+Ne7 35. Ba3 Nbc6 36. Kh2 Bg7 37. Bxe7 Nxe7 38. Rd1 Qg8 39. Rb1 Rb8 40. Rd1 Red8
+41. c5 Rxd1 42. Qxd1 Rb4 43. Qd7 Rxh4 44. Qxe7 Rd4 45. c6 Qf8 46. Qb7 Rb4 47.
+Qd7 Rd4 48. Qb7 Rb4 49. Rc3 f5 50. Qd7 Rd4 51. Qe6 Rd6 52. Qxd6 Qxd6 53. c7 e4+
+54. g3 Bxc3 55. c8=Q+ Kh7 56. Qxc3 f4 57. gxf4 Qxf4+ 58. Qg3 Qd2 59. Qc7+ Kg6
+60. Qb6+ Kh7 61. Qb7+ Kh8 62. Qa8+ Kg7 63. Qxe4 Kf6 64. Qf3+ Kg6 65. Kg2 Qa2 66.
+Qe4+ Kf6 67. Qf4+ Kg6 68. Qd6+ Kg7 69. Qe5+ Kh7 70. a5 Qg8+ 71. Kh2 Qf7 72. Qe4+
+Kg7 73. a6 1-0
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.10"]
+[Round "1.3"]
+[White "Nakamura, Hikaru"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2775"]
+[BlackElo "2768"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "2016192"]
+[BlackFideId "24116068"]
+[EventDate "2014.12.10"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.
+Rxe5 O-O 9. Nc3 Ne8 10. Nd5 Bd6 11. Re2 Nf6 12. Ne3 Re8 13. b3 Bf8 14. Bb2 Re6
+15. c4 c6 16. Re1 d5 17. cxd5 Nxd5 18. Bc4 Nxe3 19. fxe3 Rh6 20. Rf1 Be6 21.
+Bxe6 Rxe6 22. Qf3 Qe8 23. Rf2 Rd8 24. Raf1 Rd7 25. Qf5 Red6 26. Qc2 Rh6 27. g3
+c5 28. Rf5 b6 29. R1f2 Re6 30. Qc3 Red6 31. Qc2 Re6 32. Qc3 Red6 33. Qc2 Re6 1/2-1/2
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.11"]
+[Round "2.1"]
+[White "Giri, Anish"]
+[Black "Adams, Michael"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2768"]
+[BlackElo "2745"]
+[ECO "E01"]
+[Opening "Catalan"]
+[Variation "closed"]
+[WhiteFideId "24116068"]
+[BlackFideId "400041"]
+[EventDate "2014.12.10"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bb4+ 5. Nd2 O-O 6. Nf3 dxc4 7. Qc2 c5 8. dxc5
+c3 9. bxc3 Bxc5 10. O-O Qc7 11. Ne4 Nxe4 12. Qxe4 Nd7 13. Bf4 Bd6 14. Bxd6 Qxd6
+15. Rfd1 Qc7 16. Qb4 Nf6 17. Nd4 a6 18. Nb3 a5 19. Qc5 Qb8 20. Rab1 b6 21. Qd6
+Nd5 22. Qxb8 Rxb8 23. Bxd5 exd5 24. Nxa5 Bf5 25. Nc6 Bxb1 26. Nxb8 Bxa2 27. Nd7
+Re8 28. Nxb6 Rxe2 29. c4 Kf8 30. Rxd5 Bb1 31. Rd8+ Ke7 32. Rd1 Bc2 33. Nc8+ Kf6
+34. Rd6+ Kg5 35. Kf1 Re8 36. Rd5+ Kf6 37. Nd6 Ra8 38. Ke2 Ra1 39. Ne8+ Kg6 40.
+Rd6+ f6 41. Rd7 Kh6 42. Nxg7 Ra2 43. Ke3 Ra5 44. Re7 Rc5 45. Kd4 Re5 46. Rxe5
+fxe5+ 47. Kc3 1-0
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.11"]
+[Round "2.2"]
+[White "Kramnik, Vladimir"]
+[Black "Nakamura, Hikaru"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2769"]
+[BlackElo "2775"]
+[ECO "E92"]
+[Opening "King's Indian"]
+[Variation "Petrosian system, Stein variation"]
+[WhiteFideId "4101588"]
+[BlackFideId "2016192"]
+[EventDate "2014.12.10"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 e5 7. d5 a5 8. Bg5 h6
+9. Be3 Ng4 10. Bd2 f5 11. h3 Nf6 12. exf5 gxf5 13. Qc1 f4 14. g3 e4 15. Nh4 e3
+16. fxe3 fxg3 17. Ng6 Rf7 18. Qc2 Nfd7 19. O-O-O Ne5 20. Rhf1 Rxf1 21. Rxf1 Bxh3
+22. Rg1 Qf6 23. Rxg3 Nxg6 24. Rxg6 Qf7 25. Rg3 Bf5 26. e4 Bg6 27. Bg4 Qf1+ 28.
+Nd1 Be5 29. Bh3 Qf6 30. Rg1 Kh7 31. Bf5 Bxf5 32. exf5 Nd7 33. Rg6 Qf7 34. Rxh6+
+Kg8 35. Rg6+ Kf8 36. Nf2 b5 37. Ng4 bxc4 38. Qxc4 Qxf5 39. Rg8+ Ke7 40. Bg5+ Bf6
+41. Qe2+ 1-0
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.11"]
+[Round "2.3"]
+[White "Anand, Viswanathan"]
+[Black "Caruana, Fabiano"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2793"]
+[BlackElo "2829"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "classical variation (5.Bf4)"]
+[WhiteFideId "5000017"]
+[BlackFideId "2020009"]
+[EventDate "2014.12.10"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. c5 Ne4 8. Rc1
+Nxc3 9. Rxc3 b6 10. b4 a5 11. a3 axb4 12. axb4 bxc5 13. bxc5 Nf6 14. Nd2 Nd7 15.
+Nf3 Nf6 16. Nd2 Nd7 17. Nf3 1/2-1/2
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.12"]
+[Round "3.1"]
+[White "Adams, Michael"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2745"]
+[BlackElo "2769"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "400041"]
+[BlackFideId "4101588"]
+[EventDate "2014.12.10"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8.
+Qxd8+ Kxd8 9. h3 Ke8 10. Nc3 h5 11. Bf4 Be7 12. Rad1 Be6 13. Ng5 Rh6 14. g3 Bc4
+15. Rfe1 Rg6 16. Nce4 Rd8 17. Rxd8+ Bxd8 18. b3 Bd5 19. c4 Bxg5 20. Nxg5 Be6 21.
+Kg2 c5 22. Nxe6 Rxe6 23. Rd1 Nd4 24. g4 hxg4 25. hxg4 Ra6 26. Rd2 Ra3 27. Be3 a5
+28. Bxd4 cxd4 29. Kf3 a4 30. Rb2 axb3 31. axb3 Ra1 32. Ke4 Rd1 33. b4 Ke7 34.
+Rb3 b6 35. b5 Rg1 36. Rg3 Rf1 37. f4 g5 38. f5 Rf4+ 39. Kd5 Kd7 40. c5 bxc5 41.
+Kxc5 Re4 42. Kd5 Re3 43. Rg2 d3 44. Rd2 Rg3 45. Rd1 Rxg4 46. Rxd3 Rf4 47. f6 Rf1
+48. e6+ Ke8 49. exf7+ Kxf7 50. Rc3 Rf5+ 51. Kc6 g4 52. Rg3 Rg5 53. Kxc7 Rxb5 54.
+Rxg4 1/2-1/2
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.12"]
+[Round "3.2"]
+[White "Caruana, Fabiano"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2829"]
+[BlackElo "2768"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "2020009"]
+[BlackFideId "24116068"]
+[EventDate "2014.12.10"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8.
+Qxd8+ Kxd8 9. Nc3 Ke8 10. Ne2 b6 11. Rd1 Bb7 12. b3 Rc8 13. Bb2 Be7 14. Ned4
+Nxd4 15. Nxd4 Rg8 16. Nf5 c5 17. c4 Be4 18. Ng3 Bg6 19. f4 h5 20. f5 h4 21. fxg6
+hxg3 22. gxf7+ Kxf7 23. hxg3 Ke6 24. Kf2 Rcd8 25. Ke2 Rxd1 26. Rxd1 Rh8 27. Bc3
+c6 28. Bd2 Re8 29. Rh1 Kxe5 30. Bc3+ Kf5 31. Kf3 Kg6 32. Rd1 Rd8 33. Rxd8 Bxd8
+34. Be5 Kf7 35. Kf4 a6 36. Bb8 Ke6 37. g4 b5 38. Be5 g6 39. Ke4 Be7 40. Bf4 Bf8
+41. Be3 Bd6 42. Bf4 Bf8 43. Be3 Bd6 44. Bf4 Bf8 1/2-1/2
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.12"]
+[Round "3.3"]
+[White "Nakamura, Hikaru"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2775"]
+[BlackElo "2793"]
+[ECO "C52"]
+[Opening "Evans gambit"]
+[Variation "Tartakower attack"]
+[WhiteFideId "2016192"]
+[BlackFideId "5000017"]
+[EventDate "2014.12.10"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Ba5 6. d4 d6 7. Qb3 Qd7 8. dxe5
+Bb6 9. a4 Na5 10. Qa2 Nxc4 11. Qxc4 Ne7 12. exd6 cxd6 13. O-O O-O 14. Qd3 Ng6
+15. a5 Bc5 16. Be3 Re8 17. Nbd2 Bxe3 18. Qxe3 d5 19. Rfe1 dxe4 20. Nxe4 Qe7 21.
+Nd6 Qxe3 22. fxe3 Rd8 23. Red1 Rb8 24. Rd4 Be6 25. c4 b6 26. axb6 axb6 27. Ra7
+h6 28. h3 Ra8 29. Rb7 Rdb8 30. Rc7 Ra5 31. Kh2 Rc5 32. Ra7 Kf8 33. g4 Ra5 34.
+Rc7 Rc5 35. Ra7 Ra5 36. Rc7 1/2-1/2
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.13"]
+[Round "4.1"]
+[White "Anand, Viswanathan"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2793"]
+[BlackElo "2768"]
+[ECO "D37"]
+[Opening "QGD"]
+[Variation "4.Nf3"]
+[WhiteFideId "5000017"]
+[BlackFideId "24116068"]
+[EventDate "2014.12.10"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 dxc4 5. e4 Bb4 6. Bxc4 Nxe4 7. O-O Nxc3 8.
+bxc3 Be7 9. Ne5 O-O 10. Qg4 Nc6 11. Re1 f5 12. Qf3 Nxe5 13. Rxe5 Kh8 14. h3 Bd6
+15. Re2 h6 16. Bd2 Qe7 17. Rae1 Rf6 18. Bb3 a5 19. c4 a4 20. Bc2 Bb4 21. Bc3
+Bxc3 22. Qxc3 Bd7 23. d5 Qd6 24. Re5 exd5 25. Rxd5 Qc6 26. Qb4 Be6 27. Rc5 Qb6
+28. Rb1 Bg8 29. Rxf5 Qxb4 30. Rxb4 Rxf5 31. Bxf5 a3 32. Bd3 Rd8 33. Rb3 b5 34.
+Rxa3 Bxc4 35. Bxc4 bxc4 36. Rc3 Rd1+ 37. Kh2 Rd2 38. a4 Rxf2 39. Rxc4 Ra2 40.
+Kg3 Kh7 41. Kf3 Kg6 42. h4 c5 43. Rxc5 Rxa4 1/2-1/2
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.13"]
+[Round "4.2"]
+[White "Kramnik, Vladimir"]
+[Black "Caruana, Fabiano"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2769"]
+[BlackElo "2829"]
+[ECO "D91"]
+[Opening "Gruenfeld"]
+[Variation "5.Bg5"]
+[WhiteFideId "4101588"]
+[BlackFideId "2020009"]
+[EventDate "2014.12.10"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 c5 8.
+cxd5 Qxd5 9. e3 cxd4 10. cxd4 O-O 11. Be2 Qa5+ 12. Qd2 Qxd2+ 13. Kxd2 Nc6 14.
+Rhc1 Rd8 15. Rc5 Bf5 16. Rac1 Be4 17. Bd3 Bd5 18. Bc4 Bxf3 19. gxf3 Nxd4 20.
+exd4 Rxd4+ 21. Ke3 Rxf4 22. Kxf4 Bh6+ 23. Rg5 Kf8 24. Kg4 f6 25. f4 fxg5 26.
+fxg5 Bg7 27. Be6 Be5 28. h4 Kg7 29. h5 gxh5+ 30. Kxh5 Rf8 31. Rc8 Rxc8 32. Bxc8
+b5 33. Ba6 b4 34. Kg4 h6 35. gxh6+ 1/2-1/2
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.13"]
+[Round "4.3"]
+[White "Nakamura, Hikaru"]
+[Black "Adams, Michael"]
+[Result "1-0"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2775"]
+[BlackElo "2745"]
+[ECO "D30"]
+[Opening "QGD"]
+[WhiteFideId "2016192"]
+[BlackFideId "400041"]
+[EventDate "2014.12.10"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Bg5 Be7 5. Qc2 h6 6. Bxf6 Bxf6 7. e3 c5 8. cxd5
+cxd4 9. Bb5+ Bd7 10. dxe6 Qa5+ 11. Nbd2 Qxb5 12. exd7+ Nxd7 13. Qe4+ Kf8 14.
+Nxd4 Qxb2 15. Rb1 Qxa2 16. Qxb7 Rd8 17. Qb4+ Kg8 18. O-O a5 19. Qc3 Qd5 20. Qc7
+Nf8 21. Rb5 Qd7 22. Qxd7 Rxd7 23. N2f3 Bxd4 24. Nxd4 Ne6 25. Nxe6 fxe6 26. Rxa5
+Kf7 27. g4 Rc8 28. Rb1 Rc2 29. Ra8 Rc4 30. h3 h5 31. gxh5 Rh4 32. Rh8 Kf6 33.
+Kh2 Rd5 34. Rf8+ Ke7 35. Rf3 Rf5 36. Rxf5 exf5 37. Rg1 Kf6 38. Rg6+ Kf7 39. Rg5
+Kf6 40. f4 1-0
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.14"]
+[Round "5.1"]
+[White "Giri, Anish"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2768"]
+[BlackElo "2769"]
+[ECO "E06"]
+[Opening "Catalan"]
+[Variation "closed, 5.Nf3"]
+[WhiteFideId "24116068"]
+[BlackFideId "4101588"]
+[EventDate "2014.12.10"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4
+b5 9. Qc2 Bb7 10. Bd2 Be4 11. Qc1 c6 12. a4 Nbd7 13. Nc3 Bg6 14. Ne5 Nxe5 15.
+dxe5 Nd5 16. axb5 axb5 17. Nxd5 cxd5 18. Rxa8 Qxa8 19. Qc7 Re8 20. Rc1 b4 21.
+Bf3 h6 22. Kg2 b3 23. Qd7 Bc2 24. Ra1 Qc8 25. Qa4 Qb8 26. e4 d4 27. Qxd4 Rd8 28.
+Qc3 Qb7 29. Be1 Rc8 30. Ra7 Qxa7 31. Qxc8+ Kh7 32. Qc4 Bc5 33. Be2 Bd4 34. Bd3
+Qa1 35. Qxd4 Qxe1 36. Bc4 Bxe4+ 37. f3 Bc2 38. Bd3+ g6 39. Bc4 g5 40. g4 h5 41.
+gxh5 Kh6 42. Qd8 Qxe5 43. Qf8+ Qg7 44. Qxg7+ Kxg7 45. h4 Kh6 46. hxg5+ Kxh5 47.
+Kf2 Kxg5 48. Ke3 Kf5 49. f4 Kg4 50. Bb5 Kf5 51. Bc4 Kg6 52. Kf2 Kf6 53. Kf3 Kg6
+54. Kf2 Bd1 55. Ke3 Kf5 56. Bb5 Kg4 57. Be8 f6 58. Bd7 Kf5 59. Bb5 Bc2 60. Bd7
+Bb1 61. Ba4 Bc2 62. Bd7 Bb1 63. Ba4 Bc2 1/2-1/2
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.14"]
+[Round "5.2"]
+[White "Caruana, Fabiano"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2829"]
+[BlackElo "2775"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "2020009"]
+[BlackFideId "2016192"]
+[EventDate "2014.12.10"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8.
+Qxd8+ Kxd8 9. h3 Ke8 10. Nc3 Be6 11. g4 Ne7 12. Nd4 Bd7 13. Re1 h5 14. e6 fxe6
+15. Nxe6 Bxe6 16. Rxe6 Kd7 17. Re2 hxg4 18. hxg4 Ng6 19. Bg5 Bd6 20. Ne4 Rh7 21.
+Nxd6 cxd6 22. f4 Rah8 23. Rae1 c5 24. a4 a6 25. Rg2 Rh3 26. Re4 b5 27. axb5 axb5
+28. f5 Ne5 29. Bf4 Nf3+ 30. Kf1 g5 31. fxg6 Rg8 32. Rge2 Nd4 33. Re7+ Kc6 34.
+Kg2 Rh4 35. Kg3 Rh1 36. R2e6 Nxe6 37. Rxe6 Kd5 38. Rxd6+ Ke4 39. Re6+ Kd5 40.
+Re5+ Kd4 41. Rg5 Ke4 42. Re5+ Kd4 43. c3+ Kc4 44. Be3 Rxg6 45. Rxc5+ Kd3 46. Bf2
+Rgh6 47. g5 R6h3+ 48. Kg4 R3h2 49. Rd5+ Kc2 50. Bd4 Kxb2 51. Rxb5+ Kc2 52. Kf5
+Rg2 53. Kf6 Rh3 54. Rc5 Rhg3 55. Kg6 Kd3 56. Bf6 Rg1 57. Rc8 R3g2 58. Kf5 Rf1+
+59. Ke6 Rfg1 60. Rc5 Re2+ 61. Kf7 Reg2 62. Kg6 Rg3 63. Bd4 R1g2 64. Bf6 Rg1 65.
+Rc7 R3g2 66. Rc8 Rg3 67. c4 Rg4 68. c5 Kc4 69. Be7 Re4 70. Bf6 Kd5 71. c6 Kd6
+72. Kf7 Rf4 73. Kg7 Rc4 74. Kf7 Rxc6 75. Rd8+ Kc7 76. Rf8 Rf1 77. Kg7 Kd7 78.
+Rf7+ Ke6 79. Re7+ Kf5 80. Re5+ Kg4 81. Kg6 Rc4 1/2-1/2
+
+[Event "6th London Classic 2014"]
+[Site "London ENG"]
+[Date "2014.12.14"]
+[Round "5.3"]
+[White "Adams, Michael"]
+[Black "Anand, Viswanathan"]
+[Result "0-1"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2745"]
+[BlackElo "2793"]
+[ECO "C67"]
+[Opening "Ruy Lopez"]
+[Variation "Berlin defence, open variation"]
+[WhiteFideId "400041"]
+[BlackFideId "5000017"]
+[EventDate "2014.12.10"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8.
+Qxd8+ Kxd8 9. h3 Ke8 10. Nc3 h5 11. Rd1 Be7 12. g3 b6 13. a4 Bb7 14. a5 c5 15.
+Nd5 Bd8 16. Bg5 Rf8 17. c4 Bxd5 18. Rxd5 Bxg5 19. Nxg5 Ke7 20. Kg2 Nd4 21. Rd1
+Rad8 22. Nf3 c6 23. Rxd8 Rxd8 24. Ng5 b5 25. cxb5 cxb5 26. Ne4 Nc6 27. Rxd8 Kxd8
+28. e6 fxe6 29. Nxc5 Ke7 30. Nb3 Kd6 31. Kf3 Kd5 32. Kf4 Kc4 33. Nc1 Nxa5 34.
+Kg5 Nb3 35. Ne2 b4 36. Kxh5 a5 0-1
+
