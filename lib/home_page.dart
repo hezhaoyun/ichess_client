@@ -18,104 +18,107 @@ class Routes {
 
 class _HomePageState extends State<HomePage> {
   @override
-  Widget build(BuildContext context) => Scaffold(
-        body: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [
-                Theme.of(context).colorScheme.primary.withAlpha(0x1A),
-                Theme.of(context).colorScheme.surface,
-              ],
-            ),
-          ),
-          child: SafeArea(
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24.0),
-              child: Column(
-                children: [
-                  Row(
-                    children: [
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          const SizedBox(height: 40),
-                          Text(
-                            '棋路',
-                            style: Theme.of(context).textTheme.headlineLarge?.copyWith(
-                              fontWeight: FontWeight.bold,
-                              shadows: [
-                                Shadow(
-                                  color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                                  offset: const Offset(2, 2),
-                                  blurRadius: 4,
-                                ),
-                              ],
-                            ),
-                          ),
-                          Text(
-                            '探索国际象棋的无限可能',
-                            style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                                  color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
-                                ),
-                          )
-                        ],
-                      ),
-                      const Spacer(),
-                      IconButton(
-                        icon: const Icon(Icons.settings),
-                        onPressed: () => Navigator.pushNamed(context, Routes.settings),
-                      )
-                    ],
-                  ),
-                  const SizedBox(height: 48),
-                  Expanded(
-                    child: GridView.count(
-                      crossAxisCount: 2,
-                      mainAxisSpacing: 16,
-                      crossAxisSpacing: 16,
-                      children: [
-                        _buildCard(
-                          icon: Icons.computer,
-                          label: '人机对战',
-                          onTap: () => Navigator.pushNamed(context, Routes.aiBattle),
-                        ),
-                        _buildCard(
-                          icon: Icons.people,
-                          label: '在线对战',
-                          onTap: () => Navigator.pushNamed(context, Routes.onlineBattle),
-                        ),
-                        _buildCard(
-                          icon: Icons.menu_book,
-                          label: '阅读棋谱',
-                          onTap: () => Navigator.pushNamed(context, Routes.viewer),
-                        ),
-                        _buildCard(
-                          icon: Icons.edit,
-                          label: '推演棋盘',
-                          onTap: () => Navigator.pushNamed(context, Routes.setup),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 16.0),
-                    child: Center(
-                      child: Text(
-                        'ChessRoad v1.0.0 · ♟️',
-                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                              color: Theme.of(context).colorScheme.onSurface.withAlpha(128),
-                            ),
-                      ),
-                    ),
+  Widget build(BuildContext context) {
+    final header = Row(
+      children: [
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const SizedBox(height: 40),
+            Text(
+              '棋路',
+              style: Theme.of(context).textTheme.headlineLarge?.copyWith(
+                fontWeight: FontWeight.bold,
+                shadows: [
+                  Shadow(
+                    color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                    offset: const Offset(2, 2),
+                    blurRadius: 4,
                   ),
                 ],
               ),
             ),
+            Text(
+              '探索国际象棋的无限可能',
+              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                    color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
+                  ),
+            )
+          ],
+        ),
+        const Spacer(),
+        IconButton(
+          icon: const Icon(Icons.settings),
+          onPressed: () => Navigator.pushNamed(context, Routes.settings),
+        )
+      ],
+    );
+
+    final grid = Expanded(
+      child: GridView.count(
+        crossAxisCount: 2,
+        mainAxisSpacing: 16,
+        crossAxisSpacing: 16,
+        children: [
+          _buildCard(
+            icon: Icons.computer,
+            label: '人机对战',
+            onTap: () => Navigator.pushNamed(context, Routes.aiBattle),
+          ),
+          _buildCard(
+            icon: Icons.people,
+            label: '在线对战',
+            onTap: () => Navigator.pushNamed(context, Routes.onlineBattle),
+          ),
+          _buildCard(
+            icon: Icons.menu_book,
+            label: '阅读棋谱',
+            onTap: () => Navigator.pushNamed(context, Routes.viewer),
+          ),
+          _buildCard(
+            icon: Icons.edit,
+            label: '推演棋盘',
+            onTap: () => Navigator.pushNamed(context, Routes.setup),
+          ),
+        ],
+      ),
+    );
+
+    final footer = Padding(
+      padding: const EdgeInsets.only(bottom: 16.0),
+      child: Center(
+        child: Text(
+          'ChessRoad v1.0.0 · ♟️',
+          style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                color: Theme.of(context).colorScheme.onSurface.withAlpha(128),
+              ),
+        ),
+      ),
+    );
+
+    return Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Theme.of(context).colorScheme.primary.withAlpha(0x1A),
+              Theme.of(context).colorScheme.surface,
+            ],
           ),
         ),
-      );
+        child: SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 24.0),
+            child: Column(
+              children: [header, const SizedBox(height: 48), grid, footer],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
 
   Widget _buildCard({required IconData icon, required String label, required VoidCallback onTap}) => Hero(
         tag: label,
