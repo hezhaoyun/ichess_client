@@ -37,11 +37,18 @@ class _ManualsPageState extends State<ManualsPage> {
   List<ManualInfo>? manuals;
   String searchKeyword = '';
   bool isLoading = false;
+  final TextEditingController _searchController = TextEditingController();
 
   @override
   void initState() {
     super.initState();
     _loadManualsList();
+  }
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
   }
 
   Future<void> _loadManualsList() async {
@@ -174,12 +181,23 @@ class _ManualsPageState extends State<ManualsPage> {
         Padding(
           padding: const EdgeInsets.fromLTRB(20, 0, 20, 8),
           child: TextField(
+            controller: _searchController,
             decoration: InputDecoration(
               hintText: '搜索棋谱...',
               prefixIcon: const Icon(Icons.search),
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(8),
-              ),
+              suffixIcon: searchKeyword.isNotEmpty
+                  ? IconButton(
+                      icon: const Icon(Icons.clear),
+                      iconSize: 12,
+                      onPressed: () {
+                        setState(() {
+                          searchKeyword = '';
+                          _searchController.clear();
+                        });
+                      },
+                    )
+                  : null,
+              border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
               contentPadding: const EdgeInsets.symmetric(horizontal: 16),
             ),
             onChanged: (value) => setState(() => searchKeyword = value),
