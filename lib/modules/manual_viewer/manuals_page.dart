@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
+import '../../services/favorites_service.dart';
 import 'viewer_page.dart';
 
 class ManualInfo {
@@ -11,19 +12,13 @@ class ManualInfo {
   final int count;
   final String event;
 
-  ManualInfo({
-    required this.file,
-    required this.count,
-    required this.event,
-  });
+  ManualInfo({required this.file, required this.count, required this.event});
 
-  factory ManualInfo.fromJson(Map<String, dynamic> json) {
-    return ManualInfo(
-      file: json['file'] as String,
-      count: json['count'] as int,
-      event: json['event'] as String,
-    );
-  }
+  factory ManualInfo.fromJson(Map<String, dynamic> json) => ManualInfo(
+        file: json['file'] as String,
+        count: json['count'] as int,
+        event: json['event'] as String,
+      );
 }
 
 class ManualsPage extends StatefulWidget {
@@ -33,8 +28,10 @@ class ManualsPage extends StatefulWidget {
   State<ManualsPage> createState() => _ManualsPageState();
 }
 
-class _ManualsPageState extends State<ManualsPage> {
+class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStateMixin {
+  late TabController _tabController;
   List<ManualInfo>? manuals;
+  List<FavoriteGame>? favorites;
   String searchKeyword = '';
   bool isLoading = false;
   final TextEditingController _searchController = TextEditingController();
@@ -42,7 +39,9 @@ class _ManualsPageState extends State<ManualsPage> {
   @override
   void initState() {
     super.initState();
+    _tabController = TabController(length: 2, vsync: this);
     _loadManualsList();
+    _loadFavorites();
   }
 
   @override
@@ -68,67 +67,76 @@ class _ManualsPageState extends State<ManualsPage> {
     }
   }
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Theme.of(context).colorScheme.primary.withAlpha(0x1A),
-              Theme.of(context).colorScheme.surface,
-            ],
-          ),
-        ),
-        child: SafeArea(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              _buildHeader(context),
-              Expanded(
-                child: _buildManualList(),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
+  Future<void> _loadFavorites() async {
+    final favoritesService = FavoritesService();
+    final favoritesList = await favoritesService.getFavorites();
+    setState(() => favorites = favoritesList);
   }
 
-  Widget _buildHeader(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(16.0),
-      child: Row(
-        children: [
-          IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () => Navigator.of(context).pop(),
+  @override
+  Widget build(BuildContext context) => Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Theme.of(context).colorScheme.primary.withAlpha(0x1A),
+                Theme.of(context).colorScheme.surface,
+              ],
+            ),
           ),
-          const SizedBox(width: 8),
-          Text(
-            '棋谱列表',
-            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-              fontWeight: FontWeight.bold,
-              shadows: [
-                Shadow(
-                  color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                  offset: const Offset(1, 1),
-                  blurRadius: 2,
+          child: SafeArea(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                _buildHeader(context),
+                TabBar(
+                  controller: _tabController,
+                  tabs: const [Tab(text: '全部棋谱'), Tab(text: '我的收藏')],
+                ),
+                Expanded(
+                  child: TabBarView(
+                    controller: _tabController,
+                    children: [_buildManualList(), _buildFavoritesList()],
+                  ),
                 ),
               ],
             ),
           ),
-          const Spacer(),
-          IconButton(
-            icon: const Icon(Icons.folder_open),
-            onPressed: _loadPgnFile,
-          ),
-        ],
-      ),
-    );
-  }
+        ),
+      );
+
+  Widget _buildHeader(BuildContext context) => Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Row(
+          children: [
+            IconButton(
+              icon: const Icon(Icons.arrow_back),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+            const SizedBox(width: 8),
+            Text(
+              '棋谱列表',
+              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                fontWeight: FontWeight.bold,
+                shadows: [
+                  Shadow(
+                    color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                    offset: const Offset(1, 1),
+                    blurRadius: 2,
+                  ),
+                ],
+              ),
+            ),
+            const Spacer(),
+            IconButton(
+              icon: const Icon(Icons.folder_open),
+              onPressed: _loadPgnFile,
+            ),
+          ],
+        ),
+      );
 
   Future<void> _loadPgnFile() async {
     try {
@@ -151,10 +159,7 @@ class _ManualsPageState extends State<ManualsPage> {
         if (mounted) {
           Navigator.of(context).push(
             MaterialPageRoute(
-              builder: (context) => ViewerPage(
-                manualFile: file.name,
-                pgnContent: content,
-              ),
+              builder: (context) => ViewerPage(manualFile: file.name, pgnContent: content),
             ),
           );
         }
@@ -233,6 +238,39 @@ class _ManualsPageState extends State<ManualsPage> {
           ),
         ),
       ],
+    );
+  }
+
+  Widget _buildFavoritesList() {
+    if (favorites == null) {
+      return const Center(child: CircularProgressIndicator());
+    }
+
+    if (favorites!.isEmpty) {
+      return const Center(child: Text('暂无收藏的棋谱'));
+    }
+
+    final filteredFavorites =
+        favorites!.where((favorite) => favorite.event.toLowerCase().contains(searchKeyword.toLowerCase())).toList();
+
+    return ListView.builder(
+      padding: const EdgeInsets.all(16),
+      itemCount: filteredFavorites.length,
+      itemBuilder: (context, index) {
+        final favorite = filteredFavorites[index];
+        return Card(
+          child: ListTile(
+            title: Text(favorite.event),
+            subtitle: Text('${favorite.white} vs ${favorite.black}\n${favorite.date}'),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => ViewerPage(manualFile: 'favorite_${index + 1}.pgn', pgnContent: favorite.pgn),
+              ),
+            ),
+          ),
+        );
+      },
     );
   }
 }

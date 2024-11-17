@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../services/ai_native.dart';
+import '../../services/favorites_service.dart';
 import '../../widgets/chess_board_widget.dart';
 import 'analysis_chart.dart';
 import 'move_list.dart';
@@ -14,11 +15,7 @@ class ViewerPage extends StatefulWidget {
   final String manualFile;
   final String? pgnContent;
 
-  const ViewerPage({
-    super.key,
-    required this.manualFile,
-    this.pgnContent,
-  });
+  const ViewerPage({super.key, required this.manualFile, this.pgnContent});
 
   @override
   State<ViewerPage> createState() => _ViewerPageState();
@@ -29,6 +26,8 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
 
   bool isLoading = false;
   final scrollController = ScrollController();
+  bool isFavorite = false;
+  final favoritesService = FavoritesService();
 
   @override
   void initState() {
@@ -36,6 +35,7 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
     initStockfish();
     analysisCardController = ExpansionTileController();
     _loadPgnAsset(widget.manualFile);
+    _checkFavoriteStatus();
   }
 
   Future<void> initStockfish() async {
@@ -77,6 +77,40 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
     }
   }
 
+  Future<void> _checkFavoriteStatus() async {
+    if (widget.pgnContent != null) {
+      final status = await favoritesService.isFavorite(widget.pgnContent!);
+      setState(() => isFavorite = status);
+    }
+  }
+
+  Future<void> _toggleFavorite() async {
+    if (currentGame == null) return;
+
+    final pgnContent = widget.pgnContent ?? currentGame!.toPgn();
+
+    if (isFavorite) {
+      await favoritesService.removeFavorite(pgnContent);
+    } else {
+      final game = FavoriteGame(
+        event: currentGame!.event,
+        date: currentGame!.date,
+        white: currentGame!.white,
+        black: currentGame!.black,
+        pgn: pgnContent,
+        addedAt: DateTime.now(),
+      );
+      await favoritesService.addFavorite(game);
+    }
+
+    setState(() => isFavorite = !isFavorite);
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text(isFavorite ? '已添加到收藏' : '已取消收藏')),
+      );
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final header = Row(
@@ -100,6 +134,10 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
           ),
         ),
         const Spacer(),
+        IconButton(
+          icon: Icon(isFavorite ? Icons.star : Icons.star_border),
+          onPressed: _toggleFavorite,
+        ),
       ],
     );
 

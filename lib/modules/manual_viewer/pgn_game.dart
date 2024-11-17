@@ -90,6 +90,8 @@ class PgnGame {
       movesText += ' $line';
     }
 
+    movesText = movesText.trim();
+
     // 解析移动
     final moveMatches = _moveRegex.allMatches(movesText);
     for (var match in moveMatches) {
@@ -127,5 +129,54 @@ class PgnGame {
     }
 
     return games;
+  }
+
+  String toPgn() {
+    // 添加标准PGN标签
+    final tags = [
+      '[Event "$event"]',
+      '[Site "$site"]',
+      '[Date "$date"]',
+      '[Round "$round"]',
+      '[White "$white"]',
+      '[Black "$black"]',
+      '[Result "$result"]'
+    ].join('\n');
+
+    // 构建带有回合数的着法文本
+    final StringBuffer movesText = StringBuffer();
+    int moveIndex = 0;
+    int lineLength = 0;
+
+    while (moveIndex < moves.length) {
+      // 每两步棋为一个回合
+      if (moveIndex % 2 == 0) {
+        String moveNum = '${(moveIndex ~/ 2) + 1}. ';
+        if (lineLength + moveNum.length > 80) {
+          movesText.write('\n');
+          lineLength = 0;
+        }
+        movesText.write(moveNum);
+        lineLength += moveNum.length;
+      }
+
+      String move = moves[moveIndex];
+      // 如果当前行太长,进行换行
+      if (lineLength + move.length + 1 > 80) {
+        movesText.write('\n');
+        lineLength = 0;
+      }
+
+      movesText.write('$move ');
+      lineLength += move.length + 1;
+      moveIndex++;
+    }
+
+    // 添加结果
+    if (result.isNotEmpty) {
+      movesText.write(result);
+    }
+
+    return '${'$tags\n\n$movesText'.trim()}\n';
   }
 }
