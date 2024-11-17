@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "mdevs.cn" "\0"
-            VALUE "FileDescription", "chess" "\0"
+            VALUE "FileDescription", "ichess" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "chess" "\0"
+            VALUE "InternalName", "ichess" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 mdevs.cn. All rights reserved." "\0"
-            VALUE "OriginalFilename", "chess.exe" "\0"
-            VALUE "ProductName", "chess" "\0"
+            VALUE "OriginalFilename", "ichess.exe" "\0"
+            VALUE "ProductName", "ichess" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

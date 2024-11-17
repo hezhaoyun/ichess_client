@@ -1,6 +1,6 @@
 {
-    "name": "chess",
-    "short_name": "chess",
+    "name": "ichess",
+    "short_name": "ichess",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
