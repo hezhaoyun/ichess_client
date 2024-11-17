@@ -16,7 +16,7 @@ mixin BattleMixin<T extends StatefulWidget> on State<T> {
   late chess_lib.Chess chess;
   List<List<int>>? lastMove;
 
-  void initChessGame({String initialFen = chess_lib.Chess.DEFAULT_POSITION}) {
+  void setupChessBoard({String initialFen = chess_lib.Chess.DEFAULT_POSITION}) {
     chess = chess_lib.Chess();
     controller = WPChessboardController(
       initialFen: initialFen,
@@ -121,8 +121,8 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   late String pid, name;
 
   @override
-  void initChessGame({String initialFen = chess_lib.Chess.DEFAULT_POSITION}) {
-    super.initChessGame(initialFen: initialFen);
+  void setupChessBoard({String initialFen = chess_lib.Chess.DEFAULT_POSITION}) {
+    super.setupChessBoard(initialFen: initialFen);
 
     pid = 'PID_${Random().nextInt(1000000)}';
     name = 'CLIENT_${Random().nextInt(1000000)}';

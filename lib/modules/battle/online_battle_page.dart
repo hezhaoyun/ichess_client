@@ -17,7 +17,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
   @override
   void initState() {
     super.initState();
-    initChessGame(initialFen: '');
+    setupChessBoard(initialFen: '');
   }
 
   @override

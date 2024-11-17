@@ -25,6 +25,7 @@ class AIBattlePage extends StatefulWidget {
 class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   static const String _gameStateKey = 'ai_battle_game_state';
 
+  String? initialFen;
   bool isThinking = false;
   bool _isEngineReady = false;
   List<String> moves = [];
@@ -33,18 +34,21 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   @override
   void initState() {
     super.initState();
-    initChessGame();
-    _loadGameState();
+    initialFen = widget.initialFen;
 
-    if (widget.initialFen != null) {
-      chess.load(widget.initialFen!);
-      controller.setFen(widget.initialFen!);
+    setupChessBoard();
+
+    if (initialFen != null) {
+      chess.load(initialFen!);
+      controller.setFen(initialFen!);
+    } else {
+      _restoreGameState();
     }
 
-    _initializeGame();
+    setupStockfishEngine();
   }
 
-  Future<void> _initializeGame() async {
+  Future<void> setupStockfishEngine() async {
     final configManager = Provider.of<AppConfigManager>(context, listen: false);
 
     try {
@@ -70,7 +74,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     }
   }
 
-  Future<void> _loadGameState() async {
+  Future<void> _restoreGameState() async {
     final prefs = await SharedPreferences.getInstance();
     final gameStateJson = prefs.getString(_gameStateKey);
 
@@ -78,9 +82,27 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       final gameState = json.decode(gameStateJson);
 
       setState(() {
-        chess.load(gameState['fen']);
-        controller.setFen(gameState['fen']);
-        moves = List<String>.from(gameState['moves']);
+        // 加载保存的初始状态
+        initialFen = gameState['initialFen'];
+        if (initialFen != null) {
+          chess.load(initialFen!);
+        } else {
+          chess.reset();
+        }
+
+        // 重放所有历史移动
+        final List<String> historicalMoves = List<String>.from(gameState['moves']);
+        for (String move in historicalMoves) {
+          final moveMap = {
+            'from': move.substring(0, 2),
+            'to': move.substring(2, 4),
+            if (move.length > 4) 'promotion': move[4],
+          };
+          chess.move(moveMap);
+        }
+
+        controller.setFen(chess.fen);
+        moves = historicalMoves;
 
         if (gameState['lastMove'] != null) {
           lastMove = List<List<int>>.from(gameState['lastMove'].map((move) => List<int>.from(move)));
@@ -91,13 +113,16 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
   Future<void> _saveGameState() async {
     if (chess.game_over) {
-      // 如果游戏结束，清除保存的状态
       await _clearGameState();
       return;
     }
 
     final prefs = await SharedPreferences.getInstance();
-    final gameState = {'fen': chess.fen, 'moves': moves, 'lastMove': lastMove};
+    final gameState = {
+      'initialFen': initialFen ?? chess_lib.Chess.DEFAULT_POSITION,
+      'moves': moves,
+      'lastMove': lastMove,
+    };
 
     await prefs.setString(_gameStateKey, json.encode(gameState));
   }
@@ -253,17 +278,17 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
     final pvMatch = RegExp(r'\spv (.+)$').firstMatch(line);
     if (pvMatch != null) {
-      final moves = pvMatch.group(1)!.split(' ');
+      final pvs = pvMatch.group(1)!.split(' ');
 
-      if (moves.isNotEmpty) {
+      if (pvs.isNotEmpty) {
         setState(() {
           List<Arrow> arrows = [];
 
-          final engineMove = moves[0];
+          final engineMove = pvs[0];
           arrows.add(_createArrow(engineMove, Colors.blue.withOpacity(0.5)));
 
-          if (moves.length >= 2) {
-            final opponentMove = moves[1];
+          if (pvs.length >= 2) {
+            final opponentMove = pvs[1];
             arrows.add(_createArrow(opponentMove, Colors.red.withOpacity(0.5)));
           }
 
@@ -293,15 +318,11 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     _clearGameState();
 
     setState(() {
-      if (widget.initialFen != null) {
-        chess.load(widget.initialFen!);
-        controller.setFen(widget.initialFen!);
-      } else {
-        chess.reset();
-        controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
-      }
+      chess.reset();
+      controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
 
       moves.clear();
+      initialFen = null;
       evaluation = null;
       controller.setArrows([]);
       lastMove = null;
@@ -311,6 +332,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   void undoMove() {
     if (moves.length >= 2) {
       setState(() {
+        lastMove = null;
         chess.undo();
         chess.undo();
         moves.removeLast();
