@@ -461,7 +461,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     _buildPlayerInfo(isOpponent: true),
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 10),
                     ChessBoardWidget(
                       size: size,
                       controller: controller,
@@ -473,9 +473,9 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                       onPieceStartDrag: onPieceStartDrag,
                       onEmptyFieldTap: onEmptyFieldTap,
                     ),
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 10),
                     _buildPlayerInfo(isOpponent: false),
-                    const SizedBox(height: 32),
+                    const SizedBox(height: 20),
                     _buildGameControls(),
                   ],
                 ),
@@ -488,6 +488,81 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   }
 
   Widget _buildPlayerInfo({required bool isOpponent}) {
+    // 获取屏幕高度
+    final screenHeight = MediaQuery.of(context).size.height;
+    // 设置一个阈值，比如 700
+    final bool isCompactMode = screenHeight < 700;
+
+    if (isCompactMode) {
+      // 紧凑模式 - 单行显示
+      return Container(
+        width: MediaQuery.of(context).size.shortestSide - 36,
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+        child: Row(
+          children: [
+            // 头像部分
+            SizedBox(
+              width: 40,
+              height: 40,
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+                  if (isOpponent && isThinking)
+                    SizedBox(
+                      width: 40,
+                      height: 40,
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2,
+                        color: Colors.red.shade300,
+                      ),
+                    ),
+                  CircleAvatar(
+                    radius: 16,
+                    backgroundColor: isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
+                    child: Text(
+                      isOpponent ? 'AI' : '你',
+                      style: TextStyle(
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold,
+                        color: isOpponent ? Colors.red.shade700 : Colors.blue.shade700,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(width: 8),
+            // 名称
+            Text(
+              isOpponent ? '电脑' : '玩家',
+              style: const TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            const SizedBox(width: 8),
+            // ELO信息
+            _buildInfoChip(
+              icon: Icons.emoji_events_outlined,
+              label: 'ELO: ${isOpponent ? '2000' : '1500'}',
+            ),
+            if (evaluation != null) ...[
+              const SizedBox(width: 8),
+              Text(
+                '评估: ${evaluation!}',
+                style: TextStyle(
+                  color: evaluation! > 0 ? Colors.green : Colors.red,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 12,
+                ),
+              ),
+            ],
+          ],
+        ),
+      );
+    }
+
+    // 原有的卡片式布局代码
     return Container(
       width: MediaQuery.of(context).size.shortestSide - 36,
       padding: const EdgeInsets.all(16),

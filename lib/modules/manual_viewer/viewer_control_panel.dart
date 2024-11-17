@@ -11,7 +11,7 @@ class ViewerControlPanel extends StatelessWidget {
   final VoidCallback onNextMove;
   final VoidCallback onGoToEnd;
 
-  ViewerControlPanel({
+  const ViewerControlPanel({
     super.key,
     required this.currentGameIndex,
     required this.gamesCount,
@@ -22,9 +22,7 @@ class ViewerControlPanel extends StatelessWidget {
     required this.onPreviousMove,
     required this.onNextMove,
     required this.onGoToEnd,
-  }) {
-    debugPrint('currentMoveIndex: $currentMoveIndex, maxMoves: $maxMoves');
-  }
+  });
 
   @override
   Widget build(BuildContext context) => Card(

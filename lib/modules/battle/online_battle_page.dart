@@ -75,7 +75,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
                 time: opponentGameTime.toString(),
                 isOpponent: true,
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 10),
               ChessBoardWidget(
                 size: size,
                 orientation: orientation,
@@ -87,14 +87,14 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
                 onPieceStartDrag: onPieceStartDrag,
                 onEmptyFieldTap: onEmptyFieldTap,
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 10),
               _buildPlayerInfo(
                 name: player['name'],
                 elo: player['elo'],
                 time: gameTime.toString(),
                 isOpponent: false,
               ),
-              const SizedBox(height: 32),
+              const SizedBox(height: 20),
               _buildGameControls(),
             ],
           ),
@@ -105,6 +105,61 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
 
   Widget _buildPlayerInfo(
       {required String name, required dynamic elo, required String time, required bool isOpponent}) {
+    // 获取屏幕高度
+    final screenHeight = MediaQuery.of(context).size.height;
+    // 设置一个阈值，比如 700
+    final bool isCompactMode = screenHeight < 700;
+
+    if (isCompactMode) {
+      // 紧凑模式 - 单行显示
+      return Container(
+        width: MediaQuery.of(context).size.shortestSide - 36,
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+        child: Row(
+          children: [
+            // 头像
+            CircleAvatar(
+              radius: 16,
+              backgroundColor: isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
+              child: Text(
+                name[0].toUpperCase(),
+                style: TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                  color: isOpponent ? Colors.red.shade700 : Colors.blue.shade700,
+                ),
+              ),
+            ),
+            const SizedBox(width: 8),
+            // 名称
+            Expanded(
+              child: Text(
+                name,
+                style: const TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            const SizedBox(width: 8),
+            // ELO信息
+            _buildInfoChip(
+              icon: Icons.emoji_events_outlined,
+              label: 'ELO: $elo',
+            ),
+            const SizedBox(width: 8),
+            // 时间信息
+            _buildInfoChip(
+              icon: Icons.timer_outlined,
+              label: time,
+            ),
+          ],
+        ),
+      );
+    }
+
+    // 原有的卡片式布局代码
     return Container(
       width: MediaQuery.of(context).size.shortestSide - 36,
       padding: const EdgeInsets.all(16),
