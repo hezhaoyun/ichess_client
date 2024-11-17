@@ -12,8 +12,8 @@ class AiNative {
   bool _isInitialized = false;
   bool get isMobileDevice => Platform.isAndroid || Platform.isIOS;
 
-  Stream<String> get stdout => _outputController.stream;
   final _outputController = StreamController<String>.broadcast();
+  Stream<String> get stdout => _outputController.stream;
 
   // 添加新的属性
   int _skillLevel = 10;
@@ -48,6 +48,11 @@ class AiNative {
         _engine.stdin = 'uci';
         _engine.stdin = 'isready';
         _engine.stdin = 'ucinewgame';
+
+        _engine.stdout.listen((output) {
+          debugPrint('Stockfish output: $output');
+          _outputController.add(output);
+        });
       } else {
         final String execPath = await _getStockfishPath();
         _engine = await Process.start(execPath, []);
@@ -98,7 +103,7 @@ class AiNative {
 
   // 设置思考时间（毫秒）
   void setMoveTime(int milliseconds) {
-    _moveTime = milliseconds.clamp(100, 10000);
+    _moveTime = milliseconds.clamp(1000, 15000);
     _useTime = true;
   }
 

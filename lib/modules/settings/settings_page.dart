@@ -146,7 +146,7 @@ class SettingsPage extends StatelessWidget {
                       if (appConfigManager.useTimeControl)
                         ListTile(
                           title: const Text('思考时间'),
-                          subtitle: Text('${appConfigManager.moveTime}秒'),
+                          subtitle: Text('${appConfigManager.moveTime}毫秒'),
                           onTap: () => _showMoveTimeDialog(context, appConfigManager),
                         )
                       else
@@ -187,10 +187,10 @@ class SettingsPage extends StatelessWidget {
       builder: (context) => _EngineSliderDialog(
         title: '设置思考时间',
         initialValue: configManager.moveTime.toDouble(),
-        min: 1,
-        max: 30,
-        divisions: 29,
-        labelFormat: (value) => '${value.round()}秒',
+        min: 1000,
+        max: 15000,
+        divisions: 14,
+        labelFormat: (value) => '${value.round()}毫秒',
         onChanged: (value) => configManager.setMoveTime(value.round()),
       ),
     );
@@ -230,10 +230,7 @@ class SettingsPage extends StatelessWidget {
                 leading: Container(
                   width: 24,
                   height: 24,
-                  decoration: BoxDecoration(
-                    color: themeColor,
-                    shape: BoxShape.circle,
-                  ),
+                  decoration: BoxDecoration(color: themeColor, shape: BoxShape.circle),
                 ),
                 title: Text(themeName),
                 trailing: isSelected ? Icon(Icons.check_circle, color: themeColor) : null,
@@ -296,9 +293,7 @@ class _EngineSliderDialogState extends State<_EngineSliderDialog> {
           divisions: widget.divisions,
           label: widget.labelFormat(_value),
           onChanged: (value) {
-            setState(() {
-              _value = value;
-            });
+            setState(() => _value = value);
             widget.onChanged(value);
           },
         ),
