@@ -30,6 +30,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   bool _isEngineReady = false;
   List<String> moves = [];
   int? evaluation;
+  BoardOrientation boardOrientation = BoardOrientation.white;
 
   @override
   void initState() {
@@ -319,9 +320,40 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   }
 
   void newGame() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('选择您的执子'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ListTile(
+              leading: const Icon(Icons.circle, color: Colors.white),
+              title: const Text('执白'),
+              onTap: () {
+                Navigator.pop(context);
+                _startNewGame(BoardOrientation.white);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.circle, color: Colors.black),
+              title: const Text('执黑'),
+              onTap: () {
+                Navigator.pop(context);
+                _startNewGame(BoardOrientation.black);
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _startNewGame(BoardOrientation orientation) {
     _clearGameState();
 
     setState(() {
+      boardOrientation = orientation;
       chess.reset();
       controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
 
@@ -330,6 +362,11 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       evaluation = null;
       controller.setArrows([]);
       lastMove = null;
+
+      // 如果选择执黑，让电脑先走
+      if (orientation == BoardOrientation.black) {
+        makeComputerMove();
+      }
     });
   }
 
@@ -470,7 +507,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                     ChessBoardWidget(
                       size: size,
                       controller: controller,
-                      orientation: BoardOrientation.white,
+                      orientation: boardOrientation,
                       interactiveEnable: !isThinking,
                       getLastMove: () => lastMove,
                       onPieceDrop: onPieceDrop,
