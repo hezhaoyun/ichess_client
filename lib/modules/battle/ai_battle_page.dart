@@ -337,6 +337,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     if (moves.length >= 2) {
       setState(() {
         lastMove = null;
+        controller.setArrows([]);
         chess.undo();
         chess.undo();
         moves.removeLast();
