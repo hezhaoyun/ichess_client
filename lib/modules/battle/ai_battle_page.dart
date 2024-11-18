@@ -31,6 +31,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   List<String> moves = [];
   int? evaluation;
   BoardOrientation boardOrientation = BoardOrientation.white;
+  bool isAnalyzing = false;
 
   @override
   void initState() {
@@ -449,6 +450,71 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   // 生成标准的移动记录
   String _generateMovesText() => chess.san_moves().join(' ');
 
+  Future<void> analyzePosition() async {
+    if (!_isEngineReady || isThinking || isAnalyzing) return;
+
+    setState(() => isAnalyzing = true);
+    controller.setArrows([]);
+
+    try {
+      final stockfish = AiNative.instance;
+      stockfish.sendCommand(
+        'position fen ${chess.fen} moves ${moves.join(' ')}',
+      );
+      stockfish.sendCommand(stockfish.getGoCommand());
+
+      String? bestMove;
+      String? ponderMove;
+      await for (final output in stockfish.stdout) {
+        for (final line in output.split('\n')) {
+          final trimmedLine = line.trim();
+          if (trimmedLine.isEmpty) continue;
+
+          if (trimmedLine.startsWith('info')) {
+            _parseInfoLine(trimmedLine);
+            continue;
+          }
+
+          if (trimmedLine.startsWith('bestmove')) {
+            final parts = trimmedLine.split(' ');
+            if (parts.length >= 2) {
+              bestMove = parts[1];
+              if (parts.length >= 4 && parts[2] == 'ponder') {
+                ponderMove = parts[3];
+              }
+            }
+            break;
+          }
+        }
+
+        if (bestMove != null) break;
+      }
+
+      if (bestMove != null && mounted) {
+        setState(() {
+          List<Arrow> arrows = [];
+          arrows.add(_createArrow(bestMove!, Colors.green.withAlpha(0x7F)));
+
+          if (ponderMove != null) {
+            arrows.add(_createArrow(ponderMove, Colors.red.withAlpha(0x7F)));
+          }
+
+          controller.setArrows(arrows);
+        });
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('分析失败，请重试')),
+        );
+      }
+    } finally {
+      if (mounted) {
+        setState(() => isAnalyzing = false);
+      }
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final double size = MediaQuery.of(context).size.shortestSide - 36;
@@ -742,6 +808,19 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       children: [
         ElevatedButton(style: buttonStyle, onPressed: newGame, child: const Text('新局')),
         ElevatedButton(style: buttonStyle, onPressed: undoMove, child: const Text('悔棋')),
+        if (!isThinking && chess.turn == chess_lib.Color.WHITE && !chess.game_over)
+          ElevatedButton.icon(
+            style: buttonStyle,
+            onPressed: isAnalyzing ? null : analyzePosition,
+            icon: isAnalyzing
+                ? const SizedBox(
+                    width: 16,
+                    height: 16,
+                    child: CircularProgressIndicator(strokeWidth: 2),
+                  )
+                : const Icon(Icons.lightbulb_outline),
+            label: Text(isAnalyzing ? '分析中...' : '提示'),
+          ),
       ],
     );
   }
