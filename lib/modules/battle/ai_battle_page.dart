@@ -52,6 +52,10 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     final configManager = Provider.of<AppConfigManager>(context, listen: false);
 
     try {
+      if (!Platform.isAndroid && !Platform.isIOS) {
+        AiNative.instance.setEnginePath(configManager.enginePath);
+      }
+
       await AiNative.instance.initialize();
 
       AiNative.instance.setSkillLevel(configManager.engineLevel);
@@ -235,10 +239,10 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         if (mounted) {
           setState(() {
             List<Arrow> arrows = [];
-            arrows.add(_createArrow(bestMove!, Colors.blue.withOpacity(0.5)));
+            arrows.add(_createArrow(bestMove!, Colors.blue.withAlpha(0x7F)));
 
             if (ponderMove != null) {
-              arrows.add(_createArrow(ponderMove, Colors.red.withOpacity(0.5)));
+              arrows.add(_createArrow(ponderMove, Colors.red.withAlpha(0x7F)));
             }
 
             controller.setArrows(arrows);
@@ -285,11 +289,11 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
           List<Arrow> arrows = [];
 
           final engineMove = pvs[0];
-          arrows.add(_createArrow(engineMove, Colors.blue.withOpacity(0.5)));
+          arrows.add(_createArrow(engineMove, Colors.blue.withAlpha(0x7F)));
 
           if (pvs.length >= 2) {
             final opponentMove = pvs[1];
-            arrows.add(_createArrow(opponentMove, Colors.red.withOpacity(0.5)));
+            arrows.add(_createArrow(opponentMove, Colors.red.withAlpha(0x7F)));
           }
 
           controller.setArrows(arrows);

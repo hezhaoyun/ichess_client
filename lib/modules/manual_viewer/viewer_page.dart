@@ -1,7 +1,11 @@
+import 'dart:io';
+
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../config/app_config_manager.dart';
 import '../../services/ai_native.dart';
 import '../../services/favorites_service.dart';
 import '../../widgets/chess_board_widget.dart';
@@ -39,6 +43,11 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
   }
 
   Future<void> initStockfish() async {
+    if (!Platform.isAndroid && !Platform.isIOS) {
+      final configManager = Provider.of<AppConfigManager>(context, listen: false);
+      AiNative.instance.setEnginePath(configManager.enginePath);
+    }
+
     await AiNative.instance.initialize();
     AiNative.instance.setSkillLevel(20);
   }

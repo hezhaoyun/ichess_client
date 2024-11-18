@@ -17,7 +17,7 @@ class GameResultDialog extends StatelessWidget {
             borderRadius: BorderRadius.circular(20),
             boxShadow: [
               BoxShadow(
-                color: (isVictory ? Colors.yellow : Colors.blue).withOpacity(0.3),
+                color: (isVictory ? Colors.yellow : Colors.blue).withAlpha(0x33),
                 blurRadius: 20,
                 spreadRadius: 5,
               ),
@@ -43,7 +43,7 @@ class GameResultDialog extends StatelessWidget {
                   color: isVictory ? Colors.orange : Colors.blue,
                   shadows: [
                     Shadow(
-                      color: (isVictory ? Colors.orange : Colors.blue).withOpacity(0.3),
+                      color: (isVictory ? Colors.orange : Colors.blue).withAlpha(0x33),
                       offset: const Offset(2, 2),
                       blurRadius: 4,
                     ),
@@ -54,28 +54,19 @@ class GameResultDialog extends StatelessWidget {
               Text(
                 message,
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 16,
-                  color: Colors.grey[700],
-                ),
+                style: TextStyle(fontSize: 16, color: Colors.grey[700]),
               ),
               const SizedBox(height: 24),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: isVictory ? Colors.orange : Colors.blue,
                   padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 12),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(25),
-                  ),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
                 ),
                 onPressed: () => Navigator.of(context).pop(),
                 child: const Text(
                   '确定',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),
             ],

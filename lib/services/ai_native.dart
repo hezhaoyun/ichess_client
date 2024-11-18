@@ -20,12 +20,14 @@ class AiNative {
   int _moveTime = 1000; // 默认1秒
   int _searchDepth = 20; // 默认深度20层
   bool _useTime = true; // 默认使用时间限制而不是深度限制
+  String _enginePath = '';
 
   // 获取当前设置
   int get skillLevel => _skillLevel;
   int get moveTime => _moveTime;
   int get searchDepth => _searchDepth;
   bool get useTime => _useTime;
+  String get enginePath => _enginePath;
 
   // 私有构造函数
   AiNative._();
@@ -54,8 +56,7 @@ class AiNative {
           _outputController.add(output);
         });
       } else {
-        final String execPath = await _getStockfishPath();
-        _engine = await Process.start(execPath, []);
+        _engine = await Process.start(enginePath, []);
 
         _engine.stdin.writeln('uci');
         _engine.stdin.writeln('isready');
@@ -72,15 +73,6 @@ class AiNative {
       debugPrint('引擎初始化失败: $e');
       rethrow;
     }
-  }
-
-  // 修改获取平台对应的 Stockfish 路径方法
-  Future<String> _getStockfishPath() async {
-    if (!Platform.isMacOS) {
-      throw Exception('Platform is not support.');
-    }
-
-    return '/Users/zhaoyun/dev/ichess/chess_server/stockfish-17-m1';
   }
 
   // 修改 stdin 方法
@@ -111,6 +103,10 @@ class AiNative {
   void setSearchDepth(int depth) {
     _searchDepth = depth.clamp(1, 30);
     _useTime = false;
+  }
+
+  void setEnginePath(String path) {
+    _enginePath = path;
   }
 
   // 修改获取引擎命令的方法

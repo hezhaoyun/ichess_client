@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:file_picker/file_picker.dart';
 import '../../config/app_config_manager.dart';
 import '../../theme/theme_manager.dart';
 
@@ -155,6 +158,15 @@ class SettingsPage extends StatelessWidget {
                           subtitle: Text('${appConfigManager.searchDepth}层'),
                           onTap: () => _showSearchDepthDialog(context, appConfigManager),
                         ),
+                      if (!Platform.isAndroid && !Platform.isIOS)
+                        ListTile(
+                          title: const Text('引擎路径'),
+                          subtitle: Text(appConfigManager.enginePath),
+                          onTap: () async {
+                            final result = await _showEnginePathDialog(context, appConfigManager);
+                            if (result != null) appConfigManager.setEnginePath(result);
+                          },
+                        ),
                     ],
                   ),
                 ),
@@ -165,6 +177,45 @@ class SettingsPage extends StatelessWidget {
       ),
     );
   }
+
+  Future<String?> _showEnginePathDialog(BuildContext context, AppConfigManager appConfigManager) => showDialog<String>(
+        context: context,
+        builder: (context) {
+          final controller = TextEditingController(text: appConfigManager.enginePath);
+          return AlertDialog(
+            title: const Text('设置引擎路径'),
+            content: Row(
+              children: [
+                Expanded(
+                  child: TextField(
+                    controller: controller,
+                    decoration: const InputDecoration(hintText: '请输入引擎路径'),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () async {
+                    final path = await FilePicker.platform.pickFiles();
+                    if (path != null) {
+                      controller.text = path.files.single.path ?? '';
+                    }
+                  },
+                  child: const Text('浏览'),
+                ),
+              ],
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: const Text('取消'),
+              ),
+              TextButton(
+                onPressed: () => Navigator.pop(context, controller.text),
+                child: const Text('确定'),
+              ),
+            ],
+          );
+        },
+      );
 
   void _showEngineLevelDialog(BuildContext context, AppConfigManager configManager) {
     showDialog(
