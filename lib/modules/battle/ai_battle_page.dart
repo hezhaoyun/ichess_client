@@ -659,7 +659,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               icon: Icons.emoji_events_outlined,
               label: 'ELO: ${isOpponent ? '2000' : '1500'}',
             ),
-            if (evaluation != null) ...[
+            if (isOpponent && evaluation != null) ...[
               const SizedBox(width: 8),
               Text(
                 '评估: ${evaluation!}',
