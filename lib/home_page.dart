@@ -22,6 +22,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final header = Row(
       children: [
+        Padding(
+          padding: const EdgeInsets.only(top: 36.0, right: 10.0),
+          child: Image.asset('assets/icons/icon-a.png', width: 56, height: 56),
+        ),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
