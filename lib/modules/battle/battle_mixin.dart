@@ -9,7 +9,14 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import '../../config/app_config_manager.dart';
 import 'promotion_dialog.dart';
 
-enum GameState { idle, connected, waitingMatch, waitingMove, waitingOpponent }
+enum OnlineState {
+  offline,
+  joining,
+  matching,
+  waitingMove,
+  waitingOpponent,
+  stayInLobby,
+}
 
 mixin BattleMixin<T extends StatefulWidget> on State<T> {
   late WPChessboardController controller;
@@ -109,7 +116,7 @@ mixin BattleMixin<T extends StatefulWidget> on State<T> {
 
 mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   socket_io.Socket? socket;
-  GameState gameState = GameState.idle;
+  OnlineState gameState = OnlineState.offline;
   BoardOrientation orientation = BoardOrientation.white;
 
   int gameTime = 0;
@@ -119,6 +126,27 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   Map<String, dynamic> opponent = {'name': '~', 'elo': 0};
 
   late String pid, name;
+
+  // 添加标志位
+  bool _mounted = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _mounted = true;
+  }
+
+  @override
+  void dispose() {
+    _mounted = false;
+    socket?.dispose();
+    super.dispose();
+  }
+
+  // 修改 setState 调用
+  void safeSetState(VoidCallback fn) {
+    if (_mounted) setState(fn);
+  }
 
   @override
   void setupChessBoard({String initialFen = chess_lib.Chess.DEFAULT_POSITION}) {
@@ -160,14 +188,15 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   onConnect(_) {
     debugPrint('Successful connection!');
     socket?.emit('join', {'pid': pid, 'name': name});
-    setState(() => gameState = GameState.connected);
+    safeSetState(() => gameState = OnlineState.joining);
   }
 
   onDisconnect(_) {
     debugPrint('Connection lost.');
 
-    setState(() {
-      gameState = GameState.idle;
+    // 使用 safeSetState 替代 setState
+    safeSetState(() {
+      gameState = OnlineState.offline;
       lastMove = null;
     });
 
@@ -176,18 +205,15 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
 
   onWaitingMatch(data) async {
     debugPrint('Waiting for match...');
-    setState(() => gameState = GameState.waitingMatch);
+    safeSetState(() => gameState = OnlineState.stayInLobby);
   }
 
   onGameMode(data) {
     debugPrint('Game mode: $data');
 
-    setState(() {
-      gameState = GameState.waitingOpponent;
+    safeSetState(() {
       lastMove = null;
-
       orientation = data['side'] == 'white' ? BoardOrientation.white : BoardOrientation.black;
-
       player = data['side'] == 'white' ? data['white_player'] : data['black_player'];
       opponent = data['side'] == 'white' ? data['black_player'] : data['white_player'];
     });
@@ -197,7 +223,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
 
   onGo(data) {
     debugPrint('Your move');
-    setState(() => gameState = GameState.waitingMove);
+    safeSetState(() => gameState = OnlineState.waitingMove);
   }
 
   onTakebackRequest(data) {
@@ -247,7 +273,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
     chess.undo(); // 撤销 自己/对手 的最后一步
 
     // 清除最后移动的高亮显示
-    setState(() => lastMove = null);
+    safeSetState(() => lastMove = null);
 
     // 更新棋盘显示
     controller.setFen(chess.fen);
@@ -299,7 +325,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   }
 
   onTimer(data) {
-    setState(() {
+    safeSetState(() {
       gameTime = data['mine'];
       opponentGameTime = data['opponent'];
     });
@@ -311,7 +337,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
 
   disconnect() {
     socket?.dispose();
-    gameState = GameState.idle;
+    safeSetState(() => gameState = OnlineState.offline);
   }
 
   proposeDraw() {
@@ -384,8 +410,8 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   }
 
   match() {
-    setState(() {
-      gameState = GameState.waitingOpponent;
+    safeSetState(() {
+      gameState = OnlineState.matching;
       lastMove = null;
     });
 
@@ -417,7 +443,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
         {'move': "${move['from']}${move['to']}${move['promotion'] ?? ''}"},
       );
 
-      setState(() => gameState = GameState.waitingOpponent);
+      safeSetState(() => gameState = OnlineState.waitingOpponent);
     }
   }
 

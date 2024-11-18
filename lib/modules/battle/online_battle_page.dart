@@ -21,85 +21,163 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
   }
 
   @override
-  Widget build(BuildContext context) {
-    final double size = MediaQuery.of(context).size.shortestSide - 36;
-
-    final orientationColor = orientation == BoardOrientation.white ? chess_lib.Color.WHITE : chess_lib.Color.BLACK;
-
-    final interactiveEnable = (gameState == GameState.waitingMove || gameState == GameState.waitingOpponent) &&
-        chess.turn == orientationColor;
-
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Theme.of(context).colorScheme.primary.withAlpha(0x1A),
-              Theme.of(context).colorScheme.surface,
-            ],
+  Widget build(BuildContext context) => Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Theme.of(context).colorScheme.primary.withAlpha(0x1A),
+                Theme.of(context).colorScheme.surface,
+              ],
+            ),
+          ),
+          child: SafeArea(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                _buildHeader(),
+                Expanded(
+                  child: _buildMainContent(),
+                ),
+              ],
+            ),
           ),
         ),
-        child: SafeArea(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Row(
-                  children: [
-                    IconButton(
-                      icon: const Icon(Icons.arrow_back),
-                      onPressed: () => Navigator.pop(context),
-                    ),
-                    Text(
-                      '在线对战',
-                      style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                        fontWeight: FontWeight.bold,
-                        shadows: [
-                          Shadow(
-                            color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                            offset: const Offset(2, 2),
-                            blurRadius: 4,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
+      );
+
+  Widget _buildHeader() => Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Row(
+          children: [
+            IconButton(
+              icon: const Icon(Icons.arrow_back),
+              onPressed: () => Navigator.pop(context),
+            ),
+            Text(
+              '在线对战',
+              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                fontWeight: FontWeight.bold,
+                shadows: [
+                  Shadow(
+                    color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                    offset: const Offset(2, 2),
+                    blurRadius: 4,
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      );
+
+  Widget _buildMainContent() {
+    if (gameState == OnlineState.offline) {
+      return _buildIdleState();
+    }
+
+    if (gameState == OnlineState.joining || gameState == OnlineState.matching) {
+      return _buildWaitingState();
+    }
+
+    return _buildGameState();
+  }
+
+  Widget _buildIdleState() => Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              Icons.sports_esports,
+              size: 120,
+              color: Theme.of(context).colorScheme.primary.withOpacity(0.5),
+            ),
+            const SizedBox(height: 24),
+            Text(
+              '开始在线对战',
+              style: Theme.of(context).textTheme.headlineSmall,
+            ),
+            const SizedBox(height: 12),
+            Text(
+              '连接服务器开始你的对战之旅',
+              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                    color: Colors.grey[600],
+                  ),
+            ),
+            const SizedBox(height: 32),
+            ElevatedButton.icon(
+              onPressed: connect,
+              icon: const Icon(Icons.wifi),
+              label: const Text('开始游戏'),
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30),
                 ),
               ),
-              _buildPlayerInfo(
-                name: opponent['name'],
-                elo: opponent['elo'],
-                time: opponentGameTime.toString(),
-                isOpponent: true,
-              ),
-              const SizedBox(height: 10),
-              ChessBoardWidget(
-                size: size,
-                orientation: orientation,
-                controller: controller,
-                getLastMove: () => lastMove,
-                interactiveEnable: interactiveEnable,
-                onPieceDrop: onPieceDrop,
-                onPieceTap: onPieceTap,
-                onPieceStartDrag: onPieceStartDrag,
-                onEmptyFieldTap: onEmptyFieldTap,
-              ),
-              const SizedBox(height: 10),
-              _buildPlayerInfo(
-                name: player['name'],
-                elo: player['elo'],
-                time: gameTime.toString(),
-                isOpponent: false,
-              ),
-              const SizedBox(height: 20),
-              _buildGameControls(),
-            ],
-          ),
+            ),
+          ],
         ),
-      ),
+      );
+
+  Widget _buildWaitingState() => Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const CircularProgressIndicator(),
+            const SizedBox(height: 24),
+            Text('正在寻找对手...', style: Theme.of(context).textTheme.titleLarge),
+            const SizedBox(height: 16),
+            ElevatedButton(
+              onPressed: disconnect,
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30),
+                ),
+              ),
+              child: const Text('退出连线'),
+            ),
+          ],
+        ),
+      );
+
+  Widget _buildGameState() {
+    final double size = MediaQuery.of(context).size.shortestSide - 36;
+    final orientationColor = orientation == BoardOrientation.white ? chess_lib.Color.WHITE : chess_lib.Color.BLACK;
+    final interactiveEnable = gameState == OnlineState.waitingMove && chess.turn == orientationColor;
+
+    return Column(
+      children: [
+        _buildPlayerInfo(
+          name: opponent['name'],
+          elo: opponent['elo'],
+          time: opponentGameTime.toString(),
+          isOpponent: true,
+        ),
+        const SizedBox(height: 10),
+        ChessBoardWidget(
+          size: size,
+          orientation: orientation,
+          controller: controller,
+          getLastMove: () => lastMove,
+          interactiveEnable: interactiveEnable,
+          onPieceDrop: onPieceDrop,
+          onPieceTap: onPieceTap,
+          onPieceStartDrag: onPieceStartDrag,
+          onEmptyFieldTap: onEmptyFieldTap,
+        ),
+        const SizedBox(height: 10),
+        _buildPlayerInfo(
+          name: player['name'],
+          elo: player['elo'],
+          time: gameTime.toString(),
+          isOpponent: false,
+        ),
+        const SizedBox(height: 20),
+        _buildGameControls(),
+      ],
     );
   }
 
@@ -271,39 +349,31 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
       runSpacing: 12,
       alignment: WrapAlignment.center,
       children: [
-        if (gameState == GameState.idle)
+        if (gameState == OnlineState.offline)
           ElevatedButton(
             style: buttonStyle,
             onPressed: connect,
             child: const Text('连接'),
           ),
-        if (gameState != GameState.idle)
-          ElevatedButton(
-            style: buttonStyle.copyWith(
-              backgroundColor: WidgetStateProperty.all(Colors.red.shade400),
-            ),
-            onPressed: disconnect,
-            child: const Text('断开'),
-          ),
-        if (gameState == GameState.waitingMatch)
+        if (gameState == OnlineState.stayInLobby)
           ElevatedButton(
             style: buttonStyle,
             onPressed: match,
             child: const Text('匹配'),
           ),
-        if (gameState == GameState.waitingMove)
+        if (gameState == OnlineState.waitingMove)
           ElevatedButton(
             style: buttonStyle,
             onPressed: proposeDraw,
             child: const Text('求和'),
           ),
-        if (gameState == GameState.waitingMove)
+        if (gameState == OnlineState.waitingMove)
           ElevatedButton(
             style: buttonStyle,
             onPressed: chess.move_number >= 2 ? proposeTakeback : null,
             child: const Text('悔棋'),
           ),
-        if (gameState == GameState.waitingMove)
+        if (gameState == OnlineState.waitingMove)
           ElevatedButton(
             style: buttonStyle.copyWith(
               backgroundColor: WidgetStateProperty.all(Colors.orange),
@@ -317,8 +387,8 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
 
   @override
   void dispose() {
-    disconnect();
     super.dispose();
+    disconnect();
   }
 
   @override
@@ -340,7 +410,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
   onLost(data) {
     debugPrint('You lost: ${data['reason']}');
 
-    setState(() => gameState = GameState.waitingMatch);
+    setState(() => gameState = OnlineState.stayInLobby);
 
     showDialog(
       context: context,
