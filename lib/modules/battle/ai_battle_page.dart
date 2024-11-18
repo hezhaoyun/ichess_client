@@ -195,6 +195,9 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
     try {
       final stockfish = AiNative.instance;
+      final configManager = Provider.of<AppConfigManager>(context, listen: false);
+      final showArrows = configManager.showArrows;
+
       stockfish.sendCommand(
         'position fen ${chess.fen} moves ${moves.join(' ')}',
       );
@@ -241,10 +244,12 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         if (mounted) {
           setState(() {
             List<Arrow> arrows = [];
-            arrows.add(_createArrow(bestMove!, Colors.blue.withAlpha(0x7F)));
+            if (showArrows) {
+              arrows.add(_createArrow(bestMove!, Colors.blue.withAlpha(0x7F)));
 
-            if (ponderMove != null) {
-              arrows.add(_createArrow(ponderMove, Colors.red.withAlpha(0x7F)));
+              if (ponderMove != null) {
+                arrows.add(_createArrow(ponderMove, Colors.red.withAlpha(0x7F)));
+              }
             }
 
             controller.setArrows(arrows);
@@ -279,17 +284,17 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
     final scoreMatch = RegExp(r'score cp (-?\d+)').firstMatch(line);
     if (scoreMatch != null) {
-      setState(() => evaluation = int.parse(scoreMatch.group(1)!));
+      setState(() => evaluation = -1 * int.parse(scoreMatch.group(1)!));
     }
 
     final pvMatch = RegExp(r'\spv (.+)$').firstMatch(line);
     if (pvMatch != null) {
       final pvs = pvMatch.group(1)!.split(' ');
+      final configManager = Provider.of<AppConfigManager>(context, listen: false);
 
-      if (pvs.isNotEmpty) {
+      if (pvs.isNotEmpty && configManager.showArrows) {
         setState(() {
           List<Arrow> arrows = [];
-
           final engineMove = pvs[0];
           arrows.add(_createArrow(engineMove, Colors.blue.withAlpha(0x7F)));
 
@@ -751,17 +756,6 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                       icon: Icons.emoji_events_outlined,
                       label: 'ELO: ${isOpponent ? '2000' : '1500'}',
                     ),
-                    if (/*isOpponent && isThinking && */ evaluation != null)
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Text(
-                          '评估: ${evaluation!}',
-                          style: TextStyle(
-                            color: evaluation! > 0 ? Colors.green : Colors.red,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
                   ],
                 ),
               ],

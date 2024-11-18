@@ -54,119 +54,134 @@ class SettingsPage extends StatelessWidget {
                   ],
                 ),
               ),
-              const Padding(
-                padding: EdgeInsets.all(16.0),
-                child: Text(
-                  '服务器设置',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                child: Card(
-                  child: ListTile(
-                    title: const Text('服务器地址'),
-                    subtitle: Text(appConfigManager.serverUrl),
-                    onTap: () async {
-                      final result = await showDialog<String>(
-                        context: context,
-                        builder: (context) {
-                          final controller = TextEditingController(text: appConfigManager.serverUrl);
-                          return AlertDialog(
-                            title: const Text('设置服务器地址'),
-                            content: TextField(
-                              controller: controller,
-                              decoration: const InputDecoration(hintText: '请输入服务器地址'),
-                            ),
-                            actions: [
-                              TextButton(
-                                onPressed: () => Navigator.pop(context),
-                                child: const Text('取消'),
+              Expanded(
+                child: SingleChildScrollView(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Padding(
+                        padding: EdgeInsets.all(16.0),
+                        child: Text(
+                          '服务器设置',
+                          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                        child: Card(
+                          child: ListTile(
+                            title: const Text('服务器地址'),
+                            subtitle: Text(appConfigManager.serverUrl),
+                            onTap: () async {
+                              final result = await showDialog<String>(
+                                context: context,
+                                builder: (context) {
+                                  final controller = TextEditingController(text: appConfigManager.serverUrl);
+                                  return AlertDialog(
+                                    title: const Text('设置服务器地址'),
+                                    content: TextField(
+                                      controller: controller,
+                                      decoration: const InputDecoration(hintText: '请输入服务器地址'),
+                                    ),
+                                    actions: [
+                                      TextButton(
+                                        onPressed: () => Navigator.pop(context),
+                                        child: const Text('取消'),
+                                      ),
+                                      TextButton(
+                                        onPressed: () => Navigator.pop(context, controller.text),
+                                        child: const Text('确定'),
+                                      ),
+                                    ],
+                                  );
+                                },
+                              );
+
+                              if (result != null) {
+                                appConfigManager.setServerUrl(result);
+                              }
+                            },
+                          ),
+                        ),
+                      ),
+                      const Padding(
+                        padding: EdgeInsets.all(16.0),
+                        child: Text(
+                          '主题颜色',
+                          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                        child: Card(
+                          child: ListTile(
+                            leading: Container(
+                              width: 24,
+                              height: 24,
+                              decoration: BoxDecoration(
+                                color: themeManager.primaryColor,
+                                shape: BoxShape.circle,
                               ),
-                              TextButton(
-                                onPressed: () => Navigator.pop(context, controller.text),
-                                child: const Text('确定'),
+                            ),
+                            title: Text(themeManager.currentThemeName),
+                            onTap: () => _showThemeColorDialog(context, themeManager),
+                          ),
+                        ),
+                      ),
+                      const Padding(
+                        padding: EdgeInsets.all(16.0),
+                        child: Text(
+                          '引擎设置',
+                          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                        child: Card(
+                          child: Column(
+                            children: [
+                              ListTile(
+                                title: const Text('引擎等级'),
+                                subtitle: Text('当前：${appConfigManager.engineLevel}'),
+                                onTap: () => _showEngineLevelDialog(context, appConfigManager),
+                              ),
+                              SwitchListTile(
+                                title: const Text('时间控制模式'),
+                                subtitle: Text(appConfigManager.useTimeControl ? '限制时间' : '限制深度'),
+                                value: appConfigManager.useTimeControl,
+                                onChanged: (value) => appConfigManager.setUseTimeControl(value),
+                              ),
+                              if (appConfigManager.useTimeControl)
+                                ListTile(
+                                  title: const Text('思考时间'),
+                                  subtitle: Text('${appConfigManager.moveTime}毫秒'),
+                                  onTap: () => _showMoveTimeDialog(context, appConfigManager),
+                                )
+                              else
+                                ListTile(
+                                  title: const Text('搜索深度'),
+                                  subtitle: Text('${appConfigManager.searchDepth}层'),
+                                  onTap: () => _showSearchDepthDialog(context, appConfigManager),
+                                ),
+                              if (!Platform.isAndroid && !Platform.isIOS)
+                                ListTile(
+                                  title: const Text('引擎路径'),
+                                  subtitle: Text(appConfigManager.enginePath),
+                                  onTap: () async {
+                                    final result = await _showEnginePathDialog(context, appConfigManager);
+                                    if (result != null) appConfigManager.setEnginePath(result);
+                                  },
+                                ),
+                              SwitchListTile(
+                                title: const Text('显示引擎分析箭头'),
+                                subtitle: const Text('在引擎思考时显示预测着法'),
+                                value: appConfigManager.showArrows,
+                                onChanged: (value) => appConfigManager.setShowArrows(value),
                               ),
                             ],
-                          );
-                        },
-                      );
-
-                      if (result != null) {
-                        appConfigManager.setServerUrl(result);
-                      }
-                    },
-                  ),
-                ),
-              ),
-              const Padding(
-                padding: EdgeInsets.all(16.0),
-                child: Text(
-                  '主题颜色',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                child: Card(
-                  child: ListTile(
-                    leading: Container(
-                      width: 24,
-                      height: 24,
-                      decoration: BoxDecoration(
-                        color: themeManager.primaryColor,
-                        shape: BoxShape.circle,
-                      ),
-                    ),
-                    title: Text(themeManager.currentThemeName),
-                    onTap: () => _showThemeColorDialog(context, themeManager),
-                  ),
-                ),
-              ),
-              const Padding(
-                padding: EdgeInsets.all(16.0),
-                child: Text(
-                  '引擎设置',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                child: Card(
-                  child: Column(
-                    children: [
-                      ListTile(
-                        title: const Text('引擎等级'),
-                        subtitle: Text('当前：${appConfigManager.engineLevel}'),
-                        onTap: () => _showEngineLevelDialog(context, appConfigManager),
-                      ),
-                      SwitchListTile(
-                        title: const Text('时间控制模式'),
-                        subtitle: Text(appConfigManager.useTimeControl ? '限制时间' : '限制深度'),
-                        value: appConfigManager.useTimeControl,
-                        onChanged: (value) => appConfigManager.setUseTimeControl(value),
-                      ),
-                      if (appConfigManager.useTimeControl)
-                        ListTile(
-                          title: const Text('思考时间'),
-                          subtitle: Text('${appConfigManager.moveTime}毫秒'),
-                          onTap: () => _showMoveTimeDialog(context, appConfigManager),
-                        )
-                      else
-                        ListTile(
-                          title: const Text('搜索深度'),
-                          subtitle: Text('${appConfigManager.searchDepth}层'),
-                          onTap: () => _showSearchDepthDialog(context, appConfigManager),
+                          ),
                         ),
-                      if (!Platform.isAndroid && !Platform.isIOS)
-                        ListTile(
-                          title: const Text('引擎路径'),
-                          subtitle: Text(appConfigManager.enginePath),
-                          onTap: () async {
-                            final result = await _showEnginePathDialog(context, appConfigManager);
-                            if (result != null) appConfigManager.setEnginePath(result);
-                          },
-                        ),
+                      ),
                     ],
                   ),
                 ),

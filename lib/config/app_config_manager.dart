@@ -8,6 +8,7 @@ class AppConfigManager extends ChangeNotifier {
   static const String _searchDepthKey = 'search_depth';
   static const String _useTimeControlKey = 'use_time_control';
   static const String _enginePathKey = 'engine_path';
+  static const String _showArrowsKey = 'show_arrows';
 
   String _serverUrl = 'http://127.0.0.1:8888';
   int _engineLevel = 10;
@@ -15,6 +16,7 @@ class AppConfigManager extends ChangeNotifier {
   int _searchDepth = 20;
   bool _useTimeControl = true;
   String _enginePath = '';
+  bool _showArrows = false;
 
   String get serverUrl => _serverUrl;
   int get engineLevel => _engineLevel;
@@ -22,6 +24,7 @@ class AppConfigManager extends ChangeNotifier {
   int get searchDepth => _searchDepth;
   bool get useTimeControl => _useTimeControl;
   String get enginePath => _enginePath;
+  bool get showArrows => _showArrows;
 
   AppConfigManager() {
     _loadConfig();
@@ -35,6 +38,7 @@ class AppConfigManager extends ChangeNotifier {
     _searchDepth = prefs.getInt(_searchDepthKey) ?? 20;
     _useTimeControl = prefs.getBool(_useTimeControlKey) ?? true;
     _enginePath = prefs.getString(_enginePathKey) ?? '';
+    _showArrows = prefs.getBool(_showArrowsKey) ?? false;
     notifyListeners();
   }
 
@@ -77,6 +81,13 @@ class AppConfigManager extends ChangeNotifier {
     _enginePath = path;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_enginePathKey, path);
+    notifyListeners();
+  }
+
+  Future<void> setShowArrows(bool show) async {
+    _showArrows = show;
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool(_showArrowsKey, show);
     notifyListeners();
   }
 }
