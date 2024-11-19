@@ -20,43 +20,43 @@ class Routes {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    final header = Row(
-      children: [
-        Padding(
-          padding: const EdgeInsets.only(top: 36.0, right: 10.0),
-          child: Image.asset('assets/icons/icon-a.png', width: 56, height: 56),
-        ),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const SizedBox(height: 40),
-            Text(
-              '棋路',
-              style: Theme.of(context).textTheme.headlineLarge?.copyWith(
-                fontWeight: FontWeight.bold,
-                shadows: [
-                  Shadow(
-                    color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                    offset: const Offset(2, 2),
-                    blurRadius: 4,
-                  ),
-                ],
+    final header = Padding(
+      padding: const EdgeInsets.only(top: 40, left: 4),
+      child: Row(
+        children: [
+          Image.asset('assets/icons/icon-a.png', width: 56, height: 56),
+          const SizedBox(width: 10),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                '棋路',
+                style: Theme.of(context).textTheme.headlineLarge?.copyWith(
+                  fontWeight: FontWeight.bold,
+                  shadows: [
+                    Shadow(
+                      color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                      offset: const Offset(2, 2),
+                      blurRadius: 4,
+                    ),
+                  ],
+                ),
               ),
-            ),
-            Text(
-              '探索国际象棋的无限可能',
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                    color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
-                  ),
-            )
-          ],
-        ),
-        const Spacer(),
-        IconButton(
-          icon: const Icon(Icons.settings),
-          onPressed: () => Navigator.pushNamed(context, Routes.settings),
-        )
-      ],
+              Text(
+                '探索国际象棋的无限可能',
+                style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                      color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
+                    ),
+              )
+            ],
+          ),
+          const Spacer(),
+          IconButton(
+            icon: const Icon(Icons.settings),
+            onPressed: () => Navigator.pushNamed(context, Routes.settings),
+          )
+        ],
+      ),
     );
 
     final grid = Expanded(
