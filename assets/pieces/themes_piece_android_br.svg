@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
+<svg version="1.1" baseProfile="basic"
+	 id="svg2" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:modified="true" sodipodi:docbase="/home/fkling/2/v0.1.2reduced/PieceThemes/Merida" sodipodi:docname="br.svg" inkscape:version="0.45" sodipodi:version="0.32" inkscape:output_extension="org.inkscape.output.svg.inkscape"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="141.732px"
+	 height="141.732px" viewBox="0 0 141.732 141.732" xml:space="preserve">
+<g id="Layer_x0020_1">
+	<polygon id="polygon6" fill="#1F1A17" points="80.526,26.135 92.478,26.135 92.478,16.512 111.75,16.512 111.75,42.864 
+		96.149,54.888 96.149,88.512 108.103,100.464 108.103,114.864 118.854,114.864 118.854,131.663 22.878,131.663 22.878,114.864 
+		33.63,114.864 33.63,100.464 45.654,88.512 45.654,54.888 30.054,42.864 30.054,16.512 49.254,16.512 49.254,26.135 61.278,26.135 
+		61.278,16.512 80.526,16.512 	"/>
+	
+		<linearGradient id="path8_1_" gradientUnits="userSpaceOnUse" x1="-133.6953" y1="316.1621" x2="-77.1516" y2="316.2849" gradientTransform="matrix(2.8346 0 0 -2.8346 438.9902 975.1642)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	</linearGradient>
+	<path id="path8" fill="url(#path8_1_)" d="M70.902,99.335H41.79l-3.24,3.024v4.08h64.705v-4.08l-3.24-3.024H70.902z M38.55,113.735
+		v7.176h64.705v-7.176C103.255,113.735,38.55,113.735,38.55,113.735z M70.902,36.959h-36v3.24l5.136,3.864h61.8l4.992-3.864v-3.24
+		H70.902L70.902,36.959z M70.902,48.839h-24.6l4.2,3.312v4.008h40.8v-4.008l4.2-3.312H70.902L70.902,48.839z M70.902,87.239h-20.4
+		v3.24l-4.2,4.08h49.2l-4.2-4.08v-3.24H70.902z"/>
+</g>
+</svg>

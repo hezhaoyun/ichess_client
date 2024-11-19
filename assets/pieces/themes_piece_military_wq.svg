@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="63.9mm" height="63.9mm" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 63.9 63.9">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="24.4335" y1="52.6348" x2="39.4662" y2="52.6348">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="24.1194" y1="51.5081" x2="39.674" y2="51.5081">
+     <stop offset="0" stop-color="#466C79"/>
+     <stop offset="1" stop-color="#C2CFD3"/>
+    </linearGradient>
+    <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="21.7718" y1="34.3085" x2="42.1278" y2="34.3085">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="54.0975" y1="20.9058" x2="57.0779" y2="20.9058">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="42.4808" y1="17.837" x2="45.4612" y2="17.837">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id5" gradientUnits="userSpaceOnUse" x1="30.4594" y1="16.6652" x2="33.4398" y2="16.6652">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id6" gradientUnits="userSpaceOnUse" x1="18.4382" y1="17.8369" x2="21.4186" y2="17.8369">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id7" gradientUnits="userSpaceOnUse" x1="6.8215" y1="20.9058" x2="9.8019" y2="20.9058">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id8" gradientUnits="userSpaceOnUse" x1="30.4596" y1="52.6348" x2="33.44" y2="52.6348">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_192417776">
+   <path id="_191071944" fill="url(#id0)" stroke="#1F1A17" stroke-width="1.4111" d="M50.3307 56.3409c0.4099,1.8099 -8.2311,3.3361 -18.3809,3.3361 -10.1498,0 -18.7908,-1.5261 -18.3809,-3.3361l1.7506 -7.7299c0.3709,-1.6376 7.4473,-3.0184 16.6303,-3.0184 9.1831,0 16.2595,1.3809 16.6304,3.0184l1.7505 7.7299z"/>
+   <path id="_191189792" fill="url(#id1)" stroke="#1F1A17" stroke-width="1.4111" d="M31.8967 54.6748c-1.3489,0 -18.7551,-0.1467 -19.4432,-3.1078 0.2412,-1.0655 0.4812,-2.1254 0.7221,-3.1895l18.7211 -0.036 18.7212 0.036c0.2409,1.0641 0.4808,2.124 0.7221,3.1895 -0.6882,2.9611 -18.0943,3.1078 -19.4433,3.1078z"/>
+   <path id="_190758944" fill="url(#id2)" stroke="#1F1A17" stroke-width="1.4111" d="M14.7539 48.0742l-8.2491 -26.5652 3.6137 -1.2065 10.6099 21.7539 -2.6935 -23.9132 3.787 -0.6125 6.3304 23.113 1.8745 -23.9785 3.8457 -0.0001 1.8747 23.9786 6.3299 -23.113 3.7877 0.6126 -2.6934 23.9125 10.6092 -21.7533 3.6142 1.2065 -8.2277 26.5652c0.8482,3.7652 -35.2143,3.8776 -34.4132,0z"/>
+   <circle id="_191469848" fill="url(#id3)" stroke="#1F1A17" stroke-width="1.4111" cx="55.5877" cy="20.9058" r="3.72543"/>
+   <circle id="_191926672" fill="url(#id4)" stroke="#1F1A17" stroke-width="1.4111" cx="43.971" cy="17.837" r="3.72543"/>
+   <circle id="_191234112" fill="url(#id5)" stroke="#1F1A17" stroke-width="1.4111" cx="31.9496" cy="16.6652" r="3.72543"/>
+   <circle id="_191268776" fill="url(#id6)" stroke="#1F1A17" stroke-width="1.4111" cx="19.9284" cy="17.8369" r="3.72543"/>
+   <circle id="_191436520" fill="url(#id7)" stroke="#1F1A17" stroke-width="1.4111" cx="8.31169" cy="20.9058" r="3.72543"/>
+   <circle id="_191526408" fill="url(#id8)" stroke="#1F1A17" stroke-width="1.4111" cx="31.9498" cy="52.6348" r="3.72543"/>
+  </g>
+ </g>
+</svg>

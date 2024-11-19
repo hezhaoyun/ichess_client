@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="63.9mm" height="63.9mm" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 63.9 63.9">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="26.6914" y1="28.7842" x2="37.2086" y2="28.7842">
+     <stop offset="0" stop-color="#466C79"/>
+     <stop offset="1" stop-color="#C2CFD3"/>
+    </linearGradient>
+    <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="24.8411" y1="53.3579" x2="39.059" y2="53.3579">
+     <stop offset="0" stop-color="#466C79"/>
+     <stop offset="1" stop-color="#C2CFD3"/>
+    </linearGradient>
+    <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="24.9445" y1="52.343" x2="38.9555" y2="52.343">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="20.974" y1="36.4422" x2="42.926" y2="36.4422">
+     <stop offset="0" stop-color="#466C79"/>
+     <stop offset="1" stop-color="#C2CFD3"/>
+    </linearGradient>
+    <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="24.4374" y1="36.4762" x2="39.4626" y2="36.4762">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id5" gradientUnits="userSpaceOnUse" x1="30.5399" y1="46.3969" x2="33.36" y2="46.3969">
+     <stop offset="0" stop-color="#466C79"/>
+     <stop offset="1" stop-color="#C2CFD3"/>
+    </linearGradient>
+    <linearGradient id="id6" gradientUnits="userSpaceOnUse" x1="29.017" y1="12.8231" x2="34.8828" y2="12.8231">
+     <stop offset="0" stop-color="#466C79"/>
+     <stop offset="1" stop-color="#C2CFD3"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_191158048">
+   <circle id="_193010104" fill="url(#id0)" stroke="#1F1A17" stroke-width="1.4111" cx="31.95" cy="28.7842" r="13.1466"/>
+   <path id="_192491488" fill="url(#id1)" stroke="#1F1A17" stroke-width="1.4111" d="M48.5068 56.6962c0.3692,1.6302 -7.4142,3.005 -16.5568,3.005 -9.1425,0 -16.926,-1.3746 -16.5568,-3.005l1.5769 -6.9628c0.334,-1.4751 6.7082,-2.7189 14.9799,-2.7189 8.2718,0 14.6459,1.2439 14.98,2.7189l1.5768 6.9628z"/>
+   <path id="_191421728" fill="url(#id2)" stroke="#1F1A17" stroke-width="1.4111" d="M31.95 55.1954c-1.2151,0 -16.8938,-0.1321 -17.5137,-2.7994 0.2173,-0.9597 0.4334,-1.9144 0.6504,-2.8729l16.8633 -0.0325 16.8633 0.0325c0.217,0.9585 0.4332,1.9132 0.6504,2.8729 -0.6198,2.6673 -16.2986,2.7994 -17.5137,2.7994z"/>
+   <path id="_192777000" fill="url(#id3)" stroke="#1F1A17" stroke-width="1.4111" d="M43.8088 20.4222c-6.6761,0 -9.4933,15.5246 -11.8585,19.2041 -2.2557,-3.7891 -5.183,-19.2041 -11.8591,-19.2041 -6.6761,0 -15.5811,6.9773 -15.5811,15.5811 0,8.6038 7.0102,14.8315 15.5811,15.5812 10.0358,0.8777 13.7346,0.8777 23.7176,0 8.5706,-0.7536 15.5811,-6.9774 15.5811,-15.5812 0,-8.6038 -8.905,-15.5811 -15.5811,-15.5811z"/>
+   <path id="_192776776" fill="url(#id4)" stroke="#1F1A17" stroke-width="1.4111" d="M17.7296 20.6889c-1.5131,0.3279 -3.0702,0.9491 -4.5611,1.8121 6.9114,9.2733 11.2263,21.5408 15.5578,29.678 2.2145,0.0843 4.2396,0.0847 6.4471,0.0014 4.3316,-8.1373 8.6465,-20.4056 15.5581,-29.6793 -1.4909,-0.863 -3.0479,-1.4841 -4.561,-1.8121 -6.5262,8.7087 -9.9871,20.9716 -14.2205,26.3253 -4.2334,-5.3537 -7.6942,-17.6167 -14.2204,-26.3254z"/>
+   <circle id="_191721424" fill="url(#id5)" stroke="#1F1A17" stroke-width="1.4111" cx="31.95" cy="46.3969" r="3.52509"/>
+   <polygon id="_192594376" fill="url(#id6)" stroke="#1F1A17" stroke-width="1.4111" points="30.1465,21.4473 33.7537,21.4471 33.7537,13.1845 39.2822,13.1845 39.2822,9.577 33.7537,9.5772 33.7537,4.1988 30.1462,4.1988 30.1463,9.5772 24.6178,9.5774 24.618,13.1845 30.1463,13.1845 "/>
+  </g>
+ </g>
+</svg>

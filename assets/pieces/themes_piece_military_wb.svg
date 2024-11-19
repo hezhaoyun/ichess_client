@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="63.9mm" height="63.9mm" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 63.9 63.9">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="23.8194" y1="54.0671" x2="40.0807" y2="54.0671">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="25.9369" y1="44.6073" x2="37.9631" y2="44.6073">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="24.7566" y1="22.2593" x2="39.1434" y2="22.2593">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="25.2102" y1="23.9252" x2="36.0767" y2="23.9252">
+     <stop offset="0" stop-color="#466C79"/>
+     <stop offset="1" stop-color="#C2CFD3"/>
+    </linearGradient>
+    <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="28.4302" y1="23.0981" x2="35.4698" y2="23.0981">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id5" gradientUnits="userSpaceOnUse" x1="25.5606" y1="42.3057" x2="38.3396" y2="42.3057">
+     <stop offset="0" stop-color="#466C79"/>
+     <stop offset="1" stop-color="#C2CFD3"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_144349112">
+   <path id="_192895336" fill="url(#id0)" stroke="#1F1A17" stroke-width="1.4111" d="M30.8222 47.6881l0 3.1896c-0.0459,6.6334 -1.2345,9.5685 -11.2252,9.5685l-7.9736 0 0 -6.3793 3.1895 0c10.4482,0 11.1437,-0.0007 12.4639,-6.3788l3.5454 0zm2.2557 0l0 3.1896c0.0459,6.6334 1.2345,9.5685 11.2252,9.5685l7.9736 0 0 -6.3793 -3.1895 0c-10.4482,0 -11.1436,-0.0007 -12.4638,-6.3788l-3.5455 0z"/>
+   <path id="_191421728" fill="url(#id1)" stroke="#1F1A17" stroke-width="1.4111" d="M31.95 48.7567c-7.0472,0 -14.3168,1.4803 -14.0323,0.2237 1.617,-7.1404 4.2387,-10.0029 14.0323,-10.0029 9.7936,0 12.4153,2.8625 14.0323,10.0029 0.2845,1.2566 -6.9851,-0.2237 -14.0323,-0.2237z"/>
+   <path id="_141092232" fill="url(#id2)" stroke="#1F1A17" stroke-width="1.4111" d="M31.9498 3.4538c11.0691,5.9994 17.9836,14.511 17.9836,23.9514 0,4.5123 -1.5808,8.812 -4.439,12.727 -4.3425,0.6079 -8.8773,0.9327 -13.5444,0.9327 -4.6672,0 -9.2019,-0.3248 -13.5446,-0.9328 -2.858,-3.915 -4.4388,-8.2146 -4.4388,-12.7269 0,-9.4404 6.9142,-17.952 17.9832,-23.9514z"/>
+   <path id="_191217800" fill="url(#id3)" stroke="#1F1A17" stroke-width="1.4111" d="M37.5615 6.9686c2.5886,1.8763 4.8291,3.9188 6.665,6.0954l-18.3177 27.8178c-2.5547,-0.1553 -5.0596,-0.4076 -7.5034,-0.7497 -0.4859,-0.6657 -0.9345,-1.3427 -1.3451,-2.0297l20.5012 -31.1338z"/>
+   <polygon id="_192318104" fill="url(#id4)" stroke="#1F1A17" stroke-width="1.4111" points="29.7857,34.21 34.1146,34.2098 34.1146,22.7698 40.7494,22.7698 40.7494,18.4405 34.1146,18.4407 34.1146,11.9861 29.7853,11.9861 29.7855,18.4407 23.1508,18.4409 23.151,22.7698 29.7855,22.7698 "/>
+   <path id="_192319400" fill="url(#id5)" stroke="#1F1A17" stroke-width="1.4111" d="M31.9501 44.5044c-1.1083,0 -15.4085,-0.1018 -15.9738,-2.1579 0.1982,-0.7397 0.3953,-1.4756 0.5932,-2.2144l15.3806 -0.0251 15.3806 0.0251c0.1979,0.7388 0.395,1.4747 0.5932,2.2144 -0.5653,2.0561 -14.8656,2.1579 -15.9738,2.1579z"/>
+  </g>
+ </g>
+</svg>

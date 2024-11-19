@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="23mm" height="23mm" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 23 23">
+ <defs>
+   <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="4.1804" y1="11.3321" x2="18.6089" y2="11.3321">
+    <stop offset="0" stop-color="#72706F"/>
+    <stop offset="1" stop-color="#383431"/>
+   </linearGradient>
+   <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="5.2232" y1="11.5203" x2="17.7765" y2="11.5203">
+    <stop offset="0" stop-color="#969594"/>
+    <stop offset="1" stop-color="#1F1A17"/>
+   </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path fill="url(#id0)" stroke="#1F1A17" stroke-width="0.3528" stroke-linecap="round" stroke-linejoin="round" d="M18.5838 21.1248l-14.1677 0c0,-2.5421 3.1722,-4.6036 7.0839,-4.6036 3.9116,0 7.0838,2.0615 7.0838,4.6036zm-1.5321 -4.3305c1.5572,-6.5125 -1.101,-14.544 -6.9346,-15.2549 0.362,0.5075 0.851,1.1743 0.8247,1.9908 -0.3489,-0.8112 -0.7203,-1.4736 -2.0569,-1.3476 0.5571,2.5537 -2.7975,5.3239 -3.8351,6.6444 -0.3325,0.4232 -0.8694,0.9926 -0.8615,1.844 0.008,0.8514 1.3703,1.7762 2.3976,0.8712 0.4012,-0.3535 1.0117,-0.6476 1.5897,-0.8474 0.7359,-0.2544 1.6817,-0.014 2.3518,-0.4119 -1.0277,2.5337 -5.0583,3.1055 -4.5332,6.4828 3.1798,-1.9744 7.8853,-1.9369 11.0575,0.0286z"/>
+  <path fill="url(#id1)" stroke="#C2C1C1" stroke-width="0.3528" stroke-linecap="round" stroke-linejoin="round" d="M16.7167 18.8987c-1.8078,-1.4947 -4.2813,-1.8543 -6.552,-1.59 -1.7742,0.2652 -4.3909,1.1494 -4.9415,3.1161l12.5533 0c-0.1701,-0.6076 -0.6046,-1.1099 -1.0598,-1.5261zm-7.7794 -13.7334c-0.7958,1.3706 -1.899,2.4402 -2.9195,3.6065 0.6443,0.0254 1.0029,1.1349 0.963,1.6694 0.5837,-0.3122 1.2246,-0.5192 1.8821,-0.573 1.8237,-0.0007 3.9037,-1.4852 1.3249,2.1487 -1.0285,1.0269 -3.1264,2.0714 -3.4669,3.5717 3.0541,-1.3481 6.8217,-1.3407 9.8334,0.1364 0.7917,-4.5076 -0.3469,-11.0873 -5.0466,-13.1092 0.3918,1.3445 -0.1112,1.2988 -0.1013,2.6736l-1.2282 -1.7494c-0.1321,-0.2604 -0.2581,-0.4855 -0.535,-0.6056 0,0.7718 -0.3503,1.5635 -0.7059,2.2309z"/>
+  <path fill="none" stroke="#C2C1C1" stroke-width="0.3528" d="M5.592 11.5651c0.1537,-0.4557 0.3665,-0.7395 0.3665,-0.7395"/>
+  <path fill="white" fill-rule="nonzero" stroke="#C2C1C1" stroke-width="0.3528" d="M5.7888 11.7229c-0.029,0.0868 -0.4316,0.0085 -0.4236,-0.0156 0.1626,-0.4822 0.4941,-0.9263 0.4947,-0.9271 0.0582,-0.0776 0.1684,-0.0934 0.246,-0.0352 0.0776,0.0582 -0.0146,0.0904 -0.0728,0.168 -0.0005,0.0007 -0.0997,0.381 -0.2443,0.8099z"/>
+  <circle fill="#1F1A17" stroke="#C2C1C1" stroke-width="0.3528" stroke-linecap="round" stroke-linejoin="round" cx="9.00764" cy="7.05494" r="0.407042"/>
+  <path fill="#1F1A17" stroke="#C2C1C1" stroke-width="0.3528" stroke-linecap="round" stroke-linejoin="round" d="M5.1107 10.54c-0.0717,-0.296 -0.0762,-0.9555 0.3584,-1.0407 0.4345,-0.0852 0.6316,0.2557 0.2912,0.5024 -0.3405,0.2468 -0.6496,0.5383 -0.6496,0.5383z"/>
+ </g>
+</svg>

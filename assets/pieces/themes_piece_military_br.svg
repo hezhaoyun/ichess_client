@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="63.9mm" height="63.9mm" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 63.9 63.9">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="23.3303" y1="31.95" x2="40.5696" y2="31.95">
+     <stop offset="0" stop-color="#466C79"/>
+     <stop offset="1" stop-color="#C2CFD3"/>
+    </linearGradient>
+    <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="24.7675" y1="53.4988" x2="39.1334" y2="53.4988">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="30.6466" y1="28.743" x2="32.9074" y2="28.743">
+     <stop offset="0" stop-color="#CDD7DB"/>
+     <stop offset="1" stop-color="white"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_192881096">
+   <path id="_140785816" fill="url(#id0)" stroke="#1F1A17" stroke-width="1.4111" d="M21.1757 15.7885l7.1828 0 0 -10.7747 7.1831 0 0 10.7747 7.1834 0 0 -10.7747 7.1828 0 0 10.7747 0 3.5913c-3.5916,1.7961 -7.1828,3.5916 -7.1828,8.9788l0.0023 0.256 0.0001 0.0017c0.1383,5.5386 4.6107,18.342 10.7717,19.4954l0 3.5915 -3.5913 0 0 3.5916 3.5913 0 0 3.5913 -43.0982 0 0 -3.5913 3.5922 0 0 -3.5916 -3.5922 0 0 -3.5915c6.1614,-1.1534 10.6338,-13.9568 10.7719,-19.4954l0.0004 -0.0017 0.0025 -0.256c0,-5.3872 -3.5917,-7.1827 -7.1826,-8.9788l0 -3.5913 0 -10.7747 7.1826 0 0 10.7747z"/>
+   <rect id="_192888656" fill="none" stroke="#1F1A17" stroke-width="1.4111" x="10.4009" y="55.2948" width="43.0982" height="3.5913"/>
+   <rect id="_191974408" fill="url(#id1)" stroke="#1F1A17" stroke-width="1.4111" x="13.9931" y="51.7032" width="35.9147" height="3.5913"/>
+   <path id="_140785840" fill="url(#id2)" stroke="#1F1A17" stroke-width="1.4111" d="M31.777 24.6187l0 0c1.5543,0 2.8259,1.2716 2.8259,2.8259l0 5.4227 -5.6518 0 0 -5.4227c0,-1.5543 1.2716,-2.8259 2.8259,-2.8259z"/>
+   <rect id="_191707768" fill="none" stroke="#1F1A17" stroke-width="1.4111" x="19.0133" y="43.6454" width="6.3219" height="4.0525"/>
+   <polyline id="_191436896" fill="none" stroke="#1F1A17" stroke-width="1.4111" points="31.6571,43.6454 25.3352,43.6454 25.3352,47.6979 28.4961,47.6979 "/>
+   <polyline id="_190755728" fill="none" stroke="#1F1A17" stroke-width="1.4111" points="12.6914,47.6978 19.0133,47.6978 19.0133,43.6453 15.8524,43.6453 "/>
+   <polyline id="_192998752" fill="none" stroke="#1F1A17" stroke-width="1.4111" points="28.4961,39.5929 22.1742,39.5929 22.1742,43.6454 25.3351,43.6454 "/>
+   <polyline id="_191485336" fill="none" stroke="#1F1A17" stroke-width="1.4111" points="42.7274,28.6163 39.5664,28.6163 39.5664,32.6688 43.3113,32.6688 "/>
+   <polyline id="_191421824" fill="none" stroke="#1F1A17" stroke-width="1.4111" points="34.6029,28.6163 39.5664,28.6163 39.5664,32.6688 36.4055,32.6688 "/>
+   <polyline id="_191359632" fill="none" stroke="#1F1A17" stroke-width="1.4111" points="36.9894,32.669 43.3113,32.669 44.4655,36.7215 40.1504,36.7215 "/>
+   <polyline id="_191483664" fill="none" stroke="#1F1A17" stroke-width="1.4111" points="36.4055,24.5638 42.7274,24.5638 42.7274,28.6163 39.5665,28.6163 "/>
+  </g>
+ </g>
+</svg>
