@@ -23,6 +23,7 @@ class _HomePageState extends State<HomePage> {
     final header = Padding(
       padding: const EdgeInsets.only(top: 40, left: 4),
       child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.asset('assets/icons/icon-a.png', width: 56, height: 56),
           const SizedBox(width: 10),
