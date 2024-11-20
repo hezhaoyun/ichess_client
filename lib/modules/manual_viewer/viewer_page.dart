@@ -43,6 +43,7 @@ class _ViewerPageState extends State<ViewerPage> {
   }
 
   List<String> fenHistory = [];
+  bool showBranches = false;
 
   // Favorite
   bool isFavorite = false;
@@ -302,12 +303,16 @@ class _ViewerPageState extends State<ViewerPage> {
 
       while (currentIndex < index) {
         currentIndex++;
-        manual?.tree?.selectBranch(0); // 默认选择主线
+        manual?.tree?.selectBranch(0);
+
         if (!chess.move(moves[currentIndex].data.san)) break;
+
         currentFen = chess.fen;
         fenHistory.add(currentFen);
       }
     }
+
+    showBranches = currentIndex == index && moves[currentIndex].children.length > 1;
 
     if (chess != null && chess.history.isNotEmpty) {
       final last = chess.history.last.move;
@@ -452,24 +457,58 @@ class _ViewerPageState extends State<ViewerPage> {
       ],
     );
 
-    final moveListSection = Padding(
-      padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Expanded(
-            child: MoveList(
-              moves: moves.map<PgnChildNode>((e) => e).toList(),
-              currentMoveIndex: currentIndex,
-              onMoveSelected: _goToMove,
-              onBranchSelected: (branch) {},
-              scrollController: scrollController,
-              key: selectedMoveKey,
+    Widget createBottomSection() {
+      if (showBranches) {
+        return Padding(
+          padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
+          child: Card(
+            child: ListView.builder(
+              shrinkWrap: true,
+              itemCount: currentIndex > -1 ? moves[currentIndex].children.length : 0,
+              itemBuilder: (context, i) => ListTile(
+                title: Text(moves[currentIndex].children[i].data.san),
+                onTap: () {
+                  final chess = chess_lib.Chess.fromFEN(fenHistory.last);
+                  manual?.tree?.selectBranch(i);
+
+                  // 更新棋盘位置
+                  if (!chess.move(moves[currentIndex].children[i].data.san)) return;
+                  final currentFen = chess.fen;
+                  fenHistory.add(currentFen);
+
+                  // 更新最后一步移动的显示
+                  final last = chess.history.last.move;
+                  _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
+
+                  chessboardController.setFen(currentFen);
+
+                  showBranches = false;
+                },
+              ),
             ),
           ),
-        ],
-      ),
-    );
+        );
+      }
+
+      return Padding(
+        padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Expanded(
+              child: MoveList(
+                moves: moves.map<PgnChildNode>((e) => e).toList(),
+                currentMoveIndex: currentIndex,
+                onMoveSelected: _goToMove,
+                onBranchSelected: (branch) {},
+                scrollController: scrollController,
+                key: selectedMoveKey,
+              ),
+            ),
+          ],
+        ),
+      );
+    }
 
     final analysisCard = ExpansionTile(
       title: const Text('对局分析'),
@@ -505,6 +544,8 @@ class _ViewerPageState extends State<ViewerPage> {
         final isWideLayout =
             orientation == Orientation.landscape || MediaQuery.of(context).size.width > kWideLayoutThreshold;
 
+        final bottomSection = createBottomSection();
+
         return Column(
           children: [
             Expanded(
@@ -513,14 +554,14 @@ class _ViewerPageState extends State<ViewerPage> {
                       children: [
                         Expanded(flex: 2, child: boardSection),
                         analysisCard,
-                        if (!isAnalysisPanelExpanded) Expanded(flex: 3, child: moveListSection),
+                        if (!isAnalysisPanelExpanded) Expanded(flex: 3, child: bottomSection),
                       ],
                     )
                   : Column(
                       children: [
                         boardSection,
                         analysisCard,
-                        if (!isAnalysisPanelExpanded) Expanded(child: moveListSection),
+                        if (!isAnalysisPanelExpanded) Expanded(child: bottomSection),
                       ],
                     ),
             ),
