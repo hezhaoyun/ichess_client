@@ -32,14 +32,16 @@ class _ViewerPageState extends State<ViewerPage> {
   bool isLoading = false;
 
   // Game list
-  PgnGame? game;
-  List<PgnGame> games = [];
   int gameIndex = 0;
+  List<PgnGame> games = [];
+  PgnGame? get game => games.isNotEmpty ? games[gameIndex] : null;
 
   // Current manual
-  late PgnManual manual;
-  late ManualTree moveTree;
-  String? currentComment;
+  PgnManual? manual;
+  String? get comment {
+    if (manual?.tree?.atStartPoint == true) return manual?.comment();
+    return manual?.tree?.moveComment;
+  }
 
   int currentMoveIndex = -1;
   List<String> fenHistory = [];
@@ -51,7 +53,7 @@ class _ViewerPageState extends State<ViewerPage> {
   // Analysis
   bool isAnalyzing = false;
   List<double> evaluations = [];
-  ExpansionTileController? analysisCardController;
+  final analysisCardController = ExpansionTileController();
   bool isAnalysisPanelExpanded = false;
 
   // Chessboard
@@ -70,8 +72,6 @@ class _ViewerPageState extends State<ViewerPage> {
 
     _loadPgnAsset(widget.manualFile);
     _checkFavoriteStatus();
-
-    analysisCardController = ExpansionTileController();
   }
 
   Future<void> _initStockfish() async {
@@ -101,13 +101,11 @@ class _ViewerPageState extends State<ViewerPage> {
 
       if (games.isNotEmpty) {
         gameIndex = 0;
-        game = games[0];
         _parseManual();
 
         currentMoveIndex = -1;
         currentFen = game!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
         fenHistory = [currentFen];
-        currentComment = game!.comments.join('\n');
       }
 
       chessboardController.setFen(currentFen!);
@@ -130,18 +128,16 @@ class _ViewerPageState extends State<ViewerPage> {
   }
 
   void _gameSelected(int index) {
-    analysisCardController?.collapse();
+    analysisCardController.collapse();
 
     String? currentFen;
     setState(() {
       gameIndex = index;
-      game = games[index];
       _parseManual();
 
       currentMoveIndex = -1;
       currentFen = game!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
       fenHistory = [currentFen!];
-      currentComment = game!.comments.join('\n');
       evaluations = [];
       isAnalysisPanelExpanded = false;
       lastMove = null;
@@ -192,9 +188,8 @@ class _ViewerPageState extends State<ViewerPage> {
       );
 
   void _parseManual() {
+    if (game == null) return;
     manual = PgnManual(game!);
-    moveTree = manual.createTree();
-    currentComment = manual.comment();
   }
 
   Future<void> _toggleFavorite() async {
@@ -304,7 +299,7 @@ class _ViewerPageState extends State<ViewerPage> {
   }
 
   void _goToMove(int index) {
-    final (moves, currentIndex) = moveTree.moveList();
+    final (moves, currentIndex) = manual?.tree?.moveList() ?? ([], -1);
     if (index < -1 || index >= moves.length) return;
 
     chess_lib.Chess? chess;
@@ -313,12 +308,11 @@ class _ViewerPageState extends State<ViewerPage> {
     if (index < currentMoveIndex) {
       // 后退
       while (currentMoveIndex > index) {
-        moveTree.prevMove();
+        manual?.tree?.prevMove();
         currentMoveIndex--;
       }
       fenHistory.removeRange(index + 2, fenHistory.length);
       currentFen = fenHistory[index + 1];
-      currentComment = moveTree.moveComment;
       lastMove = null;
     } else if (index > currentMoveIndex) {
       // 前进
@@ -326,12 +320,11 @@ class _ViewerPageState extends State<ViewerPage> {
 
       while (currentMoveIndex < index) {
         currentMoveIndex++;
-        moveTree.selectBranch(0); // 默认选择主线
+        manual?.tree?.selectBranch(0); // 默认选择主线
         if (!chess.move(moves[currentMoveIndex].data.san)) break;
         currentFen = chess.fen;
         fenHistory.add(currentFen);
       }
-      currentComment = moveTree.moveComment;
     }
 
     if (chess != null && chess.history.isNotEmpty) {
@@ -419,7 +412,7 @@ class _ViewerPageState extends State<ViewerPage> {
       return const Center(child: CircularProgressIndicator());
     }
 
-    final (moves, currentIndex) = moveTree.moveList();
+    final (moves, currentIndex) = manual?.tree?.moveList() ?? ([], -1);
 
     final controlPanel = Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -456,7 +449,7 @@ class _ViewerPageState extends State<ViewerPage> {
         children: [
           Expanded(
             child: MoveList(
-              moves: moves.map((e) => e.data).toList(),
+              moves: moves.map<PgnNodeData>((e) => e.data).toList(),
               currentMoveIndex: currentMoveIndex,
               onMoveSelected: _goToMove,
               onBranchSelected: (branch) {},
@@ -521,10 +514,10 @@ class _ViewerPageState extends State<ViewerPage> {
                       ],
                     ),
             ),
-            if (currentComment != null && currentComment!.isNotEmpty)
+            if (comment != null && comment!.isNotEmpty)
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Text('注释: $currentComment', style: TextStyle(color: Colors.grey)),
+                child: Text('注释: $comment', style: TextStyle(color: Colors.grey)),
               ),
           ],
         );

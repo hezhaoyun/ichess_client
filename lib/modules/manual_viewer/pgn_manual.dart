@@ -77,10 +77,16 @@ class PgnManual {
   final PgnGame game;
   PgnManual(this.game);
 
-  ManualTree createTree() {
+  ManualTree? _tree;
+
+  ManualTree? get tree {
+    if (_tree != null) return _tree;
+
     final root = TreeNode.empty();
     _visitNode(game.moves, root);
-    return ManualTree(root);
+    _tree = ManualTree(root);
+
+    return _tree;
   }
 
   void _visitNode(PgnNode<PgnNodeData> pgnNode, TreeNode parent) {
