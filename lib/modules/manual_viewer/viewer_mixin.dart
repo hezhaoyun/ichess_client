@@ -7,14 +7,27 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../services/ai_native.dart';
 import 'move_list.dart';
+import 'pgn_manual.dart';
 import 'viewer_page.dart';
 
 mixin ViewerMixin on State<ViewerPage> {
   PgnGame? currentGame;
+  List<PgnGame> games = [];
+  int currentGameIndex = 0;
+
+  late PgnManual manual;
+  late ManualTree moveTree;
+  String? currentComment;
+
   List<double> evaluations = [];
+
+  void parseManual() {
+    manual = PgnManual(currentGame!);
+    moveTree = manual.createTree();
+    currentComment = manual.comment();
+  }
 }
 
-// 1. 首先创建一个 mixin 来处理棋局分析相关的逻辑
 mixin ViewerAnalysisMixin on ViewerMixin {
   bool isAnalyzing = false;
 
@@ -98,15 +111,9 @@ mixin ViewerAnalysisMixin on ViewerMixin {
   }
 }
 
-// 2. 创建一个 mixin 处理棋局导航
 mixin ViewerNavigationMixin on ViewerMixin {
-  List<PgnGame> games = [];
-  int currentGameIndex = 0;
-
   int currentMoveIndex = -1;
-  String currentFen = chess_lib.Chess.DEFAULT_POSITION;
   List<String> fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
-  String? currentComment;
 
   final chessboardController = WPChessboardController();
   final selectedMoveKey = GlobalKey<MoveListState>();
@@ -117,34 +124,34 @@ mixin ViewerNavigationMixin on ViewerMixin {
   List<List<int>>? lastMove;
 
   void goToMove(int index) {
-    final mainline = currentGame!.moves.mainline().toList();
-    if (index < -1 || index >= mainline.length) return;
+    final (moves, currentIndex) = moveTree.moveList();
+    if (index < -1 || index >= moves.length) return;
 
     chess_lib.Chess? chess;
+    String? currentFen;
 
     if (index < currentMoveIndex) {
-      // 后退时，删除当前位置之后的所有历史记录
-      fenHistory.removeRange(index + 2, fenHistory.length);
-      currentMoveIndex = index;
-      currentFen = fenHistory[index + 1];
-      if (currentMoveIndex >= 0) {
-        currentComment = mainline[currentMoveIndex].comments?.join('\n');
-      } else {
-        currentComment = currentGame!.comments.join('\n');
+      // 后退
+      while (currentMoveIndex > index) {
+        moveTree.prevMove();
+        currentMoveIndex--;
       }
+      fenHistory.removeRange(index + 2, fenHistory.length);
+      currentFen = fenHistory[index + 1];
+      currentComment = moveTree.moveComment;
       lastMove = null;
     } else if (index > currentMoveIndex) {
       // 前进
       chess = chess_lib.Chess.fromFEN(fenHistory.last);
 
-      for (var i = currentMoveIndex + 1; i <= index; i++) {
-        if (!chess.move(mainline[i].san)) break;
+      while (currentMoveIndex < index) {
+        currentMoveIndex++;
+        moveTree.selectBranch(0); // 默认选择主线
+        if (!chess.move(moves[currentMoveIndex].data.san)) break;
         currentFen = chess.fen;
         fenHistory.add(currentFen);
       }
-
-      currentMoveIndex = index;
-      currentComment = mainline[index].comments?.join('\n');
+      currentComment = moveTree.moveComment;
     }
 
     if (chess != null && chess.history.isNotEmpty) {
@@ -154,26 +161,28 @@ mixin ViewerNavigationMixin on ViewerMixin {
       setState(() {});
     }
 
-    chessboardController.setFen(currentFen);
+    chessboardController.setFen(currentFen!);
     selectedMoveKey.currentState?.scrollToSelectedMove();
   }
 
   void gameSelected(int index) {
     analysisCardController?.collapse();
 
+    String? currentFen;
     setState(() {
       currentGameIndex = index;
-      currentGame = games[index] /*.parseMoves()*/;
+      currentGame = games[index];
+      parseManual();
       currentMoveIndex = -1;
-      fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
-      currentFen = chess_lib.Chess.DEFAULT_POSITION;
+      currentFen = currentGame!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
+      fenHistory = [currentFen!];
       currentComment = currentGame!.comments.join('\n');
       evaluations = [];
       isAnalysisPanelExpanded = false;
       lastMove = null;
     });
 
-    chessboardController.setFen(currentFen);
+    chessboardController.setFen(currentFen!);
   }
 
   void showGamesList() => showDialog(

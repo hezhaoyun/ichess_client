@@ -65,16 +65,19 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
 
       games = PgnGame.parseMultiGamePgn(content);
 
+      String? currentFen;
+
       if (games.isNotEmpty) {
         currentGameIndex = 0;
-        currentGame = games[0] /*.parseMoves()*/;
+        currentGame = games[0];
+        parseManual();
         currentMoveIndex = -1;
-        fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
-        currentFen = chess_lib.Chess.DEFAULT_POSITION;
+        currentFen = currentGame!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
+        fenHistory = [currentFen];
         currentComment = currentGame!.comments.join('\n');
       }
 
-      chessboardController.setFen(currentFen);
+      chessboardController.setFen(currentFen!);
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -180,19 +183,20 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
       return const Center(child: CircularProgressIndicator());
     }
 
-    final mainline = currentGame!.moves.mainline().toList();
+    final (moves, currentIndex) = moveTree.moveList();
+
     final controlPanel = Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
       child: ViewerControlPanel(
         currentGameIndex: currentGameIndex,
         gamesCount: games.length,
         currentMoveIndex: currentMoveIndex,
-        maxMoves: mainline.length,
+        maxMoves: moves.length,
         onGameSelect: showGamesList,
         onGoToStart: () => goToMove(-1),
         onPreviousMove: () => goToMove(currentMoveIndex - 1),
         onNextMove: () => goToMove(currentMoveIndex + 1),
-        onGoToEnd: () => goToMove(mainline.length - 1),
+        onGoToEnd: () => goToMove(moves.length - 1),
       ),
     );
 
@@ -216,9 +220,10 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
         children: [
           Expanded(
             child: MoveList(
-              moves: mainline,
+              moves: moves.map((e) => e.data).toList(),
               currentMoveIndex: currentMoveIndex,
               onMoveSelected: goToMove,
+              onBranchSelected: (branch) {},
               scrollController: scrollController,
               key: selectedMoveKey,
             ),

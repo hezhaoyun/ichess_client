@@ -1,6 +1,8 @@
 import 'package:dartchess/dartchess.dart';
 import 'package:flutter/material.dart';
 
+import 'pgn_manual.dart';
+
 /// 显示棋局移动列表的组件
 class MoveList extends StatefulWidget {
   static const double _horizontalSpacing = 8.0;
@@ -11,6 +13,8 @@ class MoveList extends StatefulWidget {
   final int currentMoveIndex;
   final Function(int) onMoveSelected;
   final ScrollController scrollController;
+  final List<TreeNode> branches;
+  final Function(int) onBranchSelected;
 
   const MoveList({
     super.key,
@@ -18,6 +22,8 @@ class MoveList extends StatefulWidget {
     required this.currentMoveIndex,
     required this.onMoveSelected,
     required this.scrollController,
+    this.branches = const [],
+    required this.onBranchSelected,
   });
 
   @override
@@ -30,12 +36,24 @@ class MoveListState extends State<MoveList> {
         child: SingleChildScrollView(
           controller: widget.scrollController,
           padding: const EdgeInsets.all(16),
-          child: LayoutBuilder(
-            builder: (context, constraints) => Wrap(
-              spacing: MoveList._horizontalSpacing,
-              runSpacing: MoveList._verticalSpacing,
-              children: _buildMoveItems(),
-            ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Wrap(
+                spacing: MoveList._horizontalSpacing,
+                runSpacing: MoveList._verticalSpacing,
+                children: _buildMoveItems(),
+              ),
+              if (widget.branches.isNotEmpty) ...[
+                const Divider(),
+                Text('变着:', style: Theme.of(context).textTheme.titleSmall),
+                Wrap(
+                  spacing: MoveList._horizontalSpacing,
+                  runSpacing: MoveList._verticalSpacing,
+                  children: _buildBranchItems(),
+                ),
+              ],
+            ],
           ),
         ),
       );
@@ -47,6 +65,17 @@ class MoveListState extends State<MoveList> {
           moveIndex: index,
           isSelected: index == widget.currentMoveIndex,
           onTap: () => widget.onMoveSelected(index),
+        ),
+      );
+
+  List<Widget> _buildBranchItems() => List.generate(
+        widget.branches.length,
+        (index) => _MoveItem(
+          move: widget.branches[index].toString(),
+          moveIndex: index,
+          isSelected: false,
+          onTap: () => widget.onBranchSelected(index),
+          isBranch: true,
         ),
       );
 
@@ -71,12 +100,14 @@ class _MoveItem extends StatelessWidget {
   final int moveIndex;
   final bool isSelected;
   final VoidCallback onTap;
+  final bool isBranch;
 
   const _MoveItem({
     required this.move,
     required this.moveIndex,
     required this.isSelected,
     required this.onTap,
+    this.isBranch = false,
   });
 
   @override
@@ -87,10 +118,14 @@ class _MoveItem extends StatelessWidget {
           decoration: BoxDecoration(
             color: isSelected ? Colors.grey.shade300 : Colors.transparent,
             borderRadius: BorderRadius.circular(MoveList._moveItemBorderRadius),
+            border: isBranch ? Border.all(color: Colors.grey.shade400) : null,
           ),
           child: Text(
             _formatMoveText(),
-            style: const TextStyle(fontWeight: FontWeight.normal),
+            style: TextStyle(
+              fontWeight: FontWeight.normal,
+              color: isBranch ? Colors.grey.shade700 : null,
+            ),
           ),
         ),
       );
