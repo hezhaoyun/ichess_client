@@ -1,8 +1,6 @@
 import 'package:dartchess/dartchess.dart';
 import 'package:flutter/material.dart';
 
-import 'pgn_manual.dart';
-
 /// 显示棋局移动列表的组件
 class MoveList extends StatefulWidget {
   static const double _horizontalSpacing = 8.0;
@@ -13,7 +11,6 @@ class MoveList extends StatefulWidget {
   final int currentMoveIndex;
   final Function(int) onMoveSelected;
   final ScrollController scrollController;
-  final List<TreeNode> branches;
   final Function(int) onBranchSelected;
 
   const MoveList({
@@ -22,7 +19,6 @@ class MoveList extends StatefulWidget {
     required this.currentMoveIndex,
     required this.onMoveSelected,
     required this.scrollController,
-    this.branches = const [],
     required this.onBranchSelected,
   });
 
@@ -44,15 +40,6 @@ class MoveListState extends State<MoveList> {
                 runSpacing: MoveList._verticalSpacing,
                 children: _buildMoveItems(),
               ),
-              if (widget.branches.isNotEmpty) ...[
-                const Divider(),
-                Text('变着:', style: Theme.of(context).textTheme.titleSmall),
-                Wrap(
-                  spacing: MoveList._horizontalSpacing,
-                  runSpacing: MoveList._verticalSpacing,
-                  children: _buildBranchItems(),
-                ),
-              ],
             ],
           ),
         ),
@@ -61,21 +48,11 @@ class MoveListState extends State<MoveList> {
   List<Widget> _buildMoveItems() => List.generate(
         widget.moves.length,
         (index) => _MoveItem(
-          move: widget.moves[index].data.san,
+          move: widget.moves[index],
           moveIndex: index,
           isSelected: index == widget.currentMoveIndex,
+          isBranch: widget.moves[index].children.length > 1,
           onTap: () => widget.onMoveSelected(index),
-        ),
-      );
-
-  List<Widget> _buildBranchItems() => List.generate(
-        widget.branches.length,
-        (index) => _MoveItem(
-          move: widget.branches[index].toString(),
-          moveIndex: index,
-          isSelected: false,
-          onTap: () => widget.onBranchSelected(index),
-          isBranch: true,
         ),
       );
 
@@ -96,7 +73,7 @@ class MoveListState extends State<MoveList> {
 
 /// 单个移动项组件
 class _MoveItem extends StatelessWidget {
-  final String move;
+  final PgnChildNode move;
   final int moveIndex;
   final bool isSelected;
   final VoidCallback onTap;
@@ -130,5 +107,8 @@ class _MoveItem extends StatelessWidget {
         ),
       );
 
-  String _formatMoveText() => moveIndex.isEven ? '${(moveIndex ~/ 2 + 1)}. $move' : move;
+  String _formatMoveText() {
+    final moveText = move.data.san;
+    return moveIndex.isEven ? '${(moveIndex ~/ 2 + 1)}. $moveText' : moveText;
+  }
 }
