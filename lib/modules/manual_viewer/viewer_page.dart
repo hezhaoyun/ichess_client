@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:dartchess/dartchess.dart';
@@ -12,8 +13,8 @@ import '../../services/favorites_service.dart';
 import '../../widgets/chess_board_widget.dart';
 import 'analysis_chart.dart';
 import 'move_list.dart';
+import 'pgn_manual.dart';
 import 'viewer_control_panel.dart';
-import 'viewer_mixin.dart';
 
 class ViewerPage extends StatefulWidget {
   final String manualFile;
@@ -25,24 +26,55 @@ class ViewerPage extends StatefulWidget {
   State<ViewerPage> createState() => _ViewerPageState();
 }
 
-class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysisMixin, ViewerNavigationMixin {
+class _ViewerPageState extends State<ViewerPage> {
   static const double kWideLayoutThreshold = 900;
 
   bool isLoading = false;
-  final scrollController = ScrollController();
+
+  // Game list
+  PgnGame? currentGame;
+  List<PgnGame> games = [];
+  int currentGameIndex = 0;
+
+  // Current manual
+  late PgnManual manual;
+  late ManualTree moveTree;
+  String? currentComment;
+
+  int currentMoveIndex = -1;
+  List<String> fenHistory = [];
+
+  // Favorite
   bool isFavorite = false;
   final favoritesService = FavoritesService();
+
+  // Analysis
+  bool isAnalyzing = false;
+  List<double> evaluations = [];
+  ExpansionTileController? analysisCardController;
+  bool isAnalysisPanelExpanded = false;
+
+  // Chessboard
+  List<List<int>>? lastMove;
+  final chessboardController = WPChessboardController();
+
+  // Move list
+  final selectedMoveKey = GlobalKey<MoveListState>();
+  final scrollController = ScrollController();
 
   @override
   void initState() {
     super.initState();
-    initStockfish();
-    analysisCardController = ExpansionTileController();
+
+    _initStockfish();
+
     _loadPgnAsset(widget.manualFile);
     _checkFavoriteStatus();
+
+    analysisCardController = ExpansionTileController();
   }
 
-  Future<void> initStockfish() async {
+  Future<void> _initStockfish() async {
     if (!Platform.isAndroid && !Platform.isIOS) {
       final configManager = Provider.of<AppConfigManager>(context, listen: false);
       AiNative.instance.setEnginePath(configManager.enginePath);
@@ -70,7 +102,7 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
       if (games.isNotEmpty) {
         currentGameIndex = 0;
         currentGame = games[0];
-        parseManual();
+        _parseManual();
         currentMoveIndex = -1;
         currentFen = currentGame!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
         fenHistory = [currentFen];
@@ -94,6 +126,72 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
       final status = await favoritesService.isFavorite(widget.pgnContent!);
       setState(() => isFavorite = status);
     }
+  }
+
+  void _gameSelected(int index) {
+    analysisCardController?.collapse();
+
+    String? currentFen;
+    setState(() {
+      currentGameIndex = index;
+      currentGame = games[index];
+      _parseManual();
+      currentMoveIndex = -1;
+      currentFen = currentGame!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
+      fenHistory = [currentFen!];
+      currentComment = currentGame!.comments.join('\n');
+      evaluations = [];
+      isAnalysisPanelExpanded = false;
+      lastMove = null;
+    });
+
+    chessboardController.setFen(currentFen!);
+  }
+
+  void _showGamesList() => showDialog(
+        context: context,
+        builder: (BuildContext context) => Dialog(
+          child: Container(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 16),
+                  child: Text(
+                    games[currentGameIndex].headers['Event'] ?? '',
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                  ),
+                ),
+                Flexible(
+                  child: ListView.builder(
+                    shrinkWrap: true,
+                    itemCount: games.length,
+                    itemBuilder: (context, index) => ListTile(
+                      contentPadding: EdgeInsets.all(2),
+                      selected: index == currentGameIndex,
+                      title: Text('${index + 1}. ${games[index].headers['Date']}'),
+                      subtitle: Text(
+                        '${games[index].headers['White']} vs ${games[index].headers['Black']}',
+                        style: Theme.of(context).textTheme.bodySmall,
+                      ),
+                      onTap: () {
+                        Navigator.of(context).pop();
+                        _gameSelected(index);
+                      },
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+  void _parseManual() {
+    manual = PgnManual(currentGame!);
+    moveTree = manual.createTree();
+    currentComment = manual.comment();
   }
 
   Future<void> _toggleFavorite() async {
@@ -121,6 +219,141 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
         SnackBar(content: Text(isFavorite ? '已添加到收藏' : '已取消收藏')),
       );
     }
+  }
+
+  Future<void> _analyzeGame() async {
+    if (isAnalyzing) return;
+
+    setState(() {
+      isAnalyzing = true;
+      evaluations = [];
+    });
+
+    try {
+      final chess = chess_lib.Chess();
+
+      // 分析初始局面
+      final (initialEval, isMate) = await _getEvaluation(chess.fen);
+      evaluations.add(initialEval);
+
+      double? mateScore;
+
+      for (var move in currentGame!.moves.mainline()) {
+        chess.move(move.san);
+        var (eval, isMate) = await _getEvaluation(chess.fen);
+
+        if (isMate) {
+          if (mateScore == null) {
+            mateScore = eval.abs();
+          } else {
+            eval = eval > 0 ? mateScore : -mateScore;
+          }
+        }
+
+        // 如果是白方走完棋，评估分数需要取反
+        if (chess.turn == chess_lib.Color.BLACK) eval = -eval;
+        setState(() => evaluations.add(eval));
+      }
+    } finally {
+      setState(() => isAnalyzing = false);
+    }
+  }
+
+  Future<(double, bool)> _getEvaluation(String fen) async {
+    final stockfish = AiNative.instance;
+    stockfish.sendCommand('position fen $fen');
+    stockfish.sendCommand('go depth 10');
+
+    double evaluation = 0.0;
+    bool isMate = false;
+
+    await for (final output in stockfish.stdout) {
+      // 将输出按行分割并遍历每一行
+      for (final line in output.split('\n')) {
+        if (line.contains('score cp')) {
+          final scoreMatch = RegExp(r'score cp (-?\d+)').firstMatch(line);
+          if (scoreMatch != null) {
+            evaluation = int.parse(scoreMatch.group(1)!) / 1.0;
+          }
+        } else if (line.contains('score mate')) {
+          final mateMatch = RegExp(r'score mate (-?\d+)').firstMatch(line);
+          if (mateMatch != null) {
+            final moves = int.parse(mateMatch.group(1)!);
+            double mateScore = _calcMateScore();
+            evaluation = moves > 0 ? mateScore * 2 : mateScore * -2;
+          }
+          isMate = true;
+        }
+
+        if (line.startsWith('bestmove')) {
+          return (evaluation, isMate);
+        }
+      }
+    }
+
+    return (evaluation, isMate);
+  }
+
+  double _calcMateScore() {
+    final maxScore = evaluations.reduce(max);
+    final minScore = evaluations.reduce(min);
+    return max(maxScore.abs(), minScore.abs());
+  }
+
+  void _goToMove(int index) {
+    final (moves, currentIndex) = moveTree.moveList();
+    if (index < -1 || index >= moves.length) return;
+
+    chess_lib.Chess? chess;
+    String? currentFen;
+
+    if (index < currentMoveIndex) {
+      // 后退
+      while (currentMoveIndex > index) {
+        moveTree.prevMove();
+        currentMoveIndex--;
+      }
+      fenHistory.removeRange(index + 2, fenHistory.length);
+      currentFen = fenHistory[index + 1];
+      currentComment = moveTree.moveComment;
+      lastMove = null;
+    } else if (index > currentMoveIndex) {
+      // 前进
+      chess = chess_lib.Chess.fromFEN(fenHistory.last);
+
+      while (currentMoveIndex < index) {
+        currentMoveIndex++;
+        moveTree.selectBranch(0); // 默认选择主线
+        if (!chess.move(moves[currentMoveIndex].data.san)) break;
+        currentFen = chess.fen;
+        fenHistory.add(currentFen);
+      }
+      currentComment = moveTree.moveComment;
+    }
+
+    if (chess != null && chess.history.isNotEmpty) {
+      final last = chess.history.last.move;
+      _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
+    } else {
+      setState(() {});
+    }
+
+    chessboardController.setFen(currentFen!);
+    selectedMoveKey.currentState?.scrollToSelectedMove();
+  }
+
+  void _updateLastMove(String fromSquare, String toSquare) {
+    int rankFrom = fromSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileFrom = fromSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+    int rankTo = toSquare.codeUnitAt(1) - '1'.codeUnitAt(0) + 1;
+    int fileTo = toSquare.codeUnitAt(0) - 'a'.codeUnitAt(0) + 1;
+
+    setState(() {
+      lastMove = [
+        [rankFrom, fileFrom],
+        [rankTo, fileTo]
+      ];
+    });
   }
 
   @override
@@ -192,11 +425,11 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
         gamesCount: games.length,
         currentMoveIndex: currentMoveIndex,
         maxMoves: moves.length,
-        onGameSelect: showGamesList,
-        onGoToStart: () => goToMove(-1),
-        onPreviousMove: () => goToMove(currentMoveIndex - 1),
-        onNextMove: () => goToMove(currentMoveIndex + 1),
-        onGoToEnd: () => goToMove(moves.length - 1),
+        onGameSelect: _showGamesList,
+        onGoToStart: () => _goToMove(-1),
+        onPreviousMove: () => _goToMove(currentMoveIndex - 1),
+        onNextMove: () => _goToMove(currentMoveIndex + 1),
+        onGoToEnd: () => _goToMove(moves.length - 1),
       ),
     );
 
@@ -222,7 +455,7 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
             child: MoveList(
               moves: moves.map((e) => e.data).toList(),
               currentMoveIndex: currentMoveIndex,
-              onMoveSelected: goToMove,
+              onMoveSelected: _goToMove,
               onBranchSelected: (branch) {},
               scrollController: scrollController,
               key: selectedMoveKey,
@@ -246,7 +479,7 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
       controller: analysisCardController,
       initiallyExpanded: isAnalysisPanelExpanded,
       onExpansionChanged: (expanded) {
-        if (!isAnalyzing && evaluations.isEmpty) analyzeGame();
+        if (!isAnalyzing && evaluations.isEmpty) _analyzeGame();
         setState(() => isAnalysisPanelExpanded = expanded);
       },
       children: [
@@ -255,7 +488,7 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
           child: AnalysisChart(
             evaluations: evaluations,
             currentMoveIndex: currentMoveIndex + 1,
-            onPositionChanged: goToMove,
+            onPositionChanged: _goToMove,
           ),
         ),
       ],
