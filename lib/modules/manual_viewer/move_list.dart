@@ -9,7 +9,7 @@ class MoveList extends StatefulWidget {
   static const double _verticalSpacing = 4.0;
   static const double _moveItemBorderRadius = 4.0;
 
-  final List<PgnNodeData> moves;
+  final List<PgnChildNode> moves;
   final int currentMoveIndex;
   final Function(int) onMoveSelected;
   final ScrollController scrollController;
@@ -61,7 +61,7 @@ class MoveListState extends State<MoveList> {
   List<Widget> _buildMoveItems() => List.generate(
         widget.moves.length,
         (index) => _MoveItem(
-          move: widget.moves[index].san,
+          move: widget.moves[index].data.san,
           moveIndex: index,
           isSelected: index == widget.currentMoveIndex,
           onTap: () => widget.onMoveSelected(index),

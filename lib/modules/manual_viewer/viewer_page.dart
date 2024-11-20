@@ -14,7 +14,6 @@ import '../../widgets/chess_board_widget.dart';
 import 'analysis_chart.dart';
 import 'move_list.dart';
 import 'pgn_manual.dart';
-import 'viewer_control_panel.dart';
 
 class ViewerPage extends StatefulWidget {
   final String manualFile;
@@ -43,7 +42,6 @@ class _ViewerPageState extends State<ViewerPage> {
     return manual?.tree?.moveComment;
   }
 
-  int currentMoveIndex = -1;
   List<String> fenHistory = [];
 
   // Favorite
@@ -97,18 +95,7 @@ class _ViewerPageState extends State<ViewerPage> {
 
       games = PgnGame.parseMultiGamePgn(content);
 
-      String? currentFen;
-
-      if (games.isNotEmpty) {
-        gameIndex = 0;
-        _parseManual();
-
-        currentMoveIndex = -1;
-        currentFen = game!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
-        fenHistory = [currentFen];
-      }
-
-      chessboardController.setFen(currentFen!);
+      _gameSelected(0, resetAnalysis: false);
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -127,23 +114,22 @@ class _ViewerPageState extends State<ViewerPage> {
     }
   }
 
-  void _gameSelected(int index) {
-    analysisCardController.collapse();
-
-    String? currentFen;
-    setState(() {
-      gameIndex = index;
-      _parseManual();
-
-      currentMoveIndex = -1;
-      currentFen = game!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
-      fenHistory = [currentFen!];
-      evaluations = [];
+  void _gameSelected(int index, {bool resetAnalysis = true}) {
+    if (resetAnalysis) {
+      analysisCardController.collapse();
       isAnalysisPanelExpanded = false;
+    }
+
+    gameIndex = index;
+    manual = PgnManual(game!);
+    fenHistory = [game!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION];
+
+    setState(() {
+      evaluations = [];
       lastMove = null;
     });
 
-    chessboardController.setFen(currentFen!);
+    chessboardController.setFen(fenHistory.last);
   }
 
   void _showGamesList() => showDialog(
@@ -186,11 +172,6 @@ class _ViewerPageState extends State<ViewerPage> {
           ),
         ),
       );
-
-  void _parseManual() {
-    if (game == null) return;
-    manual = PgnManual(game!);
-  }
 
   Future<void> _toggleFavorite() async {
     if (game == null) return;
@@ -299,29 +280,30 @@ class _ViewerPageState extends State<ViewerPage> {
   }
 
   void _goToMove(int index) {
-    final (moves, currentIndex) = manual?.tree?.moveList() ?? ([], -1);
+    var (moves, currentIndex) = manual?.tree?.moveList() ?? ([], -1);
     if (index < -1 || index >= moves.length) return;
 
     chess_lib.Chess? chess;
     String? currentFen;
 
-    if (index < currentMoveIndex) {
+    if (index < currentIndex) {
       // 后退
-      while (currentMoveIndex > index) {
+      while (currentIndex > index) {
         manual?.tree?.prevMove();
-        currentMoveIndex--;
+        currentIndex--;
       }
+
       fenHistory.removeRange(index + 2, fenHistory.length);
       currentFen = fenHistory[index + 1];
       lastMove = null;
-    } else if (index > currentMoveIndex) {
+    } else if (index > currentIndex) {
       // 前进
       chess = chess_lib.Chess.fromFEN(fenHistory.last);
 
-      while (currentMoveIndex < index) {
-        currentMoveIndex++;
+      while (currentIndex < index) {
+        currentIndex++;
         manual?.tree?.selectBranch(0); // 默认选择主线
-        if (!chess.move(moves[currentMoveIndex].data.san)) break;
+        if (!chess.move(moves[currentIndex].data.san)) break;
         currentFen = chess.fen;
         fenHistory.add(currentFen);
       }
@@ -416,16 +398,44 @@ class _ViewerPageState extends State<ViewerPage> {
 
     final controlPanel = Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
-      child: ViewerControlPanel(
-        currentGameIndex: gameIndex,
-        gamesCount: games.length,
-        currentMoveIndex: currentMoveIndex,
-        maxMoves: moves.length,
-        onGameSelect: _showGamesList,
-        onGoToStart: () => _goToMove(-1),
-        onPreviousMove: () => _goToMove(currentMoveIndex - 1),
-        onNextMove: () => _goToMove(currentMoveIndex + 1),
-        onGoToEnd: () => _goToMove(moves.length - 1),
+      child: Card(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Expanded(child: SizedBox()),
+            TextButton(
+              onPressed: () => _showGamesList(),
+              child: Row(
+                children: [
+                  Text('${gameIndex + 1} / ${games.length}', style: const TextStyle(fontSize: 16)),
+                  const Icon(Icons.arrow_drop_down, size: 20),
+                ],
+              ),
+            ),
+            const Expanded(child: SizedBox()),
+            IconButton(
+              icon: const Icon(Icons.first_page),
+              onPressed: currentIndex >= 0 ? () => _goToMove(-1) : null,
+              tooltip: '开始',
+            ),
+            IconButton(
+              icon: const Icon(Icons.navigate_before),
+              onPressed: currentIndex >= 0 ? () => _goToMove(currentIndex - 1) : null,
+              tooltip: '上一步',
+            ),
+            IconButton(
+              icon: const Icon(Icons.navigate_next),
+              onPressed: currentIndex < moves.length - 1 ? () => _goToMove(currentIndex + 1) : null,
+              tooltip: '下一步',
+            ),
+            IconButton(
+              icon: const Icon(Icons.last_page),
+              onPressed: currentIndex < moves.length - 1 ? () => _goToMove(moves.length - 1) : null,
+              tooltip: '结束',
+            ),
+            const Expanded(child: SizedBox()),
+          ],
+        ),
       ),
     );
 
@@ -449,8 +459,8 @@ class _ViewerPageState extends State<ViewerPage> {
         children: [
           Expanded(
             child: MoveList(
-              moves: moves.map<PgnNodeData>((e) => e.data).toList(),
-              currentMoveIndex: currentMoveIndex,
+              moves: moves.map<PgnChildNode>((e) => e).toList(),
+              currentMoveIndex: currentIndex,
               onMoveSelected: _goToMove,
               onBranchSelected: (branch) {},
               scrollController: scrollController,
@@ -483,7 +493,7 @@ class _ViewerPageState extends State<ViewerPage> {
           height: 200,
           child: AnalysisChart(
             evaluations: evaluations,
-            currentMoveIndex: currentMoveIndex + 1,
+            currentMoveIndex: currentIndex + 1,
             onPositionChanged: _goToMove,
           ),
         ),
