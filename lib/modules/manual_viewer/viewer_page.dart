@@ -32,9 +32,9 @@ class _ViewerPageState extends State<ViewerPage> {
   bool isLoading = false;
 
   // Game list
-  PgnGame? currentGame;
+  PgnGame? game;
   List<PgnGame> games = [];
-  int currentGameIndex = 0;
+  int gameIndex = 0;
 
   // Current manual
   late PgnManual manual;
@@ -100,13 +100,14 @@ class _ViewerPageState extends State<ViewerPage> {
       String? currentFen;
 
       if (games.isNotEmpty) {
-        currentGameIndex = 0;
-        currentGame = games[0];
+        gameIndex = 0;
+        game = games[0];
         _parseManual();
+
         currentMoveIndex = -1;
-        currentFen = currentGame!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
+        currentFen = game!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
         fenHistory = [currentFen];
-        currentComment = currentGame!.comments.join('\n');
+        currentComment = game!.comments.join('\n');
       }
 
       chessboardController.setFen(currentFen!);
@@ -133,13 +134,14 @@ class _ViewerPageState extends State<ViewerPage> {
 
     String? currentFen;
     setState(() {
-      currentGameIndex = index;
-      currentGame = games[index];
+      gameIndex = index;
+      game = games[index];
       _parseManual();
+
       currentMoveIndex = -1;
-      currentFen = currentGame!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
+      currentFen = game!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION;
       fenHistory = [currentFen!];
-      currentComment = currentGame!.comments.join('\n');
+      currentComment = game!.comments.join('\n');
       evaluations = [];
       isAnalysisPanelExpanded = false;
       lastMove = null;
@@ -160,7 +162,7 @@ class _ViewerPageState extends State<ViewerPage> {
                 Padding(
                   padding: const EdgeInsets.only(bottom: 16),
                   child: Text(
-                    games[currentGameIndex].headers['Event'] ?? '',
+                    games[gameIndex].headers['Event'] ?? '',
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   ),
                 ),
@@ -170,7 +172,7 @@ class _ViewerPageState extends State<ViewerPage> {
                     itemCount: games.length,
                     itemBuilder: (context, index) => ListTile(
                       contentPadding: EdgeInsets.all(2),
-                      selected: index == currentGameIndex,
+                      selected: index == gameIndex,
                       title: Text('${index + 1}. ${games[index].headers['Date']}'),
                       subtitle: Text(
                         '${games[index].headers['White']} vs ${games[index].headers['Black']}',
@@ -188,29 +190,30 @@ class _ViewerPageState extends State<ViewerPage> {
           ),
         ),
       );
+
   void _parseManual() {
-    manual = PgnManual(currentGame!);
+    manual = PgnManual(game!);
     moveTree = manual.createTree();
     currentComment = manual.comment();
   }
 
   Future<void> _toggleFavorite() async {
-    if (currentGame == null) return;
+    if (game == null) return;
 
-    final pgnContent = widget.pgnContent ?? currentGame!.makePgn();
+    final pgnContent = widget.pgnContent ?? game!.makePgn();
 
     if (isFavorite) {
       await favoritesService.removeFavorite(pgnContent);
     } else {
-      final game = FavoriteGame(
-        event: currentGame!.headers['Event'] ?? '',
-        date: currentGame!.headers['Date'] ?? '',
-        white: currentGame!.headers['White'] ?? '',
-        black: currentGame!.headers['Black'] ?? '',
+      final g = FavoriteGame(
+        event: game!.headers['Event'] ?? '',
+        date: game!.headers['Date'] ?? '',
+        white: game!.headers['White'] ?? '',
+        black: game!.headers['Black'] ?? '',
         pgn: pgnContent,
         addedAt: DateTime.now(),
       );
-      await favoritesService.addFavorite(game);
+      await favoritesService.addFavorite(g);
     }
 
     setState(() => isFavorite = !isFavorite);
@@ -238,7 +241,7 @@ class _ViewerPageState extends State<ViewerPage> {
 
       double? mateScore;
 
-      for (var move in currentGame!.moves.mainline()) {
+      for (var move in game!.moves.mainline()) {
         chess.move(move.san);
         var (eval, isMate) = await _getEvaluation(chess.fen);
 
@@ -421,7 +424,7 @@ class _ViewerPageState extends State<ViewerPage> {
     final controlPanel = Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
       child: ViewerControlPanel(
-        currentGameIndex: currentGameIndex,
+        currentGameIndex: gameIndex,
         gamesCount: games.length,
         currentMoveIndex: currentMoveIndex,
         maxMoves: moves.length,

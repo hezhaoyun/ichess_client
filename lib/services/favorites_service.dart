@@ -50,11 +50,11 @@ class FavoritesService {
     return jsonList.map((json) => FavoriteGame.fromJson(json)).toList();
   }
 
-  Future<void> addFavorite(FavoriteGame game) async {
+  Future<void> addFavorite(FavoriteGame fg) async {
     final favorites = await getFavorites();
-    if (favorites.any((g) => g.pgn == game.pgn)) return;
+    if (favorites.any((g) => g.pgn == fg.pgn)) return;
 
-    favorites.add(game);
+    favorites.add(fg);
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_key, json.encode(favorites.map((g) => g.toJson()).toList()));
   }
