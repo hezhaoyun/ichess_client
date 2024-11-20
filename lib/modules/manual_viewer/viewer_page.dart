@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:chess/chess.dart' as chess_lib;
+import 'package:dartchess/dartchess.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
@@ -11,7 +12,6 @@ import '../../services/favorites_service.dart';
 import '../../widgets/chess_board_widget.dart';
 import 'analysis_chart.dart';
 import 'move_list.dart';
-import 'pgn_game.dart';
 import 'viewer_control_panel.dart';
 import 'viewer_mixin.dart';
 
@@ -63,16 +63,16 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
         content = await DefaultAssetBundle.of(context).loadString('assets/manuals/$filename');
       }
 
-      setState(() {
-        games = PgnGame.parseMultipleGames(content);
-        if (games.isNotEmpty) {
-          currentGameIndex = 0;
-          currentGame = games[0].parseMoves();
-          currentMoveIndex = -1;
-          fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
-          currentFen = chess_lib.Chess.DEFAULT_POSITION;
-        }
-      });
+      games = PgnGame.parseMultiGamePgn(content);
+
+      if (games.isNotEmpty) {
+        currentGameIndex = 0;
+        currentGame = games[0] /*.parseMoves()*/;
+        currentMoveIndex = -1;
+        fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
+        currentFen = chess_lib.Chess.DEFAULT_POSITION;
+        currentComment = currentGame!.comments.join('\n');
+      }
 
       chessboardController.setFen(currentFen);
     } catch (e) {
@@ -96,16 +96,16 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
   Future<void> _toggleFavorite() async {
     if (currentGame == null) return;
 
-    final pgnContent = widget.pgnContent ?? currentGame!.toPgn();
+    final pgnContent = widget.pgnContent ?? currentGame!.makePgn();
 
     if (isFavorite) {
       await favoritesService.removeFavorite(pgnContent);
     } else {
       final game = FavoriteGame(
-        event: currentGame!.event,
-        date: currentGame!.date,
-        white: currentGame!.white,
-        black: currentGame!.black,
+        event: currentGame!.headers['Event'] ?? '',
+        date: currentGame!.headers['Date'] ?? '',
+        white: currentGame!.headers['White'] ?? '',
+        black: currentGame!.headers['Black'] ?? '',
         pgn: pgnContent,
         addedAt: DateTime.now(),
       );
@@ -180,18 +180,19 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
       return const Center(child: CircularProgressIndicator());
     }
 
+    final mainline = currentGame!.moves.mainline().toList();
     final controlPanel = Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
       child: ViewerControlPanel(
         currentGameIndex: currentGameIndex,
         gamesCount: games.length,
         currentMoveIndex: currentMoveIndex,
-        maxMoves: currentGame?.moves.length ?? 0,
+        maxMoves: mainline.length,
         onGameSelect: showGamesList,
         onGoToStart: () => goToMove(-1),
         onPreviousMove: () => goToMove(currentMoveIndex - 1),
         onNextMove: () => goToMove(currentMoveIndex + 1),
-        onGoToEnd: () => goToMove(currentGame!.moves.length - 1),
+        onGoToEnd: () => goToMove(mainline.length - 1),
       ),
     );
 
@@ -215,7 +216,7 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
         children: [
           Expanded(
             child: MoveList(
-              moves: currentGame!.moves,
+              moves: mainline,
               currentMoveIndex: currentMoveIndex,
               onMoveSelected: goToMove,
               scrollController: scrollController,
@@ -279,6 +280,11 @@ class _ViewerPageState extends State<ViewerPage> with ViewerMixin, ViewerAnalysi
                       ],
                     ),
             ),
+            if (currentComment != null && currentComment!.isNotEmpty)
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text('注释: $currentComment', style: TextStyle(color: Colors.grey)),
+              ),
           ],
         );
       },

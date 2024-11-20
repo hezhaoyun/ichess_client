@@ -1,12 +1,12 @@
 import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
+import 'package:dartchess/dartchess.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../services/ai_native.dart';
 import 'move_list.dart';
-import 'pgn_game.dart';
 import 'viewer_page.dart';
 
 mixin ViewerMixin on State<ViewerPage> {
@@ -34,8 +34,9 @@ mixin ViewerAnalysisMixin on ViewerMixin {
       evaluations.add(initialEval);
 
       double? mateScore;
-      for (var move in currentGame!.moves) {
-        chess.move(move);
+
+      for (var move in currentGame!.moves.mainline()) {
+        chess.move(move.san);
         var (eval, isMate) = await getPositionEvaluation(chess.fen);
 
         if (isMate) {
@@ -105,6 +106,7 @@ mixin ViewerNavigationMixin on ViewerMixin {
   int currentMoveIndex = -1;
   String currentFen = chess_lib.Chess.DEFAULT_POSITION;
   List<String> fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
+  String? currentComment;
 
   final chessboardController = WPChessboardController();
   final selectedMoveKey = GlobalKey<MoveListState>();
@@ -115,7 +117,8 @@ mixin ViewerNavigationMixin on ViewerMixin {
   List<List<int>>? lastMove;
 
   void goToMove(int index) {
-    if (index < -1 || index >= currentGame!.moves.length) return;
+    final mainline = currentGame!.moves.mainline().toList();
+    if (index < -1 || index >= mainline.length) return;
 
     chess_lib.Chess? chess;
 
@@ -124,18 +127,24 @@ mixin ViewerNavigationMixin on ViewerMixin {
       fenHistory.removeRange(index + 2, fenHistory.length);
       currentMoveIndex = index;
       currentFen = fenHistory[index + 1];
+      if (currentMoveIndex >= 0) {
+        currentComment = mainline[currentMoveIndex].comments?.join('\n');
+      } else {
+        currentComment = currentGame!.comments.join('\n');
+      }
       lastMove = null;
     } else if (index > currentMoveIndex) {
       // 前进
       chess = chess_lib.Chess.fromFEN(fenHistory.last);
 
       for (var i = currentMoveIndex + 1; i <= index; i++) {
-        if (!chess.move(currentGame!.moves[i])) break;
+        if (!chess.move(mainline[i].san)) break;
         currentFen = chess.fen;
         fenHistory.add(currentFen);
       }
 
       currentMoveIndex = index;
+      currentComment = mainline[index].comments?.join('\n');
     }
 
     if (chess != null && chess.history.isNotEmpty) {
@@ -154,10 +163,11 @@ mixin ViewerNavigationMixin on ViewerMixin {
 
     setState(() {
       currentGameIndex = index;
-      currentGame = games[index].parseMoves();
+      currentGame = games[index] /*.parseMoves()*/;
       currentMoveIndex = -1;
       fenHistory = [chess_lib.Chess.DEFAULT_POSITION];
       currentFen = chess_lib.Chess.DEFAULT_POSITION;
+      currentComment = currentGame!.comments.join('\n');
       evaluations = [];
       isAnalysisPanelExpanded = false;
       lastMove = null;
@@ -178,7 +188,7 @@ mixin ViewerNavigationMixin on ViewerMixin {
                 Padding(
                   padding: const EdgeInsets.only(bottom: 16),
                   child: Text(
-                    games[currentGameIndex].event,
+                    games[currentGameIndex].headers['Event'] ?? '',
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   ),
                 ),
@@ -189,9 +199,9 @@ mixin ViewerNavigationMixin on ViewerMixin {
                     itemBuilder: (context, index) => ListTile(
                       contentPadding: EdgeInsets.all(2),
                       selected: index == currentGameIndex,
-                      title: Text('${index + 1}. ${games[index].date}'),
+                      title: Text('${index + 1}. ${games[index].headers['Date']}'),
                       subtitle: Text(
-                        '${games[index].white} vs ${games[index].black}',
+                        '${games[index].headers['White']} vs ${games[index].headers['Black']}',
                         style: Theme.of(context).textTheme.bodySmall,
                       ),
                       onTap: () {

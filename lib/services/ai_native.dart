@@ -71,7 +71,6 @@ class AiNative {
       _isInitialized = true;
     } catch (e) {
       debugPrint('引擎初始化失败: $e');
-      rethrow;
     }
   }
 
