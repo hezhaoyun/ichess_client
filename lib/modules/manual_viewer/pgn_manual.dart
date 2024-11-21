@@ -43,16 +43,22 @@ class ManualTree {
     _current = _current.children[index];
   }
 
+  bool switchTo(int index) {
+    if (index < 0 || index >= _current.parent!.branchCount) return false;
+    _current = _current.parent!.children[index];
+    return true;
+  }
+
   void rewind() {
     _current = _root;
   }
 
-  (List<PgnChildNode>, int) moveList({bool followMainLine = true}) {
-    final link = <PgnChildNode>[];
+  (List<TreeNode>, int) moveList() {
+    final link = <TreeNode>[];
 
     var p = _current;
     while (p != _root) {
-      link.insert(0, p.pgnNode!);
+      link.insert(0, p);
       p = p.parent!;
     }
 
@@ -61,7 +67,7 @@ class ManualTree {
     p = _current;
     while (p.children.isNotEmpty) {
       final child = p.children[0];
-      link.add(child.pgnNode!);
+      link.add(child);
       p = child;
     }
 

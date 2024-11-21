@@ -1,13 +1,15 @@
 import 'package:dartchess/dartchess.dart';
 import 'package:flutter/material.dart';
 
+import 'pgn_manual.dart';
+
 /// 显示棋局移动列表的组件
 class MoveList extends StatefulWidget {
   static const double _horizontalSpacing = 8.0;
   static const double _verticalSpacing = 4.0;
   static const double _moveItemBorderRadius = 4.0;
 
-  final List<PgnChildNode> moves;
+  final List<TreeNode> moves;
   final int currentMoveIndex;
   final Function(int) onMoveSelected;
   final ScrollController scrollController;
@@ -41,10 +43,10 @@ class MoveListState extends State<MoveList> {
   List<Widget> _buildMoveItems() => List.generate(
         widget.moves.length,
         (index) => _MoveItem(
-          move: widget.moves[index],
+          move: widget.moves[index].pgnNode!,
           moveIndex: index,
           isSelected: index == widget.currentMoveIndex,
-          isBranch: widget.moves[index].children.length > 1,
+          isBranch: widget.moves[index].parent!.branchCount > 1,
           onTap: () => widget.onMoveSelected(index),
         ),
       );

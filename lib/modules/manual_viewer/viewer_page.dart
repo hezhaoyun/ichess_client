@@ -279,7 +279,7 @@ class _ViewerPageState extends State<ViewerPage> {
   }
 
   void _goToMove(int index) {
-    var (moves, currentIndex) = manual?.tree?.moveList() ?? ([], -1);
+    var (moves, currentIndex) = manual?.tree?.moveList() ?? (<TreeNode>[], -1);
     if (index < -1 || index >= moves.length) return;
 
     chess_lib.Chess? chess;
@@ -303,14 +303,14 @@ class _ViewerPageState extends State<ViewerPage> {
         currentIndex++;
         manual?.tree?.selectBranch(0);
 
-        if (!chess.move(moves[currentIndex].data.san)) break;
+        if (!chess.move(moves[currentIndex].pgnNode!.data.san)) break;
 
         currentFen = chess.fen;
         fenHistory.add(currentFen);
       }
     }
 
-    showBranches = currentIndex > -1 && currentIndex == index && moves[currentIndex].children.length > 1;
+    showBranches = currentIndex > -1 && currentIndex == index && moves[currentIndex].parent!.branchCount > 1;
 
     if (chess != null && chess.history.isNotEmpty) {
       final last = chess.history.last.move;
@@ -366,7 +366,7 @@ class _ViewerPageState extends State<ViewerPage> {
       );
 
   Widget _buildControlPanel() {
-    final (moves, currentIndex) = manual?.tree?.moveList() ?? ([], -1);
+    final (moves, currentIndex) = manual?.tree?.moveList() ?? (<TreeNode>[], -1);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -436,7 +436,7 @@ class _ViewerPageState extends State<ViewerPage> {
       );
 
   Widget _buildBottomSection() {
-    final (moves, currentIndex) = manual?.tree?.moveList() ?? ([], -1);
+    final (moves, currentIndex) = manual?.tree?.moveList() ?? (<TreeNode>[], -1);
 
     if (showAnalysisCard) {
       return SizedBox(
@@ -454,10 +454,10 @@ class _ViewerPageState extends State<ViewerPage> {
         showBranches = false;
 
         final chess = chess_lib.Chess.fromFEN(fenHistory.last);
-        manual?.tree?.selectBranch(index);
+        manual?.tree?.switchTo(index);
 
         // 更新棋盘位置
-        if (!chess.move(moves[currentIndex].children[index].data.san)) return;
+        if (!chess.move(moves[currentIndex].parent!.children[index].pgnNode!.data.san)) return;
         final currentFen = chess.fen;
         fenHistory.add(currentFen);
 
@@ -479,9 +479,9 @@ class _ViewerPageState extends State<ViewerPage> {
               const SizedBox(height: 8),
               ListView.builder(
                 shrinkWrap: true,
-                itemCount: currentIndex > -1 ? moves[currentIndex].children.length : 0,
+                itemCount: currentIndex > -1 ? moves[currentIndex].parent?.branchCount ?? 0 : 0,
                 itemBuilder: (context, i) => ListTile(
-                  title: Center(child: Text(moves[currentIndex].children[i].data.san)),
+                  title: Center(child: Text(moves[currentIndex].parent!.children[i].pgnNode!.data.san)),
                   onTap: () => selectBranch(i),
                 ),
               ),
@@ -494,7 +494,7 @@ class _ViewerPageState extends State<ViewerPage> {
     return Padding(
       padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
       child: MoveList(
-        moves: moves.map<PgnChildNode>((e) => e).toList(),
+        moves: moves.map<TreeNode>((e) => e).toList(),
         currentMoveIndex: currentIndex,
         onMoveSelected: _goToMove,
         scrollController: scrollController,
