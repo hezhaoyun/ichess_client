@@ -405,8 +405,11 @@ class _ViewerPageState extends State<ViewerPage> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const SizedBox(width: 4),
+            const SizedBox(width: 8),
             TextButton(
+              style: TextButton.styleFrom(
+                padding: const EdgeInsets.only(left: 8),
+              ),
               onPressed: () => _showGamesList(),
               child: Row(
                 children: [
@@ -437,14 +440,13 @@ class _ViewerPageState extends State<ViewerPage> {
               tooltip: '结束',
             ),
             const Expanded(child: SizedBox()),
-            Switch(
-              value: showAnalysisCard,
-              onChanged: (value) {
-                setState(() => showAnalysisCard = value);
+            IconButton(
+              icon: Icon(showAnalysisCard ? Icons.analytics : Icons.analytics_outlined),
+              onPressed: () {
+                setState(() => showAnalysisCard = !showAnalysisCard);
                 if (showAnalysisCard && evaluations.isEmpty) _analyzeGame();
               },
             ),
-            const SizedBox(width: 4),
           ],
         ),
       ),
