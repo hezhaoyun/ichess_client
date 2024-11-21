@@ -31,7 +31,7 @@ class _AnalysisChartState extends State<AnalysisChart> {
                       .asMap()
                       .entries
                       .map(
-                        (e) => FlSpot(e.key.toDouble(), e.value / 100.0),
+                        (e) => FlSpot(e.key.toDouble(), e.value),
                       )
                       .toList(),
                   isCurved: true,

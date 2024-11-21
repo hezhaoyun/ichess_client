@@ -41,8 +41,24 @@ class ManualTree {
     return null;
   }
 
-  void selectBranch(int index) {
+  TreeNode selectBranch(int index) {
     _current = _current.children[index];
+    return _current;
+  }
+
+  TreeNode? switchSibling(int index) {
+    if (index < 0 || index >= _current.parent!.branchCount) return null;
+    _current = _current.parent!.children[index];
+    return _current;
+  }
+
+  int get siblingCount => _current.parent!.branchCount;
+
+  TreeNode? get current => _current;
+
+  TreeNode? getSibling(int index) {
+    if (index < 0 || index >= _current.parent!.branchCount) return null;
+    return _current.parent!.children[index];
   }
 
   void rewind() {

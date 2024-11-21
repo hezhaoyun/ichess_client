@@ -292,12 +292,6 @@ class _ViewerPageState extends State<ViewerPage> {
         currentIndex--;
       }
 
-      // 如果当前节点有『分枝』，则需要再退一步，同时触发
-      if (moves[currentIndex].hasSibling) {
-        manual?.tree?.prevMove();
-        currentIndex--;
-      }
-
       fenHistory.removeRange(currentIndex + 2, fenHistory.length);
       currentFen = fenHistory[currentIndex + 1];
       lastMove = null;
@@ -306,11 +300,6 @@ class _ViewerPageState extends State<ViewerPage> {
       chess = chess_lib.Chess.fromFEN(fenHistory.last);
 
       while (currentIndex < index) {
-        // 如果点击的是一个有『分枝』的节点，会触发变着显示
-        if (currentIndex + 1 == index && moves[currentIndex + 1].hasSibling) {
-          break;
-        }
-
         currentIndex++;
 
         manual?.tree?.selectBranch(0);
@@ -323,11 +312,10 @@ class _ViewerPageState extends State<ViewerPage> {
 
     if (chess != null && chess.history.isNotEmpty) {
       final last = chess.history.last.move;
-      _updateLastMove(last.fromAlgebraic, last.toAlgebraic); // with setState(...)
+      _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
     }
 
-    // 只有点击了有『分枝』的节点，才会提前 break;
-    setState(() => showBranches = currentIndex != index);
+    setState(() => showBranches = (manual?.tree?.siblingCount ?? 1) > 1);
 
     chessboardController.setFen(currentFen ?? fenHistory.last);
     if (scrollToSelectedMove) selectedMoveKey.currentState?.scrollToSelectedMove(index);
@@ -461,13 +449,16 @@ class _ViewerPageState extends State<ViewerPage> {
 
     if (showBranches) {
       void selectBranch(int index) {
-        showBranches = false;
+        setState(() => showBranches = false);
 
+        final node = manual?.tree?.switchSibling(index);
+        if (node == null) return;
+        fenHistory.removeLast();
         final chess = chess_lib.Chess.fromFEN(fenHistory.last);
-        manual?.tree?.selectBranch(index);
 
         // 更新棋盘位置
-        if (!chess.move(moves[currentIndex].children[index].pgnNode!.data.san)) return;
+        if (!chess.move(node.pgnNode!.data.san)) return;
+
         final currentFen = chess.fen;
         fenHistory.add(currentFen);
 
@@ -489,9 +480,9 @@ class _ViewerPageState extends State<ViewerPage> {
               const SizedBox(height: 8),
               ListView.builder(
                 shrinkWrap: true,
-                itemCount: currentIndex > -1 ? moves[currentIndex].branchCount : 0,
+                itemCount: currentIndex > -1 ? manual?.tree?.siblingCount : 0,
                 itemBuilder: (context, i) => ListTile(
-                  title: Center(child: Text(moves[currentIndex].children[i].pgnNode!.data.san)),
+                  title: Center(child: Text(manual?.tree?.getSibling(i)?.pgnNode!.data.san ?? '')),
                   onTap: () => selectBranch(i),
                 ),
               ),
