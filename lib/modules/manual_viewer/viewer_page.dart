@@ -292,6 +292,7 @@ class _ViewerPageState extends State<ViewerPage> {
         currentIndex--;
       }
 
+      // 如果当前节点有『分枝』，则需要再退一步，同时触发变着显示
       if (moves[currentIndex].hasSibling) {
         manual?.tree?.prevMove();
         currentIndex--;
@@ -300,7 +301,7 @@ class _ViewerPageState extends State<ViewerPage> {
       fenHistory.removeRange(currentIndex + 2, fenHistory.length);
       currentFen = fenHistory[currentIndex + 1];
       lastMove = null;
-    } else if (index > currentIndex) {
+    } else {
       // 前进
       chess = chess_lib.Chess.fromFEN(fenHistory.last);
 
