@@ -337,35 +337,33 @@ class _ViewerPageState extends State<ViewerPage> {
     });
   }
 
-  Widget _buildHeader() {
-    return Row(
-      children: [
-        IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () => Navigator.of(context).pop(),
-        ),
-        const SizedBox(width: 8),
-        Text(
-          '棋谱阅读',
-          style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-            fontWeight: FontWeight.bold,
-            shadows: [
-              Shadow(
-                color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                offset: const Offset(1, 1),
-                blurRadius: 2,
-              ),
-            ],
+  Widget _buildHeader() => Row(
+        children: [
+          IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () => Navigator.of(context).pop(),
           ),
-        ),
-        const Spacer(),
-        IconButton(
-          icon: Icon(isFavorite ? Icons.star : Icons.star_border),
-          onPressed: _toggleFavorite,
-        ),
-      ],
-    );
-  }
+          const SizedBox(width: 8),
+          Text(
+            '棋谱阅读',
+            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+              fontWeight: FontWeight.bold,
+              shadows: [
+                Shadow(
+                  color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                  offset: const Offset(1, 1),
+                  blurRadius: 2,
+                ),
+              ],
+            ),
+          ),
+          const Spacer(),
+          IconButton(
+            icon: Icon(isFavorite ? Icons.star : Icons.star_border),
+            onPressed: _toggleFavorite,
+          ),
+        ],
+      );
 
   Widget _buildControlPanel() {
     final (moves, currentIndex) = manual?.tree?.moveList() ?? ([], -1);
@@ -424,20 +422,18 @@ class _ViewerPageState extends State<ViewerPage> {
     );
   }
 
-  Widget _buildChessBoardSection() {
-    return Column(
-      children: [
-        ChessBoardWidget(
-          size: MediaQuery.of(context).size.shortestSide - 52,
-          orientation: BoardOrientation.white,
-          controller: chessboardController,
-          getLastMove: () => lastMove,
-          interactiveEnable: false,
-        ),
-        _buildControlPanel(),
-      ],
-    );
-  }
+  Widget _buildChessBoardSection() => Column(
+        children: [
+          ChessBoardWidget(
+            size: MediaQuery.of(context).size.shortestSide - 52,
+            orientation: BoardOrientation.white,
+            controller: chessboardController,
+            getLastMove: () => lastMove,
+            interactiveEnable: false,
+          ),
+          _buildControlPanel(),
+        ],
+      );
 
   Widget _buildBottomSection() {
     final (moves, currentIndex) = manual?.tree?.moveList() ?? ([], -1);
@@ -508,31 +504,29 @@ class _ViewerPageState extends State<ViewerPage> {
   }
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Theme.of(context).colorScheme.primary.withAlpha(0x1A),
-              Theme.of(context).colorScheme.surface,
-            ],
+  Widget build(BuildContext context) => Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Theme.of(context).colorScheme.primary.withAlpha(0x1A),
+                Theme.of(context).colorScheme.surface,
+              ],
+            ),
+          ),
+          child: SafeArea(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Padding(padding: const EdgeInsets.all(16.0), child: _buildHeader()),
+                Expanded(child: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent()),
+              ],
+            ),
           ),
         ),
-        child: SafeArea(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Padding(padding: const EdgeInsets.all(16.0), child: _buildHeader()),
-              Expanded(child: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent()),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
+      );
 
   Widget _buildContent() {
     if (games.isEmpty) {
