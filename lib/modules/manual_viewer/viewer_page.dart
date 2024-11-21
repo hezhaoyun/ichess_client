@@ -26,8 +26,6 @@ class ViewerPage extends StatefulWidget {
 }
 
 class _ViewerPageState extends State<ViewerPage> {
-  static const double kWideLayoutThreshold = 900;
-
   bool isLoading = false;
 
   // Game list
@@ -50,10 +48,9 @@ class _ViewerPageState extends State<ViewerPage> {
   final favoritesService = FavoritesService();
 
   // Analysis
+  bool showAnalysisCard = false;
   bool isAnalyzing = false;
   List<double> evaluations = [];
-  final analysisCardController = ExpansionTileController();
-  bool isAnalysisPanelExpanded = false;
 
   // Chessboard
   List<List<int>>? lastMove;
@@ -117,8 +114,9 @@ class _ViewerPageState extends State<ViewerPage> {
 
   void _gameSelected(int index, {bool resetAnalysis = true}) {
     if (resetAnalysis) {
-      analysisCardController.collapse();
-      isAnalysisPanelExpanded = false;
+      showAnalysisCard = false;
+      isAnalyzing = false;
+      evaluations = [];
     }
 
     gameIndex = index;
@@ -407,7 +405,7 @@ class _ViewerPageState extends State<ViewerPage> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Expanded(child: SizedBox()),
+            const SizedBox(width: 4),
             TextButton(
               onPressed: () => _showGamesList(),
               child: Row(
@@ -439,26 +437,63 @@ class _ViewerPageState extends State<ViewerPage> {
               tooltip: '结束',
             ),
             const Expanded(child: SizedBox()),
+            Switch(
+              value: showAnalysisCard,
+              onChanged: (value) {
+                setState(() => showAnalysisCard = value);
+                if (showAnalysisCard && evaluations.isEmpty) _analyzeGame();
+              },
+            ),
+            const SizedBox(width: 4),
           ],
         ),
       ),
     );
 
-    final boardSection = Column(
-      children: [
-        ChessBoardWidget(
-          size: MediaQuery.of(context).size.shortestSide - 52,
-          orientation: BoardOrientation.white,
-          controller: chessboardController,
-          getLastMove: () => lastMove,
-          interactiveEnable: false,
-        ),
-        controlPanel,
-      ],
-    );
+    Widget createBoardSection() => Column(
+          children: [
+            ChessBoardWidget(
+              size: MediaQuery.of(context).size.shortestSide - 52,
+              orientation: BoardOrientation.white,
+              controller: chessboardController,
+              getLastMove: () => lastMove,
+              interactiveEnable: false,
+            ),
+            controlPanel,
+          ],
+        );
 
     Widget createBottomSection() {
+      if (showAnalysisCard) {
+        return SizedBox(
+          height: 200,
+          child: AnalysisChart(
+            evaluations: evaluations,
+            currentMoveIndex: currentIndex + 1,
+            onPositionChanged: _goToMove,
+          ),
+        );
+      }
+
       if (showBranches) {
+        void selectBranch(int index) {
+          showBranches = false;
+
+          final chess = chess_lib.Chess.fromFEN(fenHistory.last);
+          manual?.tree?.selectBranch(index);
+
+          // 更新棋盘位置
+          if (!chess.move(moves[currentIndex].children[index].data.san)) return;
+          final currentFen = chess.fen;
+          fenHistory.add(currentFen);
+
+          // 更新最后一步移动的显示
+          final last = chess.history.last.move;
+          _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
+
+          chessboardController.setFen(currentFen);
+        }
+
         return Padding(
           padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
           child: Card(
@@ -468,30 +503,12 @@ class _ViewerPageState extends State<ViewerPage> {
                 const SizedBox(height: 8),
                 Text('分支选择', style: Theme.of(context).textTheme.titleMedium),
                 const SizedBox(height: 8),
-                Expanded(
-                  child: ListView.builder(
-                    shrinkWrap: true,
-                    itemCount: currentIndex > -1 ? moves[currentIndex].children.length : 0,
-                    itemBuilder: (context, i) => ListTile(
-                      title: Center(child: Text(moves[currentIndex].children[i].data.san)),
-                      onTap: () {
-                        final chess = chess_lib.Chess.fromFEN(fenHistory.last);
-                        manual?.tree?.selectBranch(i);
-
-                        // 更新棋盘位置
-                        if (!chess.move(moves[currentIndex].children[i].data.san)) return;
-                        final currentFen = chess.fen;
-                        fenHistory.add(currentFen);
-
-                        // 更新最后一步移动的显示
-                        final last = chess.history.last.move;
-                        _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
-
-                        chessboardController.setFen(currentFen);
-
-                        showBranches = false;
-                      },
-                    ),
+                ListView.builder(
+                  shrinkWrap: true,
+                  itemCount: currentIndex > -1 ? moves[currentIndex].children.length : 0,
+                  itemBuilder: (context, i) => ListTile(
+                    title: Center(child: Text(moves[currentIndex].children[i].data.san)),
+                    onTap: () => selectBranch(i),
                   ),
                 ),
               ],
@@ -502,87 +519,28 @@ class _ViewerPageState extends State<ViewerPage> {
 
       return Padding(
         padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Expanded(
-              child: MoveList(
-                moves: moves.map<PgnChildNode>((e) => e).toList(),
-                currentMoveIndex: currentIndex,
-                onMoveSelected: _goToMove,
-                onBranchSelected: (branch) {},
-                scrollController: scrollController,
-                key: selectedMoveKey,
-              ),
-            ),
-          ],
+        child: MoveList(
+          moves: moves.map<PgnChildNode>((e) => e).toList(),
+          currentMoveIndex: currentIndex,
+          onMoveSelected: _goToMove,
+          scrollController: scrollController,
+          key: selectedMoveKey,
         ),
       );
     }
 
-    final analysisCard = ExpansionTile(
-      title: const Text('对局分析'),
-      tilePadding: const EdgeInsets.symmetric(horizontal: 16),
-      trailing: Row(
-        mainAxisSize: MainAxisSize.min,
+    return OrientationBuilder(
+      builder: (context, orientation) => Column(
         children: [
-          if (isAnalyzing) const SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2)),
-          if (!isAnalyzing && evaluations.isEmpty) const Icon(Icons.analytics),
-          if (evaluations.isNotEmpty && !isAnalyzing) const Icon(Icons.expand_more),
+          createBoardSection(),
+          Expanded(child: createBottomSection()),
+          if (comment != null && comment!.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text('注释: $comment', style: TextStyle(color: Colors.grey)),
+            ),
         ],
       ),
-      controller: analysisCardController,
-      initiallyExpanded: isAnalysisPanelExpanded,
-      onExpansionChanged: (expanded) {
-        if (!isAnalyzing && evaluations.isEmpty) _analyzeGame();
-        setState(() => isAnalysisPanelExpanded = expanded);
-      },
-      children: [
-        SizedBox(
-          height: 200,
-          child: AnalysisChart(
-            evaluations: evaluations,
-            currentMoveIndex: currentIndex + 1,
-            onPositionChanged: _goToMove,
-          ),
-        ),
-      ],
-    );
-
-    return OrientationBuilder(
-      builder: (context, orientation) {
-        final isWideLayout =
-            orientation == Orientation.landscape || MediaQuery.of(context).size.width > kWideLayoutThreshold;
-
-        final bottomSection = createBottomSection();
-
-        return Column(
-          children: [
-            Expanded(
-              child: isWideLayout
-                  ? Row(
-                      children: [
-                        Expanded(flex: 2, child: boardSection),
-                        analysisCard,
-                        if (!isAnalysisPanelExpanded) Expanded(flex: 3, child: bottomSection),
-                      ],
-                    )
-                  : Column(
-                      children: [
-                        boardSection,
-                        analysisCard,
-                        if (!isAnalysisPanelExpanded) Expanded(child: bottomSection),
-                      ],
-                    ),
-            ),
-            if (comment != null && comment!.isNotEmpty)
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text('注释: $comment', style: TextStyle(color: Colors.grey)),
-              ),
-          ],
-        );
-      },
     );
   }
 

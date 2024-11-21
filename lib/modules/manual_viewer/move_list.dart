@@ -11,7 +11,6 @@ class MoveList extends StatefulWidget {
   final int currentMoveIndex;
   final Function(int) onMoveSelected;
   final ScrollController scrollController;
-  final Function(int) onBranchSelected;
 
   const MoveList({
     super.key,
@@ -19,7 +18,6 @@ class MoveList extends StatefulWidget {
     required this.currentMoveIndex,
     required this.onMoveSelected,
     required this.scrollController,
-    required this.onBranchSelected,
   });
 
   @override
@@ -32,15 +30,10 @@ class MoveListState extends State<MoveList> {
         child: SingleChildScrollView(
           controller: widget.scrollController,
           padding: const EdgeInsets.all(16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Wrap(
-                spacing: MoveList._horizontalSpacing,
-                runSpacing: MoveList._verticalSpacing,
-                children: _buildMoveItems(),
-              ),
-            ],
+          child: Wrap(
+            spacing: MoveList._horizontalSpacing,
+            runSpacing: MoveList._verticalSpacing,
+            children: _buildMoveItems(),
           ),
         ),
       );
