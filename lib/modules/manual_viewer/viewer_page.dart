@@ -285,15 +285,20 @@ class _ViewerPageState extends State<ViewerPage> {
     chess_lib.Chess? chess;
     String? currentFen;
 
-    if (index < currentIndex) {
+    if (index <= currentIndex) {
       // 后退
       while (currentIndex > index) {
         manual?.tree?.prevMove();
         currentIndex--;
       }
 
-      fenHistory.removeRange(index + 2, fenHistory.length);
-      currentFen = fenHistory[index + 1];
+      if (moves[currentIndex].hasSibling) {
+        manual?.tree?.prevMove();
+        currentIndex--;
+      }
+
+      fenHistory.removeRange(currentIndex + 2, fenHistory.length);
+      currentFen = fenHistory[currentIndex + 1];
       lastMove = null;
     } else if (index > currentIndex) {
       // 前进
