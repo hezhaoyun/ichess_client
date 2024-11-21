@@ -337,9 +337,8 @@ class _ViewerPageState extends State<ViewerPage> {
     });
   }
 
-  @override
-  Widget build(BuildContext context) {
-    final header = Row(
+  Widget _buildHeader() {
+    return Row(
       children: [
         IconButton(
           icon: const Icon(Icons.arrow_back),
@@ -366,40 +365,12 @@ class _ViewerPageState extends State<ViewerPage> {
         ),
       ],
     );
-
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Theme.of(context).colorScheme.primary.withAlpha(0x1A),
-              Theme.of(context).colorScheme.surface,
-            ],
-          ),
-        ),
-        child: SafeArea(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Padding(padding: const EdgeInsets.all(16.0), child: header),
-              Expanded(child: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent()),
-            ],
-          ),
-        ),
-      ),
-    );
   }
 
-  Widget _buildContent() {
-    if (games.isEmpty) {
-      return const Center(child: CircularProgressIndicator());
-    }
-
+  Widget _buildControlPanel() {
     final (moves, currentIndex) = manual?.tree?.moveList() ?? ([], -1);
 
-    final controlPanel = Padding(
+    return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
       child: Card(
         child: Row(
@@ -451,91 +422,128 @@ class _ViewerPageState extends State<ViewerPage> {
         ),
       ),
     );
+  }
 
-    Widget createBoardSection() => Column(
-          children: [
-            ChessBoardWidget(
-              size: MediaQuery.of(context).size.shortestSide - 52,
-              orientation: BoardOrientation.white,
-              controller: chessboardController,
-              getLastMove: () => lastMove,
-              interactiveEnable: false,
-            ),
-            controlPanel,
-          ],
-        );
+  Widget _buildChessBoardSection() {
+    return Column(
+      children: [
+        ChessBoardWidget(
+          size: MediaQuery.of(context).size.shortestSide - 52,
+          orientation: BoardOrientation.white,
+          controller: chessboardController,
+          getLastMove: () => lastMove,
+          interactiveEnable: false,
+        ),
+        _buildControlPanel(),
+      ],
+    );
+  }
 
-    Widget createBottomSection() {
-      if (showAnalysisCard) {
-        return SizedBox(
-          height: 200,
-          child: AnalysisChart(
-            evaluations: evaluations,
-            currentMoveIndex: currentIndex + 1,
-            onPositionChanged: _goToMove,
-          ),
-        );
-      }
+  Widget _buildBottomSection() {
+    final (moves, currentIndex) = manual?.tree?.moveList() ?? ([], -1);
 
-      if (showBranches) {
-        void selectBranch(int index) {
-          showBranches = false;
+    if (showAnalysisCard) {
+      return SizedBox(
+        height: 200,
+        child: AnalysisChart(
+          evaluations: evaluations,
+          currentMoveIndex: currentIndex + 1,
+          onPositionChanged: _goToMove,
+        ),
+      );
+    }
 
-          final chess = chess_lib.Chess.fromFEN(fenHistory.last);
-          manual?.tree?.selectBranch(index);
+    if (showBranches) {
+      void selectBranch(int index) {
+        showBranches = false;
 
-          // 更新棋盘位置
-          if (!chess.move(moves[currentIndex].children[index].data.san)) return;
-          final currentFen = chess.fen;
-          fenHistory.add(currentFen);
+        final chess = chess_lib.Chess.fromFEN(fenHistory.last);
+        manual?.tree?.selectBranch(index);
 
-          // 更新最后一步移动的显示
-          final last = chess.history.last.move;
-          _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
+        // 更新棋盘位置
+        if (!chess.move(moves[currentIndex].children[index].data.san)) return;
+        final currentFen = chess.fen;
+        fenHistory.add(currentFen);
 
-          chessboardController.setFen(currentFen);
-        }
+        // 更新最后一步移动的显示
+        final last = chess.history.last.move;
+        _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
 
-        return Padding(
-          padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
-          child: Card(
-            color: Theme.of(context).colorScheme.surfaceContainerHigh,
-            child: Column(
-              children: [
-                const SizedBox(height: 8),
-                Text('分支选择', style: Theme.of(context).textTheme.titleMedium),
-                const SizedBox(height: 8),
-                ListView.builder(
-                  shrinkWrap: true,
-                  itemCount: currentIndex > -1 ? moves[currentIndex].children.length : 0,
-                  itemBuilder: (context, i) => ListTile(
-                    title: Center(child: Text(moves[currentIndex].children[i].data.san)),
-                    onTap: () => selectBranch(i),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        );
+        chessboardController.setFen(currentFen);
       }
 
       return Padding(
         padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
-        child: MoveList(
-          moves: moves.map<PgnChildNode>((e) => e).toList(),
-          currentMoveIndex: currentIndex,
-          onMoveSelected: _goToMove,
-          scrollController: scrollController,
-          key: selectedMoveKey,
+        child: Card(
+          color: Theme.of(context).colorScheme.surfaceContainerHigh,
+          child: Column(
+            children: [
+              const SizedBox(height: 8),
+              Text('分支选择', style: Theme.of(context).textTheme.titleMedium),
+              const SizedBox(height: 8),
+              ListView.builder(
+                shrinkWrap: true,
+                itemCount: currentIndex > -1 ? moves[currentIndex].children.length : 0,
+                itemBuilder: (context, i) => ListTile(
+                  title: Center(child: Text(moves[currentIndex].children[i].data.san)),
+                  onTap: () => selectBranch(i),
+                ),
+              ),
+            ],
+          ),
         ),
       );
+    }
+
+    return Padding(
+      padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
+      child: MoveList(
+        moves: moves.map<PgnChildNode>((e) => e).toList(),
+        currentMoveIndex: currentIndex,
+        onMoveSelected: _goToMove,
+        scrollController: scrollController,
+        key: selectedMoveKey,
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Theme.of(context).colorScheme.primary.withAlpha(0x1A),
+              Theme.of(context).colorScheme.surface,
+            ],
+          ),
+        ),
+        child: SafeArea(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Padding(padding: const EdgeInsets.all(16.0), child: _buildHeader()),
+              Expanded(child: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent()),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildContent() {
+    if (games.isEmpty) {
+      return const Center(child: CircularProgressIndicator());
     }
 
     return OrientationBuilder(
       builder: (context, orientation) => Column(
         children: [
-          createBoardSection(),
-          Expanded(child: createBottomSection()),
+          _buildChessBoardSection(),
+          Expanded(child: _buildBottomSection()),
           if (comment != null && comment!.isNotEmpty)
             Padding(
               padding: const EdgeInsets.all(8.0),
