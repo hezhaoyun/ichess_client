@@ -84,7 +84,7 @@ class _MoveItem extends StatelessWidget {
   Widget build(BuildContext context) => InkWell(
         onTap: onTap,
         child: Container(
-          padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+          padding: const EdgeInsets.all(4.0),
           decoration: BoxDecoration(
             color: isSelected ? Colors.grey.shade300 : Colors.transparent,
             borderRadius: BorderRadius.circular(MoveList._moveItemBorderRadius),
