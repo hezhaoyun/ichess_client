@@ -312,7 +312,7 @@ class _ViewerPageState extends State<ViewerPage> {
       }
     }
 
-    showBranches = currentIndex == index && moves[currentIndex].children.length > 1;
+    showBranches = currentIndex > -1 && currentIndex == index && moves[currentIndex].children.length > 1;
 
     if (chess != null && chess.history.isNotEmpty) {
       final last = chess.history.last.move;
@@ -462,33 +462,36 @@ class _ViewerPageState extends State<ViewerPage> {
         return Padding(
           padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
           child: Card(
+            color: Theme.of(context).colorScheme.surfaceContainerHigh,
             child: Column(
               children: [
                 const SizedBox(height: 8),
                 Text('分支选择', style: Theme.of(context).textTheme.titleMedium),
                 const SizedBox(height: 8),
-                ListView.builder(
-                  shrinkWrap: true,
-                  itemCount: currentIndex > -1 ? moves[currentIndex].children.length : 0,
-                  itemBuilder: (context, i) => ListTile(
-                    title: Center(child: Text(moves[currentIndex].children[i].data.san)),
-                    onTap: () {
-                      final chess = chess_lib.Chess.fromFEN(fenHistory.last);
-                      manual?.tree?.selectBranch(i);
+                Expanded(
+                  child: ListView.builder(
+                    shrinkWrap: true,
+                    itemCount: currentIndex > -1 ? moves[currentIndex].children.length : 0,
+                    itemBuilder: (context, i) => ListTile(
+                      title: Center(child: Text(moves[currentIndex].children[i].data.san)),
+                      onTap: () {
+                        final chess = chess_lib.Chess.fromFEN(fenHistory.last);
+                        manual?.tree?.selectBranch(i);
 
-                      // 更新棋盘位置
-                      if (!chess.move(moves[currentIndex].children[i].data.san)) return;
-                      final currentFen = chess.fen;
-                      fenHistory.add(currentFen);
+                        // 更新棋盘位置
+                        if (!chess.move(moves[currentIndex].children[i].data.san)) return;
+                        final currentFen = chess.fen;
+                        fenHistory.add(currentFen);
 
-                      // 更新最后一步移动的显示
-                      final last = chess.history.last.move;
-                      _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
+                        // 更新最后一步移动的显示
+                        final last = chess.history.last.move;
+                        _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
 
-                      chessboardController.setFen(currentFen);
+                        chessboardController.setFen(currentFen);
 
-                      showBranches = false;
-                    },
+                        showBranches = false;
+                      },
+                    ),
                   ),
                 ),
               ],
