@@ -292,7 +292,7 @@ class _ViewerPageState extends State<ViewerPage> {
         currentIndex--;
       }
 
-      // 如果当前节点有『分枝』，则需要再退一步，同时触发变着显示
+      // 如果当前节点有『分枝』，则需要再退一步，同时触发
       if (moves[currentIndex].hasSibling) {
         manual?.tree?.prevMove();
         currentIndex--;
