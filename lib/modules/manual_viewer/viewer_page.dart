@@ -278,7 +278,7 @@ class _ViewerPageState extends State<ViewerPage> {
     return max(maxScore.abs(), minScore.abs());
   }
 
-  void _goToMove(int index) {
+  void _goToMove(int index, {bool scrollToSelectedMove = true}) {
     var (moves, currentIndex) = manual?.tree?.moveList() ?? (<TreeNode>[], -1);
     if (index < -1 || index >= moves.length) return;
 
@@ -300,9 +300,14 @@ class _ViewerPageState extends State<ViewerPage> {
       chess = chess_lib.Chess.fromFEN(fenHistory.last);
 
       while (currentIndex < index) {
-        currentIndex++;
-        manual?.tree?.selectBranch(0);
+        // 如果点击的是一个有『分枝』的节点，会触发变着显示
+        if (currentIndex + 1 == index && moves[currentIndex + 1].hasSibling) {
+          break;
+        }
 
+        currentIndex++;
+
+        manual?.tree?.selectBranch(0);
         if (!chess.move(moves[currentIndex].pgnNode!.data.san)) break;
 
         currentFen = chess.fen;
@@ -310,17 +315,16 @@ class _ViewerPageState extends State<ViewerPage> {
       }
     }
 
-    showBranches = currentIndex > -1 && currentIndex == index && moves[currentIndex].parent!.branchCount > 1;
-
     if (chess != null && chess.history.isNotEmpty) {
       final last = chess.history.last.move;
-      _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
-    } else {
-      setState(() {});
+      _updateLastMove(last.fromAlgebraic, last.toAlgebraic); // with setState(...)
     }
 
-    chessboardController.setFen(currentFen!);
-    selectedMoveKey.currentState?.scrollToSelectedMove();
+    // 只有点击了有『分枝』的节点，才会提前 break;
+    setState(() => showBranches = currentIndex != index);
+
+    chessboardController.setFen(currentFen ?? fenHistory.last);
+    if (scrollToSelectedMove) selectedMoveKey.currentState?.scrollToSelectedMove(index);
   }
 
   void _updateLastMove(String fromSquare, String toSquare) {
@@ -454,10 +458,10 @@ class _ViewerPageState extends State<ViewerPage> {
         showBranches = false;
 
         final chess = chess_lib.Chess.fromFEN(fenHistory.last);
-        manual?.tree?.switchTo(index);
+        manual?.tree?.selectBranch(index);
 
         // 更新棋盘位置
-        if (!chess.move(moves[currentIndex].parent!.children[index].pgnNode!.data.san)) return;
+        if (!chess.move(moves[currentIndex].children[index].pgnNode!.data.san)) return;
         final currentFen = chess.fen;
         fenHistory.add(currentFen);
 
@@ -479,9 +483,9 @@ class _ViewerPageState extends State<ViewerPage> {
               const SizedBox(height: 8),
               ListView.builder(
                 shrinkWrap: true,
-                itemCount: currentIndex > -1 ? moves[currentIndex].parent?.branchCount ?? 0 : 0,
+                itemCount: currentIndex > -1 ? moves[currentIndex].branchCount : 0,
                 itemBuilder: (context, i) => ListTile(
-                  title: Center(child: Text(moves[currentIndex].parent!.children[i].pgnNode!.data.san)),
+                  title: Center(child: Text(moves[currentIndex].children[i].pgnNode!.data.san)),
                   onTap: () => selectBranch(i),
                 ),
               ),

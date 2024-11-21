@@ -11,6 +11,8 @@ class TreeNode {
     children.add(node);
   }
 
+  bool get hasSibling => (parent?.branchCount ?? 0) > 1;
+
   int get branchCount => children.length;
 
   @override
@@ -41,12 +43,6 @@ class ManualTree {
 
   void selectBranch(int index) {
     _current = _current.children[index];
-  }
-
-  bool switchTo(int index) {
-    if (index < 0 || index >= _current.parent!.branchCount) return false;
-    _current = _current.parent!.children[index];
-    return true;
   }
 
   void rewind() {

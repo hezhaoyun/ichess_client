@@ -11,7 +11,7 @@ class MoveList extends StatefulWidget {
 
   final List<TreeNode> moves;
   final int currentMoveIndex;
-  final Function(int) onMoveSelected;
+  final Function(int, {bool scrollToSelectedMove}) onMoveSelected;
   final ScrollController scrollController;
 
   const MoveList({
@@ -47,15 +47,13 @@ class MoveListState extends State<MoveList> {
           moveIndex: index,
           isSelected: index == widget.currentMoveIndex,
           isBranch: widget.moves[index].parent!.branchCount > 1,
-          onTap: () => widget.onMoveSelected(index),
+          onTap: () => widget.onMoveSelected(index, scrollToSelectedMove: false),
         ),
       );
 
-  void scrollToSelectedMove() {
-    if (widget.currentMoveIndex < 0 || widget.currentMoveIndex >= widget.moves.length) return;
-
+  void scrollToSelectedMove(int index) {
     const itemHeight = 32.0;
-    final rowsBeforeSelected = (widget.currentMoveIndex * (40.0 + MoveList._horizontalSpacing)) / 300.0;
+    final rowsBeforeSelected = (index * (40.0 + MoveList._horizontalSpacing)) / 300.0;
     final approximateOffset = rowsBeforeSelected * (itemHeight + MoveList._verticalSpacing);
 
     widget.scrollController.animateTo(
