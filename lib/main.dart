@@ -14,8 +14,8 @@ void main() {
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => ThemeManager()),
-        ChangeNotifierProvider(create: (_) => AppConfigManager()),
+        ChangeNotifierProvider(create: (_) => ThemeManager(), lazy: false),
+        ChangeNotifierProvider(create: (_) => AppConfigManager(), lazy: false),
       ],
       child: const MyApp(),
     ),
