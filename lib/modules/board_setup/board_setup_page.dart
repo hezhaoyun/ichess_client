@@ -72,7 +72,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
 
   @override
   Widget build(BuildContext context) {
-    final double boardSize = MediaQuery.of(context).size.shortestSide - 36;
+    final double boardSize = MediaQuery.of(context).size.shortestSide - 48;
 
     return Scaffold(
       body: Container(
@@ -169,7 +169,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   }
 
   double _calculatePieceSize() {
-    final boardSize = MediaQuery.of(context).size.shortestSide - 36;
+    final boardSize = MediaQuery.of(context).size.shortestSide - 48;
     return boardSize / 8;
   }
 

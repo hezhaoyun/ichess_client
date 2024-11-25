@@ -81,7 +81,6 @@ class ChessBoardWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Card(
-        elevation: 8,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12),
         ),

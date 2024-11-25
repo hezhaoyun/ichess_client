@@ -139,7 +139,6 @@ class _HomePageState extends State<HomePage> {
   Widget _buildCard({required IconData icon, required String label, required VoidCallback onTap}) => Hero(
         tag: label,
         child: Card(
-          elevation: 8,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20),
             side: BorderSide(

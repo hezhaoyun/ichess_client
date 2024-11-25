@@ -522,7 +522,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
   @override
   Widget build(BuildContext context) {
-    final double size = MediaQuery.of(context).size.shortestSide - 36;
+    final double size = MediaQuery.of(context).size.shortestSide - 48;
 
     return Scaffold(
       body: Container(
