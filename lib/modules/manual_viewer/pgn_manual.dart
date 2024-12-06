@@ -52,7 +52,7 @@ class ManualTree {
     return _current;
   }
 
-  int get siblingCount => _current.parent!.branchCount;
+  int get siblingCount => _current.parent?.branchCount ?? 0;
 
   TreeNode? get current => _current;
 
