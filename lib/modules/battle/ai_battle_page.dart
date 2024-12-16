@@ -10,6 +10,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../config/app_config_manager.dart';
 import '../../services/ai_native.dart';
+import '../../services/audio_service.dart';
 import '../../widgets/chess_board_widget.dart';
 import '../../widgets/game_result_dialog.dart';
 import 'battle_mixin.dart';
@@ -260,7 +261,14 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         }
 
         final moveMap = {'from': bestMove.substring(0, 2), 'to': bestMove.substring(2, 4)};
-        if (bestMove.length > 4) moveMap['promotion'] = bestMove[4];
+
+        if (bestMove.length > 4) {
+          moveMap['promotion'] = bestMove[4];
+          AudioService.playSound('sounds/promotion.mp3');
+        } else {
+          AudioService.playSound('sounds/move.mp3');
+        }
+
         onMove(moveMap, byPlayer: false);
       }
     } catch (e) {

@@ -39,7 +39,7 @@ flutter:
     - assets/animations/
     - assets/manuals/
     - assets/manuals.json
-
+    - assets/sounds/
 icons_launcher:
   image_path: "assets/icons/icon-a.png"
   # dart run icons_launcher:create

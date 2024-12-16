@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-import '../services/play_sound.dart';
+import '../services/audio_service.dart';
 
 enum GameResult { win, draw, lose }
 

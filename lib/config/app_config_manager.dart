@@ -34,7 +34,7 @@ class AppConfigManager extends ChangeNotifier {
     final prefs = await SharedPreferences.getInstance();
     _serverUrl = prefs.getString(_serverUrlKey) ?? 'http://127.0.0.1:8888';
     _engineLevel = prefs.getInt(_engineLevelKey) ?? 10;
-    _moveTime = prefs.getInt(_moveTimeKey) ?? 3;
+    _moveTime = prefs.getInt(_moveTimeKey) ?? 1000;
     _searchDepth = prefs.getInt(_searchDepthKey) ?? 20;
     _useTimeControl = prefs.getBool(_useTimeControlKey) ?? true;
     _enginePath = prefs.getString(_enginePathKey) ?? '';

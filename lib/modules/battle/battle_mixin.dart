@@ -7,6 +7,7 @@ import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../config/app_config_manager.dart';
+import '../../services/audio_service.dart';
 import 'promotion_dialog.dart';
 
 enum OnlineState {
@@ -35,6 +36,8 @@ mixin BattleMixin<T extends StatefulWidget> on State<T> {
   }
 
   void onPieceTap(SquareInfo square, String piece) {
+    AudioService.playSound('sounds/click.mp3');
+
     if (controller.hints.key == square.index.toString()) {
       controller.setHints(HintMap());
       return;
@@ -65,6 +68,7 @@ mixin BattleMixin<T extends StatefulWidget> on State<T> {
   }
 
   void onEmptyFieldTap(SquareInfo square) {
+    AudioService.playSound('sounds/fail.mp3');
     controller.setHints(HintMap());
   }
 
@@ -73,6 +77,8 @@ mixin BattleMixin<T extends StatefulWidget> on State<T> {
   void doMove(chess_lib.Move move) => playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
 
   void playerMoved(Map<String, String> move) {
+    AudioService.playSound('sounds/move.mp3');
+
     bool isPromotion = chess.moves({'verbose': true}).any(
         (m) => m['from'] == move['from'] && m['to'] == move['to'] && m['flags'].contains('p'));
 

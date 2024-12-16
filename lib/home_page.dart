@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:audioplayers/audioplayers.dart';
+
+import 'services/audio_service.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -19,12 +20,6 @@ class Routes {
 }
 
 class _HomePageState extends State<HomePage> {
-  final AudioPlayer _audioPlayer = AudioPlayer();
-
-  void _playClickSound() {
-    _audioPlayer.play(AssetSource('sounds/click.mp3'));
-  }
-
   @override
   Widget build(BuildContext context) {
     final header = Padding(
@@ -80,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.computer,
                   label: '人机对战',
                   onTap: () {
-                    _playClickSound();
+                    AudioService.playSound('sounds/click.mp3');
                     Navigator.pushNamed(context, Routes.aiBattle);
                   },
                 ),
@@ -88,7 +83,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.people,
                   label: '在线对战',
                   onTap: () {
-                    _playClickSound();
+                    AudioService.playSound('sounds/click.mp3');
                     Navigator.pushNamed(context, Routes.onlineBattle);
                   },
                 ),
@@ -96,7 +91,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.menu_book,
                   label: '阅读棋谱',
                   onTap: () {
-                    _playClickSound();
+                    AudioService.playSound('sounds/click.mp3');
                     Navigator.pushNamed(context, Routes.viewer);
                   },
                 ),
@@ -104,7 +99,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.swipe_right,
                   label: '推演棋盘',
                   onTap: () {
-                    _playClickSound();
+                    AudioService.playSound('sounds/click.mp3');
                     Navigator.pushNamed(context, Routes.setup);
                   },
                 ),

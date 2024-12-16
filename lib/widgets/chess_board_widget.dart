@@ -2,8 +2,6 @@ import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../services/play_sound.dart';
-
 class ChessBoardWidget extends StatelessWidget {
   static const kLightSquareColor = Color(0xFFEED7BE);
   static const kDarkSquareColor = Color(0xFFB58863);
@@ -19,7 +17,7 @@ class ChessBoardWidget extends StatelessWidget {
   final Function(SquareInfo, String)? onPieceTap;
   final Function(SquareInfo)? onEmptyFieldTap;
 
-  ChessBoardWidget({
+  const ChessBoardWidget({
     super.key,
     required this.size,
     required this.orientation,
@@ -93,25 +91,10 @@ class ChessBoardWidget extends StatelessWidget {
             orientation: orientation,
             squareBuilder: squareBuilder,
             controller: controller,
-            onPieceDrop: interactiveEnable
-                ? (event) {
-                    AudioService.playSound('sounds/move.mp3');
-                    onPieceDrop?.call(event);
-                  }
-                : null,
-            onPieceTap: interactiveEnable
-                ? (info, piece) {
-                    AudioService.playSound('sounds/click.mp3');
-                    onPieceTap?.call(info, piece);
-                  }
-                : null,
+            onPieceDrop: interactiveEnable ? onPieceDrop : null,
+            onPieceTap: interactiveEnable ? onPieceTap : null,
             onPieceStartDrag: onPieceStartDrag,
-            onEmptyFieldTap: interactiveEnable
-                ? (info) {
-                    AudioService.playSound('sounds/fail.mp3');
-                    onEmptyFieldTap?.call(info);
-                  }
-                : null,
+            onEmptyFieldTap: interactiveEnable ? onEmptyFieldTap : null,
             turnTopPlayerPieces: false,
             ghostOnDrag: true,
             dropIndicator: DropIndicatorArgs(

@@ -2,6 +2,8 @@ import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../services/audio_service.dart';
+
 Future<void> showPromotionDialog(
     BuildContext context, BoardOrientation orientation, Function(String) onPromotionSelected) {
   //
@@ -39,6 +41,7 @@ Future<void> showPromotionDialog(
               (type) => promotionOption(type, () {
                 Navigator.pop(context);
                 onPromotionSelected(type);
+                AudioService.playSound('sounds/promotion.mp3');
               }),
             )
             .toList(),
