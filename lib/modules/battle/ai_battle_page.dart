@@ -159,14 +159,17 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       return;
     }
 
+    final myColor = boardOrientation == BoardOrientation.white ? chess_lib.Color.WHITE : chess_lib.Color.BLACK;
+    final result = (chess.in_checkmate && chess.turn != myColor)
+        ? GameResult.win
+        : (chess.in_stalemate || chess.insufficient_material || chess.in_threefold_repetition)
+            ? GameResult.draw
+            : GameResult.lose;
+
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (context) => GameResultDialog(
-        title: _getResultTitle(),
-        message: _getResultMessage(),
-        isVictory: ((chess.in_checkmate || chess.in_stalemate) && chess.turn != chess_lib.Color.WHITE),
-      ),
+      builder: (context) => GameResultDialog(title: _getResultTitle(), message: _getResultMessage(), result: result),
     );
   }
 

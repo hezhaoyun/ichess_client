@@ -398,11 +398,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (context) => GameResultDialog(
-        title: '你赢了！',
-        message: data['reason'],
-        isVictory: true,
-      ),
+      builder: (context) => GameResultDialog(title: '你赢了！', message: data['reason'], result: GameResult.win),
     );
   }
 
@@ -415,11 +411,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (context) => GameResultDialog(
-        title: '你输了！',
-        message: data['reason'],
-        isVictory: false,
-      ),
+      builder: (context) => GameResultDialog(title: '你输了！', message: data['reason'], result: GameResult.lose),
     );
   }
 
@@ -430,11 +422,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (context) => GameResultDialog(
-        title: '和棋！',
-        message: data['reason'],
-        isVictory: false,
-      ),
+      builder: (context) => GameResultDialog(title: '和棋！', message: data['reason'], result: GameResult.draw),
     );
   }
 }

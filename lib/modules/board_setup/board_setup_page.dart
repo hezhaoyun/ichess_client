@@ -150,8 +150,8 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
         orientation: BoardOrientation.white,
         interactiveEnable: true,
         onPieceStartDrag: (square, piece) {},
-        onPieceDrop: _handlePieceDrop,
-        onEmptyFieldTap: _handleEmptyFieldTap,
+        onPieceDrop: onPieceDrop,
+        onEmptyFieldTap: onEmptyFieldTap,
       );
 
   Widget _buildPiecesPanel({required bool isWhite}) {
@@ -283,7 +283,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
         },
       );
 
-  void _handlePieceDrop(PieceDropEvent event) {
+  void onPieceDrop(PieceDropEvent event) {
     if (event.from.index == -1) {
       if (_draggingPiece == null) return;
 
@@ -307,7 +307,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
     setState(() {});
   }
 
-  void _handleEmptyFieldTap(SquareInfo square) {
+  void onEmptyFieldTap(SquareInfo square) {
     final squareName = _getSquareFromIndex(square.index);
 
     if (_chess.get(squareName) != null) {

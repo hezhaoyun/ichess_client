@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -18,6 +19,12 @@ class Routes {
 }
 
 class _HomePageState extends State<HomePage> {
+  final AudioPlayer _audioPlayer = AudioPlayer();
+
+  void _playClickSound() {
+    _audioPlayer.play(AssetSource('sounds/click.mp3'));
+  }
+
   @override
   Widget build(BuildContext context) {
     final header = Padding(
@@ -72,22 +79,34 @@ class _HomePageState extends State<HomePage> {
                 _buildCard(
                   icon: Icons.computer,
                   label: '人机对战',
-                  onTap: () => Navigator.pushNamed(context, Routes.aiBattle),
+                  onTap: () {
+                    _playClickSound();
+                    Navigator.pushNamed(context, Routes.aiBattle);
+                  },
                 ),
                 _buildCard(
                   icon: Icons.people,
                   label: '在线对战',
-                  onTap: () => Navigator.pushNamed(context, Routes.onlineBattle),
+                  onTap: () {
+                    _playClickSound();
+                    Navigator.pushNamed(context, Routes.onlineBattle);
+                  },
                 ),
                 _buildCard(
                   icon: Icons.menu_book,
                   label: '阅读棋谱',
-                  onTap: () => Navigator.pushNamed(context, Routes.viewer),
+                  onTap: () {
+                    _playClickSound();
+                    Navigator.pushNamed(context, Routes.viewer);
+                  },
                 ),
                 _buildCard(
                   icon: Icons.swipe_right,
                   label: '推演棋盘',
-                  onTap: () => Navigator.pushNamed(context, Routes.setup),
+                  onTap: () {
+                    _playClickSound();
+                    Navigator.pushNamed(context, Routes.setup);
+                  },
                 ),
               ],
             ),
