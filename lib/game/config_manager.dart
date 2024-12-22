@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class AppConfigManager extends ChangeNotifier {
+class ConfigManager extends ChangeNotifier {
   static const String _serverUrlKey = 'server_url';
   static const String _engineLevelKey = 'engine_level';
   static const String _moveTimeKey = 'move_time';
@@ -26,7 +26,7 @@ class AppConfigManager extends ChangeNotifier {
   String get enginePath => _enginePath;
   bool get showArrows => _showArrows;
 
-  AppConfigManager() {
+  ConfigManager() {
     _loadConfig();
   }
 

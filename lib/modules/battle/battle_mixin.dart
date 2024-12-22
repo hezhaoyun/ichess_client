@@ -2,11 +2,12 @@ import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
+import 'package:ichess/widgets/sound_buttons.dart';
 import 'package:provider/provider.dart';
 import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../../config/app_config_manager.dart';
+import '../../game/config_manager.dart';
 import '../../services/audio_service.dart';
 import 'promotion_dialog.dart';
 
@@ -163,7 +164,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   }
 
   void setupSocketIO() {
-    final appConfigManager = Provider.of<AppConfigManager>(context, listen: false);
+    final appConfigManager = Provider.of<ConfigManager>(context, listen: false);
 
     socket = socket_io.io(appConfigManager.serverUrl, <String, dynamic>{
       'transports': ['websocket'],
@@ -239,14 +240,14 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
         title: const Text('悔棋'),
         content: Text(data['message']),
         actions: [
-          TextButton(
+          SoundButton.text(
             child: const Text('接受'),
             onPressed: () {
               socket?.emit('takeback_response', {'accepted': true});
               Navigator.pop(context);
             },
           ),
-          TextButton(
+          SoundButton.text(
             child: const Text('拒绝'),
             onPressed: () {
               socket?.emit('takeback_response', {'accepted': false});
@@ -264,7 +265,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
       builder: (context) => AlertDialog(
         title: const Text('悔棋被拒绝'),
         actions: [
-          TextButton(
+          SoundButton.text(
             child: const Text('确定'),
             onPressed: () => Navigator.pop(context),
           ),
@@ -292,14 +293,14 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
         title: const Text('求和'),
         content: Text(data['message']),
         actions: [
-          TextButton(
+          SoundButton.text(
             child: const Text('接受'),
             onPressed: () {
               socket?.emit('draw_response', {'accepted': true});
               Navigator.pop(context);
             },
           ),
-          TextButton(
+          SoundButton.text(
             child: const Text('拒绝'),
             onPressed: () {
               socket?.emit('draw_response', {'accepted': false});
@@ -317,7 +318,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
       builder: (context) => AlertDialog(
         title: const Text('求和被拒绝'),
         actions: [
-          TextButton(
+          SoundButton.text(
             child: const Text('确定'),
             onPressed: () => Navigator.pop(context),
           ),
@@ -353,11 +354,11 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
         title: const Text('确认求和？'),
         content: const Text('你确定要请求和棋吗？'),
         actions: [
-          TextButton(
+          SoundButton.text(
             onPressed: () => Navigator.pop(context),
             child: const Text('否'),
           ),
-          TextButton(
+          SoundButton.text(
             onPressed: () {
               socket?.emit('propose_draw', {});
               Navigator.pop(context);
@@ -376,11 +377,11 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
         title: const Text('确认悔棋？'),
         content: const Text('你确定要请求悔棋吗？'),
         actions: [
-          TextButton(
+          SoundButton.text(
             onPressed: () => Navigator.pop(context),
             child: const Text('否'),
           ),
-          TextButton(
+          SoundButton.text(
             onPressed: () {
               socket?.emit('propose_takeback', {});
               Navigator.pop(context);
@@ -399,11 +400,11 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
         title: const Text('确认投降？'),
         content: const Text('你确定要投降吗？'),
         actions: [
-          TextButton(
+          SoundButton.text(
             onPressed: () => Navigator.pop(context),
             child: const Text('否'),
           ),
-          TextButton(
+          SoundButton.text(
             onPressed: () {
               socket?.emit('resign', {});
               Navigator.pop(context);

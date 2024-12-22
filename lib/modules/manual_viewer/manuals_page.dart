@@ -5,6 +5,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
 import '../../services/favorites_service.dart';
+import '../../widgets/sound_buttons.dart';
 import 'viewer_page.dart';
 
 class ManualInfo {
@@ -111,7 +112,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
         padding: const EdgeInsets.all(16.0),
         child: Row(
           children: [
-            IconButton(
+            SoundButton.icon(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),
             ),
@@ -130,7 +131,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
               ),
             ),
             const Spacer(),
-            IconButton(
+            SoundButton.icon(
               icon: const Icon(Icons.folder_open),
               onPressed: _loadPgnFile,
             ),
@@ -191,7 +192,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
               hintText: '搜索棋谱...',
               prefixIcon: const Icon(Icons.search),
               suffixIcon: searchKeyword.isNotEmpty
-                  ? IconButton(
+                  ? SoundButton.icon(
                       icon: const Icon(Icons.clear),
                       iconSize: 12,
                       onPressed: () {
