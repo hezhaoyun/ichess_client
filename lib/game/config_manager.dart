@@ -10,7 +10,7 @@ class ConfigManager extends ChangeNotifier {
   static const String _enginePathKey = 'engine_path';
   static const String _showArrowsKey = 'show_arrows';
 
-  String _serverUrl = 'http://127.0.0.1:8888';
+  String _serverUrl = 'http://42.193.22.115';
   int _engineLevel = 10;
   int _moveTime = 1000;
   int _searchDepth = 20;
@@ -32,7 +32,7 @@ class ConfigManager extends ChangeNotifier {
 
   Future<void> _loadConfig() async {
     final prefs = await SharedPreferences.getInstance();
-    _serverUrl = prefs.getString(_serverUrlKey) ?? 'http://127.0.0.1:8888';
+    _serverUrl = prefs.getString(_serverUrlKey) ?? _serverUrl;
     _engineLevel = prefs.getInt(_engineLevelKey) ?? 10;
     _moveTime = prefs.getInt(_moveTimeKey) ?? 1000;
     _searchDepth = prefs.getInt(_searchDepthKey) ?? 20;

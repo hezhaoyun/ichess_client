@@ -84,14 +84,14 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
   Future<void> _restoreGameState() async {
     final prefs = await SharedPreferences.getInstance();
-    final gameStateJson = prefs.getString(_gameStateKey);
+    final savedStateJson = prefs.getString(_gameStateKey);
 
-    if (gameStateJson != null) {
-      final gameState = json.decode(gameStateJson);
+    if (savedStateJson != null) {
+      final savedState = json.decode(savedStateJson);
 
       setState(() {
         // 加载保存的初始状态
-        initialFen = gameState['initialFen'];
+        initialFen = savedState['initialFen'];
         if (initialFen != null) {
           chess.load(initialFen!);
         } else {
@@ -99,7 +99,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         }
 
         // 重放所有历史移动
-        final List<String> historicalMoves = List<String>.from(gameState['moves']);
+        final List<String> historicalMoves = List<String>.from(savedState['moves']);
         for (String move in historicalMoves) {
           final moveMap = {
             'from': move.substring(0, 2),
@@ -112,8 +112,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         controller.setFen(chess.fen);
         moves = historicalMoves;
 
-        if (gameState['lastMove'] != null) {
-          lastMove = List<List<int>>.from(gameState['lastMove'].map((move) => List<int>.from(move)));
+        if (savedState['lastMove'] != null) {
+          lastMove = List<List<int>>.from(savedState['lastMove'].map((move) => List<int>.from(move)));
         }
       });
     }
@@ -126,13 +126,13 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     }
 
     final prefs = await SharedPreferences.getInstance();
-    final gameState = {
+    final savedState = {
       'initialFen': initialFen ?? chess_lib.Chess.DEFAULT_POSITION,
       'moves': moves,
       'lastMove': lastMove,
     };
 
-    await prefs.setString(_gameStateKey, json.encode(gameState));
+    await prefs.setString(_gameStateKey, json.encode(savedState));
   }
 
   Future<void> _clearGameState() async {

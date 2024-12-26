@@ -223,8 +223,10 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
       orientation = data['side'] == 'white' ? BoardOrientation.white : BoardOrientation.black;
       player = data['side'] == 'white' ? data['white_player'] : data['black_player'];
       opponent = data['side'] == 'white' ? data['black_player'] : data['white_player'];
+      gameState = OnlineState.waitingOpponent;
     });
 
+    chess = chess_lib.Chess();
     controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
   }
 
