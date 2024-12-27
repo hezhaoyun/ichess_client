@@ -1,6 +1,9 @@
-import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:provider/provider.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
+
+import '../game/theme_manager.dart';
 
 class ChessBoardWidget extends StatelessWidget {
   static const kLightSquareColor = Color(0xFFEED7BE);
@@ -64,20 +67,40 @@ class ChessBoardWidget extends StatelessWidget {
         ),
       );
 
-  PieceMap pieceMap() => PieceMap(
-        K: (size) => WhiteKing(size: size),
-        Q: (size) => WhiteQueen(size: size),
-        B: (size) => WhiteBishop(size: size),
-        N: (size) => WhiteKnight(size: size),
-        R: (size) => WhiteRook(size: size),
-        P: (size) => WhitePawn(size: size),
-        k: (size) => BlackKing(size: size),
-        q: (size) => BlackQueen(size: size),
-        b: (size) => BlackBishop(size: size),
-        n: (size) => BlackKnight(size: size),
-        r: (size) => BlackRook(size: size),
-        p: (size) => BlackPawn(size: size),
-      );
+  PieceMap pieceMap(BuildContext context) {
+    // return PieceMap(
+    //   K: (size) => WhiteKing(size: size),
+    //   Q: (size) => WhiteQueen(size: size),
+    //   B: (size) => WhiteBishop(size: size),
+    //   N: (size) => WhiteKnight(size: size),
+    //   R: (size) => WhiteRook(size: size),
+    //   P: (size) => WhitePawn(size: size),
+    //   k: (size) => BlackKing(size: size),
+    //   q: (size) => BlackQueen(size: size),
+    //   b: (size) => BlackBishop(size: size),
+    //   n: (size) => BlackKnight(size: size),
+    //   r: (size) => BlackRook(size: size),
+    //   p: (size) => BlackPawn(size: size),
+    // );
+
+    final pieceTheme = Provider.of<ThemeManager>(context).selectedPieceTheme;
+    final pieceThemePath = ThemeManager.kPieceThemes[pieceTheme]!;
+
+    return PieceMap(
+      K: (size) => SvgPicture.asset('$pieceThemePath/wk.svg', width: size, height: size),
+      Q: (size) => SvgPicture.asset('$pieceThemePath/wq.svg', width: size, height: size),
+      B: (size) => SvgPicture.asset('$pieceThemePath/wb.svg', width: size, height: size),
+      N: (size) => SvgPicture.asset('$pieceThemePath/wn.svg', width: size, height: size),
+      R: (size) => SvgPicture.asset('$pieceThemePath/wr.svg', width: size, height: size),
+      P: (size) => SvgPicture.asset('$pieceThemePath/wp.svg', width: size, height: size),
+      k: (size) => SvgPicture.asset('$pieceThemePath/bk.svg', width: size, height: size),
+      q: (size) => SvgPicture.asset('$pieceThemePath/bq.svg', width: size, height: size),
+      b: (size) => SvgPicture.asset('$pieceThemePath/bb.svg', width: size, height: size),
+      n: (size) => SvgPicture.asset('$pieceThemePath/bn.svg', width: size, height: size),
+      r: (size) => SvgPicture.asset('$pieceThemePath/br.svg', width: size, height: size),
+      p: (size) => SvgPicture.asset('$pieceThemePath/bp.svg', width: size, height: size),
+    );
+  }
 
   @override
   Widget build(BuildContext context) => Card(
@@ -101,7 +124,7 @@ class ChessBoardWidget extends StatelessWidget {
               size: size / 2,
               color: Colors.lightBlue.withAlpha(0x3D),
             ),
-            pieceMap: pieceMap(),
+            pieceMap: pieceMap(context),
           ),
         ),
       );

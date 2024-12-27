@@ -16,6 +16,7 @@ dependencies:
   fl_chart: ^0.69.0
   flutter:
     sdk: flutter
+  flutter_svg: ^2.0.16
   lottie: ^3.1.3
   path_provider: ^2.1.5
   provider: ^6.1.2
@@ -37,9 +38,18 @@ flutter:
   assets:
     - assets/icons/
     - assets/animations/
+    - assets/pieces/
+    - assets/pieces/android/
+    - assets/pieces/aquarium/
+    - assets/pieces/aquariumsteel/
+    - assets/pieces/aquariumwood/
+    - assets/pieces/fragmented/
+    - assets/pieces/internet/
+    - assets/pieces/military/
     - assets/manuals/
     - assets/manuals.json
     - assets/sounds/
+
 icons_launcher:
   image_path: "assets/icons/icon-a.png"
   # dart run icons_launcher:create

@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 import 'package:file_picker/file_picker.dart';
 import '../../game/config_manager.dart';
@@ -14,6 +15,7 @@ class SettingsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final themeManager = Provider.of<ThemeManager>(context);
     final appConfigManager = Provider.of<ConfigManager>(context);
+    final pieceThemePath = ThemeManager.kPieceThemes[themeManager.selectedPieceTheme]!;
 
     return Scaffold(
       body: Container(
@@ -126,6 +128,23 @@ class SettingsPage extends StatelessWidget {
                             ),
                             title: Text(themeManager.currentThemeName),
                             onTap: () => _showThemeColorDialog(context, themeManager),
+                          ),
+                        ),
+                      ),
+                      const Padding(
+                        padding: EdgeInsets.all(16.0),
+                        child: Text(
+                          '棋子风格',
+                          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                        child: Card(
+                          child: ListTile(
+                            leading: SvgPicture.asset('$pieceThemePath/wk.svg', width: 32, height: 32),
+                            title: Text(themeManager.selectedPieceTheme),
+                            onTap: () => _showPieceThemeDialog(context, themeManager),
                           ),
                         ),
                       ),
@@ -303,6 +322,36 @@ class SettingsPage extends StatelessWidget {
                 trailing: isSelected ? Icon(Icons.check_circle, color: themeColor) : null,
                 onTap: () {
                   themeManager.setTheme(themeName);
+                  Navigator.pop(context);
+                },
+              );
+            },
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _showPieceThemeDialog(BuildContext context, ThemeManager themeManager) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('选择棋子风格'),
+        content: SizedBox(
+          width: double.maxFinite,
+          child: ListView.builder(
+            itemCount: ThemeManager.kPieceThemes.length,
+            itemBuilder: (context, index) {
+              final themeName = ThemeManager.kPieceThemes.keys.elementAt(index);
+              final pieceThemePath = ThemeManager.kPieceThemes[themeName]!;
+              final isSelected = themeName == themeManager.selectedPieceTheme;
+
+              return ListTile(
+                leading: SvgPicture.asset('$pieceThemePath/wk.svg', width: 32, height: 32),
+                title: Text(themeName),
+                trailing: isSelected ? Icon(Icons.check_circle) : null,
+                onTap: () {
+                  themeManager.setPieceTheme(themeName);
                   Navigator.pop(context);
                 },
               );
