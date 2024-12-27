@@ -1,5 +1,6 @@
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
+import 'package:ichess/modules/battle/reason_defines.dart';
 import 'package:ichess/widgets/sound_buttons.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
@@ -39,9 +40,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 _buildHeader(),
-                Expanded(
-                  child: _buildMainContent(),
-                ),
+                Expanded(child: _buildMainContent()),
               ],
             ),
           ),
@@ -399,7 +398,11 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (context) => GameResultDialog(title: '你赢了！', message: data['reason'], result: GameResult.win),
+      builder: (context) => GameResultDialog(
+        title: '你赢了！',
+        message: Reasons.winOf(data['reason']),
+        result: GameResult.win,
+      ),
     );
   }
 
@@ -412,7 +415,11 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (context) => GameResultDialog(title: '你输了！', message: data['reason'], result: GameResult.lose),
+      builder: (context) => GameResultDialog(
+        title: '你输了！',
+        message: Reasons.loseOf(data['reason']),
+        result: GameResult.lose,
+      ),
     );
   }
 
@@ -423,7 +430,11 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (context) => GameResultDialog(title: '和棋！', message: data['reason'], result: GameResult.draw),
+      builder: (context) => GameResultDialog(
+        title: '和棋！',
+        message: Reasons.drawOf(data['reason']),
+        result: GameResult.draw,
+      ),
     );
   }
 }
