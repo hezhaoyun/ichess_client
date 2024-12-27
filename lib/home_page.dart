@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.computer,
                   label: '人机对战',
                   onTap: () {
-                    AudioService.playSound('sounds/click.mp3');
+                    AudioService.playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.aiBattle);
                   },
                 ),
@@ -84,7 +84,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.people,
                   label: '在线对战',
                   onTap: () {
-                    AudioService.playSound('sounds/click.mp3');
+                    AudioService.playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.onlineBattle);
                   },
                 ),
@@ -92,7 +92,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.menu_book,
                   label: '阅读棋谱',
                   onTap: () {
-                    AudioService.playSound('sounds/click.mp3');
+                    AudioService.playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.viewer);
                   },
                 ),
@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.swipe_right,
                   label: '推演棋盘',
                   onTap: () {
-                    AudioService.playSound('sounds/click.mp3');
+                    AudioService.playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.setup);
                   },
                 ),

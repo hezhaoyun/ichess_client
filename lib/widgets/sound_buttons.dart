@@ -21,5 +21,5 @@ class SoundButton {
     if (onPressed != null) onPressed();
   }
 
-  static void _playSound() => AudioService.playSound('sounds/click.mp3');
+  static void _playSound() => AudioService.playSound('sounds/button.mp3');
 }
