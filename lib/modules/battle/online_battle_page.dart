@@ -1,5 +1,6 @@
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
+import 'package:ichess/widgets/sound_buttons.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../widgets/chess_board_widget.dart';
@@ -51,7 +52,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
         padding: const EdgeInsets.all(16.0),
         child: Row(
           children: [
-            IconButton(
+            SoundButton.icon(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.pop(context),
             ),
@@ -106,7 +107,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
                   ),
             ),
             const SizedBox(height: 32),
-            ElevatedButton.icon(
+            SoundButton.iconElevated(
               onPressed: connect,
               icon: const Icon(Icons.wifi),
               label: const Text('开始游戏'),
@@ -129,7 +130,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
             const SizedBox(height: 24),
             Text('正在寻找对手...', style: Theme.of(context).textTheme.titleLarge),
             const SizedBox(height: 16),
-            ElevatedButton(
+            SoundButton.elevated(
               onPressed: disconnect,
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
@@ -350,31 +351,31 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
       alignment: WrapAlignment.center,
       children: [
         if (gameState == OnlineState.offline)
-          ElevatedButton(
+          SoundButton.elevated(
             style: buttonStyle,
             onPressed: connect,
             child: const Text('连接'),
           ),
         if (gameState == OnlineState.stayInLobby)
-          ElevatedButton(
+          SoundButton.elevated(
             style: buttonStyle,
             onPressed: match,
             child: const Text('匹配'),
           ),
         if (gameState == OnlineState.waitingMove)
-          ElevatedButton(
+          SoundButton.elevated(
             style: buttonStyle,
             onPressed: proposeDraw,
             child: const Text('求和'),
           ),
         if (gameState == OnlineState.waitingMove)
-          ElevatedButton(
+          SoundButton.elevated(
             style: buttonStyle,
             onPressed: chess.move_number >= 2 ? proposeTakeback : null,
             child: const Text('悔棋'),
           ),
         if (gameState == OnlineState.waitingMove)
-          ElevatedButton(
+          SoundButton.elevated(
             style: buttonStyle.copyWith(
               backgroundColor: WidgetStateProperty.all(Colors.orange),
             ),

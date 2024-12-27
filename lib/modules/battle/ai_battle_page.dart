@@ -4,11 +4,12 @@ import 'dart:io';
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:ichess/widgets/sound_buttons.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../../config/app_config_manager.dart';
+import '../../game/config_manager.dart';
 import '../../services/ai_native.dart';
 import '../../services/audio_service.dart';
 import '../../widgets/chess_board_widget.dart';
@@ -52,7 +53,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   }
 
   Future<void> setupStockfishEngine() async {
-    final configManager = Provider.of<AppConfigManager>(context, listen: false);
+    final configManager = Provider.of<ConfigManager>(context, listen: false);
 
     try {
       if (!Platform.isAndroid && !Platform.isIOS) {
@@ -83,14 +84,14 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
   Future<void> _restoreGameState() async {
     final prefs = await SharedPreferences.getInstance();
-    final gameStateJson = prefs.getString(_gameStateKey);
+    final savedStateJson = prefs.getString(_gameStateKey);
 
-    if (gameStateJson != null) {
-      final gameState = json.decode(gameStateJson);
+    if (savedStateJson != null) {
+      final savedState = json.decode(savedStateJson);
 
       setState(() {
         // 加载保存的初始状态
-        initialFen = gameState['initialFen'];
+        initialFen = savedState['initialFen'];
         if (initialFen != null) {
           chess.load(initialFen!);
         } else {
@@ -98,7 +99,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         }
 
         // 重放所有历史移动
-        final List<String> historicalMoves = List<String>.from(gameState['moves']);
+        final List<String> historicalMoves = List<String>.from(savedState['moves']);
         for (String move in historicalMoves) {
           final moveMap = {
             'from': move.substring(0, 2),
@@ -111,8 +112,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         controller.setFen(chess.fen);
         moves = historicalMoves;
 
-        if (gameState['lastMove'] != null) {
-          lastMove = List<List<int>>.from(gameState['lastMove'].map((move) => List<int>.from(move)));
+        if (savedState['lastMove'] != null) {
+          lastMove = List<List<int>>.from(savedState['lastMove'].map((move) => List<int>.from(move)));
         }
       });
     }
@@ -125,13 +126,13 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     }
 
     final prefs = await SharedPreferences.getInstance();
-    final gameState = {
+    final savedState = {
       'initialFen': initialFen ?? chess_lib.Chess.DEFAULT_POSITION,
       'moves': moves,
       'lastMove': lastMove,
     };
 
-    await prefs.setString(_gameStateKey, json.encode(gameState));
+    await prefs.setString(_gameStateKey, json.encode(savedState));
   }
 
   Future<void> _clearGameState() async {
@@ -199,7 +200,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
     try {
       final stockfish = AiNative.instance;
-      final configManager = Provider.of<AppConfigManager>(context, listen: false);
+      final configManager = Provider.of<ConfigManager>(context, listen: false);
       final showArrows = configManager.showArrows;
 
       stockfish.sendCommand(
@@ -301,7 +302,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     final pvMatch = RegExp(r'\spv (.+)$').firstMatch(line);
     if (pvMatch != null) {
       final pvs = pvMatch.group(1)!.split(' ');
-      final configManager = Provider.of<AppConfigManager>(context, listen: false);
+      final configManager = Provider.of<ConfigManager>(context, listen: false);
 
       if (pvs.isNotEmpty && configManager.showArrows) {
         setState(() {
@@ -345,7 +346,9 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
           mainAxisSize: MainAxisSize.min,
           children: [
             ListTile(
-              leading: const Icon(Icons.circle, color: Colors.white),
+              leading: Icon(Icons.circle, color: Colors.white, size: 24, shadows: [
+                Shadow(color: Theme.of(context).colorScheme.primary, blurRadius: 4),
+              ]),
               title: const Text('执白'),
               onTap: () {
                 Navigator.pop(context);
@@ -353,7 +356,9 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.circle, color: Colors.black),
+              leading: Icon(Icons.circle, color: Colors.black, size: 24, shadows: [
+                Shadow(color: Theme.of(context).colorScheme.primary, blurRadius: 4),
+              ]),
               title: const Text('执黑'),
               onTap: () {
                 Navigator.pop(context);
@@ -554,7 +559,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                 padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 child: Row(
                   children: [
-                    IconButton(
+                    SoundButton.icon(
                       icon: const Icon(Icons.arrow_back_ios),
                       onPressed: () => Navigator.of(context).pop(),
                     ),
@@ -573,7 +578,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                         ),
                       ),
                     ),
-                    IconButton(
+                    SoundButton.icon(
                       icon: const Icon(Icons.save_outlined),
                       onPressed: saveGame,
                     ),
@@ -811,18 +816,14 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       runSpacing: 12,
       alignment: WrapAlignment.center,
       children: [
-        ElevatedButton(style: buttonStyle, onPressed: newGame, child: const Text('新局')),
-        ElevatedButton(style: buttonStyle, onPressed: undoMove, child: const Text('悔棋')),
+        SoundButton.elevated(style: buttonStyle, onPressed: newGame, child: const Text('新局')),
+        SoundButton.elevated(style: buttonStyle, onPressed: undoMove, child: const Text('悔棋')),
         if (!isThinking && chess.turn == chess_lib.Color.WHITE && !chess.game_over)
-          ElevatedButton.icon(
+          SoundButton.iconElevated(
             style: buttonStyle,
             onPressed: isAnalyzing ? null : analyzePosition,
             icon: isAnalyzing
-                ? const SizedBox(
-                    width: 16,
-                    height: 16,
-                    child: CircularProgressIndicator(strokeWidth: 2),
-                  )
+                ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2))
                 : const Icon(Icons.lightbulb_outline),
             label: Text(isAnalyzing ? '分析中...' : '提示'),
           ),

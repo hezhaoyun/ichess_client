@@ -3,8 +3,9 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:file_picker/file_picker.dart';
-import '../../config/app_config_manager.dart';
-import '../../theme/theme_manager.dart';
+import '../../game/config_manager.dart';
+import '../../game/theme_manager.dart';
+import '../../widgets/sound_buttons.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
@@ -12,7 +13,7 @@ class SettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final themeManager = Provider.of<ThemeManager>(context);
-    final appConfigManager = Provider.of<AppConfigManager>(context);
+    final appConfigManager = Provider.of<ConfigManager>(context);
 
     return Scaffold(
       body: Container(
@@ -34,7 +35,7 @@ class SettingsPage extends StatelessWidget {
                 padding: const EdgeInsets.all(16.0),
                 child: Row(
                   children: [
-                    IconButton(
+                    SoundButton.icon(
                       icon: const Icon(Icons.arrow_back),
                       onPressed: () => Navigator.pop(context),
                     ),
@@ -84,11 +85,11 @@ class SettingsPage extends StatelessWidget {
                                       decoration: const InputDecoration(hintText: '请输入服务器地址'),
                                     ),
                                     actions: [
-                                      TextButton(
+                                      SoundButton.text(
                                         onPressed: () => Navigator.pop(context),
                                         child: const Text('取消'),
                                       ),
-                                      TextButton(
+                                      SoundButton.text(
                                         onPressed: () => Navigator.pop(context, controller.text),
                                         child: const Text('确定'),
                                       ),
@@ -193,7 +194,7 @@ class SettingsPage extends StatelessWidget {
     );
   }
 
-  Future<String?> _showEnginePathDialog(BuildContext context, AppConfigManager appConfigManager) => showDialog<String>(
+  Future<String?> _showEnginePathDialog(BuildContext context, ConfigManager appConfigManager) => showDialog<String>(
         context: context,
         builder: (context) {
           final controller = TextEditingController(text: appConfigManager.enginePath);
@@ -207,7 +208,7 @@ class SettingsPage extends StatelessWidget {
                     decoration: const InputDecoration(hintText: '请输入引擎路径'),
                   ),
                 ),
-                TextButton(
+                SoundButton.text(
                   onPressed: () async {
                     final path = await FilePicker.platform.pickFiles();
                     if (path != null) {
@@ -219,11 +220,11 @@ class SettingsPage extends StatelessWidget {
               ],
             ),
             actions: [
-              TextButton(
+              SoundButton.text(
                 onPressed: () => Navigator.pop(context),
                 child: const Text('取消'),
               ),
-              TextButton(
+              SoundButton.text(
                 onPressed: () => Navigator.pop(context, controller.text),
                 child: const Text('确定'),
               ),
@@ -232,7 +233,7 @@ class SettingsPage extends StatelessWidget {
         },
       );
 
-  void _showEngineLevelDialog(BuildContext context, AppConfigManager configManager) {
+  void _showEngineLevelDialog(BuildContext context, ConfigManager configManager) {
     showDialog(
       context: context,
       builder: (context) => _EngineSliderDialog(
@@ -247,7 +248,7 @@ class SettingsPage extends StatelessWidget {
     );
   }
 
-  void _showMoveTimeDialog(BuildContext context, AppConfigManager configManager) {
+  void _showMoveTimeDialog(BuildContext context, ConfigManager configManager) {
     showDialog(
       context: context,
       builder: (context) => _EngineSliderDialog(
@@ -262,7 +263,7 @@ class SettingsPage extends StatelessWidget {
     );
   }
 
-  void _showSearchDepthDialog(BuildContext context, AppConfigManager configManager) {
+  void _showSearchDepthDialog(BuildContext context, ConfigManager configManager) {
     showDialog(
       context: context,
       builder: (context) => _EngineSliderDialog(
@@ -365,7 +366,7 @@ class _EngineSliderDialogState extends State<_EngineSliderDialog> {
         ),
       ),
       actions: [
-        TextButton(
+        SoundButton.text(
           onPressed: () => Navigator.pop(context),
           child: const Text('确定'),
         ),

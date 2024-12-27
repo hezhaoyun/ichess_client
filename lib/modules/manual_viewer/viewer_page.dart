@@ -7,10 +7,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../../config/app_config_manager.dart';
+import '../../game/config_manager.dart';
 import '../../services/ai_native.dart';
 import '../../services/favorites_service.dart';
 import '../../widgets/chess_board_widget.dart';
+import '../../widgets/sound_buttons.dart';
 import 'analysis_chart.dart';
 import 'move_list.dart';
 import 'pgn_manual.dart';
@@ -72,7 +73,7 @@ class _ViewerPageState extends State<ViewerPage> {
 
   Future<void> _initStockfish() async {
     if (!Platform.isAndroid && !Platform.isIOS) {
-      final configManager = Provider.of<AppConfigManager>(context, listen: false);
+      final configManager = Provider.of<ConfigManager>(context, listen: false);
       AiNative.instance.setEnginePath(configManager.enginePath);
     }
 
@@ -337,7 +338,7 @@ class _ViewerPageState extends State<ViewerPage> {
 
   Widget _buildHeader() => Row(
         children: [
-          IconButton(
+          SoundButton.icon(
             icon: const Icon(Icons.arrow_back),
             onPressed: () => Navigator.of(context).pop(),
           ),
@@ -356,7 +357,7 @@ class _ViewerPageState extends State<ViewerPage> {
             ),
           ),
           const Spacer(),
-          IconButton(
+          SoundButton.icon(
             icon: Icon(isFavorite ? Icons.star : Icons.star_border),
             onPressed: _toggleFavorite,
           ),
@@ -373,7 +374,7 @@ class _ViewerPageState extends State<ViewerPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const SizedBox(width: 8),
-            TextButton(
+            SoundButton.text(
               style: TextButton.styleFrom(
                 padding: const EdgeInsets.only(left: 8),
               ),
@@ -386,28 +387,28 @@ class _ViewerPageState extends State<ViewerPage> {
               ),
             ),
             const Expanded(child: SizedBox()),
-            IconButton(
+            SoundButton.icon(
               icon: const Icon(Icons.first_page),
               onPressed: currentIndex >= 0 ? () => _goToMove(-1) : null,
               tooltip: '开始',
             ),
-            IconButton(
+            SoundButton.icon(
               icon: const Icon(Icons.navigate_before),
               onPressed: currentIndex >= 0 ? () => _goToMove(currentIndex - 1) : null,
               tooltip: '上一步',
             ),
-            IconButton(
+            SoundButton.icon(
               icon: const Icon(Icons.navigate_next),
               onPressed: currentIndex < moves.length - 1 ? () => _goToMove(currentIndex + 1) : null,
               tooltip: '下一步',
             ),
-            IconButton(
+            SoundButton.icon(
               icon: const Icon(Icons.last_page),
               onPressed: currentIndex < moves.length - 1 ? () => _goToMove(moves.length - 1) : null,
               tooltip: '结束',
             ),
             const Expanded(child: SizedBox()),
-            IconButton(
+            SoundButton.icon(
               icon: Icon(showAnalysisCard ? Icons.analytics : Icons.analytics_outlined),
               onPressed: () {
                 setState(() => showAnalysisCard = !showAnalysisCard);

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
 import 'services/audio_service.dart';
+import 'widgets/sound_buttons.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -54,7 +55,7 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
           const Spacer(),
-          IconButton(
+          SoundButton.icon(
             icon: const Icon(Icons.settings),
             onPressed: () => Navigator.pushNamed(context, Routes.settings),
           )

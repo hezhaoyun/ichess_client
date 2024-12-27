@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:ichess/modules/manual_viewer/manuals_page.dart';
 import 'package:provider/provider.dart';
 
-import 'config/app_config_manager.dart';
+import 'game/config_manager.dart';
 import 'home_page.dart';
 import 'modules/battle/ai_battle_page.dart';
 import 'modules/battle/online_battle_page.dart';
 import 'modules/board_setup/board_setup_page.dart';
 import 'modules/settings/settings_page.dart';
-import 'theme/theme_manager.dart';
+import 'game/theme_manager.dart';
 
 void main() {
   runApp(
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => ThemeManager(), lazy: false),
-        ChangeNotifierProvider(create: (_) => AppConfigManager(), lazy: false),
+        ChangeNotifierProvider(create: (_) => ConfigManager(), lazy: false),
       ],
       child: const MyApp(),
     ),

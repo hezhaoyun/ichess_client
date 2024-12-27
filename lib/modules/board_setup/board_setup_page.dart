@@ -5,6 +5,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../home_page.dart';
 import '../../widgets/chess_board_widget.dart';
+import '../../widgets/sound_buttons.dart';
 
 class BoardSetupPage extends StatefulWidget {
   const BoardSetupPage({super.key});
@@ -113,7 +114,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
         padding: const EdgeInsets.all(16.0),
         child: Row(
           children: [
-            IconButton(
+            SoundButton.icon(
               icon: Icon(Icons.arrow_back, color: Theme.of(context).colorScheme.primary),
               onPressed: () => Navigator.pop(context),
             ),
@@ -132,11 +133,11 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
               ),
             ),
             const Spacer(),
-            IconButton(
+            SoundButton.icon(
               icon: Icon(Icons.switch_access_shortcut, color: Theme.of(context).colorScheme.primary),
               onPressed: _toggleBoardState,
             ),
-            IconButton(
+            SoundButton.icon(
               icon: Icon(Icons.play_arrow, color: Theme.of(context).colorScheme.primary),
               onPressed: _startGame,
             ),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
 import '../services/audio_service.dart';
+import 'sound_buttons.dart';
 
 enum GameResult { win, draw, lose }
 
@@ -69,7 +70,7 @@ class GameResultDialog extends StatelessWidget {
               style: TextStyle(fontSize: 16, color: Colors.grey[700]),
             ),
             const SizedBox(height: 24),
-            ElevatedButton(
+            SoundButton.elevated(
               style: ElevatedButton.styleFrom(
                 backgroundColor: result == GameResult.win ? Colors.orange : Colors.blue,
                 padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 12),
