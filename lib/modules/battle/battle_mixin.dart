@@ -237,7 +237,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
       context: context,
       builder: (context) => AlertDialog(
         title: const Text('悔棋'),
-        content: Text(data['message']),
+        content: Text('Opponent requests a takeback, do you accept?'),
         actions: [
           TextButton(
             child: const Text('接受'),
@@ -290,7 +290,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
       context: context,
       builder: (context) => AlertDialog(
         title: const Text('求和'),
-        content: Text(data['message']),
+        content: Text('Opponent proposes a draw, do you accept?'),
         actions: [
           TextButton(
             child: const Text('接受'),
