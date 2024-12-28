@@ -56,7 +56,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
               onPressed: () => Navigator.pop(context),
             ),
             Text(
-              '在线对战',
+              'Online Battle',
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
                 shadows: [
@@ -95,21 +95,25 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
             ),
             const SizedBox(height: 24),
             Text(
-              '开始在线对战',
-              style: Theme.of(context).textTheme.headlineSmall,
+              'Start Online Battle',
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: 12),
-            Text(
-              '连接服务器开始你的对战之旅',
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                    color: Colors.grey[600],
-                  ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+              child: Text(
+                'Connect to the server to start your battle journey',
+                style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                      color: Colors.grey[600],
+                    ),
+                textAlign: TextAlign.center,
+              ),
             ),
             const SizedBox(height: 32),
             SoundButton.iconElevated(
               onPressed: connect,
               icon: const Icon(Icons.wifi),
-              label: const Text('开始游戏'),
+              label: const Text('Connect'),
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
                 shape: RoundedRectangleBorder(
@@ -127,7 +131,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
           children: [
             const CircularProgressIndicator(),
             const SizedBox(height: 24),
-            Text('正在寻找对手...', style: Theme.of(context).textTheme.titleLarge),
+            Text('Searching for an opponent...', style: Theme.of(context).textTheme.titleMedium),
             const SizedBox(height: 16),
             SoundButton.elevated(
               onPressed: disconnect,
@@ -137,7 +141,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
                   borderRadius: BorderRadius.circular(30),
                 ),
               ),
-              child: const Text('退出连线'),
+              child: const Text('Exit Connection'),
             ),
           ],
         ),
@@ -183,19 +187,18 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
 
   Widget _buildPlayerInfo(
       {required String name, required dynamic elo, required String time, required bool isOpponent}) {
-    // 获取屏幕高度
-    final screenHeight = MediaQuery.of(context).size.height;
-    // 设置一个阈值，比如 700
-    final bool isCompactMode = screenHeight < 700;
+    // Get screen height
+    // Set a threshold, for example, 700
+    final bool isCompactMode = MediaQuery.of(context).size.height < 700;
 
     if (isCompactMode) {
-      // 紧凑模式 - 单行显示
+      // Compact mode - single line display
       return Container(
         width: MediaQuery.of(context).size.shortestSide - 36,
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
         child: Row(
           children: [
-            // 头像
+            // Avatar
             CircleAvatar(
               radius: 16,
               backgroundColor: isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
@@ -209,7 +212,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
               ),
             ),
             const SizedBox(width: 8),
-            // 名称
+            // Name
             Expanded(
               child: Text(
                 name,
@@ -221,13 +224,13 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
               ),
             ),
             const SizedBox(width: 8),
-            // ELO信息
+            // ELO information
             _buildInfoChip(
               icon: Icons.emoji_events_outlined,
               label: 'ELO: $elo',
             ),
             const SizedBox(width: 8),
-            // 时间信息
+            // Time information
             _buildInfoChip(
               icon: Icons.timer_outlined,
               label: time,
@@ -237,7 +240,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
       );
     }
 
-    // 原有的卡片式布局代码
+    // Original card layout code
     return Container(
       width: MediaQuery.of(context).size.shortestSide - 36,
       padding: const EdgeInsets.all(16),
@@ -353,25 +356,25 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
           SoundButton.elevated(
             style: buttonStyle,
             onPressed: connect,
-            child: const Text('连接'),
+            child: const Text('Connect'),
           ),
         if (gameState == OnlineState.stayInLobby)
           SoundButton.elevated(
             style: buttonStyle,
             onPressed: match,
-            child: const Text('匹配'),
+            child: const Text('Match'),
           ),
         if (gameState == OnlineState.waitingMove)
           SoundButton.elevated(
             style: buttonStyle,
             onPressed: proposeDraw,
-            child: const Text('求和'),
+            child: const Text('Propose Draw'),
           ),
         if (gameState == OnlineState.waitingMove)
           SoundButton.elevated(
             style: buttonStyle,
             onPressed: chess.move_number >= 2 ? proposeTakeback : null,
-            child: const Text('悔棋'),
+            child: const Text('Take Back'),
           ),
         if (gameState == OnlineState.waitingMove)
           SoundButton.elevated(
@@ -379,7 +382,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
               backgroundColor: WidgetStateProperty.all(Colors.orange),
             ),
             onPressed: resign,
-            child: const Text('投降'),
+            child: const Text('Resign'),
           ),
       ],
     );
@@ -399,7 +402,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
       context: context,
       barrierDismissible: false,
       builder: (context) => GameResultDialog(
-        title: '你赢了！',
+        title: 'You Won!',
         message: Reasons.winOf(data['reason']),
         result: GameResult.win,
       ),
@@ -416,7 +419,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
       context: context,
       barrierDismissible: false,
       builder: (context) => GameResultDialog(
-        title: '你输了！',
+        title: 'You Lost!',
         message: Reasons.loseOf(data['reason']),
         result: GameResult.lose,
       ),
@@ -431,7 +434,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
       context: context,
       barrierDismissible: false,
       builder: (context) => GameResultDialog(
-        title: '和棋！',
+        title: 'Draw!',
         message: Reasons.drawOf(data['reason']),
         result: GameResult.draw,
       ),

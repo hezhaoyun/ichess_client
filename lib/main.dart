@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<ThemeManager>(
       builder: (context, themeManager, child) => MaterialApp(
-        title: '棋路',
+        title: 'Chess Road',
         theme: themeManager.getTheme(),
         home: const HomePage(),
         routes: {

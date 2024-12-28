@@ -62,7 +62,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('加载棋谱列表失败: $e')),
+          SnackBar(content: Text('Failed to load manuals list: $e')),
         );
       }
     }
@@ -94,7 +94,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
                 _buildHeader(context),
                 TabBar(
                   controller: _tabController,
-                  tabs: const [Tab(text: '全部棋谱'), Tab(text: '我的收藏')],
+                  tabs: const [Tab(text: 'All Manuals'), Tab(text: 'My Favorites')],
                 ),
                 Expanded(
                   child: TabBarView(
@@ -118,7 +118,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
             ),
             const SizedBox(width: 8),
             Text(
-              '棋谱列表',
+              'Games',
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
                 shadows: [
@@ -154,7 +154,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
         } else if (file.path != null) {
           content = await File(file.path!).readAsString();
         } else {
-          throw Exception('无法读取文件内容');
+          throw Exception('Failed to read file content');
         }
 
         if (mounted) {
@@ -168,7 +168,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('加载文件失败: $e')),
+          SnackBar(content: Text('Failed to load file: $e')),
         );
       }
     }
@@ -189,7 +189,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
           child: TextField(
             controller: _searchController,
             decoration: InputDecoration(
-              hintText: '搜索棋谱...',
+              hintText: 'Search manuals...',
               prefixIcon: const Icon(Icons.search),
               suffixIcon: searchKeyword.isNotEmpty
                   ? SoundButton.icon(
@@ -222,7 +222,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   subtitle: Text(
-                    '${manual.count} 局棋谱',
+                    '${manual.count} games',
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           color: Theme.of(context).textTheme.bodySmall?.color,
                         ),
@@ -248,7 +248,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
     }
 
     if (favorites!.isEmpty) {
-      return const Center(child: Text('暂无收藏的棋谱'));
+      return const Center(child: Text('No favorite manuals available'));
     }
 
     final filteredFavorites =

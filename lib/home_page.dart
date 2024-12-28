@@ -11,7 +11,7 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-// 添加路由常量
+// Route constants
 class Routes {
   static const aiBattle = '/ai-battle';
   static const onlineBattle = '/online-battle';
@@ -25,41 +25,45 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final header = Padding(
       padding: const EdgeInsets.only(top: 40, left: 4),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Image.asset('assets/icons/icon-a.png', width: 56, height: 56),
-          const SizedBox(width: 10),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                '国象风云',
-                style: Theme.of(context).textTheme.headlineLarge?.copyWith(
-                  fontWeight: FontWeight.bold,
-                  shadows: [
-                    Shadow(
-                      color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                      offset: const Offset(2, 2),
-                      blurRadius: 4,
-                    ),
-                  ],
+      child: Expanded(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Image.asset('assets/icons/icon-a.png', width: 32, height: 32),
+                const SizedBox(width: 10),
+                Text(
+                  'Chess Road',
+                  style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    shadows: [
+                      Shadow(
+                        color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                        offset: const Offset(2, 2),
+                        blurRadius: 4,
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-              Text(
-                '探索国际象棋的无限可能',
-                style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                      color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
-                    ),
-              )
-            ],
-          ),
-          const Spacer(),
-          SoundButton.icon(
-            icon: const Icon(Icons.settings),
-            onPressed: () => Navigator.pushNamed(context, Routes.settings),
-          )
-        ],
+                const Spacer(),
+                SoundButton.icon(
+                  icon: const Icon(Icons.settings),
+                  onPressed: () => Navigator.pushNamed(context, Routes.settings),
+                ),
+              ],
+            ),
+            const SizedBox(height: 10),
+            Text(
+              'Explore the infinite possibilities of chess',
+              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
+                  ),
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ],
+        ),
       ),
     );
 
@@ -74,7 +78,7 @@ class _HomePageState extends State<HomePage> {
               children: [
                 _buildCard(
                   icon: Icons.computer,
-                  label: '人机对战',
+                  label: 'AI Battle',
                   onTap: () {
                     AudioService.playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.aiBattle);
@@ -82,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 _buildCard(
                   icon: Icons.people,
-                  label: '在线对战',
+                  label: 'Online Battle',
                   onTap: () {
                     AudioService.playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.onlineBattle);
@@ -90,7 +94,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 _buildCard(
                   icon: Icons.menu_book,
-                  label: '阅读棋谱',
+                  label: 'View Games',
                   onTap: () {
                     AudioService.playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.viewer);
@@ -98,7 +102,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 _buildCard(
                   icon: Icons.swipe_right,
-                  label: '推演棋盘',
+                  label: 'Setup Board',
                   onTap: () {
                     AudioService.playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.setup);
@@ -201,7 +205,7 @@ class _HomePageState extends State<HomePage> {
                   const SizedBox(height: 12),
                   Text(
                     label,
-                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    style: Theme.of(context).textTheme.titleSmall?.copyWith(
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                         ),

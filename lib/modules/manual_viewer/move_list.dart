@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'pgn_manual.dart';
 
-/// 显示棋局移动列表的组件
+/// Component to display the list of moves in a chess game
 class MoveList extends StatefulWidget {
   static const double _horizontalSpacing = 8.0;
   static const double _verticalSpacing = 4.0;
@@ -26,6 +26,7 @@ class MoveList extends StatefulWidget {
   State<MoveList> createState() => MoveListState();
 }
 
+/// State class for the MoveList component
 class MoveListState extends State<MoveList> {
   @override
   Widget build(BuildContext context) => Card(
@@ -64,7 +65,7 @@ class MoveListState extends State<MoveList> {
   }
 }
 
-/// 单个移动项组件
+/// Component for a single move item
 class _MoveItem extends StatelessWidget {
   final PgnChildNode move;
   final int moveIndex;

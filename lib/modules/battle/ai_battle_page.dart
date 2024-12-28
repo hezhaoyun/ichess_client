@@ -74,10 +74,10 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('引擎初始化失败!')),
+            const SnackBar(content: Text('Engine initialization failed!')),
           );
         }
-        debugPrint('引擎初始化失败：${e.toString()}');
+        debugPrint('Engine initialization failed: ${e.toString()}');
       });
     }
   }
@@ -90,7 +90,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       final savedState = json.decode(savedStateJson);
 
       setState(() {
-        // 加载保存的初始状态
+        // Load saved initial state
         initialFen = savedState['initialFen'];
         if (initialFen != null) {
           chess.load(initialFen!);
@@ -98,7 +98,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
           chess.reset();
         }
 
-        // 重放所有历史移动
+        // Replay all historical moves
         final List<String> historicalMoves = List<String>.from(savedState['moves']);
         for (String move in historicalMoves) {
           final moveMap = {
@@ -177,21 +177,25 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
   String _getResultTitle() {
     if (chess.in_checkmate || chess.in_stalemate) {
-      return chess.turn == chess_lib.Color.WHITE ? '你输了！' : '你赢了！';
+      return chess.turn == chess_lib.Color.WHITE ? 'You lost!' : 'You won!';
     }
-    return '和棋！';
+    return 'Draw!';
   }
 
   String _getResultMessage() {
     if (chess.in_checkmate) {
-      return chess.turn == chess_lib.Color.WHITE ? '别灰心，再接再厉！' : '恭喜你战胜了对手！';
+      return chess.turn == chess_lib.Color.WHITE
+          ? 'Don’t be discouraged, keep trying!'
+          : 'Congratulations on defeating your opponent!';
     }
     if (chess.in_stalemate) {
-      return chess.turn == chess_lib.Color.WHITE ? '别灰心，再接再厉！' : '恭喜你战胜了对手！';
+      return chess.turn == chess_lib.Color.WHITE
+          ? 'Don’t be discouraged, keep trying!'
+          : 'Congratulations on defeating your opponent!';
     }
-    if (chess.insufficient_material) return '子力不足，双方和棋';
-    if (chess.in_threefold_repetition) return '三次重复，双方和棋';
-    return '双方和棋';
+    if (chess.insufficient_material) return 'Insufficient material, draw';
+    if (chess.in_threefold_repetition) return 'Threefold repetition, draw';
+    return 'Draw';
   }
 
   Future<void> makeComputerMove() async {
@@ -227,7 +231,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               if (move == '(none)' || move == 'NULL') {
                 if (mounted) {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('引擎无法找到有效着法')),
+                    const SnackBar(content: Text('Engine cannot find a valid move')),
                   );
                 }
                 break;
@@ -275,9 +279,9 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('引擎走子出错，请重试')),
+          const SnackBar(content: Text('Engine move error, please try again')),
         );
-        debugPrint('引擎走子出错：${e.toString()}');
+        debugPrint('Engine move error: ${e.toString()}');
       }
     } finally {
       if (mounted) {
@@ -341,7 +345,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('选择您的执子'),
+        title: const Text('Choose your color'),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -349,7 +353,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               leading: Icon(Icons.circle, color: Colors.white, size: 24, shadows: [
                 Shadow(color: Theme.of(context).colorScheme.primary, blurRadius: 4),
               ]),
-              title: const Text('执白'),
+              title: const Text('White'),
               onTap: () {
                 Navigator.pop(context);
                 _startNewGame(BoardOrientation.white);
@@ -359,7 +363,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               leading: Icon(Icons.circle, color: Colors.black, size: 24, shadows: [
                 Shadow(color: Theme.of(context).colorScheme.primary, blurRadius: 4),
               ]),
-              title: const Text('执黑'),
+              title: const Text('Black'),
               onTap: () {
                 Navigator.pop(context);
                 _startNewGame(BoardOrientation.black);
@@ -385,7 +389,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       controller.setArrows([]);
       lastMove = null;
 
-      // 如果选择执黑，让电脑先走
+      // If selected black, let the computer go first
       if (orientation == BoardOrientation.black) {
         makeComputerMove();
       }
@@ -408,23 +412,23 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
   Future<void> saveGame() async {
     try {
-      // 让用户选择保存位置
+      // Choose save location
       String? outputFile = await FilePicker.platform.saveFile(
-        dialogTitle: '选择保存位置',
+        dialogTitle: 'Choose save location',
         fileName: 'chess_game_${DateTime.now().millisecondsSinceEpoch}.pgn',
         type: FileType.custom,
         allowedExtensions: ['pgn'],
       );
 
       if (outputFile == null) {
-        // 用户取消了保存
+        // User canceled saving
         return;
       }
 
       final now = DateTime.now();
       final dateStr = '${now.year}.${now.month.toString().padLeft(2, '0')}.${now.day.toString().padLeft(2, '0')}';
 
-      // 创建PGN格式的内容
+      // Create PGN content
       final pgn = [
         '[Event "AI Chess Game"]',
         '[Site "Your App"]',
@@ -442,20 +446,20 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('棋局已保存')),
+          const SnackBar(content: Text('Game saved')),
         );
       }
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('保存失败，请重试')),
+          const SnackBar(content: Text('Save failed, please try again')),
         );
       }
-      debugPrint('保存棋局出错：$e');
+      debugPrint('Save failed: $e');
     }
   }
 
-  // 获取对局结果
+  // Get game result
   String _getPgnResult() {
     if (!chess.game_over) return "*";
 
@@ -468,7 +472,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     return "*";
   }
 
-  // 生成标准的移动记录
+  // Generate standard move record
   String _generateMovesText() => chess.san_moves().join(' ');
 
   Future<void> analyzePosition() async {
@@ -526,7 +530,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('分析失败，请重试')),
+          const SnackBar(content: Text('Analysis failed, please try again')),
         );
       }
     } finally {
@@ -565,7 +569,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                     ),
                     Expanded(
                       child: Text(
-                        '人机对战',
+                        'AI Battle',
                         style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                           fontWeight: FontWeight.bold,
                           shadows: [
@@ -617,19 +621,19 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   }
 
   Widget _buildPlayerInfo({required bool isOpponent}) {
-    // 获取屏幕高度
+    // Get screen height
     final screenHeight = MediaQuery.of(context).size.height;
-    // 设置一个阈值，比如 700
+    // Set a threshold, e.g. 700
     final bool isCompactMode = screenHeight < 700;
 
     if (isCompactMode) {
-      // 紧凑模式 - 单行显示
+      // Compact mode - single line display
       return Container(
         width: MediaQuery.of(context).size.shortestSide - 36,
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
         child: Row(
           children: [
-            // 头像部分
+            // Avatar part
             SizedBox(
               width: 40,
               height: 40,
@@ -649,7 +653,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                     radius: 16,
                     backgroundColor: isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
                     child: Text(
-                      isOpponent ? 'AI' : '你',
+                      isOpponent ? 'AI' : 'You',
                       style: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.bold,
@@ -661,16 +665,16 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               ),
             ),
             const SizedBox(width: 8),
-            // 名称
+            // Name
             Text(
-              isOpponent ? '电脑' : '玩家',
+              isOpponent ? 'Computer' : 'Player',
               style: const TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.bold,
               ),
             ),
             const SizedBox(width: 8),
-            // ELO信息
+            // ELO information
             _buildInfoChip(
               icon: Icons.emoji_events_outlined,
               label: 'ELO: ${isOpponent ? '2000' : '1500'}',
@@ -678,7 +682,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
             if (isOpponent && evaluation != null) ...[
               const SizedBox(width: 8),
               Text(
-                '评估: ${evaluation!}',
+                'Evaluation: ${evaluation!}',
                 style: TextStyle(
                   color: evaluation! > 0 ? Colors.green : Colors.red,
                   fontWeight: FontWeight.bold,
@@ -691,7 +695,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       );
     }
 
-    // 原有的卡片式布局代码
+    // Original card layout code
     return Container(
       width: MediaQuery.of(context).size.shortestSide - 36,
       padding: const EdgeInsets.all(16),
@@ -740,7 +744,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                     radius: 24,
                     backgroundColor: Colors.white,
                     child: Text(
-                      isOpponent ? 'AI' : '你',
+                      isOpponent ? 'AI' : 'You',
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -758,7 +762,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  isOpponent ? '电脑' : '玩家',
+                  isOpponent ? 'Computer' : 'Player',
                   style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
@@ -816,8 +820,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       runSpacing: 12,
       alignment: WrapAlignment.center,
       children: [
-        SoundButton.elevated(style: buttonStyle, onPressed: newGame, child: const Text('新局')),
-        SoundButton.elevated(style: buttonStyle, onPressed: undoMove, child: const Text('悔棋')),
+        SoundButton.elevated(style: buttonStyle, onPressed: newGame, child: const Text('New Game')),
+        SoundButton.elevated(style: buttonStyle, onPressed: undoMove, child: const Text('Undo')),
         if (!isThinking && chess.turn == chess_lib.Color.WHITE && !chess.game_over)
           SoundButton.iconElevated(
             style: buttonStyle,
@@ -825,7 +829,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
             icon: isAnalyzing
                 ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2))
                 : const Icon(Icons.lightbulb_outline),
-            label: Text(isAnalyzing ? '分析中...' : '提示'),
+            label: Text(isAnalyzing ? 'Analyzing...' : 'Hint'),
           ),
       ],
     );

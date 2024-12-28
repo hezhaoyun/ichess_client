@@ -15,30 +15,30 @@ class AiNative {
   final _outputController = StreamController<String>.broadcast();
   Stream<String> get stdout => _outputController.stream;
 
-  // 添加新的属性
+  // Add new properties
   int _skillLevel = 10;
-  int _moveTime = 1000; // 默认1秒
-  int _searchDepth = 20; // 默认深度20层
-  bool _useTime = true; // 默认使用时间限制而不是深度限制
+  int _moveTime = 1000; // Default 1 second
+  int _searchDepth = 20; // Default depth 20 layers
+  bool _useTime = true; // Default use time limit instead of depth limit
   String _enginePath = '';
 
-  // 获取当前设置
+  // Get current settings
   int get skillLevel => _skillLevel;
   int get moveTime => _moveTime;
   int get searchDepth => _searchDepth;
   bool get useTime => _useTime;
   String get enginePath => _enginePath;
 
-  // 私有构造函数
+  // Private constructor
   AiNative._();
 
-  // 获取单例实例
+  // Get singleton instance
   static AiNative get instance {
     _instance ??= AiNative._();
     return _instance!;
   }
 
-  // 初始化引擎
+  // Initialize engine
   Future<void> initialize() async {
     if (_isInitialized) return;
 
@@ -70,11 +70,11 @@ class AiNative {
 
       _isInitialized = true;
     } catch (e) {
-      debugPrint('引擎初始化失败: $e');
+      debugPrint('Engine initialization failed: $e');
     }
   }
 
-  // 修改 stdin 方法
+  // Modify stdin method
   void sendCommand(String command) {
     if (!_isInitialized) return;
 
@@ -85,20 +85,20 @@ class AiNative {
     }
   }
 
-  // 设置引擎等级
+  // Set engine level
   void setSkillLevel(int level) {
     if (!_isInitialized) return;
     _skillLevel = level.clamp(1, 20);
     sendCommand('setoption name Skill Level value $_skillLevel');
   }
 
-  // 设置思考时间（毫秒）
+  // Set thinking time (milliseconds)
   void setMoveTime(int milliseconds) {
     _moveTime = milliseconds.clamp(1000, 15000);
     _useTime = true;
   }
 
-  // 设置搜索深度
+  // Set search depth
   void setSearchDepth(int depth) {
     _searchDepth = depth.clamp(1, 30);
     _useTime = false;
@@ -108,12 +108,12 @@ class AiNative {
     _enginePath = path;
   }
 
-  // 修改获取引擎命令的方法
+  // Modify the method to get the engine command
   String getGoCommand() {
     return _useTime ? 'go movetime $_moveTime' : 'go depth $_searchDepth';
   }
 
-  // 修改释放资源方法
+  // Modify the method to release resources
   void dispose() {
     if (_isInitialized) {
       debugPrint('Disposing StockfishManager...');
@@ -130,7 +130,7 @@ class AiNative {
     }
   }
 
-  // 添加重新初始化的方法
+  // Add a method to reinitialize
   Future<void> reinitialize() async {
     dispose();
     await Future.delayed(const Duration(milliseconds: 500));

@@ -98,7 +98,7 @@ class _ViewerPageState extends State<ViewerPage> {
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('加载文件失败: $e')),
+          SnackBar(content: Text('Failed to load file: $e')),
         );
       }
     } finally {
@@ -195,7 +195,7 @@ class _ViewerPageState extends State<ViewerPage> {
     setState(() => isFavorite = !isFavorite);
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(isFavorite ? '已添加到收藏' : '已取消收藏')),
+        SnackBar(content: Text(isFavorite ? 'Added to favorites' : 'Removed from favorites')),
       );
     }
   }
@@ -211,7 +211,7 @@ class _ViewerPageState extends State<ViewerPage> {
     try {
       final chess = chess_lib.Chess();
 
-      // 分析初始局面
+      // Analyze initial position
       final (initialEval, isMate) = await _getEvaluation(chess.fen);
       evaluations.add(initialEval);
 
@@ -229,7 +229,7 @@ class _ViewerPageState extends State<ViewerPage> {
           }
         }
 
-        // 如果是白方走完棋，评估分数需要取反
+        // If it's white's turn, the evaluation score needs to be negated
         if (chess.turn == chess_lib.Color.BLACK) eval = -eval;
         setState(() => evaluations.add(eval));
       }
@@ -247,7 +247,7 @@ class _ViewerPageState extends State<ViewerPage> {
     bool isMate = false;
 
     await for (final output in stockfish.stdout) {
-      // 将输出按行分割并遍历每一行
+      // Split the output by lines and iterate through each line
       for (final line in output.split('\n')) {
         if (line.contains('score cp')) {
           final scoreMatch = RegExp(r'score cp (-?\d+)').firstMatch(line);
@@ -287,7 +287,7 @@ class _ViewerPageState extends State<ViewerPage> {
     String? currentFen;
 
     if (index <= currentIndex) {
-      // 后退
+      // Backward
       while (currentIndex > index) {
         manual?.tree?.prevMove();
         currentIndex--;
@@ -297,7 +297,7 @@ class _ViewerPageState extends State<ViewerPage> {
       currentFen = fenHistory[currentIndex + 1];
       lastMove = null;
     } else {
-      // 前进
+      // Forward
       chess = chess_lib.Chess.fromFEN(fenHistory.last);
 
       while (currentIndex < index) {
@@ -344,7 +344,7 @@ class _ViewerPageState extends State<ViewerPage> {
           ),
           const SizedBox(width: 8),
           Text(
-            '棋谱阅读',
+            'Chess Viewer',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
               fontWeight: FontWeight.bold,
               shadows: [
@@ -390,22 +390,22 @@ class _ViewerPageState extends State<ViewerPage> {
             SoundButton.icon(
               icon: const Icon(Icons.first_page),
               onPressed: currentIndex >= 0 ? () => _goToMove(-1) : null,
-              tooltip: '开始',
+              tooltip: 'Start',
             ),
             SoundButton.icon(
               icon: const Icon(Icons.navigate_before),
               onPressed: currentIndex >= 0 ? () => _goToMove(currentIndex - 1) : null,
-              tooltip: '上一步',
+              tooltip: 'Previous',
             ),
             SoundButton.icon(
               icon: const Icon(Icons.navigate_next),
               onPressed: currentIndex < moves.length - 1 ? () => _goToMove(currentIndex + 1) : null,
-              tooltip: '下一步',
+              tooltip: 'Next',
             ),
             SoundButton.icon(
               icon: const Icon(Icons.last_page),
               onPressed: currentIndex < moves.length - 1 ? () => _goToMove(moves.length - 1) : null,
-              tooltip: '结束',
+              tooltip: 'End',
             ),
             const Expanded(child: SizedBox()),
             SoundButton.icon(
@@ -457,13 +457,13 @@ class _ViewerPageState extends State<ViewerPage> {
         fenHistory.removeLast();
         final chess = chess_lib.Chess.fromFEN(fenHistory.last);
 
-        // 更新棋盘位置
+        // Update chessboard position
         if (!chess.move(node.pgnNode!.data.san)) return;
 
         final currentFen = chess.fen;
         fenHistory.add(currentFen);
 
-        // 更新最后一步移动的显示
+        // Update last move display
         final last = chess.history.last.move;
         _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
 
@@ -477,7 +477,7 @@ class _ViewerPageState extends State<ViewerPage> {
           child: Column(
             children: [
               const SizedBox(height: 8),
-              Text('分支选择', style: Theme.of(context).textTheme.titleMedium),
+              Text('Branch Selection', style: Theme.of(context).textTheme.titleMedium),
               const SizedBox(height: 8),
               ListView.builder(
                 shrinkWrap: true,
@@ -543,7 +543,7 @@ class _ViewerPageState extends State<ViewerPage> {
           if (comment != null && comment!.isNotEmpty)
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('注释: $comment', style: TextStyle(color: Colors.grey)),
+              child: Text('Comments: $comment', style: TextStyle(color: Colors.grey)),
             ),
         ],
       ),

@@ -5,11 +5,11 @@ class ThemeManager extends ChangeNotifier {
   static const String _themeKey = 'selected_theme';
 
   final themes = {
-    '默认蓝': Colors.blue,
-    '翡翠绿': Colors.green,
-    '深邃紫': Colors.purple,
-    '热情红': Colors.red,
-    '沉稳灰': Colors.blueGrey,
+    'Default Blue': Colors.blue,
+    'Emerald Green': Colors.green,
+    'Deep Purple': Colors.purple,
+    'Passionate Red': Colors.red,
+    'Steady Gray': Colors.blueGrey,
   };
 
   Color _primaryColor = Colors.blue;
@@ -38,7 +38,7 @@ class ThemeManager extends ChangeNotifier {
 
   Future<void> _loadTheme() async {
     final prefs = await SharedPreferences.getInstance();
-    final themeName = prefs.getString(_themeKey) ?? '默认蓝';
+    final themeName = prefs.getString(_themeKey) ?? 'Default Blue';
     _primaryColor = themes[themeName]!;
     final pieceThemeName = prefs.getString('selected_piece_theme') ?? 'android';
     _selectedPieceTheme = pieceThemeName;

@@ -15,11 +15,11 @@ class BoardSetupPage extends StatefulWidget {
 }
 
 class _BoardSetupPageState extends State<BoardSetupPage> {
-  // 棋盘状态常量
+  // Board state constants
   static const String _emptyBoardFen = '8/8/8/8/8/8/8/8 w - - 0 1';
   static const String _initialBoardFen = chess_lib.Chess.DEFAULT_POSITION;
 
-  // 棋子配置
+  // Piece configuration
   static const _pieceConfigs = {
     'white': {
       'K': {'num': 1},
@@ -43,7 +43,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   final _chess = chess_lib.Chess.fromFEN(_emptyBoardFen);
   static chess_lib.Piece? _draggingPiece;
 
-  // 棋子计数器
+  // Piece counter
   final Map<String, int> _currentPieceCounts = Map.fromIterables(
     [..._pieceConfigs['white']!.keys, ..._pieceConfigs['black']!.keys],
     List.filled(12, 0),
@@ -120,7 +120,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
             ),
             const SizedBox(width: 8),
             Text(
-              '设置局面',
+              'Setup Position',
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
                 shadows: [
@@ -267,7 +267,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
               ),
               const SizedBox(width: 8),
               Text(
-                '拖放到此处删除棋子',
+                'Drag and drop here to remove a piece',
                 style: TextStyle(
                   color: candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
                 ),
@@ -322,7 +322,9 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   void _startGame() {
     if (!_isValidPosition()) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('局面无效，请检查：\n1. 双方各有一个王\n2. 兵不能在第一行或第八行')),
+        const SnackBar(
+            content: Text(
+                'Invalid position, please check:\n1. Each side has one king\n2. Pawns cannot be on the first or eighth rank')),
       );
       return;
     }

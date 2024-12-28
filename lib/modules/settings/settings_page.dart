@@ -42,7 +42,7 @@ class SettingsPage extends StatelessWidget {
                       onPressed: () => Navigator.pop(context),
                     ),
                     Text(
-                      '设置',
+                      'Settings',
                       style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                         fontWeight: FontWeight.bold,
                         shadows: [
@@ -65,52 +65,7 @@ class SettingsPage extends StatelessWidget {
                       const Padding(
                         padding: EdgeInsets.all(16.0),
                         child: Text(
-                          '服务器设置',
-                          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                        child: Card(
-                          child: ListTile(
-                            title: const Text('服务器地址'),
-                            subtitle: Text(appConfigManager.serverUrl),
-                            onTap: () async {
-                              final result = await showDialog<String>(
-                                context: context,
-                                builder: (context) {
-                                  final controller = TextEditingController(text: appConfigManager.serverUrl);
-                                  return AlertDialog(
-                                    title: const Text('设置服务器地址'),
-                                    content: TextField(
-                                      controller: controller,
-                                      decoration: const InputDecoration(hintText: '请输入服务器地址'),
-                                    ),
-                                    actions: [
-                                      SoundButton.text(
-                                        onPressed: () => Navigator.pop(context),
-                                        child: const Text('取消'),
-                                      ),
-                                      SoundButton.text(
-                                        onPressed: () => Navigator.pop(context, controller.text),
-                                        child: const Text('确定'),
-                                      ),
-                                    ],
-                                  );
-                                },
-                              );
-
-                              if (result != null) {
-                                appConfigManager.setServerUrl(result);
-                              }
-                            },
-                          ),
-                        ),
-                      ),
-                      const Padding(
-                        padding: EdgeInsets.all(16.0),
-                        child: Text(
-                          '主题颜色',
+                          'Color Theme',
                           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -134,7 +89,7 @@ class SettingsPage extends StatelessWidget {
                       const Padding(
                         padding: EdgeInsets.all(16.0),
                         child: Text(
-                          '棋子风格',
+                          'Piece Theme',
                           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -151,7 +106,52 @@ class SettingsPage extends StatelessWidget {
                       const Padding(
                         padding: EdgeInsets.all(16.0),
                         child: Text(
-                          '引擎设置',
+                          'Server Settings',
+                          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                        child: Card(
+                          child: ListTile(
+                            title: const Text('Server Address'),
+                            subtitle: Text(appConfigManager.serverUrl),
+                            onTap: () async {
+                              final result = await showDialog<String>(
+                                context: context,
+                                builder: (context) {
+                                  final controller = TextEditingController(text: appConfigManager.serverUrl);
+                                  return AlertDialog(
+                                    title: const Text('Set Server Address'),
+                                    content: TextField(
+                                      controller: controller,
+                                      decoration: const InputDecoration(hintText: 'Please enter the server address'),
+                                    ),
+                                    actions: [
+                                      SoundButton.text(
+                                        onPressed: () => Navigator.pop(context),
+                                        child: const Text('Cancel'),
+                                      ),
+                                      SoundButton.text(
+                                        onPressed: () => Navigator.pop(context, controller.text),
+                                        child: const Text('Confirm'),
+                                      ),
+                                    ],
+                                  );
+                                },
+                              );
+
+                              if (result != null) {
+                                appConfigManager.setServerUrl(result);
+                              }
+                            },
+                          ),
+                        ),
+                      ),
+                      const Padding(
+                        padding: EdgeInsets.all(16.0),
+                        child: Text(
+                          'Engine Settings',
                           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -161,31 +161,31 @@ class SettingsPage extends StatelessWidget {
                           child: Column(
                             children: [
                               ListTile(
-                                title: const Text('引擎等级'),
-                                subtitle: Text('当前：${appConfigManager.engineLevel}'),
+                                title: const Text('Engine Level'),
+                                subtitle: Text('Current: ${appConfigManager.engineLevel}'),
                                 onTap: () => _showEngineLevelDialog(context, appConfigManager),
                               ),
                               SwitchListTile(
-                                title: const Text('时间控制模式'),
-                                subtitle: Text(appConfigManager.useTimeControl ? '限制时间' : '限制深度'),
+                                title: const Text('Time Control Mode'),
+                                subtitle: Text(appConfigManager.useTimeControl ? 'Limit Time' : 'Limit Depth'),
                                 value: appConfigManager.useTimeControl,
                                 onChanged: (value) => appConfigManager.setUseTimeControl(value),
                               ),
                               if (appConfigManager.useTimeControl)
                                 ListTile(
-                                  title: const Text('思考时间'),
-                                  subtitle: Text('${appConfigManager.moveTime}毫秒'),
+                                  title: const Text('Thinking Time'),
+                                  subtitle: Text('${appConfigManager.moveTime}ms'),
                                   onTap: () => _showMoveTimeDialog(context, appConfigManager),
                                 )
                               else
                                 ListTile(
-                                  title: const Text('搜索深度'),
-                                  subtitle: Text('${appConfigManager.searchDepth}层'),
+                                  title: const Text('Search Depth'),
+                                  subtitle: Text('${appConfigManager.searchDepth} layers'),
                                   onTap: () => _showSearchDepthDialog(context, appConfigManager),
                                 ),
                               if (!Platform.isAndroid && !Platform.isIOS)
                                 ListTile(
-                                  title: const Text('引擎路径'),
+                                  title: const Text('Engine Path'),
                                   subtitle: Text(appConfigManager.enginePath),
                                   onTap: () async {
                                     final result = await _showEnginePathDialog(context, appConfigManager);
@@ -193,8 +193,8 @@ class SettingsPage extends StatelessWidget {
                                   },
                                 ),
                               SwitchListTile(
-                                title: const Text('显示引擎分析箭头'),
-                                subtitle: const Text('在引擎思考时显示预测着法'),
+                                title: const Text('Show Engine Analysis Arrows'),
+                                subtitle: const Text('Show predicted moves when the engine is thinking'),
                                 value: appConfigManager.showArrows,
                                 onChanged: (value) => appConfigManager.setShowArrows(value),
                               ),
@@ -206,6 +206,7 @@ class SettingsPage extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(height: 10),
             ],
           ),
         ),
@@ -218,13 +219,13 @@ class SettingsPage extends StatelessWidget {
         builder: (context) {
           final controller = TextEditingController(text: appConfigManager.enginePath);
           return AlertDialog(
-            title: const Text('设置引擎路径'),
+            title: const Text('Set Engine Path'),
             content: Row(
               children: [
                 Expanded(
                   child: TextField(
                     controller: controller,
-                    decoration: const InputDecoration(hintText: '请输入引擎路径'),
+                    decoration: const InputDecoration(hintText: 'Please enter the engine path'),
                   ),
                 ),
                 SoundButton.text(
@@ -234,18 +235,18 @@ class SettingsPage extends StatelessWidget {
                       controller.text = path.files.single.path ?? '';
                     }
                   },
-                  child: const Text('浏览'),
+                  child: const Text('Browse'),
                 ),
               ],
             ),
             actions: [
               SoundButton.text(
                 onPressed: () => Navigator.pop(context),
-                child: const Text('取消'),
+                child: const Text('Cancel'),
               ),
               SoundButton.text(
                 onPressed: () => Navigator.pop(context, controller.text),
-                child: const Text('确定'),
+                child: const Text('Confirm'),
               ),
             ],
           );
@@ -256,7 +257,7 @@ class SettingsPage extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => _EngineSliderDialog(
-        title: '设置引擎等级',
+        title: 'Set Engine Level',
         initialValue: configManager.engineLevel.toDouble(),
         min: 1,
         max: 20,
@@ -271,12 +272,12 @@ class SettingsPage extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => _EngineSliderDialog(
-        title: '设置思考时间',
+        title: 'Set Thinking Time',
         initialValue: configManager.moveTime.toDouble(),
         min: 1000,
         max: 15000,
         divisions: 14,
-        labelFormat: (value) => '${value.round()}毫秒',
+        labelFormat: (value) => '${value.round()}ms',
         onChanged: (value) => configManager.setMoveTime(value.round()),
       ),
     );
@@ -286,12 +287,12 @@ class SettingsPage extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => _EngineSliderDialog(
-        title: '设置搜索深度',
+        title: 'Set Search Depth',
         initialValue: configManager.searchDepth.toDouble(),
         min: 1,
         max: 30,
         divisions: 29,
-        labelFormat: (value) => '${value.round()}层',
+        labelFormat: (value) => '${value.round()} layers',
         onChanged: (value) => configManager.setSearchDepth(value.round()),
       ),
     );
@@ -301,7 +302,7 @@ class SettingsPage extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('选择主题颜色'),
+        title: const Text('Select Theme Color'),
         content: SizedBox(
           width: double.maxFinite,
           child: ListView.builder(
@@ -336,7 +337,7 @@ class SettingsPage extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('选择棋子风格'),
+        title: const Text('Select Piece Theme'),
         content: SizedBox(
           width: double.maxFinite,
           child: ListView.builder(
@@ -396,30 +397,28 @@ class _EngineSliderDialogState extends State<_EngineSliderDialog> {
   }
 
   @override
-  Widget build(BuildContext context) {
-    return AlertDialog(
-      title: Text(widget.title),
-      contentPadding: const EdgeInsets.fromLTRB(24, 8, 24, 0),
-      content: SizedBox(
-        height: 48,
-        child: Slider(
-          value: _value,
-          min: widget.min,
-          max: widget.max,
-          divisions: widget.divisions,
-          label: widget.labelFormat(_value),
-          onChanged: (value) {
-            setState(() => _value = value);
-            widget.onChanged(value);
-          },
+  Widget build(BuildContext context) => AlertDialog(
+        title: Text(widget.title),
+        contentPadding: const EdgeInsets.fromLTRB(24, 8, 24, 0),
+        content: SizedBox(
+          height: 48,
+          child: Slider(
+            value: _value,
+            min: widget.min,
+            max: widget.max,
+            divisions: widget.divisions,
+            label: widget.labelFormat(_value),
+            onChanged: (value) {
+              setState(() => _value = value);
+              widget.onChanged(value);
+            },
+          ),
         ),
-      ),
-      actions: [
-        SoundButton.text(
-          onPressed: () => Navigator.pop(context),
-          child: const Text('确定'),
-        ),
-      ],
-    );
-  }
+        actions: [
+          SoundButton.text(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('OK'),
+          ),
+        ],
+      );
 }

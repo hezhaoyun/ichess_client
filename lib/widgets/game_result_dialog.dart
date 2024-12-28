@@ -39,7 +39,6 @@ class GameResultDialog extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            // 这里使用 Lottie 动画，你需要准备对应的动画文件
             SizedBox(
               height: 120,
               child: Lottie.asset(
@@ -78,7 +77,7 @@ class GameResultDialog extends StatelessWidget {
               ),
               onPressed: () => Navigator.of(context).pop(),
               child: const Text(
-                '确定',
+                'OK',
                 style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
               ),
             ),

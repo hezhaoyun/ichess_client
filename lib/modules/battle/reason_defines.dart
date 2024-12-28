@@ -11,22 +11,22 @@ class Reasons {
   static const kDrawConsensus = 'CONSENSUS';
 
   static const win = {
-    kWinCheckmate: '绝杀',
-    kWinOpponentOutOfTime: '对手超时',
-    kWinOpponentResigned: '对手认输',
-    kWinOpponentLeft: '对手离开',
+    kWinCheckmate: 'Checkmated',
+    kWinOpponentOutOfTime: 'Opponent Out of Time',
+    kWinOpponentResigned: 'Opponent Resigned',
+    kWinOpponentLeft: 'Opponent Left',
   };
 
   static const lose = {
-    kLoseCheckmated: '被绝杀',
-    kLoseOutOfTime: '超时',
-    kLoseResigned: '认输',
+    kLoseCheckmated: 'Checkmated',
+    kLoseOutOfTime: 'Out of Time',
+    kLoseResigned: 'Resigned',
   };
 
   static const draw = {
-    kDrawStalemate: '僵局',
-    kDrawInsufficientMaterial: '子力不足',
-    kDrawConsensus: '议和',
+    kDrawStalemate: 'Stalemate',
+    kDrawInsufficientMaterial: 'Insufficient Material',
+    kDrawConsensus: 'Consensus',
   };
 
   static String winOf(String reason) => win[reason] ?? reason;

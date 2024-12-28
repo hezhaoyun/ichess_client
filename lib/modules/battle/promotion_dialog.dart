@@ -33,7 +33,7 @@ Future<void> showPromotionDialog(
   return showDialog(
     context: context,
     builder: (context) => AlertDialog(
-      title: const Text('升变'),
+      title: const Text('Promotion'),
       content: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: ['q', 'r', 'b', 'n']
