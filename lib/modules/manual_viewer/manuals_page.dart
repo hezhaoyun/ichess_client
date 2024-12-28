@@ -124,8 +124,8 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
                 shadows: [
                   Shadow(
                     color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                    offset: const Offset(1, 1),
-                    blurRadius: 2,
+                    offset: const Offset(2, 2),
+                    blurRadius: 4,
                   ),
                 ],
               ),

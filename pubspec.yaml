@@ -34,6 +34,17 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: 'CAMPUS'
+      fonts:
+        - asset: 'assets/fonts/CAMPUS PERSONAL USE.ttf'
+    - family: 'The Amazing Spider-Man'
+      fonts:
+        - asset: 'assets/fonts/The Amazing Spider-Man.ttf'
+    - family: 'Komigo3D-Regular'
+      fonts:
+        - asset: 'assets/fonts/Komigo3D-Regular.ttf'
   
   assets:
     - assets/icons/

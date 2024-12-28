@@ -350,8 +350,8 @@ class _ViewerPageState extends State<ViewerPage> {
               shadows: [
                 Shadow(
                   color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                  offset: const Offset(1, 1),
-                  blurRadius: 2,
+                  offset: const Offset(2, 2),
+                  blurRadius: 4,
                 ),
               ],
             ),

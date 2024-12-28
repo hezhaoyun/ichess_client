@@ -26,29 +26,31 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Consumer<ThemeManager>(
-      builder: (context, themeManager, child) => MaterialApp(
-        title: 'Chess Road',
-        theme: themeManager.getTheme(),
-        home: const HomePage(),
-        routes: {
-          Routes.onlineBattle: (context) => const OnlineBattlePage(),
-          Routes.viewer: (context) => const ManualsPage(),
-          Routes.setup: (context) => const BoardSetupPage(),
-          Routes.settings: (context) => const SettingsPage(),
-        },
-        onGenerateRoute: (settings) {
-          if (settings.name == Routes.aiBattle) {
-            final fen = settings.arguments as String?;
-            return MaterialPageRoute(builder: (context) => AIBattlePage(initialFen: fen));
-          }
-          return MaterialPageRoute(
-            builder: (context) => const HomePage(),
-          );
-        },
-        debugShowCheckedModeBanner: false,
-      ),
-    );
-  }
+  Widget build(BuildContext context) => Consumer<ThemeManager>(
+        builder: (context, themeManager, child) => MaterialApp(
+          title: 'Chess Road',
+          theme: themeManager.getTheme().copyWith(
+                textTheme: themeManager.getTheme().textTheme.apply(
+                      fontFamily: 'Komigo3D-Regular',
+                    ),
+              ),
+          home: const HomePage(),
+          routes: {
+            Routes.onlineBattle: (context) => const OnlineBattlePage(),
+            Routes.viewer: (context) => const ManualsPage(),
+            Routes.setup: (context) => const BoardSetupPage(),
+            Routes.settings: (context) => const SettingsPage(),
+          },
+          onGenerateRoute: (settings) {
+            if (settings.name == Routes.aiBattle) {
+              final fen = settings.arguments as String?;
+              return MaterialPageRoute(builder: (context) => AIBattlePage(initialFen: fen));
+            }
+            return MaterialPageRoute(
+              builder: (context) => const HomePage(),
+            );
+          },
+          debugShowCheckedModeBanner: false,
+        ),
+      );
 }

@@ -668,10 +668,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
             // Name
             Text(
               isOpponent ? 'Computer' : 'Player',
-              style: const TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.bold,
-              ),
+              style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             const SizedBox(width: 8),
             // ELO information
@@ -707,11 +704,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         ),
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
-          BoxShadow(
-            color: Colors.black.withAlpha(0x1A),
-            blurRadius: 10,
-            offset: const Offset(0, 4),
-          ),
+          BoxShadow(color: Colors.black.withAlpha(0x1A), offset: const Offset(2, 2), blurRadius: 4),
         ],
       ),
       child: Row(
@@ -827,8 +820,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
             style: buttonStyle,
             onPressed: isAnalyzing ? null : analyzePosition,
             icon: isAnalyzing
-                ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2))
-                : const Icon(Icons.lightbulb_outline),
+                ? const SizedBox(width: 12, height: 12, child: CircularProgressIndicator(strokeWidth: 2))
+                : const Icon(Icons.lightbulb_outline, size: 12),
             label: Text(isAnalyzing ? 'Analyzing...' : 'Hint'),
           ),
       ],
