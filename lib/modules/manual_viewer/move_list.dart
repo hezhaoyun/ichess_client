@@ -59,12 +59,7 @@ class MoveListState extends State<MoveList> {
     const itemHeight = 32.0;
     final rowsBeforeSelected = (index * (40.0 + MoveList._horizontalSpacing)) / 300.0;
     final approximateOffset = rowsBeforeSelected * (itemHeight + MoveList._verticalSpacing);
-
-    widget.scrollController.animateTo(
-      approximateOffset,
-      duration: const Duration(milliseconds: 300),
-      curve: Curves.easeInOut,
-    );
+    widget.scrollController.jumpTo(approximateOffset);
   }
 }
 

@@ -626,6 +626,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     // Set a threshold, e.g. 667
     final bool isCompactMode = screenHeight < 667;
 
+    final score = evaluation != null ? evaluation! * (isOpponent ? -1 : 1) : null;
+
     if (isCompactMode) {
       // Compact mode - single line display
       return Container(
@@ -672,20 +674,12 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
             ),
             const SizedBox(width: 8),
             // ELO information
-            _buildInfoChip(
-              icon: Icons.emoji_events_outlined,
+            _buildLevelChip(
               label: 'ELO: ${isOpponent ? '2000' : '1500'}',
             ),
-            if (isOpponent && evaluation != null) ...[
+            if (score != null) ...[
               const SizedBox(width: 8),
-              Text(
-                'Evaluation: ${evaluation!}',
-                style: TextStyle(
-                  color: evaluation! > 0 ? Colors.green : Colors.red,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 12,
-                ),
-              ),
+              _buildScoreChip(score),
             ],
           ],
         ),
@@ -765,10 +759,11 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                 const SizedBox(height: 4),
                 Row(
                   children: [
-                    _buildInfoChip(
-                      icon: Icons.emoji_events_outlined,
-                      label: 'ELO: ${isOpponent ? '2000' : '1500'}',
-                    ),
+                    _buildLevelChip(label: isOpponent ? '2000' : '1500'),
+                    if (score != null) ...[
+                      const SizedBox(width: 8),
+                      _buildScoreChip(score),
+                    ],
                   ],
                 ),
               ],
@@ -779,26 +774,46 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     );
   }
 
-  Widget _buildInfoChip({required IconData icon, required String label}) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-      decoration: BoxDecoration(
-        color: Colors.white.withAlpha(0xCC),
-        borderRadius: BorderRadius.circular(12),
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(icon, size: 14),
-          const SizedBox(width: 4),
-          Text(
-            label,
-            style: const TextStyle(fontSize: 12),
-          ),
-        ],
-      ),
-    );
-  }
+  Widget _buildLevelChip({required String label}) => Container(
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+        decoration: BoxDecoration(
+          color: Colors.white.withAlpha(0xCC),
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(Icons.emoji_events_outlined, size: 14),
+            const SizedBox(width: 4),
+            Text(
+              label,
+              style: const TextStyle(fontSize: 12),
+            ),
+          ],
+        ),
+      );
+
+  Widget _buildScoreChip(int score) => Container(
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+        decoration: BoxDecoration(
+          color: Colors.white.withAlpha(0xCC),
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Row(
+          children: [
+            Icon(Icons.scoreboard_outlined, size: 14),
+            const SizedBox(width: 4),
+            Text(
+              '$score',
+              style: TextStyle(
+                color: score > 0 ? Colors.green : Colors.red,
+                fontWeight: FontWeight.bold,
+                fontSize: 12,
+              ),
+            ),
+          ],
+        ),
+      );
 
   Widget _buildGameControls() {
     final buttonStyle = ElevatedButton.styleFrom(
