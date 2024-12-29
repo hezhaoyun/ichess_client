@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+import 'dart:typed_data';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
@@ -413,18 +414,6 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   Future<void> saveGame() async {
     try {
       // Choose save location
-      String? outputFile = await FilePicker.platform.saveFile(
-        dialogTitle: 'Choose save location',
-        fileName: 'chess_game_${DateTime.now().millisecondsSinceEpoch}.pgn',
-        type: FileType.custom,
-        allowedExtensions: ['pgn'],
-      );
-
-      if (outputFile == null) {
-        // User canceled saving
-        return;
-      }
-
       final now = DateTime.now();
       final dateStr = '${now.year}.${now.month.toString().padLeft(2, '0')}.${now.day.toString().padLeft(2, '0')}';
 
@@ -441,8 +430,19 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         _generateMovesText(),
       ].join('\n');
 
-      final file = File(outputFile);
-      await file.writeAsString(pgn);
+      final fileName = 'chess_game_${DateTime.now().millisecondsSinceEpoch}.pgn';
+      String? outputFile = await FilePicker.platform.saveFile(
+        dialogTitle: 'Choose save location',
+        fileName: fileName,
+        type: FileType.custom,
+        allowedExtensions: ['pgn'],
+        bytes: Uint8List.fromList(pgn.codeUnits),
+      );
+
+      if (outputFile != null && !(Platform.isIOS || Platform.isAndroid)) {
+        final file = File(outputFile);
+        await file.writeAsString(pgn);
+      }
 
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -623,8 +623,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   Widget _buildPlayerInfo({required bool isOpponent}) {
     // Get screen height
     final screenHeight = MediaQuery.of(context).size.height;
-    // Set a threshold, e.g. 700
-    final bool isCompactMode = screenHeight < 700;
+    // Set a threshold, e.g. 667
+    final bool isCompactMode = screenHeight < 667;
 
     if (isCompactMode) {
       // Compact mode - single line display

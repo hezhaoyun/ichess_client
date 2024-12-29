@@ -30,13 +30,16 @@ class MoveList extends StatefulWidget {
 class MoveListState extends State<MoveList> {
   @override
   Widget build(BuildContext context) => Card(
-        child: SingleChildScrollView(
-          controller: widget.scrollController,
-          padding: const EdgeInsets.all(16),
-          child: Wrap(
-            spacing: MoveList._horizontalSpacing,
-            runSpacing: MoveList._verticalSpacing,
-            children: _buildMoveItems(),
+        child: SizedBox(
+          width: double.infinity,
+          child: SingleChildScrollView(
+            controller: widget.scrollController,
+            padding: const EdgeInsets.all(16),
+            child: Wrap(
+              spacing: MoveList._horizontalSpacing,
+              runSpacing: MoveList._verticalSpacing,
+              children: _buildMoveItems(),
+            ),
           ),
         ),
       );

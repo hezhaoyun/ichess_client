@@ -62,7 +62,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Failed to load manuals list: $e')),
+          SnackBar(content: Text('Failed to load games list: $e')),
         );
       }
     }
@@ -94,7 +94,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
                 _buildHeader(context),
                 TabBar(
                   controller: _tabController,
-                  tabs: const [Tab(text: 'All Manuals'), Tab(text: 'My Favorites')],
+                  tabs: const [Tab(text: 'All Games'), Tab(text: 'My Favorites')],
                 ),
                 Expanded(
                   child: TabBarView(
@@ -189,7 +189,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
           child: TextField(
             controller: _searchController,
             decoration: InputDecoration(
-              hintText: 'Search manuals...',
+              hintText: 'Search games...',
               prefixIcon: const Icon(Icons.search),
               suffixIcon: searchKeyword.isNotEmpty
                   ? SoundButton.icon(

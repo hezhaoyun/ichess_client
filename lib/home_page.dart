@@ -25,45 +25,43 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final header = Padding(
       padding: const EdgeInsets.only(top: 40, left: 4),
-      child: Expanded(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                Image.asset('assets/icons/icon-a.png', width: 32, height: 32),
-                const SizedBox(width: 10),
-                Text(
-                  'Chess Road',
-                  style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                    fontWeight: FontWeight.bold,
-                    shadows: [
-                      Shadow(
-                        color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                        offset: const Offset(2, 2),
-                        blurRadius: 4,
-                      ),
-                    ],
-                  ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Image.asset('assets/icons/icon-a.png', width: 32, height: 32),
+              const SizedBox(width: 10),
+              Text(
+                'Chess Road',
+                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                  shadows: [
+                    Shadow(
+                      color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                      offset: const Offset(2, 2),
+                      blurRadius: 4,
+                    ),
+                  ],
                 ),
-                const Spacer(),
-                SoundButton.icon(
-                  icon: const Icon(Icons.settings),
-                  onPressed: () => Navigator.pushNamed(context, Routes.settings),
+              ),
+              const Spacer(),
+              SoundButton.icon(
+                icon: const Icon(Icons.settings),
+                onPressed: () => Navigator.pushNamed(context, Routes.settings),
+              ),
+            ],
+          ),
+          const SizedBox(height: 10),
+          Text(
+            'Explore the infinite possibilities of chess',
+            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                  color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
                 ),
-              ],
-            ),
-            const SizedBox(height: 10),
-            Text(
-              'Explore the infinite possibilities of chess',
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
-                  ),
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-            ),
-          ],
-        ),
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+          ),
+        ],
       ),
     );
 
