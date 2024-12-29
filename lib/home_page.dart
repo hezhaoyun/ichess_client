@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
               children: [
                 _buildCard(
                   icon: Icons.computer,
-                  label: 'AI Battle',
+                  label: 'Player vs AI',
                   onTap: () {
                     AudioService.playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.aiBattle);
@@ -84,7 +84,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 _buildCard(
                   icon: Icons.people,
-                  label: 'Online Battle',
+                  label: 'Play Online',
                   onTap: () {
                     AudioService.playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.onlineBattle);

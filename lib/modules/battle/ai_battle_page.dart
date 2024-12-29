@@ -569,7 +569,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                     ),
                     Expanded(
                       child: Text(
-                        'AI Battle',
+                        'Player vs AI',
                         style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                           fontWeight: FontWeight.bold,
                           shadows: [

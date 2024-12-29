@@ -56,7 +56,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
               onPressed: () => Navigator.pop(context),
             ),
             Text(
-              'Online Battle',
+              'Play Online',
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
                 shadows: [
@@ -95,7 +95,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
             ),
             const SizedBox(height: 24),
             Text(
-              'Start Online Battle',
+              'Start Online',
               style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: 12),

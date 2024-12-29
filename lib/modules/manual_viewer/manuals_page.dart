@@ -94,7 +94,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
                 _buildHeader(context),
                 TabBar(
                   controller: _tabController,
-                  tabs: const [Tab(text: 'All Games'), Tab(text: 'My Favorites')],
+                  tabs: const [Tab(text: 'All Games'), Tab(text: 'Favorites')],
                 ),
                 Expanded(
                   child: TabBarView(

@@ -1,5 +1,4 @@
 import 'package:chess/chess.dart' as chess_lib;
-import 'package:chess_vectors_flutter/chess_vectors_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
@@ -120,7 +119,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
             ),
             const SizedBox(width: 8),
             Text(
-              'Setup Position',
+              'Setup Board',
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
                 shadows: [
@@ -193,8 +192,12 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
     return (_currentPieceCounts[pieceKey] ?? 0) < maxCount;
   }
 
-  Widget _buildDraggablePiece(
-      {required String pieceKey, required double pieceSize, required bool canDrag, required bool isWhite}) {
+  Widget _buildDraggablePiece({
+    required String pieceKey,
+    required double pieceSize,
+    required bool canDrag,
+    required bool isWhite,
+  }) {
     final pieceWidget = _createPieceWidget(pieceKey, pieceSize);
 
     return Opacity(
@@ -217,34 +220,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   }
 
   Widget _createPieceWidget(String pieceKey, double size) {
-    switch (pieceKey) {
-      case 'K':
-        return WhiteKing(size: size);
-      case 'Q':
-        return WhiteQueen(size: size);
-      case 'R':
-        return WhiteRook(size: size);
-      case 'B':
-        return WhiteBishop(size: size);
-      case 'N':
-        return WhiteKnight(size: size);
-      case 'P':
-        return WhitePawn(size: size);
-      case 'k':
-        return BlackKing(size: size);
-      case 'q':
-        return BlackQueen(size: size);
-      case 'r':
-        return BlackRook(size: size);
-      case 'b':
-        return BlackBishop(size: size);
-      case 'n':
-        return BlackKnight(size: size);
-      case 'p':
-        return BlackPawn(size: size);
-      default:
-        throw ArgumentError('Invalid piece key: $pieceKey');
-    }
+    return pieceMap(context).get(pieceKey)(size);
   }
 
   Widget _buildTrashBin(double boardSize) => DragTarget<SquareInfo>(
@@ -252,8 +228,9 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
           width: boardSize,
           height: 40,
           decoration: BoxDecoration(
+            color: candidateData.isNotEmpty ? Colors.red.shade300 : Colors.transparent,
             border: Border.all(
-              color: candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
+              color: candidateData.isNotEmpty ? Colors.transparent : Colors.red.shade300,
               width: 2,
             ),
             borderRadius: BorderRadius.circular(8),
@@ -263,13 +240,13 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
             children: [
               Icon(
                 Icons.delete_outline,
-                color: candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
+                color: candidateData.isNotEmpty ? Colors.white : Colors.red.shade300,
               ),
               const SizedBox(width: 8),
               Text(
                 'Drag and drop here to remove a piece',
                 style: TextStyle(
-                  color: candidateData.isNotEmpty ? Colors.red : Colors.red.shade300,
+                  color: candidateData.isNotEmpty ? Colors.white : Colors.red.shade300,
                 ),
               ),
             ],
