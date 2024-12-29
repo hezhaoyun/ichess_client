@@ -141,7 +141,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
                   borderRadius: BorderRadius.circular(30),
                 ),
               ),
-              child: const Text('Exit Connection'),
+              child: const Text('Cancel'),
             ),
           ],
         ),
