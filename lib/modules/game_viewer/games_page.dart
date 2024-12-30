@@ -5,7 +5,6 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
 import '../../services/favorites_service.dart';
-import '../../widgets/sound_buttons.dart';
 import 'viewer_page.dart';
 
 class GameInfo {
@@ -112,7 +111,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
         padding: const EdgeInsets.all(16.0),
         child: Row(
           children: [
-            SoundButton.icon(
+            IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),
             ),
@@ -131,7 +130,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
               ),
             ),
             const Spacer(),
-            SoundButton.icon(
+            IconButton(
               icon: const Icon(Icons.folder_open),
               onPressed: _loadPgnFile,
             ),
@@ -192,7 +191,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
               hintText: 'Search games...',
               prefixIcon: const Icon(Icons.search),
               suffixIcon: searchKeyword.isNotEmpty
-                  ? SoundButton.icon(
+                  ? IconButton(
                       icon: const Icon(Icons.clear),
                       iconSize: 12,
                       onPressed: () {

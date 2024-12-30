@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-import '../services/audio_service.dart';
+import '../services/audios.dart';
 import 'sound_buttons.dart';
 
 enum GameResult { win, draw, lose }
@@ -14,11 +14,11 @@ class GameResultDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (result == GameResult.win) {
-      AudioService.playSound('sounds/win.mp3');
+      Audios().playSound('sounds/win.mp3');
     } else if (result == GameResult.draw) {
-      AudioService.playSound('sounds/draw.mp3');
+      Audios().playSound('sounds/draw.mp3');
     } else {
-      AudioService.playSound('sounds/lose.mp3');
+      Audios().playSound('sounds/lose.mp3');
     }
 
     return Dialog(

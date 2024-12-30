@@ -12,7 +12,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../game/config_manager.dart';
 import '../../services/ai_native.dart';
-import '../../services/audio_service.dart';
+import '../../services/audios.dart';
 import '../../widgets/chess_board_widget.dart';
 import '../../widgets/game_result_dialog.dart';
 import 'battle_mixin.dart';
@@ -270,9 +270,9 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
         if (bestMove.length > 4) {
           moveMap['promotion'] = bestMove[4];
-          AudioService.playSound('sounds/promotion.mp3');
+          Audios().playSound('sounds/promotion.mp3');
         } else {
-          AudioService.playSound('sounds/move.mp3');
+          Audios().playSound('sounds/move.mp3');
         }
 
         onMove(moveMap, byPlayer: false);
@@ -563,10 +563,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                 padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 child: Row(
                   children: [
-                    SoundButton.icon(
-                      icon: const Icon(Icons.arrow_back_ios),
-                      onPressed: () => Navigator.of(context).pop(),
-                    ),
+                    IconButton(icon: const Icon(Icons.arrow_back_ios), onPressed: () => Navigator.of(context).pop()),
                     Expanded(
                       child: Text(
                         'Player vs AI',
@@ -582,10 +579,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                         ),
                       ),
                     ),
-                    SoundButton.icon(
-                      icon: const Icon(Icons.save_outlined),
-                      onPressed: saveGame,
-                    ),
+                    IconButton(icon: const Icon(Icons.save_outlined), onPressed: saveGame),
                   ],
                 ),
               ),

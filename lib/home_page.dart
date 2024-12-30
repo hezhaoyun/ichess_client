@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-import 'services/audio_service.dart';
-import 'widgets/sound_buttons.dart';
+import 'services/audios.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -46,9 +45,12 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               const Spacer(),
-              SoundButton.icon(
+              IconButton(
                 icon: const Icon(Icons.settings),
-                onPressed: () => Navigator.pushNamed(context, Routes.settings),
+                onPressed: () {
+                  Audios().playSound('sounds/button.mp3');
+                  Navigator.pushNamed(context, Routes.settings);
+                },
               ),
             ],
           ),
@@ -78,7 +80,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.computer,
                   label: 'Player vs AI',
                   onTap: () {
-                    AudioService.playSound('sounds/button.mp3');
+                    Audios().playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.aiBattle);
                   },
                 ),
@@ -86,7 +88,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.people,
                   label: 'Play Online',
                   onTap: () {
-                    AudioService.playSound('sounds/button.mp3');
+                    Audios().playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.onlineBattle);
                   },
                 ),
@@ -94,7 +96,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.menu_book,
                   label: 'View Games',
                   onTap: () {
-                    AudioService.playSound('sounds/button.mp3');
+                    Audios().playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.viewer);
                   },
                 ),
@@ -102,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.swipe_right,
                   label: 'Setup Board',
                   onTap: () {
-                    AudioService.playSound('sounds/button.mp3');
+                    Audios().playSound('sounds/button.mp3');
                     Navigator.pushNamed(context, Routes.setup);
                   },
                 ),

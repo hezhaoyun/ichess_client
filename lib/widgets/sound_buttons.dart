@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../services/audio_service.dart';
+import '../services/audios.dart';
 
 class SoundButton {
   static TextButton text({required Widget child, VoidCallback? onPressed, ButtonStyle? style}) =>
@@ -21,5 +21,5 @@ class SoundButton {
     if (onPressed != null) onPressed();
   }
 
-  static void _playSound() => AudioService.playSound('sounds/button.mp3');
+  static void _playSound() => Audios().playSound('sounds/button.mp3');
 }

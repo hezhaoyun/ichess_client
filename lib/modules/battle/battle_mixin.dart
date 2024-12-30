@@ -2,13 +2,12 @@ import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
-import 'package:ichess/widgets/sound_buttons.dart';
 import 'package:provider/provider.dart';
 import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../game/config_manager.dart';
-import '../../services/audio_service.dart';
+import '../../services/audios.dart';
 import 'promotion_dialog.dart';
 
 enum OnlineState {
@@ -37,7 +36,7 @@ mixin BattleMixin<T extends StatefulWidget> on State<T> {
   }
 
   void onPieceTap(SquareInfo square, String piece) {
-    AudioService.playSound('sounds/click.mp3');
+    Audios().playSound('sounds/click.mp3');
 
     if (controller.hints.key == square.index.toString()) {
       controller.setHints(HintMap());
@@ -69,7 +68,7 @@ mixin BattleMixin<T extends StatefulWidget> on State<T> {
   }
 
   void onEmptyFieldTap(SquareInfo square) {
-    AudioService.playSound('sounds/fail.mp3');
+    Audios().playSound('sounds/fail.mp3');
     controller.setHints(HintMap());
   }
 
@@ -78,7 +77,7 @@ mixin BattleMixin<T extends StatefulWidget> on State<T> {
   void doMove(chess_lib.Move move) => playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
 
   void playerMoved(Map<String, String> move) {
-    AudioService.playSound('sounds/move.mp3');
+    Audios().playSound('sounds/move.mp3');
 
     bool isPromotion = chess.moves({'verbose': true}).any(
         (m) => m['from'] == move['from'] && m['to'] == move['to'] && m['flags'].contains('p'));
@@ -242,14 +241,14 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
         title: const Text('Takeback'),
         content: Text('Opponent requests a takeback, do you accept?'),
         actions: [
-          SoundButton.text(
+          TextButton(
             child: const Text('Accept'),
             onPressed: () {
               socket?.emit('takeback_response', {'accepted': true});
               Navigator.pop(context);
             },
           ),
-          SoundButton.text(
+          TextButton(
             child: const Text('Reject'),
             onPressed: () {
               socket?.emit('takeback_response', {'accepted': false});
@@ -267,7 +266,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
       builder: (context) => AlertDialog(
         title: const Text('Takeback Declined'),
         actions: [
-          SoundButton.text(
+          TextButton(
             child: const Text('OK'),
             onPressed: () => Navigator.pop(context),
           ),
@@ -295,14 +294,14 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
         title: const Text('Draw'),
         content: Text('Opponent proposes a draw, do you accept?'),
         actions: [
-          SoundButton.text(
+          TextButton(
             child: const Text('Accept'),
             onPressed: () {
               socket?.emit('draw_response', {'accepted': true});
               Navigator.pop(context);
             },
           ),
-          SoundButton.text(
+          TextButton(
             child: const Text('Reject'),
             onPressed: () {
               socket?.emit('draw_response', {'accepted': false});
@@ -320,7 +319,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
       builder: (context) => AlertDialog(
         title: const Text('Draw Declined'),
         actions: [
-          SoundButton.text(
+          TextButton(
             child: const Text('OK'),
             onPressed: () => Navigator.pop(context),
           ),
@@ -356,11 +355,11 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
         title: const Text('Confirm Draw?'),
         content: const Text('Are you sure you want to propose a draw?'),
         actions: [
-          SoundButton.text(
+          TextButton(
             onPressed: () => Navigator.pop(context),
             child: const Text('No'),
           ),
-          SoundButton.text(
+          TextButton(
             onPressed: () {
               socket?.emit('propose_draw', {});
               Navigator.pop(context);
@@ -379,11 +378,11 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
         title: const Text('Confirm Takeback?'),
         content: const Text('Are you sure you want to request a takeback?'),
         actions: [
-          SoundButton.text(
+          TextButton(
             onPressed: () => Navigator.pop(context),
             child: const Text('No'),
           ),
-          SoundButton.text(
+          TextButton(
             onPressed: () {
               socket?.emit('propose_takeback', {});
               Navigator.pop(context);
@@ -402,11 +401,11 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
         title: const Text('Confirm Resign?'),
         content: const Text('Are you sure you want to resign?'),
         actions: [
-          SoundButton.text(
+          TextButton(
             onPressed: () => Navigator.pop(context),
             child: const Text('No'),
           ),
-          SoundButton.text(
+          TextButton(
             onPressed: () {
               socket?.emit('resign', {});
               Navigator.pop(context);

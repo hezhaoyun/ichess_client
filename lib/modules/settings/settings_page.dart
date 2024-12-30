@@ -1,12 +1,12 @@
 import 'dart:io';
 
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
-import 'package:file_picker/file_picker.dart';
+
 import '../../game/config_manager.dart';
 import '../../game/theme_manager.dart';
-import '../../widgets/sound_buttons.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
@@ -37,7 +37,7 @@ class SettingsPage extends StatelessWidget {
                 padding: const EdgeInsets.all(16.0),
                 child: Row(
                   children: [
-                    SoundButton.icon(
+                    IconButton(
                       icon: const Icon(Icons.arrow_back),
                       onPressed: () => Navigator.pop(context),
                     ),
@@ -128,11 +128,11 @@ class SettingsPage extends StatelessWidget {
                                       decoration: const InputDecoration(hintText: 'Please enter the server address'),
                                     ),
                                     actions: [
-                                      SoundButton.text(
+                                      TextButton(
                                         onPressed: () => Navigator.pop(context),
                                         child: const Text('Cancel'),
                                       ),
-                                      SoundButton.text(
+                                      TextButton(
                                         onPressed: () => Navigator.pop(context, controller.text),
                                         child: const Text('Confirm'),
                                       ),
@@ -228,7 +228,7 @@ class SettingsPage extends StatelessWidget {
                     decoration: const InputDecoration(hintText: 'Please enter the engine path'),
                   ),
                 ),
-                SoundButton.text(
+                TextButton(
                   onPressed: () async {
                     final path = await FilePicker.platform.pickFiles();
                     if (path != null) {
@@ -240,11 +240,11 @@ class SettingsPage extends StatelessWidget {
               ],
             ),
             actions: [
-              SoundButton.text(
+              TextButton(
                 onPressed: () => Navigator.pop(context),
                 child: const Text('Cancel'),
               ),
-              SoundButton.text(
+              TextButton(
                 onPressed: () => Navigator.pop(context, controller.text),
                 child: const Text('Confirm'),
               ),
@@ -415,7 +415,7 @@ class _EngineSliderDialogState extends State<_EngineSliderDialog> {
           ),
         ),
         actions: [
-          SoundButton.text(
+          TextButton(
             onPressed: () => Navigator.pop(context),
             child: const Text('OK'),
           ),

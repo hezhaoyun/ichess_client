@@ -338,7 +338,7 @@ class _ViewerPageState extends State<ViewerPage> {
 
   Widget _buildHeader() => Row(
         children: [
-          SoundButton.icon(
+          IconButton(
             icon: const Icon(Icons.arrow_back),
             onPressed: () => Navigator.of(context).pop(),
           ),
@@ -357,7 +357,7 @@ class _ViewerPageState extends State<ViewerPage> {
             ),
           ),
           const Spacer(),
-          SoundButton.icon(
+          IconButton(
             icon: Icon(isFavorite ? Icons.star : Icons.star_border),
             onPressed: _toggleFavorite,
           ),
@@ -375,9 +375,7 @@ class _ViewerPageState extends State<ViewerPage> {
           children: [
             const SizedBox(width: 8),
             SoundButton.text(
-              style: TextButton.styleFrom(
-                padding: const EdgeInsets.only(left: 8),
-              ),
+              style: TextButton.styleFrom(padding: const EdgeInsets.only(left: 8)),
               onPressed: () => _showGamesList(),
               child: Row(
                 children: [

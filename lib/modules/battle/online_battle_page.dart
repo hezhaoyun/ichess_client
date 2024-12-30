@@ -51,7 +51,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
         padding: const EdgeInsets.all(16.0),
         child: Row(
           children: [
-            SoundButton.icon(
+            IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.pop(context),
             ),

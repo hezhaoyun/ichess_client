@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../../services/audio_service.dart';
+import '../../services/audios.dart';
 import '../../widgets/chess_board_widget.dart';
 
 Future<void> showPromotionDialog(
@@ -48,7 +48,7 @@ Future<void> showPromotionDialog(
               (type) => promotionOption(type, () {
                 Navigator.pop(context);
                 onPromotionSelected(type);
-                AudioService.playSound('sounds/promotion.mp3');
+                Audios().playSound('sounds/promotion.mp3');
               }),
             )
             .toList(),
