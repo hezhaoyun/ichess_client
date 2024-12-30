@@ -393,11 +393,13 @@ class _ViewerPageState extends State<ViewerPage> {
             SoundButton.icon(
               icon: const Icon(Icons.navigate_before),
               onPressed: currentIndex >= 0 ? () => _goToMove(currentIndex - 1) : null,
+              sound: 'sounds/move.mp3',
               tooltip: 'Previous',
             ),
             SoundButton.icon(
               icon: const Icon(Icons.navigate_next),
               onPressed: currentIndex < moves.length - 1 ? () => _goToMove(currentIndex + 1) : null,
+              sound: 'sounds/move.mp3',
               tooltip: 'Next',
             ),
             SoundButton.icon(
