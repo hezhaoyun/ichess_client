@@ -1,7 +1,7 @@
 import 'package:dartchess/dartchess.dart';
 import 'package:flutter/material.dart';
 
-import 'pgn_manual.dart';
+import 'pgn_game_ex.dart';
 
 /// Component to display the list of moves in a chess game
 class MoveList extends StatefulWidget {

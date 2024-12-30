@@ -14,13 +14,13 @@ import '../../widgets/chess_board_widget.dart';
 import '../../widgets/sound_buttons.dart';
 import 'analysis_chart.dart';
 import 'move_list.dart';
-import 'pgn_manual.dart';
+import 'pgn_game_ex.dart';
 
 class ViewerPage extends StatefulWidget {
-  final String manualFile;
+  final String gameFile;
   final String? pgnContent;
 
-  const ViewerPage({super.key, required this.manualFile, this.pgnContent});
+  const ViewerPage({super.key, required this.gameFile, this.pgnContent});
 
   @override
   State<ViewerPage> createState() => _ViewerPageState();
@@ -34,11 +34,11 @@ class _ViewerPageState extends State<ViewerPage> {
   List<PgnGame> games = [];
   PgnGame? get game => games.isNotEmpty ? games[gameIndex] : null;
 
-  // Current manual
-  PgnManual? manual;
+  // Current game
+  PgnGameEx? gameEx;
   String? get comment {
-    if (manual?.tree?.atStartPoint == true) return manual?.comment();
-    return manual?.tree?.moveComment;
+    if (gameEx?.tree?.atStartPoint == true) return gameEx?.comment();
+    return gameEx?.tree?.moveComment;
   }
 
   List<String> fenHistory = [];
@@ -67,7 +67,7 @@ class _ViewerPageState extends State<ViewerPage> {
 
     _initStockfish();
 
-    _loadPgnAsset(widget.manualFile);
+    _loadPgnAsset(widget.gameFile);
     _checkFavoriteStatus();
   }
 
@@ -89,7 +89,7 @@ class _ViewerPageState extends State<ViewerPage> {
       if (widget.pgnContent != null) {
         content = widget.pgnContent!;
       } else {
-        content = await DefaultAssetBundle.of(context).loadString('assets/manuals/$filename');
+        content = await DefaultAssetBundle.of(context).loadString('assets/games/$filename');
       }
 
       games = PgnGame.parseMultiGamePgn(content);
@@ -121,7 +121,7 @@ class _ViewerPageState extends State<ViewerPage> {
     }
 
     gameIndex = index;
-    manual = PgnManual(game!);
+    gameEx = PgnGameEx(game!);
     fenHistory = [game!.headers['FEN'] ?? chess_lib.Chess.DEFAULT_POSITION];
 
     setState(() {
@@ -280,7 +280,7 @@ class _ViewerPageState extends State<ViewerPage> {
   }
 
   void _goToMove(int index, {bool scrollToSelectedMove = true}) {
-    var (moves, currentIndex) = manual?.tree?.moveList() ?? (<TreeNode>[], -1);
+    var (moves, currentIndex) = gameEx?.tree?.moveList() ?? (<TreeNode>[], -1);
     if (index < -1 || index >= moves.length) return;
 
     chess_lib.Chess? chess;
@@ -289,7 +289,7 @@ class _ViewerPageState extends State<ViewerPage> {
     if (index <= currentIndex) {
       // Backward
       while (currentIndex > index) {
-        manual?.tree?.prevMove();
+        gameEx?.tree?.prevMove();
         currentIndex--;
       }
 
@@ -303,7 +303,7 @@ class _ViewerPageState extends State<ViewerPage> {
       while (currentIndex < index) {
         currentIndex++;
 
-        manual?.tree?.selectBranch(0);
+        gameEx?.tree?.selectBranch(0);
         if (!chess.move(moves[currentIndex].pgnNode!.data.san)) break;
 
         currentFen = chess.fen;
@@ -316,7 +316,7 @@ class _ViewerPageState extends State<ViewerPage> {
       _updateLastMove(last.fromAlgebraic, last.toAlgebraic);
     }
 
-    setState(() => showBranches = (manual?.tree?.siblingCount ?? 1) > 1);
+    setState(() => showBranches = (gameEx?.tree?.siblingCount ?? 1) > 1);
 
     chessboardController.setFen(currentFen ?? fenHistory.last);
     if (scrollToSelectedMove) selectedMoveKey.currentState?.scrollToSelectedMove(index);
@@ -365,7 +365,7 @@ class _ViewerPageState extends State<ViewerPage> {
       );
 
   Widget _buildControlPanel() {
-    final (moves, currentIndex) = manual?.tree?.moveList() ?? (<TreeNode>[], -1);
+    final (moves, currentIndex) = gameEx?.tree?.moveList() ?? (<TreeNode>[], -1);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -435,7 +435,7 @@ class _ViewerPageState extends State<ViewerPage> {
       );
 
   Widget _buildBottomSection() {
-    final (moves, currentIndex) = manual?.tree?.moveList() ?? (<TreeNode>[], -1);
+    final (moves, currentIndex) = gameEx?.tree?.moveList() ?? (<TreeNode>[], -1);
 
     if (showAnalysisCard) {
       return SizedBox(
@@ -452,7 +452,7 @@ class _ViewerPageState extends State<ViewerPage> {
       void selectBranch(int index) {
         setState(() => showBranches = false);
 
-        final node = manual?.tree?.switchSibling(index);
+        final node = gameEx?.tree?.switchSibling(index);
         if (node == null) return;
         fenHistory.removeLast();
         final chess = chess_lib.Chess.fromFEN(fenHistory.last);
@@ -481,9 +481,9 @@ class _ViewerPageState extends State<ViewerPage> {
               const SizedBox(height: 8),
               ListView.builder(
                 shrinkWrap: true,
-                itemCount: currentIndex > -1 ? manual?.tree?.siblingCount : 0,
+                itemCount: currentIndex > -1 ? gameEx?.tree?.siblingCount : 0,
                 itemBuilder: (context, i) => ListTile(
-                  title: Center(child: Text(manual?.tree?.getSibling(i)?.pgnNode!.data.san ?? '')),
+                  title: Center(child: Text(gameEx?.tree?.getSibling(i)?.pgnNode!.data.san ?? '')),
                   onTap: () => selectBranch(i),
                 ),
               ),

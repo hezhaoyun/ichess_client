@@ -8,30 +8,30 @@ import '../../services/favorites_service.dart';
 import '../../widgets/sound_buttons.dart';
 import 'viewer_page.dart';
 
-class ManualInfo {
+class GameInfo {
   final String file;
   final int count;
   final String event;
 
-  ManualInfo({required this.file, required this.count, required this.event});
+  GameInfo({required this.file, required this.count, required this.event});
 
-  factory ManualInfo.fromJson(Map<String, dynamic> json) => ManualInfo(
+  factory GameInfo.fromJson(Map<String, dynamic> json) => GameInfo(
         file: json['file'] as String,
         count: json['count'] as int,
         event: json['event'] as String,
       );
 }
 
-class ManualsPage extends StatefulWidget {
-  const ManualsPage({super.key});
+class GamesPage extends StatefulWidget {
+  const GamesPage({super.key});
 
   @override
-  State<ManualsPage> createState() => _ManualsPageState();
+  State<GamesPage> createState() => _GamesPageState();
 }
 
-class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStateMixin {
+class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMixin {
   late TabController _tabController;
-  List<ManualInfo>? manuals;
+  List<GameInfo>? games;
   List<FavoriteGame>? favorites;
   String searchKeyword = '';
   bool isLoading = false;
@@ -41,7 +41,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
   void initState() {
     super.initState();
     _tabController = TabController(length: 2, vsync: this);
-    _loadManualsList();
+    _loadGamesList();
     _loadFavorites();
   }
 
@@ -51,13 +51,13 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
     super.dispose();
   }
 
-  Future<void> _loadManualsList() async {
+  Future<void> _loadGamesList() async {
     try {
-      final String jsonString = await DefaultAssetBundle.of(context).loadString('assets/manuals.json');
+      final String jsonString = await DefaultAssetBundle.of(context).loadString('assets/games.json');
       final List<dynamic> jsonList = json.decode(jsonString) as List<dynamic>;
       setState(() {
-        manuals = jsonList.map((json) => ManualInfo.fromJson(json as Map<String, dynamic>)).toList();
-        manuals!.sort((a, b) => a.event.compareTo(b.event));
+        games = jsonList.map((json) => GameInfo.fromJson(json as Map<String, dynamic>)).toList();
+        games!.sort((a, b) => a.event.compareTo(b.event));
       });
     } catch (e) {
       if (mounted) {
@@ -99,7 +99,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
                 Expanded(
                   child: TabBarView(
                     controller: _tabController,
-                    children: [_buildManualList(), _buildFavoritesList()],
+                    children: [_buildGameList(), _buildFavoritesList()],
                   ),
                 ),
               ],
@@ -160,7 +160,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
         if (mounted) {
           Navigator.of(context).push(
             MaterialPageRoute(
-              builder: (context) => ViewerPage(manualFile: file.name, pgnContent: content),
+              builder: (context) => ViewerPage(gameFile: file.name, pgnContent: content),
             ),
           );
         }
@@ -174,13 +174,13 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
     }
   }
 
-  Widget _buildManualList() {
-    if (manuals == null) {
+  Widget _buildGameList() {
+    if (games == null) {
       return const Center(child: CircularProgressIndicator());
     }
 
-    final filteredManuals =
-        manuals!.where((manual) => manual.event.toLowerCase().contains(searchKeyword.toLowerCase())).toList();
+    final filteredGames =
+        games!.where((game) => game.event.toLowerCase().contains(searchKeyword.toLowerCase())).toList();
 
     return Column(
       children: [
@@ -212,17 +212,17 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
         Expanded(
           child: ListView.builder(
             padding: const EdgeInsets.all(16),
-            itemCount: filteredManuals.length,
+            itemCount: filteredGames.length,
             itemBuilder: (context, index) {
-              final manual = filteredManuals[index];
+              final game = filteredGames[index];
               return Card(
                 child: ListTile(
                   title: Text(
-                    manual.event,
+                    game.event,
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   subtitle: Text(
-                    '${manual.count} games',
+                    '${game.count} games',
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           color: Theme.of(context).textTheme.bodySmall?.color,
                         ),
@@ -230,7 +230,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
                   trailing: const Icon(Icons.chevron_right),
                   onTap: () => Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => ViewerPage(manualFile: manual.file),
+                      builder: (context) => ViewerPage(gameFile: game.file),
                     ),
                   ),
                 ),
@@ -248,7 +248,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
     }
 
     if (favorites!.isEmpty) {
-      return const Center(child: Text('No favorite manuals available'));
+      return const Center(child: Text('No favorite games available'));
     }
 
     final filteredFavorites =
@@ -266,7 +266,7 @@ class _ManualsPageState extends State<ManualsPage> with SingleTickerProviderStat
             trailing: const Icon(Icons.chevron_right),
             onTap: () => Navigator.of(context).push(
               MaterialPageRoute(
-                builder: (context) => ViewerPage(manualFile: 'favorite_${index + 1}.pgn', pgnContent: favorite.pgn),
+                builder: (context) => ViewerPage(gameFile: 'favorite_${index + 1}.pgn', pgnContent: favorite.pgn),
               ),
             ),
           ),

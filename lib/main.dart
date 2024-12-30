@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ichess/modules/manual_viewer/manuals_page.dart';
+import 'package:ichess/modules/game_viewer/games_page.dart';
 import 'package:provider/provider.dart';
 
 import 'game/config_manager.dart';
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
           home: const HomePage(),
           routes: {
             Routes.onlineBattle: (context) => const OnlineBattlePage(),
-            Routes.viewer: (context) => const ManualsPage(),
+            Routes.viewer: (context) => const GamesPage(),
             Routes.setup: (context) => const BoardSetupPage(),
             Routes.settings: (context) => const SettingsPage(),
           },

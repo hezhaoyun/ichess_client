@@ -21,10 +21,10 @@ class TreeNode {
   static TreeNode empty() => TreeNode(null);
 }
 
-class ManualTree {
+class GameTree {
   late TreeNode _root, _current;
 
-  ManualTree(TreeNode node) {
+  GameTree(TreeNode node) {
     _current = _root = node;
   }
 
@@ -91,18 +91,18 @@ class ManualTree {
   String? get moveComment => _current.pgnNode?.data.comments?.join('\n');
 }
 
-class PgnManual {
+class PgnGameEx {
   final PgnGame game;
-  PgnManual(this.game);
+  PgnGameEx(this.game);
 
-  ManualTree? _tree;
+  GameTree? _tree;
 
-  ManualTree? get tree {
+  GameTree? get tree {
     if (_tree != null) return _tree;
 
     final root = TreeNode.empty();
     _visitNode(game.moves, root);
-    _tree = ManualTree(root);
+    _tree = GameTree(root);
 
     return _tree;
   }
