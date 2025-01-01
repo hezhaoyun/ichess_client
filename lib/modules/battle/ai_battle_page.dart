@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
+import 'dart:math';
 import 'dart:typed_data';
-import 'dart:math' as math;
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
@@ -572,8 +572,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         MediaQuery.of(context).padding.bottom - // 底部安全区域
         20; // 间距
 
-    final boardSize = math.min(w - 350 - 10, availableHeight) - 20;
-    final controlWidth = math.min(w - boardSize, 500.0);
+    final boardSize = min(w - 350 - 10, availableHeight) - 20;
+    final controlWidth = min(w - boardSize, 500.0);
 
     return Column(
       children: [
@@ -618,7 +618,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         290; // 预留给上下 player info/按钮和控件间距: 10 + 90 + 10 + 10 + 90 + 10 + 60 + 10
 
     // 计算合适的棋盘大小
-    final boardSize = math.min(w, availableHeight) - 20;
+    final boardSize = min(w, availableHeight) - 20;
 
     return Column(
       children: [
