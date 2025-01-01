@@ -336,44 +336,68 @@ class _ViewerPageState extends State<ViewerPage> {
     });
   }
 
-  Widget _buildHeader() => Row(
-        children: [
-          IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () => Navigator.of(context).pop(),
-          ),
-          const SizedBox(width: 8),
-          Text(
-            'Chess Viewer',
-            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-              fontWeight: FontWeight.bold,
-              shadows: [
-                Shadow(
-                  color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                  offset: const Offset(2, 2),
-                  blurRadius: 4,
+  Widget _buildHeader() => SizedBox(
+        height: kToolbarHeight,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          child: Row(
+            children: [
+              IconButton(
+                icon: const Icon(Icons.arrow_back),
+                onPressed: () => Navigator.of(context).pop(),
+              ),
+              const SizedBox(width: 10),
+              Text(
+                'Chess Viewer',
+                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                  fontWeight: FontWeight.bold,
+                  shadows: [
+                    Shadow(
+                      color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                      offset: const Offset(2, 2),
+                      blurRadius: 4,
+                    ),
+                  ],
                 ),
-              ],
-            ),
+              ),
+              const Spacer(),
+              IconButton(
+                icon: Icon(isFavorite ? Icons.star : Icons.star_border),
+                onPressed: _toggleFavorite,
+              ),
+            ],
           ),
-          const Spacer(),
-          IconButton(
-            icon: Icon(isFavorite ? Icons.star : Icons.star_border),
-            onPressed: _toggleFavorite,
-          ),
-        ],
+        ),
       );
 
-  Widget _buildControlPanel() {
+  Widget _buildChessBoardSection(double boardSize) => Container(
+        decoration: BoxDecoration(
+          color: Colors.white.withAlpha(0xCC),
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: ChessBoardWidget(
+          size: boardSize,
+          orientation: BoardOrientation.white,
+          controller: chessboardController,
+          getLastMove: () => lastMove,
+          interactiveEnable: false,
+        ),
+      );
+
+  Widget _buildControlPanel(double w) {
     final (moves, currentIndex) = gameEx?.tree?.moveList() ?? (<TreeNode>[], -1);
 
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0),
-      child: Card(
+      padding: const EdgeInsets.symmetric(horizontal: 10),
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white.withAlpha(0xCC),
+          borderRadius: BorderRadius.circular(10),
+        ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const SizedBox(width: 8),
+            const SizedBox(width: 10),
             SoundButton.text(
               style: TextButton.styleFrom(padding: const EdgeInsets.only(left: 8)),
               onPressed: () => _showGamesList(),
@@ -385,11 +409,12 @@ class _ViewerPageState extends State<ViewerPage> {
               ),
             ),
             const Expanded(child: SizedBox()),
-            SoundButton.icon(
-              icon: const Icon(Icons.first_page),
-              onPressed: currentIndex >= 0 ? () => _goToMove(-1) : null,
-              tooltip: 'Start',
-            ),
+            if (w > 320)
+              SoundButton.icon(
+                icon: const Icon(Icons.first_page),
+                onPressed: currentIndex >= 0 ? () => _goToMove(-1) : null,
+                tooltip: 'Start',
+              ),
             SoundButton.icon(
               icon: const Icon(Icons.navigate_before),
               onPressed: currentIndex >= 0 ? () => _goToMove(currentIndex - 1) : null,
@@ -402,11 +427,12 @@ class _ViewerPageState extends State<ViewerPage> {
               sound: 'sounds/move.mp3',
               tooltip: 'Next',
             ),
-            SoundButton.icon(
-              icon: const Icon(Icons.last_page),
-              onPressed: currentIndex < moves.length - 1 ? () => _goToMove(moves.length - 1) : null,
-              tooltip: 'End',
-            ),
+            if (w > 320)
+              SoundButton.icon(
+                icon: const Icon(Icons.last_page),
+                onPressed: currentIndex < moves.length - 1 ? () => _goToMove(moves.length - 1) : null,
+                tooltip: 'End',
+              ),
             const Expanded(child: SizedBox()),
             SoundButton.icon(
               icon: Icon(showAnalysisCard ? Icons.analytics : Icons.analytics_outlined),
@@ -421,30 +447,14 @@ class _ViewerPageState extends State<ViewerPage> {
     );
   }
 
-  Widget _buildChessBoardSection() => Column(
-        children: [
-          ChessBoardWidget(
-            size: MediaQuery.of(context).size.shortestSide - 52,
-            orientation: BoardOrientation.white,
-            controller: chessboardController,
-            getLastMove: () => lastMove,
-            interactiveEnable: false,
-          ),
-          _buildControlPanel(),
-        ],
-      );
-
-  Widget _buildBottomSection() {
+  Widget _buildManualOrAnalysisSection() {
     final (moves, currentIndex) = gameEx?.tree?.moveList() ?? (<TreeNode>[], -1);
 
     if (showAnalysisCard) {
-      return SizedBox(
-        height: 200,
-        child: AnalysisChart(
-          evaluations: evaluations,
-          currentMoveIndex: currentIndex + 1,
-          onPositionChanged: _goToMove,
-        ),
+      return AnalysisChart(
+        evaluations: evaluations,
+        currentMoveIndex: currentIndex + 1,
+        onPositionChanged: _goToMove,
       );
     }
 
@@ -471,14 +481,17 @@ class _ViewerPageState extends State<ViewerPage> {
       }
 
       return Padding(
-        padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
-        child: Card(
-          color: Theme.of(context).colorScheme.surfaceContainerHigh,
+        padding: const EdgeInsets.symmetric(horizontal: 10),
+        child: Container(
+          decoration: BoxDecoration(
+            color: Colors.yellow.withAlpha(0xCC),
+            borderRadius: BorderRadius.circular(10),
+          ),
           child: Column(
             children: [
-              const SizedBox(height: 8),
+              const SizedBox(height: 10),
               Text('Branch Selection', style: Theme.of(context).textTheme.titleMedium),
-              const SizedBox(height: 8),
+              const SizedBox(height: 10),
               ListView.builder(
                 shrinkWrap: true,
                 itemCount: currentIndex > -1 ? gameEx?.tree?.siblingCount : 0,
@@ -494,7 +507,7 @@ class _ViewerPageState extends State<ViewerPage> {
     }
 
     return Padding(
-      padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
+      padding: const EdgeInsets.symmetric(horizontal: 10),
       child: MoveList(
         moves: moves.map<TreeNode>((e) => e).toList(),
         currentMoveIndex: currentIndex,
@@ -519,34 +532,92 @@ class _ViewerPageState extends State<ViewerPage> {
             ),
           ),
           child: SafeArea(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Padding(padding: const EdgeInsets.all(16.0), child: _buildHeader()),
-                Expanded(child: isLoading ? const Center(child: CircularProgressIndicator()) : _buildContent()),
-              ],
-            ),
+            child: LayoutBuilder(builder: (context, constraints) {
+              final w = constraints.maxWidth, h = constraints.maxHeight;
+
+              return Column(
+                children: [
+                  _buildHeader(),
+                  Expanded(child: _buildContent(w, h)),
+                ],
+              );
+            }),
           ),
         ),
       );
 
-  Widget _buildContent() {
-    if (games.isEmpty) {
-      return const Center(child: CircularProgressIndicator());
-    }
+  Widget _buildContent(double w, double h) {
+    if (isLoading || games.isEmpty) return const Center(child: CircularProgressIndicator());
+    return w > h ? _buildLandscapeLayout(w, h) : _buildPortraitLayout(w, h);
+  }
 
-    return OrientationBuilder(
-      builder: (context, orientation) => Column(
-        children: [
-          _buildChessBoardSection(),
-          Expanded(child: _buildBottomSection()),
-          if (comment != null && comment!.isNotEmpty)
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text('Comments: $comment', style: TextStyle(color: Colors.grey)),
-            ),
-        ],
-      ),
+  Widget _buildLandscapeLayout(double w, double h) {
+    // 获取屏幕高度并预留空间给其他组件
+    final availableHeight = h -
+        kToolbarHeight - // 顶部工具栏
+        MediaQuery.of(context).padding.top - // 状态栏
+        MediaQuery.of(context).padding.bottom - // 底部安全区域
+        20; // 间距
+
+    final boardSize = min(w - 350 - 10, availableHeight) - 20;
+    final controlWidth = w - boardSize;
+
+    final showComment = comment != null && comment!.isNotEmpty;
+    return Row(
+      children: [
+        const SizedBox(width: 10),
+        _buildChessBoardSection(boardSize),
+        Expanded(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              SizedBox(
+                width: controlWidth,
+                height: boardSize - 70 - (showComment ? 100 : 0),
+                child: _buildManualOrAnalysisSection(),
+              ),
+              if (showComment)
+                SizedBox(
+                  height: 100,
+                  child: Padding(
+                    padding: const EdgeInsets.all(10),
+                    child: Text('Comments: $comment', style: TextStyle(color: Colors.grey)),
+                  ),
+                ),
+              const SizedBox(height: 10),
+              SizedBox(width: controlWidth, height: 60, child: _buildControlPanel(controlWidth)),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildPortraitLayout(double w, double h) {
+    // 获取屏幕高度并预留空间给其他组件
+    final availableHeight = h -
+        kToolbarHeight - // 顶部工具栏
+        MediaQuery.of(context).padding.top - // 状态栏
+        MediaQuery.of(context).padding.bottom - // 底部安全区域
+        280; // 预留给上下 player info/按钮和控件间距: 10 + 60 + 10 + 200
+
+    // 计算合适的棋盘大小
+    final boardSize = min(w, availableHeight) - 20;
+
+    return Column(
+      children: [
+        _buildChessBoardSection(boardSize),
+        const SizedBox(height: 10),
+        SizedBox(width: boardSize + 20, height: 60, child: _buildControlPanel(boardSize)),
+        const SizedBox(height: 10),
+        Expanded(child: SizedBox(width: boardSize + 20, child: _buildManualOrAnalysisSection())),
+        if (comment != null && comment!.isNotEmpty)
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text('Comments: $comment', style: TextStyle(color: Colors.grey)),
+          ),
+        const SizedBox(height: 10),
+      ],
     );
   }
 

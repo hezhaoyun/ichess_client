@@ -29,9 +29,12 @@ class MoveList extends StatefulWidget {
 /// State class for the MoveList component
 class MoveListState extends State<MoveList> {
   @override
-  Widget build(BuildContext context) => Card(
+  Widget build(BuildContext context) => Container(
+        decoration: BoxDecoration(
+          color: Colors.white.withAlpha(0xCC),
+          borderRadius: BorderRadius.circular(10),
+        ),
         child: SizedBox(
-          width: double.infinity,
           child: SingleChildScrollView(
             controller: widget.scrollController,
             padding: const EdgeInsets.all(16),
