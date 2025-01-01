@@ -25,7 +25,6 @@ class _HomePageState extends State<HomePage> {
     // 获取屏幕方向
     final isLandscape = MediaQuery.of(context).orientation == Orientation.landscape;
 
-    // 响应式布局的网格列数
     final gridCrossAxisCount = isLandscape ? 4 : 2;
 
     final header = Padding(
@@ -92,33 +91,22 @@ class _HomePageState extends State<HomePage> {
                 _buildAnimatedCard(
                   icon: Icons.computer,
                   label: 'Player vs AI',
-                  onTap: () {
-                    _animateAndNavigate(Routes.aiBattle);
-                  },
+                  onTap: () => _animateAndNavigate(Routes.aiBattle),
                 ),
                 _buildAnimatedCard(
                   icon: Icons.people,
                   label: 'Play Online',
-                  onTap: () {
-                    Audios().playSound('sounds/button.mp3');
-                    Navigator.pushNamed(context, Routes.onlineBattle);
-                  },
+                  onTap: () => _animateAndNavigate(Routes.onlineBattle),
                 ),
                 _buildAnimatedCard(
                   icon: Icons.menu_book,
                   label: 'View Games',
-                  onTap: () {
-                    Audios().playSound('sounds/button.mp3');
-                    Navigator.pushNamed(context, Routes.viewer);
-                  },
+                  onTap: () => _animateAndNavigate(Routes.viewer),
                 ),
                 _buildAnimatedCard(
                   icon: Icons.swipe_right,
                   label: 'Setup Board',
-                  onTap: () {
-                    Audios().playSound('sounds/button.mp3');
-                    Navigator.pushNamed(context, Routes.setup);
-                  },
+                  onTap: () => _animateAndNavigate(Routes.setup),
                 ),
               ],
             ),
@@ -177,47 +165,42 @@ class _HomePageState extends State<HomePage> {
   }
 
   // 新增带动画效果的卡片构建方法
-  Widget _buildAnimatedCard({
-    required IconData icon,
-    required String label,
-    required VoidCallback onTap,
-  }) {
-    return AnimatedBuilder(
-      animation: ModalRoute.of(context)?.animation ?? const AlwaysStoppedAnimation(1),
-      builder: (context, child) => Hero(
-        tag: label,
-        child: Card(
-          elevation: 4,
-          shadowColor: Theme.of(context).colorScheme.primary.withAlpha(0x40),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
-            side: BorderSide(
-              color: Theme.of(context).colorScheme.primary.withAlpha(0x1A),
-              width: 1,
-            ),
-          ),
-          child: Container(
-            decoration: BoxDecoration(
+  Widget _buildAnimatedCard({required IconData icon, required String label, required VoidCallback onTap}) =>
+      AnimatedBuilder(
+        animation: ModalRoute.of(context)?.animation ?? const AlwaysStoppedAnimation(1),
+        builder: (context, child) => Hero(
+          tag: label,
+          child: Card(
+            elevation: 4,
+            shadowColor: Theme.of(context).colorScheme.primary.withAlpha(0x40),
+            shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(20),
-              gradient: LinearGradient(
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-                colors: [
-                  Theme.of(context).cardColor,
-                  Theme.of(context).cardColor.withAlpha(0xCC),
-                ],
+              side: BorderSide(
+                color: Theme.of(context).colorScheme.primary.withAlpha(0x1A),
+                width: 1,
               ),
             ),
-            child: InkWell(
-              onTap: onTap,
-              borderRadius: BorderRadius.circular(20),
-              child: _buildCardContent(icon, label),
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [
+                    Theme.of(context).cardColor,
+                    Theme.of(context).cardColor.withAlpha(0xCC),
+                  ],
+                ),
+              ),
+              child: InkWell(
+                onTap: onTap,
+                borderRadius: BorderRadius.circular(20),
+                child: _buildCardContent(icon, label),
+              ),
             ),
           ),
         ),
-      ),
-    );
-  }
+      );
 
   // 新增卡片内容构建方法
   Widget _buildCardContent(IconData icon, String label) {
@@ -258,9 +241,6 @@ class _HomePageState extends State<HomePage> {
   // 新增页面跳转动画方法
   void _animateAndNavigate(String route) {
     Audios().playSound('sounds/button.mp3');
-    Navigator.of(context).pushNamed(
-      route,
-      arguments: {'fromHome': true},
-    );
+    Navigator.of(context).pushNamed(route, arguments: {'fromHome': true});
   }
 }
