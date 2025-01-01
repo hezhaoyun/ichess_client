@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
+import 'dart:math' as math;
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
@@ -541,148 +542,158 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   }
 
   @override
-  Widget build(BuildContext context) {
-    final double size = MediaQuery.of(context).size.shortestSide - 48;
-
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Theme.of(context).colorScheme.primary.withAlpha(0x1A),
-              Theme.of(context).colorScheme.surface,
-            ],
+  Widget build(BuildContext context) => Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [
+                Theme.of(context).colorScheme.primary.withAlpha(0x1A),
+                Theme.of(context).colorScheme.surface,
+              ],
+            ),
+          ),
+          child: SafeArea(
+            child: LayoutBuilder(builder: (context, constraints) {
+              final w = constraints.maxWidth, h = constraints.maxHeight;
+              final isLandscape = w > h;
+              return isLandscape ? _buildLandscapeLayout(w, h) : _buildPortraitLayout(w, h);
+            }),
           ),
         ),
-        child: SafeArea(
-          child: Column(
+      );
+
+  Widget _buildLandscapeLayout(double w, double h) {
+    // 获取屏幕高度并预留空间给其他组件
+    final availableHeight = h -
+        kToolbarHeight - // 顶部工具栏
+        MediaQuery.of(context).padding.top - // 状态栏
+        MediaQuery.of(context).padding.bottom - // 底部安全区域
+        20; // 间距
+
+    final boardSize = math.min(w - 350 - 10, availableHeight) - 20;
+    final controlWidth = math.min(w - boardSize, 500.0);
+
+    return Column(
+      children: [
+        _buildHeader(),
+        const Spacer(),
+        SizedBox(
+          height: boardSize,
+          child: Row(
             children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                child: Row(
-                  children: [
-                    IconButton(icon: const Icon(Icons.arrow_back_ios), onPressed: () => Navigator.of(context).pop()),
-                    Expanded(
-                      child: Text(
-                        'Player vs AI',
-                        style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                          fontWeight: FontWeight.bold,
-                          shadows: [
-                            Shadow(
-                              color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                              offset: const Offset(2, 2),
-                              blurRadius: 4,
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                    IconButton(icon: const Icon(Icons.save_outlined), onPressed: saveGame),
-                  ],
-                ),
-              ),
+              const SizedBox(width: 10),
+              _buildBoard(boardSize),
+              const SizedBox(width: 10),
               Expanded(
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    _buildPlayerInfo(isOpponent: true),
-                    const SizedBox(height: 10),
-                    ChessBoardWidget(
-                      size: size,
-                      controller: controller,
-                      orientation: boardOrientation,
-                      interactiveEnable: !isThinking,
-                      getLastMove: () => lastMove,
-                      onPieceDrop: onPieceDrop,
-                      onPieceTap: onPieceTap,
-                      onPieceStartDrag: onPieceStartDrag,
-                      onEmptyFieldTap: onEmptyFieldTap,
+                    SizedBox(height: 90, width: controlWidth, child: _buildPlayerInfo(isOpponent: true)),
+                    SizedBox(
+                      height: boardSize - 180,
+                      width: controlWidth,
+                      child: Center(child: _buildGameControls()),
                     ),
-                    const SizedBox(height: 10),
-                    _buildPlayerInfo(isOpponent: false),
-                    const SizedBox(height: 20),
-                    _buildGameControls(),
+                    SizedBox(height: 90, width: controlWidth, child: _buildPlayerInfo(isOpponent: false)),
                   ],
                 ),
               ),
+              const SizedBox(width: 10),
             ],
           ),
         ),
-      ),
+        const Spacer(),
+      ],
     );
   }
 
-  Widget _buildPlayerInfo({required bool isOpponent}) {
-    // Get screen height
-    final screenHeight = MediaQuery.of(context).size.height;
-    // Set a threshold, e.g. 667
-    final bool isCompactMode = screenHeight < 667;
+  Widget _buildPortraitLayout(double w, double h) {
+    // 获取屏幕高度并预留空间给其他组件
+    final availableHeight = h -
+        kToolbarHeight - // 顶部工具栏
+        MediaQuery.of(context).padding.top - // 状态栏
+        MediaQuery.of(context).padding.bottom - // 底部安全区域
+        290; // 预留给上下 player info/按钮和控件间距: 10 + 90 + 10 + 10 + 90 + 10 + 60 + 10
 
-    final score = evaluation != null ? evaluation! * (isOpponent ? -1 : 1) : null;
+    // 计算合适的棋盘大小
+    final boardSize = math.min(w, availableHeight) - 20;
 
-    if (isCompactMode) {
-      // Compact mode - single line display
-      return Container(
-        width: MediaQuery.of(context).size.shortestSide - 36,
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-        child: Row(
-          children: [
-            // Avatar part
-            SizedBox(
-              width: 40,
-              height: 40,
-              child: Stack(
-                alignment: Alignment.center,
-                children: [
-                  if (isOpponent && isThinking)
-                    SizedBox(
-                      width: 40,
-                      height: 40,
-                      child: CircularProgressIndicator(
-                        strokeWidth: 2,
-                        color: Colors.red.shade300,
-                      ),
-                    ),
-                  CircleAvatar(
-                    radius: 16,
-                    backgroundColor: isOpponent ? Colors.red.shade100 : Colors.blue.shade100,
-                    child: Text(
-                      isOpponent ? 'AI' : 'You',
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                        color: isOpponent ? Colors.red.shade700 : Colors.blue.shade700,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
+    return Column(
+      children: [
+        _buildHeader(),
+        const SizedBox(height: 10),
+        Expanded(
+          child: SingleChildScrollView(
+            child: Column(
+              children: [
+                SizedBox(height: 90, width: boardSize, child: _buildPlayerInfo(isOpponent: true)),
+                const SizedBox(height: 10),
+                _buildBoard(boardSize),
+                const SizedBox(height: 10),
+                SizedBox(height: 90, width: boardSize, child: _buildPlayerInfo(isOpponent: false)),
+                const SizedBox(height: 10),
+                SizedBox(height: 60, width: boardSize, child: _buildGameControls()),
+                const SizedBox(height: 10),
+              ],
             ),
-            const SizedBox(width: 8),
-            // Name
-            Text(
-              isOpponent ? 'Computer' : 'Player',
-              style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(width: 8),
-            // ELO information
-            _buildLevelChip(
-              label: 'ELO: ${isOpponent ? '2000' : '1500'}',
-            ),
-            if (score != null) ...[
-              const SizedBox(width: 8),
-              _buildScoreChip(score),
-            ],
-          ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildBoard(double boardSize) => Container(
+        decoration: BoxDecoration(
+          color: Colors.white.withAlpha(0xCC),
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: ChessBoardWidget(
+          size: boardSize,
+          controller: controller,
+          orientation: boardOrientation,
+          interactiveEnable: !isThinking,
+          getLastMove: () => lastMove,
+          onPieceDrop: onPieceDrop,
+          onPieceTap: onPieceTap,
+          onPieceStartDrag: onPieceStartDrag,
+          onEmptyFieldTap: onEmptyFieldTap,
         ),
       );
-    }
 
-    // Original card layout code
+  Widget _buildHeader() => SizedBox(
+        height: kToolbarHeight,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          child: Row(
+            children: [
+              IconButton(icon: const Icon(Icons.arrow_back_ios), onPressed: () => Navigator.of(context).pop()),
+              Expanded(
+                child: Text(
+                  'Player vs AI',
+                  style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    shadows: [
+                      Shadow(
+                        color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                        offset: const Offset(2, 2),
+                        blurRadius: 4,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              IconButton(icon: const Icon(Icons.save_outlined), onPressed: saveGame),
+            ],
+          ),
+        ),
+      );
+
+  Widget _buildPlayerInfo({required bool isOpponent}) {
+    final score = evaluation != null ? evaluation! * (isOpponent ? -1 : 1) : null;
+
     return Container(
-      width: MediaQuery.of(context).size.shortestSide - 36,
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         gradient: LinearGradient(
@@ -690,10 +701,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
-        borderRadius: BorderRadius.circular(20),
-        boxShadow: [
-          BoxShadow(color: Colors.black.withAlpha(0x1A), offset: const Offset(2, 2), blurRadius: 4),
-        ],
+        borderRadius: BorderRadius.circular(10),
       ),
       child: Row(
         children: [
@@ -707,19 +715,13 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                   SizedBox(
                     width: 60,
                     height: 60,
-                    child: CircularProgressIndicator(
-                      strokeWidth: 2,
-                      color: Colors.red.shade300,
-                    ),
+                    child: CircularProgressIndicator(strokeWidth: 2, color: Colors.red.shade300),
                   ),
                 Container(
                   padding: const EdgeInsets.all(3),
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    border: Border.all(
-                      color: isOpponent ? Colors.red.shade300 : Colors.blue.shade300,
-                      width: 2,
-                    ),
+                    border: Border.all(color: isOpponent ? Colors.red.shade300 : Colors.blue.shade300, width: 2),
                   ),
                   child: CircleAvatar(
                     radius: 24,
@@ -744,10 +746,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               children: [
                 Text(
                   isOpponent ? 'Computer' : 'Player',
-                  style: const TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   overflow: TextOverflow.ellipsis,
                 ),
                 const SizedBox(height: 4),

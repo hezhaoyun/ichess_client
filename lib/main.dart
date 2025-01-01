@@ -43,7 +43,8 @@ class MyApp extends StatelessWidget {
           },
           onGenerateRoute: (settings) {
             if (settings.name == Routes.aiBattle) {
-              final fen = settings.arguments as String?;
+              final args = settings.arguments as Map<String, dynamic>?;
+              final fen = args?['fen'] as String?;
               return MaterialPageRoute(builder: (context) => AIBattlePage(initialFen: fen));
             }
             return MaterialPageRoute(

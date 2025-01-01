@@ -22,8 +22,17 @@ class Routes {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
+    // 获取屏幕方向
+    final isLandscape = MediaQuery.of(context).orientation == Orientation.landscape;
+
+    // 响应式布局的网格列数
+    final gridCrossAxisCount = isLandscape ? 4 : 2;
+
     final header = Padding(
-      padding: const EdgeInsets.only(top: 40, left: 4),
+      padding: EdgeInsets.only(
+        top: isLandscape ? 20 : 40,
+        left: 4,
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -72,19 +81,22 @@ class _HomePageState extends State<HomePage> {
         children: [
           Expanded(
             child: GridView.count(
-              crossAxisCount: 2,
-              mainAxisSpacing: 16,
-              crossAxisSpacing: 16,
+              crossAxisCount: gridCrossAxisCount,
+              mainAxisSpacing: isLandscape ? 24 : 16,
+              crossAxisSpacing: isLandscape ? 24 : 16,
+              padding: EdgeInsets.symmetric(
+                horizontal: isLandscape ? 32 : 8,
+                vertical: isLandscape ? 8 : 0,
+              ),
               children: [
-                _buildCard(
+                _buildAnimatedCard(
                   icon: Icons.computer,
                   label: 'Player vs AI',
                   onTap: () {
-                    Audios().playSound('sounds/button.mp3');
-                    Navigator.pushNamed(context, Routes.aiBattle);
+                    _animateAndNavigate(Routes.aiBattle);
                   },
                 ),
-                _buildCard(
+                _buildAnimatedCard(
                   icon: Icons.people,
                   label: 'Play Online',
                   onTap: () {
@@ -92,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                     Navigator.pushNamed(context, Routes.onlineBattle);
                   },
                 ),
-                _buildCard(
+                _buildAnimatedCard(
                   icon: Icons.menu_book,
                   label: 'View Games',
                   onTap: () {
@@ -100,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                     Navigator.pushNamed(context, Routes.viewer);
                   },
                 ),
-                _buildCard(
+                _buildAnimatedCard(
                   icon: Icons.swipe_right,
                   label: 'Setup Board',
                   onTap: () {
@@ -112,8 +124,8 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           SizedBox(
-            height: 100,
-            child: Lottie.asset('assets/animations/chess.json', repeat: true, animate: true),
+            height: isLandscape ? 80 : 100,
+            child: Lottie.asset('assets/animations/chess.json'),
           ),
         ],
       ),
@@ -145,9 +157,18 @@ class _HomePageState extends State<HomePage> {
         ),
         child: SafeArea(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24.0),
+            padding: EdgeInsets.symmetric(
+              horizontal: isLandscape ? 24.0 : 24.0,
+              vertical: isLandscape ? 8.0 : 0,
+            ),
             child: Column(
-              children: [header, const SizedBox(height: 48), grid, footer],
+              children: [
+                header,
+                SizedBox(height: isLandscape ? 24 : 48),
+                grid,
+                SizedBox(height: isLandscape ? 8 : 0),
+                footer,
+              ],
             ),
           ),
         ),
@@ -155,9 +176,19 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget _buildCard({required IconData icon, required String label, required VoidCallback onTap}) => Hero(
+  // 新增带动画效果的卡片构建方法
+  Widget _buildAnimatedCard({
+    required IconData icon,
+    required String label,
+    required VoidCallback onTap,
+  }) {
+    return AnimatedBuilder(
+      animation: ModalRoute.of(context)?.animation ?? const AlwaysStoppedAnimation(1),
+      builder: (context, child) => Hero(
         tag: label,
         child: Card(
+          elevation: 4,
+          shadowColor: Theme.of(context).colorScheme.primary.withAlpha(0x40),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20),
             side: BorderSide(
@@ -180,40 +211,56 @@ class _HomePageState extends State<HomePage> {
             child: InkWell(
               onTap: onTap,
               borderRadius: BorderRadius.circular(20),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  TweenAnimationBuilder(
-                    duration: const Duration(milliseconds: 300),
-                    tween: Tween<double>(begin: 0.8, end: 1.0),
-                    builder: (context, double value, child) => Transform.scale(
-                      scale: value,
-                      child: Container(
-                        padding: const EdgeInsets.all(16),
-                        decoration: BoxDecoration(
-                          color: Theme.of(context).colorScheme.primary.withAlpha(0x1A),
-                          shape: BoxShape.circle,
-                        ),
-                        child: Icon(
-                          icon,
-                          size: 36,
-                          color: Theme.of(context).colorScheme.primary,
-                        ),
-                      ),
-                    ),
-                  ),
-                  const SizedBox(height: 12),
-                  Text(
-                    label,
-                    style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                          fontWeight: FontWeight.bold,
-                          letterSpacing: 1,
-                        ),
-                  ),
-                ],
+              child: _buildCardContent(icon, label),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  // 新增卡片内容构建方法
+  Widget _buildCardContent(IconData icon, String label) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        TweenAnimationBuilder(
+          duration: const Duration(milliseconds: 300),
+          tween: Tween<double>(begin: 0.8, end: 1.0),
+          builder: (context, double value, child) => Transform.scale(
+            scale: value,
+            child: Container(
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: Theme.of(context).colorScheme.primary.withAlpha(0x1A),
+                shape: BoxShape.circle,
+              ),
+              child: Icon(
+                icon,
+                size: 36,
+                color: Theme.of(context).colorScheme.primary,
               ),
             ),
           ),
         ),
-      );
+        const SizedBox(height: 12),
+        Text(
+          label,
+          style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                fontWeight: FontWeight.bold,
+                letterSpacing: 1,
+              ),
+        ),
+      ],
+    );
+  }
+
+  // 新增页面跳转动画方法
+  void _animateAndNavigate(String route) {
+    Audios().playSound('sounds/button.mp3');
+    Navigator.of(context).pushNamed(
+      route,
+      arguments: {'fromHome': true},
+    );
+  }
 }

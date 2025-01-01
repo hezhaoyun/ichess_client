@@ -30,7 +30,7 @@ class ChessBoardWidget extends StatelessWidget {
   static const kDarkSquareColor = Color(0xFFB58863);
   static final kMoveHighlightColor = Colors.blue.shade300;
 
-  final double size;
+  final double _size;
   final BoardOrientation orientation;
   final WPChessboardController controller;
   final List<List<int>>? Function()? getLastMove;
@@ -42,7 +42,7 @@ class ChessBoardWidget extends StatelessWidget {
 
   const ChessBoardWidget({
     super.key,
-    required this.size,
+    required double size,
     required this.orientation,
     required this.controller,
     this.getLastMove,
@@ -51,7 +51,7 @@ class ChessBoardWidget extends StatelessWidget {
     this.onPieceDrop,
     this.onPieceTap,
     this.onEmptyFieldTap,
-  });
+  }) : _size = size - 20;
 
   Widget squareBuilder(SquareInfo info) {
     final isLightSquare = (info.index + info.rank) % 2 == 0;
@@ -88,29 +88,24 @@ class ChessBoardWidget extends StatelessWidget {
       );
 
   @override
-  Widget build(BuildContext context) => Card(
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: WPChessboard(
-            size: size,
-            orientation: orientation,
-            squareBuilder: squareBuilder,
-            controller: controller,
-            onPieceDrop: interactiveEnable ? onPieceDrop : null,
-            onPieceTap: interactiveEnable ? onPieceTap : null,
-            onPieceStartDrag: onPieceStartDrag,
-            onEmptyFieldTap: interactiveEnable ? onEmptyFieldTap : null,
-            turnTopPlayerPieces: false,
-            ghostOnDrag: true,
-            dropIndicator: DropIndicatorArgs(
-              size: size / 2,
-              color: Colors.lightBlue.withAlpha(0x3D),
-            ),
-            pieceMap: pieceMap(context),
+  Widget build(BuildContext context) => Padding(
+        padding: const EdgeInsets.all(10),
+        child: WPChessboard(
+          size: _size,
+          orientation: orientation,
+          squareBuilder: squareBuilder,
+          controller: controller,
+          onPieceDrop: interactiveEnable ? onPieceDrop : null,
+          onPieceTap: interactiveEnable ? onPieceTap : null,
+          onPieceStartDrag: onPieceStartDrag,
+          onEmptyFieldTap: interactiveEnable ? onEmptyFieldTap : null,
+          turnTopPlayerPieces: false,
+          ghostOnDrag: true,
+          dropIndicator: DropIndicatorArgs(
+            size: _size / 2,
+            color: Colors.lightBlue.withAlpha(0x3D),
           ),
+          pieceMap: pieceMap(context),
         ),
       );
 }

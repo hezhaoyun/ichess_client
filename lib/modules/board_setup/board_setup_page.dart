@@ -305,7 +305,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
       return;
     }
 
-    Navigator.pushNamed(context, Routes.aiBattle, arguments: _chess.fen);
+    Navigator.pushNamed(context, Routes.aiBattle, arguments: {'fen': _chess.fen});
   }
 
   bool _isValidPosition() {
