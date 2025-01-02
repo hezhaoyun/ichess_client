@@ -9,6 +9,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import '../../game/config_manager.dart';
 import '../../services/audios.dart';
 import 'promotion_dialog.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 enum OnlineState {
   offline,
@@ -192,14 +193,11 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   }
 
   onConnect(_) {
-    debugPrint('Successful connection!');
     socket?.emit('join', {'pid': pid, 'name': name});
     safeSetState(() => gameState = OnlineState.joining);
   }
 
   onDisconnect(_) {
-    debugPrint('Connection lost.');
-
     // Use safeSetState instead of setState
     safeSetState(() {
       gameState = OnlineState.offline;
@@ -210,13 +208,10 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   }
 
   onWaitingMatch(data) async {
-    debugPrint('Waiting for match...');
     safeSetState(() => gameState = OnlineState.stayInLobby);
   }
 
   onGameMode(data) {
-    debugPrint('Game mode: $data');
-
     safeSetState(() {
       lastMove = null;
       orientation = data['side'] == 'white' ? BoardOrientation.white : BoardOrientation.black;
@@ -230,7 +225,6 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   }
 
   onGo(data) {
-    debugPrint('Your move');
     safeSetState(() => gameState = OnlineState.waitingMove);
   }
 
@@ -238,18 +232,18 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Takeback'),
-        content: Text('Opponent requests a takeback, do you accept?'),
+        title: Text(AppLocalizations.of(context)!.takeback),
+        content: Text(AppLocalizations.of(context)!.opponentRequestsTakeback),
         actions: [
           TextButton(
-            child: const Text('Accept'),
+            child: Text(AppLocalizations.of(context)!.accept),
             onPressed: () {
               socket?.emit('takeback_response', {'accepted': true});
               Navigator.pop(context);
             },
           ),
           TextButton(
-            child: const Text('Reject'),
+            child: Text(AppLocalizations.of(context)!.reject),
             onPressed: () {
               socket?.emit('takeback_response', {'accepted': false});
               Navigator.pop(context);
@@ -264,10 +258,10 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Takeback Declined'),
+        title: Text(AppLocalizations.of(context)!.takebackDeclined),
         actions: [
           TextButton(
-            child: const Text('OK'),
+            child: Text(AppLocalizations.of(context)!.ok),
             onPressed: () => Navigator.pop(context),
           ),
         ],
@@ -291,18 +285,18 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Draw'),
-        content: Text('Opponent proposes a draw, do you accept?'),
+        title: Text(AppLocalizations.of(context)!.draw),
+        content: Text(AppLocalizations.of(context)!.opponentProposesDraw),
         actions: [
           TextButton(
-            child: const Text('Accept'),
+            child: Text(AppLocalizations.of(context)!.accept),
             onPressed: () {
               socket?.emit('draw_response', {'accepted': true});
               Navigator.pop(context);
             },
           ),
           TextButton(
-            child: const Text('Reject'),
+            child: Text(AppLocalizations.of(context)!.reject),
             onPressed: () {
               socket?.emit('draw_response', {'accepted': false});
               Navigator.pop(context);
@@ -317,10 +311,10 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Draw Declined'),
+        title: Text(AppLocalizations.of(context)!.drawDeclined),
         actions: [
           TextButton(
-            child: const Text('OK'),
+            child: Text(AppLocalizations.of(context)!.ok),
             onPressed: () => Navigator.pop(context),
           ),
         ],
@@ -328,9 +322,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
     );
   }
 
-  onGameOver(data) {
-    debugPrint('Game over: ${data['reason']}');
-  }
+  onGameOver(data) {}
 
   onTimer(data) {
     safeSetState(() {
@@ -352,19 +344,19 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Confirm Draw?'),
-        content: const Text('Are you sure you want to propose a draw?'),
+        title: Text(AppLocalizations.of(context)!.confirmDraw),
+        content: Text(AppLocalizations.of(context)!.areYouSureYouWantToProposeADraw),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('No'),
+            child: Text(AppLocalizations.of(context)!.no),
           ),
           TextButton(
             onPressed: () {
               socket?.emit('propose_draw', {});
               Navigator.pop(context);
             },
-            child: const Text('Yes'),
+            child: Text(AppLocalizations.of(context)!.yes),
           ),
         ],
       ),
@@ -375,19 +367,19 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Confirm Takeback?'),
-        content: const Text('Are you sure you want to request a takeback?'),
+        title: Text(AppLocalizations.of(context)!.confirmTakeback),
+        content: Text(AppLocalizations.of(context)!.areYouSureYouWantToRequestATakeback),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('No'),
+            child: Text(AppLocalizations.of(context)!.no),
           ),
           TextButton(
             onPressed: () {
               socket?.emit('propose_takeback', {});
               Navigator.pop(context);
             },
-            child: const Text('Yes'),
+            child: Text(AppLocalizations.of(context)!.yes),
           ),
         ],
       ),
@@ -398,19 +390,19 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Confirm Resign?'),
-        content: const Text('Are you sure you want to resign?'),
+        title: Text(AppLocalizations.of(context)!.confirmResign),
+        content: Text(AppLocalizations.of(context)!.areYouSureYouWantToResign),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('No'),
+            child: Text(AppLocalizations.of(context)!.no),
           ),
           TextButton(
             onPressed: () {
               socket?.emit('resign', {});
               Navigator.pop(context);
             },
-            child: const Text('Yes'),
+            child: Text(AppLocalizations.of(context)!.yes),
           ),
         ],
       ),

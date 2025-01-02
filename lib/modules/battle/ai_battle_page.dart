@@ -17,6 +17,7 @@ import '../../services/audios.dart';
 import '../../widgets/chess_board_widget.dart';
 import '../../widgets/game_result_dialog.dart';
 import 'battle_mixin.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class AIBattlePage extends StatefulWidget {
   final String? initialFen;
@@ -76,10 +77,9 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('Engine initialization failed!')),
+            SnackBar(content: Text(AppLocalizations.of(context)!.engineInitializationFailed)),
           );
         }
-        debugPrint('Engine initialization failed: ${e.toString()}');
       });
     }
   }
@@ -179,25 +179,27 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
   String _getResultTitle() {
     if (chess.in_checkmate || chess.in_stalemate) {
-      return chess.turn == chess_lib.Color.WHITE ? 'You lost!' : 'You won!';
+      return chess.turn == chess_lib.Color.WHITE
+          ? AppLocalizations.of(context)!.youLost
+          : AppLocalizations.of(context)!.youWon;
     }
-    return 'Draw!';
+    return AppLocalizations.of(context)!.draw;
   }
 
   String _getResultMessage() {
     if (chess.in_checkmate) {
       return chess.turn == chess_lib.Color.WHITE
-          ? 'Don’t be discouraged, keep trying!'
-          : 'Congratulations on defeating your opponent!';
+          ? AppLocalizations.of(context)!.youLost
+          : AppLocalizations.of(context)!.youWon;
     }
     if (chess.in_stalemate) {
       return chess.turn == chess_lib.Color.WHITE
-          ? 'Don’t be discouraged, keep trying!'
-          : 'Congratulations on defeating your opponent!';
+          ? AppLocalizations.of(context)!.dontBeDiscouraged
+          : AppLocalizations.of(context)!.congratulations;
     }
-    if (chess.insufficient_material) return 'Insufficient material, draw';
-    if (chess.in_threefold_repetition) return 'Threefold repetition, draw';
-    return 'Draw';
+    if (chess.insufficient_material) return AppLocalizations.of(context)!.insufficientMaterial;
+    if (chess.in_threefold_repetition) return AppLocalizations.of(context)!.threefoldRepetition;
+    return AppLocalizations.of(context)!.draw;
   }
 
   Future<void> makeComputerMove() async {
@@ -233,7 +235,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               if (move == '(none)' || move == 'NULL') {
                 if (mounted) {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Engine cannot find a valid move')),
+                    SnackBar(content: Text(AppLocalizations.of(context)!.engineCannotFindValidMove)),
                   );
                 }
                 break;
@@ -281,9 +283,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Engine move error, please try again')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.engineMoveError(e.toString()))),
         );
-        debugPrint('Engine move error: ${e.toString()}');
       }
     } finally {
       if (mounted) {
@@ -347,7 +348,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Choose your color'),
+        title: Text(AppLocalizations.of(context)!.chooseYourColor),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -355,7 +356,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               leading: Icon(Icons.circle, color: Colors.white, size: 24, shadows: [
                 Shadow(color: Theme.of(context).colorScheme.primary, blurRadius: 4),
               ]),
-              title: const Text('White'),
+              title: Text(AppLocalizations.of(context)!.white),
               onTap: () {
                 Navigator.pop(context);
                 _startNewGame(BoardOrientation.white);
@@ -365,7 +366,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               leading: Icon(Icons.circle, color: Colors.black, size: 24, shadows: [
                 Shadow(color: Theme.of(context).colorScheme.primary, blurRadius: 4),
               ]),
-              title: const Text('Black'),
+              title: Text(AppLocalizations.of(context)!.black),
               onTap: () {
                 Navigator.pop(context);
                 _startNewGame(BoardOrientation.black);
@@ -433,7 +434,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
       final fileName = 'chess_game_${DateTime.now().millisecondsSinceEpoch}.pgn';
       String? outputFile = await FilePicker.platform.saveFile(
-        dialogTitle: 'Choose save location',
+        dialogTitle: AppLocalizations.of(context)!.chooseSaveLocation,
         fileName: fileName,
         type: FileType.custom,
         allowedExtensions: ['pgn'],
@@ -447,16 +448,15 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Game saved')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.gameSaved)),
         );
       }
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Save failed, please try again')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.saveFailed)),
         );
       }
-      debugPrint('Save failed: $e');
     }
   }
 
@@ -531,7 +531,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Analysis failed, please try again')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.analysisFailed)),
         );
       }
     } finally {
@@ -665,7 +665,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               IconButton(icon: const Icon(Icons.arrow_back_ios), onPressed: () => Navigator.of(context).pop()),
               Expanded(
                 child: Text(
-                  'Human vs AI',
+                  AppLocalizations.of(context)!.humanVsAi,
                   style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                     fontWeight: FontWeight.bold,
                     shadows: [
@@ -721,7 +721,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
                     radius: 24,
                     backgroundColor: Colors.white,
                     child: Text(
-                      isOpponent ? 'AI' : 'You',
+                      isOpponent ? AppLocalizations.of(context)!.ai : AppLocalizations.of(context)!.you,
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -739,7 +739,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  isOpponent ? 'Computer' : 'Player',
+                  isOpponent ? AppLocalizations.of(context)!.computer : AppLocalizations.of(context)!.player,
                   style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   overflow: TextOverflow.ellipsis,
                 ),
@@ -815,8 +815,9 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       runSpacing: 12,
       alignment: WrapAlignment.center,
       children: [
-        SoundButton.elevated(style: buttonStyle, onPressed: newGame, child: const Text('New Game')),
-        SoundButton.elevated(style: buttonStyle, onPressed: undoMove, child: const Text('Undo')),
+        SoundButton.elevated(
+            style: buttonStyle, onPressed: newGame, child: Text(AppLocalizations.of(context)!.newGame)),
+        SoundButton.elevated(style: buttonStyle, onPressed: undoMove, child: Text(AppLocalizations.of(context)!.undo)),
         if (!isThinking && chess.turn == chess_lib.Color.WHITE && !chess.game_over)
           SoundButton.iconElevated(
             style: buttonStyle,
@@ -824,7 +825,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
             icon: isAnalyzing
                 ? const SizedBox(width: 12, height: 12, child: CircularProgressIndicator(strokeWidth: 2))
                 : const Icon(Icons.lightbulb_outline, size: 12),
-            label: Text(isAnalyzing ? 'Analyzing...' : 'Hint'),
+            label: Text(isAnalyzing ? AppLocalizations.of(context)!.analyzing : AppLocalizations.of(context)!.hint),
           ),
       ],
     );

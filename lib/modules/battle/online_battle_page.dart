@@ -9,6 +9,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import '../../widgets/chess_board_widget.dart';
 import 'battle_mixin.dart';
 import '../../widgets/game_result_dialog.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class OnlineBattlePage extends StatefulWidget {
   const OnlineBattlePage({super.key});
@@ -63,7 +64,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
                 onPressed: () => Navigator.pop(context),
               ),
               Text(
-                'Play Online',
+                AppLocalizations.of(context)!.playOnline,
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                   fontWeight: FontWeight.bold,
                   shadows: [
@@ -97,14 +98,14 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
             ),
             const SizedBox(height: 24),
             Text(
-              'Start Online',
+              AppLocalizations.of(context)!.startOnline,
               style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: 12),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Text(
-                'Connect to the server to start your battle journey',
+                AppLocalizations.of(context)!.connectToTheServerToStartYourBattleJourney,
                 style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                       color: Colors.grey[600],
                     ),
@@ -115,7 +116,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
             SoundButton.iconElevated(
               onPressed: connect,
               icon: const Icon(Icons.wifi),
-              label: const Text('Connect'),
+              label: Text(AppLocalizations.of(context)!.connect),
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
                 shape: RoundedRectangleBorder(
@@ -133,7 +134,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
           children: [
             const CircularProgressIndicator(),
             const SizedBox(height: 24),
-            Text('Searching for an opponent...', style: Theme.of(context).textTheme.titleMedium),
+            Text(AppLocalizations.of(context)!.searchingForAnOpponent, style: Theme.of(context).textTheme.titleMedium),
             const SizedBox(height: 16),
             SoundButton.elevated(
               onPressed: disconnect,
@@ -143,7 +144,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
                   borderRadius: BorderRadius.circular(30),
                 ),
               ),
-              child: const Text('Cancel'),
+              child: Text(AppLocalizations.of(context)!.cancel),
             ),
           ],
         ),
@@ -247,25 +248,25 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
           SoundButton.elevated(
             style: buttonStyle,
             onPressed: connect,
-            child: const Text('Connect'),
+            child: Text(AppLocalizations.of(context)!.connect),
           ),
         if (gameState == OnlineState.stayInLobby)
           SoundButton.elevated(
             style: buttonStyle,
             onPressed: match,
-            child: const Text('Match'),
+            child: Text(AppLocalizations.of(context)!.match),
           ),
         if (gameState == OnlineState.waitingMove)
           SoundButton.elevated(
             style: buttonStyle,
             onPressed: proposeDraw,
-            child: const Text('Propose Draw'),
+            child: Text(AppLocalizations.of(context)!.proposeDraw),
           ),
         if (gameState == OnlineState.waitingMove)
           SoundButton.elevated(
             style: buttonStyle,
             onPressed: chess.move_number >= 2 ? proposeTakeback : null,
-            child: const Text('Take Back'),
+            child: Text(AppLocalizations.of(context)!.takeBack),
           ),
         if (gameState == OnlineState.waitingMove)
           SoundButton.elevated(
@@ -273,7 +274,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
               backgroundColor: WidgetStateProperty.all(Colors.orange),
             ),
             onPressed: resign,
-            child: const Text('Resign'),
+            child: Text(AppLocalizations.of(context)!.resign),
           ),
       ],
     );
@@ -287,13 +288,11 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
 
   @override
   onWin(data) {
-    debugPrint('You won: ${data['reason']}');
-
     showDialog(
       context: context,
       barrierDismissible: false,
       builder: (context) => GameResultDialog(
-        title: 'You Won!',
+        title: AppLocalizations.of(context)!.youWon,
         message: Reasons.winOf(data['reason']),
         result: GameResult.win,
       ),
@@ -302,15 +301,13 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
 
   @override
   onLost(data) {
-    debugPrint('You lost: ${data['reason']}');
-
     setState(() => gameState = OnlineState.stayInLobby);
 
     showDialog(
       context: context,
       barrierDismissible: false,
       builder: (context) => GameResultDialog(
-        title: 'You Lost!',
+        title: AppLocalizations.of(context)!.youLost,
         message: Reasons.loseOf(data['reason']),
         result: GameResult.lose,
       ),
@@ -319,13 +316,11 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
 
   @override
   onDraw(data) {
-    debugPrint('Draw: ${data['reason']}');
-
     showDialog(
       context: context,
       barrierDismissible: false,
       builder: (context) => GameResultDialog(
-        title: 'Draw!',
+        title: AppLocalizations.of(context)!.draw,
         message: Reasons.drawOf(data['reason']),
         result: GameResult.draw,
       ),

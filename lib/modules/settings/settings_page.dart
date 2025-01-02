@@ -2,11 +2,13 @@ import 'dart:io';
 
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 
 import '../../game/config_manager.dart';
 import '../../game/theme_manager.dart';
+import '../../modules/settings/language_settings_page.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
@@ -197,6 +199,16 @@ class SettingsPage extends StatelessWidget {
                                 subtitle: const Text('Show predicted moves when the engine is thinking'),
                                 value: appConfigManager.showArrows,
                                 onChanged: (value) => appConfigManager.setShowArrows(value),
+                              ),
+                              ListTile(
+                                leading: Icon(Icons.language),
+                                title: Text(AppLocalizations.of(context)!.language),
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) => LanguageSettingsPage()),
+                                  );
+                                },
                               ),
                             ],
                           ),

@@ -9,6 +9,7 @@ class ConfigManager extends ChangeNotifier {
   static const String _useTimeControlKey = 'use_time_control';
   static const String _enginePathKey = 'engine_path';
   static const String _showArrowsKey = 'show_arrows';
+  static const String _languageKey = 'language';
 
   String _serverUrl = 'http://42.193.22.115';
   int _engineLevel = 10;
@@ -17,6 +18,7 @@ class ConfigManager extends ChangeNotifier {
   bool _useTimeControl = true;
   String _enginePath = '';
   bool _showArrows = false;
+  String _language = 'zh';
 
   String get serverUrl => _serverUrl;
   int get engineLevel => _engineLevel;
@@ -25,6 +27,7 @@ class ConfigManager extends ChangeNotifier {
   bool get useTimeControl => _useTimeControl;
   String get enginePath => _enginePath;
   bool get showArrows => _showArrows;
+  String get language => _language;
 
   ConfigManager() {
     _loadConfig();
@@ -39,6 +42,7 @@ class ConfigManager extends ChangeNotifier {
     _useTimeControl = prefs.getBool(_useTimeControlKey) ?? true;
     _enginePath = prefs.getString(_enginePathKey) ?? '';
     _showArrows = prefs.getBool(_showArrowsKey) ?? false;
+    _language = prefs.getString(_languageKey) ?? 'zh';
     notifyListeners();
   }
 
@@ -88,6 +92,13 @@ class ConfigManager extends ChangeNotifier {
     _showArrows = show;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool(_showArrowsKey, show);
+    notifyListeners();
+  }
+
+  Future<void> setLanguage(String lang) async {
+    _language = lang;
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_languageKey, lang);
     notifyListeners();
   }
 }
