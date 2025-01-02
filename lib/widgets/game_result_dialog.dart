@@ -3,6 +3,7 @@ import 'package:lottie/lottie.dart';
 
 import '../services/audios.dart';
 import 'sound_buttons.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 enum GameResult { win, draw, lose }
 
@@ -76,8 +77,8 @@ class GameResultDialog extends StatelessWidget {
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
               ),
               onPressed: () => Navigator.of(context).pop(),
-              child: const Text(
-                'OK',
+              child: Text(
+                AppLocalizations.of(context)!.ok,
                 style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
               ),
             ),

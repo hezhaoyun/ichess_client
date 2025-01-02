@@ -15,6 +15,7 @@ import '../../widgets/sound_buttons.dart';
 import 'analysis_chart.dart';
 import 'move_list.dart';
 import 'pgn_game_ex.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ViewerPage extends StatefulWidget {
   final String gameFile;
@@ -98,7 +99,7 @@ class _ViewerPageState extends State<ViewerPage> {
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Failed to load file: $e')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.failedToLoadFile(e.toString()))),
         );
       }
     } finally {
@@ -195,7 +196,10 @@ class _ViewerPageState extends State<ViewerPage> {
     setState(() => isFavorite = !isFavorite);
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(isFavorite ? 'Added to favorites' : 'Removed from favorites')),
+        SnackBar(
+            content: Text(isFavorite
+                ? AppLocalizations.of(context)!.addedToFavorites
+                : AppLocalizations.of(context)!.removedFromFavorites)),
       );
     }
   }
@@ -348,7 +352,7 @@ class _ViewerPageState extends State<ViewerPage> {
               ),
               const SizedBox(width: 10),
               Text(
-                'Chess Viewer',
+                AppLocalizations.of(context)!.chessViewer,
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                   fontWeight: FontWeight.bold,
                   shadows: [
@@ -407,25 +411,25 @@ class _ViewerPageState extends State<ViewerPage> {
               SoundButton.icon(
                 icon: const Icon(Icons.first_page),
                 onPressed: currentIndex >= 0 ? () => _goToMove(-1) : null,
-                tooltip: 'Start',
+                tooltip: AppLocalizations.of(context)!.start,
               ),
             SoundButton.icon(
               icon: const Icon(Icons.navigate_before),
               onPressed: currentIndex >= 0 ? () => _goToMove(currentIndex - 1) : null,
               sound: 'sounds/move.mp3',
-              tooltip: 'Previous',
+              tooltip: AppLocalizations.of(context)!.previous,
             ),
             SoundButton.icon(
               icon: const Icon(Icons.navigate_next),
               onPressed: currentIndex < moves.length - 1 ? () => _goToMove(currentIndex + 1) : null,
               sound: 'sounds/move.mp3',
-              tooltip: 'Next',
+              tooltip: AppLocalizations.of(context)!.next,
             ),
             if (w > 320)
               SoundButton.icon(
                 icon: const Icon(Icons.last_page),
                 onPressed: currentIndex < moves.length - 1 ? () => _goToMove(moves.length - 1) : null,
-                tooltip: 'End',
+                tooltip: AppLocalizations.of(context)!.end,
               ),
             const Expanded(child: SizedBox()),
             SoundButton.icon(
@@ -484,7 +488,7 @@ class _ViewerPageState extends State<ViewerPage> {
           child: Column(
             children: [
               const SizedBox(height: 10),
-              Text('Branch Selection', style: Theme.of(context).textTheme.titleMedium),
+              Text(AppLocalizations.of(context)!.branchSelection, style: Theme.of(context).textTheme.titleMedium),
               const SizedBox(height: 10),
               ListView.builder(
                 shrinkWrap: true,
@@ -575,7 +579,7 @@ class _ViewerPageState extends State<ViewerPage> {
                   height: 100,
                   child: Padding(
                     padding: const EdgeInsets.all(10),
-                    child: Text('Comments: $comment', style: TextStyle(color: Colors.grey)),
+                    child: Text(AppLocalizations.of(context)!.comments(comment!), style: TextStyle(color: Colors.grey)),
                   ),
                 ),
               const SizedBox(height: 10),
@@ -608,7 +612,7 @@ class _ViewerPageState extends State<ViewerPage> {
         if (comment != null && comment!.isNotEmpty)
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text('Comments: $comment', style: TextStyle(color: Colors.grey)),
+            child: Text(AppLocalizations.of(context)!.comments(comment!), style: TextStyle(color: Colors.grey)),
           ),
         const SizedBox(height: 10),
       ],

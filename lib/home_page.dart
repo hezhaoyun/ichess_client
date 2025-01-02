@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lottie/lottie.dart';
 
 import 'services/audios.dart';
@@ -37,7 +38,7 @@ class _HomePageState extends State<HomePage> {
                 Image.asset('assets/icons/icon-a.png', width: 32, height: 32),
                 const SizedBox(width: 10),
                 Text(
-                  'Chess Road',
+                  AppLocalizations.of(context)!.appName,
                   style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                     fontWeight: FontWeight.bold,
                     shadows: [
@@ -61,7 +62,7 @@ class _HomePageState extends State<HomePage> {
             ),
             const SizedBox(height: 10),
             Text(
-              'Explore the infinite possibilities of chess',
+              AppLocalizations.of(context)!.exploreTheInfinitePossibilitiesOfChess,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                     color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
                   ),
@@ -83,7 +84,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               SizedBox(height: 100, child: Lottie.asset('assets/animations/chess.json')),
               Text(
-                'ChessRoad v1.0.0 · ♟️',
+                '${AppLocalizations.of(context)!.appName} v1.0.0 · ♟️',
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
                       color: Theme.of(context).colorScheme.onSurface.withAlpha(128),
                     ),
@@ -142,25 +143,25 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   _buildAnimatedCard(
                     Icons.computer,
-                    'Human vs AI',
+                    AppLocalizations.of(context)!.humanVsAi,
                     onTap: () => _animateAndNavigate(Routes.aiBattle),
                     size: size,
                   ),
                   _buildAnimatedCard(
                     Icons.people,
-                    'Play Online',
+                    AppLocalizations.of(context)!.playOnline,
                     onTap: () => _animateAndNavigate(Routes.onlineBattle),
                     size: size,
                   ),
                   _buildAnimatedCard(
                     Icons.menu_book,
-                    'View Games',
+                    AppLocalizations.of(context)!.viewGames,
                     onTap: () => _animateAndNavigate(Routes.viewer),
                     size: size,
                   ),
                   _buildAnimatedCard(
                     Icons.swipe_right,
-                    'Setup Board',
+                    AppLocalizations.of(context)!.setupBoard,
                     onTap: () => _animateAndNavigate(Routes.setup),
                     size: size,
                   ),

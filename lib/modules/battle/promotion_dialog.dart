@@ -3,6 +3,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../services/audios.dart';
 import '../../widgets/chess_board_widget.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 Future<void> showPromotionDialog(
     BuildContext context, BoardOrientation orientation, Function(String) onPromotionSelected) {
@@ -40,7 +41,7 @@ Future<void> showPromotionDialog(
   return showDialog(
     context: context,
     builder: (context) => AlertDialog(
-      title: const Text('Promotion'),
+      title: Text(AppLocalizations.of(context)!.promotion),
       content: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: ['q', 'r', 'b', 'n']

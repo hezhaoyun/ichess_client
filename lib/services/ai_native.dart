@@ -52,7 +52,6 @@ class AiNative {
         _engine.stdin = 'ucinewgame';
 
         _engine.stdout.listen((output) {
-          debugPrint('Stockfish output: $output');
           _outputController.add(output);
         });
       } else {
@@ -63,7 +62,6 @@ class AiNative {
         _engine.stdin.writeln('ucinewgame');
 
         _engine.stdout.transform(utf8.decoder).listen((output) {
-          debugPrint('Stockfish output: $output');
           _outputController.add(output);
         });
       }
@@ -116,8 +114,6 @@ class AiNative {
   // Modify the method to release resources
   void dispose() {
     if (_isInitialized) {
-      debugPrint('Disposing StockfishManager...');
-
       if (isMobileDevice) {
         (_engine as Stockfish).dispose();
       } else {
@@ -126,7 +122,6 @@ class AiNative {
 
       _isInitialized = false;
       _instance = null;
-      debugPrint('StockfishManager disposed successfully');
     }
   }
 

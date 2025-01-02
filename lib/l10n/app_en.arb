@@ -275,5 +275,205 @@
   "takeBack": "Take Back",
   "@takeBack": {
     "description": "Take Back"
+  },
+  "promotion": "Promotion",
+  "@promotion": {
+    "description": "Promotion"
+  },
+  "fullEmpty": "Full / Empty",
+  "@fullEmpty": {
+    "description": "Full / Empty"
+  },
+  "playWithAI": "Play with AI",
+  "@playWithAI": {
+    "description": "Play with AI"
+  },
+  "dragAndDropToRemove": "Drag & drop here to remove",
+  "@dragAndDropToRemove": {
+    "description": "Drag & drop here to remove"
+  },
+  "invalidPosition": "Invalid position, please check:\n1. Each side has one king\n2. Pawns cannot be on the first or eighth rank",
+  "@invalidPosition": {
+    "description": "Invalid position"
+  },
+  "setupBoard": "Setup Board",
+  "@setupBoard": {
+    "description": "Setup Board"
+  },
+  "allGames": "All Games",
+  "@allGames": {
+    "description": "All Games"
+  },
+  "favorites": "Favorites",
+  "@favorites": {
+    "description": "Favorites"
+  },
+  "noFavoriteGamesAvailable": "No favorite games available",
+  "@noFavoriteGamesAvailable": {
+    "description": "No favorite games available"
+  },
+  "searchGames": "Search games...",
+  "@searchGames": {
+    "description": "Search games"
+  },
+  "games": "Games",
+  "@games": {
+    "description": "Games"
+  },
+  "failedToLoadGamesList": "Failed to load games list: {error}",
+  "@failedToLoadGamesList": {
+    "description": "Failed to load games list",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Error"
+      }
+    }
+  },
+  "comments": "Comments: {comments}",
+  "@comments": {
+    "description": "Comments",
+    "placeholders": {
+      "comments": {
+        "type": "String",
+        "example": "Comments"
+      }
+    }
+  },
+  "branchSelection": "Branch Selection",
+  "@branchSelection": {
+    "description": "Branch Selection"
+  },
+  "chessViewer": "Chess Viewer",
+  "@chessViewer": {
+    "description": "Chess Viewer"
+  },
+  "start": "Start",
+  "@start": {
+    "description": "Start"
+  },
+  "previous": "Previous",
+  "@previous": {
+    "description": "Previous"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Next"
+  },
+  "end": "End",
+  "@end": {
+    "description": "End"
+  },
+  "addedToFavorites": "Added to favorites",
+  "@addedToFavorites": {
+    "description": "Added to favorites"
+  },
+  "removedFromFavorites": "Removed from favorites",
+  "@removedFromFavorites": {
+    "description": "Removed from favorites"
+  },
+  "serverAddress": "Server Address",
+  "@serverAddress": {
+    "description": "Server Address"
+  },
+  "setServerAddress": "Set Server Address",
+  "@setServerAddress": {
+    "description": "Set Server Address"
+  },
+  "pleaseEnterTheServerAddress": "Please enter the server address",
+  "@pleaseEnterTheServerAddress": {
+    "description": "Please enter the server address"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings"
+  },
+  "engineSettings": "Engine Settings",
+  "@engineSettings": {
+    "description": "Engine Settings"
+  },
+  "thinkingTime": "Thinking Time",
+  "@thinkingTime": {
+    "description": "Thinking Time"
+  },
+  "limitTime": "Limit Time",
+  "@limitTime": {
+    "description": "Limit Time"
+  },
+  "limitDepth": "Limit Depth",
+  "@limitDepth": {
+    "description": "Limit Depth"
+  },
+  "timeControlMode": "Time Control Mode",
+  "@timeControlMode": {
+    "description": "Time Control Mode"
+  },
+  "useTimeControl": "Use Time Control",
+  "@useTimeControl": {
+    "description": "Use Time Control"
+  },
+  "showEngineAnalysisArrows": "Show Engine Analysis Arrows",
+  "@showEngineAnalysisArrows": {
+    "description": "Show Engine Analysis Arrows"
+  },
+  "showPredictedMovesWhenTheEngineIsThinking": "Show predicted moves when the engine is thinking",
+  "@showPredictedMovesWhenTheEngineIsThinking": {
+    "description": "Show predicted moves when the engine is thinking"
+  },
+  "languageSettings": "Language Settings",
+  "@languageSettings": {
+    "description": "Language Settings"
+  },
+  "layers": "layers",
+  "@layers": {
+    "description": "Layers"
+  },
+  "current": "Current",
+  "@current": {
+    "description": "Current"
+  },
+  "browse": "Browse",
+  "@browse": {
+    "description": "Browse"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm"
+  },
+  "selectPieceTheme": "Select Piece Theme",
+  "@selectPieceTheme": {
+    "description": "Select Piece Theme"
+  },
+  "selectThemeColor": "Select Theme Color",
+  "@selectThemeColor": {
+    "description": "Select Theme Color"
+  },
+  "setEngineLevel": "Set Engine Level",
+  "@setEngineLevel": {
+    "description": "Set Engine Level"
+  },
+  "setThinkingTime": "Set Thinking Time",
+  "@setThinkingTime": {
+    "description": "Set Thinking Time"
+  },
+  "setSearchDepth": "Set Search Depth",
+  "@setSearchDepth": {
+    "description": "Set Search Depth"
+  },
+  "setEnginePath": "Set Engine Path",
+  "@setEnginePath": {
+    "description": "Set Engine Path"
+  },
+  "pleaseEnterTheEnginePath": "Please enter the engine path",
+  "@pleaseEnterTheEnginePath": {
+    "description": "Please enter the engine path"
+  },
+  "viewGames": "View Games",
+  "@viewGames": {
+    "description": "View Games"
+  },
+  "exploreTheInfinitePossibilitiesOfChess": "Explore the infinite possibilities of chess",
+  "@exploreTheInfinitePossibilitiesOfChess": {
+    "description": "Explore the infinite possibilities of chess"
   }
 }

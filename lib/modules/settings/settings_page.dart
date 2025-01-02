@@ -44,7 +44,7 @@ class SettingsPage extends StatelessWidget {
                       onPressed: () => Navigator.pop(context),
                     ),
                     Text(
-                      'Settings',
+                      AppLocalizations.of(context)!.settings,
                       style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                         fontWeight: FontWeight.bold,
                         shadows: [
@@ -64,10 +64,10 @@ class SettingsPage extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Padding(
+                      Padding(
                         padding: EdgeInsets.all(16.0),
                         child: Text(
-                          'Color Theme',
+                          AppLocalizations.of(context)!.colorTheme,
                           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -88,10 +88,10 @@ class SettingsPage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      const Padding(
+                      Padding(
                         padding: EdgeInsets.all(16.0),
                         child: Text(
-                          'Piece Theme',
+                          AppLocalizations.of(context)!.pieceTheme,
                           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -105,10 +105,10 @@ class SettingsPage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      const Padding(
+                      Padding(
                         padding: EdgeInsets.all(16.0),
                         child: Text(
-                          'Server Settings',
+                          AppLocalizations.of(context)!.serverSettings,
                           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -116,7 +116,7 @@ class SettingsPage extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(horizontal: 16.0),
                         child: Card(
                           child: ListTile(
-                            title: const Text('Server Address'),
+                            title: Text(AppLocalizations.of(context)!.serverAddress),
                             subtitle: Text(appConfigManager.serverUrl),
                             onTap: () async {
                               final result = await showDialog<String>(
@@ -124,19 +124,20 @@ class SettingsPage extends StatelessWidget {
                                 builder: (context) {
                                   final controller = TextEditingController(text: appConfigManager.serverUrl);
                                   return AlertDialog(
-                                    title: const Text('Set Server Address'),
+                                    title: Text(AppLocalizations.of(context)!.setServerAddress),
                                     content: TextField(
                                       controller: controller,
-                                      decoration: const InputDecoration(hintText: 'Please enter the server address'),
+                                      decoration: InputDecoration(
+                                          hintText: AppLocalizations.of(context)!.pleaseEnterTheServerAddress),
                                     ),
                                     actions: [
                                       TextButton(
                                         onPressed: () => Navigator.pop(context),
-                                        child: const Text('Cancel'),
+                                        child: Text(AppLocalizations.of(context)!.cancel),
                                       ),
                                       TextButton(
                                         onPressed: () => Navigator.pop(context, controller.text),
-                                        child: const Text('Confirm'),
+                                        child: Text(AppLocalizations.of(context)!.confirm),
                                       ),
                                     ],
                                   );
@@ -150,10 +151,10 @@ class SettingsPage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      const Padding(
+                      Padding(
                         padding: EdgeInsets.all(16.0),
                         child: Text(
-                          'Engine Settings',
+                          AppLocalizations.of(context)!.engineSettings,
                           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -163,31 +164,35 @@ class SettingsPage extends StatelessWidget {
                           child: Column(
                             children: [
                               ListTile(
-                                title: const Text('Engine Level'),
-                                subtitle: Text('Current: ${appConfigManager.engineLevel}'),
+                                title: Text(AppLocalizations.of(context)!.engineLevel),
+                                subtitle:
+                                    Text('${AppLocalizations.of(context)!.current}: ${appConfigManager.engineLevel}'),
                                 onTap: () => _showEngineLevelDialog(context, appConfigManager),
                               ),
                               SwitchListTile(
-                                title: const Text('Time Control Mode'),
-                                subtitle: Text(appConfigManager.useTimeControl ? 'Limit Time' : 'Limit Depth'),
+                                title: Text(AppLocalizations.of(context)!.timeControlMode),
+                                subtitle: Text(appConfigManager.useTimeControl
+                                    ? AppLocalizations.of(context)!.limitTime
+                                    : AppLocalizations.of(context)!.limitDepth),
                                 value: appConfigManager.useTimeControl,
                                 onChanged: (value) => appConfigManager.setUseTimeControl(value),
                               ),
                               if (appConfigManager.useTimeControl)
                                 ListTile(
-                                  title: const Text('Thinking Time'),
+                                  title: Text(AppLocalizations.of(context)!.thinkingTime),
                                   subtitle: Text('${appConfigManager.moveTime}ms'),
                                   onTap: () => _showMoveTimeDialog(context, appConfigManager),
                                 )
                               else
                                 ListTile(
-                                  title: const Text('Search Depth'),
-                                  subtitle: Text('${appConfigManager.searchDepth} layers'),
+                                  title: Text(AppLocalizations.of(context)!.searchDepth),
+                                  subtitle:
+                                      Text('${appConfigManager.searchDepth} ${AppLocalizations.of(context)!.layers}'),
                                   onTap: () => _showSearchDepthDialog(context, appConfigManager),
                                 ),
                               if (!Platform.isAndroid && !Platform.isIOS)
                                 ListTile(
-                                  title: const Text('Engine Path'),
+                                  title: Text(AppLocalizations.of(context)!.enginePath),
                                   subtitle: Text(appConfigManager.enginePath),
                                   onTap: () async {
                                     final result = await _showEnginePathDialog(context, appConfigManager);
@@ -195,8 +200,8 @@ class SettingsPage extends StatelessWidget {
                                   },
                                 ),
                               SwitchListTile(
-                                title: const Text('Show Engine Analysis Arrows'),
-                                subtitle: const Text('Show predicted moves when the engine is thinking'),
+                                title: Text(AppLocalizations.of(context)!.showEngineAnalysisArrows),
+                                subtitle: Text(AppLocalizations.of(context)!.showPredictedMovesWhenTheEngineIsThinking),
                                 value: appConfigManager.showArrows,
                                 onChanged: (value) => appConfigManager.setShowArrows(value),
                               ),
@@ -231,13 +236,13 @@ class SettingsPage extends StatelessWidget {
         builder: (context) {
           final controller = TextEditingController(text: appConfigManager.enginePath);
           return AlertDialog(
-            title: const Text('Set Engine Path'),
+            title: Text(AppLocalizations.of(context)!.setEnginePath),
             content: Row(
               children: [
                 Expanded(
                   child: TextField(
                     controller: controller,
-                    decoration: const InputDecoration(hintText: 'Please enter the engine path'),
+                    decoration: InputDecoration(hintText: AppLocalizations.of(context)!.pleaseEnterTheEnginePath),
                   ),
                 ),
                 TextButton(
@@ -247,18 +252,18 @@ class SettingsPage extends StatelessWidget {
                       controller.text = path.files.single.path ?? '';
                     }
                   },
-                  child: const Text('Browse'),
+                  child: Text(AppLocalizations.of(context)!.browse),
                 ),
               ],
             ),
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(context),
-                child: const Text('Cancel'),
+                child: Text(AppLocalizations.of(context)!.cancel),
               ),
               TextButton(
                 onPressed: () => Navigator.pop(context, controller.text),
-                child: const Text('Confirm'),
+                child: Text(AppLocalizations.of(context)!.confirm),
               ),
             ],
           );
@@ -269,7 +274,7 @@ class SettingsPage extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => _EngineSliderDialog(
-        title: 'Set Engine Level',
+        title: AppLocalizations.of(context)!.setEngineLevel,
         initialValue: configManager.engineLevel.toDouble(),
         min: 1,
         max: 20,
@@ -284,7 +289,7 @@ class SettingsPage extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => _EngineSliderDialog(
-        title: 'Set Thinking Time',
+        title: AppLocalizations.of(context)!.setThinkingTime,
         initialValue: configManager.moveTime.toDouble(),
         min: 1000,
         max: 15000,
@@ -299,12 +304,12 @@ class SettingsPage extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => _EngineSliderDialog(
-        title: 'Set Search Depth',
+        title: AppLocalizations.of(context)!.setSearchDepth,
         initialValue: configManager.searchDepth.toDouble(),
         min: 1,
         max: 30,
         divisions: 29,
-        labelFormat: (value) => '${value.round()} layers',
+        labelFormat: (value) => '${value.round()} ${AppLocalizations.of(context)!.layers}',
         onChanged: (value) => configManager.setSearchDepth(value.round()),
       ),
     );
@@ -314,7 +319,7 @@ class SettingsPage extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Select Theme Color'),
+        title: Text(AppLocalizations.of(context)!.selectThemeColor),
         content: SizedBox(
           width: double.maxFinite,
           child: ListView.builder(
@@ -349,7 +354,7 @@ class SettingsPage extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Select Piece Theme'),
+        title: Text(AppLocalizations.of(context)!.selectPieceTheme),
         content: SizedBox(
           width: double.maxFinite,
           child: ListView.builder(
@@ -429,7 +434,7 @@ class _EngineSliderDialogState extends State<_EngineSliderDialog> {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('OK'),
+            child: Text(AppLocalizations.of(context)!.ok),
           ),
         ],
       );

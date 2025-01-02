@@ -6,6 +6,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../home_page.dart';
 import '../../widgets/chess_board_widget.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class BoardSetupPage extends StatefulWidget {
   const BoardSetupPage({super.key});
@@ -190,8 +191,8 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   Widget _buildButtonControlls() => Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          ElevatedButton(onPressed: _toggleBoardState, child: const Text('Full / Empty')),
-          ElevatedButton(onPressed: _startGame, child: const Text('Play with AI')),
+          ElevatedButton(onPressed: _toggleBoardState, child: Text(AppLocalizations.of(context)!.fullEmpty)),
+          ElevatedButton(onPressed: _startGame, child: Text(AppLocalizations.of(context)!.playWithAI)),
         ],
       );
 
@@ -207,7 +208,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
               ),
               const SizedBox(width: 8),
               Text(
-                'Setup Board',
+                AppLocalizations.of(context)!.setupBoard,
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                   fontWeight: FontWeight.bold,
                   shadows: [
@@ -321,7 +322,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
               ),
               const SizedBox(width: 8),
               Text(
-                'Drag & drop here to remove',
+                AppLocalizations.of(context)!.dragAndDropToRemove,
                 style: TextStyle(
                   color: candidateData.isNotEmpty ? Colors.white : Colors.red.shade300,
                 ),
@@ -376,13 +377,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   void _startGame() {
     if (!_isValidPosition()) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text(
-            'Invalid position, please check:\n'
-            '1. Each side has one king\n'
-            '2. Pawns cannot be on the first or eighth rank',
-          ),
-        ),
+        SnackBar(content: Text(AppLocalizations.of(context)!.invalidPosition)),
       );
       return;
     }

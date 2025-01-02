@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../services/favorites_service.dart';
 import 'viewer_page.dart';
@@ -61,7 +62,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Failed to load games list: $e')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.failedToLoadGamesList(e.toString()))),
         );
       }
     }
@@ -93,7 +94,10 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
                 _buildHeader(context),
                 TabBar(
                   controller: _tabController,
-                  tabs: const [Tab(text: 'All Games'), Tab(text: 'Favorites')],
+                  tabs: [
+                    Tab(text: AppLocalizations.of(context)!.allGames),
+                    Tab(text: AppLocalizations.of(context)!.favorites)
+                  ],
                 ),
                 Expanded(
                   child: TabBarView(
@@ -117,7 +121,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
             ),
             const SizedBox(width: 8),
             Text(
-              'Games',
+              AppLocalizations.of(context)!.games,
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
                 shadows: [
@@ -167,7 +171,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Failed to load file: $e')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.failedToLoadFile(e.toString()))),
         );
       }
     }
@@ -188,7 +192,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
           child: TextField(
             controller: _searchController,
             decoration: InputDecoration(
-              hintText: 'Search games...',
+              hintText: AppLocalizations.of(context)!.searchGames,
               prefixIcon: const Icon(Icons.search),
               suffixIcon: searchKeyword.isNotEmpty
                   ? IconButton(
@@ -221,7 +225,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   subtitle: Text(
-                    '${game.count} games',
+                    '${game.count} ${AppLocalizations.of(context)!.games}',
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           color: Theme.of(context).textTheme.bodySmall?.color,
                         ),
@@ -247,7 +251,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
     }
 
     if (favorites!.isEmpty) {
-      return const Center(child: Text('No favorite games available'));
+      return Center(child: Text(AppLocalizations.of(context)!.noFavoriteGamesAvailable));
     }
 
     final filteredFavorites =

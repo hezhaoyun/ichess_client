@@ -10,6 +10,7 @@ class Reasons {
   static const kDrawInsufficientMaterial = 'INSUFFICIENT_MATERIAL';
   static const kDrawConsensus = 'CONSENSUS';
 
+  // TODO: multiple language support
   static const win = {
     kWinCheckmate: 'Checkmated',
     kWinOpponentOutOfTime: 'Opponent Out of Time',
