@@ -142,7 +142,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   _buildAnimatedCard(
                     Icons.computer,
-                    'Player vs AI',
+                    'Human vs AI',
                     onTap: () => _animateAndNavigate(Routes.aiBattle),
                     size: size,
                   ),

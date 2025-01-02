@@ -573,7 +573,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
         20; // 间距
 
     final boardSize = min(w - 350 - 10, availableHeight) - 20;
-    final controlWidth = min(w - boardSize, 500.0);
+    final controlWidth = w - boardSize;
 
     return Column(
       children: [
@@ -671,7 +671,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
               IconButton(icon: const Icon(Icons.arrow_back_ios), onPressed: () => Navigator.of(context).pop()),
               Expanded(
                 child: Text(
-                  'Player vs AI',
+                  'Human vs AI',
                   style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                     fontWeight: FontWeight.bold,
                     shadows: [

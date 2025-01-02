@@ -103,7 +103,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
         20; // 间距
 
     final boardSize = min(w - 350 - 10, availableHeight) - 20;
-    final controlWidth = min(w - boardSize, 500.0);
+    final controlWidth = w - boardSize;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -122,21 +122,30 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     SizedBox(
-                      height: 60,
+                      height: controlWidth > 450 ? 100 : 60,
                       width: controlWidth,
                       child: _buildPiecesPanel(width: controlWidth, isWhite: false),
                     ),
                     SizedBox(
-                      height: 60,
+                      height: controlWidth > 450 ? 100 : 60,
                       width: controlWidth,
-                      child: _buildPiecesPanel(width: controlWidth, isWhite: false),
+                      child: _buildPiecesPanel(width: controlWidth, isWhite: true),
                     ),
                     SizedBox(
-                      height: boardSize - 210,
+                      height: controlWidth > 450 ? 90 : 60,
                       width: controlWidth,
-                      child: Center(child: _buildButtonControlls()),
+                      child: _buildTrashBin(boardSize),
                     ),
-                    SizedBox(height: 90, width: controlWidth, child: _buildTrashBin(boardSize)),
+                    SizedBox(
+                      height: boardSize - (controlWidth > 450 ? 300 : 190),
+                      width: controlWidth,
+                      child: Column(
+                        children: [
+                          const Spacer(),
+                          _buildButtonControlls(),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -181,8 +190,8 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   Widget _buildButtonControlls() => Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          ElevatedButton(onPressed: _toggleBoardState, child: const Text('Switch Board')),
-          ElevatedButton(onPressed: _startGame, child: const Text('Start Game')),
+          ElevatedButton(onPressed: _toggleBoardState, child: const Text('Full / Empty')),
+          ElevatedButton(onPressed: _startGame, child: const Text('Play with AI')),
         ],
       );
 

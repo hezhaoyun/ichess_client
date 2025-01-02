@@ -341,7 +341,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
         20; // 间距
 
     final boardSize = min(w - 350 - 10, availableHeight) - 20;
-    final controlWidth = min(w - boardSize, 500.0);
+    final controlWidth = w - boardSize;
 
     return Column(
       children: [
