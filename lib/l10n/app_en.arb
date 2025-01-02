@@ -36,21 +36,9 @@
   "@showEngineArrows": {
     "description": "Title for show engine arrows settings"
   },
-  "showArrowsDescription": "Show predicted moves when the engine is thinking",
-  "@showArrowsDescription": {
-    "description": "Description for show arrows setting"
-  },
   "language": "Language",
   "@language": {
     "description": "Title for language settings"
-  },
-  "encouragementMessage": "Don't be discouraged, keep trying!",
-  "@encouragementMessage": {
-    "description": "Message shown when player loses"
-  },
-  "congratulationsMessage": "Congratulations on defeating your opponent!",
-  "@congratulationsMessage": {
-    "description": "Message shown when player wins"
   },
   "insufficientMaterial": "Insufficient material, draw",
   "@insufficientMaterial": {
