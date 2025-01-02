@@ -224,20 +224,14 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
         ),
       );
 
-  Widget _buildChessBoard(double boardSize) => Container(
-        decoration: BoxDecoration(
-          color: Colors.white.withAlpha(0xCC),
-          borderRadius: BorderRadius.circular(10),
-        ),
-        child: ChessBoardWidget(
-          size: boardSize,
-          controller: _controller,
-          orientation: BoardOrientation.white,
-          interactiveEnable: true,
-          onPieceStartDrag: (square, piece) {},
-          onPieceDrop: onPieceDrop,
-          onEmptyFieldTap: onEmptyFieldTap,
-        ),
+  Widget _buildChessBoard(double boardSize) => ChessBoardWidget(
+        size: boardSize,
+        controller: _controller,
+        orientation: BoardOrientation.white,
+        interactiveEnable: true,
+        onPieceStartDrag: (square, piece) {},
+        onPieceDrop: onPieceDrop,
+        onEmptyFieldTap: onEmptyFieldTap,
       );
 
   Widget _buildPiecesPanel({required bool isWhite, required double width}) {

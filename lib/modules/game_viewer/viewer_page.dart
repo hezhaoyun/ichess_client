@@ -370,18 +370,12 @@ class _ViewerPageState extends State<ViewerPage> {
         ),
       );
 
-  Widget _buildChessBoardSection(double boardSize) => Container(
-        decoration: BoxDecoration(
-          color: Colors.white.withAlpha(0xCC),
-          borderRadius: BorderRadius.circular(10),
-        ),
-        child: ChessBoardWidget(
-          size: boardSize,
-          orientation: BoardOrientation.white,
-          controller: chessboardController,
-          getLastMove: () => lastMove,
-          interactiveEnable: false,
-        ),
+  Widget _buildChessBoardSection(double boardSize) => ChessBoardWidget(
+        size: boardSize,
+        orientation: BoardOrientation.white,
+        controller: chessboardController,
+        getLastMove: () => lastMove,
+        interactiveEnable: false,
       );
 
   Widget _buildControlPanel(double w) {

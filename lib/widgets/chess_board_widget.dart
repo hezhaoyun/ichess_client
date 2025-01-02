@@ -87,25 +87,56 @@ class ChessBoardWidget extends StatelessWidget {
         ),
       );
 
+  Widget _buildRankNumber(int index) => Positioned(
+        left: 2, // 左边距
+        top: 10 + (_size / 8) * index + (_size / 16) - 6, // 垂直居中
+        child: Text(
+          '${8 - index}',
+          style: const TextStyle(fontSize: 10, color: Colors.black54),
+        ),
+      );
+
+  Widget _buildFileLabel(int index) => Positioned(
+        left: 10 + (_size / 8) * index + (_size / 16) - 4, // 水平居中
+        bottom: -2, // 底部边距
+        child: Text(
+          String.fromCharCode('a'.codeUnitAt(0) + index),
+          style: const TextStyle(fontSize: 10, color: Colors.black54),
+        ),
+      );
+
   @override
-  Widget build(BuildContext context) => Padding(
-        padding: const EdgeInsets.all(10),
-        child: WPChessboard(
-          size: _size,
-          orientation: orientation,
-          squareBuilder: squareBuilder,
-          controller: controller,
-          onPieceDrop: interactiveEnable ? onPieceDrop : null,
-          onPieceTap: interactiveEnable ? onPieceTap : null,
-          onPieceStartDrag: onPieceStartDrag,
-          onEmptyFieldTap: interactiveEnable ? onEmptyFieldTap : null,
-          turnTopPlayerPieces: false,
-          ghostOnDrag: true,
-          dropIndicator: DropIndicatorArgs(
-            size: _size / 2,
-            color: Colors.lightBlue.withAlpha(0x3D),
-          ),
-          pieceMap: pieceMap(context),
+  Widget build(BuildContext context) => Container(
+        decoration: BoxDecoration(
+          color: Colors.white.withAlpha(0xCC),
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: Stack(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(10),
+              child: WPChessboard(
+                size: _size,
+                orientation: orientation,
+                squareBuilder: squareBuilder,
+                controller: controller,
+                onPieceDrop: interactiveEnable ? onPieceDrop : null,
+                onPieceTap: interactiveEnable ? onPieceTap : null,
+                onPieceStartDrag: onPieceStartDrag,
+                onEmptyFieldTap: interactiveEnable ? onEmptyFieldTap : null,
+                turnTopPlayerPieces: false,
+                ghostOnDrag: true,
+                dropIndicator: DropIndicatorArgs(
+                  size: _size / 2,
+                  color: Colors.lightBlue.withAlpha(0x3D),
+                ),
+                pieceMap: pieceMap(context),
+              ),
+            ),
+            // 添加标记
+            ...List.generate(8, (i) => _buildRankNumber(i)),
+            ...List.generate(8, (i) => _buildFileLabel(i)),
+          ],
         ),
       );
 }

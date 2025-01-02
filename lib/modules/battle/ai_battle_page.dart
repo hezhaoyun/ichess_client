@@ -644,22 +644,16 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     );
   }
 
-  Widget _buildBoard(double boardSize) => Container(
-        decoration: BoxDecoration(
-          color: Colors.white.withAlpha(0xCC),
-          borderRadius: BorderRadius.circular(10),
-        ),
-        child: ChessBoardWidget(
-          size: boardSize,
-          controller: controller,
-          orientation: boardOrientation,
-          interactiveEnable: !isThinking,
-          getLastMove: () => lastMove,
-          onPieceDrop: onPieceDrop,
-          onPieceTap: onPieceTap,
-          onPieceStartDrag: onPieceStartDrag,
-          onEmptyFieldTap: onEmptyFieldTap,
-        ),
+  Widget _buildBoard(double boardSize) => ChessBoardWidget(
+        size: boardSize,
+        controller: controller,
+        orientation: boardOrientation,
+        interactiveEnable: !isThinking,
+        getLastMove: () => lastMove,
+        onPieceDrop: onPieceDrop,
+        onPieceTap: onPieceTap,
+        onPieceStartDrag: onPieceStartDrag,
+        onEmptyFieldTap: onEmptyFieldTap,
       );
 
   Widget _buildHeader() => SizedBox(

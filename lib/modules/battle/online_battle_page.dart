@@ -442,22 +442,16 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
     );
   }
 
-  Widget _buildBoard(double boardSize) => Container(
-        decoration: BoxDecoration(
-          color: Colors.white.withAlpha(0xCC),
-          borderRadius: BorderRadius.circular(10),
-        ),
-        child: ChessBoardWidget(
-          size: boardSize,
-          controller: controller,
-          orientation: orientation,
-          interactiveEnable: interactiveEnable,
-          getLastMove: () => lastMove,
-          onPieceDrop: onPieceDrop,
-          onPieceTap: onPieceTap,
-          onPieceStartDrag: onPieceStartDrag,
-          onEmptyFieldTap: onEmptyFieldTap,
-        ),
+  Widget _buildBoard(double boardSize) => ChessBoardWidget(
+        size: boardSize,
+        controller: controller,
+        orientation: orientation,
+        interactiveEnable: interactiveEnable,
+        getLastMove: () => lastMove,
+        onPieceDrop: onPieceDrop,
+        onPieceTap: onPieceTap,
+        onPieceStartDrag: onPieceStartDrag,
+        onEmptyFieldTap: onEmptyFieldTap,
       );
 
   bool get interactiveEnable {
