@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
@@ -70,91 +72,167 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   }
 
   @override
-  Widget build(BuildContext context) {
-    final double boardSize = MediaQuery.of(context).size.shortestSide - 48;
+  Widget build(BuildContext context) => Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Theme.of(context).colorScheme.primary.withAlpha(0x1A),
+                Theme.of(context).colorScheme.surface,
+              ],
+            ),
+          ),
+          child: SafeArea(
+            child: LayoutBuilder(builder: (context, constraints) {
+              final w = constraints.maxWidth, h = constraints.maxHeight;
+              final isLandscape = w > h;
+              return isLandscape ? _buildLandscapeLayout(w, h) : _buildPortraitLayout(w, h);
+            }),
+          ),
+        ),
+      );
 
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Theme.of(context).colorScheme.primary.withAlpha(0x1A),
-              Theme.of(context).colorScheme.surface,
+  Widget _buildLandscapeLayout(double w, double h) {
+    // 获取屏幕高度并预留空间给其他组件
+    final availableHeight = h -
+        kToolbarHeight - // 顶部工具栏
+        MediaQuery.of(context).padding.top - // 状态栏
+        MediaQuery.of(context).padding.bottom - // 底部安全区域
+        20; // 间距
+
+    final boardSize = min(w - 350 - 10, availableHeight) - 20;
+    final controlWidth = min(w - boardSize, 500.0);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        _buildHeader(context),
+        const Spacer(),
+        SizedBox(
+          height: boardSize,
+          child: Row(
+            children: [
+              const SizedBox(width: 10),
+              _buildChessBoard(boardSize),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    SizedBox(
+                      height: 60,
+                      width: controlWidth,
+                      child: _buildPiecesPanel(width: controlWidth, isWhite: false),
+                    ),
+                    SizedBox(
+                      height: 60,
+                      width: controlWidth,
+                      child: _buildPiecesPanel(width: controlWidth, isWhite: false),
+                    ),
+                    SizedBox(
+                      height: boardSize - 210,
+                      width: controlWidth,
+                      child: Center(child: _buildButtonControlls()),
+                    ),
+                    SizedBox(height: 90, width: controlWidth, child: _buildTrashBin(boardSize)),
+                  ],
+                ),
+              ),
+              const SizedBox(width: 10),
             ],
           ),
         ),
-        child: SafeArea(
+        const Spacer(),
+      ],
+    );
+  }
+
+  Widget _buildPortraitLayout(double w, double h) {
+    // 获取屏幕高度并预留空间给其他组件
+    final availableHeight = h -
+        kToolbarHeight - // 顶部工具栏
+        MediaQuery.of(context).padding.top - // 状态栏
+        MediaQuery.of(context).padding.bottom - // 底部安全区域
+        230; // 预留给上下 player info/按钮和控件间距: 60 + 60 + 50 + 60
+
+    // 计算合适的棋盘大小
+    final boardSize = min(w, availableHeight) - 20;
+
+    return Column(
+      children: [
+        _buildHeader(context),
+        Expanded(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              _buildHeader(context),
-              Expanded(
-                child: Column(
-                  children: [
-                    _buildPiecesPanel(isWhite: false),
-                    _buildChessBoard(boardSize),
-                    _buildPiecesPanel(isWhite: true),
-                    _buildTrashBin(boardSize),
-                    const SizedBox(height: 24),
+              SizedBox(width: boardSize, height: 60, child: _buildPiecesPanel(width: boardSize, isWhite: false)),
+              _buildChessBoard(boardSize),
+              SizedBox(width: boardSize, height: 60, child: _buildPiecesPanel(width: boardSize, isWhite: true)),
+              SizedBox(width: boardSize, height: 50, child: _buildTrashBin(boardSize)),
+              SizedBox(width: boardSize, height: 60, child: _buildButtonControlls()),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildButtonControlls() => Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          ElevatedButton(onPressed: _toggleBoardState, child: const Text('Switch Board')),
+          ElevatedButton(onPressed: _startGame, child: const Text('Start Game')),
+        ],
+      );
+
+  Widget _buildHeader(BuildContext context) => SizedBox(
+        height: kToolbarHeight,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          child: Row(
+            children: [
+              IconButton(
+                icon: Icon(Icons.arrow_back, color: Theme.of(context).colorScheme.primary),
+                onPressed: () => Navigator.pop(context),
+              ),
+              const SizedBox(width: 8),
+              Text(
+                'Setup Board',
+                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                  fontWeight: FontWeight.bold,
+                  shadows: [
+                    Shadow(
+                      color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                      offset: const Offset(2, 2),
+                      blurRadius: 4,
+                    ),
                   ],
                 ),
               ),
             ],
           ),
         ),
-      ),
-    );
-  }
+      );
 
-  Widget _buildHeader(BuildContext context) => Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Row(
-          children: [
-            IconButton(
-              icon: Icon(Icons.arrow_back, color: Theme.of(context).colorScheme.primary),
-              onPressed: () => Navigator.pop(context),
-            ),
-            const SizedBox(width: 8),
-            Text(
-              'Setup Board',
-              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                fontWeight: FontWeight.bold,
-                shadows: [
-                  Shadow(
-                    color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                    offset: const Offset(2, 2),
-                    blurRadius: 4,
-                  ),
-                ],
-              ),
-            ),
-            const Spacer(),
-            IconButton(
-              icon: Icon(Icons.switch_access_shortcut, color: Theme.of(context).colorScheme.primary),
-              onPressed: _toggleBoardState,
-            ),
-            IconButton(
-              icon: Icon(Icons.play_arrow, color: Theme.of(context).colorScheme.primary),
-              onPressed: _startGame,
-            ),
-          ],
+  Widget _buildChessBoard(double boardSize) => Container(
+        decoration: BoxDecoration(
+          color: Colors.white.withAlpha(0xCC),
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: ChessBoardWidget(
+          size: boardSize,
+          controller: _controller,
+          orientation: BoardOrientation.white,
+          interactiveEnable: true,
+          onPieceStartDrag: (square, piece) {},
+          onPieceDrop: onPieceDrop,
+          onEmptyFieldTap: onEmptyFieldTap,
         ),
       );
 
-  Widget _buildChessBoard(double boardSize) => ChessBoardWidget(
-        size: boardSize,
-        controller: _controller,
-        orientation: BoardOrientation.white,
-        interactiveEnable: true,
-        onPieceStartDrag: (square, piece) {},
-        onPieceDrop: onPieceDrop,
-        onEmptyFieldTap: onEmptyFieldTap,
-      );
-
-  Widget _buildPiecesPanel({required bool isWhite}) {
-    final pieceSize = _calculatePieceSize();
+  Widget _buildPiecesPanel({required bool isWhite, required double width}) {
+    final pieceSize = _calculatePieceSize(width);
     final pieces = _buildPiecesList(isWhite, pieceSize);
 
     return Container(
@@ -167,10 +245,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
     );
   }
 
-  double _calculatePieceSize() {
-    final boardSize = MediaQuery.of(context).size.shortestSide - 48;
-    return boardSize / 8;
-  }
+  double _calculatePieceSize(double width) => width / 8;
 
   List<Widget> _buildPiecesList(bool isWhite, double pieceSize) {
     final config = _pieceConfigs[isWhite ? 'white' : 'black']!;
@@ -243,7 +318,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
               ),
               const SizedBox(width: 8),
               Text(
-                'Drag and drop here to remove a piece',
+                'Drag & drop here to remove',
                 style: TextStyle(
                   color: candidateData.isNotEmpty ? Colors.white : Colors.red.shade300,
                 ),
@@ -299,8 +374,12 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
     if (!_isValidPosition()) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-            content: Text(
-                'Invalid position, please check:\n1. Each side has one king\n2. Pawns cannot be on the first or eighth rank')),
+          content: Text(
+            'Invalid position, please check:\n'
+            '1. Each side has one king\n'
+            '2. Pawns cannot be on the first or eighth rank',
+          ),
+        ),
       );
       return;
     }
