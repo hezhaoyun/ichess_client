@@ -1,3 +1,6 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 class Reasons {
   static const kWinCheckmate = 'CHECKMATE';
   static const kWinOpponentOutOfTime = 'OPPONENT_OUT_OF_TIME';
@@ -10,27 +13,47 @@ class Reasons {
   static const kDrawInsufficientMaterial = 'INSUFFICIENT_MATERIAL';
   static const kDrawConsensus = 'CONSENSUS';
 
-  // TODO: multiple language support
-  static const win = {
-    kWinCheckmate: 'Checkmated',
-    kWinOpponentOutOfTime: 'Opponent Out of Time',
-    kWinOpponentResigned: 'Opponent Resigned',
-    kWinOpponentLeft: 'Opponent Left',
-  };
+  final BuildContext context;
+  Reasons(this.context);
 
-  static const lose = {
-    kLoseCheckmated: 'Checkmated',
-    kLoseOutOfTime: 'Out of Time',
-    kLoseResigned: 'Resigned',
-  };
+  String winReason(String reason) {
+    switch (reason) {
+      case kWinCheckmate:
+        return AppLocalizations.of(context)!.checkmated;
+      case kWinOpponentOutOfTime:
+        return AppLocalizations.of(context)!.opponentOutOfTime;
+      case kWinOpponentResigned:
+        return AppLocalizations.of(context)!.opponentResigned;
+      case kWinOpponentLeft:
+        return AppLocalizations.of(context)!.opponentLeft;
+      default:
+        return reason;
+    }
+  }
 
-  static const draw = {
-    kDrawStalemate: 'Stalemate',
-    kDrawInsufficientMaterial: 'Insufficient Material',
-    kDrawConsensus: 'Consensus',
-  };
+  String loseReason(String reason) {
+    switch (reason) {
+      case kLoseCheckmated:
+        return AppLocalizations.of(context)!.checkmated;
+      case kLoseOutOfTime:
+        return AppLocalizations.of(context)!.outOfTime;
+      case kLoseResigned:
+        return AppLocalizations.of(context)!.resigned;
+      default:
+        return reason;
+    }
+  }
 
-  static String winOf(String reason) => win[reason] ?? reason;
-  static String loseOf(String reason) => lose[reason] ?? reason;
-  static String drawOf(String reason) => draw[reason] ?? reason;
+  String drawReason(String reason) {
+    switch (reason) {
+      case kDrawStalemate:
+        return AppLocalizations.of(context)!.stalemate;
+      case kDrawInsufficientMaterial:
+        return AppLocalizations.of(context)!.insufficientMaterial;
+      case kDrawConsensus:
+        return AppLocalizations.of(context)!.consensus;
+      default:
+        return reason;
+    }
+  }
 }

@@ -463,5 +463,37 @@
   "exploreTheInfinitePossibilitiesOfChess": "Explore the infinite possibilities of chess",
   "@exploreTheInfinitePossibilitiesOfChess": {
     "description": "Explore the infinite possibilities of chess"
+  },
+  "checkmated": "Checkmated",
+  "@checkmated": {
+    "description": "Checkmated"
+  },
+  "opponentOutOfTime": "Opponent Out of Time",
+  "@opponentOutOfTime": {
+    "description": "Opponent Out of Time"
+  },
+  "opponentResigned": "Opponent Resigned",
+  "@opponentResigned": {
+    "description": "Opponent Resigned"
+  },
+  "opponentLeft": "Opponent Left",
+  "@opponentLeft": {
+    "description": "Opponent Left"
+  },
+  "outOfTime": "Out of Time",
+  "@outOfTime": {
+    "description": "Out of Time"
+  },
+  "resigned": "Resigned",
+  "@resigned": {
+    "description": "Resigned"
+  },
+  "stalemate": "Stalemate",
+  "@stalemate": {
+    "description": "Stalemate"
+  },
+  "consensus": "Consensus",
+  "@consensus": {
+    "description": "Consensus"
   }
 }

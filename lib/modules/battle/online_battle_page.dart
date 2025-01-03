@@ -293,7 +293,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
       barrierDismissible: false,
       builder: (context) => GameResultDialog(
         title: AppLocalizations.of(context)!.youWon,
-        message: Reasons.winOf(data['reason']),
+        message: Reasons(context).winReason(data['reason']),
         result: GameResult.win,
       ),
     );
@@ -308,7 +308,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
       barrierDismissible: false,
       builder: (context) => GameResultDialog(
         title: AppLocalizations.of(context)!.youLost,
-        message: Reasons.loseOf(data['reason']),
+        message: Reasons(context).loseReason(data['reason']),
         result: GameResult.lose,
       ),
     );
@@ -321,7 +321,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
       barrierDismissible: false,
       builder: (context) => GameResultDialog(
         title: AppLocalizations.of(context)!.draw,
-        message: Reasons.drawOf(data['reason']),
+        message: Reasons(context).drawReason(data['reason']),
         result: GameResult.draw,
       ),
     );
