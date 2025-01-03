@@ -65,7 +65,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
           GlobalCupertinoLocalizations.delegate,
         ],
         supportedLocales: AppLocalizations.supportedLocales,
-        title: AppLocalizations.of(context)!.appName,
+        title: AppLocalizations.of(context)?.appName ?? 'Chess Road',
         theme: themeManager.getTheme().copyWith(
               textTheme: themeManager.getTheme().textTheme.apply(
                     fontFamily: 'Komigo3D-Regular',

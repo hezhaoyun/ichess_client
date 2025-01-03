@@ -94,7 +94,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
             Icon(
               Icons.sports_esports,
               size: 120,
-              color: Theme.of(context).colorScheme.primary.withOpacity(0.5),
+              color: Theme.of(context).colorScheme.primary.withAlpha(0x88),
             ),
             const SizedBox(height: 24),
             Text(
