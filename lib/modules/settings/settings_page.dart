@@ -76,7 +76,7 @@ class SettingsPage extends StatelessWidget {
                         child: Card(
                           child: ListTile(
                             leading: Icon(Icons.language),
-                            title: Text(appConfigManager.language),
+                            title: Text(getLanguageName(appConfigManager.language)),
                             onTap: () {
                               Navigator.push(
                                 context,
