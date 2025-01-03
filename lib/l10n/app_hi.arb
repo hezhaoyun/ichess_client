@@ -1,0 +1,499 @@
+{
+  "@@locale": "hi",
+  "appName": "Chess Road",
+  "@appName": {
+    "description": "The application name"
+  },
+  "colorTheme": "रंग थीम",
+  "@colorTheme": {
+    "description": "Title for color theme settings"
+  },
+  "pieceTheme": "मोहरों की थीम",
+  "@pieceTheme": {
+    "description": "Title for chess piece theme settings"
+  },
+  "serverSettings": "सर्वर सेटिंग्स",
+  "@serverSettings": {
+    "description": "Title for server settings"
+  },
+  "engineLevel": "इंजन स्तर",
+  "@engineLevel": {
+    "description": "Title for AI engine level settings"
+  },
+  "moveTime": "चाल का समय",
+  "@moveTime": {
+    "description": "Title for move time settings"
+  },
+  "searchDepth": "खोज की गहराई",
+  "@searchDepth": {
+    "description": "Title for search depth settings"
+  },
+  "enginePath": "इंजन पथ",
+  "@enginePath": {
+    "description": "Title for engine path settings"
+  },
+  "showEngineArrows": "विश्लेषण तीर दिखाएं",
+  "@showEngineArrows": {
+    "description": "Title for show engine arrows settings"
+  },
+  "language": "भाषा",
+  "@language": {
+    "description": "Title for language settings"
+  },
+  "insufficientMaterial": "अपर्याप्त सामग्री, ड्रॉ",
+  "@insufficientMaterial": {
+    "description": "Message for insufficient material draw"
+  },
+  "threefoldRepetition": "तीन बार दोहराव, ड्रॉ",
+  "@threefoldRepetition": {
+    "description": "Message for threefold repetition draw"
+  },
+  "draw": "ड्रॉ",
+  "@draw": {
+    "description": "Message for draw"
+  },
+  "failedToLoadFile": "फ़ाइल लोड करने में विफल: {error}",
+  "@failedToLoadFile": {
+    "description": "Message shown when file loading fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "File not found"
+      }
+    }
+  },
+  "newGame": "नया खेल",
+  "@newGame": {
+    "description": "New game button text"
+  },
+  "undo": "वापस लें",
+  "@undo": {
+    "description": "Undo move button text"
+  },
+  "engineInitializationFailed": "इंजन प्रारंभ करने में विफल!",
+  "@engineInitializationFailed": {
+    "description": "Message shown when engine initialization fails"
+  },
+  "hint": "संकेत",
+  "@hint": {
+    "description": "Hint button text"
+  },
+  "analyzing": "विश्लेषण कर रहा है...",
+  "@analyzing": {
+    "description": "Analyzing message"
+  },
+  "dontBeDiscouraged": "निराश मत हों, प्रयास जारी रखें!",
+  "@dontBeDiscouraged": {
+    "description": "Message shown when player loses"
+  },
+  "congratulations": "जीत की बधाई!",
+  "@congratulations": {
+    "description": "Message shown when player wins"
+  },
+  "youWon": "आप जीत गए!",
+  "@youWon": {
+    "description": "Message shown when player wins"
+  },
+  "youLost": "आप हार गए!",
+  "@youLost": {
+    "description": "Message shown when player loses"
+  },
+  "engineCannotFindValidMove": "इंजन वैध चाल नहीं ढूंढ पा रहा है",
+  "@engineCannotFindValidMove": {
+    "description": "Message shown when engine cannot find valid move"
+  },
+  "engineMoveError": "इंजन चाल त्रुटि: {error}",
+  "@engineMoveError": {
+    "description": "Message shown when engine move error",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Engine error"
+      }
+    }
+  },
+  "chooseYourColor": "अपना रंग चुनें",
+  "@chooseYourColor": {
+    "description": "Title for choose your color"
+  },
+  "white": "सफेद",
+  "@white": {
+    "description": "White color"
+  },
+  "black": "काला",
+  "@black": {
+    "description": "Black color"
+  },
+  "chooseSaveLocation": "सहेजने का स्थान चुनें",
+  "@chooseSaveLocation": {
+    "description": "Title for choose save location"
+  },
+  "gameSaved": "खेल सहेजा गया",
+  "@gameSaved": {
+    "description": "Message shown when game is saved"
+  },
+  "saveFailed": "सहेजना विफल, कृपया पुनः प्रयास करें",
+  "@saveFailed": {
+    "description": "Message shown when save fails"
+  },
+  "analysisFailed": "विश्लेषण विफल, कृपया पुनः प्रयास करें",
+  "@analysisFailed": {
+    "description": "Message shown when analysis fails"
+  },
+  "humanVsAi": "मानव बनाम एआई",
+  "@humanVsAi": {
+    "description": "Title for human vs AI"
+  },
+  "ai": "एआई",
+  "@ai": {
+    "description": "AI"
+  },
+  "you": "आप",
+  "@you": {
+    "description": "You"
+  },
+  "computer": "कंप्यूटर",
+  "@computer": {
+    "description": "Computer"
+  },
+  "player": "खिलाड़ी",
+  "@player": {
+    "description": "Player"
+  },
+  "confirmDraw": "ड्रॉ की पुष्टि करें?",
+  "@confirmDraw": {
+    "description": "Title for confirm draw"
+  },
+  "areYouSureYouWantToProposeADraw": "क्या आप वाकई ड्रॉ प्रस्तावित करना चाहते हैं?",
+  "@areYouSureYouWantToProposeADraw": {
+    "description": "Message for confirm draw"
+  },
+  "takeback": "चाल वापस लें",
+  "@takeback": {
+    "description": "Takeback"
+  },
+  "accept": "स्वीकार करें",
+  "@accept": {
+    "description": "Accept"
+  },
+  "reject": "अस्वीकार करें",
+  "@reject": {
+    "description": "Reject"
+  },
+  "ok": "ठीक है",
+  "@ok": {
+    "description": "OK"
+  },
+  "takebackDeclined": "चाल वापस लेने से इनकार",
+  "@takebackDeclined": {
+    "description": "Message for takeback declined"
+  },
+  "drawDeclined": "ड्रॉ अस्वीकृत",
+  "@drawDeclined": {
+    "description": "Message for draw declined"
+  },
+  "opponentRequestsTakeback": "प्रतिद्वंद्वी चाल वापस लेना चाहता है, क्या आप स्वीकार करते हैं?",
+  "@opponentRequestsTakeback": {
+    "description": "Message for opponent requests takeback"
+  },
+  "opponentProposesDraw": "प्रतिद्वंद्वी ड्रॉ प्रस्तावित करता है, क्या आप स्वीकार करते हैं?",
+  "@opponentProposesDraw": {
+    "description": "Message for opponent proposes draw"
+  },
+  "yes": "हाँ",
+  "@yes": {
+    "description": "Yes"
+  },
+  "no": "नहीं",
+  "@no": {
+    "description": "No"
+  },
+  "areYouSureYouWantToRequestATakeback": "क्या आप वाकई चाल वापस लेने का अनुरोध करना चाहते हैं?",
+  "@areYouSureYouWantToRequestATakeback": {
+    "description": "Message for are you sure you want to request a takeback"
+  },
+  "confirmTakeback": "चाल वापस लेने की पुष्टि करें?",
+  "@confirmTakeback": {
+    "description": "Title for confirm takeback"
+  },
+  "areYouSureYouWantToResign": "क्या आप वाकई हार मानना चाहते हैं?",
+  "@areYouSureYouWantToResign": {
+    "description": "Message for are you sure you want to resign"
+  },
+  "confirmResign": "हार मानने की पुष्टि करें?",
+  "@confirmResign": {
+    "description": "Title for confirm resign"
+  },
+  "searchingForAnOpponent": "प्रतिद्वंद्वी की खोज जारी...",
+  "@searchingForAnOpponent": {
+    "description": "Message for searching for an opponent"
+  },
+  "playOnline": "ऑनलाइन खेलें",
+  "@playOnline": {
+    "description": "Title for play online"
+  },
+  "startOnline": "ऑनलाइन शुरू करें",
+  "@startOnline": {
+    "description": "Title for start online"
+  },
+  "connectToTheServerToStartYourBattleJourney": "अपनी युद्ध यात्रा शुरू करने के लिए सर्वर से कनेक्ट करें",
+  "@connectToTheServerToStartYourBattleJourney": {
+    "description": "Message for connect to the server to start your battle journey"
+  },
+  "connect": "कनेक्ट करें",
+  "@connect": {
+    "description": "Connect"
+  },
+  "match": "मैच",
+  "@match": {
+    "description": "Match"
+  },
+  "proposeDraw": "ड्रॉ प्रस्तावित करें",
+  "@proposeDraw": {
+    "description": "Propose Draw"
+  },
+  "cancel": "रद्द करें",
+  "@cancel": {
+    "description": "Cancel"
+  },
+  "resign": "हार मानें",
+  "@resign": {
+    "description": "Resign"
+  },
+  "takeBack": "वापस लें",
+  "@takeBack": {
+    "description": "Take Back"
+  },
+  "promotion": "पदोन्नति",
+  "@promotion": {
+    "description": "Promotion"
+  },
+  "fullEmpty": "पूर्ण / खाली",
+  "@fullEmpty": {
+    "description": "Full / Empty"
+  },
+  "playWithAI": "एआई के साथ खेलें",
+  "@playWithAI": {
+    "description": "Play with AI"
+  },
+  "dragAndDropToRemove": "हटाने के लिए यहाँ खींचें और छोड़ें",
+  "@dragAndDropToRemove": {
+    "description": "Drag & drop here to remove"
+  },
+  "invalidPosition": "अमान्य स्थिति, कृपया जाँचें:\n1. प्रत्येक पक्ष का एक राजा होना चाहिए\n2. प्यादे पहली या आखिरी पंक्ति पर नहीं हो सकते",
+  "@invalidPosition": {
+    "description": "Invalid position"
+  },
+  "setupBoard": "बोर्ड सेट करें",
+  "@setupBoard": {
+    "description": "Setup Board"
+  },
+  "allGames": "सभी खेल",
+  "@allGames": {
+    "description": "All Games"
+  },
+  "favorites": "पसंदीदा",
+  "@favorites": {
+    "description": "Favorites"
+  },
+  "noFavoriteGamesAvailable": "कोई पसंदीदा खेल उपलब्ध नहीं",
+  "@noFavoriteGamesAvailable": {
+    "description": "No favorite games available"
+  },
+  "searchGames": "खेल खोजें...",
+  "@searchGames": {
+    "description": "Search games"
+  },
+  "games": "खेल",
+  "@games": {
+    "description": "Games"
+  },
+  "failedToLoadGamesList": "खेलों की सूची लोड करने में विफल: {error}",
+  "@failedToLoadGamesList": {
+    "description": "Failed to load games list",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Error"
+      }
+    }
+  },
+  "comments": "टिप्पणियाँ: {comments}",
+  "@comments": {
+    "description": "Comments",
+    "placeholders": {
+      "comments": {
+        "type": "String",
+        "example": "Comments"
+      }
+    }
+  },
+  "branchSelection": "वैरिएंट चयन",
+  "@branchSelection": {
+    "description": "Branch Selection"
+  },
+  "chessViewer": "शतरंज व्यूअर",
+  "@chessViewer": {
+    "description": "Chess Viewer"
+  },
+  "start": "शुरू",
+  "@start": {
+    "description": "Start"
+  },
+  "previous": "पिछला",
+  "@previous": {
+    "description": "Previous"
+  },
+  "next": "अगला",
+  "@next": {
+    "description": "Next"
+  },
+  "end": "समाप्त",
+  "@end": {
+    "description": "End"
+  },
+  "addedToFavorites": "पसंदीदा में जोड़ा गया",
+  "@addedToFavorites": {
+    "description": "Added to favorites"
+  },
+  "removedFromFavorites": "पसंदीदा से हटाया गया",
+  "@removedFromFavorites": {
+    "description": "Removed from favorites"
+  },
+  "serverAddress": "सर्वर पता",
+  "@serverAddress": {
+    "description": "Server Address"
+  },
+  "setServerAddress": "सर्वर पता सेट करें",
+  "@setServerAddress": {
+    "description": "Set Server Address"
+  },
+  "pleaseEnterTheServerAddress": "कृपया सर्वर पता दर्ज करें",
+  "@pleaseEnterTheServerAddress": {
+    "description": "Please enter the server address"
+  },
+  "settings": "सेटिंग्स",
+  "@settings": {
+    "description": "Settings"
+  },
+  "engineSettings": "इंजन सेटिंग्स",
+  "@engineSettings": {
+    "description": "Engine Settings"
+  },
+  "thinkingTime": "सोचने का समय",
+  "@thinkingTime": {
+    "description": "Thinking Time"
+  },
+  "limitTime": "समय सीमा",
+  "@limitTime": {
+    "description": "Limit Time"
+  },
+  "limitDepth": "गहराई सीमा",
+  "@limitDepth": {
+    "description": "Limit Depth"
+  },
+  "timeControlMode": "समय नियंत्रण मोड",
+  "@timeControlMode": {
+    "description": "Time Control Mode"
+  },
+  "useTimeControl": "समय नियंत्रण का उपयोग करें",
+  "@useTimeControl": {
+    "description": "Use Time Control"
+  },
+  "showEngineAnalysisArrows": "इंजन विश्लेषण तीर दिखाएं",
+  "@showEngineAnalysisArrows": {
+    "description": "Show Engine Analysis Arrows"
+  },
+  "showPredictedMovesWhenTheEngineIsThinking": "इंजन के सोचने के दौरान अनुमानित चालें दिखाएं",
+  "@showPredictedMovesWhenTheEngineIsThinking": {
+    "description": "Show predicted moves when the engine is thinking"
+  },
+  "languageSettings": "भाषा सेटिंग्स",
+  "@languageSettings": {
+    "description": "Language Settings"
+  },
+  "layers": "परतें",
+  "@layers": {
+    "description": "Layers"
+  },
+  "current": "वर्तमान",
+  "@current": {
+    "description": "Current"
+  },
+  "browse": "ब्राउज़ करें",
+  "@browse": {
+    "description": "Browse"
+  },
+  "confirm": "पुष्टि करें",
+  "@confirm": {
+    "description": "Confirm"
+  },
+  "selectPieceTheme": "मोहरों की थीम चुनें",
+  "@selectPieceTheme": {
+    "description": "Select Piece Theme"
+  },
+  "selectThemeColor": "रंग थीम चुनें",
+  "@selectThemeColor": {
+    "description": "Select Theme Color"
+  },
+  "setEngineLevel": "इंजन स्तर सेट करें",
+  "@setEngineLevel": {
+    "description": "Set Engine Level"
+  },
+  "setThinkingTime": "सोचने का समय सेट करें",
+  "@setThinkingTime": {
+    "description": "Set Thinking Time"
+  },
+  "setSearchDepth": "खोज की गहराई सेट करें",
+  "@setSearchDepth": {
+    "description": "Set Search Depth"
+  },
+  "setEnginePath": "इंजन पथ सेट करें",
+  "@setEnginePath": {
+    "description": "Set Engine Path"
+  },
+  "pleaseEnterTheEnginePath": "कृपया इंजन पथ दर्ज करें",
+  "@pleaseEnterTheEnginePath": {
+    "description": "Please enter the engine path"
+  },
+  "viewGames": "खेल देखें",
+  "@viewGames": {
+    "description": "View Games"
+  },
+  "exploreTheInfinitePossibilitiesOfChess": "शतरंज की असीमित संभावनाओं की खोज करें",
+  "@exploreTheInfinitePossibilitiesOfChess": {
+    "description": "Explore the infinite possibilities of chess"
+  },
+  "checkmated": "शह और मात",
+  "@checkmated": {
+    "description": "Checkmated"
+  },
+  "opponentOutOfTime": "प्रतिद्वंद्वी का समय समाप्त",
+  "@opponentOutOfTime": {
+    "description": "Opponent Out of Time"
+  },
+  "opponentResigned": "प्रतिद्वंद्वी ने हार मान ली",
+  "@opponentResigned": {
+    "description": "Opponent Resigned"
+  },
+  "opponentLeft": "प्रतिद्वंद्वी चला गया",
+  "@opponentLeft": {
+    "description": "Opponent Left"
+  },
+  "outOfTime": "समय समाप्त",
+  "@outOfTime": {
+    "description": "Out of Time"
+  },
+  "resigned": "हार मान ली",
+  "@resigned": {
+    "description": "Resigned"
+  },
+  "stalemate": "पात",
+  "@stalemate": {
+    "description": "Stalemate"
+  },
+  "consensus": "सहमति",
+  "@consensus": {
+    "description": "Consensus"
+  }
+} 

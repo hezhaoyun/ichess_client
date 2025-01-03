@@ -1,0 +1,499 @@
+{
+  "@@locale": "ru",
+  "appName": "Chess Road",
+  "@appName": {
+    "description": "The application name"
+  },
+  "colorTheme": "Цветовая тема",
+  "@colorTheme": {
+    "description": "Title for color theme settings"
+  },
+  "pieceTheme": "Тема фигур",
+  "@pieceTheme": {
+    "description": "Title for chess piece theme settings"
+  },
+  "serverSettings": "Настройки сервера",
+  "@serverSettings": {
+    "description": "Title for server settings"
+  },
+  "engineLevel": "Уровень движка",
+  "@engineLevel": {
+    "description": "Title for AI engine level settings"
+  },
+  "moveTime": "Время на ход",
+  "@moveTime": {
+    "description": "Title for move time settings"
+  },
+  "searchDepth": "Глубина поиска",
+  "@searchDepth": {
+    "description": "Title for search depth settings"
+  },
+  "enginePath": "Путь к движку",
+  "@enginePath": {
+    "description": "Title for engine path settings"
+  },
+  "showEngineArrows": "Показывать стрелки анализа",
+  "@showEngineArrows": {
+    "description": "Title for show engine arrows settings"
+  },
+  "language": "Язык",
+  "@language": {
+    "description": "Title for language settings"
+  },
+  "insufficientMaterial": "Недостаточно материала, ничья",
+  "@insufficientMaterial": {
+    "description": "Message for insufficient material draw"
+  },
+  "threefoldRepetition": "Троекратное повторение, ничья",
+  "@threefoldRepetition": {
+    "description": "Message for threefold repetition draw"
+  },
+  "draw": "Ничья",
+  "@draw": {
+    "description": "Message for draw"
+  },
+  "failedToLoadFile": "Не удалось загрузить файл: {error}",
+  "@failedToLoadFile": {
+    "description": "Message shown when file loading fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "File not found"
+      }
+    }
+  },
+  "newGame": "Новая игра",
+  "@newGame": {
+    "description": "New game button text"
+  },
+  "undo": "Отменить",
+  "@undo": {
+    "description": "Undo move button text"
+  },
+  "engineInitializationFailed": "Ошибка инициализации движка!",
+  "@engineInitializationFailed": {
+    "description": "Message shown when engine initialization fails"
+  },
+  "hint": "Подсказка",
+  "@hint": {
+    "description": "Hint button text"
+  },
+  "analyzing": "Анализ...",
+  "@analyzing": {
+    "description": "Analyzing message"
+  },
+  "dontBeDiscouraged": "Не отчаивайтесь, продолжайте пробовать!",
+  "@dontBeDiscouraged": {
+    "description": "Message shown when player loses"
+  },
+  "congratulations": "Поздравляем с победой над соперником!",
+  "@congratulations": {
+    "description": "Message shown when player wins"
+  },
+  "youWon": "Вы победили!",
+  "@youWon": {
+    "description": "Message shown when player wins"
+  },
+  "youLost": "Вы проиграли!",
+  "@youLost": {
+    "description": "Message shown when player loses"
+  },
+  "engineCannotFindValidMove": "Движок не может найти допустимый ход",
+  "@engineCannotFindValidMove": {
+    "description": "Message shown when engine cannot find valid move"
+  },
+  "engineMoveError": "Ошибка хода движка: {error}",
+  "@engineMoveError": {
+    "description": "Message shown when engine move error",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Engine error"
+      }
+    }
+  },
+  "chooseYourColor": "Выберите цвет",
+  "@chooseYourColor": {
+    "description": "Title for choose your color"
+  },
+  "white": "Белые",
+  "@white": {
+    "description": "White color"
+  },
+  "black": "Чёрные",
+  "@black": {
+    "description": "Black color"
+  },
+  "chooseSaveLocation": "Выберите место сохранения",
+  "@chooseSaveLocation": {
+    "description": "Title for choose save location"
+  },
+  "gameSaved": "Игра сохранена",
+  "@gameSaved": {
+    "description": "Message shown when game is saved"
+  },
+  "saveFailed": "Ошибка сохранения, попробуйте снова",
+  "@saveFailed": {
+    "description": "Message shown when save fails"
+  },
+  "analysisFailed": "Ошибка анализа, попробуйте снова",
+  "@analysisFailed": {
+    "description": "Message shown when analysis fails"
+  },
+  "humanVsAi": "Человек против ИИ",
+  "@humanVsAi": {
+    "description": "Title for human vs AI"
+  },
+  "ai": "ИИ",
+  "@ai": {
+    "description": "AI"
+  },
+  "you": "Вы",
+  "@you": {
+    "description": "You"
+  },
+  "computer": "Компьютер",
+  "@computer": {
+    "description": "Computer"
+  },
+  "player": "Игрок",
+  "@player": {
+    "description": "Player"
+  },
+  "confirmDraw": "Подтвердить ничью?",
+  "@confirmDraw": {
+    "description": "Title for confirm draw"
+  },
+  "areYouSureYouWantToProposeADraw": "Вы уверены, что хотите предложить ничью?",
+  "@areYouSureYouWantToProposeADraw": {
+    "description": "Message for confirm draw"
+  },
+  "takeback": "Вернуть ход",
+  "@takeback": {
+    "description": "Takeback"
+  },
+  "accept": "Принять",
+  "@accept": {
+    "description": "Accept"
+  },
+  "reject": "Отклонить",
+  "@reject": {
+    "description": "Reject"
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "OK"
+  },
+  "takebackDeclined": "Возврат хода отклонён",
+  "@takebackDeclined": {
+    "description": "Message for takeback declined"
+  },
+  "drawDeclined": "Ничья отклонена",
+  "@drawDeclined": {
+    "description": "Message for draw declined"
+  },
+  "opponentRequestsTakeback": "Соперник просит вернуть ход, согласны?",
+  "@opponentRequestsTakeback": {
+    "description": "Message for opponent requests takeback"
+  },
+  "opponentProposesDraw": "Соперник предлагает ничью, согласны?",
+  "@opponentProposesDraw": {
+    "description": "Message for opponent proposes draw"
+  },
+  "yes": "Да",
+  "@yes": {
+    "description": "Yes"
+  },
+  "no": "Нет",
+  "@no": {
+    "description": "No"
+  },
+  "areYouSureYouWantToRequestATakeback": "Вы уверены, что хотите попросить вернуть ход?",
+  "@areYouSureYouWantToRequestATakeback": {
+    "description": "Message for are you sure you want to request a takeback"
+  },
+  "confirmTakeback": "Подтвердить возврат хода?",
+  "@confirmTakeback": {
+    "description": "Title for confirm takeback"
+  },
+  "areYouSureYouWantToResign": "Вы уверены, что хотите сдаться?",
+  "@areYouSureYouWantToResign": {
+    "description": "Message for are you sure you want to resign"
+  },
+  "confirmResign": "Подтвердить сдачу?",
+  "@confirmResign": {
+    "description": "Title for confirm resign"
+  },
+  "searchingForAnOpponent": "Поиск соперника...",
+  "@searchingForAnOpponent": {
+    "description": "Message for searching for an opponent"
+  },
+  "playOnline": "Играть онлайн",
+  "@playOnline": {
+    "description": "Title for play online"
+  },
+  "startOnline": "Начать онлайн",
+  "@startOnline": {
+    "description": "Title for start online"
+  },
+  "connectToTheServerToStartYourBattleJourney": "Подключитесь к серверу, чтобы начать свой путь сражений",
+  "@connectToTheServerToStartYourBattleJourney": {
+    "description": "Message for connect to the server to start your battle journey"
+  },
+  "connect": "Подключиться",
+  "@connect": {
+    "description": "Connect"
+  },
+  "match": "Партия",
+  "@match": {
+    "description": "Match"
+  },
+  "proposeDraw": "Предложить ничью",
+  "@proposeDraw": {
+    "description": "Propose Draw"
+  },
+  "cancel": "Отмена",
+  "@cancel": {
+    "description": "Cancel"
+  },
+  "resign": "Сдаться",
+  "@resign": {
+    "description": "Resign"
+  },
+  "takeBack": "Вернуть ход",
+  "@takeBack": {
+    "description": "Take Back"
+  },
+  "promotion": "Превращение",
+  "@promotion": {
+    "description": "Promotion"
+  },
+  "fullEmpty": "Полная / Пустая",
+  "@fullEmpty": {
+    "description": "Full / Empty"
+  },
+  "playWithAI": "Играть с ИИ",
+  "@playWithAI": {
+    "description": "Play with AI"
+  },
+  "dragAndDropToRemove": "Перетащите сюда для удаления",
+  "@dragAndDropToRemove": {
+    "description": "Drag & drop here to remove"
+  },
+  "invalidPosition": "Недопустимая позиция, проверьте:\n1. У каждой стороны должен быть один король\n2. Пешки не могут находиться на первой или восьмой горизонтали",
+  "@invalidPosition": {
+    "description": "Invalid position"
+  },
+  "setupBoard": "Расставить позицию",
+  "@setupBoard": {
+    "description": "Setup Board"
+  },
+  "allGames": "Все партии",
+  "@allGames": {
+    "description": "All Games"
+  },
+  "favorites": "Избранное",
+  "@favorites": {
+    "description": "Favorites"
+  },
+  "noFavoriteGamesAvailable": "Нет избранных партий",
+  "@noFavoriteGamesAvailable": {
+    "description": "No favorite games available"
+  },
+  "searchGames": "Поиск партий...",
+  "@searchGames": {
+    "description": "Search games"
+  },
+  "games": "Партии",
+  "@games": {
+    "description": "Games"
+  },
+  "failedToLoadGamesList": "Не удалось загрузить список партий: {error}",
+  "@failedToLoadGamesList": {
+    "description": "Failed to load games list",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Error"
+      }
+    }
+  },
+  "comments": "Комментарии: {comments}",
+  "@comments": {
+    "description": "Comments",
+    "placeholders": {
+      "comments": {
+        "type": "String",
+        "example": "Comments"
+      }
+    }
+  },
+  "branchSelection": "Выбор варианта",
+  "@branchSelection": {
+    "description": "Branch Selection"
+  },
+  "chessViewer": "Просмотр партий",
+  "@chessViewer": {
+    "description": "Chess Viewer"
+  },
+  "start": "Начало",
+  "@start": {
+    "description": "Start"
+  },
+  "previous": "Назад",
+  "@previous": {
+    "description": "Previous"
+  },
+  "next": "Вперёд",
+  "@next": {
+    "description": "Next"
+  },
+  "end": "Конец",
+  "@end": {
+    "description": "End"
+  },
+  "addedToFavorites": "Добавлено в избранное",
+  "@addedToFavorites": {
+    "description": "Added to favorites"
+  },
+  "removedFromFavorites": "Удалено из избранного",
+  "@removedFromFavorites": {
+    "description": "Removed from favorites"
+  },
+  "serverAddress": "Адрес сервера",
+  "@serverAddress": {
+    "description": "Server Address"
+  },
+  "setServerAddress": "Установить адрес сервера",
+  "@setServerAddress": {
+    "description": "Set Server Address"
+  },
+  "pleaseEnterTheServerAddress": "Пожалуйста, введите адрес сервера",
+  "@pleaseEnterTheServerAddress": {
+    "description": "Please enter the server address"
+  },
+  "settings": "Настройки",
+  "@settings": {
+    "description": "Settings"
+  },
+  "engineSettings": "Настройки движка",
+  "@engineSettings": {
+    "description": "Engine Settings"
+  },
+  "thinkingTime": "Время на размышление",
+  "@thinkingTime": {
+    "description": "Thinking Time"
+  },
+  "limitTime": "Ограничение времени",
+  "@limitTime": {
+    "description": "Limit Time"
+  },
+  "limitDepth": "Ограничение глубины",
+  "@limitDepth": {
+    "description": "Limit Depth"
+  },
+  "timeControlMode": "Режим контроля времени",
+  "@timeControlMode": {
+    "description": "Time Control Mode"
+  },
+  "useTimeControl": "Использовать контроль времени",
+  "@useTimeControl": {
+    "description": "Use Time Control"
+  },
+  "showEngineAnalysisArrows": "Показывать стрелки анализа движка",
+  "@showEngineAnalysisArrows": {
+    "description": "Show Engine Analysis Arrows"
+  },
+  "showPredictedMovesWhenTheEngineIsThinking": "Показывать предполагаемые ходы во время размышления движка",
+  "@showPredictedMovesWhenTheEngineIsThinking": {
+    "description": "Show predicted moves when the engine is thinking"
+  },
+  "languageSettings": "Настройки языка",
+  "@languageSettings": {
+    "description": "Language Settings"
+  },
+  "layers": "слои",
+  "@layers": {
+    "description": "Layers"
+  },
+  "current": "Текущий",
+  "@current": {
+    "description": "Current"
+  },
+  "browse": "Обзор",
+  "@browse": {
+    "description": "Browse"
+  },
+  "confirm": "Подтвердить",
+  "@confirm": {
+    "description": "Confirm"
+  },
+  "selectPieceTheme": "Выбрать тему фигур",
+  "@selectPieceTheme": {
+    "description": "Select Piece Theme"
+  },
+  "selectThemeColor": "Выбрать цвет темы",
+  "@selectThemeColor": {
+    "description": "Select Theme Color"
+  },
+  "setEngineLevel": "Установить уровень движка",
+  "@setEngineLevel": {
+    "description": "Set Engine Level"
+  },
+  "setThinkingTime": "Установить время на размышление",
+  "@setThinkingTime": {
+    "description": "Set Thinking Time"
+  },
+  "setSearchDepth": "Установить глубину поиска",
+  "@setSearchDepth": {
+    "description": "Set Search Depth"
+  },
+  "setEnginePath": "Установить путь к движку",
+  "@setEnginePath": {
+    "description": "Set Engine Path"
+  },
+  "pleaseEnterTheEnginePath": "Пожалуйста, введите путь к движку",
+  "@pleaseEnterTheEnginePath": {
+    "description": "Please enter the engine path"
+  },
+  "viewGames": "Просмотр партий",
+  "@viewGames": {
+    "description": "View Games"
+  },
+  "exploreTheInfinitePossibilitiesOfChess": "Исследуйте бесконечные возможности шахмат",
+  "@exploreTheInfinitePossibilitiesOfChess": {
+    "description": "Explore the infinite possibilities of chess"
+  },
+  "checkmated": "Мат",
+  "@checkmated": {
+    "description": "Checkmated"
+  },
+  "opponentOutOfTime": "У соперника закончилось время",
+  "@opponentOutOfTime": {
+    "description": "Opponent Out of Time"
+  },
+  "opponentResigned": "Соперник сдался",
+  "@opponentResigned": {
+    "description": "Opponent Resigned"
+  },
+  "opponentLeft": "Соперник покинул игру",
+  "@opponentLeft": {
+    "description": "Opponent Left"
+  },
+  "outOfTime": "Время истекло",
+  "@outOfTime": {
+    "description": "Out of Time"
+  },
+  "resigned": "Сдался",
+  "@resigned": {
+    "description": "Resigned"
+  },
+  "stalemate": "Пат",
+  "@stalemate": {
+    "description": "Stalemate"
+  },
+  "consensus": "По согласию",
+  "@consensus": {
+    "description": "Consensus"
+  }
+} 

@@ -67,6 +67,28 @@ class SettingsPage extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.all(16.0),
                         child: Text(
+                          AppLocalizations.of(context)!.language,
+                          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                        child: Card(
+                          child: ListTile(
+                            leading: Icon(Icons.language),
+                            title: Text(appConfigManager.language),
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => LanguageSettingsPage()),
+                              );
+                            },
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.all(16.0),
+                        child: Text(
                           AppLocalizations.of(context)!.colorTheme,
                           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
@@ -204,16 +226,6 @@ class SettingsPage extends StatelessWidget {
                                 subtitle: Text(AppLocalizations.of(context)!.showPredictedMovesWhenTheEngineIsThinking),
                                 value: appConfigManager.showArrows,
                                 onChanged: (value) => appConfigManager.setShowArrows(value),
-                              ),
-                              ListTile(
-                                leading: Icon(Icons.language),
-                                title: Text(AppLocalizations.of(context)!.language),
-                                onTap: () {
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(builder: (context) => LanguageSettingsPage()),
-                                  );
-                                },
                               ),
                             ],
                           ),

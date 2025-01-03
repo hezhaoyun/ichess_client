@@ -1,0 +1,499 @@
+{
+  "@@locale": "it",
+  "appName": "Chess Road",
+  "@appName": {
+    "description": "The application name"
+  },
+  "colorTheme": "Tema colore",
+  "@colorTheme": {
+    "description": "Title for color theme settings"
+  },
+  "pieceTheme": "Stile dei pezzi",
+  "@pieceTheme": {
+    "description": "Title for chess piece theme settings"
+  },
+  "serverSettings": "Impostazioni server",
+  "@serverSettings": {
+    "description": "Title for server settings"
+  },
+  "engineLevel": "Livello motore",
+  "@engineLevel": {
+    "description": "Title for AI engine level settings"
+  },
+  "moveTime": "Tempo per mossa",
+  "@moveTime": {
+    "description": "Title for move time settings"
+  },
+  "searchDepth": "Profondità di ricerca",
+  "@searchDepth": {
+    "description": "Title for search depth settings"
+  },
+  "enginePath": "Percorso motore",
+  "@enginePath": {
+    "description": "Title for engine path settings"
+  },
+  "showEngineArrows": "Mostra frecce di analisi",
+  "@showEngineArrows": {
+    "description": "Title for show engine arrows settings"
+  },
+  "language": "Lingua",
+  "@language": {
+    "description": "Title for language settings"
+  },
+  "insufficientMaterial": "Materiale insufficiente, patta",
+  "@insufficientMaterial": {
+    "description": "Message for insufficient material draw"
+  },
+  "threefoldRepetition": "Tripla ripetizione, patta",
+  "@threefoldRepetition": {
+    "description": "Message for threefold repetition draw"
+  },
+  "draw": "Patta",
+  "@draw": {
+    "description": "Message for draw"
+  },
+  "failedToLoadFile": "Caricamento file fallito: {error}",
+  "@failedToLoadFile": {
+    "description": "Message shown when file loading fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "File not found"
+      }
+    }
+  },
+  "newGame": "Nuova partita",
+  "@newGame": {
+    "description": "New game button text"
+  },
+  "undo": "Annulla",
+  "@undo": {
+    "description": "Undo move button text"
+  },
+  "engineInitializationFailed": "Inizializzazione motore fallita!",
+  "@engineInitializationFailed": {
+    "description": "Message shown when engine initialization fails"
+  },
+  "hint": "Suggerimento",
+  "@hint": {
+    "description": "Hint button text"
+  },
+  "analyzing": "Analisi in corso...",
+  "@analyzing": {
+    "description": "Analyzing message"
+  },
+  "dontBeDiscouraged": "Non scoraggiarti, continua a provare!",
+  "@dontBeDiscouraged": {
+    "description": "Message shown when player loses"
+  },
+  "congratulations": "Congratulazioni per la vittoria!",
+  "@congratulations": {
+    "description": "Message shown when player wins"
+  },
+  "youWon": "Hai vinto!",
+  "@youWon": {
+    "description": "Message shown when player wins"
+  },
+  "youLost": "Hai perso!",
+  "@youLost": {
+    "description": "Message shown when player loses"
+  },
+  "engineCannotFindValidMove": "Il motore non trova mosse valide",
+  "@engineCannotFindValidMove": {
+    "description": "Message shown when engine cannot find valid move"
+  },
+  "engineMoveError": "Errore mossa motore: {error}",
+  "@engineMoveError": {
+    "description": "Message shown when engine move error",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Engine error"
+      }
+    }
+  },
+  "chooseYourColor": "Scegli il tuo colore",
+  "@chooseYourColor": {
+    "description": "Title for choose your color"
+  },
+  "white": "Bianco",
+  "@white": {
+    "description": "White color"
+  },
+  "black": "Nero",
+  "@black": {
+    "description": "Black color"
+  },
+  "chooseSaveLocation": "Scegli posizione di salvataggio",
+  "@chooseSaveLocation": {
+    "description": "Title for choose save location"
+  },
+  "gameSaved": "Partita salvata",
+  "@gameSaved": {
+    "description": "Message shown when game is saved"
+  },
+  "saveFailed": "Salvataggio fallito, riprova",
+  "@saveFailed": {
+    "description": "Message shown when save fails"
+  },
+  "analysisFailed": "Analisi fallita, riprova",
+  "@analysisFailed": {
+    "description": "Message shown when analysis fails"
+  },
+  "humanVsAi": "Umano vs IA",
+  "@humanVsAi": {
+    "description": "Title for human vs AI"
+  },
+  "ai": "IA",
+  "@ai": {
+    "description": "AI"
+  },
+  "you": "Tu",
+  "@you": {
+    "description": "You"
+  },
+  "computer": "Computer",
+  "@computer": {
+    "description": "Computer"
+  },
+  "player": "Giocatore",
+  "@player": {
+    "description": "Player"
+  },
+  "confirmDraw": "Confermare patta?",
+  "@confirmDraw": {
+    "description": "Title for confirm draw"
+  },
+  "areYouSureYouWantToProposeADraw": "Sei sicuro di voler proporre la patta?",
+  "@areYouSureYouWantToProposeADraw": {
+    "description": "Message for confirm draw"
+  },
+  "takeback": "Riprendere",
+  "@takeback": {
+    "description": "Takeback"
+  },
+  "accept": "Accetta",
+  "@accept": {
+    "description": "Accept"
+  },
+  "reject": "Rifiuta",
+  "@reject": {
+    "description": "Reject"
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "OK"
+  },
+  "takebackDeclined": "Ripresa rifiutata",
+  "@takebackDeclined": {
+    "description": "Message for takeback declined"
+  },
+  "drawDeclined": "Patta rifiutata",
+  "@drawDeclined": {
+    "description": "Message for draw declined"
+  },
+  "opponentRequestsTakeback": "L'avversario chiede di riprendere, accetti?",
+  "@opponentRequestsTakeback": {
+    "description": "Message for opponent requests takeback"
+  },
+  "opponentProposesDraw": "L'avversario propone la patta, accetti?",
+  "@opponentProposesDraw": {
+    "description": "Message for opponent proposes draw"
+  },
+  "yes": "Sì",
+  "@yes": {
+    "description": "Yes"
+  },
+  "no": "No",
+  "@no": {
+    "description": "No"
+  },
+  "areYouSureYouWantToRequestATakeback": "Sei sicuro di voler chiedere di riprendere?",
+  "@areYouSureYouWantToRequestATakeback": {
+    "description": "Message for are you sure you want to request a takeback"
+  },
+  "confirmTakeback": "Confermare ripresa?",
+  "@confirmTakeback": {
+    "description": "Title for confirm takeback"
+  },
+  "areYouSureYouWantToResign": "Sei sicuro di voler abbandonare?",
+  "@areYouSureYouWantToResign": {
+    "description": "Message for are you sure you want to resign"
+  },
+  "confirmResign": "Confermare abbandono?",
+  "@confirmResign": {
+    "description": "Title for confirm resign"
+  },
+  "searchingForAnOpponent": "Ricerca avversario...",
+  "@searchingForAnOpponent": {
+    "description": "Message for searching for an opponent"
+  },
+  "playOnline": "Gioca online",
+  "@playOnline": {
+    "description": "Title for play online"
+  },
+  "startOnline": "Inizia online",
+  "@startOnline": {
+    "description": "Title for start online"
+  },
+  "connectToTheServerToStartYourBattleJourney": "Connettiti al server per iniziare la tua avventura",
+  "@connectToTheServerToStartYourBattleJourney": {
+    "description": "Message for connect to the server to start your battle journey"
+  },
+  "connect": "Connetti",
+  "@connect": {
+    "description": "Connect"
+  },
+  "match": "Partita",
+  "@match": {
+    "description": "Match"
+  },
+  "proposeDraw": "Proponi patta",
+  "@proposeDraw": {
+    "description": "Propose Draw"
+  },
+  "cancel": "Annulla",
+  "@cancel": {
+    "description": "Cancel"
+  },
+  "resign": "Abbandona",
+  "@resign": {
+    "description": "Resign"
+  },
+  "takeBack": "Riprendi",
+  "@takeBack": {
+    "description": "Take Back"
+  },
+  "promotion": "Promozione",
+  "@promotion": {
+    "description": "Promotion"
+  },
+  "fullEmpty": "Pieno / Vuoto",
+  "@fullEmpty": {
+    "description": "Full / Empty"
+  },
+  "playWithAI": "Gioca contro l'IA",
+  "@playWithAI": {
+    "description": "Play with AI"
+  },
+  "dragAndDropToRemove": "Trascina qui per rimuovere",
+  "@dragAndDropToRemove": {
+    "description": "Drag & drop here to remove"
+  },
+  "invalidPosition": "Posizione non valida, controlla:\n1. Ogni lato deve avere un re\n2. I pedoni non possono stare sulla prima o ultima traversa",
+  "@invalidPosition": {
+    "description": "Invalid position"
+  },
+  "setupBoard": "Imposta scacchiera",
+  "@setupBoard": {
+    "description": "Setup Board"
+  },
+  "allGames": "Tutte le partite",
+  "@allGames": {
+    "description": "All Games"
+  },
+  "favorites": "Preferiti",
+  "@favorites": {
+    "description": "Favorites"
+  },
+  "noFavoriteGamesAvailable": "Nessuna partita preferita disponibile",
+  "@noFavoriteGamesAvailable": {
+    "description": "No favorite games available"
+  },
+  "searchGames": "Cerca partite...",
+  "@searchGames": {
+    "description": "Search games"
+  },
+  "games": "Partite",
+  "@games": {
+    "description": "Games"
+  },
+  "failedToLoadGamesList": "Caricamento lista partite fallito: {error}",
+  "@failedToLoadGamesList": {
+    "description": "Failed to load games list",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Error"
+      }
+    }
+  },
+  "comments": "Commenti: {comments}",
+  "@comments": {
+    "description": "Comments",
+    "placeholders": {
+      "comments": {
+        "type": "String",
+        "example": "Comments"
+      }
+    }
+  },
+  "branchSelection": "Selezione variante",
+  "@branchSelection": {
+    "description": "Branch Selection"
+  },
+  "chessViewer": "Visualizzatore scacchi",
+  "@chessViewer": {
+    "description": "Chess Viewer"
+  },
+  "start": "Inizio",
+  "@start": {
+    "description": "Start"
+  },
+  "previous": "Precedente",
+  "@previous": {
+    "description": "Previous"
+  },
+  "next": "Successivo",
+  "@next": {
+    "description": "Next"
+  },
+  "end": "Fine",
+  "@end": {
+    "description": "End"
+  },
+  "addedToFavorites": "Aggiunto ai preferiti",
+  "@addedToFavorites": {
+    "description": "Added to favorites"
+  },
+  "removedFromFavorites": "Rimosso dai preferiti",
+  "@removedFromFavorites": {
+    "description": "Removed from favorites"
+  },
+  "serverAddress": "Indirizzo server",
+  "@serverAddress": {
+    "description": "Server Address"
+  },
+  "setServerAddress": "Imposta indirizzo server",
+  "@setServerAddress": {
+    "description": "Set Server Address"
+  },
+  "pleaseEnterTheServerAddress": "Inserisci l'indirizzo del server",
+  "@pleaseEnterTheServerAddress": {
+    "description": "Please enter the server address"
+  },
+  "settings": "Impostazioni",
+  "@settings": {
+    "description": "Settings"
+  },
+  "engineSettings": "Impostazioni motore",
+  "@engineSettings": {
+    "description": "Engine Settings"
+  },
+  "thinkingTime": "Tempo di riflessione",
+  "@thinkingTime": {
+    "description": "Thinking Time"
+  },
+  "limitTime": "Limite tempo",
+  "@limitTime": {
+    "description": "Limit Time"
+  },
+  "limitDepth": "Limite profondità",
+  "@limitDepth": {
+    "description": "Limit Depth"
+  },
+  "timeControlMode": "Modalità controllo tempo",
+  "@timeControlMode": {
+    "description": "Time Control Mode"
+  },
+  "useTimeControl": "Usa controllo tempo",
+  "@useTimeControl": {
+    "description": "Use Time Control"
+  },
+  "showEngineAnalysisArrows": "Mostra frecce analisi motore",
+  "@showEngineAnalysisArrows": {
+    "description": "Show Engine Analysis Arrows"
+  },
+  "showPredictedMovesWhenTheEngineIsThinking": "Mostra mosse previste durante l'analisi del motore",
+  "@showPredictedMovesWhenTheEngineIsThinking": {
+    "description": "Show predicted moves when the engine is thinking"
+  },
+  "languageSettings": "Impostazioni lingua",
+  "@languageSettings": {
+    "description": "Language Settings"
+  },
+  "layers": "Livelli",
+  "@layers": {
+    "description": "Layers"
+  },
+  "current": "Attuale",
+  "@current": {
+    "description": "Current"
+  },
+  "browse": "Sfoglia",
+  "@browse": {
+    "description": "Browse"
+  },
+  "confirm": "Conferma",
+  "@confirm": {
+    "description": "Confirm"
+  },
+  "selectPieceTheme": "Seleziona stile pezzi",
+  "@selectPieceTheme": {
+    "description": "Select Piece Theme"
+  },
+  "selectThemeColor": "Seleziona tema colore",
+  "@selectThemeColor": {
+    "description": "Select Theme Color"
+  },
+  "setEngineLevel": "Imposta livello motore",
+  "@setEngineLevel": {
+    "description": "Set Engine Level"
+  },
+  "setThinkingTime": "Imposta tempo di riflessione",
+  "@setThinkingTime": {
+    "description": "Set Thinking Time"
+  },
+  "setSearchDepth": "Imposta profondità di ricerca",
+  "@setSearchDepth": {
+    "description": "Set Search Depth"
+  },
+  "setEnginePath": "Imposta percorso motore",
+  "@setEnginePath": {
+    "description": "Set Engine Path"
+  },
+  "pleaseEnterTheEnginePath": "Inserisci il percorso del motore",
+  "@pleaseEnterTheEnginePath": {
+    "description": "Please enter the engine path"
+  },
+  "viewGames": "Visualizza partite",
+  "@viewGames": {
+    "description": "View Games"
+  },
+  "exploreTheInfinitePossibilitiesOfChess": "Esplora le infinite possibilità degli scacchi",
+  "@exploreTheInfinitePossibilitiesOfChess": {
+    "description": "Explore the infinite possibilities of chess"
+  },
+  "checkmated": "Scacco matto",
+  "@checkmated": {
+    "description": "Checkmated"
+  },
+  "opponentOutOfTime": "Tempo scaduto per l'avversario",
+  "@opponentOutOfTime": {
+    "description": "Opponent Out of Time"
+  },
+  "opponentResigned": "L'avversario ha abbandonato",
+  "@opponentResigned": {
+    "description": "Opponent Resigned"
+  },
+  "opponentLeft": "L'avversario ha lasciato",
+  "@opponentLeft": {
+    "description": "Opponent Left"
+  },
+  "outOfTime": "Tempo scaduto",
+  "@outOfTime": {
+    "description": "Out of Time"
+  },
+  "resigned": "Abbandonato",
+  "@resigned": {
+    "description": "Resigned"
+  },
+  "stalemate": "Stallo",
+  "@stalemate": {
+    "description": "Stalemate"
+  },
+  "consensus": "Consenso",
+  "@consensus": {
+    "description": "Consensus"
+  }
+} 

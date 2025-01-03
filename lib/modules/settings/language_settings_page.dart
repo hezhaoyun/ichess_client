@@ -15,7 +15,9 @@ class LanguageSettingsPage extends StatelessWidget {
     {'name': 'Polski', 'code': 'pl'},
     {'name': 'हिन्दी', 'code': 'hi'},
     {'name': 'العربية', 'code': 'ar'},
-    {'name': '中文', 'code': 'zh'}
+    {'name': '中文', 'code': 'zh'},
+    {'name': '한국어', 'code': 'ko'},
+    {'name': '日本語', 'code': 'ja'},
   ];
 
   LanguageSettingsPage({super.key});
@@ -28,12 +30,11 @@ class LanguageSettingsPage extends StatelessWidget {
       ),
       body: ListView.builder(
         itemCount: languages.length,
-        itemBuilder: (context, index) {
-          return ListTile(
-            title: Text(languages[index]['name']!),
-            onTap: () => _changeLanguage(context, languages[index]['code']!),
-          );
-        },
+        itemBuilder: (context, index) => ListTile(
+          leading: Icon(Icons.language),
+          title: Text(languages[index]['name']!),
+          onTap: () => _changeLanguage(context, languages[index]['code']!),
+        ),
       ),
     );
   }
@@ -41,7 +42,6 @@ class LanguageSettingsPage extends StatelessWidget {
   Future<void> _changeLanguage(BuildContext context, String languageCode) async {
     final appConfigManager = Provider.of<ConfigManager>(context, listen: false);
     await appConfigManager.setLanguage(languageCode);
-    // 重新构建整个应用以应用新语言
     if (context.mounted) Navigator.of(context).pop();
   }
 }

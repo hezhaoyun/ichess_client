@@ -1,0 +1,499 @@
+{
+  "@@locale": "ko",
+  "appName": "체스 로드",
+  "@appName": {
+    "description": "The application name"
+  },
+  "colorTheme": "색상 테마",
+  "@colorTheme": {
+    "description": "Title for color theme settings"
+  },
+  "pieceTheme": "체스말 테마",
+  "@pieceTheme": {
+    "description": "Title for chess piece theme settings"
+  },
+  "serverSettings": "서버 설정",
+  "@serverSettings": {
+    "description": "Title for server settings"
+  },
+  "engineLevel": "엔진 레벨",
+  "@engineLevel": {
+    "description": "Title for AI engine level settings"
+  },
+  "moveTime": "이동 시간",
+  "@moveTime": {
+    "description": "Title for move time settings"
+  },
+  "searchDepth": "탐색 깊이",
+  "@searchDepth": {
+    "description": "Title for search depth settings"
+  },
+  "enginePath": "엔진 경로",
+  "@enginePath": {
+    "description": "Title for engine path settings"
+  },
+  "showEngineArrows": "엔진 분석 화살표 표시",
+  "@showEngineArrows": {
+    "description": "Title for show engine arrows settings"
+  },
+  "language": "언어",
+  "@language": {
+    "description": "Title for language settings"
+  },
+  "insufficientMaterial": "부족한 말로 인한 무승부",
+  "@insufficientMaterial": {
+    "description": "Message for insufficient material draw"
+  },
+  "threefoldRepetition": "동일 수 3회 반복으로 인한 무승부",
+  "@threefoldRepetition": {
+    "description": "Message for threefold repetition draw"
+  },
+  "draw": "무승부",
+  "@draw": {
+    "description": "Message for draw"
+  },
+  "failedToLoadFile": "파일 로드 실패: {error}",
+  "@failedToLoadFile": {
+    "description": "Message shown when file loading fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "File not found"
+      }
+    }
+  },
+  "newGame": "새 게임",
+  "@newGame": {
+    "description": "New game button text"
+  },
+  "undo": "실행 취소",
+  "@undo": {
+    "description": "Undo move button text"
+  },
+  "engineInitializationFailed": "엔진 초기화 실패!",
+  "@engineInitializationFailed": {
+    "description": "Message shown when engine initialization fails"
+  },
+  "hint": "힌트",
+  "@hint": {
+    "description": "Hint button text"
+  },
+  "analyzing": "분석 중...",
+  "@analyzing": {
+    "description": "Analyzing message"
+  },
+  "dontBeDiscouraged": "실망하지 마세요, 계속 도전하세요!",
+  "@dontBeDiscouraged": {
+    "description": "Message shown when player loses"
+  },
+  "congratulations": "상대를 이긴 것을 축하합니다!",
+  "@congratulations": {
+    "description": "Message shown when player wins"
+  },
+  "youWon": "승리했습니다!",
+  "@youWon": {
+    "description": "Message shown when player wins"
+  },
+  "youLost": "패배했습니다!",
+  "@youLost": {
+    "description": "Message shown when player loses"
+  },
+  "engineCannotFindValidMove": "엔진이 유효한 수를 찾을 수 없습니다",
+  "@engineCannotFindValidMove": {
+    "description": "Message shown when engine cannot find valid move"
+  },
+  "engineMoveError": "엔진 이동 오류: {error}",
+  "@engineMoveError": {
+    "description": "Message shown when engine move error",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Engine error"
+      }
+    }
+  },
+  "chooseYourColor": "색상 선택",
+  "@chooseYourColor": {
+    "description": "Title for choose your color"
+  },
+  "white": "백",
+  "@white": {
+    "description": "White color"
+  },
+  "black": "흑",
+  "@black": {
+    "description": "Black color"
+  },
+  "chooseSaveLocation": "저장 위치 선택",
+  "@chooseSaveLocation": {
+    "description": "Title for choose save location"
+  },
+  "gameSaved": "게임이 저장되었습니다",
+  "@gameSaved": {
+    "description": "Message shown when game is saved"
+  },
+  "saveFailed": "저장 실패, 다시 시도해주세요",
+  "@saveFailed": {
+    "description": "Message shown when save fails"
+  },
+  "analysisFailed": "분석 실패, 다시 시도해주세요",
+  "@analysisFailed": {
+    "description": "Message shown when analysis fails"
+  },
+  "humanVsAi": "사람 vs AI",
+  "@humanVsAi": {
+    "description": "Title for human vs AI"
+  },
+  "ai": "AI",
+  "@ai": {
+    "description": "AI"
+  },
+  "you": "나",
+  "@you": {
+    "description": "You"
+  },
+  "computer": "컴퓨터",
+  "@computer": {
+    "description": "Computer"
+  },
+  "player": "플레이어",
+  "@player": {
+    "description": "Player"
+  },
+  "confirmDraw": "무승부 확인",
+  "@confirmDraw": {
+    "description": "Title for confirm draw"
+  },
+  "areYouSureYouWantToProposeADraw": "무승부를 제안하시겠습니까?",
+  "@areYouSureYouWantToProposeADraw": {
+    "description": "Message for confirm draw"
+  },
+  "takeback": "무르기",
+  "@takeback": {
+    "description": "Takeback"
+  },
+  "accept": "수락",
+  "@accept": {
+    "description": "Accept"
+  },
+  "reject": "거절",
+  "@reject": {
+    "description": "Reject"
+  },
+  "ok": "확인",
+  "@ok": {
+    "description": "OK"
+  },
+  "takebackDeclined": "무르기 거절됨",
+  "@takebackDeclined": {
+    "description": "Message for takeback declined"
+  },
+  "drawDeclined": "무승부 거절됨",
+  "@drawDeclined": {
+    "description": "Message for draw declined"
+  },
+  "opponentRequestsTakeback": "상대가 무르기를 요청했습니다. 수락하시겠습니까?",
+  "@opponentRequestsTakeback": {
+    "description": "Message for opponent requests takeback"
+  },
+  "opponentProposesDraw": "상대가 무승부를 제안했습니다. 수락하시겠습니까?",
+  "@opponentProposesDraw": {
+    "description": "Message for opponent proposes draw"
+  },
+  "yes": "예",
+  "@yes": {
+    "description": "Yes"
+  },
+  "no": "아니오",
+  "@no": {
+    "description": "No"
+  },
+  "areYouSureYouWantToRequestATakeback": "무르기를 요청하시겠습니까?",
+  "@areYouSureYouWantToRequestATakeback": {
+    "description": "Message for are you sure you want to request a takeback"
+  },
+  "confirmTakeback": "무르기 확인",
+  "@confirmTakeback": {
+    "description": "Title for confirm takeback"
+  },
+  "areYouSureYouWantToResign": "기권하시겠습니까?",
+  "@areYouSureYouWantToResign": {
+    "description": "Message for are you sure you want to resign"
+  },
+  "confirmResign": "기권 확인",
+  "@confirmResign": {
+    "description": "Title for confirm resign"
+  },
+  "searchingForAnOpponent": "상대를 찾는 중...",
+  "@searchingForAnOpponent": {
+    "description": "Message for searching for an opponent"
+  },
+  "playOnline": "온라인 플레이",
+  "@playOnline": {
+    "description": "Title for play online"
+  },
+  "startOnline": "온라인 시작",
+  "@startOnline": {
+    "description": "Title for start online"
+  },
+  "connectToTheServerToStartYourBattleJourney": "서버에 연결하여 대전을 시작하세요",
+  "@connectToTheServerToStartYourBattleJourney": {
+    "description": "Message for connect to the server to start your battle journey"
+  },
+  "connect": "연결",
+  "@connect": {
+    "description": "Connect"
+  },
+  "match": "매치",
+  "@match": {
+    "description": "Match"
+  },
+  "proposeDraw": "무승부 제안",
+  "@proposeDraw": {
+    "description": "Propose Draw"
+  },
+  "cancel": "취소",
+  "@cancel": {
+    "description": "Cancel"
+  },
+  "resign": "기권",
+  "@resign": {
+    "description": "Resign"
+  },
+  "takeBack": "무르기",
+  "@takeBack": {
+    "description": "Take Back"
+  },
+  "promotion": "승진",
+  "@promotion": {
+    "description": "Promotion"
+  },
+  "fullEmpty": "전체 / 비우기",
+  "@fullEmpty": {
+    "description": "Full / Empty"
+  },
+  "playWithAI": "AI와 플레이",
+  "@playWithAI": {
+    "description": "Play with AI"
+  },
+  "dragAndDropToRemove": "여기에 드래그 앤 드롭하여 제거",
+  "@dragAndDropToRemove": {
+    "description": "Drag & drop here to remove"
+  },
+  "invalidPosition": "잘못된 위치입니다. 다음을 확인하세요:\n1. 각 진영에 킹이 하나씩 있어야 합니다\n2. 폰은 첫 줄이나 마지막 줄에 있을 수 없습니다",
+  "@invalidPosition": {
+    "description": "Invalid position"
+  },
+  "setupBoard": "보드 설정",
+  "@setupBoard": {
+    "description": "Setup Board"
+  },
+  "allGames": "모든 게임",
+  "@allGames": {
+    "description": "All Games"
+  },
+  "favorites": "즐겨찾기",
+  "@favorites": {
+    "description": "Favorites"
+  },
+  "noFavoriteGamesAvailable": "즐겨찾기한 게임이 없습니다",
+  "@noFavoriteGamesAvailable": {
+    "description": "No favorite games available"
+  },
+  "searchGames": "게임 검색...",
+  "@searchGames": {
+    "description": "Search games"
+  },
+  "games": "게임",
+  "@games": {
+    "description": "Games"
+  },
+  "failedToLoadGamesList": "게임 목록 로드 실패: {error}",
+  "@failedToLoadGamesList": {
+    "description": "Failed to load games list",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Error"
+      }
+    }
+  },
+  "comments": "댓글: {comments}",
+  "@comments": {
+    "description": "Comments",
+    "placeholders": {
+      "comments": {
+        "type": "String",
+        "example": "Comments"
+      }
+    }
+  },
+  "branchSelection": "분기 선택",
+  "@branchSelection": {
+    "description": "Branch Selection"
+  },
+  "chessViewer": "체스 뷰어",
+  "@chessViewer": {
+    "description": "Chess Viewer"
+  },
+  "start": "시작",
+  "@start": {
+    "description": "Start"
+  },
+  "previous": "이전",
+  "@previous": {
+    "description": "Previous"
+  },
+  "next": "다음",
+  "@next": {
+    "description": "Next"
+  },
+  "end": "끝",
+  "@end": {
+    "description": "End"
+  },
+  "addedToFavorites": "즐겨찾기에 추가됨",
+  "@addedToFavorites": {
+    "description": "Added to favorites"
+  },
+  "removedFromFavorites": "즐겨찾기에서 제거됨",
+  "@removedFromFavorites": {
+    "description": "Removed from favorites"
+  },
+  "serverAddress": "서버 주소",
+  "@serverAddress": {
+    "description": "Server Address"
+  },
+  "setServerAddress": "서버 주소 설정",
+  "@setServerAddress": {
+    "description": "Set Server Address"
+  },
+  "pleaseEnterTheServerAddress": "서버 주소를 입력하세요",
+  "@pleaseEnterTheServerAddress": {
+    "description": "Please enter the server address"
+  },
+  "settings": "설정",
+  "@settings": {
+    "description": "Settings"
+  },
+  "engineSettings": "엔진 설정",
+  "@engineSettings": {
+    "description": "Engine Settings"
+  },
+  "thinkingTime": "사고 시간",
+  "@thinkingTime": {
+    "description": "Thinking Time"
+  },
+  "limitTime": "제한 시간",
+  "@limitTime": {
+    "description": "Limit Time"
+  },
+  "limitDepth": "제한 깊이",
+  "@limitDepth": {
+    "description": "Limit Depth"
+  },
+  "timeControlMode": "시간 제어 모드",
+  "@timeControlMode": {
+    "description": "Time Control Mode"
+  },
+  "useTimeControl": "시간 제어 사용",
+  "@useTimeControl": {
+    "description": "Use Time Control"
+  },
+  "showEngineAnalysisArrows": "엔진 분석 화살표 표시",
+  "@showEngineAnalysisArrows": {
+    "description": "Show Engine Analysis Arrows"
+  },
+  "showPredictedMovesWhenTheEngineIsThinking": "엔진이 생각할 때 예상 수 표시",
+  "@showPredictedMovesWhenTheEngineIsThinking": {
+    "description": "Show predicted moves when the engine is thinking"
+  },
+  "languageSettings": "언어 설정",
+  "@languageSettings": {
+    "description": "Language Settings"
+  },
+  "layers": "레이어",
+  "@layers": {
+    "description": "Layers"
+  },
+  "current": "현재",
+  "@current": {
+    "description": "Current"
+  },
+  "browse": "찾아보기",
+  "@browse": {
+    "description": "Browse"
+  },
+  "confirm": "확인",
+  "@confirm": {
+    "description": "Confirm"
+  },
+  "selectPieceTheme": "체스말 테마 선택",
+  "@selectPieceTheme": {
+    "description": "Select Piece Theme"
+  },
+  "selectThemeColor": "테마 색상 선택",
+  "@selectThemeColor": {
+    "description": "Select Theme Color"
+  },
+  "setEngineLevel": "엔진 레벨 설정",
+  "@setEngineLevel": {
+    "description": "Set Engine Level"
+  },
+  "setThinkingTime": "사고 시간 설정",
+  "@setThinkingTime": {
+    "description": "Set Thinking Time"
+  },
+  "setSearchDepth": "탐색 깊이 설정",
+  "@setSearchDepth": {
+    "description": "Set Search Depth"
+  },
+  "setEnginePath": "엔진 경로 설정",
+  "@setEnginePath": {
+    "description": "Set Engine Path"
+  },
+  "pleaseEnterTheEnginePath": "엔진 경로를 입력하세요",
+  "@pleaseEnterTheEnginePath": {
+    "description": "Please enter the engine path"
+  },
+  "viewGames": "게임 보기",
+  "@viewGames": {
+    "description": "View Games"
+  },
+  "exploreTheInfinitePossibilitiesOfChess": "체스의 무한한 가능성을 탐험하세요",
+  "@exploreTheInfinitePossibilitiesOfChess": {
+    "description": "Explore the infinite possibilities of chess"
+  },
+  "checkmated": "체크메이트",
+  "@checkmated": {
+    "description": "Checkmated"
+  },
+  "opponentOutOfTime": "상대방 시간 초과",
+  "@opponentOutOfTime": {
+    "description": "Opponent Out of Time"
+  },
+  "opponentResigned": "상대방 기권",
+  "@opponentResigned": {
+    "description": "Opponent Resigned"
+  },
+  "opponentLeft": "상대방 퇴장",
+  "@opponentLeft": {
+    "description": "Opponent Left"
+  },
+  "outOfTime": "시간 초과",
+  "@outOfTime": {
+    "description": "Out of Time"
+  },
+  "resigned": "기권",
+  "@resigned": {
+    "description": "Resigned"
+  },
+  "stalemate": "스테일메이트",
+  "@stalemate": {
+    "description": "Stalemate"
+  },
+  "consensus": "합의",
+  "@consensus": {
+    "description": "Consensus"
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "@@locale": "ar",
+  "appName": "Chess Road",
+  "@appName": {
+    "description": "The application name"
+  },
+  "colorTheme": "سمة الألوان",
+  "@colorTheme": {
+    "description": "Title for color theme settings"
+  },
+  "pieceTheme": "سمة القطع",
+  "@pieceTheme": {
+    "description": "Title for chess piece theme settings"
+  },
+  "serverSettings": "إعدادات الخادم",
+  "@serverSettings": {
+    "description": "Title for server settings"
+  },
+  "engineLevel": "مستوى المحرك",
+  "@engineLevel": {
+    "description": "Title for AI engine level settings"
+  },
+  "moveTime": "وقت النقلة",
+  "@moveTime": {
+    "description": "Title for move time settings"
+  },
+  "searchDepth": "عمق البحث",
+  "@searchDepth": {
+    "description": "Title for search depth settings"
+  },
+  "enginePath": "مسار المحرك",
+  "@enginePath": {
+    "description": "Title for engine path settings"
+  },
+  "showEngineArrows": "إظهار أسهم التحليل",
+  "@showEngineArrows": {
+    "description": "Title for show engine arrows settings"
+  },
+  "language": "اللغة",
+  "@language": {
+    "description": "Title for language settings"
+  },
+  "insufficientMaterial": "مواد غير كافية، تعادل",
+  "@insufficientMaterial": {
+    "description": "Message for insufficient material draw"
+  },
+  "threefoldRepetition": "تكرار ثلاث مرات، تعادل",
+  "@threefoldRepetition": {
+    "description": "Message for threefold repetition draw"
+  },
+  "draw": "تعادل",
+  "@draw": {
+    "description": "Message for draw"
+  },
+  "failedToLoadFile": "فشل في تحميل الملف: {error}",
+  "@failedToLoadFile": {
+    "description": "Message shown when file loading fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "File not found"
+      }
+    }
+  },
+  "newGame": "لعبة جديدة",
+  "@newGame": {
+    "description": "New game button text"
+  },
+  "undo": "تراجع",
+  "@undo": {
+    "description": "Undo move button text"
+  },
+  "engineInitializationFailed": "فشل في تهيئة المحرك!",
+  "@engineInitializationFailed": {
+    "description": "Message shown when engine initialization fails"
+  },
+  "hint": "تلميح",
+  "@hint": {
+    "description": "Hint button text"
+  },
+  "analyzing": "جاري التحليل...",
+  "@analyzing": {
+    "description": "Analyzing message"
+  },
+  "dontBeDiscouraged": "لا تيأس، واصل المحاولة!",
+  "@dontBeDiscouraged": {
+    "description": "Message shown when player loses"
+  },
+  "congratulations": "تهانينا على الفوز!",
+  "@congratulations": {
+    "description": "Message shown when player wins"
+  },
+  "youWon": "لقد فزت!",
+  "@youWon": {
+    "description": "Message shown when player wins"
+  },
+  "youLost": "لقد خسرت!",
+  "@youLost": {
+    "description": "Message shown when player loses"
+  },
+  "engineCannotFindValidMove": "لا يمكن للمحرك إيجاد نقلة صالحة",
+  "@engineCannotFindValidMove": {
+    "description": "Message shown when engine cannot find valid move"
+  },
+  "engineMoveError": "خطأ في نقلة المحرك: {error}",
+  "@engineMoveError": {
+    "description": "Message shown when engine move error",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Engine error"
+      }
+    }
+  },
+  "chooseYourColor": "اختر لونك",
+  "@chooseYourColor": {
+    "description": "Title for choose your color"
+  },
+  "white": "أبيض",
+  "@white": {
+    "description": "White color"
+  },
+  "black": "أسود",
+  "@black": {
+    "description": "Black color"
+  },
+  "chooseSaveLocation": "اختر موقع الحفظ",
+  "@chooseSaveLocation": {
+    "description": "Title for choose save location"
+  },
+  "gameSaved": "تم حفظ اللعبة",
+  "@gameSaved": {
+    "description": "Message shown when game is saved"
+  },
+  "saveFailed": "فشل الحفظ، حاول مرة أخرى",
+  "@saveFailed": {
+    "description": "Message shown when save fails"
+  },
+  "analysisFailed": "فشل التحليل، حاول مرة أخرى",
+  "@analysisFailed": {
+    "description": "Message shown when analysis fails"
+  },
+  "humanVsAi": "إنسان ضد الذكاء الاصطناعي",
+  "@humanVsAi": {
+    "description": "Title for human vs AI"
+  },
+  "ai": "ذكاء اصطناعي",
+  "@ai": {
+    "description": "AI"
+  },
+  "you": "أنت",
+  "@you": {
+    "description": "You"
+  },
+  "computer": "الحاسوب",
+  "@computer": {
+    "description": "Computer"
+  },
+  "player": "لاعب",
+  "@player": {
+    "description": "Player"
+  },
+  "confirmDraw": "تأكيد التعادل؟",
+  "@confirmDraw": {
+    "description": "Title for confirm draw"
+  },
+  "areYouSureYouWantToProposeADraw": "هل أنت متأكد من أنك تريد اقتراح التعادل؟",
+  "@areYouSureYouWantToProposeADraw": {
+    "description": "Message for confirm draw"
+  },
+  "takeback": "استعادة النقلة",
+  "@takeback": {
+    "description": "Takeback"
+  },
+  "accept": "قبول",
+  "@accept": {
+    "description": "Accept"
+  },
+  "reject": "رفض",
+  "@reject": {
+    "description": "Reject"
+  },
+  "ok": "حسناً",
+  "@ok": {
+    "description": "OK"
+  },
+  "takebackDeclined": "تم رفض استعادة النقلة",
+  "@takebackDeclined": {
+    "description": "Message for takeback declined"
+  },
+  "drawDeclined": "تم رفض التعادل",
+  "@drawDeclined": {
+    "description": "Message for draw declined"
+  },
+  "opponentRequestsTakeback": "يطلب الخصم استعادة النقلة، هل تقبل؟",
+  "@opponentRequestsTakeback": {
+    "description": "Message for opponent requests takeback"
+  },
+  "opponentProposesDraw": "يقترح الخصم التعادل، هل تقبل؟",
+  "@opponentProposesDraw": {
+    "description": "Message for opponent proposes draw"
+  },
+  "yes": "نعم",
+  "@yes": {
+    "description": "Yes"
+  },
+  "no": "لا",
+  "@no": {
+    "description": "No"
+  },
+  "areYouSureYouWantToRequestATakeback": "هل أنت متأكد من أنك تريد طلب استعادة النقلة؟",
+  "@areYouSureYouWantToRequestATakeback": {
+    "description": "Message for are you sure you want to request a takeback"
+  },
+  "confirmTakeback": "تأكيد استعادة النقلة؟",
+  "@confirmTakeback": {
+    "description": "Title for confirm takeback"
+  },
+  "areYouSureYouWantToResign": "هل أنت متأكد من أنك تريد الاستسلام؟",
+  "@areYouSureYouWantToResign": {
+    "description": "Message for are you sure you want to resign"
+  },
+  "confirmResign": "تأكيد الاستسلام؟",
+  "@confirmResign": {
+    "description": "Title for confirm resign"
+  },
+  "searchingForAnOpponent": "جاري البحث عن خصم...",
+  "@searchingForAnOpponent": {
+    "description": "Message for searching for an opponent"
+  },
+  "playOnline": "اللعب عبر الإنترنت",
+  "@playOnline": {
+    "description": "Title for play online"
+  },
+  "startOnline": "بدء اللعب عبر الإنترنت",
+  "@startOnline": {
+    "description": "Title for start online"
+  },
+  "connectToTheServerToStartYourBattleJourney": "اتصل بالخادم لبدء رحلة المعركة",
+  "@connectToTheServerToStartYourBattleJourney": {
+    "description": "Message for connect to the server to start your battle journey"
+  },
+  "connect": "اتصال",
+  "@connect": {
+    "description": "Connect"
+  },
+  "match": "مباراة",
+  "@match": {
+    "description": "Match"
+  },
+  "proposeDraw": "اقتراح تعادل",
+  "@proposeDraw": {
+    "description": "Propose Draw"
+  },
+  "cancel": "إلغاء",
+  "@cancel": {
+    "description": "Cancel"
+  },
+  "resign": "استسلام",
+  "@resign": {
+    "description": "Resign"
+  },
+  "takeBack": "استعادة",
+  "@takeBack": {
+    "description": "Take Back"
+  },
+  "promotion": "ترقية",
+  "@promotion": {
+    "description": "Promotion"
+  },
+  "fullEmpty": "كامل / فارغ",
+  "@fullEmpty": {
+    "description": "Full / Empty"
+  },
+  "playWithAI": "اللعب مع الذكاء الاصطناعي",
+  "@playWithAI": {
+    "description": "Play with AI"
+  },
+  "dragAndDropToRemove": "اسحب وأفلت هنا للإزالة",
+  "@dragAndDropToRemove": {
+    "description": "Drag & drop here to remove"
+  },
+  "invalidPosition": "وضع غير صالح، يرجى التحقق من:\n1. يجب أن يكون لكل جانب ملك واحد\n2. لا يمكن أن تكون البيادق في الصف الأول أو الأخير",
+  "@invalidPosition": {
+    "description": "Invalid position"
+  },
+  "setupBoard": "إعداد الرقعة",
+  "@setupBoard": {
+    "description": "Setup Board"
+  },
+  "allGames": "جميع الألعاب",
+  "@allGames": {
+    "description": "All Games"
+  },
+  "favorites": "المفضلة",
+  "@favorites": {
+    "description": "Favorites"
+  },
+  "noFavoriteGamesAvailable": "لا توجد ألعاب مفضلة",
+  "@noFavoriteGamesAvailable": {
+    "description": "No favorite games available"
+  },
+  "searchGames": "البحث عن الألعاب...",
+  "@searchGames": {
+    "description": "Search games"
+  },
+  "games": "الألعاب",
+  "@games": {
+    "description": "Games"
+  },
+  "failedToLoadGamesList": "فشل في تحميل قائمة الألعاب: {error}",
+  "@failedToLoadGamesList": {
+    "description": "Failed to load games list",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Error"
+      }
+    }
+  },
+  "comments": "التعليقات: {comments}",
+  "@comments": {
+    "description": "Comments",
+    "placeholders": {
+      "comments": {
+        "type": "String",
+        "example": "Comments"
+      }
+    }
+  },
+  "branchSelection": "اختيار الفرع",
+  "@branchSelection": {
+    "description": "Branch Selection"
+  },
+  "chessViewer": "عارض الشطرنج",
+  "@chessViewer": {
+    "description": "Chess Viewer"
+  },
+  "start": "بداية",
+  "@start": {
+    "description": "Start"
+  },
+  "previous": "السابق",
+  "@previous": {
+    "description": "Previous"
+  },
+  "next": "التالي",
+  "@next": {
+    "description": "Next"
+  },
+  "end": "النهاية",
+  "@end": {
+    "description": "End"
+  },
+  "addedToFavorites": "تمت الإضافة إلى المفضلة",
+  "@addedToFavorites": {
+    "description": "Added to favorites"
+  },
+  "removedFromFavorites": "تمت الإزالة من المفضلة",
+  "@removedFromFavorites": {
+    "description": "Removed from favorites"
+  },
+  "serverAddress": "عنوان الخادم",
+  "@serverAddress": {
+    "description": "Server Address"
+  },
+  "setServerAddress": "تعيين عنوان الخادم",
+  "@setServerAddress": {
+    "description": "Set Server Address"
+  },
+  "pleaseEnterTheServerAddress": "الرجاء إدخال عنوان الخادم",
+  "@pleaseEnterTheServerAddress": {
+    "description": "Please enter the server address"
+  },
+  "settings": "الإعدادات",
+  "@settings": {
+    "description": "Settings"
+  },
+  "engineSettings": "إعدادات المحرك",
+  "@engineSettings": {
+    "description": "Engine Settings"
+  },
+  "thinkingTime": "وقت التفكير",
+  "@thinkingTime": {
+    "description": "Thinking Time"
+  },
+  "limitTime": "تحديد الوقت",
+  "@limitTime": {
+    "description": "Limit Time"
+  },
+  "limitDepth": "تحديد العمق",
+  "@limitDepth": {
+    "description": "Limit Depth"
+  },
+  "timeControlMode": "وضع التحكم بالوقت",
+  "@timeControlMode": {
+    "description": "Time Control Mode"
+  },
+  "useTimeControl": "استخدام التحكم بالوقت",
+  "@useTimeControl": {
+    "description": "Use Time Control"
+  },
+  "showEngineAnalysisArrows": "إظهار أسهم تحليل المحرك",
+  "@showEngineAnalysisArrows": {
+    "description": "Show Engine Analysis Arrows"
+  },
+  "showPredictedMovesWhenTheEngineIsThinking": "إظهار النقلات المتوقعة أثناء تفكير المحرك",
+  "@showPredictedMovesWhenTheEngineIsThinking": {
+    "description": "Show predicted moves when the engine is thinking"
+  },
+  "languageSettings": "إعدادات اللغة",
+  "@languageSettings": {
+    "description": "Language Settings"
+  },
+  "layers": "الطبقات",
+  "@layers": {
+    "description": "Layers"
+  },
+  "current": "الحالي",
+  "@current": {
+    "description": "Current"
+  },
+  "browse": "تصفح",
+  "@browse": {
+    "description": "Browse"
+  },
+  "confirm": "تأكيد",
+  "@confirm": {
+    "description": "Confirm"
+  },
+  "selectPieceTheme": "اختيار سمة القطع",
+  "@selectPieceTheme": {
+    "description": "Select Piece Theme"
+  },
+  "selectThemeColor": "اختيار لون السمة",
+  "@selectThemeColor": {
+    "description": "Select Theme Color"
+  },
+  "setEngineLevel": "تعيين مستوى المحرك",
+  "@setEngineLevel": {
+    "description": "Set Engine Level"
+  },
+  "setThinkingTime": "تعيين وقت التفكير",
+  "@setThinkingTime": {
+    "description": "Set Thinking Time"
+  },
+  "setSearchDepth": "تعيين عمق البحث",
+  "@setSearchDepth": {
+    "description": "Set Search Depth"
+  },
+  "setEnginePath": "تعيين مسار المحرك",
+  "@setEnginePath": {
+    "description": "Set Engine Path"
+  },
+  "pleaseEnterTheEnginePath": "الرجاء إدخال مسار المحرك",
+  "@pleaseEnterTheEnginePath": {
+    "description": "Please enter the engine path"
+  },
+  "viewGames": "عرض الألعاب",
+  "@viewGames": {
+    "description": "View Games"
+  },
+  "exploreTheInfinitePossibilitiesOfChess": "اكتشف الإمكانيات اللانهائية للشطرنج",
+  "@exploreTheInfinitePossibilitiesOfChess": {
+    "description": "Explore the infinite possibilities of chess"
+  },
+  "checkmated": "كش مات",
+  "@checkmated": {
+    "description": "Checkmated"
+  },
+  "opponentOutOfTime": "انتهى وقت الخصم",
+  "@opponentOutOfTime": {
+    "description": "Opponent Out of Time"
+  },
+  "opponentResigned": "استسلم الخصم",
+  "@opponentResigned": {
+    "description": "Opponent Resigned"
+  },
+  "opponentLeft": "غادر الخصم",
+  "@opponentLeft": {
+    "description": "Opponent Left"
+  },
+  "outOfTime": "انتهى الوقت",
+  "@outOfTime": {
+    "description": "Out of Time"
+  },
+  "resigned": "استسلم",
+  "@resigned": {
+    "description": "Resigned"
+  },
+  "stalemate": "تعادل بالحصر",
+  "@stalemate": {
+    "description": "Stalemate"
+  },
+  "consensus": "إجماع",
+  "@consensus": {
+    "description": "Consensus"
+  }
+} 
