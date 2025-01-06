@@ -232,14 +232,6 @@
   "@playOnline": {
     "description": "Title for play online"
   },
-  "startOnline": "Inizia online",
-  "@startOnline": {
-    "description": "Title for start online"
-  },
-  "connectToTheServerToStartYourBattleJourney": "Connettiti al server per iniziare la tua avventura",
-  "@connectToTheServerToStartYourBattleJourney": {
-    "description": "Message for connect to the server to start your battle journey"
-  },
   "connect": "Connetti",
   "@connect": {
     "description": "Connect"
@@ -495,5 +487,9 @@
   "consensus": "Consenso",
   "@consensus": {
     "description": "Consensus"
+  },
+  "timeControl": "Controllo tempo",
+  "@timeControl": {
+    "description": "Time Control"
   }
 } 

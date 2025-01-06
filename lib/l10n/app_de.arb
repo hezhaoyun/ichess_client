@@ -232,14 +232,6 @@
   "@playOnline": {
     "description": "Title for play online"
   },
-  "startOnline": "Online starten",
-  "@startOnline": {
-    "description": "Title for start online"
-  },
-  "connectToTheServerToStartYourBattleJourney": "Verbinde dich mit dem Server, um deine Schachreise zu beginnen",
-  "@connectToTheServerToStartYourBattleJourney": {
-    "description": "Message for connect to the server to start your battle journey"
-  },
   "connect": "Verbinden",
   "@connect": {
     "description": "Connect"
@@ -495,5 +487,9 @@
   "consensus": "Einverständnis",
   "@consensus": {
     "description": "Consensus"
+  },
+  "timeControl": "Zeitkontrolle",
+  "@timeControl": {
+    "description": "Time Control"
   }
 } 

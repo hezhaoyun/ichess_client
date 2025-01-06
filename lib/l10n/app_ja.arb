@@ -232,14 +232,6 @@
   "@playOnline": {
     "description": "Title for play online"
   },
-  "startOnline": "オンライン対戦を開始",
-  "@startOnline": {
-    "description": "Title for start online"
-  },
-  "connectToTheServerToStartYourBattleJourney": "対戦の旅を始めるためにサーバーに接続してください",
-  "@connectToTheServerToStartYourBattleJourney": {
-    "description": "Message for connect to the server to start your battle journey"
-  },
   "connect": "接続",
   "@connect": {
     "description": "Connect"
@@ -495,5 +487,9 @@
   "consensus": "合意",
   "@consensus": {
     "description": "Consensus"
+  },
+  "timeControl": "時間制御",
+  "@timeControl": {
+    "description": "Time Control"
   }
 } 

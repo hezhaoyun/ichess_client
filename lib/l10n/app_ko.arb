@@ -232,14 +232,6 @@
   "@playOnline": {
     "description": "Title for play online"
   },
-  "startOnline": "온라인 시작",
-  "@startOnline": {
-    "description": "Title for start online"
-  },
-  "connectToTheServerToStartYourBattleJourney": "서버에 연결하여 대전을 시작하세요",
-  "@connectToTheServerToStartYourBattleJourney": {
-    "description": "Message for connect to the server to start your battle journey"
-  },
   "connect": "연결",
   "@connect": {
     "description": "Connect"
@@ -495,5 +487,9 @@
   "consensus": "합의",
   "@consensus": {
     "description": "Consensus"
+  },
+  "timeControl": "시간 제어",
+  "@timeControl": {
+    "description": "Time Control"
   }
 }

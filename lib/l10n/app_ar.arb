@@ -232,14 +232,6 @@
   "@playOnline": {
     "description": "Title for play online"
   },
-  "startOnline": "بدء اللعب عبر الإنترنت",
-  "@startOnline": {
-    "description": "Title for start online"
-  },
-  "connectToTheServerToStartYourBattleJourney": "اتصل بالخادم لبدء رحلة المعركة",
-  "@connectToTheServerToStartYourBattleJourney": {
-    "description": "Message for connect to the server to start your battle journey"
-  },
   "connect": "اتصال",
   "@connect": {
     "description": "Connect"
@@ -495,5 +487,9 @@
   "consensus": "إجماع",
   "@consensus": {
     "description": "Consensus"
+  },
+  "timeControl": "وقت التحكم",
+  "@timeControl": {
+    "description": "Time Control"
   }
 } 

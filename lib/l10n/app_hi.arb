@@ -232,14 +232,6 @@
   "@playOnline": {
     "description": "Title for play online"
   },
-  "startOnline": "ऑनलाइन शुरू करें",
-  "@startOnline": {
-    "description": "Title for start online"
-  },
-  "connectToTheServerToStartYourBattleJourney": "अपनी युद्ध यात्रा शुरू करने के लिए सर्वर से कनेक्ट करें",
-  "@connectToTheServerToStartYourBattleJourney": {
-    "description": "Message for connect to the server to start your battle journey"
-  },
   "connect": "कनेक्ट करें",
   "@connect": {
     "description": "Connect"
@@ -495,5 +487,9 @@
   "consensus": "सहमति",
   "@consensus": {
     "description": "Consensus"
+  },
+  "timeControl": "समय नियंत्रण",
+  "@timeControl": {
+    "description": "Time Control"
   }
 } 
