@@ -20,10 +20,22 @@ enum OnlineState {
   stayInLobby,
 }
 
+enum TimeControl {
+  rapid_5_2(0, '5+2'),
+  rapid_10_0(1, '10+0'),
+  rapid_15_10(2, '15+10'),
+  classical_30_15(3, '30+15');
+
+  final int value;
+  final String label;
+  const TimeControl(this.value, this.label);
+}
+
 mixin BattleMixin<T extends StatefulWidget> on State<T> {
   late WPChessboardController controller;
   late chess_lib.Chess chess;
   List<List<int>>? lastMove;
+  TimeControl selectedTimeControl = TimeControl.rapid_5_2;
 
   void setupChessBoard({String initialFen = chess_lib.Chess.DEFAULT_POSITION}) {
     chess = chess_lib.Chess();
@@ -193,7 +205,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   }
 
   onConnect(_) {
-    socket?.emit('join', {'pid': pid, 'name': name});
+    socket?.emit('join', {'pid': pid, 'name': name, 'time_control': selectedTimeControl.value});
     safeSetState(() => gameState = OnlineState.joining);
   }
 
@@ -417,7 +429,7 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
 
     controller.setFen('');
 
-    socket?.emit('match', {});
+    socket?.emit('match', {'time_control': selectedTimeControl.value});
   }
 
   void onSocketMove(dynamic data) {

@@ -113,6 +113,10 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
               ),
             ),
             const SizedBox(height: 32),
+            // 在连接按钮前添加时间规则选择
+            const SizedBox(height: 16),
+            _buildTimeControlSelector(),
+            const SizedBox(height: 16),
             SoundButton.iconElevated(
               onPressed: connect,
               icon: const Icon(Icons.wifi),
@@ -453,4 +457,30 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
     final orientationColor = orientation == BoardOrientation.white ? chess_lib.Color.WHITE : chess_lib.Color.BLACK;
     return gameState == OnlineState.waitingMove && chess.turn == orientationColor;
   }
+
+  // 添加时间规则选择器组件
+  Widget _buildTimeControlSelector() => Container(
+        padding: const EdgeInsets.symmetric(horizontal: 16),
+        decoration: BoxDecoration(
+          color: Theme.of(context).colorScheme.surface,
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: Theme.of(context).colorScheme.primary.withAlpha(0x33)),
+        ),
+        child: DropdownButton<TimeControl>(
+          value: selectedTimeControl,
+          isExpanded: true,
+          underline: const SizedBox(),
+          items: TimeControl.values
+              .map((control) => DropdownMenuItem(
+                    value: control,
+                    child: Text(control.label),
+                  ))
+              .toList(),
+          onChanged: (value) {
+            if (value != null) {
+              setState(() => selectedTimeControl = value);
+            }
+          },
+        ),
+      );
 }
