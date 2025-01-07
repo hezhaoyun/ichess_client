@@ -662,7 +662,10 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           child: Row(
             children: [
-              IconButton(icon: const Icon(Icons.arrow_back_ios), onPressed: () => Navigator.of(context).pop()),
+              IconButton(
+                icon: const Icon(Icons.arrow_back),
+                onPressed: () => Navigator.of(context).pop(),
+              ),
               Expanded(
                 child: Text(
                   AppLocalizations.of(context)!.humanVsAi,

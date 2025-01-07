@@ -32,9 +32,9 @@
   "@enginePath": {
     "description": "Title for engine path settings"
   },
-  "showEngineArrows": "Show Engine Analysis Arrows",
-  "@showEngineArrows": {
-    "description": "Title for show engine arrows settings"
+  "showAnalysisArrows": "Show Analysis Arrows",
+  "@showAnalysisArrows": {
+    "description": "Title for show analysis arrows settings"
   },
   "language": "Language",
   "@language": {
@@ -391,10 +391,6 @@
   "useTimeControl": "Use Time Control",
   "@useTimeControl": {
     "description": "Use Time Control"
-  },
-  "showEngineAnalysisArrows": "Show Engine Analysis Arrows",
-  "@showEngineAnalysisArrows": {
-    "description": "Show Engine Analysis Arrows"
   },
   "showPredictedMovesWhenTheEngineIsThinking": "Show predicted moves when the engine is thinking",
   "@showPredictedMovesWhenTheEngineIsThinking": {

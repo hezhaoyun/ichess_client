@@ -392,9 +392,9 @@
   "@useTimeControl": {
     "description": "Use Time Control"
   },
-  "showEngineAnalysisArrows": "Показывать стрелки анализа движка",
-  "@showEngineAnalysisArrows": {
-    "description": "Show Engine Analysis Arrows"
+  "showAnalysisArrows": "Показывать стрелки анализа",
+  "@showAnalysisArrows": {
+    "description": "Show Analysis Arrows"
   },
   "showPredictedMovesWhenTheEngineIsThinking": "Показывать предполагаемые ходы во время размышления движка",
   "@showPredictedMovesWhenTheEngineIsThinking": {

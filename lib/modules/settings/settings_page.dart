@@ -75,7 +75,11 @@ class SettingsPage extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(horizontal: 16.0),
                         child: Card(
                           child: ListTile(
-                            leading: Icon(Icons.language),
+                            leading: CircleAvatar(
+                              radius: 12,
+                              backgroundColor: Theme.of(context).colorScheme.primary,
+                              child: Text(appConfigManager.language, style: const TextStyle(color: Colors.white)),
+                            ),
                             title: Text(getLanguageName(appConfigManager.language)),
                             onTap: () {
                               Navigator.push(
@@ -187,42 +191,99 @@ class SettingsPage extends StatelessWidget {
                             children: [
                               ListTile(
                                 title: Text(AppLocalizations.of(context)!.engineLevel),
-                                subtitle:
-                                    Text('${AppLocalizations.of(context)!.current}: ${appConfigManager.engineLevel}'),
+                                contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
+                                trailing: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    Text(
+                                      '${AppLocalizations.of(context)!.current}: ${appConfigManager.engineLevel}',
+                                    ),
+                                    const SizedBox(width: 4),
+                                    Icon(
+                                      Icons.arrow_forward_ios,
+                                      size: 12,
+                                      color: Theme.of(context).colorScheme.secondary,
+                                    ),
+                                  ],
+                                ),
                                 onTap: () => _showEngineLevelDialog(context, appConfigManager),
                               ),
-                              SwitchListTile(
+                              ListTile(
                                 title: Text(AppLocalizations.of(context)!.timeControlMode),
-                                subtitle: Text(appConfigManager.useTimeControl
-                                    ? AppLocalizations.of(context)!.limitTime
-                                    : AppLocalizations.of(context)!.limitDepth),
-                                value: appConfigManager.useTimeControl,
-                                onChanged: (value) => appConfigManager.setUseTimeControl(value),
+                                contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
+                                trailing: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    Text(
+                                      appConfigManager.useTimeControl
+                                          ? AppLocalizations.of(context)!.limitTime
+                                          : AppLocalizations.of(context)!.limitDepth,
+                                    ),
+                                    const SizedBox(width: 4),
+                                    Icon(
+                                      Icons.arrow_forward_ios,
+                                      size: 12,
+                                      color: Theme.of(context).colorScheme.secondary,
+                                    ),
+                                  ],
+                                ),
+                                onTap: () => appConfigManager.setUseTimeControl(!appConfigManager.useTimeControl),
                               ),
                               if (appConfigManager.useTimeControl)
                                 ListTile(
                                   title: Text(AppLocalizations.of(context)!.thinkingTime),
-                                  subtitle: Text('${appConfigManager.moveTime}ms'),
+                                  contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
+                                  trailing: Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
+                                      Text('${appConfigManager.moveTime}ms'),
+                                      const SizedBox(width: 4),
+                                      Icon(
+                                        Icons.arrow_forward_ios,
+                                        size: 12,
+                                        color: Theme.of(context).colorScheme.secondary,
+                                      ),
+                                    ],
+                                  ),
                                   onTap: () => _showMoveTimeDialog(context, appConfigManager),
                                 )
                               else
                                 ListTile(
                                   title: Text(AppLocalizations.of(context)!.searchDepth),
-                                  subtitle:
+                                  contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
+                                  trailing: Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
                                       Text('${appConfigManager.searchDepth} ${AppLocalizations.of(context)!.layers}'),
+                                      const SizedBox(width: 4),
+                                      Icon(
+                                        Icons.arrow_forward_ios,
+                                        size: 12,
+                                        color: Theme.of(context).colorScheme.secondary,
+                                      ),
+                                    ],
+                                  ),
                                   onTap: () => _showSearchDepthDialog(context, appConfigManager),
                                 ),
                               if (!Platform.isAndroid && !Platform.isIOS)
                                 ListTile(
+                                  contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
                                   title: Text(AppLocalizations.of(context)!.enginePath),
-                                  subtitle: Text(appConfigManager.enginePath),
+                                  subtitle: Text(
+                                    appConfigManager.enginePath,
+                                    style: TextStyle(
+                                      color: Theme.of(context).colorScheme.secondary,
+                                      fontWeight: FontWeight.w300,
+                                    ),
+                                  ),
                                   onTap: () async {
                                     final result = await _showEnginePathDialog(context, appConfigManager);
                                     if (result != null) appConfigManager.setEnginePath(result);
                                   },
                                 ),
                               SwitchListTile(
-                                title: Text(AppLocalizations.of(context)!.showEngineAnalysisArrows),
+                                contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
+                                title: Text(AppLocalizations.of(context)!.showAnalysisArrows),
                                 subtitle: Text(AppLocalizations.of(context)!.showPredictedMovesWhenTheEngineIsThinking),
                                 value: appConfigManager.showArrows,
                                 onChanged: (value) => appConfigManager.setShowArrows(value),

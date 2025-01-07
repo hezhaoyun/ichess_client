@@ -392,9 +392,9 @@
     "@useTimeControl": {
         "description": "Use Time Control"
     },
-    "showEngineAnalysisArrows": "显示引擎分析箭头",
-    "@showEngineAnalysisArrows": {
-        "description": "Show Engine Analysis Arrows"
+    "showAnalysisArrows": "显示分析箭头",
+    "@showAnalysisArrows": {
+        "description": "Show Analysis Arrows"
     },
     "showPredictedMovesWhenTheEngineIsThinking": "在引擎思考时显示预测着法",
     "@showPredictedMovesWhenTheEngineIsThinking": {

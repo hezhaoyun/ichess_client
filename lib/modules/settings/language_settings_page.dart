@@ -1,22 +1,117 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 import '../../game/config_manager.dart';
 
-final List<Map<String, String>> languages = [
-  {'name': 'English', 'code': 'en'},
-  {'name': 'Русский', 'code': 'ru'},
-  {'name': 'Deutsch', 'code': 'de'},
-  {'name': 'Español', 'code': 'es'},
-  {'name': 'Français', 'code': 'fr'},
-  {'name': 'Italiano', 'code': 'it'},
-  {'name': 'Polski', 'code': 'pl'},
-  {'name': 'हिन्दी', 'code': 'hi'},
-  {'name': 'العربية', 'code': 'ar'},
-  {'name': '中文', 'code': 'zh'},
-  {'name': '한국어', 'code': 'ko'},
-  {'name': '日本語', 'code': 'ja'},
+final List<Map<String, dynamic>> languages = [
+  {
+    'name': 'English',
+    'code': 'en',
+    'countries': ['gb', 'us', 'au', 'ca', 'nz', 'ie', 'za', 'in', 'ph', 'sg']
+  },
+  {
+    'name': 'Русский',
+    'code': 'ru',
+    'countries': ['ru', 'by', 'kz', 'kg', 'md', 'tj', 'uz', 'am']
+  },
+  {
+    'name': 'Deutsch',
+    'code': 'de',
+    'countries': ['de', 'at', 'ch', 'li', 'lu', 'be']
+  },
+  {
+    'name': 'Español',
+    'code': 'es',
+    'countries': [
+      'es',
+      'mx',
+      'ar',
+      'co',
+      'pe',
+      've',
+      'cl',
+      'ec',
+      'gt',
+      'cu',
+      'bo',
+      'do',
+      'hn',
+      'py',
+      'sv',
+      'ni',
+      'cr',
+      'pa',
+      'uy'
+    ]
+  },
+  {
+    'name': 'Français',
+    'code': 'fr',
+    'countries': ['fr', 'ca', 'be', 'ch', 'lu', 'mc', 'sn', 'ci', 'mg', 'cm', 'dj', 'ml', 'ne', 'bf', 'tg']
+  },
+  {
+    'name': 'Italiano',
+    'code': 'it',
+    'countries': ['it', 'ch', 'sm', 'va', 'mt']
+  },
+  {
+    'name': 'Polski',
+    'code': 'pl',
+    'countries': ['pl']
+  },
+  {
+    'name': 'हिन्दी',
+    'code': 'hi',
+    'countries': ['in', 'fj', 'mu', 'gy', 'sr', 'tt']
+  },
+  {
+    'name': 'العربية',
+    'code': 'ar',
+    'countries': [
+      'sa',
+      'eg',
+      'ae',
+      'dz',
+      'bh',
+      'td',
+      'km',
+      'dj',
+      'er',
+      'iq',
+      'jo',
+      'kw',
+      'lb',
+      'ly',
+      'mr',
+      'ma',
+      'om',
+      'ps',
+      'qa',
+      'so',
+      'sd',
+      'sy',
+      'tn',
+      'ye'
+    ]
+  },
+  {
+    'name': '中文',
+    'code': 'zh',
+    'countries': ['cn', 'tw', 'hk', 'mo', 'sg', 'my']
+  },
+  {
+    'name': '한국어',
+    'code': 'ko',
+    'countries': ['kr', 'kp']
+  },
+  {
+    'name': '日本語',
+    'code': 'ja',
+    'countries': ['jp']
+  },
 ];
 
 String getLanguageName(String code) {
@@ -29,15 +124,42 @@ class LanguageSettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(title: Text(AppLocalizations.of(context)!.language)),
-        body: ListView.builder(
+        body: ListView.separated(
           itemCount: languages.length,
+          separatorBuilder: (context, index) => const Divider(height: 1),
           itemBuilder: (context, index) => ListTile(
-            leading: Icon(Icons.language),
+            leading: CircleAvatar(
+              backgroundColor: Theme.of(context).colorScheme.primary,
+              child: Text(languages[index]['code']!, style: const TextStyle(color: Colors.white)),
+            ),
             title: Text(languages[index]['name']!),
+            subtitle: Wrap(
+              spacing: 4,
+              children: languages[index]['countries']!.map<Widget>((countryCode) {
+                return Text(
+                  getFlagEmoji(countryCode),
+                  style: const TextStyle(fontSize: 24),
+                );
+              }).toList(),
+            ),
             onTap: () => _changeLanguage(context, languages[index]['code']!),
           ),
         ),
       );
+
+  String getFlagEmoji(String countryCode) {
+    if (countryCode.toUpperCase() == 'TW') {
+      // iOS 使用替代符号，其他平台尝试使用原始符号
+      if (Platform.isIOS || Platform.isMacOS) return '🏴';
+      return '🇹🇼';
+    }
+
+    // 常规国家代码处理
+    return countryCode.toUpperCase().replaceAllMapped(
+          RegExp(r'[A-Z]'),
+          (match) => String.fromCharCode(match.group(0)!.codeUnitAt(0) + 127397),
+        );
+  }
 
   Future<void> _changeLanguage(BuildContext context, String languageCode) async {
     final appConfigManager = Provider.of<ConfigManager>(context, listen: false);
