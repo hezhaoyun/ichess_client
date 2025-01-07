@@ -25,11 +25,10 @@ class Routes {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    // h:120
     final header = SizedBox(
       height: 120,
       child: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.only(left: 30.0, right: 10.0, top: 20.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -54,7 +53,7 @@ class _HomePageState extends State<HomePage> {
                 IconButton(
                   icon: const Icon(Icons.settings),
                   onPressed: () {
-                    Audios().playSound('sounds/button.mp3');
+                    Audios().playSound('sounds/click.mp3');
                     Navigator.pushNamed(context, Routes.settings);
                   },
                 ),
@@ -74,7 +73,6 @@ class _HomePageState extends State<HomePage> {
       ),
     );
 
-    // h:140
     final footer = SizedBox(
       height: 140,
       child: Padding(
@@ -84,7 +82,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               SizedBox(height: 100, child: Lottie.asset('assets/animations/chess.json')),
               Text(
-                '${AppLocalizations.of(context)!.appName} v1.0.0 · ♟️',
+                'Chess Road v1.0.0 · ♟️',
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
                       color: Theme.of(context).colorScheme.onSurface.withAlpha(128),
                     ),
@@ -223,6 +221,7 @@ class _HomePageState extends State<HomePage> {
           SizedBox(height: size * 0.06),
           Text(
             label,
+            textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.titleSmall?.copyWith(
                   fontWeight: FontWeight.bold,
                   letterSpacing: 1,
@@ -233,7 +232,7 @@ class _HomePageState extends State<HomePage> {
 
   // 新增页面跳转动画方法
   void _animateAndNavigate(String route) {
-    Audios().playSound('sounds/button.mp3');
+    Audios().playSound('sounds/click.mp3');
     Navigator.of(context).pushNamed(route, arguments: {'fromHome': true});
   }
 }

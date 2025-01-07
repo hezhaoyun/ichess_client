@@ -55,42 +55,39 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     final configManager = Provider.of<ConfigManager>(context);
 
-    return Consumer<ThemeManager>(builder: (context, themeManager, child) {
-      return MaterialApp(
-        locale: Locale(configManager.language),
-        localizationsDelegates: [
-          AppLocalizations.delegate,
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
-          GlobalCupertinoLocalizations.delegate,
-        ],
-        supportedLocales: AppLocalizations.supportedLocales,
-        title: AppLocalizations.of(context)?.appName ?? 'Chess Road',
-        theme: themeManager.getTheme().copyWith(
-              textTheme: themeManager.getTheme().textTheme.apply(
-                    fontFamily: 'Komigo3D-Regular',
+    return Consumer<ThemeManager>(
+        builder: (context, themeManager, child) => MaterialApp(
+              locale: Locale(configManager.language),
+              localizationsDelegates: [
+                AppLocalizations.delegate,
+                GlobalMaterialLocalizations.delegate,
+                GlobalWidgetsLocalizations.delegate,
+                GlobalCupertinoLocalizations.delegate,
+              ],
+              supportedLocales: AppLocalizations.supportedLocales,
+              title: AppLocalizations.of(context)?.appName ?? 'Chess Road',
+              theme: themeManager.getTheme().copyWith(
+                    textTheme: themeManager.getTheme().textTheme.apply(fontFamily: 'ZCOOLXiaoWei'),
                   ),
-            ),
-        home: const HomePage(),
-        routes: {
-          Routes.onlineBattle: (context) => const OnlineBattlePage(),
-          Routes.viewer: (context) => const GamesPage(),
-          Routes.setup: (context) => const BoardSetupPage(),
-          Routes.settings: (context) => const SettingsPage(),
-        },
-        onGenerateRoute: (settings) {
-          if (settings.name == Routes.aiBattle) {
-            final args = settings.arguments as Map<String, dynamic>?;
-            final fen = args?['fen'] as String?;
-            return MaterialPageRoute(builder: (context) => AIBattlePage(initialFen: fen));
-          }
-          return MaterialPageRoute(
-            builder: (context) => const HomePage(),
-          );
-        },
-        debugShowCheckedModeBanner: false,
-      );
-    });
+              home: const HomePage(),
+              routes: {
+                Routes.onlineBattle: (context) => const OnlineBattlePage(),
+                Routes.viewer: (context) => const GamesPage(),
+                Routes.setup: (context) => const BoardSetupPage(),
+                Routes.settings: (context) => const SettingsPage(),
+              },
+              onGenerateRoute: (settings) {
+                if (settings.name == Routes.aiBattle) {
+                  final args = settings.arguments as Map<String, dynamic>?;
+                  final fen = args?['fen'] as String?;
+                  return MaterialPageRoute(builder: (context) => AIBattlePage(initialFen: fen));
+                }
+                return MaterialPageRoute(
+                  builder: (context) => const HomePage(),
+                );
+              },
+              debugShowCheckedModeBanner: false,
+            ));
   }
 
   @override

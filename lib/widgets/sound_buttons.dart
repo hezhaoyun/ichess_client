@@ -56,7 +56,7 @@ class SoundButton {
       );
 
   static wrapAction(VoidCallback? onPressed, {String? sound}) {
-    _playSound(sound ?? 'sounds/button.mp3');
+    _playSound(sound ?? 'sounds/click.mp3');
     if (onPressed != null) onPressed();
   }
 

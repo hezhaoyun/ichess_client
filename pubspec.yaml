@@ -41,15 +41,30 @@ flutter:
   generate: true
 
   fonts:
-    - family: "CAMPUS"
+    - family: "ZCOOLXiaoWei"
       fonts:
-        - asset: "assets/fonts/CAMPUS PERSONAL USE.ttf"
-    - family: "The Amazing Spider-Man"
+        - asset: "assets/fonts/ZCOOLXiaoWei-Regular.ttf"
+    
+    - family: "NotoSerif"
       fonts:
-        - asset: "assets/fonts/The Amazing Spider-Man.ttf"
-    - family: "Komigo3D-Regular"
-      fonts:
-        - asset: "assets/fonts/Komigo3D-Regular.ttf"
+        - asset: "assets/fonts/NotoSerif-Thin.ttf"
+          weight: 100
+        - asset: "assets/fonts/NotoSerif-ExtraLight.ttf"
+          weight: 200
+        - asset: "assets/fonts/NotoSerif-Light.ttf"
+          weight: 300
+        - asset: "assets/fonts/NotoSerif-Regular.ttf"
+          weight: 400
+        - asset: "assets/fonts/NotoSerif-Medium.ttf"
+          weight: 500
+        - asset: "assets/fonts/NotoSerif-SemiBold.ttf"
+          weight: 600
+        - asset: "assets/fonts/NotoSerif-Bold.ttf"
+          weight: 700
+        - asset: "assets/fonts/NotoSerif-ExtraBold.ttf"
+          weight: 800
+        - asset: "assets/fonts/NotoSerif-Black.ttf"
+          weight: 900
 
   assets:
     - assets/icons/
