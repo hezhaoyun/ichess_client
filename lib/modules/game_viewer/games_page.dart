@@ -161,11 +161,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
         }
 
         if (mounted) {
-          Navigator.of(context).push(
-            MaterialPageRoute(
-              builder: (context) => ViewerPage(gameFile: file.name, pgnContent: content),
-            ),
-          );
+          await goToViewerPage(gameFile: file.name, pgnContent: content);
         }
       }
     } catch (e) {
@@ -231,11 +227,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
                         ),
                   ),
                   trailing: const Icon(Icons.chevron_right),
-                  onTap: () => Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => ViewerPage(gameFile: game.file),
-                    ),
-                  ),
+                  onTap: () async => await goToViewerPage(gameFile: game.file),
                 ),
               );
             },
@@ -267,14 +259,19 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
             title: Text(favorite.event),
             subtitle: Text('${favorite.white} vs ${favorite.black}\n${favorite.date}'),
             trailing: const Icon(Icons.chevron_right),
-            onTap: () => Navigator.of(context).push(
-              MaterialPageRoute(
-                builder: (context) => ViewerPage(gameFile: 'favorite_${index + 1}.pgn', pgnContent: favorite.pgn),
-              ),
-            ),
+            onTap: () async => await goToViewerPage(gameFile: 'favorite_${index + 1}.pgn', pgnContent: favorite.pgn),
           ),
         );
       },
     );
+  }
+
+  Future<void> goToViewerPage({required String gameFile, String? pgnContent}) async {
+    await Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => ViewerPage(gameFile: gameFile, pgnContent: pgnContent),
+      ),
+    );
+    await _loadFavorites();
   }
 }
