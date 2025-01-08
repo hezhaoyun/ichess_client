@@ -16,7 +16,7 @@ class SettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final themeManager = Provider.of<ThemeManager>(context);
-    final appConfigManager = Provider.of<ConfigManager>(context);
+    final configManager = Provider.of<ConfigManager>(context);
     final pieceThemePath = ThemeManager.kPieceThemes[themeManager.selectedPieceTheme]!;
 
     return Scaffold(
@@ -78,9 +78,14 @@ class SettingsPage extends StatelessWidget {
                             leading: CircleAvatar(
                               radius: 12,
                               backgroundColor: Theme.of(context).colorScheme.primary,
-                              child: Text(appConfigManager.language, style: const TextStyle(color: Colors.white)),
+                              child: Text(configManager.language, style: const TextStyle(color: Colors.white)),
                             ),
-                            title: Text(getLanguageName(appConfigManager.language)),
+                            title: Text(getLanguageName(configManager.language)),
+                            trailing: Icon(
+                              Icons.arrow_forward_ios,
+                              size: 12,
+                              color: Theme.of(context).colorScheme.secondary,
+                            ),
                             onTap: () {
                               Navigator.push(
                                 context,
@@ -110,6 +115,11 @@ class SettingsPage extends StatelessWidget {
                               ),
                             ),
                             title: Text(themeManager.currentThemeName),
+                            trailing: Icon(
+                              Icons.arrow_forward_ios,
+                              size: 12,
+                              color: Theme.of(context).colorScheme.secondary,
+                            ),
                             onTap: () => _showThemeColorDialog(context, themeManager),
                           ),
                         ),
@@ -127,6 +137,11 @@ class SettingsPage extends StatelessWidget {
                           child: ListTile(
                             leading: SvgPicture.asset('$pieceThemePath/wk.svg', width: 32, height: 32),
                             title: Text(themeManager.selectedPieceTheme),
+                            trailing: Icon(
+                              Icons.arrow_forward_ios,
+                              size: 12,
+                              color: Theme.of(context).colorScheme.secondary,
+                            ),
                             onTap: () => _showPieceThemeDialog(context, themeManager),
                           ),
                         ),
@@ -143,12 +158,17 @@ class SettingsPage extends StatelessWidget {
                         child: Card(
                           child: ListTile(
                             title: Text(AppLocalizations.of(context)!.serverAddress),
-                            subtitle: Text(appConfigManager.serverUrl),
+                            subtitle: Text(configManager.serverUrl),
+                            trailing: Icon(
+                              Icons.arrow_forward_ios,
+                              size: 12,
+                              color: Theme.of(context).colorScheme.secondary,
+                            ),
                             onTap: () async {
                               final result = await showDialog<String>(
                                 context: context,
                                 builder: (context) {
-                                  final controller = TextEditingController(text: appConfigManager.serverUrl);
+                                  final controller = TextEditingController(text: configManager.serverUrl);
                                   return AlertDialog(
                                     title: Text(AppLocalizations.of(context)!.setServerAddress),
                                     content: TextField(
@@ -171,7 +191,7 @@ class SettingsPage extends StatelessWidget {
                               );
 
                               if (result != null) {
-                                appConfigManager.setServerUrl(result);
+                                configManager.setServerUrl(result);
                               }
                             },
                           ),
@@ -191,12 +211,11 @@ class SettingsPage extends StatelessWidget {
                             children: [
                               ListTile(
                                 title: Text(AppLocalizations.of(context)!.engineLevel),
-                                contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
                                 trailing: Row(
                                   mainAxisSize: MainAxisSize.min,
                                   children: [
                                     Text(
-                                      '${AppLocalizations.of(context)!.current}: ${appConfigManager.engineLevel}',
+                                      '${AppLocalizations.of(context)!.current}: ${configManager.engineLevel}',
                                     ),
                                     const SizedBox(width: 4),
                                     Icon(
@@ -206,16 +225,15 @@ class SettingsPage extends StatelessWidget {
                                     ),
                                   ],
                                 ),
-                                onTap: () => _showEngineLevelDialog(context, appConfigManager),
+                                onTap: () => _showEngineLevelDialog(context, configManager),
                               ),
                               ListTile(
                                 title: Text(AppLocalizations.of(context)!.timeControlMode),
-                                contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
                                 trailing: Row(
                                   mainAxisSize: MainAxisSize.min,
                                   children: [
                                     Text(
-                                      appConfigManager.useTimeControl
+                                      configManager.useTimeControl
                                           ? AppLocalizations.of(context)!.limitTime
                                           : AppLocalizations.of(context)!.limitDepth,
                                     ),
@@ -227,16 +245,15 @@ class SettingsPage extends StatelessWidget {
                                     ),
                                   ],
                                 ),
-                                onTap: () => appConfigManager.setUseTimeControl(!appConfigManager.useTimeControl),
+                                onTap: () => configManager.setUseTimeControl(!configManager.useTimeControl),
                               ),
-                              if (appConfigManager.useTimeControl)
+                              if (configManager.useTimeControl)
                                 ListTile(
                                   title: Text(AppLocalizations.of(context)!.thinkingTime),
-                                  contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
                                   trailing: Row(
                                     mainAxisSize: MainAxisSize.min,
                                     children: [
-                                      Text('${appConfigManager.moveTime}ms'),
+                                      Text('${configManager.moveTime}ms'),
                                       const SizedBox(width: 4),
                                       Icon(
                                         Icons.arrow_forward_ios,
@@ -245,16 +262,15 @@ class SettingsPage extends StatelessWidget {
                                       ),
                                     ],
                                   ),
-                                  onTap: () => _showMoveTimeDialog(context, appConfigManager),
+                                  onTap: () => _showMoveTimeDialog(context, configManager),
                                 )
                               else
                                 ListTile(
                                   title: Text(AppLocalizations.of(context)!.searchDepth),
-                                  contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
                                   trailing: Row(
                                     mainAxisSize: MainAxisSize.min,
                                     children: [
-                                      Text('${appConfigManager.searchDepth} ${AppLocalizations.of(context)!.layers}'),
+                                      Text('${configManager.searchDepth} ${AppLocalizations.of(context)!.layers}'),
                                       const SizedBox(width: 4),
                                       Icon(
                                         Icons.arrow_forward_ios,
@@ -263,30 +279,28 @@ class SettingsPage extends StatelessWidget {
                                       ),
                                     ],
                                   ),
-                                  onTap: () => _showSearchDepthDialog(context, appConfigManager),
+                                  onTap: () => _showSearchDepthDialog(context, configManager),
                                 ),
                               if (!Platform.isAndroid && !Platform.isIOS)
                                 ListTile(
-                                  contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
                                   title: Text(AppLocalizations.of(context)!.enginePath),
                                   subtitle: Text(
-                                    appConfigManager.enginePath,
+                                    configManager.enginePath,
                                     style: TextStyle(
                                       color: Theme.of(context).colorScheme.secondary,
                                       fontWeight: FontWeight.w300,
                                     ),
                                   ),
                                   onTap: () async {
-                                    final result = await _showEnginePathDialog(context, appConfigManager);
-                                    if (result != null) appConfigManager.setEnginePath(result);
+                                    final result = await _showEnginePathDialog(context, configManager);
+                                    if (result != null) configManager.setEnginePath(result);
                                   },
                                 ),
                               SwitchListTile(
-                                contentPadding: EdgeInsets.only(left: 16.0, right: 10.0),
                                 title: Text(AppLocalizations.of(context)!.showAnalysisArrows),
                                 subtitle: Text(AppLocalizations.of(context)!.showPredictedMovesWhenTheEngineIsThinking),
-                                value: appConfigManager.showArrows,
-                                onChanged: (value) => appConfigManager.setShowArrows(value),
+                                value: configManager.showArrows,
+                                onChanged: (value) => configManager.setShowArrows(value),
                               ),
                             ],
                           ),
@@ -304,10 +318,10 @@ class SettingsPage extends StatelessWidget {
     );
   }
 
-  Future<String?> _showEnginePathDialog(BuildContext context, ConfigManager appConfigManager) => showDialog<String>(
+  Future<String?> _showEnginePathDialog(BuildContext context, ConfigManager configManager) => showDialog<String>(
         context: context,
         builder: (context) {
-          final controller = TextEditingController(text: appConfigManager.enginePath);
+          final controller = TextEditingController(text: configManager.enginePath);
           return AlertDialog(
             title: Text(AppLocalizations.of(context)!.setEnginePath),
             content: Row(
@@ -431,6 +445,7 @@ class SettingsPage extends StatelessWidget {
         content: SizedBox(
           width: double.maxFinite,
           child: ListView.builder(
+            shrinkWrap: true,
             itemCount: ThemeManager.kPieceThemes.length,
             itemBuilder: (context, index) {
               final themeName = ThemeManager.kPieceThemes.keys.elementAt(index);

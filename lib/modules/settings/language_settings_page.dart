@@ -5,6 +5,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 import '../../game/config_manager.dart';
+import '../../game/theme_manager.dart';
 
 final List<Map<String, dynamic>> languages = [
   {
@@ -122,30 +123,39 @@ class LanguageSettingsPage extends StatelessWidget {
   const LanguageSettingsPage({super.key});
 
   @override
-  Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(title: Text(AppLocalizations.of(context)!.language)),
-        body: ListView.separated(
-          itemCount: languages.length,
-          separatorBuilder: (context, index) => const Divider(height: 1),
-          itemBuilder: (context, index) => ListTile(
-            leading: CircleAvatar(
-              backgroundColor: Theme.of(context).colorScheme.primary,
-              child: Text(languages[index]['code']!, style: const TextStyle(color: Colors.white)),
-            ),
-            title: Text(languages[index]['name']!),
-            subtitle: Wrap(
-              spacing: 4,
-              children: languages[index]['countries']!.map<Widget>((countryCode) {
-                return Text(
-                  getFlagEmoji(countryCode),
-                  style: const TextStyle(fontSize: 24),
-                );
-              }).toList(),
-            ),
-            onTap: () => _changeLanguage(context, languages[index]['code']!),
+  Widget build(BuildContext context) {
+    final configManager = Provider.of<ConfigManager>(context);
+    final themeManager = Provider.of<ThemeManager>(context);
+
+    return Scaffold(
+      appBar: AppBar(title: Text(AppLocalizations.of(context)!.language)),
+      body: ListView.separated(
+        itemCount: languages.length,
+        separatorBuilder: (context, index) => const Divider(height: 1),
+        itemBuilder: (context, index) => ListTile(
+          leading: CircleAvatar(
+            backgroundColor: Theme.of(context).colorScheme.primary,
+            child: Text(languages[index]['code']!, style: const TextStyle(color: Colors.white)),
           ),
+          title: Text(languages[index]['name']!),
+          subtitle: Wrap(
+            spacing: 4,
+            children: languages[index]['countries']!.map<Widget>((countryCode) {
+              return Text(
+                getFlagEmoji(countryCode),
+                style: const TextStyle(fontSize: 24),
+              );
+            }).toList(),
+          ),
+          trailing: Icon(
+            Icons.check_circle,
+            color: languages[index]['code'] == configManager.language ? themeManager.primaryColor : Colors.transparent,
+          ),
+          onTap: () => _changeLanguage(context, languages[index]['code']!),
         ),
-      );
+      ),
+    );
+  }
 
   String getFlagEmoji(String countryCode) {
     if (countryCode.toUpperCase() == 'TW') {
@@ -162,8 +172,8 @@ class LanguageSettingsPage extends StatelessWidget {
   }
 
   Future<void> _changeLanguage(BuildContext context, String languageCode) async {
-    final appConfigManager = Provider.of<ConfigManager>(context, listen: false);
-    await appConfigManager.setLanguage(languageCode);
+    final configManager = Provider.of<ConfigManager>(context, listen: false);
+    await configManager.setLanguage(languageCode);
     if (context.mounted) Navigator.of(context).pop();
   }
 }

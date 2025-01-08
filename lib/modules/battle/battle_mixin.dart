@@ -176,9 +176,9 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   }
 
   void setupSocketIO() {
-    final appConfigManager = Provider.of<ConfigManager>(context, listen: false);
+    final configManager = Provider.of<ConfigManager>(context, listen: false);
 
-    socket = socket_io.io(appConfigManager.serverUrl, <String, dynamic>{
+    socket = socket_io.io(configManager.serverUrl, <String, dynamic>{
       'transports': ['websocket'],
     });
 
