@@ -112,14 +112,13 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
       );
 
   Widget _buildHeader(BuildContext context) => Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.symmetric(vertical: 10),
         child: Row(
           children: [
             IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),
             ),
-            const SizedBox(width: 8),
             Text(
               AppLocalizations.of(context)!.games,
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
@@ -184,7 +183,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.fromLTRB(20, 0, 20, 8),
+          padding: const EdgeInsets.fromLTRB(20, 16, 20, 0),
           child: TextField(
             controller: _searchController,
             decoration: InputDecoration(
@@ -202,7 +201,7 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
                       },
                     )
                   : null,
-              border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
+              border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
               contentPadding: const EdgeInsets.symmetric(horizontal: 16),
             ),
             onChanged: (value) => setState(() => searchKeyword = value),

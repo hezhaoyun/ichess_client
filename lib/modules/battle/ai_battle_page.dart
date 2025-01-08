@@ -649,7 +649,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   Widget _buildHeader() => SizedBox(
         height: kToolbarHeight,
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          padding: const EdgeInsets.symmetric(vertical: 10),
           child: Row(
             children: [
               IconButton(

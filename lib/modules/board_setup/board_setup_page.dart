@@ -186,14 +186,13 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   Widget _buildHeader(BuildContext context) => SizedBox(
         height: kToolbarHeight,
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          padding: const EdgeInsets.symmetric(vertical: 10),
           child: Row(
             children: [
               IconButton(
-                icon: Icon(Icons.arrow_back, color: Theme.of(context).colorScheme.primary),
+                icon: const Icon(Icons.arrow_back),
                 onPressed: () => Navigator.pop(context),
               ),
-              const SizedBox(width: 8),
               Text(
                 AppLocalizations.of(context)!.setupBoard,
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(

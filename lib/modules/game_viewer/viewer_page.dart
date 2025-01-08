@@ -343,14 +343,13 @@ class _ViewerPageState extends State<ViewerPage> {
   Widget _buildHeader() => SizedBox(
         height: kToolbarHeight,
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          padding: const EdgeInsets.symmetric(vertical: 10),
           child: Row(
             children: [
               IconButton(
                 icon: const Icon(Icons.arrow_back),
                 onPressed: () => Navigator.of(context).pop(),
               ),
-              const SizedBox(width: 10),
               Text(
                 AppLocalizations.of(context)!.chessViewer,
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(

@@ -57,7 +57,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
   Widget _buildHeader() => SizedBox(
         height: kToolbarHeight,
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          padding: const EdgeInsets.symmetric(vertical: 10),
           child: Row(
             children: [
               IconButton(
