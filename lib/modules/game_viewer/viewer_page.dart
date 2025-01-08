@@ -58,10 +58,6 @@ class _ViewerPageState extends State<ViewerPage> {
   List<List<int>>? lastMove;
   final chessboardController = WPChessboardController();
 
-  // Move list
-  final selectedMoveKey = GlobalKey<MoveListState>();
-  final scrollController = ScrollController();
-
   @override
   void initState() {
     super.initState();
@@ -283,7 +279,7 @@ class _ViewerPageState extends State<ViewerPage> {
     return max(maxScore.abs(), minScore.abs());
   }
 
-  void _goToMove(int index, {bool scrollToSelectedMove = true}) {
+  void _goToMove(int index) {
     var (moves, currentIndex) = gameEx?.tree?.moveList() ?? (<TreeNode>[], -1);
     if (index < -1 || index >= moves.length) return;
 
@@ -323,7 +319,6 @@ class _ViewerPageState extends State<ViewerPage> {
     setState(() => showBranches = (gameEx?.tree?.siblingCount ?? 1) > 1);
 
     chessboardController.setFen(currentFen ?? fenHistory.last);
-    if (scrollToSelectedMove) selectedMoveKey.currentState?.scrollToSelectedMove(index);
   }
 
   void _updateLastMove(String fromSquare, String toSquare) {
@@ -509,8 +504,6 @@ class _ViewerPageState extends State<ViewerPage> {
         moves: moves.map<TreeNode>((e) => e).toList(),
         currentMoveIndex: currentIndex,
         onMoveSelected: _goToMove,
-        scrollController: scrollController,
-        key: selectedMoveKey,
       ),
     );
   }
@@ -603,11 +596,5 @@ class _ViewerPageState extends State<ViewerPage> {
         const SizedBox(height: 10),
       ],
     );
-  }
-
-  @override
-  void dispose() {
-    scrollController.dispose();
-    super.dispose();
   }
 }

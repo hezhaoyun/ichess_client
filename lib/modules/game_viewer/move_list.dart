@@ -11,15 +11,13 @@ class MoveList extends StatefulWidget {
 
   final List<TreeNode> moves;
   final int currentMoveIndex;
-  final Function(int, {bool scrollToSelectedMove}) onMoveSelected;
-  final ScrollController scrollController;
+  final Function(int) onMoveSelected;
 
   const MoveList({
     super.key,
     required this.moves,
     required this.currentMoveIndex,
     required this.onMoveSelected,
-    required this.scrollController,
   });
 
   @override
@@ -36,7 +34,6 @@ class MoveListState extends State<MoveList> {
         ),
         child: SizedBox(
           child: SingleChildScrollView(
-            controller: widget.scrollController,
             padding: const EdgeInsets.all(16),
             child: Wrap(
               spacing: MoveList._horizontalSpacing,
@@ -54,16 +51,9 @@ class MoveListState extends State<MoveList> {
           moveIndex: index,
           isSelected: index == widget.currentMoveIndex,
           isBranch: widget.moves[index].parent!.branchCount > 1,
-          onTap: () => widget.onMoveSelected(index, scrollToSelectedMove: false),
+          onTap: () => widget.onMoveSelected(index),
         ),
       );
-
-  void scrollToSelectedMove(int index) {
-    const itemHeight = 32.0;
-    final rowsBeforeSelected = (index * (40.0 + MoveList._horizontalSpacing)) / 300.0;
-    final approximateOffset = rowsBeforeSelected * (itemHeight + MoveList._verticalSpacing);
-    widget.scrollController.jumpTo(approximateOffset);
-  }
 }
 
 /// Component for a single move item
