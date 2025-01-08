@@ -24,63 +24,88 @@ class Routes {
 
 class _HomePageState extends State<HomePage> {
   @override
-  Widget build(BuildContext context) {
-    final header = SizedBox(
-      height: 120,
-      child: Padding(
-        padding: const EdgeInsets.only(left: 30.0, right: 10.0, top: 20.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                Image.asset('assets/icons/icon-a.png', width: 32, height: 32),
-                const SizedBox(width: 10),
-                Text(
-                  AppLocalizations.of(context)!.appName,
-                  style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                    fontWeight: FontWeight.bold,
-                    shadows: [
-                      Shadow(
-                        color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                        offset: const Offset(2, 2),
-                        blurRadius: 4,
-                      ),
-                    ],
-                  ),
-                ),
-                const Spacer(),
-                IconButton(
-                  icon: const Icon(Icons.settings),
-                  onPressed: () {
-                    Audios().playSound('sounds/click.mp3');
-                    Navigator.pushNamed(context, Routes.settings);
-                  },
-                ),
+  Widget build(BuildContext context) => Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Theme.of(context).colorScheme.primary.withAlpha(0x1A),
+                Theme.of(context).colorScheme.surface,
               ],
             ),
-            const SizedBox(height: 10),
-            Text(
-              AppLocalizations.of(context)!.exploreTheInfinitePossibilitiesOfChess,
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
-                  ),
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-            ),
-          ],
+          ),
+          child: SafeArea(
+            child: LayoutBuilder(builder: (context, constraints) {
+              final w = constraints.maxWidth, h = constraints.maxHeight;
+              final isLandscape = w > h;
+              return Column(
+                children: [
+                  _buildHeader(context),
+                  _buildGrid(w, h, isLandscape),
+                  _buildFooter(context, isLandscape),
+                ],
+              );
+            }),
+          ),
         ),
-      ),
-    );
+      );
 
-    final footer = SizedBox(
-      height: 140,
-      child: Padding(
-        padding: const EdgeInsets.only(bottom: 16.0),
+  SizedBox _buildHeader(BuildContext context) => SizedBox(
+        height: 120,
+        child: Padding(
+          padding: const EdgeInsets.only(left: 30.0, right: 10.0, top: 20.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Image.asset('assets/icons/icon-a.png', width: 32, height: 32),
+                  const SizedBox(width: 10),
+                  Text(
+                    AppLocalizations.of(context)!.appName,
+                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
+                      shadows: [
+                        Shadow(
+                          color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                          offset: const Offset(2, 2),
+                          blurRadius: 4,
+                        ),
+                      ],
+                    ),
+                  ),
+                  const Spacer(),
+                  IconButton(
+                    icon: const Icon(Icons.settings),
+                    onPressed: () {
+                      Audios().playSound('sounds/click.mp3');
+                      Navigator.pushNamed(context, Routes.settings);
+                    },
+                  ),
+                ],
+              ),
+              const SizedBox(height: 10),
+              Text(
+                AppLocalizations.of(context)!.exploreTheInfinitePossibilitiesOfChess,
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: Theme.of(context).colorScheme.onSurface.withAlpha(179),
+                    ),
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ],
+          ),
+        ),
+      );
+
+  SizedBox _buildFooter(BuildContext context, bool isLandscape) => SizedBox(
+        height: isLandscape ? 80 : 120,
         child: Center(
           child: Column(
             children: [
-              SizedBox(height: 100, child: Lottie.asset('assets/animations/chess.json')),
+              SizedBox(height: isLandscape ? 60 : 100, child: Lottie.asset('assets/animations/chess.json')),
               Text(
                 'Chess Road v1.0.0 · ♟️',
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
@@ -90,40 +115,10 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         ),
-      ),
-    );
+      );
 
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Theme.of(context).colorScheme.primary.withAlpha(0x1A),
-              Theme.of(context).colorScheme.surface,
-            ],
-          ),
-        ),
-        child: SafeArea(
-          child: LayoutBuilder(builder: (context, constraints) {
-            final w = constraints.maxWidth, h = constraints.maxHeight;
-            return Column(children: [header, _buildGrid(w, h), footer]);
-          }),
-        ),
-      ),
-    );
-  }
-
-  Expanded _buildGrid(double w, double h) {
-    final isLandscape = w > h;
-
-    final availableHeight = h -
-        // kToolbarHeight - // 顶部工具栏
-        MediaQuery.of(context).padding.top - // 状态栏
-        MediaQuery.of(context).padding.bottom - // 底部安全区域
-        280; // 间距 120 + 140 + 20
-
+  Expanded _buildGrid(double w, double h, bool isLandscape) {
+    final availableHeight = h - (isLandscape ? 200 : 240);
     final height = isLandscape ? availableHeight : min(availableHeight, w);
     final size = isLandscape ? (w - 32 * 2 - 20 * 3) / 4 : (height - 32 * 2 - 20) / 2;
 

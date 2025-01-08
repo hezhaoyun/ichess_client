@@ -119,8 +119,8 @@ String getLanguageName(String code) {
   return languages.firstWhere((language) => language['code'] == code)['name'] ?? '';
 }
 
-class LanguageSettingsPage extends StatelessWidget {
-  const LanguageSettingsPage({super.key});
+class LanguagesPage extends StatelessWidget {
+  const LanguagesPage({super.key});
 
   @override
   Widget build(BuildContext context) {

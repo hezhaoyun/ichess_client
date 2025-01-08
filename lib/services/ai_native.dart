@@ -43,7 +43,9 @@ class AiNative {
     if (_isInitialized) return;
 
     try {
-      if (isMobileDevice) {
+      if (kDebugMode) {
+        // KEEP THIS FOR DEBUGGING
+      } else if (isMobileDevice) {
         _engine = Stockfish();
         await Future.delayed(const Duration(milliseconds: 500));
 
@@ -76,7 +78,9 @@ class AiNative {
   void sendCommand(String command) {
     if (!_isInitialized) return;
 
-    if (isMobileDevice) {
+    if (kDebugMode) {
+      // KEEP THIS FOR DEBUGGING
+    } else if (isMobileDevice) {
       _engine.stdin = command;
     } else {
       _engine.stdin.writeln(command);
@@ -114,7 +118,9 @@ class AiNative {
   // Modify the method to release resources
   void dispose() {
     if (_isInitialized) {
-      if (isMobileDevice) {
+      if (kDebugMode) {
+        // KEEP THIS FOR DEBUGGING
+      } else if (isMobileDevice) {
         (_engine as Stockfish).dispose();
       } else {
         (_engine as Process).kill();

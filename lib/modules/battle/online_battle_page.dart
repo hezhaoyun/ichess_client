@@ -108,11 +108,11 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
             const SizedBox(height: 20),
             SoundButton.iconElevated(
               onPressed: connect,
-              icon: const Icon(Icons.wifi),
+              icon: const Icon(Icons.wifi, size: 12),
               label: Text(AppLocalizations.of(context)!.connect),
               style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
               ),
             ),
           ],
@@ -130,8 +130,8 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
             SoundButton.elevated(
               onPressed: disconnect,
               style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
               ),
               child: Text(AppLocalizations.of(context)!.cancel),
             ),
@@ -317,13 +317,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
   }
 
   Widget _buildLandscapeLayout(double w, double h) {
-    // 计算可用高度
-    final availableHeight = h -
-        kToolbarHeight - // 顶部工具栏
-        MediaQuery.of(context).padding.top - // 状态栏
-        MediaQuery.of(context).padding.bottom - // 底部安全区域
-        20; // 间距
-
+    final availableHeight = h - kToolbarHeight - 20;
     final boardSize = min(w - 350 - 10, availableHeight) - 20;
     final controlWidth = w - boardSize;
 
@@ -377,14 +371,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
   }
 
   Widget _buildPortraitLayout(double w, double h) {
-    // 计算可用高度
-    final availableHeight = h -
-        kToolbarHeight - // 顶部工具栏
-        MediaQuery.of(context).padding.top - // 状态栏
-        MediaQuery.of(context).padding.bottom - // 底部安全区域
-        290; // 预留给上下 player info/按钮和控件间距
-
-    // 计算合适的棋盘大小
+    final availableHeight = h - kToolbarHeight - 290;
     final boardSize = min(w, availableHeight) - 20;
 
     return Column(

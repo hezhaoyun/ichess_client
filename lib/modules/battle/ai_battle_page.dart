@@ -565,12 +565,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       );
 
   Widget _buildLandscapeLayout(double w, double h) {
-    // 获取屏幕高度并预留空间给其他组件
-    final availableHeight = h -
-        kToolbarHeight - // 顶部工具栏
-        MediaQuery.of(context).padding.top - // 状态栏
-        MediaQuery.of(context).padding.bottom - // 底部安全区域
-        20; // 间距
+    final availableHeight = h - kToolbarHeight - 20;
 
     final boardSize = min(w - 350 - 10, availableHeight) - 20;
     final controlWidth = w - boardSize;
@@ -610,12 +605,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   }
 
   Widget _buildPortraitLayout(double w, double h) {
-    // 获取屏幕高度并预留空间给其他组件
-    final availableHeight = h -
-        kToolbarHeight - // 顶部工具栏
-        MediaQuery.of(context).padding.top - // 状态栏
-        MediaQuery.of(context).padding.bottom - // 底部安全区域
-        290; // 预留给上下 player info/按钮和控件间距: 10 + 90 + 10 + 10 + 90 + 10 + 60 + 10
+    final availableHeight = h - kToolbarHeight - 290; // 10 + 90 + 10 + 10 + 90 + 10 + 60 + 10
 
     // 计算合适的棋盘大小
     final boardSize = min(w, availableHeight) - 20;

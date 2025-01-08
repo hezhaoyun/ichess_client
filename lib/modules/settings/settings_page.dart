@@ -8,7 +8,7 @@ import 'package:provider/provider.dart';
 
 import '../../game/config_manager.dart';
 import '../../game/theme_manager.dart';
-import '../../modules/settings/language_settings_page.dart';
+import 'languages_page.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
@@ -89,7 +89,7 @@ class SettingsPage extends StatelessWidget {
                             onTap: () {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => LanguageSettingsPage()),
+                                MaterialPageRoute(builder: (context) => LanguagesPage()),
                               );
                             },
                           ),

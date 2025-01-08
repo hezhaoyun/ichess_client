@@ -96,13 +96,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
       );
 
   Widget _buildLandscapeLayout(double w, double h) {
-    // 获取屏幕高度并预留空间给其他组件
-    final availableHeight = h -
-        kToolbarHeight - // 顶部工具栏
-        MediaQuery.of(context).padding.top - // 状态栏
-        MediaQuery.of(context).padding.bottom - // 底部安全区域
-        20; // 间距
-
+    final availableHeight = h - kToolbarHeight - 20;
     final boardSize = min(w - 350 - 10, availableHeight) - 20;
     final controlWidth = w - boardSize;
 
@@ -160,14 +154,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   }
 
   Widget _buildPortraitLayout(double w, double h) {
-    // 获取屏幕高度并预留空间给其他组件
-    final availableHeight = h -
-        kToolbarHeight - // 顶部工具栏
-        MediaQuery.of(context).padding.top - // 状态栏
-        MediaQuery.of(context).padding.bottom - // 底部安全区域
-        230; // 预留给上下 player info/按钮和控件间距: 60 + 60 + 50 + 60
-
-    // 计算合适的棋盘大小
+    final availableHeight = h - kToolbarHeight - 230; // 60 + 60 + 50 + 60
     final boardSize = min(w, availableHeight) - 20;
 
     return Column(
