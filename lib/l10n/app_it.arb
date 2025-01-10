@@ -32,9 +32,9 @@
   "@enginePath": {
     "description": "Title for engine path settings"
   },
-  "showEngineArrows": "Mostra frecce di analisi",
-  "@showEngineArrows": {
-    "description": "Title for show engine arrows settings"
+  "showAnalysisArrows": "Mostra frecce analisi",
+  "@showAnalysisArrows": {
+    "description": "Title for show analysis arrows settings"
   },
   "language": "Lingua",
   "@language": {
@@ -392,10 +392,6 @@
   "@useTimeControl": {
     "description": "Use Time Control"
   },
-  "showAnalysisArrows": "Mostra frecce analisi",
-  "@showAnalysisArrows": {
-    "description": "Show Analysis Arrows"
-  },
   "showPredictedMovesWhenTheEngineIsThinking": "Mostra mosse previste durante l'analisi del motore",
   "@showPredictedMovesWhenTheEngineIsThinking": {
     "description": "Show predicted moves when the engine is thinking"
@@ -492,4 +488,4 @@
   "@timeControl": {
     "description": "Time Control"
   }
-} 
+}
