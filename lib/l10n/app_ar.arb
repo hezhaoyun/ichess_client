@@ -32,9 +32,9 @@
   "@enginePath": {
     "description": "Title for engine path settings"
   },
-  "showEngineArrows": "إظهار أسهم التحليل",
-  "@showEngineArrows": {
-    "description": "Title for show engine arrows settings"
+  "showAnalysisArrows": "إظهار أسهم تحليل المحرك",
+  "@showAnalysisArrows": {
+    "description": "Title for show analysis arrows settings"
   },
   "language": "اللغة",
   "@language": {
@@ -392,10 +392,6 @@
   "@useTimeControl": {
     "description": "Use Time Control"
   },
-  "showAnalysisArrows": "إظهار أسهم تحليل المحرك",
-  "@showAnalysisArrows": {
-    "description": "Show Analysis Arrows"
-  },
   "showPredictedMovesWhenTheEngineIsThinking": "إظهار النقلات المتوقعة أثناء تفكير المحرك",
   "@showPredictedMovesWhenTheEngineIsThinking": {
     "description": "Show predicted moves when the engine is thinking"
@@ -492,4 +488,4 @@
   "@timeControl": {
     "description": "Time Control"
   }
-} 
+}

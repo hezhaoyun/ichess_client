@@ -1,5 +1,5 @@
 {
-  "@@locale": "es",
+  "@@locale": "es-ES",
   "appName": "Chess Road",
   "@appName": {
     "description": "The application name"
@@ -32,9 +32,9 @@
   "@enginePath": {
     "description": "Title for engine path settings"
   },
-  "showEngineArrows": "Mostrar flechas de análisis",
-  "@showEngineArrows": {
-    "description": "Title for show engine arrows settings"
+  "showAnalysisArrows": "Mostrar flechas de análisis",
+  "@showAnalysisArrows": {
+    "description": "Title for show analysis arrows settings"
   },
   "language": "Idioma",
   "@language": {
@@ -392,10 +392,6 @@
   "@useTimeControl": {
     "description": "Use Time Control"
   },
-  "showAnalysisArrows": "Mostrar flechas de análisis",
-  "@showAnalysisArrows": {
-    "description": "Show Analysis Arrows"
-  },
   "showPredictedMovesWhenTheEngineIsThinking": "Mostrar movimientos predichos mientras el motor piensa",
   "@showPredictedMovesWhenTheEngineIsThinking": {
     "description": "Show predicted moves when the engine is thinking"
@@ -492,4 +488,4 @@
   "@timeControl": {
     "description": "Time Control"
   }
-} 
+}
