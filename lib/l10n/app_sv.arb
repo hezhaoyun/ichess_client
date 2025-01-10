@@ -1,0 +1,491 @@
+{
+  "@@locale": "sv-SE",
+  "appName": "Chess Road",
+  "@appName": {
+    "description": "The application name"
+  },
+  "colorTheme": "Color Theme",
+  "@colorTheme": {
+    "description": "Title for color theme settings"
+  },
+  "pieceTheme": "Piece Theme",
+  "@pieceTheme": {
+    "description": "Title for chess piece theme settings"
+  },
+  "serverSettings": "Server Settings",
+  "@serverSettings": {
+    "description": "Title for server settings"
+  },
+  "engineLevel": "Engine Level",
+  "@engineLevel": {
+    "description": "Title for AI engine level settings"
+  },
+  "moveTime": "Move Time",
+  "@moveTime": {
+    "description": "Title for move time settings"
+  },
+  "searchDepth": "Search Depth",
+  "@searchDepth": {
+    "description": "Title for search depth settings"
+  },
+  "enginePath": "Engine Path",
+  "@enginePath": {
+    "description": "Title for engine path settings"
+  },
+  "showAnalysisArrows": "Show Analysis Arrows",
+  "@showAnalysisArrows": {
+    "description": "Title for show analysis arrows settings"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Title for language settings"
+  },
+  "insufficientMaterial": "Insufficient material, draw",
+  "@insufficientMaterial": {
+    "description": "Message for insufficient material draw"
+  },
+  "threefoldRepetition": "Threefold repetition, draw",
+  "@threefoldRepetition": {
+    "description": "Message for threefold repetition draw"
+  },
+  "draw": "Draw",
+  "@draw": {
+    "description": "Message for draw"
+  },
+  "failedToLoadFile": "Failed to load file: {error}",
+  "@failedToLoadFile": {
+    "description": "Message shown when file loading fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "File not found"
+      }
+    }
+  },
+  "newGame": "New Game",
+  "@newGame": {
+    "description": "New game button text"
+  },
+  "undo": "Undo",
+  "@undo": {
+    "description": "Undo move button text"
+  },
+  "engineInitializationFailed": "Engine initialization failed!",
+  "@engineInitializationFailed": {
+    "description": "Message shown when engine initialization fails"
+  },
+  "hint": "Hint",
+  "@hint": {
+    "description": "Hint button text"
+  },
+  "analyzing": "Analyzing...",
+  "@analyzing": {
+    "description": "Analyzing message"
+  },
+  "dontBeDiscouraged": "Don’t be discouraged, keep trying!",
+  "@dontBeDiscouraged": {
+    "description": "Message shown when player loses"
+  },
+  "congratulations": "Congratulations on defeating your opponent!",
+  "@congratulations": {
+    "description": "Message shown when player wins"
+  },
+  "youWon": "You won!",
+  "@youWon": {
+    "description": "Message shown when player wins"
+  },
+  "youLost": "You lost!",
+  "@youLost": {
+    "description": "Message shown when player loses"
+  },
+  "engineCannotFindValidMove": "Engine cannot find valid move",
+  "@engineCannotFindValidMove": {
+    "description": "Message shown when engine cannot find valid move"
+  },
+  "engineMoveError": "Engine move error: {error}",
+  "@engineMoveError": {
+    "description": "Message shown when engine move error",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Engine error"
+      }
+    }
+  },
+  "chooseYourColor": "Choose your color",
+  "@chooseYourColor": {
+    "description": "Title for choose your color"
+  },
+  "white": "White",
+  "@white": {
+    "description": "White color"
+  },
+  "black": "Black",
+  "@black": {
+    "description": "Black color"
+  },
+  "chooseSaveLocation": "Choose save location",
+  "@chooseSaveLocation": {
+    "description": "Title for choose save location"
+  },
+  "gameSaved": "Game saved",
+  "@gameSaved": {
+    "description": "Message shown when game is saved"
+  },
+  "saveFailed": "Save failed, please try again",
+  "@saveFailed": {
+    "description": "Message shown when save fails"
+  },
+  "analysisFailed": "Analysis failed, please try again",
+  "@analysisFailed": {
+    "description": "Message shown when analysis fails"
+  },
+  "humanVsAi": "Human vs AI",
+  "@humanVsAi": {
+    "description": "Title for human vs AI"
+  },
+  "ai": "AI",
+  "@ai": {
+    "description": "AI"
+  },
+  "you": "You",
+  "@you": {
+    "description": "You"
+  },
+  "computer": "Computer",
+  "@computer": {
+    "description": "Computer"
+  },
+  "player": "Player",
+  "@player": {
+    "description": "Player"
+  },
+  "confirmDraw": "Confirm Draw?",
+  "@confirmDraw": {
+    "description": "Title for confirm draw"
+  },
+  "areYouSureYouWantToProposeADraw": "Are you sure you want to propose a draw?",
+  "@areYouSureYouWantToProposeADraw": {
+    "description": "Message for confirm draw"
+  },
+  "takeback": "Takeback",
+  "@takeback": {
+    "description": "Takeback"
+  },
+  "accept": "Accept",
+  "@accept": {
+    "description": "Accept"
+  },
+  "reject": "Reject",
+  "@reject": {
+    "description": "Reject"
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "OK"
+  },
+  "takebackDeclined": "Takeback Declined",
+  "@takebackDeclined": {
+    "description": "Message for takeback declined"
+  },
+  "drawDeclined": "Draw Declined",
+  "@drawDeclined": {
+    "description": "Message for draw declined"
+  },
+  "opponentRequestsTakeback": "Opponent requests a takeback, do you accept?",
+  "@opponentRequestsTakeback": {
+    "description": "Message for opponent requests takeback"
+  },
+  "opponentProposesDraw": "Opponent proposes a draw, do you accept?",
+  "@opponentProposesDraw": {
+    "description": "Message for opponent proposes draw"
+  },
+  "yes": "Yes",
+  "@yes": {
+    "description": "Yes"
+  },
+  "no": "No",
+  "@no": {
+    "description": "No"
+  },
+  "areYouSureYouWantToRequestATakeback": "Are y ou sure you want to request a takeback?",
+  "@areYouSureYouWantToRequestATakeback": {
+    "description": "Message for are you sure you want to request a takeback"
+  },
+  "confirmTakeback": "Confirm Takeback?",
+  "@confirmTakeback": {
+    "description": "Title for confirm takeback"
+  },
+  "areYouSureYouWantToResign": "Are you sure you want to resign?",
+  "@areYouSureYouWantToResign": {
+    "description": "Message for are you sure you want to resign"
+  },
+  "confirmResign": "Confirm Resign?",
+  "@confirmResign": {
+    "description": "Title for confirm resign"
+  },
+  "searchingForAnOpponent": "Searching for an opponent...",
+  "@searchingForAnOpponent": {
+    "description": "Message for searching for an opponent"
+  },
+  "playOnline": "Play Online",
+  "@playOnline": {
+    "description": "Title for play online"
+  },
+  "connect": "Connect",
+  "@connect": {
+    "description": "Connect"
+  },
+  "match": "Match",
+  "@match": {
+    "description": "Match"
+  },
+  "proposeDraw": "Propose Draw",
+  "@proposeDraw": {
+    "description": "Propose Draw"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel"
+  },
+  "resign": "Resign",
+  "@resign": {
+    "description": "Resign"
+  },
+  "takeBack": "Take Back",
+  "@takeBack": {
+    "description": "Take Back"
+  },
+  "promotion": "Promotion",
+  "@promotion": {
+    "description": "Promotion"
+  },
+  "fullEmpty": "Full / Empty",
+  "@fullEmpty": {
+    "description": "Full / Empty"
+  },
+  "playWithAI": "Play with AI",
+  "@playWithAI": {
+    "description": "Play with AI"
+  },
+  "dragAndDropToRemove": "Drag & drop here to remove",
+  "@dragAndDropToRemove": {
+    "description": "Drag & drop here to remove"
+  },
+  "invalidPosition": "Invalid position, please check:\n1. Each side has one king\n2. Pawns cannot be on the first or eighth rank",
+  "@invalidPosition": {
+    "description": "Invalid position"
+  },
+  "setupBoard": "Setup Board",
+  "@setupBoard": {
+    "description": "Setup Board"
+  },
+  "allGames": "All Games",
+  "@allGames": {
+    "description": "All Games"
+  },
+  "favorites": "Favorites",
+  "@favorites": {
+    "description": "Favorites"
+  },
+  "noFavoriteGamesAvailable": "No favorite games available",
+  "@noFavoriteGamesAvailable": {
+    "description": "No favorite games available"
+  },
+  "searchGames": "Search games...",
+  "@searchGames": {
+    "description": "Search games"
+  },
+  "games": "Games",
+  "@games": {
+    "description": "Games"
+  },
+  "failedToLoadGamesList": "Failed to load games list: {error}",
+  "@failedToLoadGamesList": {
+    "description": "Failed to load games list",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Error"
+      }
+    }
+  },
+  "comments": "Comments: {comments}",
+  "@comments": {
+    "description": "Comments",
+    "placeholders": {
+      "comments": {
+        "type": "String",
+        "example": "Comments"
+      }
+    }
+  },
+  "branchSelection": "Branch Selection",
+  "@branchSelection": {
+    "description": "Branch Selection"
+  },
+  "chessViewer": "Chess Viewer",
+  "@chessViewer": {
+    "description": "Chess Viewer"
+  },
+  "start": "Start",
+  "@start": {
+    "description": "Start"
+  },
+  "previous": "Previous",
+  "@previous": {
+    "description": "Previous"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Next"
+  },
+  "end": "End",
+  "@end": {
+    "description": "End"
+  },
+  "addedToFavorites": "Added to favorites",
+  "@addedToFavorites": {
+    "description": "Added to favorites"
+  },
+  "removedFromFavorites": "Removed from favorites",
+  "@removedFromFavorites": {
+    "description": "Removed from favorites"
+  },
+  "serverAddress": "Server Address",
+  "@serverAddress": {
+    "description": "Server Address"
+  },
+  "setServerAddress": "Set Server Address",
+  "@setServerAddress": {
+    "description": "Set Server Address"
+  },
+  "pleaseEnterTheServerAddress": "Please enter the server address",
+  "@pleaseEnterTheServerAddress": {
+    "description": "Please enter the server address"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings"
+  },
+  "engineSettings": "Engine Settings",
+  "@engineSettings": {
+    "description": "Engine Settings"
+  },
+  "thinkingTime": "Thinking Time",
+  "@thinkingTime": {
+    "description": "Thinking Time"
+  },
+  "limitTime": "Limit Time",
+  "@limitTime": {
+    "description": "Limit Time"
+  },
+  "limitDepth": "Limit Depth",
+  "@limitDepth": {
+    "description": "Limit Depth"
+  },
+  "timeControlMode": "Time Control Mode",
+  "@timeControlMode": {
+    "description": "Time Control Mode"
+  },
+  "useTimeControl": "Use Time Control",
+  "@useTimeControl": {
+    "description": "Use Time Control"
+  },
+  "showPredictedMovesWhenTheEngineIsThinking": "Show predicted moves when the engine is thinking",
+  "@showPredictedMovesWhenTheEngineIsThinking": {
+    "description": "Show predicted moves when the engine is thinking"
+  },
+  "languageSettings": "Language Settings",
+  "@languageSettings": {
+    "description": "Language Settings"
+  },
+  "layers": "layers",
+  "@layers": {
+    "description": "Layers"
+  },
+  "current": "Current",
+  "@current": {
+    "description": "Current"
+  },
+  "browse": "Browse",
+  "@browse": {
+    "description": "Browse"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm"
+  },
+  "selectPieceTheme": "Select Piece Theme",
+  "@selectPieceTheme": {
+    "description": "Select Piece Theme"
+  },
+  "selectThemeColor": "Select Theme Color",
+  "@selectThemeColor": {
+    "description": "Select Theme Color"
+  },
+  "setEngineLevel": "Set Engine Level",
+  "@setEngineLevel": {
+    "description": "Set Engine Level"
+  },
+  "setThinkingTime": "Set Thinking Time",
+  "@setThinkingTime": {
+    "description": "Set Thinking Time"
+  },
+  "setSearchDepth": "Set Search Depth",
+  "@setSearchDepth": {
+    "description": "Set Search Depth"
+  },
+  "setEnginePath": "Set Engine Path",
+  "@setEnginePath": {
+    "description": "Set Engine Path"
+  },
+  "pleaseEnterTheEnginePath": "Please enter the engine path",
+  "@pleaseEnterTheEnginePath": {
+    "description": "Please enter the engine path"
+  },
+  "viewGames": "View Games",
+  "@viewGames": {
+    "description": "View Games"
+  },
+  "exploreTheInfinitePossibilitiesOfChess": "Explore the infinite possibilities of chess",
+  "@exploreTheInfinitePossibilitiesOfChess": {
+    "description": "Explore the infinite possibilities of chess"
+  },
+  "checkmated": "Checkmated",
+  "@checkmated": {
+    "description": "Checkmated"
+  },
+  "opponentOutOfTime": "Opponent Out of Time",
+  "@opponentOutOfTime": {
+    "description": "Opponent Out of Time"
+  },
+  "opponentResigned": "Opponent Resigned",
+  "@opponentResigned": {
+    "description": "Opponent Resigned"
+  },
+  "opponentLeft": "Opponent Left",
+  "@opponentLeft": {
+    "description": "Opponent Left"
+  },
+  "outOfTime": "Out of Time",
+  "@outOfTime": {
+    "description": "Out of Time"
+  },
+  "resigned": "Resigned",
+  "@resigned": {
+    "description": "Resigned"
+  },
+  "stalemate": "Stalemate",
+  "@stalemate": {
+    "description": "Stalemate"
+  },
+  "consensus": "Consensus",
+  "@consensus": {
+    "description": "Consensus"
+  },
+  "timeControl": "Time Control",
+  "@timeControl": {
+    "description": "Time Control"
+  }
+}
