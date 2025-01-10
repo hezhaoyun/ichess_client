@@ -32,9 +32,9 @@
   "@enginePath": {
     "description": "Title for engine path settings"
   },
-  "showEngineArrows": "Afficher les flèches d'analyse",
-  "@showEngineArrows": {
-    "description": "Title for show engine arrows settings"
+  "showAnalysisArrows": "Afficher les flèches d'analyse",
+  "@showAnalysisArrows": {
+    "description": "Title for show analysis arrows settings"
   },
   "language": "Langue",
   "@language": {
@@ -392,10 +392,6 @@
   "@useTimeControl": {
     "description": "Use Time Control"
   },
-  "showAnalysisArrows": "Afficher les flèches d'analyse",
-  "@showAnalysisArrows": {
-    "description": "Show Analysis Arrows"
-  },
   "showPredictedMovesWhenTheEngineIsThinking": "Afficher les coups prédits pendant la réflexion du moteur",
   "@showPredictedMovesWhenTheEngineIsThinking": {
     "description": "Show predicted moves when the engine is thinking"
@@ -492,4 +488,4 @@
   "@timeControl": {
     "description": "Time Control"
   }
-} 
+}
