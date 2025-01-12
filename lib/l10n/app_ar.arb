@@ -495,5 +495,9 @@
   "chessClock": "ساعة الشطرنج",
   "@chessClock": {
     "description": "Chess Clock"
+  },
+  "openingExplorer": "مستكشف الفتحات",
+  "@openingExplorer": {
+    "description": "Opening Explorer"
   }
 } 

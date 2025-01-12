@@ -495,5 +495,9 @@
   "chessClock": "Szachowe zegary",
   "@chessClock": {
     "description": "Chess Clock"
+  },
+  "openingExplorer": "Eksplorator otwarć",
+  "@openingExplorer": {
+    "description": "Opening Explorer"
   }
 } 

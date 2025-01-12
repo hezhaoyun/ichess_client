@@ -495,5 +495,9 @@
   "chessClock": "शतरंज घड़ी",
   "@chessClock": {
     "description": "Chess Clock"
+  },
+  "openingExplorer": "खोलने का खोजकर्ता",
+  "@openingExplorer": {
+    "description": "Opening Explorer"
   }
 } 

@@ -18,6 +18,7 @@ class Routes {
   static const aiBattle = '/ai-battle';
   static const onlineBattle = '/online-battle';
   static const viewer = '/viewer';
+  static const openingExplorer = '/opening-explorer';
   static const setup = '/setup';
   static const chessClock = '/chess-clock';
   static const settings = '/settings';
@@ -54,7 +55,7 @@ class _HomePageState extends State<HomePage> {
       );
 
   SizedBox _buildHeader(BuildContext context) => SizedBox(
-        height: 120,
+        height: 100,
         child: Padding(
           padding: const EdgeInsets.only(left: 30.0, right: 10.0, top: 20.0),
           child: Column(
@@ -119,9 +120,9 @@ class _HomePageState extends State<HomePage> {
       );
 
   Expanded _buildGrid(double w, double h, bool isLandscape) {
-    final availableHeight = h - (isLandscape ? 200 : 240);
-    final vSize = isLandscape ? availableHeight : (availableHeight - 20 * 2) / 3;
-    final hSize = isLandscape ? (availableHeight - 32 * 2 - 20 * 4) / 5 : (availableHeight - 32 * 2 - 20) / 2;
+    final availableHeight = h - (isLandscape ? 220 : 260);
+    final vSize = isLandscape ? (availableHeight - 20) / 2 : (availableHeight - 20 * 2) / 3;
+    final hSize = isLandscape ? (w - 32 * 2 - 20 * 2) / 3 : (w - 32 * 2 - 20) / 2;
     final size = min(vSize, hSize);
 
     return Expanded(
@@ -129,9 +130,9 @@ class _HomePageState extends State<HomePage> {
         children: [
           const Spacer(),
           SizedBox(
-            height: isLandscape ? size : size * 3 + 20,
+            height: isLandscape ? size * 2 + 20 : size * 3 + 20,
             child: SizedBox(
-              width: isLandscape ? size * 5 + 20 * 4 : size * 2 + 20,
+              width: isLandscape ? size * 3 + 20 * 2 : size * 2 + 20,
               child: Wrap(
                 spacing: 20,
                 runSpacing: 20,
@@ -152,6 +153,12 @@ class _HomePageState extends State<HomePage> {
                     Icons.menu_book,
                     AppLocalizations.of(context)!.viewGames,
                     onTap: () => _animateAndNavigate(Routes.viewer),
+                    size: size,
+                  ),
+                  _buildAnimatedCard(
+                    Icons.dashboard,
+                    AppLocalizations.of(context)!.openingExplorer,
+                    onTap: () => _animateAndNavigate(Routes.openingExplorer),
                     size: size,
                   ),
                   _buildAnimatedCard(

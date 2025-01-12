@@ -495,5 +495,9 @@
   "chessClock": "Schachuhr",
   "@chessClock": {
     "description": "Chess Clock"
+  },
+  "openingExplorer": "Opening Explorer",
+  "@openingExplorer": {
+    "description": "Opening Explorer"
   }
 } 

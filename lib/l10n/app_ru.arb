@@ -495,5 +495,9 @@
   "chessClock": "Шахматные часы",
   "@chessClock": {
     "description": "Chess Clock"
+  },
+  "openingExplorer": "Исследователь дебютов",
+  "@openingExplorer": {
+    "description": "Opening Explorer"
   }
 } 

@@ -495,5 +495,9 @@
     "chessClock": "象棋时钟",
     "@chessClock": {
         "description": "Chess Clock"
+    },
+    "openingExplorer": "开局探索器",
+    "@openingExplorer": {
+        "description": "Opening Explorer"
     }
 }
