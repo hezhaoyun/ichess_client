@@ -34,6 +34,7 @@ class _ChessClockState extends State<ChessClock> {
   }
 
   void _resetTime() {
+    isWhiteTurn = true;
     whiteTimeLeft = timeControl!.totalTimeInSeconds;
     blackTimeLeft = timeControl!.totalTimeInSeconds;
   }
@@ -105,7 +106,7 @@ class _ChessClockState extends State<ChessClock> {
           child: RotatedBox(
             quarterTurns: 2,
             child: GestureDetector(
-              onTap: () => _switchTurn(),
+              onTap: isWhiteTurn ? null : _switchTurn,
               child: Container(
                 color: blackCardColor,
                 child: Center(
@@ -164,7 +165,7 @@ class _ChessClockState extends State<ChessClock> {
         ),
         Expanded(
           child: GestureDetector(
-            onTap: () => _switchTurn(),
+            onTap: isWhiteTurn ? _switchTurn : null,
             child: Container(
               color: whiteCardColor,
               child: Center(
