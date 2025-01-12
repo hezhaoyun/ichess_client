@@ -1,5 +1,5 @@
 {
-  "@@locale": "pt-BR",
+  "@@locale": "pt-PT",
   "appName": "Chess Road",
   "@appName": {
     "description": "The application name"
@@ -487,5 +487,9 @@
   "timeControl": "Time Control",
   "@timeControl": {
     "description": "Time Control"
+  },
+  "chessClock": "Chess Clock",
+  "@chessClock": {
+    "description": "Chess Clock"
   }
 }
