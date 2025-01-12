@@ -14,6 +14,8 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import '../../game/config_manager.dart';
 import '../../services/ai_native.dart';
 import '../../services/audios.dart';
+import '../../widgets/bottom_bar.dart';
+import '../../widgets/bottom_bar_button.dart';
 import '../../widgets/chess_board_widget.dart';
 import '../../widgets/game_result_dialog.dart';
 import 'battle_mixin.dart';
@@ -614,22 +616,13 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       children: [
         _buildHeader(),
         const SizedBox(height: 10),
-        Expanded(
-          child: SingleChildScrollView(
-            child: Column(
-              children: [
-                SizedBox(height: 90, width: boardSize, child: _buildPlayerInfo(isOpponent: true)),
-                const SizedBox(height: 10),
-                _buildBoard(boardSize),
-                const SizedBox(height: 10),
-                SizedBox(height: 90, width: boardSize, child: _buildPlayerInfo(isOpponent: false)),
-                const SizedBox(height: 10),
-                SizedBox(height: 60, width: boardSize, child: _buildGameControls()),
-                const SizedBox(height: 10),
-              ],
-            ),
-          ),
-        ),
+        SizedBox(height: 90, width: boardSize, child: _buildPlayerInfo(isOpponent: true)),
+        const SizedBox(height: 10),
+        _buildBoard(boardSize),
+        const SizedBox(height: 10),
+        SizedBox(height: 90, width: boardSize, child: _buildPlayerInfo(isOpponent: false)),
+        const Spacer(),
+        _buildBottomBar(),
       ],
     );
   }
@@ -809,8 +802,15 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       alignment: WrapAlignment.center,
       children: [
         SoundButton.elevated(
-            style: buttonStyle, onPressed: newGame, child: Text(AppLocalizations.of(context)!.newGame)),
-        SoundButton.elevated(style: buttonStyle, onPressed: undoMove, child: Text(AppLocalizations.of(context)!.undo)),
+          style: buttonStyle,
+          onPressed: newGame,
+          child: Text(AppLocalizations.of(context)!.newGame),
+        ),
+        SoundButton.elevated(
+          style: buttonStyle,
+          onPressed: undoMove,
+          child: Text(AppLocalizations.of(context)!.undo),
+        ),
         if (!isThinking && chess.turn == chess_lib.Color.WHITE && !chess.game_over)
           SoundButton.iconElevated(
             style: buttonStyle,
@@ -818,9 +818,32 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
             icon: isAnalyzing
                 ? const SizedBox(width: 12, height: 12, child: CircularProgressIndicator(strokeWidth: 2))
                 : const Icon(Icons.lightbulb_outline, size: 12),
-            label: Text(isAnalyzing ? AppLocalizations.of(context)!.analyzing : AppLocalizations.of(context)!.hint),
+            label: Text(
+              isAnalyzing ? AppLocalizations.of(context)!.analyzing : AppLocalizations.of(context)!.hint,
+            ),
           ),
       ],
     );
   }
+
+  Widget _buildBottomBar() => BottomBar(
+        children: [
+          BottomBarButton(
+            icon: Icons.restart_alt,
+            onTap: newGame,
+            label: AppLocalizations.of(context)!.newGame,
+          ),
+          BottomBarButton(
+            icon: Icons.undo,
+            onTap: undoMove,
+            label: AppLocalizations.of(context)!.undo,
+          ),
+          if (!isThinking && chess.turn == chess_lib.Color.WHITE && !chess.game_over)
+            BottomBarButton(
+              icon: Icons.lightbulb_outline,
+              onTap: isAnalyzing ? null : analyzePosition,
+              label: isAnalyzing ? AppLocalizations.of(context)!.analyzing : AppLocalizations.of(context)!.hint,
+            ),
+        ],
+      );
 }

@@ -7,6 +7,8 @@ import 'package:ichess/modules/battle/reason_defines.dart';
 import 'package:ichess/widgets/sound_buttons.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../widgets/bottom_bar.dart';
+import '../../widgets/bottom_bar_button.dart';
 import '../../widgets/chess_board_widget.dart';
 import 'battle_mixin.dart';
 import '../../widgets/game_result_dialog.dart';
@@ -269,6 +271,39 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
     );
   }
 
+  Widget _buildBottomBar() => BottomBar(children: [
+        if (gameState == OnlineState.offline)
+          BottomBarButton(
+            icon: Icons.wifi,
+            onTap: connect,
+            label: AppLocalizations.of(context)!.connect,
+          ),
+        if (gameState == OnlineState.stayInLobby)
+          BottomBarButton(
+            icon: Icons.join_inner,
+            onTap: match,
+            label: AppLocalizations.of(context)!.match,
+          ),
+        if (gameState == OnlineState.waitingMove)
+          BottomBarButton(
+            icon: Icons.handshake,
+            onTap: proposeDraw,
+            label: AppLocalizations.of(context)!.proposeDraw,
+          ),
+        if (gameState == OnlineState.waitingMove)
+          BottomBarButton(
+            icon: Icons.undo,
+            onTap: proposeTakeback,
+            label: AppLocalizations.of(context)!.takeBack,
+          ),
+        if (gameState == OnlineState.waitingMove)
+          BottomBarButton(
+            icon: Icons.pan_tool,
+            onTap: resign,
+            label: AppLocalizations.of(context)!.resign,
+          ),
+      ]);
+
   @override
   void dispose() {
     super.dispose();
@@ -377,38 +412,31 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
     return Column(
       children: [
         const SizedBox(height: 10),
-        Expanded(
-          child: SingleChildScrollView(
-            child: Column(
-              children: [
-                SizedBox(
-                    height: 90,
-                    width: boardSize,
-                    child: _buildPlayerInfo(
-                      name: opponent['name'],
-                      elo: opponent['elo'],
-                      time: opponentGameTime.toString(),
-                      isOpponent: true,
-                    )),
-                const SizedBox(height: 10),
-                _buildBoard(boardSize),
-                const SizedBox(height: 10),
-                SizedBox(
-                    height: 90,
-                    width: boardSize,
-                    child: _buildPlayerInfo(
-                      name: player['name'],
-                      elo: player['elo'],
-                      time: gameTime.toString(),
-                      isOpponent: false,
-                    )),
-                const SizedBox(height: 10),
-                SizedBox(height: 60, width: boardSize, child: _buildGameControls()),
-                const SizedBox(height: 10),
-              ],
-            ),
+        SizedBox(
+          height: 90,
+          width: boardSize,
+          child: _buildPlayerInfo(
+            name: opponent['name'],
+            elo: opponent['elo'],
+            time: opponentGameTime.toString(),
+            isOpponent: true,
           ),
         ),
+        const SizedBox(height: 10),
+        _buildBoard(boardSize),
+        const SizedBox(height: 10),
+        SizedBox(
+          height: 90,
+          width: boardSize,
+          child: _buildPlayerInfo(
+            name: player['name'],
+            elo: player['elo'],
+            time: gameTime.toString(),
+            isOpponent: false,
+          ),
+        ),
+        const Spacer(),
+        _buildBottomBar(),
       ],
     );
   }
@@ -430,7 +458,6 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
     return gameState == OnlineState.waitingMove && chess.turn == orientationColor;
   }
 
-  // 添加时间规则选择器组件
   Widget _buildTimeControlSelector() => Container(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         child: CupertinoSegmentedControl<TimeControl>(
