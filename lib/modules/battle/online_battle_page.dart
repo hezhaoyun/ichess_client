@@ -406,7 +406,7 @@ class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBat
   }
 
   Widget _buildPortraitLayout(double w, double h) {
-    final availableHeight = h - kToolbarHeight - 290;
+    final availableHeight = h - kToolbarHeight * 2 - 210;
     final boardSize = min(w, availableHeight) - 20;
 
     return Column(

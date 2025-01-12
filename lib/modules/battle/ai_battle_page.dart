@@ -607,9 +607,7 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   }
 
   Widget _buildPortraitLayout(double w, double h) {
-    final availableHeight = h - kToolbarHeight - 290; // 10 + 90 + 10 + 10 + 90 + 10 + 60 + 10
-
-    // 计算合适的棋盘大小
+    final availableHeight = h - kToolbarHeight * 2 - 210; // 10 + 90 + 10 + 10 + 90
     final boardSize = min(w, availableHeight) - 20;
 
     return Column(

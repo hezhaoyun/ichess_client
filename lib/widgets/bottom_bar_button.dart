@@ -10,7 +10,7 @@ class BottomBarButton extends StatelessWidget {
     required this.onTap,
     this.badgeLabel,
     this.highlighted = false,
-    this.showLabel = false,
+    this.showLabel = true,
     this.showTooltip = true,
     this.blink = false,
     this.tooltip,

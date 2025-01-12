@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../home_page.dart';
+import '../../widgets/bottom_bar.dart';
+import '../../widgets/bottom_bar_button.dart';
 import '../../widgets/chess_board_widget.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
@@ -40,8 +42,8 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
     },
   };
 
-  final _controller = WPChessboardController(initialFen: _emptyBoardFen);
-  final _chess = chess_lib.Chess.fromFEN(_emptyBoardFen);
+  final _controller = WPChessboardController(initialFen: _initialBoardFen);
+  final _chess = chess_lib.Chess.fromFEN(_initialBoardFen);
   static chess_lib.Piece? _draggingPiece;
 
   // Piece counter
@@ -154,23 +156,18 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   }
 
   Widget _buildPortraitLayout(double w, double h) {
-    final availableHeight = h - kToolbarHeight - 230; // 60 + 60 + 50 + 60
+    final availableHeight = h - kToolbarHeight * 2 - 170; // 60 + 60 + 50
     final boardSize = min(w, availableHeight) - 20;
 
     return Column(
       children: [
         _buildHeader(context),
-        Expanded(
-          child: Column(
-            children: [
-              SizedBox(width: boardSize, height: 60, child: _buildPiecesPanel(width: boardSize, isWhite: false)),
-              _buildChessBoard(boardSize),
-              SizedBox(width: boardSize, height: 60, child: _buildPiecesPanel(width: boardSize, isWhite: true)),
-              SizedBox(width: boardSize, height: 50, child: _buildTrashBin(boardSize)),
-              SizedBox(width: boardSize, height: 60, child: _buildButtonControlls()),
-            ],
-          ),
-        ),
+        SizedBox(width: boardSize, height: 60, child: _buildPiecesPanel(width: boardSize, isWhite: false)),
+        _buildChessBoard(boardSize),
+        SizedBox(width: boardSize, height: 60, child: _buildPiecesPanel(width: boardSize, isWhite: true)),
+        SizedBox(width: boardSize, height: 50, child: _buildTrashBin(boardSize)),
+        const Spacer(),
+        _buildBottomBar(),
       ],
     );
   }
@@ -180,6 +177,21 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
         children: [
           ElevatedButton(onPressed: _toggleBoardState, child: Text(AppLocalizations.of(context)!.fullEmpty)),
           ElevatedButton(onPressed: _startGame, child: Text(AppLocalizations.of(context)!.playWithAI)),
+        ],
+      );
+
+  Widget _buildBottomBar() => BottomBar(
+        children: [
+          BottomBarButton(
+            icon: Icons.flip,
+            onTap: _toggleBoardState,
+            label: AppLocalizations.of(context)!.fullEmpty,
+          ),
+          BottomBarButton(
+            icon: Icons.play_arrow,
+            onTap: _startGame,
+            label: AppLocalizations.of(context)!.playWithAI,
+          ),
         ],
       );
 
@@ -395,7 +407,8 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
   }
 
   void _toggleBoardState() {
-    final newFen = _chess.fen == _emptyBoardFen ? _initialBoardFen : _emptyBoardFen;
+    final newFen = _chess.fen == _initialBoardFen ? _emptyBoardFen : _initialBoardFen;
+
     setState(() {
       _chess.load(newFen);
       _controller.setFen(newFen);

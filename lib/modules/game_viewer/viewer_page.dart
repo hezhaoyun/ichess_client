@@ -524,7 +524,6 @@ class _ViewerPageState extends State<ViewerPage> {
           child: SafeArea(
             child: LayoutBuilder(builder: (context, constraints) {
               final w = constraints.maxWidth, h = constraints.maxHeight;
-
               return Column(
                 children: [
                   _buildHeader(),

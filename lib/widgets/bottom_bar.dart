@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-const kBottomBarHeight = 56.0;
-
 class BottomBar extends StatelessWidget {
   const BottomBar({
     super.key,
@@ -33,7 +31,7 @@ class BottomBar extends StatelessWidget {
         child: SafeArea(
           top: false,
           child: SizedBox(
-            height: kBottomBarHeight,
+            height: kToolbarHeight,
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: mainAxisAlignment,
@@ -45,7 +43,7 @@ class BottomBar extends StatelessWidget {
     }
 
     return BottomAppBar(
-      height: kBottomBarHeight,
+      height: kToolbarHeight,
       padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 6.0),
       child: Row(
         mainAxisAlignment: mainAxisAlignment,
