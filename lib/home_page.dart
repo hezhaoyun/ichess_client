@@ -19,6 +19,7 @@ class Routes {
   static const onlineBattle = '/online-battle';
   static const viewer = '/viewer';
   static const setup = '/setup';
+  static const chessClock = '/chess-clock';
   static const settings = '/settings';
 }
 
@@ -119,17 +120,18 @@ class _HomePageState extends State<HomePage> {
 
   Expanded _buildGrid(double w, double h, bool isLandscape) {
     final availableHeight = h - (isLandscape ? 200 : 240);
-    final height = isLandscape ? availableHeight : min(availableHeight, w);
-    final size = isLandscape ? (w - 32 * 2 - 20 * 3) / 4 : (height - 32 * 2 - 20) / 2;
+    final vSize = isLandscape ? availableHeight : (availableHeight - 20 * 2) / 3;
+    final hSize = isLandscape ? (availableHeight - 32 * 2 - 20 * 4) / 5 : (availableHeight - 32 * 2 - 20) / 2;
+    final size = min(vSize, hSize);
 
     return Expanded(
       child: Column(
         children: [
           const Spacer(),
           SizedBox(
-            height: isLandscape ? size : size * 2 + 20,
+            height: isLandscape ? size : size * 3 + 20,
             child: SizedBox(
-              width: isLandscape ? size * 4 + 20 * 3 : size * 2 + 20,
+              width: isLandscape ? size * 5 + 20 * 4 : size * 2 + 20,
               child: Wrap(
                 spacing: 20,
                 runSpacing: 20,
@@ -156,6 +158,12 @@ class _HomePageState extends State<HomePage> {
                     Icons.swipe_right,
                     AppLocalizations.of(context)!.setupBoard,
                     onTap: () => _animateAndNavigate(Routes.setup),
+                    size: size,
+                  ),
+                  _buildAnimatedCard(
+                    Icons.timer,
+                    AppLocalizations.of(context)!.chessClock,
+                    onTap: () => _animateAndNavigate(Routes.chessClock),
                     size: size,
                   ),
                 ],

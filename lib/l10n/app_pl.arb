@@ -491,5 +491,9 @@
   "timeControl": "Kontrola czasu",
   "@timeControl": {
     "description": "Time Control"
+  },
+  "chessClock": "Szachowe zegary",
+  "@chessClock": {
+    "description": "Chess Clock"
   }
 } 

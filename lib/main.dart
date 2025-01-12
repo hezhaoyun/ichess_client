@@ -14,6 +14,7 @@ import 'home_page.dart';
 import 'modules/battle/ai_battle_page.dart';
 import 'modules/battle/online_battle_page.dart';
 import 'modules/board_setup/board_setup_page.dart';
+import 'modules/clock/clock_page.dart';
 import 'modules/settings/settings_page.dart';
 
 void main() async {
@@ -74,6 +75,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
                 Routes.onlineBattle: (context) => const OnlineBattlePage(),
                 Routes.viewer: (context) => const GamesPage(),
                 Routes.setup: (context) => const BoardSetupPage(),
+                Routes.chessClock: (context) => const ClockPage(),
                 Routes.settings: (context) => const SettingsPage(),
               },
               onGenerateRoute: (settings) {

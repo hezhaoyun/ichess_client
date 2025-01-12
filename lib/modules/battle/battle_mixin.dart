@@ -21,14 +21,15 @@ enum OnlineState {
 }
 
 enum TimeControl {
-  rapid_5_2(0, '5+2'),
-  rapid_10_0(1, '10+0'),
-  rapid_15_10(2, '15+10'),
-  classical_30_15(3, '30+15');
+  rapid_5_2(0, '5+2', 300, 2),
+  rapid_10_0(1, '10+0', 600, 0),
+  rapid_15_10(2, '15+10', 900, 10),
+  classical_30_15(3, '30+15', 1800, 15);
 
   final int value;
   final String label;
-  const TimeControl(this.value, this.label);
+  final int totalTimeInSeconds, incrementInSeconds;
+  const TimeControl(this.value, this.label, this.totalTimeInSeconds, this.incrementInSeconds);
 }
 
 mixin BattleMixin<T extends StatefulWidget> on State<T> {
