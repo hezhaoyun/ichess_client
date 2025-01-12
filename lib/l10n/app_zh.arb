@@ -1,58 +1,58 @@
 {
-  "@@locale": "zh-CN",
-  "appName": "Chess Road",
+  "@@locale": "zh-TW",
+  "appName": "象棋之路",
   "@appName": {
     "description": "The application name"
   },
-  "colorTheme": "Color Theme",
+  "colorTheme": "颜色主题",
   "@colorTheme": {
     "description": "Title for color theme settings"
   },
-  "pieceTheme": "Piece Theme",
+  "pieceTheme": "棋子主题",
   "@pieceTheme": {
     "description": "Title for chess piece theme settings"
   },
-  "serverSettings": "Server Settings",
+  "serverSettings": "服务器设置",
   "@serverSettings": {
     "description": "Title for server settings"
   },
-  "engineLevel": "Engine Level",
+  "engineLevel": "引擎等级",
   "@engineLevel": {
     "description": "Title for AI engine level settings"
   },
-  "moveTime": "Move Time",
+  "moveTime": "移动时间",
   "@moveTime": {
     "description": "Title for move time settings"
   },
-  "searchDepth": "Search Depth",
+  "searchDepth": "搜索深度",
   "@searchDepth": {
     "description": "Title for search depth settings"
   },
-  "enginePath": "Engine Path",
+  "enginePath": "引擎路径",
   "@enginePath": {
     "description": "Title for engine path settings"
   },
-  "showAnalysisArrows": "Show Analysis Arrows",
+  "showAnalysisArrows": "显示分析箭头",
   "@showAnalysisArrows": {
     "description": "Title for show analysis arrows settings"
   },
-  "language": "Language",
+  "language": "语言",
   "@language": {
     "description": "Title for language settings"
   },
-  "insufficientMaterial": "Insufficient material, draw",
+  "insufficientMaterial": "子力不足，和棋",
   "@insufficientMaterial": {
     "description": "Message for insufficient material draw"
   },
-  "threefoldRepetition": "Threefold repetition, draw",
+  "threefoldRepetition": "三次重复，和棋",
   "@threefoldRepetition": {
     "description": "Message for threefold repetition draw"
   },
-  "draw": "Draw",
+  "draw": "和棋",
   "@draw": {
     "description": "Message for draw"
   },
-  "failedToLoadFile": "Failed to load file: {error}",
+  "failedToLoadFile": "加载文件失败：{error}",
   "@failedToLoadFile": {
     "description": "Message shown when file loading fails",
     "placeholders": {
@@ -62,47 +62,47 @@
       }
     }
   },
-  "newGame": "New Game",
+  "newGame": "新游戏",
   "@newGame": {
     "description": "New game button text"
   },
-  "undo": "Undo",
+  "undo": "撤销",
   "@undo": {
     "description": "Undo move button text"
   },
-  "engineInitializationFailed": "Engine initialization failed!",
+  "engineInitializationFailed": "引擎初始化失败！",
   "@engineInitializationFailed": {
     "description": "Message shown when engine initialization fails"
   },
-  "hint": "Hint",
+  "hint": "提示",
   "@hint": {
     "description": "Hint button text"
   },
-  "analyzing": "Analyzing...",
+  "analyzing": "分析中...",
   "@analyzing": {
     "description": "Analyzing message"
   },
-  "dontBeDiscouraged": "Don’t be discouraged, keep trying!",
+  "dontBeDiscouraged": "别灰心,继续努力！",
   "@dontBeDiscouraged": {
     "description": "Message shown when player loses"
   },
-  "congratulations": "Congratulations on defeating your opponent!",
+  "congratulations": "恭喜你战胜对手！",
   "@congratulations": {
     "description": "Message shown when player wins"
   },
-  "youWon": "You won!",
+  "youWon": "你赢了！",
   "@youWon": {
     "description": "Message shown when player wins"
   },
-  "youLost": "You lost!",
+  "youLost": "你输了！",
   "@youLost": {
     "description": "Message shown when player loses"
   },
-  "engineCannotFindValidMove": "Engine cannot find valid move",
+  "engineCannotFindValidMove": "引擎找不到有效移动",
   "@engineCannotFindValidMove": {
     "description": "Message shown when engine cannot find valid move"
   },
-  "engineMoveError": "Engine move error: {error}",
+  "engineMoveError": "引擎移动错误: {error}",
   "@engineMoveError": {
     "description": "Message shown when engine move error",
     "placeholders": {
@@ -112,35 +112,35 @@
       }
     }
   },
-  "chooseYourColor": "Choose your color",
+  "chooseYourColor": "选择你的颜色",
   "@chooseYourColor": {
     "description": "Title for choose your color"
   },
-  "white": "White",
+  "white": "白方",
   "@white": {
     "description": "White color"
   },
-  "black": "Black",
+  "black": "黑方",
   "@black": {
     "description": "Black color"
   },
-  "chooseSaveLocation": "Choose save location",
+  "chooseSaveLocation": "选择保存位置",
   "@chooseSaveLocation": {
     "description": "Title for choose save location"
   },
-  "gameSaved": "Game saved",
+  "gameSaved": "游戏已保存",
   "@gameSaved": {
     "description": "Message shown when game is saved"
   },
-  "saveFailed": "Save failed, please try again",
+  "saveFailed": "保存失败，请重试",
   "@saveFailed": {
     "description": "Message shown when save fails"
   },
-  "analysisFailed": "Analysis failed, please try again",
+  "analysisFailed": "分析失败，请重试",
   "@analysisFailed": {
     "description": "Message shown when analysis fails"
   },
-  "humanVsAi": "Human vs AI",
+  "humanVsAi": "人机对战",
   "@humanVsAi": {
     "description": "Title for human vs AI"
   },
@@ -148,159 +148,159 @@
   "@ai": {
     "description": "AI"
   },
-  "you": "You",
+  "you": "你",
   "@you": {
     "description": "You"
   },
-  "computer": "Computer",
+  "computer": "电脑",
   "@computer": {
     "description": "Computer"
   },
-  "player": "Player",
+  "player": "玩家",
   "@player": {
     "description": "Player"
   },
-  "confirmDraw": "Confirm Draw?",
+  "confirmDraw": "确认和棋？",
   "@confirmDraw": {
     "description": "Title for confirm draw"
   },
-  "areYouSureYouWantToProposeADraw": "Are you sure you want to propose a draw?",
+  "areYouSureYouWantToProposeADraw": "你确定要提议和棋吗？",
   "@areYouSureYouWantToProposeADraw": {
     "description": "Message for confirm draw"
   },
-  "takeback": "Takeback",
+  "takeback": "悔棋",
   "@takeback": {
     "description": "Takeback"
   },
-  "accept": "Accept",
+  "accept": "接受",
   "@accept": {
     "description": "Accept"
   },
-  "reject": "Reject",
+  "reject": "拒绝",
   "@reject": {
     "description": "Reject"
   },
-  "ok": "OK",
+  "ok": "确定",
   "@ok": {
     "description": "OK"
   },
-  "takebackDeclined": "Takeback Declined",
+  "takebackDeclined": "悔棋被拒绝",
   "@takebackDeclined": {
     "description": "Message for takeback declined"
   },
-  "drawDeclined": "Draw Declined",
+  "drawDeclined": "和棋被拒绝",
   "@drawDeclined": {
     "description": "Message for draw declined"
   },
-  "opponentRequestsTakeback": "Opponent requests a takeback, do you accept?",
+  "opponentRequestsTakeback": "对手请求悔棋，你接受吗？",
   "@opponentRequestsTakeback": {
     "description": "Message for opponent requests takeback"
   },
-  "opponentProposesDraw": "Opponent proposes a draw, do you accept?",
+  "opponentProposesDraw": "对手提议和棋，你接受吗？",
   "@opponentProposesDraw": {
     "description": "Message for opponent proposes draw"
   },
-  "yes": "Yes",
+  "yes": "是",
   "@yes": {
     "description": "Yes"
   },
-  "no": "No",
+  "no": "否",
   "@no": {
     "description": "No"
   },
-  "areYouSureYouWantToRequestATakeback": "Are y ou sure you want to request a takeback?",
+  "areYouSureYouWantToRequestATakeback": "你确定要请求悔棋吗？",
   "@areYouSureYouWantToRequestATakeback": {
     "description": "Message for are you sure you want to request a takeback"
   },
-  "confirmTakeback": "Confirm Takeback?",
+  "confirmTakeback": "确认悔棋？",
   "@confirmTakeback": {
     "description": "Title for confirm takeback"
   },
-  "areYouSureYouWantToResign": "Are you sure you want to resign?",
+  "areYouSureYouWantToResign": "你确定要认输吗？",
   "@areYouSureYouWantToResign": {
     "description": "Message for are you sure you want to resign"
   },
-  "confirmResign": "Confirm Resign?",
+  "confirmResign": "确认认输？",
   "@confirmResign": {
     "description": "Title for confirm resign"
   },
-  "searchingForAnOpponent": "Searching for an opponent...",
+  "searchingForAnOpponent": "正在寻找对手...",
   "@searchingForAnOpponent": {
     "description": "Message for searching for an opponent"
   },
-  "playOnline": "Play Online",
+  "playOnline": "在线对战",
   "@playOnline": {
     "description": "Title for play online"
   },
-  "connect": "Connect",
+  "connect": "连接",
   "@connect": {
     "description": "Connect"
   },
-  "match": "Match",
+  "match": "对局",
   "@match": {
     "description": "Match"
   },
-  "proposeDraw": "Propose Draw",
+  "proposeDraw": "提议和棋",
   "@proposeDraw": {
     "description": "Propose Draw"
   },
-  "cancel": "Cancel",
+  "cancel": "取消",
   "@cancel": {
     "description": "Cancel"
   },
-  "resign": "Resign",
+  "resign": "认输",
   "@resign": {
     "description": "Resign"
   },
-  "takeBack": "Take Back",
+  "takeBack": "悔棋",
   "@takeBack": {
     "description": "Take Back"
   },
-  "promotion": "Promotion",
+  "promotion": "升变",
   "@promotion": {
     "description": "Promotion"
   },
-  "fullEmpty": "Full / Empty",
+  "fullEmpty": "全部/清空",
   "@fullEmpty": {
     "description": "Full / Empty"
   },
-  "playWithAI": "Play with AI",
+  "playWithAI": "人机对战",
   "@playWithAI": {
     "description": "Play with AI"
   },
-  "dragAndDropToRemove": "Drag & drop here to remove",
+  "dragAndDropToRemove": "拖放到此处删除",
   "@dragAndDropToRemove": {
     "description": "Drag & drop here to remove"
   },
-  "invalidPosition": "Invalid position, please check:\n1. Each side has one king\n2. Pawns cannot be on the first or eighth rank",
+  "invalidPosition": "无效的位置，请检查：\n1. 双方各有一个王\n2. 兵不能在第一行或第八行",
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "Setup Board",
+  "setupBoard": "设置棋盘",
   "@setupBoard": {
     "description": "Setup Board"
   },
-  "allGames": "All Games",
+  "allGames": "所有对局",
   "@allGames": {
     "description": "All Games"
   },
-  "favorites": "Favorites",
+  "favorites": "收藏",
   "@favorites": {
     "description": "Favorites"
   },
-  "noFavoriteGamesAvailable": "No favorite games available",
+  "noFavoriteGamesAvailable": "没有收藏的对局",
   "@noFavoriteGamesAvailable": {
     "description": "No favorite games available"
   },
-  "searchGames": "Search games...",
+  "searchGames": "搜索对局...",
   "@searchGames": {
     "description": "Search games"
   },
-  "games": "Games",
+  "games": "对局",
   "@games": {
     "description": "Games"
   },
-  "failedToLoadGamesList": "Failed to load games list: {error}",
+  "failedToLoadGamesList": "加载对局列表失败: {error}",
   "@failedToLoadGamesList": {
     "description": "Failed to load games list",
     "placeholders": {
@@ -310,7 +310,7 @@
       }
     }
   },
-  "comments": "Comments: {comments}",
+  "comments": "评论: {comments}",
   "@comments": {
     "description": "Comments",
     "placeholders": {
@@ -320,171 +320,171 @@
       }
     }
   },
-  "branchSelection": "Branch Selection",
+  "branchSelection": "变着选择",
   "@branchSelection": {
     "description": "Branch Selection"
   },
-  "chessViewer": "Chess Viewer",
+  "chessViewer": "棋谱浏览器",
   "@chessViewer": {
     "description": "Chess Viewer"
   },
-  "start": "Start",
+  "start": "开始",
   "@start": {
     "description": "Start"
   },
-  "previous": "Previous",
+  "previous": "上一步",
   "@previous": {
     "description": "Previous"
   },
-  "next": "Next",
+  "next": "下一步",
   "@next": {
     "description": "Next"
   },
-  "end": "End",
+  "end": "结束",
   "@end": {
     "description": "End"
   },
-  "addedToFavorites": "Added to favorites",
+  "addedToFavorites": "已添加到收藏",
   "@addedToFavorites": {
     "description": "Added to favorites"
   },
-  "removedFromFavorites": "Removed from favorites",
+  "removedFromFavorites": "已从收藏中移除",
   "@removedFromFavorites": {
     "description": "Removed from favorites"
   },
-  "serverAddress": "Server Address",
+  "serverAddress": "服务器地址",
   "@serverAddress": {
     "description": "Server Address"
   },
-  "setServerAddress": "Set Server Address",
+  "setServerAddress": "设置服务器地址",
   "@setServerAddress": {
     "description": "Set Server Address"
   },
-  "pleaseEnterTheServerAddress": "Please enter the server address",
+  "pleaseEnterTheServerAddress": "请输入服务器地址",
   "@pleaseEnterTheServerAddress": {
     "description": "Please enter the server address"
   },
-  "settings": "Settings",
+  "settings": "设置",
   "@settings": {
     "description": "Settings"
   },
-  "engineSettings": "Engine Settings",
+  "engineSettings": "引擎设置",
   "@engineSettings": {
     "description": "Engine Settings"
   },
-  "thinkingTime": "Thinking Time",
+  "thinkingTime": "思考时间",
   "@thinkingTime": {
     "description": "Thinking Time"
   },
-  "limitTime": "Limit Time",
+  "limitTime": "限制时间",
   "@limitTime": {
     "description": "Limit Time"
   },
-  "limitDepth": "Limit Depth",
+  "limitDepth": "限制深度",
   "@limitDepth": {
     "description": "Limit Depth"
   },
-  "timeControlMode": "Time Control Mode",
+  "timeControlMode": "时间控制模式",
   "@timeControlMode": {
     "description": "Time Control Mode"
   },
-  "useTimeControl": "Use Time Control",
+  "useTimeControl": "使用时间控制",
   "@useTimeControl": {
     "description": "Use Time Control"
   },
-  "showPredictedMovesWhenTheEngineIsThinking": "Show predicted moves when the engine is thinking",
+  "showPredictedMovesWhenTheEngineIsThinking": "在引擎思考时显示预测着法",
   "@showPredictedMovesWhenTheEngineIsThinking": {
     "description": "Show predicted moves when the engine is thinking"
   },
-  "languageSettings": "Language Settings",
+  "languageSettings": "语言设置",
   "@languageSettings": {
     "description": "Language Settings"
   },
-  "layers": "layers",
+  "layers": "层",
   "@layers": {
     "description": "Layers"
   },
-  "current": "Current",
+  "current": "当前",
   "@current": {
     "description": "Current"
   },
-  "browse": "Browse",
+  "browse": "浏览",
   "@browse": {
     "description": "Browse"
   },
-  "confirm": "Confirm",
+  "confirm": "确认",
   "@confirm": {
     "description": "Confirm"
   },
-  "selectPieceTheme": "Select Piece Theme",
+  "selectPieceTheme": "选择棋子主题",
   "@selectPieceTheme": {
     "description": "Select Piece Theme"
   },
-  "selectThemeColor": "Select Theme Color",
+  "selectThemeColor": "选择主题颜色",
   "@selectThemeColor": {
     "description": "Select Theme Color"
   },
-  "setEngineLevel": "Set Engine Level",
+  "setEngineLevel": "设置引擎等级",
   "@setEngineLevel": {
     "description": "Set Engine Level"
   },
-  "setThinkingTime": "Set Thinking Time",
+  "setThinkingTime": "设置思考时间",
   "@setThinkingTime": {
     "description": "Set Thinking Time"
   },
-  "setSearchDepth": "Set Search Depth",
+  "setSearchDepth": "设置搜索深度",
   "@setSearchDepth": {
     "description": "Set Search Depth"
   },
-  "setEnginePath": "Set Engine Path",
+  "setEnginePath": "设置引擎路径",
   "@setEnginePath": {
     "description": "Set Engine Path"
   },
-  "pleaseEnterTheEnginePath": "Please enter the engine path",
+  "pleaseEnterTheEnginePath": "请输入引擎路径",
   "@pleaseEnterTheEnginePath": {
     "description": "Please enter the engine path"
   },
-  "viewGames": "View Games",
+  "viewGames": "查看对局",
   "@viewGames": {
     "description": "View Games"
   },
-  "exploreTheInfinitePossibilitiesOfChess": "Explore the infinite possibilities of chess",
+  "exploreTheInfinitePossibilitiesOfChess": "探索国际象棋的无限可能",
   "@exploreTheInfinitePossibilitiesOfChess": {
     "description": "Explore the infinite possibilities of chess"
   },
-  "checkmated": "Checkmated",
+  "checkmated": "将死",
   "@checkmated": {
     "description": "Checkmated"
   },
-  "opponentOutOfTime": "Opponent Out of Time",
+  "opponentOutOfTime": "对手超时",
   "@opponentOutOfTime": {
     "description": "Opponent Out of Time"
   },
-  "opponentResigned": "Opponent Resigned",
+  "opponentResigned": "对手认输",
   "@opponentResigned": {
     "description": "Opponent Resigned"
   },
-  "opponentLeft": "Opponent Left",
+  "opponentLeft": "对手离开",
   "@opponentLeft": {
     "description": "Opponent Left"
   },
-  "outOfTime": "Out of Time",
+  "outOfTime": "超时",
   "@outOfTime": {
     "description": "Out of Time"
   },
-  "resigned": "Resigned",
+  "resigned": "认输",
   "@resigned": {
     "description": "Resigned"
   },
-  "stalemate": "Stalemate",
+  "stalemate": "僵局",
   "@stalemate": {
     "description": "Stalemate"
   },
-  "consensus": "Consensus",
+  "consensus": "共识",
   "@consensus": {
     "description": "Consensus"
   },
-  "timeControl": "Time Control",
+  "timeControl": "时间控制",
   "@timeControl": {
     "description": "Time Control"
   },
