@@ -411,10 +411,10 @@ class SettingsPage extends StatelessWidget {
           width: double.maxFinite,
           child: ListView.builder(
             shrinkWrap: true,
-            itemCount: themeManager.themes.length,
+            itemCount: ThemeManager.kColorThemes.length,
             itemBuilder: (context, index) {
-              final themeName = themeManager.themes.keys.elementAt(index);
-              final themeColor = themeManager.themes[themeName]!;
+              final themeName = ThemeManager.kColorThemes.keys.elementAt(index);
+              final themeColor = ThemeManager.kColorThemes[themeName]!;
               final isSelected = themeColor == themeManager.primaryColor;
 
               return ListTile(
