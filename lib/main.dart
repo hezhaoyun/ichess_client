@@ -30,20 +30,20 @@ void main() async {
         ChangeNotifierProvider(create: (_) => ThemeManager(), lazy: false),
         ChangeNotifierProvider(create: (_) => ConfigManager(), lazy: false),
       ],
-      child: MyApp(languageCode: languageCode),
+      child: ChessApp(languageCode: languageCode),
     ),
   );
 }
 
-class MyApp extends StatefulWidget {
+class ChessApp extends StatefulWidget {
   final String languageCode;
-  const MyApp({super.key, required this.languageCode});
+  const ChessApp({super.key, required this.languageCode});
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<ChessApp> createState() => _ChessAppState();
 }
 
-class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
+class _ChessAppState extends State<ChessApp> with WidgetsBindingObserver {
   final _fluWakeLock = (Platform.isAndroid || Platform.isIOS) ? FluWakeLock() : null;
 
   @override

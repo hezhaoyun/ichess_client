@@ -3,21 +3,15 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class ThemeManager extends ChangeNotifier {
   static const String _themeKey = 'selected_theme';
+  static const String _pieceThemeKey = 'selected_piece_theme';
 
-  final themes = {
+  static const kColorThemes = {
     'Default Blue': Colors.blue,
     'Emerald Green': Colors.green,
     'Deep Purple': Colors.purple,
     'Passionate Red': Colors.red,
     'Steady Gray': Colors.blueGrey,
   };
-
-  Color _primaryColor = Colors.blue;
-  Color get primaryColor => _primaryColor;
-
-  String get currentThemeName {
-    return themes.entries.firstWhere((entry) => entry.value == primaryColor).key;
-  }
 
   static const kPieceThemes = {
     'android': 'assets/pieces/android',
@@ -29,8 +23,13 @@ class ThemeManager extends ChangeNotifier {
     'military': 'assets/pieces/military',
   };
 
+  Color _primaryColor = Colors.blue;
+  Color get primaryColor => _primaryColor;
+
   String _selectedPieceTheme = 'android';
   String get selectedPieceTheme => _selectedPieceTheme;
+
+  String get currentThemeName => kColorThemes.entries.firstWhere((entry) => entry.value == primaryColor).key;
 
   ThemeManager() {
     _loadTheme();
@@ -39,18 +38,18 @@ class ThemeManager extends ChangeNotifier {
   Future<void> _loadTheme() async {
     final prefs = await SharedPreferences.getInstance();
     final themeName = prefs.getString(_themeKey) ?? 'Default Blue';
-    _primaryColor = themes[themeName]!;
-    final pieceThemeName = prefs.getString('selected_piece_theme') ?? 'android';
+    _primaryColor = kColorThemes[themeName]!;
+    final pieceThemeName = prefs.getString(_pieceThemeKey) ?? 'android';
     _selectedPieceTheme = pieceThemeName;
     notifyListeners();
   }
 
   Future<void> setTheme(String name) async {
-    if (!themes.containsKey(name)) return;
+    if (!kColorThemes.containsKey(name)) return;
 
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_themeKey, name);
-    _primaryColor = themes[name]!;
+    _primaryColor = kColorThemes[name]!;
     notifyListeners();
   }
 
@@ -58,7 +57,7 @@ class ThemeManager extends ChangeNotifier {
     if (!kPieceThemes.containsKey(name)) return;
 
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setString('selected_piece_theme', name);
+    await prefs.setString(_pieceThemeKey, name);
     _selectedPieceTheme = name;
     notifyListeners();
   }
