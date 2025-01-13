@@ -124,17 +124,8 @@ class LanguagesPage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final themeState = ref.watch(themeManagerProvider).when(
-          data: (theme) => theme,
-          error: (_, __) => ThemeState(),
-          loading: () => ThemeState(),
-        );
-
-    final language = ref.watch(configManagerProvider).when(
-          data: (configState) => configState.language,
-          loading: () => 'zh',
-          error: (err, stack) => 'zh',
-        );
+    final themeState = ref.watch(themeManagerProvider).value ?? ThemeState();
+    final language = ref.watch(configManagerProvider).value?.language ?? 'zh';
 
     return Scaffold(
       appBar: AppBar(title: Text(AppLocalizations.of(context)!.language)),

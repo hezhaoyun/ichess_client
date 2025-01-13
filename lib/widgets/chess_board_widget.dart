@@ -6,11 +6,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import '../game/theme_manager.dart';
 
 PieceMap pieceMap(WidgetRef ref) {
-  final themeState = ref.watch(themeManagerProvider).when(
-        data: (theme) => theme,
-        error: (_, __) => ThemeState(),
-        loading: () => ThemeState(),
-      );
+  final themeState = ref.watch(themeManagerProvider).value ?? ThemeState();
   final pieceTheme = themeState.pieceTheme;
   final pieceThemePath = ThemeManager.kPieceThemes[pieceTheme]!;
 

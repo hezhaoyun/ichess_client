@@ -16,18 +16,10 @@ class SettingsPage extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final config = ref.watch(configManagerProvider.notifier);
-    final configState = ref.watch(configManagerProvider).when(
-          data: (configState) => configState,
-          loading: () => const ConfigState(),
-          error: (err, stack) => const ConfigState(),
-        );
+    final configState = ref.watch(configManagerProvider).value ?? ConfigState();
 
     final themeManager = ref.watch(themeManagerProvider.notifier);
-    final themeState = ref.watch(themeManagerProvider).when(
-          data: (theme) => theme,
-          error: (_, __) => ThemeState(),
-          loading: () => ThemeState(),
-        );
+    final themeState = ref.watch(themeManagerProvider).value ?? ThemeState();
     final pieceThemePath = ThemeManager.kPieceThemes[themeState.pieceTheme]!;
 
     return Scaffold(

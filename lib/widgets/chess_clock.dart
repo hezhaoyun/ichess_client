@@ -132,7 +132,7 @@ class _ChessClockState extends State<ChessClock> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               IconButton(
-                icon: const Icon(Icons.home),
+                icon: const Icon(Icons.close),
                 onPressed: () {
                   _pauseTimer();
                   Navigator.pop(context);

@@ -62,11 +62,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   }
 
   Future<void> setupStockfishEngine() async {
-    final configState = ref.watch(configManagerProvider).when(
-          data: (configState) => configState,
-          loading: () => const ConfigState(),
-          error: (err, stack) => const ConfigState(),
-        );
+    final configState = ref.watch(configManagerProvider).value ?? ConfigState();
 
     try {
       if (!Platform.isAndroid && !Platform.isIOS) {
@@ -218,11 +214,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
 
     try {
       final stockfish = AiNative.instance;
-      final configState = ref.watch(configManagerProvider).when(
-            data: (configState) => configState,
-            loading: () => const ConfigState(),
-            error: (err, stack) => const ConfigState(),
-          );
+      final configState = ref.watch(configManagerProvider).value ?? ConfigState();
       final showArrows = configState.showArrows;
 
       stockfish.sendCommand(
@@ -312,11 +304,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   }
 
   void _parseInfoLine(String line) {
-    final configState = ref.watch(configManagerProvider).when(
-          data: (configState) => configState,
-          loading: () => const ConfigState(),
-          error: (err, stack) => const ConfigState(),
-        );
+    final configState = ref.watch(configManagerProvider).value ?? ConfigState();
 
     final depthMatch = RegExp(r'depth (\d+)').firstMatch(line);
     if (depthMatch != null && int.parse(depthMatch.group(1)!) < 8) return;
