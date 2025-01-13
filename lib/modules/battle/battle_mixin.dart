@@ -7,7 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../../game/config_manager.dart';
+import '../../model/config_manager.dart';
 import '../../services/audios.dart';
 import 'promotion_dialog.dart';
 

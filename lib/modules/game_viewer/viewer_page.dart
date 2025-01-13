@@ -8,7 +8,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../../game/config_manager.dart';
+import '../../model/config_manager.dart';
 import '../../services/ai_native.dart';
 import '../../services/favorites_service.dart';
 import '../../widgets/chess_board_widget.dart';

@@ -6,8 +6,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../game/config_manager.dart';
-import '../../game/theme_manager.dart';
+import '../../model/config_manager.dart';
+import '../../model/theme_manager.dart';
 import 'languages_page.dart';
 
 class SettingsPage extends ConsumerWidget {

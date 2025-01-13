@@ -12,7 +12,7 @@ import 'package:ichess/widgets/sound_buttons.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../../game/config_manager.dart';
+import '../../model/config_manager.dart';
 import '../../services/ai_native.dart';
 import '../../services/audios.dart';
 import '../../widgets/bottom_bar.dart';

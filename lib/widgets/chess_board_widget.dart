@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../game/theme_manager.dart';
+import '../model/theme_manager.dart';
 
 PieceMap pieceMap(WidgetRef ref) {
   final themeState = ref.watch(themeManagerProvider).value ?? ThemeState();
