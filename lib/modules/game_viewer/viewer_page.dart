@@ -4,7 +4,8 @@ import 'dart:math';
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:dartchess/dartchess.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../game/config_manager.dart';
@@ -15,19 +16,18 @@ import '../../widgets/sound_buttons.dart';
 import 'analysis_chart.dart';
 import 'move_list.dart';
 import 'pgn_game_ex.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-class ViewerPage extends StatefulWidget {
+class ViewerPage extends ConsumerStatefulWidget {
   final String gameFile;
   final String? pgnContent;
 
   const ViewerPage({super.key, required this.gameFile, this.pgnContent});
 
   @override
-  State<ViewerPage> createState() => _ViewerPageState();
+  ConsumerState<ViewerPage> createState() => _ViewerPageState();
 }
 
-class _ViewerPageState extends State<ViewerPage> {
+class _ViewerPageState extends ConsumerState<ViewerPage> {
   bool isLoading = false;
 
   // Game list
@@ -62,16 +62,23 @@ class _ViewerPageState extends State<ViewerPage> {
   void initState() {
     super.initState();
 
-    _initStockfish();
+    asyncInit();
+  }
 
-    _loadPgnAsset(widget.gameFile);
-    _checkFavoriteStatus();
+  Future<void> asyncInit() async {
+    await _loadPgnAsset(widget.gameFile);
+    await _checkFavoriteStatus();
+    await _initStockfish();
   }
 
   Future<void> _initStockfish() async {
     if (!Platform.isAndroid && !Platform.isIOS) {
-      final configManager = Provider.of<ConfigManager>(context, listen: false);
-      AiNative.instance.setEnginePath(configManager.enginePath);
+      final configState = ref.watch(configManagerProvider).when(
+            data: (configState) => configState,
+            loading: () => const ConfigState(),
+            error: (err, stack) => const ConfigState(),
+          );
+      AiNative.instance.setEnginePath(configState.enginePath);
     }
 
     await AiNative.instance.initialize();

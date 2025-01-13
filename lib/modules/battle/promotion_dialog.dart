@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../services/audios.dart';
@@ -6,7 +7,7 @@ import '../../widgets/chess_board_widget.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 Future<void> showPromotionDialog(
-    BuildContext context, BoardOrientation orientation, Function(String) onPromotionSelected) {
+    BuildContext context, WidgetRef ref, BoardOrientation orientation, Function(String) onPromotionSelected) {
   //
   double calculatePieceSize() {
     final boardSize = MediaQuery.of(context).size.shortestSide - 48;
@@ -20,16 +21,16 @@ Future<void> showPromotionDialog(
     Widget piece;
     switch (type) {
       case 'q':
-        piece = isWhite ? pieceMap(context).Q(size) : pieceMap(context).q(size);
+        piece = isWhite ? pieceMap(ref).Q(size) : pieceMap(ref).q(size);
         break;
       case 'r':
-        piece = isWhite ? pieceMap(context).R(size) : pieceMap(context).r(size);
+        piece = isWhite ? pieceMap(ref).R(size) : pieceMap(ref).r(size);
         break;
       case 'b':
-        piece = isWhite ? pieceMap(context).B(size) : pieceMap(context).b(size);
+        piece = isWhite ? pieceMap(ref).B(size) : pieceMap(ref).b(size);
         break;
       case 'n':
-        piece = isWhite ? pieceMap(context).N(size) : pieceMap(context).n(size);
+        piece = isWhite ? pieceMap(ref).N(size) : pieceMap(ref).n(size);
         break;
       default:
         throw ArgumentError('Invalid promotion type');

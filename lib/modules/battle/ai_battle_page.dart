@@ -6,8 +6,9 @@ import 'dart:typed_data';
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ichess/widgets/sound_buttons.dart';
-import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
@@ -19,17 +20,16 @@ import '../../widgets/bottom_bar_button.dart';
 import '../../widgets/chess_board_widget.dart';
 import '../../widgets/game_result_dialog.dart';
 import 'battle_mixin.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-class AIBattlePage extends StatefulWidget {
+class AIBattlePage extends ConsumerStatefulWidget {
   final String? initialFen;
   const AIBattlePage({super.key, this.initialFen});
 
   @override
-  State<AIBattlePage> createState() => _AIBattlePageState();
+  ConsumerState<AIBattlePage> createState() => _AIBattlePageState();
 }
 
-class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
+class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   static const String _gameStateKey = 'ai_battle_game_state';
 
   String? initialFen;
@@ -43,6 +43,10 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   @override
   void initState() {
     super.initState();
+    asyncInit();
+  }
+
+  Future<void> asyncInit() async {
     initialFen = widget.initialFen;
 
     setupChessBoard();
@@ -51,27 +55,31 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
       chess.load(initialFen!);
       controller.setFen(initialFen!);
     } else {
-      _restoreGameState();
+      await _restoreGameState();
     }
 
-    setupStockfishEngine();
+    await setupStockfishEngine();
   }
 
   Future<void> setupStockfishEngine() async {
-    final configManager = Provider.of<ConfigManager>(context, listen: false);
+    final configState = ref.watch(configManagerProvider).when(
+          data: (configState) => configState,
+          loading: () => const ConfigState(),
+          error: (err, stack) => const ConfigState(),
+        );
 
     try {
       if (!Platform.isAndroid && !Platform.isIOS) {
-        AiNative.instance.setEnginePath(configManager.enginePath);
+        AiNative.instance.setEnginePath(configState.enginePath);
       }
 
       await AiNative.instance.initialize();
 
-      AiNative.instance.setSkillLevel(configManager.engineLevel);
-      if (configManager.useTimeControl) {
-        AiNative.instance.setMoveTime(configManager.moveTime);
+      AiNative.instance.setSkillLevel(configState.engineLevel);
+      if (configState.useTimeControl) {
+        AiNative.instance.setMoveTime(configState.moveTime);
       } else {
-        AiNative.instance.setSearchDepth(configManager.searchDepth);
+        AiNative.instance.setSearchDepth(configState.searchDepth);
       }
 
       setState(() => _isEngineReady = true);
@@ -210,8 +218,12 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
 
     try {
       final stockfish = AiNative.instance;
-      final configManager = Provider.of<ConfigManager>(context, listen: false);
-      final showArrows = configManager.showArrows;
+      final configState = ref.watch(configManagerProvider).when(
+            data: (configState) => configState,
+            loading: () => const ConfigState(),
+            error: (err, stack) => const ConfigState(),
+          );
+      final showArrows = configState.showArrows;
 
       stockfish.sendCommand(
         'position fen ${chess.fen} moves ${moves.join(' ')}',
@@ -300,6 +312,12 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
   }
 
   void _parseInfoLine(String line) {
+    final configState = ref.watch(configManagerProvider).when(
+          data: (configState) => configState,
+          loading: () => const ConfigState(),
+          error: (err, stack) => const ConfigState(),
+        );
+
     final depthMatch = RegExp(r'depth (\d+)').firstMatch(line);
     if (depthMatch != null && int.parse(depthMatch.group(1)!) < 8) return;
 
@@ -311,9 +329,8 @@ class _AIBattlePageState extends State<AIBattlePage> with BattleMixin {
     final pvMatch = RegExp(r'\spv (.+)$').firstMatch(line);
     if (pvMatch != null) {
       final pvs = pvMatch.group(1)!.split(' ');
-      final configManager = Provider.of<ConfigManager>(context, listen: false);
 
-      if (pvs.isNotEmpty && configManager.showArrows) {
+      if (pvs.isNotEmpty && configState.showArrows) {
         setState(() {
           List<Arrow> arrows = [];
           final engineMove = pvs[0];

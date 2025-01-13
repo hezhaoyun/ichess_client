@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class ThemeManager extends ChangeNotifier {
+part 'theme_manager.g.dart';
+
+@riverpod
+class ThemeManager extends _$ThemeManager {
   static const String _themeKey = 'selected_theme';
   static const String _pieceThemeKey = 'selected_piece_theme';
 
@@ -23,34 +27,27 @@ class ThemeManager extends ChangeNotifier {
     'military': 'assets/pieces/military',
   };
 
-  Color _primaryColor = Colors.blue;
-  Color get primaryColor => _primaryColor;
+  String _pieceTheme = 'android';
 
-  String _selectedPieceTheme = 'android';
-  String get selectedPieceTheme => _selectedPieceTheme;
-
-  String get currentThemeName => kColorThemes.entries.firstWhere((entry) => entry.value == primaryColor).key;
-
-  ThemeManager() {
-    _loadTheme();
-  }
-
-  Future<void> _loadTheme() async {
+  @override
+  Future<ThemeState> build() async {
     final prefs = await SharedPreferences.getInstance();
-    final themeName = prefs.getString(_themeKey) ?? 'Default Blue';
-    _primaryColor = kColorThemes[themeName]!;
-    final pieceThemeName = prefs.getString(_pieceThemeKey) ?? 'android';
-    _selectedPieceTheme = pieceThemeName;
-    notifyListeners();
+    final colorTheme = prefs.getString(_themeKey) ?? 'Default Blue';
+    _pieceTheme = prefs.getString(_pieceThemeKey) ?? 'android';
+
+    return ThemeState(
+      primaryColor: kColorThemes[colorTheme]!,
+      pieceTheme: _pieceTheme,
+    );
   }
 
-  Future<void> setTheme(String name) async {
+  Future<void> setPrimaryColor(String name) async {
     if (!kColorThemes.containsKey(name)) return;
 
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_themeKey, name);
-    _primaryColor = kColorThemes[name]!;
-    notifyListeners();
+
+    state = AsyncData(state.value!.copyWith(primaryColor: kColorThemes[name]!));
   }
 
   Future<void> setPieceTheme(String name) async {
@@ -58,12 +55,25 @@ class ThemeManager extends ChangeNotifier {
 
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_pieceThemeKey, name);
-    _selectedPieceTheme = name;
-    notifyListeners();
-  }
 
-  ThemeData getTheme() => ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: _primaryColor),
+    state = AsyncData(state.value!.copyWith(pieceTheme: name));
+  }
+}
+
+class ThemeState {
+  final Color primaryColor;
+  final String pieceTheme;
+
+  const ThemeState({
+    this.primaryColor = Colors.blue,
+    this.pieceTheme = 'android',
+  });
+
+  ThemeState copyWith({Color? primaryColor, String? pieceTheme}) => ThemeState(
+        primaryColor: primaryColor ?? this.primaryColor,
+        pieceTheme: pieceTheme ?? this.pieceTheme,
       );
+
+  String get currentThemeName =>
+      ThemeManager.kColorThemes.keys.firstWhere((key) => ThemeManager.kColorThemes[key] == primaryColor);
 }

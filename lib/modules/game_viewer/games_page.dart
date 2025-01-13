@@ -40,9 +40,13 @@ class _GamesPageState extends State<GamesPage> with SingleTickerProviderStateMix
   @override
   void initState() {
     super.initState();
+    asyncInit();
+  }
+
+  Future<void> asyncInit() async {
     _tabController = TabController(length: 2, vsync: this);
-    _loadGamesList();
-    _loadFavorites();
+    await _loadGamesList();
+    await _loadFavorites();
   }
 
   @override

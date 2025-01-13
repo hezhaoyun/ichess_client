@@ -1,7 +1,10 @@
-import 'package:flutter/foundation.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class ConfigManager extends ChangeNotifier {
+part 'config_manager.g.dart';
+
+@riverpod
+class ConfigManager extends _$ConfigManager {
   static const String _serverUrlKey = 'server_url';
   static const String _engineLevelKey = 'engine_level';
   static const String _moveTimeKey = 'move_time';
@@ -11,94 +14,110 @@ class ConfigManager extends ChangeNotifier {
   static const String _showArrowsKey = 'show_arrows';
   static const String _languageKey = 'language';
 
-  String _serverUrl = 'http://42.193.22.115';
-  int _engineLevel = 10;
-  int _moveTime = 1000;
-  int _searchDepth = 20;
-  bool _useTimeControl = true;
-  String _enginePath = '';
-  bool _showArrows = false;
-  String _language = 'zh';
-
-  String get serverUrl => _serverUrl;
-  int get engineLevel => _engineLevel;
-  int get moveTime => _moveTime;
-  int get searchDepth => _searchDepth;
-  bool get useTimeControl => _useTimeControl;
-  String get enginePath => _enginePath;
-  bool get showArrows => _showArrows;
-  String get language => _language;
-
-  ConfigManager() {
-    _loadConfig();
-  }
-
-  Future<void> _loadConfig() async {
+  @override
+  Future<ConfigState> build() async {
     final prefs = await SharedPreferences.getInstance();
-    _serverUrl = prefs.getString(_serverUrlKey) ?? _serverUrl;
-    _engineLevel = prefs.getInt(_engineLevelKey) ?? 10;
-    _moveTime = prefs.getInt(_moveTimeKey) ?? 1000;
-    _searchDepth = prefs.getInt(_searchDepthKey) ?? 20;
-    _useTimeControl = prefs.getBool(_useTimeControlKey) ?? true;
-    _enginePath = prefs.getString(_enginePathKey) ?? '';
-    _showArrows = prefs.getBool(_showArrowsKey) ?? false;
-    _language = prefs.getString(_languageKey) ?? 'zh';
-    notifyListeners();
+    return ConfigState(
+      serverUrl: prefs.getString(_serverUrlKey) ?? 'http://42.193.22.115',
+      engineLevel: prefs.getInt(_engineLevelKey) ?? 10,
+      moveTime: prefs.getInt(_moveTimeKey) ?? 1000,
+      searchDepth: prefs.getInt(_searchDepthKey) ?? 20,
+      useTimeControl: prefs.getBool(_useTimeControlKey) ?? true,
+      enginePath: prefs.getString(_enginePathKey) ?? '',
+      showArrows: prefs.getBool(_showArrowsKey) ?? false,
+      language: prefs.getString(_languageKey) ?? 'zh',
+    );
   }
 
   Future<void> setServerUrl(String url) async {
-    _serverUrl = url;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_serverUrlKey, url);
-    notifyListeners();
+    state = AsyncData(state.value!.copyWith(serverUrl: url));
   }
 
   Future<void> setEngineLevel(int level) async {
-    _engineLevel = level;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt(_engineLevelKey, level);
-    notifyListeners();
+    state = AsyncData(state.value!.copyWith(engineLevel: level));
   }
 
   Future<void> setMoveTime(int time) async {
-    _moveTime = time;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt(_moveTimeKey, time);
-    notifyListeners();
+    state = AsyncData(state.value!.copyWith(moveTime: time));
   }
 
   Future<void> setSearchDepth(int depth) async {
-    _searchDepth = depth;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt(_searchDepthKey, depth);
-    notifyListeners();
+    state = AsyncData(state.value!.copyWith(searchDepth: depth));
   }
 
   Future<void> setUseTimeControl(bool useTime) async {
-    _useTimeControl = useTime;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool(_useTimeControlKey, useTime);
-    notifyListeners();
+    state = AsyncData(state.value!.copyWith(useTimeControl: useTime));
   }
 
   Future<void> setEnginePath(String path) async {
-    _enginePath = path;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_enginePathKey, path);
-    notifyListeners();
+    state = AsyncData(state.value!.copyWith(enginePath: path));
   }
 
   Future<void> setShowArrows(bool show) async {
-    _showArrows = show;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool(_showArrowsKey, show);
-    notifyListeners();
+    state = AsyncData(state.value!.copyWith(showArrows: show));
   }
 
   Future<void> setLanguage(String lang) async {
-    _language = lang;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_languageKey, lang);
-    notifyListeners();
+    state = AsyncData(state.value!.copyWith(language: lang));
+  }
+}
+
+class ConfigState {
+  final String serverUrl;
+  final int engineLevel;
+  final int moveTime;
+  final int searchDepth;
+  final bool useTimeControl;
+  final String enginePath;
+  final bool showArrows;
+  final String language;
+
+  const ConfigState({
+    this.serverUrl = '',
+    this.engineLevel = 10,
+    this.moveTime = 1000,
+    this.searchDepth = 20,
+    this.useTimeControl = true,
+    this.enginePath = '',
+    this.showArrows = false,
+    this.language = 'zh',
+  });
+
+  ConfigState copyWith({
+    String? serverUrl,
+    int? engineLevel,
+    int? moveTime,
+    int? searchDepth,
+    bool? useTimeControl,
+    String? enginePath,
+    bool? showArrows,
+    String? language,
+  }) {
+    return ConfigState(
+      serverUrl: serverUrl ?? this.serverUrl,
+      engineLevel: engineLevel ?? this.engineLevel,
+      moveTime: moveTime ?? this.moveTime,
+      searchDepth: searchDepth ?? this.searchDepth,
+      useTimeControl: useTimeControl ?? this.useTimeControl,
+      enginePath: enginePath ?? this.enginePath,
+      showArrows: showArrows ?? this.showArrows,
+      language: language ?? this.language,
+    );
   }
 }

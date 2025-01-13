@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ichess/modules/battle/reason_defines.dart';
 import 'package:ichess/widgets/sound_buttons.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
@@ -14,14 +15,14 @@ import 'battle_mixin.dart';
 import '../../widgets/game_result_dialog.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-class OnlineBattlePage extends StatefulWidget {
+class OnlineBattlePage extends ConsumerStatefulWidget {
   const OnlineBattlePage({super.key});
 
   @override
-  State<OnlineBattlePage> createState() => _HomePageState();
+  ConsumerState<OnlineBattlePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<OnlineBattlePage> with BattleMixin, OnlineBattleMixin {
+class _HomePageState extends ConsumerState<OnlineBattlePage> with BattleMixin, OnlineBattleMixin {
   @override
   void initState() {
     super.initState();

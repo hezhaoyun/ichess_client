@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:provider/provider.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:ichess/game/config_manager.dart';
 
-import '../../game/config_manager.dart';
 import '../../game/theme_manager.dart';
 
 final List<Map<String, dynamic>> languages = [
@@ -119,13 +119,22 @@ String getLanguageName(String code) {
   return languages.firstWhere((language) => language['code'] == code)['name'] ?? '';
 }
 
-class LanguagesPage extends StatelessWidget {
+class LanguagesPage extends ConsumerWidget {
   const LanguagesPage({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    final configManager = Provider.of<ConfigManager>(context);
-    final themeManager = Provider.of<ThemeManager>(context);
+  Widget build(BuildContext context, WidgetRef ref) {
+    final themeState = ref.watch(themeManagerProvider).when(
+          data: (theme) => theme,
+          error: (_, __) => ThemeState(),
+          loading: () => ThemeState(),
+        );
+
+    final language = ref.watch(configManagerProvider).when(
+          data: (configState) => configState.language,
+          loading: () => 'zh',
+          error: (err, stack) => 'zh',
+        );
 
     return Scaffold(
       appBar: AppBar(title: Text(AppLocalizations.of(context)!.language)),
@@ -149,9 +158,9 @@ class LanguagesPage extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.check_circle,
-            color: languages[index]['code'] == configManager.language ? themeManager.primaryColor : Colors.transparent,
+            color: languages[index]['code'] == language ? themeState.primaryColor : Colors.transparent,
           ),
-          onTap: () => _changeLanguage(context, languages[index]['code']!),
+          onTap: () => _changeLanguage(context, ref, languages[index]['code']!),
         ),
       ),
     );
@@ -171,9 +180,9 @@ class LanguagesPage extends StatelessWidget {
         );
   }
 
-  Future<void> _changeLanguage(BuildContext context, String languageCode) async {
-    final configManager = Provider.of<ConfigManager>(context, listen: false);
-    await configManager.setLanguage(languageCode);
+  Future<void> _changeLanguage(BuildContext context, WidgetRef ref, String languageCode) async {
+    final config = ref.watch(configManagerProvider.notifier);
+    await config.setLanguage(languageCode);
     if (context.mounted) Navigator.of(context).pop();
   }
 }

@@ -2,14 +2,14 @@ import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../game/config_manager.dart';
 import '../../services/audios.dart';
 import 'promotion_dialog.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 enum OnlineState {
   offline,
@@ -32,7 +32,7 @@ enum TimeControl {
   const TimeControl(this.value, this.label, this.totalTimeInSeconds, this.incrementInSeconds);
 }
 
-mixin BattleMixin<T extends StatefulWidget> on State<T> {
+mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
   late WPChessboardController controller;
   late chess_lib.Chess chess;
   List<List<int>>? lastMove;
@@ -103,6 +103,7 @@ mixin BattleMixin<T extends StatefulWidget> on State<T> {
 
     showPromotionDialog(
       context,
+      ref,
       BoardOrientation.white,
       (promotion) => onMove(
         {'from': move['from']!, 'to': move['to']!, 'promotion': promotion},
@@ -134,7 +135,7 @@ mixin BattleMixin<T extends StatefulWidget> on State<T> {
   }
 }
 
-mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
+mixin OnlineBattleMixin<T extends ConsumerStatefulWidget> on BattleMixin<T> {
   socket_io.Socket? socket;
   OnlineState gameState = OnlineState.offline;
   BoardOrientation orientation = BoardOrientation.white;
@@ -177,9 +178,13 @@ mixin OnlineBattleMixin<T extends StatefulWidget> on BattleMixin<T> {
   }
 
   void setupSocketIO() {
-    final configManager = Provider.of<ConfigManager>(context, listen: false);
+    final configState = ref.watch(configManagerProvider).when(
+          data: (configState) => configState,
+          loading: () => const ConfigState(),
+          error: (err, stack) => const ConfigState(),
+        );
 
-    socket = socket_io.io(configManager.serverUrl, <String, dynamic>{
+    socket = socket_io.io(configState.serverUrl, <String, dynamic>{
       'transports': ['websocket'],
     });
 

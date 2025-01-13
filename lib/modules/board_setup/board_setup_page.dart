@@ -2,22 +2,23 @@ import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../home_page.dart';
 import '../../widgets/bottom_bar.dart';
 import '../../widgets/bottom_bar_button.dart';
 import '../../widgets/chess_board_widget.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-class BoardSetupPage extends StatefulWidget {
+class BoardSetupPage extends ConsumerStatefulWidget {
   const BoardSetupPage({super.key});
 
   @override
-  State<BoardSetupPage> createState() => _BoardSetupPageState();
+  ConsumerState<BoardSetupPage> createState() => _BoardSetupPageState();
 }
 
-class _BoardSetupPageState extends State<BoardSetupPage> {
+class _BoardSetupPageState extends ConsumerState<BoardSetupPage> {
   // Board state constants
   static const String _emptyBoardFen = '8/8/8/8/8/8/8/8 w - - 0 1';
   static const String _initialBoardFen = chess_lib.Chess.DEFAULT_POSITION;
@@ -274,7 +275,7 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
     required bool canDrag,
     required bool isWhite,
   }) {
-    final pieceWidget = _createPieceWidget(pieceKey, pieceSize);
+    final pieceWidget = _createPieceWidget(pieceKey, pieceSize, ref);
 
     return Opacity(
       opacity: canDrag ? 1.0 : 0.3,
@@ -295,8 +296,8 @@ class _BoardSetupPageState extends State<BoardSetupPage> {
     );
   }
 
-  Widget _createPieceWidget(String pieceKey, double size) {
-    return pieceMap(context).get(pieceKey)(size);
+  Widget _createPieceWidget(String pieceKey, double size, WidgetRef ref) {
+    return pieceMap(ref).get(pieceKey)(size);
   }
 
   Widget _buildTrashBin(double boardSize) => DragTarget<SquareInfo>(

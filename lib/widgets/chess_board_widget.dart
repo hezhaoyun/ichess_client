@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:provider/provider.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../game/theme_manager.dart';
 
-PieceMap pieceMap(BuildContext context) {
-  final pieceTheme = Provider.of<ThemeManager>(context).selectedPieceTheme;
+PieceMap pieceMap(WidgetRef ref) {
+  final themeState = ref.watch(themeManagerProvider).when(
+        data: (theme) => theme,
+        error: (_, __) => ThemeState(),
+        loading: () => ThemeState(),
+      );
+  final pieceTheme = themeState.pieceTheme;
   final pieceThemePath = ThemeManager.kPieceThemes[pieceTheme]!;
 
   return PieceMap(
@@ -25,7 +30,7 @@ PieceMap pieceMap(BuildContext context) {
   );
 }
 
-class ChessBoardWidget extends StatelessWidget {
+class ChessBoardWidget extends ConsumerWidget {
   static const kLightSquareColor = Color(0xFFEED7BE);
   static const kDarkSquareColor = Color(0xFFB58863);
   static final kMoveHighlightColor = Colors.blue.shade300;
@@ -106,7 +111,7 @@ class ChessBoardWidget extends StatelessWidget {
       );
 
   @override
-  Widget build(BuildContext context) => Container(
+  Widget build(BuildContext context, WidgetRef ref) => Container(
         decoration: BoxDecoration(
           color: Colors.white.withAlpha(0xCC),
           borderRadius: BorderRadius.circular(10),
@@ -130,7 +135,7 @@ class ChessBoardWidget extends StatelessWidget {
                   size: _size / 2,
                   color: Colors.lightBlue.withAlpha(0x3D),
                 ),
-                pieceMap: pieceMap(context),
+                pieceMap: pieceMap(ref),
               ),
             ),
             // 添加标记

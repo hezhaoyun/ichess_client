@@ -1,11 +1,8 @@
-import 'dart:io';
-
-import 'package:flu_wake_lock/flu_wake_lock.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ichess/modules/game_viewer/games_page.dart';
-import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'game/config_manager.dart';
@@ -24,96 +21,61 @@ void main() async {
   final prefs = await SharedPreferences.getInstance();
   final String languageCode = prefs.getString('language_code') ?? 'en';
 
-  runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => ThemeManager(), lazy: false),
-        ChangeNotifierProvider(create: (_) => ConfigManager(), lazy: false),
-      ],
-      child: ChessApp(languageCode: languageCode),
-    ),
-  );
+  runApp(ProviderScope(child: ChessApp(languageCode: languageCode)));
 }
 
-class ChessApp extends StatefulWidget {
+class ChessApp extends ConsumerWidget {
   final String languageCode;
   const ChessApp({super.key, required this.languageCode});
 
   @override
-  State<ChessApp> createState() => _ChessAppState();
-}
+  Widget build(BuildContext context, WidgetRef ref) {
+    final themeState = ref.watch(themeManagerProvider).when(
+          data: (theme) => theme,
+          error: (_, __) => ThemeState(),
+          loading: () => ThemeState(),
+        );
+    final configState = ref.watch(configManagerProvider).when(
+          data: (config) => config,
+          error: (_, __) => ConfigState(),
+          loading: () => ConfigState(),
+        );
 
-class _ChessAppState extends State<ChessApp> with WidgetsBindingObserver {
-  final _fluWakeLock = (Platform.isAndroid || Platform.isIOS) ? FluWakeLock() : null;
-
-  @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addObserver(this);
-    _fluWakeLock?.enable();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final configManager = Provider.of<ConfigManager>(context);
-
-    return Consumer<ThemeManager>(
-        builder: (context, themeManager, child) => MaterialApp(
-              locale: Locale(configManager.language),
-              localizationsDelegates: [
-                AppLocalizations.delegate,
-                GlobalMaterialLocalizations.delegate,
-                GlobalWidgetsLocalizations.delegate,
-                GlobalCupertinoLocalizations.delegate,
-              ],
-              supportedLocales: AppLocalizations.supportedLocales,
-              title: AppLocalizations.of(context)?.appName ?? 'Chess Road',
-              theme: themeManager.getTheme().copyWith(
-                    textTheme: themeManager.getTheme().textTheme.apply(fontFamily: 'ZCOOLXiaoWei'),
-                  ),
-              home: const HomePage(),
-              routes: {
-                Routes.onlineBattle: (context) => const OnlineBattlePage(),
-                Routes.viewer: (context) => const GamesPage(),
-                Routes.openingExplorer: (context) => const OpeningExplorerPage(),
-                Routes.setup: (context) => const BoardSetupPage(),
-                Routes.chessClock: (context) => const ClockPage(),
-                Routes.settings: (context) => const SettingsPage(),
-              },
-              onGenerateRoute: (settings) {
-                if (settings.name == Routes.aiBattle) {
-                  final args = settings.arguments as Map<String, dynamic>?;
-                  final fen = args?['fen'] as String?;
-                  return MaterialPageRoute(builder: (context) => AIBattlePage(initialFen: fen));
-                }
-                return MaterialPageRoute(
-                  builder: (context) => const HomePage(),
-                );
-              },
-              debugShowCheckedModeBanner: false,
-            ));
-  }
-
-  @override
-  void didChangeAppLifecycleState(AppLifecycleState state) {
-    super.didChangeAppLifecycleState(state);
-
-    switch (state) {
-      case AppLifecycleState.resumed:
-        _fluWakeLock?.enable();
-        break;
-      case AppLifecycleState.paused:
-      case AppLifecycleState.detached:
-        _fluWakeLock?.disable();
-        break;
-      default:
-        break;
-    }
-  }
-
-  @override
-  void dispose() {
-    WidgetsBinding.instance.removeObserver(this);
-    super.dispose();
+    return MaterialApp(
+      locale: Locale(configState.language),
+      localizationsDelegates: [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: AppLocalizations.supportedLocales,
+      title: AppLocalizations.of(context)?.appName ?? 'Chess Road',
+      theme: ThemeData(
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(seedColor: themeState.primaryColor),
+        fontFamily: 'ZCOOLXiaoWei',
+      ),
+      home: const HomePage(),
+      routes: {
+        Routes.onlineBattle: (context) => const OnlineBattlePage(),
+        Routes.viewer: (context) => const GamesPage(),
+        Routes.openingExplorer: (context) => const OpeningExplorerPage(),
+        Routes.setup: (context) => const BoardSetupPage(),
+        Routes.chessClock: (context) => const ClockPage(),
+        Routes.settings: (context) => const SettingsPage(),
+      },
+      onGenerateRoute: (settings) {
+        if (settings.name == Routes.aiBattle) {
+          final args = settings.arguments as Map<String, dynamic>?;
+          final fen = args?['fen'] as String?;
+          return MaterialPageRoute(builder: (context) => AIBattlePage(initialFen: fen));
+        }
+        return MaterialPageRoute(
+          builder: (context) => const HomePage(),
+        );
+      },
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
