@@ -65,8 +65,6 @@ class ThemeManager extends ChangeNotifier {
 
   ThemeData getTheme() => ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: _primaryColor,
-        ),
+        colorScheme: ColorScheme.fromSeed(seedColor: _primaryColor),
       );
 }
