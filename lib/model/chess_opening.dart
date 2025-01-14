@@ -47,8 +47,8 @@ class TopGame with _$TopGame {
     String? winner,
     required Player black,
     required Player white,
-    required int year,
-    required String month,
+    int? year,
+    String? month,
   }) = _TopGame;
 
   factory TopGame.fromJson(Map<String, dynamic> json) => _$TopGameFromJson(json);

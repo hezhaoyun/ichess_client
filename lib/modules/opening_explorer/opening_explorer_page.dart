@@ -8,6 +8,8 @@ import 'package:intl/intl.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../../model/provider.dart';
+import '../../widgets/bottom_bar.dart';
+import '../../widgets/bottom_bar_button.dart';
 import '../../widgets/chess_board_widget.dart';
 import '../../widgets/game_result_dialog.dart';
 import '../battle/battle_mixin.dart';
@@ -89,6 +91,7 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
             child: _buildOpeningInfo(),
           ),
         ),
+        _buildBottomBar(),
       ],
     );
   }
@@ -136,7 +139,10 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
       );
 
   Widget _buildOpeningInfo() {
-    final chessOpening = ref.watch(chessOpeningProvider(fen: chess.fen)).value;
+    final provider = ref.watch(chessOpeningProvider(fen: chess.fen));
+    if (provider.isLoading) return const Center(child: CircularProgressIndicator());
+
+    final chessOpening = provider.value;
 
     final moves = chessOpening?.moves ?? [];
 
@@ -254,15 +260,26 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
     );
   }
 
+  Widget _buildBottomBar() => BottomBar(
+        children: [
+          BottomBarButton(
+            icon: Icons.navigate_before,
+            onTap: goPrevious,
+            label: AppLocalizations.of(context)!.previous,
+          ),
+          BottomBarButton(
+            icon: Icons.navigate_next,
+            onTap: goNext,
+            label: AppLocalizations.of(context)!.next,
+          ),
+        ],
+      );
+
   String _formatNum(int num) => NumberFormat.decimalPatternDigits().format(num);
 
   Map<String, String> _parseMove(String move) {
     final moveMap = {'from': move.substring(0, 2), 'to': move.substring(2, 4)};
-
-    if (move.length > 4) {
-      moveMap['promotion'] = move[4];
-    }
-
+    if (move.length > 4) moveMap['promotion'] = move[4];
     return moveMap;
   }
 
@@ -288,6 +305,21 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
       barrierDismissible: false,
       builder: (context) => GameResultDialog(title: _getResultTitle(), message: _getResultMessage(), result: result),
     );
+  }
+
+  void goPrevious() {
+    if (moveHistory.isEmpty) return;
+
+    setState(() {
+      lastMove = null;
+      chess.undo();
+      moveHistory.removeLast();
+      controller.setFen(chess.fen);
+    });
+  }
+
+  void goNext() {
+    // TODO: Implement
   }
 
   String _getResultTitle() {
