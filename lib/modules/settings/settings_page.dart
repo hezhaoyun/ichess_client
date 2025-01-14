@@ -15,13 +15,6 @@ class SettingsPage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final config = ref.watch(configManagerProvider.notifier);
-    final configState = ref.watch(configManagerProvider).value ?? ConfigState();
-
-    final themeManager = ref.watch(themeManagerProvider.notifier);
-    final themeState = ref.watch(themeManagerProvider).value ?? ThemeState();
-    final pieceThemePath = ThemeManager.kPieceThemes[themeState.pieceTheme]!;
-
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
@@ -53,7 +46,7 @@ class SettingsPage extends ConsumerWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                        child: _buildLanguageCard(context, configState),
+                        child: _buildLanguageCard(context, ref),
                       ),
                       Padding(
                         padding: EdgeInsets.all(16.0),
@@ -64,7 +57,7 @@ class SettingsPage extends ConsumerWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                        child: _buildColorThemeCard(themeManager, themeState, context),
+                        child: _buildColorThemeCard(ref, context),
                       ),
                       Padding(
                         padding: EdgeInsets.all(16.0),
@@ -75,7 +68,7 @@ class SettingsPage extends ConsumerWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                        child: _buildPieceThemeCard(pieceThemePath, themeManager, themeState, context),
+                        child: _buildPieceThemeCard(ref, context),
                       ),
                       Padding(
                         padding: EdgeInsets.all(16.0),
@@ -86,7 +79,7 @@ class SettingsPage extends ConsumerWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                        child: _buildServerConfigCard(context, configState, config),
+                        child: _buildServerConfigCard(context, ref),
                       ),
                       Padding(
                         padding: EdgeInsets.all(16.0),
@@ -97,7 +90,7 @@ class SettingsPage extends ConsumerWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                        child: _buildEngineConfigCard(context, configState, config),
+                        child: _buildEngineConfigCard(ref, context),
                       ),
                     ],
                   ),
@@ -136,209 +129,232 @@ class SettingsPage extends ConsumerWidget {
         ),
       );
 
-  Widget _buildLanguageCard(BuildContext context, ConfigState configState) => Card(
-        child: ListTile(
-          leading: CircleAvatar(
-            radius: 12,
-            backgroundColor: Theme.of(context).colorScheme.primary,
-            child: Text(configState.language, style: const TextStyle(color: Colors.white)),
-          ),
-          title: Text(getLanguageName(configState.language)),
-          trailing: Icon(
-            Icons.arrow_forward_ios,
-            size: 12,
-            color: Theme.of(context).colorScheme.secondary,
-          ),
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => LanguagesPage()),
-            );
-          },
-        ),
-      );
+  Widget _buildLanguageCard(BuildContext context, WidgetRef ref) {
+    final config = ref.watch(configManagerProvider).value ?? ConfigState();
 
-  Widget _buildColorThemeCard(ThemeManager themeManager, ThemeState themeState, BuildContext context) => Card(
-        child: ListTile(
-          leading: Container(
-            width: 24,
-            height: 24,
-            decoration: BoxDecoration(
-              color: themeState.primaryColor,
-              shape: BoxShape.circle,
-            ),
-          ),
-          title: Text(themeState.currentThemeName),
-          trailing: Icon(
-            Icons.arrow_forward_ios,
-            size: 12,
-            color: Theme.of(context).colorScheme.secondary,
-          ),
-          onTap: () => _showThemeColorDialog(context, themeManager, themeState),
+    return Card(
+      child: ListTile(
+        leading: CircleAvatar(
+          radius: 12,
+          backgroundColor: Theme.of(context).colorScheme.primary,
+          child: Text(config.language, style: const TextStyle(color: Colors.white)),
         ),
-      );
-
-  Widget _buildPieceThemeCard(
-          String pieceThemePath, ThemeManager themeManager, ThemeState themeState, BuildContext context) =>
-      Card(
-        child: ListTile(
-          leading: SvgPicture.asset('$pieceThemePath/wk.svg', width: 32, height: 32),
-          title: Text(themeState.pieceTheme),
-          trailing: Icon(
-            Icons.arrow_forward_ios,
-            size: 12,
-            color: Theme.of(context).colorScheme.secondary,
-          ),
-          onTap: () => _showPieceThemeDialog(context, themeManager, themeState),
+        title: Text(getLanguageName(config.language)),
+        trailing: Icon(
+          Icons.arrow_forward_ios,
+          size: 12,
+          color: Theme.of(context).colorScheme.secondary,
         ),
-      );
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => LanguagesPage()),
+          );
+        },
+      ),
+    );
+  }
 
-  Widget _buildServerConfigCard(BuildContext context, ConfigState configState, ConfigManager config) => Card(
-        child: ListTile(
-          title: Text(AppLocalizations.of(context)!.serverAddress),
-          subtitle: Text(configState.serverUrl),
-          trailing: Icon(
-            Icons.arrow_forward_ios,
-            size: 12,
-            color: Theme.of(context).colorScheme.secondary,
+  Widget _buildColorThemeCard(WidgetRef ref, BuildContext context) {
+    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
+
+    return Card(
+      child: ListTile(
+        leading: Container(
+          width: 24,
+          height: 24,
+          decoration: BoxDecoration(
+            color: theme.primaryColor,
+            shape: BoxShape.circle,
           ),
-          onTap: () async {
-            final result = await showDialog<String>(
-              context: context,
-              builder: (context) {
-                final controller = TextEditingController(text: configState.serverUrl);
-                return AlertDialog(
-                  title: Text(AppLocalizations.of(context)!.setServerAddress),
-                  content: TextField(
-                    controller: controller,
-                    decoration: InputDecoration(hintText: AppLocalizations.of(context)!.pleaseEnterTheServerAddress),
+        ),
+        title: Text(theme.currentThemeName),
+        trailing: Icon(
+          Icons.arrow_forward_ios,
+          size: 12,
+          color: Theme.of(context).colorScheme.secondary,
+        ),
+        onTap: () => _showThemeColorDialog(context, ref),
+      ),
+    );
+  }
+
+  Widget _buildPieceThemeCard(WidgetRef ref, BuildContext context) {
+    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
+    final pieceThemePath = ThemeManager.kPieceThemes[theme.pieceTheme]!;
+
+    return Card(
+      child: ListTile(
+        leading: SvgPicture.asset('$pieceThemePath/wk.svg', width: 32, height: 32),
+        title: Text(theme.pieceTheme),
+        trailing: Icon(
+          Icons.arrow_forward_ios,
+          size: 12,
+          color: Theme.of(context).colorScheme.secondary,
+        ),
+        onTap: () => _showPieceThemeDialog(context, ref),
+      ),
+    );
+  }
+
+  Widget _buildServerConfigCard(BuildContext context, WidgetRef ref) {
+    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final configManager = ref.read(configManagerProvider.notifier);
+
+    return Card(
+      child: ListTile(
+        title: Text(AppLocalizations.of(context)!.serverAddress),
+        subtitle: Text(config.serverUrl),
+        trailing: Icon(
+          Icons.arrow_forward_ios,
+          size: 12,
+          color: Theme.of(context).colorScheme.secondary,
+        ),
+        onTap: () async {
+          final result = await showDialog<String>(
+            context: context,
+            builder: (context) {
+              final controller = TextEditingController(text: config.serverUrl);
+              return AlertDialog(
+                title: Text(AppLocalizations.of(context)!.setServerAddress),
+                content: TextField(
+                  controller: controller,
+                  decoration: InputDecoration(hintText: AppLocalizations.of(context)!.pleaseEnterTheServerAddress),
+                ),
+                actions: [
+                  TextButton(
+                    onPressed: () => Navigator.pop(context),
+                    child: Text(AppLocalizations.of(context)!.cancel),
                   ),
-                  actions: [
-                    TextButton(
-                      onPressed: () => Navigator.pop(context),
-                      child: Text(AppLocalizations.of(context)!.cancel),
-                    ),
-                    TextButton(
-                      onPressed: () => Navigator.pop(context, controller.text),
-                      child: Text(AppLocalizations.of(context)!.confirm),
-                    ),
-                  ],
-                );
+                  TextButton(
+                    onPressed: () => Navigator.pop(context, controller.text),
+                    child: Text(AppLocalizations.of(context)!.confirm),
+                  ),
+                ],
+              );
+            },
+          );
+
+          if (result != null) {
+            configManager.setServerUrl(result);
+          }
+        },
+      ),
+    );
+  }
+
+  Widget _buildEngineConfigCard(WidgetRef ref, BuildContext context) {
+    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final configManager = ref.read(configManagerProvider.notifier);
+
+    return Card(
+      child: Column(
+        children: [
+          ListTile(
+            title: Text(AppLocalizations.of(context)!.engineLevel),
+            trailing: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  '${AppLocalizations.of(context)!.current}: ${config.engineLevel}',
+                ),
+                const SizedBox(width: 4),
+                Icon(
+                  Icons.arrow_forward_ios,
+                  size: 12,
+                  color: Theme.of(context).colorScheme.secondary,
+                ),
+              ],
+            ),
+            onTap: () => _showEngineLevelDialog(context, ref),
+          ),
+          ListTile(
+            title: Text(AppLocalizations.of(context)!.timeControlMode),
+            trailing: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  config.useTimeControl
+                      ? AppLocalizations.of(context)!.limitTime
+                      : AppLocalizations.of(context)!.limitDepth,
+                ),
+                const SizedBox(width: 4),
+                Icon(
+                  Icons.arrow_forward_ios,
+                  size: 12,
+                  color: Theme.of(context).colorScheme.secondary,
+                ),
+              ],
+            ),
+            onTap: () => configManager.setUseTimeControl(!config.useTimeControl),
+          ),
+          if (config.useTimeControl)
+            ListTile(
+              title: Text(AppLocalizations.of(context)!.thinkingTime),
+              trailing: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text('${config.moveTime}ms'),
+                  const SizedBox(width: 4),
+                  Icon(
+                    Icons.arrow_forward_ios,
+                    size: 12,
+                    color: Theme.of(context).colorScheme.secondary,
+                  ),
+                ],
+              ),
+              onTap: () => _showMoveTimeDialog(context, ref),
+            )
+          else
+            ListTile(
+              title: Text(AppLocalizations.of(context)!.searchDepth),
+              trailing: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text('${config.searchDepth} ${AppLocalizations.of(context)!.layers}'),
+                  const SizedBox(width: 4),
+                  Icon(
+                    Icons.arrow_forward_ios,
+                    size: 12,
+                    color: Theme.of(context).colorScheme.secondary,
+                  ),
+                ],
+              ),
+              onTap: () => _showSearchDepthDialog(context, ref),
+            ),
+          if (!Platform.isAndroid && !Platform.isIOS)
+            ListTile(
+              title: Text(AppLocalizations.of(context)!.enginePath),
+              subtitle: Text(
+                config.enginePath,
+                style: TextStyle(
+                  color: Theme.of(context).colorScheme.secondary,
+                  fontWeight: FontWeight.w300,
+                ),
+              ),
+              onTap: () async {
+                final result = await _showEnginePathDialog(context, ref);
+                if (result != null) configManager.setEnginePath(result);
               },
-            );
-
-            if (result != null) {
-              config.setServerUrl(result);
-            }
-          },
-        ),
-      );
-
-  Widget _buildEngineConfigCard(BuildContext context, ConfigState configState, ConfigManager config) => Card(
-        child: Column(
-          children: [
-            ListTile(
-              title: Text(AppLocalizations.of(context)!.engineLevel),
-              trailing: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    '${AppLocalizations.of(context)!.current}: ${configState.engineLevel}',
-                  ),
-                  const SizedBox(width: 4),
-                  Icon(
-                    Icons.arrow_forward_ios,
-                    size: 12,
-                    color: Theme.of(context).colorScheme.secondary,
-                  ),
-                ],
-              ),
-              onTap: () => _showEngineLevelDialog(context, configState, config),
             ),
-            ListTile(
-              title: Text(AppLocalizations.of(context)!.timeControlMode),
-              trailing: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    configState.useTimeControl
-                        ? AppLocalizations.of(context)!.limitTime
-                        : AppLocalizations.of(context)!.limitDepth,
-                  ),
-                  const SizedBox(width: 4),
-                  Icon(
-                    Icons.arrow_forward_ios,
-                    size: 12,
-                    color: Theme.of(context).colorScheme.secondary,
-                  ),
-                ],
-              ),
-              onTap: () => config.setUseTimeControl(!configState.useTimeControl),
-            ),
-            if (configState.useTimeControl)
-              ListTile(
-                title: Text(AppLocalizations.of(context)!.thinkingTime),
-                trailing: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text('${configState.moveTime}ms'),
-                    const SizedBox(width: 4),
-                    Icon(
-                      Icons.arrow_forward_ios,
-                      size: 12,
-                      color: Theme.of(context).colorScheme.secondary,
-                    ),
-                  ],
-                ),
-                onTap: () => _showMoveTimeDialog(context, configState, config),
-              )
-            else
-              ListTile(
-                title: Text(AppLocalizations.of(context)!.searchDepth),
-                trailing: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text('${configState.searchDepth} ${AppLocalizations.of(context)!.layers}'),
-                    const SizedBox(width: 4),
-                    Icon(
-                      Icons.arrow_forward_ios,
-                      size: 12,
-                      color: Theme.of(context).colorScheme.secondary,
-                    ),
-                  ],
-                ),
-                onTap: () => _showSearchDepthDialog(context, configState, config),
-              ),
-            if (!Platform.isAndroid && !Platform.isIOS)
-              ListTile(
-                title: Text(AppLocalizations.of(context)!.enginePath),
-                subtitle: Text(
-                  configState.enginePath,
-                  style: TextStyle(
-                    color: Theme.of(context).colorScheme.secondary,
-                    fontWeight: FontWeight.w300,
-                  ),
-                ),
-                onTap: () async {
-                  final result = await _showEnginePathDialog(context, configState);
-                  if (result != null) config.setEnginePath(result);
-                },
-              ),
-            SwitchListTile(
-              title: Text(AppLocalizations.of(context)!.showAnalysisArrows),
-              subtitle: Text(AppLocalizations.of(context)!.showPredictedMovesWhenTheEngineIsThinking),
-              value: configState.showArrows,
-              onChanged: (value) => config.setShowArrows(value),
-            ),
-          ],
-        ),
-      );
-}
+          SwitchListTile(
+            title: Text(AppLocalizations.of(context)!.showAnalysisArrows),
+            subtitle: Text(AppLocalizations.of(context)!.showPredictedMovesWhenTheEngineIsThinking),
+            value: config.showArrows,
+            onChanged: (value) => configManager.setShowArrows(value),
+          ),
+        ],
+      ),
+    );
+  }
 
-Future<String?> _showEnginePathDialog(BuildContext context, ConfigState configState) => showDialog<String>(
+  Future<String?> _showEnginePathDialog(BuildContext context, WidgetRef ref) {
+    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+
+    return showDialog<String>(
       context: context,
       builder: (context) {
-        final controller = TextEditingController(text: configState.enginePath);
+        final controller = TextEditingController(text: config.enginePath);
         return AlertDialog(
           title: Text(AppLocalizations.of(context)!.setEnginePath),
           content: Row(
@@ -373,116 +389,133 @@ Future<String?> _showEnginePathDialog(BuildContext context, ConfigState configSt
         );
       },
     );
+  }
 
-void _showEngineLevelDialog(BuildContext context, ConfigState configState, ConfigManager config) {
-  showDialog(
-    context: context,
-    builder: (context) => _EngineSliderDialog(
-      title: AppLocalizations.of(context)!.setEngineLevel,
-      initialValue: configState.engineLevel.toDouble(),
-      min: 1,
-      max: 20,
-      divisions: 19,
-      labelFormat: (value) => value.round().toString(),
-      onChanged: (value) => config.setEngineLevel(value.round()),
-    ),
-  );
-}
+  void _showEngineLevelDialog(BuildContext context, WidgetRef ref) {
+    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final configManager = ref.read(configManagerProvider.notifier);
 
-void _showMoveTimeDialog(BuildContext context, ConfigState configState, ConfigManager config) {
-  showDialog(
-    context: context,
-    builder: (context) => _EngineSliderDialog(
-      title: AppLocalizations.of(context)!.setThinkingTime,
-      initialValue: configState.moveTime.toDouble(),
-      min: 1000,
-      max: 15000,
-      divisions: 14,
-      labelFormat: (value) => '${value.round()}ms',
-      onChanged: (value) => config.setMoveTime(value.round()),
-    ),
-  );
-}
+    showDialog(
+      context: context,
+      builder: (context) => _EngineSliderDialog(
+        title: AppLocalizations.of(context)!.setEngineLevel,
+        initialValue: config.engineLevel.toDouble(),
+        min: 1,
+        max: 20,
+        divisions: 19,
+        labelFormat: (value) => value.round().toString(),
+        onChanged: (value) => configManager.setEngineLevel(value.round()),
+      ),
+    );
+  }
 
-void _showSearchDepthDialog(BuildContext context, ConfigState configState, ConfigManager config) {
-  showDialog(
-    context: context,
-    builder: (context) => _EngineSliderDialog(
-      title: AppLocalizations.of(context)!.setSearchDepth,
-      initialValue: configState.searchDepth.toDouble(),
-      min: 1,
-      max: 30,
-      divisions: 29,
-      labelFormat: (value) => '${value.round()} ${AppLocalizations.of(context)!.layers}',
-      onChanged: (value) => config.setSearchDepth(value.round()),
-    ),
-  );
-}
+  void _showMoveTimeDialog(BuildContext context, WidgetRef ref) {
+    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final configManager = ref.read(configManagerProvider.notifier);
 
-void _showThemeColorDialog(BuildContext context, ThemeManager themeManager, ThemeState themeState) {
-  showDialog(
-    context: context,
-    builder: (context) => AlertDialog(
-      title: Text(AppLocalizations.of(context)!.selectThemeColor),
-      content: SizedBox(
-        width: double.maxFinite,
-        child: ListView.builder(
-          shrinkWrap: true,
-          itemCount: ThemeManager.kColorThemes.length,
-          itemBuilder: (context, index) {
-            final themeName = ThemeManager.kColorThemes.keys.elementAt(index);
-            final themeColor = ThemeManager.kColorThemes[themeName]!;
-            final isSelected = themeColor == themeState.primaryColor;
+    showDialog(
+      context: context,
+      builder: (context) => _EngineSliderDialog(
+        title: AppLocalizations.of(context)!.setThinkingTime,
+        initialValue: config.moveTime.toDouble(),
+        min: 1000,
+        max: 15000,
+        divisions: 14,
+        labelFormat: (value) => '${value.round()}ms',
+        onChanged: (value) => configManager.setMoveTime(value.round()),
+      ),
+    );
+  }
 
-            return ListTile(
-              leading: Container(
-                width: 24,
-                height: 24,
-                decoration: BoxDecoration(color: themeColor, shape: BoxShape.circle),
-              ),
-              title: Text(themeName),
-              trailing: isSelected ? Icon(Icons.check_circle, color: themeColor) : null,
-              onTap: () {
-                themeManager.setPrimaryColor(themeName);
-                Navigator.pop(context);
-              },
-            );
-          },
+  void _showSearchDepthDialog(BuildContext context, WidgetRef ref) {
+    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final configManager = ref.read(configManagerProvider.notifier);
+
+    showDialog(
+      context: context,
+      builder: (context) => _EngineSliderDialog(
+        title: AppLocalizations.of(context)!.setSearchDepth,
+        initialValue: config.searchDepth.toDouble(),
+        min: 1,
+        max: 30,
+        divisions: 29,
+        labelFormat: (value) => '${value.round()} ${AppLocalizations.of(context)!.layers}',
+        onChanged: (value) => configManager.setSearchDepth(value.round()),
+      ),
+    );
+  }
+
+  void _showThemeColorDialog(BuildContext context, WidgetRef ref) {
+    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
+    final themeManager = ref.read(themeManagerProvider.notifier);
+
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text(AppLocalizations.of(context)!.selectThemeColor),
+        content: SizedBox(
+          width: double.maxFinite,
+          child: ListView.builder(
+            shrinkWrap: true,
+            itemCount: ThemeManager.kColorThemes.length,
+            itemBuilder: (context, index) {
+              final themeName = ThemeManager.kColorThemes.keys.elementAt(index);
+              final themeColor = ThemeManager.kColorThemes[themeName]!;
+              final isSelected = themeColor == theme.primaryColor;
+
+              return ListTile(
+                leading: Container(
+                  width: 24,
+                  height: 24,
+                  decoration: BoxDecoration(color: themeColor, shape: BoxShape.circle),
+                ),
+                title: Text(themeName),
+                trailing: isSelected ? Icon(Icons.check_circle, color: themeColor) : null,
+                onTap: () {
+                  themeManager.setPrimaryColor(themeName);
+                  Navigator.pop(context);
+                },
+              );
+            },
+          ),
         ),
       ),
-    ),
-  );
-}
+    );
+  }
 
-void _showPieceThemeDialog(BuildContext context, ThemeManager themeManager, ThemeState themeState) {
-  showDialog(
-    context: context,
-    builder: (context) => AlertDialog(
-      title: Text(AppLocalizations.of(context)!.selectPieceTheme),
-      content: SizedBox(
-        width: double.maxFinite,
-        child: ListView.builder(
-          shrinkWrap: true,
-          itemCount: ThemeManager.kPieceThemes.length,
-          itemBuilder: (context, index) {
-            final themeName = ThemeManager.kPieceThemes.keys.elementAt(index);
-            final pieceThemePath = ThemeManager.kPieceThemes[themeName]!;
-            final isSelected = themeName == themeState.pieceTheme;
+  void _showPieceThemeDialog(BuildContext context, WidgetRef ref) {
+    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
+    final themeManager = ref.read(themeManagerProvider.notifier);
 
-            return ListTile(
-              leading: SvgPicture.asset('$pieceThemePath/wk.svg', width: 32, height: 32),
-              title: Text(themeName),
-              trailing: isSelected ? Icon(Icons.check_circle) : null,
-              onTap: () {
-                themeManager.setPieceTheme(themeName);
-                Navigator.pop(context);
-              },
-            );
-          },
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text(AppLocalizations.of(context)!.selectPieceTheme),
+        content: SizedBox(
+          width: double.maxFinite,
+          child: ListView.builder(
+            shrinkWrap: true,
+            itemCount: ThemeManager.kPieceThemes.length,
+            itemBuilder: (context, index) {
+              final themeName = ThemeManager.kPieceThemes.keys.elementAt(index);
+              final pieceThemePath = ThemeManager.kPieceThemes[themeName]!;
+              final isSelected = themeName == theme.pieceTheme;
+
+              return ListTile(
+                leading: SvgPicture.asset('$pieceThemePath/wk.svg', width: 32, height: 32),
+                title: Text(themeName),
+                trailing: isSelected ? Icon(Icons.check_circle) : null,
+                onTap: () {
+                  themeManager.setPieceTheme(themeName);
+                  Navigator.pop(context);
+                },
+              );
+            },
+          ),
         ),
       ),
-    ),
-  );
+    );
+  }
 }
 
 class _EngineSliderDialog extends StatefulWidget {

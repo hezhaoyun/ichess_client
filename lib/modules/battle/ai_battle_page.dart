@@ -62,20 +62,20 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   }
 
   Future<void> setupStockfishEngine() async {
-    final configState = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider).value ?? ConfigState();
 
     try {
       if (!Platform.isAndroid && !Platform.isIOS) {
-        AiNative.instance.setEnginePath(configState.enginePath);
+        AiNative.instance.setEnginePath(config.enginePath);
       }
 
       await AiNative.instance.initialize();
 
-      AiNative.instance.setSkillLevel(configState.engineLevel);
-      if (configState.useTimeControl) {
-        AiNative.instance.setMoveTime(configState.moveTime);
+      AiNative.instance.setSkillLevel(config.engineLevel);
+      if (config.useTimeControl) {
+        AiNative.instance.setMoveTime(config.moveTime);
       } else {
-        AiNative.instance.setSearchDepth(configState.searchDepth);
+        AiNative.instance.setSearchDepth(config.searchDepth);
       }
 
       setState(() => _isEngineReady = true);
@@ -214,8 +214,8 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
 
     try {
       final stockfish = AiNative.instance;
-      final configState = ref.watch(configManagerProvider).value ?? ConfigState();
-      final showArrows = configState.showArrows;
+      final config = ref.watch(configManagerProvider).value ?? ConfigState();
+      final showArrows = config.showArrows;
 
       stockfish.sendCommand(
         'position fen ${chess.fen} moves ${moves.join(' ')}',
@@ -304,7 +304,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   }
 
   void _parseInfoLine(String line) {
-    final configState = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider).value ?? ConfigState();
 
     final depthMatch = RegExp(r'depth (\d+)').firstMatch(line);
     if (depthMatch != null && int.parse(depthMatch.group(1)!) < 8) return;
@@ -318,7 +318,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
     if (pvMatch != null) {
       final pvs = pvMatch.group(1)!.split(' ');
 
-      if (pvs.isNotEmpty && configState.showArrows) {
+      if (pvs.isNotEmpty && config.showArrows) {
         setState(() {
           List<Arrow> arrows = [];
           final engineMove = pvs[0];

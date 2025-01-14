@@ -30,11 +30,11 @@ class ChessApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final themeState = ref.watch(themeManagerProvider).value ?? ThemeState();
-    final configState = ref.watch(configManagerProvider).value ?? ConfigState();
+    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
+    final config = ref.watch(configManagerProvider).value ?? ConfigState();
 
     return MaterialApp(
-      locale: Locale(configState.language),
+      locale: Locale(config.language),
       localizationsDelegates: [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
@@ -45,7 +45,7 @@ class ChessApp extends ConsumerWidget {
       title: AppLocalizations.of(context)?.appName ?? 'Chess Road',
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: themeState.primaryColor),
+        colorScheme: ColorScheme.fromSeed(seedColor: theme.primaryColor),
         fontFamily: 'ZCOOLXiaoWei',
       ),
       home: const HomePage(),

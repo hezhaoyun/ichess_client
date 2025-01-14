@@ -124,7 +124,7 @@ class LanguagesPage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final themeState = ref.watch(themeManagerProvider).value ?? ThemeState();
+    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
     final language = ref.watch(configManagerProvider).value?.language ?? 'zh';
 
     return Scaffold(
@@ -149,7 +149,7 @@ class LanguagesPage extends ConsumerWidget {
           ),
           trailing: Icon(
             Icons.check_circle,
-            color: languages[index]['code'] == language ? themeState.primaryColor : Colors.transparent,
+            color: languages[index]['code'] == language ? theme.primaryColor : Colors.transparent,
           ),
           onTap: () => _changeLanguage(context, ref, languages[index]['code']!),
         ),
@@ -172,7 +172,7 @@ class LanguagesPage extends ConsumerWidget {
   }
 
   Future<void> _changeLanguage(BuildContext context, WidgetRef ref, String languageCode) async {
-    final config = ref.watch(configManagerProvider.notifier);
+    final config = ref.read(configManagerProvider.notifier);
     await config.setLanguage(languageCode);
     if (context.mounted) Navigator.of(context).pop();
   }
