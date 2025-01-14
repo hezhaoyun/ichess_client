@@ -4,6 +4,7 @@ import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:ichess/model/chess_opening.dart';
 import 'package:intl/intl.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
@@ -88,7 +89,7 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
         Expanded(
           child: Padding(
             padding: const EdgeInsets.all(10),
-            child: _buildOpeningInfo(),
+            child: _buildOpeningTable(),
           ),
         ),
         _buildBottomBar(),
@@ -138,9 +139,9 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
         onEmptyFieldTap: onEmptyFieldTap,
       );
 
-  Widget _buildOpeningInfo() {
+  Widget _buildOpeningTable() {
     final provider = ref.watch(chessOpeningProvider(fen: chess.fen));
-    if (provider.isLoading) return const Center(child: CircularProgressIndicator());
+    if (provider.isLoading) return _buildLoadingTable();
 
     final chessOpening = provider.value;
 
@@ -158,107 +159,142 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
         child: Table(
           columnWidths: columnWidths,
           children: [
-            TableRow(
-              decoration: BoxDecoration(color: Theme.of(context).colorScheme.secondaryContainer),
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(10),
-                  child: Text('Move'),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(10),
-                  child: Text('Games'),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(10),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Expanded(
-                        child: Text(
-                          'White / Draw / Black',
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            ...List.generate(moves.length, (int index) {
-              final move = moves[index];
-              final moveGames = move.white + move.draws + move.black;
-
-              final percentGames = ((moveGames / games) * 100).round();
-              return TableRow(
-                decoration: BoxDecoration(
-                  color: index.isEven
-                      ? Theme.of(context).colorScheme.surfaceContainerLow
-                      : Theme.of(context).colorScheme.surfaceContainerHigh,
-                ),
-                children: [
-                  TableRowInkWell(
-                    onTap: () => onMove(_parseMove(move.uci)),
-                    child: Padding(padding: const EdgeInsets.all(10), child: Text(move.san)),
-                  ),
-                  TableRowInkWell(
-                    onTap: () => onMove(_parseMove(move.uci)),
-                    child: Padding(
-                      padding: const EdgeInsets.all(10),
-                      child: Text('${_formatNum(moveGames)} ($percentGames%)'),
-                    ),
-                  ),
-                  TableRowInkWell(
-                    onTap: () => onMove(_parseMove(move.uci)),
-                    child: Padding(
-                      padding: const EdgeInsets.all(10),
-                      child: WinPercentageChart(whiteWins: move.white, draws: move.draws, blackWins: move.black),
-                    ),
-                  ),
-                ],
-              );
-            }),
-            if (moves.isNotEmpty)
-              TableRow(
-                decoration: BoxDecoration(
-                  color: moves.length.isEven
-                      ? Theme.of(context).colorScheme.surfaceContainerLow
-                      : Theme.of(context).colorScheme.surfaceContainerHigh,
-                ),
-                children: [
-                  Container(
-                    padding: const EdgeInsets.all(10),
-                    alignment: Alignment.centerLeft,
-                    child: const Icon(Icons.functions),
-                  ),
-                  Padding(padding: const EdgeInsets.all(10), child: Text('${_formatNum(games)} (100%)')),
-                  Padding(
-                    padding: const EdgeInsets.all(10),
-                    child: WinPercentageChart(whiteWins: whiteWins, draws: draws, blackWins: blackWins),
-                  ),
-                ],
-              )
-            else
-              TableRow(
-                decoration: BoxDecoration(color: Theme.of(context).colorScheme.surfaceContainerLow),
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.all(10),
-                    child: Text(
-                      String.fromCharCode(Icons.not_interested_outlined.codePoint),
-                      style: TextStyle(fontFamily: Icons.not_interested_outlined.fontFamily),
-                    ),
-                  ),
-                  Padding(padding: const EdgeInsets.all(10), child: Text('No games found')),
-                  const Padding(padding: EdgeInsets.all(10), child: SizedBox.shrink()),
-                ],
-              ),
+            _buildTableHeader(),
+            ...List.generate(moves.length, (int index) => _buildRow(moves, index, games)),
+            if (moves.isNotEmpty) _buildSumRow(moves, games, whiteWins, draws, blackWins) else _buildEmptyRow(),
           ],
         ),
       ),
     );
   }
+
+  Widget _buildLoadingTable() => Table(
+        columnWidths: columnWidths,
+        children: [
+          _buildTableHeader(),
+          ...List.generate(9, (int index) => _buildLoadingRow(index)),
+        ],
+      );
+
+  TableRow _buildTableHeader() => TableRow(
+        decoration: BoxDecoration(color: Theme.of(context).colorScheme.secondaryContainer),
+        children: [
+          Padding(padding: const EdgeInsets.all(10), child: Text('Move')),
+          Padding(padding: const EdgeInsets.all(10), child: Text('Games')),
+          Padding(padding: const EdgeInsets.all(10), child: Text('White / Draw / Black')),
+        ],
+      );
+
+  TableRow _buildLoadingRow(int index) => TableRow(
+        decoration: BoxDecoration(
+          color: index.isEven
+              ? Theme.of(context).colorScheme.surfaceContainerLow
+              : Theme.of(context).colorScheme.surfaceContainerHigh,
+        ),
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(10),
+            child: Container(
+              height: 20,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                color: Colors.grey.withAlpha(0x1A),
+                borderRadius: BorderRadius.circular(5),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(10),
+            child: Container(
+              height: 20,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                color: Colors.grey.withAlpha(0x1A),
+                borderRadius: BorderRadius.circular(5),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(10),
+            child: Container(
+              height: 20,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                color: Colors.grey.withAlpha(0x1A),
+                borderRadius: BorderRadius.circular(5),
+              ),
+            ),
+          ),
+        ],
+      );
+
+  TableRow _buildRow(List<OpeningMove> moves, int index, int games) {
+    final move = moves[index];
+    final moveGames = move.white + move.draws + move.black;
+    final percentGames = ((moveGames / games) * 100).round();
+    return TableRow(
+      decoration: BoxDecoration(
+        color: index.isEven
+            ? Theme.of(context).colorScheme.surfaceContainerLow
+            : Theme.of(context).colorScheme.surfaceContainerHigh,
+      ),
+      children: [
+        TableRowInkWell(
+          onTap: () => onMove(_parseMove(move.uci)),
+          child: Padding(padding: const EdgeInsets.all(10), child: Text(move.san)),
+        ),
+        TableRowInkWell(
+          onTap: () => onMove(_parseMove(move.uci)),
+          child: Padding(
+            padding: const EdgeInsets.all(10),
+            child: Text('${_formatNum(moveGames)} ($percentGames%)'),
+          ),
+        ),
+        TableRowInkWell(
+          onTap: () => onMove(_parseMove(move.uci)),
+          child: Padding(
+            padding: const EdgeInsets.all(10),
+            child: WinPercentageChart(whiteWins: move.white, draws: move.draws, blackWins: move.black),
+          ),
+        ),
+      ],
+    );
+  }
+
+  TableRow _buildSumRow(List<OpeningMove> moves, int games, int whiteWins, int draws, int blackWins) => TableRow(
+        decoration: BoxDecoration(
+          color: moves.length.isEven
+              ? Theme.of(context).colorScheme.surfaceContainerLow
+              : Theme.of(context).colorScheme.surfaceContainerHigh,
+        ),
+        children: [
+          Container(
+            padding: const EdgeInsets.all(10),
+            alignment: Alignment.centerLeft,
+            child: const Icon(Icons.functions),
+          ),
+          Padding(padding: const EdgeInsets.all(10), child: Text('${_formatNum(games)} (100%)')),
+          Padding(
+            padding: const EdgeInsets.all(10),
+            child: WinPercentageChart(whiteWins: whiteWins, draws: draws, blackWins: blackWins),
+          ),
+        ],
+      );
+
+  TableRow _buildEmptyRow() => TableRow(
+        decoration: BoxDecoration(color: Theme.of(context).colorScheme.surfaceContainerLow),
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(10),
+            child: Text(
+              String.fromCharCode(Icons.not_interested_outlined.codePoint),
+              style: TextStyle(fontFamily: Icons.not_interested_outlined.fontFamily),
+            ),
+          ),
+          Padding(padding: const EdgeInsets.all(10), child: Text('No games found')),
+          const Padding(padding: EdgeInsets.all(10), child: SizedBox.shrink()),
+        ],
+      );
 
   Widget _buildBottomBar() => BottomBar(
         children: [
