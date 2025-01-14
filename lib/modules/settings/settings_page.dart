@@ -181,7 +181,7 @@ class SettingsPage extends ConsumerWidget {
 
   Widget _buildPieceThemeCard(WidgetRef ref, BuildContext context) {
     final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
-    final pieceThemePath = ThemeManager.kPieceThemes[theme.pieceTheme]!;
+    final pieceThemePath = kPieceThemes[theme.pieceTheme]!;
 
     return Card(
       child: ListTile(
@@ -457,10 +457,10 @@ class SettingsPage extends ConsumerWidget {
           width: double.maxFinite,
           child: ListView.builder(
             shrinkWrap: true,
-            itemCount: ThemeManager.kColorThemes.length,
+            itemCount: kColorThemes.length,
             itemBuilder: (context, index) {
-              final themeName = ThemeManager.kColorThemes.keys.elementAt(index);
-              final themeColor = ThemeManager.kColorThemes[themeName]!;
+              final themeName = kColorThemes.keys.elementAt(index);
+              final themeColor = kColorThemes[themeName]!;
               final isSelected = themeColor == theme.primaryColor;
 
               return ListTile(
@@ -495,10 +495,10 @@ class SettingsPage extends ConsumerWidget {
           width: double.maxFinite,
           child: ListView.builder(
             shrinkWrap: true,
-            itemCount: ThemeManager.kPieceThemes.length,
+            itemCount: kPieceThemes.length,
             itemBuilder: (context, index) {
-              final themeName = ThemeManager.kPieceThemes.keys.elementAt(index);
-              final pieceThemePath = ThemeManager.kPieceThemes[themeName]!;
+              final themeName = kPieceThemes.keys.elementAt(index);
+              final pieceThemePath = kPieceThemes[themeName]!;
               final isSelected = themeName == theme.pieceTheme;
 
               return ListTile(

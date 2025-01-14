@@ -8,7 +8,7 @@ import '../model/theme_manager.dart';
 PieceMap pieceMap(WidgetRef ref) {
   final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
   final pieceTheme = theme.pieceTheme;
-  final pieceThemePath = ThemeManager.kPieceThemes[pieceTheme]!;
+  final pieceThemePath = kPieceThemes[pieceTheme]!;
 
   return PieceMap(
     K: (size) => SvgPicture.asset('$pieceThemePath/wk.svg', width: size, height: size),
