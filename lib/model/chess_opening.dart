@@ -27,7 +27,7 @@ class OpeningMove with _$OpeningMove {
     required int draws,
     required int black,
     dynamic game,
-    required OpeningInfo opening,
+    OpeningInfo? opening,
   }) = _OpeningMove;
 
   factory OpeningMove.fromJson(Map<String, dynamic> json) => _$OpeningMoveFromJson(json);
@@ -36,7 +36,6 @@ class OpeningMove with _$OpeningMove {
 @freezed
 class OpeningInfo with _$OpeningInfo {
   const factory OpeningInfo({required String eco, required String name}) = _OpeningInfo;
-
   factory OpeningInfo.fromJson(Map<String, dynamic> json) => _$OpeningInfoFromJson(json);
 }
 
@@ -58,6 +57,5 @@ class TopGame with _$TopGame {
 @freezed
 class Player with _$Player {
   const factory Player({required String name, required int rating}) = _Player;
-
   factory Player.fromJson(Map<String, dynamic> json) => _$PlayerFromJson(json);
 }

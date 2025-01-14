@@ -9,8 +9,12 @@ import 'chess_opening.dart';
 part 'provider.g.dart';
 
 @riverpod
-Future<ChessOpening> chessOpening(Ref ref) async {
-  final response = await http.get(Uri.http('explorer.lichess.ovh', '/master'));
+Future<ChessOpening> chessOpening(Ref ref, {String fen = ''}) async {
+  final response = await http.get(
+    Uri.http('explorer.lichess.ovh', '/master', {
+      if (fen.isNotEmpty) 'fen': fen,
+    }),
+  );
   final json = jsonDecode(response.body) as Map<String, dynamic>;
   return ChessOpening.fromJson(json);
 }

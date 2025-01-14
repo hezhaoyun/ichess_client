@@ -40,9 +40,7 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
 
   void setupChessBoard({String initialFen = chess_lib.Chess.DEFAULT_POSITION}) {
     chess = chess_lib.Chess();
-    controller = WPChessboardController(
-      initialFen: initialFen,
-    );
+    controller = WPChessboardController(initialFen: initialFen);
   }
 
   void onPieceStartDrag(SquareInfo square, String piece) {
