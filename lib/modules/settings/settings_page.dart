@@ -168,7 +168,7 @@ class SettingsPage extends ConsumerWidget {
             shape: BoxShape.circle,
           ),
         ),
-        title: Text(theme.currentThemeName),
+        title: Text(theme.colorName),
         trailing: Icon(
           Icons.arrow_forward_ios,
           size: 12,

@@ -4,40 +4,38 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 part 'theme_manager.g.dart';
 
+const kColorThemes = {
+  'Default Blue': Colors.blue,
+  'Emerald Green': Colors.green,
+  'Deep Purple': Colors.purple,
+  'Passionate Red': Colors.red,
+  'Steady Gray': Colors.blueGrey,
+};
+const String kColorThemeKey = 'selected_theme';
+
+const kPieceThemes = {
+  'android': 'assets/pieces/android',
+  'aquarium': 'assets/pieces/aquarium',
+  'aquariumsteel': 'assets/pieces/aquariumsteel',
+  'aquariumwood': 'assets/pieces/aquariumwood',
+  'fragmented': 'assets/pieces/fragmented',
+  'internet': 'assets/pieces/internet',
+  'military': 'assets/pieces/military',
+};
+const String kPieceThemeKey = 'selected_piece_theme';
+
 @riverpod
 class ThemeManager extends _$ThemeManager {
-  static const String _themeKey = 'selected_theme';
-  static const String _pieceThemeKey = 'selected_piece_theme';
-
-  static const kColorThemes = {
-    'Default Blue': Colors.blue,
-    'Emerald Green': Colors.green,
-    'Deep Purple': Colors.purple,
-    'Passionate Red': Colors.red,
-    'Steady Gray': Colors.blueGrey,
-  };
-
-  static const kPieceThemes = {
-    'android': 'assets/pieces/android',
-    'aquarium': 'assets/pieces/aquarium',
-    'aquariumsteel': 'assets/pieces/aquariumsteel',
-    'aquariumwood': 'assets/pieces/aquariumwood',
-    'fragmented': 'assets/pieces/fragmented',
-    'internet': 'assets/pieces/internet',
-    'military': 'assets/pieces/military',
-  };
-
-  String _pieceTheme = 'android';
-
   @override
   Future<ThemeState> build() async {
     final prefs = await SharedPreferences.getInstance();
-    final colorTheme = prefs.getString(_themeKey) ?? 'Default Blue';
-    _pieceTheme = prefs.getString(_pieceThemeKey) ?? 'android';
+
+    final colorTheme = prefs.getString(kColorThemeKey) ?? 'Default Blue';
+    final pieceTheme = prefs.getString(kPieceThemeKey) ?? 'android';
 
     return ThemeState(
       primaryColor: kColorThemes[colorTheme]!,
-      pieceTheme: _pieceTheme,
+      pieceTheme: pieceTheme,
     );
   }
 
@@ -45,7 +43,7 @@ class ThemeManager extends _$ThemeManager {
     if (!kColorThemes.containsKey(name)) return;
 
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setString(_themeKey, name);
+    await prefs.setString(kColorThemeKey, name);
 
     state = AsyncData(state.value!.copyWith(primaryColor: kColorThemes[name]!));
   }
@@ -54,7 +52,7 @@ class ThemeManager extends _$ThemeManager {
     if (!kPieceThemes.containsKey(name)) return;
 
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setString(_pieceThemeKey, name);
+    await prefs.setString(kPieceThemeKey, name);
 
     state = AsyncData(state.value!.copyWith(pieceTheme: name));
   }
@@ -74,6 +72,5 @@ class ThemeState {
         pieceTheme: pieceTheme ?? this.pieceTheme,
       );
 
-  String get currentThemeName =>
-      ThemeManager.kColorThemes.keys.firstWhere((key) => ThemeManager.kColorThemes[key] == primaryColor);
+  String get colorName => kColorThemes.keys.firstWhere((key) => kColorThemes[key] == primaryColor);
 }
