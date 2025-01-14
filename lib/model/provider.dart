@@ -15,6 +15,5 @@ Future<ChessOpening> chessOpening(Ref ref, {String fen = ''}) async {
       if (fen.isNotEmpty) 'fen': fen,
     }),
   );
-  final json = jsonDecode(response.body) as Map<String, dynamic>;
-  return ChessOpening.fromJson(json);
+  return ChessOpening.fromJson(jsonDecode(response.body) as Map<String, dynamic>);
 }
