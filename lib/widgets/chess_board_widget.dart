@@ -89,19 +89,21 @@ class ChessBoardWidget extends ConsumerWidget {
       );
 
   Widget _buildRankNumber(int index) => Positioned(
-        left: 2, // 左边距
-        top: 10 + (_size / 8) * index + (_size / 16) - 6, // 垂直居中
+        left: 2,
+        top: 10 + (_size / 8) * index + (_size / 16) - 6,
         child: Text(
-          '${8 - index}',
+          orientation == BoardOrientation.white ? '${8 - index}' : '${index + 1}',
           style: const TextStyle(fontSize: 10, color: Colors.black54),
         ),
       );
 
   Widget _buildFileLabel(int index) => Positioned(
-        left: 10 + (_size / 8) * index + (_size / 16) - 4, // 水平居中
-        bottom: -2, // 底部边距
+        left: 10 + (_size / 8) * index + (_size / 16) - 4,
+        bottom: -2,
         child: Text(
-          String.fromCharCode('a'.codeUnitAt(0) + index),
+          orientation == BoardOrientation.white
+              ? String.fromCharCode('a'.codeUnitAt(0) + index)
+              : String.fromCharCode('h'.codeUnitAt(0) - index),
           style: const TextStyle(fontSize: 10, color: Colors.black54),
         ),
       );
