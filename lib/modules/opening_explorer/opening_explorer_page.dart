@@ -32,6 +32,7 @@ class OpeningExplorerPage extends ConsumerStatefulWidget {
 class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with BattleMixin {
   BoardOrientation boardOrientation = BoardOrientation.white;
   List<String> moveHistory = [];
+  int currentMoveIndex = -1;
 
   @override
   void initState() {
@@ -321,12 +322,12 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
         children: [
           BottomBarButton(
             icon: Icons.navigate_before,
-            onTap: goPrevious,
+            onTap: currentMoveIndex >= 0 ? goPrevious : null,
             label: AppLocalizations.of(context)!.previous,
           ),
           BottomBarButton(
             icon: Icons.navigate_next,
-            onTap: goNext,
+            onTap: currentMoveIndex < moveHistory.length - 1 ? goNext : null,
             label: AppLocalizations.of(context)!.next,
           ),
         ],
@@ -344,6 +345,7 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
   void onMove(Map<String, String> move, {bool byPlayer = true}) {
     updateLastMove(move['from']!, move['to']!);
     moveHistory.add('${move['from']}${move['to']}');
+    currentMoveIndex = moveHistory.length - 1;
 
     chess.move(move);
     controller.setFen(chess.fen);
@@ -365,18 +367,34 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
   }
 
   void goPrevious() {
-    if (moveHistory.isEmpty) return;
+    if (currentMoveIndex < 0) return;
 
     setState(() {
       lastMove = null;
       chess.undo();
-      moveHistory.removeLast();
+      currentMoveIndex--;
       controller.setFen(chess.fen);
     });
   }
 
   void goNext() {
-    // TODO: Implement
+    if (currentMoveIndex >= moveHistory.length - 1) return;
+
+    final nextMove = moveHistory[currentMoveIndex + 1];
+    final move = {
+      'from': nextMove.substring(0, 2),
+      'to': nextMove.substring(2, 4),
+    };
+    if (nextMove.length > 4) {
+      move['promotion'] = nextMove[4];
+    }
+
+    setState(() {
+      updateLastMove(move['from']!, move['to']!);
+      chess.move(move);
+      currentMoveIndex++;
+      controller.setFen(chess.fen);
+    });
   }
 
   String _getResultTitle() {
