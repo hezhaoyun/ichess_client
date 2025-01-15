@@ -12,7 +12,7 @@ const String kEnginePathKey = 'engine_path';
 const String kShowArrowsKey = 'show_arrows';
 const String kLanguageKey = 'language';
 
-@riverpod
+@Riverpod(keepAlive: true)
 class ConfigManager extends _$ConfigManager {
   @override
   Future<ConfigState> build() async {

@@ -24,7 +24,7 @@ const kPieceThemes = {
 };
 const String kPieceThemeKey = 'selected_piece_theme';
 
-@riverpod
+@Riverpod(keepAlive: true)
 class ThemeManager extends _$ThemeManager {
   @override
   Future<ThemeState> build() async {

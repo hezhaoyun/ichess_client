@@ -54,6 +54,9 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
     if (initialFen != null) {
       chess.load(initialFen!);
       controller.setFen(initialFen!);
+
+      // before call ref.watch, we need to wait for mounted of current context
+      await Future.delayed(const Duration(milliseconds: 100));
     } else {
       await _restoreGameState();
     }
