@@ -106,7 +106,18 @@ class _BoardSetupPageState extends ConsumerState<BoardSetupPage> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _buildHeader(context),
+        _buildHeader(buttons: [
+          IconButton(
+            onPressed: _toggleBoardState,
+            icon: Icon(Icons.flip),
+            tooltip: AppLocalizations.of(context)!.fullEmpty,
+          ),
+          IconButton(
+            onPressed: _startGame,
+            icon: Icon(Icons.play_arrow),
+            tooltip: AppLocalizations.of(context)!.playWithAI,
+          ),
+        ]),
         const Spacer(),
         SizedBox(
           height: boardSize,
@@ -129,20 +140,11 @@ class _BoardSetupPageState extends ConsumerState<BoardSetupPage> {
                       width: controlWidth,
                       child: _buildPiecesPanel(width: controlWidth, isWhite: true),
                     ),
+                    const Spacer(),
                     SizedBox(
                       height: controlWidth > 450 ? 90 : 60,
                       width: controlWidth,
                       child: _buildTrashBin(boardSize),
-                    ),
-                    SizedBox(
-                      height: boardSize - (controlWidth > 450 ? 300 : 190),
-                      width: controlWidth,
-                      child: Column(
-                        children: [
-                          const Spacer(),
-                          _buildButtonControlls(),
-                        ],
-                      ),
                     ),
                   ],
                 ),
@@ -162,7 +164,7 @@ class _BoardSetupPageState extends ConsumerState<BoardSetupPage> {
 
     return Column(
       children: [
-        _buildHeader(context),
+        _buildHeader(),
         SizedBox(width: boardSize, height: 60, child: _buildPiecesPanel(width: boardSize, isWhite: false)),
         _buildChessBoard(boardSize),
         SizedBox(width: boardSize, height: 60, child: _buildPiecesPanel(width: boardSize, isWhite: true)),
@@ -172,14 +174,6 @@ class _BoardSetupPageState extends ConsumerState<BoardSetupPage> {
       ],
     );
   }
-
-  Widget _buildButtonControlls() => Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          ElevatedButton(onPressed: _toggleBoardState, child: Text(AppLocalizations.of(context)!.fullEmpty)),
-          ElevatedButton(onPressed: _startGame, child: Text(AppLocalizations.of(context)!.playWithAI)),
-        ],
-      );
 
   Widget _buildBottomBar() => BottomBar(
         children: [
@@ -196,7 +190,7 @@ class _BoardSetupPageState extends ConsumerState<BoardSetupPage> {
         ],
       );
 
-  Widget _buildHeader(BuildContext context) => SizedBox(
+  Widget _buildHeader({List<Widget>? buttons}) => SizedBox(
         height: kToolbarHeight,
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 10),
@@ -206,19 +200,22 @@ class _BoardSetupPageState extends ConsumerState<BoardSetupPage> {
                 icon: const Icon(Icons.arrow_back),
                 onPressed: () => Navigator.pop(context),
               ),
-              Text(
-                AppLocalizations.of(context)!.setupBoard,
-                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                  fontWeight: FontWeight.bold,
-                  shadows: [
-                    Shadow(
-                      color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                      offset: const Offset(2, 2),
-                      blurRadius: 4,
-                    ),
-                  ],
+              Expanded(
+                child: Text(
+                  AppLocalizations.of(context)!.setupBoard,
+                  style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    shadows: [
+                      Shadow(
+                        color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                        offset: const Offset(2, 2),
+                        blurRadius: 4,
+                      ),
+                    ],
+                  ),
                 ),
               ),
+              ...?buttons,
             ],
           ),
         ),

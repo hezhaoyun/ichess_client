@@ -48,7 +48,42 @@ class _HomePageState extends ConsumerState<OnlineBattlePage> with BattleMixin, O
               return Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  _buildHeader(),
+                  _buildHeader(
+                    buttons: w > h
+                        ? [
+                            if (gameState == OnlineState.offline)
+                              IconButton(
+                                onPressed: connect,
+                                icon: const Icon(Icons.wifi),
+                                tooltip: AppLocalizations.of(context)!.connect,
+                              ),
+                            if (gameState == OnlineState.stayInLobby)
+                              IconButton(
+                                onPressed: match,
+                                icon: const Icon(Icons.join_inner),
+                                tooltip: AppLocalizations.of(context)!.match,
+                              ),
+                            if (gameState == OnlineState.waitingMove)
+                              IconButton(
+                                onPressed: proposeDraw,
+                                icon: const Icon(Icons.handshake),
+                                tooltip: AppLocalizations.of(context)!.proposeDraw,
+                              ),
+                            if (gameState == OnlineState.waitingMove)
+                              IconButton(
+                                onPressed: chess.move_number >= 2 ? proposeTakeback : null,
+                                icon: const Icon(Icons.undo),
+                                tooltip: AppLocalizations.of(context)!.takeBack,
+                              ),
+                            if (gameState == OnlineState.waitingMove)
+                              IconButton(
+                                onPressed: resign,
+                                icon: const Icon(Icons.pan_tool),
+                                tooltip: AppLocalizations.of(context)!.resign,
+                              ),
+                          ]
+                        : null,
+                  ),
                   Expanded(child: _buildMainContent(w, h)),
                 ],
               );
@@ -57,7 +92,7 @@ class _HomePageState extends ConsumerState<OnlineBattlePage> with BattleMixin, O
         ),
       );
 
-  Widget _buildHeader() => SizedBox(
+  Widget _buildHeader({List<Widget>? buttons}) => SizedBox(
         height: kToolbarHeight,
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 10),
@@ -67,19 +102,22 @@ class _HomePageState extends ConsumerState<OnlineBattlePage> with BattleMixin, O
                 icon: const Icon(Icons.arrow_back),
                 onPressed: () => Navigator.pop(context),
               ),
-              Text(
-                AppLocalizations.of(context)!.playOnline,
-                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                  fontWeight: FontWeight.bold,
-                  shadows: [
-                    Shadow(
-                      color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
-                      offset: const Offset(2, 2),
-                      blurRadius: 4,
-                    ),
-                  ],
+              Expanded(
+                child: Text(
+                  AppLocalizations.of(context)!.playOnline,
+                  style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    shadows: [
+                      Shadow(
+                        color: Theme.of(context).colorScheme.primary.withAlpha(0x33),
+                        offset: const Offset(2, 2),
+                        blurRadius: 4,
+                      ),
+                    ],
+                  ),
                 ),
               ),
+              ...?buttons,
             ],
           ),
         ),
@@ -223,55 +261,6 @@ class _HomePageState extends ConsumerState<OnlineBattlePage> with BattleMixin, O
         ),
       );
 
-  Widget _buildGameControls() {
-    final buttonStyle = ElevatedButton.styleFrom(
-      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(25),
-      ),
-    );
-
-    return Wrap(
-      spacing: 12,
-      runSpacing: 12,
-      alignment: WrapAlignment.center,
-      children: [
-        if (gameState == OnlineState.offline)
-          SoundButton.elevated(
-            style: buttonStyle,
-            onPressed: connect,
-            child: Text(AppLocalizations.of(context)!.connect),
-          ),
-        if (gameState == OnlineState.stayInLobby)
-          SoundButton.elevated(
-            style: buttonStyle,
-            onPressed: match,
-            child: Text(AppLocalizations.of(context)!.match),
-          ),
-        if (gameState == OnlineState.waitingMove)
-          SoundButton.elevated(
-            style: buttonStyle,
-            onPressed: proposeDraw,
-            child: Text(AppLocalizations.of(context)!.proposeDraw),
-          ),
-        if (gameState == OnlineState.waitingMove)
-          SoundButton.elevated(
-            style: buttonStyle,
-            onPressed: chess.move_number >= 2 ? proposeTakeback : null,
-            child: Text(AppLocalizations.of(context)!.takeBack),
-          ),
-        if (gameState == OnlineState.waitingMove)
-          SoundButton.elevated(
-            style: buttonStyle.copyWith(
-              backgroundColor: WidgetStateProperty.all(Colors.orange),
-            ),
-            onPressed: resign,
-            child: Text(AppLocalizations.of(context)!.resign),
-          ),
-      ],
-    );
-  }
-
   Widget _buildBottomBar() => BottomBar(children: [
         if (gameState == OnlineState.offline)
           BottomBarButton(
@@ -372,28 +361,26 @@ class _HomePageState extends ConsumerState<OnlineBattlePage> with BattleMixin, O
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     SizedBox(
-                        height: 90,
-                        width: controlWidth,
-                        child: _buildPlayerInfo(
-                          name: opponent['name'],
-                          elo: opponent['elo'],
-                          time: opponentGameTime.toString(),
-                          isOpponent: true,
-                        )),
-                    SizedBox(
-                      height: boardSize - 180,
+                      height: 90,
                       width: controlWidth,
-                      child: Center(child: _buildGameControls()),
+                      child: _buildPlayerInfo(
+                        name: opponent['name'],
+                        elo: opponent['elo'],
+                        time: opponentGameTime.toString(),
+                        isOpponent: true,
+                      ),
                     ),
+                    const Spacer(),
                     SizedBox(
-                        height: 90,
-                        width: controlWidth,
-                        child: _buildPlayerInfo(
-                          name: player['name'],
-                          elo: player['elo'],
-                          time: gameTime.toString(),
-                          isOpponent: false,
-                        )),
+                      height: 90,
+                      width: controlWidth,
+                      child: _buildPlayerInfo(
+                        name: player['name'],
+                        elo: player['elo'],
+                        time: gameTime.toString(),
+                        isOpponent: false,
+                      ),
+                    ),
                   ],
                 ),
               ),
