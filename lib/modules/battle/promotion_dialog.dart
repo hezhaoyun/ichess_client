@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../i18n/generated/app_localizations.dart';
 import '../../services/audios.dart';
 import '../../widgets/chess_board_widget.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 Future<void> showPromotionDialog(
     BuildContext context, WidgetRef ref, BoardOrientation orientation, Function(String) onPromotionSelected) {

@@ -4,10 +4,10 @@ import 'dart:math';
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:dartchess/dartchess.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../i18n/generated/app_localizations.dart';
 import '../../model/config_manager.dart';
 import '../../services/ai_native.dart';
 import '../../services/favorites_service.dart';

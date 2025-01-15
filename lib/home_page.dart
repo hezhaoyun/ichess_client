@@ -1,9 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lottie/lottie.dart';
 
+import '../../i18n/generated/app_localizations.dart';
 import 'services/audios.dart';
 
 class HomePage extends StatefulWidget {

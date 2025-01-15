@@ -1,58 +1,58 @@
 {
-  "@@locale": "de",
+  "@@locale": "ru",
   "appName": "Chess Road",
   "@appName": {
     "description": "The application name"
   },
-  "colorTheme": "Farbthema",
+  "colorTheme": "Цветовая тема",
   "@colorTheme": {
     "description": "Title for color theme settings"
   },
-  "pieceTheme": "Figurendesign",
+  "pieceTheme": "Тема фигур",
   "@pieceTheme": {
     "description": "Title for chess piece theme settings"
   },
-  "serverSettings": "Servereinstellungen",
+  "serverSettings": "Настройки сервера",
   "@serverSettings": {
     "description": "Title for server settings"
   },
-  "engineLevel": "Engine-Stufe",
+  "engineLevel": "Уровень движка",
   "@engineLevel": {
     "description": "Title for AI engine level settings"
   },
-  "moveTime": "Zugzeit",
+  "moveTime": "Время на ход",
   "@moveTime": {
     "description": "Title for move time settings"
   },
-  "searchDepth": "Suchtiefe",
+  "searchDepth": "Глубина поиска",
   "@searchDepth": {
     "description": "Title for search depth settings"
   },
-  "enginePath": "Engine-Pfad",
+  "enginePath": "Путь к движку",
   "@enginePath": {
     "description": "Title for engine path settings"
   },
-  "showEngineArrows": "Engine-Analysepfeile anzeigen",
+  "showEngineArrows": "Показывать стрелки анализа",
   "@showEngineArrows": {
     "description": "Title for show engine arrows settings"
   },
-  "language": "Sprache",
+  "language": "Язык",
   "@language": {
     "description": "Title for language settings"
   },
-  "insufficientMaterial": "Unzureichendes Material, Remis",
+  "insufficientMaterial": "Недостаточно материала, ничья",
   "@insufficientMaterial": {
     "description": "Message for insufficient material draw"
   },
-  "threefoldRepetition": "Dreimalige Wiederholung, Remis",
+  "threefoldRepetition": "Троекратное повторение, ничья",
   "@threefoldRepetition": {
     "description": "Message for threefold repetition draw"
   },
-  "draw": "Remis",
+  "draw": "Ничья",
   "@draw": {
     "description": "Message for draw"
   },
-  "failedToLoadFile": "Fehler beim Laden der Datei: {error}",
+  "failedToLoadFile": "Не удалось загрузить файл: {error}",
   "@failedToLoadFile": {
     "description": "Message shown when file loading fails",
     "placeholders": {
@@ -62,47 +62,47 @@
       }
     }
   },
-  "newGame": "Neues Spiel",
+  "newGame": "Новая игра",
   "@newGame": {
     "description": "New game button text"
   },
-  "undo": "Rückgängig",
+  "undo": "Отменить",
   "@undo": {
     "description": "Undo move button text"
   },
-  "engineInitializationFailed": "Engine-Initialisierung fehlgeschlagen!",
+  "engineInitializationFailed": "Ошибка инициализации движка!",
   "@engineInitializationFailed": {
     "description": "Message shown when engine initialization fails"
   },
-  "hint": "Tipp",
+  "hint": "Подсказка",
   "@hint": {
     "description": "Hint button text"
   },
-  "analyzing": "Analysiere...",
+  "analyzing": "Анализ...",
   "@analyzing": {
     "description": "Analyzing message"
   },
-  "dontBeDiscouraged": "Lass dich nicht entmutigen, bleib dran!",
+  "dontBeDiscouraged": "Не отчаивайтесь, продолжайте пробовать!",
   "@dontBeDiscouraged": {
     "description": "Message shown when player loses"
   },
-  "congratulations": "Herzlichen Glückwunsch zum Sieg!",
+  "congratulations": "Поздравляем с победой над соперником!",
   "@congratulations": {
     "description": "Message shown when player wins"
   },
-  "youWon": "Du hast gewonnen!",
+  "youWon": "Вы победили!",
   "@youWon": {
     "description": "Message shown when player wins"
   },
-  "youLost": "Du hast verloren!",
+  "youLost": "Вы проиграли!",
   "@youLost": {
     "description": "Message shown when player loses"
   },
-  "engineCannotFindValidMove": "Engine findet keinen gültigen Zug",
+  "engineCannotFindValidMove": "Движок не может найти допустимый ход",
   "@engineCannotFindValidMove": {
     "description": "Message shown when engine cannot find valid move"
   },
-  "engineMoveError": "Engine-Zugfehler: {error}",
+  "engineMoveError": "Ошибка хода движка: {error}",
   "@engineMoveError": {
     "description": "Message shown when engine move error",
     "placeholders": {
@@ -112,71 +112,71 @@
       }
     }
   },
-  "chooseYourColor": "Wähle deine Farbe",
+  "chooseYourColor": "Выберите цвет",
   "@chooseYourColor": {
     "description": "Title for choose your color"
   },
-  "white": "Weiß",
+  "white": "Белые",
   "@white": {
     "description": "White color"
   },
-  "black": "Schwarz",
+  "black": "Чёрные",
   "@black": {
     "description": "Black color"
   },
-  "chooseSaveLocation": "Speicherort wählen",
+  "chooseSaveLocation": "Выберите место сохранения",
   "@chooseSaveLocation": {
     "description": "Title for choose save location"
   },
-  "gameSaved": "Spiel gespeichert",
+  "gameSaved": "Игра сохранена",
   "@gameSaved": {
     "description": "Message shown when game is saved"
   },
-  "saveFailed": "Speichern fehlgeschlagen, bitte erneut versuchen",
+  "saveFailed": "Ошибка сохранения, попробуйте снова",
   "@saveFailed": {
     "description": "Message shown when save fails"
   },
-  "analysisFailed": "Analyse fehlgeschlagen, bitte erneut versuchen",
+  "analysisFailed": "Ошибка анализа, попробуйте снова",
   "@analysisFailed": {
     "description": "Message shown when analysis fails"
   },
-  "humanVsAi": "Mensch gegen KI",
+  "humanVsAi": "Человек против ИИ",
   "@humanVsAi": {
     "description": "Title for human vs AI"
   },
-  "ai": "KI",
+  "ai": "ИИ",
   "@ai": {
     "description": "AI"
   },
-  "you": "Du",
+  "you": "Вы",
   "@you": {
     "description": "You"
   },
-  "computer": "Computer",
+  "computer": "Компьютер",
   "@computer": {
     "description": "Computer"
   },
-  "player": "Spieler",
+  "player": "Игрок",
   "@player": {
     "description": "Player"
   },
-  "confirmDraw": "Remis bestätigen?",
+  "confirmDraw": "Подтвердить ничью?",
   "@confirmDraw": {
     "description": "Title for confirm draw"
   },
-  "areYouSureYouWantToProposeADraw": "Möchtest du wirklich ein Remis vorschlagen?",
+  "areYouSureYouWantToProposeADraw": "Вы уверены, что хотите предложить ничью?",
   "@areYouSureYouWantToProposeADraw": {
     "description": "Message for confirm draw"
   },
-  "takeback": "Zurücknehmen",
+  "takeback": "Вернуть ход",
   "@takeback": {
     "description": "Takeback"
   },
-  "accept": "Annehmen",
+  "accept": "Принять",
   "@accept": {
     "description": "Accept"
   },
-  "reject": "Ablehnen",
+  "reject": "Отклонить",
   "@reject": {
     "description": "Reject"
   },
@@ -184,123 +184,123 @@
   "@ok": {
     "description": "OK"
   },
-  "takebackDeclined": "Zurücknahme abgelehnt",
+  "takebackDeclined": "Возврат хода отклонён",
   "@takebackDeclined": {
     "description": "Message for takeback declined"
   },
-  "drawDeclined": "Remis abgelehnt",
+  "drawDeclined": "Ничья отклонена",
   "@drawDeclined": {
     "description": "Message for draw declined"
   },
-  "opponentRequestsTakeback": "Gegner möchte einen Zug zurücknehmen, einverstanden?",
+  "opponentRequestsTakeback": "Соперник просит вернуть ход, согласны?",
   "@opponentRequestsTakeback": {
     "description": "Message for opponent requests takeback"
   },
-  "opponentProposesDraw": "Gegner schlägt Remis vor, einverstanden?",
+  "opponentProposesDraw": "Соперник предлагает ничью, согласны?",
   "@opponentProposesDraw": {
     "description": "Message for opponent proposes draw"
   },
-  "yes": "Ja",
+  "yes": "Да",
   "@yes": {
     "description": "Yes"
   },
-  "no": "Nein",
+  "no": "Нет",
   "@no": {
     "description": "No"
   },
-  "areYouSureYouWantToRequestATakeback": "Möchtest du wirklich eine Zugzurücknahme beantragen?",
+  "areYouSureYouWantToRequestATakeback": "Вы уверены, что хотите попросить вернуть ход?",
   "@areYouSureYouWantToRequestATakeback": {
     "description": "Message for are you sure you want to request a takeback"
   },
-  "confirmTakeback": "Zurücknahme bestätigen?",
+  "confirmTakeback": "Подтвердить возврат хода?",
   "@confirmTakeback": {
     "description": "Title for confirm takeback"
   },
-  "areYouSureYouWantToResign": "Möchtest du wirklich aufgeben?",
+  "areYouSureYouWantToResign": "Вы уверены, что хотите сдаться?",
   "@areYouSureYouWantToResign": {
     "description": "Message for are you sure you want to resign"
   },
-  "confirmResign": "Aufgabe bestätigen?",
+  "confirmResign": "Подтвердить сдачу?",
   "@confirmResign": {
     "description": "Title for confirm resign"
   },
-  "searchingForAnOpponent": "Suche nach einem Gegner...",
+  "searchingForAnOpponent": "Поиск соперника...",
   "@searchingForAnOpponent": {
     "description": "Message for searching for an opponent"
   },
-  "playOnline": "Online spielen",
+  "playOnline": "Играть онлайн",
   "@playOnline": {
     "description": "Title for play online"
   },
-  "connect": "Verbinden",
+  "connect": "Подключиться",
   "@connect": {
     "description": "Connect"
   },
-  "match": "Partie",
+  "match": "Партия",
   "@match": {
     "description": "Match"
   },
-  "proposeDraw": "Remis vorschlagen",
+  "proposeDraw": "Предложить ничью",
   "@proposeDraw": {
     "description": "Propose Draw"
   },
-  "cancel": "Abbrechen",
+  "cancel": "Отмена",
   "@cancel": {
     "description": "Cancel"
   },
-  "resign": "Aufgeben",
+  "resign": "Сдаться",
   "@resign": {
     "description": "Resign"
   },
-  "takeBack": "Zurücknehmen",
+  "takeBack": "Вернуть ход",
   "@takeBack": {
     "description": "Take Back"
   },
-  "promotion": "Umwandlung",
+  "promotion": "Превращение",
   "@promotion": {
     "description": "Promotion"
   },
-  "fullEmpty": "Voll / Leer",
+  "fullEmpty": "Полная / Пустая",
   "@fullEmpty": {
     "description": "Full / Empty"
   },
-  "playWithAI": "Gegen KI spielen",
+  "playWithAI": "Играть с ИИ",
   "@playWithAI": {
     "description": "Play with AI"
   },
-  "dragAndDropToRemove": "Zum Entfernen hierher ziehen",
+  "dragAndDropToRemove": "Перетащите сюда для удаления",
   "@dragAndDropToRemove": {
     "description": "Drag & drop here to remove"
   },
-  "invalidPosition": "Ungültige Position, bitte prüfen:\n1. Jede Seite hat einen König\n2. Bauern können nicht auf der ersten oder achten Reihe stehen",
+  "invalidPosition": "Недопустимая позиция, проверьте:\n1. У каждой стороны должен быть один король\n2. Пешки не могут находиться на первой или восьмой горизонтали",
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "Brett aufbauen",
+  "setupBoard": "Расставить позицию",
   "@setupBoard": {
     "description": "Setup Board"
   },
-  "allGames": "Alle Partien",
+  "allGames": "Все партии",
   "@allGames": {
     "description": "All Games"
   },
-  "favorites": "Favoriten",
+  "favorites": "Избранное",
   "@favorites": {
     "description": "Favorites"
   },
-  "noFavoriteGamesAvailable": "Keine Favoriten verfügbar",
+  "noFavoriteGamesAvailable": "Нет избранных партий",
   "@noFavoriteGamesAvailable": {
     "description": "No favorite games available"
   },
-  "searchGames": "Partien suchen...",
+  "searchGames": "Поиск партий...",
   "@searchGames": {
     "description": "Search games"
   },
-  "games": "Partien",
+  "games": "Партии",
   "@games": {
     "description": "Games"
   },
-  "failedToLoadGamesList": "Fehler beim Laden der Partieliste: {error}",
+  "failedToLoadGamesList": "Не удалось загрузить список партий: {error}",
   "@failedToLoadGamesList": {
     "description": "Failed to load games list",
     "placeholders": {
@@ -310,7 +310,7 @@
       }
     }
   },
-  "comments": "Kommentare: {comments}",
+  "comments": "Комментарии: {comments}",
   "@comments": {
     "description": "Comments",
     "placeholders": {
@@ -320,184 +320,188 @@
       }
     }
   },
-  "branchSelection": "Variantenauswahl",
+  "branchSelection": "Выбор варианта",
   "@branchSelection": {
     "description": "Branch Selection"
   },
-  "chessViewer": "Partieansicht",
+  "chessViewer": "Просмотр партий",
   "@chessViewer": {
     "description": "Chess Viewer"
   },
-  "start": "Start",
+  "start": "Начало",
   "@start": {
     "description": "Start"
   },
-  "previous": "Zurück",
+  "previous": "Назад",
   "@previous": {
     "description": "Previous"
   },
-  "next": "Weiter",
+  "next": "Вперёд",
   "@next": {
     "description": "Next"
   },
-  "end": "Ende",
+  "end": "Конец",
   "@end": {
     "description": "End"
   },
-  "addedToFavorites": "Zu Favoriten hinzugefügt",
+  "addedToFavorites": "Добавлено в избранное",
   "@addedToFavorites": {
     "description": "Added to favorites"
   },
-  "removedFromFavorites": "Aus Favoriten entfernt",
+  "removedFromFavorites": "Удалено из избранного",
   "@removedFromFavorites": {
     "description": "Removed from favorites"
   },
-  "serverAddress": "Serveradresse",
+  "serverAddress": "Адрес сервера",
   "@serverAddress": {
     "description": "Server Address"
   },
-  "setServerAddress": "Serveradresse festlegen",
+  "setServerAddress": "Установить адрес сервера",
   "@setServerAddress": {
     "description": "Set Server Address"
   },
-  "pleaseEnterTheServerAddress": "Bitte gib die Serveradresse ein",
+  "pleaseEnterTheServerAddress": "Пожалуйста, введите адрес сервера",
   "@pleaseEnterTheServerAddress": {
     "description": "Please enter the server address"
   },
-  "settings": "Einstellungen",
+  "settings": "Настройки",
   "@settings": {
     "description": "Settings"
   },
-  "engineSettings": "Engine-Einstellungen",
+  "engineSettings": "Настройки движка",
   "@engineSettings": {
     "description": "Engine Settings"
   },
-  "thinkingTime": "Bedenkzeit",
+  "thinkingTime": "Время на размышление",
   "@thinkingTime": {
     "description": "Thinking Time"
   },
-  "limitTime": "Zeitlimit",
+  "limitTime": "Ограничение времени",
   "@limitTime": {
     "description": "Limit Time"
   },
-  "limitDepth": "Tiefenlimit",
+  "limitDepth": "Ограничение глубины",
   "@limitDepth": {
     "description": "Limit Depth"
   },
-  "timeControlMode": "Zeitkontrolle",
+  "timeControlMode": "Режим контроля времени",
   "@timeControlMode": {
     "description": "Time Control Mode"
   },
-  "useTimeControl": "Zeitkontrolle verwenden",
+  "useTimeControl": "Использовать контроль времени",
   "@useTimeControl": {
     "description": "Use Time Control"
   },
-  "showAnalysisArrows": "Analysepfeile anzeigen",
+  "showAnalysisArrows": "Показывать стрелки анализа",
   "@showAnalysisArrows": {
     "description": "Show Analysis Arrows"
   },
-  "showPredictedMovesWhenTheEngineIsThinking": "Vorhergesagte Züge während der Engine-Analyse anzeigen",
+  "showPredictedMovesWhenTheEngineIsThinking": "Показывать предполагаемые ходы во время размышления движка",
   "@showPredictedMovesWhenTheEngineIsThinking": {
     "description": "Show predicted moves when the engine is thinking"
   },
-  "languageSettings": "Spracheinstellungen",
+  "languageSettings": "Настройки языка",
   "@languageSettings": {
     "description": "Language Settings"
   },
-  "layers": "Ebenen",
+  "layers": "слои",
   "@layers": {
     "description": "Layers"
   },
-  "current": "Aktuell",
+  "current": "Текущий",
   "@current": {
     "description": "Current"
   },
-  "browse": "Durchsuchen",
+  "browse": "Обзор",
   "@browse": {
     "description": "Browse"
   },
-  "confirm": "Bestätigen",
+  "confirm": "Подтвердить",
   "@confirm": {
     "description": "Confirm"
   },
-  "selectPieceTheme": "Figurendesign wählen",
+  "selectPieceTheme": "Выбрать тему фигур",
   "@selectPieceTheme": {
     "description": "Select Piece Theme"
   },
-  "selectThemeColor": "Farbthema wählen",
+  "selectThemeColor": "Выбрать цвет темы",
   "@selectThemeColor": {
     "description": "Select Theme Color"
   },
-  "setEngineLevel": "Engine-Stufe einstellen",
+  "setEngineLevel": "Установить уровень движка",
   "@setEngineLevel": {
     "description": "Set Engine Level"
   },
-  "setThinkingTime": "Bedenkzeit einstellen",
+  "setThinkingTime": "Установить время на размышление",
   "@setThinkingTime": {
     "description": "Set Thinking Time"
   },
-  "setSearchDepth": "Suchtiefe einstellen",
+  "setSearchDepth": "Установить глубину поиска",
   "@setSearchDepth": {
     "description": "Set Search Depth"
   },
-  "setEnginePath": "Engine-Pfad einstellen",
+  "setEnginePath": "Установить путь к движку",
   "@setEnginePath": {
     "description": "Set Engine Path"
   },
-  "pleaseEnterTheEnginePath": "Bitte gib den Engine-Pfad ein",
+  "pleaseEnterTheEnginePath": "Пожалуйста, введите путь к движку",
   "@pleaseEnterTheEnginePath": {
     "description": "Please enter the engine path"
   },
-  "viewGames": "Partien ansehen",
+  "viewGames": "Просмотр партий",
   "@viewGames": {
     "description": "View Games"
   },
-  "exploreTheInfinitePossibilitiesOfChess": "Entdecke die unendlichen Möglichkeiten des Schachspiels",
+  "exploreTheInfinitePossibilitiesOfChess": "Исследуйте бесконечные возможности шахмат",
   "@exploreTheInfinitePossibilitiesOfChess": {
     "description": "Explore the infinite possibilities of chess"
   },
-  "checkmated": "Matt",
+  "checkmated": "Мат",
   "@checkmated": {
     "description": "Checkmated"
   },
-  "opponentOutOfTime": "Gegner Zeit abgelaufen",
+  "opponentOutOfTime": "У соперника закончилось время",
   "@opponentOutOfTime": {
     "description": "Opponent Out of Time"
   },
-  "opponentResigned": "Gegner hat aufgegeben",
+  "opponentResigned": "Соперник сдался",
   "@opponentResigned": {
     "description": "Opponent Resigned"
   },
-  "opponentLeft": "Gegner hat verlassen",
+  "opponentLeft": "Соперник покинул игру",
   "@opponentLeft": {
     "description": "Opponent Left"
   },
-  "outOfTime": "Zeit abgelaufen",
+  "outOfTime": "Время истекло",
   "@outOfTime": {
     "description": "Out of Time"
   },
-  "resigned": "Aufgegeben",
+  "resigned": "Сдался",
   "@resigned": {
     "description": "Resigned"
   },
-  "stalemate": "Patt",
+  "stalemate": "Пат",
   "@stalemate": {
     "description": "Stalemate"
   },
-  "consensus": "Einverständnis",
+  "consensus": "По согласию",
   "@consensus": {
     "description": "Consensus"
   },
-  "timeControl": "Zeitkontrolle",
+  "timeControl": "Контроль времени",
   "@timeControl": {
     "description": "Time Control"
   },
-  "chessClock": "Schachuhr",
+  "chessClock": "Шахматные часы",
   "@chessClock": {
     "description": "Chess Clock"
   },
-  "openingExplorer": "Opening Explorer",
+  "openingExplorer": "Исследователь дебютов",
   "@openingExplorer": {
     "description": "Opening Explorer"
+  },
+  "save": "Сохранить",
+  "@save": {
+    "description": "Save"
   }
 } 

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
+import '../../i18n/generated/app_localizations.dart';
 
 class Reasons {
   static const kWinCheckmate = 'CHECKMATE';

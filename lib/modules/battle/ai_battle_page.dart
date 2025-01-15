@@ -6,12 +6,11 @@ import 'dart:typed_data';
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:ichess/widgets/sound_buttons.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../i18n/generated/app_localizations.dart';
 import '../../model/config_manager.dart';
 import '../../services/ai_native.dart';
 import '../../services/audios.dart';
@@ -579,7 +578,26 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
 
     return Column(
       children: [
-        _buildHeader(),
+        _buildHeader(
+          buttons: [
+            IconButton(
+              icon: const Icon(Icons.restart_alt),
+              onPressed: newGame,
+              tooltip: AppLocalizations.of(context)!.newGame,
+            ),
+            IconButton(
+              icon: const Icon(Icons.undo),
+              onPressed: undoMove,
+              tooltip: AppLocalizations.of(context)!.undo,
+            ),
+            if (!isThinking && chess.turn == chess_lib.Color.WHITE && !chess.game_over)
+              IconButton(
+                icon: const Icon(Icons.lightbulb_outline),
+                onPressed: isAnalyzing ? null : analyzePosition,
+                tooltip: AppLocalizations.of(context)!.hint,
+              ),
+          ],
+        ),
         const Spacer(),
         SizedBox(
           height: boardSize,
@@ -593,11 +611,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     SizedBox(height: 90, width: controlWidth, child: _buildPlayerInfo(isOpponent: true)),
-                    SizedBox(
-                      height: boardSize - 180,
-                      width: controlWidth,
-                      child: Center(child: _buildGameControls()),
-                    ),
+                    const Spacer(),
                     SizedBox(height: 90, width: controlWidth, child: _buildPlayerInfo(isOpponent: false)),
                   ],
                 ),
@@ -642,7 +656,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
         onEmptyFieldTap: onEmptyFieldTap,
       );
 
-  Widget _buildHeader() => SizedBox(
+  Widget _buildHeader({List<Widget>? buttons}) => SizedBox(
         height: kToolbarHeight,
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 10),
@@ -667,7 +681,12 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
                   ),
                 ),
               ),
-              IconButton(icon: const Icon(Icons.save_outlined), onPressed: saveGame),
+              ...?buttons,
+              IconButton(
+                icon: const Icon(Icons.save_outlined),
+                onPressed: saveGame,
+                tooltip: AppLocalizations.of(context)!.save,
+              ),
             ],
           ),
         ),
@@ -790,44 +809,6 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
           ],
         ),
       );
-
-  Widget _buildGameControls() {
-    final buttonStyle = ElevatedButton.styleFrom(
-      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(25),
-      ),
-    );
-
-    return Wrap(
-      spacing: 12,
-      runSpacing: 12,
-      alignment: WrapAlignment.center,
-      children: [
-        SoundButton.elevated(
-          style: buttonStyle,
-          onPressed: newGame,
-          child: Text(AppLocalizations.of(context)!.newGame),
-        ),
-        SoundButton.elevated(
-          style: buttonStyle,
-          onPressed: undoMove,
-          child: Text(AppLocalizations.of(context)!.undo),
-        ),
-        if (!isThinking && chess.turn == chess_lib.Color.WHITE && !chess.game_over)
-          SoundButton.iconElevated(
-            style: buttonStyle,
-            onPressed: isAnalyzing ? null : analyzePosition,
-            icon: isAnalyzing
-                ? const SizedBox(width: 12, height: 12, child: CircularProgressIndicator(strokeWidth: 2))
-                : const Icon(Icons.lightbulb_outline, size: 12),
-            label: Text(
-              isAnalyzing ? AppLocalizations.of(context)!.analyzing : AppLocalizations.of(context)!.hint,
-            ),
-          ),
-      ],
-    );
-  }
 
   Widget _buildBottomBar() => BottomBar(
         children: [

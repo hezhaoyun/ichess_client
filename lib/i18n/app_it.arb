@@ -1,58 +1,58 @@
 {
-  "@@locale": "ja",
+  "@@locale": "it",
   "appName": "Chess Road",
   "@appName": {
     "description": "The application name"
   },
-  "colorTheme": "カラーテーマ",
+  "colorTheme": "Tema colore",
   "@colorTheme": {
     "description": "Title for color theme settings"
   },
-  "pieceTheme": "駒のテーマ",
+  "pieceTheme": "Stile dei pezzi",
   "@pieceTheme": {
     "description": "Title for chess piece theme settings"
   },
-  "serverSettings": "サーバー設定",
+  "serverSettings": "Impostazioni server",
   "@serverSettings": {
     "description": "Title for server settings"
   },
-  "engineLevel": "エンジンレベル",
+  "engineLevel": "Livello motore",
   "@engineLevel": {
     "description": "Title for AI engine level settings"
   },
-  "moveTime": "手の時間",
+  "moveTime": "Tempo per mossa",
   "@moveTime": {
     "description": "Title for move time settings"
   },
-  "searchDepth": "探索深さ",
+  "searchDepth": "Profondità di ricerca",
   "@searchDepth": {
     "description": "Title for search depth settings"
   },
-  "enginePath": "エンジンパス",
+  "enginePath": "Percorso motore",
   "@enginePath": {
     "description": "Title for engine path settings"
   },
-  "showEngineArrows": "解析矢印を表示",
+  "showEngineArrows": "Mostra frecce di analisi",
   "@showEngineArrows": {
     "description": "Title for show engine arrows settings"
   },
-  "language": "言語",
+  "language": "Lingua",
   "@language": {
     "description": "Title for language settings"
   },
-  "insufficientMaterial": "詰まない駒組み合わせ、引き分け",
+  "insufficientMaterial": "Materiale insufficiente, patta",
   "@insufficientMaterial": {
     "description": "Message for insufficient material draw"
   },
-  "threefoldRepetition": "同形三回、引き分け",
+  "threefoldRepetition": "Tripla ripetizione, patta",
   "@threefoldRepetition": {
     "description": "Message for threefold repetition draw"
   },
-  "draw": "引き分け",
+  "draw": "Patta",
   "@draw": {
     "description": "Message for draw"
   },
-  "failedToLoadFile": "ファイルの読み込みに失敗: {error}",
+  "failedToLoadFile": "Caricamento file fallito: {error}",
   "@failedToLoadFile": {
     "description": "Message shown when file loading fails",
     "placeholders": {
@@ -62,47 +62,47 @@
       }
     }
   },
-  "newGame": "新しいゲーム",
+  "newGame": "Nuova partita",
   "@newGame": {
     "description": "New game button text"
   },
-  "undo": "取り消し",
+  "undo": "Annulla",
   "@undo": {
     "description": "Undo move button text"
   },
-  "engineInitializationFailed": "エンジンの初期化に失敗しました！",
+  "engineInitializationFailed": "Inizializzazione motore fallita!",
   "@engineInitializationFailed": {
     "description": "Message shown when engine initialization fails"
   },
-  "hint": "ヒント",
+  "hint": "Suggerimento",
   "@hint": {
     "description": "Hint button text"
   },
-  "analyzing": "解析中...",
+  "analyzing": "Analisi in corso...",
   "@analyzing": {
     "description": "Analyzing message"
   },
-  "dontBeDiscouraged": "諦めないで、続けてみましょう！",
+  "dontBeDiscouraged": "Non scoraggiarti, continua a provare!",
   "@dontBeDiscouraged": {
     "description": "Message shown when player loses"
   },
-  "congratulations": "勝利おめでとうございます！",
+  "congratulations": "Congratulazioni per la vittoria!",
   "@congratulations": {
     "description": "Message shown when player wins"
   },
-  "youWon": "勝ちました！",
+  "youWon": "Hai vinto!",
   "@youWon": {
     "description": "Message shown when player wins"
   },
-  "youLost": "負けました！",
+  "youLost": "Hai perso!",
   "@youLost": {
     "description": "Message shown when player loses"
   },
-  "engineCannotFindValidMove": "エンジンが有効な手を見つけられません",
+  "engineCannotFindValidMove": "Il motore non trova mosse valide",
   "@engineCannotFindValidMove": {
     "description": "Message shown when engine cannot find valid move"
   },
-  "engineMoveError": "エンジンの手のエラー: {error}",
+  "engineMoveError": "Errore mossa motore: {error}",
   "@engineMoveError": {
     "description": "Message shown when engine move error",
     "placeholders": {
@@ -112,71 +112,71 @@
       }
     }
   },
-  "chooseYourColor": "色を選択",
+  "chooseYourColor": "Scegli il tuo colore",
   "@chooseYourColor": {
     "description": "Title for choose your color"
   },
-  "white": "白",
+  "white": "Bianco",
   "@white": {
     "description": "White color"
   },
-  "black": "黒",
+  "black": "Nero",
   "@black": {
     "description": "Black color"
   },
-  "chooseSaveLocation": "保存場所を選択",
+  "chooseSaveLocation": "Scegli posizione di salvataggio",
   "@chooseSaveLocation": {
     "description": "Title for choose save location"
   },
-  "gameSaved": "ゲームを保存しました",
+  "gameSaved": "Partita salvata",
   "@gameSaved": {
     "description": "Message shown when game is saved"
   },
-  "saveFailed": "保存に失敗しました。もう一度お試しください",
+  "saveFailed": "Salvataggio fallito, riprova",
   "@saveFailed": {
     "description": "Message shown when save fails"
   },
-  "analysisFailed": "解析に失敗しました。もう一度お試しください",
+  "analysisFailed": "Analisi fallita, riprova",
   "@analysisFailed": {
     "description": "Message shown when analysis fails"
   },
-  "humanVsAi": "人間 vs AI",
+  "humanVsAi": "Umano vs IA",
   "@humanVsAi": {
     "description": "Title for human vs AI"
   },
-  "ai": "AI",
+  "ai": "IA",
   "@ai": {
     "description": "AI"
   },
-  "you": "あなた",
+  "you": "Tu",
   "@you": {
     "description": "You"
   },
-  "computer": "コンピュータ",
+  "computer": "Computer",
   "@computer": {
     "description": "Computer"
   },
-  "player": "プレイヤー",
+  "player": "Giocatore",
   "@player": {
     "description": "Player"
   },
-  "confirmDraw": "引き分けの確認",
+  "confirmDraw": "Confermare patta?",
   "@confirmDraw": {
     "description": "Title for confirm draw"
   },
-  "areYouSureYouWantToProposeADraw": "本当に引き分けを提案しますか？",
+  "areYouSureYouWantToProposeADraw": "Sei sicuro di voler proporre la patta?",
   "@areYouSureYouWantToProposeADraw": {
     "description": "Message for confirm draw"
   },
-  "takeback": "待った",
+  "takeback": "Riprendere",
   "@takeback": {
     "description": "Takeback"
   },
-  "accept": "承諾",
+  "accept": "Accetta",
   "@accept": {
     "description": "Accept"
   },
-  "reject": "拒否",
+  "reject": "Rifiuta",
   "@reject": {
     "description": "Reject"
   },
@@ -184,123 +184,123 @@
   "@ok": {
     "description": "OK"
   },
-  "takebackDeclined": "待ったが拒否されました",
+  "takebackDeclined": "Ripresa rifiutata",
   "@takebackDeclined": {
     "description": "Message for takeback declined"
   },
-  "drawDeclined": "引き分けが拒否されました",
+  "drawDeclined": "Patta rifiutata",
   "@drawDeclined": {
     "description": "Message for draw declined"
   },
-  "opponentRequestsTakeback": "相手が待ったを要求しています。承諾しますか？",
+  "opponentRequestsTakeback": "L'avversario chiede di riprendere, accetti?",
   "@opponentRequestsTakeback": {
     "description": "Message for opponent requests takeback"
   },
-  "opponentProposesDraw": "相手が引き分けを提案しています。承諾しますか？",
+  "opponentProposesDraw": "L'avversario propone la patta, accetti?",
   "@opponentProposesDraw": {
     "description": "Message for opponent proposes draw"
   },
-  "yes": "はい",
+  "yes": "Sì",
   "@yes": {
     "description": "Yes"
   },
-  "no": "いいえ",
+  "no": "No",
   "@no": {
     "description": "No"
   },
-  "areYouSureYouWantToRequestATakeback": "本当に待ったを要求しますか？",
+  "areYouSureYouWantToRequestATakeback": "Sei sicuro di voler chiedere di riprendere?",
   "@areYouSureYouWantToRequestATakeback": {
     "description": "Message for are you sure you want to request a takeback"
   },
-  "confirmTakeback": "待ったの確認",
+  "confirmTakeback": "Confermare ripresa?",
   "@confirmTakeback": {
     "description": "Title for confirm takeback"
   },
-  "areYouSureYouWantToResign": "本当に投了しますか？",
+  "areYouSureYouWantToResign": "Sei sicuro di voler abbandonare?",
   "@areYouSureYouWantToResign": {
     "description": "Message for are you sure you want to resign"
   },
-  "confirmResign": "投了の確認",
+  "confirmResign": "Confermare abbandono?",
   "@confirmResign": {
     "description": "Title for confirm resign"
   },
-  "searchingForAnOpponent": "対戦相手を探しています...",
+  "searchingForAnOpponent": "Ricerca avversario...",
   "@searchingForAnOpponent": {
     "description": "Message for searching for an opponent"
   },
-  "playOnline": "オンラインで対戦",
+  "playOnline": "Gioca online",
   "@playOnline": {
     "description": "Title for play online"
   },
-  "connect": "接続",
+  "connect": "Connetti",
   "@connect": {
     "description": "Connect"
   },
-  "match": "対戦",
+  "match": "Partita",
   "@match": {
     "description": "Match"
   },
-  "proposeDraw": "引き分けを提案",
+  "proposeDraw": "Proponi patta",
   "@proposeDraw": {
     "description": "Propose Draw"
   },
-  "cancel": "キャンセル",
+  "cancel": "Annulla",
   "@cancel": {
     "description": "Cancel"
   },
-  "resign": "投了",
+  "resign": "Abbandona",
   "@resign": {
     "description": "Resign"
   },
-  "takeBack": "待った",
+  "takeBack": "Riprendi",
   "@takeBack": {
     "description": "Take Back"
   },
-  "promotion": "昇格",
+  "promotion": "Promozione",
   "@promotion": {
     "description": "Promotion"
   },
-  "fullEmpty": "全て/空",
+  "fullEmpty": "Pieno / Vuoto",
   "@fullEmpty": {
     "description": "Full / Empty"
   },
-  "playWithAI": "AIと対戦",
+  "playWithAI": "Gioca contro l'IA",
   "@playWithAI": {
     "description": "Play with AI"
   },
-  "dragAndDropToRemove": "ここにドラッグ＆ドロップで削除",
+  "dragAndDropToRemove": "Trascina qui per rimuovere",
   "@dragAndDropToRemove": {
     "description": "Drag & drop here to remove"
   },
-  "invalidPosition": "無効な配置です。以下を確認してください：\n1. 各陣営にキングが1つずつ必要です\n2. ポーンは最初と最後の段に置けません",
+  "invalidPosition": "Posizione non valida, controlla:\n1. Ogni lato deve avere un re\n2. I pedoni non possono stare sulla prima o ultima traversa",
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "盤面設定",
+  "setupBoard": "Imposta scacchiera",
   "@setupBoard": {
     "description": "Setup Board"
   },
-  "allGames": "全てのゲーム",
+  "allGames": "Tutte le partite",
   "@allGames": {
     "description": "All Games"
   },
-  "favorites": "お気に入り",
+  "favorites": "Preferiti",
   "@favorites": {
     "description": "Favorites"
   },
-  "noFavoriteGamesAvailable": "お気に入りのゲームがありません",
+  "noFavoriteGamesAvailable": "Nessuna partita preferita disponibile",
   "@noFavoriteGamesAvailable": {
     "description": "No favorite games available"
   },
-  "searchGames": "ゲームを検索...",
+  "searchGames": "Cerca partite...",
   "@searchGames": {
     "description": "Search games"
   },
-  "games": "ゲーム",
+  "games": "Partite",
   "@games": {
     "description": "Games"
   },
-  "failedToLoadGamesList": "ゲームリストの読み込みに失敗: {error}",
+  "failedToLoadGamesList": "Caricamento lista partite fallito: {error}",
   "@failedToLoadGamesList": {
     "description": "Failed to load games list",
     "placeholders": {
@@ -310,7 +310,7 @@
       }
     }
   },
-  "comments": "コメント: {comments}",
+  "comments": "Commenti: {comments}",
   "@comments": {
     "description": "Comments",
     "placeholders": {
@@ -320,184 +320,188 @@
       }
     }
   },
-  "branchSelection": "分岐選択",
+  "branchSelection": "Selezione variante",
   "@branchSelection": {
     "description": "Branch Selection"
   },
-  "chessViewer": "チェスビューワー",
+  "chessViewer": "Visualizzatore scacchi",
   "@chessViewer": {
     "description": "Chess Viewer"
   },
-  "start": "開始",
+  "start": "Inizio",
   "@start": {
     "description": "Start"
   },
-  "previous": "前へ",
+  "previous": "Precedente",
   "@previous": {
     "description": "Previous"
   },
-  "next": "次へ",
+  "next": "Successivo",
   "@next": {
     "description": "Next"
   },
-  "end": "終了",
+  "end": "Fine",
   "@end": {
     "description": "End"
   },
-  "addedToFavorites": "お気に入りに追加しました",
+  "addedToFavorites": "Aggiunto ai preferiti",
   "@addedToFavorites": {
     "description": "Added to favorites"
   },
-  "removedFromFavorites": "お気に入りから削除しました",
+  "removedFromFavorites": "Rimosso dai preferiti",
   "@removedFromFavorites": {
     "description": "Removed from favorites"
   },
-  "serverAddress": "サーバーアドレス",
+  "serverAddress": "Indirizzo server",
   "@serverAddress": {
     "description": "Server Address"
   },
-  "setServerAddress": "サーバーアドレスを設定",
+  "setServerAddress": "Imposta indirizzo server",
   "@setServerAddress": {
     "description": "Set Server Address"
   },
-  "pleaseEnterTheServerAddress": "サーバーアドレスを入力してください",
+  "pleaseEnterTheServerAddress": "Inserisci l'indirizzo del server",
   "@pleaseEnterTheServerAddress": {
     "description": "Please enter the server address"
   },
-  "settings": "設定",
+  "settings": "Impostazioni",
   "@settings": {
     "description": "Settings"
   },
-  "engineSettings": "エンジン設定",
+  "engineSettings": "Impostazioni motore",
   "@engineSettings": {
     "description": "Engine Settings"
   },
-  "thinkingTime": "思考時間",
+  "thinkingTime": "Tempo di riflessione",
   "@thinkingTime": {
     "description": "Thinking Time"
   },
-  "limitTime": "制限時間",
+  "limitTime": "Limite tempo",
   "@limitTime": {
     "description": "Limit Time"
   },
-  "limitDepth": "制限深さ",
+  "limitDepth": "Limite profondità",
   "@limitDepth": {
     "description": "Limit Depth"
   },
-  "timeControlMode": "時間制御モード",
+  "timeControlMode": "Modalità controllo tempo",
   "@timeControlMode": {
     "description": "Time Control Mode"
   },
-  "useTimeControl": "時間制御を使用",
+  "useTimeControl": "Usa controllo tempo",
   "@useTimeControl": {
     "description": "Use Time Control"
   },
-  "showAnalysisArrows": "解析の矢印を表示",
+  "showAnalysisArrows": "Mostra frecce analisi",
   "@showAnalysisArrows": {
     "description": "Show Analysis Arrows"
   },
-  "showPredictedMovesWhenTheEngineIsThinking": "エンジン思考中に予測手を表示",
+  "showPredictedMovesWhenTheEngineIsThinking": "Mostra mosse previste durante l'analisi del motore",
   "@showPredictedMovesWhenTheEngineIsThinking": {
     "description": "Show predicted moves when the engine is thinking"
   },
-  "languageSettings": "言語設定",
+  "languageSettings": "Impostazioni lingua",
   "@languageSettings": {
     "description": "Language Settings"
   },
-  "layers": "レイヤー",
+  "layers": "Livelli",
   "@layers": {
     "description": "Layers"
   },
-  "current": "現在",
+  "current": "Attuale",
   "@current": {
     "description": "Current"
   },
-  "browse": "参照",
+  "browse": "Sfoglia",
   "@browse": {
     "description": "Browse"
   },
-  "confirm": "確認",
+  "confirm": "Conferma",
   "@confirm": {
     "description": "Confirm"
   },
-  "selectPieceTheme": "駒のテーマを選択",
+  "selectPieceTheme": "Seleziona stile pezzi",
   "@selectPieceTheme": {
     "description": "Select Piece Theme"
   },
-  "selectThemeColor": "テーマカラーを選択",
+  "selectThemeColor": "Seleziona tema colore",
   "@selectThemeColor": {
     "description": "Select Theme Color"
   },
-  "setEngineLevel": "エンジンレベルを設定",
+  "setEngineLevel": "Imposta livello motore",
   "@setEngineLevel": {
     "description": "Set Engine Level"
   },
-  "setThinkingTime": "思考時間を設定",
+  "setThinkingTime": "Imposta tempo di riflessione",
   "@setThinkingTime": {
     "description": "Set Thinking Time"
   },
-  "setSearchDepth": "探索深さを設定",
+  "setSearchDepth": "Imposta profondità di ricerca",
   "@setSearchDepth": {
     "description": "Set Search Depth"
   },
-  "setEnginePath": "エンジンパスを設定",
+  "setEnginePath": "Imposta percorso motore",
   "@setEnginePath": {
     "description": "Set Engine Path"
   },
-  "pleaseEnterTheEnginePath": "エンジンパスを入力してください",
+  "pleaseEnterTheEnginePath": "Inserisci il percorso del motore",
   "@pleaseEnterTheEnginePath": {
     "description": "Please enter the engine path"
   },
-  "viewGames": "ゲームを表示",
+  "viewGames": "Visualizza partite",
   "@viewGames": {
     "description": "View Games"
   },
-  "exploreTheInfinitePossibilitiesOfChess": "チェスの無限の可能性を探索しよう",
+  "exploreTheInfinitePossibilitiesOfChess": "Esplora le infinite possibilità degli scacchi",
   "@exploreTheInfinitePossibilitiesOfChess": {
     "description": "Explore the infinite possibilities of chess"
   },
-  "checkmated": "チェックメイト",
+  "checkmated": "Scacco matto",
   "@checkmated": {
     "description": "Checkmated"
   },
-  "opponentOutOfTime": "相手の時間切れ",
+  "opponentOutOfTime": "Tempo scaduto per l'avversario",
   "@opponentOutOfTime": {
     "description": "Opponent Out of Time"
   },
-  "opponentResigned": "相手が投了しました",
+  "opponentResigned": "L'avversario ha abbandonato",
   "@opponentResigned": {
     "description": "Opponent Resigned"
   },
-  "opponentLeft": "相手が退出しました",
+  "opponentLeft": "L'avversario ha lasciato",
   "@opponentLeft": {
     "description": "Opponent Left"
   },
-  "outOfTime": "時間切れ",
+  "outOfTime": "Tempo scaduto",
   "@outOfTime": {
     "description": "Out of Time"
   },
-  "resigned": "投了",
+  "resigned": "Abbandonato",
   "@resigned": {
     "description": "Resigned"
   },
-  "stalemate": "ステイルメイト",
+  "stalemate": "Stallo",
   "@stalemate": {
     "description": "Stalemate"
   },
-  "consensus": "合意",
+  "consensus": "Consenso",
   "@consensus": {
     "description": "Consensus"
   },
-  "timeControl": "時間制御",
+  "timeControl": "Controllo tempo",
   "@timeControl": {
     "description": "Time Control"
   },
-  "chessClock": "チェスクロック",
+  "chessClock": "Reloj de ajedrez",
   "@chessClock": {
     "description": "Chess Clock"
   },
-  "openingExplorer": "開幕エクスプローラー",
+  "openingExplorer": "Esplora aperture",
   "@openingExplorer": {
     "description": "Opening Explorer"
+  },
+  "save": "Salva",
+  "@save": {
+    "description": "Save"
   }
 } 

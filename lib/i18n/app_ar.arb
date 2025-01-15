@@ -1,58 +1,58 @@
 {
-  "@@locale": "ko",
-  "appName": "체스 로드",
+  "@@locale": "ar",
+  "appName": "Chess Road",
   "@appName": {
     "description": "The application name"
   },
-  "colorTheme": "색상 테마",
+  "colorTheme": "سمة الألوان",
   "@colorTheme": {
     "description": "Title for color theme settings"
   },
-  "pieceTheme": "체스말 테마",
+  "pieceTheme": "سمة القطع",
   "@pieceTheme": {
     "description": "Title for chess piece theme settings"
   },
-  "serverSettings": "서버 설정",
+  "serverSettings": "إعدادات الخادم",
   "@serverSettings": {
     "description": "Title for server settings"
   },
-  "engineLevel": "엔진 레벨",
+  "engineLevel": "مستوى المحرك",
   "@engineLevel": {
     "description": "Title for AI engine level settings"
   },
-  "moveTime": "이동 시간",
+  "moveTime": "وقت النقلة",
   "@moveTime": {
     "description": "Title for move time settings"
   },
-  "searchDepth": "탐색 깊이",
+  "searchDepth": "عمق البحث",
   "@searchDepth": {
     "description": "Title for search depth settings"
   },
-  "enginePath": "엔진 경로",
+  "enginePath": "مسار المحرك",
   "@enginePath": {
     "description": "Title for engine path settings"
   },
-  "showEngineArrows": "엔진 분석 화살표 표시",
+  "showEngineArrows": "إظهار أسهم التحليل",
   "@showEngineArrows": {
     "description": "Title for show engine arrows settings"
   },
-  "language": "언어",
+  "language": "اللغة",
   "@language": {
     "description": "Title for language settings"
   },
-  "insufficientMaterial": "부족한 말로 인한 무승부",
+  "insufficientMaterial": "مواد غير كافية، تعادل",
   "@insufficientMaterial": {
     "description": "Message for insufficient material draw"
   },
-  "threefoldRepetition": "동일 수 3회 반복으로 인한 무승부",
+  "threefoldRepetition": "تكرار ثلاث مرات، تعادل",
   "@threefoldRepetition": {
     "description": "Message for threefold repetition draw"
   },
-  "draw": "무승부",
+  "draw": "تعادل",
   "@draw": {
     "description": "Message for draw"
   },
-  "failedToLoadFile": "파일 로드 실패: {error}",
+  "failedToLoadFile": "فشل في تحميل الملف: {error}",
   "@failedToLoadFile": {
     "description": "Message shown when file loading fails",
     "placeholders": {
@@ -62,47 +62,47 @@
       }
     }
   },
-  "newGame": "새 게임",
+  "newGame": "لعبة جديدة",
   "@newGame": {
     "description": "New game button text"
   },
-  "undo": "실행 취소",
+  "undo": "تراجع",
   "@undo": {
     "description": "Undo move button text"
   },
-  "engineInitializationFailed": "엔진 초기화 실패!",
+  "engineInitializationFailed": "فشل في تهيئة المحرك!",
   "@engineInitializationFailed": {
     "description": "Message shown when engine initialization fails"
   },
-  "hint": "힌트",
+  "hint": "تلميح",
   "@hint": {
     "description": "Hint button text"
   },
-  "analyzing": "분석 중...",
+  "analyzing": "جاري التحليل...",
   "@analyzing": {
     "description": "Analyzing message"
   },
-  "dontBeDiscouraged": "실망하지 마세요, 계속 도전하세요!",
+  "dontBeDiscouraged": "لا تيأس، واصل المحاولة!",
   "@dontBeDiscouraged": {
     "description": "Message shown when player loses"
   },
-  "congratulations": "상대를 이긴 것을 축하합니다!",
+  "congratulations": "تهانينا على الفوز!",
   "@congratulations": {
     "description": "Message shown when player wins"
   },
-  "youWon": "승리했습니다!",
+  "youWon": "لقد فزت!",
   "@youWon": {
     "description": "Message shown when player wins"
   },
-  "youLost": "패배했습니다!",
+  "youLost": "لقد خسرت!",
   "@youLost": {
     "description": "Message shown when player loses"
   },
-  "engineCannotFindValidMove": "엔진이 유효한 수를 찾을 수 없습니다",
+  "engineCannotFindValidMove": "لا يمكن للمحرك إيجاد نقلة صالحة",
   "@engineCannotFindValidMove": {
     "description": "Message shown when engine cannot find valid move"
   },
-  "engineMoveError": "엔진 이동 오류: {error}",
+  "engineMoveError": "خطأ في نقلة المحرك: {error}",
   "@engineMoveError": {
     "description": "Message shown when engine move error",
     "placeholders": {
@@ -112,195 +112,195 @@
       }
     }
   },
-  "chooseYourColor": "색상 선택",
+  "chooseYourColor": "اختر لونك",
   "@chooseYourColor": {
     "description": "Title for choose your color"
   },
-  "white": "백",
+  "white": "أبيض",
   "@white": {
     "description": "White color"
   },
-  "black": "흑",
+  "black": "أسود",
   "@black": {
     "description": "Black color"
   },
-  "chooseSaveLocation": "저장 위치 선택",
+  "chooseSaveLocation": "اختر موقع الحفظ",
   "@chooseSaveLocation": {
     "description": "Title for choose save location"
   },
-  "gameSaved": "게임이 저장되었습니다",
+  "gameSaved": "تم حفظ اللعبة",
   "@gameSaved": {
     "description": "Message shown when game is saved"
   },
-  "saveFailed": "저장 실패, 다시 시도해주세요",
+  "saveFailed": "فشل الحفظ، حاول مرة أخرى",
   "@saveFailed": {
     "description": "Message shown when save fails"
   },
-  "analysisFailed": "분석 실패, 다시 시도해주세요",
+  "analysisFailed": "فشل التحليل، حاول مرة أخرى",
   "@analysisFailed": {
     "description": "Message shown when analysis fails"
   },
-  "humanVsAi": "사람 vs AI",
+  "humanVsAi": "إنسان ضد الذكاء الاصطناعي",
   "@humanVsAi": {
     "description": "Title for human vs AI"
   },
-  "ai": "AI",
+  "ai": "ذكاء اصطناعي",
   "@ai": {
     "description": "AI"
   },
-  "you": "나",
+  "you": "أنت",
   "@you": {
     "description": "You"
   },
-  "computer": "컴퓨터",
+  "computer": "الحاسوب",
   "@computer": {
     "description": "Computer"
   },
-  "player": "플레이어",
+  "player": "لاعب",
   "@player": {
     "description": "Player"
   },
-  "confirmDraw": "무승부 확인",
+  "confirmDraw": "تأكيد التعادل؟",
   "@confirmDraw": {
     "description": "Title for confirm draw"
   },
-  "areYouSureYouWantToProposeADraw": "무승부를 제안하시겠습니까?",
+  "areYouSureYouWantToProposeADraw": "هل أنت متأكد من أنك تريد اقتراح التعادل؟",
   "@areYouSureYouWantToProposeADraw": {
     "description": "Message for confirm draw"
   },
-  "takeback": "무르기",
+  "takeback": "استعادة النقلة",
   "@takeback": {
     "description": "Takeback"
   },
-  "accept": "수락",
+  "accept": "قبول",
   "@accept": {
     "description": "Accept"
   },
-  "reject": "거절",
+  "reject": "رفض",
   "@reject": {
     "description": "Reject"
   },
-  "ok": "확인",
+  "ok": "حسناً",
   "@ok": {
     "description": "OK"
   },
-  "takebackDeclined": "무르기 거절됨",
+  "takebackDeclined": "تم رفض استعادة النقلة",
   "@takebackDeclined": {
     "description": "Message for takeback declined"
   },
-  "drawDeclined": "무승부 거절됨",
+  "drawDeclined": "تم رفض التعادل",
   "@drawDeclined": {
     "description": "Message for draw declined"
   },
-  "opponentRequestsTakeback": "상대가 무르기를 요청했습니다. 수락하시겠습니까?",
+  "opponentRequestsTakeback": "يطلب الخصم استعادة النقلة، هل تقبل؟",
   "@opponentRequestsTakeback": {
     "description": "Message for opponent requests takeback"
   },
-  "opponentProposesDraw": "상대가 무승부를 제안했습니다. 수락하시겠습니까?",
+  "opponentProposesDraw": "يقترح الخصم التعادل، هل تقبل؟",
   "@opponentProposesDraw": {
     "description": "Message for opponent proposes draw"
   },
-  "yes": "예",
+  "yes": "نعم",
   "@yes": {
     "description": "Yes"
   },
-  "no": "아니오",
+  "no": "لا",
   "@no": {
     "description": "No"
   },
-  "areYouSureYouWantToRequestATakeback": "무르기를 요청하시겠습니까?",
+  "areYouSureYouWantToRequestATakeback": "هل أنت متأكد من أنك تريد طلب استعادة النقلة؟",
   "@areYouSureYouWantToRequestATakeback": {
     "description": "Message for are you sure you want to request a takeback"
   },
-  "confirmTakeback": "무르기 확인",
+  "confirmTakeback": "تأكيد استعادة النقلة؟",
   "@confirmTakeback": {
     "description": "Title for confirm takeback"
   },
-  "areYouSureYouWantToResign": "기권하시겠습니까?",
+  "areYouSureYouWantToResign": "هل أنت متأكد من أنك تريد الاستسلام؟",
   "@areYouSureYouWantToResign": {
     "description": "Message for are you sure you want to resign"
   },
-  "confirmResign": "기권 확인",
+  "confirmResign": "تأكيد الاستسلام؟",
   "@confirmResign": {
     "description": "Title for confirm resign"
   },
-  "searchingForAnOpponent": "상대를 찾는 중...",
+  "searchingForAnOpponent": "جاري البحث عن خصم...",
   "@searchingForAnOpponent": {
     "description": "Message for searching for an opponent"
   },
-  "playOnline": "온라인 플레이",
+  "playOnline": "اللعب عبر الإنترنت",
   "@playOnline": {
     "description": "Title for play online"
   },
-  "connect": "연결",
+  "connect": "اتصال",
   "@connect": {
     "description": "Connect"
   },
-  "match": "매치",
+  "match": "مباراة",
   "@match": {
     "description": "Match"
   },
-  "proposeDraw": "무승부 제안",
+  "proposeDraw": "اقتراح تعادل",
   "@proposeDraw": {
     "description": "Propose Draw"
   },
-  "cancel": "취소",
+  "cancel": "إلغاء",
   "@cancel": {
     "description": "Cancel"
   },
-  "resign": "기권",
+  "resign": "استسلام",
   "@resign": {
     "description": "Resign"
   },
-  "takeBack": "무르기",
+  "takeBack": "استعادة",
   "@takeBack": {
     "description": "Take Back"
   },
-  "promotion": "승진",
+  "promotion": "ترقية",
   "@promotion": {
     "description": "Promotion"
   },
-  "fullEmpty": "전체 / 비우기",
+  "fullEmpty": "كامل / فارغ",
   "@fullEmpty": {
     "description": "Full / Empty"
   },
-  "playWithAI": "AI와 플레이",
+  "playWithAI": "اللعب مع الذكاء الاصطناعي",
   "@playWithAI": {
     "description": "Play with AI"
   },
-  "dragAndDropToRemove": "여기에 드래그 앤 드롭하여 제거",
+  "dragAndDropToRemove": "اسحب وأفلت هنا للإزالة",
   "@dragAndDropToRemove": {
     "description": "Drag & drop here to remove"
   },
-  "invalidPosition": "잘못된 위치입니다. 다음을 확인하세요:\n1. 각 진영에 킹이 하나씩 있어야 합니다\n2. 폰은 첫 줄이나 마지막 줄에 있을 수 없습니다",
+  "invalidPosition": "وضع غير صالح، يرجى التحقق من:\n1. يجب أن يكون لكل جانب ملك واحد\n2. لا يمكن أن تكون البيادق في الصف الأول أو الأخير",
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "보드 설정",
+  "setupBoard": "إعداد الرقعة",
   "@setupBoard": {
     "description": "Setup Board"
   },
-  "allGames": "모든 게임",
+  "allGames": "جميع الألعاب",
   "@allGames": {
     "description": "All Games"
   },
-  "favorites": "즐겨찾기",
+  "favorites": "المفضلة",
   "@favorites": {
     "description": "Favorites"
   },
-  "noFavoriteGamesAvailable": "즐겨찾기한 게임이 없습니다",
+  "noFavoriteGamesAvailable": "لا توجد ألعاب مفضلة",
   "@noFavoriteGamesAvailable": {
     "description": "No favorite games available"
   },
-  "searchGames": "게임 검색...",
+  "searchGames": "البحث عن الألعاب...",
   "@searchGames": {
     "description": "Search games"
   },
-  "games": "게임",
+  "games": "الألعاب",
   "@games": {
     "description": "Games"
   },
-  "failedToLoadGamesList": "게임 목록 로드 실패: {error}",
+  "failedToLoadGamesList": "فشل في تحميل قائمة الألعاب: {error}",
   "@failedToLoadGamesList": {
     "description": "Failed to load games list",
     "placeholders": {
@@ -310,7 +310,7 @@
       }
     }
   },
-  "comments": "댓글: {comments}",
+  "comments": "التعليقات: {comments}",
   "@comments": {
     "description": "Comments",
     "placeholders": {
@@ -320,184 +320,188 @@
       }
     }
   },
-  "branchSelection": "분기 선택",
+  "branchSelection": "اختيار الفرع",
   "@branchSelection": {
     "description": "Branch Selection"
   },
-  "chessViewer": "체스 뷰어",
+  "chessViewer": "عارض الشطرنج",
   "@chessViewer": {
     "description": "Chess Viewer"
   },
-  "start": "시작",
+  "start": "بداية",
   "@start": {
     "description": "Start"
   },
-  "previous": "이전",
+  "previous": "السابق",
   "@previous": {
     "description": "Previous"
   },
-  "next": "다음",
+  "next": "التالي",
   "@next": {
     "description": "Next"
   },
-  "end": "끝",
+  "end": "النهاية",
   "@end": {
     "description": "End"
   },
-  "addedToFavorites": "즐겨찾기에 추가됨",
+  "addedToFavorites": "تمت الإضافة إلى المفضلة",
   "@addedToFavorites": {
     "description": "Added to favorites"
   },
-  "removedFromFavorites": "즐겨찾기에서 제거됨",
+  "removedFromFavorites": "تمت الإزالة من المفضلة",
   "@removedFromFavorites": {
     "description": "Removed from favorites"
   },
-  "serverAddress": "서버 주소",
+  "serverAddress": "عنوان الخادم",
   "@serverAddress": {
     "description": "Server Address"
   },
-  "setServerAddress": "서버 주소 설정",
+  "setServerAddress": "تعيين عنوان الخادم",
   "@setServerAddress": {
     "description": "Set Server Address"
   },
-  "pleaseEnterTheServerAddress": "서버 주소를 입력하세요",
+  "pleaseEnterTheServerAddress": "الرجاء إدخال عنوان الخادم",
   "@pleaseEnterTheServerAddress": {
     "description": "Please enter the server address"
   },
-  "settings": "설정",
+  "settings": "الإعدادات",
   "@settings": {
     "description": "Settings"
   },
-  "engineSettings": "엔진 설정",
+  "engineSettings": "إعدادات المحرك",
   "@engineSettings": {
     "description": "Engine Settings"
   },
-  "thinkingTime": "사고 시간",
+  "thinkingTime": "وقت التفكير",
   "@thinkingTime": {
     "description": "Thinking Time"
   },
-  "limitTime": "제한 시간",
+  "limitTime": "تحديد الوقت",
   "@limitTime": {
     "description": "Limit Time"
   },
-  "limitDepth": "제한 깊이",
+  "limitDepth": "تحديد العمق",
   "@limitDepth": {
     "description": "Limit Depth"
   },
-  "timeControlMode": "시간 제어 모드",
+  "timeControlMode": "وضع التحكم بالوقت",
   "@timeControlMode": {
     "description": "Time Control Mode"
   },
-  "useTimeControl": "시간 제어 사용",
+  "useTimeControl": "استخدام التحكم بالوقت",
   "@useTimeControl": {
     "description": "Use Time Control"
   },
-  "showAnalysisArrows": "분석 화살표 표시",
+  "showAnalysisArrows": "إظهار أسهم تحليل المحرك",
   "@showAnalysisArrows": {
     "description": "Show Analysis Arrows"
   },
-  "showPredictedMovesWhenTheEngineIsThinking": "엔진이 생각할 때 예상 수 표시",
+  "showPredictedMovesWhenTheEngineIsThinking": "إظهار النقلات المتوقعة أثناء تفكير المحرك",
   "@showPredictedMovesWhenTheEngineIsThinking": {
     "description": "Show predicted moves when the engine is thinking"
   },
-  "languageSettings": "언어 설정",
+  "languageSettings": "إعدادات اللغة",
   "@languageSettings": {
     "description": "Language Settings"
   },
-  "layers": "레이어",
+  "layers": "الطبقات",
   "@layers": {
     "description": "Layers"
   },
-  "current": "현재",
+  "current": "الحالي",
   "@current": {
     "description": "Current"
   },
-  "browse": "찾아보기",
+  "browse": "تصفح",
   "@browse": {
     "description": "Browse"
   },
-  "confirm": "확인",
+  "confirm": "تأكيد",
   "@confirm": {
     "description": "Confirm"
   },
-  "selectPieceTheme": "체스말 테마 선택",
+  "selectPieceTheme": "اختيار سمة القطع",
   "@selectPieceTheme": {
     "description": "Select Piece Theme"
   },
-  "selectThemeColor": "테마 색상 선택",
+  "selectThemeColor": "اختيار لون السمة",
   "@selectThemeColor": {
     "description": "Select Theme Color"
   },
-  "setEngineLevel": "엔진 레벨 설정",
+  "setEngineLevel": "تعيين مستوى المحرك",
   "@setEngineLevel": {
     "description": "Set Engine Level"
   },
-  "setThinkingTime": "사고 시간 설정",
+  "setThinkingTime": "تعيين وقت التفكير",
   "@setThinkingTime": {
     "description": "Set Thinking Time"
   },
-  "setSearchDepth": "탐색 깊이 설정",
+  "setSearchDepth": "تعيين عمق البحث",
   "@setSearchDepth": {
     "description": "Set Search Depth"
   },
-  "setEnginePath": "엔진 경로 설정",
+  "setEnginePath": "تعيين مسار المحرك",
   "@setEnginePath": {
     "description": "Set Engine Path"
   },
-  "pleaseEnterTheEnginePath": "엔진 경로를 입력하세요",
+  "pleaseEnterTheEnginePath": "الرجاء إدخال مسار المحرك",
   "@pleaseEnterTheEnginePath": {
     "description": "Please enter the engine path"
   },
-  "viewGames": "게임 보기",
+  "viewGames": "عرض الألعاب",
   "@viewGames": {
     "description": "View Games"
   },
-  "exploreTheInfinitePossibilitiesOfChess": "체스의 무한한 가능성을 탐험하세요",
+  "exploreTheInfinitePossibilitiesOfChess": "اكتشف الإمكانيات اللانهائية للشطرنج",
   "@exploreTheInfinitePossibilitiesOfChess": {
     "description": "Explore the infinite possibilities of chess"
   },
-  "checkmated": "체크메이트",
+  "checkmated": "كش مات",
   "@checkmated": {
     "description": "Checkmated"
   },
-  "opponentOutOfTime": "상대방 시간 초과",
+  "opponentOutOfTime": "انتهى وقت الخصم",
   "@opponentOutOfTime": {
     "description": "Opponent Out of Time"
   },
-  "opponentResigned": "상대방 기권",
+  "opponentResigned": "استسلم الخصم",
   "@opponentResigned": {
     "description": "Opponent Resigned"
   },
-  "opponentLeft": "상대방 퇴장",
+  "opponentLeft": "غادر الخصم",
   "@opponentLeft": {
     "description": "Opponent Left"
   },
-  "outOfTime": "시간 초과",
+  "outOfTime": "انتهى الوقت",
   "@outOfTime": {
     "description": "Out of Time"
   },
-  "resigned": "기권",
+  "resigned": "استسلم",
   "@resigned": {
     "description": "Resigned"
   },
-  "stalemate": "스테일메이트",
+  "stalemate": "تعادل بالحصر",
   "@stalemate": {
     "description": "Stalemate"
   },
-  "consensus": "합의",
+  "consensus": "إجماع",
   "@consensus": {
     "description": "Consensus"
   },
-  "timeControl": "시간 제어",
+  "timeControl": "وقت التحكم",
   "@timeControl": {
     "description": "Time Control"
   },
-  "chessClock": "체스 시계",
+  "chessClock": "ساعة الشطرنج",
   "@chessClock": {
     "description": "Chess Clock"
   },
-  "openingExplorer": "체스 오픈 탐색기",
+  "openingExplorer": "مستكشف الفتحات",
   "@openingExplorer": {
     "description": "Opening Explorer"
+  },
+  "save": "حفظ",
+  "@save": {
+    "description": "Save"
   }
-}
+} 

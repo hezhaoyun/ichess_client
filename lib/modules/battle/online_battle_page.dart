@@ -8,12 +8,12 @@ import 'package:ichess/modules/battle/reason_defines.dart';
 import 'package:ichess/widgets/sound_buttons.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../i18n/generated/app_localizations.dart';
 import '../../widgets/bottom_bar.dart';
 import '../../widgets/bottom_bar_button.dart';
 import '../../widgets/chess_board_widget.dart';
-import 'battle_mixin.dart';
 import '../../widgets/game_result_dialog.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'battle_mixin.dart';
 
 class OnlineBattlePage extends ConsumerStatefulWidget {
   const OnlineBattlePage({super.key});

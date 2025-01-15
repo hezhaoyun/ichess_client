@@ -499,5 +499,9 @@
     "openingExplorer": "开局探索器",
     "@openingExplorer": {
         "description": "Opening Explorer"
+    },
+    "save": "保存",
+    "@save": {
+        "description": "Save"
     }
 }

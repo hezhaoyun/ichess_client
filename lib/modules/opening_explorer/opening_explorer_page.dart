@@ -2,12 +2,12 @@ import 'dart:math';
 
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ichess/model/chess_opening.dart';
 import 'package:intl/intl.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
+import '../../i18n/generated/app_localizations.dart';
 import '../../model/online_opening.dart';
 import '../../widgets/bottom_bar.dart';
 import '../../widgets/bottom_bar_button.dart';
