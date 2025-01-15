@@ -185,12 +185,7 @@ class _HomePageState extends ConsumerState<OnlineBattlePage> with BattleMixin, O
       Container(
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors:
-                isOpponent ? [Colors.red.shade50, Colors.red.shade100] : [Colors.blue.shade50, Colors.blue.shade100],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
+          color: Theme.of(context).colorScheme.surface,
           borderRadius: BorderRadius.circular(10),
         ),
         child: Row(

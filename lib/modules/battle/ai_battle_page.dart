@@ -38,6 +38,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   int? evaluation;
   BoardOrientation boardOrientation = BoardOrientation.white;
   bool isAnalyzing = false;
+  int currentMoveIndex = -1;
 
   @override
   void initState() {
@@ -158,7 +159,13 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
     if (!_isEngineReady) return;
 
     updateLastMove(move['from']!, move['to']!);
-    moves.add('${move['from']}${move['to']}');
+
+    if (currentMoveIndex < moves.length - 1) {
+      moves.removeRange(currentMoveIndex + 1, moves.length);
+    }
+
+    moves.add('${move['from']}${move['to']}${move['promotion'] ?? ''}');
+    currentMoveIndex++;
 
     chess.move(move);
     controller.setFen(chess.fen);
@@ -393,6 +400,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
       controller.setFen(chess_lib.Chess.DEFAULT_POSITION);
 
       moves.clear();
+      currentMoveIndex = -1;
       initialFen = null;
       evaluation = null;
       controller.setArrows([]);
@@ -406,21 +414,37 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   }
 
   void undoMove() {
-    if (moves.length >= 2) {
+    if (moves.length >= 2 && currentMoveIndex >= 1) {
       setState(() {
         lastMove = null;
         controller.setArrows([]);
         chess.undo();
         chess.undo();
-        moves.removeLast();
-        moves.removeLast();
+        currentMoveIndex -= 2;
         controller.setFen(chess.fen);
       });
     }
   }
 
   void redoMove() {
-    // TODO: Implement redo move
+    if (currentMoveIndex < moves.length - 2) {
+      setState(() {
+        for (int i = 0; i < 2; i++) {
+          final moveStr = moves[currentMoveIndex + 1 + i];
+
+          final move = {
+            'from': moveStr.substring(0, 2),
+            'to': moveStr.substring(2, 4),
+            if (moveStr.length > 4) 'promotion': moveStr[4],
+          };
+          chess.move(move);
+
+          if (i == 1) updateLastMove(move['from']!, move['to']!);
+        }
+        currentMoveIndex += 2;
+        controller.setFen(chess.fen);
+      });
+    }
   }
 
   Future<void> saveGame() async {
@@ -591,8 +615,13 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
             ),
             IconButton(
               icon: const Icon(Icons.undo),
-              onPressed: undoMove,
+              onPressed: moves.length >= 2 && currentMoveIndex >= 1 ? undoMove : null,
               tooltip: AppLocalizations.of(context)!.undo,
+            ),
+            IconButton(
+              icon: const Icon(Icons.redo),
+              onPressed: currentMoveIndex < moves.length - 2 ? redoMove : null,
+              tooltip: AppLocalizations.of(context)!.redo,
             ),
             if (!isThinking && chess.turn == chess_lib.Color.WHITE && !chess.game_over)
               IconButton(
@@ -702,11 +731,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: isOpponent ? [Colors.red.shade50, Colors.red.shade100] : [Colors.blue.shade50, Colors.blue.shade100],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: BorderRadius.circular(10),
       ),
       child: Row(
@@ -823,12 +848,12 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
           ),
           BottomBarButton(
             icon: Icons.undo,
-            onTap: undoMove,
+            onTap: moves.length >= 2 && currentMoveIndex >= 1 ? undoMove : null,
             label: AppLocalizations.of(context)!.undo,
           ),
           BottomBarButton(
             icon: Icons.redo,
-            onTap: redoMove,
+            onTap: currentMoveIndex < moves.length - 2 ? redoMove : null,
             label: AppLocalizations.of(context)!.redo,
           ),
           if (!isThinking && chess.turn == chess_lib.Color.WHITE && !chess.game_over)
