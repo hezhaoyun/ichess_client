@@ -94,6 +94,7 @@ flutter:
     - assets/games/
     - assets/games.json
     - assets/sounds/
+    - assets/chess_openings.db
 
 icons_launcher:
   image_path: "assets/icons/icon-a.png"

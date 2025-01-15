@@ -63,32 +63,53 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
       );
 
   Widget _buildLandscapeLayout(double w, double h) {
-    // final availableHeight = h - kToolbarHeight - 20;
+    final availableHeight = h - kToolbarHeight - 20;
 
-    // final boardSize = min(w - 350 - 10, availableHeight) - 20;
-    // final controlWidth = w - boardSize;
+    final boardSize = min(w - 350 - 10, availableHeight) - 20;
+    final controlWidth = w - boardSize;
 
-    // return Column(
-    //   children: [
-    //     _buildHeader(),
-    //     _buildBoard(boardSize),
-    //     _buildOpeningInfo(),
-    //   ],
-    // );
-    return const SizedBox.shrink();
+    return Column(
+      children: [
+        _buildHeader(),
+        const Spacer(),
+        Row(
+          children: [
+            const SizedBox(width: 10),
+            _buildBoard(boardSize),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  SizedBox(
+                    height: boardSize - kToolbarHeight - 10,
+                    child: _buildOpeningTable(),
+                  ),
+                  const SizedBox(height: 10),
+                  SizedBox(height: kToolbarHeight, width: controlWidth, child: _buildBottomBar()),
+                ],
+              ),
+            ),
+            const SizedBox(width: 10),
+          ],
+        ),
+        const Spacer(),
+      ],
+    );
   }
 
   Widget _buildPortraitLayout(double w, double h) {
-    final availableHeight = h - kToolbarHeight * 2 - 210; // 10 + 90 + 10 + 10 + 90
+    final availableHeight = h - kToolbarHeight * 2 - 200;
     final boardSize = min(w, availableHeight) - 20;
 
     return Column(
       children: [
         _buildHeader(),
         _buildBoard(boardSize),
+        const SizedBox(height: 10),
         Expanded(
-          child: Padding(
-            padding: const EdgeInsets.all(10),
+          child: SizedBox(
+            width: boardSize,
             child: _buildOpeningTable(),
           ),
         ),
