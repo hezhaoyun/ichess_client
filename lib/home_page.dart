@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               Row(
                 children: [
-                  Image.asset('assets/icons/icon-a.png', width: 32, height: 32),
+                  Image.asset('assets/icons/icon-no-bg.png', width: 32, height: 32),
                   const SizedBox(width: 10),
                   Text(
                     AppLocalizations.of(context)!.appName,
