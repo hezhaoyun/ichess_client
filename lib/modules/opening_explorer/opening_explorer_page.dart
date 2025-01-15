@@ -8,7 +8,7 @@ import 'package:ichess/model/chess_opening.dart';
 import 'package:intl/intl.dart';
 import 'package:wp_chessboard/wp_chessboard.dart';
 
-import '../../model/provider.dart';
+import '../../model/online_opening.dart';
 import '../../widgets/bottom_bar.dart';
 import '../../widgets/bottom_bar_button.dart';
 import '../../widgets/chess_board_widget.dart';
@@ -140,7 +140,7 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
       );
 
   Widget _buildOpeningTable() {
-    final provider = ref.watch(chessOpeningProvider(fen: chess.fen));
+    final provider = ref.watch(onlineOpeningProvider(fen: chess.fen));
     if (provider.isLoading) return _buildLoadingTable();
 
     final chessOpening = provider.value;
