@@ -59,6 +59,9 @@ class AppLocalizationsKo extends AppLocalizations {
   String get undo => '실행 취소';
 
   @override
+  String get redo => '다시 실행';
+
+  @override
   String get engineInitializationFailed => '엔진 초기화 실패!';
 
   @override

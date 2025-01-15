@@ -503,5 +503,9 @@
   "save": "저장",
   "@save": {
     "description": "Save"
+  },
+  "redo": "다시 실행",
+  "@redo": {
+    "description": "Redo"
   }
 }

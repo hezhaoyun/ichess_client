@@ -503,5 +503,9 @@
   "save": "Сохранить",
   "@save": {
     "description": "Save"
+  },
+  "redo": "Вернуть ход",
+  "@redo": {
+    "description": "Redo"
   }
 } 

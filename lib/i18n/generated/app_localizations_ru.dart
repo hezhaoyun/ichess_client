@@ -59,6 +59,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get undo => 'Отменить';
 
   @override
+  String get redo => 'Вернуть ход';
+
+  @override
   String get engineInitializationFailed => 'Ошибка инициализации движка!';
 
   @override

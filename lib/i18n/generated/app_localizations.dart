@@ -211,6 +211,12 @@ abstract class AppLocalizations {
   /// **'Undo'**
   String get undo;
 
+  /// Redo move button text
+  ///
+  /// In en, this message translates to:
+  /// **'Redo'**
+  String get redo;
+
   /// Message shown when engine initialization fails
   ///
   /// In en, this message translates to:

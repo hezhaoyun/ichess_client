@@ -419,6 +419,10 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
     }
   }
 
+  void redoMove() {
+    // TODO: Implement redo move
+  }
+
   Future<void> saveGame() async {
     try {
       // Choose save location
@@ -821,6 +825,11 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
             icon: Icons.undo,
             onTap: undoMove,
             label: AppLocalizations.of(context)!.undo,
+          ),
+          BottomBarButton(
+            icon: Icons.redo,
+            onTap: redoMove,
+            label: AppLocalizations.of(context)!.redo,
           ),
           if (!isThinking && chess.turn == chess_lib.Color.WHITE && !chess.game_over)
             BottomBarButton(

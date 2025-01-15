@@ -59,6 +59,9 @@ class AppLocalizationsAr extends AppLocalizations {
   String get undo => 'تراجع';
 
   @override
+  String get redo => 'إعادة';
+
+  @override
   String get engineInitializationFailed => 'فشل في تهيئة المحرك!';
 
   @override

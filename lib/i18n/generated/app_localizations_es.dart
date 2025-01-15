@@ -59,6 +59,9 @@ class AppLocalizationsEs extends AppLocalizations {
   String get undo => 'Deshacer';
 
   @override
+  String get redo => 'Repetir';
+
+  @override
   String get engineInitializationFailed => '¡Falló la inicialización del motor!';
 
   @override

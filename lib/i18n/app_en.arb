@@ -70,6 +70,10 @@
   "@undo": {
     "description": "Undo move button text"
   },
+  "redo": "Redo",
+  "@redo": {
+    "description": "Redo move button text"
+  },
   "engineInitializationFailed": "Engine initialization failed!",
   "@engineInitializationFailed": {
     "description": "Message shown when engine initialization fails"

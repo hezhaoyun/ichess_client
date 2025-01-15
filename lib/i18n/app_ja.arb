@@ -496,6 +496,10 @@
   "@chessClock": {
     "description": "Chess Clock"
   },
+  "redo": "やり直し",
+  "@redo": {
+    "description": "Redo"
+  },
   "openingExplorer": "開幕エクスプローラー",
   "@openingExplorer": {
     "description": "Opening Explorer"

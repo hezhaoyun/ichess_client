@@ -59,6 +59,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get undo => '撤销';
 
   @override
+  String get redo => '重做';
+
+  @override
   String get engineInitializationFailed => '引擎初始化失败！';
 
   @override

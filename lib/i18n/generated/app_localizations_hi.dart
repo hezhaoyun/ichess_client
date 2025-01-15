@@ -59,6 +59,9 @@ class AppLocalizationsHi extends AppLocalizations {
   String get undo => 'वापस लें';
 
   @override
+  String get redo => 'फिर करें';
+
+  @override
   String get engineInitializationFailed => 'इंजन प्रारंभ करने में विफल!';
 
   @override

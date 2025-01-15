@@ -59,6 +59,9 @@ class AppLocalizationsPl extends AppLocalizations {
   String get undo => 'Cofnij';
 
   @override
+  String get redo => 'Wiederholen';
+
+  @override
   String get engineInitializationFailed => 'Inicjalizacja silnika nie powiodła się!';
 
   @override

@@ -59,6 +59,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get undo => '取り消し';
 
   @override
+  String get redo => 'やり直し';
+
+  @override
   String get engineInitializationFailed => 'エンジンの初期化に失敗しました！';
 
   @override

@@ -59,6 +59,9 @@ class AppLocalizationsFr extends AppLocalizations {
   String get undo => 'Annuler';
 
   @override
+  String get redo => 'Répéter';
+
+  @override
   String get engineInitializationFailed => 'Échec de l\'initialisation du moteur !';
 
   @override

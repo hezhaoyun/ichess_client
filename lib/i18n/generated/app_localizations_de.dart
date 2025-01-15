@@ -59,6 +59,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get undo => 'Rückgängig';
 
   @override
+  String get redo => 'Wiederholen';
+
+  @override
   String get engineInitializationFailed => 'Engine-Initialisierung fehlgeschlagen!';
 
   @override

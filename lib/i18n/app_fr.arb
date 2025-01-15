@@ -503,5 +503,9 @@
   "save": "Sauvegarder",
   "@save": {
     "description": "Save"
+  },
+  "redo": "Répéter",
+  "@redo": {
+    "description": "Redo"
   }
 } 
