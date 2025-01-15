@@ -53,6 +53,9 @@ class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
     List.filled(12, 0),
   );
 
+  // 添加棋子旋转状态
+  bool _rotateBlackPieces = false;
+
   @override
   void initState() {
     super.initState();
@@ -215,6 +218,11 @@ class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
                   ),
                 ),
               ),
+              IconButton(
+                icon: const Icon(Icons.rotate_90_degrees_ccw),
+                onPressed: () => setState(() => _rotateBlackPieces = !_rotateBlackPieces),
+                tooltip: 'rotateBlackPieces',
+              ),
               ...?buttons,
             ],
           ),
@@ -229,6 +237,7 @@ class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
         onPieceStartDrag: (square, piece) {},
         onPieceDrop: onPieceDrop,
         onEmptyFieldTap: onEmptyFieldTap,
+        rotateBlackPieces: _rotateBlackPieces,
       );
 
   Widget _buildPiecesPanel({required bool isWhite, required double width}) {
@@ -266,13 +275,12 @@ class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
     return (_currentPieceCounts[pieceKey] ?? 0) < maxCount;
   }
 
-  Widget _buildDraggablePiece({
-    required String pieceKey,
-    required double pieceSize,
-    required bool canDrag,
-    required bool isWhite,
-  }) {
-    final pieceWidget = _createPieceWidget(pieceKey, pieceSize, ref);
+  Widget _buildDraggablePiece(
+      {required String pieceKey, required double pieceSize, required bool canDrag, required bool isWhite}) {
+    final pieceWidget = Transform.rotate(
+      angle: (!isWhite && _rotateBlackPieces) ? pi : 0,
+      child: _createPieceWidget(pieceKey, pieceSize, ref),
+    );
 
     return Opacity(
       opacity: canDrag ? 1.0 : 0.3,
@@ -329,7 +337,7 @@ class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
         onWillAcceptWithDetails: (details) => details.data.index != -1,
         onAcceptWithDetails: (details) {
           _chess.remove(details.data.toString());
-          _controller.setFen(_chess.fen);
+          _controller.setFen(_chess.fen, animation: false);
           _updatePieceCounts();
           setState(() {});
         },
@@ -354,7 +362,7 @@ class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
       }
     }
 
-    _controller.setFen(_chess.fen);
+    _controller.setFen(_chess.fen, animation: false);
     _updatePieceCounts();
     setState(() {});
   }
@@ -364,7 +372,7 @@ class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
 
     if (_chess.get(squareName) != null) {
       _chess.remove(squareName);
-      _controller.setFen(_chess.fen);
+      _controller.setFen(_chess.fen, animation: false);
       _updatePieceCounts();
       setState(() {});
     }
