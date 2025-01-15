@@ -507,5 +507,9 @@
   "save": "保存",
   "@save": {
     "description": "Save"
+  },
+  "flipBoard": "盤面を反転",
+  "@flipBoard": {
+    "description": "Flip Board"
   }
 } 

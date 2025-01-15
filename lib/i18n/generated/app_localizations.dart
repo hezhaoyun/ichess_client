@@ -834,6 +834,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Save'**
   String get save;
+
+  /// Flip Board
+  ///
+  /// In en, this message translates to:
+  /// **'Flip Board'**
+  String get flipBoard;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

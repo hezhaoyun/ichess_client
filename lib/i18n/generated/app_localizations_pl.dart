@@ -375,4 +375,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get save => 'Zapisz';
+
+  @override
+  String get flipBoard => 'Odwróć tablicę';
 }

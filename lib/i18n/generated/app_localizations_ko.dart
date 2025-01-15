@@ -375,4 +375,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get save => '저장';
+
+  @override
+  String get flipBoard => '보드 뒤집기';
 }

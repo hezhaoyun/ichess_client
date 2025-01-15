@@ -503,5 +503,9 @@
   "save": "Save",
   "@save": {
     "description": "Save"
+  },
+  "flipBoard": "Flip Board",
+  "@flipBoard": {
+    "description": "Flip Board"
   }
 }

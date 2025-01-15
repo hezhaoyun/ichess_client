@@ -321,6 +321,11 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
   Widget _buildBottomBar() => BottomBar(
         children: [
           BottomBarButton(
+            icon: Icons.flip,
+            onTap: _flipBoard,
+            label: AppLocalizations.of(context)!.flipBoard,
+          ),
+          BottomBarButton(
             icon: Icons.navigate_before,
             onTap: currentMoveIndex >= 0 ? goPrevious : null,
             label: AppLocalizations.of(context)!.previous,
@@ -420,5 +425,11 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
     if (chess.insufficient_material) return AppLocalizations.of(context)!.insufficientMaterial;
     if (chess.in_threefold_repetition) return AppLocalizations.of(context)!.threefoldRepetition;
     return AppLocalizations.of(context)!.draw;
+  }
+
+  void _flipBoard() {
+    setState(() {
+      boardOrientation = boardOrientation == BoardOrientation.white ? BoardOrientation.black : BoardOrientation.white;
+    });
   }
 }

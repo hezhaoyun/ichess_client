@@ -507,5 +507,9 @@
   "redo": "Вернуть ход",
   "@redo": {
     "description": "Redo"
+  },
+  "flipBoard": "Перевернуть доску",
+  "@flipBoard": {
+    "description": "Flip Board"
   }
 } 

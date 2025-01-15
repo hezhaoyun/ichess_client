@@ -507,5 +507,9 @@
   "redo": "फिर करें",
   "@redo": {
     "description": "Redo"
+  },
+  "flipBoard": "टोपी बदलें",
+  "@flipBoard": {
+    "description": "Flip Board"
   }
 } 

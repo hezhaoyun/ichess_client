@@ -507,5 +507,9 @@
   "redo": "Wiederholen",
   "@redo": {
     "description": "Redo"
+  },
+  "flipBoard": "Brett umdrehen",
+  "@flipBoard": {
+    "description": "Flip Board"
   }
 } 

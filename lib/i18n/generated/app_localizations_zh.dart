@@ -375,4 +375,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get save => '保存';
+
+  @override
+  String get flipBoard => '翻转棋盘';
 }

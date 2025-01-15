@@ -375,4 +375,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get save => 'सहेजें';
+
+  @override
+  String get flipBoard => 'टोपी बदलें';
 }

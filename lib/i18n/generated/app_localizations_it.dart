@@ -375,4 +375,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get save => 'Salva';
+
+  @override
+  String get flipBoard => 'Invertire tablero';
 }

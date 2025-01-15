@@ -507,5 +507,9 @@
   "redo": "Ripeti",
   "@redo": {
     "description": "Redo"
+  },
+  "flipBoard": "Invertire tablero",
+  "@flipBoard": {
+    "description": "Flip Board"
   }
 } 

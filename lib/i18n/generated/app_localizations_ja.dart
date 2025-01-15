@@ -375,4 +375,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get save => '保存';
+
+  @override
+  String get flipBoard => '盤面を反転';
 }

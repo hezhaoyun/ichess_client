@@ -507,5 +507,9 @@
   "redo": "إعادة",
   "@redo": {
     "description": "Redo"
+  },
+  "flipBoard": "تبديل اللوحة",
+  "@flipBoard": {
+    "description": "Flip Board"
   }
 } 

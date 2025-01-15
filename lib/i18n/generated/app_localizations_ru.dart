@@ -375,4 +375,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get save => 'Сохранить';
+
+  @override
+  String get flipBoard => 'Перевернуть доску';
 }

@@ -507,5 +507,9 @@
     "redo": "重做",
     "@redo": {
         "description": "Redo"
+    },
+    "flipBoard": "翻转棋盘",
+    "@flipBoard": {
+        "description": "Flip Board"
     }
 }
