@@ -19,7 +19,7 @@ class Routes {
   static const onlineBattle = '/online-battle';
   static const viewer = '/viewer';
   static const openingExplorer = '/opening-explorer';
-  static const setup = '/setup';
+  static const freeBoard = '/free-board';
   static const chessClock = '/chess-clock';
   static const settings = '/settings';
 }
@@ -163,8 +163,8 @@ class _HomePageState extends State<HomePage> {
                   ),
                   _buildAnimatedCard(
                     Icons.swipe_right,
-                    AppLocalizations.of(context)!.setupBoard,
-                    onTap: () => _animateAndNavigate(Routes.setup),
+                    AppLocalizations.of(context)!.freeBoard,
+                    onTap: () => _animateAndNavigate(Routes.freeBoard),
                     size: size,
                   ),
                   _buildAnimatedCard(

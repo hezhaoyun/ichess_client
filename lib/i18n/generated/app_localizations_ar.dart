@@ -214,7 +214,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get invalidPosition => 'وضع غير صالح، يرجى التحقق من:\n1. يجب أن يكون لكل جانب ملك واحد\n2. لا يمكن أن تكون البيادق في الصف الأول أو الأخير';
 
   @override
-  String get setupBoard => 'إعداد الرقعة';
+  String get freeBoard => 'إعداد الرقعة';
 
   @override
   String get allGames => 'جميع الألعاب';

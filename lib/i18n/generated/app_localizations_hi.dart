@@ -214,7 +214,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get invalidPosition => 'अमान्य स्थिति, कृपया जाँचें:\n1. प्रत्येक पक्ष का एक राजा होना चाहिए\n2. प्यादे पहली या आखिरी पंक्ति पर नहीं हो सकते';
 
   @override
-  String get setupBoard => 'बोर्ड सेट करें';
+  String get freeBoard => 'बोर्ड सेट करें';
 
   @override
   String get allGames => 'सभी खेल';

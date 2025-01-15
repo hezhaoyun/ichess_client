@@ -276,9 +276,9 @@
     "@invalidPosition": {
         "description": "Invalid position"
     },
-    "setupBoard": "设置棋盘",
-    "@setupBoard": {
-        "description": "Setup Board"
+    "freeBoard": "设置棋盘",
+    "@freeBoard": {
+        "description": "Free Board"
     },
     "allGames": "所有对局",
     "@allGames": {

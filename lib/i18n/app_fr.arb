@@ -276,9 +276,9 @@
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "Configuration de l'échiquier",
-  "@setupBoard": {
-    "description": "Setup Board"
+  "freeBoard": "Configuration de l'échiquier",
+  "@freeBoard": {
+    "description": "Free Board"
   },
   "allGames": "Toutes les parties",
   "@allGames": {

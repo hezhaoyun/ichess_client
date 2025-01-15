@@ -214,7 +214,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get invalidPosition => '無効な配置です。以下を確認してください：\n1. 各陣営にキングが1つずつ必要です\n2. ポーンは最初と最後の段に置けません';
 
   @override
-  String get setupBoard => '盤面設定';
+  String get freeBoard => '盤面設定';
 
   @override
   String get allGames => '全てのゲーム';

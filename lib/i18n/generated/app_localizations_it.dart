@@ -214,7 +214,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get invalidPosition => 'Posizione non valida, controlla:\n1. Ogni lato deve avere un re\n2. I pedoni non possono stare sulla prima o ultima traversa';
 
   @override
-  String get setupBoard => 'Imposta scacchiera';
+  String get freeBoard => 'Imposta scacchiera';
 
   @override
   String get allGames => 'Tutte le partite';

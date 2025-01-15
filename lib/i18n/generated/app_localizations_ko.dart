@@ -214,7 +214,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get invalidPosition => '잘못된 위치입니다. 다음을 확인하세요:\n1. 각 진영에 킹이 하나씩 있어야 합니다\n2. 폰은 첫 줄이나 마지막 줄에 있을 수 없습니다';
 
   @override
-  String get setupBoard => '보드 설정';
+  String get freeBoard => '보드 설정';
 
   @override
   String get allGames => '모든 게임';

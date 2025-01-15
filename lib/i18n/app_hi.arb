@@ -276,9 +276,9 @@
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "बोर्ड सेट करें",
-  "@setupBoard": {
-    "description": "Setup Board"
+  "freeBoard": "बोर्ड सेट करें",
+  "@freeBoard": {
+    "description": "Free Board"
   },
   "allGames": "सभी खेल",
   "@allGames": {

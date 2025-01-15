@@ -11,14 +11,14 @@ import '../../widgets/bottom_bar.dart';
 import '../../widgets/bottom_bar_button.dart';
 import '../../widgets/chess_board_widget.dart';
 
-class BoardSetupPage extends ConsumerStatefulWidget {
-  const BoardSetupPage({super.key});
+class FreeBoardPage extends ConsumerStatefulWidget {
+  const FreeBoardPage({super.key});
 
   @override
-  ConsumerState<BoardSetupPage> createState() => _BoardSetupPageState();
+  ConsumerState<FreeBoardPage> createState() => _FreeBoardPageState();
 }
 
-class _BoardSetupPageState extends ConsumerState<BoardSetupPage> {
+class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
   // Board state constants
   static const String _emptyBoardFen = '8/8/8/8/8/8/8/8 w - - 0 1';
   static const String _initialBoardFen = chess_lib.Chess.DEFAULT_POSITION;
@@ -202,7 +202,7 @@ class _BoardSetupPageState extends ConsumerState<BoardSetupPage> {
               ),
               Expanded(
                 child: Text(
-                  AppLocalizations.of(context)!.setupBoard,
+                  AppLocalizations.of(context)!.freeBoard,
                   style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                     fontWeight: FontWeight.bold,
                     shadows: [

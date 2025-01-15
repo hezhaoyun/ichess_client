@@ -214,7 +214,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get invalidPosition => 'Posición inválida, por favor verifica:\n1. Cada lado debe tener un rey\n2. Los peones no pueden estar en la primera ni última fila';
 
   @override
-  String get setupBoard => 'Configurar tablero';
+  String get freeBoard => 'Configurar tablero';
 
   @override
   String get allGames => 'Todas las partidas';

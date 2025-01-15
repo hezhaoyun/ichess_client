@@ -214,7 +214,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get invalidPosition => '无效的位置，请检查：\n1. 双方各有一个王\n2. 兵不能在第一行或第八行';
 
   @override
-  String get setupBoard => '设置棋盘';
+  String get freeBoard => '设置棋盘';
 
   @override
   String get allGames => '所有对局';

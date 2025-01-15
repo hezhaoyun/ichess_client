@@ -214,7 +214,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get invalidPosition => 'Недопустимая позиция, проверьте:\n1. У каждой стороны должен быть один король\n2. Пешки не могут находиться на первой или восьмой горизонтали';
 
   @override
-  String get setupBoard => 'Расставить позицию';
+  String get freeBoard => 'Расставить позицию';
 
   @override
   String get allGames => 'Все партии';

@@ -214,7 +214,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get invalidPosition => 'Position invalide, veuillez vérifier :\n1. Chaque camp doit avoir un roi\n2. Les pions ne peuvent pas être sur la première ou dernière rangée';
 
   @override
-  String get setupBoard => 'Configuration de l\'échiquier';
+  String get freeBoard => 'Configuration de l\'échiquier';
 
   @override
   String get allGames => 'Toutes les parties';

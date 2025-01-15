@@ -276,9 +276,9 @@
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "Imposta scacchiera",
-  "@setupBoard": {
-    "description": "Setup Board"
+  "freeBoard": "Imposta scacchiera",
+  "@freeBoard": {
+    "description": "Free Board"
   },
   "allGames": "Tutte le partite",
   "@allGames": {

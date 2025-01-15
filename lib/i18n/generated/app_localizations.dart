@@ -517,11 +517,11 @@ abstract class AppLocalizations {
   /// **'Invalid position, please check:\n1. Each side has one king\n2. Pawns cannot be on the first or eighth rank'**
   String get invalidPosition;
 
-  /// Setup Board
+  /// Free Board
   ///
   /// In en, this message translates to:
-  /// **'Setup Board'**
-  String get setupBoard;
+  /// **'Free Board'**
+  String get freeBoard;
 
   /// All Games
   ///

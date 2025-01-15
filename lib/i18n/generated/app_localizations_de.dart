@@ -214,7 +214,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get invalidPosition => 'Ungültige Position, bitte prüfen:\n1. Jede Seite hat einen König\n2. Bauern können nicht auf der ersten oder achten Reihe stehen';
 
   @override
-  String get setupBoard => 'Brett aufbauen';
+  String get freeBoard => 'Brett aufbauen';
 
   @override
   String get allGames => 'Alle Partien';

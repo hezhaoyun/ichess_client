@@ -214,7 +214,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get invalidPosition => 'Nieprawidłowa pozycja, sprawdź:\n1. Każda strona musi mieć króla\n2. Piony nie mogą znajdować się na pierwszej ani ostatniej linii';
 
   @override
-  String get setupBoard => 'Ustaw szachownicę';
+  String get freeBoard => 'Ustaw szachownicę';
 
   @override
   String get allGames => 'Wszystkie partie';

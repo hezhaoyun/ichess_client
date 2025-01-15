@@ -276,9 +276,9 @@
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "Расставить позицию",
-  "@setupBoard": {
-    "description": "Setup Board"
+  "freeBoard": "Расставить позицию",
+  "@freeBoard": {
+    "description": "Free Board"
   },
   "allGames": "Все партии",
   "@allGames": {

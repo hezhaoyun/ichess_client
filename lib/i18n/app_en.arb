@@ -280,9 +280,9 @@
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "Setup Board",
-  "@setupBoard": {
-    "description": "Setup Board"
+  "freeBoard": "Free Board",
+  "@freeBoard": {
+    "description": "Free Board"
   },
   "allGames": "All Games",
   "@allGames": {

@@ -10,7 +10,7 @@ import 'model/config_manager.dart';
 import 'model/theme_manager.dart';
 import 'modules/battle/ai_battle_page.dart';
 import 'modules/battle/online_battle_page.dart';
-import 'modules/board_setup/board_setup_page.dart';
+import 'modules/free_board/free_board_page.dart';
 import 'modules/clock/clock_page.dart';
 import 'modules/opening_explorer/opening_explorer_page.dart';
 import 'modules/settings/settings_page.dart';
@@ -53,7 +53,7 @@ class ChessApp extends ConsumerWidget {
         Routes.onlineBattle: (context) => const OnlineBattlePage(),
         Routes.viewer: (context) => const GamesPage(),
         Routes.openingExplorer: (context) => const OpeningExplorerPage(),
-        Routes.setup: (context) => const BoardSetupPage(),
+        Routes.freeBoard: (context) => const FreeBoardPage(),
         Routes.chessClock: (context) => const ClockPage(),
         Routes.settings: (context) => const SettingsPage(),
       },

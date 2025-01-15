@@ -276,9 +276,9 @@
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "Configurar tablero",
-  "@setupBoard": {
-    "description": "Setup Board"
+  "freeBoard": "Configurar tablero",
+  "@freeBoard": {
+    "description": "Free Board"
   },
   "allGames": "Todas las partidas",
   "@allGames": {

@@ -276,9 +276,9 @@
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "إعداد الرقعة",
-  "@setupBoard": {
-    "description": "Setup Board"
+  "freeBoard": "إعداد الرقعة",
+  "@freeBoard": {
+    "description": "Free Board"
   },
   "allGames": "جميع الألعاب",
   "@allGames": {

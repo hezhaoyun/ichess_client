@@ -276,9 +276,9 @@
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "Ustaw szachownicę",
-  "@setupBoard": {
-    "description": "Setup Board"
+  "freeBoard": "Ustaw szachownicę",
+  "@freeBoard": {
+    "description": "Free Board"
   },
   "allGames": "Wszystkie partie",
   "@allGames": {

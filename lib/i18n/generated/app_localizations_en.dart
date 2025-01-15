@@ -214,7 +214,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get invalidPosition => 'Invalid position, please check:\n1. Each side has one king\n2. Pawns cannot be on the first or eighth rank';
 
   @override
-  String get setupBoard => 'Setup Board';
+  String get freeBoard => 'Free Board';
 
   @override
   String get allGames => 'All Games';

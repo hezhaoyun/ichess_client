@@ -276,9 +276,9 @@
   "@invalidPosition": {
     "description": "Invalid position"
   },
-  "setupBoard": "보드 설정",
-  "@setupBoard": {
-    "description": "Setup Board"
+  "freeBoard": "보드 설정",
+  "@freeBoard": {
+    "description": "Free Board"
   },
   "allGames": "모든 게임",
   "@allGames": {
