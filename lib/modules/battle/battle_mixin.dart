@@ -66,7 +66,10 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
       hintMap.set(
         position.$1,
         position.$2,
-        (size) => MoveHint(size: size, onPressed: () => doMove(move)),
+        (size) => MoveHint(
+          size: size,
+          onPressed: () => playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic}),
+        ),
       );
     }
 
@@ -84,9 +87,9 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
     controller.setHints(HintMap());
   }
 
-  void onPieceDrop(PieceDropEvent event) => playerMoved({'from': event.from.toString(), 'to': event.to.toString()});
-
-  void doMove(chess_lib.Move move) => playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic});
+  void onPieceDrop(PieceDropEvent event) {
+    playerMoved({'from': event.from.toString(), 'to': event.to.toString()});
+  }
 
   void playerMoved(Map<String, String> move) {
     Audios().playSound('sounds/move.mp3');

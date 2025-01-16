@@ -120,7 +120,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
           chess.move(moveMap);
         }
 
-        controller.setFen(chess.fen);
+        controller.setFen(chess.fen, animation: false);
         moves = historicalMoves;
 
         if (savedState['lastMove'] != null) {
