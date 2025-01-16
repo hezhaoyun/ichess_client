@@ -54,7 +54,7 @@ class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
   );
 
   // 添加棋子旋转状态
-  bool _rotateBlackPieces = false;
+  bool _turnTopPlayerPieces = false;
 
   @override
   void initState() {
@@ -220,7 +220,7 @@ class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
               ),
               IconButton(
                 icon: const Icon(Icons.rotate_90_degrees_ccw),
-                onPressed: () => setState(() => _rotateBlackPieces = !_rotateBlackPieces),
+                onPressed: () => setState(() => _turnTopPlayerPieces = !_turnTopPlayerPieces),
                 tooltip: 'rotateBlackPieces',
               ),
               ...?buttons,
@@ -237,7 +237,7 @@ class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
         onPieceStartDrag: (square, piece) {},
         onPieceDrop: onPieceDrop,
         onEmptyFieldTap: onEmptyFieldTap,
-        rotateBlackPieces: _rotateBlackPieces,
+        turnTopPlayerPieces: _turnTopPlayerPieces,
       );
 
   Widget _buildPiecesPanel({required bool isWhite, required double width}) {
@@ -278,7 +278,7 @@ class _FreeBoardPageState extends ConsumerState<FreeBoardPage> {
   Widget _buildDraggablePiece(
       {required String pieceKey, required double pieceSize, required bool canDrag, required bool isWhite}) {
     final pieceWidget = Transform.rotate(
-      angle: (!isWhite && _rotateBlackPieces) ? pi : 0,
+      angle: (!isWhite && _turnTopPlayerPieces) ? pi : 0,
       child: _createPieceWidget(pieceKey, pieceSize, ref),
     );
 

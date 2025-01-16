@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -7,7 +5,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 
 import '../model/theme_manager.dart';
 
-PieceMap pieceMap(WidgetRef ref, {bool? rotateBlackPieces}) {
+PieceMap pieceMap(WidgetRef ref) {
   final theme = ref.watch(themeManagerProvider);
   final pieceTheme = theme.pieceTheme;
   final pieceThemePath = kPieceThemes[pieceTheme]!;
@@ -19,24 +17,12 @@ PieceMap pieceMap(WidgetRef ref, {bool? rotateBlackPieces}) {
     N: (size) => SvgPicture.asset('$pieceThemePath/wn.svg', width: size, height: size),
     R: (size) => SvgPicture.asset('$pieceThemePath/wr.svg', width: size, height: size),
     P: (size) => SvgPicture.asset('$pieceThemePath/wp.svg', width: size, height: size),
-    k: (size) => rotateBlackPieces == true
-        ? Transform.rotate(angle: pi, child: SvgPicture.asset('$pieceThemePath/bk.svg', width: size, height: size))
-        : SvgPicture.asset('$pieceThemePath/bk.svg', width: size, height: size),
-    q: (size) => rotateBlackPieces == true
-        ? Transform.rotate(angle: pi, child: SvgPicture.asset('$pieceThemePath/bq.svg', width: size, height: size))
-        : SvgPicture.asset('$pieceThemePath/bq.svg', width: size, height: size),
-    b: (size) => rotateBlackPieces == true
-        ? Transform.rotate(angle: pi, child: SvgPicture.asset('$pieceThemePath/bb.svg', width: size, height: size))
-        : SvgPicture.asset('$pieceThemePath/bb.svg', width: size, height: size),
-    n: (size) => rotateBlackPieces == true
-        ? Transform.rotate(angle: pi, child: SvgPicture.asset('$pieceThemePath/bn.svg', width: size, height: size))
-        : SvgPicture.asset('$pieceThemePath/bn.svg', width: size, height: size),
-    r: (size) => rotateBlackPieces == true
-        ? Transform.rotate(angle: pi, child: SvgPicture.asset('$pieceThemePath/br.svg', width: size, height: size))
-        : SvgPicture.asset('$pieceThemePath/br.svg', width: size, height: size),
-    p: (size) => rotateBlackPieces == true
-        ? Transform.rotate(angle: pi, child: SvgPicture.asset('$pieceThemePath/bp.svg', width: size, height: size))
-        : SvgPicture.asset('$pieceThemePath/bp.svg', width: size, height: size),
+    k: (size) => SvgPicture.asset('$pieceThemePath/bk.svg', width: size, height: size),
+    q: (size) => SvgPicture.asset('$pieceThemePath/bq.svg', width: size, height: size),
+    b: (size) => SvgPicture.asset('$pieceThemePath/bb.svg', width: size, height: size),
+    n: (size) => SvgPicture.asset('$pieceThemePath/bn.svg', width: size, height: size),
+    r: (size) => SvgPicture.asset('$pieceThemePath/br.svg', width: size, height: size),
+    p: (size) => SvgPicture.asset('$pieceThemePath/bp.svg', width: size, height: size),
   );
 }
 
@@ -54,7 +40,7 @@ class ChessBoardWidget extends ConsumerWidget {
   final Function(PieceDropEvent)? onPieceDrop;
   final Function(SquareInfo, String)? onPieceTap;
   final Function(SquareInfo)? onEmptyFieldTap;
-  final bool? rotateBlackPieces;
+  final bool turnTopPlayerPieces;
 
   const ChessBoardWidget({
     super.key,
@@ -67,7 +53,7 @@ class ChessBoardWidget extends ConsumerWidget {
     this.onPieceDrop,
     this.onPieceTap,
     this.onEmptyFieldTap,
-    this.rotateBlackPieces,
+    this.turnTopPlayerPieces = false,
   }) : _size = size - 20;
 
   Widget squareBuilder(SquareInfo info) {
@@ -143,13 +129,13 @@ class ChessBoardWidget extends ConsumerWidget {
                 onPieceTap: interactiveEnable ? onPieceTap : null,
                 onPieceStartDrag: onPieceStartDrag,
                 onEmptyFieldTap: interactiveEnable ? onEmptyFieldTap : null,
-                turnTopPlayerPieces: false,
+                turnTopPlayerPieces: turnTopPlayerPieces,
                 ghostOnDrag: true,
                 dropIndicator: DropIndicatorArgs(
                   size: _size / 2,
                   color: Colors.lightBlue.withAlpha(0x3D),
                 ),
-                pieceMap: pieceMap(ref, rotateBlackPieces: rotateBlackPieces),
+                pieceMap: pieceMap(ref),
               ),
             ),
             // 添加标记
