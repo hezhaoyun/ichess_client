@@ -5,6 +5,7 @@ import 'dart:typed_data';
 import 'package:chess/chess.dart' as chess_lib;
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:socket_io_client/socket_io_client.dart' as socket_io;
 import 'package:wp_chessboard/wp_chessboard.dart';
@@ -187,6 +188,58 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
     if (chess.in_draw || chess.in_stalemate) return "1/2-1/2";
 
     return "*";
+  }
+
+  // TODO: not in use
+  void generateFen() => showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: Text('Current Position'),
+          content: Text(chess.fen),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: Text(AppLocalizations.of(context)!.ok),
+            ),
+            TextButton(
+              onPressed: () async {
+                await Clipboard.setData(ClipboardData(text: chess.fen));
+                if (!context.mounted) return;
+
+                Navigator.pop(context);
+
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(content: Text('Fen copied to clipboard.')),
+                );
+              },
+              child: Text('Copy'),
+            ),
+          ],
+        ),
+      );
+
+  // TODO: not in use
+  Future<void> saveFenFile() async {
+    final fileName = 'chess_position_${DateTime.now().millisecondsSinceEpoch}.fen';
+
+    final outputFile = await FilePicker.platform.saveFile(
+      dialogTitle: AppLocalizations.of(context)!.chooseSaveLocation,
+      fileName: fileName,
+      type: FileType.custom,
+      allowedExtensions: ['fen'],
+      bytes: Uint8List.fromList(chess.fen.codeUnits),
+    );
+
+    if (outputFile != null && !(Platform.isIOS || Platform.isAndroid)) {
+      final file = File(outputFile);
+      await file.writeAsString(chess.fen);
+    }
+
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Fen file saved.')),
+      );
+    }
   }
 
   @override
