@@ -103,7 +103,7 @@ class ConfigState {
   final String language;
 
   const ConfigState({
-    this.serverUrl = '',
+    this.serverUrl = 'http://42.193.22.115',
     this.engineLevel = 10,
     this.moveTime = 1000,
     this.searchDepth = 20,
