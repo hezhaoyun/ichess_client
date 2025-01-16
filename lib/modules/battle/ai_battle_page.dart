@@ -1,10 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
-import 'dart:typed_data';
 
 import 'package:chess/chess.dart' as chess_lib;
-import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -152,10 +150,17 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   }
 
   @override
-  void dispose() {
-    _saveGameState();
-    super.dispose();
-  }
+  String genManual(String dateStr) => [
+        '[Event "AI Chess Game"]',
+        '[Site "Your App"]',
+        '[Date "$dateStr"]',
+        '[Round "1"]',
+        '[White "Player"]',
+        '[Black "Computer"]',
+        '[Result "${getPgnResult()}"]',
+        '',
+        generateMovesText(),
+      ].join('\n');
 
   @override
   void onMove(Map<String, String> move, {bool triggerOpponent = false, bool byDrag = false}) {
@@ -449,69 +454,6 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
       });
     }
   }
-
-  Future<void> saveGame() async {
-    try {
-      // Choose save location
-      final now = DateTime.now();
-      final dateStr = '${now.year}.${now.month.toString().padLeft(2, '0')}.${now.day.toString().padLeft(2, '0')}';
-
-      // Create PGN content
-      final pgn = [
-        '[Event "AI Chess Game"]',
-        '[Site "Your App"]',
-        '[Date "$dateStr"]',
-        '[Round "1"]',
-        '[White "Player"]',
-        '[Black "Computer"]',
-        '[Result "${_getPgnResult()}"]',
-        '',
-        _generateMovesText(),
-      ].join('\n');
-
-      final fileName = 'chess_game_${DateTime.now().millisecondsSinceEpoch}.pgn';
-      String? outputFile = await FilePicker.platform.saveFile(
-        dialogTitle: AppLocalizations.of(context)!.chooseSaveLocation,
-        fileName: fileName,
-        type: FileType.custom,
-        allowedExtensions: ['pgn'],
-        bytes: Uint8List.fromList(pgn.codeUnits),
-      );
-
-      if (outputFile != null && !(Platform.isIOS || Platform.isAndroid)) {
-        final file = File(outputFile);
-        await file.writeAsString(pgn);
-      }
-
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(AppLocalizations.of(context)!.gameSaved)),
-        );
-      }
-    } catch (e) {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(AppLocalizations.of(context)!.saveFailed)),
-        );
-      }
-    }
-  }
-
-  // Get game result
-  String _getPgnResult() {
-    if (!chess.game_over) return "*";
-
-    if (chess.in_checkmate) {
-      return chess.turn == chess_lib.Color.WHITE ? "0-1" : "1-0";
-    }
-
-    if (chess.in_draw || chess.in_stalemate) return "1/2-1/2";
-
-    return "*";
-  }
-
-  // Generate standard move record
-  String _generateMovesText() => chess.san_moves().join(' ');
 
   Future<void> analyzePosition() async {
     if (!_isEngineReady || isThinking || isAnalyzing) return;
@@ -867,4 +809,10 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
             ),
         ],
       );
+
+  @override
+  void dispose() {
+    _saveGameState();
+    super.dispose();
+  }
 }

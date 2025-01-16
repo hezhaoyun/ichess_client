@@ -30,6 +30,19 @@ class _HomePageState extends ConsumerState<OnlineBattlePage> with BattleMixin, O
   }
 
   @override
+  String genManual(String dateStr) => [
+        '[Event "AI Chess Game"]',
+        '[Site "Your App"]',
+        '[Date "$dateStr"]',
+        '[Round "1"]',
+        '[White "${player['name']}"]',
+        '[Black "${opponent['name']}"]',
+        '[Result "${getPgnResult()}"]',
+        '',
+        generateMovesText(),
+      ].join('\n');
+
+  @override
   Widget build(BuildContext context) => Scaffold(
         body: Container(
           decoration: BoxDecoration(
@@ -118,6 +131,10 @@ class _HomePageState extends ConsumerState<OnlineBattlePage> with BattleMixin, O
                 ),
               ),
               ...?buttons,
+              IconButton(
+                icon: const Icon(Icons.save),
+                onPressed: saveGame,
+              ),
             ],
           ),
         ),
