@@ -8,7 +8,7 @@ import 'package:wp_chessboard/wp_chessboard.dart';
 import '../model/theme_manager.dart';
 
 PieceMap pieceMap(WidgetRef ref, {bool? rotateBlackPieces}) {
-  final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
+  final theme = ref.watch(themeManagerProvider);
   final pieceTheme = theme.pieceTheme;
   final pieceThemePath = kPieceThemes[pieceTheme]!;
 

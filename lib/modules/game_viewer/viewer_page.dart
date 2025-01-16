@@ -73,7 +73,7 @@ class _ViewerPageState extends ConsumerState<ViewerPage> {
 
   Future<void> _initStockfish() async {
     if (!Platform.isAndroid && !Platform.isIOS) {
-      final config = ref.watch(configManagerProvider).value ?? ConfigState();
+      final config = ref.watch(configManagerProvider);
       AiNative.instance.setEnginePath(config.enginePath);
     }
 

@@ -130,7 +130,7 @@ class SettingsPage extends ConsumerWidget {
       );
 
   Widget _buildLanguageCard(BuildContext context, WidgetRef ref) {
-    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider);
 
     return Card(
       child: ListTile(
@@ -156,7 +156,7 @@ class SettingsPage extends ConsumerWidget {
   }
 
   Widget _buildColorThemeCard(WidgetRef ref, BuildContext context) {
-    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
+    final theme = ref.watch(themeManagerProvider);
 
     return Card(
       child: ListTile(
@@ -180,7 +180,7 @@ class SettingsPage extends ConsumerWidget {
   }
 
   Widget _buildPieceThemeCard(WidgetRef ref, BuildContext context) {
-    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
+    final theme = ref.watch(themeManagerProvider);
     final pieceThemePath = kPieceThemes[theme.pieceTheme]!;
 
     return Card(
@@ -198,7 +198,7 @@ class SettingsPage extends ConsumerWidget {
   }
 
   Widget _buildServerConfigCard(BuildContext context, WidgetRef ref) {
-    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider);
     final configManager = ref.read(configManagerProvider.notifier);
 
     return Card(
@@ -244,7 +244,7 @@ class SettingsPage extends ConsumerWidget {
   }
 
   Widget _buildEngineConfigCard(WidgetRef ref, BuildContext context) {
-    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider);
     final configManager = ref.read(configManagerProvider.notifier);
 
     return Card(
@@ -349,7 +349,7 @@ class SettingsPage extends ConsumerWidget {
   }
 
   Future<String?> _showEnginePathDialog(BuildContext context, WidgetRef ref) {
-    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider);
 
     return showDialog<String>(
       context: context,
@@ -392,7 +392,7 @@ class SettingsPage extends ConsumerWidget {
   }
 
   void _showEngineLevelDialog(BuildContext context, WidgetRef ref) {
-    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider);
     final configManager = ref.read(configManagerProvider.notifier);
 
     showDialog(
@@ -410,7 +410,7 @@ class SettingsPage extends ConsumerWidget {
   }
 
   void _showMoveTimeDialog(BuildContext context, WidgetRef ref) {
-    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider);
     final configManager = ref.read(configManagerProvider.notifier);
 
     showDialog(
@@ -428,7 +428,7 @@ class SettingsPage extends ConsumerWidget {
   }
 
   void _showSearchDepthDialog(BuildContext context, WidgetRef ref) {
-    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider);
     final configManager = ref.read(configManagerProvider.notifier);
 
     showDialog(
@@ -446,7 +446,7 @@ class SettingsPage extends ConsumerWidget {
   }
 
   void _showThemeColorDialog(BuildContext context, WidgetRef ref) {
-    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
+    final theme = ref.watch(themeManagerProvider);
     final themeManager = ref.read(themeManagerProvider.notifier);
 
     showDialog(
@@ -484,7 +484,7 @@ class SettingsPage extends ConsumerWidget {
   }
 
   void _showPieceThemeDialog(BuildContext context, WidgetRef ref) {
-    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
+    final theme = ref.watch(themeManagerProvider);
     final themeManager = ref.read(themeManagerProvider.notifier);
 
     showDialog(

@@ -65,7 +65,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   }
 
   Future<void> setupStockfishEngine() async {
-    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider);
 
     try {
       if (!Platform.isAndroid && !Platform.isIOS) {
@@ -223,7 +223,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
 
     try {
       final stockfish = AiNative.instance;
-      final config = ref.watch(configManagerProvider).value ?? ConfigState();
+      final config = ref.watch(configManagerProvider);
       final showArrows = config.showArrows;
 
       stockfish.sendCommand(
@@ -313,7 +313,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   }
 
   void _parseInfoLine(String line) {
-    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider);
 
     final depthMatch = RegExp(r'depth (\d+)').firstMatch(line);
     if (depthMatch != null && int.parse(depthMatch.group(1)!) < 8) return;

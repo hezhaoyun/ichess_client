@@ -15,66 +15,80 @@ const String kLanguageKey = 'language';
 @Riverpod(keepAlive: true)
 class ConfigManager extends _$ConfigManager {
   @override
-  Future<ConfigState> build() async {
+  ConfigState build() {
+    _startAsyncRefresh();
+    return ConfigState();
+  }
+
+  Future<void> _startAsyncRefresh() async {
     final prefs = await SharedPreferences.getInstance();
-    return ConfigState(
-      serverUrl: prefs.getString(kServerUrlKey) ?? 'http://42.193.22.115',
-      engineLevel: prefs.getInt(kEngineLevelKey) ?? 10,
-      moveTime: prefs.getInt(kMoveTimeKey) ?? 1000,
-      searchDepth: prefs.getInt(kSearchDepthKey) ?? 20,
-      useTimeControl: prefs.getBool(kUseTimeControlKey) ?? true,
-      enginePath: prefs.getString(kEnginePathKey) ?? '',
-      showArrows: prefs.getBool(kShowArrowsKey) ?? false,
-      language: prefs.getString(kLanguageKey) ?? 'zh',
+    final serverUrl = prefs.getString(kServerUrlKey);
+    final engineLevel = prefs.getInt(kEngineLevelKey);
+    final moveTime = prefs.getInt(kMoveTimeKey);
+    final searchDepth = prefs.getInt(kSearchDepthKey);
+    final useTimeControl = prefs.getBool(kUseTimeControlKey);
+    final enginePath = prefs.getString(kEnginePathKey);
+    final showArrows = prefs.getBool(kShowArrowsKey);
+    final language = prefs.getString(kLanguageKey);
+
+    state = state.copyWith(
+      serverUrl: serverUrl,
+      engineLevel: engineLevel,
+      moveTime: moveTime,
+      searchDepth: searchDepth,
+      useTimeControl: useTimeControl,
+      enginePath: enginePath,
+      showArrows: showArrows,
+      language: language,
     );
   }
 
   Future<void> setServerUrl(String url) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(kServerUrlKey, url);
-    state = AsyncData(state.value!.copyWith(serverUrl: url));
+    state = state.copyWith(serverUrl: url);
   }
 
   Future<void> setEngineLevel(int level) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt(kEngineLevelKey, level);
-    state = AsyncData(state.value!.copyWith(engineLevel: level));
+    state = state.copyWith(engineLevel: level);
   }
 
   Future<void> setMoveTime(int time) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt(kMoveTimeKey, time);
-    state = AsyncData(state.value!.copyWith(moveTime: time));
+    state = state.copyWith(moveTime: time);
   }
 
   Future<void> setSearchDepth(int depth) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt(kSearchDepthKey, depth);
-    state = AsyncData(state.value!.copyWith(searchDepth: depth));
+    state = state.copyWith(searchDepth: depth);
   }
 
   Future<void> setUseTimeControl(bool useTime) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool(kUseTimeControlKey, useTime);
-    state = AsyncData(state.value!.copyWith(useTimeControl: useTime));
+    state = state.copyWith(useTimeControl: useTime);
   }
 
   Future<void> setEnginePath(String path) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(kEnginePathKey, path);
-    state = AsyncData(state.value!.copyWith(enginePath: path));
+    state = state.copyWith(enginePath: path);
   }
 
   Future<void> setShowArrows(bool show) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool(kShowArrowsKey, show);
-    state = AsyncData(state.value!.copyWith(showArrows: show));
+    state = state.copyWith(showArrows: show);
   }
 
   Future<void> setLanguage(String lang) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(kLanguageKey, lang);
-    state = AsyncData(state.value!.copyWith(language: lang));
+    state = state.copyWith(language: lang);
   }
 }
 
@@ -108,16 +122,15 @@ class ConfigState {
     String? enginePath,
     bool? showArrows,
     String? language,
-  }) {
-    return ConfigState(
-      serverUrl: serverUrl ?? this.serverUrl,
-      engineLevel: engineLevel ?? this.engineLevel,
-      moveTime: moveTime ?? this.moveTime,
-      searchDepth: searchDepth ?? this.searchDepth,
-      useTimeControl: useTimeControl ?? this.useTimeControl,
-      enginePath: enginePath ?? this.enginePath,
-      showArrows: showArrows ?? this.showArrows,
-      language: language ?? this.language,
-    );
-  }
+  }) =>
+      ConfigState(
+        serverUrl: serverUrl ?? this.serverUrl,
+        engineLevel: engineLevel ?? this.engineLevel,
+        moveTime: moveTime ?? this.moveTime,
+        searchDepth: searchDepth ?? this.searchDepth,
+        useTimeControl: useTimeControl ?? this.useTimeControl,
+        enginePath: enginePath ?? this.enginePath,
+        showArrows: showArrows ?? this.showArrows,
+        language: language ?? this.language,
+      );
 }

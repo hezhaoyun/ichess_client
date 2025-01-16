@@ -124,8 +124,8 @@ class LanguagesPage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
-    final language = ref.watch(configManagerProvider).value?.language ?? 'zh';
+    final theme = ref.watch(themeManagerProvider);
+    final language = ref.watch(configManagerProvider);
 
     return Scaffold(
       appBar: AppBar(title: Text(AppLocalizations.of(context)!.language)),
@@ -172,8 +172,8 @@ class LanguagesPage extends ConsumerWidget {
   }
 
   Future<void> _changeLanguage(BuildContext context, WidgetRef ref, String languageCode) async {
-    final config = ref.read(configManagerProvider.notifier);
-    await config.setLanguage(languageCode);
+    final configManager = ref.read(configManagerProvider.notifier);
+    await configManager.setLanguage(languageCode);
     if (context.mounted) Navigator.of(context).pop();
   }
 }

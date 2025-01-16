@@ -27,16 +27,16 @@ const String kPieceThemeKey = 'selected_piece_theme';
 @Riverpod(keepAlive: true)
 class ThemeManager extends _$ThemeManager {
   @override
-  Future<ThemeState> build() async {
-    final prefs = await SharedPreferences.getInstance();
+  ThemeState build() {
+    _startAsyncRefresh();
+    return ThemeState();
+  }
 
+  Future<void> _startAsyncRefresh() async {
+    final prefs = await SharedPreferences.getInstance();
     final colorTheme = prefs.getString(kColorThemeKey) ?? 'Default Blue';
     final pieceTheme = prefs.getString(kPieceThemeKey) ?? 'android';
-
-    return ThemeState(
-      primaryColor: kColorThemes[colorTheme]!,
-      pieceTheme: pieceTheme,
-    );
+    state = state.copyWith(primaryColor: kColorThemes[colorTheme]!, pieceTheme: pieceTheme);
   }
 
   Future<void> setPrimaryColor(String name) async {
@@ -45,7 +45,7 @@ class ThemeManager extends _$ThemeManager {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(kColorThemeKey, name);
 
-    state = AsyncData(state.value!.copyWith(primaryColor: kColorThemes[name]!));
+    state = state.copyWith(primaryColor: kColorThemes[name]!);
   }
 
   Future<void> setPieceTheme(String name) async {
@@ -54,7 +54,7 @@ class ThemeManager extends _$ThemeManager {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(kPieceThemeKey, name);
 
-    state = AsyncData(state.value!.copyWith(pieceTheme: name));
+    state = state.copyWith(pieceTheme: name);
   }
 }
 

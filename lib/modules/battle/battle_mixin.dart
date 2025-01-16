@@ -176,7 +176,7 @@ mixin OnlineBattleMixin<T extends ConsumerStatefulWidget> on BattleMixin<T> {
   }
 
   void setupSocketIO() {
-    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final config = ref.watch(configManagerProvider);
 
     socket = socket_io.io(config.serverUrl, <String, dynamic>{
       'transports': ['websocket'],

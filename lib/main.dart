@@ -30,8 +30,8 @@ class ChessApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final theme = ref.watch(themeManagerProvider).value ?? ThemeState();
-    final config = ref.watch(configManagerProvider).value ?? ConfigState();
+    final theme = ref.watch(themeManagerProvider);
+    final config = ref.watch(configManagerProvider);
 
     return MaterialApp(
       locale: Locale(config.language),
