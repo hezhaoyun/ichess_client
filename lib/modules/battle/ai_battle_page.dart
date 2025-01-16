@@ -158,7 +158,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   }
 
   @override
-  void onMove(Map<String, String> move, {bool byPlayer = true}) {
+  void onMove(Map<String, String> move, {bool activateOpponent = false, bool byDrag = false}) {
     if (!_isEngineReady) return;
 
     updateLastMove(move['from']!, move['to']!);
@@ -171,10 +171,10 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
     currentMoveIndex++;
 
     chess.move(move);
-    controller.setFen(chess.fen);
+    controller.setFen(chess.fen, animation: !byDrag);
 
     if (!chess.game_over) {
-      if (byPlayer) makeComputerMove();
+      if (activateOpponent) makeComputerMove();
       return;
     }
 
@@ -293,7 +293,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
           Audios().playSound('sounds/move.mp3');
         }
 
-        onMove(moveMap, byPlayer: false);
+        onMove(moveMap);
       }
     } catch (e) {
       if (mounted) {

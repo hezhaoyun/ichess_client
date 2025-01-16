@@ -347,13 +347,13 @@ class _OpeningExplorerPageState extends ConsumerState<OpeningExplorerPage> with 
   }
 
   @override
-  void onMove(Map<String, String> move, {bool byPlayer = true}) {
+  void onMove(Map<String, String> move, {bool activateOpponent = false, bool byDrag = false}) {
     updateLastMove(move['from']!, move['to']!);
     moveHistory.add('${move['from']}${move['to']}');
     currentMoveIndex = moveHistory.length - 1;
 
     chess.move(move);
-    controller.setFen(chess.fen);
+    controller.setFen(chess.fen, animation: !byDrag);
 
     if (!chess.game_over) return;
 

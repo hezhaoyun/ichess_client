@@ -68,6 +68,7 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
         position.$2,
         (size) => MoveHint(
           size: size,
+          color: Theme.of(context).colorScheme.primary,
           onPressed: () => playerMoved({'from': move.fromAlgebraic, 'to': move.toAlgebraic}),
         ),
       );
@@ -88,17 +89,17 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
   }
 
   void onPieceDrop(PieceDropEvent event) {
-    playerMoved({'from': event.from.toString(), 'to': event.to.toString()});
+    playerMoved({'from': event.from.toString(), 'to': event.to.toString()}, byDrag: true);
   }
 
-  void playerMoved(Map<String, String> move) {
+  void playerMoved(Map<String, String> move, {bool byDrag = false}) {
     Audios().playSound('sounds/move.mp3');
 
     bool isPromotion = chess.moves({'verbose': true}).any(
         (m) => m['from'] == move['from'] && m['to'] == move['to'] && m['flags'].contains('p'));
 
     if (!isPromotion) {
-      onMove(move);
+      onMove(move, activateOpponent: true, byDrag: byDrag);
       return;
     }
 
@@ -108,6 +109,8 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
       BoardOrientation.white,
       (promotion) => onMove(
         {'from': move['from']!, 'to': move['to']!, 'promotion': promotion},
+        activateOpponent: true,
+        byDrag: byDrag,
       ),
     );
   }
@@ -127,7 +130,7 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
   }
 
   // This method needs to be implemented in subclasses
-  void onMove(Map<String, String> move, {bool byPlayer = true});
+  void onMove(Map<String, String> move, {bool activateOpponent = false, bool byDrag = false});
 
   @override
   void dispose() {
@@ -443,16 +446,16 @@ mixin OnlineBattleMixin<T extends ConsumerStatefulWidget> on BattleMixin<T> {
     final to = move.substring(2, 4);
     final promotion = move.length > 4 ? move.substring(4) : null;
 
-    onMove({'from': from, 'to': to, if (promotion != null) 'promotion': promotion}, byPlayer: false);
+    onMove({'from': from, 'to': to, if (promotion != null) 'promotion': promotion});
   }
 
   @override
-  void onMove(Map<String, String> move, {bool byPlayer = true}) {
+  void onMove(Map<String, String> move, {bool activateOpponent = false, bool byDrag = false}) {
     chess.move(move);
     updateLastMove(move['from']!, move['to']!);
-    controller.setFen(chess.fen);
+    controller.setFen(chess.fen, animation: !byDrag);
 
-    if (byPlayer) {
+    if (activateOpponent) {
       socket?.emit(
         'move',
         {'move': "${move['from']}${move['to']}${move['promotion'] ?? ''}"},

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class BottomBar extends StatelessWidget {
@@ -24,31 +23,15 @@ class BottomBar extends StatelessWidget {
   final bool expandChildren;
 
   @override
-  Widget build(BuildContext context) {
-    if (Theme.of(context).platform == TargetPlatform.iOS) {
-      return ColoredBox(
-        color: CupertinoTheme.of(context).barBackgroundColor,
-        child: SafeArea(
-          top: false,
-          child: SizedBox(
-            height: kToolbarHeight,
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: mainAxisAlignment,
-              children: expandChildren ? children.map((child) => Expanded(child: child)).toList() : children,
-            ),
+  Widget build(BuildContext context) => SafeArea(
+        top: false,
+        child: SizedBox(
+          height: kToolbarHeight,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: mainAxisAlignment,
+            children: expandChildren ? children.map((child) => Expanded(child: child)).toList() : children,
           ),
         ),
       );
-    }
-
-    return BottomAppBar(
-      height: kToolbarHeight,
-      padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 6.0),
-      child: Row(
-        mainAxisAlignment: mainAxisAlignment,
-        children: expandChildren ? children.map((child) => Expanded(child: child)).toList() : children,
-      ),
-    );
-  }
 }
