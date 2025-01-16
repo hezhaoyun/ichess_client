@@ -135,7 +135,7 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
   // This method needs to be implemented in subclasses
   void onMove(Map<String, String> move, {bool triggerOpponent = false, bool byDrag = false});
 
-  String genManual(String dateStr);
+  String genManual(String dateStr) => '';
 
   Future<void> saveGame() async {
     try {
