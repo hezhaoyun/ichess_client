@@ -99,7 +99,7 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
         (m) => m['from'] == move['from'] && m['to'] == move['to'] && m['flags'].contains('p'));
 
     if (!isPromotion) {
-      onMove(move, activateOpponent: true, byDrag: byDrag);
+      onMove(move, triggerOpponent: true, byDrag: byDrag);
       return;
     }
 
@@ -109,7 +109,7 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
       BoardOrientation.white,
       (promotion) => onMove(
         {'from': move['from']!, 'to': move['to']!, 'promotion': promotion},
-        activateOpponent: true,
+        triggerOpponent: true,
         byDrag: byDrag,
       ),
     );
@@ -130,7 +130,7 @@ mixin BattleMixin<T extends ConsumerStatefulWidget> on ConsumerState<T> {
   }
 
   // This method needs to be implemented in subclasses
-  void onMove(Map<String, String> move, {bool activateOpponent = false, bool byDrag = false});
+  void onMove(Map<String, String> move, {bool triggerOpponent = false, bool byDrag = false});
 
   @override
   void dispose() {
@@ -450,12 +450,12 @@ mixin OnlineBattleMixin<T extends ConsumerStatefulWidget> on BattleMixin<T> {
   }
 
   @override
-  void onMove(Map<String, String> move, {bool activateOpponent = false, bool byDrag = false}) {
+  void onMove(Map<String, String> move, {bool triggerOpponent = false, bool byDrag = false}) {
     chess.move(move);
     updateLastMove(move['from']!, move['to']!);
     controller.setFen(chess.fen, animation: !byDrag);
 
-    if (activateOpponent) {
+    if (triggerOpponent) {
       socket?.emit(
         'move',
         {'move': "${move['from']}${move['to']}${move['promotion'] ?? ''}"},

@@ -158,7 +158,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
   }
 
   @override
-  void onMove(Map<String, String> move, {bool activateOpponent = false, bool byDrag = false}) {
+  void onMove(Map<String, String> move, {bool triggerOpponent = false, bool byDrag = false}) {
     if (!_isEngineReady) return;
 
     updateLastMove(move['from']!, move['to']!);
@@ -174,7 +174,7 @@ class _AIBattlePageState extends ConsumerState<AIBattlePage> with BattleMixin {
     controller.setFen(chess.fen, animation: !byDrag);
 
     if (!chess.game_over) {
-      if (activateOpponent) makeComputerMove();
+      if (triggerOpponent) makeComputerMove();
       return;
     }
 
